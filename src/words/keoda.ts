@@ -1,8 +1,10 @@
-import {Word} from '.'
+import { word } from '.'
 
-export const keoda: Word =
-{ lang: ['énergie cachée', 'langue cachée du corps']
-}
+export const keoda = word
+( 'keoda'
+, { lang: 'énergie cachée, langue cachée du corps'
+  }
+)
 
 /**
  * # keoda

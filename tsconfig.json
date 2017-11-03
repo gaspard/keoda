@@ -1,7 +1,15 @@
-{
-  "compilerOptions": {
-    "paths": {
-      "o": "src"
-    }
+{ "exclude":
+  [ "node_modules"
+  , "output"
+  ]
+, "compilerOptions":
+  { "module": "commonjs"
+  , "noImplicitAny": true
+  , "outDir": "output"
+  , "sourceMap": true
+  , "strictNullChecks": true
+  , "target": "es6"
+  , "baseUrl": "."
   }
+, "compileOnSave": true
 }

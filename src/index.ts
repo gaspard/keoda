@@ -1,9 +1,3 @@
-export * from './_types'
-export * from './a'
-export * from './dom'
-export * from './keoda'
-export * from './moon'
-export * from './mi'
-export * from './oda'
-export * from './tar'
-export * from './yun'
+import { printWords } from './words'
+
+printWords ()
