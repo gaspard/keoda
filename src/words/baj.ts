@@ -31,3 +31,18 @@ export const hafbaji = word
 hafbaji.examples = () =>
 [ 
 ]
+
+import * as _ from '.'
+
+export const kebaj = _.word
+( 'kebaj'
+, { body: 'testicules'
+  , desc: () => `Caché ${_.ke} entre les jambes ${_.baj}.`
+  }
+)
+
+kebaj.examples = () =>
+[ { phrase: [ _.odu, _.fe, _.oda, _.olir, _.keli, _.kebaj ]
+  , meaning: `Viens sur moi, je vais te lécher les couilles.`
+  }
+]

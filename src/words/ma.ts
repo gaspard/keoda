@@ -29,7 +29,7 @@ export const nema = _.word
 )
 
 ma.desc = () => `
-Voir aussi les exceptions liées au suffixes ${_.i} et ${_.o}, ${_.mi} (masser) et ${_.mo} (frapper, faire mal). On peut aussi utiliser la négation ${_.nema} (lâcher).
+Voir aussi les exceptions liées au suffixes ${_.i} (masser, caresser), ${_.o} (frapper, faire mal) et ${_.u} (tirer, pincer): ${_.mi}, ${_.mo}, ${_.mu}. On peut aussi utiliser la négation ${_.nema} (lâcher).
 `
 
 ma.examples = () =>
@@ -41,5 +41,18 @@ ma.examples = () =>
   }
 , { phrase: [ _.nema, _.feyon ]
   , meaning: `Lâche ta culotte.`
+  }
+]
+
+export const mu = _.word
+( 'mu'
+, { verb: 'tirer, pincer avec la main'
+  , desc: () => `De ${_.ma} (main) et le suffix ${_.u}.`
+  }
+)
+
+mu.examples = () =>
+[ { phrase: [ _.mu, _.hafmoon ]
+  , meaning: `Tire sur mes tétons.`
   }
 ]
