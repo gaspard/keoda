@@ -1,11 +1,5 @@
-import { word } from '.'
+import * as _ from '.'
 
-export const im = word
-( 'im'
-, { body: 'fermé'
-  }
-)
+export const im = _.word('im', { noun: 'fermé' })
 
-im.examples = () =>
-[ 
-]
+_.see(_.habajimfa)

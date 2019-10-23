@@ -1,14 +1,5 @@
 import * as _ from '.'
 
-export const la = _.word
-( 'la'
-, { body: 'lèvres'
-  , verb: 'embrasser'
-  }
-)
+export const la = _.word('la', { noun: 'lèvres', verb: 'embrasser' })
 
-la.examples = () =>
-[ { phrase: [ _.la, _.la ]
-  , meaning: `Embrasse moi sur les lèvres.`
-  }
-]
+export const lala = _.example([_.la, _.la], `Embrasse moi sur les lèvres.`)

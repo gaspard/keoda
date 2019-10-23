@@ -1,11 +1,5 @@
-import { word } from '.'
+import * as _ from '.'
 
-export const fo = word
-( 'fo'
-, { verb: 'fouetter'
-  }
-)
+export const fo = _.word('fo', { verb: 'fouetter' })
 
-fo.examples = () =>
-[ 
-]
+_.see(_.olirfopal)

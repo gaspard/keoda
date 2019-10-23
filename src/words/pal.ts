@@ -1,29 +1,18 @@
 import * as _ from '.'
 
-export const pal = _.word
-( 'pal'
-, { body: 'fesses'
-  }
+export const pal = _.word('pal', { noun: 'fesses' })
+
+export const kepal = _.word('kepal', {
+  noun: 'anus',
+  desc: () => `De ${_.ke} (caché) et ${_.pal} (fesses).`,
+})
+
+export const kepalhama = _.example(
+  [_.kepal, _.hama],
+  `Prends mon doigt avec ton anus.`
 )
 
-pal.examples = () =>
-[ { phrase: [ _.olir, _.fo, _.pal ]
-  , meaning: `On va te fouetter les fesses.`
-  }
-]
-
-export const kepal = _.word
-( 'kepal'
-, { body: 'anus'
-  , desc: () => `De ${_.ke} (caché) et ${_.pal} (fesses).`
-  }
+export const otajokepal = _.example(
+  [_.o, _.tajo, _.kepal],
+  `On frappe ton anus avec notre pénis.`
 )
-
-kepal.examples = () =>
-[ { phrase: [ _.kepal, _.hafma ]
-  , meaning: `Prends mon doigt avec ton anus.`
-  }
-, { phrase: [ _.o, _.taro, _.kepal ]
-  , meaning: `On frappe ton anus avec notre pénis.`
-  }
-]

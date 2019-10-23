@@ -1,6 +1,6 @@
 # fen
 - corps **genoux**
-- verbe **danser**
+- verbe **danser** (non, danser, c'est les hanches)
 - position **à genoux, le buste dressé**
 
 > Fen bo.    **Danse avec le ventre.**

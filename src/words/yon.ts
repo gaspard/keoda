@@ -1,35 +1,14 @@
-import { word } from '.'
-
-export const yon = word
-( 'yon'
-, { body: 'vulve'
-  }
-)
-
-yon.examples = () =>
-[ 
-]
-
 import * as _ from '.'
 
-export const keyon = _.word
-( 'keyon'
-, { body: 'clitoris'
-  }
-)
+export const yon = _.word('yon', { noun: 'vulve' })
 
-keyon.examples = () =>
-[ { phrase: [ _.mu, _.keyon ]
-  , meaning: `Pince-moi le clitoris.`
-  }
-]
+yon.desc = () =>
+  `De ${_.yu} et ${_.on} (joie-apparaître = donner la joie = accoucher)`
 
-export const feyon = word
-( 'feyon'
-, { body: 'culotte'
-  }
-)
+export const keyon = _.word('keyon', { noun: 'clitoris' })
 
-feyon.examples = () =>
-[ 
-]
+export const mukeyon = _.example([_.mu, _.keyon], `Pince-moi le clitoris.`)
+
+export const feyon = _.word('feyon', { noun: 'culotte' })
+
+_.see(_.nemafeyon)

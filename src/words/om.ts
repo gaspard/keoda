@@ -1,14 +1,10 @@
-import { word } from '.'
+import * as _ from '.'
 
-export const om = word
-( 'om'
-, { body: 'transcendance'
-  , adj: 'ouvert'
-  , prefix: 'transcender'
-  , suffix: 'temple, lieu sacré'
-  }
-)
+export const om = _.word('om', {
+  noun: 'transcendance',
+  adj: 'ouvert',
+  prefix: 'transcender',
+  suffix: 'temple, lieu sacré',
+})
 
-om.examples = () =>
-[ 
-]
+_.see(_.eodosamhabajom)

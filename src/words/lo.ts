@@ -1,12 +1,15 @@
-import { word } from '.'
+import * as _ from '.'
 
-export const lo = word
-( 'lo'
-, { body: 'soumise'
-  , adj: 'soumis-e'
-  }
-)
+export const lo = _.word('lo', {
+  noun: 'soumise',
+  adj: 'soumis-e,humide',
+})
 
-lo.examples = () =>
-[ 
-]
+export const melo = _.word('melo', {
+  adj: 'doucement',
+  desc: () => `De ${_.me} et ${_.lo} (comme soumis.e).`,
+})
+
+_.see(_.najalo)
+_.see(_.falo)
+_.see(_.nefalo)

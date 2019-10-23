@@ -71,7 +71,7 @@ Elle lâche sa culotte par terre et pendant qu’elle se caresse doucement les s
 
 Pendant que je prends deux foulards qui traînaient sur une chaise, Natasha joint ses avant-bras dans le dos se qui lui fait bomber un peu le torse. Elle est sculpturale dans cette position… Je m’approche et lui attache les bras. Avant de lui mettre le foulard et pour m’assurer qu’elle ne risque pas de tomber et de se blesser:
 
-> E fen. Fa half.
+> E fen. Haf fa.
 
 Elle se met à genoux et me présente sa tête. Je joue un peu avec ses cheveux et lui mets le bandeau sur les yeux pour qu’elle parte un peu plus loin dans cette réalité parallèle où elle est esclave et soumise. Je déboutonne son chemisier pour augmenter le décolleté mais garde les deux derniers boutons. J’aime ce triangle de chair dessiné par la blancheur du chemisier. Ça dessine une pointe qui nous fait glisser entre ses seins pour atterrir vers son pubis caché par la jupe. Je relève la jupe juste assez pour libérer ses genoux mais pas trop afin de ne pas montrer l’intérieur de ses cuisses.
 

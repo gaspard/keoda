@@ -1,12 +1,6 @@
-import { word } from '.'
+import * as _ from '.'
 
-export const e = word
-( 'e'
-, { verb: 'deviens, soit, être'
-  }
-)
+export const e = _.word('e', { verb: 'deviens, soit, être' })
 
-e.examples = () =>
-[ 
-]
-
+_.see(_.edjil)
+_.see(_.eodosamhabajom)
