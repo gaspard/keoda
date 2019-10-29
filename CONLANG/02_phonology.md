@@ -19,8 +19,10 @@ Basically you need to be able to siiiiiiiing a long ending on every vowel as
 this is heavily used to stress words and help avoid ambiguity.
 
 Inside a word, when two consonants meet like in
-taj-hem, we add an "a" as in tajahem, munahem or we
-remove the coda as in "tahem"
+taj-hem and they are not allowed (see bellow), we add an "a" as in tajahem, munahem or we
+remove the coda as in "tahem" or the onset as in "lemir" (instead of "lemlir")
+
+Two consonnants are not allowed except for nl and ml (because m and n are like vowels and they open with the l) and 'dj' because it is fun.
 
 ## Consonants
 

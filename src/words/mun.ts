@@ -5,6 +5,13 @@ export const mun = _.word('moon', {
   position: 'à genoux, buste au sol',
 })
 
+export const munwe = _.word('munwe', {
+  noun: 'sein droite',
+  desc: () => `De ${_.mu} et ${_.we}.`,
+})
+
+_.see(_.idemimunwe)
+
 export const imimunmenu = _.example(
   [_.i, _.mi, _.mun, _.menu],
   `Caresse-toi les seins en effleurant.`

@@ -2,10 +2,18 @@ import * as _ from '.'
 
 export const olir = _.word('olir', {
   noun: 'future nous (on va...)',
-  examples: {},
+  desc: () => `Version abrégée: ${_.lir}`,
 })
+_.see(_.olirfamun)
 
 export const lir = _.word('lir', {
+  noun: 'future nous (on va...)',
+  desc: () => `Abréviation pour ${_.olir}`,
+})
+_.see(_.lem)
+_.see(_.lemir)
+
+export const ilir = _.word('ilir', {
   noun: 'future toi (tu vas...)',
 })
 

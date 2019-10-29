@@ -12,4 +12,5 @@ export const melo = _.word('melo', {
 
 _.see(_.najalo)
 _.see(_.falo)
+_.see(_.nelo)
 _.see(_.nefalo)

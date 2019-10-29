@@ -1,5 +1,5 @@
 interface Example {
-  phrase: Word[]
+  phrase: (Word | Example)[]
   meaning: string
 }
 
@@ -14,7 +14,9 @@ interface Examples {
 interface FullWord {
   name: string
   adj: string
+  adv: string
   noun: string
+  pronoun: string
   desc: DescriptionFunction
   examples: Examples
   preposition: string
@@ -49,7 +51,7 @@ export function word(name: string, definition: WordDefinition): Word {
   return word
 }
 
-export function example(phrase: Word[], meaning: string): Example {
+export function example(phrase: (Word | Example)[], meaning: string): Example {
   return { phrase, meaning }
 }
 
@@ -60,9 +62,19 @@ export function see(example: Example | Word) {
 function showExamples(examples: Examples): void {
   console.log(
     Object.keys(examples)
-      .map(k => `[${k}] ${examples[k].phrase.map(w => w.name).join(' ')}`)
-      .join(', ')
+      .map(k => `[${k}] ${stringifyExample(examples[k])}`)
+      .join('\n')
   )
+}
+
+function isWord(elem: Example | Word): elem is Word {
+  return !(elem as any).phrase
+}
+
+function stringifyExample(example: Example): string {
+  return example.phrase
+    .map(w => (isWord(w) ? w.name : stringifyExample(w)))
+    .join(' ')
 }
 
 export function printWords() {

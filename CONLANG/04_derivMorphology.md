@@ -22,15 +22,38 @@ Suffix like "i", "o" and "u" imply different actions or feelings:
 
 The person with "x", for example "yonoda" (person with a vagina).
 
-## haf-, etc (look at all suffixes)
+## ha-, etc (look at all suffixes)
 
-Head of body part "hafbaj" (head of leg = thigh).
+Head of body part "habaj" (head of leg = thigh).
 
 ## ke-
 
 Hidden by X, like "kepal" (hidden by butt = anus).
 
+## Droite/gauche
+
+(on regarde le sud)
+
+droite = we (est, east)
+gauche = se (west, ouest)
+devant = du (sud)
+derrière = no (nord)
+
 ## Plural ?
+
+See [oi](./04_oi.md)
+
+## Make a verb ?
+
+Gramatical position makes it clear ? Does it ?
+
+How do we say "dance" ? Versus "Move your hips close to mine ?"
+
+i shasha = dance !
+
+shasha = hips on my hips
+
+shasha oda = dance my body (whatever that means)
 
 ## -le (person named xxx)
 
@@ -59,3 +82,5 @@ Place with the chair (river, etc): kissda, kissle Lausanne da...
 # -uda (from place, has been "pulled" from this place)
 
 Lausannele Camille uda (Camille from Lausanne).
+
+# pl
