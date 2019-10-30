@@ -10,4 +10,13 @@
 
 # Morphology
 
-Every body part is a verb.
+Les noms sont des verbes (pas de conjugaison).
+
+Les adj sont des noms/verbes avec le préfixe "side" (comme). Devient "sid" devant un mot qui commence par une voyelle:
+
+ma taj
+masidelam taj
+yonsidaj taj
+yon
+
+yonsi (embrasser de la vulve comme) [S] oda taj

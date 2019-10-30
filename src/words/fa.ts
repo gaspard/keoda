@@ -8,8 +8,13 @@ export const fa = _.word('fa', {
 })
 
 export const fama = _.example([_.fa, _.ma], 'Regarde ma main.')
-export const falo = _.word('falo', { noun: 'yeux humides', verb: 'pleurer' })
-export const nefalo = _.example([_.ne, _.falo], 'Ne pleures pas.')
+export const falo = _.word('falo', {
+  noun: 'yeux humides, tristesse',
+  verb: 'être triste',
+})
+_.see(_.falam)
+
+export const nefalo = _.example([_.ne, _.falo], 'Ne soit pas triste.')
 
 _.see(_.mafa)
 _.see(_.mifa)

@@ -9,3 +9,10 @@ export const aupa = _.example([_.au, _.pa], 'Gratitude (aimer tout).')
 _.see(_.paau)
 
 _.see(_.miau)
+
+export const auau = _.example([_.au, _.au], `Fais-moi l'amour`)
+
+export const ausifalamau = _.example(
+  [_.au, _.si, _.falam, _.au],
+  `Fais-moi l'amour comme si tu te lavais d'une grande tristesse.`
+)

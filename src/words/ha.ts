@@ -1,6 +1,9 @@
 import * as _ from '.'
 
 export const ha = _.word('ha', { noun: 'tête', prefix: 'partie supérieure' })
+_.see(_.djo)
+
+export const hadjo = _.word('hadjo', { verb: 'tomber' })
 
 export const hafalo = _.example([_.ha, _.fa, _.lo], `Montre ta tête, soumise !`)
 
