@@ -8,13 +8,9 @@ export const o = _.word('o', {
     `Le "on" est important: on est pas séparés. Ça indique à la fois "moi et les autres" (même imaginés) et "toutes les versions et différents âges de moi-même, l'enfant qui a rêvé, l'adolescent en manque de tendresse et de cul, le fou, etc". Quand on dit ${_.o}, on implique tout ça. Si "on" te fait l'amour, c'est un monde entier qui vient à ta rencontre.`,
 })
 
-export const oo = _.word('oo', {
+export const ou = _.word('ou', {
   noun: 'à moi/nous (pour moi/nous), je/nous...',
-})
-
-// J'ai oublié le préfix/suffixe pour "en bas"
-export const obo = _.word('obo', {
-  noun: 'pubis (bas du ventre)',
+  desc: () => `Évolution de "o o" en "oo" puis "ou".`,
 })
 
 export const hafo = _.word('hafo', {

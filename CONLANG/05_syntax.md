@@ -10,6 +10,8 @@
 
 # Base
 
+Voir [oi](./04_oi.md)
+
 A: à qui
 S: qui (sujet)
 V: verbe

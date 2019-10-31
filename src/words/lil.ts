@@ -2,7 +2,9 @@ import * as _ from '.'
 
 export const lil = _.word('lil', {
   adj: 'petit.e',
+  suffix: 'petit.e',
 })
+_.see(_.peulil)
 
 export const lilaj = _.word('lilaj', {
   noun: 'étincelle',
