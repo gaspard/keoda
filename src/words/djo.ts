@@ -1,7 +1,18 @@
 import * as _ from '.'
 
-export const djo = _.word('djo', { adj: 'bas' })
+export const djo = _.word('djo', {
+  adj: 'partie proximal',
+  desc: () => `Au centre ${_.dej} ${_.ojo}`,
+})
+_.see(_.ojo)
+_.see(_.dej)
 _.see(_.ha)
+_.see(_.djobaj)
+_.see(_.djorum)
+_.see(_.djoma)
 
-export const djoha = _.word('djoha', { verb: 'monter' })
-export const mudjoha = _.word('mudjoha', { verb: 'cueillir' })
+export const hadjo = _.word('hadjo', { verb: 'prendre vers soi' })
+
+export const djoha = _.word('djoha', { verb: 'rejeter (loin de soi)' })
+
+export const muhadjo = _.word('muhadjo', { verb: 'cueillir' })

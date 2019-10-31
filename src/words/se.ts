@@ -4,7 +4,13 @@ export const se = _.word('se', {
   adj: 'gauche',
   desc: () => 'Inspiré de est (on regarde le sud).',
 })
+_.see(_.hase)
 
-_.see(_.no)
-_.see(_.we)
+// devant
 _.see(_.du)
+// droite
+_.see(_.we)
+// gauche
+_.see(_.se)
+// derrière
+_.see(_.no)

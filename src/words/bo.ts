@@ -5,3 +5,4 @@ export const bo = _.word('bo', {
 })
 
 _.see(_.obo)
+_.see(_.habo)

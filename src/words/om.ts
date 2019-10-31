@@ -7,4 +7,4 @@ export const om = _.word('om', {
   suffix: 'temple, lieu sacré',
 })
 
-_.see(_.eodosamhabajom)
+_.see(_.enopisamdjobajom)

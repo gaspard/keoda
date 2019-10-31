@@ -2,22 +2,26 @@ import * as _ from '.'
 
 export const baj = _.word('baj', { noun: 'membre inférieur' })
 
-export const habaj = _.word('habaj', {
+export const djobaj = _.word('djobaj', {
   noun: 'cuisse',
-  desc: () => `De ${_.ha} et ${_.baj}`,
+  desc: () => `De ${_.djo} et ${_.baj}`,
 })
 
-export const habajimfa = _.example(
-  [_.habaj, _.im, _.fa],
+export const habaj = _.word('habaj', {
+  noun: 'jambe',
+})
+
+export const djobajimfa = _.example(
+  [_.djobaj, _.im, _.fa],
   `Montre tes cuisses fermées.`
 )
 
-export const habajioda = _.example(
-  [_.habaji, _.oda],
+export const djobajioda = _.example(
+  [_.djobaji, _.oda],
   `Caresse mon corps avec ta cuisse.`
 )
 
-export const habaji = _.word('habaji', { verb: 'caresser avec la cuisse' })
+export const djobaji = _.example([_.djobaj, _.i], 'caresser avec la cuisse')
 
 export const kebaj = _.word('kebaj', {
   noun: 'testicules',
@@ -25,4 +29,4 @@ export const kebaj = _.word('kebaj', {
 })
 
 _.see(_.odufeodaolirkelikebaj)
-_.see(_.eodosamhabajom)
+_.see(_.enopisamdjobajom)

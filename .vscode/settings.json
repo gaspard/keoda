@@ -1,2 +1,12 @@
-{ "editor.wordWrap": "on"
+{
+  "editor.wordWrap": "on",
+  "auto-run-command.rules": [
+    {
+      "condition": [
+        "always"
+      ],
+      "command": "autoBarrel.start",
+      "message": "Starting Auto Barrel..."
+    }
+  ]
 }

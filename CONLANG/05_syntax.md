@@ -33,3 +33,9 @@ Tajsi eshubeo yon. (pénètre monstrueusement ma vulve)
 Yonsi fo kepal esi la. (Embrasse ma bouche de ta vulve comme si tu fouettais un anus)
 
 Ausi falam au. (Fais-moi l'amour comme si tu te lavais d'une grande tristesse.)
+
+# Et
+
+"shu" ajoute une phrase ou un adjectif. Si on utilise la même adresse ({A} {S}) que la phrase précédente, on peut omettre cette dernière:
+
+ou peulil shu ou eshu = ou peulil shu eshu

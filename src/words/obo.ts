@@ -6,6 +6,10 @@ export const obo = _.word('obo', {
   desc: () => `Aussi appelé ${_.djobo}`,
 })
 
+export const habo = _.word('habo', {
+  noun: 'plexus',
+})
+
 export const djobo = _.word('djobo', {
   noun: 'pubis',
   desc: () => `Aussi appelé ${_.obo}`,

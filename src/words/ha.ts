@@ -1,7 +1,12 @@
 import * as _ from '.'
 
-export const ha = _.word('ha', { noun: 'tête', prefix: 'partie supérieure' })
+export const ha = _.word('ha', {
+  noun: 'tête',
+  adj: 'loin',
+  prefix: 'partie supérieure ou distale',
+})
 _.see(_.djo)
+_.see(_.hama)
 
 export const hadjo = _.word('hadjo', { verb: 'tomber' })
 
@@ -16,7 +21,24 @@ export const iohaftarkepal = _.example(
   `On va te pénétrer l'anus avec le gland.`
 )
 
-export const eodosamhabajom = _.example(
-  [_.e, _.odo, _.sam, _.habaj, _.om],
+export const enopisamdjobajom = _.example(
+  [_.e, _.nopi, _.sam, _.habaj, _.om],
   `Mets-toi sur le dos, les pieds contre les cuisses, jambes écartées.`
 )
+
+export const enopishusamdur = _.example(
+  [_.e, _.nopi, _.shu, _.sam, _.dur],
+  `Mets-toi sur le dos, les pieds contre ma nuque.`
+)
+
+export const hadu = _.word('hadu', { noun: 'visage' })
+_.see(_.du)
+
+export const hawe = _.word('hawe', { noun: 'joue droite' })
+_.see(_.we)
+
+export const hase = _.word('hase', { noun: 'joue gauche' })
+_.see(_.se)
+
+export const hano = _.word('hano', { noun: 'occiput (dos de la tête)' })
+_.see(_.no)

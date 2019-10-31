@@ -13,6 +13,12 @@ export const hama = _.word('hama', {
   desc: () => `De ${_.ha} (tête, moitié supérieure) et ${_.ma} (main).`,
 })
 
+export const djoma = _.word('djoma', {
+  noun: 'poignet',
+  desc: () => `De ${_.djo} (bas) et ${_.ma} (main).`,
+})
+_.see(_.djosam)
+
 _.see(_.lihafma)
 
 export const nema = _.word('nema', {

@@ -10,7 +10,7 @@ export const i = _.word('i', {
 _.see(_.mioda)
 _.see(_.amimoon)
 _.see(_.imiyon)
-_.see(_.habajioda)
+_.see(_.djobajioda)
 _.see(_.olirimataj)
 
 export const imiyon = _.example([_.i, _.mi, _.yon], `Masse-toi la vulve.`)

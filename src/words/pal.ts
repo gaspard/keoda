@@ -7,6 +7,10 @@ export const kepal = _.word('kepal', {
   desc: () => `De ${_.ke} (caché) et ${_.pal} (fesses).`,
 })
 
+export const hapal = _.word('hapal', {
+  noun: 'haut des fesses',
+})
+
 export const kepalhama = _.example(
   [_.kepal, _.hama],
   `Prends mon doigt avec ton anus.`
