@@ -20,3 +20,5 @@ export const hataj = _.word('hataj', {
 export const lihataj = _.example([_.li, _.ha, _.taj], 'Suce mon gland.')
 
 export const tajmahal = _.example([_.taj, _.mahal], 'Pénis miraculeux')
+
+_.see(_.tajuki)

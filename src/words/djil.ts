@@ -20,3 +20,5 @@ export const inedjilobo = _.example(
   [_.i, _.nedjil, _.obo],
   `Va te raser le pubis.`
 )
+
+_.see(_.djiluki)

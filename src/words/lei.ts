@@ -16,6 +16,17 @@ export const ulei = _.word('ulei', {
   desc: () => `De ${_.ul} et ${_.lei}`,
 })
 
+export const leiuki = _.word('leiuki', {
+  noun: 'patience',
+  adj: 'patient.e',
+  desc: () => `De ${_.lei} et ${_.uki} (temps long).`,
+})
+
+export const neleiuki = _.word('neleiuki', {
+  noun: 'impatience',
+  adj: 'impatient.e',
+})
+
 export const eleifayonuleinefa = _.example(
   [_.elei, _.fa, _.yon, _.ulei, _.nefa],
   `(le temps est) regarde ma vulve (tirer le temps) ferme les yeux.`
