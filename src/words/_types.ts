@@ -1,3 +1,5 @@
+import * as columnify from 'columnify'
+
 interface Example {
   phrase: (Word | Example)[]
   meaning: string
@@ -18,7 +20,6 @@ interface FullWord {
   noun: string
   pronoun: string
   desc: DescriptionFunction
-  examples: Examples
   preposition: string
   lang: string
   position: string
@@ -78,13 +79,18 @@ function stringifyExample(example: Example): string {
 }
 
 export function printWords() {
-  Object.keys(words)
+  const data = Object.keys(words)
     .sort()
-    .forEach(name => {
-      const { desc, examples } = words[name]
-      console.log(name) // , desc ? desc () : '' )
-      if (examples) {
-        showExamples(examples)
-      }
+    .map((key, idx) => {
+      const wo = Object.assign({}, words[key])
+      const description = wo.desc ? wo.desc().slice(0, 50) : undefined
+      delete wo.desc
+      delete wo.toString
+      const defkey = Object.keys(wo).filter(
+        k => k !== 'desc' && k !== 'name' && k !== 'toString'
+      )[0] as keyof FullWord
+      return { name: wo.name, definition: wo[defkey], description }
     })
+  console.log(columnify(data))
+  console.log('[COUNT]', Object.keys(words).length)
 }

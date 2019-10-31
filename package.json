@@ -6,12 +6,17 @@
   "scripts": {
     "build": "tsc",
     "generate": "ts-node src/generate.ts",
+    "print": "ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gaspard Bucher <gaspard@lucidogen.io> (http://lucidogen.io)",
   "license": "ISC",
   "devDependencies": {
+    "@types/columnify": "^1.5.0",
     "ts-node": "^8.4.1",
     "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "columnify": "^1.5.4"
   }
 }
