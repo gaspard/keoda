@@ -18,11 +18,12 @@ _.see(_.no)
 export const nopi = _.word('nopi', {
   noun: 'dos',
   position: 'allongé sur le dos',
-  desc: () => `Ne ${_.no} et ${_.pi}`,
+  derived: [_.no, _.pi],
 })
 
 export const djonopi = _.word('djonopi', {
   noun: 'bas du dos',
+  derived: [_.djo, _.nopi],
 })
 
 _.see(_.enopisamdjobajom)

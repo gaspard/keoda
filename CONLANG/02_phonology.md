@@ -12,8 +12,7 @@
 
 Get inspiration from Brazilian and Hawaiian...
 
-All syllables are open (ending with a vowel or voiced consonant like ʒ, r or
-n, m, l).
+All syllables are open (ending with a vowel or voiced consonant like j, r, n, m and l).
 
 Basically you need to be able to siiiiiiiing a long ending on every vowel as
 this is heavily used to stress words and help avoid ambiguity.
@@ -22,7 +21,7 @@ Inside a word, when two consonants meet like in
 taj-hem and they are not allowed (see bellow), we add an "a" as in tajahem, munahem or we
 remove the coda as in "tahem" or the onset as in "lemir" (instead of "lemlir")
 
-Two consonnants are not allowed except for nl and ml (because m and n are like vowels and they open with the l) and 'dj' because it is fun.
+Two consonnants are not allowed except for (open consonants j, r, n, m) before l (because they are like vowels and they open with the l) and 'dj' because it is fun.
 
 ## Consonants
 

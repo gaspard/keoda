@@ -13,3 +13,22 @@ export const falam = _.word('falam', {
 })
 _.see(_.ausifalamau)
 _.see(_.falo)
+
+export const lama = _.word('lama', {
+  noun: 'mer',
+  derived: [_.lam, _.da],
+})
+
+export const lamagoa = _.word('lamagoa', {
+  noun: 'océean',
+  derived: [_.lama, _.goa],
+})
+
+export const lami = _.word('lami', {
+  noun: 'vague',
+})
+
+export const lamioda = _.word('snake', {
+  noun: 'snake',
+  derived: [_.lami, _.oda],
+})

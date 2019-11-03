@@ -13,6 +13,12 @@ export const ou = _.word('ou', {
   desc: () => `Évolution de "o o" en "oo" puis "ou".`,
 })
 
+export const oulem = _.word('oulem', {
+  noun: 'à moi/nous du passé, je/nous...',
+  derived: [_.olem, _.o],
+})
+_.see(_.olem)
+
 export const hafo = _.word('hafo', {
   verb: 'tomber (tête en bas)',
 })

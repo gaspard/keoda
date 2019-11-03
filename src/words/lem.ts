@@ -19,10 +19,16 @@ export const elemir = _.word('elemir', {
   noun: 'de toute éternité',
 })
 
+export const olem = _.word('olem', {
+  noun: 'je/nous du passé',
+})
+_.see(_.oulem)
+
 export const xxx = _.word('x', {
   noun: `jusque`,
   desc: () => ``,
 })
+
 export const x = _.word('x', {
   noun: `jusqu'au moment où`,
 })

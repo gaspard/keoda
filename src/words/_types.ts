@@ -18,7 +18,9 @@ interface FullWord {
   adj: string
   adv: string
   noun: string
+  derived: Word[]
   pronoun: string
+  person: string
   desc: DescriptionFunction
   preposition: string
   lang: string
@@ -80,6 +82,7 @@ function stringifyExample(example: Example): string {
 
 export function printWords() {
   const data = Object.keys(words)
+    .filter(key => !words[key].person)
     .sort()
     .map((key, idx) => {
       const wo = Object.assign({}, words[key])

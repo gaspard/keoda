@@ -7,7 +7,7 @@ export const tioa = _.word('tioa', {
 })
 
 // cueillir des fleurs
-export const lasimudjohatioaesiyon = _.example(
-  [_.la, _.si, _.muhadjo, _.tioa, _.esi, _.yon],
+export const lasimuhadjotioayon = _.example(
+  [_.la, _.si, _.muhadjo, _.tioa, _.yon],
   `Embrasse ma vulve comme si tu cueillais des fleurs.`
 )

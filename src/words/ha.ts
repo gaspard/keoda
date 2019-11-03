@@ -8,7 +8,7 @@ export const ha = _.word('ha', {
 _.see(_.djo)
 _.see(_.hama)
 
-export const hadjo = _.word('hadjo', { verb: 'tomber' })
+_.see(_.djoha)
 
 export const hafalo = _.example([_.ha, _.fa, _.lo], `Montre ta tête, soumise !`)
 

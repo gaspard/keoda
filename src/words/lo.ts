@@ -10,7 +10,7 @@ export const melo = _.word('melo', {
   desc: () => `De ${_.me} et ${_.lo} (comme soumis.e).`,
 })
 
-_.see(_.najalo)
+_.see(_.najlo)
 _.see(_.falo)
 _.see(_.nelo)
 _.see(_.nefalo)

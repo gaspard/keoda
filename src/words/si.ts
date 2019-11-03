@@ -12,13 +12,12 @@ export const tajyonsitioa = _.example(
 )
 
 export const esi = _.word('esi', {
-  suffix: `ainsi soit-il`,
-  desc: () => `Ferme la manière commencée par ${_.si}.`,
+  suffix: `ainsi, pour, de sorte que`,
 })
 
-_.see(_.lasimudjohatioaesiyon)
+_.see(_.lasimuhadjotioayon)
 
 export const yonsitajkepalesila = _.example(
-  [_.yon, _.si, _.fo, _.kepal, _.esi, _.la],
+  [_.yon, _.si, _.fo, _.kepal, _.la],
   `Embrasse ma bouche de ta vulve comme si tu fouettais un anus.`
 )

@@ -13,21 +13,21 @@ export const keliyonshukepal = _.example(
   `Lèche ma vulve et mon anus.`
 )
 
-export const ayonleSarahodashmunleCamilleodaoranoanoa = _.example(
+export const ayonleSarahodashmunleAnaisodaoranoanoa = _.example(
   [
     _.a,
     _.yon,
     _.le,
-    _.Sarah,
+    _.Iris,
     _.oda,
     _.shu,
     _.mun,
     _.le,
-    _.Camille,
+    _.Anais,
     _.oda,
     _.ora,
     _.noa,
     _.noa,
   ],
-  `Avec Sarah et Camille, tu aimerais faire du peau à peau ?`
+  `Avec Iris et Anaïs, tu aimerais faire du peau à peau ?`
 )
