@@ -14,3 +14,8 @@ _.see(_.we)
 _.see(_.se)
 // derrière
 _.see(_.no)
+
+export const doda = _.word('doda', {
+  noun: 'grand.e frère/soeur',
+  derived: [_.du, _.oda],
+})

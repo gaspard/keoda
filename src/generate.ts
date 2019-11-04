@@ -1,4 +1,4 @@
-const CONSONANT = [
+export const CONSONANT = [
   'p',
   'b',
   't',
@@ -18,40 +18,47 @@ const CONSONANT = [
   'w',
   'y',
 ]
-const VOWEL = ['a', 'e', 'i', 'o', 'u']
-const END = ['m', 'n', 'r', 'j', 'l']
+export const VOWEL = ['a', 'e', 'i', 'o', 'u']
+export const END = ['m', 'n', 'r', 'j', 'l']
 
 const OR_NOTHING = ''
 const GROUPS = [
-  // [VOWEL, CONSONANT, VOWEL],
-  // [VOWEL, [...VOWEL, OR_NOTHING], [...END, OR_NOTHING]],
-  // [CONSONANT, VOWEL, [...END, OR_NOTHING]],
+  [VOWEL, CONSONANT, VOWEL],
+  [VOWEL, [...VOWEL, OR_NOTHING], [...END, OR_NOTHING]],
+  [CONSONANT, VOWEL, [...END, OR_NOTHING]],
   [CONSONANT, VOWEL, VOWEL],
 ]
 
-const SEEN: { [key: string]: boolean } = { '': true }
-const SYLLABLES: string[] = [...VOWEL]
+export function generate() {
+  const seen: { [key: string]: boolean } = { '': true }
+  const syllables: string[] = [...VOWEL]
 
-GROUPS.forEach(g => {
-  const [a, b, c] = g
-  a.forEach(la => {
-    b.forEach(lb => {
-      if (lb === la) {
-        return
-      }
-      c.forEach(lc => {
-        if (lc === lb) {
+  GROUPS.forEach(g => {
+    const [a, b, c] = g
+    a.forEach(la => {
+      b.forEach(lb => {
+        if (lb === la) {
           return
         }
-        const syllable = [la, lb, lc].filter(a => a !== OR_NOTHING).join('')
-        if (!SEEN[syllable]) {
-          SEEN[syllable] = true
-          SYLLABLES.push(syllable)
-        }
+        c.forEach(lc => {
+          if (lc === lb) {
+            return
+          }
+          const syllable = [la, lb, lc].filter(a => a !== OR_NOTHING).join('')
+          if (!seen[syllable]) {
+            seen[syllable] = true
+            syllables.push(syllable)
+          }
+        })
       })
     })
   })
-})
+  syllables.sort()
+  return syllables
+}
+// const SYLLABLES = generate()
 
+/*
 console.log('COUNT: ', SYLLABLES.length)
 console.log(SYLLABLES.join('\n'))
+*/

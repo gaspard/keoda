@@ -4,7 +4,9 @@ export const de = _.word('de', {
   noun: '2',
   pronoun: 'nous deux',
   position: 'sur le dos (2) jambes écartées',
+  conj: 'nous deux',
 })
+_.see(_.demaconj)
 
 export const ide = _.word('ide', {
   pronoun: 'à toi, nous deux',
@@ -26,7 +28,7 @@ _.see(_.pi)
 // 2
 _.see(_.de)
 // 3
-_.see(_.per)
+_.see(_.pe)
 // 4
 _.see(_.ka)
 // 5

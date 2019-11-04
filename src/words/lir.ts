@@ -21,6 +21,11 @@ export const elir = _.word('elir', {
   noun: 'le future exist (dans le future)',
 })
 
+export const lire = _.word('lire', {
+  suffix: 'future ',
+})
+_.see(_.leme)
+
 export const olirmipal = _.example(
   [_.olir, _.mi, _.pal],
   'On va te masser les fesses.'

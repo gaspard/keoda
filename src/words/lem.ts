@@ -24,6 +24,11 @@ export const olem = _.word('olem', {
 })
 _.see(_.oulem)
 
+export const leme = _.word('leme', {
+  preposition: 'annonce une question sur le passé',
+})
+_.see(_.lire)
+
 export const xxx = _.word('x', {
   noun: `jusque`,
   desc: () => ``,

@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc",
     "generate": "ts-node src/generate.ts",
+    "conjugation": "ts-node src/conjugation.ts",
     "print": "ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

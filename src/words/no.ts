@@ -15,6 +15,12 @@ _.see(_.se)
 // derrière
 _.see(_.no)
 
+export const noda = _.word('noda', {
+  noun: 'petit.e soeur/frère',
+  derived: [_.no, _.oda],
+})
+_.see(_.doda)
+
 export const nopi = _.word('nopi', {
   noun: 'dos',
   position: 'allongé sur le dos',

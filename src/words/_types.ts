@@ -18,6 +18,8 @@ interface FullWord {
   adj: string
   adv: string
   noun: string
+  conj: string
+  tens: string
   derived: Word[]
   pronoun: string
   person: string
@@ -80,19 +82,21 @@ function stringifyExample(example: Example): string {
     .join(' ')
 }
 
+export function baseDefinition(wo: Word) {
+  const defkey = Object.keys(wo).filter(
+    k => k !== 'desc' && k !== 'name' && k !== 'toString'
+  )[0] as keyof FullWord
+  return wo[defkey]
+}
+
 export function printWords() {
   const data = Object.keys(words)
     .filter(key => !words[key].person)
     .sort()
     .map((key, idx) => {
-      const wo = Object.assign({}, words[key])
+      const wo = words[key]
       const description = wo.desc ? wo.desc().slice(0, 50) : undefined
-      delete wo.desc
-      delete wo.toString
-      const defkey = Object.keys(wo).filter(
-        k => k !== 'desc' && k !== 'name' && k !== 'toString'
-      )[0] as keyof FullWord
-      return { name: wo.name, definition: wo[defkey], description }
+      return { name: wo.name, definition: baseDefinition(wo), description }
     })
   console.log(columnify(data))
   console.log('[COUNT]', Object.keys(words).length)

@@ -5,7 +5,9 @@ export const ka = _.word('ka', {
   pronoun: 'tous',
   suffix: 'tous',
   position: 'à quatre pattes',
+  conj: 'tou.te.s',
 })
+_.see(_.kamaconj)
 
 export const ika = _.word('ika', {
   pronoun: 'à toi, nous toutes et tous',
@@ -22,7 +24,7 @@ _.see(_.pi)
 // 2
 _.see(_.de)
 // 3
-_.see(_.per)
+_.see(_.pe)
 // 4
 _.see(_.ka)
 // 5

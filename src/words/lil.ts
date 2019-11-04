@@ -17,7 +17,7 @@ _.see(_.pi)
 // 2
 _.see(_.de)
 // 3
-_.see(_.per)
+_.see(_.pe)
 // 4
 _.see(_.ka)
 // 5

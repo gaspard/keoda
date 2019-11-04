@@ -1,6 +1,7 @@
 import * as _ from '.'
 
 export const li = _.word('li', { noun: 'bouche', verb: 'sucer' })
+_.see(_.liu)
 
 export const lihafma = _.example([_.li, _.hama], `Suce mon doigt.`)
 _.see(_.lirlipa)

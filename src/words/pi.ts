@@ -4,6 +4,7 @@ export const pi = _.word('pi', {
   adv: 'ici',
   noun: '1',
   position: 'debout',
+  conj: 'je',
   desc: () => `Opposé de ${_.pa}.`,
 })
 
@@ -17,7 +18,7 @@ _.see(_.pi)
 // 2
 _.see(_.de)
 // 3
-_.see(_.per)
+_.see(_.pe)
 // 4
 _.see(_.ka)
 // 5
