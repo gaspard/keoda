@@ -30,7 +30,7 @@ export const nema = _.word('nema', {
 export const mataj = _.example([_.ma, _.taj], `Prends mon pénis dans ta main.`)
 
 export const mayonmelo = _.example(
-  [_.ma, _.yon, _.melo],
+  [_.ma, _.yon, _.silo],
   `Branle ma vulve doucement.`
 )
 _.see(_.nemafeyon)

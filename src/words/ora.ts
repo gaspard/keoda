@@ -20,7 +20,9 @@ export const ayodaoramimum = _.example(
   'À elle, tu désires caresser les seins ?'
 )
 
-export const oraiolataj = _.example(
-  [_.ora, _.io, _.la, _.taj],
+// Ora ola taj ?
+// Ora eku ola taj ?
+export const oraolataj = _.example(
+  [_.ora, _.eku, _.o, _.la, _.taj],
   `Tu aimerais que je t'embrasse la verge ?`
 )

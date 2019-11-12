@@ -4,9 +4,14 @@ Position based forces us say some things before other things, like to whom we do
 
 What if the o/i/a/ai/ou and such words instead of being {AS} became conjugations (as prefix) so that it is maybe simpler to explain...
 
+# ========== THIS IS NO LONGER UP TO DATE ==============
+
+voir [subject](../src/words/conj_subject.ts)
+et [tens](../src/words/conj_tens.ts)
+
 ```s
 1s je   pi-ma
-2s tu   -ma
+2s tu   (i)-ma
 3s iel  a-ma
 1p (nous tous présents) ka-ma
 2p vous  no-ma

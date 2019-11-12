@@ -8,16 +8,23 @@ Alors on est là face à la mer et puis il y a tous les poissons qui on péri, i
 Ils ont eu trop chaud, ils ont cuit une dernière fois dans le grand micro-onde cosmique qu'on a créé
 */
 
-export const ouepalfalama = [_.ou, _.e, _.pal, _.fa, _.lama]
+// Ohe pal du lama,
+// lae ahelei [si] [belle], [si] diguwu, laesi guwuna.
+// Lama ahelei lirana shu agowua, aupa lirana, guna lirana.
+// Lei ohe sen du lama shu lei awi [qui ont péri], shanegulem, shae sen [pour] nepa.
 
-export const x = [
-  _.a,
-  _.lamalem,
-  'elle: lae',
-  _.e,
-  'si ?', // adv "ainsi"
-  'belle ?',
-  'si généreuse',
-  _.me, // comme
-  'don',
-]
+/*
+==> si (belle)
+==> promesse       = lirana
+==> paix (aupa ?)
+==> don            = guwua
+==> qui XXXXX      = di
+==> périr vs mourir ?
+==> pour (rien)
+
+
+==> donner, don = guwu, guwua
+==> pour = 
+==> quoi =
+==> pour quoi =
+*/

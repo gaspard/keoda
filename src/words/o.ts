@@ -10,23 +10,12 @@ export const o = _.word('o', {
 })
 _.see(_.omaconj)
 
-export const ou = _.word('ou', {
-  noun: 'à moi/nous (pour moi/nous), je/nous...',
-  desc: () => `Évolution de "o o" en "oo" puis "ou".`,
-})
-
-export const oulem = _.word('oulem', {
-  noun: 'à moi/nous du passé, je/nous...',
-  derived: [_.olem, _.o],
-})
-_.see(_.olem)
-
 export const hafo = _.word('hafo', {
-  verb: 'tomber (tête en bas)',
+  verb: 'tomber (tête fouettée)',
 })
 
-export const palironeoda = _.example(
-  [_.palir, _.o, _.neoda],
+export const demoneoda = _.example(
+  [_.dem, _.o, _.neoda],
   'Quand je serai mort.e...'
 )
 

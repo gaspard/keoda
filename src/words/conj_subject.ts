@@ -7,6 +7,7 @@ export const omaconj = _.example([_.o, _.ma], 'on masse')
 
 // 2s   tu                        -ma
 export const maconj = _.example([_.ma], '(tu) masse')
+export const imaconj = _.example([_.i, _.ma], '(tu) masse')
 
 // 3s   iel                   a   -ma
 export const amaconj = _.example([_.a, _.ma], 'iel masse')

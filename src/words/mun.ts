@@ -10,10 +10,10 @@ export const munwe = _.word('munwe', {
   desc: () => `De ${_.mu} et ${_.we}.`,
 })
 
-_.see(_.idemimunwe)
+_.see(_.demimunwe)
 
 export const imimunmenu = _.example(
-  [_.i, _.mi, _.mun, _.menu],
+  [_.i, _.mi, _.mun, _.sinu],
   `Caresse-toi les seins en effleurant.`
 )
 

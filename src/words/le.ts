@@ -6,12 +6,12 @@ export const le = _.word('le', {
 })
 
 export const ile = _.word('ile', {
-  pronoun: 'annonce de ton nom',
-  desc: () => `L'enchassée avec le nom se termine par ${_.oda}.`,
+  preposition: 'toi qui te nomme',
 })
 
-export const ouoraileGopiodaokoIrisauau = _.example(
-  [_.ou, _.ora, _.ile, _.Gopi, _.oda, _.o, _.ko, _.Iris, _.au, _.au],
+// Ohora eku
+export const ohoraekuIrisshuoauileGopioda = _.example(
+  [_.o, _.ora, _.eku, _.Iris, _.shu, _.o, _.au, _.i, _.le, _.Gopi, _.oda],
   `J'ai envie qu'Iris et moi te faisions l'amour, à toi Gopi.`
 )
 

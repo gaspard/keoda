@@ -5,17 +5,19 @@ export const si = _.word('si', {
   desc: () =>
     `Annonce d'une manière qui se terminera par ${_.esi} (sauf si c'est qu'on mot).`,
 })
+_.see(_.preposition)
 
 export const tajyonsitioa = _.example(
-  [_.taj, _.yon, _.si, _.tioa],
+  [_.taj, _.yon, _.si, _.tiona],
   `Pénètre ma vulve comme si c'était une fleur.`
 )
 
 export const esi = _.word('esi', {
   suffix: `ainsi, pour, de sorte que`,
 })
+_.see(_.preposition)
 
-_.see(_.lasimuhadjotioayon)
+_.see(_.lasimuhadjotionayon)
 
 export const yonsitajkepalesila = _.example(
   [_.yon, _.si, _.fo, _.kepal, _.la],

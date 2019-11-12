@@ -17,7 +17,7 @@ export const inefehafoda = _.example(
   `Enlève les habits qui couvrent ton buste.`
 )
 export const iohaftarkepal = _.example(
-  [_.io, _.hataj, _.kepal],
+  [_.o, _.hataj, _.kepal],
   `On va te pénétrer l'anus avec le gland.`
 )
 

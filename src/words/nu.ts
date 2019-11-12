@@ -4,7 +4,7 @@ export const nu = _.word('nu', {
   verb: 'broder ?',
 })
 
-export const menu = _.word('menu', {
+export const sinu = _.word('sinu', {
   adj: 'délicatement',
-  desc: () => `De ${_.me} et ${_.nu} (...).`,
+  desc: () => `De ${_.si} et ${_.nu} (...).`,
 })

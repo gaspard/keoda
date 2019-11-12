@@ -25,7 +25,8 @@ export const kegai = _.word('kegai', {
 })
 _.see(_.ounurelilajkegai)
 
-export const gau = _.word('gai', {
+export const gau = _.word('gau', {
   noun: 'attention',
   desc: () => `esprit tiré`,
 })
+_.see(_.gai)

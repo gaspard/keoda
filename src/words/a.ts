@@ -1,6 +1,9 @@
 import * as _ from '.'
 
-export const a = _.word('a', { lang: 'à (elle, lui)', conj: 'iel' })
+export const a = _.word('a', {
+  lang: 'à (elle, lui)',
+  conj: 'iel',
+})
 _.see(_.amaconj)
 
 export const amimoon = _.example(

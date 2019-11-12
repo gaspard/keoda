@@ -18,22 +18,3 @@ export const elem = _.word('elem', {
 export const elemir = _.word('elemir', {
   noun: 'de toute éternité',
 })
-
-export const olem = _.word('olem', {
-  noun: 'je/nous du passé',
-})
-_.see(_.oulem)
-
-export const leme = _.word('leme', {
-  preposition: 'annonce une question sur le passé',
-})
-_.see(_.lire)
-
-export const xxx = _.word('x', {
-  noun: `jusque`,
-  desc: () => ``,
-})
-
-export const x = _.word('x', {
-  noun: `jusqu'au moment où`,
-})

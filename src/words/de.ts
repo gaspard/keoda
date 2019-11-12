@@ -8,13 +8,9 @@ export const de = _.word('de', {
 })
 _.see(_.demaconj)
 
-export const ide = _.word('ide', {
-  pronoun: 'à toi, nous deux',
-})
-
-export const idemimunwe = _.example(
-  [_.ide, _.mi, _.munwe],
-  `À toi, nous deux allons caresser le sein droite.`
+export const demimunwe = _.example(
+  [_.de, _.mi, _.munwe],
+  `Nous deux allons caresser le sein droite (à toi).`
 )
 
 export const hamade = _.word('hamade', {

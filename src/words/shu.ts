@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const shu = _.word('shu', { preposition: 'et' })
-_.see(_.uma)
+_.see(_.preposition)
 
 export const kelishumayon = _.example(
   [_.keli, _.shu, _.ma, _.yon],

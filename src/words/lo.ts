@@ -5,9 +5,9 @@ export const lo = _.word('lo', {
   adj: 'soumis-e,humide',
 })
 
-export const melo = _.word('melo', {
+export const silo = _.word('silo', {
   adj: 'doucement',
-  desc: () => `De ${_.me} et ${_.lo} (comme soumis.e).`,
+  desc: () => `De ${_.si} et ${_.lo} (comme soumis.e).`,
 })
 
 _.see(_.najlo)

@@ -2,19 +2,22 @@ import * as _ from '.'
 
 export const lei = _.word('lei', {
   noun: 'le temps',
+  preposition: 'alors',
+  conj: 'toujours',
   desc: () => `Donne ${_.lem} et ${_.lir}.`,
 })
 _.see(_.lem)
 _.see(_.lir)
 
 export const elei = _.word('elei', {
-  noun: 'toujours',
+  preposition: 'toujours (pas usité, on utilise lau)',
 })
 
 export const ulei = _.word('ulei', {
-  noun: `jusqu'à ce que (tirer le temps)`,
-  desc: () => `De ${_.ul} et ${_.lei}`,
+  preposition: `jusqu'à ce que (tirer le temps)`,
+  desc: () => `De ${_.ul} et ${_.lei} ${_.eku}`,
 })
+_.see(_.preposition)
 
 export const leiuki = _.word('leiuki', {
   noun: 'patience',

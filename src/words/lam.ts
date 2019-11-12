@@ -28,7 +28,7 @@ export const lami = _.word('lami', {
   noun: 'vague',
 })
 
-export const lamioda = _.word('snake', {
-  noun: 'snake',
+export const lamioda = _.word('lamioda', {
+  noun: 'serpent',
   derived: [_.lami, _.oda],
 })

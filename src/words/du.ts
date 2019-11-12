@@ -19,3 +19,9 @@ export const doda = _.word('doda', {
   noun: 'grand.e frère/soeur',
   derived: [_.du, _.oda],
 })
+export const dutoda = _.word('dutoda', {
+  noun: 'grand frère',
+})
+export const duyoda = _.word('duyoda', {
+  noun: 'grande soeur',
+})

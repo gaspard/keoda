@@ -17,6 +17,7 @@ export const lemo = _.word('lemo', { tens: 'passé lointain' })
 export const leme = _.word('leme', {
   tens: 'passé éventuel, improbable mais pas impossible',
 })
+_.see(_.lei) // toujours
 
 // Otajliri kepal.
 export const otajlirikepal = _.example(

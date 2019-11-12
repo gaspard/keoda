@@ -7,10 +7,12 @@ export const nefeoda = _.example(
   [_.ne, _.feoda],
   'Enlève tes habits (corps nu).'
 )
-
 export const nefa = _.example([_.ne, _.fa], 'Ferme les yeux (pas yeux).')
-export const neoda = _.word('neoda', { noun: 'dead (nobody)' })
-export const nepa = _.word('nepa', { noun: 'abyss, void' })
+export const neoda = _.word('neoda', {
+  noun: 'cadavre, sans corps, personne (no body)',
+})
+export const negu = _.word('negu', { verb: 'mourir', derived: [_.ne, _.gu] })
+export const nepa = _.word('nepa', { noun: 'abysse, néant' })
 export const nelo = _.word('nelo', {
   verb: 'lutter',
   desc: () => `De ${_.ne} et ${_.lo}, ne pas se soumettre.`,

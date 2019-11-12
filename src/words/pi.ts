@@ -8,11 +8,6 @@ export const pi = _.word('pi', {
   desc: () => `Opposé de ${_.pa}.`,
 })
 
-export const ipi = _.word('ipi', {
-  pronoun: 'à toi, je',
-  position: 'debout (indiquée par un signe de main: pouce dressé)',
-})
-
 // 1
 _.see(_.pi)
 // 2
