@@ -28,5 +28,5 @@ export const kebaj = _.word('kebaj', {
   desc: () => `Caché ${_.ke} entre les jambes ${_.baj}.`,
 })
 
-_.see(_.odufeodaolirkelikebaj)
+_.see(_.odufeodaokelilirkebaj)
 _.see(_.enopisamdjobajom)

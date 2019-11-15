@@ -25,6 +25,10 @@ _.see(_.eku)
 _.see(_.esi)
 // Comme
 _.see(_.si)
+// Si
+_.see(_.eyu)
+// Pour
+_.see(_.ibu)
 
 // Et
 _.see(_.shu)

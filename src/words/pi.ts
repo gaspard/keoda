@@ -7,16 +7,10 @@ export const pi = _.word('pi', {
   conj: 'je',
   desc: () => `Opposé de ${_.pa}.`,
 })
-
-// 1
-_.see(_.pi)
-// 2
-_.see(_.de)
-// 3
-_.see(_.pe)
-// 4
-_.see(_.ka)
-// 5
-_.see(_.lil)
+_.see(_.counting)
 
 export const aupi = _.example([_.au, _.pi], `S'aimer soi-même, ici.`)
+
+export const pine = _.word('pine', {
+  noun: 'division',
+})

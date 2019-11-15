@@ -5,7 +5,8 @@ export const odu = _.word('odu', {
   desc: () => `De ${_.oda} (corps) et du suffix ${_.u} (tirer).`,
 })
 
-export const odufeodaolirkelikebaj = _.example(
-  [_.odu, _.fe, _.oda, _.olir, _.keli, _.kebaj],
+// Odu fe oda okelilir kebaj.
+export const odufeodaokelilirkebaj = _.example(
+  [_.odu, _.fe, _.oda, _.o, _.keli, _.lir, _.kebaj],
   `Viens sur moi, je vais te lécher les couilles.`
 )

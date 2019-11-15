@@ -1,6 +1,8 @@
 import * as _ from '.'
 
-export const ne = _.word('ne', { prefix: 'négation' })
+export const ne = _.word('ne', {
+  prefix: 'négation, monde des mots, transe commune',
+})
 
 export const inefeoda = _.example([_.i, _.ne, _.feoda], 'Enlève tes habits.')
 export const nefeoda = _.example(

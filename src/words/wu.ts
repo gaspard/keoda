@@ -1,9 +1,8 @@
 import * as _ from '.'
 
-xxxx // wu = est possédé
-xxxx // ?? = posséder
-export const wu = _.word('wu', { preposition: 'de (possédé par)' })
+export const wu = _.word('wu', { suffix: 'de (possédé par)' })
 export const diwu = _.word('diwu', { preposition: 'qui possède' })
+_.see(_.ta)
 
 // munwu Iris
 export const munwuIris = _.example([_.mun, _.wu, _.Iris], `Les seins d'Iris`)

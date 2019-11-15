@@ -6,6 +6,7 @@ export const pe = _.word('pe', {
   position: 'deux jambes et un anus (levrette) = mun',
 })
 _.see(_.pemaconj)
+_.see(_.counting)
 
 export const hamape = _.word('hamape', {
   noun: 'majeur (3ème doigt)',
@@ -13,13 +14,6 @@ export const hamape = _.word('hamape', {
     'levrette (mun): 2 jambes et 1 anus (indiquée par un signe de main: pouce contre majeur)',
 })
 
-// 1
-_.see(_.pi)
-// 2
-_.see(_.de)
-// 3
-_.see(_.pe)
-// 4
-_.see(_.ka)
-// 5
-_.see(_.lil)
+export const pene = _.word('pene', {
+  noun: 'isolement (oubli de "pa")',
+})

@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const pa = _.word('pa', {
-  noun: 'everywhere, everything',
+  noun: 'tout, le mystère',
 })
 
 export const lapa = _.example([_.la, _.pa], 'Parler (ta bouche partout).')

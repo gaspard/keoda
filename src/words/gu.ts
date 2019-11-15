@@ -22,3 +22,9 @@ export const guru = _.word('guru', {
   noun: 'réalisation des profondeurs',
   derived: [_.gu, _.ru],
 })
+
+export const gugai = _.word('gugai', {
+  noun: 'fertilité',
+  adj: 'fertile',
+  derived: [_.gu, _.gai],
+})

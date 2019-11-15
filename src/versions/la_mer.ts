@@ -9,9 +9,9 @@ Ils ont eu trop chaud, ils ont cuit une dernière fois dans le grand micro-onde 
 */
 
 // Ohe pal du lama,
-// lae ahelei [si] [belle], [si] diguwu, laesi guwuna.
+// lae ahelei eyu awi, eyu diguwu, laesi guwuna.
 // Lama ahelei lirana shu agowua, aupa lirana, guna lirana.
-// Lei ohe sen du lama shu lei awi [qui ont péri], shanegulem, shae sen [pour] nepa.
+// Lei ohe sen du lama shu lei awi di shaelem negu, shanegulem, sen shae ibu nepa.
 
 /*
 ==> si (belle)

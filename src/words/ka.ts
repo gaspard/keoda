@@ -8,6 +8,7 @@ export const ka = _.word('ka', {
   conj: 'tou.te.s',
 })
 _.see(_.kamaconj)
+_.see(_.counting)
 
 export const ika = _.word('ika', {
   pronoun: 'à toi, nous toutes et tous',
@@ -19,13 +20,6 @@ export const hamaka = _.word('hamaka', {
     'à quatre pattes (indiquée par un signe de main: pouce contre annulaire)',
 })
 
-// 1
-_.see(_.pi)
-// 2
-_.see(_.de)
-// 3
-_.see(_.pe)
-// 4
-_.see(_.ka)
-// 5
-_.see(_.lil)
+export const kane = _.word('kane', {
+  noun: 'doute (cœur mort)',
+})

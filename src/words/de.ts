@@ -7,6 +7,7 @@ export const de = _.word('de', {
   conj: 'nous deux',
 })
 _.see(_.demaconj)
+_.see(_.counting)
 
 export const demimunwe = _.example(
   [_.de, _.mi, _.munwe],
@@ -19,13 +20,6 @@ export const hamade = _.word('hamade', {
     'sur le dos les (2) jambes écartées (indiquée par un signe de main: pouce contre index)',
 })
 
-// 1
-_.see(_.pi)
-// 2
-_.see(_.de)
-// 3
-_.see(_.pe)
-// 4
-_.see(_.ka)
-// 5
-_.see(_.lil)
+export const dene = _.word('dene', {
+  noun: 'vie sans temps (pas de mémoire)',
+})

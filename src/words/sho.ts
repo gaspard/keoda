@@ -7,7 +7,8 @@ export const sho = _.word('sho', {
 })
 _.see(_.shomaconj)
 
+// dem ofa noa osho
 export const eliofanoaosho = _.example(
-  [_.eli, _.o, _.fa, _.noa, _.o, _.sho],
+  [_.dem, _.o, _.fa, _.noa, _.o, _.sho],
   'Quand je vois ta peau, je salive.'
 )
