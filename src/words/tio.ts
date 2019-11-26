@@ -1,6 +1,9 @@
 import * as _ from '.'
 
-export const tio = _.word('tio', { noun: `genitals`, verb: `faire l'amour` })
+export const tio = _.word('tio', {
+  noun: `genitals`,
+  verb: `faire l'amour`,
+})
 
 export const tiona = _.word('tiona', {
   noun: 'flower (genital thing)',

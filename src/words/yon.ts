@@ -12,3 +12,6 @@ export const mukeyon = _.example([_.mu, _.keyon], `Pince-moi le clitoris.`)
 export const feyon = _.word('feyon', { noun: 'culotte' })
 
 _.see(_.nemafeyon)
+
+_.see(_.yaj)
+_.see(_.keyon)

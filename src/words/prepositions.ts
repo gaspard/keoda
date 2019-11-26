@@ -20,7 +20,8 @@ _.see(_.di)
 // Que
 _.see(_.eku)
 // Iris, que tu as caressée
-// Iris eku imilemairu e.
+// Iris eku imilema.
+;[_.Iris, _.eku, _.i, _.mi, _.lema]
 // Ainsi, pour que
 _.see(_.esi)
 // Comme

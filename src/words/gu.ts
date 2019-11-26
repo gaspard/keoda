@@ -3,10 +3,22 @@ import * as _ from '.'
 export const gu = _.word('gu', {
   adj: 'obscurité, gestation, profondeur',
   prefix: 'profondeur',
+  desc: () =>
+    `On peut voir ${_.gu} comme le mouvement de l'esprit ${_.ga} (esprit) ${_.u} (tiré)`,
 })
 
 export const guna = _.word('guna', {
   noun: 'vie',
+})
+
+export const guo = _.word('guo', {
+  verb: 'mourir',
+  derived: [_.gu, _.o],
+})
+
+export const gui = _.word('gui', {
+  verb: 'naître',
+  derived: [_.gu, _.i],
 })
 
 export const guwu = _.word('guwu', {
@@ -28,3 +40,14 @@ export const gugai = _.word('gugai', {
   adj: 'fertile',
   derived: [_.gu, _.gai],
 })
+
+export const augu = _.word('augu', {
+  adj: 'confiance',
+  derived: [_.au, _.gu],
+})
+
+export const negu = _.word('negu', {
+  noun: `l'agitation, vouloir changer, changer le monde, chercher la perfection pour ne plus rien sentir, la dissociation`,
+  desc: () => `C'est l'inverse de la confiance: ${_.augu}`,
+})
+_.see(_.shipa)

@@ -6,7 +6,8 @@ export const au = _.word('au', {
 })
 
 export const aupa = _.example([_.au, _.pa], 'Gratitude (aimer tout).')
-_.see(_.paau)
+_.see(_.pahau)
+_.see(_.kupa)
 
 _.see(_.miau)
 

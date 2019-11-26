@@ -5,3 +5,4 @@ export const ul = _.word('ul', {
   desc: () => `Tirer jusqu'à une forme d'événement, de rupture, de changement.`,
 })
 _.see(_.preposition)
+_.see(_.ulu)

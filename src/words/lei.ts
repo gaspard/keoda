@@ -9,6 +9,11 @@ export const lei = _.word('lei', {
 _.see(_.lem)
 _.see(_.lir)
 
+export const gulei = _.word('gulei', {
+  noun: "le temps de l'expérience",
+})
+_.see(_.guda)
+
 export const elei = _.word('elei', {
   preposition: 'toujours (pas usité, on utilise lau)',
 })

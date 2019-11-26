@@ -6,3 +6,4 @@ export const awi = _.word('awi', {
   adj: 'belle/beau',
 })
 _.see(_.fawulama)
+_.see(_.munawi)

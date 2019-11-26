@@ -23,3 +23,8 @@ export const lahaumundom = _.example(
   [_.la, _.hamun, _.dom],
   `Embrasse-moi les tétons bien fort.`
 )
+
+export const munawi = _.word('munawi', {
+  noun: 'lune',
+  derived: [_.mun, _.awi],
+})

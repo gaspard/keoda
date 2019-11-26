@@ -7,3 +7,4 @@ _.see(_.counting)
 export const shipa = _.word('shipa', {
   noun: 'croire',
 })
+_.see(_.negu)

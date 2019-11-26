@@ -1,6 +1,17 @@
 import * as _ from '.'
 
-export const pal = _.word('pal', { noun: 'fesses' })
+export const pal = _.word('pal', {
+  noun: 'fesses',
+})
+
+export const palaj = _.word('palaj', {
+  noun: 'soleil (fesses de feu)',
+})
+
+export const palajil = _.word('palajil', {
+  noun: 'abricot, juillet',
+  derived: [_.palaj, _.lil],
+})
 
 export const kepal = _.word('kepal', {
   noun: 'anus',
