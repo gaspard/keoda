@@ -12,6 +12,7 @@ export const palajil = _.word('palajil', {
   noun: 'abricot, juillet',
   derived: [_.palaj, _.lil],
 })
+_.see(_.fruits)
 
 export const kepal = _.word('kepal', {
   noun: 'anus',

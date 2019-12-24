@@ -34,19 +34,7 @@ export const counting = _.example(
 export const djipi = _.example([_.ipi, _.pi], `11`)
 export const deipika = _.example([_.de, _.ipi, _.ka], `24`)
 export const peipalilipida = _.example([_.pe, _.ipa, _.lil, _.ipi, _.da], `359`)
+
 export const deipudjida = _.example([_.de, _.ipu, _.dji, _.da], '2019')
-export const echelleDuNeant = _.example(
-  [
-    _.djipa,
-    _.dapa,
-    _.jepa,
-    _.fepa,
-    _.shipa,
-    _.lile,
-    _.kane,
-    _.pene,
-    _.dene,
-    _.pine,
-  ],
-  'échelle du néant (nepa)'
-)
+
+_.see(_.scale)

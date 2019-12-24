@@ -20,6 +20,7 @@ export const hamade = _.word('hamade', {
     'sur le dos les (2) jambes écartées (indiquée par un signe de main: pouce contre index)',
 })
 
-export const dene = _.word('dene', {
-  noun: 'vie sans temps (pas de mémoire)',
+export const nede = _.word('nede', {
+  noun: 'vie sans temps (stress, pas de mémoire)',
 })
+_.see(_.scale)

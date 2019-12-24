@@ -1,5 +1,5 @@
 Keoda is spoken in the land of the wet flowers ( tio: genital -
-thing (a) - wet (lo) - place (da): Tioa loda ), a country where the notion of dream
+thing (a) - wet (lo) - place (da): Tionaloda ), a country where the notion of dream
 (gais) and and responsability for the dream we create is taken very
 seriously.
 

@@ -90,14 +90,21 @@ export function baseDefinition(wo: Word) {
 }
 
 export function printWords() {
+  let derived = 0
   const data = Object.keys(words)
     .filter(key => !words[key].person)
     .sort()
     .map((key, idx) => {
       const wo = words[key]
+      if (wo.derived) {
+        derived += 1
+      }
       const description = wo.desc ? wo.desc().slice(0, 50) : undefined
       return { name: wo.name, definition: baseDefinition(wo), description }
     })
+  const count = Object.keys(data).length
   console.log(columnify(data))
-  console.log('[COUNT]', Object.keys(words).length)
+  console.log('[COUNT]', count)
+  console.log('[ROOTS]', count - derived)
+  console.log('[DERIV]', derived)
 }

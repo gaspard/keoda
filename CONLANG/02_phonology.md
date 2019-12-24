@@ -21,7 +21,10 @@ Inside a word, when two consonants meet like in
 taj-hem and they are not allowed (see bellow), we add an "a" as in tajahem, munahem or we
 remove the coda as in "tahem" or the onset as in "lemir" (instead of "lemlir")
 
-Two consonnants are not allowed except for (open consonants j, r, n, m) before l (because they are like vowels and they open with the l) and 'dj' because it is fun.
+Two consonnants in a row are not allowed if they produce a stop. In this
+case, we add an 'a' between them. Example: alayin instead of alyin.
+
+This rule is simpl
 
 ## Consonants
 
@@ -29,8 +32,8 @@ p (pal) / b (baj)
 t (tar) / d (oda)
 k (ke) / g (gais)
 f (fa)
-m
-n
+m (mun)
+n (no)
 r (lir, pomodoro)
 s (sat)
 ʃ (shasha) / ʒ (j as in "jeanne")

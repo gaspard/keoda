@@ -7,8 +7,13 @@ export const ku = _.word('ku', {
 
 export const kupa = _.word('kupa', {
   desc: () =>
-    `Tout attacher, relation marchande au monde, "faire pour", opposé de ${_.aupa}.`,
+    `Tout attacher, relation marchande au monde, "faire pour", opposé de ${_.gupi} ou ${_.aupa}.`,
   derived: [_.ku, _.pa],
+})
+
+export const nekupa = _.word('nekupa', {
+  noun: 'lâcher prise, ne pas attacher tout',
+  derived: [_.ne, _.kupa],
 })
 
 export const kulei = _.word('kulei', {

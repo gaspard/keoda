@@ -12,3 +12,9 @@ export const eyu = _.word('eyu', {
 })
 
 _.see(_.yon)
+
+export const yuina = _.word('yuina', {
+  noun: 'fruit',
+  derived: [_.yu, _.in, _.na],
+})
+_.see(_.fruits)

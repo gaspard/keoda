@@ -4,6 +4,7 @@ export const lam = _.word('lam', {
   verb: 'laver',
   noun: 'eau',
 })
+_.see(_.lamon)
 
 export const ilamoda = _.example([_.i, _.lam, _.oda], `Lave-toi le corps.`)
 
@@ -31,4 +32,13 @@ export const lami = _.word('lami', {
 export const lamioda = _.word('lamioda', {
   noun: 'serpent',
   derived: [_.lami, _.oda],
+})
+
+export const lamoa = _.word('lamoa', {
+  noun: 'source (lieu)',
+  derived: [_.lam, _.on, _.da],
+})
+
+export const lamu = _.word('lamu', {
+  verb: 'boire',
 })

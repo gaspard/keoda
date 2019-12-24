@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const se = _.word('se', {
-  adj: 'gauche',
+  suffix: 'gauche',
   desc: () => 'Inspiré de est (on regarde le sud).',
 })
 _.see(_.hase)

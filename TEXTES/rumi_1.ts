@@ -1,4 +1,4 @@
-import * as _ from '../words'
+import * as _ from '../src/words'
 
 export const rumyPoem = [
   [_.ne, _.falo, _.lau, _.o, _.neoda],

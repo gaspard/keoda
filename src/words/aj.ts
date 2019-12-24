@@ -5,5 +5,10 @@ export const aj = _.word('aj', {
   verb: 'brûler',
 })
 
+export const ajapi = _.word('ajapi', {
+  noun: 'calcination de soi, transformation totale',
+  derived: [_.aj, _.pi],
+})
+
 _.see(_.naj)
 _.see(_.lilaj)

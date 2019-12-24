@@ -14,3 +14,4 @@ export const ponalil = _.word('ponalil', {
 })
 
 _.see(_.seasons)
+_.see(_.fruits)

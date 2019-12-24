@@ -31,14 +31,25 @@ export const enopishusamdur = _.example(
   `Mets-toi sur le dos, les pieds contre ma nuque.`
 )
 
-export const hadu = _.word('hadu', { noun: 'visage' })
-_.see(_.du)
+export const duha = _.word('duha', {
+  noun: 'visage',
+  derived: [_.du, _.ha],
+})
 
-export const hawe = _.word('hawe', { noun: 'joue droite' })
+export const hawe = _.word('hawe', {
+  noun: 'joue droite',
+  derived: [_.ha, _.we],
+})
 _.see(_.we)
 
-export const hase = _.word('hase', { noun: 'joue gauche' })
+export const hase = _.word('hase', {
+  noun: 'joue gauche',
+  derived: [_.ha, _.se],
+})
 _.see(_.se)
 
-export const hano = _.word('hano', { noun: 'occiput (dos de la tête)' })
+export const noha = _.word('noha', {
+  noun: 'occiput (dos de la tête)',
+  derived: [_.no, _.ha],
+})
 _.see(_.no)

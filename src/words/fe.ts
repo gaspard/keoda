@@ -1,9 +1,19 @@
 import * as _ from '.'
 
-export const fe = _.word('fe', { noun: '7', prefix: 'sur' })
+export const fe = _.word('fe', {
+  noun: '7 (sur)',
+  prefix: 'sur',
+})
 _.see(_.counting)
+_.see(_.faj)
 
-export const feo = _.word('feo', { adv: 'sur moi' })
+export const fena = _.word('fena', {
+  noun: 'choux (couches), février',
+})
+
+export const feo = _.word('feo', {
+  adv: 'sur moi',
+})
 
 export const feoda = _.word('feoda', {
   noun: 'habits',
@@ -22,3 +32,4 @@ _.see(_.nemafeyon)
 export const fepa = _.word('fepa', {
   noun: 'fierté',
 })
+_.see(_.scale)

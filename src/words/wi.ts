@@ -11,3 +11,4 @@ export const wiyon = _.word('wiyon', {
 })
 
 _.see(_.seasons)
+_.see(_.fruits)

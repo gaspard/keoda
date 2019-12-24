@@ -47,3 +47,8 @@ export const mafa = _.example(
   'Montre ta main (ta main dans nos yeux).'
 )
 _.see(_.fama)
+
+export const malam = _.word('malam', {
+  noun: "maman (la main de l'eau)",
+  derived: [_.ma, _.lam],
+})

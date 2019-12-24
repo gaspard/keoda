@@ -1,4 +1,4 @@
-import * as _ from '../words'
+import * as _ from '../src/words'
 
 /*
 On est là face à la mer, la mer qui a toujours été si belle, si généreuse, comme un don

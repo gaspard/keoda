@@ -6,6 +6,11 @@ export const fa = _.word('fa', {
   desc: () =>
     `Lorsqu’on utilise les yeux comme "récépteurs" d'un geste, ça veut dire montrer sauf si on utilise un des suffixes comme (${_.i}, ${_.u} ou ${_.o}). Par exemple ${_.mafa} versus ${_.mifa}.`,
 })
+_.see(_.fatio)
+export const gufa = _.word('gufa', {
+  noun: "pupille (vie de l'oeil)",
+  derived: [_.gu, _.fa],
+})
 
 export const fama = _.example([_.fa, _.ma], 'Regarde ma main.')
 export const falo = _.word('falo', {

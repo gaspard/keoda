@@ -11,8 +11,9 @@ _.see(_.lamagoa)
 _.see(_.goa)
 
 export const dapa = _.word('dapa', {
-  noun: 'joie, émotion',
+  noun: 'joie, émotion complexe',
 })
+_.see(_.scale)
 
 export const guda = _.word('guda', {
   noun: "le lieu de l'expérience",

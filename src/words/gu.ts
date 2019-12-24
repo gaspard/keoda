@@ -6,10 +6,12 @@ export const gu = _.word('gu', {
   desc: () =>
     `On peut voir ${_.gu} comme le mouvement de l'esprit ${_.ga} (esprit) ${_.u} (tiré)`,
 })
+_.see(_.gufi)
 
 export const guna = _.word('guna', {
   noun: 'vie',
 })
+_.see(_.gufa)
 
 export const guo = _.word('guo', {
   verb: 'mourir',
@@ -20,6 +22,7 @@ export const gui = _.word('gui', {
   verb: 'naître',
   derived: [_.gu, _.i],
 })
+_.see(_.iwigui)
 
 export const guwu = _.word('guwu', {
   verb: 'donner',
@@ -51,3 +54,7 @@ export const negu = _.word('negu', {
   desc: () => `C'est l'inverse de la confiance: ${_.augu}`,
 })
 _.see(_.shipa)
+
+export const guyuina = _.word('guyuina', {
+  noun: 'pomme (le fruit de la vie)',
+})

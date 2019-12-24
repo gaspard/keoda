@@ -14,6 +14,7 @@ export const hamape = _.word('hamape', {
     'levrette (mun): 2 jambes et 1 anus (indiquée par un signe de main: pouce contre majeur)',
 })
 
-export const pene = _.word('pene', {
+export const nepe = _.word('nepe', {
   noun: 'isolement (oubli de "pa")',
 })
+_.see(_.scale)

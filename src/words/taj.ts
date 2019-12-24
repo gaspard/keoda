@@ -3,7 +3,19 @@ import * as _ from '.'
 export const taj = _.word('taj', {
   noun: 'pénis',
   verb: 'pénétrer avec le pénis',
+  derived: [_.ta, _.aj],
 })
+
+export const tajin = _.word('tajin', {
+  noun: 'pénis chaud, en érection',
+  derived: [_.taj, _.in],
+})
+
+export const tajegi = _.word('tajegi', {
+  noun: 'pénis froid, au repos',
+  derived: [_.taj, _.egi],
+})
+_.see(_.genitals)
 
 export const toda = _.word('toda', { noun: 'personne avec un pénis' })
 

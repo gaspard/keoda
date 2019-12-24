@@ -4,9 +4,7 @@ export const pa = _.word('pa', {
   noun: 'tout, le mystère',
 })
 
-export const lapa = _.word('lapa', {
-  verb: 'parler (les lèvres partout)',
-})
+_.see(_.lapa)
 
 export const pahau = _.word('pahau', {
   verb: 'pardonner (tout recevoir)',
@@ -18,9 +16,9 @@ export const paoda = _.word('paoda', {
   pronoun: 'tou.te.s',
 })
 
-// ohora de inefe.
-export const ohoradeinefe = _.example(
-  [_.o, _.ora, _.de, _.i, _.nefe],
+// ohora eku inefe.
+export const ohoraekuinefe = _.example(
+  [_.o, _.ora, _.eku, _.i, _.nefe],
   `J'aime que tu sois nue.`
 )
 

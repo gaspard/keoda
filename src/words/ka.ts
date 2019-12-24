@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const ka = _.word('ka', {
-  noun: '4',
+  noun: '4 (singularité)',
   pronoun: 'tous',
   suffix: 'tous',
   position: 'à quatre pattes',
@@ -20,6 +20,8 @@ export const hamaka = _.word('hamaka', {
     'à quatre pattes (indiquée par un signe de main: pouce contre annulaire)',
 })
 
-export const kane = _.word('kane', {
-  noun: 'doute (cœur mort)',
+export const neka = _.word('neka', {
+  noun: 'honte',
+  derived: [_.ne, _.ka],
 })
+_.see(_.scale)

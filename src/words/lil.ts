@@ -4,7 +4,6 @@ export const lil = _.word('lil', {
   adj: 'petit.e',
   noun: '5',
   suffix: 'petit.e',
-  position: '(fen) sur moi: 4 membres et 1 sexe',
 })
 _.see(_.peulil)
 _.see(_.counting)
@@ -20,6 +19,7 @@ export const lilaj = _.word('lilaj', {
   desc: () => `De ${_.lil} petit et ${_.aj} feu.`,
 })
 
-export const lile = _.word('lile', {
+export const nelil = _.word('nelil', {
   noun: 'confusion',
 })
+_.see(_.scale)

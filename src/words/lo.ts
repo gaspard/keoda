@@ -2,7 +2,12 @@ import * as _ from '.'
 
 export const lo = _.word('lo', {
   noun: 'soumise',
-  adj: 'soumis-e,humide',
+  adj: 'soumis-e,humide, qui reçoit',
+})
+
+export const loru = _.word('loru', {
+  noun: 'devenir petit.e (se soumettre)',
+  adj: 'humilité',
 })
 
 export const silo = _.word('silo', {

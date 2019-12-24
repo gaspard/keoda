@@ -1,10 +1,11 @@
 import * as _ from '.'
 
 export const no = _.word('no', {
-  adj: 'derrière',
+  prefix: 'derrière',
   desc: () => 'Inspiré de nord (on regarde le sud)',
 })
-_.see(_.hano)
+_.see(_.noha)
+_.see(_.noyin)
 
 // devant
 _.see(_.du)
@@ -33,3 +34,8 @@ export const djonopi = _.word('djonopi', {
 })
 
 _.see(_.enopisamdjobajom)
+
+export const noyin = _.word('noyin', {
+  noun: `fond du vagin (col de l'utérus)`,
+  derived: [_.no, _.yin],
+})

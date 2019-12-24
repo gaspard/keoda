@@ -1,10 +1,10 @@
 import * as _ from '.'
 
 export const du = _.word('du', {
-  adj: 'devant',
+  prefix: 'devant',
   desc: () => 'Inspiré de sud (on regarde le sud).',
 })
-_.see(_.hadu)
+_.see(_.duha)
 
 // devant
 _.see(_.du)
@@ -24,4 +24,9 @@ export const dutoda = _.word('dutoda', {
 })
 export const duyoda = _.word('duyoda', {
   noun: 'grande soeur',
+})
+
+export const duyin = _.word('duyin', {
+  noun: 'avant du vagin',
+  derived: [_.du, _.yin],
 })
