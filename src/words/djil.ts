@@ -6,6 +6,11 @@ export const djil = _.word('djil', {
     'debout, le corps penché en avant, les cheveux offerts, prêts à être pris.',
 })
 
+export const djoda = _.word('djoda', {
+  noun: 'ours',
+  derived: [_.djil, _.oda],
+})
+
 export const edjil = _.example(
   [_.e, _.djil],
   `Tiens-toi en position djil, les cheveux offerts.`

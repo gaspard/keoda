@@ -17,14 +17,12 @@ All syllables are open (ending with a vowel or voiced consonant like j, r, n, m 
 Basically you need to be able to siiiiiiiing a long ending on every vowel as
 this is heavily used to stress words and help avoid ambiguity.
 
+Two consonnants in a row are not allowed if they produce a stop. In this
+case, we add an 'a' between them. Example: alayin instead of alyin. But najlo works.
+
 Inside a word, when two consonants meet like in
 taj-hem and they are not allowed (see bellow), we add an "a" as in tajahem, munahem or we
 remove the coda as in "tahem" or the onset as in "lemir" (instead of "lemlir")
-
-Two consonnants in a row are not allowed if they produce a stop. In this
-case, we add an 'a' between them. Example: alayin instead of alyin.
-
-This rule is simpl
 
 ## Consonants
 

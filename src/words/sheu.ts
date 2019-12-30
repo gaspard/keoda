@@ -12,3 +12,8 @@ export const sheulama = _.word('sheulama', {
   verb: 'plongée sous marine',
   derived: [_.sheu, _.lama],
 })
+
+export const shegul = _.word('shegul', {
+  noun: 'cochon',
+  derived: [_.sheu, _.gol],
+})

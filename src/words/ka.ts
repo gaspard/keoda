@@ -25,3 +25,14 @@ export const neka = _.word('neka', {
   derived: [_.ne, _.ka],
 })
 _.see(_.scale)
+
+export const karu = _.word('karu', {
+  verb: 'choisir (la réalisation du singulier en soi)',
+  derived: [_.ka, _.ru],
+})
+_.see(_.ligau)
+
+export const koda = _.word('koda', {
+  noun: 'cow',
+  derived: [_.ka, _.oda],
+})

@@ -1,8 +1,12 @@
 import * as _ from '.'
 
 export const lo = _.word('lo', {
-  noun: 'soumise',
-  adj: 'soumis-e,humide, qui reçoit',
+  noun: 'soumis.e, humide, qui reçoit',
+})
+
+export const loda = _.word('loda', {
+  noun: 'personne soumis.e',
+  derived: [_.lo, _.oda],
 })
 
 export const loru = _.word('loru', {

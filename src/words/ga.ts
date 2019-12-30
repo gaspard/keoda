@@ -38,10 +38,15 @@ export const kegai = _.word('kegai', {
 _.see(_.ohenurlilajkegai)
 
 export const gau = _.word('gau', {
-  noun: 'attention',
-  desc: () => `esprit tiré`,
+  noun: 'attention (esprit tiré)',
+  derived: [_.gau, _.u],
 })
 _.see(_.gai)
+
+export const gao = _.word('gao', {
+  noun: 'attention (esprit projeté)',
+  derived: [_.ga, _.o],
+})
 
 export const kuga = _.word('kuga', {
   noun: "la pensée causale, l'esprit de victime",

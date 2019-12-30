@@ -5,6 +5,10 @@ export const au = _.word('au', {
   verb: 'aimer/recevoir',
 })
 
+export const auhu = _.word('auhu', {
+  noun: 'tomber amoureux.se, attraction du cœur',
+})
+
 export const aupa = _.example([_.au, _.pa], 'Gratitude (aimer tout).')
 _.see(_.pahau)
 _.see(_.kupa)

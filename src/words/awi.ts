@@ -7,3 +7,8 @@ export const awi = _.word('awi', {
 })
 _.see(_.fawulama)
 _.see(_.munawi)
+
+export const mawi = _.word('mawi', {
+  noun: 'dauphin',
+  derived: [_.mun, _.awi],
+})

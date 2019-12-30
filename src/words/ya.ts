@@ -17,3 +17,8 @@ export const yaonagi = _.word('yaonagi', {
 })
 
 _.see(_.yogi)
+
+export const iwa = _.word('iwa', {
+  noun: 'hibou',
+  derived: [_.iwi, _.ya],
+})

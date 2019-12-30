@@ -5,8 +5,29 @@ export const la = _.word('la', {
   verb: 'embrasser',
 })
 
+export const kela = _.word('kela', {
+  noun: 'dent',
+  derived: [_.ke, _.la],
+})
+
 export const lapa = _.word('lapa', {
   verb: 'parler (les lèvres partout)',
+  derived: [_.la, _.pa],
+})
+
+export const lapalapa = _.word('lapalapa', {
+  noun: 'canard',
+  derived: [_.lapa, _.lapa],
+})
+
+export const kada = _.word('kada', {
+  noun: 'crocodile',
+  derived: [_.kela, _.oda],
+})
+
+export const kawi = _.word('kawi', {
+  noun: 'requin',
+  derived: [_.kela, _.awi],
 })
 
 export const lapir = _.word('lapir', {

@@ -9,6 +9,11 @@ export const de = _.word('de', {
 _.see(_.demaconj)
 _.see(_.counting)
 
+export const deda = _.word('deda', {
+  noun: 'toi',
+})
+_.see(_.pida)
+
 export const demimunwe = _.example(
   [_.de, _.mi, _.munwe],
   `Nous deux allons caresser le sein droite (à toi).`

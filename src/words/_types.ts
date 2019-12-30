@@ -100,7 +100,7 @@ export function printWords() {
         derived += 1
       }
       const description = wo.desc ? wo.desc().slice(0, 50) : undefined
-      return { name: wo.name, definition: baseDefinition(wo), description }
+      return { name: wo.name, definition: baseDefinition(wo) }
     })
   const count = Object.keys(data).length
   console.log(columnify(data))

@@ -52,3 +52,8 @@ export const malam = _.word('malam', {
   noun: "maman (la main de l'eau)",
   derived: [_.ma, _.lam],
 })
+
+export const miwi = _.word('miwi', {
+  noun: 'papillon',
+  derived: [_.mi, _.iwi],
+})
