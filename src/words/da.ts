@@ -5,6 +5,7 @@ export const da = _.word('da', {
   suffix: 'lieu',
 })
 _.see(_.counting)
+_.see(_.sen)
 
 _.see(_.lama)
 _.see(_.lamagoa)

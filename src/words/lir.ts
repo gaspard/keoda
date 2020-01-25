@@ -51,7 +51,7 @@ export const ofalirmun = _.example(
 
 // Omalir tajwu pi.
 export const olirimataj = _.example(
-  [_.o, _.ma, _.lir, _.taj, _.wu, _.pi],
+  [_.o, _.ma, _.lir, _.taj, _.topi],
   `On va se masturber (chacun pour soi).`
 )
 _.see(_.lau)

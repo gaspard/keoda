@@ -2,6 +2,7 @@ import * as _ from '.'
 
 export const naj = _.word('naj', {
   noun: 'frisson, nuage',
+  verb: 'frissonner',
 })
 
 export const najlo = _.word('najlo', {

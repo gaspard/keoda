@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const ka = _.word('ka', {
-  noun: '4 (singularité)',
+  noun: '4 (singularité, qui ne peut pas être pensé)',
   pronoun: 'tous',
   suffix: 'tous',
   position: 'à quatre pattes',

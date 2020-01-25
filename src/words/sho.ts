@@ -12,3 +12,8 @@ export const eliofanoaosho = _.example(
   [_.dem, _.o, _.fa, _.noa, _.o, _.sho],
   'Quand je vois ta peau, je salive.'
 )
+
+export const shoda = _.word('shoda', {
+  noun: 'nous',
+})
+_.see(_.pida)

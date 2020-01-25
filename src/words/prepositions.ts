@@ -13,8 +13,10 @@ _.see(_.lau)
 // Jusqu'à
 _.see(_.ul)
 _.see(_.ulei)
-// Quand
+// Quand (passé, lieu vécu)
 _.see(_.dem)
+// Quand (future, lieu du future)
+_.see(_.dir)
 // Qui
 _.see(_.di)
 // Que
@@ -35,3 +37,16 @@ _.see(_.ibu)
 _.see(_.shu)
 // Ou
 _.see(_.uma)
+
+// Dans
+_.see(_.roa)
+// Dehors
+_.see(_.ria)
+// Avec
+_.see(_.ko)
+// Sur
+
+// Interne
+_.see(_.ro)
+// Externe
+_.see(_.ri)

@@ -8,6 +8,16 @@ export const gu = _.word('gu', {
 })
 _.see(_.gufi)
 
+export const gulir = _.word('gulir', {
+  noun: 'souhaiter (gu du future)',
+  derived: [_.gu, _.lir],
+})
+
+export const gulem = _.word('gulem', {
+  noun: 'se souvenir (gu du passé)',
+  derived: [_.gu, _.lem],
+})
+
 export const guna = _.word('guna', {
   noun: 'vie',
 })

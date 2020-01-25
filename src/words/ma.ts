@@ -7,6 +7,7 @@ export const ma = _.word('ma', {
 Voir aussi les exceptions liées au suffixes ${_.i} (masser, caresser), ${_.o} (frapper, faire mal) et ${_.u} (tirer, pincer): ${_.mi}, ${_.mo}, ${_.mu}. On peut aussi utiliser la négation ${_.nema} (lâcher).
 `,
 })
+_.see(_.mahim)
 
 export const hama = _.word('hama', {
   noun: 'doigt',

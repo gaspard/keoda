@@ -3,7 +3,7 @@ import * as _ from '.'
 export const taj = _.word('taj', {
   noun: 'pénis',
   verb: 'pénétrer avec le pénis',
-  derived: [_.ta, _.aj],
+  derived: [_.te, _.aj],
 })
 
 export const tajin = _.word('tajin', {

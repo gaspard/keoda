@@ -3,6 +3,7 @@ import * as _ from '.'
 export const fe = _.word('fe', {
   noun: '7 (sur)',
   prefix: 'sur',
+  verb: 'être sur',
 })
 _.see(_.counting)
 _.see(_.faj)

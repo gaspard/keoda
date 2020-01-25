@@ -1,6 +1,5 @@
 import * as _ from '.'
 
-// Quel est le sens réel de ce mot ?
 export const em = _.word('em', {
   noun: 'le vécu',
   verb: 'vivre',

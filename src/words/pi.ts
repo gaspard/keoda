@@ -15,6 +15,8 @@ export const pida = _.word('poda', {
   noun: 'moi',
 })
 _.see(_.deda)
+_.see(_.shoda)
+// NB: "on" serait "oda" mais on utilise souvent pida ou shoda à la place.
 
 export const papi = _.word('papi', {
   noun: 'sagesse (tout écho en soi)',
@@ -24,6 +26,11 @@ export const papi = _.word('papi', {
 export const pipa = _.word('pipa', {
   noun: 'innocence (soi partout)',
   derived: [_.pi, _.pa],
+})
+
+export const pinu = _.word('pinu', {
+  noun: 'seul (le soi brodé)',
+  derived: [_.pi, _.nu],
 })
 
 export const aupi = _.word('aupi', {

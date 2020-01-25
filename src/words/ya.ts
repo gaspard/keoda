@@ -22,3 +22,13 @@ export const iwa = _.word('iwa', {
   noun: 'hibou',
   derived: [_.iwi, _.ya],
 })
+
+export const yafa = _.word('yafa', {
+  verb: 'rêver (la nuit voit)',
+  derived: [_.ya, _.fa],
+})
+
+export const yadifa = _.word('yafana', {
+  noun: 'rêve (la nuit qui voit)',
+  derived: [_.ya, _.di, _.na],
+})

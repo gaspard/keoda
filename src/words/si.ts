@@ -7,6 +7,11 @@ export const si = _.word('si', {
 })
 _.see(_.preposition)
 
+export const sigu = _.word('sigu', {
+  noun: 'sombre (comme le mystère)',
+  derived: [_.si, _.gu],
+})
+
 export const tajyonsitioa = _.example(
   [_.taj, _.yon, _.si, _.tiona],
   `Pénètre ma vulve comme si c'était une fleur.`

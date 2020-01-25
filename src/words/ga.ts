@@ -52,3 +52,8 @@ export const kuga = _.word('kuga', {
   noun: "la pensée causale, l'esprit de victime",
   derived: [_.ku, _.ga],
 })
+
+export const nega = _.word('nega', {
+  noun: 'fou (sans esprit)',
+  derived: [_.ne, _.ga],
+})

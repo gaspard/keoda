@@ -13,7 +13,7 @@ import * as _ from '.'
 
 // être aimé.e ?
 export const pehaukawupi = _.example(
-  [_.pe, _.au, _.ka, _.wu, _.pi],
+  [_.pe, _.au, _.ka, _.topi],
   `Être aimé.e pour soi`
 )
 

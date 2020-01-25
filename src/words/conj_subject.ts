@@ -39,3 +39,6 @@ export const pemaconj = _.example([_.pe, _.ma], 'quelques-un.e.s massent')
 
 // 7p   tout.e.s              ka  -ma
 export const kamaconj = _.example([_.ka, _.ma], 'tou.te.s massent')
+
+// à xxx, wuo, wui, wua, etc
+_.see(_.wu)

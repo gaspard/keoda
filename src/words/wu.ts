@@ -1,6 +1,11 @@
 import * as _ from '.'
 
 export const wu = _.word('wu', { suffix: 'de (possédé par)' })
+
+_.see(_.ti)
+_.see(_.to)
+_.see(_.ta)
+
 export const diwu = _.word('diwu', { preposition: 'qui possède' })
 _.see(_.su)
 
