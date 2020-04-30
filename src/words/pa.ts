@@ -4,7 +4,12 @@ export const pa = _.word('pa', {
   noun: 'tout, le mystère',
 })
 
+export const pali = _.word('pali', {
+  noun: 'enchanter (chanter de dedans)',
+})
+
 _.see(_.lapa)
+_.see(_.lipa)
 
 export const pahau = _.word('pahau', {
   verb: 'pardonner (tout recevoir)',

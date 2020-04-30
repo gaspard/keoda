@@ -12,6 +12,7 @@ export const loda = _.word('loda', {
 export const loru = _.word('loru', {
   noun: 'devenir petit.e (se soumettre)',
   adj: 'humilité',
+  derived: [_.lo, _.ru],
 })
 
 export const silo = _.word('silo', {

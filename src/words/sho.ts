@@ -13,6 +13,11 @@ export const eliofanoaosho = _.example(
   'Quand je vois ta peau, je salive.'
 )
 
+export const onsho = _.word('onsho', {
+  noun: 'sucre, récompense',
+  derived: [_.on, _.sho],
+})
+
 export const shoda = _.word('shoda', {
   noun: 'nous',
 })

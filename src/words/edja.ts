@@ -2,6 +2,7 @@ import * as _ from '.'
 
 export const edja = _.word('edja', {
   preposition: 'interrogation (ou affirmative)',
+  derived: [_.e, _.dja],
 })
 
 export const nedja = _.word('nedja', {

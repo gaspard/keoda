@@ -15,7 +15,7 @@ const poem = [
   [_.ohaulem, _.sen],
   [_.olem, _.noa, _.noa],
   [_.olem, _.ohau, _.au],
-  [_.au, _.au],
+  [_.edja, _.keiau, _.au], // ?
   //
   [_.tilaj, _.ahe, _.ko, _.sheo, _.nega],
   [_.tifa, _.shahe, _.ko, _.lami, _.fe, _.noato],

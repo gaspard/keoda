@@ -21,3 +21,5 @@ export const yohon = _.word('yohon', {
   noun: 'lever du jour',
   derived: [_.yo, _.on],
 })
+
+_.see(_.onsho)

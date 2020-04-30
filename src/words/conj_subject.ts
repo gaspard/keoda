@@ -1,6 +1,22 @@
 // https://medium.com/keoda/du-plaisir-des-conjugaisons-df444756dfc0
 import * as _ from '.'
 
+// 1sp   on                   o   -ma
+// 2s   tu (impératif)            -ma
+// 2s   tu                    i   -ma
+// 3s   iel                   a   -ma
+// 1p   nous tous présents    sho -ma
+// 2p   vous                  shi -ma
+// 3p   iels                  sha -ma
+
+// ====== Et les conjugaisons plus rares
+// 2h   tu honorifique        kei -ma
+// 2x   tu dépravé.e          yi  -ma
+// 1s   je                    pi  -ma
+// 5p   nous deux             de  -ma
+// 6p   quelques              pe  -ma
+// 7p   tout.e.s              ka  -ma
+
 // ====== ON, très important
 // 1sp   on                   o   -ma
 export const omaconj = _.example([_.o, _.ma], 'on masse')
@@ -25,7 +41,7 @@ export const shamaconj = _.example([_.sha, _.ma], 'iels massent')
 // 2h   tu honorifique        kei -ma
 export const keimaconj = _.example([_.kei, _.ma], 'je masse')
 
-// 2x   tu dépravé.e          ri  -ma
+// 2x   tu dépravé.e          yi  -ma
 export const yimaconj = _.example([_.yi, _.ma], 'je masse')
 
 // 1s   je                    pi  -ma

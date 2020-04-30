@@ -13,10 +13,12 @@ _.see(_.ajapi)
 
 export const pida = _.word('poda', {
   noun: 'moi',
+  derived: [_.pi, _.oda],
 })
 _.see(_.deda)
 _.see(_.shoda)
 // NB: "on" serait "oda" mais on utilise souvent pida ou shoda à la place.
+_.see(_.pada)
 
 export const papi = _.word('papi', {
   noun: 'sagesse (tout écho en soi)',
@@ -29,7 +31,7 @@ export const pipa = _.word('pipa', {
 })
 
 export const pinu = _.word('pinu', {
-  noun: 'seul (le soi brodé)',
+  noun: 'seul (le soi brodé, je brode)',
   derived: [_.pi, _.nu],
 })
 
@@ -53,3 +55,13 @@ export const nepi = _.word('nepi', {
   noun: 'division',
 })
 _.see(_.scale)
+
+// L'écoute de djopi ouvre à hapi
+export const djopi = _.word('djopi', {
+  noun: 'soi proximal (soi profond, souvent le passé)',
+})
+
+// Sentir hapi donne le courage d'écouter djopi
+export const hapi = _.word('hapi', {
+  noun: 'soi distal (Grand Soi, Grande Sœur, Grand Frère, souvent le futur)',
+})

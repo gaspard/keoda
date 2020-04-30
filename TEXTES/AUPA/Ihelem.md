@@ -8,7 +8,7 @@ Awi
 Ohaulem sen
 Olem noa noa
 Olem ohau au
-Au au
+Edja keiau au ?
 
 Tilaj ahe ko sheo nega
 Tifa shahe ko lami fe noato

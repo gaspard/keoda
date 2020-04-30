@@ -25,6 +25,11 @@ export const ohau = _.word('ohau', {
   derived: [_.o, _.au],
 })
 
+export const keiau = _.word('keiau', {
+  noun: 'tu (honorifique) aimes',
+  derived: [_.kei, _.au],
+})
+
 export const ohaulem = _.word('ohaulem', {
   noun: 'on aimait',
   derived: [_.o, _.au, _.lem],

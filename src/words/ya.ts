@@ -28,7 +28,7 @@ export const yafa = _.word('yafa', {
   derived: [_.ya, _.fa],
 })
 
-export const yadifa = _.word('yafana', {
+export const yadifa = _.word('yadifa', {
   noun: 'rêve (la nuit qui voit)',
-  derived: [_.ya, _.di, _.na],
+  derived: [_.ya, _.di, _.fa],
 })

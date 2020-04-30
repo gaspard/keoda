@@ -103,7 +103,8 @@ export function printWords() {
       return { name: wo.name, definition: baseDefinition(wo) }
     })
   const count = Object.keys(data).length
-  console.log(columnify(data))
+  data.map(d => `${d.name}\t${d.definition}`).forEach(d => console.log(d))
+  //console.log(columnify(data))
   console.log('[COUNT]', count)
   console.log('[ROOTS]', count - derived)
   console.log('[DERIV]', derived)
