@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc",
     "generate": "ts-node src/generate.ts",
+    "tiktok": "ts-node src/tiktok.ts",
     "conjugation": "ts-node src/conjugation.ts",
     "print": "ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,8 +15,10 @@
   "license": "ISC",
   "devDependencies": {
     "@types/columnify": "^1.5.0",
+    "@types/node": "^14.6.3",
     "ts-node": "^8.4.1",
-    "typescript": "^3.1.6"
+    "typescript": "^3.1.6",
+    "whois": "^2.13.0"
   },
   "dependencies": {
     "columnify": "^1.5.4"

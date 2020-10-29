@@ -17,10 +17,19 @@ _.see(_.se)
 _.see(_.no)
 
 export const noda = _.word('noda', {
-  noun: 'petit.e soeur/frère',
+  noun: 'grand.e soeur/frère',
   derived: [_.no, _.oda],
 })
 _.see(_.doda)
+export const notoda = _.word('notoda', {
+  noun: 'grand frère',
+})
+_.see(_.dutoda)
+
+export const noyoda = _.word('noyoda', {
+  noun: 'grande soeur',
+})
+_.see(_.duyoda)
 
 export const nopi = _.word('nopi', {
   noun: 'dos',

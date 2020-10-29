@@ -8,9 +8,11 @@ export const lire = _.word('lire', {
 export const liro = _.word('liro', { tens: 'futur lointain' })
 export const liru = _.word('liru', { tens: 'futur proche' })
 export const lira = _.word('lira', { tens: 'demain' })
-export const liri = _.word('liri', { tens: 'ce soir' })
+export const liri = _.word('liri', {
+  tens: 'ce soir, ce matin qui vient, la journée qui arrive',
+})
 
-export const lemi = _.word('lemi', { tens: 'hier soir' })
+export const lemi = _.word('lemi', { tens: "hier soir, ce matin, aujourd'hui" })
 export const lema = _.word('lema', { tens: 'hier' })
 export const lemu = _.word('lemu', { tens: 'passé proche' })
 export const lemo = _.word('lemo', { tens: 'passé lointain' })

@@ -1,0 +1,8 @@
+/*
+
+On the fragility of the white man.
+His own shadow projected on others.
+His loneliness making him needy.
+Feeding of women and others.
+
+*/

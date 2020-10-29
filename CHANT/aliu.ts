@@ -1,6 +1,6 @@
 import * as _ from '../src/words'
 
-const aliu = [
+export const aliu = [
   [_.kada, _.a, _.liu, _.lapalapa],
   [_.odin, _.a, _.liu, _.koda],
   [_.kawi, _.a, _.liu, _.awi],

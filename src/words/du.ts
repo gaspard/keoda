@@ -16,15 +16,18 @@ _.see(_.se)
 _.see(_.no)
 
 export const doda = _.word('doda', {
-  noun: 'grand.e frère/soeur',
+  noun: 'petit.e frère/soeur',
   derived: [_.du, _.oda],
 })
+_.see(_.noda)
 export const dutoda = _.word('dutoda', {
-  noun: 'grand frère',
+  noun: 'petit frère',
 })
+_.see(_.notoda)
 export const duyoda = _.word('duyoda', {
-  noun: 'grande soeur',
+  noun: 'petite soeur',
 })
+_.see(_.noyoda)
 
 export const duyin = _.word('duyin', {
   noun: 'avant du vagin',
