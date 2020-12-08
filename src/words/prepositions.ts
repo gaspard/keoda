@@ -14,9 +14,9 @@ _.see(_.lau)
 _.see(_.ul)
 _.see(_.ulei)
 // Quand (passé, lieu vécu)
-_.see(_.dem)
+_.see(_.dahem)
 // Quand (future, lieu du future)
-_.see(_.dir)
+_.see(_.dahir)
 // Qui
 _.see(_.di)
 // Que

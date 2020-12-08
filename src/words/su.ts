@@ -2,6 +2,10 @@ import * as _ from '.'
 
 export const su = _.word('su', { verb: 'avoir' })
 _.see(_.wu)
+export const nesu = _.word('nesu', {
+  verb: 'manquer',
+  derived: [_.ne, _.su],
+})
 
 // Iris ata mun
 export const Irisatamun = _.example(

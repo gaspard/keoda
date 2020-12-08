@@ -9,6 +9,14 @@ export const i = _.word('i', {
 })
 _.see(_.imaconj)
 
+_.see(_.ti)
+_.see(_.pronouns)
+
+export const iha = _.word('iha', {
+  noun: 'toi poétique',
+  derived: [_.i, _.ada],
+})
+
 _.see(_.mioda)
 _.see(_.amimoon)
 _.see(_.imiyon)

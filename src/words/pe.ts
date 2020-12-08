@@ -8,6 +8,12 @@ export const pe = _.word('pe', {
 _.see(_.pemaconj)
 _.see(_.counting)
 
+export const peho = _.word('peho', {
+  pronoun: 'quelques',
+  derived: [_.pe, _.oda],
+})
+_.see(_.pronouns)
+
 export const hamape = _.word('hamape', {
   noun: 'majeur (3ème doigt)',
   position:

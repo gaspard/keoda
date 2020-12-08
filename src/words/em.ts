@@ -10,4 +10,4 @@ export const nem = _.word('nem', {
   verb: 'mourir, ne pas vivre',
   derived: [_.ne, _.em],
 })
-_.see(_.dem)
+_.see(_.dahem)

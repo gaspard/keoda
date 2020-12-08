@@ -15,7 +15,7 @@ export const hafo = _.word('hafo', {
 })
 
 export const demoneoda = _.example(
-  [_.dem, _.o, _.neoda],
+  [_.dahem, _.o, _.neoda],
   'Quand je serai mort.e...'
 )
 

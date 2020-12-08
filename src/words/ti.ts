@@ -5,5 +5,4 @@ export const ti = _.word('ti', {
   prefix: 'ton/tes',
   suffix: 'ton/tes',
 })
-_.see(_.to)
-_.see(_.ta)
+_.see(_.pronouns)

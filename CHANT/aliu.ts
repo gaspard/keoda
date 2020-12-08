@@ -5,5 +5,5 @@ export const aliu = [
   [_.odin, _.a, _.liu, _.koda],
   [_.kawi, _.a, _.liu, _.awi],
   [_.gil, _.a, _.liu, _.dupan],
-  [_.shu, _.pida, _.pi, _.liu, _.deda],
+  [_.shu, _.piho, _.pi, _.liu, _.deho],
 ]

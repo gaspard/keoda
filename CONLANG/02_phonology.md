@@ -59,8 +59,8 @@ When adding a noun or adjective as in "show your head, bitch" we stress the end 
 phrase by making it longer, often adding 'oda':
 
 Ha faaaaa, lo !
-Yon tar melooo, lo !
+Yon taj melooo, lo !
 
-Tar yon odom, looda !
+Taj yon odom, looda !
 
 ## Phonotactics

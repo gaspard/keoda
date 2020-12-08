@@ -10,6 +10,12 @@ export const ka = _.word('ka', {
 _.see(_.kamaconj)
 _.see(_.counting)
 
+export const kaho = _.word('kaho', {
+  noun: 'tou.te.s',
+  derived: [_.ka, _.oda],
+})
+_.see(_.pronouns)
+
 export const ika = _.word('ika', {
   pronoun: 'à toi, nous toutes et tous',
 })

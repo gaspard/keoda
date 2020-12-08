@@ -11,14 +11,13 @@ _.see(_.counting)
 _.see(_.pio)
 _.see(_.ajapi)
 
-export const pida = _.word('poda', {
+// NB: "on" serait "oda" mais on utilise souvent pida ou shoda à la place.
+export const piho = _.word('piho', {
   noun: 'moi',
   derived: [_.pi, _.oda],
 })
-_.see(_.deda)
-_.see(_.shoda)
-// NB: "on" serait "oda" mais on utilise souvent pida ou shoda à la place.
-_.see(_.pada)
+_.see(_.pronouns)
+_.see(_.piha)
 
 export const papi = _.word('papi', {
   noun: 'sagesse (tout écho en soi)',

@@ -1,7 +1,7 @@
 // https://medium.com/keoda/du-plaisir-des-conjugaisons-df444756dfc0
 import * as _ from '.'
 
-// 1sp   on                   o   -ma
+// 1sp  on                    o   -ma
 // 2s   tu (impératif)            -ma
 // 2s   tu                    i   -ma
 // 3s   iel                   a   -ma
@@ -16,6 +16,37 @@ import * as _ from '.'
 // 5p   nous deux             de  -ma
 // 6p   quelques              pe  -ma
 // 7p   tout.e.s              ka  -ma
+
+// =========== PRONOMS
+
+export const pronouns = _.example(
+  [
+    // 1sp  moi/nous indéfinit
+    _.to,
+    // 2s   toi
+    _.ti,
+    // 3s   elle/lui
+    _.ta,
+    // 1p   nous tous présents
+    _.shoho,
+    // 2p   vous
+    _.shiho,
+    // 3p   iels
+    _.shaho,
+    // ====== Et les pronoms plus rares
+    // 2h   tu honorifique        keida
+    // 2x   tu dépravé.e          yida
+    // 1s   moi                   pida
+    _.piho,
+    // 5p   nous deux             deda
+    _.deho,
+    // 6p   quelques              peda
+    _.peho,
+    // 7p   tout.e.s              kada
+    _.kaho,
+  ],
+  `pronouns`
+)
 
 // ====== ON, très important
 // 1sp   on                   o   -ma

@@ -1,8 +1,8 @@
 import * as _ from '.'
 
-export const dir = _.word('dir', {
+export const dahir = _.word('dahir', {
   preposition: 'quand (future)',
   derived: [_.da, _.lir],
 })
 _.see(_.preposition)
-_.see(_.dem)
+_.see(_.dahem)

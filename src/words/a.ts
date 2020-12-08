@@ -6,6 +6,11 @@ export const a = _.word('a', {
 })
 _.see(_.amaconj)
 
+export const ahada = _.word('ahada', {
+  noun: 'elle/lui poétique',
+  derived: [_.a, _.ada],
+})
+
 export const amimoon = _.example(
   [_.a, _.yoda, _.mi, _.mun],
   `À elle, caresse les seins.`

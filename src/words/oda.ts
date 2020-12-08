@@ -7,9 +7,13 @@ export const oda = _.word('oda', {
   suffix: 'animal comme, qui a',
   desc: () => `De là vient ${_.keoda} (**la langue cachée du corps**).`,
 })
-_.see(_.pida)
-_.see(_.shoda)
-_.see(_.deda)
+_.see(_.pronouns)
+_.see(_.to)
+
+export const oha = _.word('oha', {
+  pronoun: 'soi poétique (nous indéf)',
+  derived: [_.o, _.ada],
+})
 
 export const keoda = _.word('keoda', {
   noun: 'lieu de vie cachée, langue cachée du corps',

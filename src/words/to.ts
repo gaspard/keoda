@@ -4,8 +4,7 @@ export const to = _.word('to', {
   noun: 'mon (notre)/nos',
   suffix: 'mon/nos',
 })
-_.see(_.ti)
-_.see(_.ta)
+_.see(_.pronouns)
 
 export const tosho = _.word('tosho', {
   noun: 'notre',

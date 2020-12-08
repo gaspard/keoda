@@ -45,15 +45,24 @@ See [oi](./04_oi.md)
 
 ## Make a verb ?
 
-Gramatical position makes it clear ? Does it ?
+End word with "m"
+
+noa = skin
+noam = touch
+
+The "m" is only needed when there can be confusion, like when we
+say "touching":
+
+o nesu noam ==> I miss touching
+o nesu noa ==> I miss skin
 
 How do we say "dance" ? Versus "Move your hips close to mine ?"
 
 i shasha = dance !
 
-shasha = hips on my hips
+shau sha = pull your hips to my hips
 
-shasha oda = dance my body (whatever that means)
+shasha pi = dance my body (whatever that means)
 
 ## -le (person named xxx)
 
