@@ -99,7 +99,12 @@ export function printWords() {
       if (wo.derived) {
         derived += 1
       }
-      const description = wo.desc ? wo.desc().slice(0, 50) : undefined
+      const description =
+        typeof wo.desc === 'string'
+          ? wo.desc
+          : wo.desc
+          ? wo.desc().slice(0, 50)
+          : undefined
       return { name: wo.name, definition: baseDefinition(wo) }
     })
   const count = Object.keys(data).length

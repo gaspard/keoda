@@ -6,6 +6,6 @@ const phrase = [
   [_.a, _.e, _.ya],
   // la lune est au ciel = Munawi ahe al
   [_.munawi, _.a, _.e, _.al],
-  // le vent souffle doucement = sheo agilapa
-  [_.sheo, _.a, _.gilapa],
+  // le vent souffle doucement = oto agilapa
+  [_.oto, _.a, _.gilapa],
 ]

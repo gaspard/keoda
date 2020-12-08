@@ -10,7 +10,7 @@ export const iwi = [
   // Les plantes ont poussé
   [_.ina, _.sha, _.him, /* a */ _.lemi],
   // Le vent a soufflé
-  [_.sheo, _.sha, _.shei, _.lemi],
+  [_.oto, _.sha, _.shei, _.lemi],
   // La journée fut belle
   [_.yo, _.a, /* h */ _.e, _.lemi, _.awi],
   // Les oiseaux disent merci
@@ -23,7 +23,7 @@ Iwi shalipa
 Ya ahodu
 Gu ahelemi in
 Ina sha himalemi
-Sheo shasheilemi
+Oto shasheilemi
 Yo ahelemi awi
 Iwi shalapa aupa
 

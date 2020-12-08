@@ -20,6 +20,3 @@ export const shipa = _.word('shipa', {
 })
 _.see(_.scale)
 _.see(_.negu)
-
-// poetic self
-_.see(_.shihada)

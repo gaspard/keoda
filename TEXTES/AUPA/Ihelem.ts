@@ -16,9 +16,10 @@ const poem = [
   [_.olem, _.noa, _.noa],
   [_.olem, _.ohau, _.au],
   [_.edja, _.keiau, _.au], // ?
-  //
-  [_.tilaj, _.ahe, _.ko, _.sheo, _.nega],
-  [_.tifa, _.shahe, _.ko, _.lami, _.fe, _.noato],
+  // Ton sourire est comme le vent fou
+  [_.tilaj, _.ahe, _.si, _.oto, _.nega],
+  // Tes yeux sont comme une vague sur ma peau
+  [_.tifa, _.shahe, _.si, _.lami, _.fe, _.noato],
   [_.onaj, _.dahem, _.ofa, _.tioda],
   [_.ofa, _.tifa],
   [_.awi],

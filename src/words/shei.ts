@@ -5,4 +5,3 @@ export const shei = _.word('shei', {
   derived: [_.she, _.i],
 })
 _.see(_.sheu)
-_.see(_.sheo)

@@ -10,8 +10,8 @@ Olem noa noa
 Olem ohau au
 Edja keiau au ?
 
-Tilaj ahe ko sheo nega
-Tifa shahe ko lami fe noato
+Tilaj ahe si oto nega
+Tifa shahe si lami fe noato
 Onaj dem ofa tioda
 Ofa tifa
 Awi

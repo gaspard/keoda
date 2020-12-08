@@ -28,3 +28,8 @@ export const munawi = _.word('munawi', {
   noun: 'lune',
   derived: [_.mun, _.awi],
 })
+
+export const muna = _.word('muna', {
+  noun: 'biberon',
+  derived: [_.mun, _.na],
+})

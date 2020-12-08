@@ -6,7 +6,7 @@ export const sheu = _.word('sheu', {
   derived: [_.she, _.u],
   desc: () => `De ${_.she} et ${_.u}`,
 })
-_.see(_.sheo)
+_.see(_.shei)
 
 export const sheulama = _.word('sheulama', {
   verb: 'plongée sous marine',
