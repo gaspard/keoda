@@ -10,6 +10,11 @@ export const kela = _.word('kela', {
   derived: [_.ke, _.la],
 })
 
+export const kelasa = _.word('kelasa', {
+  noun: 'couteau',
+  derived: [_.kela, _.sa],
+})
+
 export const lapa = _.word('lapa', {
   verb: 'parler (les lèvres partout)',
   derived: [_.la, _.pa],

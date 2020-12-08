@@ -23,7 +23,7 @@ interface FullWord {
   derived: Word[]
   pronoun: string
   person: string
-  desc: DescriptionFunction
+  desc: DescriptionFunction | string
   preposition: string
   lang: string
   position: string
@@ -45,7 +45,7 @@ interface Word extends WordDefinition {
 export const words: WordByName = {}
 
 function show(w: Word): () => string {
-  return function() {
+  return function () {
     return w.name
   }
 }
