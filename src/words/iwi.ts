@@ -3,6 +3,10 @@ import * as _ from '.'
 export const iwi = _.word('iwi', {
   noun: 'oiseau, enby',
 })
+_.see(_.ana)
+_.see(_.oto)
+_.see(_.otiwi)
+_.see(_.aniwi)
 
 export const iwiu = _.word('iwiu', {
   noun: 'voler',

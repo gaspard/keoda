@@ -5,8 +5,18 @@ export const oto = _.word('oto', {
   adj: 'masculin',
 })
 _.see(_.she)
+_.see(_.ana)
+_.see(_.iwi)
 
 export const otoda = _.word('otoda', {
   noun: 'homme',
   derived: [_.oto, _.oda],
+})
+
+export const otana = _.word('otana', {
+  noun: 'homme-femme',
+})
+
+export const otiwi = _.word('otiwi', {
+  noun: 'homme-enby',
 })
