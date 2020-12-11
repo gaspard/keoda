@@ -32,6 +32,8 @@ const INFLECTIONS = [
   'ka',
 ]
 
+const EXCEPTIONS: string[] = ['pinu']
+
 export function detectConjugationIssues() {
   const conjugations: { [key: string]: string } = {}
   const verbs = Object.keys(words)
@@ -50,7 +52,7 @@ export function detectConjugationIssues() {
     INFLECTIONS.forEach(inf => {
       const conj =
         inf + (VOWEL.indexOf(verb[0]) >= 0 && inf !== '' ? 'h' : '') + verb
-      if (words[conj] && inf !== '') {
+      if (words[conj] && inf !== '' && !EXCEPTIONS.includes(conj)) {
         printHeader()
         console.log(conj)
         console.log(

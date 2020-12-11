@@ -49,8 +49,14 @@ _.see(_.ria)
 // Avec
 _.see(_.ko)
 // Sur
+_.see(_.fe)
+// De/depuis (from)
+_.see(_.uya)
 
 // Interne
 _.see(_.ro)
 // Externe
 _.see(_.ri)
+
+// Se (se regarder, ils se confondent)
+_.see(_.es)

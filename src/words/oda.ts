@@ -10,11 +10,6 @@ export const oda = _.word('oda', {
 _.see(_.pronouns)
 _.see(_.to)
 
-export const kahoda = _.word('kahoda', {
-  noun: 'les humains',
-  adj: 'humain.e',
-})
-
 export const oha = _.word('oha', {
   pronoun: 'soi poétique (nous indéf)',
   derived: [_.o, _.ada],
@@ -22,4 +17,9 @@ export const oha = _.word('oha', {
 
 export const keoda = _.word('keoda', {
   noun: 'lieu de vie cachée, langue cachée du corps',
+})
+
+export const yosa = _.word('yosa', {
+  noun: 'humain',
+  derived: [_.yo, _.oda],
 })

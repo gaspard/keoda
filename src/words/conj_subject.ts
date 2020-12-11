@@ -34,15 +34,17 @@ export const pronouns = _.example(
     // 3p   iels
     _.shaho,
     // ====== Et les pronoms plus rares
-    // 2h   tu honorifique ?      keida
-    // 2x   tu dépravé.e ?        yida
+    // 2h   toi honorifique
+    _.keda,
+    // 2x   toi dépravé.e
+    _.yida,
     // 1s   moi
     _.piho,
     // 5p   nous deux
     _.deho,
     // 6p   quelques
     _.peho,
-    // 7p   (nous) tout.e.s
+    // 7p   (nous) tout.e.s = humain.e.s
     _.kaho,
   ],
   `pronouns`

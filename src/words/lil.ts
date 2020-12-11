@@ -21,5 +21,6 @@ export const lilaj = _.word('lilaj', {
 
 export const nelil = _.word('nelil', {
   noun: 'confusion',
+  verb: 'confondre',
 })
 _.see(_.scale)

@@ -1,15 +1,20 @@
-{ "exclude":
-  [ "node_modules"
-  , "output"
-  ]
-, "compilerOptions":
-  { "module": "commonjs"
-  , "noImplicitAny": true
-  , "outDir": "output"
-  , "sourceMap": true
-  , "strictNullChecks": true
-  , "target": "es6"
-  , "baseUrl": "."
-  }
-, "compileOnSave": true
+{
+  "exclude": [
+    "node_modules",
+    "output"
+  ],
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": [
+      "es6",
+      "es2017"
+    ],
+    "noImplicitAny": true,
+    "outDir": "output",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "es6",
+    "baseUrl": "."
+  },
+  "compileOnSave": true
 }

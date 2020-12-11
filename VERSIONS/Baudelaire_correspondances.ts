@@ -9,18 +9,19 @@ import * as _ from '../src/words'
 const poem = [
   // La Nature est un temple où de vivants piliers
   // *Gupa ahe akida don namel oda*
-  [_.gupa, _.a /* h */, _.e, _.akida, _.don, _.namel, _.oda],
+  [_.tu, _.gupa, _.a /* h */, _.e, _.akida, _.don, _.namel, _.oda],
   // Laissent parfois sortir de confuses paroles ;
-  // *shaholapa nega*
-  [_.shaho, _.lapa, _.nega],
+  // *shalapa nega*
+  [_.sha, _.lapa, _.nega],
   // L'homme y passe à travers des forêts de symboles
-  // *Kahoda kahofen roa jana mei lana*
-  [_.kahoda, _.kaho, _.fen, _.roa, _.jana, _.mei, _.lana],
+  // *Loda afen roa jana mei lana*
+  [_.tu, _.yosa, _.a, _.fen, _.roa, _.jana, _.mei, _.lana],
   // Qui l'observent avec des regards familiers.
-  // *di ko gi shahofa lae*
-  [_.di, _.ko, _.gi, _.shaho, _.fa, _.lae],
-  //
+  // *di ko gi shafa lae*
+  [_.di, _.ko, _.gi, _.sha, _.fa, _.lae],
   // Comme de longs échos qui de loin se confondent
+  // *si agadeuki di hauya es shanelil*
+  [_.si, _.agade, _.uki, _.di, _.ha, _.uya, _.es, _.sha, _.nelil],
   // Dans une ténébreuse et profonde unité,
   // Vaste comme la nuit et comme la clarté,
   // Les parfums, les couleurs et les sons se répondent.

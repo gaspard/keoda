@@ -23,7 +23,7 @@ export const paoda = _.word('paoda', {
 
 // ohora eku inefe.
 export const ohoraekuinefe = _.example(
-  [_.o, _.ora, _.eku, _.i, _.nefe],
+  [_.o, /* s ? h ? */ _.ora, _.eku, _.i, _.nefe],
   `J'aime que tu sois nue.`
 )
 

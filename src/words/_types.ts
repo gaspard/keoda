@@ -1,5 +1,3 @@
-import * as columnify from 'columnify'
-
 interface Example {
   phrase: (Word | Example)[]
   meaning: string

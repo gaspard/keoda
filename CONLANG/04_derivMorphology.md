@@ -41,7 +41,11 @@ derrière = no (nord)
 
 ## Plural ?
 
-See [oi](./04_oi.md)
+Optionel, seulement utilisés pour faire sonner les phrases ou en cas de
+confusion.
+
+la/le = pi
+les = dem
 
 ## Make a verb ?
 

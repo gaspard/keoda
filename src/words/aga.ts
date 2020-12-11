@@ -8,6 +8,11 @@ export const agana = _.word('agana', {
   derived: [_.aga, _.na],
 })
 
+export const agade = _.word('agade', {
+  noun: 'écho (deux sons)',
+  derived: [_.aga, _.de],
+})
+
 export const agauki = _.word('agauki', {
   verb: 'résonner (le son long)',
   derived: [_.agana, _.uki],

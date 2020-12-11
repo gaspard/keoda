@@ -20,19 +20,20 @@ export const CONSONANT = [
   'z',
 ]
 export const VOWEL = ['a', 'e', 'i', 'o', 'u']
-export const END = ['m', 'n', 'r', 'j', 'l']
+export const END = ['m', 'n', 'r', 'j', 'l', 's']
 
 const OR_NOTHING = ''
 const GROUPS = [
+  [VOWEL],
   [VOWEL, CONSONANT, VOWEL],
-  //[VOWEL, [...VOWEL, OR_NOTHING], [...END, OR_NOTHING]],
+  [VOWEL, [...VOWEL, OR_NOTHING], [...END, OR_NOTHING]],
   [CONSONANT, VOWEL, [...END, OR_NOTHING]],
   [CONSONANT, VOWEL, VOWEL],
 ]
 
 export function generate() {
   const seen: { [key: string]: boolean } = { '': true }
-  const syllables: string[] = [...VOWEL]
+  const syllables: string[] = []
 
   GROUPS.forEach(g => {
     const [a, b, c] = g

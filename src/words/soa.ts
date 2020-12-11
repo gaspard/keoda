@@ -7,8 +7,7 @@ export const soa = _.word('soa', {
 })
 
 export const lisoa = _.word('lisoa', {
-  noun: 'table',
-  desc: `petit sol`,
+  noun: 'table (petit sol)',
   derived: [_.lil, _.soa],
 })
 
