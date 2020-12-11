@@ -22,3 +22,4 @@ export const iwigui = _.word('iwigui', {
 export const iwioda = _.word('iwioda', {
   noun: 'enby',
 })
+_.see(_.duwi)

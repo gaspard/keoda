@@ -68,3 +68,8 @@ _.see(_.shipa)
 export const guyuina = _.word('guyuina', {
   noun: 'pomme (le fruit de la vie)',
 })
+
+export const gupa = _.word('gupa', {
+  noun: 'nature (tout le sombre/profondeur)',
+  derived: [_.gu, _.pa],
+})

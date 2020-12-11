@@ -37,6 +37,7 @@ s (sat)
 ʃ (shasha) / ʒ (j as in "jeanne")
 h (ha)
 l (la)
+z (zu)
 
 w ("what")
 j (yon)

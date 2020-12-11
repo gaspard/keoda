@@ -13,7 +13,7 @@ _.see(_.kada)
 
 // Le chien
 // Downward facing dog
-_.see(_.duda)
+_.see(_.doda)
 
 // Eléphant
 // debout, penché.e en avant, on touche le sol avec les mains (éléphant qui boit)

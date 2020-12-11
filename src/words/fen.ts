@@ -3,6 +3,7 @@ import * as _ from '.'
 export const fen = _.word('fen', {
   noun: 'genoux',
   position: 'à genoux',
+  verb: 'marcher',
 })
 
 export const efenom = _.example(

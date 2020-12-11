@@ -21,7 +21,7 @@ export const lama = _.word('lama', {
 })
 
 export const lamagoa = _.word('lamagoa', {
-  noun: 'océean',
+  noun: 'océan',
   derived: [_.lama, _.goa],
 })
 

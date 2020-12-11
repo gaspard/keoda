@@ -11,9 +11,10 @@ export const anawi = _.word('anawi', {
   derived: [_.ana, _.awi],
 })
 
-export const anaoda = _.word('anaoda', {
+export const anoda = _.word('anoda', {
   noun: 'femme',
 })
+_.see(_.duna)
 
 export const anoto = _.word('anoto', {
   noun: 'femme-homme',

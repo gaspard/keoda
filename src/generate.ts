@@ -17,6 +17,7 @@ export const CONSONANT = [
   'l',
   'w',
   'y',
+  'z',
 ]
 export const VOWEL = ['a', 'e', 'i', 'o', 'u']
 export const END = ['m', 'n', 'r', 'j', 'l']
@@ -24,7 +25,7 @@ export const END = ['m', 'n', 'r', 'j', 'l']
 const OR_NOTHING = ''
 const GROUPS = [
   [VOWEL, CONSONANT, VOWEL],
-  [VOWEL, [...VOWEL, OR_NOTHING], [...END, OR_NOTHING]],
+  //[VOWEL, [...VOWEL, OR_NOTHING], [...END, OR_NOTHING]],
   [CONSONANT, VOWEL, [...END, OR_NOTHING]],
   [CONSONANT, VOWEL, VOWEL],
 ]
@@ -56,9 +57,11 @@ export function generate() {
   syllables.sort()
   return syllables
 }
-// const SYLLABLES = generate()
 
-/*
-console.log('COUNT: ', SYLLABLES.length)
-console.log(SYLLABLES.join('\n'))
-*/
+function run() {
+  const SYLLABLES = generate()
+  console.log('COUNT: ', SYLLABLES.length)
+  console.log(SYLLABLES.join('\n'))
+}
+
+// run()

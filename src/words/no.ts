@@ -20,16 +20,24 @@ export const noda = _.word('noda', {
   noun: 'grand.e soeur/frère',
   derived: [_.no, _.oda],
 })
-_.see(_.doda)
-export const notoda = _.word('notoda', {
-  noun: 'grand frère',
-})
-_.see(_.dutoda)
+_.see(_.duda)
 
-export const noyoda = _.word('noyoda', {
-  noun: 'grande soeur',
+export const noto = _.word('noto', {
+  noun: 'grand frère/vent',
 })
-_.see(_.duyoda)
+_.see(_.duto)
+
+export const nona = _.word('nona', {
+  noun: 'grande soeur/arbre',
+  derived: [_.no, _.ana],
+})
+_.see(_.duna)
+
+export const nowi = _.word('nowi', {
+  noun: 'grand.e frère/soeur enby/oiseau',
+  derived: [_.no, _.iwi],
+})
+_.see(_.duwi)
 
 export const nopi = _.word('nopi', {
   noun: 'dos',

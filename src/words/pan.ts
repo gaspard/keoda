@@ -6,5 +6,5 @@ export const pan = _.word('pan', {
 
 export const dupan = _.word('dudapan', {
   noun: 'renard',
-  derived: [_.duda, _.pan],
+  derived: [_.doda, _.pan],
 })

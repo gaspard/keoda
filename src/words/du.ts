@@ -15,19 +15,29 @@ _.see(_.se)
 // derrière
 _.see(_.no)
 
-export const doda = _.word('doda', {
+export const duda = _.word('doda', {
   noun: 'petit.e frère/soeur',
   derived: [_.du, _.oda],
 })
 _.see(_.noda)
-export const dutoda = _.word('dutoda', {
-  noun: 'petit frère',
+
+export const duto = _.word('duto', {
+  noun: 'petit frère/vent',
+  derived: [_.du, _.oto],
 })
-_.see(_.notoda)
-export const duyoda = _.word('duyoda', {
-  noun: 'petite soeur',
+_.see(_.noto)
+
+export const duna = _.word('duna', {
+  noun: 'petite soeur/arbre',
+  derived: [_.du, _.ana],
 })
-_.see(_.noyoda)
+_.see(_.nona)
+
+export const duwi = _.word('duwi', {
+  noun: 'petit.e enby/oiseau',
+  derived: [_.du, _.iwi],
+})
+_.see(_.nowi)
 
 export const duyin = _.word('duyin', {
   noun: 'avant du vagin',

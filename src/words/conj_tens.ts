@@ -29,6 +29,6 @@ export const otajlirikepal = _.example(
 
 // Otiolemi dutodawui.
 export const otiolemidutodawui = _.example(
-  [_.o, _.tio, _.lemi, _.dutoda, _.ti],
+  [_.o, _.tio, _.lemi, _.duto, _.ti],
   `Hier soir, j'ai baisé ton grand frère.`
 )

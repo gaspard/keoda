@@ -12,6 +12,7 @@ export const otoda = _.word('otoda', {
   noun: 'homme',
   derived: [_.oto, _.oda],
 })
+_.see(_.duto)
 
 export const otana = _.word('otana', {
   noun: 'homme-femme',

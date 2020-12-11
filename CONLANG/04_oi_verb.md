@@ -1,3 +1,7 @@
+# SOME OF THESE THINGS COULD BE OUT OF SYNC
+
+This whole page should be replaced by code that syncs on word update.
+
 # An idea
 
 Position based forces us say some things before other things, like to whom we do something before telling what we do.

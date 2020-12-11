@@ -2,7 +2,7 @@ import * as _ from '.'
 
 // Lau ohaulir.
 export const preposition = _.example(
-  [_.lau, _.o, _.au, _.lir],
+  [_.lau, _.o, /* h */ _.au, _.lir],
   `Toujours, je t'aimerai.`
 )
 
@@ -21,6 +21,8 @@ _.see(_.dahir)
 _.see(_.di)
 // Que
 _.see(_.eku)
+// Où
+_.see(_.don)
 // Iris, que tu as caressée
 // Iris eku imilema.
 ;[_.Iris, _.eku, _.i, _.mi, _.lema]
@@ -28,6 +30,8 @@ _.see(_.eku)
 _.see(_.esi)
 // Comme
 _.see(_.si)
+// De (fait de)
+_.see(_.mei)
 // Si
 _.see(_.eyu)
 // Pour
