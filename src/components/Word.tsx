@@ -142,7 +142,7 @@ const ID = styled.a`
 
 export const Word: Comp<WordProps> = ({ className, name, popup }) => {
   const ctx = useOvermind()
-  const { filter } = ctx.state.keoda
+  const { filter, hover } = ctx.state.keoda
   const word = ctx.state.keoda.words[name]
   if (!word) {
     // Should never happen
@@ -168,6 +168,9 @@ export const Word: Comp<WordProps> = ({ className, name, popup }) => {
         popup,
         selected: name === ctx.state.keoda.selected,
       })}
+      onMouseEnter={
+        hover === name ? undefined : () => ctx.actions.keoda.hover({ name })
+      }
     >
       {!popup && <ID id={name} />}
       <Name className="Name">
@@ -184,7 +187,11 @@ export const Word: Comp<WordProps> = ({ className, name, popup }) => {
                 {key}
               </DefType>
               {key === 'etym' || key === 'see' ? (
-                <List className={key} words={word[key]!} popup={popup} />
+                <List
+                  className={key}
+                  words={word[key]!}
+                  popup={popup || hover === name}
+                />
               ) : (
                 <DefText>{word[key]}</DefText>
               )}

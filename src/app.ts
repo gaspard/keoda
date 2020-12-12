@@ -16,6 +16,7 @@ export interface KeodaConfig {
   state: {
     keoda: {
       selected?: string
+      hover?: string
       filter?: Filter
       words: {
         [key: string]: CompiledWord
