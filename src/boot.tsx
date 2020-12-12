@@ -1,3 +1,4 @@
+import './style.css'
 import { Overmind } from 'overmind'
 import { Provider } from 'overmind-react'
 import * as React from 'react'
@@ -6,7 +7,6 @@ import * as actions from './actions'
 import { KeodaConfig } from './app'
 import { App } from './components'
 import * as words from './db.json'
-import './style.css'
 
 const config: KeodaConfig = {
   onInitialize(ctx) {

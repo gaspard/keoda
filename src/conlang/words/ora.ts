@@ -5,10 +5,10 @@ export const ora = _.word('ora', {
   desc: () => `Utiliser pour les phrase interrogatives.`,
 })
 
-export const Anais = _.word('Anaïs', { person: 'Anaïs' })
-export const Iris = _.word('Iris', { person: 'Iris' })
-export const Gopi = _.word('Gopi', { person: 'Gopi' })
-export const Paul = _.word('Paul', { person: 'Paul' })
+export const Anais = _.example([], 'Anaïs')
+export const Iris = _.example([], 'Iris')
+export const Gopi = _.example([], 'Gopi')
+export const Paul = _.example([], 'Paul')
 
 export const ayonleAnaisodaoramimun = _.example(
   [_.a, _.yon, _.le, _.Anais, _.oda, _.ora, _.mi, _.mun],

@@ -31,7 +31,7 @@ module.exports = {
 
   output: {
     publicPath: '/',
-    path: root('dist'),
+    path: root('public'),
     filename: '[name].js',
     chunkFilename: '[name].js',
     // This setting is required for web workers to not use 'window'
@@ -123,7 +123,7 @@ module.exports = {
   ],
 
   devServer: {
-    contentBase: root('dist'),
+    contentBase: root('public'),
   },
 
   resolveLoader: {

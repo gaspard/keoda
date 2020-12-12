@@ -8,14 +8,14 @@
   },
   "main": "index.js",
   "scripts": {
-    "makedb": "ts-node src/conlang/index.ts > src/db.json",
-    "build": "webpack --mode=production",
-    "postbuild": "rimraf public && cp -r dist public",
-    "prebuild": "npm run clean && npm run makedb",
-    "clean": "rimraf .cache dist",
     "start": "webpack serve --port 1333 --mode production --hot --inline",
-    "conjugation": "ts-node src/conjugation.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rimraf .cache public",
+    "makedb": "ts-node src/conlang/index.ts > src/db.json",
+    "prebuild": "npm run clean && npm run makedb",
+    "build": "webpack --mode=production",
+    "deploy": "git push origin `git subtree split --prefix public master`:gh-pages --force",
+    "predeploy": "npm run build",
+    "conjugation": "ts-node src/conjugation.ts"
   },
   "author": "Gaspard Bucher <gaspard@lucidogen.io> (http://lucidogen.io)",
   "license": "ISC",

@@ -1,8 +1,4 @@
 {
-  "exclude": [
-    "node_modules",
-    "output"
-  ],
   "compilerOptions": {
     "module": "commonjs",
     "lib": [
@@ -11,6 +7,7 @@
       "dom"
     ],
     "jsx": "react",
+    "rootDir": "src",
     "jsxFactory": "React.createElement",
     "noImplicitAny": true,
     "outDir": "output",
@@ -20,5 +17,11 @@
     "target": "es6",
     "baseUrl": "."
   },
-  "compileOnSave": true
+  "include": [
+    "src",
+  ],
+  "exclude": [
+    "node_modules",
+    "public"
+  ]
 }
