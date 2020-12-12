@@ -44,8 +44,8 @@ const WordEntry = styled.div`
   }
   &.popup {
     position: absolute;
-    top: 28px;
-    left: -38px;
+    top: 0;
+    left: -15px;
     box-shadow: 8px 8px 20px #00000070;
     z-index: 3;
   }

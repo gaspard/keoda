@@ -11,12 +11,11 @@ export interface LinkProps {
 const Wrapper = styled.div`
   cursor: pointer;
   border-bottom: 1px solid #397d7d;
-  position: relative;
   margin-right: 8px;
-  & > .popup {
+  & .Ref > .popup {
     display: none;
   }
-  &:hover > .popup {
+  &:hover .Ref > .popup {
     display: flex;
   }
 `
@@ -30,12 +29,22 @@ const Anchor = styled.a`
   }
 `
 
+const Ref = styled.div`
+  position: absolute;
+  left: 0;
+  bottom: 0;
+`
+
 export const Link: Comp<LinkProps> = ({ className, name, popup }) => {
   useOvermind()
   return (
     <Wrapper className={className}>
       <Anchor href={`#${name}`}>{name}</Anchor>
-      {!popup && <Word name={name} popup />}
+      {!popup && (
+        <Ref className="Ref">
+          <Word name={name} popup />
+        </Ref>
+      )}
     </Wrapper>
   )
 }
