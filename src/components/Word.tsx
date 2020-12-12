@@ -98,13 +98,13 @@ const DefType = styled.div`
     color: #28467d;
   }
   &.verb {
-    color: purple;
+    color: #883ea7;
   }
   &.adj {
     color: #444;
   }
   &.conj {
-    color: yellowgreen;
+    color: #b7ec34;
   }
   &.prefix {
     color: #444;

@@ -27,7 +27,7 @@ module.exports = {
     boot: root('src/boot.tsx'),
   },
 
-  devtool: 'inline-source-map',
+  // devtool: 'inline-source-map',
 
   output: {
     publicPath: '/',
