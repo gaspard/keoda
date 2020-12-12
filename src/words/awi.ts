@@ -10,10 +10,10 @@ _.see(_.munawi)
 
 export const mawi = _.word('mawi', {
   noun: 'dauphin',
-  derived: [_.mun, _.awi],
+  derived: () => [_.mun, _.awi],
 })
 
 export const awiu = _.word('awiu', {
   noun: 'nager',
-  derived: [_.awi, _.u],
+  derived: () => [_.awi, _.u],
 })

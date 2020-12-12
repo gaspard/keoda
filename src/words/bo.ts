@@ -8,5 +8,5 @@ _.see(_.habo)
 
 export const robo = _.word('robo', {
   noun: 'nombril (centre du ventre)',
-  derived: [_.ro, _.bo],
+  derived: () => [_.ro, _.bo],
 })

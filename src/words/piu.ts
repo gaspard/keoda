@@ -7,13 +7,13 @@ _.see(_.colors)
 
 export const piuna = _.word('piuna', {
   noun: 'épinards (mai)',
-  derived: [_.piu, _.na],
+  derived: () => [_.piu, _.na],
 })
 _.see(_.seasons)
 
 export const piulil = _.word('piulil', {
   noun: 'petits pois',
-  derived: [_.piu, _.lil],
+  derived: () => [_.piu, _.lil],
 })
 
 export const piutaj = _.word('piutaj', {

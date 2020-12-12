@@ -13,10 +13,10 @@ export const uluyaj = _.example(
 
 export const uloda = _.word('uloda', {
   noun: 'clown',
-  derived: [_.ulu, _.oda],
+  derived: () => [_.ulu, _.oda],
 })
 
 export const ulul = _.word('ulul', {
   noun: 'asperge, avril',
-  derived: [_.ulu, _.la],
+  derived: () => [_.ulu, _.la],
 })

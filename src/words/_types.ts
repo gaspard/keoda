@@ -18,10 +18,10 @@ interface FullWord {
   noun: string
   conj: string
   tens: string
-  derived: Word[]
+  derived: () => Word[]
   pronoun: string
   person: string
-  desc: DescriptionFunction | string
+  desc: DescriptionFunction
   preposition: string
   lang: string
   position: string
@@ -34,17 +34,26 @@ interface WordByName {
   [key: string]: Word
 }
 
+interface CompiledWordByName {
+  [key: string]: CompiledWord
+}
+
 type WordDefinition = Partial<FullWord>
 
 interface Word extends WordDefinition {
   name: string
 }
 
+export interface CompiledWord extends Omit<Word, 'derived' | 'desc'> {
+  derived?: string[]
+  desc?: string
+}
+
 export const words: WordByName = {}
 
 function show(w: Word): () => string {
   return function () {
-    return w.name
+    return `{${w.name}}`
   }
 }
 export function word(name: string, definition: WordDefinition): Word {
@@ -111,4 +120,23 @@ export function printWords() {
   console.log('[COUNT]', count)
   console.log('[ROOTS]', count - derived)
   console.log('[DERIV]', derived)
+}
+
+export function compile(word: Word): CompiledWord {
+  const compiled = Object.assign({}, word) as CompiledWord
+  if (word.derived) {
+    compiled.derived = word.derived().map(w => w.name)
+  }
+  if (word.desc) {
+    compiled.desc = word.desc()
+  }
+  return compiled
+}
+
+export function printJSON() {
+  const compiled: { [key: string]: CompiledWord } = {}
+  Object.keys(words).forEach(key => {
+    compiled[key] = compile(words[key])
+  })
+  console.log(JSON.stringify(compiled, null, 2))
 }

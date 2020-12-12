@@ -8,12 +8,12 @@ _.see(_.pio)
 
 export const fatio = _.word('fatio', {
   noun: "iris (fleur de l'oeil",
-  derived: [_.fa, _.tio],
+  derived: () => [_.fa, _.tio],
 })
 
 export const tiona = _.word('tiona', {
   noun: 'flower (genital thing)',
-  derived: [_.tio, _.na],
+  derived: () => [_.tio, _.na],
 })
 
 // cueillir des fleurs

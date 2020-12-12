@@ -6,13 +6,13 @@ _.see(_.counting)
 
 export const shida = _.word('shida', {
   noun: 'vous',
-  derived: [_.shi, _.oda],
+  derived: () => [_.shi, _.oda],
 })
 _.see(_.pronouns)
 
 export const shiha = _.word('shiha', {
   noun: 'vous poétique',
-  derived: [_.shi, _.yada],
+  derived: () => [_.shi, _.yada],
 })
 
 export const shipa = _.word('shipa', {

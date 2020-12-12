@@ -10,7 +10,7 @@ _.see(_.iwi)
 
 export const otoda = _.word('otoda', {
   noun: 'homme',
-  derived: [_.oto, _.oda],
+  derived: () => [_.oto, _.oda],
 })
 _.see(_.duto)
 

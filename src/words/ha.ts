@@ -33,23 +33,23 @@ export const enopishusamdur = _.example(
 
 export const duha = _.word('duha', {
   noun: 'visage',
-  derived: [_.du, _.ha],
+  derived: () => [_.du, _.ha],
 })
 
 export const hawe = _.word('hawe', {
   noun: 'joue droite',
-  derived: [_.ha, _.we],
+  derived: () => [_.ha, _.we],
 })
 _.see(_.we)
 
 export const hase = _.word('hase', {
   noun: 'joue gauche',
-  derived: [_.ha, _.se],
+  derived: () => [_.ha, _.se],
 })
 _.see(_.se)
 
 export const noha = _.word('noha', {
   noun: 'occiput (dos de la tête)',
-  derived: [_.no, _.ha],
+  derived: () => [_.no, _.ha],
 })
 _.see(_.no)

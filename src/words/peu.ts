@@ -3,7 +3,7 @@ import * as _ from '.'
 export const peu = _.word('peu', { noun: 'peur' })
 export const agupeu = _.word('agupeu', {
   noun: 'courage',
-  derived: [_.agu, _.peu],
+  derived: () => [_.agu, _.peu],
   desc: () => `Écouter la peur`,
 })
 

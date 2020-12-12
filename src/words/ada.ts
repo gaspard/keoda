@@ -5,12 +5,12 @@ export const yada = _.word('yada', {
   noun: 'corps rêvé, poétique (corps de nuit)',
   desc: () =>
     `si le corps visible, c'est ${_.oda}, le corps profond, intime, poétique, identitaire, "subconscient" comme dirait Julia Serano, c'est ${_.yada}.`,
-  derived: [_.ya, _.oda],
+  derived: () => [_.ya, _.oda],
 })
 
 export const piha = _.word('piha', {
   noun: 'moi poétique (mythique, profond)',
-  derived: [_.pi, _.yada],
+  derived: () => [_.pi, _.yada],
 })
 _.see(_.pida)
 

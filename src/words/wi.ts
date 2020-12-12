@@ -7,7 +7,7 @@ _.see(_.colors)
 
 export const wiyon = _.word('wiyon', {
   noun: 'pruneau (fruit)',
-  derived: [_.wi, _.yon],
+  derived: () => [_.wi, _.yon],
 })
 
 _.see(_.seasons)

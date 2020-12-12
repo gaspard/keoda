@@ -6,10 +6,10 @@ export const dil = _.word('dil', {
 
 export const pedil = _.word('pedil', {
   noun: 'fourche',
-  derived: [_.pe, _.dil],
+  derived: () => [_.pe, _.dil],
 })
 
 export const lipedil = _.word('lipedil', {
   noun: 'fourchette',
-  derived: [_.lil, _.pedil],
+  derived: () => [_.lil, _.pedil],
 })

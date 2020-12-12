@@ -26,10 +26,10 @@ export const lahaumundom = _.example(
 
 export const munawi = _.word('munawi', {
   noun: 'lune',
-  derived: [_.mun, _.awi],
+  derived: () => [_.mun, _.awi],
 })
 
 export const muna = _.word('muna', {
   noun: 'biberon',
-  derived: [_.mun, _.na],
+  derived: () => [_.mun, _.na],
 })

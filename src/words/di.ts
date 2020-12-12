@@ -6,5 +6,5 @@ _.see(_.diwu)
 
 export const diguwu = _.word('diguwu', {
   noun: 'généreu.se.x',
-  derived: [_.di, _.guwu],
+  derived: () => [_.di, _.guwu],
 })

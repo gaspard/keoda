@@ -7,7 +7,7 @@ export const aj = _.word('aj', {
 
 export const ajapi = _.word('ajapi', {
   noun: 'calcination de soi, transformation totale',
-  derived: [_.aj, _.pi],
+  derived: () => [_.aj, _.pi],
 })
 
 _.see(_.naj)

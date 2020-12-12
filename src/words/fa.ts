@@ -9,7 +9,7 @@ export const fa = _.word('fa', {
 _.see(_.fatio)
 export const gufa = _.word('gufa', {
   noun: "pupille (vie de l'oeil)",
-  derived: [_.gu, _.fa],
+  derived: () => [_.gu, _.fa],
 })
 
 export const fama = _.example([_.fa, _.ma], 'Regarde ma main.')

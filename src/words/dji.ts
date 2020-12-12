@@ -4,7 +4,7 @@ export const dji = _.word('dji', {
   noun: '10 (mémoire)',
   desc: () =>
     `Pour les dizaines, on utilise dji au lieu de ${_.pi} ${_.ipi} (mais on peut aussi dire ${_.pi} ${_.ipi})`,
-  derived: [_.pi, _.ipi],
+  derived: () => [_.pi, _.ipi],
 })
 _.see(_.counting)
 

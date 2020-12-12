@@ -51,25 +51,25 @@ _.see(_.fama)
 
 export const malam = _.word('malam', {
   noun: "maman (la main de l'eau)",
-  derived: [_.ma, _.lam],
+  derived: () => [_.ma, _.lam],
 })
 
 export const miwi = _.word('miwi', {
   noun: 'papillon',
-  derived: [_.mi, _.iwi],
+  derived: () => [_.mi, _.iwi],
 })
 
 export const masa = _.word('masa', {
   noun: 'pèle',
-  derived: [_.ma, _.sa],
+  derived: () => [_.ma, _.sa],
 })
 
 export const limasa = _.word('limasa', {
   noun: 'cuillère',
-  derived: [_.lil, _.masa],
+  derived: () => [_.lil, _.masa],
 })
 
 export const lilimasa = _.word('lilimasa', {
   noun: 'petite cuillère',
-  derived: [_.lil, _.limasa],
+  derived: () => [_.lil, _.limasa],
 })

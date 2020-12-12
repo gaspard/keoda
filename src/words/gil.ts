@@ -6,5 +6,5 @@ export const gil = _.word('gil', {
 
 export const gilil = _.word('gilil', {
   noun: 'chat (petit tigre)',
-  derived: [_.gil, _.lil],
+  derived: () => [_.gil, _.lil],
 })

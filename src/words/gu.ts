@@ -10,12 +10,12 @@ _.see(_.gufi)
 
 export const gulir = _.word('gulir', {
   noun: 'souhaiter (gu du future)',
-  derived: [_.gu, _.lir],
+  derived: () => [_.gu, _.lir],
 })
 
 export const gulem = _.word('gulem', {
   noun: 'se souvenir (gu du passé)',
-  derived: [_.gu, _.lem],
+  derived: () => [_.gu, _.lem],
 })
 
 export const guna = _.word('guna', {
@@ -25,38 +25,38 @@ _.see(_.gufa)
 
 export const guo = _.word('guo', {
   verb: 'mourir',
-  derived: [_.gu, _.o],
+  derived: () => [_.gu, _.o],
 })
 
 export const gui = _.word('gui', {
   verb: 'naître',
-  derived: [_.gu, _.i],
+  derived: () => [_.gu, _.i],
 })
 _.see(_.iwigui)
 
 export const guwu = _.word('guwu', {
   verb: 'donner',
-  derived: [_.gu, _.wu],
+  derived: () => [_.gu, _.wu],
 })
 export const guwuna = _.word('guwuna', {
   noun: 'don',
-  derived: [_.guwu, _.na],
+  derived: () => [_.guwu, _.na],
 })
 
 export const guru = _.word('guru', {
   noun: 'réalisation des profondeurs',
-  derived: [_.gu, _.ru],
+  derived: () => [_.gu, _.ru],
 })
 
 export const gugai = _.word('gugai', {
   noun: 'fertilité',
   adj: 'fertile',
-  derived: [_.gu, _.gai],
+  derived: () => [_.gu, _.gai],
 })
 
 export const augu = _.word('augu', {
   adj: 'confiance',
-  derived: [_.au, _.gu],
+  derived: () => [_.au, _.gu],
 })
 
 export const negu = _.word('negu', {
@@ -71,5 +71,5 @@ export const guyuina = _.word('guyuina', {
 
 export const gupa = _.word('gupa', {
   noun: 'nature (tout le sombre/profondeur)',
-  derived: [_.gu, _.pa],
+  derived: () => [_.gu, _.pa],
 })

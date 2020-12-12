@@ -8,6 +8,6 @@ _.see(_.leirumi)
 
 export const nem = _.word('nem', {
   verb: 'mourir, ne pas vivre',
-  derived: [_.ne, _.em],
+  derived: () => [_.ne, _.em],
 })
 _.see(_.dahem)

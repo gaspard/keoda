@@ -8,12 +8,12 @@ _.see(_.lirlipa)
 
 export const lipa = _.word('lipa', {
   noun: 'chanter',
-  derived: [_.li, _.pa],
+  derived: () => [_.li, _.pa],
 })
 
 export const lipawi = _.word('lipawi', {
   noun: 'loup (qui chante la lune)',
-  derived: [_.lipa, _.munawi],
+  derived: () => [_.lipa, _.munawi],
 })
 
 export const keli = _.word('keli', {
@@ -26,6 +26,6 @@ export const kelikeyon = _.example([_.keli, _.keyon], `Lèche moi la vulve.`)
 
 export const ligau = _.word('ligau', {
   noun: 'goûter (attention dans la bouche)',
-  derived: [_.li, _.gau],
+  derived: () => [_.li, _.gau],
 })
 _.see(_.karu)

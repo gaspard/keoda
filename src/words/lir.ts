@@ -15,7 +15,7 @@ _.see(_.lire)
 
 export const lirana = _.word('lirana', {
   noun: 'promesse',
-  derived: [_.lira, _.na],
+  derived: () => [_.lira, _.na],
 })
 
 export const ilir = _.word('ilir', {

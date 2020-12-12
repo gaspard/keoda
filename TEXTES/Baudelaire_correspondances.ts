@@ -6,7 +6,7 @@ import * as _ from '../src/words'
 // (Extrait des Fleurs du mal)
 //
 //
-const poem = [
+export const correspondances = [
   // La Nature est un temple où de vivants piliers
   // *Gupa ahe akida don namel oda*
   [_.tu, _.gupa, _.a /* h */, _.e, _.akida, _.don, _.namel, _.oda],

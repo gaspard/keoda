@@ -14,12 +14,12 @@ _.see(_.pronouns)
 
 export const iha = _.word('iha', {
   noun: 'toi poétique',
-  derived: [_.i, _.yada],
+  derived: () => [_.i, _.yada],
 })
 
 export const ida = _.word('ida', {
   noun: 'toi',
-  derived: [_.i, _.oda],
+  derived: () => [_.i, _.oda],
 })
 
 _.see(_.mioda)

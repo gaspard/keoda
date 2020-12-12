@@ -10,7 +10,7 @@ export const palaj = _.word('palaj', {
 
 export const palajil = _.word('palajil', {
   noun: 'abricot, juillet',
-  derived: [_.palaj, _.lil],
+  derived: () => [_.palaj, _.lil],
 })
 _.see(_.fruits)
 

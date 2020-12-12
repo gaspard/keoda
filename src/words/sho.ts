@@ -9,13 +9,13 @@ _.see(_.shomaconj)
 
 export const shoda = _.word('shoda', {
   noun: 'nous',
-  derived: [_.sho, _.oda],
+  derived: () => [_.sho, _.oda],
 })
 _.see(_.pronouns)
 
 export const shoha = _.word('shoha', {
   noun: 'nous poétique',
-  derived: [_.sho, _.yada],
+  derived: () => [_.sho, _.yada],
 })
 
 // dem ofa noa osho
@@ -26,5 +26,5 @@ export const eliofanoaosho = _.example(
 
 export const onsho = _.word('onsho', {
   noun: 'sucre, récompense',
-  derived: [_.on, _.sho],
+  derived: () => [_.on, _.sho],
 })

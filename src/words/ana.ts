@@ -8,7 +8,7 @@ _.see(_.oto)
 
 export const anawi = _.word('anawi', {
   noun: 'meduse',
-  derived: [_.ana, _.awi],
+  derived: () => [_.ana, _.awi],
 })
 
 export const anoda = _.word('anoda', {

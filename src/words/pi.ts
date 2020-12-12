@@ -14,40 +14,40 @@ _.see(_.ajapi)
 // NB: "on" serait "oda" mais on utilise souvent pida ou shoda à la place.
 export const pida = _.word('pida', {
   noun: 'moi',
-  derived: [_.pi, _.oda],
+  derived: () => [_.pi, _.oda],
 })
 _.see(_.pronouns)
 _.see(_.piha)
 
 export const papi = _.word('papi', {
   noun: 'sagesse (tout écho en soi)',
-  derived: [_.pa, _.pi],
+  derived: () => [_.pa, _.pi],
 })
 
 export const pipa = _.word('pipa', {
   noun: 'innocence (soi partout)',
-  derived: [_.pi, _.pa],
+  derived: () => [_.pi, _.pa],
 })
 
 export const pinu = _.word('pinu', {
   noun: 'seul (le soi brodé, je brode)',
-  derived: [_.pi, _.nu],
+  derived: () => [_.pi, _.nu],
 })
 
 export const aupi = _.word('aupi', {
   noun: `S'aimer soi-même, ici.`,
-  derived: [_.au, _.pi],
+  derived: () => [_.au, _.pi],
 })
 
 export const gupi = _.word('gupi', {
   noun: `intégrer le mouvement, ressentir, se laisser transformer`,
-  derived: [_.gu, _.pi],
+  derived: () => [_.gu, _.pi],
 })
 _.see(_.kupa)
 
 export const negupi = _.word('negupi', {
   noun: "lutter contre l'expérience",
-  derived: [_.ne, _.gupi],
+  derived: () => [_.ne, _.gupi],
 })
 
 export const nepi = _.word('nepi', {

@@ -5,6 +5,6 @@ _.see(_.yimaconj)
 
 export const yida = _.word('yida', {
   pronoun: 'tu dépravé',
-  derived: [_.yi, _.oda],
+  derived: () => [_.yi, _.oda],
 })
 _.see(_.pronouns)

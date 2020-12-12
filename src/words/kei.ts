@@ -5,6 +5,6 @@ _.see(_.keimaconj)
 
 export const keda = _.word('keda', {
   pronoun: 'tu honorifique',
-  derived: [_.kei, _.oda],
+  derived: () => [_.kei, _.oda],
 })
 _.see(_.pronouns)

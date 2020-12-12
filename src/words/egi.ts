@@ -6,6 +6,6 @@ export const egi = _.word('egi', {
 
 export const egina = _.word('egina', {
   noun: 'endive, janvier',
-  derived: [_.egi, _.ina],
+  derived: () => [_.egi, _.ina],
 })
 _.see(_.seasons)

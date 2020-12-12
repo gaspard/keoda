@@ -8,20 +8,20 @@ export const yon = _.word('yon', {
 
 export const riyon = _.word('riyon', {
   noun: 'lèvres périphériques',
-  derived: [_.ri, _.yon],
+  derived: () => [_.ri, _.yon],
 })
 
 export const royon = _.word('royon', {
   noun: 'lèvres centrales',
-  derived: [_.ro, _.yon],
+  derived: () => [_.ro, _.yon],
 })
 export const yonin = _.word('yonin', {
   noun: 'vulve chaude, en érection',
-  derived: [_.yon, _.in],
+  derived: () => [_.yon, _.in],
 })
 export const yonegi = _.word('yonegi', {
   noun: 'vulve froide, au repos',
-  derived: [_.yon, _.egi],
+  derived: () => [_.yon, _.egi],
 })
 
 _.see(_.genitals)

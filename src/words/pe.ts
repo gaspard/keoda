@@ -10,7 +10,7 @@ _.see(_.counting)
 
 export const peda = _.word('peda', {
   pronoun: 'quelques',
-  derived: [_.pe, _.oda],
+  derived: () => [_.pe, _.oda],
 })
 _.see(_.pronouns)
 

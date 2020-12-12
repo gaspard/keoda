@@ -12,7 +12,7 @@ _.see(_.counting)
 
 export const kada = _.word('kada', {
   noun: 'tou.te.s',
-  derived: [_.ka, _.oda],
+  derived: () => [_.ka, _.oda],
 })
 _.see(_.pronouns)
 
@@ -28,17 +28,17 @@ export const hamaka = _.word('hamaka', {
 
 export const neka = _.word('neka', {
   noun: 'honte',
-  derived: [_.ne, _.ka],
+  derived: () => [_.ne, _.ka],
 })
 _.see(_.scale)
 
 export const karu = _.word('karu', {
   verb: 'choisir (la réalisation du singulier en soi)',
-  derived: [_.ka, _.ru],
+  derived: () => [_.ka, _.ru],
 })
 _.see(_.ligau)
 
 export const koda = _.word('koda', {
   noun: 'cow',
-  derived: [_.ka, _.oda],
+  derived: () => [_.ka, _.oda],
 })

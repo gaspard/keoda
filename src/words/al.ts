@@ -8,15 +8,15 @@ _.see(_.soa)
 
 export const alayin = _.word('alayin', {
   noun: 'haut du vagin',
-  derived: [_.du, _.al, _.yin],
+  derived: () => [_.du, _.al, _.yin],
 })
 
 export const dualayin = _.word('dualayin', {
   noun: 'point G',
-  derived: [_.du, _.alayin],
+  derived: () => [_.du, _.alayin],
 })
 
 export const dalayin = _.word('dalayin', {
   noun: 'point G (version courte)',
-  derived: [_.dualayin],
+  derived: () => [_.dualayin],
 })

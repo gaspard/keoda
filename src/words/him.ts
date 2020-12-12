@@ -10,5 +10,5 @@ export const yuhim = _.word('yuhim', {
 
 export const mahim = _.word('mahim', {
   noun: 'construire (les mains qui font grandir)',
-  derived: [_.ma, _.him],
+  derived: () => [_.ma, _.him],
 })

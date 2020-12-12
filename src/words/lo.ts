@@ -6,13 +6,13 @@ export const lo = _.word('lo', {
 
 export const loda = _.word('loda', {
   noun: 'personne soumis.e',
-  derived: [_.lo, _.oda],
+  derived: () => [_.lo, _.oda],
 })
 
 export const loru = _.word('loru', {
   noun: 'devenir petit.e (se soumettre)',
   adj: 'humilité',
-  derived: [_.lo, _.ru],
+  derived: () => [_.lo, _.ru],
 })
 
 export const silo = _.word('silo', {

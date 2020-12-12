@@ -9,7 +9,7 @@ _.see(_.preposition)
 
 export const sigu = _.word('sigu', {
   noun: 'sombre (comme le mystère)',
-  derived: [_.si, _.gu],
+  derived: () => [_.si, _.gu],
 })
 
 export const tajyonsitioa = _.example(

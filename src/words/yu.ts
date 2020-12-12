@@ -8,13 +8,13 @@ export const yu = _.word('yu', {
 export const eyu = _.word('eyu', {
   preposition: 'si',
   desc: () => `Être joyeux = être tellement = si xxx`,
-  derived: [_.e, _.yu],
+  derived: () => [_.e, _.yu],
 })
 
 _.see(_.yon)
 
 export const yuina = _.word('yuina', {
   noun: 'fruit',
-  derived: [_.yu, _.in, _.na],
+  derived: () => [_.yu, _.in, _.na],
 })
 _.see(_.fruits)

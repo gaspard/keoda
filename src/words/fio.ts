@@ -6,5 +6,5 @@ export const fio = _.word('fio', {
 
 export const fiona = _.word('fiona', {
   noun: 'aubergine (légume)',
-  derived: [_.fio, _.na],
+  derived: () => [_.fio, _.na],
 })

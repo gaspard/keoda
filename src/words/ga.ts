@@ -9,7 +9,7 @@ _.see(_.gu)
 
 export const gana = _.word('gana', {
   noun: 'la terre',
-  derived: [_.ga, _.na],
+  derived: () => [_.ga, _.na],
 })
 
 // C'est l'eau qui devrait être la caresse 'gai', non ?
@@ -39,21 +39,21 @@ _.see(_.ohenurlilajkegai)
 
 export const gau = _.word('gau', {
   noun: 'attention (esprit tiré)',
-  derived: [_.gau, _.u],
+  derived: () => [_.gau, _.u],
 })
 _.see(_.gai)
 
 export const gao = _.word('gao', {
   noun: 'attention (esprit projeté)',
-  derived: [_.ga, _.o],
+  derived: () => [_.ga, _.o],
 })
 
 export const kuga = _.word('kuga', {
   noun: "la pensée causale, l'esprit de victime",
-  derived: [_.ku, _.ga],
+  derived: () => [_.ku, _.ga],
 })
 
 export const nega = _.word('nega', {
   noun: 'fou (sans esprit)',
-  derived: [_.ne, _.ga],
+  derived: () => [_.ne, _.ga],
 })

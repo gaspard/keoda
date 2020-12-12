@@ -8,7 +8,7 @@ export const djil = _.word('djil', {
 
 export const djoda = _.word('djoda', {
   noun: 'ours',
-  derived: [_.djil, _.oda],
+  derived: () => [_.djil, _.oda],
 })
 
 export const edjil = _.example(

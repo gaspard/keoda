@@ -6,6 +6,6 @@ export const adu = _.word('adu', {
 
 export const doda = _.word('doda', {
   noun: 'chien',
-  derived: [_.adu, _.oda],
+  derived: () => [_.adu, _.oda],
 })
 _.see(_.duda)

@@ -6,7 +6,7 @@ export const jo = _.word('jo', {
 
 export const joyon = _.word('joyon', {
   noun: 'corps spongieux du clitoris',
-  derived: [_.jo, _.yon],
+  derived: () => [_.jo, _.yon],
 })
 
 export const jotaj = _.word('jotaj', {

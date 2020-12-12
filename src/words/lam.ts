@@ -17,12 +17,12 @@ _.see(_.falo)
 
 export const lama = _.word('lama', {
   noun: 'mer',
-  derived: [_.lam, _.da],
+  derived: () => [_.lam, _.da],
 })
 
 export const lamagoa = _.word('lamagoa', {
   noun: 'océan',
-  derived: [_.lama, _.goa],
+  derived: () => [_.lama, _.goa],
 })
 
 export const lami = _.word('lami', {
@@ -31,12 +31,12 @@ export const lami = _.word('lami', {
 
 export const lamioda = _.word('lamioda', {
   noun: 'serpent',
-  derived: [_.lami, _.oda],
+  derived: () => [_.lami, _.oda],
 })
 
 export const lamoa = _.word('lamoa', {
   noun: 'source (lieu)',
-  derived: [_.lam, _.on, _.da],
+  derived: () => [_.lam, _.on, _.da],
 })
 
 export const lamu = _.word('lamu', {

@@ -18,7 +18,7 @@ _.see(_.no)
 
 export const noda = _.word('noda', {
   noun: 'grand.e soeur/frère',
-  derived: [_.no, _.oda],
+  derived: () => [_.no, _.oda],
 })
 _.see(_.duda)
 
@@ -29,30 +29,30 @@ _.see(_.duto)
 
 export const nona = _.word('nona', {
   noun: 'grande soeur/arbre',
-  derived: [_.no, _.ana],
+  derived: () => [_.no, _.ana],
 })
 _.see(_.duna)
 
 export const nowi = _.word('nowi', {
   noun: 'grand.e frère/soeur enby/oiseau',
-  derived: [_.no, _.iwi],
+  derived: () => [_.no, _.iwi],
 })
 _.see(_.duwi)
 
 export const nopi = _.word('nopi', {
   noun: 'dos',
   position: 'allongé sur le dos',
-  derived: [_.no, _.pi],
+  derived: () => [_.no, _.pi],
 })
 
 export const djonopi = _.word('djonopi', {
   noun: 'bas du dos',
-  derived: [_.djo, _.nopi],
+  derived: () => [_.djo, _.nopi],
 })
 
 _.see(_.enopisamdjobajom)
 
 export const noyin = _.word('noyin', {
   noun: `fond du vagin (col de l'utérus)`,
-  derived: [_.no, _.yin],
+  derived: () => [_.no, _.yin],
 })

@@ -2,7 +2,7 @@ import * as _ from '../src/words'
 
 export const onesu = [
   // I/we miss your presence (bodies)
-  [_.o, _.nesu, _.shiho],
+  [_.o, _.nesu, _.shida],
   // I/we miss your spirit (poetic self)
   [_.o, _.nesu, _.shiha],
   // I/we miss your smiles
@@ -18,7 +18,7 @@ export const onesu = [
   // I/we miss your touch
   [_.o, _.nesu, _.noam, _.wu, _.shi],
   // I/we miss being us and singing
-  [_.o, _.nesu, _.shoho, _.shu, _.sho, _.lipa],
+  [_.o, _.nesu, _.shoda, _.shu, _.sho, _.lipa],
   [_.sho, _.lipa],
   //
   // When are you coming back ?

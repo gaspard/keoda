@@ -7,10 +7,10 @@ export const me = _.word('me', {
 
 export const meshe = _.word('meshe', {
   verb: 'voler',
-  derived: [_.me, _.she],
+  derived: () => [_.me, _.she],
 })
 
 export const melam = _.word('melam', {
   verb: 'nager',
-  derived: [_.me, _.lam],
+  derived: () => [_.me, _.lam],
 })
