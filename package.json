@@ -11,7 +11,7 @@
     "start": "webpack serve --port 1333 --mode production --hot --inline",
     "clean": "rimraf .cache public",
     "makedb": "ts-node src/conlang/index.ts > src/db.json",
-    "prebuild": "npm run clean && npm run makedb",
+    "prebuild": "npm run makedb",
     "build": "webpack --mode=production",
     "deploy": "git push origin `git subtree split --prefix public master`:gh-pages --force",
     "predeploy": "npm run build",
