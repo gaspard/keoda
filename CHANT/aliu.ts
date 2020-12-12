@@ -1,4 +1,4 @@
-import * as _ from '../src/words'
+import * as _ from '../src/conlang/words'
 
 export const aliu = [
   [_.kelo, _.a, _.liu, _.lapalapa],

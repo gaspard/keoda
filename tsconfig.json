@@ -7,10 +7,14 @@
     "module": "commonjs",
     "lib": [
       "es6",
-      "es2017"
+      "es2017",
+      "dom"
     ],
+    "jsx": "react",
+    "jsxFactory": "React.createElement",
     "noImplicitAny": true,
     "outDir": "output",
+    "resolveJsonModule": true,
     "sourceMap": true,
     "strictNullChecks": true,
     "target": "es6",

@@ -1,4 +1,4 @@
-import * as _ from '../src/words'
+import * as _ from '../src/conlang/words'
 
 const phrase = [
   // C'est la nuit, la lune est au ciel, le vent souffle doucement
