@@ -1,23 +1,18 @@
 import * as _ from '.'
 
-export const ada = _.word('ada', {
-  noun: 'corps rêvé, poétique',
+_.see(_.yada)
+export const yada = _.word('yada', {
+  noun: 'corps rêvé, poétique (corps de nuit)',
   desc: () =>
-    `si le corps visible, c'est ${_.oda}, le corps profond, intime, poétique, identitaire, "subconscient" comme dirait Julia Serano, c'est ${_.ada}.`,
+    `si le corps visible, c'est ${_.oda}, le corps profond, intime, poétique, identitaire, "subconscient" comme dirait Julia Serano, c'est ${_.yada}.`,
+  derived: [_.ya, _.oda],
 })
+
 export const piha = _.word('piha', {
   noun: 'moi poétique (mythique, profond)',
-  derived: [_.pi, _.ada],
+  derived: [_.pi, _.yada],
 })
-_.see(_.piho)
-
-export const yada = _.word('yada', {
-  noun: 'corps poétique féminin, femme',
-})
-
-export const tada = _.word('tada', {
-  noun: 'corps poétique masculin, homme',
-})
+_.see(_.pida)
 
 export const yadaguitoda = _.word('yadaguitoda', {
   noun: 'corps poétique féminin né dans un corps masculin (femme trans)',

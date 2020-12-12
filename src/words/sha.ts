@@ -6,7 +6,7 @@ export const sha = _.word('sha', {
 })
 _.see(_.shamaconj)
 
-export const shaho = _.word('shaho', {
+export const shada = _.word('shada', {
   noun: 'elles/eux',
   derived: [_.sha, _.oda],
 })
@@ -14,7 +14,7 @@ _.see(_.pronouns)
 
 export const shaha = _.word('shaha', {
   noun: 'elles/eux poétique',
-  derived: [_.sha, _.ada],
+  derived: [_.sha, _.yada],
 })
 
 export const shasha = _.word('shasha', {

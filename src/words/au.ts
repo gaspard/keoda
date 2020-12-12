@@ -4,6 +4,7 @@ export const au = _.word('au', {
   noun: 'coeur',
   verb: 'aimer/recevoir',
 })
+_.see(_.zu)
 
 export const auhu = _.word('auhu', {
   noun: 'tomber amoureux.se, attraction du cœur',

@@ -8,7 +8,7 @@ export const pe = _.word('pe', {
 _.see(_.pemaconj)
 _.see(_.counting)
 
-export const peho = _.word('peho', {
+export const peda = _.word('peda', {
   pronoun: 'quelques',
   derived: [_.pe, _.oda],
 })

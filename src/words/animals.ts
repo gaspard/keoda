@@ -9,7 +9,7 @@ _.see(_.miwi)
 
 // Le crocodile
 // plank pose
-_.see(_.kada)
+_.see(_.kelo)
 
 // Le chien
 // Downward facing dog

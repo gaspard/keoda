@@ -10,7 +10,7 @@ export const ka = _.word('ka', {
 _.see(_.kamaconj)
 _.see(_.counting)
 
-export const kaho = _.word('kaho', {
+export const kada = _.word('kada', {
   noun: 'tou.te.s',
   derived: [_.ka, _.oda],
 })

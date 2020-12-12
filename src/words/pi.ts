@@ -12,7 +12,7 @@ _.see(_.pio)
 _.see(_.ajapi)
 
 // NB: "on" serait "oda" mais on utilise souvent pida ou shoda à la place.
-export const piho = _.word('piho', {
+export const pida = _.word('pida', {
   noun: 'moi',
   derived: [_.pi, _.oda],
 })

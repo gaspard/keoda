@@ -8,7 +8,7 @@ _.see(_.amaconj)
 
 export const ahada = _.word('ahada', {
   noun: 'elle/lui poétique',
-  derived: [_.a, _.ada],
+  derived: [_.a, _.yada],
 })
 
 export const amimoon = _.example(

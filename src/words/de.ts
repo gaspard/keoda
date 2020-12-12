@@ -9,11 +9,11 @@ export const de = _.word('de', {
 _.see(_.demaconj)
 _.see(_.counting)
 
-export const deho = _.word('deho', {
+export const deda = _.word('deda', {
   pronoun: 'nous deux',
 })
 _.see(_.pronouns)
-_.see(_.peho)
+_.see(_.peda)
 
 export const demimunwe = _.example(
   [_.de, _.mi, _.munwe],

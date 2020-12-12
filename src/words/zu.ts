@@ -5,3 +5,4 @@ export const zu = _.word('zu', {
   desc: () =>
     `Évolution de ${_.au} en ${_.zu} surtout si la conj requiert un 'h' de liaison.`,
 })
+_.see(_.au)

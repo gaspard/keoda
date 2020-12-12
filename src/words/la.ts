@@ -25,7 +25,7 @@ export const lapalapa = _.word('lapalapa', {
   derived: [_.lapa, _.lapa],
 })
 
-export const kada = _.word('keloda', {
+export const kelo = _.word('kelo', {
   noun: 'crocodile',
   derived: [_.kela, _.oda],
 })

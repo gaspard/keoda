@@ -7,7 +7,7 @@ export const sho = _.word('sho', {
 })
 _.see(_.shomaconj)
 
-export const shoho = _.word('shoho', {
+export const shoda = _.word('shoda', {
   noun: 'nous',
   derived: [_.sho, _.oda],
 })
@@ -15,7 +15,7 @@ _.see(_.pronouns)
 
 export const shoha = _.word('shoha', {
   noun: 'nous poétique',
-  derived: [_.sho, _.ada],
+  derived: [_.sho, _.yada],
 })
 
 // dem ofa noa osho
