@@ -33,7 +33,7 @@ const WordEntry = styled.div`
   width: 450px;
   align-self: center;
   box-shadow: 0 0 10px #0000001f;
-  &.selected:not(.popup) .Name {
+  &.selected:not(.popup) > .Name {
     background: #e4d593;
   }
   &.popup {
