@@ -1,6 +1,6 @@
 import * as _ from '.'
 
-export const sam = _.word('sam', { noun: 'pied', position: 'debout' })
+export const sam = _.word('sam', { noun: 'pied', posit: 'debout' })
 
 export const fesam = _.word('fesam', { noun: 'chaussettes' })
 

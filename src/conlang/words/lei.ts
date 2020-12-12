@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const lei = _.word('lei', {
   noun: 'le temps',
-  preposition: 'alors',
+  prep: 'alors',
   conj: 'toujours',
   desc: () => `Donne ${_.lem} et ${_.lir}.`,
 })
@@ -15,14 +15,14 @@ export const gulei = _.word('gulei', {
 _.see(_.guda)
 
 export const elei = _.word('elei', {
-  preposition: 'toujours (pas usité, on utilise lau)',
+  prep: 'toujours (pas usité, on utilise lau)',
 })
 
 export const ulei = _.word('ulei', {
-  preposition: `jusqu'à ce que (tirer le temps)`,
+  prep: `jusqu'à ce que (tirer le temps)`,
   desc: () => `De ${_.ul} et ${_.lei} ${_.eku}`,
 })
-_.see(_.preposition)
+_.see(_.prep)
 
 export const leiuki = _.word('leiuki', {
   noun: 'patience',

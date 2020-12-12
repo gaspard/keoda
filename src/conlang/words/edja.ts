@@ -1,12 +1,12 @@
 import * as _ from '.'
 
 export const edja = _.word('edja', {
-  preposition: 'interrogation (ou affirmative)',
+  prep: 'interrogation (ou affirmative)',
   etym: () => [_.e, _.dja],
 })
 
 export const nedja = _.word('nedja', {
-  preposition: 'pas possible (ou affirmative)',
+  prep: 'pas possible (ou affirmative)',
 })
 
 // Edja shaora liu ?

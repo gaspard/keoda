@@ -1,12 +1,12 @@
 import * as _ from '.'
 
 // Lau ohaulir.
-export const preposition = _.example(
+export const prep = _.example(
   [_.lau, _.o, /* h */ _.au, _.lir],
   `Toujours, je t'aimerai.`
 )
 
-_.see(_.preposition)
+_.see(_.prep)
 // Toujours
 _.see(_.lau)
 

@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const mun = _.word('moon', {
   noun: 'seins',
-  position: 'à genoux, buste au sol',
+  posit: 'à genoux, buste au sol',
 })
 
 export const munwe = _.word('munwe', {

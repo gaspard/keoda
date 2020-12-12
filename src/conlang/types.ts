@@ -15,12 +15,12 @@ export interface FullWord {
   conj: string
   tens: string
   etym: () => Word[]
-  pronoun: string
+  pron: string
   person: string
   desc: DescriptionFunction
-  preposition: string
+  prep: string
   lang: string
-  position: string
+  posit: string
   prefix: string
   suffix: string
   verb: string

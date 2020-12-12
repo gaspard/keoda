@@ -3,8 +3,8 @@ import * as _ from '.'
 export const pi = _.word('pi', {
   adv: 'ici, origine',
   noun: '1',
-  position: 'debout',
-  conj: 'je',
+  posit: 'debout',
+  conj: 'je (1s)',
   desc: () => `Opposé de ${_.pa}.`,
 })
 _.see(_.counting)

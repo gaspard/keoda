@@ -18,7 +18,7 @@ export const pahau = _.word('pahau', {
 })
 
 export const paoda = _.word('paoda', {
-  pronoun: 'tou.te.s',
+  pron: 'tou.te.s',
 })
 
 // ohora eku inefe.

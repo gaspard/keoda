@@ -1,6 +1,6 @@
 import * as _ from '.'
 
-export const shi = _.word('shi', { conj: 'vous', noun: '6' })
+export const shi = _.word('shi', { conj: 'vous (2p)', noun: '6' })
 _.see(_.shimaconj)
 _.see(_.counting)
 

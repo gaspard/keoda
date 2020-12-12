@@ -14,7 +14,7 @@ export const hamalil = _.word('hamalil', {
 
 export const lilaj = _.word('lilaj', {
   noun: 'étincelle',
-  position:
+  posit:
     'sur moi: 4 membres et 1 sexe (indiquée par un signe de main: pouce contre auriculaire)',
   desc: () => `De ${_.lil} petit et ${_.aj} feu.`,
 })

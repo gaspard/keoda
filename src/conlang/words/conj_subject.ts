@@ -23,29 +23,41 @@ export const pronouns = _.example(
   [
     // 1sp  moi/nous indéfinit
     _.oda,
+    _.o,
     // 2s   toi
     _.ida,
+    _.i,
     // 3s   elle/lui
     _.ada,
+    _.a,
     // 1p   nous tous présents
     _.shoda,
+    _.sho,
     // 2p   vous
     _.shida,
+    _.shi,
     // 3p   iels
     _.shada,
+    _.sha,
     // ====== Et les pronoms plus rares
     // 2h   toi honorifique
     _.keda,
+    _.kei,
     // 2x   toi dépravé.e
     _.yida,
+    _.yi,
     // 1s   moi
     _.pida,
+    _.pi,
     // 5p   nous deux
     _.deda,
+    _.de,
     // 6p   quelques
     _.peda,
+    _.pe,
     // 7p   (nous) tout.e.s = humain.e.s
     _.kada,
+    _.ka,
   ],
   `pronouns`
 )

@@ -2,10 +2,10 @@ import * as _ from '.'
 
 export const ka = _.word('ka', {
   noun: '4 (singularité, qui ne peut pas être pensé)',
-  pronoun: 'tous',
+  pron: 'tous',
   suffix: 'tous',
-  position: 'à quatre pattes',
-  conj: 'tou.te.s',
+  posit: 'à quatre pattes',
+  conj: 'tou.te.s, universel (7p)',
 })
 _.see(_.kamaconj)
 _.see(_.counting)
@@ -17,12 +17,12 @@ export const kada = _.word('kada', {
 _.see(_.pronouns)
 
 export const ika = _.word('ika', {
-  pronoun: 'à toi, nous toutes et tous',
+  pron: 'à toi, nous toutes et tous',
 })
 
 export const hamaka = _.word('hamaka', {
   noun: 'annulaire (4ème doigt)',
-  position:
+  posit:
     'à quatre pattes (indiquée par un signe de main: pouce contre annulaire)',
 })
 

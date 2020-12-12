@@ -3,7 +3,7 @@ import * as _ from '.'
 export const sho = _.word('sho', {
   noun: 'salive',
   verb: 'saliver',
-  conj: 'nous tous présent.e.s',
+  conj: 'nous tous présent.e.s (1p)',
 })
 _.see(_.shomaconj)
 

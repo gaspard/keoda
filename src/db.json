@@ -1,8 +1,8 @@
 {
   "a": {
     "name": "a",
-    "lang": "à (elle, lui)",
-    "conj": "iel",
+    "prep": "à (elle, lui)",
+    "conj": "iel (3s)",
     "see": [
       "ahada",
       "oho"
@@ -386,21 +386,21 @@
   "de": {
     "name": "de",
     "noun": "2",
-    "pronoun": "nous deux",
-    "position": "sur le dos (2) jambes écartées",
-    "conj": "nous deux",
+    "pron": "nous deux",
+    "posit": "sur le dos (2) jambes écartées",
+    "conj": "nous deux (5p)",
     "see": [
       "agade"
     ]
   },
   "deda": {
     "name": "deda",
-    "pronoun": "nous deux"
+    "pron": "nous deux"
   },
   "hamade": {
     "name": "hamade",
     "noun": "index (2ème doigt)",
-    "position": "sur le dos les (2) jambes écartées (indiquée par un signe de main: pouce contre index)"
+    "posit": "sur le dos les (2) jambes écartées (indiquée par un signe de main: pouce contre index)"
   },
   "nede": {
     "name": "nede",
@@ -412,7 +412,7 @@
   },
   "dahem": {
     "name": "dahem",
-    "preposition": "quand (passé)",
+    "prep": "quand (passé)",
     "etym": [
       "da",
       "em"
@@ -463,7 +463,7 @@
   },
   "dahir": {
     "name": "dahir",
-    "preposition": "quand (future)",
+    "prep": "quand (future)",
     "etym": [
       "da",
       "lir"
@@ -492,7 +492,7 @@
   "djil": {
     "name": "djil",
     "noun": "cheveux",
-    "position": "debout, le corps penché en avant, les cheveux offerts, prêts à être pris.",
+    "posit": "debout, le corps penché en avant, les cheveux offerts, prêts à être pris.",
     "see": [
       "djoda"
     ]
@@ -538,7 +538,7 @@
   },
   "don": {
     "name": "don",
-    "preposition": "où"
+    "prep": "où"
   },
   "du": {
     "name": "du",
@@ -603,7 +603,7 @@
   },
   "edja": {
     "name": "edja",
-    "preposition": "interrogation (ou affirmative)",
+    "prep": "interrogation (ou affirmative)",
     "etym": [
       "e",
       "dja"
@@ -611,7 +611,7 @@
   },
   "nedja": {
     "name": "nedja",
-    "preposition": "pas possible (ou affirmative)"
+    "prep": "pas possible (ou affirmative)"
   },
   "egi": {
     "name": "egi",
@@ -632,7 +632,7 @@
   },
   "eku": {
     "name": "eku",
-    "preposition": "que"
+    "prep": "que"
   },
   "el": {
     "name": "el",
@@ -770,7 +770,7 @@
   "fen": {
     "name": "fen",
     "noun": "genoux",
-    "position": "à genoux",
+    "posit": "à genoux",
     "verb": "marcher"
   },
   "fi": {
@@ -1166,7 +1166,7 @@
     "name": "i",
     "noun": "caresser",
     "prefix": "à toi",
-    "conj": "tu",
+    "conj": "tu (2s)",
     "desc": "Il y a une exception pour le suffixe ajouté à {ma} (main): dans ce cas, on ne dit pas 'mai' mais directement {mi}.",
     "see": [
       "gi",
@@ -1194,7 +1194,7 @@
   },
   "ibu": {
     "name": "ibu",
-    "preposition": "pour"
+    "prep": "pour"
   },
   "im": {
     "name": "im",
@@ -1319,10 +1319,10 @@
   "ka": {
     "name": "ka",
     "noun": "4 (singularité, qui ne peut pas être pensé)",
-    "pronoun": "tous",
+    "pron": "tous",
     "suffix": "tous",
-    "position": "à quatre pattes",
-    "conj": "tou.te.s",
+    "posit": "à quatre pattes",
+    "conj": "tou.te.s, universel (7p)",
     "see": [
       "kada",
       "neka",
@@ -1341,12 +1341,12 @@
   },
   "ika": {
     "name": "ika",
-    "pronoun": "à toi, nous toutes et tous"
+    "pron": "à toi, nous toutes et tous"
   },
   "hamaka": {
     "name": "hamaka",
     "noun": "annulaire (4ème doigt)",
-    "position": "à quatre pattes (indiquée par un signe de main: pouce contre annulaire)"
+    "posit": "à quatre pattes (indiquée par un signe de main: pouce contre annulaire)"
   },
   "neka": {
     "name": "neka",
@@ -1382,14 +1382,14 @@
   },
   "kei": {
     "name": "kei",
-    "conj": "tu honorifique",
+    "conj": "tu honorifique (2h)",
     "see": [
       "keda"
     ]
   },
   "keda": {
     "name": "keda",
-    "pronoun": "tu honorifique",
+    "pron": "tu honorifique",
     "etym": [
       "kei",
       "oda"
@@ -1397,7 +1397,7 @@
   },
   "ko": {
     "name": "ko",
-    "preposition": "avec"
+    "prep": "avec"
   },
   "ku": {
     "name": "ku",
@@ -1543,7 +1543,7 @@
   },
   "lae": {
     "name": "lae",
-    "pronoun": "elle/il/elle.s/ils/eux"
+    "pron": "elle/il/elle.s/ils/eux"
   },
   "laj": {
     "name": "laj",
@@ -1632,12 +1632,12 @@
   },
   "ile": {
     "name": "ile",
-    "preposition": "toi qui te nomme"
+    "prep": "toi qui te nomme"
   },
   "lei": {
     "name": "lei",
     "noun": "le temps",
-    "preposition": "alors",
+    "prep": "alors",
     "conj": "toujours",
     "desc": "Donne {lem} et {lir}.",
     "see": [
@@ -1650,11 +1650,11 @@
   },
   "elei": {
     "name": "elei",
-    "preposition": "toujours (pas usité, on utilise lau)"
+    "prep": "toujours (pas usité, on utilise lau)"
   },
   "ulei": {
     "name": "ulei",
-    "preposition": "jusqu'à ce que (tirer le temps)",
+    "prep": "jusqu'à ce que (tirer le temps)",
     "desc": "De {ul} et {lei} {eku}"
   },
   "leiuki": {
@@ -1757,7 +1757,7 @@
   "lilaj": {
     "name": "lilaj",
     "noun": "étincelle",
-    "position": "sur moi: 4 membres et 1 sexe (indiquée par un signe de main: pouce contre auriculaire)",
+    "posit": "sur moi: 4 membres et 1 sexe (indiquée par un signe de main: pouce contre auriculaire)",
     "desc": "De {lil} petit et {aj} feu."
   },
   "nelil": {
@@ -1939,7 +1939,7 @@
   },
   "meu": {
     "name": "meu",
-    "preposition": "sinon"
+    "prep": "sinon"
   },
   "mi": {
     "name": "mi",
@@ -1956,7 +1956,7 @@
   "moon": {
     "name": "moon",
     "noun": "seins",
-    "position": "à genoux, buste au sol",
+    "posit": "à genoux, buste au sol",
     "see": [
       "mawi",
       "munawi",
@@ -2118,7 +2118,7 @@
   "nopi": {
     "name": "nopi",
     "noun": "dos",
-    "position": "allongé sur le dos",
+    "posit": "allongé sur le dos",
     "etym": [
       "no",
       "pi"
@@ -2172,7 +2172,7 @@
     "noun": "on",
     "suffix": "frapper, faire mal",
     "prefix": "en bas ?? me ??",
-    "conj": "on",
+    "conj": "on (1sp)",
     "desc": "Le \"on\" est important: on est pas séparés. Ça indique à la fois \"moi et les autres\" (même imaginés) et \"toutes les versions et différents âges de moi-même, l'enfant qui a rêvé, l'adolescent en manque de tendresse et de cul, le fou, etc\". Quand on dit {o}, on implique tout ça. Si \"on\" te fait l'amour, c'est un monde entier qui vient à ta rencontre.",
     "see": [
       "ago",
@@ -2245,7 +2245,7 @@
   },
   "oha": {
     "name": "oha",
-    "pronoun": "soi poétique (nous indéf)",
+    "pron": "soi poétique (nous indéf)",
     "etym": [
       "o",
       "yada"
@@ -2428,7 +2428,7 @@
   },
   "paoda": {
     "name": "paoda",
-    "pronoun": "tou.te.s"
+    "pron": "tou.te.s"
   },
   "pal": {
     "name": "pal",
@@ -2480,7 +2480,8 @@
     "name": "pe",
     "noun": "3",
     "suffix": "quelques un.e.s",
-    "position": "deux jambes et un anus (levrette) = mun",
+    "conj": "quelques un.e.s (6p)",
+    "posit": "deux jambes et un anus (levrette) = mun",
     "see": [
       "pedil",
       "peda"
@@ -2488,7 +2489,7 @@
   },
   "peda": {
     "name": "peda",
-    "pronoun": "quelques",
+    "pron": "quelques",
     "etym": [
       "pe",
       "oda"
@@ -2497,7 +2498,7 @@
   "hamape": {
     "name": "hamape",
     "noun": "majeur (3ème doigt)",
-    "position": "levrette (mun): 2 jambes et 1 anus (indiquée par un signe de main: pouce contre majeur)"
+    "posit": "levrette (mun): 2 jambes et 1 anus (indiquée par un signe de main: pouce contre majeur)"
   },
   "nepe": {
     "name": "nepe",
@@ -2523,8 +2524,8 @@
     "name": "pi",
     "adv": "ici, origine",
     "noun": "1",
-    "position": "debout",
-    "conj": "je",
+    "posit": "debout",
+    "conj": "je (1s)",
     "desc": "Opposé de {pa}.",
     "see": [
       "piha",
@@ -2754,7 +2755,7 @@
   "sam": {
     "name": "sam",
     "noun": "pied",
-    "position": "debout"
+    "posit": "debout"
   },
   "fesam": {
     "name": "fesam",
@@ -2783,7 +2784,7 @@
   "sha": {
     "name": "sha",
     "noun": "hanche",
-    "conj": "iels",
+    "conj": "iels (3p)",
     "see": [
       "shada",
       "shaha",
@@ -2872,7 +2873,7 @@
   },
   "shi": {
     "name": "shi",
-    "conj": "vous",
+    "conj": "vous (2p)",
     "noun": "6",
     "see": [
       "shida",
@@ -2903,7 +2904,7 @@
     "name": "sho",
     "noun": "salive",
     "verb": "saliver",
-    "conj": "nous tous présent.e.s",
+    "conj": "nous tous présent.e.s (1p)",
     "see": [
       "shoda",
       "shoha",
@@ -2936,7 +2937,7 @@
   },
   "shu": {
     "name": "shu",
-    "preposition": "et"
+    "prep": "et"
   },
   "si": {
     "name": "si",
@@ -3162,7 +3163,7 @@
   },
   "uma": {
     "name": "uma",
-    "preposition": "ou"
+    "prep": "ou"
   },
   "we": {
     "name": "we",
@@ -3200,7 +3201,7 @@
   },
   "diwu": {
     "name": "diwu",
-    "preposition": "qui possède"
+    "prep": "qui possède"
   },
   "fawulama": {
     "name": "fawulama",
@@ -3284,14 +3285,14 @@
   "yi": {
     "name": "yi",
     "adj": "minuscule",
-    "conj": "tu dépravé.e",
+    "conj": "tu dépravé.e (2x)",
     "see": [
       "yida"
     ]
   },
   "yida": {
     "name": "yida",
-    "pronoun": "tu dépravé",
+    "pron": "tu dépravé",
     "etym": [
       "yi",
       "oda"
@@ -3397,7 +3398,7 @@
   },
   "eyu": {
     "name": "eyu",
-    "preposition": "si",
+    "prep": "si",
     "desc": "Être joyeux = être tellement = si xxx",
     "etym": [
       "e",
@@ -3429,7 +3430,7 @@
   },
   "ten": {
     "name": "ten",
-    "pronoun": "les",
+    "pron": "les",
     "desc": "optionel, utilisé pour souligner le sujet"
   },
   "tu": {

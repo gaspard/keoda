@@ -6,7 +6,7 @@ export const le = _.word('le', {
 })
 
 export const ile = _.word('ile', {
-  preposition: 'toi qui te nomme',
+  prep: 'toi qui te nomme',
 })
 
 // Ohora eku

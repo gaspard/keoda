@@ -1,6 +1,6 @@
 import * as _ from '.'
 
-export const meu = _.word('meu', { preposition: 'sinon' })
+export const meu = _.word('meu', { prep: 'sinon' })
 
 // A yoda keli yon esi lae lam meu fo pal.
 export const ayodakeliyonesiailammeufopal = _.example(

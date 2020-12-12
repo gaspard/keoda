@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const fen = _.word('fen', {
   noun: 'genoux',
-  position: 'à genoux',
+  posit: 'à genoux',
   verb: 'marcher',
 })
 

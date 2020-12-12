@@ -1,6 +1,6 @@
 import * as _ from '.'
 
 export const don = _.word('don', {
-  preposition: 'où',
+  prep: 'où',
 })
-_.see(_.preposition)
+_.see(_.prep)

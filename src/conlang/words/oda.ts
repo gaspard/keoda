@@ -11,7 +11,7 @@ _.see(_.pronouns)
 _.see(_.to)
 
 export const oha = _.word('oha', {
-  pronoun: 'soi poétique (nous indéf)',
+  pron: 'soi poétique (nous indéf)',
   etym: () => [_.o, _.yada],
 })
 

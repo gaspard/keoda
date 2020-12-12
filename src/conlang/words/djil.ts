@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const djil = _.word('djil', {
   noun: 'cheveux',
-  position:
+  posit:
     'debout, le corps penché en avant, les cheveux offerts, prêts à être pris.',
 })
 

@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const sha = _.word('sha', {
   noun: 'hanche',
-  conj: 'iels',
+  conj: 'iels (3p)',
 })
 _.see(_.shamaconj)
 

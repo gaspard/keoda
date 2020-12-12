@@ -6,7 +6,7 @@ _.see(_.ti)
 _.see(_.to)
 _.see(_.ta)
 
-export const diwu = _.word('diwu', { preposition: 'qui possède' })
+export const diwu = _.word('diwu', { prep: 'qui possède' })
 _.see(_.su)
 
 // munwu Iris

@@ -7,10 +7,16 @@ import { CompiledWord } from '../conlang/types'
 const DEF_KEYS: (keyof CompiledWord)[] = [
   'etym',
   'noun',
+  'verb',
   'adj',
   'conj',
+  'prefix',
+  'suffix',
+  'prep',
+  'pron',
+  'tens',
   'lang',
-  'verb',
+  'posit',
   'see',
 ]
 
@@ -29,9 +35,9 @@ const WordEntry = styled.div`
   background: #aba89c;
   margin: 14px;
   border-radius: 5px;
-  align-items: center;
+  align-items: start;
   width: 450px;
-  align-self: center;
+  align-self: top;
   box-shadow: 0 0 10px #0000001f;
   &.selected:not(.popup) > .Name {
     background: #e4d593;
@@ -69,6 +75,7 @@ const Definitions = styled.div`
   display: flex;
   flex-direction: column;
   padding: 5px;
+  align-self: stretch;
   border-left: 1px solid #7b7b7b;
 `
 
@@ -84,20 +91,41 @@ const DefType = styled.div`
   width: 4rem;
   flex-shrink: 0;
   color: red;
-  &.verb {
-    color: purple;
+  &.etym {
+    color: #222;
   }
   &.noun {
     color: #28467d;
   }
+  &.verb {
+    color: purple;
+  }
   &.adj {
-    color: #287d33;
+    color: #444;
   }
   &.conj {
     color: yellowgreen;
   }
-  &.etym {
-    color: #222;
+  &.prefix {
+    color: #444;
+  }
+  &.suffix {
+    color: #444;
+  }
+  &.prep {
+    color: #944;
+  }
+  &.pron {
+    color: #494;
+  }
+  &.tens {
+    color: #499;
+  }
+  &.lang {
+    color: #444;
+  }
+  &.posit {
+    color: pink;
   }
   &.see {
     color: #666;

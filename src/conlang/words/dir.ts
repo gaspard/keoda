@@ -1,8 +1,8 @@
 import * as _ from '.'
 
 export const dahir = _.word('dahir', {
-  preposition: 'quand (future)',
+  prep: 'quand (future)',
   etym: () => [_.da, _.lir],
 })
-_.see(_.preposition)
+_.see(_.prep)
 _.see(_.dahem)

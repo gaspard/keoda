@@ -1,8 +1,8 @@
 import * as _ from '.'
 
 export const a = _.word('a', {
-  lang: 'à (elle, lui)',
-  conj: 'iel',
+  prep: 'à (elle, lui)',
+  conj: 'iel (3s)',
 })
 _.see(_.amaconj)
 

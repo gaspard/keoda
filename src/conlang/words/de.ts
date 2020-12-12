@@ -2,15 +2,15 @@ import * as _ from '.'
 
 export const de = _.word('de', {
   noun: '2',
-  pronoun: 'nous deux',
-  position: 'sur le dos (2) jambes écartées',
-  conj: 'nous deux',
+  pron: 'nous deux',
+  posit: 'sur le dos (2) jambes écartées',
+  conj: 'nous deux (5p)',
 })
 _.see(_.demaconj)
 _.see(_.counting)
 
 export const deda = _.word('deda', {
-  pronoun: 'nous deux',
+  pron: 'nous deux',
 })
 _.see(_.pronouns)
 _.see(_.peda)
@@ -22,7 +22,7 @@ export const demimunwe = _.example(
 
 export const hamade = _.word('hamade', {
   noun: 'index (2ème doigt)',
-  position:
+  posit:
     'sur le dos les (2) jambes écartées (indiquée par un signe de main: pouce contre index)',
 })
 

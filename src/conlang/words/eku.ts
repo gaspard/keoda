@@ -1,4 +1,4 @@
 import * as _ from '.'
 
-export const eku = _.word('eku', { preposition: 'que' })
-_.see(_.preposition)
+export const eku = _.word('eku', { prep: 'que' })
+_.see(_.prep)

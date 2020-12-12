@@ -41,7 +41,7 @@ _.see(_.duwi)
 
 export const nopi = _.word('nopi', {
   noun: 'dos',
-  position: 'allongé sur le dos',
+  posit: 'allongé sur le dos',
   etym: () => [_.no, _.pi],
 })
 

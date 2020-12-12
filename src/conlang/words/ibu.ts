@@ -1,4 +1,4 @@
 import * as _ from '.'
 
-export const ibu = _.word('ibu', { preposition: 'pour' })
-_.see(_.preposition)
+export const ibu = _.word('ibu', { prep: 'pour' })
+_.see(_.prep)

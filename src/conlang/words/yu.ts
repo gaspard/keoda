@@ -6,7 +6,7 @@ export const yu = _.word('yu', {
 })
 
 export const eyu = _.word('eyu', {
-  preposition: 'si',
+  prep: 'si',
   desc: () => `Être joyeux = être tellement = si xxx`,
   etym: () => [_.e, _.yu],
 })

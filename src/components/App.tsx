@@ -11,6 +11,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
 `
 
 export const App: Comp<AppProps> = ({ className }) => {
