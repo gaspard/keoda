@@ -9,22 +9,45 @@ export interface DescriptionFunction {
 
 export interface FullWord {
   name: string
-  adj: string
-  adv: string
-  noun: string
-  conj: string
-  tens: string
-  etym: () => Word[]
-  pron: string
-  person: string
   desc: DescriptionFunction
-  prep: string
-  lang: string
-  posit: string
+  etym: () => Word[]
+  noun: string
+  verb: string
+  adj: string
+  conj: string
   prefix: string
   suffix: string
-  verb: string
+  prep: string
+  pron: string
+  tens: string
+  lang: string
+  posit: string
+  adv: string
+  // ???
+  person: string
 }
+
+export const FULLTEXT_KEYS: (keyof CompiledWord)[] = [
+  'conj',
+  'noun',
+  'verb',
+  'adj',
+  'prefix',
+  'suffix',
+  'prep',
+  'pron',
+  'tens',
+  'lang',
+  'posit',
+  'adv',
+  'person',
+]
+
+export const DEF_KEYS: (keyof CompiledWord)[] = [
+  'etym',
+  ...FULLTEXT_KEYS,
+  'see',
+]
 
 export interface WordByName {
   [key: string]: Word
@@ -41,6 +64,8 @@ export interface Word extends WordDefinition {
 }
 
 export interface CompiledWord extends Omit<Word, 'etym' | 'desc'> {
+  // concat of all text for search
+  fulltext: string
   etym?: string[]
   desc?: string
   see?: string[]

@@ -47,7 +47,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run build && git add public"
+      "pre-commit": "npm run build && git add public && git add src/db.json"
     }
   }
 }

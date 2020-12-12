@@ -6,11 +6,17 @@ import * as actions from './actions'
 import { CompiledWord } from './conlang'
 export { styled, Comp }
 
+export interface Filter {
+  type: 'type' | 'word'
+  key: string
+}
+
 export interface KeodaConfig {
   onInitialize: (ctx: Overmind<KeodaConfig>) => void
   state: {
     keoda: {
       selected?: string
+      filter?: Filter
       words: {
         [key: string]: CompiledWord
       }

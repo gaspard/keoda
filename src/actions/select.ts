@@ -1,5 +1,3 @@
-export {}
-
 import { Action } from '../app'
 
 export interface SelectArg {
@@ -7,7 +5,5 @@ export interface SelectArg {
 }
 
 export const select: Action<SelectArg> = (ctx, arg) => {
-  const { state } = ctx
-  const { name } = arg
-  ctx.state.keoda.selected = name
+  ctx.state.keoda.selected = arg.name
 }

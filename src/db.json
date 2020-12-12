@@ -6,7 +6,8 @@
     "see": [
       "ahada",
       "oho"
-    ]
+    ],
+    "fulltext": "a ahada oho iel (3s) à (elle, lui)"
   },
   "ahada": {
     "name": "ahada",
@@ -14,7 +15,8 @@
     "etym": [
       "a",
       "yada"
-    ]
+    ],
+    "fulltext": "ahada a yada elle/lui poétique"
   },
   "yada": {
     "name": "yada",
@@ -32,7 +34,8 @@
       "shaha",
       "shiha",
       "shoha"
-    ]
+    ],
+    "fulltext": "yada ya oda si le corps visible, c'est {oda}, le corps profond, intime, poétique, identitaire, \"subconscient\" comme dirait Julia Serano, c'est {yada}. ahada piha iha oha shaha shiha shoha corps rêvé, poétique (corps de nuit)"
   },
   "piha": {
     "name": "piha",
@@ -40,27 +43,33 @@
     "etym": [
       "pi",
       "yada"
-    ]
+    ],
+    "fulltext": "piha pi yada moi poétique (mythique, profond)"
   },
   "yadaguitoda": {
     "name": "yadaguitoda",
-    "noun": "corps poétique féminin né dans un corps masculin (femme trans)"
+    "noun": "corps poétique féminin né dans un corps masculin (femme trans)",
+    "fulltext": "yadaguitoda corps poétique féminin né dans un corps masculin (femme trans)"
   },
   "yaguito": {
     "name": "yaguito",
-    "noun": "version courte pour femme trans (femme née dans un corps homme)"
+    "noun": "version courte pour femme trans (femme née dans un corps homme)",
+    "fulltext": "yaguito version courte pour femme trans (femme née dans un corps homme)"
   },
   "tadaguiyoda": {
     "name": "tadaguiyoda",
-    "noun": "corps poétique masculin né dans un corps féminin (homme trans)"
+    "noun": "corps poétique masculin né dans un corps féminin (homme trans)",
+    "fulltext": "tadaguiyoda corps poétique masculin né dans un corps féminin (homme trans)"
   },
   "taguiyo": {
     "name": "taguiyo",
-    "noun": "version courte pour homme trans (homme né dans un corps femme)"
+    "noun": "version courte pour homme trans (homme né dans un corps femme)",
+    "fulltext": "taguiyo version courte pour homme trans (homme né dans un corps femme)"
   },
   "adu": {
     "name": "adu",
-    "noun": "proche, ami"
+    "noun": "proche, ami",
+    "fulltext": "adu proche, ami"
   },
   "doda": {
     "name": "doda",
@@ -71,7 +80,8 @@
     ],
     "see": [
       "dudapan"
-    ]
+    ],
+    "fulltext": "doda du oda dudapan petit.e frère/soeur"
   },
   "aga": {
     "name": "aga",
@@ -80,7 +90,8 @@
       "agana",
       "agade",
       "ago"
-    ]
+    ],
+    "fulltext": "aga agana agade ago musique"
   },
   "agana": {
     "name": "agana",
@@ -91,7 +102,8 @@
     ],
     "see": [
       "agauki"
-    ]
+    ],
+    "fulltext": "agana aga na agauki son (la chose musique incarnée)"
   },
   "agade": {
     "name": "agade",
@@ -99,7 +111,8 @@
     "etym": [
       "aga",
       "de"
-    ]
+    ],
+    "fulltext": "agade aga de écho (deux sons)"
   },
   "agauki": {
     "name": "agauki",
@@ -107,11 +120,13 @@
     "etym": [
       "agana",
       "uki"
-    ]
+    ],
+    "fulltext": "agauki agana uki résonner (le son long)"
   },
   "agaukida": {
     "name": "agaukida",
-    "noun": "temple (le lieu qui résonne)"
+    "noun": "temple (le lieu qui résonne)",
+    "fulltext": "agaukida temple (le lieu qui résonne)"
   },
   "ago": {
     "name": "ago",
@@ -120,7 +135,8 @@
       "aga",
       "o"
     ],
-    "desc": "Musique frappée."
+    "desc": "Musique frappée.",
+    "fulltext": "ago aga o Musique frappée. rythme"
   },
   "agu": {
     "name": "agu",
@@ -128,7 +144,8 @@
     "verb": "écouter",
     "see": [
       "agupeu"
-    ]
+    ],
+    "fulltext": "agu agupeu oreille écouter"
   },
   "aj": {
     "name": "aj",
@@ -139,7 +156,8 @@
       "laj",
       "taj",
       "yaj"
-    ]
+    ],
+    "fulltext": "aj ajapi laj taj yaj feu brûler"
   },
   "ajapi": {
     "name": "ajapi",
@@ -147,7 +165,8 @@
     "etym": [
       "aj",
       "pi"
-    ]
+    ],
+    "fulltext": "ajapi aj pi calcination de soi, transformation totale"
   },
   "al": {
     "name": "al",
@@ -155,7 +174,8 @@
     "prefix": "en haut, vers le ciel ou la tête",
     "see": [
       "alayin"
-    ]
+    ],
+    "fulltext": "al alayin ciel en haut, vers le ciel ou la tête"
   },
   "alayin": {
     "name": "alayin",
@@ -167,7 +187,8 @@
     ],
     "see": [
       "dualayin"
-    ]
+    ],
+    "fulltext": "alayin du al yin dualayin haut du vagin"
   },
   "dualayin": {
     "name": "dualayin",
@@ -178,14 +199,16 @@
     ],
     "see": [
       "dalayin"
-    ]
+    ],
+    "fulltext": "dualayin du alayin dalayin point G"
   },
   "dalayin": {
     "name": "dalayin",
     "noun": "point G (version courte)",
     "etym": [
       "dualayin"
-    ]
+    ],
+    "fulltext": "dalayin dualayin point G (version courte)"
   },
   "ana": {
     "name": "ana",
@@ -195,7 +218,8 @@
       "anawi",
       "duna",
       "nona"
-    ]
+    ],
+    "fulltext": "ana anawi duna nona arbre féminin"
   },
   "anawi": {
     "name": "anawi",
@@ -203,19 +227,23 @@
     "etym": [
       "ana",
       "awi"
-    ]
+    ],
+    "fulltext": "anawi ana awi meduse"
   },
   "anoda": {
     "name": "anoda",
-    "noun": "femme"
+    "noun": "femme",
+    "fulltext": "anoda femme"
   },
   "anoto": {
     "name": "anoto",
-    "noun": "femme-homme"
+    "noun": "femme-homme",
+    "fulltext": "anoto femme-homme"
   },
   "aniwi": {
     "name": "aniwi",
-    "noun": "femme-enby"
+    "noun": "femme-enby",
+    "fulltext": "aniwi femme-enby"
   },
   "au": {
     "name": "au",
@@ -225,11 +253,13 @@
       "aupa",
       "augu",
       "aupi"
-    ]
+    ],
+    "fulltext": "au aupa augu aupi coeur aimer/recevoir"
   },
   "auhu": {
     "name": "auhu",
-    "noun": "tomber amoureux.se, attraction du cœur"
+    "noun": "tomber amoureux.se, attraction du cœur",
+    "fulltext": "auhu tomber amoureux.se, attraction du cœur"
   },
   "aupa": {
     "name": "aupa",
@@ -237,7 +267,8 @@
     "etym": [
       "au",
       "pa"
-    ]
+    ],
+    "fulltext": "aupa au pa gratitude (aimer tout)"
   },
   "awi": {
     "name": "awi",
@@ -251,7 +282,8 @@
       "gawi",
       "kawi",
       "munawi"
-    ]
+    ],
+    "fulltext": "awi anawi mawi awiu gawi kawi munawi poisson briller belle/beau"
   },
   "mawi": {
     "name": "mawi",
@@ -259,7 +291,8 @@
     "etym": [
       "moon",
       "awi"
-    ]
+    ],
+    "fulltext": "mawi moon awi dauphin"
   },
   "awiu": {
     "name": "awiu",
@@ -267,30 +300,36 @@
     "etym": [
       "awi",
       "u"
-    ]
+    ],
+    "fulltext": "awiu awi u nager"
   },
   "baj": {
     "name": "baj",
-    "noun": "membre inférieur"
+    "noun": "membre inférieur",
+    "fulltext": "baj membre inférieur"
   },
   "djobaj": {
     "name": "djobaj",
     "noun": "cuisse",
-    "desc": "De {djo} et {baj}"
+    "desc": "De {djo} et {baj}",
+    "fulltext": "djobaj De {djo} et {baj} cuisse"
   },
   "habaj": {
     "name": "habaj",
-    "noun": "jambe"
+    "noun": "jambe",
+    "fulltext": "habaj jambe"
   },
   "kebaj": {
     "name": "kebaj",
     "noun": "testicules",
-    "desc": "Caché {ke} entre les jambes {baj}."
+    "desc": "Caché {ke} entre les jambes {baj}.",
+    "fulltext": "kebaj Caché {ke} entre les jambes {baj}. testicules"
   },
   "beo": {
     "name": "beo",
     "verb": "secouer",
-    "adj": "secoué"
+    "adj": "secoué",
+    "fulltext": "beo secouer secoué"
   },
   "bo": {
     "name": "bo",
@@ -298,7 +337,8 @@
     "see": [
       "robo",
       "obo"
-    ]
+    ],
+    "fulltext": "bo robo obo ventre"
   },
   "robo": {
     "name": "robo",
@@ -306,62 +346,76 @@
     "etym": [
       "ro",
       "bo"
-    ]
+    ],
+    "fulltext": "robo ro bo nombril (centre du ventre)"
   },
   "bu": {
     "name": "bu",
-    "noun": "chose qui grossit (corps érectile)"
+    "noun": "chose qui grossit (corps érectile)",
+    "fulltext": "bu chose qui grossit (corps érectile)"
   },
   "buyon": {
     "name": "buyon",
-    "noun": "corps érectile du clitoris"
+    "noun": "corps érectile du clitoris",
+    "fulltext": "buyon corps érectile du clitoris"
   },
   "butaj": {
     "name": "butaj",
-    "noun": "corps érectile du pénis"
+    "noun": "corps érectile du pénis",
+    "fulltext": "butaj corps érectile du pénis"
   },
   "lire": {
     "name": "lire",
-    "tens": "futur éventuel, improbable mais pas impossible"
+    "tens": "futur éventuel, improbable mais pas impossible",
+    "fulltext": "lire futur éventuel, improbable mais pas impossible"
   },
   "liro": {
     "name": "liro",
-    "tens": "futur lointain"
+    "tens": "futur lointain",
+    "fulltext": "liro futur lointain"
   },
   "liru": {
     "name": "liru",
-    "tens": "futur proche"
+    "tens": "futur proche",
+    "fulltext": "liru futur proche"
   },
   "lira": {
     "name": "lira",
     "tens": "demain",
     "see": [
       "lirana"
-    ]
+    ],
+    "fulltext": "lira lirana demain"
   },
   "liri": {
     "name": "liri",
-    "tens": "ce soir, ce matin qui vient, la journée qui arrive"
+    "tens": "ce soir, ce matin qui vient, la journée qui arrive",
+    "fulltext": "liri ce soir, ce matin qui vient, la journée qui arrive"
   },
   "lemi": {
     "name": "lemi",
-    "tens": "hier soir, ce matin, aujourd'hui"
+    "tens": "hier soir, ce matin, aujourd'hui",
+    "fulltext": "lemi hier soir, ce matin, aujourd'hui"
   },
   "lema": {
     "name": "lema",
-    "tens": "hier"
+    "tens": "hier",
+    "fulltext": "lema hier"
   },
   "lemu": {
     "name": "lemu",
-    "tens": "passé proche"
+    "tens": "passé proche",
+    "fulltext": "lemu passé proche"
   },
   "lemo": {
     "name": "lemo",
-    "tens": "passé lointain"
+    "tens": "passé lointain",
+    "fulltext": "lemo passé lointain"
   },
   "leme": {
     "name": "leme",
-    "tens": "passé éventuel, improbable mais pas impossible"
+    "tens": "passé éventuel, improbable mais pas impossible",
+    "fulltext": "leme passé éventuel, improbable mais pas impossible"
   },
   "da": {
     "name": "da",
@@ -373,15 +427,18 @@
       "goa",
       "lama",
       "lamoa"
-    ]
+    ],
+    "fulltext": "da dahem dahir goa lama lamoa lieu, 9 lieu"
   },
   "dapa": {
     "name": "dapa",
-    "noun": "joie, émotion complexe"
+    "noun": "joie, émotion complexe",
+    "fulltext": "dapa joie, émotion complexe"
   },
   "guda": {
     "name": "guda",
-    "noun": "le lieu de l'expérience"
+    "noun": "le lieu de l'expérience",
+    "fulltext": "guda le lieu de l'expérience"
   },
   "de": {
     "name": "de",
@@ -391,24 +448,29 @@
     "conj": "nous deux (5p)",
     "see": [
       "agade"
-    ]
+    ],
+    "fulltext": "de agade nous deux (5p) 2 nous deux sur le dos (2) jambes écartées"
   },
   "deda": {
     "name": "deda",
-    "pron": "nous deux"
+    "pron": "nous deux",
+    "fulltext": "deda nous deux"
   },
   "hamade": {
     "name": "hamade",
     "noun": "index (2ème doigt)",
-    "posit": "sur le dos les (2) jambes écartées (indiquée par un signe de main: pouce contre index)"
+    "posit": "sur le dos les (2) jambes écartées (indiquée par un signe de main: pouce contre index)",
+    "fulltext": "hamade index (2ème doigt) sur le dos les (2) jambes écartées (indiquée par un signe de main: pouce contre index)"
   },
   "nede": {
     "name": "nede",
-    "noun": "vie sans temps (stress, pas de mémoire)"
+    "noun": "vie sans temps (stress, pas de mémoire)",
+    "fulltext": "nede vie sans temps (stress, pas de mémoire)"
   },
   "dej": {
     "name": "dej",
-    "noun": "vers"
+    "noun": "vers",
+    "fulltext": "dej vers"
   },
   "dahem": {
     "name": "dahem",
@@ -417,7 +479,8 @@
       "da",
       "em"
     ],
-    "desc": "Le lieu {da} vécu {em}"
+    "desc": "Le lieu {da} vécu {em}",
+    "fulltext": "dahem da em Le lieu {da} vécu {em} quand (passé)"
   },
   "di": {
     "name": "di",
@@ -425,7 +488,8 @@
     "see": [
       "diguwu",
       "yadifa"
-    ]
+    ],
+    "fulltext": "di diguwu yadifa qui (transforme verbe en adj)"
   },
   "diguwu": {
     "name": "diguwu",
@@ -433,14 +497,16 @@
     "etym": [
       "di",
       "guwu"
-    ]
+    ],
+    "fulltext": "diguwu di guwu généreu.se.x"
   },
   "dil": {
     "name": "dil",
     "noun": "ongle, griffe",
     "see": [
       "pedil"
-    ]
+    ],
+    "fulltext": "dil pedil ongle, griffe"
   },
   "pedil": {
     "name": "pedil",
@@ -451,7 +517,8 @@
     ],
     "see": [
       "lipedil"
-    ]
+    ],
+    "fulltext": "pedil pe dil lipedil fourche"
   },
   "lipedil": {
     "name": "lipedil",
@@ -459,7 +526,8 @@
     "etym": [
       "lil",
       "pedil"
-    ]
+    ],
+    "fulltext": "lipedil lil pedil fourchette"
   },
   "dahir": {
     "name": "dahir",
@@ -467,14 +535,16 @@
     "etym": [
       "da",
       "lir"
-    ]
+    ],
+    "fulltext": "dahir da lir quand (future)"
   },
   "dja": {
     "name": "dja",
     "noun": "possible",
     "see": [
       "edja"
-    ]
+    ],
+    "fulltext": "dja edja possible"
   },
   "dji": {
     "name": "dji",
@@ -483,11 +553,13 @@
     "etym": [
       "pi",
       "ipi"
-    ]
+    ],
+    "fulltext": "dji pi ipi Pour les dizaines, on utilise dji au lieu de {pi} {ipi} (mais on peut aussi dire {pi} {ipi}) 10 (mémoire)"
   },
   "djipa": {
     "name": "djipa",
-    "noun": "souvenir (être dieu.e)"
+    "noun": "souvenir (être dieu.e)",
+    "fulltext": "djipa souvenir (être dieu.e)"
   },
   "djil": {
     "name": "djil",
@@ -495,7 +567,8 @@
     "posit": "debout, le corps penché en avant, les cheveux offerts, prêts à être pris.",
     "see": [
       "djoda"
-    ]
+    ],
+    "fulltext": "djil djoda cheveux debout, le corps penché en avant, les cheveux offerts, prêts à être pris."
   },
   "djoda": {
     "name": "djoda",
@@ -503,12 +576,14 @@
     "etym": [
       "djil",
       "oda"
-    ]
+    ],
+    "fulltext": "djoda djil oda ours"
   },
   "nedjil": {
     "name": "nedjil",
     "noun": "sans poils",
-    "verb": "raser"
+    "verb": "raser",
+    "fulltext": "nedjil sans poils raser"
   },
   "djo": {
     "name": "djo",
@@ -517,28 +592,34 @@
     "see": [
       "djonopi",
       "obo"
-    ]
+    ],
+    "fulltext": "djo Au centre {dej} {ojo} djonopi obo partie proximal"
   },
   "hadjo": {
     "name": "hadjo",
-    "verb": "prendre vers soi"
+    "verb": "prendre vers soi",
+    "fulltext": "hadjo prendre vers soi"
   },
   "djoha": {
     "name": "djoha",
-    "verb": "rejeter (loin de soi)"
+    "verb": "rejeter (loin de soi)",
+    "fulltext": "djoha rejeter (loin de soi)"
   },
   "muhadjo": {
     "name": "muhadjo",
-    "verb": "cueillir"
+    "verb": "cueillir",
+    "fulltext": "muhadjo cueillir"
   },
   "dom": {
     "name": "dom",
     "adj": "très fort",
-    "desc": "\nImplique un contact très profond, intime, fort, non pas par la force physique\nmais par l’intensité de la circulation des sensations, du “donner” et\n“recevoir”.\n\nPar exemple, la phrase suivante:\n\n[object Object]\n\nN’implique pas automatiquement la copulation méchanique et bestiale (même si\ncette dernière est possible), mais plutôt la recherche d’une très grande\nprofondeur et intensité qui pourrait aussi se traduire par beaucoup de\nlenteur ou de câlins ou de contrastes, etc.\n"
+    "desc": "\nImplique un contact très profond, intime, fort, non pas par la force physique\nmais par l’intensité de la circulation des sensations, du “donner” et\n“recevoir”.\n\nPar exemple, la phrase suivante:\n\n[object Object]\n\nN’implique pas automatiquement la copulation méchanique et bestiale (même si\ncette dernière est possible), mais plutôt la recherche d’une très grande\nprofondeur et intensité qui pourrait aussi se traduire par beaucoup de\nlenteur ou de câlins ou de contrastes, etc.\n",
+    "fulltext": "dom \nImplique un contact très profond, intime, fort, non pas par la force physique\nmais par l’intensité de la circulation des sensations, du “donner” et\n“recevoir”.\n\nPar exemple, la phrase suivante:\n\n[object Object]\n\nN’implique pas automatiquement la copulation méchanique et bestiale (même si\ncette dernière est possible), mais plutôt la recherche d’une très grande\nprofondeur et intensité qui pourrait aussi se traduire par beaucoup de\nlenteur ou de câlins ou de contrastes, etc.\n très fort"
   },
   "don": {
     "name": "don",
-    "prep": "où"
+    "prep": "où",
+    "fulltext": "don où"
   },
   "du": {
     "name": "du",
@@ -553,7 +634,8 @@
       "duwi",
       "duyin",
       "duha"
-    ]
+    ],
+    "fulltext": "du Inspiré de sud (on regarde le sud). doda alayin dualayin duto duna duwi duyin duha devant"
   },
   "duto": {
     "name": "duto",
@@ -561,7 +643,8 @@
     "etym": [
       "du",
       "oto"
-    ]
+    ],
+    "fulltext": "duto du oto petit frère/vent"
   },
   "duna": {
     "name": "duna",
@@ -569,7 +652,8 @@
     "etym": [
       "du",
       "ana"
-    ]
+    ],
+    "fulltext": "duna du ana petite soeur/arbre"
   },
   "duwi": {
     "name": "duwi",
@@ -577,7 +661,8 @@
     "etym": [
       "du",
       "iwi"
-    ]
+    ],
+    "fulltext": "duwi du iwi petit.e enby/oiseau"
   },
   "duyin": {
     "name": "duyin",
@@ -585,13 +670,15 @@
     "etym": [
       "du",
       "yin"
-    ]
+    ],
+    "fulltext": "duyin du yin avant du vagin"
   },
   "dur": {
     "name": "dur",
     "noun": "nuque",
     "verb": "obéir",
-    "adj": "obéissant.e"
+    "adj": "obéissant.e",
+    "fulltext": "dur nuque obéir obéissant.e"
   },
   "e": {
     "name": "e",
@@ -599,7 +686,8 @@
     "see": [
       "edja",
       "eyu"
-    ]
+    ],
+    "fulltext": "e edja eyu deviens, soit, être"
   },
   "edja": {
     "name": "edja",
@@ -607,11 +695,13 @@
     "etym": [
       "e",
       "dja"
-    ]
+    ],
+    "fulltext": "edja e dja interrogation (ou affirmative)"
   },
   "nedja": {
     "name": "nedja",
-    "prep": "pas possible (ou affirmative)"
+    "prep": "pas possible (ou affirmative)",
+    "fulltext": "nedja pas possible (ou affirmative)"
   },
   "egi": {
     "name": "egi",
@@ -620,7 +710,8 @@
       "egina",
       "tajegi",
       "yonegi"
-    ]
+    ],
+    "fulltext": "egi egina tajegi yonegi froid"
   },
   "egina": {
     "name": "egina",
@@ -628,18 +719,21 @@
     "etym": [
       "egi",
       "ina"
-    ]
+    ],
+    "fulltext": "egina egi ina endive, janvier"
   },
   "eku": {
     "name": "eku",
-    "prep": "que"
+    "prep": "que",
+    "fulltext": "eku que"
   },
   "el": {
     "name": "el",
     "adj": "droit",
     "see": [
       "namel"
-    ]
+    ],
+    "fulltext": "el namel droit"
   },
   "em": {
     "name": "em",
@@ -649,7 +743,8 @@
       "dahem",
       "nem",
       "lem"
-    ]
+    ],
+    "fulltext": "em dahem nem lem le vécu vivre"
   },
   "nem": {
     "name": "nem",
@@ -657,35 +752,43 @@
     "etym": [
       "ne",
       "em"
-    ]
+    ],
+    "fulltext": "nem ne em mourir, ne pas vivre"
   },
   "dim": {
     "name": "dim",
-    "noun": "couleur cerise"
+    "noun": "couleur cerise",
+    "fulltext": "dim couleur cerise"
   },
   "erina": {
     "name": "erina",
-    "noun": "cerise (fruit), juin"
+    "noun": "cerise (fruit), juin",
+    "fulltext": "erina cerise (fruit), juin"
   },
   "muneri": {
     "name": "muneri",
-    "noun": "téton (cerise du sein)"
+    "noun": "téton (cerise du sein)",
+    "fulltext": "muneri téton (cerise du sein)"
   },
   "tajeri": {
     "name": "tajeri",
-    "noun": "gland (cerise du pénis)"
+    "noun": "gland (cerise du pénis)",
+    "fulltext": "tajeri gland (cerise du pénis)"
   },
   "yoneri": {
     "name": "yoneri",
-    "noun": "clitoris (cerise de la vulve)"
+    "noun": "clitoris (cerise de la vulve)",
+    "fulltext": "yoneri clitoris (cerise de la vulve)"
   },
   "eshu": {
     "name": "eshu",
-    "adj": "perdu"
+    "adj": "perdu",
+    "fulltext": "eshu perdu"
   },
   "eshubeo": {
     "name": "eshubeo",
-    "noun": "monstre"
+    "noun": "monstre",
+    "fulltext": "eshubeo monstre"
   },
   "fa": {
     "name": "fa",
@@ -697,7 +800,8 @@
       "fatio",
       "yafa",
       "yadifa"
-    ]
+    ],
+    "fulltext": "fa Lorsqu’on utilise les yeux comme \"récépteurs\" d'un geste, ça veut dire montrer sauf si on utilise un des suffixes comme ({i}, {u} ou {o}). Par exemple [object Object] versus [object Object]. gufa fatio yafa yadifa yeux regarder"
   },
   "gufa": {
     "name": "gufa",
@@ -705,12 +809,14 @@
     "etym": [
       "gu",
       "fa"
-    ]
+    ],
+    "fulltext": "gufa gu fa pupille (vie de l'oeil)"
   },
   "falo": {
     "name": "falo",
     "noun": "yeux humides, tristesse",
-    "verb": "être triste"
+    "verb": "être triste",
+    "fulltext": "falo yeux humides, tristesse être triste"
   },
   "faj": {
     "name": "faj",
@@ -719,7 +825,8 @@
     "etym": [
       "fe",
       "yaj"
-    ]
+    ],
+    "fulltext": "faj fe yaj version courte de {feyaj} prépuce, protection"
   },
   "feyaj": {
     "name": "feyaj",
@@ -728,11 +835,13 @@
     "etym": [
       "fe",
       "yaj"
-    ]
+    ],
+    "fulltext": "feyaj fe yaj version longue de {faj} prépuce"
   },
   "nefaj": {
     "name": "nefaj",
-    "verb": "découvrir le gland, retrousser la peau du prépuce"
+    "verb": "découvrir le gland, retrousser la peau du prépuce",
+    "fulltext": "nefaj découvrir le gland, retrousser la peau du prépuce"
   },
   "fe": {
     "name": "fe",
@@ -742,59 +851,71 @@
     "see": [
       "faj",
       "feyaj"
-    ]
+    ],
+    "fulltext": "fe faj feyaj 7 (sur) être sur sur"
   },
   "fena": {
     "name": "fena",
-    "noun": "choux (couches), février"
+    "noun": "choux (couches), février",
+    "fulltext": "fena choux (couches), février"
   },
   "feo": {
     "name": "feo",
-    "adv": "sur moi"
+    "adv": "sur moi",
+    "fulltext": "feo sur moi"
   },
   "feoda": {
     "name": "feoda",
     "noun": "habits",
-    "desc": "Littéralement \"sur le corps\"."
+    "desc": "Littéralement \"sur le corps\".",
+    "fulltext": "feoda Littéralement \"sur le corps\". habits"
   },
   "nefe": {
     "name": "nefe",
     "noun": "nu",
     "adj": "découvert",
-    "verb": "déshabiller, découvrir"
+    "verb": "déshabiller, découvrir",
+    "fulltext": "nefe nu déshabiller, découvrir découvert"
   },
   "fepa": {
     "name": "fepa",
-    "noun": "fierté"
+    "noun": "fierté",
+    "fulltext": "fepa fierté"
   },
   "fen": {
     "name": "fen",
     "noun": "genoux",
     "posit": "à genoux",
-    "verb": "marcher"
+    "verb": "marcher",
+    "fulltext": "fen genoux marcher à genoux"
   },
   "fi": {
     "name": "fi",
-    "noun": "fil, relier"
+    "noun": "fil, relier",
+    "fulltext": "fi fil, relier"
   },
   "fishasha": {
     "name": "fishasha",
-    "verb": "coudre (le fil qui danse)"
+    "verb": "coudre (le fil qui danse)",
+    "fulltext": "fishasha coudre (le fil qui danse)"
   },
   "gufishasha": {
     "name": "gufishasha",
-    "verb": "coudre la vie, relier les choses hors du temps causal"
+    "verb": "coudre la vie, relier les choses hors du temps causal",
+    "fulltext": "gufishasha coudre la vie, relier les choses hors du temps causal"
   },
   "gufi": {
     "name": "gufi",
-    "noun": "fil de vie"
+    "noun": "fil de vie",
+    "fulltext": "gufi fil de vie"
   },
   "fio": {
     "name": "fio",
     "noun": "aubergine (couleur)",
     "see": [
       "fiona"
-    ]
+    ],
+    "fulltext": "fio fiona aubergine (couleur)"
   },
   "fiona": {
     "name": "fiona",
@@ -802,11 +923,13 @@
     "etym": [
       "fio",
       "na"
-    ]
+    ],
+    "fulltext": "fiona fio na aubergine (légume)"
   },
   "fo": {
     "name": "fo",
-    "verb": "fouetter"
+    "verb": "fouetter",
+    "fulltext": "fo fouetter"
   },
   "ga": {
     "name": "ga",
@@ -817,7 +940,8 @@
       "gao",
       "kuga",
       "nega"
-    ]
+    ],
+    "fulltext": "ga Dans le sens de l'esprit des choses, l'esprit de la nature, etc. gana gao kuga nega esprit"
   },
   "gana": {
     "name": "gana",
@@ -825,7 +949,8 @@
     "etym": [
       "ga",
       "na"
-    ]
+    ],
+    "fulltext": "gana ga na la terre"
   },
   "gai": {
     "name": "gai",
@@ -833,12 +958,14 @@
     "desc": "esprit caressé / qui caresse (la pluie sur la terre)",
     "see": [
       "gugai"
-    ]
+    ],
+    "fulltext": "gai esprit caressé / qui caresse (la pluie sur la terre) gugai conscience, pluie"
   },
   "kegai": {
     "name": "kegai",
     "noun": "dieu",
-    "desc": "caché dans l'esprit caressé"
+    "desc": "caché dans l'esprit caressé",
+    "fulltext": "kegai caché dans l'esprit caressé dieu"
   },
   "gau": {
     "name": "gau",
@@ -850,7 +977,8 @@
     "see": [
       "gau",
       "ligau"
-    ]
+    ],
+    "fulltext": "gau gau u gau ligau attention (esprit tiré)"
   },
   "gao": {
     "name": "gao",
@@ -858,7 +986,8 @@
     "etym": [
       "ga",
       "o"
-    ]
+    ],
+    "fulltext": "gao ga o attention (esprit projeté)"
   },
   "kuga": {
     "name": "kuga",
@@ -866,7 +995,8 @@
     "etym": [
       "ku",
       "ga"
-    ]
+    ],
+    "fulltext": "kuga ku ga la pensée causale, l'esprit de victime"
   },
   "nega": {
     "name": "nega",
@@ -874,7 +1004,8 @@
     "etym": [
       "ne",
       "ga"
-    ]
+    ],
+    "fulltext": "nega ne ga fou (sans esprit)"
   },
   "gi": {
     "name": "gi",
@@ -890,14 +1021,16 @@
       "yaonagi",
       "yogi",
       "yohonagi"
-    ]
+    ],
+    "fulltext": "gi gu i gilapa yagi yaonagi yogi yohonagi doux (expérience caressée) doux"
   },
   "gil": {
     "name": "gil",
     "noun": "tigre",
     "see": [
       "gilil"
-    ]
+    ],
+    "fulltext": "gil gilil tigre"
   },
   "gilil": {
     "name": "gilil",
@@ -905,7 +1038,8 @@
     "etym": [
       "gil",
       "lil"
-    ]
+    ],
+    "fulltext": "gilil gil lil chat (petit tigre)"
   },
   "go": {
     "name": "go",
@@ -913,7 +1047,8 @@
     "etym": [
       "gu",
       "o"
-    ]
+    ],
+    "fulltext": "go gu o intense (expérience fouettée)"
   },
   "gol": {
     "name": "gol",
@@ -923,7 +1058,8 @@
       "gawi",
       "goda",
       "shegul"
-    ]
+    ],
+    "fulltext": "gol goa gawi goda shegul grand"
   },
   "goa": {
     "name": "goa",
@@ -934,11 +1070,13 @@
     ],
     "see": [
       "lamagoa"
-    ]
+    ],
+    "fulltext": "goa gol da lamagoa big place"
   },
   "gola": {
     "name": "gola",
-    "noun": "grande chose (courge)"
+    "noun": "grande chose (courge)",
+    "fulltext": "gola grande chose (courge)"
   },
   "gawi": {
     "name": "gawi",
@@ -946,7 +1084,8 @@
     "etym": [
       "gol",
       "awi"
-    ]
+    ],
+    "fulltext": "gawi gol awi baleine"
   },
   "goda": {
     "name": "goda",
@@ -954,7 +1093,8 @@
     "etym": [
       "gol",
       "oda"
-    ]
+    ],
+    "fulltext": "goda gol oda éléphant"
   },
   "gu": {
     "name": "gu",
@@ -976,7 +1116,8 @@
       "gupa",
       "gupi",
       "sigu"
-    ]
+    ],
+    "fulltext": "gu On peut voir {gu} comme le mouvement de l'esprit {ga} (esprit) {u} (tiré) gufa gi go gulir gulem guo gui guwu guru gugai augu gupa gupi sigu obscurité, gestation, profondeur profondeur"
   },
   "gulir": {
     "name": "gulir",
@@ -984,7 +1125,8 @@
     "etym": [
       "gu",
       "lir"
-    ]
+    ],
+    "fulltext": "gulir gu lir souhaiter (gu du future)"
   },
   "gulem": {
     "name": "gulem",
@@ -992,11 +1134,13 @@
     "etym": [
       "gu",
       "lem"
-    ]
+    ],
+    "fulltext": "gulem gu lem se souvenir (gu du passé)"
   },
   "guna": {
     "name": "guna",
-    "noun": "vie"
+    "noun": "vie",
+    "fulltext": "guna vie"
   },
   "guo": {
     "name": "guo",
@@ -1004,7 +1148,8 @@
     "etym": [
       "gu",
       "o"
-    ]
+    ],
+    "fulltext": "guo gu o mourir"
   },
   "gui": {
     "name": "gui",
@@ -1015,7 +1160,8 @@
     ],
     "see": [
       "iwigui"
-    ]
+    ],
+    "fulltext": "gui gu i iwigui naître"
   },
   "guwu": {
     "name": "guwu",
@@ -1027,7 +1173,8 @@
     "see": [
       "diguwu",
       "guwuna"
-    ]
+    ],
+    "fulltext": "guwu gu wu diguwu guwuna donner"
   },
   "guwuna": {
     "name": "guwuna",
@@ -1035,7 +1182,8 @@
     "etym": [
       "guwu",
       "na"
-    ]
+    ],
+    "fulltext": "guwuna guwu na don"
   },
   "guru": {
     "name": "guru",
@@ -1043,7 +1191,8 @@
     "etym": [
       "gu",
       "ru"
-    ]
+    ],
+    "fulltext": "guru gu ru réalisation des profondeurs"
   },
   "gugai": {
     "name": "gugai",
@@ -1052,7 +1201,8 @@
     "etym": [
       "gu",
       "gai"
-    ]
+    ],
+    "fulltext": "gugai gu gai fertilité fertile"
   },
   "augu": {
     "name": "augu",
@@ -1060,16 +1210,19 @@
     "etym": [
       "au",
       "gu"
-    ]
+    ],
+    "fulltext": "augu au gu confiance"
   },
   "negu": {
     "name": "negu",
     "noun": "l'agitation, vouloir changer, changer le monde, chercher la perfection pour ne plus rien sentir, la dissociation",
-    "desc": "C'est l'inverse de la confiance: {augu}"
+    "desc": "C'est l'inverse de la confiance: {augu}",
+    "fulltext": "negu C'est l'inverse de la confiance: {augu} l'agitation, vouloir changer, changer le monde, chercher la perfection pour ne plus rien sentir, la dissociation"
   },
   "guyuina": {
     "name": "guyuina",
-    "noun": "pomme (le fruit de la vie)"
+    "noun": "pomme (le fruit de la vie)",
+    "fulltext": "guyuina pomme (le fruit de la vie)"
   },
   "gupa": {
     "name": "gupa",
@@ -1077,7 +1230,8 @@
     "etym": [
       "gu",
       "pa"
-    ]
+    ],
+    "fulltext": "gupa gu pa nature (tout le sombre/profondeur)"
   },
   "ha": {
     "name": "ha",
@@ -1089,7 +1243,8 @@
       "hawe",
       "hase",
       "noha"
-    ]
+    ],
+    "fulltext": "ha duha hawe hase noha tête loin partie supérieure ou distale"
   },
   "duha": {
     "name": "duha",
@@ -1097,7 +1252,8 @@
     "etym": [
       "du",
       "ha"
-    ]
+    ],
+    "fulltext": "duha du ha visage"
   },
   "hawe": {
     "name": "hawe",
@@ -1105,7 +1261,8 @@
     "etym": [
       "ha",
       "we"
-    ]
+    ],
+    "fulltext": "hawe ha we joue droite"
   },
   "hase": {
     "name": "hase",
@@ -1113,7 +1270,8 @@
     "etym": [
       "ha",
       "se"
-    ]
+    ],
+    "fulltext": "hase ha se joue gauche"
   },
   "noha": {
     "name": "noha",
@@ -1121,38 +1279,45 @@
     "etym": [
       "no",
       "ha"
-    ]
+    ],
+    "fulltext": "noha no ha occiput (dos de la tête)"
   },
   "hal": {
     "name": "hal",
-    "adj": "vers le ciel, immense"
+    "adj": "vers le ciel, immense",
+    "fulltext": "hal vers le ciel, immense"
   },
   "mahal": {
     "name": "mahal",
     "noun": "main immense, action divine",
-    "adj": "miraculeuse.x"
+    "adj": "miraculeuse.x",
+    "fulltext": "mahal main immense, action divine miraculeuse.x"
   },
   "hao": {
     "name": "hao",
     "noun": "buste",
-    "desc": "De {ha} (moitié supérieure) et {oda} (corps)."
+    "desc": "De {ha} (moitié supérieure) et {oda} (corps).",
+    "fulltext": "hao De {ha} (moitié supérieure) et {oda} (corps). buste"
   },
   "hem": {
     "name": "hem",
     "adj": "offert",
     "suffix": "offert",
-    "desc": "Compliment important qui signifie \"je vois que tu m'offres ceci\". Par example [object Object] ou [object Object]."
+    "desc": "Compliment important qui signifie \"je vois que tu m'offres ceci\". Par example [object Object] ou [object Object].",
+    "fulltext": "hem Compliment important qui signifie \"je vois que tu m'offres ceci\". Par example [object Object] ou [object Object]. offert offert"
   },
   "him": {
     "name": "him",
     "verb": "grandir",
     "see": [
       "mahim"
-    ]
+    ],
+    "fulltext": "him mahim grandir"
   },
   "yuhim": {
     "name": "yuhim",
-    "noun": "naître"
+    "noun": "naître",
+    "fulltext": "yuhim naître"
   },
   "mahim": {
     "name": "mahim",
@@ -1160,7 +1325,8 @@
     "etym": [
       "ma",
       "him"
-    ]
+    ],
+    "fulltext": "mahim ma him construire (les mains qui font grandir)"
   },
   "i": {
     "name": "i",
@@ -1174,7 +1340,8 @@
       "iha",
       "ida",
       "shei"
-    ]
+    ],
+    "fulltext": "i Il y a une exception pour le suffixe ajouté à {ma} (main): dans ce cas, on ne dit pas 'mai' mais directement {mi}. gi gui iha ida shei tu (2s) caresser à toi"
   },
   "iha": {
     "name": "iha",
@@ -1182,7 +1349,8 @@
     "etym": [
       "i",
       "yada"
-    ]
+    ],
+    "fulltext": "iha i yada toi poétique"
   },
   "ida": {
     "name": "ida",
@@ -1190,15 +1358,18 @@
     "etym": [
       "i",
       "oda"
-    ]
+    ],
+    "fulltext": "ida i oda toi"
   },
   "ibu": {
     "name": "ibu",
-    "prep": "pour"
+    "prep": "pour",
+    "fulltext": "ibu pour"
   },
   "im": {
     "name": "im",
-    "noun": "fermé"
+    "noun": "fermé",
+    "fulltext": "im fermé"
   },
   "in": {
     "name": "in",
@@ -1209,7 +1380,8 @@
       "yajin",
       "yonin",
       "yuina"
-    ]
+    ],
+    "fulltext": "in odin tajin yajin yonin yuina chaud"
   },
   "odin": {
     "name": "odin",
@@ -1217,37 +1389,44 @@
     "etym": [
       "oda",
       "in"
-    ]
+    ],
+    "fulltext": "odin oda in lion.ne"
   },
   "ina": {
     "name": "ina",
     "noun": "plante",
     "see": [
       "egina"
-    ]
+    ],
+    "fulltext": "ina egina plante"
   },
   "ipa": {
     "name": "ipa",
-    "noun": "100"
+    "noun": "100",
+    "fulltext": "ipa 100"
   },
   "ipi": {
     "name": "ipi",
     "noun": "10",
     "see": [
       "dji"
-    ]
+    ],
+    "fulltext": "ipi dji 10"
   },
   "ipipa": {
     "name": "ipipa",
-    "noun": "souvenir (être dieu.e)"
+    "noun": "souvenir (être dieu.e)",
+    "fulltext": "ipipa souvenir (être dieu.e)"
   },
   "ipu": {
     "name": "ipu",
-    "noun": "1000"
+    "noun": "1000",
+    "fulltext": "ipu 1000"
   },
   "ir": {
     "name": "ir",
-    "adj": "sous"
+    "adj": "sous",
+    "fulltext": "ir sous"
   },
   "iwi": {
     "name": "iwi",
@@ -1259,7 +1438,8 @@
       "miwi",
       "nowi",
       "iwa"
-    ]
+    ],
+    "fulltext": "iwi duwi iwiu iwigui miwi nowi iwa oiseau, enby"
   },
   "iwiu": {
     "name": "iwiu",
@@ -1267,7 +1447,8 @@
     "etym": [
       "iwi",
       "u"
-    ]
+    ],
+    "fulltext": "iwiu iwi u voler"
   },
   "iwigui": {
     "name": "iwigui",
@@ -1275,26 +1456,31 @@
     "etym": [
       "iwi",
       "gui"
-    ]
+    ],
+    "fulltext": "iwigui iwi gui oiseau qui naît (phénix)"
   },
   "iwioda": {
     "name": "iwioda",
-    "noun": "enby"
+    "noun": "enby",
+    "fulltext": "iwioda enby"
   },
   "je": {
     "name": "je",
-    "noun": "8 (proche, émotion)"
+    "noun": "8 (proche, émotion)",
+    "fulltext": "je 8 (proche, émotion)"
   },
   "jepa": {
     "name": "jepa",
-    "noun": "lien, appartenance"
+    "noun": "lien, appartenance",
+    "fulltext": "jepa lien, appartenance"
   },
   "jo": {
     "name": "jo",
     "noun": "éponge",
     "see": [
       "joyon"
-    ]
+    ],
+    "fulltext": "jo joyon éponge"
   },
   "joyon": {
     "name": "joyon",
@@ -1302,19 +1488,23 @@
     "etym": [
       "jo",
       "yon"
-    ]
+    ],
+    "fulltext": "joyon jo yon corps spongieux du clitoris"
   },
   "jotaj": {
     "name": "jotaj",
-    "noun": "corps spongieux du pénis"
+    "noun": "corps spongieux du pénis",
+    "fulltext": "jotaj corps spongieux du pénis"
   },
   "jom": {
     "name": "jom",
-    "noun": "group, famille"
+    "noun": "group, famille",
+    "fulltext": "jom group, famille"
   },
   "jana": {
     "name": "jana",
-    "noun": "forêt"
+    "noun": "forêt",
+    "fulltext": "jana forêt"
   },
   "ka": {
     "name": "ka",
@@ -1329,7 +1519,8 @@
       "karu",
       "koda",
       "kanam"
-    ]
+    ],
+    "fulltext": "ka kada neka karu koda kanam tou.te.s, universel (7p) 4 (singularité, qui ne peut pas être pensé) tous tous à quatre pattes"
   },
   "kada": {
     "name": "kada",
@@ -1337,16 +1528,19 @@
     "etym": [
       "ka",
       "oda"
-    ]
+    ],
+    "fulltext": "kada ka oda tou.te.s"
   },
   "ika": {
     "name": "ika",
-    "pron": "à toi, nous toutes et tous"
+    "pron": "à toi, nous toutes et tous",
+    "fulltext": "ika à toi, nous toutes et tous"
   },
   "hamaka": {
     "name": "hamaka",
     "noun": "annulaire (4ème doigt)",
-    "posit": "à quatre pattes (indiquée par un signe de main: pouce contre annulaire)"
+    "posit": "à quatre pattes (indiquée par un signe de main: pouce contre annulaire)",
+    "fulltext": "hamaka annulaire (4ème doigt) à quatre pattes (indiquée par un signe de main: pouce contre annulaire)"
   },
   "neka": {
     "name": "neka",
@@ -1354,7 +1548,8 @@
     "etym": [
       "ne",
       "ka"
-    ]
+    ],
+    "fulltext": "neka ne ka honte"
   },
   "karu": {
     "name": "karu",
@@ -1362,7 +1557,8 @@
     "etym": [
       "ka",
       "ru"
-    ]
+    ],
+    "fulltext": "karu ka ru choisir (la réalisation du singulier en soi)"
   },
   "koda": {
     "name": "koda",
@@ -1370,7 +1566,8 @@
     "etym": [
       "ka",
       "oda"
-    ]
+    ],
+    "fulltext": "koda ka oda cow"
   },
   "ke": {
     "name": "ke",
@@ -1378,14 +1575,16 @@
     "prefix": "caché",
     "see": [
       "kela"
-    ]
+    ],
+    "fulltext": "ke kela caché caché"
   },
   "kei": {
     "name": "kei",
     "conj": "tu honorifique (2h)",
     "see": [
       "keda"
-    ]
+    ],
+    "fulltext": "kei keda tu honorifique (2h)"
   },
   "keda": {
     "name": "keda",
@@ -1393,11 +1592,13 @@
     "etym": [
       "kei",
       "oda"
-    ]
+    ],
+    "fulltext": "keda kei oda tu honorifique"
   },
   "ko": {
     "name": "ko",
-    "prep": "avec"
+    "prep": "avec",
+    "fulltext": "ko avec"
   },
   "ku": {
     "name": "ku",
@@ -1408,7 +1609,8 @@
       "kupa",
       "kulei",
       "kuoda"
-    ]
+    ],
+    "fulltext": "ku kuga kupa kulei kuoda corde attacher"
   },
   "kupa": {
     "name": "kupa",
@@ -1419,7 +1621,8 @@
     ],
     "see": [
       "nekupa"
-    ]
+    ],
+    "fulltext": "kupa ku pa Tout attacher, relation marchande au monde, \"faire pour\", opposé de {gupi} ou {aupa}. nekupa"
   },
   "nekupa": {
     "name": "nekupa",
@@ -1427,7 +1630,8 @@
     "etym": [
       "ne",
       "kupa"
-    ]
+    ],
+    "fulltext": "nekupa ne kupa lâcher prise, ne pas attacher tout"
   },
   "kulei": {
     "name": "kulei",
@@ -1436,7 +1640,8 @@
     "etym": [
       "ku",
       "lei"
-    ]
+    ],
+    "fulltext": "kulei ku lei Attacher le temps, manipuler, relation marchande au temps (si alors). manipuler"
   },
   "kuoda": {
     "name": "kuoda",
@@ -1445,7 +1650,8 @@
     "etym": [
       "ku",
       "oda"
-    ]
+    ],
+    "fulltext": "kuoda ku oda Corps attaché. victime-bourreau-sauveu.se.r"
   },
   "la": {
     "name": "la",
@@ -1457,7 +1663,8 @@
       "lana",
       "laj",
       "ulul"
-    ]
+    ],
+    "fulltext": "la kela lapa lana laj ulul lèvres embrasser"
   },
   "kela": {
     "name": "kela",
@@ -1470,7 +1677,8 @@
       "kelasa",
       "kelo",
       "kawi"
-    ]
+    ],
+    "fulltext": "kela ke la kelasa kelo kawi dent"
   },
   "kelasa": {
     "name": "kelasa",
@@ -1478,7 +1686,8 @@
     "etym": [
       "kela",
       "sa"
-    ]
+    ],
+    "fulltext": "kelasa kela sa couteau"
   },
   "lapa": {
     "name": "lapa",
@@ -1491,7 +1700,8 @@
       "lapalapa",
       "lapir",
       "gilapa"
-    ]
+    ],
+    "fulltext": "lapa la pa lapalapa lapir gilapa parler (les lèvres partout)"
   },
   "lapalapa": {
     "name": "lapalapa",
@@ -1499,7 +1709,8 @@
     "etym": [
       "lapa",
       "lapa"
-    ]
+    ],
+    "fulltext": "lapalapa lapa lapa canard"
   },
   "kelo": {
     "name": "kelo",
@@ -1507,7 +1718,8 @@
     "etym": [
       "kela",
       "oda"
-    ]
+    ],
+    "fulltext": "kelo kela oda crocodile"
   },
   "kawi": {
     "name": "kawi",
@@ -1515,7 +1727,8 @@
     "etym": [
       "kela",
       "awi"
-    ]
+    ],
+    "fulltext": "kawi kela awi requin"
   },
   "lapir": {
     "name": "lapir",
@@ -1523,7 +1736,8 @@
     "etym": [
       "lapa",
       "elir"
-    ]
+    ],
+    "fulltext": "lapir lapa elir annoncer"
   },
   "gilapa": {
     "name": "gilapa",
@@ -1531,7 +1745,8 @@
     "etym": [
       "gi",
       "lapa"
-    ]
+    ],
+    "fulltext": "gilapa gi lapa chuchotter (la douceur parle)"
   },
   "lana": {
     "name": "lana",
@@ -1539,11 +1754,13 @@
     "etym": [
       "la",
       "na"
-    ]
+    ],
+    "fulltext": "lana la na parole, langage, chose des lèvres"
   },
   "lae": {
     "name": "lae",
-    "pron": "elle/il/elle.s/ils/eux"
+    "pron": "elle/il/elle.s/ils/eux",
+    "fulltext": "lae elle/il/elle.s/ils/eux"
   },
   "laj": {
     "name": "laj",
@@ -1552,7 +1769,8 @@
     "etym": [
       "la",
       "aj"
-    ]
+    ],
+    "fulltext": "laj la aj sourire sourire"
   },
   "lam": {
     "name": "lam",
@@ -1565,12 +1783,14 @@
       "melam",
       "lamon",
       "otalamon"
-    ]
+    ],
+    "fulltext": "lam lama lamoa malam melam lamon otalamon eau laver"
   },
   "falam": {
     "name": "falam",
     "noun": "larmes profondes",
-    "verb": "pleurs qui lavent"
+    "verb": "pleurs qui lavent",
+    "fulltext": "falam larmes profondes pleurs qui lavent"
   },
   "lama": {
     "name": "lama",
@@ -1582,7 +1802,8 @@
     "see": [
       "lamagoa",
       "sheulama"
-    ]
+    ],
+    "fulltext": "lama lam da lamagoa sheulama mer"
   },
   "lamagoa": {
     "name": "lamagoa",
@@ -1590,14 +1811,16 @@
     "etym": [
       "lama",
       "goa"
-    ]
+    ],
+    "fulltext": "lamagoa lama goa océan"
   },
   "lami": {
     "name": "lami",
     "noun": "vague",
     "see": [
       "lamioda"
-    ]
+    ],
+    "fulltext": "lami lamioda vague"
   },
   "lamioda": {
     "name": "lamioda",
@@ -1605,7 +1828,8 @@
     "etym": [
       "lami",
       "oda"
-    ]
+    ],
+    "fulltext": "lamioda lami oda serpent"
   },
   "lamoa": {
     "name": "lamoa",
@@ -1614,25 +1838,30 @@
       "lam",
       "on",
       "da"
-    ]
+    ],
+    "fulltext": "lamoa lam on da source (lieu)"
   },
   "lamu": {
     "name": "lamu",
-    "verb": "boire"
+    "verb": "boire",
+    "fulltext": "lamu boire"
   },
   "lau": {
     "name": "lau",
     "noun": "toujours",
-    "desc": "(le temps aime {lei} {au})"
+    "desc": "(le temps aime {lei} {au})",
+    "fulltext": "lau (le temps aime {lei} {au}) toujours"
   },
   "le": {
     "name": "le",
     "suffix": "annonce d' un nom",
-    "desc": "L'enchassée avec le nom se termine par {oda}."
+    "desc": "L'enchassée avec le nom se termine par {oda}.",
+    "fulltext": "le L'enchassée avec le nom se termine par {oda}. annonce d' un nom"
   },
   "ile": {
     "name": "ile",
-    "prep": "toi qui te nomme"
+    "prep": "toi qui te nomme",
+    "fulltext": "ile toi qui te nomme"
   },
   "lei": {
     "name": "lei",
@@ -1642,31 +1871,37 @@
     "desc": "Donne {lem} et {lir}.",
     "see": [
       "kulei"
-    ]
+    ],
+    "fulltext": "lei Donne {lem} et {lir}. kulei toujours le temps alors"
   },
   "gulei": {
     "name": "gulei",
-    "noun": "le temps de l'expérience"
+    "noun": "le temps de l'expérience",
+    "fulltext": "gulei le temps de l'expérience"
   },
   "elei": {
     "name": "elei",
-    "prep": "toujours (pas usité, on utilise lau)"
+    "prep": "toujours (pas usité, on utilise lau)",
+    "fulltext": "elei toujours (pas usité, on utilise lau)"
   },
   "ulei": {
     "name": "ulei",
     "prep": "jusqu'à ce que (tirer le temps)",
-    "desc": "De {ul} et {lei} {eku}"
+    "desc": "De {ul} et {lei} {eku}",
+    "fulltext": "ulei De {ul} et {lei} {eku} jusqu'à ce que (tirer le temps)"
   },
   "leiuki": {
     "name": "leiuki",
     "noun": "patience",
     "adj": "patient.e",
-    "desc": "De {lei} et {uki} (temps long)."
+    "desc": "De {lei} et {uki} (temps long).",
+    "fulltext": "leiuki De {lei} et {uki} (temps long). patience patient.e"
   },
   "neleiuki": {
     "name": "neleiuki",
     "noun": "impatience",
-    "adj": "impatient.e"
+    "adj": "impatient.e",
+    "fulltext": "neleiuki impatience impatient.e"
   },
   "lem": {
     "name": "lem",
@@ -1677,20 +1912,24 @@
     ],
     "see": [
       "gulem"
-    ]
+    ],
+    "fulltext": "lem em gulem vivait passé"
   },
   "lemir": {
     "name": "lemir",
     "suffix": "toujours",
-    "desc": "De {lem} et {lir}."
+    "desc": "De {lem} et {lir}.",
+    "fulltext": "lemir De {lem} et {lir}. toujours"
   },
   "elem": {
     "name": "elem",
-    "noun": "le passé existe (dans le passé)"
+    "noun": "le passé existe (dans le passé)",
+    "fulltext": "elem le passé existe (dans le passé)"
   },
   "elemir": {
     "name": "elemir",
-    "noun": "de toute éternité"
+    "noun": "de toute éternité",
+    "fulltext": "elemir de toute éternité"
   },
   "li": {
     "name": "li",
@@ -1700,7 +1939,8 @@
       "lipa",
       "ligau",
       "liu"
-    ]
+    ],
+    "fulltext": "li lipa ligau liu bouche sucer"
   },
   "lipa": {
     "name": "lipa",
@@ -1711,7 +1951,8 @@
     ],
     "see": [
       "lipawi"
-    ]
+    ],
+    "fulltext": "lipa li pa lipawi chanter"
   },
   "lipawi": {
     "name": "lipawi",
@@ -1719,13 +1960,15 @@
     "etym": [
       "lipa",
       "munawi"
-    ]
+    ],
+    "fulltext": "lipawi lipa munawi loup (qui chante la lune)"
   },
   "keli": {
     "name": "keli",
     "noun": "langue",
     "verb": "lécher",
-    "desc": "De {ke} (caché) et {li} (bouche): caché dans la bouche."
+    "desc": "De {ke} (caché) et {li} (bouche): caché dans la bouche.",
+    "fulltext": "keli De {ke} (caché) et {li} (bouche): caché dans la bouche. langue lécher"
   },
   "ligau": {
     "name": "ligau",
@@ -1733,7 +1976,8 @@
     "etym": [
       "li",
       "gau"
-    ]
+    ],
+    "fulltext": "ligau li gau goûter (attention dans la bouche)"
   },
   "lil": {
     "name": "lil",
@@ -1748,22 +1992,26 @@
       "palajil",
       "piulil",
       "lisoa"
-    ]
+    ],
+    "fulltext": "lil lipedil gilil limasa lilimasa palajil piulil lisoa 5 petit.e petit.e"
   },
   "hamalil": {
     "name": "hamalil",
-    "noun": "auriculaire (petit doigt, 5ème doigt)"
+    "noun": "auriculaire (petit doigt, 5ème doigt)",
+    "fulltext": "hamalil auriculaire (petit doigt, 5ème doigt)"
   },
   "lilaj": {
     "name": "lilaj",
     "noun": "étincelle",
     "posit": "sur moi: 4 membres et 1 sexe (indiquée par un signe de main: pouce contre auriculaire)",
-    "desc": "De {lil} petit et {aj} feu."
+    "desc": "De {lil} petit et {aj} feu.",
+    "fulltext": "lilaj De {lil} petit et {aj} feu. étincelle sur moi: 4 membres et 1 sexe (indiquée par un signe de main: pouce contre auriculaire)"
   },
   "nelil": {
     "name": "nelil",
     "noun": "confusion",
-    "verb": "confondre"
+    "verb": "confondre",
+    "fulltext": "nelil confusion confondre"
   },
   "lir": {
     "name": "lir",
@@ -1771,7 +2019,8 @@
     "see": [
       "dahir",
       "gulir"
-    ]
+    ],
+    "fulltext": "lir dahir gulir future"
   },
   "lirana": {
     "name": "lirana",
@@ -1779,18 +2028,21 @@
     "etym": [
       "lira",
       "na"
-    ]
+    ],
+    "fulltext": "lirana lira na promesse"
   },
   "ilir": {
     "name": "ilir",
-    "noun": "future toi (tu vas...)"
+    "noun": "future toi (tu vas...)",
+    "fulltext": "ilir future toi (tu vas...)"
   },
   "elir": {
     "name": "elir",
     "noun": "le future exist (dans le future)",
     "see": [
       "lapir"
-    ]
+    ],
+    "fulltext": "elir lapir le future exist (dans le future)"
   },
   "liu": {
     "name": "liu",
@@ -1798,7 +2050,8 @@
     "etym": [
       "li",
       "u"
-    ]
+    ],
+    "fulltext": "liu li u manger"
   },
   "lo": {
     "name": "lo",
@@ -1806,7 +2059,8 @@
     "see": [
       "loda",
       "loru"
-    ]
+    ],
+    "fulltext": "lo loda loru soumis.e, humide, qui reçoit"
   },
   "loda": {
     "name": "loda",
@@ -1814,7 +2068,8 @@
     "etym": [
       "lo",
       "oda"
-    ]
+    ],
+    "fulltext": "loda lo oda personne soumis.e"
   },
   "loru": {
     "name": "loru",
@@ -1823,12 +2078,14 @@
     "etym": [
       "lo",
       "ru"
-    ]
+    ],
+    "fulltext": "loru lo ru devenir petit.e (se soumettre) humilité"
   },
   "silo": {
     "name": "silo",
     "adj": "doucement",
-    "desc": "De {si} et {lo} (comme soumis.e)."
+    "desc": "De {si} et {lo} (comme soumis.e).",
+    "fulltext": "silo De {si} et {lo} (comme soumis.e). doucement"
   },
   "ma": {
     "name": "ma",
@@ -1839,28 +2096,33 @@
       "mahim",
       "malam",
       "masa"
-    ]
+    ],
+    "fulltext": "ma \nVoir aussi les exceptions liées au suffixes {i} (masser, caresser), {o} (frapper, faire mal) et {u} (tirer, pincer): {mi}, {mo}, {mu}. On peut aussi utiliser la négation {nema} (lâcher).\n mahim malam masa main prendre dans la main, branler, tenir"
   },
   "hama": {
     "name": "hama",
     "noun": "doigt",
-    "desc": "De {ha} (tête, moitié supérieure) et {ma} (main)."
+    "desc": "De {ha} (tête, moitié supérieure) et {ma} (main).",
+    "fulltext": "hama De {ha} (tête, moitié supérieure) et {ma} (main). doigt"
   },
   "djoma": {
     "name": "djoma",
     "noun": "poignet",
-    "desc": "De {djo} (bas) et {ma} (main)."
+    "desc": "De {djo} (bas) et {ma} (main).",
+    "fulltext": "djoma De {djo} (bas) et {ma} (main). poignet"
   },
   "nema": {
     "name": "nema",
     "noun": "sans main",
     "verb": "lâcher",
-    "desc": "De {ne} (négation) et {ma} (main)."
+    "desc": "De {ne} (négation) et {ma} (main).",
+    "fulltext": "nema De {ne} (négation) et {ma} (main). sans main lâcher"
   },
   "mu": {
     "name": "mu",
     "verb": "tirer, pincer avec la main",
-    "desc": "De {ma} (main) et le suffix {u}."
+    "desc": "De {ma} (main) et le suffix {u}.",
+    "fulltext": "mu De {ma} (main) et le suffix {u}. tirer, pincer avec la main"
   },
   "malam": {
     "name": "malam",
@@ -1868,7 +2130,8 @@
     "etym": [
       "ma",
       "lam"
-    ]
+    ],
+    "fulltext": "malam ma lam maman (la main de l'eau)"
   },
   "miwi": {
     "name": "miwi",
@@ -1876,7 +2139,8 @@
     "etym": [
       "mi",
       "iwi"
-    ]
+    ],
+    "fulltext": "miwi mi iwi papillon"
   },
   "masa": {
     "name": "masa",
@@ -1887,7 +2151,8 @@
     ],
     "see": [
       "limasa"
-    ]
+    ],
+    "fulltext": "masa ma sa limasa pèle"
   },
   "limasa": {
     "name": "limasa",
@@ -1898,7 +2163,8 @@
     ],
     "see": [
       "lilimasa"
-    ]
+    ],
+    "fulltext": "limasa lil masa lilimasa cuillère"
   },
   "lilimasa": {
     "name": "lilimasa",
@@ -1906,7 +2172,8 @@
     "etym": [
       "lil",
       "limasa"
-    ]
+    ],
+    "fulltext": "lilimasa lil limasa petite cuillère"
   },
   "me": {
     "name": "me",
@@ -1915,7 +2182,8 @@
     "see": [
       "meshe",
       "melam"
-    ]
+    ],
+    "fulltext": "me meshe melam être en mouvement bouger dans"
   },
   "meshe": {
     "name": "meshe",
@@ -1923,7 +2191,8 @@
     "etym": [
       "me",
       "she"
-    ]
+    ],
+    "fulltext": "meshe me she voler"
   },
   "melam": {
     "name": "melam",
@@ -1931,15 +2200,18 @@
     "etym": [
       "me",
       "lam"
-    ]
+    ],
+    "fulltext": "melam me lam nager"
   },
   "lom": {
     "name": "lom",
-    "noun": "de (fait de)"
+    "noun": "de (fait de)",
+    "fulltext": "lom de (fait de)"
   },
   "meu": {
     "name": "meu",
-    "prep": "sinon"
+    "prep": "sinon",
+    "fulltext": "meu sinon"
   },
   "mi": {
     "name": "mi",
@@ -1947,11 +2219,13 @@
     "desc": "De {ma} (main) avec le suffixe {i} (masser).",
     "see": [
       "miwi"
-    ]
+    ],
+    "fulltext": "mi De {ma} (main) avec le suffixe {i} (masser). miwi masser"
   },
   "mo": {
     "name": "mo",
-    "verb": "frapper, faire mal (avec la main)"
+    "verb": "frapper, faire mal (avec la main)",
+    "fulltext": "mo frapper, faire mal (avec la main)"
   },
   "moon": {
     "name": "moon",
@@ -1961,19 +2235,22 @@
       "mawi",
       "munawi",
       "muna"
-    ]
+    ],
+    "fulltext": "moon mawi munawi muna seins à genoux, buste au sol"
   },
   "munwe": {
     "name": "munwe",
     "noun": "sein droite",
-    "desc": "De {mu} et {we}."
+    "desc": "De {mu} et {we}.",
+    "fulltext": "munwe De {mu} et {we}. sein droite"
   },
   "hamun": {
     "name": "hamun",
     "noun": "téton",
     "see": [
       "hamunon"
-    ]
+    ],
+    "fulltext": "hamun hamunon téton"
   },
   "munawi": {
     "name": "munawi",
@@ -1984,7 +2261,8 @@
     ],
     "see": [
       "lipawi"
-    ]
+    ],
+    "fulltext": "munawi moon awi lipawi lune"
   },
   "muna": {
     "name": "muna",
@@ -1992,7 +2270,8 @@
     "etym": [
       "moon",
       "na"
-    ]
+    ],
+    "fulltext": "muna moon na biberon"
   },
   "na": {
     "name": "na",
@@ -2009,21 +2288,25 @@
       "shana",
       "tiona",
       "yuina"
-    ]
+    ],
+    "fulltext": "na agana fiona gana guwuna lana lirana muna piuna shana tiona yuina incarné (chose)"
   },
   "naj": {
     "name": "naj",
     "noun": "frisson, nuage",
-    "verb": "frissonner"
+    "verb": "frissonner",
+    "fulltext": "naj frisson, nuage frissonner"
   },
   "najlo": {
     "name": "najlo",
-    "noun": "orgasme,pluie"
+    "noun": "orgasme,pluie",
+    "fulltext": "najlo orgasme,pluie"
   },
   "najapa": {
     "name": "najapa",
     "noun": "brouillard",
-    "desc": "De {naj} (nuage) et {pa} (partout)."
+    "desc": "De {naj} (nuage) et {pa} (partout).",
+    "fulltext": "najapa De {naj} (nuage) et {pa} (partout). brouillard"
   },
   "nam": {
     "name": "nam",
@@ -2031,7 +2314,8 @@
     "see": [
       "kanam",
       "namel"
-    ]
+    ],
+    "fulltext": "nam kanam namel bois"
   },
   "kanam": {
     "name": "kanam",
@@ -2039,7 +2323,8 @@
     "etym": [
       "ka",
       "nam"
-    ]
+    ],
+    "fulltext": "kanam ka nam chaise"
   },
   "namel": {
     "name": "namel",
@@ -2047,7 +2332,8 @@
     "etym": [
       "nam",
       "el"
-    ]
+    ],
+    "fulltext": "namel nam el bâton (bois droit)"
   },
   "ne": {
     "name": "ne",
@@ -2059,20 +2345,24 @@
       "nekupa",
       "negupi",
       "nesu"
-    ]
+    ],
+    "fulltext": "ne nem nega neka nekupa negupi nesu négation, monde des mots, transe commune"
   },
   "neoda": {
     "name": "neoda",
-    "noun": "cadavre, sans corps, personne (no body)"
+    "noun": "cadavre, sans corps, personne (no body)",
+    "fulltext": "neoda cadavre, sans corps, personne (no body)"
   },
   "nepa": {
     "name": "nepa",
-    "noun": "abysse, néant"
+    "noun": "abysse, néant",
+    "fulltext": "nepa abysse, néant"
   },
   "nelo": {
     "name": "nelo",
     "verb": "lutter",
-    "desc": "De {ne} et {lo}, ne pas se soumettre."
+    "desc": "De {ne} et {lo}, ne pas se soumettre.",
+    "fulltext": "nelo De {ne} et {lo}, ne pas se soumettre. lutter"
   },
   "no": {
     "name": "no",
@@ -2085,7 +2375,8 @@
       "nowi",
       "nopi",
       "noyin"
-    ]
+    ],
+    "fulltext": "no Inspiré de nord (on regarde le sud) noha noda nona nowi nopi noyin derrière"
   },
   "noda": {
     "name": "noda",
@@ -2093,11 +2384,13 @@
     "etym": [
       "no",
       "oda"
-    ]
+    ],
+    "fulltext": "noda no oda grand.e soeur/frère"
   },
   "noto": {
     "name": "noto",
-    "noun": "grand frère/vent"
+    "noun": "grand frère/vent",
+    "fulltext": "noto grand frère/vent"
   },
   "nona": {
     "name": "nona",
@@ -2105,7 +2398,8 @@
     "etym": [
       "no",
       "ana"
-    ]
+    ],
+    "fulltext": "nona no ana grande soeur/arbre"
   },
   "nowi": {
     "name": "nowi",
@@ -2113,7 +2407,8 @@
     "etym": [
       "no",
       "iwi"
-    ]
+    ],
+    "fulltext": "nowi no iwi grand.e frère/soeur enby/oiseau"
   },
   "nopi": {
     "name": "nopi",
@@ -2125,7 +2420,8 @@
     ],
     "see": [
       "djonopi"
-    ]
+    ],
+    "fulltext": "nopi no pi djonopi dos allongé sur le dos"
   },
   "djonopi": {
     "name": "djonopi",
@@ -2133,7 +2429,8 @@
     "etym": [
       "djo",
       "nopi"
-    ]
+    ],
+    "fulltext": "djonopi djo nopi bas du dos"
   },
   "noyin": {
     "name": "noyin",
@@ -2141,31 +2438,37 @@
     "etym": [
       "no",
       "yin"
-    ]
+    ],
+    "fulltext": "noyin no yin fond du vagin (col de l'utérus)"
   },
   "noa": {
     "name": "noa",
-    "noun": "peau"
+    "noun": "peau",
+    "fulltext": "noa peau"
   },
   "noam": {
     "name": "noam",
-    "verb": "toucher"
+    "verb": "toucher",
+    "fulltext": "noam toucher"
   },
   "nu": {
     "name": "nu",
     "verb": "broder (le truc solitaire, concentré.e)",
     "see": [
       "pinu"
-    ]
+    ],
+    "fulltext": "nu pinu broder (le truc solitaire, concentré.e)"
   },
   "sinu": {
     "name": "sinu",
     "adj": "délicatement",
-    "desc": "De {si} et {nu} (...)."
+    "desc": "De {si} et {nu} (...).",
+    "fulltext": "sinu De {si} et {nu} (...). délicatement"
   },
   "nur": {
     "name": "nur",
-    "adv": "seulement"
+    "adv": "seulement",
+    "fulltext": "nur seulement"
   },
   "o": {
     "name": "o",
@@ -2181,11 +2484,13 @@
       "guo",
       "oha",
       "odo"
-    ]
+    ],
+    "fulltext": "o Le \"on\" est important: on est pas séparés. Ça indique à la fois \"moi et les autres\" (même imaginés) et \"toutes les versions et différents âges de moi-même, l'enfant qui a rêvé, l'adolescent en manque de tendresse et de cul, le fou, etc\". Quand on dit {o}, on implique tout ça. Si \"on\" te fait l'amour, c'est un monde entier qui vient à ta rencontre. ago gao go guo oha odo on (1sp) on en bas ?? me ?? frapper, faire mal"
   },
   "hafo": {
     "name": "hafo",
-    "verb": "tomber (tête fouettée)"
+    "verb": "tomber (tête fouettée)",
+    "fulltext": "hafo tomber (tête fouettée)"
   },
   "obo": {
     "name": "obo",
@@ -2194,20 +2499,24 @@
     "etym": [
       "djo",
       "bo"
-    ]
+    ],
+    "fulltext": "obo djo bo version familière de {djobo} pubis (bas du ventre)"
   },
   "habo": {
     "name": "habo",
-    "noun": "plexus"
+    "noun": "plexus",
+    "fulltext": "habo plexus"
   },
   "djobo": {
     "name": "djobo",
     "noun": "pubis",
-    "desc": "version longue de {obo}"
+    "desc": "version longue de {obo}",
+    "fulltext": "djobo version longue de {obo} pubis"
   },
   "yoda": {
     "name": "yoda",
-    "noun": "corps avec une vulve"
+    "noun": "corps avec une vulve",
+    "fulltext": "yoda corps avec une vulve"
   },
   "oda": {
     "name": "oda",
@@ -2241,7 +2550,8 @@
       "shoda",
       "uloda",
       "yida"
-    ]
+    ],
+    "fulltext": "oda De là vient {keoda} (**la langue cachée du corps**). yada doda djoda goda ida odin kada koda keda kuoda kelo lamioda loda noda yosa oho odo odu otoda peda pida shada shida shoda uloda yida corps, lieu vivant (\"on\") animal comme, qui a"
   },
   "oha": {
     "name": "oha",
@@ -2249,11 +2559,13 @@
     "etym": [
       "o",
       "yada"
-    ]
+    ],
+    "fulltext": "oha o yada soi poétique (nous indéf)"
   },
   "keoda": {
     "name": "keoda",
-    "noun": "lieu de vie cachée, langue cachée du corps"
+    "noun": "lieu de vie cachée, langue cachée du corps",
+    "fulltext": "keoda lieu de vie cachée, langue cachée du corps"
   },
   "yosa": {
     "name": "yosa",
@@ -2261,7 +2573,8 @@
     "etym": [
       "yo",
       "oda"
-    ]
+    ],
+    "fulltext": "yosa yo oda humain"
   },
   "oho": {
     "name": "oho",
@@ -2269,7 +2582,8 @@
     "etym": [
       "a",
       "oda"
-    ]
+    ],
+    "fulltext": "oho a oda iel"
   },
   "odo": {
     "name": "odo",
@@ -2277,7 +2591,8 @@
     "etym": [
       "oda",
       "o"
-    ]
+    ],
+    "fulltext": "odo oda o partir"
   },
   "odu": {
     "name": "odu",
@@ -2285,18 +2600,21 @@
     "etym": [
       "oda",
       "u"
-    ]
+    ],
+    "fulltext": "odu oda u rejoindre, venir, se tirer le corps vers"
   },
   "ojo": {
     "name": "ojo",
-    "adj": "centre"
+    "adj": "centre",
+    "fulltext": "ojo centre"
   },
   "om": {
     "name": "om",
     "noun": "transcendance",
     "adj": "ouvert",
     "prefix": "transcender",
-    "suffix": "temple, lieu sacré"
+    "suffix": "temple, lieu sacré",
+    "fulltext": "om transcendance ouvert transcender temple, lieu sacré"
   },
   "on": {
     "name": "on",
@@ -2309,7 +2627,8 @@
       "yohon",
       "hamunon",
       "onsho"
-    ]
+    ],
+    "fulltext": "on lamoa lamon yaon yohon hamunon onsho source faire naître (apparaître)"
   },
   "lamon": {
     "name": "lamon",
@@ -2317,7 +2636,8 @@
     "etym": [
       "lam",
       "on"
-    ]
+    ],
+    "fulltext": "lamon lam on urètre (source de l'eau)"
   },
   "yaon": {
     "name": "yaon",
@@ -2328,7 +2648,8 @@
     ],
     "see": [
       "yaonagi"
-    ]
+    ],
+    "fulltext": "yaon ya on yaonagi lever de la nuit (coucher de soleil)"
   },
   "yohon": {
     "name": "yohon",
@@ -2339,12 +2660,14 @@
     ],
     "see": [
       "yohonagi"
-    ]
+    ],
+    "fulltext": "yohon yo on yohonagi lever du jour"
   },
   "ora": {
     "name": "ora",
     "noun": "excitation, envie",
-    "desc": "Utiliser pour les phrase interrogatives."
+    "desc": "Utiliser pour les phrase interrogatives.",
+    "fulltext": "ora Utiliser pour les phrase interrogatives. excitation, envie"
   },
   "ota": {
     "name": "ota",
@@ -2352,7 +2675,8 @@
     "see": [
       "otalamon",
       "kepalota"
-    ]
+    ],
+    "fulltext": "ota otalamon kepalota source, ouverture"
   },
   "otalamon": {
     "name": "otalamon",
@@ -2361,7 +2685,8 @@
     "etym": [
       "lam",
       "ota"
-    ]
+    ],
+    "fulltext": "otalamon lam ota zone autour de l'urètre (chez la femme) cercle de l'urètre"
   },
   "hamunon": {
     "name": "hamunon",
@@ -2369,7 +2694,8 @@
     "etym": [
       "hamun",
       "on"
-    ]
+    ],
+    "fulltext": "hamunon hamun on auréole autour du mamelon"
   },
   "kepalota": {
     "name": "kepalota",
@@ -2377,7 +2703,8 @@
     "etym": [
       "kepal",
       "ota"
-    ]
+    ],
+    "fulltext": "kepalota kepal ota zone autour de l'anus"
   },
   "oto": {
     "name": "oto",
@@ -2386,7 +2713,8 @@
     "see": [
       "duto",
       "otoda"
-    ]
+    ],
+    "fulltext": "oto duto otoda vent masculin"
   },
   "otoda": {
     "name": "otoda",
@@ -2394,15 +2722,18 @@
     "etym": [
       "oto",
       "oda"
-    ]
+    ],
+    "fulltext": "otoda oto oda homme"
   },
   "otana": {
     "name": "otana",
-    "noun": "homme-femme"
+    "noun": "homme-femme",
+    "fulltext": "otana homme-femme"
   },
   "otiwi": {
     "name": "otiwi",
-    "noun": "homme-enby"
+    "noun": "homme-enby",
+    "fulltext": "otiwi homme-enby"
   },
   "pa": {
     "name": "pa",
@@ -2415,31 +2746,37 @@
       "lipa",
       "papi",
       "pipa"
-    ]
+    ],
+    "fulltext": "pa aupa gupa kupa lapa lipa papi pipa tout, le mystère"
   },
   "pali": {
     "name": "pali",
-    "noun": "enchanter (chanter de dedans)"
+    "noun": "enchanter (chanter de dedans)",
+    "fulltext": "pali enchanter (chanter de dedans)"
   },
   "pahau": {
     "name": "pahau",
     "verb": "pardonner (tout recevoir)",
-    "desc": "{aupa} et {pahau} sont la même chose exprimés depuis des lieux un peu différents. La gratitude et le pardon, c'est pareil. Pardonner {pahau} c'est enfin recevoir ce qui nous est arrivé (et ce qu'on a fait), c'est un peu lié au passé. La gratitude, c'est recevoir le présent {aupa}. La confiance, c'est recevoir le temps entier {augu} (passé, présent, avenir), accepter le processus de vie."
+    "desc": "{aupa} et {pahau} sont la même chose exprimés depuis des lieux un peu différents. La gratitude et le pardon, c'est pareil. Pardonner {pahau} c'est enfin recevoir ce qui nous est arrivé (et ce qu'on a fait), c'est un peu lié au passé. La gratitude, c'est recevoir le présent {aupa}. La confiance, c'est recevoir le temps entier {augu} (passé, présent, avenir), accepter le processus de vie.",
+    "fulltext": "pahau {aupa} et {pahau} sont la même chose exprimés depuis des lieux un peu différents. La gratitude et le pardon, c'est pareil. Pardonner {pahau} c'est enfin recevoir ce qui nous est arrivé (et ce qu'on a fait), c'est un peu lié au passé. La gratitude, c'est recevoir le présent {aupa}. La confiance, c'est recevoir le temps entier {augu} (passé, présent, avenir), accepter le processus de vie. pardonner (tout recevoir)"
   },
   "paoda": {
     "name": "paoda",
-    "pron": "tou.te.s"
+    "pron": "tou.te.s",
+    "fulltext": "paoda tou.te.s"
   },
   "pal": {
     "name": "pal",
-    "noun": "fesses"
+    "noun": "fesses",
+    "fulltext": "pal fesses"
   },
   "palaj": {
     "name": "palaj",
     "noun": "soleil (fesses de feu)",
     "see": [
       "palajil"
-    ]
+    ],
+    "fulltext": "palaj palajil soleil (fesses de feu)"
   },
   "palajil": {
     "name": "palajil",
@@ -2447,7 +2784,8 @@
     "etym": [
       "palaj",
       "lil"
-    ]
+    ],
+    "fulltext": "palajil palaj lil abricot, juillet"
   },
   "kepal": {
     "name": "kepal",
@@ -2455,18 +2793,21 @@
     "desc": "De {ke} (caché) et {pal} (fesses).",
     "see": [
       "kepalota"
-    ]
+    ],
+    "fulltext": "kepal De {ke} (caché) et {pal} (fesses). kepalota anus"
   },
   "hapal": {
     "name": "hapal",
-    "noun": "haut des fesses"
+    "noun": "haut des fesses",
+    "fulltext": "hapal haut des fesses"
   },
   "pan": {
     "name": "pan",
     "noun": "rouge",
     "see": [
       "dudapan"
-    ]
+    ],
+    "fulltext": "pan dudapan rouge"
   },
   "dudapan": {
     "name": "dudapan",
@@ -2474,7 +2815,8 @@
     "etym": [
       "doda",
       "pan"
-    ]
+    ],
+    "fulltext": "dudapan doda pan renard"
   },
   "pe": {
     "name": "pe",
@@ -2485,7 +2827,8 @@
     "see": [
       "pedil",
       "peda"
-    ]
+    ],
+    "fulltext": "pe pedil peda quelques un.e.s (6p) 3 quelques un.e.s deux jambes et un anus (levrette) = mun"
   },
   "peda": {
     "name": "peda",
@@ -2493,23 +2836,27 @@
     "etym": [
       "pe",
       "oda"
-    ]
+    ],
+    "fulltext": "peda pe oda quelques"
   },
   "hamape": {
     "name": "hamape",
     "noun": "majeur (3ème doigt)",
-    "posit": "levrette (mun): 2 jambes et 1 anus (indiquée par un signe de main: pouce contre majeur)"
+    "posit": "levrette (mun): 2 jambes et 1 anus (indiquée par un signe de main: pouce contre majeur)",
+    "fulltext": "hamape majeur (3ème doigt) levrette (mun): 2 jambes et 1 anus (indiquée par un signe de main: pouce contre majeur)"
   },
   "nepe": {
     "name": "nepe",
-    "noun": "isolement (oubli de \"pa\")"
+    "noun": "isolement (oubli de \"pa\")",
+    "fulltext": "nepe isolement (oubli de \"pa\")"
   },
   "peu": {
     "name": "peu",
     "noun": "peur",
     "see": [
       "agupeu"
-    ]
+    ],
+    "fulltext": "peu agupeu peur"
   },
   "agupeu": {
     "name": "agupeu",
@@ -2518,7 +2865,8 @@
       "agu",
       "peu"
     ],
-    "desc": "Écouter la peur"
+    "desc": "Écouter la peur",
+    "fulltext": "agupeu agu peu Écouter la peur courage"
   },
   "pi": {
     "name": "pi",
@@ -2538,7 +2886,8 @@
       "pinu",
       "aupi",
       "gupi"
-    ]
+    ],
+    "fulltext": "pi Opposé de {pa}. piha ajapi dji nopi pida papi pipa pinu aupi gupi je (1s) 1 debout ici, origine"
   },
   "pida": {
     "name": "pida",
@@ -2546,7 +2895,8 @@
     "etym": [
       "pi",
       "oda"
-    ]
+    ],
+    "fulltext": "pida pi oda moi"
   },
   "papi": {
     "name": "papi",
@@ -2554,7 +2904,8 @@
     "etym": [
       "pa",
       "pi"
-    ]
+    ],
+    "fulltext": "papi pa pi sagesse (tout écho en soi)"
   },
   "pipa": {
     "name": "pipa",
@@ -2562,7 +2913,8 @@
     "etym": [
       "pi",
       "pa"
-    ]
+    ],
+    "fulltext": "pipa pi pa innocence (soi partout)"
   },
   "pinu": {
     "name": "pinu",
@@ -2570,7 +2922,8 @@
     "etym": [
       "pi",
       "nu"
-    ]
+    ],
+    "fulltext": "pinu pi nu seul (le soi brodé, je brode)"
   },
   "aupi": {
     "name": "aupi",
@@ -2578,7 +2931,8 @@
     "etym": [
       "au",
       "pi"
-    ]
+    ],
+    "fulltext": "aupi au pi S'aimer soi-même, ici."
   },
   "gupi": {
     "name": "gupi",
@@ -2589,7 +2943,8 @@
     ],
     "see": [
       "negupi"
-    ]
+    ],
+    "fulltext": "gupi gu pi negupi intégrer le mouvement, ressentir, se laisser transformer"
   },
   "negupi": {
     "name": "negupi",
@@ -2597,23 +2952,28 @@
     "etym": [
       "ne",
       "gupi"
-    ]
+    ],
+    "fulltext": "negupi ne gupi lutter contre l'expérience"
   },
   "nepi": {
     "name": "nepi",
-    "noun": "division"
+    "noun": "division",
+    "fulltext": "nepi division"
   },
   "djopi": {
     "name": "djopi",
-    "noun": "soi proximal (soi profond, souvent le passé)"
+    "noun": "soi proximal (soi profond, souvent le passé)",
+    "fulltext": "djopi soi proximal (soi profond, souvent le passé)"
   },
   "hapi": {
     "name": "hapi",
-    "noun": "soi distal (Grand Soi, Grande Sœur, Grand Frère, souvent le futur)"
+    "noun": "soi distal (Grand Soi, Grande Sœur, Grand Frère, souvent le futur)",
+    "fulltext": "hapi soi distal (Grand Soi, Grande Sœur, Grand Frère, souvent le futur)"
   },
   "pio": {
     "name": "pio",
-    "noun": "périnée, origine"
+    "noun": "périnée, origine",
+    "fulltext": "pio périnée, origine"
   },
   "piu": {
     "name": "piu",
@@ -2621,7 +2981,8 @@
     "see": [
       "piuna",
       "piulil"
-    ]
+    ],
+    "fulltext": "piu piuna piulil vert"
   },
   "piuna": {
     "name": "piuna",
@@ -2629,7 +2990,8 @@
     "etym": [
       "piu",
       "na"
-    ]
+    ],
+    "fulltext": "piuna piu na épinards (mai)"
   },
   "piulil": {
     "name": "piulil",
@@ -2637,30 +2999,36 @@
     "etym": [
       "piu",
       "lil"
-    ]
+    ],
+    "fulltext": "piulil piu lil petits pois"
   },
   "piutaj": {
     "name": "piutaj",
-    "noun": "poireaux (mars)"
+    "noun": "poireaux (mars)",
+    "fulltext": "piutaj poireaux (mars)"
   },
   "pon": {
     "name": "pon",
-    "noun": "orange (couleur)"
+    "noun": "orange (couleur)",
+    "fulltext": "pon orange (couleur)"
   },
   "pona": {
     "name": "pona",
-    "noun": "orange (fruit), novembre"
+    "noun": "orange (fruit), novembre",
+    "fulltext": "pona orange (fruit), novembre"
   },
   "ponalil": {
     "name": "ponalil",
-    "noun": "mandarine (fruit), décembre"
+    "noun": "mandarine (fruit), décembre",
+    "fulltext": "ponalil mandarine (fruit), décembre"
   },
   "pu": {
     "name": "pu",
     "noun": "couleur tomate",
     "see": [
       "putam"
-    ]
+    ],
+    "fulltext": "pu putam couleur tomate"
   },
   "putam": {
     "name": "putam",
@@ -2668,22 +3036,26 @@
     "etym": [
       "pu",
       "tam"
-    ]
+    ],
+    "fulltext": "putam pu tam tomate (fruit), août"
   },
   "ram": {
     "name": "ram",
-    "noun": "épaule"
+    "noun": "épaule",
+    "fulltext": "ram épaule"
   },
   "ri": {
     "name": "ri",
     "prefix": "périphérique",
     "see": [
       "riyon"
-    ]
+    ],
+    "fulltext": "ri riyon périphérique"
   },
   "ria": {
     "name": "ria",
-    "noun": "dehors"
+    "noun": "dehors",
+    "fulltext": "ria dehors"
   },
   "ro": {
     "name": "ro",
@@ -2691,28 +3063,34 @@
     "see": [
       "robo",
       "royon"
-    ]
+    ],
+    "fulltext": "ro robo royon proche du centre"
   },
   "robaj": {
     "name": "robaj",
     "noun": "intérieur des cuisses",
-    "desc": "On devrait dire rodjobaj mais on dit robaj. L'intérieur des mollets se dit rohabaj."
+    "desc": "On devrait dire rodjobaj mais on dit robaj. L'intérieur des mollets se dit rohabaj.",
+    "fulltext": "robaj On devrait dire rodjobaj mais on dit robaj. L'intérieur des mollets se dit rohabaj. intérieur des cuisses"
   },
   "roa": {
     "name": "roa",
-    "noun": "dans"
+    "noun": "dans",
+    "fulltext": "roa dans"
   },
   "toroa": {
     "name": "toroa",
-    "noun": "dans mon"
+    "noun": "dans mon",
+    "fulltext": "toroa dans mon"
   },
   "tiroa": {
     "name": "tiroa",
-    "noun": "dans ton"
+    "noun": "dans ton",
+    "fulltext": "tiroa dans ton"
   },
   "taroa": {
     "name": "taroa",
-    "noun": "dans son"
+    "noun": "dans son",
+    "fulltext": "taroa dans son"
   },
   "ru": {
     "name": "ru",
@@ -2722,27 +3100,33 @@
       "guru",
       "karu",
       "loru"
-    ]
+    ],
+    "fulltext": "ru guru karu loru émergence, réalisation devenir"
   },
   "rum": {
     "name": "rum",
-    "noun": "bras"
+    "noun": "bras",
+    "fulltext": "rum bras"
   },
   "harum": {
     "name": "harum",
-    "noun": "avant-bras"
+    "noun": "avant-bras",
+    "fulltext": "harum avant-bras"
   },
   "djorum": {
     "name": "djorum",
-    "noun": "haut du bras"
+    "noun": "haut du bras",
+    "fulltext": "djorum haut du bras"
   },
   "rumi": {
     "name": "rumi",
-    "verb": "prendre dans les bras"
+    "verb": "prendre dans les bras",
+    "fulltext": "rumi prendre dans les bras"
   },
   "leirumi": {
     "name": "leirumi",
-    "verb": "Embrasser le temps = vivre"
+    "verb": "Embrasser le temps = vivre",
+    "fulltext": "leirumi Embrasser le temps = vivre"
   },
   "sa": {
     "name": "sa",
@@ -2750,24 +3134,29 @@
     "see": [
       "kelasa",
       "masa"
-    ]
+    ],
+    "fulltext": "sa kelasa masa outil"
   },
   "sam": {
     "name": "sam",
     "noun": "pied",
-    "posit": "debout"
+    "posit": "debout",
+    "fulltext": "sam pied debout"
   },
   "fesam": {
     "name": "fesam",
-    "noun": "chaussettes"
+    "noun": "chaussettes",
+    "fulltext": "fesam chaussettes"
   },
   "hasam": {
     "name": "hasam",
-    "noun": "orteil"
+    "noun": "orteil",
+    "fulltext": "hasam orteil"
   },
   "djosam": {
     "name": "djosam",
-    "noun": "cheville"
+    "noun": "cheville",
+    "fulltext": "djosam cheville"
   },
   "se": {
     "name": "se",
@@ -2775,11 +3164,13 @@
     "desc": "Inspiré de est (on regarde le sud).",
     "see": [
       "hase"
-    ]
+    ],
+    "fulltext": "se Inspiré de est (on regarde le sud). hase gauche"
   },
   "sen": {
     "name": "sen",
-    "noun": "ici, ce lieu"
+    "noun": "ici, ce lieu",
+    "fulltext": "sen ici, ce lieu"
   },
   "sha": {
     "name": "sha",
@@ -2790,7 +3181,8 @@
       "shaha",
       "shasha",
       "shana"
-    ]
+    ],
+    "fulltext": "sha shada shaha shasha shana iels (3p) hanche"
   },
   "shada": {
     "name": "shada",
@@ -2798,7 +3190,8 @@
     "etym": [
       "sha",
       "oda"
-    ]
+    ],
+    "fulltext": "shada sha oda elles/eux"
   },
   "shaha": {
     "name": "shaha",
@@ -2806,7 +3199,8 @@
     "etym": [
       "sha",
       "yada"
-    ]
+    ],
+    "fulltext": "shaha sha yada elles/eux poétique"
   },
   "shasha": {
     "name": "shasha",
@@ -2814,7 +3208,8 @@
     "etym": [
       "sha",
       "sha"
-    ]
+    ],
+    "fulltext": "shasha sha sha dancer"
   },
   "shana": {
     "name": "shana",
@@ -2822,7 +3217,8 @@
     "etym": [
       "sha",
       "na"
-    ]
+    ],
+    "fulltext": "shana sha na la danse"
   },
   "she": {
     "name": "she",
@@ -2831,7 +3227,8 @@
       "meshe",
       "shei",
       "sheu"
-    ]
+    ],
+    "fulltext": "she meshe shei sheu l'air"
   },
   "shei": {
     "name": "shei",
@@ -2839,7 +3236,8 @@
     "etym": [
       "she",
       "i"
-    ]
+    ],
+    "fulltext": "shei she i souffler (air qui caresse)"
   },
   "sheu": {
     "name": "sheu",
@@ -2853,7 +3251,8 @@
     "see": [
       "sheulama",
       "shegul"
-    ]
+    ],
+    "fulltext": "sheu she u De {she} et {u} sheulama shegul nez respirer"
   },
   "sheulama": {
     "name": "sheulama",
@@ -2861,7 +3260,8 @@
     "etym": [
       "sheu",
       "lama"
-    ]
+    ],
+    "fulltext": "sheulama sheu lama plongée sous marine"
   },
   "shegul": {
     "name": "shegul",
@@ -2869,7 +3269,8 @@
     "etym": [
       "sheu",
       "gol"
-    ]
+    ],
+    "fulltext": "shegul sheu gol cochon"
   },
   "shi": {
     "name": "shi",
@@ -2878,7 +3279,8 @@
     "see": [
       "shida",
       "shiha"
-    ]
+    ],
+    "fulltext": "shi shida shiha vous (2p) 6"
   },
   "shida": {
     "name": "shida",
@@ -2886,7 +3288,8 @@
     "etym": [
       "shi",
       "oda"
-    ]
+    ],
+    "fulltext": "shida shi oda vous"
   },
   "shiha": {
     "name": "shiha",
@@ -2894,11 +3297,13 @@
     "etym": [
       "shi",
       "yada"
-    ]
+    ],
+    "fulltext": "shiha shi yada vous poétique"
   },
   "shipa": {
     "name": "shipa",
-    "noun": "croire"
+    "noun": "croire",
+    "fulltext": "shipa croire"
   },
   "sho": {
     "name": "sho",
@@ -2909,7 +3314,8 @@
       "shoda",
       "shoha",
       "onsho"
-    ]
+    ],
+    "fulltext": "sho shoda shoha onsho nous tous présent.e.s (1p) salive saliver"
   },
   "shoda": {
     "name": "shoda",
@@ -2917,7 +3323,8 @@
     "etym": [
       "sho",
       "oda"
-    ]
+    ],
+    "fulltext": "shoda sho oda nous"
   },
   "shoha": {
     "name": "shoha",
@@ -2925,7 +3332,8 @@
     "etym": [
       "sho",
       "yada"
-    ]
+    ],
+    "fulltext": "shoha sho yada nous poétique"
   },
   "onsho": {
     "name": "onsho",
@@ -2933,11 +3341,13 @@
     "etym": [
       "on",
       "sho"
-    ]
+    ],
+    "fulltext": "onsho on sho sucre, récompense"
   },
   "shu": {
     "name": "shu",
-    "prep": "et"
+    "prep": "et",
+    "fulltext": "shu et"
   },
   "si": {
     "name": "si",
@@ -2945,7 +3355,8 @@
     "desc": "Annonce d'une manière qui se terminera par {esi} (sauf si c'est qu'on mot).",
     "see": [
       "sigu"
-    ]
+    ],
+    "fulltext": "si Annonce d'une manière qui se terminera par {esi} (sauf si c'est qu'on mot). sigu comme"
   },
   "sigu": {
     "name": "sigu",
@@ -2953,11 +3364,13 @@
     "etym": [
       "si",
       "gu"
-    ]
+    ],
+    "fulltext": "sigu si gu sombre (comme le mystère)"
   },
   "esi": {
     "name": "esi",
-    "suffix": "ainsi, pour, de sorte que"
+    "suffix": "ainsi, pour, de sorte que",
+    "fulltext": "esi ainsi, pour, de sorte que"
   },
   "soa": {
     "name": "soa",
@@ -2966,7 +3379,8 @@
     "prefix": "proche du sol, des pieds",
     "see": [
       "lisoa"
-    ]
+    ],
+    "fulltext": "soa lisoa la terre, le sol proche du sol, des pieds au sol"
   },
   "lisoa": {
     "name": "lisoa",
@@ -2974,14 +3388,16 @@
     "etym": [
       "lil",
       "soa"
-    ]
+    ],
+    "fulltext": "lisoa lil soa table (petit sol)"
   },
   "su": {
     "name": "su",
     "verb": "avoir",
     "see": [
       "nesu"
-    ]
+    ],
+    "fulltext": "su nesu avoir"
   },
   "nesu": {
     "name": "nesu",
@@ -2989,11 +3405,13 @@
     "etym": [
       "ne",
       "su"
-    ]
+    ],
+    "fulltext": "nesu ne su manquer"
   },
   "ta": {
     "name": "ta",
-    "noun": "son/ses"
+    "noun": "son/ses",
+    "fulltext": "ta son/ses"
   },
   "taj": {
     "name": "taj",
@@ -3006,7 +3424,8 @@
     "see": [
       "tajin",
       "tajegi"
-    ]
+    ],
+    "fulltext": "taj te aj tajin tajegi pénis pénétrer avec le pénis"
   },
   "tajin": {
     "name": "tajin",
@@ -3014,7 +3433,8 @@
     "etym": [
       "taj",
       "in"
-    ]
+    ],
+    "fulltext": "tajin taj in pénis chaud, en érection"
   },
   "tajegi": {
     "name": "tajegi",
@@ -3022,41 +3442,48 @@
     "etym": [
       "taj",
       "egi"
-    ]
+    ],
+    "fulltext": "tajegi taj egi pénis froid, au repos"
   },
   "toda": {
     "name": "toda",
-    "noun": "personne avec un pénis"
+    "noun": "personne avec un pénis",
+    "fulltext": "toda personne avec un pénis"
   },
   "tajo": {
     "name": "tajo",
     "noun": "frapper du pénis",
-    "desc": "Basé sur {taj} (pénis) et {o} (frapper)."
+    "desc": "Basé sur {taj} (pénis) et {o} (frapper).",
+    "fulltext": "tajo Basé sur {taj} (pénis) et {o} (frapper). frapper du pénis"
   },
   "hataj": {
     "name": "hataj",
     "noun": "gland",
-    "desc": "De {ha} (tête, partie supérieure) et {taj} (pénis)."
+    "desc": "De {ha} (tête, partie supérieure) et {taj} (pénis).",
+    "fulltext": "hataj De {ha} (tête, partie supérieure) et {taj} (pénis). gland"
   },
   "tam": {
     "name": "tam",
     "noun": "boule (testicule)",
     "see": [
       "putam"
-    ]
+    ],
+    "fulltext": "tam putam boule (testicule)"
   },
   "te": {
     "name": "te",
     "verb": "donner",
     "see": [
       "taj"
-    ]
+    ],
+    "fulltext": "te taj donner"
   },
   "ti": {
     "name": "ti",
     "noun": "ton/tes",
     "prefix": "ton/tes",
-    "suffix": "ton/tes"
+    "suffix": "ton/tes",
+    "fulltext": "ti ton/tes ton/tes ton/tes"
   },
   "tio": {
     "name": "tio",
@@ -3065,7 +3492,8 @@
     "see": [
       "fatio",
       "tiona"
-    ]
+    ],
+    "fulltext": "tio fatio tiona genitals faire l'amour"
   },
   "fatio": {
     "name": "fatio",
@@ -3073,7 +3501,8 @@
     "etym": [
       "fa",
       "tio"
-    ]
+    ],
+    "fulltext": "fatio fa tio iris (fleur de l'oeil"
   },
   "tiona": {
     "name": "tiona",
@@ -3081,32 +3510,38 @@
     "etym": [
       "tio",
       "na"
-    ]
+    ],
+    "fulltext": "tiona tio na flower (genital thing)"
   },
   "to": {
     "name": "to",
     "noun": "mon (notre)/nos",
-    "suffix": "mon/nos"
+    "suffix": "mon/nos",
+    "fulltext": "to mon (notre)/nos mon/nos"
   },
   "tosho": {
     "name": "tosho",
     "noun": "notre",
-    "suffix": "notre"
+    "suffix": "notre",
+    "fulltext": "tosho notre notre"
   },
   "toshi": {
     "name": "toshi",
     "noun": "votre",
-    "suffix": "votre"
+    "suffix": "votre",
+    "fulltext": "toshi votre votre"
   },
   "tosha": {
     "name": "tosha",
     "noun": "leur",
-    "suffix": "leur"
+    "suffix": "leur",
+    "fulltext": "tosha leur leur"
   },
   "topi": {
     "name": "topi",
     "noun": "mon à moi",
-    "suffix": "mon à moi"
+    "suffix": "mon à moi",
+    "fulltext": "topi mon à moi mon à moi"
   },
   "u": {
     "name": "u",
@@ -3118,11 +3553,13 @@
       "liu",
       "odu",
       "sheu"
-    ]
+    ],
+    "fulltext": "u awiu gau iwiu liu odu sheu tirer"
   },
   "couler": {
     "name": "couler",
-    "noun": "uba"
+    "noun": "uba",
+    "fulltext": "couler uba"
   },
   "uki": {
     "name": "uki",
@@ -3130,12 +3567,14 @@
     "suffix": "long",
     "see": [
       "agauki"
-    ]
+    ],
+    "fulltext": "uki agauki long long"
   },
   "ul": {
     "name": "ul",
     "prefix": "jusque",
-    "desc": "Tirer jusqu'à une forme d'événement, de rupture, de changement."
+    "desc": "Tirer jusqu'à une forme d'événement, de rupture, de changement.",
+    "fulltext": "ul Tirer jusqu'à une forme d'événement, de rupture, de changement. jusque"
   },
   "ulu": {
     "name": "ulu",
@@ -3143,7 +3582,8 @@
     "see": [
       "uloda",
       "ulul"
-    ]
+    ],
+    "fulltext": "ulu uloda ulul amuser, faire rire (tirer sur la corde)"
   },
   "uloda": {
     "name": "uloda",
@@ -3151,7 +3591,8 @@
     "etym": [
       "ulu",
       "oda"
-    ]
+    ],
+    "fulltext": "uloda ulu oda clown"
   },
   "ulul": {
     "name": "ulul",
@@ -3159,11 +3600,13 @@
     "etym": [
       "ulu",
       "la"
-    ]
+    ],
+    "fulltext": "ulul ulu la asperge, avril"
   },
   "uma": {
     "name": "uma",
-    "prep": "ou"
+    "prep": "ou",
+    "fulltext": "uma ou"
   },
   "we": {
     "name": "we",
@@ -3171,18 +3614,21 @@
     "desc": "Inspiré de ouest (on regarde le sud).",
     "see": [
       "hawe"
-    ]
+    ],
+    "fulltext": "we Inspiré de ouest (on regarde le sud). hawe droite"
   },
   "wen": {
     "name": "wen",
-    "noun": "coude"
+    "noun": "coude",
+    "fulltext": "wen coude"
   },
   "wi": {
     "name": "wi",
     "noun": "pruneau (couleur)",
     "see": [
       "wiyon"
-    ]
+    ],
+    "fulltext": "wi wiyon pruneau (couleur)"
   },
   "wiyon": {
     "name": "wiyon",
@@ -3190,23 +3636,27 @@
     "etym": [
       "wi",
       "yon"
-    ]
+    ],
+    "fulltext": "wiyon wi yon pruneau (fruit)"
   },
   "wu": {
     "name": "wu",
     "suffix": "de (possédé par)",
     "see": [
       "guwu"
-    ]
+    ],
+    "fulltext": "wu guwu de (possédé par)"
   },
   "diwu": {
     "name": "diwu",
-    "prep": "qui possède"
+    "prep": "qui possède",
+    "fulltext": "diwu qui possède"
   },
   "fawulama": {
     "name": "fawulama",
     "noun": "poisson (yeux de la mer)",
-    "desc": "Voir aussi {awi}"
+    "desc": "Voir aussi {awi}",
+    "fulltext": "fawulama Voir aussi {awi} poisson (yeux de la mer)"
   },
   "ya": {
     "name": "ya",
@@ -3218,7 +3668,8 @@
       "iwa",
       "yafa",
       "yadifa"
-    ]
+    ],
+    "fulltext": "ya yada yaon yagi iwa yafa yadifa nuit"
   },
   "yagi": {
     "name": "yagi",
@@ -3226,7 +3677,8 @@
     "etym": [
       "ya",
       "gi"
-    ]
+    ],
+    "fulltext": "yagi ya gi Bonne (douce) nuit"
   },
   "yaonagi": {
     "name": "yaonagi",
@@ -3234,7 +3686,8 @@
     "etym": [
       "yaon",
       "gi"
-    ]
+    ],
+    "fulltext": "yaonagi yaon gi Bonsoir (bon lever de nuit)"
   },
   "iwa": {
     "name": "iwa",
@@ -3242,7 +3695,8 @@
     "etym": [
       "iwi",
       "ya"
-    ]
+    ],
+    "fulltext": "iwa iwi ya hibou"
   },
   "yafa": {
     "name": "yafa",
@@ -3250,7 +3704,8 @@
     "etym": [
       "ya",
       "fa"
-    ]
+    ],
+    "fulltext": "yafa ya fa rêver (la nuit voit)"
   },
   "yadifa": {
     "name": "yadifa",
@@ -3259,7 +3714,8 @@
       "ya",
       "di",
       "fa"
-    ]
+    ],
+    "fulltext": "yadifa ya di fa rêve (la nuit qui voit)"
   },
   "yaj": {
     "name": "yaj",
@@ -3272,7 +3728,8 @@
       "faj",
       "feyaj",
       "yajin"
-    ]
+    ],
+    "fulltext": "yaj yu aj faj feyaj yajin clitoris, gland (joie en feu)"
   },
   "yajin": {
     "name": "yajin",
@@ -3280,7 +3737,8 @@
     "etym": [
       "yaj",
       "in"
-    ]
+    ],
+    "fulltext": "yajin yaj in gland froid, au repos"
   },
   "yi": {
     "name": "yi",
@@ -3288,7 +3746,8 @@
     "conj": "tu dépravé.e (2x)",
     "see": [
       "yida"
-    ]
+    ],
+    "fulltext": "yi yida tu dépravé.e (2x) minuscule"
   },
   "yida": {
     "name": "yida",
@@ -3296,7 +3755,8 @@
     "etym": [
       "yi",
       "oda"
-    ]
+    ],
+    "fulltext": "yida yi oda tu dépravé"
   },
   "yin": {
     "name": "yin",
@@ -3306,7 +3766,8 @@
       "alayin",
       "duyin",
       "noyin"
-    ]
+    ],
+    "fulltext": "yin De {yu} et {in} alayin duyin noyin vagin"
   },
   "yo": {
     "name": "yo",
@@ -3315,7 +3776,8 @@
       "yosa",
       "yohon",
       "yogi"
-    ]
+    ],
+    "fulltext": "yo yosa yohon yogi jour"
   },
   "yogi": {
     "name": "yogi",
@@ -3323,7 +3785,8 @@
     "etym": [
       "yo",
       "gi"
-    ]
+    ],
+    "fulltext": "yogi yo gi Douce journée (salutation)"
   },
   "yohonagi": {
     "name": "yohonagi",
@@ -3331,7 +3794,8 @@
     "etym": [
       "yohon",
       "gi"
-    ]
+    ],
+    "fulltext": "yohonagi yohon gi Bon lever de jour"
   },
   "yon": {
     "name": "yon",
@@ -3344,7 +3808,8 @@
       "royon",
       "yonin",
       "yonegi"
-    ]
+    ],
+    "fulltext": "yon De {yu} et {on} (joie-apparaître = donner la joie = accoucher) joyon wiyon riyon royon yonin yonegi vulve"
   },
   "riyon": {
     "name": "riyon",
@@ -3352,7 +3817,8 @@
     "etym": [
       "ri",
       "yon"
-    ]
+    ],
+    "fulltext": "riyon ri yon lèvres périphériques"
   },
   "royon": {
     "name": "royon",
@@ -3360,7 +3826,8 @@
     "etym": [
       "ro",
       "yon"
-    ]
+    ],
+    "fulltext": "royon ro yon lèvres centrales"
   },
   "yonin": {
     "name": "yonin",
@@ -3368,7 +3835,8 @@
     "etym": [
       "yon",
       "in"
-    ]
+    ],
+    "fulltext": "yonin yon in vulve chaude, en érection"
   },
   "yonegi": {
     "name": "yonegi",
@@ -3376,15 +3844,18 @@
     "etym": [
       "yon",
       "egi"
-    ]
+    ],
+    "fulltext": "yonegi yon egi vulve froide, au repos"
   },
   "keyon": {
     "name": "keyon",
-    "noun": "clitoris"
+    "noun": "clitoris",
+    "fulltext": "keyon clitoris"
   },
   "feyon": {
     "name": "feyon",
-    "noun": "culotte"
+    "noun": "culotte",
+    "fulltext": "feyon culotte"
   },
   "yu": {
     "name": "yu",
@@ -3394,7 +3865,8 @@
       "yaj",
       "eyu",
       "yuina"
-    ]
+    ],
+    "fulltext": "yu yaj eyu yuina joie joyeux"
   },
   "eyu": {
     "name": "eyu",
@@ -3403,7 +3875,8 @@
     "etym": [
       "e",
       "yu"
-    ]
+    ],
+    "fulltext": "eyu e yu Être joyeux = être tellement = si xxx si"
   },
   "yuina": {
     "name": "yuina",
@@ -3412,30 +3885,36 @@
       "yu",
       "in",
       "na"
-    ]
+    ],
+    "fulltext": "yuina yu in na fruit"
   },
   "zu": {
     "name": "zu",
     "verb": "aimer",
-    "desc": "Évolution de {au} en {zu} surtout si la conj requiert un 'h' de liaison."
+    "desc": "Évolution de {au} en {zu} surtout si la conj requiert un 'h' de liaison.",
+    "fulltext": "zu Évolution de {au} en {zu} surtout si la conj requiert un 'h' de liaison. aimer"
   },
   "es": {
     "name": "es",
-    "noun": "se (être soi, se regarder, se confondre)"
+    "noun": "se (être soi, se regarder, se confondre)",
+    "fulltext": "es se (être soi, se regarder, se confondre)"
   },
   "uya": {
     "name": "uya",
     "noun": "de/depuis",
-    "suffix": "depuis (placé après: ha-uya = de loin)"
+    "suffix": "depuis (placé après: ha-uya = de loin)",
+    "fulltext": "uya de/depuis depuis (placé après: ha-uya = de loin)"
   },
   "ten": {
     "name": "ten",
     "pron": "les",
-    "desc": "optionel, utilisé pour souligner le sujet"
+    "desc": "optionel, utilisé pour souligner le sujet",
+    "fulltext": "ten optionel, utilisé pour souligner le sujet les"
   },
   "tu": {
     "name": "tu",
     "noun": "la/le",
-    "desc": "optionel, utilisé pour souligner le sujet"
+    "desc": "optionel, utilisé pour souligner le sujet",
+    "fulltext": "tu optionel, utilisé pour souligner le sujet la/le"
   }
 }

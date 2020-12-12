@@ -2,23 +2,7 @@ import { Comp, styled, useOvermind } from '../app'
 import classnames from 'classnames'
 import * as React from 'react'
 import { List } from './List'
-import { CompiledWord } from '../conlang/types'
-
-const DEF_KEYS: (keyof CompiledWord)[] = [
-  'etym',
-  'noun',
-  'verb',
-  'adj',
-  'conj',
-  'prefix',
-  'suffix',
-  'prep',
-  'pron',
-  'tens',
-  'lang',
-  'posit',
-  'see',
-]
+import { DEF_KEYS, CompiledWord } from '../conlang/types'
 
 export interface WordProps {
   className?: string
@@ -83,14 +67,24 @@ const Definition = styled.div`
   display: flex;
   flex-direction: row;
   padding: 5px;
+  &.desc {
+    font-style: italic;
+    color: #666;
+  }
 `
 
 const DefType = styled.div`
+  cursor: pointer;
   padding: 5px 20px 5px 0;
   font-weight: bold;
   width: 4rem;
   flex-shrink: 0;
   color: red;
+  &.selected {
+    border-left: 4px solid #8a847a;
+    position: relative;
+    left: -4px;
+  }
   &.etym {
     color: #222;
   }
@@ -148,10 +142,25 @@ const ID = styled.a`
 
 export const Word: Comp<WordProps> = ({ className, name, popup }) => {
   const ctx = useOvermind()
+  const { filter } = ctx.state.keoda
   const word = ctx.state.keoda.words[name]
   if (!word) {
     // Should never happen
     return null
+  }
+  let highKey: string | undefined
+  if (filter) {
+    const { type, key } = filter
+    if (type === 'type') {
+      if (!word[key as keyof CompiledWord]) {
+        return null
+      }
+      highKey = key
+    } else {
+      if (!word.fulltext.includes(key)) {
+        return null
+      }
+    }
   }
   return (
     <WordEntry
@@ -168,7 +177,12 @@ export const Word: Comp<WordProps> = ({ className, name, popup }) => {
         {DEF_KEYS.map(key =>
           word[key] ? (
             <Definition key={key}>
-              <DefType className={key}>{key}</DefType>
+              <DefType
+                className={classnames(key, { selected: key === highKey })}
+                onClick={() => ctx.actions.keoda.filter({ type: 'type', key })}
+              >
+                {key}
+              </DefType>
               {key === 'etym' || key === 'see' ? (
                 <List className={key} words={word[key]!} popup={popup} />
               ) : (
@@ -177,6 +191,7 @@ export const Word: Comp<WordProps> = ({ className, name, popup }) => {
             </Definition>
           ) : null
         )}
+        {word.desc && <Definition className="desc">{word.desc}</Definition>}
       </Definitions>
     </WordEntry>
   )
