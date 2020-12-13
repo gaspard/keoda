@@ -1,14 +1,15 @@
 import * as React from 'react'
+import classnames from 'classnames'
 import { Comp, styled } from '../app'
 import { Link } from './Link'
 
 export interface DerivedProps {
   className?: string
-  popup?: boolean
-  words: string[]
+  phrase?: boolean
+  entries: string[]
 }
 
-const Wrapper = styled.div`
+export const ListWrapper = styled.div`
   flex-wrap: wrap;
   padding-left: 5px;
   display: flex;
@@ -18,14 +19,21 @@ const Wrapper = styled.div`
     color: #222;
     font-weight: bold;
   }
+  &.phrase {
+    display: inline-block;
+    margin: 0;
+  }
+  & .Link:not(:last-child) {
+    margin-right: 8px;
+  }
 `
 
-export const List: Comp<DerivedProps> = ({ className, words, popup }) => {
+export const List: Comp<DerivedProps> = ({ className, entries, phrase }) => {
   return (
-    <Wrapper className={className}>
-      {words.map((key, idx) => (
-        <Link key={idx} name={key} popup={popup} />
+    <ListWrapper className={classnames(className, { phrase })}>
+      {entries.map((key, idx) => (
+        <Link key={idx} id={key} fromMd={phrase} />
       ))}
-    </Wrapper>
+    </ListWrapper>
   )
 }

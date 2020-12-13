@@ -11,5 +11,6 @@ export const kanam = _.word('kanam', {
 
 export const namel = _.word('namel', {
   noun: 'bâton (bois droit)',
+  glo: 'bâton',
   etym: () => [_.nam, _.el],
 })

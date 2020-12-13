@@ -15,3 +15,8 @@ export const amimoon = _.example(
   [_.a, _.yoda, _.mi, _.mun],
   `À elle, caresse les seins.`
 )
+
+export const ahe = _.alt('ahe', {
+  glo: '3SG.être',
+  see: () => [_.a, _.e],
+})

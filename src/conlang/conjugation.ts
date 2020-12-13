@@ -1,5 +1,5 @@
 import { VOWEL } from './generate'
-import { words } from './words'
+import { entries } from './words'
 
 const INFLECTIONS = [
   // 1sp   on                   o   -ma
@@ -36,8 +36,8 @@ const EXCEPTIONS: string[] = ['pinu']
 
 export function detectConjugationIssues() {
   const conjugations: { [key: string]: string } = {}
-  const verbs = Object.keys(words)
-    .filter(key => words[key].verb)
+  const verbs = Object.keys(entries)
+    .filter(key => entries[key].verb)
     .sort()
 
   verbs.forEach(verb => {
@@ -46,13 +46,13 @@ export function detectConjugationIssues() {
       if (printed) {
         return
       }
-      console.log(`=========== ${verb} (${words[verb].verb}) =========`)
+      console.log(`=========== ${verb} (${entries[verb].verb}) =========`)
       printed = true
     }
     INFLECTIONS.forEach(inf => {
       const conj =
         inf + (VOWEL.indexOf(verb[0]) >= 0 && inf !== '' ? 'h' : '') + verb
-      if (words[conj] && inf !== '' && !EXCEPTIONS.includes(conj)) {
+      if (entries[conj] && inf !== '' && !EXCEPTIONS.includes(conj)) {
         printHeader()
         console.log(conj)
         console.log(`verb: ${inf} - ${verb} conflicts with ${conj}`)

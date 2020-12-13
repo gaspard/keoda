@@ -1,17 +1,19 @@
 import * as _ from '.'
 
 export const roa = _.word('roa', {
-  noun: 'dans',
+  prep: 'dans',
 })
 
 export const toroa = _.word('toroa', {
-  noun: 'dans mon',
+  prep: 'dans mon',
 })
+
 export const tiroa = _.word('tiroa', {
-  noun: 'dans ton',
+  prep: 'dans ton',
 })
+
 export const taroa = _.word('taroa', {
-  noun: 'dans son',
+  prep: 'dans son',
 })
 
 _.see(_.ro)

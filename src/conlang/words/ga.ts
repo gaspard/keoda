@@ -55,5 +55,12 @@ export const kuga = _.word('kuga', {
 
 export const nega = _.word('nega', {
   noun: 'fou (sans esprit)',
+  glo: 'fou',
+  adv: 'de manière folle',
   etym: () => [_.ne, _.ga],
+})
+
+export const nega_adv = _.alt('nega', {
+  glo: 'fou.ADV',
+  see: () => [_.nega],
 })

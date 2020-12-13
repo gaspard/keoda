@@ -1,23 +1,30 @@
 import {
-  CompiledWord,
-  CompiledWordByName,
+  CompiledEntry,
+  CompiledEntryByName,
   DEF_KEYS,
+  Entry,
+  EntryByName,
   FULLTEXT_KEYS,
-  Word,
 } from './types'
 import './words'
-import { words } from './words/_helpers'
+import { entries, phrases } from './words/0_helpers'
 
-export { CompiledWord, CompiledWordByName }
+export { CompiledEntry, EntryByName }
 
-const wordList = Object.keys(words).map(key => words[key])
+const wordList = Object.keys(entries).map(key => entries[key])
 
-function compile(name: string): CompiledWord {
-  const word = words[name]
-  const compiled = Object.assign({}, word) as CompiledWord
-  const fulltext: string[] = [name]
+function compileWord(word: Entry): CompiledEntry {
+  const compiled = Object.assign({}, word, { fulltext: '' }) as CompiledEntry
+  const fulltext: string[] = [word.name]
+  if (!compiled.glo) {
+    // default value to show on gloss
+    const key = Object.keys(word).find(key =>
+      FULLTEXT_KEYS.includes(key as any)
+    )
+    compiled.glo = word[key as 'glo']
+  }
   if (word.etym) {
-    const etym = word.etym().map(w => w.name)
+    const etym = word.etym().map(w => w.id)
     compiled.etym = etym
     fulltext.push(...etym)
   }
@@ -27,12 +34,18 @@ function compile(name: string): CompiledWord {
     fulltext.push(compiled.desc)
   }
 
-  const see = wordList
-    .filter(w => w.etym && w.etym().find(w => w.name === name))
-    .map(w => w.name)
-  if (see.length) {
-    compiled.see = see
-    fulltext.push(...see)
+  const deriv = wordList.filter(
+    w => w.etym && w.etym().find(w => w.id === word.id)
+  )
+  if (deriv.length) {
+    compiled.deriv = deriv.map(w => w.id)
+    fulltext.push(...deriv.map(w => w.name))
+  }
+
+  if (word.see) {
+    const see = word.see()
+    compiled.see = see.map(w => w.id)
+    fulltext.push(...see.map(w => w.name))
   }
 
   compiled.fulltext = [
@@ -42,12 +55,20 @@ function compile(name: string): CompiledWord {
   return compiled
 }
 
-export function exportJSON() {
-  const compiled: { [key: string]: CompiledWord } = {}
-  Object.keys(words).forEach(key => {
-    compiled[key] = compile(key)
+export function exportJSON(arg: {
+  entries: EntryByName
+  phrases: EntryByName
+}) {
+  const entries: CompiledEntryByName = {}
+  Object.keys(arg.entries).forEach(key => {
+    entries[key] = compileWord(arg.entries[key])
   })
-  return JSON.stringify(compiled, null, 2)
+  const phrases: CompiledEntryByName = {}
+  Object.keys(arg.phrases).forEach(key => {
+    phrases[key] = compileWord(arg.phrases[key])
+  })
+
+  return JSON.stringify({ entries, phrases }, null, 2)
 }
 
-console.log(exportJSON())
+console.log(exportJSON({ entries, phrases }))

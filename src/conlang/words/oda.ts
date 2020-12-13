@@ -4,6 +4,7 @@ export const yoda = _.word('yoda', { noun: 'corps avec une vulve' })
 
 export const oda = _.word('oda', {
   noun: 'corps, lieu vivant ("on")',
+  adj: 'vivant',
   suffix: 'animal comme, qui a',
   desc: () => `De là vient ${_.keoda} (**la langue cachée du corps**).`,
 })

@@ -1,3 +1,3 @@
 export * from './filter'
-export * from './hover'
+export * from './float'
 export * from './select'

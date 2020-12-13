@@ -1,27 +1,29 @@
 import * as _ from '.'
 
-export const scale = _.example(
-  [
-    // 10 (souvenir)
-    _.djipa,
-    // 9 (joie)
-    _.dapa,
-    // 8 (appartenance)
-    _.jepa,
-    // 7 (fierté)
-    _.fepa,
-    // 6 (croyance)
-    _.shipa,
-    // 5 (confusion)
-    _.nelil,
-    // 4 (honte)
-    _.neka,
-    // 3 (oubli)
-    _.nepe,
-    // 2 (stress)
-    _.nede,
-    // 1 (division)
-    _.nepi,
-  ],
-  'échelle du néant (nepa)'
-)
+export const scale = _.card('nepal', {
+  noun: 'échelle du néant',
+  lang: 'Certains états de conscience sont liés aux nombres',
+  see: () => [_.nepa, _.counting],
+  desc: () => `
+# Échelle du néant
+
+## Les états heureux
+
+* 10 ${_.djipa} (souvenir)
+* 9 ${_.dapa} (joie)
+* 8 ${_.jepa} (appartenance)
+* 7 ${_.fepa} (fierté)
+* 6 ${_.shipa} (croyance)
+
+## Et à partir d'ici ça commence à plus aller très bien..
+
+* 5 ${_.nelil} (confusion)
+* 4 ${_.neka} (honte)
+* 3 ${_.nepe} (oubli)
+* 2 ${_.nede} (stress)
+
+## Et ici, c'est l'enfer
+
+* 1 ${_.nepi} (division)
+`,
+})

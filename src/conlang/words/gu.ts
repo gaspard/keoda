@@ -71,5 +71,6 @@ export const guyuina = _.word('guyuina', {
 
 export const gupa = _.word('gupa', {
   noun: 'nature (tout le sombre/profondeur)',
+  glo: 'nature',
   etym: () => [_.gu, _.pa],
 })

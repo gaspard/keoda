@@ -1,16 +1,13 @@
 export interface Example {
-  phrase: (Word | Example)[]
+  phrase: (Entry | Example)[]
   meaning: string
 }
 
-export interface DescriptionFunction {
-  (): string
-}
+// ============================================ Word
 
-export interface FullWord {
-  name: string
-  desc: DescriptionFunction
-  etym: () => Word[]
+export interface EntryInfo {
+  // https://www.eva.mpg.de/lingua/resources/glossing-rules.php
+  glo: string
   noun: string
   verb: string
   adj: string
@@ -23,11 +20,20 @@ export interface FullWord {
   lang: string
   posit: string
   adv: string
+  // phrases only
+  phrase: string
   // ???
   person: string
 }
 
-export const FULLTEXT_KEYS: (keyof CompiledWord)[] = [
+export interface FullEntry extends EntryInfo {
+  name: string
+  desc: () => string
+  etym: () => Entry[]
+  see: () => Entry[]
+}
+
+export const FULLTEXT_KEYS: (keyof EntryInfo)[] = [
   'conj',
   'noun',
   'verb',
@@ -43,30 +49,37 @@ export const FULLTEXT_KEYS: (keyof CompiledWord)[] = [
   'person',
 ]
 
-export const DEF_KEYS: (keyof CompiledWord)[] = [
+export const DEF_KEYS: (keyof CompiledEntry)[] = [
   'etym',
   ...FULLTEXT_KEYS,
+  'deriv',
   'see',
 ]
 
-export interface WordByName {
-  [key: string]: Word
+export interface EntryByName {
+  [key: string]: Entry
 }
 
-export interface CompiledWordByName {
-  [key: string]: CompiledWord
+export interface CompiledEntryByName {
+  [key: string]: CompiledEntry
 }
 
-export type WordDefinition = Partial<FullWord>
+export type EntryDefinition = Partial<FullEntry>
 
-export interface Word extends WordDefinition {
+export interface Entry extends EntryDefinition {
   name: string
+  type: 'word' | 'card' | 'phrase'
+  id: string // === `${type}-${name}
+  toString: () => string
 }
 
-export interface CompiledWord extends Omit<Word, 'etym' | 'desc'> {
+export interface CompiledEntry extends Partial<EntryInfo> {
+  name: string
+  type: 'word' | 'card'
   // concat of all text for search
   fulltext: string
   etym?: string[]
   desc?: string
+  deriv?: string[]
   see?: string[]
 }

@@ -1,4 +1,3 @@
-import './style.css'
 import { Overmind } from 'overmind'
 import { Provider } from 'overmind-react'
 import * as React from 'react'
@@ -6,7 +5,9 @@ import * as ReactDOM from 'react-dom'
 import * as actions from './actions'
 import { KeodaConfig } from './app'
 import { App } from './components'
-import * as words from './db.json'
+import { CompiledEntryByName } from './conlang/types'
+import { entries, phrases } from './db.json'
+import './style.css'
 
 const config: KeodaConfig = {
   onInitialize(ctx) {
@@ -17,8 +18,9 @@ const config: KeodaConfig = {
   },
   state: {
     keoda: {
-      words,
-      lexicon: Object.keys(words).sort(),
+      entries: entries as CompiledEntryByName,
+      phrases: phrases as CompiledEntryByName,
+      lexicon: Object.keys(entries).sort(),
     },
   },
   actions: {

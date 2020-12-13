@@ -4,9 +4,9 @@ export const lil = _.word('lil', {
   adj: 'petit.e',
   noun: '5',
   suffix: 'petit.e',
+  see: () => [_.counting],
 })
 _.see(_.peulil)
-_.see(_.counting)
 
 export const hamalil = _.word('hamalil', {
   noun: 'auriculaire (petit doigt, 5ème doigt)',

@@ -20,6 +20,8 @@ export const agauki = _.word('agauki', {
 
 export const akida = _.word('agaukida', {
   noun: 'temple (le lieu qui résonne)',
+  glo: 'temple',
+  etym: () => [_.agauki, _.da],
 })
 
 _.see(_.ago)

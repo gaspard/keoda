@@ -2,21 +2,29 @@ import * as _ from '.'
 
 export const ma = _.word('ma', {
   noun: 'main',
-  verb: 'prendre dans la main, branler, tenir',
+  verb: 'prendre dans la main, tenir',
   desc: () => `
-Voir aussi les exceptions liées au suffixes ${_.i} (masser, caresser), ${_.o} (frapper, faire mal) et ${_.u} (tirer, pincer): ${_.mi}, ${_.mo}, ${_.mu}. On peut aussi utiliser la négation ${_.nema} (lâcher).
+Voir aussi les exceptions liées au suffixes.
+
+* ${_.i} (masser, caresser)
+* ${_.o} (frapper, faire mal)
+* ${_.u} (tirer, pincer)
+
+Exemple: ${_.phrase('Masse mon dos !', _.mi, _.nopi)}.
+
+On peut aussi utiliser la négation ${_.nema} (lâcher).
 `,
 })
 _.see(_.mahim)
 
 export const hama = _.word('hama', {
   noun: 'doigt',
-  desc: () => `De ${_.ha} (tête, moitié supérieure) et ${_.ma} (main).`,
+  etym: () => [_.ha, _.ma],
 })
 
 export const djoma = _.word('djoma', {
   noun: 'poignet',
-  desc: () => `De ${_.djo} (bas) et ${_.ma} (main).`,
+  etym: () => [_.djo, _.ma],
 })
 _.see(_.djosam)
 
@@ -25,7 +33,7 @@ _.see(_.lihafma)
 export const nema = _.word('nema', {
   noun: 'sans main',
   verb: 'lâcher',
-  desc: () => `De ${_.ne} (négation) et ${_.ma} (main).`,
+  etym: () => [_.ne, _.ma],
 })
 
 export const mataj = _.example([_.ma, _.taj], `Prends mon pénis dans ta main.`)
@@ -38,7 +46,7 @@ _.see(_.nemafeyon)
 
 export const mu = _.word('mu', {
   verb: 'tirer, pincer avec la main',
-  desc: () => `De ${_.ma} (main) et le suffix ${_.u}.`,
+  etym: () => [_.ma, _.u],
 })
 
 export const muhamun = _.example([_.mu, _.hamun], `Tire sur mes tétons.`)

@@ -1,6 +1,7 @@
 import { Comp, styled, useOvermind } from '../app'
 import * as React from 'react'
-import { Word } from './Word'
+import { Entry } from './Entry'
+import { Float } from './Float'
 
 export interface AppProps {
   className?: string
@@ -18,10 +19,13 @@ export const App: Comp<AppProps> = ({ className }) => {
   const ctx = useOvermind()
   const { lexicon } = ctx.state.keoda
   return (
-    <Wrapper className={className}>
-      {lexicon.map(name => (
-        <Word key={name} name={name} />
-      ))}
-    </Wrapper>
+    <React.Fragment>
+      <Float />
+      <Wrapper className={className}>
+        {lexicon.map(name => (
+          <Entry key={name} id={name} />
+        ))}
+      </Wrapper>
+    </React.Fragment>
   )
 }

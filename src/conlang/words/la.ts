@@ -20,6 +20,11 @@ export const lapa = _.word('lapa', {
   etym: () => [_.la, _.pa],
 })
 
+export const shalapa = _.alt('shalapa', {
+  glo: '3PL.parler',
+  see: () => [_.sha, _.lapa],
+})
+
 export const lapalapa = _.word('lapalapa', {
   noun: 'canard',
   etym: () => [_.lapa, _.lapa],

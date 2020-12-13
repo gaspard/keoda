@@ -10,6 +10,7 @@
     "rootDir": "src",
     "jsxFactory": "React.createElement",
     "noImplicitAny": true,
+    "esModuleInterop": true,
     "outDir": "output",
     "resolveJsonModule": true,
     "sourceMap": true,

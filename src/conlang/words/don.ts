@@ -1,6 +1,7 @@
 import * as _ from '.'
 
 export const don = _.word('don', {
-  prep: 'où',
+  adv: 'où',
+  glo: 'où.ADV',
 })
 _.see(_.prep)

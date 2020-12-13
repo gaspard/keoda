@@ -1,7 +1,8 @@
 import * as _ from '.'
 
 export const tu = _.word('tu', {
-  noun: 'la/le',
+  noun: 'lae',
+  glo: 'lae.DET',
   desc: () => `optionel, utilisé pour souligner le sujet`,
 })
 _.see(_.ten)

@@ -3,7 +3,8 @@ import { createHook } from 'overmind-react'
 import { FunctionComponent as Comp } from 'react'
 import styled from 'styled-components'
 import * as actions from './actions'
-import { CompiledWord } from './conlang'
+import { FloatArg } from './actions'
+import { CompiledEntryByName } from './conlang/types'
 export { styled, Comp }
 
 export interface Filter {
@@ -16,11 +17,10 @@ export interface KeodaConfig {
   state: {
     keoda: {
       selected?: string
-      hover?: string
+      float?: FloatArg
       filter?: Filter
-      words: {
-        [key: string]: CompiledWord
-      }
+      entries: CompiledEntryByName
+      phrases: CompiledEntryByName
       lexicon: string[]
     }
   }
