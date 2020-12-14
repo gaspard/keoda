@@ -92,11 +92,13 @@ const Definition = styled.div`
     display: block;
     h1 {
       font-size: 1.6rem;
+      font-style: normal;
       color: #444;
       margin-top: 2rem;
     }
     h2 {
       font-size: 1.2rem;
+      font-style: normal;
       color: inherit;
       margin-top: 2rem;
     }

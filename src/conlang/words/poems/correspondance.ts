@@ -34,12 +34,27 @@ ${_.phrase(
   _.mei,
   _.lana
 )}  
-Qui l'observent avec des regards familiers.
-*di ko gi shafa lae*
-[_.di, _.ko, _.gi, _.sha, _.fa, _.lae],
-Comme de longs échos qui de loin se confondent
-*si agadeuki di hauya es shanelil*
-[_.si, _.agade, _.uki, _.di, _.ha, _.uya, _.es, _.sha, _.nelil],
+${_.phrase(
+  "Qui l'observent avec des regards familiers.",
+  _.di,
+  _.ko,
+  _.gi,
+  _.sha,
+  _.fa,
+  _.lae
+)}  
+${_.phrase(
+  'Comme de longs échos qui de loin se confondent...',
+  _.si,
+  _.agade,
+  _.uki,
+  _.di,
+  _.ha,
+  _.uya,
+  _.es,
+  _.sha,
+  _.nelil
+)}  
 `,
 })
 

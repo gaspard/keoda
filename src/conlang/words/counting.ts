@@ -19,7 +19,7 @@ Voici les nombres de 1 to 10:
 
 Et il y a aussi ${_.ipi} (x10), ${_.ipa} (x100) et ${_.ipu} (x1000).
 
-# Quelques exemples:
+## Quelques exemples:
 
 * 11 (1 x 10 + 1): ${_.phrase(
     '11',
@@ -50,15 +50,15 @@ On peut transformer ${_.phrase(
     _.ka
   )}
 
-# Les grands nombres
+## Les grands nombres
 
 * *million* (1000^2): ${_.phrase('million', _.ipu, _.de, _.uki)}
 * *milliard* (1000^3): ${_.phrase('milliard', _.ipu, _.pe, _.uki)}
-* *mille millards* (1000^4): ${_.phrase('mille milliads', _.ipu, _.ka, _.uki)}
+* *mille millards* (1000^4): ${_.phrase('mille milliards', _.ipu, _.ka, _.uki)}
 
 On peut aussi dire ${_.phrase('10^4', _.ipa, _.ka, _.uki)} pour 10^4, etc.
 
-# Petits nombres
+## Petits nombres
 
 * *dixième* (10^-1): ${_.phrase('0.1', _.ipi, _.iki)}
 * *centième* (10^-2): ${_.phrase('0.01', _.ipi, _.de, _.iki)}

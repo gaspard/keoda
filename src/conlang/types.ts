@@ -31,6 +31,7 @@ export interface FullEntry extends EntryInfo {
   desc: () => string
   etym: () => Entry[]
   see: () => Entry[]
+  alt: () => Entry
 }
 
 export const FULLTEXT_KEYS: (keyof EntryInfo)[] = [
@@ -78,6 +79,8 @@ export interface CompiledEntry extends Partial<EntryInfo> {
   type: 'word' | 'card'
   // concat of all text for search
   fulltext: string
+  // alternative word to show def
+  alt?: string
   etym?: string[]
   desc?: string
   deriv?: string[]

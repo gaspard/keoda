@@ -1,11 +1,12 @@
 import * as React from 'react'
 import classnames from 'classnames'
-import { Comp, styled } from '../app'
-import { Link } from './Link'
+import { Comp, styled, useOvermind } from '../app'
+import { Link, LinkProps } from './Link'
 
 export interface DerivedProps {
   className?: string
   phrase?: boolean
+  glo?: boolean
   entries: string[]
 }
 
@@ -23,17 +24,59 @@ export const ListWrapper = styled.div`
     display: inline-block;
     margin: 0;
   }
+  &.phrase.glo {
+    display: flex;
+    flex-direction: row;
+    background: #d0cdc2;
+    border-radius: 4px;
+    border: 1px solid #333;
+    padding: 5px;
+  }
   & .Link:not(:last-child) {
     margin-right: 8px;
   }
 `
 
-export const List: Comp<DerivedProps> = ({ className, entries, phrase }) => {
+const Glo = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  margin: 8px 15px;
+`
+
+const Gloss = styled.div`
+  font-style: normal;
+`
+
+export const GlossAndLink: Comp<LinkProps> = props => {
+  const ctx = useOvermind()
+  const entry = ctx.state.keoda.entries[props.id]
+  if (!entry) {
+    return null
+  }
   return (
-    <ListWrapper className={classnames(className, { phrase })}>
-      {entries.map((key, idx) => (
-        <Link key={idx} id={key} fromMd={phrase} />
-      ))}
+    <Glo>
+      <Link {...props} />
+      <Gloss>{entry.glo}</Gloss>
+    </Glo>
+  )
+}
+
+export const List: Comp<DerivedProps> = ({
+  className,
+  entries,
+  phrase,
+  glo,
+}) => {
+  return (
+    <ListWrapper className={classnames(className, { phrase, glo })}>
+      {entries.map(key =>
+        glo ? (
+          <GlossAndLink id={key} fromMd={phrase} />
+        ) : (
+          <Link id={key} fromMd={phrase} />
+        )
+      )}
     </ListWrapper>
   )
 }

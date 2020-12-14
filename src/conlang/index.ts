@@ -23,6 +23,9 @@ function compileWord(word: Entry): CompiledEntry {
     )
     compiled.glo = word[key as 'glo']
   }
+  if (word.alt) {
+    compiled.alt = word.alt().id
+  }
   if (word.etym) {
     const etym = word.etym().map(w => w.id)
     compiled.etym = etym

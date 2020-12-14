@@ -8,6 +8,7 @@ export const fen = _.word('fen', {
 
 export const afen = _.alt('afen', {
   glo: 'marcher.3SG',
+  alt: () => _.fen,
   see: () => [_.a, _.fen],
 })
 

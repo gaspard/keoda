@@ -11,11 +11,12 @@ export interface LinkProps {
   id: string
 }
 
+// TODO: Merge with Anchor
 const Wrapper = styled.span`
   cursor: pointer;
   color: #546161;
   font-style: normal;
-  position: relative;
+  align-self: start;
   &.ref {
     color: #2c383c;
     font-weight: bold;
@@ -43,6 +44,7 @@ export const Link: Comp<LinkProps> = ({ className, id, fromMd }) => {
   if (!entry) {
     return null
   }
+  const ref = entry.alt || id
   let timer: any
   return (
     <Wrapper
@@ -52,13 +54,13 @@ export const Link: Comp<LinkProps> = ({ className, id, fromMd }) => {
         if (!ctx.state.keoda.float || ctx.state.keoda.float.hidden) {
           timer = setTimeout(() => {
             ctx.actions.keoda.float({
-              id,
+              id: ref,
               position: { top: r.top + r.height, left: r.left + r.width / 2 },
             })
           }, 500)
         } else {
           ctx.actions.keoda.float({
-            id,
+            id: ref,
             position: { top: r.top + r.height, left: r.left + r.width / 2 },
           })
         }
@@ -69,11 +71,11 @@ export const Link: Comp<LinkProps> = ({ className, id, fromMd }) => {
           timer = undefined
         }
         setTimeout(() => {
-          ctx.actions.keoda.hideFloat({ id })
+          ctx.actions.keoda.hideFloat({ id: ref })
         }, 500)
       }}
     >
-      <Anchor href={`#${id}`}>{entry.name}</Anchor>
+      <Anchor href={`#${ref}`}>{entry.name}</Anchor>
     </Wrapper>
   )
 }

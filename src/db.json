@@ -606,8 +606,8 @@
       "see": [
         "card-nepal"
       ],
-      "desc": "\nVoici les nombres de 1 to 10:\n\n* [pi](word-pi) (1)\n* [de](word-de) (2)\n* [pe](word-pe) (3)\n* [ka](word-ka) (4)\n* [lil](word-lil) (5)\n* [shi](word-shi) (6)\n* [fe](word-fe) (7)\n* [je](word-je) (8)\n* [da](word-da) (9)\n* [dji](word-dji) (10)\n\nEt il y a aussi [ipi](word-ipi) (x10), [ipa](word-ipa) (x100) et [ipu](word-ipu) (x1000).\n\n# Quelques exemples:\n\n* 11 (1 x 10 + 1): [1](phrase-1) ou simplement [2](phrase-2)\n* 24 (2 x 10 + 4): [3](phrase-3)\n* 359 (3 x 100 + 5 x 10 + 9): [4](phrase-4)\n* 2019 (2 x 1000 + 10 + 9): [5](phrase-5)\n* 105'000: [6](phrase-6)\n\nOn peut transformer [7](phrase-7) dans sa version raccourcie [8](phrase-8) ou [9](phrase-9)\n\n# Les grands nombres\n\n* *million* (1000^2): [10](phrase-10)\n* *milliard* (1000^3): [11](phrase-11)\n* *mille millards* (1000^4): [12](phrase-12)\n\nOn peut aussi dire [13](phrase-13) pour 10^4, etc.\n\n# Petits nombres\n\n* *dixième* (10^-1): [14](phrase-14)\n* *centième* (10^-2): [15](phrase-15)\n* *millième* (10^-3): [16](phrase-16)\n",
-      "fulltext": "counting \nVoici les nombres de 1 to 10:\n\n* [pi](word-pi) (1)\n* [de](word-de) (2)\n* [pe](word-pe) (3)\n* [ka](word-ka) (4)\n* [lil](word-lil) (5)\n* [shi](word-shi) (6)\n* [fe](word-fe) (7)\n* [je](word-je) (8)\n* [da](word-da) (9)\n* [dji](word-dji) (10)\n\nEt il y a aussi [ipi](word-ipi) (x10), [ipa](word-ipa) (x100) et [ipu](word-ipu) (x1000).\n\n# Quelques exemples:\n\n* 11 (1 x 10 + 1): [1](phrase-1) ou simplement [2](phrase-2)\n* 24 (2 x 10 + 4): [3](phrase-3)\n* 359 (3 x 100 + 5 x 10 + 9): [4](phrase-4)\n* 2019 (2 x 1000 + 10 + 9): [5](phrase-5)\n* 105'000: [6](phrase-6)\n\nOn peut transformer [7](phrase-7) dans sa version raccourcie [8](phrase-8) ou [9](phrase-9)\n\n# Les grands nombres\n\n* *million* (1000^2): [10](phrase-10)\n* *milliard* (1000^3): [11](phrase-11)\n* *mille millards* (1000^4): [12](phrase-12)\n\nOn peut aussi dire [13](phrase-13) pour 10^4, etc.\n\n# Petits nombres\n\n* *dixième* (10^-1): [14](phrase-14)\n* *centième* (10^-2): [15](phrase-15)\n* *millième* (10^-3): [16](phrase-16)\n nepal les nombres et comment compter",
+      "desc": "\nVoici les nombres de 1 to 10:\n\n* [pi](word-pi) (1)\n* [de](word-de) (2)\n* [pe](word-pe) (3)\n* [ka](word-ka) (4)\n* [lil](word-lil) (5)\n* [shi](word-shi) (6)\n* [fe](word-fe) (7)\n* [je](word-je) (8)\n* [da](word-da) (9)\n* [dji](word-dji) (10)\n\nEt il y a aussi [ipi](word-ipi) (x10), [ipa](word-ipa) (x100) et [ipu](word-ipu) (x1000).\n\n## Quelques exemples:\n\n* 11 (1 x 10 + 1): [1](phrase-1) ou simplement [2](phrase-2)\n* 24 (2 x 10 + 4): [3](phrase-3)\n* 359 (3 x 100 + 5 x 10 + 9): [4](phrase-4)\n* 2019 (2 x 1000 + 10 + 9): [5](phrase-5)\n* 105'000: [6](phrase-6)\n\nOn peut transformer [7](phrase-7) dans sa version raccourcie [8](phrase-8) ou [9](phrase-9)\n\n## Les grands nombres\n\n* *million* (1000^2): [10](phrase-10)\n* *milliard* (1000^3): [11](phrase-11)\n* *mille millards* (1000^4): [12](phrase-12)\n\nOn peut aussi dire [13](phrase-13) pour 10^4, etc.\n\n## Petits nombres\n\n* *dixième* (10^-1): [14](phrase-14)\n* *centième* (10^-2): [15](phrase-15)\n* *millième* (10^-3): [16](phrase-16)\n",
+      "fulltext": "counting \nVoici les nombres de 1 to 10:\n\n* [pi](word-pi) (1)\n* [de](word-de) (2)\n* [pe](word-pe) (3)\n* [ka](word-ka) (4)\n* [lil](word-lil) (5)\n* [shi](word-shi) (6)\n* [fe](word-fe) (7)\n* [je](word-je) (8)\n* [da](word-da) (9)\n* [dji](word-dji) (10)\n\nEt il y a aussi [ipi](word-ipi) (x10), [ipa](word-ipa) (x100) et [ipu](word-ipu) (x1000).\n\n## Quelques exemples:\n\n* 11 (1 x 10 + 1): [1](phrase-1) ou simplement [2](phrase-2)\n* 24 (2 x 10 + 4): [3](phrase-3)\n* 359 (3 x 100 + 5 x 10 + 9): [4](phrase-4)\n* 2019 (2 x 1000 + 10 + 9): [5](phrase-5)\n* 105'000: [6](phrase-6)\n\nOn peut transformer [7](phrase-7) dans sa version raccourcie [8](phrase-8) ou [9](phrase-9)\n\n## Les grands nombres\n\n* *million* (1000^2): [10](phrase-10)\n* *milliard* (1000^3): [11](phrase-11)\n* *mille millards* (1000^4): [12](phrase-12)\n\nOn peut aussi dire [13](phrase-13) pour 10^4, etc.\n\n## Petits nombres\n\n* *dixième* (10^-1): [14](phrase-14)\n* *centième* (10^-2): [15](phrase-15)\n* *millième* (10^-3): [16](phrase-16)\n nepal les nombres et comment compter",
       "glo": "les nombres et comment compter"
     },
     "word-da": {
@@ -1283,6 +1283,7 @@
       "id": "word-afen",
       "type": "word",
       "glo": "marcher.3SG",
+      "alt": "word-fen",
       "see": [
         "word-a",
         "word-fen"
@@ -4197,8 +4198,8 @@
       "id": "card-corresp",
       "type": "card",
       "lang": "Correspondances, Baudelaire (1821-1867)",
-      "desc": "\n[18](phrase-18)  \n[19](phrase-19)  \n[20](phrase-20)  \nQui l'observent avec des regards familiers.\n*di ko gi shafa lae*\n[_.di, _.ko, _.gi, _.sha, _.fa, _.lae],\nComme de longs échos qui de loin se confondent\n*si agadeuki di hauya es shanelil*\n[_.si, _.agade, _.uki, _.di, _.ha, _.uya, _.es, _.sha, _.nelil],\n",
-      "fulltext": "corresp \n[18](phrase-18)  \n[19](phrase-19)  \n[20](phrase-20)  \nQui l'observent avec des regards familiers.\n*di ko gi shafa lae*\n[_.di, _.ko, _.gi, _.sha, _.fa, _.lae],\nComme de longs échos qui de loin se confondent\n*si agadeuki di hauya es shanelil*\n[_.si, _.agade, _.uki, _.di, _.ha, _.uya, _.es, _.sha, _.nelil],\n Correspondances, Baudelaire (1821-1867)",
+      "desc": "\n[18](phrase-18)  \n[19](phrase-19)  \n[20](phrase-20)  \n[21](phrase-21)  \n[22](phrase-22)  \n",
+      "fulltext": "corresp \n[18](phrase-18)  \n[19](phrase-19)  \n[20](phrase-20)  \n[21](phrase-21)  \n[22](phrase-22)  \n Correspondances, Baudelaire (1821-1867)",
       "glo": "Correspondances, Baudelaire (1821-1867)"
     },
     "word-pon": {
@@ -5604,7 +5605,7 @@
       "name": "12",
       "id": "phrase-12",
       "type": "phrase",
-      "phrase": "mille milliads",
+      "phrase": "mille milliards",
       "see": [
         "word-ipu",
         "word-ka",
@@ -5712,6 +5713,39 @@
         "word-lana"
       ],
       "fulltext": "20 tu yosa afen roa jana lom lana"
+    },
+    "phrase-21": {
+      "name": "21",
+      "id": "phrase-21",
+      "type": "phrase",
+      "phrase": "Qui l'observent avec des regards familiers.",
+      "see": [
+        "word-di",
+        "word-ko",
+        "word-gi",
+        "word-sha",
+        "word-fa",
+        "word-lae"
+      ],
+      "fulltext": "21 di ko gi sha fa lae"
+    },
+    "phrase-22": {
+      "name": "22",
+      "id": "phrase-22",
+      "type": "phrase",
+      "phrase": "Comme de longs échos qui de loin se confondent...",
+      "see": [
+        "word-si",
+        "word-agade",
+        "word-uki",
+        "word-di",
+        "word-ha",
+        "word-uya",
+        "word-es",
+        "word-sha",
+        "word-nelil"
+      ],
+      "fulltext": "22 si agade uki di ha uya es sha nelil"
     }
   }
 }
