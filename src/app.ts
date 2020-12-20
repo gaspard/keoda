@@ -4,12 +4,19 @@ import { FunctionComponent as Comp } from 'react'
 import styled from 'styled-components'
 import * as actions from './actions'
 import { FloatArg } from './actions'
-import { CompiledEntryByName } from './conlang/types'
+import { CompiledEntriesByType } from './conlang/types'
 export { styled, Comp }
 
 export interface Filter {
   type: 'type' | 'word'
   key: string
+}
+
+export interface Lexicons {
+  word: string[]
+  card: string[]
+  phrase: string[]
+  alt: string[]
 }
 
 export interface KeodaConfig {
@@ -19,9 +26,8 @@ export interface KeodaConfig {
       selected?: string
       float?: FloatArg
       filter?: Filter
-      entries: CompiledEntryByName
-      phrases: CompiledEntryByName
-      lexicon: string[]
+      db: CompiledEntriesByType
+      lexicon: Lexicons
     }
   }
   actions: {

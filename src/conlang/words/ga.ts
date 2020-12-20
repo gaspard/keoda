@@ -62,5 +62,5 @@ export const nega = _.word('nega', {
 
 export const nega_adv = _.alt('nega', {
   glo: 'fou.ADV',
-  see: () => [_.nega],
+  alt: () => _.nega,
 })

@@ -1,11 +1,8 @@
 import * as _ from '.'
 
 export const i = _.word('i', {
-  noun: 'caresser',
-  prefix: 'à toi',
-  conj: 'tu (2s)',
-  desc: () =>
-    `Il y a une exception pour le suffixe ajouté à ${_.ma} (main): dans ce cas, on ne dit pas 'mai' mais directement ${_.mi}.`,
+  suffix: 'caress',
+  conj: 'you (2SG)',
 })
 _.see(_.imaconj)
 

@@ -1,6 +1,17 @@
-import { Entry, EntryByName, EntryDefinition, Example } from '../types'
-export const entries: EntryByName = {}
-export const phrases: EntryByName = {}
+import {
+  EntriesByType,
+  Entry,
+  EntryByName,
+  EntryDefinition,
+  Example,
+} from '../types'
+
+export const entries: EntriesByType = {
+  word: {},
+  card: {},
+  phrase: {},
+  alt: {},
+}
 
 export function entry(
   type: Entry['type'],
@@ -15,12 +26,7 @@ export function entry(
     ...definition,
     toString: () => `[${name}](${id})`,
   }
-  if (type === 'phrase') {
-    // These are generated during compilation and we do not want them in lexicon.
-    phrases[id] = entry
-  } else {
-    entries[id] = entry
-  }
+  entries[type][id] = entry
   return entry
 }
 
@@ -38,8 +44,7 @@ export function word(name: string, definition: EntryDefinition): Entry {
 }
 
 export function alt(name: string, definition: EntryDefinition): Entry {
-  // TODO: Make hidden / do not count
-  return entry('word', name, definition)
+  return entry('alt', name, definition)
 }
 
 export function card(name: string, definition: EntryDefinition): Entry {

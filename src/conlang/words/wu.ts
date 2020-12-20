@@ -1,10 +1,9 @@
 import * as _ from '.'
 
-export const wu = _.word('wu', { suffix: 'de (possédé par)' })
-
-_.see(_.ti)
-_.see(_.to)
-_.see(_.ta)
+export const wu = _.word('wu', {
+  prep: 'of',
+  see: () => [_.to, _.ti, _.ta],
+})
 
 export const diwu = _.word('diwu', { prep: 'qui possède' })
 _.see(_.su)

@@ -28,7 +28,7 @@ export const ihelem = [
   // *Ozulem sen*
   [_.o, _.zu, _.lem, _.sen],
   // On touchait ta peau
-  // *Onoalem noa*
+  // *Onoalem noati*
   [_.o, _.noa, _.lem, _.noa],
   // On a aimer aimer
   // *Ozulem au*

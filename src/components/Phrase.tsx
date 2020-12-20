@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Comp, styled, useOvermind } from '../app'
+import { getEntry } from '../helpers/getEntry'
 import { List } from './List'
 
 export interface PhraseProps {
@@ -64,8 +65,10 @@ const GWrap = styled.div`
 export const Phrase: Comp<PhraseProps> = ({ className, id }) => {
   const ctx = useOvermind()
   const [glo, setGlo] = React.useState(false)
-  const { entries } = ctx.state.keoda
-  const phrase = ctx.state.keoda.phrases[id]
+  const phrase = getEntry(ctx, id)
+  if (!phrase) {
+    return null
+  }
   return (
     <Wrapper className={className}>
       <Info onClick={() => setGlo(!glo)} className={glo ? 'glo' : ''}>

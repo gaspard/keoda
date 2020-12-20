@@ -1,9 +1,9 @@
 import * as _ from '.'
 
 export const pe = _.word('pe', {
+  conj: 'some (3SG.INDF)',
   noun: '3',
   suffix: 'quelques un.e.s',
-  conj: 'quelques un.e.s (6p)',
   posit: 'deux jambes et un anus (levrette) = mun',
 })
 _.see(_.pemaconj)

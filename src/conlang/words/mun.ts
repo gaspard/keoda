@@ -1,13 +1,13 @@
 import * as _ from '.'
 
 export const mun = _.word('moon', {
-  noun: 'seins',
-  posit: 'à genoux, buste au sol',
+  noun: 'breast',
+  posit: 'kneeling, breast touching the ground',
 })
 
 export const munwe = _.word('munwe', {
-  noun: 'sein droite',
-  desc: () => `De ${_.mu} et ${_.we}.`,
+  noun: 'right breast',
+  etym: () => [_.mun, _.we],
 })
 
 _.see(_.demimunwe)
@@ -17,19 +17,17 @@ export const imimunmenu = _.example(
   `Caresse-toi les seins en effleurant.`
 )
 
-export const hamun = _.word('hamun', { noun: 'téton' })
-
-export const lahaumundom = _.example(
-  [_.la, _.hamun, _.dom],
-  `Embrasse-moi les tétons bien fort.`
-)
+export const hamun = _.word('hamun', {
+  noun: 'nipple',
+  etym: () => [_.ha, _.mun],
+})
 
 export const munawi = _.word('munawi', {
-  noun: 'lune',
+  noun: 'moon',
   etym: () => [_.mun, _.awi],
 })
 
 export const muna = _.word('muna', {
-  noun: 'biberon',
+  noun: 'baby bottle',
   etym: () => [_.mun, _.na],
 })

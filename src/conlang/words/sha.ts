@@ -1,8 +1,8 @@
 import * as _ from '.'
 
 export const sha = _.word('sha', {
-  noun: 'hanche',
-  conj: 'iels (3p)',
+  noun: 'hip',
+  conj: 'them (3PL)',
 })
 _.see(_.shamaconj)
 

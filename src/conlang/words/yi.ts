@@ -1,6 +1,9 @@
 import * as _ from '.'
 
-export const yi = _.word('yi', { adj: 'minuscule', conj: 'tu dépravé.e (2x)' })
+export const yi = _.word('yi', {
+  conj: 'you depraved (2SG.DPRV)',
+  adj: 'tiny',
+})
 _.see(_.yimaconj)
 
 export const yida = _.word('yida', {

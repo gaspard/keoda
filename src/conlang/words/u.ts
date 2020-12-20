@@ -1,3 +1,5 @@
 import * as _ from '.'
 
-export const u = _.word('u', { suffix: 'tirer' })
+export const u = _.word('u', {
+  suffix: 'pull',
+})

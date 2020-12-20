@@ -11,6 +11,11 @@ export const oda = _.word('oda', {
 _.see(_.pronouns)
 _.see(_.to)
 
+export const oda_adj = _.alt('oda', {
+  glo: 'vivant.ADJ',
+  alt: () => _.oda,
+})
+
 export const oha = _.word('oha', {
   pron: 'soi poétique (nous indéf)',
   etym: () => [_.o, _.yada],

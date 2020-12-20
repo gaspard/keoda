@@ -1,9 +1,9 @@
 import * as _ from '.'
 
 export const sho = _.word('sho', {
-  noun: 'salive',
-  verb: 'saliver',
-  conj: 'nous tous présent.e.s (1p)',
+  conj: 'us present (1PL.PRS)',
+  noun: 'saliva',
+  verb: 'salivate',
 })
 _.see(_.shomaconj)
 

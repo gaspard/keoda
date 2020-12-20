@@ -1,8 +1,8 @@
 import * as _ from '.'
 
 export const to = _.word('to', {
-  noun: 'mon (notre)/nos',
-  suffix: 'mon/nos',
+  det: 'my/our (1SG.INDF)',
+  see: () => [_.ti, _.ta, _.wu],
 })
 
 _.see(_.oda)

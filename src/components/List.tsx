@@ -2,6 +2,7 @@ import * as React from 'react'
 import classnames from 'classnames'
 import { Comp, styled, useOvermind } from '../app'
 import { Link, LinkProps } from './Link'
+import { getEntry } from '../helpers/getEntry'
 
 export interface DerivedProps {
   className?: string
@@ -50,7 +51,7 @@ const Gloss = styled.div`
 
 export const GlossAndLink: Comp<LinkProps> = props => {
   const ctx = useOvermind()
-  const entry = ctx.state.keoda.entries[props.id]
+  const entry = getEntry(ctx, props.id)
   if (!entry) {
     return null
   }

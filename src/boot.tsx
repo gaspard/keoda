@@ -3,10 +3,10 @@ import { Provider } from 'overmind-react'
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 import * as actions from './actions'
-import { KeodaConfig } from './app'
+import { KeodaConfig, Lexicons } from './app'
 import { App } from './components'
-import { CompiledEntryByName } from './conlang/types'
-import { entries, phrases } from './db.json'
+import { CompiledEntriesByType, TYPES } from './conlang/types'
+import * as db from './db.json'
 import './style.css'
 
 const config: KeodaConfig = {
@@ -18,9 +18,11 @@ const config: KeodaConfig = {
   },
   state: {
     keoda: {
-      entries: entries as CompiledEntryByName,
-      phrases: phrases as CompiledEntryByName,
-      lexicon: Object.keys(entries).sort(),
+      db: db as CompiledEntriesByType,
+      lexicon: Object.assign(
+        {},
+        ...TYPES.map(type => ({ [type]: Object.keys(db[type]).sort() }))
+      ),
     },
   },
   actions: {

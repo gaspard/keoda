@@ -11,6 +11,7 @@ export interface EntryInfo {
   noun: string
   verb: string
   adj: string
+  det: string
   conj: string
   prefix: string
   suffix: string
@@ -39,6 +40,7 @@ export const FULLTEXT_KEYS: (keyof EntryInfo)[] = [
   'noun',
   'verb',
   'adj',
+  'det',
   'prefix',
   'suffix',
   'prep',
@@ -61,15 +63,31 @@ export interface EntryByName {
   [key: string]: Entry
 }
 
+export const TYPES: (keyof EntriesByType)[] = ['word', 'card', 'phrase', 'alt']
+
+export interface EntriesByType {
+  word: EntryByName
+  card: EntryByName
+  phrase: EntryByName
+  alt: EntryByName
+}
+
 export interface CompiledEntryByName {
   [key: string]: CompiledEntry
+}
+
+export interface CompiledEntriesByType {
+  word: CompiledEntryByName
+  card: CompiledEntryByName
+  phrase: CompiledEntryByName
+  alt: CompiledEntryByName
 }
 
 export type EntryDefinition = Partial<FullEntry>
 
 export interface Entry extends EntryDefinition {
   name: string
-  type: 'word' | 'card' | 'phrase'
+  type: 'word' | 'card' | 'phrase' | 'alt'
   id: string // === `${type}-${name}
   toString: () => string
 }

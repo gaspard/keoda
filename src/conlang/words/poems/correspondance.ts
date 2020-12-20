@@ -17,7 +17,7 @@ ${_.phrase(
   _.akida,
   _.don,
   _.namel,
-  _.oda
+  _.oda_adj
 )}  
 ${_.phrase(
   'Laissent parfois sortir de confuses paroles;',

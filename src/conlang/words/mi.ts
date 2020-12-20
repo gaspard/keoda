@@ -1,8 +1,10 @@
 import * as _ from '.'
 
 export const mi = _.word('mi', {
-  verb: 'masser',
-  desc: () => `De ${_.ma} (main) avec le suffixe ${_.i} (masser).`,
+  verb: 'to caress',
+  glo: 'hand.VERB.CARE',
+  etym: () => [_.ma, _.i],
+  see: () => [_.mo, _.mu],
 })
 
 export const miau = _.example(

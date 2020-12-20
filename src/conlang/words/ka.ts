@@ -5,7 +5,7 @@ export const ka = _.word('ka', {
   pron: 'tous',
   suffix: 'tous',
   posit: 'à quatre pattes',
-  conj: 'tou.te.s, universel (7p)',
+  conj: 'us all, universal (1SG.DEF)',
 })
 _.see(_.kamaconj)
 _.see(_.counting)

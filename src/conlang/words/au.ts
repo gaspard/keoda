@@ -25,3 +25,14 @@ export const ausifalamau = _.example(
   [_.au, _.si, _.falam, _.au],
   `Fais-moi l'amour comme si tu te lavais d'une grande tristesse.`
 )
+
+// =========== ALT
+export const azulire = _.alt('azulire', {
+  glo: '3SG.love.FUT.EVNT',
+  alt: () => _.zu,
+})
+
+export const auti = _.alt('auti', {
+  glo: 'heart.DET.2SG',
+  alt: () => _.au,
+})

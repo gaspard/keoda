@@ -4,6 +4,7 @@ import * as React from 'react'
 import { List } from './List'
 import { DEF_KEYS, CompiledEntry } from '../conlang/types'
 import { Markdown } from './Markdown'
+import { getEntry } from '../helpers/getEntry'
 
 export interface EntryProps {
   className?: string
@@ -142,6 +143,9 @@ const DefType = styled.div`
   &.adj {
     color: #149a32;
   }
+  &.det {
+    color: #9a1432;
+  }
   &.conj {
     color: #b7ec34;
   }
@@ -191,7 +195,7 @@ export const ID = styled.a`
 export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
   const ctx = useOvermind()
   const { filter } = ctx.state.keoda
-  const entry = ctx.state.keoda.entries[id]
+  const entry = getEntry(ctx, id)
   if (!entry) {
     // Should never happen
     return null

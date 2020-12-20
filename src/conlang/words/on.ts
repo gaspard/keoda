@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const on = _.word('on', {
   noun: 'source',
-  verb: 'faire naître (apparaître)',
+  verb: 'to reveal',
 })
 
 _.see(_.yon)

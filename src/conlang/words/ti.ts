@@ -1,8 +1,7 @@
 import * as _ from '.'
 
 export const ti = _.word('ti', {
-  noun: 'ton/tes',
-  prefix: 'ton/tes',
-  suffix: 'ton/tes',
+  det: 'your (2SG)',
+  see: () => [_.to, _.ta, _.wu],
 })
 _.see(_.pronouns)

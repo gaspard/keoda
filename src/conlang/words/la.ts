@@ -58,3 +58,9 @@ export const lana = _.word('lana', {
 _.see(_.lapa)
 
 export const lala = _.example([_.la, _.la], `Embrasse moi sur les lèvres.`)
+
+// ==================== ALT
+export const olalema = _.alt('olalema', {
+  glo: '1SG.INDEF.kiss.PST.HEST',
+  alt: () => _.la,
+})

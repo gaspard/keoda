@@ -1,6 +1,7 @@
 import classnames from 'classnames'
 import * as React from 'react'
 import { Comp, styled, useOvermind } from '../app'
+import { getEntry } from '../helpers/getEntry'
 import { List } from './List'
 import { Phrase } from './Phrase'
 
@@ -40,7 +41,7 @@ export const Link: Comp<LinkProps> = ({ className, id, fromMd }) => {
   if (type === 'phrase') {
     return <Phrase id={id} />
   }
-  const entry = ctx.state.keoda.entries[id]
+  const entry = getEntry(ctx, id)
   if (!entry) {
     return null
   }

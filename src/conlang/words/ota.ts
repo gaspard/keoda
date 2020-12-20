@@ -11,7 +11,7 @@ export const lamota = _.word('otalamon', {
 })
 
 export const hamunota = _.word('hamunon', {
-  noun: 'auréole autour du mamelon',
+  noun: 'areola',
   etym: () => [_.hamun, _.on],
 })
 

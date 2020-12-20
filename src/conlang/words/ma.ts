@@ -45,8 +45,10 @@ export const mayonmelo = _.example(
 _.see(_.nemafeyon)
 
 export const mu = _.word('mu', {
-  verb: 'tirer, pincer avec la main',
+  verb: 'to pull',
+  glo: 'hand.VERB.PULL',
   etym: () => [_.ma, _.u],
+  see: () => [_.mi, _.mo],
 })
 
 export const muhamun = _.example([_.mu, _.hamun], `Tire sur mes tétons.`)
@@ -63,7 +65,7 @@ export const malam = _.word('malam', {
 })
 
 export const miwi = _.word('miwi', {
-  noun: 'papillon',
+  noun: 'butterfly',
   etym: () => [_.mi, _.iwi],
 })
 

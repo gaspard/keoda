@@ -1,6 +1,8 @@
 import * as _ from '.'
 
-export const di = _.word('di', { prefix: 'qui (transforme verbe en adj)' })
+export const di = _.word('di', {
+  pron: 'whom',
+})
 _.see(_.prep)
 _.see(_.diwu)
 

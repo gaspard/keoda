@@ -22,8 +22,14 @@ export const App: Comp<AppProps> = ({ className }) => {
     <React.Fragment>
       <Float />
       <Wrapper className={className}>
-        {lexicon.map(name => (
-          <Entry key={name} id={name} />
+        {lexicon.card.map(id => (
+          <Entry key={id} id={id} />
+        ))}
+        {lexicon.word.map(id => (
+          <Entry key={id} id={id} />
+        ))}
+        {lexicon.phrase.map(id => (
+          <Entry key={id} id={id} />
         ))}
       </Wrapper>
     </React.Fragment>

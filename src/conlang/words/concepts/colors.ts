@@ -1,4 +1,4 @@
-import * as _ from '.'
+import * as _ from '..'
 
 export const colors = _.example(
   [

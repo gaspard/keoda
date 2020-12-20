@@ -1,16 +1,15 @@
 import * as _ from '.'
 
 export const de = _.word('de', {
+  conj: 'us two (1PL.DU)',
   noun: '2',
-  pron: 'nous deux',
-  posit: 'sur le dos (2) jambes écartées',
-  conj: 'nous deux (5p)',
+  posit: 'on the back *two* legs wide open',
 })
 _.see(_.demaconj)
 _.see(_.counting)
 
 export const deda = _.word('deda', {
-  pron: 'nous deux',
+  pron: 'us two',
 })
 _.see(_.pronouns)
 _.see(_.peda)

@@ -1,17 +1,20 @@
 import {
+  CompiledEntriesByType,
   CompiledEntry,
-  CompiledEntryByName,
-  DEF_KEYS,
+  EntriesByType,
   Entry,
   EntryByName,
   FULLTEXT_KEYS,
+  TYPES,
 } from './types'
 import './words'
-import { entries, phrases } from './words/0_helpers'
+import { entries } from './words/0_helpers'
+import { writeFileSync } from 'fs'
+import { join } from 'path'
 
 export { CompiledEntry, EntryByName }
 
-const wordList = Object.keys(entries).map(key => entries[key])
+const wordList = Object.keys(entries.word).map(key => entries.word[key])
 
 function compileWord(word: Entry): CompiledEntry {
   const compiled = Object.assign({}, word, { fulltext: '' }) as CompiledEntry
@@ -58,20 +61,22 @@ function compileWord(word: Entry): CompiledEntry {
   return compiled
 }
 
-export function exportJSON(arg: {
-  entries: EntryByName
-  phrases: EntryByName
-}) {
-  const entries: CompiledEntryByName = {}
-  Object.keys(arg.entries).forEach(key => {
-    entries[key] = compileWord(arg.entries[key])
-  })
-  const phrases: CompiledEntryByName = {}
-  Object.keys(arg.phrases).forEach(key => {
-    phrases[key] = compileWord(arg.phrases[key])
+export function exportJSON(db: EntriesByType) {
+  const compiled: CompiledEntriesByType = {
+    word: {},
+    card: {},
+    phrase: {},
+    alt: {},
+  }
+  TYPES.forEach(type => {
+    const result = compiled[type]
+    const entries = db[type]
+    Object.keys(entries).forEach(key => {
+      result[key] = compileWord(entries[key])
+    })
   })
 
-  return JSON.stringify({ entries, phrases }, null, 2)
+  return JSON.stringify(compiled, null, 2)
 }
 
-console.log(exportJSON({ entries, phrases }))
+writeFileSync(join(__dirname, '..', 'db.json'), exportJSON(entries), 'utf8')
