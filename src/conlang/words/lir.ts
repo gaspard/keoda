@@ -3,9 +3,9 @@ import * as _ from '.'
 _.see(_.ofalirmun)
 
 export const lir = _.word('lir', {
-  noun: 'future',
+  tens: 'future',
+  see: () => [_.lei, _.lem],
 })
-_.see(_.lem)
 _.see(_.lemir)
 _.see(_.liri)
 _.see(_.lira)

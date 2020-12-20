@@ -6,11 +6,13 @@
       "type": "word",
       "prep": "to (her, him)",
       "conj": "them (3SG)",
-      "fulltext": "a ahada ada them (3SG) to (her, him)",
+      "fulltext": "a ahada ada lira lema them (3SG) to (her, him)",
       "glo": "to (her, him)",
       "deriv": [
         "word-ahada",
-        "word-ada"
+        "word-ada",
+        "word-lira",
+        "word-lema"
       ]
     },
     "word-ahada": {
@@ -489,7 +491,11 @@
       "id": "word-lire",
       "type": "word",
       "tens": "eventual future (FUT.EVNT)",
-      "fulltext": "lire eventual future (FUT.EVNT)",
+      "etym": [
+        "word-lir",
+        "word-e"
+      ],
+      "fulltext": "lire word-lir word-e eventual future (FUT.EVNT)",
       "glo": "eventual future (FUT.EVNT)"
     },
     "word-liro": {
@@ -497,7 +503,11 @@
       "id": "word-liro",
       "type": "word",
       "tens": "distant future (FUT.DIST)",
-      "fulltext": "liro distant future (FUT.DIST)",
+      "etym": [
+        "word-lir",
+        "word-o"
+      ],
+      "fulltext": "liro word-lir word-o distant future (FUT.DIST)",
       "glo": "distant future (FUT.DIST)"
     },
     "word-liru": {
@@ -505,7 +515,11 @@
       "id": "word-liru",
       "type": "word",
       "tens": "close future (FUT.PROX)",
-      "fulltext": "liru close future (FUT.PROX)",
+      "etym": [
+        "word-lir",
+        "word-u"
+      ],
+      "fulltext": "liru word-lir word-u close future (FUT.PROX)",
       "glo": "close future (FUT.PROX)"
     },
     "word-lira": {
@@ -513,7 +527,11 @@
       "id": "word-lira",
       "type": "word",
       "tens": "tomorrow (FUT.CRAS)",
-      "fulltext": "lira lirana tomorrow (FUT.CRAS)",
+      "etym": [
+        "word-lir",
+        "word-a"
+      ],
+      "fulltext": "lira word-lir word-a lirana tomorrow (FUT.CRAS)",
       "glo": "tomorrow (FUT.CRAS)",
       "deriv": [
         "word-lirana"
@@ -524,7 +542,11 @@
       "id": "word-liri",
       "type": "word",
       "tens": "later today (FUT.HOD)",
-      "fulltext": "liri later today (FUT.HOD)",
+      "etym": [
+        "word-lir",
+        "word-i"
+      ],
+      "fulltext": "liri word-lir word-i later today (FUT.HOD)",
       "glo": "later today (FUT.HOD)"
     },
     "word-lemi": {
@@ -532,7 +554,11 @@
       "id": "word-lemi",
       "type": "word",
       "tens": "earlir today (PST.HOD)",
-      "fulltext": "lemi earlir today (PST.HOD)",
+      "etym": [
+        "word-lem",
+        "word-i"
+      ],
+      "fulltext": "lemi word-lem word-i earlir today (PST.HOD)",
       "glo": "earlir today (PST.HOD)"
     },
     "word-lema": {
@@ -540,7 +566,11 @@
       "id": "word-lema",
       "type": "word",
       "tens": "yesterday (PST.HEST)",
-      "fulltext": "lema yesterday (PST.HEST)",
+      "etym": [
+        "word-lem",
+        "word-a"
+      ],
+      "fulltext": "lema word-lem word-a yesterday (PST.HEST)",
       "glo": "yesterday (PST.HEST)"
     },
     "word-lemu": {
@@ -548,7 +578,11 @@
       "id": "word-lemu",
       "type": "word",
       "tens": "recent past (PST.PROX)",
-      "fulltext": "lemu recent past (PST.PROX)",
+      "etym": [
+        "word-lem",
+        "word-u"
+      ],
+      "fulltext": "lemu word-lem word-u recent past (PST.PROX)",
       "glo": "recent past (PST.PROX)"
     },
     "word-lemo": {
@@ -556,7 +590,11 @@
       "id": "word-lemo",
       "type": "word",
       "tens": "distant past (PST.DIST)",
-      "fulltext": "lemo distant past (PST.DIST)",
+      "etym": [
+        "word-lem",
+        "word-o"
+      ],
+      "fulltext": "lemo word-lem word-o distant past (PST.DIST)",
       "glo": "distant past (PST.DIST)"
     },
     "word-leme": {
@@ -564,7 +602,11 @@
       "id": "word-leme",
       "type": "word",
       "tens": "eventual past (PST.EVNT)",
-      "fulltext": "leme eventual past (PST.EVNT)",
+      "etym": [
+        "word-lem",
+        "word-e"
+      ],
+      "fulltext": "leme word-lem word-e eventual past (PST.EVNT)",
       "glo": "eventual past (PST.EVNT)"
     },
     "word-da": {
@@ -935,9 +977,11 @@
       "id": "word-e",
       "type": "word",
       "verb": "deviens, soit, être",
-      "fulltext": "e edja eyu deviens, soit, être",
+      "fulltext": "e lire leme edja eyu deviens, soit, être",
       "glo": "deviens, soit, être",
       "deriv": [
+        "word-lire",
+        "word-leme",
         "word-edja",
         "word-eyu"
       ]
@@ -1832,9 +1876,11 @@
       "type": "word",
       "suffix": "caress",
       "conj": "you (2SG)",
-      "fulltext": "i gi gui iha ida mi shei you (2SG) caress",
+      "fulltext": "i liri lemi gi gui iha ida mi shei you (2SG) caress",
       "glo": "caress",
       "deriv": [
+        "word-liri",
+        "word-lemi",
         "word-gi",
         "word-gui",
         "word-iha",
@@ -2566,14 +2612,17 @@
       "name": "lei",
       "id": "word-lei",
       "type": "word",
-      "noun": "le temps",
-      "prep": "alors",
-      "conj": "toujours",
-      "desc": "Donne [lem](word-lem) et [lir](word-lir).",
-      "fulltext": "lei Donne [lem](word-lem) et [lir](word-lir). kulei toujours le temps alors",
-      "glo": "le temps",
+      "noun": "time",
+      "prep": "then",
+      "tens": "always",
+      "fulltext": "lei kulei ulei leiuki lem nei time then always",
+      "glo": "time",
       "deriv": [
-        "word-kulei"
+        "word-kulei",
+        "word-ulei",
+        "word-leiuki",
+        "word-lem",
+        "word-nei"
       ]
     },
     "word-gulei": {
@@ -2596,42 +2645,64 @@
       "name": "ulei",
       "id": "word-ulei",
       "type": "word",
-      "prep": "jusqu'à ce que (tirer le temps)",
-      "desc": "De [ul](word-ul) et [lei](word-lei) [eku](word-eku)",
-      "fulltext": "ulei De [ul](word-ul) et [lei](word-lei) [eku](word-eku) jusqu'à ce que (tirer le temps)",
-      "glo": "jusqu'à ce que (tirer le temps)"
+      "prep": "until",
+      "see": [
+        "word-uya"
+      ],
+      "etym": [
+        "word-u",
+        "word-lei"
+      ],
+      "fulltext": "ulei word-u word-lei uya until",
+      "glo": "until"
     },
     "word-leiuki": {
       "name": "leiuki",
       "id": "word-leiuki",
       "type": "word",
       "noun": "patience",
-      "adj": "patient.e",
-      "desc": "De [lei](word-lei) et [uki](word-uki) (temps long).",
-      "fulltext": "leiuki De [lei](word-lei) et [uki](word-uki) (temps long). patience patient.e",
-      "glo": "patience"
+      "adj": "patient",
+      "etym": [
+        "word-lei",
+        "word-uki"
+      ],
+      "fulltext": "leiuki word-lei word-uki neleiuki patience patient",
+      "glo": "patience",
+      "deriv": [
+        "word-neleiuki"
+      ]
     },
     "word-neleiuki": {
       "name": "neleiuki",
       "id": "word-neleiuki",
       "type": "word",
       "noun": "impatience",
-      "adj": "impatient.e",
-      "fulltext": "neleiuki impatience impatient.e",
+      "adj": "impatient",
+      "etym": [
+        "word-ne",
+        "word-leiuki"
+      ],
+      "fulltext": "neleiuki word-ne word-leiuki impatience impatient",
       "glo": "impatience"
     },
     "word-lem": {
       "name": "lem",
       "id": "word-lem",
       "type": "word",
-      "suffix": "passé",
-      "verb": "vivait",
+      "tens": "past",
+      "verb": "lived",
       "etym": [
+        "word-lei",
         "word-em"
       ],
-      "fulltext": "lem word-em gulem vivait passé",
-      "glo": "passé",
+      "fulltext": "lem word-lei word-em lemi lema lemu lemo leme gulem lived past",
+      "glo": "past",
       "deriv": [
+        "word-lemi",
+        "word-lema",
+        "word-lemu",
+        "word-lemo",
+        "word-leme",
         "word-gulem"
       ]
     },
@@ -2776,10 +2847,19 @@
       "name": "lir",
       "id": "word-lir",
       "type": "word",
-      "noun": "future",
-      "fulltext": "lir dahir gulir future",
+      "tens": "future",
+      "see": [
+        "word-lei",
+        "word-lem"
+      ],
+      "fulltext": "lir lire liro liru lira liri dahir gulir lei lem future",
       "glo": "future",
       "deriv": [
+        "word-lire",
+        "word-liro",
+        "word-liru",
+        "word-lira",
+        "word-liri",
         "word-dahir",
         "word-gulir"
       ]
@@ -3259,14 +3339,16 @@
       "id": "word-ne",
       "type": "word",
       "prefix": "négation, monde des mots, transe commune",
-      "fulltext": "ne nem nega neka nekupa nema negupi nesu négation, monde des mots, transe commune",
+      "fulltext": "ne nem nega neka nekupa neleiuki nema nei negupi nesu négation, monde des mots, transe commune",
       "glo": "négation, monde des mots, transe commune",
       "deriv": [
         "word-nem",
         "word-nega",
         "word-neka",
         "word-nekupa",
+        "word-neleiuki",
         "word-nema",
+        "word-nei",
         "word-negupi",
         "word-nesu"
       ]
@@ -3301,7 +3383,11 @@
       "id": "word-nei",
       "type": "word",
       "tens": "never (NEG)",
-      "fulltext": "nei never (NEG)",
+      "etym": [
+        "word-ne",
+        "word-lei"
+      ],
+      "fulltext": "nei word-ne word-lei never (NEG)",
       "glo": "never (NEG)"
     },
     "word-no": {
@@ -3455,10 +3541,12 @@
       "type": "word",
       "suffix": "hit, hurt",
       "conj": "I/we (1SG.INDF)",
-      "fulltext": "o ago gao go guo mo oha odo I/we (1SG.INDF) hit, hurt",
+      "fulltext": "o ago liro lemo gao go guo mo oha odo I/we (1SG.INDF) hit, hurt",
       "glo": "hit, hurt",
       "deriv": [
         "word-ago",
+        "word-liro",
+        "word-lemo",
         "word-gao",
         "word-go",
         "word-guo",
@@ -4950,16 +5038,20 @@
       "id": "word-u",
       "type": "word",
       "suffix": "pull",
-      "fulltext": "u awiu gau iwiu liu mu odu sheu pull",
+      "fulltext": "u awiu liru lemu gau iwiu ulei liu mu odu sheu uya pull",
       "glo": "pull",
       "deriv": [
         "word-awiu",
+        "word-liru",
+        "word-lemu",
         "word-gau",
         "word-iwiu",
+        "word-ulei",
         "word-liu",
         "word-mu",
         "word-odu",
-        "word-sheu"
+        "word-sheu",
+        "word-uya"
       ]
     },
     "word-couler": {
@@ -4979,20 +5071,20 @@
       "see": [
         "word-iki"
       ],
-      "fulltext": "uki agauki iki long long",
+      "fulltext": "uki agauki leiuki iki long long",
       "glo": "long",
       "deriv": [
-        "word-agauki"
+        "word-agauki",
+        "word-leiuki"
       ]
     },
     "word-ul": {
       "name": "ul",
       "id": "word-ul",
       "type": "word",
-      "prefix": "jusque",
-      "desc": "Tirer jusqu'à une forme d'événement, de rupture, de changement.",
-      "fulltext": "ul Tirer jusqu'à une forme d'événement, de rupture, de changement. jusque",
-      "glo": "jusque"
+      "prefix": "until",
+      "fulltext": "ul until",
+      "glo": "until"
     },
     "word-ulu": {
       "name": "ulu",
@@ -5042,10 +5134,16 @@
       "name": "uya",
       "id": "word-uya",
       "type": "word",
-      "noun": "de/depuis",
-      "suffix": "depuis (placé après: ha-uya = de loin)",
-      "fulltext": "uya de/depuis depuis (placé après: ha-uya = de loin)",
-      "glo": "de/depuis"
+      "prep": "from/since",
+      "see": [
+        "word-ulei"
+      ],
+      "etym": [
+        "word-u",
+        "word-ya"
+      ],
+      "fulltext": "uya word-u word-ya ulei from/since",
+      "glo": "from/since"
     },
     "word-we": {
       "name": "we",
@@ -5129,11 +5227,12 @@
       "id": "word-ya",
       "type": "word",
       "noun": "nuit",
-      "fulltext": "ya yada yaon yagi iwa yafa yadifa nuit",
+      "fulltext": "ya yada yaon uya yagi iwa yafa yadifa nuit",
       "glo": "nuit",
       "deriv": [
         "word-yada",
         "word-yaon",
+        "word-uya",
         "word-yagi",
         "word-iwa",
         "word-yafa",

@@ -1,10 +1,9 @@
 import * as _ from '.'
 
 export const lei = _.word('lei', {
-  noun: 'le temps',
-  prep: 'alors',
-  conj: 'toujours',
-  desc: () => `Donne ${_.lem} et ${_.lir}.`,
+  noun: 'time',
+  prep: 'then',
+  tens: 'always',
 })
 _.see(_.lem)
 _.see(_.lir)
@@ -19,20 +18,22 @@ export const elei = _.word('elei', {
 })
 
 export const ulei = _.word('ulei', {
-  prep: `jusqu'à ce que (tirer le temps)`,
-  desc: () => `De ${_.ul} et ${_.lei} ${_.eku}`,
+  prep: 'until',
+  see: () => [_.uya],
+  etym: () => [_.u, _.lei],
 })
 _.see(_.prep)
 
 export const leiuki = _.word('leiuki', {
   noun: 'patience',
-  adj: 'patient.e',
-  desc: () => `De ${_.lei} et ${_.uki} (temps long).`,
+  adj: 'patient',
+  etym: () => [_.lei, _.uki],
 })
 
 export const neleiuki = _.word('neleiuki', {
   noun: 'impatience',
-  adj: 'impatient.e',
+  adj: 'impatient',
+  etym: () => [_.ne, _.leiuki],
 })
 
 export const eleifayonuleinefa = _.example(
