@@ -37,7 +37,7 @@ from *subject verb* to *subjectverb*:
 
 So the possible conjugations are the same as the possible subjects:
 
-* *me, us*: ${_.o} (1SG.INDF), subject: ${_.oda}
+* *I/we*: ${_.o} (1SG.INDF), subject: ${_.oda}
 * *you*: ${_.i} (2SG), subject: ${_.ida}
 * *them*: ${_.a} (3SG), subject: ${_.ada}
 * *us* (present): ${_.sho} (1PL.PRS), subject: ${_.shoda}

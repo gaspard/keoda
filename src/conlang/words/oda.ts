@@ -1,40 +1,38 @@
 import * as _ from '.'
 
-export const yoda = _.word('yoda', { noun: 'corps avec une vulve' })
+export const yoda = _.word('yoda', {
+  noun: 'body with a vulva',
+  etym: () => [_.yon, _.oda],
+})
 
 export const oda = _.word('oda', {
-  noun: 'corps, lieu vivant ("on")',
-  adj: 'vivant',
-  suffix: 'animal comme, qui a',
-  desc: () => `De là vient ${_.keoda} (**la langue cachée du corps**).`,
+  noun: 'body, place of life',
+  pron: 'me/us (1SG.INDEF)',
+  adj: 'alive',
+  suffix: 'animal',
 })
 _.see(_.pronouns)
 _.see(_.to)
 
 export const oda_adj = _.alt('oda', {
-  glo: 'vivant.ADJ',
+  glo: 'body.ADJ',
   alt: () => _.oda,
 })
 
 export const oha = _.word('oha', {
-  pron: 'soi poétique (nous indéf)',
+  pron: 'poetic self (1G.INDEF)',
   etym: () => [_.o, _.yada],
 })
 
 export const keoda = _.word('keoda', {
-  noun: 'lieu de vie cachée, langue cachée du corps',
+  noun: 'hidden body language',
+  etym: () => [_.ke, _.oda],
 })
 
 export const yosa = _.word('yosa', {
-  noun: 'humain',
+  noun: 'person',
   etym: () => [_.yo, _.oda],
 })
 
 _.see(_.ida)
 _.see(_.ti)
-
-export const ada = _.word('oho', {
-  noun: 'iel',
-  etym: () => [_.a, _.oda],
-})
-_.see(_.ta)

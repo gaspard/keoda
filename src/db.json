@@ -6,11 +6,11 @@
       "type": "word",
       "prep": "to (her, him)",
       "conj": "them (3SG)",
-      "fulltext": "a ahada oho them (3SG) to (her, him)",
+      "fulltext": "a ahada ada them (3SG) to (her, him)",
       "glo": "to (her, him)",
       "deriv": [
         "word-ahada",
-        "word-oho"
+        "word-ada"
       ]
     },
     "word-ahada": {
@@ -24,6 +24,18 @@
       ],
       "fulltext": "ahada word-a word-yada elle/lui poétique",
       "glo": "elle/lui poétique"
+    },
+    "word-ada": {
+      "name": "ada",
+      "id": "word-ada",
+      "type": "word",
+      "pron": "them (3SG)",
+      "etym": [
+        "word-a",
+        "word-oda"
+      ],
+      "fulltext": "ada word-a word-oda them (3SG)",
+      "glo": "them (3SG)"
     },
     "word-yada": {
       "name": "yada",
@@ -58,38 +70,6 @@
       ],
       "fulltext": "piha word-pi word-yada moi poétique (mythique, profond)",
       "glo": "moi poétique (mythique, profond)"
-    },
-    "word-yadaguitoda": {
-      "name": "yadaguitoda",
-      "id": "word-yadaguitoda",
-      "type": "word",
-      "noun": "corps poétique féminin né dans un corps masculin (femme trans)",
-      "fulltext": "yadaguitoda corps poétique féminin né dans un corps masculin (femme trans)",
-      "glo": "corps poétique féminin né dans un corps masculin (femme trans)"
-    },
-    "word-yaguito": {
-      "name": "yaguito",
-      "id": "word-yaguito",
-      "type": "word",
-      "noun": "version courte pour femme trans (femme née dans un corps homme)",
-      "fulltext": "yaguito version courte pour femme trans (femme née dans un corps homme)",
-      "glo": "version courte pour femme trans (femme née dans un corps homme)"
-    },
-    "word-tadaguiyoda": {
-      "name": "tadaguiyoda",
-      "id": "word-tadaguiyoda",
-      "type": "word",
-      "noun": "corps poétique masculin né dans un corps féminin (homme trans)",
-      "fulltext": "tadaguiyoda corps poétique masculin né dans un corps féminin (homme trans)",
-      "glo": "corps poétique masculin né dans un corps féminin (homme trans)"
-    },
-    "word-taguiyo": {
-      "name": "taguiyo",
-      "id": "word-taguiyo",
-      "type": "word",
-      "noun": "version courte pour homme trans (homme né dans un corps femme)",
-      "fulltext": "taguiyo version courte pour homme trans (homme né dans un corps femme)",
-      "glo": "version courte pour homme trans (homme né dans un corps femme)"
     },
     "word-adu": {
       "name": "adu",
@@ -1879,13 +1859,13 @@
       "name": "ida",
       "id": "word-ida",
       "type": "word",
-      "noun": "toi",
+      "pron": "you (2SG)",
       "etym": [
         "word-i",
         "word-oda"
       ],
-      "fulltext": "ida word-i word-oda toi",
-      "glo": "toi"
+      "fulltext": "ida word-i word-oda you (2SG)",
+      "glo": "you (2SG)"
     },
     "word-ibu": {
       "name": "ibu",
@@ -2198,10 +2178,11 @@
       "type": "word",
       "adj": "caché",
       "prefix": "caché",
-      "fulltext": "ke kela caché caché",
+      "fulltext": "ke kela keoda caché caché",
       "glo": "caché",
       "deriv": [
-        "word-kela"
+        "word-kela",
+        "word-keoda"
       ]
     },
     "word-kei": {
@@ -3473,8 +3454,8 @@
       "id": "word-o",
       "type": "word",
       "suffix": "hit, hurt",
-      "conj": "me/us (1SG.INDF)",
-      "fulltext": "o ago gao go guo mo oha odo me/us (1SG.INDF) hit, hurt",
+      "conj": "I/we (1SG.INDF)",
+      "fulltext": "o ago gao go guo mo oha odo I/we (1SG.INDF) hit, hurt",
       "glo": "hit, hurt",
       "deriv": [
         "word-ago",
@@ -3528,21 +3509,26 @@
       "name": "yoda",
       "id": "word-yoda",
       "type": "word",
-      "noun": "corps avec une vulve",
-      "fulltext": "yoda corps avec une vulve",
-      "glo": "corps avec une vulve"
+      "noun": "body with a vulva",
+      "etym": [
+        "word-yon",
+        "word-oda"
+      ],
+      "fulltext": "yoda word-yon word-oda body with a vulva",
+      "glo": "body with a vulva"
     },
     "word-oda": {
       "name": "oda",
       "id": "word-oda",
       "type": "word",
-      "noun": "corps, lieu vivant (\"on\")",
-      "adj": "vivant",
-      "suffix": "animal comme, qui a",
-      "desc": "De là vient [keoda](word-keoda) (**la langue cachée du corps**).",
-      "fulltext": "oda De là vient [keoda](word-keoda) (**la langue cachée du corps**). yada doda djoda goda ida odin kada koda keda kuoda kelo lamioda loda noda yosa oho odo odu otoda peda pida shada shida shoda uloda yida corps, lieu vivant (\"on\") vivant animal comme, qui a",
-      "glo": "corps, lieu vivant (\"on\")",
+      "noun": "body, place of life",
+      "pron": "me/us (1SG.INDEF)",
+      "adj": "alive",
+      "suffix": "animal",
+      "fulltext": "oda ada yada doda djoda goda ida odin kada koda keda kuoda kelo lamioda loda noda yoda keoda yosa odo odu otoda peda pida shada shida shoda uloda yida body, place of life alive animal me/us (1SG.INDEF)",
+      "glo": "body, place of life",
       "deriv": [
+        "word-ada",
         "word-yada",
         "word-doda",
         "word-djoda",
@@ -3557,8 +3543,9 @@
         "word-lamioda",
         "word-loda",
         "word-noda",
+        "word-yoda",
+        "word-keoda",
         "word-yosa",
-        "word-oho",
         "word-odo",
         "word-odu",
         "word-otoda",
@@ -3575,45 +3562,37 @@
       "name": "oha",
       "id": "word-oha",
       "type": "word",
-      "pron": "soi poétique (nous indéf)",
+      "pron": "poetic self (1G.INDEF)",
       "etym": [
         "word-o",
         "word-yada"
       ],
-      "fulltext": "oha word-o word-yada soi poétique (nous indéf)",
-      "glo": "soi poétique (nous indéf)"
+      "fulltext": "oha word-o word-yada poetic self (1G.INDEF)",
+      "glo": "poetic self (1G.INDEF)"
     },
     "word-keoda": {
       "name": "keoda",
       "id": "word-keoda",
       "type": "word",
-      "noun": "lieu de vie cachée, langue cachée du corps",
-      "fulltext": "keoda lieu de vie cachée, langue cachée du corps",
-      "glo": "lieu de vie cachée, langue cachée du corps"
+      "noun": "hidden body language",
+      "etym": [
+        "word-ke",
+        "word-oda"
+      ],
+      "fulltext": "keoda word-ke word-oda hidden body language",
+      "glo": "hidden body language"
     },
     "word-yosa": {
       "name": "yosa",
       "id": "word-yosa",
       "type": "word",
-      "noun": "humain",
+      "noun": "person",
       "etym": [
         "word-yo",
         "word-oda"
       ],
-      "fulltext": "yosa word-yo word-oda humain",
-      "glo": "humain"
-    },
-    "word-oho": {
-      "name": "oho",
-      "id": "word-oho",
-      "type": "word",
-      "noun": "iel",
-      "etym": [
-        "word-a",
-        "word-oda"
-      ],
-      "fulltext": "oho word-a word-oda iel",
-      "glo": "iel"
+      "fulltext": "yosa word-yo word-oda person",
+      "glo": "person"
     },
     "word-odo": {
       "name": "odo",
@@ -5332,10 +5311,11 @@
       "type": "word",
       "noun": "vulve",
       "desc": "De [yu](word-yu) et [on](word-on) (joie-apparaître = donner la joie = accoucher)",
-      "fulltext": "yon De [yu](word-yu) et [on](word-on) (joie-apparaître = donner la joie = accoucher) joyon wiyon riyon royon yonin yonegi vulve",
+      "fulltext": "yon De [yu](word-yu) et [on](word-on) (joie-apparaître = donner la joie = accoucher) joyon yoda wiyon riyon royon yonin yonegi vulve",
       "glo": "vulve",
       "deriv": [
         "word-joyon",
+        "word-yoda",
         "word-wiyon",
         "word-riyon",
         "word-royon",
@@ -5463,8 +5443,8 @@
       "id": "card-verbs",
       "type": "card",
       "lang": "verbs and conjugation",
-      "desc": "\nMany nouns are also verbs such as [fa](word-fa) or [fen](word-fen).\n\nThis language was born from an imaginary place where love making is one of the most important activity of adults and this results in a rich vocabulary to talk about caressing, slapping, pinching and playing with body parts.\n\n## [i](word-i), [u](word-u), [o](word-o) suffix\n\nThese alter the verbs respectively to mean \"caressing\" or gentle, \"pinching\" and slapping or hurting.\n\n* [2](phrase-2)\n* [3](phrase-3)\n* [4](phrase-4)\n\nThe very first use of the language was to ask a sexual partner to do something so the imperative form is the simplest and looks like the infinitiv.\n\nPhrase do not have precise verb, subject or object positioning and conjugation is used to remove ambiguity.\n\nIf the first noun does not match conjugation, this means that it represents the adverb (receiver of an action):\n\n* [5](phrase-5)\n* which is a short form of [6](phrase-6)\n* and we can also say [7](phrase-7)\n\nIt really depends where we want to put the emphasis (on the kissing or on who is to be kissed).\n\n## Conjugation\n\nFor other tenses apart from imperative, the conjugation *comes first*. This is because it is an evolution\nfrom *subject verb* to *subjectverb*:\n\n* [8](phrase-8)\n* evolved into [9](phrase-9)\n\nSo the possible conjugations are the same as the possible subjects:\n\n* *me, us*: [o](word-o) (1SG.INDF), subject: [oda](word-oda)\n* *you*: [i](word-i) (2SG), subject: [ida](word-ida)\n* *them*: [a](word-a) (3SG), subject: [oho](word-oho)\n* *us* (present): [sho](word-sho) (1PL.PRS), subject: [shoda](word-shoda)\n* *you* (present): [shi](word-shi) (2PL.PRS), subject: [shida](word-shida)\n* *them*: [sha](word-sha) (3PL)\n\n### And the rarer forms\n\n* *you honorific*: [kei](word-kei) (2SG.HONOR), subject: [keda](word-keda)\n* *you depraved*: [yi](word-yi) (2SG.DPRV), subject: [yida](word-yida)\n* *I*: [pi](word-pi) (1SG), subject: [pida](word-pida)\n* *us two*: [de](word-de) (1PL.DU), subject: [deda](word-deda)\n* *some*: [pe](word-pe) (3SG.INDF), subject: [peda](word-peda)\n* *us all*: [ka](word-ka) (1PL.DEF), subject: [kada](word-kada)\n\n## Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them because these\ntimings are so important in the erotic situations where this language originated.\n\n* [lire](word-lire) (FUT.EVNT) eventual future\n* [liro](word-liro) (FUT.DIST) distant future\n* [liru](word-liru) (FUT.PROX) close future\n* [lira](word-lira) (FUT.CRAS) tomorrow\n* [liri](word-liri) (FUT.HOD) tonight or next morning\n\n* [lemi](word-lemi) (PST.HOD) last night or this morning\n* [lema](word-lema) (PST.HEST) yesterday\n* [lemu](word-lemu) (PST.PROX) recent past\n* [lemo](word-lemo) (PST.DIST) distant past\n* [leme](word-leme) (PST.EVNT) eventual past\n\n* [lei](word-lei) (DEF) always\n* [nei](word-nei) (NEG) never\n\n# Examples\n\n* [10](phrase-10)\n* [11](phrase-11)\n",
-      "fulltext": "verbs \nMany nouns are also verbs such as [fa](word-fa) or [fen](word-fen).\n\nThis language was born from an imaginary place where love making is one of the most important activity of adults and this results in a rich vocabulary to talk about caressing, slapping, pinching and playing with body parts.\n\n## [i](word-i), [u](word-u), [o](word-o) suffix\n\nThese alter the verbs respectively to mean \"caressing\" or gentle, \"pinching\" and slapping or hurting.\n\n* [2](phrase-2)\n* [3](phrase-3)\n* [4](phrase-4)\n\nThe very first use of the language was to ask a sexual partner to do something so the imperative form is the simplest and looks like the infinitiv.\n\nPhrase do not have precise verb, subject or object positioning and conjugation is used to remove ambiguity.\n\nIf the first noun does not match conjugation, this means that it represents the adverb (receiver of an action):\n\n* [5](phrase-5)\n* which is a short form of [6](phrase-6)\n* and we can also say [7](phrase-7)\n\nIt really depends where we want to put the emphasis (on the kissing or on who is to be kissed).\n\n## Conjugation\n\nFor other tenses apart from imperative, the conjugation *comes first*. This is because it is an evolution\nfrom *subject verb* to *subjectverb*:\n\n* [8](phrase-8)\n* evolved into [9](phrase-9)\n\nSo the possible conjugations are the same as the possible subjects:\n\n* *me, us*: [o](word-o) (1SG.INDF), subject: [oda](word-oda)\n* *you*: [i](word-i) (2SG), subject: [ida](word-ida)\n* *them*: [a](word-a) (3SG), subject: [oho](word-oho)\n* *us* (present): [sho](word-sho) (1PL.PRS), subject: [shoda](word-shoda)\n* *you* (present): [shi](word-shi) (2PL.PRS), subject: [shida](word-shida)\n* *them*: [sha](word-sha) (3PL)\n\n### And the rarer forms\n\n* *you honorific*: [kei](word-kei) (2SG.HONOR), subject: [keda](word-keda)\n* *you depraved*: [yi](word-yi) (2SG.DPRV), subject: [yida](word-yida)\n* *I*: [pi](word-pi) (1SG), subject: [pida](word-pida)\n* *us two*: [de](word-de) (1PL.DU), subject: [deda](word-deda)\n* *some*: [pe](word-pe) (3SG.INDF), subject: [peda](word-peda)\n* *us all*: [ka](word-ka) (1PL.DEF), subject: [kada](word-kada)\n\n## Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them because these\ntimings are so important in the erotic situations where this language originated.\n\n* [lire](word-lire) (FUT.EVNT) eventual future\n* [liro](word-liro) (FUT.DIST) distant future\n* [liru](word-liru) (FUT.PROX) close future\n* [lira](word-lira) (FUT.CRAS) tomorrow\n* [liri](word-liri) (FUT.HOD) tonight or next morning\n\n* [lemi](word-lemi) (PST.HOD) last night or this morning\n* [lema](word-lema) (PST.HEST) yesterday\n* [lemu](word-lemu) (PST.PROX) recent past\n* [lemo](word-lemo) (PST.DIST) distant past\n* [leme](word-leme) (PST.EVNT) eventual past\n\n* [lei](word-lei) (DEF) always\n* [nei](word-nei) (NEG) never\n\n# Examples\n\n* [10](phrase-10)\n* [11](phrase-11)\n verbs and conjugation",
+      "desc": "\nMany nouns are also verbs such as [fa](word-fa) or [fen](word-fen).\n\nThis language was born from an imaginary place where love making is one of the most important activity of adults and this results in a rich vocabulary to talk about caressing, slapping, pinching and playing with body parts.\n\n## [i](word-i), [u](word-u), [o](word-o) suffix\n\nThese alter the verbs respectively to mean \"caressing\" or gentle, \"pinching\" and slapping or hurting.\n\n* [2](phrase-2)\n* [3](phrase-3)\n* [4](phrase-4)\n\nThe very first use of the language was to ask a sexual partner to do something so the imperative form is the simplest and looks like the infinitiv.\n\nPhrase do not have precise verb, subject or object positioning and conjugation is used to remove ambiguity.\n\nIf the first noun does not match conjugation, this means that it represents the adverb (receiver of an action):\n\n* [5](phrase-5)\n* which is a short form of [6](phrase-6)\n* and we can also say [7](phrase-7)\n\nIt really depends where we want to put the emphasis (on the kissing or on who is to be kissed).\n\n## Conjugation\n\nFor other tenses apart from imperative, the conjugation *comes first*. This is because it is an evolution\nfrom *subject verb* to *subjectverb*:\n\n* [8](phrase-8)\n* evolved into [9](phrase-9)\n\nSo the possible conjugations are the same as the possible subjects:\n\n* *I/we*: [o](word-o) (1SG.INDF), subject: [oda](word-oda)\n* *you*: [i](word-i) (2SG), subject: [ida](word-ida)\n* *them*: [a](word-a) (3SG), subject: [ada](word-ada)\n* *us* (present): [sho](word-sho) (1PL.PRS), subject: [shoda](word-shoda)\n* *you* (present): [shi](word-shi) (2PL.PRS), subject: [shida](word-shida)\n* *them*: [sha](word-sha) (3PL)\n\n### And the rarer forms\n\n* *you honorific*: [kei](word-kei) (2SG.HONOR), subject: [keda](word-keda)\n* *you depraved*: [yi](word-yi) (2SG.DPRV), subject: [yida](word-yida)\n* *I*: [pi](word-pi) (1SG), subject: [pida](word-pida)\n* *us two*: [de](word-de) (1PL.DU), subject: [deda](word-deda)\n* *some*: [pe](word-pe) (3SG.INDF), subject: [peda](word-peda)\n* *us all*: [ka](word-ka) (1PL.DEF), subject: [kada](word-kada)\n\n## Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them because these\ntimings are so important in the erotic situations where this language originated.\n\n* [lire](word-lire) (FUT.EVNT) eventual future\n* [liro](word-liro) (FUT.DIST) distant future\n* [liru](word-liru) (FUT.PROX) close future\n* [lira](word-lira) (FUT.CRAS) tomorrow\n* [liri](word-liri) (FUT.HOD) tonight or next morning\n\n* [lemi](word-lemi) (PST.HOD) last night or this morning\n* [lema](word-lema) (PST.HEST) yesterday\n* [lemu](word-lemu) (PST.PROX) recent past\n* [lemo](word-lemo) (PST.DIST) distant past\n* [leme](word-leme) (PST.EVNT) eventual past\n\n* [lei](word-lei) (DEF) always\n* [nei](word-nei) (NEG) never\n\n# Examples\n\n* [10](phrase-10)\n* [11](phrase-11)\n",
+      "fulltext": "verbs \nMany nouns are also verbs such as [fa](word-fa) or [fen](word-fen).\n\nThis language was born from an imaginary place where love making is one of the most important activity of adults and this results in a rich vocabulary to talk about caressing, slapping, pinching and playing with body parts.\n\n## [i](word-i), [u](word-u), [o](word-o) suffix\n\nThese alter the verbs respectively to mean \"caressing\" or gentle, \"pinching\" and slapping or hurting.\n\n* [2](phrase-2)\n* [3](phrase-3)\n* [4](phrase-4)\n\nThe very first use of the language was to ask a sexual partner to do something so the imperative form is the simplest and looks like the infinitiv.\n\nPhrase do not have precise verb, subject or object positioning and conjugation is used to remove ambiguity.\n\nIf the first noun does not match conjugation, this means that it represents the adverb (receiver of an action):\n\n* [5](phrase-5)\n* which is a short form of [6](phrase-6)\n* and we can also say [7](phrase-7)\n\nIt really depends where we want to put the emphasis (on the kissing or on who is to be kissed).\n\n## Conjugation\n\nFor other tenses apart from imperative, the conjugation *comes first*. This is because it is an evolution\nfrom *subject verb* to *subjectverb*:\n\n* [8](phrase-8)\n* evolved into [9](phrase-9)\n\nSo the possible conjugations are the same as the possible subjects:\n\n* *I/we*: [o](word-o) (1SG.INDF), subject: [oda](word-oda)\n* *you*: [i](word-i) (2SG), subject: [ida](word-ida)\n* *them*: [a](word-a) (3SG), subject: [ada](word-ada)\n* *us* (present): [sho](word-sho) (1PL.PRS), subject: [shoda](word-shoda)\n* *you* (present): [shi](word-shi) (2PL.PRS), subject: [shida](word-shida)\n* *them*: [sha](word-sha) (3PL)\n\n### And the rarer forms\n\n* *you honorific*: [kei](word-kei) (2SG.HONOR), subject: [keda](word-keda)\n* *you depraved*: [yi](word-yi) (2SG.DPRV), subject: [yida](word-yida)\n* *I*: [pi](word-pi) (1SG), subject: [pida](word-pida)\n* *us two*: [de](word-de) (1PL.DU), subject: [deda](word-deda)\n* *some*: [pe](word-pe) (3SG.INDF), subject: [peda](word-peda)\n* *us all*: [ka](word-ka) (1PL.DEF), subject: [kada](word-kada)\n\n## Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them because these\ntimings are so important in the erotic situations where this language originated.\n\n* [lire](word-lire) (FUT.EVNT) eventual future\n* [liro](word-liro) (FUT.DIST) distant future\n* [liru](word-liru) (FUT.PROX) close future\n* [lira](word-lira) (FUT.CRAS) tomorrow\n* [liri](word-liri) (FUT.HOD) tonight or next morning\n\n* [lemi](word-lemi) (PST.HOD) last night or this morning\n* [lema](word-lema) (PST.HEST) yesterday\n* [lemu](word-lemu) (PST.PROX) recent past\n* [lemo](word-lemo) (PST.DIST) distant past\n* [leme](word-leme) (PST.EVNT) eventual past\n\n* [lei](word-lei) (DEF) always\n* [nei](word-nei) (NEG) never\n\n# Examples\n\n* [10](phrase-10)\n* [11](phrase-11)\n verbs and conjugation",
       "glo": "verbs and conjugation"
     },
     "card-counting": {
@@ -5554,10 +5534,10 @@
       "type": "phrase",
       "phrase": "them, kiss",
       "see": [
-        "word-oho",
+        "word-ada",
         "word-la"
       ],
-      "fulltext": "5 oho la"
+      "fulltext": "5 ada la"
     },
     "phrase-6": {
       "name": "6",
@@ -5578,9 +5558,9 @@
       "phrase": "kiss them",
       "see": [
         "word-la",
-        "word-oho"
+        "word-ada"
       ],
-      "fulltext": "7 la oho"
+      "fulltext": "7 la ada"
     },
     "phrase-8": {
       "name": "8",
@@ -5973,7 +5953,7 @@
       "name": "oda",
       "id": "alt-oda",
       "type": "alt",
-      "glo": "vivant.ADJ",
+      "glo": "body.ADJ",
       "alt": "word-oda",
       "fulltext": "oda"
     }

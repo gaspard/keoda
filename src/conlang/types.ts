@@ -53,8 +53,8 @@ export const FULLTEXT_KEYS: (keyof EntryInfo)[] = [
 ]
 
 export const DEF_KEYS: (keyof CompiledEntry)[] = [
-  'etym',
   ...FULLTEXT_KEYS,
+  'etym',
   'deriv',
   'see',
 ]

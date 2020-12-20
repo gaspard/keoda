@@ -15,7 +15,7 @@ export const iha = _.word('iha', {
 })
 
 export const ida = _.word('ida', {
-  noun: 'toi',
+  pron: 'you (2SG)',
   etym: () => [_.i, _.oda],
 })
 

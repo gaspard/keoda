@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const o = _.word('o', {
   suffix: 'hit, hurt',
-  conj: 'me/us (1SG.INDF)',
+  conj: 'I/we (1SG.INDF)',
 })
 _.see(_.omaconj)
 
