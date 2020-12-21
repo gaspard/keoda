@@ -7,22 +7,22 @@ export const sha = _.word('sha', {
 _.see(_.shamaconj)
 
 export const shada = _.word('shada', {
-  noun: 'elles/eux',
+  pron: 'them (3PL)',
   etym: () => [_.sha, _.oda],
 })
 _.see(_.pronouns)
 
 export const shaha = _.word('shaha', {
-  noun: 'elles/eux poétique',
+  pron: 'poetic them (3PL)',
   etym: () => [_.sha, _.yada],
 })
 
 export const shasha = _.word('shasha', {
-  verb: 'dancer',
+  verb: 'to dance',
   etym: () => [_.sha, _.sha],
 })
 
 export const shana = _.word('shana', {
-  noun: 'la danse',
+  noun: 'danse',
   etym: () => [_.sha, _.na],
 })

@@ -1,27 +1,28 @@
 import * as _ from '.'
 
 export const pe = _.word('pe', {
-  conj: 'some (3SG.INDF)',
+  conj: 'some (3PL.INDF)',
   noun: '3',
-  suffix: 'quelques un.e.s',
-  posit: 'deux jambes et un anus (levrette) = mun',
+  suffix: 'some',
+  see: () => [_.mun],
+  posit: 'two legs and a buttock (doggy style)',
 })
 _.see(_.pemaconj)
 _.see(_.counting)
 
 export const peda = _.word('peda', {
-  pron: 'quelques',
+  pron: 'some (3PL.INDEF)',
   etym: () => [_.pe, _.oda],
 })
 _.see(_.pronouns)
 
 export const hamape = _.word('hamape', {
-  noun: 'majeur (3ème doigt)',
-  posit:
-    'levrette (mun): 2 jambes et 1 anus (indiquée par un signe de main: pouce contre majeur)',
+  noun: 'middle finger',
+  etym: () => [_.hama, _.pe],
+  posit: '(mun) indicated by thumb against middle finger',
 })
 
 export const nepe = _.word('nepe', {
-  noun: 'isolement (oubli de "pa")',
+  noun: 'isolation (forgeting "pa")',
 })
 _.see(_.scale)

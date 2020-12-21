@@ -37,21 +37,21 @@ from *subject verb* to *subjectverb*:
 
 So the possible conjugations are the same as the possible subjects:
 
-* *I/we*: ${_.o} (1SG.INDF), subject: ${_.oda}
-* *you*: ${_.i} (2SG), subject: ${_.ida}
-* *them*: ${_.a} (3SG), subject: ${_.ada}
-* *us* (present): ${_.sho} (1PL.PRS), subject: ${_.shoda}
-* *you* (present): ${_.shi} (2PL.PRS), subject: ${_.shida}
-* *them*: ${_.sha} (3PL)
+* ${_.o} *I/we* (1SG.INDF)
+* ${_.i} *you* (2SG)
+* ${_.a} *them* (3SG)
+* ${_.sho} *us* (present) (1PL.PRS)
+* ${_.shi} *you* (present) (2PL.PRS)
+* ${_.sha} *them* (3PL)
 
 ### And the rarer forms
 
-* *you honorific*: ${_.kei} (2SG.HONOR), subject: ${_.keda}
-* *you depraved*: ${_.yi} (2SG.DPRV), subject: ${_.yida}
-* *I*: ${_.pi} (1SG), subject: ${_.pida}
-* *us two*: ${_.de} (1PL.DU), subject: ${_.deda}
-* *some*: ${_.pe} (3SG.INDF), subject: ${_.peda}
-* *us all*: ${_.ka} (1PL.DEF), subject: ${_.kada}
+* ${_.kei} *you honorific* (2SG.HONOR)
+* ${_.yi} *you depraved* (2SG.DPRV)
+* ${_.pi} *I* (1SG)
+* ${_.de} *us two* (1PL.DU)
+* ${_.pe} *some* (3PL.INDF)
+* ${_.ka} *us all* (1PL.DEF)
 
 ## Tenses
 

@@ -1,32 +1,32 @@
 import * as _ from '.'
 
 export const la = _.word('la', {
-  noun: 'lèvres',
-  verb: 'embrasser',
+  noun: 'lips',
+  verb: 'to kiss',
 })
 
 export const kela = _.word('kela', {
-  noun: 'dent',
+  noun: 'teeth',
   etym: () => [_.ke, _.la],
 })
 
 export const kelasa = _.word('kelasa', {
-  noun: 'couteau',
+  noun: 'knife',
   etym: () => [_.kela, _.sa],
 })
 
 export const lapa = _.word('lapa', {
-  verb: 'parler (les lèvres partout)',
+  verb: 'to talk',
   etym: () => [_.la, _.pa],
 })
 
 export const shalapa = _.alt('shalapa', {
-  glo: '3PL.parler',
+  glo: '3PL.talk',
   see: () => [_.sha, _.lapa],
 })
 
 export const lapalapa = _.word('lapalapa', {
-  noun: 'canard',
+  noun: 'duck',
   etym: () => [_.lapa, _.lapa],
 })
 
@@ -36,28 +36,24 @@ export const kelo = _.word('kelo', {
 })
 
 export const kawi = _.word('kawi', {
-  noun: 'requin',
+  noun: 'shark',
   etym: () => [_.kela, _.awi],
 })
 
 export const lapir = _.word('lapir', {
-  noun: 'annoncer',
+  verb: 'to announce',
   etym: () => [_.lapa, _.elir],
 })
 
 export const gilapa = _.word('gilapa', {
-  noun: 'chuchotter (la douceur parle)',
+  noun: 'to whisper',
   etym: () => [_.gi, _.lapa],
 })
 
 export const lana = _.word('lana', {
-  noun: 'parole, langage, chose des lèvres',
+  noun: 'speech',
   etym: () => [_.la, _.na],
 })
-
-_.see(_.lapa)
-
-export const lala = _.example([_.la, _.la], `Embrasse moi sur les lèvres.`)
 
 // ==================== ALT
 export const olalema = _.alt('olalema', {

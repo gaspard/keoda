@@ -8,7 +8,7 @@ _.see(_.shimaconj)
 _.see(_.counting)
 
 export const shida = _.word('shida', {
-  noun: 'vous',
+  pron: 'you (2PL)',
   etym: () => [_.shi, _.oda],
 })
 _.see(_.pronouns)

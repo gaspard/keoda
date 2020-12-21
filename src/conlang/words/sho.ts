@@ -8,7 +8,7 @@ export const sho = _.word('sho', {
 _.see(_.shomaconj)
 
 export const shoda = _.word('shoda', {
-  noun: 'nous',
+  pron: 'us (1PL)',
   etym: () => [_.sho, _.oda],
 })
 _.see(_.pronouns)

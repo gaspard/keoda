@@ -2,7 +2,8 @@ import * as _ from '.'
 
 export const mun = _.word('moon', {
   noun: 'breast',
-  posit: 'kneeling, breast touching the ground',
+  posit: 'kneeling, breast touching the ground (doggy style)',
+  see: () => [_.pe],
 })
 
 export const munwe = _.word('munwe', {

@@ -5,13 +5,13 @@ export const ka = _.word('ka', {
   pron: 'tous',
   suffix: 'tous',
   posit: 'à quatre pattes',
-  conj: 'us all, universal (1SG.DEF)',
+  conj: 'us all, universal (1PL.DEF)',
 })
 _.see(_.kamaconj)
 _.see(_.counting)
 
 export const kada = _.word('kada', {
-  noun: 'tou.te.s',
+  pron: 'us all (1PL.DEF)',
   etym: () => [_.ka, _.oda],
 })
 _.see(_.pronouns)

@@ -2142,8 +2142,8 @@
       "pron": "tous",
       "suffix": "tous",
       "posit": "à quatre pattes",
-      "conj": "us all, universal (1SG.DEF)",
-      "fulltext": "ka kada neka karu koda kanam us all, universal (1SG.DEF) 4 (singularité, qui ne peut pas être pensé) tous tous à quatre pattes",
+      "conj": "us all, universal (1PL.DEF)",
+      "fulltext": "ka kada neka karu koda kanam us all, universal (1PL.DEF) 4 (singularité, qui ne peut pas être pensé) tous tous à quatre pattes",
       "glo": "4 (singularité, qui ne peut pas être pensé)",
       "deriv": [
         "word-kada",
@@ -2157,13 +2157,13 @@
       "name": "kada",
       "id": "word-kada",
       "type": "word",
-      "noun": "tou.te.s",
+      "pron": "us all (1PL.DEF)",
       "etym": [
         "word-ka",
         "word-oda"
       ],
-      "fulltext": "kada word-ka word-oda tou.te.s",
-      "glo": "tou.te.s"
+      "fulltext": "kada word-ka word-oda us all (1PL.DEF)",
+      "glo": "us all (1PL.DEF)"
     },
     "word-ika": {
       "name": "ika",
@@ -2333,10 +2333,10 @@
       "name": "la",
       "id": "word-la",
       "type": "word",
-      "noun": "lèvres",
-      "verb": "embrasser",
-      "fulltext": "la kela lapa lana laj ulul lèvres embrasser",
-      "glo": "lèvres",
+      "noun": "lips",
+      "verb": "to kiss",
+      "fulltext": "la kela lapa lana laj ulul lips to kiss",
+      "glo": "lips",
       "deriv": [
         "word-kela",
         "word-lapa",
@@ -2349,13 +2349,13 @@
       "name": "kela",
       "id": "word-kela",
       "type": "word",
-      "noun": "dent",
+      "noun": "teeth",
       "etym": [
         "word-ke",
         "word-la"
       ],
-      "fulltext": "kela word-ke word-la kelasa kelo kawi dent",
-      "glo": "dent",
+      "fulltext": "kela word-ke word-la kelasa kelo kawi teeth",
+      "glo": "teeth",
       "deriv": [
         "word-kelasa",
         "word-kelo",
@@ -2366,25 +2366,25 @@
       "name": "kelasa",
       "id": "word-kelasa",
       "type": "word",
-      "noun": "couteau",
+      "noun": "knife",
       "etym": [
         "word-kela",
         "word-sa"
       ],
-      "fulltext": "kelasa word-kela word-sa couteau",
-      "glo": "couteau"
+      "fulltext": "kelasa word-kela word-sa knife",
+      "glo": "knife"
     },
     "word-lapa": {
       "name": "lapa",
       "id": "word-lapa",
       "type": "word",
-      "verb": "parler (les lèvres partout)",
+      "verb": "to talk",
       "etym": [
         "word-la",
         "word-pa"
       ],
-      "fulltext": "lapa word-la word-pa lapalapa lapir gilapa parler (les lèvres partout)",
-      "glo": "parler (les lèvres partout)",
+      "fulltext": "lapa word-la word-pa lapalapa lapir gilapa to talk",
+      "glo": "to talk",
       "deriv": [
         "word-lapalapa",
         "word-lapir",
@@ -2395,13 +2395,13 @@
       "name": "lapalapa",
       "id": "word-lapalapa",
       "type": "word",
-      "noun": "canard",
+      "noun": "duck",
       "etym": [
         "word-lapa",
         "word-lapa"
       ],
-      "fulltext": "lapalapa word-lapa word-lapa canard",
-      "glo": "canard"
+      "fulltext": "lapalapa word-lapa word-lapa duck",
+      "glo": "duck"
     },
     "word-kelo": {
       "name": "kelo",
@@ -2419,49 +2419,49 @@
       "name": "kawi",
       "id": "word-kawi",
       "type": "word",
-      "noun": "requin",
+      "noun": "shark",
       "etym": [
         "word-kela",
         "word-awi"
       ],
-      "fulltext": "kawi word-kela word-awi requin",
-      "glo": "requin"
+      "fulltext": "kawi word-kela word-awi shark",
+      "glo": "shark"
     },
     "word-lapir": {
       "name": "lapir",
       "id": "word-lapir",
       "type": "word",
-      "noun": "annoncer",
+      "verb": "to announce",
       "etym": [
         "word-lapa",
         "word-elir"
       ],
-      "fulltext": "lapir word-lapa word-elir annoncer",
-      "glo": "annoncer"
+      "fulltext": "lapir word-lapa word-elir to announce",
+      "glo": "to announce"
     },
     "word-gilapa": {
       "name": "gilapa",
       "id": "word-gilapa",
       "type": "word",
-      "noun": "chuchotter (la douceur parle)",
+      "noun": "to whisper",
       "etym": [
         "word-gi",
         "word-lapa"
       ],
-      "fulltext": "gilapa word-gi word-lapa chuchotter (la douceur parle)",
-      "glo": "chuchotter (la douceur parle)"
+      "fulltext": "gilapa word-gi word-lapa to whisper",
+      "glo": "to whisper"
     },
     "word-lana": {
       "name": "lana",
       "id": "word-lana",
       "type": "word",
-      "noun": "parole, langage, chose des lèvres",
+      "noun": "speech",
       "etym": [
         "word-la",
         "word-na"
       ],
-      "fulltext": "lana word-la word-na parole, langage, chose des lèvres",
-      "glo": "parole, langage, chose des lèvres"
+      "fulltext": "lana word-la word-na speech",
+      "glo": "speech"
     },
     "word-lae": {
       "name": "lae",
@@ -2983,8 +2983,11 @@
         "word-ha",
         "word-ma"
       ],
-      "fulltext": "hama word-ha word-ma doigt",
-      "glo": "doigt"
+      "fulltext": "hama word-ha word-ma hamape doigt",
+      "glo": "doigt",
+      "deriv": [
+        "word-hamape"
+      ]
     },
     "word-djoma": {
       "name": "djoma",
@@ -3186,8 +3189,11 @@
       "id": "word-moon",
       "type": "word",
       "noun": "breast",
-      "posit": "kneeling, breast touching the ground",
-      "fulltext": "moon mawi munwe hamun munawi muna breast kneeling, breast touching the ground",
+      "posit": "kneeling, breast touching the ground (doggy style)",
+      "see": [
+        "word-pe"
+      ],
+      "fulltext": "moon mawi munwe hamun munawi muna pe breast kneeling, breast touching the ground (doggy style)",
       "glo": "breast",
       "deriv": [
         "word-mawi",
@@ -4003,45 +4009,53 @@
       "name": "pe",
       "id": "word-pe",
       "type": "word",
-      "conj": "some (3SG.INDF)",
+      "conj": "some (3PL.INDF)",
       "noun": "3",
-      "suffix": "quelques un.e.s",
-      "posit": "deux jambes et un anus (levrette) = mun",
-      "fulltext": "pe pedil peda some (3SG.INDF) 3 quelques un.e.s deux jambes et un anus (levrette) = mun",
-      "glo": "some (3SG.INDF)",
+      "suffix": "some",
+      "see": [
+        "word-moon"
+      ],
+      "posit": "two legs and a buttock (doggy style)",
+      "fulltext": "pe pedil peda hamape moon some (3PL.INDF) 3 some two legs and a buttock (doggy style)",
+      "glo": "some (3PL.INDF)",
       "deriv": [
         "word-pedil",
-        "word-peda"
+        "word-peda",
+        "word-hamape"
       ]
     },
     "word-peda": {
       "name": "peda",
       "id": "word-peda",
       "type": "word",
-      "pron": "quelques",
+      "pron": "some (3PL.INDEF)",
       "etym": [
         "word-pe",
         "word-oda"
       ],
-      "fulltext": "peda word-pe word-oda quelques",
-      "glo": "quelques"
+      "fulltext": "peda word-pe word-oda some (3PL.INDEF)",
+      "glo": "some (3PL.INDEF)"
     },
     "word-hamape": {
       "name": "hamape",
       "id": "word-hamape",
       "type": "word",
-      "noun": "majeur (3ème doigt)",
-      "posit": "levrette (mun): 2 jambes et 1 anus (indiquée par un signe de main: pouce contre majeur)",
-      "fulltext": "hamape majeur (3ème doigt) levrette (mun): 2 jambes et 1 anus (indiquée par un signe de main: pouce contre majeur)",
-      "glo": "majeur (3ème doigt)"
+      "noun": "middle finger",
+      "etym": [
+        "word-hama",
+        "word-pe"
+      ],
+      "posit": "(mun) indicated by thumb against middle finger",
+      "fulltext": "hamape word-hama word-pe middle finger (mun) indicated by thumb against middle finger",
+      "glo": "middle finger"
     },
     "word-nepe": {
       "name": "nepe",
       "id": "word-nepe",
       "type": "word",
-      "noun": "isolement (oubli de \"pa\")",
-      "fulltext": "nepe isolement (oubli de \"pa\")",
-      "glo": "isolement (oubli de \"pa\")"
+      "noun": "isolation (forgeting \"pa\")",
+      "fulltext": "nepe isolation (forgeting \"pa\")",
+      "glo": "isolation (forgeting \"pa\")"
     },
     "word-peu": {
       "name": "peu",
@@ -4519,49 +4533,49 @@
       "name": "shada",
       "id": "word-shada",
       "type": "word",
-      "noun": "elles/eux",
+      "pron": "them (3PL)",
       "etym": [
         "word-sha",
         "word-oda"
       ],
-      "fulltext": "shada word-sha word-oda elles/eux",
-      "glo": "elles/eux"
+      "fulltext": "shada word-sha word-oda them (3PL)",
+      "glo": "them (3PL)"
     },
     "word-shaha": {
       "name": "shaha",
       "id": "word-shaha",
       "type": "word",
-      "noun": "elles/eux poétique",
+      "pron": "poetic them (3PL)",
       "etym": [
         "word-sha",
         "word-yada"
       ],
-      "fulltext": "shaha word-sha word-yada elles/eux poétique",
-      "glo": "elles/eux poétique"
+      "fulltext": "shaha word-sha word-yada poetic them (3PL)",
+      "glo": "poetic them (3PL)"
     },
     "word-shasha": {
       "name": "shasha",
       "id": "word-shasha",
       "type": "word",
-      "verb": "dancer",
+      "verb": "to dance",
       "etym": [
         "word-sha",
         "word-sha"
       ],
-      "fulltext": "shasha word-sha word-sha dancer",
-      "glo": "dancer"
+      "fulltext": "shasha word-sha word-sha to dance",
+      "glo": "to dance"
     },
     "word-shana": {
       "name": "shana",
       "id": "word-shana",
       "type": "word",
-      "noun": "la danse",
+      "noun": "danse",
       "etym": [
         "word-sha",
         "word-na"
       ],
-      "fulltext": "shana word-sha word-na la danse",
-      "glo": "la danse"
+      "fulltext": "shana word-sha word-na danse",
+      "glo": "danse"
     },
     "word-she": {
       "name": "she",
@@ -4647,13 +4661,13 @@
       "name": "shida",
       "id": "word-shida",
       "type": "word",
-      "noun": "vous",
+      "pron": "you (2PL)",
       "etym": [
         "word-shi",
         "word-oda"
       ],
-      "fulltext": "shida word-shi word-oda vous",
-      "glo": "vous"
+      "fulltext": "shida word-shi word-oda you (2PL)",
+      "glo": "you (2PL)"
     },
     "word-shiha": {
       "name": "shiha",
@@ -4694,13 +4708,13 @@
       "name": "shoda",
       "id": "word-shoda",
       "type": "word",
-      "noun": "nous",
+      "pron": "us (1PL)",
       "etym": [
         "word-sho",
         "word-oda"
       ],
-      "fulltext": "shoda word-sho word-oda nous",
-      "glo": "nous"
+      "fulltext": "shoda word-sho word-oda us (1PL)",
+      "glo": "us (1PL)"
     },
     "word-shoha": {
       "name": "shoha",
@@ -5542,8 +5556,8 @@
       "id": "card-verbs",
       "type": "card",
       "lang": "verbs and conjugation",
-      "desc": "\nMany nouns are also verbs such as [fa](word-fa) or [fen](word-fen).\n\nThis language was born from an imaginary place where love making is one of the most important activity of adults and this results in a rich vocabulary to talk about caressing, slapping, pinching and playing with body parts.\n\n## [i](word-i), [u](word-u), [o](word-o) suffix\n\nThese alter the verbs respectively to mean \"caressing\" or gentle, \"pinching\" and slapping or hurting.\n\n* [2](phrase-2)\n* [3](phrase-3)\n* [4](phrase-4)\n\nThe very first use of the language was to ask a sexual partner to do something so the imperative form is the simplest and looks like the infinitiv.\n\nPhrase do not have precise verb, subject or object positioning and conjugation is used to remove ambiguity.\n\nIf the first noun does not match conjugation, this means that it represents the adverb (receiver of an action):\n\n* [5](phrase-5)\n* which is a short form of [6](phrase-6)\n* and we can also say [7](phrase-7)\n\nIt really depends where we want to put the emphasis (on the kissing or on who is to be kissed).\n\n## Conjugation\n\nFor other tenses apart from imperative, the conjugation *comes first*. This is because it is an evolution\nfrom *subject verb* to *subjectverb*:\n\n* [8](phrase-8)\n* evolved into [9](phrase-9)\n\nSo the possible conjugations are the same as the possible subjects:\n\n* *I/we*: [o](word-o) (1SG.INDF), subject: [oda](word-oda)\n* *you*: [i](word-i) (2SG), subject: [ida](word-ida)\n* *them*: [a](word-a) (3SG), subject: [ada](word-ada)\n* *us* (present): [sho](word-sho) (1PL.PRS), subject: [shoda](word-shoda)\n* *you* (present): [shi](word-shi) (2PL.PRS), subject: [shida](word-shida)\n* *them*: [sha](word-sha) (3PL)\n\n### And the rarer forms\n\n* *you honorific*: [kei](word-kei) (2SG.HONOR), subject: [keda](word-keda)\n* *you depraved*: [yi](word-yi) (2SG.DPRV), subject: [yida](word-yida)\n* *I*: [pi](word-pi) (1SG), subject: [pida](word-pida)\n* *us two*: [de](word-de) (1PL.DU), subject: [deda](word-deda)\n* *some*: [pe](word-pe) (3SG.INDF), subject: [peda](word-peda)\n* *us all*: [ka](word-ka) (1PL.DEF), subject: [kada](word-kada)\n\n## Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them because these\ntimings are so important in the erotic situations where this language originated.\n\n* [lire](word-lire) (FUT.EVNT) eventual future\n* [liro](word-liro) (FUT.DIST) distant future\n* [liru](word-liru) (FUT.PROX) close future\n* [lira](word-lira) (FUT.CRAS) tomorrow\n* [liri](word-liri) (FUT.HOD) tonight or next morning\n\n* [lemi](word-lemi) (PST.HOD) last night or this morning\n* [lema](word-lema) (PST.HEST) yesterday\n* [lemu](word-lemu) (PST.PROX) recent past\n* [lemo](word-lemo) (PST.DIST) distant past\n* [leme](word-leme) (PST.EVNT) eventual past\n\n* [lei](word-lei) (DEF) always\n* [nei](word-nei) (NEG) never\n\n# Examples\n\n* [10](phrase-10)\n* [11](phrase-11)\n",
-      "fulltext": "verbs \nMany nouns are also verbs such as [fa](word-fa) or [fen](word-fen).\n\nThis language was born from an imaginary place where love making is one of the most important activity of adults and this results in a rich vocabulary to talk about caressing, slapping, pinching and playing with body parts.\n\n## [i](word-i), [u](word-u), [o](word-o) suffix\n\nThese alter the verbs respectively to mean \"caressing\" or gentle, \"pinching\" and slapping or hurting.\n\n* [2](phrase-2)\n* [3](phrase-3)\n* [4](phrase-4)\n\nThe very first use of the language was to ask a sexual partner to do something so the imperative form is the simplest and looks like the infinitiv.\n\nPhrase do not have precise verb, subject or object positioning and conjugation is used to remove ambiguity.\n\nIf the first noun does not match conjugation, this means that it represents the adverb (receiver of an action):\n\n* [5](phrase-5)\n* which is a short form of [6](phrase-6)\n* and we can also say [7](phrase-7)\n\nIt really depends where we want to put the emphasis (on the kissing or on who is to be kissed).\n\n## Conjugation\n\nFor other tenses apart from imperative, the conjugation *comes first*. This is because it is an evolution\nfrom *subject verb* to *subjectverb*:\n\n* [8](phrase-8)\n* evolved into [9](phrase-9)\n\nSo the possible conjugations are the same as the possible subjects:\n\n* *I/we*: [o](word-o) (1SG.INDF), subject: [oda](word-oda)\n* *you*: [i](word-i) (2SG), subject: [ida](word-ida)\n* *them*: [a](word-a) (3SG), subject: [ada](word-ada)\n* *us* (present): [sho](word-sho) (1PL.PRS), subject: [shoda](word-shoda)\n* *you* (present): [shi](word-shi) (2PL.PRS), subject: [shida](word-shida)\n* *them*: [sha](word-sha) (3PL)\n\n### And the rarer forms\n\n* *you honorific*: [kei](word-kei) (2SG.HONOR), subject: [keda](word-keda)\n* *you depraved*: [yi](word-yi) (2SG.DPRV), subject: [yida](word-yida)\n* *I*: [pi](word-pi) (1SG), subject: [pida](word-pida)\n* *us two*: [de](word-de) (1PL.DU), subject: [deda](word-deda)\n* *some*: [pe](word-pe) (3SG.INDF), subject: [peda](word-peda)\n* *us all*: [ka](word-ka) (1PL.DEF), subject: [kada](word-kada)\n\n## Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them because these\ntimings are so important in the erotic situations where this language originated.\n\n* [lire](word-lire) (FUT.EVNT) eventual future\n* [liro](word-liro) (FUT.DIST) distant future\n* [liru](word-liru) (FUT.PROX) close future\n* [lira](word-lira) (FUT.CRAS) tomorrow\n* [liri](word-liri) (FUT.HOD) tonight or next morning\n\n* [lemi](word-lemi) (PST.HOD) last night or this morning\n* [lema](word-lema) (PST.HEST) yesterday\n* [lemu](word-lemu) (PST.PROX) recent past\n* [lemo](word-lemo) (PST.DIST) distant past\n* [leme](word-leme) (PST.EVNT) eventual past\n\n* [lei](word-lei) (DEF) always\n* [nei](word-nei) (NEG) never\n\n# Examples\n\n* [10](phrase-10)\n* [11](phrase-11)\n verbs and conjugation",
+      "desc": "\nMany nouns are also verbs such as [fa](word-fa) or [fen](word-fen).\n\nThis language was born from an imaginary place where love making is one of the most important activity of adults and this results in a rich vocabulary to talk about caressing, slapping, pinching and playing with body parts.\n\n## [i](word-i), [u](word-u), [o](word-o) suffix\n\nThese alter the verbs respectively to mean \"caressing\" or gentle, \"pinching\" and slapping or hurting.\n\n* [2](phrase-2)\n* [3](phrase-3)\n* [4](phrase-4)\n\nThe very first use of the language was to ask a sexual partner to do something so the imperative form is the simplest and looks like the infinitiv.\n\nPhrase do not have precise verb, subject or object positioning and conjugation is used to remove ambiguity.\n\nIf the first noun does not match conjugation, this means that it represents the adverb (receiver of an action):\n\n* [5](phrase-5)\n* which is a short form of [6](phrase-6)\n* and we can also say [7](phrase-7)\n\nIt really depends where we want to put the emphasis (on the kissing or on who is to be kissed).\n\n## Conjugation\n\nFor other tenses apart from imperative, the conjugation *comes first*. This is because it is an evolution\nfrom *subject verb* to *subjectverb*:\n\n* [8](phrase-8)\n* evolved into [9](phrase-9)\n\nSo the possible conjugations are the same as the possible subjects:\n\n* [o](word-o) *I/we* (1SG.INDF)\n* [i](word-i) *you* (2SG)\n* [a](word-a) *them* (3SG)\n* [sho](word-sho) *us* (present) (1PL.PRS)\n* [shi](word-shi) *you* (present) (2PL.PRS)\n* [sha](word-sha) *them* (3PL)\n\n### And the rarer forms\n\n* [kei](word-kei) *you honorific* (2SG.HONOR)\n* [yi](word-yi) *you depraved* (2SG.DPRV)\n* [pi](word-pi) *I* (1SG)\n* [de](word-de) *us two* (1PL.DU)\n* [pe](word-pe) *some* (3PL.INDF)\n* [ka](word-ka) *us all* (1PL.DEF)\n\n## Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them because these\ntimings are so important in the erotic situations where this language originated.\n\n* [lire](word-lire) (FUT.EVNT) eventual future\n* [liro](word-liro) (FUT.DIST) distant future\n* [liru](word-liru) (FUT.PROX) close future\n* [lira](word-lira) (FUT.CRAS) tomorrow\n* [liri](word-liri) (FUT.HOD) tonight or next morning\n\n* [lemi](word-lemi) (PST.HOD) last night or this morning\n* [lema](word-lema) (PST.HEST) yesterday\n* [lemu](word-lemu) (PST.PROX) recent past\n* [lemo](word-lemo) (PST.DIST) distant past\n* [leme](word-leme) (PST.EVNT) eventual past\n\n* [lei](word-lei) (DEF) always\n* [nei](word-nei) (NEG) never\n\n# Examples\n\n* [10](phrase-10)\n* [11](phrase-11)\n",
+      "fulltext": "verbs \nMany nouns are also verbs such as [fa](word-fa) or [fen](word-fen).\n\nThis language was born from an imaginary place where love making is one of the most important activity of adults and this results in a rich vocabulary to talk about caressing, slapping, pinching and playing with body parts.\n\n## [i](word-i), [u](word-u), [o](word-o) suffix\n\nThese alter the verbs respectively to mean \"caressing\" or gentle, \"pinching\" and slapping or hurting.\n\n* [2](phrase-2)\n* [3](phrase-3)\n* [4](phrase-4)\n\nThe very first use of the language was to ask a sexual partner to do something so the imperative form is the simplest and looks like the infinitiv.\n\nPhrase do not have precise verb, subject or object positioning and conjugation is used to remove ambiguity.\n\nIf the first noun does not match conjugation, this means that it represents the adverb (receiver of an action):\n\n* [5](phrase-5)\n* which is a short form of [6](phrase-6)\n* and we can also say [7](phrase-7)\n\nIt really depends where we want to put the emphasis (on the kissing or on who is to be kissed).\n\n## Conjugation\n\nFor other tenses apart from imperative, the conjugation *comes first*. This is because it is an evolution\nfrom *subject verb* to *subjectverb*:\n\n* [8](phrase-8)\n* evolved into [9](phrase-9)\n\nSo the possible conjugations are the same as the possible subjects:\n\n* [o](word-o) *I/we* (1SG.INDF)\n* [i](word-i) *you* (2SG)\n* [a](word-a) *them* (3SG)\n* [sho](word-sho) *us* (present) (1PL.PRS)\n* [shi](word-shi) *you* (present) (2PL.PRS)\n* [sha](word-sha) *them* (3PL)\n\n### And the rarer forms\n\n* [kei](word-kei) *you honorific* (2SG.HONOR)\n* [yi](word-yi) *you depraved* (2SG.DPRV)\n* [pi](word-pi) *I* (1SG)\n* [de](word-de) *us two* (1PL.DU)\n* [pe](word-pe) *some* (3PL.INDF)\n* [ka](word-ka) *us all* (1PL.DEF)\n\n## Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them because these\ntimings are so important in the erotic situations where this language originated.\n\n* [lire](word-lire) (FUT.EVNT) eventual future\n* [liro](word-liro) (FUT.DIST) distant future\n* [liru](word-liru) (FUT.PROX) close future\n* [lira](word-lira) (FUT.CRAS) tomorrow\n* [liri](word-liri) (FUT.HOD) tonight or next morning\n\n* [lemi](word-lemi) (PST.HOD) last night or this morning\n* [lema](word-lema) (PST.HEST) yesterday\n* [lemu](word-lemu) (PST.PROX) recent past\n* [lemo](word-lemo) (PST.DIST) distant past\n* [leme](word-leme) (PST.EVNT) eventual past\n\n* [lei](word-lei) (DEF) always\n* [nei](word-nei) (NEG) never\n\n# Examples\n\n* [10](phrase-10)\n* [11](phrase-11)\n verbs and conjugation",
       "glo": "verbs and conjugation"
     },
     "card-counting": {
@@ -6025,7 +6039,7 @@
       "name": "shalapa",
       "id": "alt-shalapa",
       "type": "alt",
-      "glo": "3PL.parler",
+      "glo": "3PL.talk",
       "see": [
         "word-sha",
         "word-lapa"
