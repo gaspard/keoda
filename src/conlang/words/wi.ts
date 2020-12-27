@@ -1,14 +1,14 @@
 import * as _ from '.'
 
 export const wi = _.word('wi', {
-  noun: 'pruneau (couleur)',
+  adj: 'prun (color)',
+  see: () => [_.colors],
 })
-_.see(_.colors)
 
 export const wiyon = _.word('wiyon', {
-  noun: 'pruneau (fruit)',
+  noun: 'prune (fruit)',
   etym: () => [_.wi, _.yon],
+  see: () => [_.fruits],
 })
 
 _.see(_.seasons)
-_.see(_.fruits)

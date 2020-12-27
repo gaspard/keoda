@@ -1,23 +1,29 @@
 import * as _ from '.'
 
 export const eri = _.word('dim', {
-  noun: 'couleur cerise',
+  adj: 'cherry (color)',
+  see: () => [_.colors],
 })
 
 export const erina = _.word('erina', {
-  noun: 'cerise (fruit), juin',
+  noun: 'cherry (fruit), june',
+  see: () => [_.fruits],
 })
 _.see(_.seasons)
 _.see(_.fruits)
 
 export const muneri = _.word('muneri', {
-  noun: 'téton (cerise du sein)',
+  noun: 'nipple',
+  etym: () => [_.mun, _.eri],
 })
 
 export const tajeri = _.word('tajeri', {
-  noun: 'gland (cerise du pénis)',
+  noun: 'glans',
+  etym: () => [_.taj, _.eri],
 })
 
 export const yoneri = _.word('yoneri', {
-  noun: 'clitoris (cerise de la vulve)',
+  noun: 'clitoris',
+  see: () => [_.keyon],
+  etym: () => [_.yon, _.eri],
 })

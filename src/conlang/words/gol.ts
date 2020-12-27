@@ -10,18 +10,19 @@ export const goa = _.word('goa', {
 })
 
 export const gola = _.word('gola', {
-  noun: 'grande chose (courge)',
+  noun: 'squash',
+  etym: () => [_.gol, _.na],
+  see: () => [_.fruits],
 })
 
 export const gawi = _.word('gawi', {
-  noun: 'baleine',
+  noun: 'whale',
   etym: () => [_.gol, _.awi],
 })
 
 export const goda = _.word('goda', {
-  noun: 'éléphant',
+  noun: 'elephant',
   etym: () => [_.gol, _.oda],
 })
 
 _.see(_.seasons)
-_.see(_.fruits)

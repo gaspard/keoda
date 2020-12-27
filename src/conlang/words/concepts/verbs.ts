@@ -7,7 +7,7 @@ Many nouns are also verbs such as ${_.fa} or ${_.fen}.
 
 This language was born from an imaginary place where love making is one of the most important activity of adults and this results in a rich vocabulary to talk about caressing, slapping, pinching and playing with body parts.
 
-## ${_.i}, ${_.u}, ${_.o} suffix
+# ${_.i}, ${_.u}, ${_.o} suffix
 
 These alter the verbs respectively to mean "caressing" or gentle, "pinching" and slapping or hurting.
 
@@ -27,7 +27,7 @@ If the first noun does not match conjugation, this means that it represents the 
 
 It really depends where we want to put the emphasis (on the kissing or on who is to be kissed).
 
-## Conjugation
+# Conjugation
 
 For other tenses apart from imperative, the conjugation *comes first*. This is because it is an evolution
 from *subject verb* to *subjectverb*:
@@ -44,7 +44,7 @@ So the possible conjugations are the same as the possible subjects:
 * ${_.shi} *you* (present) (2PL.PRS)
 * ${_.sha} *them* (3PL)
 
-### And the rarer forms
+## And the rarer forms
 
 * ${_.kei} *you honorific* (2SG.HONOR)
 * ${_.yi} *you depraved* (2SG.DPRV)
@@ -53,7 +53,7 @@ So the possible conjugations are the same as the possible subjects:
 * ${_.pe} *some* (3PL.INDF)
 * ${_.ka} *us all* (1PL.DEF)
 
-## Tenses
+# Tenses
 
 The tense is marked by a suffix related to time. There are a lot of them because these
 timings are so important in the erotic situations where this language originated.

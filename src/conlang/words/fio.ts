@@ -1,10 +1,11 @@
 import * as _ from '.'
 
 export const fio = _.word('fio', {
-  noun: 'aubergine (couleur)',
+  adj: 'eggplant (color)',
+  see: () => [_.colors],
 })
 
 export const fiona = _.word('fiona', {
-  noun: 'aubergine (légume)',
+  noun: 'eggplant (vegetable)',
   etym: () => [_.fio, _.na],
 })

@@ -7,6 +7,6 @@ export const pu = _.word('pu', {
 export const putam = _.word('putam', {
   noun: 'tomate (fruit), août',
   etym: () => [_.pu, _.tam],
+  see: () => [_.fruits],
 })
 _.see(_.seasons)
-_.see(_.fruits)

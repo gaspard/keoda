@@ -1,8 +1,7 @@
 import * as _ from '.'
 
 export const du = _.word('du', {
-  prefix: 'devant',
-  desc: () => 'Inspiré de sud (on regarde le sud).',
+  prefix: 'front',
 })
 _.see(_.duha)
 
@@ -16,30 +15,30 @@ _.see(_.se)
 _.see(_.no)
 
 export const duda = _.word('doda', {
-  noun: 'petit.e frère/soeur',
+  noun: 'small sibling',
   etym: () => [_.du, _.oda],
 })
 _.see(_.noda)
 
 export const duto = _.word('duto', {
-  noun: 'petit frère/vent',
+  noun: 'small brother/wind',
   etym: () => [_.du, _.oto],
 })
 _.see(_.noto)
 
 export const duna = _.word('duna', {
-  noun: 'petite soeur/arbre',
+  noun: 'small sister/tree',
   etym: () => [_.du, _.ana],
 })
 _.see(_.nona)
 
 export const duwi = _.word('duwi', {
-  noun: 'petit.e enby/oiseau',
+  noun: 'small enby/bird',
   etym: () => [_.du, _.iwi],
 })
 _.see(_.nowi)
 
 export const duyin = _.word('duyin', {
-  noun: 'avant du vagin',
+  noun: 'front of the vagina',
   etym: () => [_.du, _.yin],
 })

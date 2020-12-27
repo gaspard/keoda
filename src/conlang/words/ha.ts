@@ -1,9 +1,9 @@
 import * as _ from '.'
 
 export const ha = _.word('ha', {
-  noun: 'tête',
-  adj: 'loin',
-  prefix: 'partie supérieure ou distale',
+  noun: 'head',
+  adj: 'far',
+  prefix: 'top or distal',
 })
 _.see(_.djo)
 _.see(_.hama)
@@ -32,24 +32,24 @@ export const enopishusamdur = _.example(
 )
 
 export const duha = _.word('duha', {
-  noun: 'visage',
+  noun: 'face',
   etym: () => [_.du, _.ha],
 })
 
 export const hawe = _.word('hawe', {
-  noun: 'joue droite',
+  noun: 'right cheek',
   etym: () => [_.ha, _.we],
 })
 _.see(_.we)
 
 export const hase = _.word('hase', {
-  noun: 'joue gauche',
+  noun: 'left cheek',
   etym: () => [_.ha, _.se],
 })
 _.see(_.se)
 
 export const noha = _.word('noha', {
-  noun: 'occiput (dos de la tête)',
+  noun: 'occiput (back of the head)',
   etym: () => [_.no, _.ha],
 })
 _.see(_.no)

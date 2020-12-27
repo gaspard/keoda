@@ -1,7 +1,8 @@
 import * as _ from '.'
 
 export const pa = _.word('pa', {
-  noun: 'tout, le mystère',
+  noun: 'everything, the mystery',
+  see: () => [_.fi],
 })
 
 export const pali = _.word('pali', {

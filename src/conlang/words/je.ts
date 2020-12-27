@@ -1,11 +1,17 @@
 import * as _ from '.'
 
 export const je = _.word('je', {
-  noun: '8 (proche, émotion)',
+  adj: 'close',
+  noun: '8 (emotion)',
+  see: () => [_.counting],
 })
-_.see(_.counting)
 
 export const jepa = _.word('jepa', {
-  noun: 'lien, appartenance',
+  adj: 'belonging',
+  see: () => [_.gunes],
 })
-_.see(_.scale)
+
+export const jefi = _.word('jefi', {
+  adj: 'caring',
+  see: () => [_.nunes, _.jepa],
+})

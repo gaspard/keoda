@@ -1,14 +1,16 @@
 import * as _ from '.'
 
 export const him = _.word('him', {
-  verb: 'grandir',
+  verb: 'to grow',
 })
 
 export const yuhim = _.word('yuhim', {
-  noun: 'naître',
+  verb: 'to be born',
+  see: () => [_.gui],
 })
 
 export const mahim = _.word('mahim', {
-  noun: 'construire (les mains qui font grandir)',
+  verb: 'to build',
+  desc: () => 'the hands make grow',
   etym: () => [_.ma, _.him],
 })

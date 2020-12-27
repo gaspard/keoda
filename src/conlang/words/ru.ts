@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const ru = _.word('ru', {
-  noun: 'émergence, réalisation',
-  suffix: 'devenir',
+  noun: 'emergence, realization',
+  verb: 'to become',
 })
 _.see(_.guru)

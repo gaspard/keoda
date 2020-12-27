@@ -1,12 +1,10 @@
 import * as _ from '.'
 
 export const gu = _.word('gu', {
-  adj: 'obscurité, gestation, profondeur',
-  prefix: 'profondeur',
-  desc: () =>
-    `On peut voir ${_.gu} comme le mouvement de l'esprit ${_.ga} (esprit) ${_.u} (tiré)`,
+  adj: 'darkness, gestation, deep',
+  etym: () => [_.ga, _.u],
+  see: () => [_.nu, _.gunes, _.gufi],
 })
-_.see(_.gufi)
 
 export const gulir = _.word('gulir', {
   noun: 'souhaiter (gu du future)',
@@ -19,32 +17,33 @@ export const gulem = _.word('gulem', {
 })
 
 export const guna = _.word('guna', {
-  noun: 'vie',
+  noun: 'life (spirit fulfilled in matter)',
+  etym: () => [_.gu, _.na],
+  see: () => [_.nuga],
 })
-_.see(_.gufa)
 
 export const guo = _.word('guo', {
-  verb: 'mourir',
+  verb: 'to die',
   etym: () => [_.gu, _.o],
 })
 
 export const gui = _.word('gui', {
-  verb: 'naître',
+  verb: 'to be born',
+  see: () => [_.yuhim],
   etym: () => [_.gu, _.i],
 })
-_.see(_.iwigui)
 
 export const guwu = _.word('guwu', {
-  verb: 'donner',
+  verb: 'to give',
   etym: () => [_.gu, _.wu],
 })
 export const guwuna = _.word('guwuna', {
-  noun: 'don',
+  noun: 'gift',
   etym: () => [_.guwu, _.na],
 })
 
 export const guru = _.word('guru', {
-  noun: 'réalisation des profondeurs',
+  noun: 'realization of the spirit',
   etym: () => [_.gu, _.ru],
 })
 
@@ -62,11 +61,13 @@ export const augu = _.word('augu', {
 export const negu = _.word('negu', {
   noun: `l'agitation, vouloir changer, changer le monde, chercher la perfection pour ne plus rien sentir, la dissociation`,
   desc: () => `C'est l'inverse de la confiance: ${_.augu}`,
+  see: () => [_.shipa],
 })
-_.see(_.shipa)
 
 export const guyuina = _.word('guyuina', {
-  noun: 'pomme (le fruit de la vie)',
+  noun: 'apple',
+  etym: () => [_.gu, _.yuina],
+  see: () => [_.fruits],
 })
 
 export const gupa = _.word('gupa', {

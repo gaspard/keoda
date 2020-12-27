@@ -1,11 +1,11 @@
 import * as _ from '.'
 
 export const adu = _.word('adu', {
-  noun: 'proche, ami',
+  adj: 'close, friend',
 })
 
-export const doda = _.word('doda', {
-  noun: 'chien',
+export const doda = _.word('dog', {
+  noun: 'dog',
   etym: () => [_.adu, _.oda],
 })
 _.see(_.duda)

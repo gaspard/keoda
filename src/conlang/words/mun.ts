@@ -14,7 +14,7 @@ export const munwe = _.word('munwe', {
 _.see(_.demimunwe)
 
 export const imimunmenu = _.example(
-  [_.i, _.mi, _.mun, _.sinu],
+  [_.i, _.mi, _.mun, _.sienu],
   `Caresse-toi les seins en effleurant.`
 )
 

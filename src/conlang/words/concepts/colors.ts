@@ -1,17 +1,15 @@
 import * as _ from '..'
 
-export const colors = _.example(
-  [
-    // Rouge
-    _.pan,
-    // Orange
-    _.pon,
-    // Vert
-    _.piu,
-    // Aubergine
-    _.fio,
-    // Pruneau (violet)
-    _.wi,
-  ],
-  ''
-)
+export const colors = _.card('colors', {
+  adj: 'colors',
+  desc: () => `
+Current colors:
+
+* ${_.pan} (red)
+* ${_.eri} (cherry)
+* ${_.pon} (orange)
+* ${_.piu} (green)
+* ${_.fio} (eggplant)
+* ${_.wi} (prune)
+`,
+})

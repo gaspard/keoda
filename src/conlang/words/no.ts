@@ -1,8 +1,7 @@
 import * as _ from '.'
 
 export const no = _.word('no', {
-  prefix: 'derrière',
-  desc: () => 'Inspiré de nord (on regarde le sud)',
+  prefix: 'back',
 })
 _.see(_.noha)
 _.see(_.noyin)

@@ -1,29 +1,18 @@
 import * as _ from '.'
 
 export const ma = _.word('ma', {
-  noun: 'main',
-  verb: 'prendre dans la main, tenir',
-  desc: () => `
-Voir aussi les exceptions liées au suffixes.
-
-* ${_.i} (masser, caresser)
-* ${_.o} (frapper, faire mal)
-* ${_.u} (tirer, pincer)
-
-Exemple: ${_.phrase('Masse mon dos !', _.mi, _.nopi)}.
-
-On peut aussi utiliser la négation ${_.nema} (lâcher).
-`,
+  noun: 'hand',
+  verb: 'to take, to hold',
 })
 _.see(_.mahim)
 
 export const hama = _.word('hama', {
-  noun: 'doigt',
+  noun: 'finger',
   etym: () => [_.ha, _.ma],
 })
 
 export const djoma = _.word('djoma', {
-  noun: 'poignet',
+  noun: 'wrist',
   etym: () => [_.djo, _.ma],
 })
 _.see(_.djosam)
@@ -31,8 +20,8 @@ _.see(_.djosam)
 _.see(_.lihafma)
 
 export const nema = _.word('nema', {
-  noun: 'sans main',
-  verb: 'lâcher',
+  verb: 'to let go',
+  glo: 'NEG.hand.VERB',
   etym: () => [_.ne, _.ma],
 })
 
@@ -60,7 +49,7 @@ export const mafa = _.example(
 _.see(_.fama)
 
 export const malam = _.word('malam', {
-  noun: "maman (la main de l'eau)",
+  noun: 'mother (hand of the water)',
   etym: () => [_.ma, _.lam],
 })
 
@@ -70,16 +59,16 @@ export const miwi = _.word('miwi', {
 })
 
 export const masa = _.word('masa', {
-  noun: 'pèle',
+  noun: 'shovel',
   etym: () => [_.ma, _.sa],
 })
 
 export const limasa = _.word('limasa', {
-  noun: 'cuillère',
+  noun: 'spoon',
   etym: () => [_.lil, _.masa],
 })
 
 export const lilimasa = _.word('lilimasa', {
-  noun: 'petite cuillère',
+  noun: 'little spoon',
   etym: () => [_.lil, _.limasa],
 })

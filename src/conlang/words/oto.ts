@@ -1,23 +1,26 @@
 import * as _ from '.'
 
 export const oto = _.word('oto', {
-  noun: 'vent',
-  adj: 'masculin',
+  noun: 'wind',
+  adj: 'masculine',
 })
 _.see(_.she)
 _.see(_.ana)
 _.see(_.iwi)
 
 export const otoda = _.word('otoda', {
-  noun: 'homme',
+  noun: 'man',
+  desc: () => `place of the wind-self`,
   etym: () => [_.oto, _.oda],
 })
 _.see(_.duto)
 
 export const otana = _.word('otana', {
-  noun: 'homme-femme',
+  adj: 'treeish wind (fem masc)',
+  etym: () => [_.oto, _.ana],
 })
 
 export const otiwi = _.word('otiwi', {
-  noun: 'homme-enby',
+  adj: 'birdly wind (enby masc)',
+  etym: () => [_.oto, _.iwi],
 })

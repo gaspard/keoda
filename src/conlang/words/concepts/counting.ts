@@ -1,8 +1,8 @@
-import * as _ from '.'
+import * as _ from '..'
 
 export const counting = _.card('counting', {
   lang: 'les nombres et comment compter',
-  see: () => [_.scale],
+  see: () => [_.gunes],
   desc: () => `
 Voici les nombres de 1 to 10:
 

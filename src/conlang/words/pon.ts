@@ -1,17 +1,20 @@
 import * as _ from '.'
 
 export const pon = _.word('pon', {
-  noun: 'orange (couleur)',
+  adj: 'orange (color)',
+  see: () => [_.colors],
 })
-_.see(_.colors)
 
 export const pona = _.word('pona', {
-  noun: 'orange (fruit), novembre',
+  noun: 'orange (fruit), november',
+  etym: () => [_.pon, _.na],
+  see: () => [_.fruits],
 })
 
 export const ponalil = _.word('ponalil', {
-  noun: 'mandarine (fruit), décembre',
+  noun: 'tangerine (fruit), december',
+  etym: () => [_.pona, _.lil],
+  see: () => [_.fruits],
 })
 
 _.see(_.seasons)
-_.see(_.fruits)

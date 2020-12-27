@@ -26,6 +26,12 @@ export const hamade = _.word('hamade', {
 })
 
 export const nede = _.word('nede', {
-  noun: 'vie sans temps (stress, pas de mémoire)',
+  noun: 'anguish',
+  desc: () => 'life with time (anxiety, few memories)',
+  see: () => [_.gunes, _.fide],
 })
-_.see(_.scale)
+
+export const fide = _.word('fide', {
+  adj: 'fighting',
+  see: () => [_.nunes, _.nede],
+})

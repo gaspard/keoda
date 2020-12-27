@@ -1,17 +1,22 @@
 import * as _ from '.'
 
 export const fi = _.word('fi', {
-  noun: 'fil, relier',
+  noun: 'thread, relier',
+  verb: 'connect',
+  see: () => [_.pa],
 })
 
 export const fishasha = _.word('fishasha', {
-  verb: 'coudre (le fil qui danse)',
+  verb: 'to sew',
+  etym: () => [_.fi, _.shasha],
 })
 
 export const gufishasha = _.word('gufishasha', {
-  verb: 'coudre la vie, relier les choses hors du temps causal',
+  verb: 'to sew life, connect things out of causal time',
+  etym: () => [_.gufi, _.shasha],
 })
 
 export const gufi = _.word('gufi', {
-  noun: 'fil de vie',
+  noun: 'thread of life',
+  etym: () => [_.gu, _.fi],
 })

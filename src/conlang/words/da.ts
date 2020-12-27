@@ -12,11 +12,17 @@ _.see(_.lamagoa)
 _.see(_.goa)
 
 export const dapa = _.word('dapa', {
-  noun: 'joie, émotion complexe',
+  adj: 'happy',
+  noun: 'joy, complexe emotion',
+  see: () => [_.gunes, _.dafi],
 })
-_.see(_.scale)
+
+export const dafi = _.word('dafi', {
+  adj: 'serving',
+  see: () => [_.nunes, _.dapa],
+})
 
 export const guda = _.word('guda', {
-  noun: "le lieu de l'expérience",
+  noun: 'the place of the experience',
+  see: () => [_.gulei],
 })
-_.see(_.gulei)

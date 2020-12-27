@@ -31,6 +31,11 @@ _.see(_.nefeoda)
 _.see(_.nemafeyon)
 
 export const fepa = _.word('fepa', {
-  noun: 'fierté',
+  noun: 'pride',
+  see: () => [_.gunes, _.fefi],
 })
-_.see(_.scale)
+
+export const fefi = _.word('fefi', {
+  adj: 'adapting',
+  see: () => [_.nunes, _.fepa],
+})

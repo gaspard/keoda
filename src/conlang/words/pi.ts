@@ -29,9 +29,9 @@ export const pipa = _.word('pipa', {
   etym: () => [_.pi, _.pa],
 })
 
-export const pinu = _.word('pinu', {
-  noun: 'seul (le soi brodé, je brode)',
-  etym: () => [_.pi, _.nu],
+export const pienu = _.word('pienu', {
+  adj: 'alone (I embroider)',
+  etym: () => [_.pi, _.enu],
 })
 
 export const aupi = _.word('aupi', {
@@ -51,9 +51,14 @@ export const negupi = _.word('negupi', {
 })
 
 export const nepi = _.word('nepi', {
-  noun: 'division',
+  adj: 'division',
+  see: () => [_.gunes, _.fipi],
 })
-_.see(_.scale)
+
+export const fipi = _.word('fipi', {
+  adj: 'disembodied, fragmented',
+  see: () => [_.nunes, _.nepi],
+})
 
 // L'écoute de djopi ouvre à hapi
 export const djopi = _.word('djopi', {

@@ -1,11 +1,14 @@
 import * as _ from '.'
 
 export const nu = _.word('nu', {
-  verb: 'broder (le truc solitaire, concentré.e)',
+  adj: 'materiality, expression, light, surface',
+  noun: 'humility',
+  etym: () => [_.na, _.u],
+  see: () => [_.gu, _.nunes],
 })
-_.see(_.pinu)
 
-export const sinu = _.word('sinu', {
-  adj: 'délicatement',
-  desc: () => `De ${_.si} et ${_.nu} (...).`,
+export const nuga = _.word('nagu', {
+  noun: 'life (matter fulfilled in spirit)',
+  etym: () => [_.nu, _.ga],
+  see: () => [_.guna],
 })

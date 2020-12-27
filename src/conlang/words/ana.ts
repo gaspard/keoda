@@ -1,25 +1,28 @@
 import * as _ from '.'
 
 export const ana = _.word('ana', {
-  noun: 'arbre',
-  adj: 'féminin',
+  noun: 'tree',
+  adj: 'feminine',
 })
-_.see(_.oto)
 
 export const anawi = _.word('anawi', {
-  noun: 'meduse',
+  noun: 'medusa',
   etym: () => [_.ana, _.awi],
 })
 
 export const anoda = _.word('anoda', {
-  noun: 'femme',
+  noun: 'woman',
+  desc: () => `place of the tree-self`,
+  etym: () => [_.ana, _.oda],
+  see: () => [_.duna],
 })
-_.see(_.duna)
 
 export const anoto = _.word('anoto', {
-  noun: 'femme-homme',
+  adj: 'windy tree (masc fem)',
+  etym: () => [_.ana, _.oto],
 })
 
 export const aniwi = _.word('aniwi', {
-  noun: 'femme-enby',
+  adj: 'birdly tree (enby fem)',
+  etym: () => [_.ana, _.iwi],
 })

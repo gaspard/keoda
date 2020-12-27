@@ -23,6 +23,11 @@ export const hamape = _.word('hamape', {
 })
 
 export const nepe = _.word('nepe', {
-  noun: 'isolation (forgeting "pa")',
+  adj: 'isolation (forgetting "pa")',
+  see: () => [_.gunes, _.fipe],
 })
-_.see(_.scale)
+
+export const fipe = _.word('fipe', {
+  adj: 'offensive',
+  see: () => [_.nunes, _.nepe],
+})

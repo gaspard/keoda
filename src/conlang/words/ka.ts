@@ -27,10 +27,15 @@ export const hamaka = _.word('hamaka', {
 })
 
 export const neka = _.word('neka', {
-  noun: 'honte',
+  noun: 'shame',
   etym: () => [_.ne, _.ka],
+  see: () => [_.gunes, _.fika],
 })
-_.see(_.scale)
+
+export const fika = _.word('fika', {
+  adj: 'restless',
+  see: () => [_.nunes, _.neka],
+})
 
 export const karu = _.word('karu', {
   verb: 'choisir (la réalisation du singulier en soi)',

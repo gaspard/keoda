@@ -1,14 +1,17 @@
 import * as _ from '.'
 
 export const dji = _.word('dji', {
-  noun: '10 (mémoire)',
-  desc: () =>
-    `Pour les dizaines, on utilise dji au lieu de ${_.pi} ${_.ipi} (mais on peut aussi dire ${_.pi} ${_.ipi})`,
+  noun: '10 (memory)',
   etym: () => [_.pi, _.ipi],
+  see: () => [_.counting],
 })
-_.see(_.counting)
 
 export const djipa = _.word('djipa', {
-  noun: 'souvenir (être dieu.e)',
+  adj: 'remembering (being god.dess)',
+  see: () => [_.gunes, _.djifi],
 })
-_.see(_.scale)
+
+export const djifi = _.word('djifi', {
+  adj: 'humble',
+  see: () => [_.nunes, _.djipa],
+})

@@ -1,9 +1,9 @@
 import * as _ from '.'
 
 export const piu = _.word('piu', {
-  noun: 'vert',
+  adj: 'green',
+  see: () => [_.colors],
 })
-_.see(_.colors)
 
 export const piuna = _.word('piuna', {
   noun: 'épinards (mai)',
