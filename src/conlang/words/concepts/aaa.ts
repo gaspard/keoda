@@ -38,5 +38,8 @@ person's feelings.
 I feel utterly weird.
 
 I hope you do too, dear reader ♥️
+
+PS: Some pages have not yet been translated to english, thanks for your patience: 
+this whole thing is a work in progress...
 `,
 })
