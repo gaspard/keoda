@@ -4,8 +4,8 @@ export const aaa = _.card('aaa', {
   lang: 'Why keoda ?',
   desc: () => `
 My first goal was to create a language for love and sex. Something that would
-make it easy and fun to express desire, play with power exchanges and have
-fun.
+make it easy and fun to express desire, play with power exchanges and honor
+the great gift of sharing bodily love.
 
 I also felt that the languages I speak had lots of biais in terms of what is expected. For example, we have verbs to express penetration but we have no words to
 express "grasping with the vagina" (${_.phrase(
