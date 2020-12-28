@@ -7,7 +7,7 @@ export const je = _.word('je', {
 })
 
 export const jepa = _.word('jepa', {
-  adj: 'belonging',
+  noun: 'belonging',
   see: () => [_.gunes],
 })
 

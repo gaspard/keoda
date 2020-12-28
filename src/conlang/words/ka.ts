@@ -28,13 +28,9 @@ export const hamaka = _.word('hamaka', {
 
 export const neka = _.word('neka', {
   noun: 'shame',
-  etym: () => [_.ne, _.ka],
-  see: () => [_.gunes, _.fika],
-})
-
-export const fika = _.word('fika', {
   adj: 'restless',
-  see: () => [_.nunes, _.neka],
+  etym: () => [_.ne, _.ka],
+  see: () => [_.gunes, _.nunes],
 })
 
 export const karu = _.word('karu', {

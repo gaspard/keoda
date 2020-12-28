@@ -19,8 +19,8 @@ export const shiha = _.word('shiha', {
 })
 
 export const shipa = _.word('shipa', {
-  adj: 'belief',
-  see: () => [_.gunes, _.negu],
+  noun: 'believing',
+  see: () => [_.gunes, _.shifi, _.negu],
 })
 
 export const shifi = _.word('shifi', {

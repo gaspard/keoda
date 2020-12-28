@@ -653,14 +653,13 @@
       "name": "dapa",
       "id": "word-dapa",
       "type": "word",
-      "adj": "happy",
-      "noun": "joy, complexe emotion",
+      "noun": "joy",
       "see": [
         "card-gunes",
         "word-dafi"
       ],
-      "fulltext": "dapa gunes dafi joy, complexe emotion happy",
-      "glo": "happy"
+      "fulltext": "dapa gunes dafi joy",
+      "glo": "joy"
     },
     "word-dafi": {
       "name": "dafi",
@@ -720,25 +719,14 @@
       "id": "word-nede",
       "type": "word",
       "noun": "anguish",
+      "adj": "fighting",
       "desc": "life with time (anxiety, few memories)",
       "see": [
         "card-gunes",
-        "word-fide"
+        "card-nunes"
       ],
-      "fulltext": "nede life with time (anxiety, few memories) gunes fide anguish",
+      "fulltext": "nede life with time (anxiety, few memories) gunes nunes anguish fighting",
       "glo": "anguish"
-    },
-    "word-fide": {
-      "name": "fide",
-      "id": "word-fide",
-      "type": "word",
-      "adj": "fighting",
-      "see": [
-        "card-nunes",
-        "word-nede"
-      ],
-      "fulltext": "fide nunes nede fighting",
-      "glo": "fighting"
     },
     "word-dej": {
       "name": "dej",
@@ -865,7 +853,7 @@
       "name": "djipa",
       "id": "word-djipa",
       "type": "word",
-      "adj": "remembering (being god.dess)",
+      "noun": "remembering (being god.dess)",
       "see": [
         "card-gunes",
         "word-djifi"
@@ -2172,12 +2160,13 @@
       "id": "word-in",
       "type": "word",
       "adj": "chaud",
-      "fulltext": "in odin tajin yajin yonin yuina chaud",
+      "fulltext": "in odin tajin yajin yin yonin yuina chaud",
       "glo": "chaud",
       "deriv": [
         "word-odin",
         "word-tajin",
         "word-yajin",
+        "word-yin",
         "word-yonin",
         "word-yuina"
       ]
@@ -2335,7 +2324,7 @@
       "name": "jepa",
       "id": "word-jepa",
       "type": "word",
-      "adj": "belonging",
+      "noun": "belonging",
       "see": [
         "card-gunes"
       ],
@@ -2454,28 +2443,17 @@
       "id": "word-neka",
       "type": "word",
       "noun": "shame",
+      "adj": "restless",
       "etym": [
         "word-ne",
         "word-ka"
       ],
       "see": [
         "card-gunes",
-        "word-fika"
+        "card-nunes"
       ],
-      "fulltext": "neka word-ne word-ka gunes fika shame",
+      "fulltext": "neka word-ne word-ka gunes nunes shame restless",
       "glo": "shame"
-    },
-    "word-fika": {
-      "name": "fika",
-      "id": "word-fika",
-      "type": "word",
-      "adj": "restless",
-      "see": [
-        "card-nunes",
-        "word-neka"
-      ],
-      "fulltext": "fika nunes neka restless",
-      "glo": "restless"
     },
     "word-karu": {
       "name": "karu",
@@ -3124,25 +3102,14 @@
       "id": "word-nelil",
       "type": "word",
       "noun": "confusion",
+      "adj": "insecure",
       "verb": "to confound",
       "see": [
         "card-gunes",
-        "word-filil"
+        "card-nunes"
       ],
-      "fulltext": "nelil gunes filil confusion to confound",
+      "fulltext": "nelil gunes nunes confusion to confound insecure",
       "glo": "confusion"
-    },
-    "word-filil": {
-      "name": "filil",
-      "id": "word-filil",
-      "type": "word",
-      "adj": "insecure",
-      "see": [
-        "card-nunes",
-        "word-nelil"
-      ],
-      "fulltext": "filil nunes nelil insecure",
-      "glo": "insecure"
     },
     "word-lir": {
       "name": "lir",
@@ -4395,25 +4362,14 @@
       "name": "nepe",
       "id": "word-nepe",
       "type": "word",
-      "adj": "isolation (forgetting \"pa\")",
-      "see": [
-        "card-gunes",
-        "word-fipe"
-      ],
-      "fulltext": "nepe gunes fipe isolation (forgetting \"pa\")",
-      "glo": "isolation (forgetting \"pa\")"
-    },
-    "word-fipe": {
-      "name": "fipe",
-      "id": "word-fipe",
-      "type": "word",
+      "noun": "limbo (forgetting \"pa\")",
       "adj": "offensive",
       "see": [
-        "card-nunes",
-        "word-nepe"
+        "card-gunes",
+        "card-nunes"
       ],
-      "fulltext": "fipe nunes nepe offensive",
-      "glo": "offensive"
+      "fulltext": "nepe gunes nunes limbo (forgetting \"pa\") offensive",
+      "glo": "limbo (forgetting \"pa\")"
     },
     "word-peu": {
       "name": "peu",
@@ -4554,25 +4510,14 @@
       "name": "nepi",
       "id": "word-nepi",
       "type": "word",
-      "adj": "division",
-      "see": [
-        "card-gunes",
-        "word-fipi"
-      ],
-      "fulltext": "nepi gunes fipi division",
-      "glo": "division"
-    },
-    "word-fipi": {
-      "name": "fipi",
-      "id": "word-fipi",
-      "type": "word",
+      "noun": "division",
       "adj": "disembodied, fragmented",
       "see": [
-        "card-nunes",
-        "word-nepi"
+        "card-gunes",
+        "card-nunes"
       ],
-      "fulltext": "fipi nunes nepi disembodied, fragmented",
-      "glo": "disembodied, fragmented"
+      "fulltext": "nepi gunes nunes division disembodied, fragmented",
+      "glo": "division"
     },
     "word-djopi": {
       "name": "djopi",
@@ -5092,13 +5037,14 @@
       "name": "shipa",
       "id": "word-shipa",
       "type": "word",
-      "adj": "belief",
+      "noun": "believing",
       "see": [
         "card-gunes",
+        "word-shifi",
         "word-negu"
       ],
-      "fulltext": "shipa gunes negu belief",
-      "glo": "belief"
+      "fulltext": "shipa gunes shifi negu believing",
+      "glo": "believing"
     },
     "word-shifi": {
       "name": "shifi",
@@ -5269,14 +5215,14 @@
       "name": "taj",
       "id": "word-taj",
       "type": "word",
-      "noun": "pénis",
-      "verb": "pénétrer avec le pénis",
+      "noun": "penis",
+      "verb": "penis action",
       "etym": [
         "word-te",
         "word-aj"
       ],
-      "fulltext": "taj word-te word-aj tajeri tajin tajegi pénis pénétrer avec le pénis",
-      "glo": "pénis",
+      "fulltext": "taj word-te word-aj tajeri tajin tajegi penis penis action",
+      "glo": "penis",
       "deriv": [
         "word-tajeri",
         "word-tajin",
@@ -5477,7 +5423,7 @@
       "id": "word-u",
       "type": "word",
       "suffix": "pull",
-      "fulltext": "u awiu liru lemu gau gu iwiu ulei liu mu nu odu sheu uya pull",
+      "fulltext": "u awiu liru lemu gau gu iwiu ulei liu mu nu odu sheu uya yinu pull",
       "glo": "pull",
       "deriv": [
         "word-awiu",
@@ -5492,7 +5438,8 @@
         "word-nu",
         "word-odu",
         "word-sheu",
-        "word-uya"
+        "word-uya",
+        "word-yinu"
       ]
     },
     "word-couler": {
@@ -5804,15 +5751,31 @@
       "name": "yin",
       "id": "word-yin",
       "type": "word",
-      "noun": "vagin",
-      "desc": "De [yu](word-yu) et [in](word-in)",
-      "fulltext": "yin De [yu](word-yu) et [in](word-in) alayin duyin noyin vagin",
-      "glo": "vagin",
+      "noun": "vagina",
+      "etym": [
+        "word-yu",
+        "word-in"
+      ],
+      "fulltext": "yin word-yu word-in alayin duyin noyin yinu vagina",
+      "glo": "vagina",
       "deriv": [
         "word-alayin",
         "word-duyin",
-        "word-noyin"
+        "word-noyin",
+        "word-yinu"
       ]
+    },
+    "word-yinu": {
+      "name": "yinu",
+      "id": "word-yinu",
+      "type": "word",
+      "verb": "grasp with the vagina",
+      "glo": "vagina.pull",
+      "etym": [
+        "word-yin",
+        "word-u"
+      ],
+      "fulltext": "yinu word-yin word-u grasp with the vagina"
     },
     "word-yo": {
       "name": "yo",
@@ -5949,12 +5912,13 @@
       "name": "yu",
       "id": "word-yu",
       "type": "word",
-      "noun": "joie",
-      "adj": "joyeux",
-      "fulltext": "yu yaj yon eyu yuina joie joyeux",
-      "glo": "joie",
+      "noun": "joy",
+      "adj": "joyful",
+      "fulltext": "yu yaj yin yon eyu yuina joy joyful",
+      "glo": "joy",
       "deriv": [
         "word-yaj",
+        "word-yin",
         "word-yon",
         "word-eyu",
         "word-yuina"
@@ -5964,14 +5928,13 @@
       "name": "eyu",
       "id": "word-eyu",
       "type": "word",
-      "prep": "si",
-      "desc": "Être joyeux = être tellement = si xxx",
+      "prep": "if",
       "etym": [
         "word-e",
         "word-yu"
       ],
-      "fulltext": "eyu word-e word-yu Être joyeux = être tellement = si xxx si",
-      "glo": "si"
+      "fulltext": "eyu word-e word-yu if",
+      "glo": "if"
     },
     "word-yuina": {
       "name": "yuina",
@@ -6031,13 +5994,13 @@
       "name": "counting",
       "id": "card-counting",
       "type": "card",
-      "lang": "les nombres et comment compter",
+      "lang": "numbers and counting",
       "see": [
         "card-gunes"
       ],
-      "desc": "\nVoici les nombres de 1 to 10:\n\n* [pi](word-pi) (1)\n* [de](word-de) (2)\n* [pe](word-pe) (3)\n* [ka](word-ka) (4)\n* [lil](word-lil) (5)\n* [shi](word-shi) (6)\n* [fe](word-fe) (7)\n* [je](word-je) (8)\n* [da](word-da) (9)\n* [dji](word-dji) (10)\n\nEt il y a aussi [ipi](word-ipi) (x10), [ipa](word-ipa) (x100) et [ipu](word-ipu) (x1000).\n\n## Quelques exemples:\n\n* 11 (1 x 10 + 1): [11](phrase-11) ou simplement [12](phrase-12)\n* 24 (2 x 10 + 4): [13](phrase-13)\n* 359 (3 x 100 + 5 x 10 + 9): [14](phrase-14)\n* 2019 (2 x 1000 + 10 + 9): [15](phrase-15)\n* 105'000: [16](phrase-16)\n\nOn peut transformer [17](phrase-17) dans sa version raccourcie [18](phrase-18) ou [19](phrase-19)\n\n## Les grands nombres\n\n* *million* (1000^2): [20](phrase-20)\n* *milliard* (1000^3): [21](phrase-21)\n* *mille millards* (1000^4): [22](phrase-22)\n\nOn peut aussi dire [23](phrase-23) pour 10^4, etc.\n\n## Petits nombres\n\n* *dixième* (10^-1): [24](phrase-24)\n* *centième* (10^-2): [25](phrase-25)\n* *millième* (10^-3): [26](phrase-26)\n",
-      "fulltext": "counting \nVoici les nombres de 1 to 10:\n\n* [pi](word-pi) (1)\n* [de](word-de) (2)\n* [pe](word-pe) (3)\n* [ka](word-ka) (4)\n* [lil](word-lil) (5)\n* [shi](word-shi) (6)\n* [fe](word-fe) (7)\n* [je](word-je) (8)\n* [da](word-da) (9)\n* [dji](word-dji) (10)\n\nEt il y a aussi [ipi](word-ipi) (x10), [ipa](word-ipa) (x100) et [ipu](word-ipu) (x1000).\n\n## Quelques exemples:\n\n* 11 (1 x 10 + 1): [11](phrase-11) ou simplement [12](phrase-12)\n* 24 (2 x 10 + 4): [13](phrase-13)\n* 359 (3 x 100 + 5 x 10 + 9): [14](phrase-14)\n* 2019 (2 x 1000 + 10 + 9): [15](phrase-15)\n* 105'000: [16](phrase-16)\n\nOn peut transformer [17](phrase-17) dans sa version raccourcie [18](phrase-18) ou [19](phrase-19)\n\n## Les grands nombres\n\n* *million* (1000^2): [20](phrase-20)\n* *milliard* (1000^3): [21](phrase-21)\n* *mille millards* (1000^4): [22](phrase-22)\n\nOn peut aussi dire [23](phrase-23) pour 10^4, etc.\n\n## Petits nombres\n\n* *dixième* (10^-1): [24](phrase-24)\n* *centième* (10^-2): [25](phrase-25)\n* *millième* (10^-3): [26](phrase-26)\n gunes les nombres et comment compter",
-      "glo": "les nombres et comment compter"
+      "desc": "\nHere are the number from 1 to 10:\n\n* [dji](word-dji) (10)\n* [da](word-da) (9)\n* [je](word-je) (8)\n* [fe](word-fe) (7)\n* [shi](word-shi) (6)\n* [lil](word-lil) (5)\n* [ka](word-ka) (4)\n* [pe](word-pe) (3)\n* [de](word-de) (2)\n* [pi](word-pi) (1)\n\nThe powers of ten:\n\n* [ipi](word-ipi) (10)\n* [ipa](word-ipa) (100)\n* [ipu](word-ipu) (1000).\n\n## Some examples:\n\n* [11](phrase-11)\n* or [12](phrase-12)\n* or [13](phrase-13)\n* [14](phrase-14)\n* [15](phrase-15)\n* [16](phrase-16)\n* [17](phrase-17)\n\n## Big numbers !\n\n* 1000^2: [18](phrase-18)\n* 1000^3: [19](phrase-19)\n* 1000^4: [20](phrase-20)\n\nWe can also express powers of ten [21](phrase-21).\n\n## Small numbers\n\n* 10^-1: [22](phrase-22)\n* 10^-2: [23](phrase-23)\n* 10^-3: [24](phrase-24)\n",
+      "fulltext": "counting \nHere are the number from 1 to 10:\n\n* [dji](word-dji) (10)\n* [da](word-da) (9)\n* [je](word-je) (8)\n* [fe](word-fe) (7)\n* [shi](word-shi) (6)\n* [lil](word-lil) (5)\n* [ka](word-ka) (4)\n* [pe](word-pe) (3)\n* [de](word-de) (2)\n* [pi](word-pi) (1)\n\nThe powers of ten:\n\n* [ipi](word-ipi) (10)\n* [ipa](word-ipa) (100)\n* [ipu](word-ipu) (1000).\n\n## Some examples:\n\n* [11](phrase-11)\n* or [12](phrase-12)\n* or [13](phrase-13)\n* [14](phrase-14)\n* [15](phrase-15)\n* [16](phrase-16)\n* [17](phrase-17)\n\n## Big numbers !\n\n* 1000^2: [18](phrase-18)\n* 1000^3: [19](phrase-19)\n* 1000^4: [20](phrase-20)\n\nWe can also express powers of ten [21](phrase-21).\n\n## Small numbers\n\n* 10^-1: [22](phrase-22)\n* 10^-2: [23](phrase-23)\n* 10^-3: [24](phrase-24)\n gunes numbers and counting",
+      "glo": "numbers and counting"
     },
     "card-fruits": {
       "name": "fruits",
@@ -6059,8 +6022,8 @@
         "word-nepa",
         "card-counting"
       ],
-      "desc": "\n# The scale of [gu](word-gu)\n\nThese states correspond to increasing intensity of [gu](word-gu) and if they are not balanced by increasing practicality and material humility [nunes](card-nunes), they are just another names for hubris or psychosis.\n\n## The euphoric states\n\n* 10 [djipa](word-djipa) (remembering)\n* 9 [dapa](word-dapa) (joy)\n* 8 [jepa](word-jepa) (belonging)\n* 7 [fepa](word-fepa) (pride)\n* 6 [shipa](word-shipa) (belief)\n\n## From here, the states are more difficult\n\n* 5 [nelil](word-nelil) (confusion)\n* 4 [neka](word-neka) (shame)\n* 3 [nepe](word-nepe) (limbo)\n* 2 [nede](word-nede) (anguish)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division)\n",
-      "fulltext": "gunes \n# The scale of [gu](word-gu)\n\nThese states correspond to increasing intensity of [gu](word-gu) and if they are not balanced by increasing practicality and material humility [nunes](card-nunes), they are just another names for hubris or psychosis.\n\n## The euphoric states\n\n* 10 [djipa](word-djipa) (remembering)\n* 9 [dapa](word-dapa) (joy)\n* 8 [jepa](word-jepa) (belonging)\n* 7 [fepa](word-fepa) (pride)\n* 6 [shipa](word-shipa) (belief)\n\n## From here, the states are more difficult\n\n* 5 [nelil](word-nelil) (confusion)\n* 4 [neka](word-neka) (shame)\n* 3 [nepe](word-nepe) (limbo)\n* 2 [nede](word-nede) (anguish)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division)\n nunes nepa counting scale of gu states of consciousness",
+      "desc": "\n# The scale of [gu](word-gu)\n\nThese states correspond to increasing intensity of [gu](word-gu) and if they are\nnot balanced by increasing practicality and material humility [nunes](card-nunes),\nthey are just other names for hubris or psychosis.\n\n## The euphoric states\n\nThese need to be balanced with their equivalent [nunes](card-nunes) states.\n\n* 10 [djipa](word-djipa) (remembering being god.des) <=> [djifi](word-djifi) (humble)\n* 9 [dapa](word-dapa) (joy) <=> [dafi](word-dafi) (serving)\n* 8 [jepa](word-jepa) (belonging) <=> [jefi](word-jefi) (caring)\n* 7 [fepa](word-fepa) (pride) <=> [fefi](word-fefi) (adapting)\n* 6 [shipa](word-shipa) (believing) <=> [shifi](word-shifi) (learning)\n\n## The \"territorial\" states.\n\nFrom here, the states are more difficult. These states are shared on both\n[gu](word-gu) and [nu](word-nu) scales.\n\n* 5 [nelil](word-nelil) (confusion/insecure)\n* 4 [neka](word-neka) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n",
+      "fulltext": "gunes \n# The scale of [gu](word-gu)\n\nThese states correspond to increasing intensity of [gu](word-gu) and if they are\nnot balanced by increasing practicality and material humility [nunes](card-nunes),\nthey are just other names for hubris or psychosis.\n\n## The euphoric states\n\nThese need to be balanced with their equivalent [nunes](card-nunes) states.\n\n* 10 [djipa](word-djipa) (remembering being god.des) <=> [djifi](word-djifi) (humble)\n* 9 [dapa](word-dapa) (joy) <=> [dafi](word-dafi) (serving)\n* 8 [jepa](word-jepa) (belonging) <=> [jefi](word-jefi) (caring)\n* 7 [fepa](word-fepa) (pride) <=> [fefi](word-fefi) (adapting)\n* 6 [shipa](word-shipa) (believing) <=> [shifi](word-shifi) (learning)\n\n## The \"territorial\" states.\n\nFrom here, the states are more difficult. These states are shared on both\n[gu](word-gu) and [nu](word-nu) scales.\n\n* 5 [nelil](word-nelil) (confusion/insecure)\n* 4 [neka](word-neka) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n nunes nepa counting scale of gu states of consciousness",
       "glo": "scale of gu"
     },
     "card-nunes": {
@@ -6073,9 +6036,18 @@
         "card-gunes",
         "card-counting"
       ],
-      "desc": "\n# The scale of [nu](word-nu)\n\nThese states correspond to increasing levels of humility and practicality\n[nu](word-nu). They are not \"feelings\" but how the person is perceived by others\n(all others, not just close friends).\n\n## The \"flowing\" states\n\n* 10 [djifi](word-djifi) (humble)\n* 9 [dafi](word-dafi) (serving)\n* 8 [jefi](word-jefi) (caring)\n* 7 [fefi](word-fefi) (adapting)\n* 6 [shifi](word-shifi) (learning)\n\n## The \"territorial\" states\n\n* 5 [filil](word-filil) (insecure)\n* 4 [fika](word-fika) (restless)\n* 3 [fipe](word-fipe) (offensive)\n* 2 [fide](word-fide) (fighting)\n\n## And this is hell\n\n* 1 [fipi](word-fipi) (disembodied, fragmented)\n",
-      "fulltext": "nunes \n# The scale of [nu](word-nu)\n\nThese states correspond to increasing levels of humility and practicality\n[nu](word-nu). They are not \"feelings\" but how the person is perceived by others\n(all others, not just close friends).\n\n## The \"flowing\" states\n\n* 10 [djifi](word-djifi) (humble)\n* 9 [dafi](word-dafi) (serving)\n* 8 [jefi](word-jefi) (caring)\n* 7 [fefi](word-fefi) (adapting)\n* 6 [shifi](word-shifi) (learning)\n\n## The \"territorial\" states\n\n* 5 [filil](word-filil) (insecure)\n* 4 [fika](word-fika) (restless)\n* 3 [fipe](word-fipe) (offensive)\n* 2 [fide](word-fide) (fighting)\n\n## And this is hell\n\n* 1 [fipi](word-fipi) (disembodied, fragmented)\n gunes counting scale of nu states of humility",
+      "desc": "\n# The scale of [nu](word-nu)\n\nThese states correspond to increasing levels of humility and practicality\n[nu](word-nu). They are not \"feelings\" but how the person is perceived by others\n(all others, not just close friends).\n\n## The \"flowing\" states\n\nThese are the difficult (pragmatic) states that need to be cultivated to\nbalance their equivalent [gunes](card-gunes) (poetic) states.\n\nOn their own they can feel dreadful if not enlightenend by some purpose given\nby the poetic states. Balancing serves both ways.\n\n* 10 [djifi](word-djifi) (humble) <=> [djipa](word-djipa) (remembering being god.dess)\n* 9 [dafi](word-dafi) (serving) <=> [dapa](word-dapa) (joy)\n* 8 [jefi](word-jefi) (caring) <=> [jepa](word-jepa) (belonging)\n* 7 [fefi](word-fefi) (adapting) <=> [fepa](word-fepa) (pride)\n* 6 [shifi](word-shifi) (learning) <=> [shipa](word-shipa) (believing)\n\n## The \"territorial\" states\n\nThese states are the same as the ones on the spirit scale [gunes](card-gunes).\n\n* 5 [nelil](word-nelil) (confusion/insecure)\n* 4 [neka](word-neka) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n",
+      "fulltext": "nunes \n# The scale of [nu](word-nu)\n\nThese states correspond to increasing levels of humility and practicality\n[nu](word-nu). They are not \"feelings\" but how the person is perceived by others\n(all others, not just close friends).\n\n## The \"flowing\" states\n\nThese are the difficult (pragmatic) states that need to be cultivated to\nbalance their equivalent [gunes](card-gunes) (poetic) states.\n\nOn their own they can feel dreadful if not enlightenend by some purpose given\nby the poetic states. Balancing serves both ways.\n\n* 10 [djifi](word-djifi) (humble) <=> [djipa](word-djipa) (remembering being god.dess)\n* 9 [dafi](word-dafi) (serving) <=> [dapa](word-dapa) (joy)\n* 8 [jefi](word-jefi) (caring) <=> [jepa](word-jepa) (belonging)\n* 7 [fefi](word-fefi) (adapting) <=> [fepa](word-fepa) (pride)\n* 6 [shifi](word-shifi) (learning) <=> [shipa](word-shipa) (believing)\n\n## The \"territorial\" states\n\nThese states are the same as the ones on the spirit scale [gunes](card-gunes).\n\n* 5 [nelil](word-nelil) (confusion/insecure)\n* 4 [neka](word-neka) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n gunes counting scale of nu states of humility",
       "glo": "scale of nu"
+    },
+    "card-aaa": {
+      "name": "aaa",
+      "id": "card-aaa",
+      "type": "card",
+      "lang": "Why keoda ?",
+      "desc": "\nMy first goal was to create a language for love and sex. Something that would\nmake it easy and fun to express desire, play with power exchanges and have\nfun.\n\nI also felt that the languages I speak had lots of biais in terms of what is expected. For example, we have verbs to express penetration but we have no words to\nexpress \"grasping with the vagina\" ([25](phrase-25)  or \"kissing with the vulva\" ([26](phrase-26)).\n\nI wanted to have those words so I started to work on a language that would have\ngreat focus on the body.\n\nAs I worked on the language while going through difficult mental states, I discovered that creating words helped me better understand what I was going through so I added many words to explore what I felt with the beauty and terror of life.\n\nI then thought that I could use this language to sing since I could never decide between french (my native language) and english (my early puberty language and \"work\" language).\n\nSo here is **Keoda**, a language born in the realm of sexuality, evolved as a way of coping through mental illness and blossomed in the poetic realm as a way to express my awe at being alive, [iwigui](word-iwigui)...\n\nThis language helps me on my path to self-acceptance and love.\n\nMy hope by sharing it is that some of the confusions and weird notions of\nthis poetic endeavour might echo in someone's heart and help validate this\nperson's feelings.\n\nI feel utterly weird.\n\nI hope you do too, dear reader ♥️\n\nPS: Some pages have not yet been translated to english, thanks for your patience: \nthis whole thing is a work in progress...\n",
+      "fulltext": "aaa \nMy first goal was to create a language for love and sex. Something that would\nmake it easy and fun to express desire, play with power exchanges and have\nfun.\n\nI also felt that the languages I speak had lots of biais in terms of what is expected. For example, we have verbs to express penetration but we have no words to\nexpress \"grasping with the vagina\" ([25](phrase-25)  or \"kissing with the vulva\" ([26](phrase-26)).\n\nI wanted to have those words so I started to work on a language that would have\ngreat focus on the body.\n\nAs I worked on the language while going through difficult mental states, I discovered that creating words helped me better understand what I was going through so I added many words to explore what I felt with the beauty and terror of life.\n\nI then thought that I could use this language to sing since I could never decide between french (my native language) and english (my early puberty language and \"work\" language).\n\nSo here is **Keoda**, a language born in the realm of sexuality, evolved as a way of coping through mental illness and blossomed in the poetic realm as a way to express my awe at being alive, [iwigui](word-iwigui)...\n\nThis language helps me on my path to self-acceptance and love.\n\nMy hope by sharing it is that some of the confusions and weird notions of\nthis poetic endeavour might echo in someone's heart and help validate this\nperson's feelings.\n\nI feel utterly weird.\n\nI hope you do too, dear reader ♥️\n\nPS: Some pages have not yet been translated to english, thanks for your patience: \nthis whole thing is a work in progress...\n Why keoda ?",
+      "glo": "Why keoda ?"
     },
     "card-corresp": {
       "name": "corresp",
@@ -6203,28 +6175,39 @@
       "name": "11",
       "id": "phrase-11",
       "type": "phrase",
-      "phrase": "11",
+      "phrase": "14",
       "see": [
         "word-pi",
         "word-ipi",
-        "word-pi"
+        "word-ka"
       ],
-      "fulltext": "11 pi ipi pi"
+      "fulltext": "11 pi ipi ka"
     },
     "phrase-12": {
       "name": "12",
       "id": "phrase-12",
       "type": "phrase",
-      "phrase": "11",
+      "phrase": "14",
       "see": [
         "word-ipi",
-        "word-pi"
+        "word-ka"
       ],
-      "fulltext": "12 ipi pi"
+      "fulltext": "12 ipi ka"
     },
     "phrase-13": {
       "name": "13",
       "id": "phrase-13",
+      "type": "phrase",
+      "phrase": "14",
+      "see": [
+        "word-dji",
+        "word-ka"
+      ],
+      "fulltext": "13 dji ka"
+    },
+    "phrase-14": {
+      "name": "14",
+      "id": "phrase-14",
       "type": "phrase",
       "phrase": "24",
       "see": [
@@ -6232,11 +6215,11 @@
         "word-ipi",
         "word-ka"
       ],
-      "fulltext": "13 de ipi ka"
+      "fulltext": "14 de ipi ka"
     },
-    "phrase-14": {
-      "name": "14",
-      "id": "phrase-14",
+    "phrase-15": {
+      "name": "15",
+      "id": "phrase-15",
       "type": "phrase",
       "phrase": "359",
       "see": [
@@ -6246,11 +6229,11 @@
         "word-ipi",
         "word-da"
       ],
-      "fulltext": "14 pe ipa lil ipi da"
+      "fulltext": "15 pe ipa lil ipi da"
     },
-    "phrase-15": {
-      "name": "15",
-      "id": "phrase-15",
+    "phrase-16": {
+      "name": "16",
+      "id": "phrase-16",
       "type": "phrase",
       "phrase": "2019",
       "see": [
@@ -6259,11 +6242,11 @@
         "word-dji",
         "word-da"
       ],
-      "fulltext": "15 de ipu dji da"
+      "fulltext": "16 de ipu dji da"
     },
-    "phrase-16": {
-      "name": "16",
-      "id": "phrase-16",
+    "phrase-17": {
+      "name": "17",
+      "id": "phrase-17",
       "type": "phrase",
       "phrase": "105'000",
       "see": [
@@ -6271,45 +6254,11 @@
         "word-lil",
         "word-ipu"
       ],
-      "fulltext": "16 ipa lil ipu"
-    },
-    "phrase-17": {
-      "name": "17",
-      "id": "phrase-17",
-      "type": "phrase",
-      "phrase": "14",
-      "see": [
-        "word-pi",
-        "word-ipi",
-        "word-ka"
-      ],
-      "fulltext": "17 pi ipi ka"
+      "fulltext": "17 ipa lil ipu"
     },
     "phrase-18": {
       "name": "18",
       "id": "phrase-18",
-      "type": "phrase",
-      "phrase": "14",
-      "see": [
-        "word-ipi",
-        "word-ka"
-      ],
-      "fulltext": "18 ipi ka"
-    },
-    "phrase-19": {
-      "name": "19",
-      "id": "phrase-19",
-      "type": "phrase",
-      "phrase": "14",
-      "see": [
-        "word-dji",
-        "word-ka"
-      ],
-      "fulltext": "19 dji ka"
-    },
-    "phrase-20": {
-      "name": "20",
-      "id": "phrase-20",
       "type": "phrase",
       "phrase": "million",
       "see": [
@@ -6317,35 +6266,35 @@
         "word-de",
         "word-uki"
       ],
-      "fulltext": "20 ipu de uki"
+      "fulltext": "18 ipu de uki"
     },
-    "phrase-21": {
-      "name": "21",
-      "id": "phrase-21",
+    "phrase-19": {
+      "name": "19",
+      "id": "phrase-19",
       "type": "phrase",
-      "phrase": "milliard",
+      "phrase": "billion",
       "see": [
         "word-ipu",
         "word-pe",
         "word-uki"
       ],
-      "fulltext": "21 ipu pe uki"
+      "fulltext": "19 ipu pe uki"
     },
-    "phrase-22": {
-      "name": "22",
-      "id": "phrase-22",
+    "phrase-20": {
+      "name": "20",
+      "id": "phrase-20",
       "type": "phrase",
-      "phrase": "mille milliards",
+      "phrase": "trillion",
       "see": [
         "word-ipu",
         "word-ka",
         "word-uki"
       ],
-      "fulltext": "22 ipu ka uki"
+      "fulltext": "20 ipu ka uki"
     },
-    "phrase-23": {
-      "name": "23",
-      "id": "phrase-23",
+    "phrase-21": {
+      "name": "21",
+      "id": "phrase-21",
       "type": "phrase",
       "phrase": "10^4",
       "see": [
@@ -6353,42 +6302,64 @@
         "word-ka",
         "word-uki"
       ],
-      "fulltext": "23 ipa ka uki"
+      "fulltext": "21 ipa ka uki"
     },
-    "phrase-24": {
-      "name": "24",
-      "id": "phrase-24",
+    "phrase-22": {
+      "name": "22",
+      "id": "phrase-22",
       "type": "phrase",
-      "phrase": "0.1",
+      "phrase": "tenth",
       "see": [
         "word-ipi",
         "word-iki"
       ],
-      "fulltext": "24 ipi iki"
+      "fulltext": "22 ipi iki"
     },
-    "phrase-25": {
-      "name": "25",
-      "id": "phrase-25",
+    "phrase-23": {
+      "name": "23",
+      "id": "phrase-23",
       "type": "phrase",
-      "phrase": "0.01",
+      "phrase": "hundredth",
       "see": [
         "word-ipi",
         "word-de",
         "word-iki"
       ],
-      "fulltext": "25 ipi de iki"
+      "fulltext": "23 ipi de iki"
     },
-    "phrase-26": {
-      "name": "26",
-      "id": "phrase-26",
+    "phrase-24": {
+      "name": "24",
+      "id": "phrase-24",
       "type": "phrase",
-      "phrase": "0.001",
+      "phrase": "thouandth",
       "see": [
         "word-ipi",
         "word-pe",
         "word-iki"
       ],
-      "fulltext": "26 ipi pe iki"
+      "fulltext": "24 ipi pe iki"
+    },
+    "phrase-25": {
+      "name": "25",
+      "id": "phrase-25",
+      "type": "phrase",
+      "phrase": "grasp my penis with your vagina",
+      "see": [
+        "word-yinu",
+        "word-taj"
+      ],
+      "fulltext": "25 yinu taj"
+    },
+    "phrase-26": {
+      "name": "26",
+      "id": "phrase-26",
+      "type": "phrase",
+      "phrase": "kiss my lips with your vulva",
+      "see": [
+        "word-yon",
+        "word-la"
+      ],
+      "fulltext": "26 yon la"
     },
     "phrase-27": {
       "name": "27",

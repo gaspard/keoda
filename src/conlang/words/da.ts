@@ -12,8 +12,7 @@ _.see(_.lamagoa)
 _.see(_.goa)
 
 export const dapa = _.word('dapa', {
-  adj: 'happy',
-  noun: 'joy, complexe emotion',
+  noun: 'joy',
   see: () => [_.gunes, _.dafi],
 })
 

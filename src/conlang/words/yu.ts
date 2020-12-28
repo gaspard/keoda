@@ -1,13 +1,12 @@
 import * as _ from '.'
 
 export const yu = _.word('yu', {
-  noun: 'joie',
-  adj: 'joyeux',
+  noun: 'joy',
+  adj: 'joyful',
 })
 
 export const eyu = _.word('eyu', {
-  prep: 'si',
-  desc: () => `Être joyeux = être tellement = si xxx`,
+  prep: 'if',
   etym: () => [_.e, _.yu],
 })
 

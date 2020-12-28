@@ -1,8 +1,14 @@
 import * as _ from '.'
 
 export const yin = _.word('yin', {
-  noun: 'vagin',
-  desc: () => `De ${_.yu} et ${_.in}`,
+  noun: 'vagina',
+  etym: () => [_.yu, _.in],
+})
+
+export const yinu = _.word('yinu', {
+  verb: 'grasp with the vagina',
+  glo: 'vagina.pull',
+  etym: () => [_.yin, _.u],
 })
 
 _.see(_.alayin)

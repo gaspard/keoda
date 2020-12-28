@@ -13,21 +13,29 @@ ${_.nu}. They are not "feelings" but how the person is perceived by others
 
 ## The "flowing" states
 
-* 10 ${_.djifi} (humble)
-* 9 ${_.dafi} (serving)
-* 8 ${_.jefi} (caring)
-* 7 ${_.fefi} (adapting)
-* 6 ${_.shifi} (learning)
+These are the difficult (pragmatic) states that need to be cultivated to
+balance their equivalent ${_.gunes} (poetic) states.
+
+On their own they can feel dreadful if not enlightenend by some purpose given
+by the poetic states. Balancing serves both ways.
+
+* 10 ${_.djifi} (humble) <=> ${_.djipa} (remembering being god.dess)
+* 9 ${_.dafi} (serving) <=> ${_.dapa} (joy)
+* 8 ${_.jefi} (caring) <=> ${_.jepa} (belonging)
+* 7 ${_.fefi} (adapting) <=> ${_.fepa} (pride)
+* 6 ${_.shifi} (learning) <=> ${_.shipa} (believing)
 
 ## The "territorial" states
 
-* 5 ${_.filil} (insecure)
-* 4 ${_.fika} (restless)
-* 3 ${_.fipe} (offensive)
-* 2 ${_.fide} (fighting)
+These states are the same as the ones on the spirit scale ${_.gunes}.
+
+* 5 ${_.nelil} (confusion/insecure)
+* 4 ${_.neka} (shame/restless)
+* 3 ${_.nepe} (limbo/offensive)
+* 2 ${_.nede} (anguish/fighting)
 
 ## And this is hell
 
-* 1 ${_.fipi} (disembodied, fragmented)
+* 1 ${_.nepi} (division/fragmented)
 `,
 })

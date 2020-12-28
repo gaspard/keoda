@@ -51,13 +51,9 @@ export const negupi = _.word('negupi', {
 })
 
 export const nepi = _.word('nepi', {
-  adj: 'division',
-  see: () => [_.gunes, _.fipi],
-})
-
-export const fipi = _.word('fipi', {
+  noun: 'division',
   adj: 'disembodied, fragmented',
-  see: () => [_.nunes, _.nepi],
+  see: () => [_.gunes, _.nunes],
 })
 
 // L'écoute de djopi ouvre à hapi

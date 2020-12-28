@@ -7,25 +7,32 @@ export const gunes = _.card('gunes', {
   desc: () => `
 # The scale of ${_.gu}
 
-These states correspond to increasing intensity of ${_.gu} and if they are not balanced by increasing practicality and material humility ${_.nunes}, they are just another names for hubris or psychosis.
+These states correspond to increasing intensity of ${_.gu} and if they are
+not balanced by increasing practicality and material humility ${_.nunes},
+they are just other names for hubris or psychosis.
 
 ## The euphoric states
 
-* 10 ${_.djipa} (remembering)
-* 9 ${_.dapa} (joy)
-* 8 ${_.jepa} (belonging)
-* 7 ${_.fepa} (pride)
-* 6 ${_.shipa} (belief)
+These need to be balanced with their equivalent ${_.nunes} states.
 
-## From here, the states are more difficult
+* 10 ${_.djipa} (remembering being god.des) <=> ${_.djifi} (humble)
+* 9 ${_.dapa} (joy) <=> ${_.dafi} (serving)
+* 8 ${_.jepa} (belonging) <=> ${_.jefi} (caring)
+* 7 ${_.fepa} (pride) <=> ${_.fefi} (adapting)
+* 6 ${_.shipa} (believing) <=> ${_.shifi} (learning)
 
-* 5 ${_.nelil} (confusion)
-* 4 ${_.neka} (shame)
-* 3 ${_.nepe} (limbo)
-* 2 ${_.nede} (anguish)
+## The "territorial" states.
+
+From here, the states are more difficult. These states are shared on both
+${_.gu} and ${_.nu} scales.
+
+* 5 ${_.nelil} (confusion/insecure)
+* 4 ${_.neka} (shame/restless)
+* 3 ${_.nepe} (limbo/offensive)
+* 2 ${_.nede} (anguish/fighting)
 
 ## And this is hell
 
-* 1 ${_.nepi} (division)
+* 1 ${_.nepi} (division/fragmented)
 `,
 })

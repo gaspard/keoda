@@ -21,11 +21,7 @@ export const lilaj = _.word('lilaj', {
 
 export const nelil = _.word('nelil', {
   noun: 'confusion',
-  verb: 'to confound',
-  see: () => [_.gunes, _.filil],
-})
-
-export const filil = _.word('filil', {
   adj: 'insecure',
-  see: () => [_.nunes, _.nelil],
+  verb: 'to confound',
+  see: () => [_.gunes, _.nunes],
 })

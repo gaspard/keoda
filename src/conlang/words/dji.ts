@@ -7,7 +7,7 @@ export const dji = _.word('dji', {
 })
 
 export const djipa = _.word('djipa', {
-  adj: 'remembering (being god.dess)',
+  noun: 'remembering (being god.dess)',
   see: () => [_.gunes, _.djifi],
 })
 

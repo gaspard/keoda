@@ -1,8 +1,8 @@
 import * as _ from '.'
 
 export const taj = _.word('taj', {
-  noun: 'pénis',
-  verb: 'pénétrer avec le pénis',
+  noun: 'penis',
+  verb: 'penis action',
   etym: () => [_.te, _.aj],
 })
 
