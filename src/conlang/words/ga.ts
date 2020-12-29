@@ -8,8 +8,13 @@ export const ga = _.word('ga', {
 _.see(_.gu)
 
 export const gana = _.word('gana', {
-  noun: 'la terre',
+  noun: 'earth',
   etym: () => [_.ga, _.na],
+})
+
+export const ganaroa = _.alt('ganaroa', {
+  glo: 'earth.INE',
+  alt: () => _.gana,
 })
 
 // C'est l'eau qui devrait être la caresse 'gai', non ?

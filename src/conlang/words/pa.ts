@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const pa = _.word('pa', {
-  noun: 'everything, the mystery',
+  noun: 'everything, mystery',
   see: () => [_.fi],
 })
 

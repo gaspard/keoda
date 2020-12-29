@@ -7,7 +7,7 @@ export const yoda = _.word('yoda', {
 
 export const oda = _.word('oda', {
   noun: 'body, place of life',
-  pron: 'me/us (1SG.INDEF)',
+  pron: 'me/us (1SG.INDF)',
   adj: 'alive',
   suffix: 'animal',
 })
@@ -20,7 +20,7 @@ export const oda_adj = _.alt('oda', {
 })
 
 export const oha = _.word('oha', {
-  pron: 'poetic self (1G.INDEF)',
+  pron: 'poetic self (1G.INDF)',
   etym: () => [_.o, _.yada],
 })
 

@@ -16,7 +16,7 @@ export const palajil = _.word('palajil', {
 
 export const kepal = _.word('kepal', {
   noun: 'anus',
-  desc: () => `De ${_.ke} (caché) et ${_.pal} (fesses).`,
+  etym: () => [_.ke, _.pal],
 })
 
 export const hapal = _.word('hapal', {

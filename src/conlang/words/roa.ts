@@ -1,19 +1,24 @@
 import * as _ from '.'
 
 export const roa = _.word('roa', {
-  prep: 'dans',
+  prep: 'in',
+  suffix: 'in (inessive case)',
+  glo: 'INE',
 })
 
 export const toroa = _.word('toroa', {
-  prep: 'dans mon',
+  prep: 'in my/our',
+  etym: () => [_.to, _.roa],
 })
 
 export const tiroa = _.word('tiroa', {
-  prep: 'dans ton',
+  prep: 'in your',
+  etym: () => [_.ti, _.roa],
 })
 
 export const taroa = _.word('taroa', {
-  prep: 'dans son',
+  prep: 'in their',
+  etym: () => [_.ta, _.roa],
 })
 
 _.see(_.ro)

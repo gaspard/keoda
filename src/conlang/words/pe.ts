@@ -11,7 +11,7 @@ _.see(_.pemaconj)
 _.see(_.counting)
 
 export const peda = _.word('peda', {
-  pron: 'some (3PL.INDEF)',
+  pron: 'some (3PL.INDF)',
   etym: () => [_.pe, _.oda],
 })
 _.see(_.pronouns)

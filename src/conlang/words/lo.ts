@@ -1,16 +1,16 @@
 import * as _ from '.'
 
 export const lo = _.word('lo', {
-  noun: 'soumis.e, humide, qui reçoit',
+  adj: 'wet, who receives',
 })
 
 export const loda = _.word('loda', {
-  noun: 'personne soumis.e',
+  noun: 'submissive',
   etym: () => [_.lo, _.oda],
 })
 
 export const loru = _.word('loru', {
-  noun: 'devenir petit.e (se soumettre)',
+  verb: 'to submit, to become small',
   adj: 'humilité',
   etym: () => [_.lo, _.ru],
 })

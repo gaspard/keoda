@@ -14,16 +14,24 @@ _.see(_.liro)
 _.see(_.lire)
 
 export const lirana = _.word('lirana', {
-  noun: 'promesse',
+  noun: 'promise',
   etym: () => [_.lira, _.na],
 })
 
 export const ilir = _.word('ilir', {
-  noun: 'future toi (tu vas...)',
+  noun: 'future you (you will...)',
+  etym: () => [_.i, _.lir],
 })
 
 export const elir = _.word('elir', {
-  noun: 'le future exist (dans le future)',
+  noun: 'in the future',
+  glo: 'future.BE',
+  etym: () => [_.e, _.lir],
+})
+
+export const ofolir = _.alt('ofolir', {
+  glo: 'I.INDF.whip',
+  alt: () => _.fo,
 })
 
 export const omilirpal = _.example(

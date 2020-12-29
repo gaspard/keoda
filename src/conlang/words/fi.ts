@@ -1,8 +1,8 @@
 import * as _ from '.'
 
 export const fi = _.word('fi', {
-  noun: 'thread, relier',
-  verb: 'connect',
+  noun: 'thread',
+  verb: 'to connect',
   see: () => [_.pa],
 })
 

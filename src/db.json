@@ -6,13 +6,14 @@
       "type": "word",
       "prep": "to (her, him)",
       "conj": "them (3SG)",
-      "fulltext": "a ahada ada lira lema them (3SG) to (her, him)",
+      "fulltext": "a ahada ada lira lema eha them (3SG) to (her, him)",
       "glo": "to (her, him)",
       "deriv": [
         "word-ahada",
         "word-ada",
         "word-lira",
-        "word-lema"
+        "word-lema",
+        "word-eha"
       ]
     },
     "word-ahada": {
@@ -346,11 +347,12 @@
       "name": "au",
       "id": "word-au",
       "type": "word",
-      "noun": "coeur",
-      "verb": "aimer/recevoir",
-      "fulltext": "au aupa augu aupi coeur aimer/recevoir",
-      "glo": "coeur",
+      "noun": "heart",
+      "verb": "to love/to receive",
+      "fulltext": "au auhu aupa augu aupi heart to love/to receive",
+      "glo": "heart",
       "deriv": [
+        "word-auhu",
         "word-aupa",
         "word-augu",
         "word-aupi"
@@ -360,21 +362,36 @@
       "name": "auhu",
       "id": "word-auhu",
       "type": "word",
-      "noun": "tomber amoureux.se, attraction du cœur",
-      "fulltext": "auhu tomber amoureux.se, attraction du cœur",
-      "glo": "tomber amoureux.se, attraction du cœur"
+      "noun": "to fall in love, pull of the heart",
+      "etym": [
+        "word-au",
+        "word-u"
+      ],
+      "fulltext": "auhu word-au word-u to fall in love, pull of the heart",
+      "glo": "to fall in love, pull of the heart"
     },
     "word-aupa": {
       "name": "aupa",
       "id": "word-aupa",
       "type": "word",
-      "noun": "gratitude (aimer tout)",
+      "noun": "gratitude (love all)",
       "etym": [
         "word-au",
         "word-pa"
       ],
-      "fulltext": "aupa word-au word-pa gratitude (aimer tout)",
-      "glo": "gratitude (aimer tout)"
+      "fulltext": "aupa word-au word-pa gratitude (love all)",
+      "glo": "gratitude (love all)"
+    },
+    "word-auau": {
+      "name": "auau",
+      "id": "word-auau",
+      "type": "word",
+      "verb": "to make love",
+      "see": [
+        "word-zuzu"
+      ],
+      "fulltext": "auau zuzu to make love",
+      "glo": "to make love"
     },
     "word-awi": {
       "name": "awi",
@@ -423,8 +440,11 @@
       "id": "word-baj",
       "type": "word",
       "noun": "membre inférieur",
-      "fulltext": "baj membre inférieur",
-      "glo": "membre inférieur"
+      "fulltext": "baj kebaj membre inférieur",
+      "glo": "membre inférieur",
+      "deriv": [
+        "word-kebaj"
+      ]
     },
     "word-djobaj": {
       "name": "djobaj",
@@ -448,8 +468,11 @@
       "id": "word-kebaj",
       "type": "word",
       "noun": "testicules",
-      "desc": "Caché [ke](word-ke) entre les jambes [baj](word-baj).",
-      "fulltext": "kebaj Caché [ke](word-ke) entre les jambes [baj](word-baj). testicules",
+      "etym": [
+        "word-ke",
+        "word-baj"
+      ],
+      "fulltext": "kebaj word-ke word-baj testicules",
       "glo": "testicules"
     },
     "word-beo": {
@@ -564,13 +587,13 @@
       "name": "liri",
       "id": "word-liri",
       "type": "word",
-      "tens": "later today (FUT.HOD)",
+      "tens": "later today",
+      "glo": "FUT.HOD",
       "etym": [
         "word-lir",
         "word-i"
       ],
-      "fulltext": "liri word-lir word-i later today (FUT.HOD)",
-      "glo": "later today (FUT.HOD)"
+      "fulltext": "liri word-lir word-i later today"
     },
     "word-lemi": {
       "name": "lemi",
@@ -636,12 +659,18 @@
       "name": "da",
       "id": "word-da",
       "type": "word",
-      "noun": "lieu, 9",
-      "suffix": "lieu",
-      "fulltext": "da agaukida dahem dahir goa lama lamoa lieu, 9 lieu",
-      "glo": "lieu, 9",
+      "noun": "place, 9",
+      "suffix": "place",
+      "see": [
+        "card-kdana",
+        "card-counting",
+        "word-sen"
+      ],
+      "fulltext": "da agaukida dana dahem dahir goa lama lamoa kdana counting sen place, 9 place",
+      "glo": "place, 9",
       "deriv": [
         "word-agaukida",
+        "word-dana",
         "word-dahem",
         "word-dahir",
         "word-goa",
@@ -683,6 +712,18 @@
       ],
       "fulltext": "guda gulei the place of the experience",
       "glo": "the place of the experience"
+    },
+    "word-dana": {
+      "name": "dana",
+      "id": "word-dana",
+      "type": "word",
+      "noun": "geography",
+      "etym": [
+        "word-da",
+        "word-na"
+      ],
+      "fulltext": "dana word-da word-na geography",
+      "glo": "geography"
     },
     "word-de": {
       "name": "de",
@@ -948,10 +989,11 @@
       "name": "dom",
       "id": "word-dom",
       "type": "word",
-      "adj": "très fort",
-      "desc": "\nImplique un contact très profond, intime, fort, non pas par la force physique\nmais par l’intensité de la circulation des sensations, du “donner” et\n“recevoir”.\n\nPar exemple, la phrase suivante:\n\n[object Object]\n\nN’implique pas automatiquement la copulation méchanique et bestiale (même si\ncette dernière est possible), mais plutôt la recherche d’une très grande\nprofondeur et intensité qui pourrait aussi se traduire par beaucoup de\nlenteur ou de câlins ou de contrastes, etc.\n",
-      "fulltext": "dom \nImplique un contact très profond, intime, fort, non pas par la force physique\nmais par l’intensité de la circulation des sensations, du “donner” et\n“recevoir”.\n\nPar exemple, la phrase suivante:\n\n[object Object]\n\nN’implique pas automatiquement la copulation méchanique et bestiale (même si\ncette dernière est possible), mais plutôt la recherche d’une très grande\nprofondeur et intensité qui pourrait aussi se traduire par beaucoup de\nlenteur ou de câlins ou de contrastes, etc.\n très fort",
-      "glo": "très fort"
+      "adj": "intense",
+      "adv": "intensely",
+      "desc": "\nImplies a very deep, intimate and intense contact. Not something out\nof brute force but through whatever creates intensity in the specific\ngiving and receiving vsituation.\n",
+      "fulltext": "dom \nImplies a very deep, intimate and intense contact. Not something out\nof brute force but through whatever creates intensity in the specific\ngiving and receiving vsituation.\n intense intensely",
+      "glo": "intense"
     },
     "word-don": {
       "name": "don",
@@ -1053,15 +1095,70 @@
       "name": "e",
       "id": "word-e",
       "type": "word",
-      "verb": "deviens, soit, être",
-      "fulltext": "e lire leme edja eyu deviens, soit, être",
-      "glo": "deviens, soit, être",
+      "verb": "to be",
+      "prefix": "passiv",
+      "glo": "BE",
+      "fulltext": "e lire leme eho ehi eha edja elem elemir elir eyu to be passiv",
       "deriv": [
         "word-lire",
         "word-leme",
+        "word-eho",
+        "word-ehi",
+        "word-eha",
         "word-edja",
+        "word-elem",
+        "word-elemir",
+        "word-elir",
         "word-eyu"
       ]
+    },
+    "word-eho": {
+      "name": "eho",
+      "id": "word-eho",
+      "type": "word",
+      "conj": "I/we passiv",
+      "glo": "1SG.INDF.PAS",
+      "etym": [
+        "word-e",
+        "word-o"
+      ],
+      "fulltext": "eho word-e word-o zo I/we passiv",
+      "deriv": [
+        "word-zo"
+      ]
+    },
+    "word-ehi": {
+      "name": "ehi",
+      "id": "word-ehi",
+      "type": "word",
+      "conj": "you passiv",
+      "glo": "2SG.PAS",
+      "etym": [
+        "word-e",
+        "word-i"
+      ],
+      "see": [
+        "word-zi"
+      ],
+      "fulltext": "ehi word-e word-i zi zi you passiv",
+      "deriv": [
+        "word-zi"
+      ]
+    },
+    "word-eha": {
+      "name": "eha",
+      "id": "word-eha",
+      "type": "word",
+      "conj": "they",
+      "glo": "3SG.PAS",
+      "etym": [
+        "word-e",
+        "word-a"
+      ],
+      "see": [
+        "word-zo"
+      ],
+      "fulltext": "eha word-e word-a zo they"
     },
     "word-edja": {
       "name": "edja",
@@ -1152,6 +1249,30 @@
       ],
       "fulltext": "nem word-ne word-em mourir, ne pas vivre",
       "glo": "mourir, ne pas vivre"
+    },
+    "word-enu": {
+      "name": "enu",
+      "id": "word-enu",
+      "type": "word",
+      "verb": "to embroider",
+      "fulltext": "enu sienu pienu to embroider",
+      "glo": "to embroider",
+      "deriv": [
+        "word-sienu",
+        "word-pienu"
+      ]
+    },
+    "word-sienu": {
+      "name": "sienu",
+      "id": "word-sienu",
+      "type": "word",
+      "adj": "delicately",
+      "etym": [
+        "word-si",
+        "word-enu"
+      ],
+      "fulltext": "sienu word-si word-enu delicately",
+      "glo": "delicately"
     },
     "word-dim": {
       "name": "dim",
@@ -1401,13 +1522,13 @@
       "name": "fi",
       "id": "word-fi",
       "type": "word",
-      "noun": "thread, relier",
-      "verb": "connect",
+      "noun": "thread",
+      "verb": "to connect",
       "see": [
         "word-pa"
       ],
-      "fulltext": "fi fishasha gufi pa thread, relier connect",
-      "glo": "thread, relier",
+      "fulltext": "fi fishasha gufi pa thread to connect",
+      "glo": "thread",
       "deriv": [
         "word-fishasha",
         "word-gufi"
@@ -1482,9 +1603,9 @@
       "name": "fo",
       "id": "word-fo",
       "type": "word",
-      "verb": "fouetter",
-      "fulltext": "fo fouetter",
-      "glo": "fouetter"
+      "verb": "to whip",
+      "fulltext": "fo to whip",
+      "glo": "to whip"
     },
     "word-ga": {
       "name": "ga",
@@ -1507,13 +1628,13 @@
       "name": "gana",
       "id": "word-gana",
       "type": "word",
-      "noun": "la terre",
+      "noun": "earth",
       "etym": [
         "word-ga",
         "word-na"
       ],
-      "fulltext": "gana word-ga word-na la terre",
-      "glo": "la terre"
+      "fulltext": "gana word-ga word-na earth",
+      "glo": "earth"
     },
     "word-gai": {
       "name": "gai",
@@ -1588,30 +1709,6 @@
         "word-ga"
       ],
       "fulltext": "nega word-ne word-ga fou (sans esprit) de manière folle"
-    },
-    "word-enu": {
-      "name": "enu",
-      "id": "word-enu",
-      "type": "word",
-      "verb": "to embroider",
-      "fulltext": "enu sienu pienu to embroider",
-      "glo": "to embroider",
-      "deriv": [
-        "word-sienu",
-        "word-pienu"
-      ]
-    },
-    "word-sienu": {
-      "name": "sienu",
-      "id": "word-sienu",
-      "type": "word",
-      "adj": "delicately",
-      "etym": [
-        "word-si",
-        "word-enu"
-      ],
-      "fulltext": "sienu word-si word-enu delicately",
-      "glo": "delicately"
     },
     "word-gi": {
       "name": "gi",
@@ -1886,38 +1983,39 @@
       "name": "gugai",
       "id": "word-gugai",
       "type": "word",
-      "noun": "fertilité",
+      "noun": "fertility",
       "adj": "fertile",
       "etym": [
         "word-gu",
         "word-gai"
       ],
-      "fulltext": "gugai word-gu word-gai fertilité fertile",
-      "glo": "fertilité"
+      "fulltext": "gugai word-gu word-gai fertility fertile",
+      "glo": "fertility"
     },
     "word-augu": {
       "name": "augu",
       "id": "word-augu",
       "type": "word",
-      "adj": "confiance",
+      "noun": "trust",
+      "verb": "to trust",
       "etym": [
         "word-au",
         "word-gu"
       ],
-      "fulltext": "augu word-au word-gu confiance",
-      "glo": "confiance"
+      "fulltext": "augu word-au word-gu trust to trust",
+      "glo": "trust"
     },
     "word-negu": {
       "name": "negu",
       "id": "word-negu",
       "type": "word",
-      "noun": "l'agitation, vouloir changer, changer le monde, chercher la perfection pour ne plus rien sentir, la dissociation",
-      "desc": "C'est l'inverse de la confiance: [augu](word-augu)",
+      "noun": "agitation/dissociation",
+      "desc": "Searching for perfection to feel less. Opposite of [augu](word-augu)",
       "see": [
         "word-shipa"
       ],
-      "fulltext": "negu C'est l'inverse de la confiance: [augu](word-augu) shipa l'agitation, vouloir changer, changer le monde, chercher la perfection pour ne plus rien sentir, la dissociation",
-      "glo": "l'agitation, vouloir changer, changer le monde, chercher la perfection pour ne plus rien sentir, la dissociation"
+      "fulltext": "negu Searching for perfection to feel less. Opposite of [augu](word-augu) shipa agitation/dissociation",
+      "glo": "agitation/dissociation"
     },
     "word-guyuina": {
       "name": "guyuina",
@@ -1938,13 +2036,13 @@
       "name": "gupa",
       "id": "word-gupa",
       "type": "word",
-      "noun": "nature (tout le sombre/profondeur)",
+      "noun": "nature",
       "glo": "nature",
       "etym": [
         "word-gu",
         "word-pa"
       ],
-      "fulltext": "gupa word-gu word-pa nature (tout le sombre/profondeur)"
+      "fulltext": "gupa word-gu word-pa nature"
     },
     "word-ha": {
       "name": "ha",
@@ -2089,15 +2187,17 @@
       "type": "word",
       "suffix": "caress",
       "conj": "you (2SG)",
-      "fulltext": "i liri lemi gi gui iha ida mi shei you (2SG) caress",
+      "fulltext": "i liri lemi ehi gi gui iha ida ilir mi shei you (2SG) caress",
       "glo": "caress",
       "deriv": [
         "word-liri",
         "word-lemi",
+        "word-ehi",
         "word-gi",
         "word-gui",
         "word-iha",
         "word-ida",
+        "word-ilir",
         "word-mi",
         "word-shei"
       ]
@@ -2483,13 +2583,15 @@
       "name": "ke",
       "id": "word-ke",
       "type": "word",
-      "adj": "caché",
-      "prefix": "caché",
-      "fulltext": "ke kela keoda keyon caché caché",
-      "glo": "caché",
+      "prefix": "hidden",
+      "fulltext": "ke kebaj kela keli keoda kepal keyon hidden",
+      "glo": "hidden",
       "deriv": [
+        "word-kebaj",
         "word-kela",
+        "word-keli",
         "word-keoda",
+        "word-kepal",
         "word-keyon"
       ]
     },
@@ -2957,7 +3059,7 @@
         "word-lei",
         "word-em"
       ],
-      "fulltext": "lem word-lei word-em lemi lema lemu lemo leme gulem lived past",
+      "fulltext": "lem word-lei word-em lemi lema lemu lemo leme gulem lemir elem lemana lived past",
       "glo": "past",
       "deriv": [
         "word-lemi",
@@ -2965,33 +3067,62 @@
         "word-lemu",
         "word-lemo",
         "word-leme",
-        "word-gulem"
+        "word-gulem",
+        "word-lemir",
+        "word-elem",
+        "word-lemana"
       ]
     },
     "word-lemir": {
       "name": "lemir",
       "id": "word-lemir",
       "type": "word",
-      "suffix": "toujours",
-      "desc": "De [lem](word-lem) et [lir](word-lir).",
-      "fulltext": "lemir De [lem](word-lem) et [lir](word-lir). toujours",
-      "glo": "toujours"
+      "suffix": "always",
+      "etym": [
+        "word-lem",
+        "word-lir"
+      ],
+      "fulltext": "lemir word-lem word-lir elemir always",
+      "glo": "always",
+      "deriv": [
+        "word-elemir"
+      ]
     },
     "word-elem": {
       "name": "elem",
       "id": "word-elem",
       "type": "word",
-      "noun": "le passé existe (dans le passé)",
-      "fulltext": "elem le passé existe (dans le passé)",
-      "glo": "le passé existe (dans le passé)"
+      "noun": "in the past",
+      "etym": [
+        "word-e",
+        "word-lem"
+      ],
+      "fulltext": "elem word-e word-lem in the past",
+      "glo": "in the past"
     },
     "word-elemir": {
       "name": "elemir",
       "id": "word-elemir",
       "type": "word",
-      "noun": "de toute éternité",
-      "fulltext": "elemir de toute éternité",
-      "glo": "de toute éternité"
+      "noun": "in all eternity",
+      "etym": [
+        "word-e",
+        "word-lemir"
+      ],
+      "fulltext": "elemir word-e word-lemir in all eternity",
+      "glo": "in all eternity"
+    },
+    "word-lemana": {
+      "name": "lemana",
+      "id": "word-lemana",
+      "type": "word",
+      "noun": "history",
+      "etym": [
+        "word-lem",
+        "word-na"
+      ],
+      "fulltext": "lemana word-lem word-na history",
+      "glo": "history"
     },
     "word-li": {
       "name": "li",
@@ -2999,10 +3130,11 @@
       "type": "word",
       "noun": "bouche",
       "verb": "sucer",
-      "fulltext": "li lipa ligau liu bouche sucer",
+      "fulltext": "li lipa keli ligau liu bouche sucer",
       "glo": "bouche",
       "deriv": [
         "word-lipa",
+        "word-keli",
         "word-ligau",
         "word-liu"
       ]
@@ -3038,11 +3170,14 @@
       "name": "keli",
       "id": "word-keli",
       "type": "word",
-      "noun": "langue",
-      "verb": "lécher",
-      "desc": "De [ke](word-ke) (caché) et [li](word-li) (bouche): caché dans la bouche.",
-      "fulltext": "keli De [ke](word-ke) (caché) et [li](word-li) (bouche): caché dans la bouche. langue lécher",
-      "glo": "langue"
+      "noun": "tongue",
+      "verb": "to lick",
+      "etym": [
+        "word-ke",
+        "word-li"
+      ],
+      "fulltext": "keli word-ke word-li tongue to lick",
+      "glo": "tongue"
     },
     "word-ligau": {
       "name": "ligau",
@@ -3120,7 +3255,7 @@
         "word-lei",
         "word-lem"
       ],
-      "fulltext": "lir lire liro liru lira liri dahir gulir lei lem future",
+      "fulltext": "lir lire liro liru lira liri dahir gulir lemir ilir elir lei lem future",
       "glo": "future",
       "deriv": [
         "word-lire",
@@ -3129,36 +3264,47 @@
         "word-lira",
         "word-liri",
         "word-dahir",
-        "word-gulir"
+        "word-gulir",
+        "word-lemir",
+        "word-ilir",
+        "word-elir"
       ]
     },
     "word-lirana": {
       "name": "lirana",
       "id": "word-lirana",
       "type": "word",
-      "noun": "promesse",
+      "noun": "promise",
       "etym": [
         "word-lira",
         "word-na"
       ],
-      "fulltext": "lirana word-lira word-na promesse",
-      "glo": "promesse"
+      "fulltext": "lirana word-lira word-na promise",
+      "glo": "promise"
     },
     "word-ilir": {
       "name": "ilir",
       "id": "word-ilir",
       "type": "word",
-      "noun": "future toi (tu vas...)",
-      "fulltext": "ilir future toi (tu vas...)",
-      "glo": "future toi (tu vas...)"
+      "noun": "future you (you will...)",
+      "etym": [
+        "word-i",
+        "word-lir"
+      ],
+      "fulltext": "ilir word-i word-lir future you (you will...)",
+      "glo": "future you (you will...)"
     },
     "word-elir": {
       "name": "elir",
       "id": "word-elir",
       "type": "word",
-      "noun": "le future exist (dans le future)",
-      "fulltext": "elir lapir le future exist (dans le future)",
-      "glo": "le future exist (dans le future)",
+      "noun": "in the future",
+      "glo": "future.BE",
+      "etym": [
+        "word-e",
+        "word-lir"
+      ],
+      "fulltext": "elir word-e word-lir lapir in the future",
       "deriv": [
         "word-lapir"
       ]
@@ -3179,38 +3325,39 @@
       "name": "lo",
       "id": "word-lo",
       "type": "word",
-      "noun": "soumis.e, humide, qui reçoit",
-      "fulltext": "lo loda loru soumis.e, humide, qui reçoit",
-      "glo": "soumis.e, humide, qui reçoit",
+      "adj": "wet, who receives",
+      "fulltext": "lo loda loru nelo wet, who receives",
+      "glo": "wet, who receives",
       "deriv": [
         "word-loda",
-        "word-loru"
+        "word-loru",
+        "word-nelo"
       ]
     },
     "word-loda": {
       "name": "loda",
       "id": "word-loda",
       "type": "word",
-      "noun": "personne soumis.e",
+      "noun": "submissive",
       "etym": [
         "word-lo",
         "word-oda"
       ],
-      "fulltext": "loda word-lo word-oda personne soumis.e",
-      "glo": "personne soumis.e"
+      "fulltext": "loda word-lo word-oda submissive",
+      "glo": "submissive"
     },
     "word-loru": {
       "name": "loru",
       "id": "word-loru",
       "type": "word",
-      "noun": "devenir petit.e (se soumettre)",
+      "verb": "to submit, to become small",
       "adj": "humilité",
       "etym": [
         "word-lo",
         "word-ru"
       ],
-      "fulltext": "loru word-lo word-ru devenir petit.e (se soumettre) humilité",
-      "glo": "devenir petit.e (se soumettre)"
+      "fulltext": "loru word-lo word-ru to submit, to become small humilité",
+      "glo": "to submit, to become small"
     },
     "word-silo": {
       "name": "silo",
@@ -3528,22 +3675,25 @@
       "name": "na",
       "id": "word-na",
       "type": "word",
-      "suffix": "incarné (chose)",
-      "fulltext": "na agana fiona gana gola guna guwuna lana lirana muna nu piuna pona shana tiona yuina incarné (chose)",
-      "glo": "incarné (chose)",
+      "suffix": "thing",
+      "fulltext": "na agana dana fiona gana gola guna guwuna lana lemana lirana muna nu piuna pona runa shana tiona yuina thing",
+      "glo": "thing",
       "deriv": [
         "word-agana",
+        "word-dana",
         "word-fiona",
         "word-gana",
         "word-gola",
         "word-guna",
         "word-guwuna",
         "word-lana",
+        "word-lemana",
         "word-lirana",
         "word-muna",
         "word-nu",
         "word-piuna",
         "word-pona",
+        "word-runa",
         "word-shana",
         "word-tiona",
         "word-yuina"
@@ -3615,9 +3765,10 @@
       "name": "ne",
       "id": "word-ne",
       "type": "word",
-      "prefix": "négation, monde des mots, transe commune",
-      "fulltext": "ne nem nega neka nekupa neleiuki nema nei negupi nesu négation, monde des mots, transe commune",
-      "glo": "négation, monde des mots, transe commune",
+      "prefix": "negation",
+      "desc": "Also means something along the line of 'world of words' or common trance ([nepa](word-nepa))",
+      "fulltext": "ne Also means something along the line of 'world of words' or common trance ([nepa](word-nepa)) nem nega neka nekupa neleiuki nema nelo nei negupi nesu negation",
+      "glo": "negation",
       "deriv": [
         "word-nem",
         "word-nega",
@@ -3625,10 +3776,19 @@
         "word-nekupa",
         "word-neleiuki",
         "word-nema",
+        "word-nelo",
         "word-nei",
         "word-negupi",
         "word-nesu"
       ]
+    },
+    "word-nefa": {
+      "name": "nefa",
+      "id": "word-nefa",
+      "type": "word",
+      "verb": "to close eyes, to not look",
+      "fulltext": "nefa to close eyes, to not look",
+      "glo": "to close eyes, to not look"
     },
     "word-neoda": {
       "name": "neoda",
@@ -3642,18 +3802,22 @@
       "name": "nepa",
       "id": "word-nepa",
       "type": "word",
-      "noun": "abysse, néant",
-      "fulltext": "nepa abysse, néant",
-      "glo": "abysse, néant"
+      "noun": "abyss, nothingness",
+      "fulltext": "nepa abyss, nothingness",
+      "glo": "abyss, nothingness"
     },
     "word-nelo": {
       "name": "nelo",
       "id": "word-nelo",
       "type": "word",
-      "verb": "lutter",
-      "desc": "De [ne](word-ne) et [lo](word-lo), ne pas se soumettre.",
-      "fulltext": "nelo De [ne](word-ne) et [lo](word-lo), ne pas se soumettre. lutter",
-      "glo": "lutter"
+      "verb": "to struggle",
+      "desc": "to not surrender",
+      "etym": [
+        "word-ne",
+        "word-lo"
+      ],
+      "fulltext": "nelo word-ne word-lo to not surrender to struggle",
+      "glo": "to struggle"
     },
     "word-nei": {
       "name": "nei",
@@ -3832,12 +3996,16 @@
       "type": "word",
       "suffix": "hit, hurt",
       "conj": "I/we (1SG.INDF)",
-      "fulltext": "o ago liro lemo gao go guo mo oha odo I/we (1SG.INDF) hit, hurt",
+      "see": [
+        "word-zo"
+      ],
+      "fulltext": "o ago liro lemo eho gao go guo mo oha odo zo I/we (1SG.INDF) hit, hurt",
       "glo": "hit, hurt",
       "deriv": [
         "word-ago",
         "word-liro",
         "word-lemo",
+        "word-eho",
         "word-gao",
         "word-go",
         "word-guo",
@@ -3901,10 +4069,10 @@
       "id": "word-oda",
       "type": "word",
       "noun": "body, place of life",
-      "pron": "me/us (1SG.INDEF)",
+      "pron": "me/us (1SG.INDF)",
       "adj": "alive",
       "suffix": "animal",
-      "fulltext": "oda ada yada dog anoda djoda doda goda ida odin kada koda keda kuoda kelo lamioda loda noda yoda keoda yosa odo odu otoda peda pida shada shida shoda uloda yida body, place of life alive animal me/us (1SG.INDEF)",
+      "fulltext": "oda ada yada dog anoda djoda doda goda ida odin kada koda keda kuoda kelo lamioda loda noda yoda keoda yosa odo odu otoda peda pida shada shida shoda uloda yida body, place of life alive animal me/us (1SG.INDF)",
       "glo": "body, place of life",
       "deriv": [
         "word-ada",
@@ -3943,13 +4111,13 @@
       "name": "oha",
       "id": "word-oha",
       "type": "word",
-      "pron": "poetic self (1G.INDEF)",
+      "pron": "poetic self (1G.INDF)",
       "etym": [
         "word-o",
         "word-yada"
       ],
-      "fulltext": "oha word-o word-yada poetic self (1G.INDEF)",
-      "glo": "poetic self (1G.INDEF)"
+      "fulltext": "oha word-o word-yada poetic self (1G.INDF)",
+      "glo": "poetic self (1G.INDF)"
     },
     "word-keoda": {
       "name": "keoda",
@@ -4193,12 +4361,12 @@
       "name": "pa",
       "id": "word-pa",
       "type": "word",
-      "noun": "everything, the mystery",
+      "noun": "everything, mystery",
       "see": [
         "word-fi"
       ],
-      "fulltext": "pa aupa gupa kupa lapa lipa papi pipa fi everything, the mystery",
-      "glo": "everything, the mystery",
+      "fulltext": "pa aupa gupa kupa lapa lipa papi pipa fi everything, mystery",
+      "glo": "everything, mystery",
       "deriv": [
         "word-aupa",
         "word-gupa",
@@ -4239,8 +4407,11 @@
       "id": "word-pal",
       "type": "word",
       "noun": "fesses",
-      "fulltext": "pal fesses",
-      "glo": "fesses"
+      "fulltext": "pal kepal fesses",
+      "glo": "fesses",
+      "deriv": [
+        "word-kepal"
+      ]
     },
     "word-palaj": {
       "name": "palaj",
@@ -4273,8 +4444,11 @@
       "id": "word-kepal",
       "type": "word",
       "noun": "anus",
-      "desc": "De [ke](word-ke) (caché) et [pal](word-pal) (fesses).",
-      "fulltext": "kepal De [ke](word-ke) (caché) et [pal](word-pal) (fesses). kepalota anus",
+      "etym": [
+        "word-ke",
+        "word-pal"
+      ],
+      "fulltext": "kepal word-ke word-pal kepalota anus",
       "glo": "anus",
       "deriv": [
         "word-kepalota"
@@ -4337,13 +4511,13 @@
       "name": "peda",
       "id": "word-peda",
       "type": "word",
-      "pron": "some (3PL.INDEF)",
+      "pron": "some (3PL.INDF)",
       "etym": [
         "word-pe",
         "word-oda"
       ],
-      "fulltext": "peda word-pe word-oda some (3PL.INDEF)",
-      "glo": "some (3PL.INDEF)"
+      "fulltext": "peda word-pe word-oda some (3PL.INDF)",
+      "glo": "some (3PL.INDF)"
     },
     "word-hamape": {
       "name": "hamape",
@@ -4401,10 +4575,10 @@
       "type": "word",
       "conj": "I (1SG)",
       "adv": "ici, origine",
-      "noun": "1",
+      "noun": "1, self",
       "posit": "debout",
       "desc": "Opposé de [pa](word-pa).",
-      "fulltext": "pi Opposé de [pa](word-pa). piha ajapi dji nopi pida papi pipa pienu aupi gupi I (1SG) 1 debout ici, origine",
+      "fulltext": "pi Opposé de [pa](word-pa). piha ajapi dji nopi pida papi pipa pienu aupi gupi I (1SG) 1, self debout ici, origine",
       "glo": "I (1SG)",
       "deriv": [
         "word-piha",
@@ -4715,47 +4889,78 @@
       "name": "roa",
       "id": "word-roa",
       "type": "word",
-      "prep": "dans",
-      "fulltext": "roa dans",
-      "glo": "dans"
+      "prep": "in",
+      "suffix": "in (inessive case)",
+      "glo": "INE",
+      "fulltext": "roa toroa tiroa taroa in (inessive case) in",
+      "deriv": [
+        "word-toroa",
+        "word-tiroa",
+        "word-taroa"
+      ]
     },
     "word-toroa": {
       "name": "toroa",
       "id": "word-toroa",
       "type": "word",
-      "prep": "dans mon",
-      "fulltext": "toroa dans mon",
-      "glo": "dans mon"
+      "prep": "in my/our",
+      "etym": [
+        "word-to",
+        "word-roa"
+      ],
+      "fulltext": "toroa word-to word-roa in my/our",
+      "glo": "in my/our"
     },
     "word-tiroa": {
       "name": "tiroa",
       "id": "word-tiroa",
       "type": "word",
-      "prep": "dans ton",
-      "fulltext": "tiroa dans ton",
-      "glo": "dans ton"
+      "prep": "in your",
+      "etym": [
+        "word-ti",
+        "word-roa"
+      ],
+      "fulltext": "tiroa word-ti word-roa in your",
+      "glo": "in your"
     },
     "word-taroa": {
       "name": "taroa",
       "id": "word-taroa",
       "type": "word",
-      "prep": "dans son",
-      "fulltext": "taroa dans son",
-      "glo": "dans son"
+      "prep": "in their",
+      "etym": [
+        "word-ta",
+        "word-roa"
+      ],
+      "fulltext": "taroa word-ta word-roa in their",
+      "glo": "in their"
     },
     "word-ru": {
       "name": "ru",
       "id": "word-ru",
       "type": "word",
-      "noun": "emergence, realization",
+      "suffix": "to become",
       "verb": "to become",
-      "fulltext": "ru guru karu loru emergence, realization to become",
-      "glo": "emergence, realization",
+      "fulltext": "ru guru karu loru runa to become to become",
+      "glo": "to become",
       "deriv": [
         "word-guru",
         "word-karu",
-        "word-loru"
+        "word-loru",
+        "word-runa"
       ]
+    },
+    "word-runa": {
+      "name": "runa",
+      "id": "word-runa",
+      "type": "word",
+      "noun": "emergence",
+      "etym": [
+        "word-ru",
+        "word-na"
+      ],
+      "fulltext": "runa word-ru word-na emergence",
+      "glo": "emergence"
     },
     "word-rum": {
       "name": "rum",
@@ -5208,8 +5413,11 @@
         "word-ti",
         "word-wu"
       ],
-      "fulltext": "ta to ti wu their (3SG)",
-      "glo": "their (3SG)"
+      "fulltext": "ta taroa to ti wu their (3SG)",
+      "glo": "their (3SG)",
+      "deriv": [
+        "word-taroa"
+      ]
     },
     "word-taj": {
       "name": "taj",
@@ -5320,8 +5528,11 @@
         "word-ta",
         "word-wu"
       ],
-      "fulltext": "ti to ta wu your (2SG)",
-      "glo": "your (2SG)"
+      "fulltext": "ti tiroa to ta wu your (2SG)",
+      "glo": "your (2SG)",
+      "deriv": [
+        "word-tiroa"
+      ]
     },
     "word-tio": {
       "name": "tio",
@@ -5370,8 +5581,11 @@
         "word-ta",
         "word-wu"
       ],
-      "fulltext": "to ti ta wu my/our (1SG.INDF)",
-      "glo": "my/our (1SG.INDF)"
+      "fulltext": "to toroa ti ta wu my/our (1SG.INDF)",
+      "glo": "my/our (1SG.INDF)",
+      "deriv": [
+        "word-toroa"
+      ]
     },
     "word-tosho": {
       "name": "tosho",
@@ -5423,9 +5637,10 @@
       "id": "word-u",
       "type": "word",
       "suffix": "pull",
-      "fulltext": "u awiu liru lemu gau gu iwiu ulei liu mu nu odu sheu uya yinu pull",
+      "fulltext": "u auhu awiu liru lemu gau gu iwiu ulei liu mu nu odu sheu uya yinu pull",
       "glo": "pull",
       "deriv": [
+        "word-auhu",
         "word-awiu",
         "word-liru",
         "word-lemu",
@@ -5952,17 +6167,67 @@
         "word-guyuina"
       ]
     },
+    "word-zo": {
+      "name": "zo",
+      "id": "word-zo",
+      "type": "word",
+      "conj": "I/we passiv",
+      "glo": "1SG.INDF.PAS",
+      "etym": [
+        "word-eho"
+      ],
+      "fulltext": "zo word-eho I/we passiv"
+    },
+    "word-zi": {
+      "name": "zi",
+      "id": "word-zi",
+      "type": "word",
+      "conj": "you passiv",
+      "glo": "2SG.PAS",
+      "etym": [
+        "word-ehi"
+      ],
+      "fulltext": "zi word-ehi you passiv"
+    },
     "word-zu": {
       "name": "zu",
       "id": "word-zu",
       "type": "word",
+      "noun": "heart",
       "verb": "love",
-      "desc": "Evolution of [au](word-au) into [zu](word-zu) mostly if conjugation requires an requires an 'h' to bind.",
-      "fulltext": "zu Evolution of [au](word-au) into [zu](word-zu) mostly if conjugation requires an requires an 'h' to bind. love",
-      "glo": "love"
+      "desc": "Evolution of [au](word-au) into [zu](word-zu) mostly if conjugation requires an 'h' to bind.",
+      "fulltext": "zu Evolution of [au](word-au) into [zu](word-zu) mostly if conjugation requires an 'h' to bind. zuzu heart love",
+      "glo": "heart",
+      "deriv": [
+        "word-zuzu"
+      ]
+    },
+    "word-zuzu": {
+      "name": "zuzu",
+      "id": "word-zuzu",
+      "type": "word",
+      "verb": "to make love",
+      "see": [
+        "word-auau"
+      ],
+      "etym": [
+        "word-zu",
+        "word-zu"
+      ],
+      "fulltext": "zuzu word-zu word-zu auau to make love",
+      "glo": "to make love"
     }
   },
   "card": {
+    "card-aaa": {
+      "name": "aaa",
+      "id": "card-aaa",
+      "type": "card",
+      "lang": "Why keoda ?",
+      "desc": "\nMy first goal was to create a language for love and sex. Something that would\nmake it easy and fun to express desire, play with power exchanges and honor\nthe great gift of sharing bodily love.\n\nI also felt that the languages I speak had lots of biais in terms of what is\nexpected. For example, we have verbs to express penetration but we have no\nwords to express \"grasping with the vagina\" ([1](phrase-1)  or \"kissing with the vulva\" ([2](phrase-2)).\n\nI wanted to have these words so I started to work on a language that would\nfocus on the body.\n\nAs I worked on the language while going through difficult mental states, I\ndiscovered that creating words helped me better understand what I was going\nthrough so I added many words to explore the feelings of awe and terror one \nfeels in being alive.\n\nSo here is **Keoda**, a language born in the realm of sexuality, evolved as a\nway of coping through mental illness and blossomed in the poetic realm as a\nway to express my awe at being alive, [iwigui](word-iwigui)...\n\nThis language helps me on my path to self-acceptance and love.\n\nMy hope by sharing it is that some of the confusions and weird notions of\nthis poetic endeavour might echo in someone's heart and help validate this\nperson's feelings.\n\nI feel utterly weird.\n\nI hope you do too, dear reader ❤️️\n\nPS: Some pages have not yet been translated to english, thanks for your\npatience: this whole thing is a work in progress...\n\nYour next read ? [kdana](card-kdana) or [verbs](card-verbs)\n",
+      "fulltext": "aaa \nMy first goal was to create a language for love and sex. Something that would\nmake it easy and fun to express desire, play with power exchanges and honor\nthe great gift of sharing bodily love.\n\nI also felt that the languages I speak had lots of biais in terms of what is\nexpected. For example, we have verbs to express penetration but we have no\nwords to express \"grasping with the vagina\" ([1](phrase-1)  or \"kissing with the vulva\" ([2](phrase-2)).\n\nI wanted to have these words so I started to work on a language that would\nfocus on the body.\n\nAs I worked on the language while going through difficult mental states, I\ndiscovered that creating words helped me better understand what I was going\nthrough so I added many words to explore the feelings of awe and terror one \nfeels in being alive.\n\nSo here is **Keoda**, a language born in the realm of sexuality, evolved as a\nway of coping through mental illness and blossomed in the poetic realm as a\nway to express my awe at being alive, [iwigui](word-iwigui)...\n\nThis language helps me on my path to self-acceptance and love.\n\nMy hope by sharing it is that some of the confusions and weird notions of\nthis poetic endeavour might echo in someone's heart and help validate this\nperson's feelings.\n\nI feel utterly weird.\n\nI hope you do too, dear reader ❤️️\n\nPS: Some pages have not yet been translated to english, thanks for your\npatience: this whole thing is a work in progress...\n\nYour next read ? [kdana](card-kdana) or [verbs](card-verbs)\n Why keoda ?",
+      "glo": "Why keoda ?"
+    },
     "card-colors": {
       "name": "colors",
       "id": "card-colors",
@@ -5972,24 +6237,6 @@
       "fulltext": "colors \nCurrent colors:\n\n* [pan](word-pan) (red)\n* [dim](word-dim) (cherry)\n* [pon](word-pon) (orange)\n* [piu](word-piu) (green)\n* [fio](word-fio) (eggplant)\n* [wi](word-wi) (prune)\n colors",
       "glo": "colors"
     },
-    "card-genders": {
-      "name": "genders",
-      "id": "card-genders",
-      "type": "card",
-      "adj": "genders",
-      "desc": "\nKeoda does not have mandatory gender for conjugation or pronouns but the notion still exists as the following adjectives:\n\n* [ana](word-ana) (tree / feminine)\n* [iwi](word-iwi) (bird / non-binary)\n* [oto](word-oto) (wind / masculine)\n\nAnd as with all adjecives, they can be combined:\n\n* [anoto](word-anoto)\n* [aniwi](word-aniwi)\n* [iwana](word-iwana)\n* [iwoto](word-iwoto)\n* [otana](word-otana)\n* [otiwi](word-otiwi)\n",
-      "fulltext": "genders \nKeoda does not have mandatory gender for conjugation or pronouns but the notion still exists as the following adjectives:\n\n* [ana](word-ana) (tree / feminine)\n* [iwi](word-iwi) (bird / non-binary)\n* [oto](word-oto) (wind / masculine)\n\nAnd as with all adjecives, they can be combined:\n\n* [anoto](word-anoto)\n* [aniwi](word-aniwi)\n* [iwana](word-iwana)\n* [iwoto](word-iwoto)\n* [otana](word-otana)\n* [otiwi](word-otiwi)\n genders",
-      "glo": "genders"
-    },
-    "card-verbs": {
-      "name": "verbs",
-      "id": "card-verbs",
-      "type": "card",
-      "lang": "verbs and conjugation",
-      "desc": "\nMany nouns are also verbs such as [fa](word-fa) or [fen](word-fen).\n\nThis language was born from an imaginary place where love making is one of the most important activity of adults and this results in a rich vocabulary to talk about caressing, slapping, pinching and playing with body parts.\n\n# [i](word-i), [u](word-u), [o](word-o) suffix\n\nThese alter the verbs respectively to mean \"caressing\" or gentle, \"pinching\" and slapping or hurting.\n\n* [1](phrase-1)\n* [2](phrase-2)\n* [3](phrase-3)\n\nThe very first use of the language was to ask a sexual partner to do something so the imperative form is the simplest and looks like the infinitiv.\n\nPhrase do not have precise verb, subject or object positioning and conjugation is used to remove ambiguity.\n\nIf the first noun does not match conjugation, this means that it represents the adverb (receiver of an action):\n\n* [4](phrase-4)\n* which is a short form of [5](phrase-5)\n* and we can also say [6](phrase-6)\n\nIt really depends where we want to put the emphasis (on the kissing or on who is to be kissed).\n\n# Conjugation\n\nFor other tenses apart from imperative, the conjugation *comes first*. This is because it is an evolution\nfrom *subject verb* to *subjectverb*:\n\n* [7](phrase-7)\n* evolved into [8](phrase-8)\n\nSo the possible conjugations are the same as the possible subjects:\n\n* [o](word-o) *I/we* (1SG.INDF)\n* [i](word-i) *you* (2SG)\n* [a](word-a) *them* (3SG)\n* [sho](word-sho) *us* (present) (1PL.PRS)\n* [shi](word-shi) *you* (present) (2PL.PRS)\n* [sha](word-sha) *them* (3PL)\n\n## And the rarer forms\n\n* [kei](word-kei) *you honorific* (2SG.HONOR)\n* [yi](word-yi) *you depraved* (2SG.DPRV)\n* [pi](word-pi) *I* (1SG)\n* [de](word-de) *us two* (1PL.DU)\n* [pe](word-pe) *some* (3PL.INDF)\n* [ka](word-ka) *us all* (1PL.DEF)\n\n# Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them because these\ntimings are so important in the erotic situations where this language originated.\n\n* [lire](word-lire) (FUT.EVNT) eventual future\n* [liro](word-liro) (FUT.DIST) distant future\n* [liru](word-liru) (FUT.PROX) close future\n* [lira](word-lira) (FUT.CRAS) tomorrow\n* [liri](word-liri) (FUT.HOD) tonight or next morning\n\n* [lemi](word-lemi) (PST.HOD) last night or this morning\n* [lema](word-lema) (PST.HEST) yesterday\n* [lemu](word-lemu) (PST.PROX) recent past\n* [lemo](word-lemo) (PST.DIST) distant past\n* [leme](word-leme) (PST.EVNT) eventual past\n\n* [lei](word-lei) (DEF) always\n* [nei](word-nei) (NEG) never\n\n# Examples\n\n* [9](phrase-9)\n* [10](phrase-10)\n",
-      "fulltext": "verbs \nMany nouns are also verbs such as [fa](word-fa) or [fen](word-fen).\n\nThis language was born from an imaginary place where love making is one of the most important activity of adults and this results in a rich vocabulary to talk about caressing, slapping, pinching and playing with body parts.\n\n# [i](word-i), [u](word-u), [o](word-o) suffix\n\nThese alter the verbs respectively to mean \"caressing\" or gentle, \"pinching\" and slapping or hurting.\n\n* [1](phrase-1)\n* [2](phrase-2)\n* [3](phrase-3)\n\nThe very first use of the language was to ask a sexual partner to do something so the imperative form is the simplest and looks like the infinitiv.\n\nPhrase do not have precise verb, subject or object positioning and conjugation is used to remove ambiguity.\n\nIf the first noun does not match conjugation, this means that it represents the adverb (receiver of an action):\n\n* [4](phrase-4)\n* which is a short form of [5](phrase-5)\n* and we can also say [6](phrase-6)\n\nIt really depends where we want to put the emphasis (on the kissing or on who is to be kissed).\n\n# Conjugation\n\nFor other tenses apart from imperative, the conjugation *comes first*. This is because it is an evolution\nfrom *subject verb* to *subjectverb*:\n\n* [7](phrase-7)\n* evolved into [8](phrase-8)\n\nSo the possible conjugations are the same as the possible subjects:\n\n* [o](word-o) *I/we* (1SG.INDF)\n* [i](word-i) *you* (2SG)\n* [a](word-a) *them* (3SG)\n* [sho](word-sho) *us* (present) (1PL.PRS)\n* [shi](word-shi) *you* (present) (2PL.PRS)\n* [sha](word-sha) *them* (3PL)\n\n## And the rarer forms\n\n* [kei](word-kei) *you honorific* (2SG.HONOR)\n* [yi](word-yi) *you depraved* (2SG.DPRV)\n* [pi](word-pi) *I* (1SG)\n* [de](word-de) *us two* (1PL.DU)\n* [pe](word-pe) *some* (3PL.INDF)\n* [ka](word-ka) *us all* (1PL.DEF)\n\n# Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them because these\ntimings are so important in the erotic situations where this language originated.\n\n* [lire](word-lire) (FUT.EVNT) eventual future\n* [liro](word-liro) (FUT.DIST) distant future\n* [liru](word-liru) (FUT.PROX) close future\n* [lira](word-lira) (FUT.CRAS) tomorrow\n* [liri](word-liri) (FUT.HOD) tonight or next morning\n\n* [lemi](word-lemi) (PST.HOD) last night or this morning\n* [lema](word-lema) (PST.HEST) yesterday\n* [lemu](word-lemu) (PST.PROX) recent past\n* [lemo](word-lemo) (PST.DIST) distant past\n* [leme](word-leme) (PST.EVNT) eventual past\n\n* [lei](word-lei) (DEF) always\n* [nei](word-nei) (NEG) never\n\n# Examples\n\n* [9](phrase-9)\n* [10](phrase-10)\n verbs and conjugation",
-      "glo": "verbs and conjugation"
-    },
     "card-counting": {
       "name": "counting",
       "id": "card-counting",
@@ -5998,8 +6245,8 @@
       "see": [
         "card-gunes"
       ],
-      "desc": "\nHere are the number from 1 to 10:\n\n* [dji](word-dji) (10)\n* [da](word-da) (9)\n* [je](word-je) (8)\n* [fe](word-fe) (7)\n* [shi](word-shi) (6)\n* [lil](word-lil) (5)\n* [ka](word-ka) (4)\n* [pe](word-pe) (3)\n* [de](word-de) (2)\n* [pi](word-pi) (1)\n\nThe powers of ten:\n\n* [ipi](word-ipi) (10)\n* [ipa](word-ipa) (100)\n* [ipu](word-ipu) (1000).\n\n## Some examples:\n\n* [11](phrase-11)\n* or [12](phrase-12)\n* or [13](phrase-13)\n* [14](phrase-14)\n* [15](phrase-15)\n* [16](phrase-16)\n* [17](phrase-17)\n\n## Big numbers !\n\n* 1000^2: [18](phrase-18)\n* 1000^3: [19](phrase-19)\n* 1000^4: [20](phrase-20)\n\nWe can also express powers of ten [21](phrase-21).\n\n## Small numbers\n\n* 10^-1: [22](phrase-22)\n* 10^-2: [23](phrase-23)\n* 10^-3: [24](phrase-24)\n",
-      "fulltext": "counting \nHere are the number from 1 to 10:\n\n* [dji](word-dji) (10)\n* [da](word-da) (9)\n* [je](word-je) (8)\n* [fe](word-fe) (7)\n* [shi](word-shi) (6)\n* [lil](word-lil) (5)\n* [ka](word-ka) (4)\n* [pe](word-pe) (3)\n* [de](word-de) (2)\n* [pi](word-pi) (1)\n\nThe powers of ten:\n\n* [ipi](word-ipi) (10)\n* [ipa](word-ipa) (100)\n* [ipu](word-ipu) (1000).\n\n## Some examples:\n\n* [11](phrase-11)\n* or [12](phrase-12)\n* or [13](phrase-13)\n* [14](phrase-14)\n* [15](phrase-15)\n* [16](phrase-16)\n* [17](phrase-17)\n\n## Big numbers !\n\n* 1000^2: [18](phrase-18)\n* 1000^3: [19](phrase-19)\n* 1000^4: [20](phrase-20)\n\nWe can also express powers of ten [21](phrase-21).\n\n## Small numbers\n\n* 10^-1: [22](phrase-22)\n* 10^-2: [23](phrase-23)\n* 10^-3: [24](phrase-24)\n gunes numbers and counting",
+      "desc": "\nHere are the number from 1 to 10:\n\n* [dji](word-dji) (10)\n* [da](word-da) (9)\n* [je](word-je) (8)\n* [fe](word-fe) (7)\n* [shi](word-shi) (6)\n* [lil](word-lil) (5)\n* [ka](word-ka) (4)\n* [pe](word-pe) (3)\n* [de](word-de) (2)\n* [pi](word-pi) (1)\n\nThe powers of ten:\n\n* [ipi](word-ipi) (10)\n* [ipa](word-ipa) (100)\n* [ipu](word-ipu) (1000).\n\n## Some examples:\n\n* [3](phrase-3)\n* or [4](phrase-4)\n* or [5](phrase-5)\n* [6](phrase-6)\n* [7](phrase-7)\n* [8](phrase-8)\n* [9](phrase-9)\n\n## Big numbers !\n\n* 1000^2: [10](phrase-10)\n* 1000^3: [11](phrase-11)\n* 1000^4: [12](phrase-12)\n\nWe can also express powers of ten [13](phrase-13).\n\n## Small numbers\n\n* 10^-1: [14](phrase-14)\n* 10^-2: [15](phrase-15)\n* 10^-3: [16](phrase-16)\n",
+      "fulltext": "counting \nHere are the number from 1 to 10:\n\n* [dji](word-dji) (10)\n* [da](word-da) (9)\n* [je](word-je) (8)\n* [fe](word-fe) (7)\n* [shi](word-shi) (6)\n* [lil](word-lil) (5)\n* [ka](word-ka) (4)\n* [pe](word-pe) (3)\n* [de](word-de) (2)\n* [pi](word-pi) (1)\n\nThe powers of ten:\n\n* [ipi](word-ipi) (10)\n* [ipa](word-ipa) (100)\n* [ipu](word-ipu) (1000).\n\n## Some examples:\n\n* [3](phrase-3)\n* or [4](phrase-4)\n* or [5](phrase-5)\n* [6](phrase-6)\n* [7](phrase-7)\n* [8](phrase-8)\n* [9](phrase-9)\n\n## Big numbers !\n\n* 1000^2: [10](phrase-10)\n* 1000^3: [11](phrase-11)\n* 1000^4: [12](phrase-12)\n\nWe can also express powers of ten [13](phrase-13).\n\n## Small numbers\n\n* 10^-1: [14](phrase-14)\n* 10^-2: [15](phrase-15)\n* 10^-3: [16](phrase-16)\n gunes numbers and counting",
       "glo": "numbers and counting"
     },
     "card-fruits": {
@@ -6010,6 +6257,15 @@
       "desc": "\nExisting fruits are:\n\n* [erina](word-erina) (cherry)\n* [pona](word-pona) (orange)\n* [ponalil](word-ponalil) (tangerine)\n* [palajil](word-palajil) (apricot)\n* [putam](word-putam) (tomato)\n* [wiyon](word-wiyon) (prune)\n* [gola](word-gola) (squash)\n* [guyuina](word-guyuina) (apple)\n",
       "fulltext": "fruits \nExisting fruits are:\n\n* [erina](word-erina) (cherry)\n* [pona](word-pona) (orange)\n* [ponalil](word-ponalil) (tangerine)\n* [palajil](word-palajil) (apricot)\n* [putam](word-putam) (tomato)\n* [wiyon](word-wiyon) (prune)\n* [gola](word-gola) (squash)\n* [guyuina](word-guyuina) (apple)\n fruits",
       "glo": "fruits"
+    },
+    "card-genders": {
+      "name": "genders",
+      "id": "card-genders",
+      "type": "card",
+      "adj": "genders",
+      "desc": "\nKeoda does not have mandatory gender for conjugation or pronouns but the notion still exists as the following adjectives:\n\n* [ana](word-ana) (tree / feminine)\n* [iwi](word-iwi) (bird / non-binary)\n* [oto](word-oto) (wind / masculine)\n\nAnd as with all adjecives, they can be combined:\n\n* [anoto](word-anoto)\n* [aniwi](word-aniwi)\n* [iwana](word-iwana)\n* [iwoto](word-iwoto)\n* [otana](word-otana)\n* [otiwi](word-otiwi)\n",
+      "fulltext": "genders \nKeoda does not have mandatory gender for conjugation or pronouns but the notion still exists as the following adjectives:\n\n* [ana](word-ana) (tree / feminine)\n* [iwi](word-iwi) (bird / non-binary)\n* [oto](word-oto) (wind / masculine)\n\nAnd as with all adjecives, they can be combined:\n\n* [anoto](word-anoto)\n* [aniwi](word-aniwi)\n* [iwana](word-iwana)\n* [iwoto](word-iwoto)\n* [otana](word-otana)\n* [otiwi](word-otiwi)\n genders",
+      "glo": "genders"
     },
     "card-gunes": {
       "name": "gunes",
@@ -6026,6 +6282,15 @@
       "fulltext": "gunes \n# The scale of [gu](word-gu)\n\nThese states correspond to increasing intensity of [gu](word-gu) and if they are\nnot balanced by increasing practicality and material humility [nunes](card-nunes),\nthey are just other names for hubris or psychosis.\n\n## The euphoric states\n\nThese need to be balanced with their equivalent [nunes](card-nunes) states.\n\n* 10 [djipa](word-djipa) (remembering being god.des) <=> [djifi](word-djifi) (humble)\n* 9 [dapa](word-dapa) (joy) <=> [dafi](word-dafi) (serving)\n* 8 [jepa](word-jepa) (belonging) <=> [jefi](word-jefi) (caring)\n* 7 [fepa](word-fepa) (pride) <=> [fefi](word-fefi) (adapting)\n* 6 [shipa](word-shipa) (believing) <=> [shifi](word-shifi) (learning)\n\n## The \"territorial\" states.\n\nFrom here, the states are more difficult. These states are shared on both\n[gu](word-gu) and [nu](word-nu) scales.\n\n* 5 [nelil](word-nelil) (confusion/insecure)\n* 4 [neka](word-neka) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n nunes nepa counting scale of gu states of consciousness",
       "glo": "scale of gu"
     },
+    "card-kdana": {
+      "name": "kdana",
+      "id": "card-kdana",
+      "type": "card",
+      "lang": "Keotian geography",
+      "desc": "\n# Geography\n\nThe land of keotians is simply [gana](word-gana), the spirit-thing.\n\nThe land is mostly made of islands, volcanoes and small mountains with a\ngentle climate (when there are no storms).\n\nBecause survival does not require huge amounts of time and effort, the\nkeotians have had lots of time to enjoy the views of children, arts and\n...[zuzu](word-zuzu) which is an important part of their culture.\n\nBodily love is seen as a way to connect hearts and even though there are\nmany elements related to power exchange, these are seen as ways to\ncreate bonding, trust or simply as a way to explore the self [pi](word-pi).\n\n[17](phrase-17)\n",
+      "fulltext": "kdana \n# Geography\n\nThe land of keotians is simply [gana](word-gana), the spirit-thing.\n\nThe land is mostly made of islands, volcanoes and small mountains with a\ngentle climate (when there are no storms).\n\nBecause survival does not require huge amounts of time and effort, the\nkeotians have had lots of time to enjoy the views of children, arts and\n...[zuzu](word-zuzu) which is an important part of their culture.\n\nBodily love is seen as a way to connect hearts and even though there are\nmany elements related to power exchange, these are seen as ways to\ncreate bonding, trust or simply as a way to explore the self [pi](word-pi).\n\n[17](phrase-17)\n Keotian geography",
+      "glo": "Keotian geography"
+    },
     "card-nunes": {
       "name": "nunes",
       "id": "card-nunes",
@@ -6040,22 +6305,31 @@
       "fulltext": "nunes \n# The scale of [nu](word-nu)\n\nThese states correspond to increasing levels of humility and practicality\n[nu](word-nu). They are not \"feelings\" but how the person is perceived by others\n(all others, not just close friends).\n\n## The \"flowing\" states\n\nThese are the difficult (pragmatic) states that need to be cultivated to\nbalance their equivalent [gunes](card-gunes) (poetic) states.\n\nOn their own they can feel dreadful if not enlightenend by some purpose given\nby the poetic states. Balancing serves both ways.\n\n* 10 [djifi](word-djifi) (humble) <=> [djipa](word-djipa) (remembering being god.dess)\n* 9 [dafi](word-dafi) (serving) <=> [dapa](word-dapa) (joy)\n* 8 [jefi](word-jefi) (caring) <=> [jepa](word-jepa) (belonging)\n* 7 [fefi](word-fefi) (adapting) <=> [fepa](word-fepa) (pride)\n* 6 [shifi](word-shifi) (learning) <=> [shipa](word-shipa) (believing)\n\n## The \"territorial\" states\n\nThese states are the same as the ones on the spirit scale [gunes](card-gunes).\n\n* 5 [nelil](word-nelil) (confusion/insecure)\n* 4 [neka](word-neka) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n gunes counting scale of nu states of humility",
       "glo": "scale of nu"
     },
-    "card-aaa": {
-      "name": "aaa",
-      "id": "card-aaa",
+    "card-order": {
+      "name": "order",
+      "id": "card-order",
       "type": "card",
-      "lang": "Why keoda ?",
-      "desc": "\nMy first goal was to create a language for love and sex. Something that would\nmake it easy and fun to express desire, play with power exchanges and honor\nthe great gift of sharing bodily love.\n\nI also felt that the languages I speak had lots of biais in terms of what is expected. For example, we have verbs to express penetration but we have no words to\nexpress \"grasping with the vagina\" ([25](phrase-25)  or \"kissing with the vulva\" ([26](phrase-26)).\n\nI wanted to have those words so I started to work on a language that would have\ngreat focus on the body.\n\nAs I worked on the language while going through difficult mental states, I discovered that creating words helped me better understand what I was going through so I added many words to explore what I felt with the beauty and terror of life.\n\nI then thought that I could use this language to sing since I could never decide between french (my native language) and english (my early puberty language and \"work\" language).\n\nSo here is **Keoda**, a language born in the realm of sexuality, evolved as a way of coping through mental illness and blossomed in the poetic realm as a way to express my awe at being alive, [iwigui](word-iwigui)...\n\nThis language helps me on my path to self-acceptance and love.\n\nMy hope by sharing it is that some of the confusions and weird notions of\nthis poetic endeavour might echo in someone's heart and help validate this\nperson's feelings.\n\nI feel utterly weird.\n\nI hope you do too, dear reader ♥️\n\nPS: Some pages have not yet been translated to english, thanks for your patience: \nthis whole thing is a work in progress...\n",
-      "fulltext": "aaa \nMy first goal was to create a language for love and sex. Something that would\nmake it easy and fun to express desire, play with power exchanges and honor\nthe great gift of sharing bodily love.\n\nI also felt that the languages I speak had lots of biais in terms of what is expected. For example, we have verbs to express penetration but we have no words to\nexpress \"grasping with the vagina\" ([25](phrase-25)  or \"kissing with the vulva\" ([26](phrase-26)).\n\nI wanted to have those words so I started to work on a language that would have\ngreat focus on the body.\n\nAs I worked on the language while going through difficult mental states, I discovered that creating words helped me better understand what I was going through so I added many words to explore what I felt with the beauty and terror of life.\n\nI then thought that I could use this language to sing since I could never decide between french (my native language) and english (my early puberty language and \"work\" language).\n\nSo here is **Keoda**, a language born in the realm of sexuality, evolved as a way of coping through mental illness and blossomed in the poetic realm as a way to express my awe at being alive, [iwigui](word-iwigui)...\n\nThis language helps me on my path to self-acceptance and love.\n\nMy hope by sharing it is that some of the confusions and weird notions of\nthis poetic endeavour might echo in someone's heart and help validate this\nperson's feelings.\n\nI feel utterly weird.\n\nI hope you do too, dear reader ♥️\n\nPS: Some pages have not yet been translated to english, thanks for your patience: \nthis whole thing is a work in progress...\n Why keoda ?",
-      "glo": "Why keoda ?"
+      "lang": "Word order",
+      "desc": "\nWord order does not matter in a phrase so that we can put emphasis and\nexpectation on any part of the phrase. For example, we can say:\n\n(You need to say these out loud, emphasis on \"DOM\"...)\n[18](phrase-18)\n\nOr\n\n(Again, emphasis on \"... DOM !\")\n[19](phrase-19)\n\nOr even\n[20](phrase-20)\n",
+      "fulltext": "order \nWord order does not matter in a phrase so that we can put emphasis and\nexpectation on any part of the phrase. For example, we can say:\n\n(You need to say these out loud, emphasis on \"DOM\"...)\n[18](phrase-18)\n\nOr\n\n(Again, emphasis on \"... DOM !\")\n[19](phrase-19)\n\nOr even\n[20](phrase-20)\n Word order",
+      "glo": "Word order"
+    },
+    "card-verbs": {
+      "name": "verbs",
+      "id": "card-verbs",
+      "type": "card",
+      "lang": "verbs and conjugation",
+      "desc": "\nMany nouns are also verbs such as [fa](word-fa) or [fen](word-fen).\n\nThis language was born from an imaginary place where love making is one of the most important activity of adults and this results in a rich vocabulary to talk about caressing, slapping, pinching and playing with body parts.\n\n# [i](word-i), [u](word-u), [o](word-o) suffix\n\nThese alter the verbs respectively to mean \"caressing\" or gentle, \"pinching\" and slapping or hurting.\n\n* [21](phrase-21)\n* [22](phrase-22)\n* [23](phrase-23)\n\nThe very first use of the language was to ask a sexual partner to do something so the imperative form is the simplest and looks like the infinitiv.\n\nPhrase do not have precise verb, subject or object positioning and conjugation is used to remove ambiguity.\n\nIf the first noun does not match conjugation, this means that it represents the adverb (receiver of an action):\n\n* [24](phrase-24)\n* which is a short form of [25](phrase-25)\n* and we can also say [26](phrase-26)\n\nIt really depends where we want to put the emphasis (on the kissing or on who is to be kissed).\n\n# Conjugation\n\nFor other tenses apart from imperative, the conjugation *comes first*. This is because it is an evolution\nfrom *subject verb* to *subjectverb*:\n\n* [27](phrase-27)\n* evolved into [28](phrase-28)\n\nSo the possible conjugations are the same as the possible subjects:\n\n* [o](word-o) *I/we* (1SG.INDF)\n* [i](word-i) *you* (2SG)\n* [a](word-a) *them* (3SG)\n* [sho](word-sho) *us* (present) (1PL.PRS)\n* [shi](word-shi) *you* (present) (2PL.PRS)\n* [sha](word-sha) *them* (3PL)\n\n## And the rarer forms\n\n* [kei](word-kei) *you honorific* (2SG.HONOR)\n* [yi](word-yi) *you depraved* (2SG.DPRV)\n* [pi](word-pi) *I* (1SG)\n* [de](word-de) *us two* (1PL.DU)\n* [pe](word-pe) *some* (3PL.INDF)\n* [ka](word-ka) *us all* (1PL.DEF)\n\n## Passive voices\n\nThis is used to highlight the receiver of the action and allows us to not\nsay anything about the doer, as in\n\n[29](phrase-29)\n\nThis conjugation is created by adding [e](word-e) prefix. Think \"Be I whipped\", \"Be you whipped\".\n\nFor most common cases, the language evolved from *eho*, *ehi* and *eha* to:\n\n* [zo](word-zo) *I/we passiv* (1SG.INDF.PAS)\n* [zi](word-zi) *you passiv* (2SG.PAS)\n* [zo](word-zo) *they passiv* (3SG.PAS)\n\n# Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them because these\ntimings are so important in the erotic situations where this language originated.\n\n* [lire](word-lire) (FUT.EVNT) eventual future\n* [liro](word-liro) (FUT.DIST) distant future\n* [liru](word-liru) (FUT.PROX) close future\n* [lira](word-lira) (FUT.CRAS) tomorrow\n* [liri](word-liri) (FUT.HOD) tonight or next morning\n\n* [lemi](word-lemi) (PST.HOD) last night or this morning\n* [lema](word-lema) (PST.HEST) yesterday\n* [lemu](word-lemu) (PST.PROX) recent past\n* [lemo](word-lemo) (PST.DIST) distant past\n* [leme](word-leme) (PST.EVNT) eventual past\n\n* [lei](word-lei) (DEF) always\n* [nei](word-nei) (NEG) never\n\n# Examples\n\n* [30](phrase-30)\n* [31](phrase-31)\n\nYou might want to read [order](card-order) next.\n",
+      "fulltext": "verbs \nMany nouns are also verbs such as [fa](word-fa) or [fen](word-fen).\n\nThis language was born from an imaginary place where love making is one of the most important activity of adults and this results in a rich vocabulary to talk about caressing, slapping, pinching and playing with body parts.\n\n# [i](word-i), [u](word-u), [o](word-o) suffix\n\nThese alter the verbs respectively to mean \"caressing\" or gentle, \"pinching\" and slapping or hurting.\n\n* [21](phrase-21)\n* [22](phrase-22)\n* [23](phrase-23)\n\nThe very first use of the language was to ask a sexual partner to do something so the imperative form is the simplest and looks like the infinitiv.\n\nPhrase do not have precise verb, subject or object positioning and conjugation is used to remove ambiguity.\n\nIf the first noun does not match conjugation, this means that it represents the adverb (receiver of an action):\n\n* [24](phrase-24)\n* which is a short form of [25](phrase-25)\n* and we can also say [26](phrase-26)\n\nIt really depends where we want to put the emphasis (on the kissing or on who is to be kissed).\n\n# Conjugation\n\nFor other tenses apart from imperative, the conjugation *comes first*. This is because it is an evolution\nfrom *subject verb* to *subjectverb*:\n\n* [27](phrase-27)\n* evolved into [28](phrase-28)\n\nSo the possible conjugations are the same as the possible subjects:\n\n* [o](word-o) *I/we* (1SG.INDF)\n* [i](word-i) *you* (2SG)\n* [a](word-a) *them* (3SG)\n* [sho](word-sho) *us* (present) (1PL.PRS)\n* [shi](word-shi) *you* (present) (2PL.PRS)\n* [sha](word-sha) *them* (3PL)\n\n## And the rarer forms\n\n* [kei](word-kei) *you honorific* (2SG.HONOR)\n* [yi](word-yi) *you depraved* (2SG.DPRV)\n* [pi](word-pi) *I* (1SG)\n* [de](word-de) *us two* (1PL.DU)\n* [pe](word-pe) *some* (3PL.INDF)\n* [ka](word-ka) *us all* (1PL.DEF)\n\n## Passive voices\n\nThis is used to highlight the receiver of the action and allows us to not\nsay anything about the doer, as in\n\n[29](phrase-29)\n\nThis conjugation is created by adding [e](word-e) prefix. Think \"Be I whipped\", \"Be you whipped\".\n\nFor most common cases, the language evolved from *eho*, *ehi* and *eha* to:\n\n* [zo](word-zo) *I/we passiv* (1SG.INDF.PAS)\n* [zi](word-zi) *you passiv* (2SG.PAS)\n* [zo](word-zo) *they passiv* (3SG.PAS)\n\n# Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them because these\ntimings are so important in the erotic situations where this language originated.\n\n* [lire](word-lire) (FUT.EVNT) eventual future\n* [liro](word-liro) (FUT.DIST) distant future\n* [liru](word-liru) (FUT.PROX) close future\n* [lira](word-lira) (FUT.CRAS) tomorrow\n* [liri](word-liri) (FUT.HOD) tonight or next morning\n\n* [lemi](word-lemi) (PST.HOD) last night or this morning\n* [lema](word-lema) (PST.HEST) yesterday\n* [lemu](word-lemu) (PST.PROX) recent past\n* [lemo](word-lemo) (PST.DIST) distant past\n* [leme](word-leme) (PST.EVNT) eventual past\n\n* [lei](word-lei) (DEF) always\n* [nei](word-nei) (NEG) never\n\n# Examples\n\n* [30](phrase-30)\n* [31](phrase-31)\n\nYou might want to read [order](card-order) next.\n verbs and conjugation",
+      "glo": "verbs and conjugation"
     },
     "card-corresp": {
       "name": "corresp",
       "id": "card-corresp",
       "type": "card",
       "lang": "Correspondances, Baudelaire (1821-1867)",
-      "desc": "\n[27](phrase-27)  \n[28](phrase-28)  \n[29](phrase-29)  \n[30](phrase-30)  \n[31](phrase-31)  \n",
-      "fulltext": "corresp \n[27](phrase-27)  \n[28](phrase-28)  \n[29](phrase-29)  \n[30](phrase-30)  \n[31](phrase-31)  \n Correspondances, Baudelaire (1821-1867)",
+      "desc": "\n[32](phrase-32)  \n[33](phrase-33)  \n[34](phrase-34)  \n[35](phrase-35)  \n[36](phrase-36)  \n",
+      "fulltext": "corresp \n[32](phrase-32)  \n[33](phrase-33)  \n[34](phrase-34)  \n[35](phrase-35)  \n[36](phrase-36)  \n Correspondances, Baudelaire (1821-1867)",
       "glo": "Correspondances, Baudelaire (1821-1867)"
     }
   },
@@ -6064,116 +6338,27 @@
       "name": "1",
       "id": "phrase-1",
       "type": "phrase",
-      "phrase": "caress my back",
+      "phrase": "grasp my penis with your vagina",
       "see": [
-        "word-mi",
-        "word-nopi"
+        "word-yinu",
+        "word-taj"
       ],
-      "fulltext": "1 mi nopi"
+      "fulltext": "1 yinu taj"
     },
     "phrase-2": {
       "name": "2",
       "id": "phrase-2",
       "type": "phrase",
-      "phrase": "pinch my nipple",
+      "phrase": "kiss my lips with your vulva",
       "see": [
-        "word-mu",
-        "word-hamun"
+        "word-yon",
+        "word-la"
       ],
-      "fulltext": "2 mu hamun"
+      "fulltext": "2 yon la"
     },
     "phrase-3": {
       "name": "3",
       "id": "phrase-3",
-      "type": "phrase",
-      "phrase": "hit my buttock",
-      "see": [
-        "word-mo",
-        "word-pal"
-      ],
-      "fulltext": "3 mo pal"
-    },
-    "phrase-4": {
-      "name": "4",
-      "id": "phrase-4",
-      "type": "phrase",
-      "phrase": "them, kiss",
-      "see": [
-        "word-ada",
-        "word-la"
-      ],
-      "fulltext": "4 ada la"
-    },
-    "phrase-5": {
-      "name": "5",
-      "id": "phrase-5",
-      "type": "phrase",
-      "phrase": "to person kiss",
-      "see": [
-        "word-a",
-        "word-oda",
-        "word-la"
-      ],
-      "fulltext": "5 a oda la"
-    },
-    "phrase-6": {
-      "name": "6",
-      "id": "phrase-6",
-      "type": "phrase",
-      "phrase": "kiss them",
-      "see": [
-        "word-la",
-        "word-ada"
-      ],
-      "fulltext": "6 la ada"
-    },
-    "phrase-7": {
-      "name": "7",
-      "id": "phrase-7",
-      "type": "phrase",
-      "phrase": "we pull mouth",
-      "see": [
-        "word-sho",
-        "word-li",
-        "word-u"
-      ],
-      "fulltext": "7 sho li u"
-    },
-    "phrase-8": {
-      "name": "8",
-      "id": "phrase-8",
-      "type": "phrase",
-      "phrase": "we eat",
-      "see": [
-        "alt-sholiu"
-      ],
-      "fulltext": "8 sholiu"
-    },
-    "phrase-9": {
-      "name": "9",
-      "id": "phrase-9",
-      "type": "phrase",
-      "phrase": "yesterday, I kissed a girl.",
-      "see": [
-        "alt-olalema",
-        "word-ana"
-      ],
-      "fulltext": "9 olalema ana"
-    },
-    "phrase-10": {
-      "name": "10",
-      "id": "phrase-10",
-      "type": "phrase",
-      "phrase": "They might love you someday.",
-      "see": [
-        "alt-azulire",
-        "alt-auti"
-      ],
-      "fulltext": "10 azulire auti"
-    },
-    "phrase-11": {
-      "name": "11",
-      "id": "phrase-11",
       "type": "phrase",
       "phrase": "14",
       "see": [
@@ -6181,33 +6366,33 @@
         "word-ipi",
         "word-ka"
       ],
-      "fulltext": "11 pi ipi ka"
+      "fulltext": "3 pi ipi ka"
     },
-    "phrase-12": {
-      "name": "12",
-      "id": "phrase-12",
+    "phrase-4": {
+      "name": "4",
+      "id": "phrase-4",
       "type": "phrase",
       "phrase": "14",
       "see": [
         "word-ipi",
         "word-ka"
       ],
-      "fulltext": "12 ipi ka"
+      "fulltext": "4 ipi ka"
     },
-    "phrase-13": {
-      "name": "13",
-      "id": "phrase-13",
+    "phrase-5": {
+      "name": "5",
+      "id": "phrase-5",
       "type": "phrase",
       "phrase": "14",
       "see": [
         "word-dji",
         "word-ka"
       ],
-      "fulltext": "13 dji ka"
+      "fulltext": "5 dji ka"
     },
-    "phrase-14": {
-      "name": "14",
-      "id": "phrase-14",
+    "phrase-6": {
+      "name": "6",
+      "id": "phrase-6",
       "type": "phrase",
       "phrase": "24",
       "see": [
@@ -6215,11 +6400,11 @@
         "word-ipi",
         "word-ka"
       ],
-      "fulltext": "14 de ipi ka"
+      "fulltext": "6 de ipi ka"
     },
-    "phrase-15": {
-      "name": "15",
-      "id": "phrase-15",
+    "phrase-7": {
+      "name": "7",
+      "id": "phrase-7",
       "type": "phrase",
       "phrase": "359",
       "see": [
@@ -6229,11 +6414,11 @@
         "word-ipi",
         "word-da"
       ],
-      "fulltext": "15 pe ipa lil ipi da"
+      "fulltext": "7 pe ipa lil ipi da"
     },
-    "phrase-16": {
-      "name": "16",
-      "id": "phrase-16",
+    "phrase-8": {
+      "name": "8",
+      "id": "phrase-8",
       "type": "phrase",
       "phrase": "2019",
       "see": [
@@ -6242,11 +6427,11 @@
         "word-dji",
         "word-da"
       ],
-      "fulltext": "16 de ipu dji da"
+      "fulltext": "8 de ipu dji da"
     },
-    "phrase-17": {
-      "name": "17",
-      "id": "phrase-17",
+    "phrase-9": {
+      "name": "9",
+      "id": "phrase-9",
       "type": "phrase",
       "phrase": "105'000",
       "see": [
@@ -6254,11 +6439,11 @@
         "word-lil",
         "word-ipu"
       ],
-      "fulltext": "17 ipa lil ipu"
+      "fulltext": "9 ipa lil ipu"
     },
-    "phrase-18": {
-      "name": "18",
-      "id": "phrase-18",
+    "phrase-10": {
+      "name": "10",
+      "id": "phrase-10",
       "type": "phrase",
       "phrase": "million",
       "see": [
@@ -6266,11 +6451,11 @@
         "word-de",
         "word-uki"
       ],
-      "fulltext": "18 ipu de uki"
+      "fulltext": "10 ipu de uki"
     },
-    "phrase-19": {
-      "name": "19",
-      "id": "phrase-19",
+    "phrase-11": {
+      "name": "11",
+      "id": "phrase-11",
       "type": "phrase",
       "phrase": "billion",
       "see": [
@@ -6278,11 +6463,11 @@
         "word-pe",
         "word-uki"
       ],
-      "fulltext": "19 ipu pe uki"
+      "fulltext": "11 ipu pe uki"
     },
-    "phrase-20": {
-      "name": "20",
-      "id": "phrase-20",
+    "phrase-12": {
+      "name": "12",
+      "id": "phrase-12",
       "type": "phrase",
       "phrase": "trillion",
       "see": [
@@ -6290,11 +6475,11 @@
         "word-ka",
         "word-uki"
       ],
-      "fulltext": "20 ipu ka uki"
+      "fulltext": "12 ipu ka uki"
     },
-    "phrase-21": {
-      "name": "21",
-      "id": "phrase-21",
+    "phrase-13": {
+      "name": "13",
+      "id": "phrase-13",
       "type": "phrase",
       "phrase": "10^4",
       "see": [
@@ -6302,22 +6487,22 @@
         "word-ka",
         "word-uki"
       ],
-      "fulltext": "21 ipa ka uki"
+      "fulltext": "13 ipa ka uki"
     },
-    "phrase-22": {
-      "name": "22",
-      "id": "phrase-22",
+    "phrase-14": {
+      "name": "14",
+      "id": "phrase-14",
       "type": "phrase",
       "phrase": "tenth",
       "see": [
         "word-ipi",
         "word-iki"
       ],
-      "fulltext": "22 ipi iki"
+      "fulltext": "14 ipi iki"
     },
-    "phrase-23": {
-      "name": "23",
-      "id": "phrase-23",
+    "phrase-15": {
+      "name": "15",
+      "id": "phrase-15",
       "type": "phrase",
       "phrase": "hundredth",
       "see": [
@@ -6325,11 +6510,11 @@
         "word-de",
         "word-iki"
       ],
-      "fulltext": "23 ipi de iki"
+      "fulltext": "15 ipi de iki"
     },
-    "phrase-24": {
-      "name": "24",
-      "id": "phrase-24",
+    "phrase-16": {
+      "name": "16",
+      "id": "phrase-16",
       "type": "phrase",
       "phrase": "thouandth",
       "see": [
@@ -6337,33 +6522,181 @@
         "word-pe",
         "word-iki"
       ],
-      "fulltext": "24 ipi pe iki"
+      "fulltext": "16 ipi pe iki"
+    },
+    "phrase-17": {
+      "name": "17",
+      "id": "phrase-17",
+      "type": "phrase",
+      "phrase": "On earth, we enjoy the mystery of love making.",
+      "see": [
+        "alt-ganaroa",
+        "alt-ohau",
+        "alt-zuzupa"
+      ],
+      "fulltext": "17 ganaroa ohau zuzupa"
+    },
+    "phrase-18": {
+      "name": "18",
+      "id": "phrase-18",
+      "type": "phrase",
+      "phrase": "Intensely, we will whip...your ass",
+      "see": [
+        "word-dom",
+        "alt-ofolir",
+        "word-pal"
+      ],
+      "fulltext": "18 dom ofolir pal"
+    },
+    "phrase-19": {
+      "name": "19",
+      "id": "phrase-19",
+      "type": "phrase",
+      "phrase": "Your ass... we will whip... intensely !",
+      "see": [
+        "word-pal",
+        "alt-ofolir",
+        "word-dom"
+      ],
+      "fulltext": "19 pal ofolir dom"
+    },
+    "phrase-20": {
+      "name": "20",
+      "id": "phrase-20",
+      "type": "phrase",
+      "phrase": "Intensely !... you will be whipped... later today.",
+      "see": [
+        "word-dom",
+        "alt-zofolir",
+        "word-pal",
+        "alt-eliri"
+      ],
+      "fulltext": "20 dom zofolir pal eliri"
+    },
+    "phrase-21": {
+      "name": "21",
+      "id": "phrase-21",
+      "type": "phrase",
+      "phrase": "caress my back",
+      "see": [
+        "word-mi",
+        "word-nopi"
+      ],
+      "fulltext": "21 mi nopi"
+    },
+    "phrase-22": {
+      "name": "22",
+      "id": "phrase-22",
+      "type": "phrase",
+      "phrase": "pinch my nipple",
+      "see": [
+        "word-mu",
+        "word-hamun"
+      ],
+      "fulltext": "22 mu hamun"
+    },
+    "phrase-23": {
+      "name": "23",
+      "id": "phrase-23",
+      "type": "phrase",
+      "phrase": "hit my buttock",
+      "see": [
+        "word-mo",
+        "word-pal"
+      ],
+      "fulltext": "23 mo pal"
+    },
+    "phrase-24": {
+      "name": "24",
+      "id": "phrase-24",
+      "type": "phrase",
+      "phrase": "them, kiss",
+      "see": [
+        "word-ada",
+        "word-la"
+      ],
+      "fulltext": "24 ada la"
     },
     "phrase-25": {
       "name": "25",
       "id": "phrase-25",
       "type": "phrase",
-      "phrase": "grasp my penis with your vagina",
+      "phrase": "to person kiss",
       "see": [
-        "word-yinu",
-        "word-taj"
+        "word-a",
+        "word-oda",
+        "word-la"
       ],
-      "fulltext": "25 yinu taj"
+      "fulltext": "25 a oda la"
     },
     "phrase-26": {
       "name": "26",
       "id": "phrase-26",
       "type": "phrase",
-      "phrase": "kiss my lips with your vulva",
+      "phrase": "kiss them",
       "see": [
-        "word-yon",
-        "word-la"
+        "word-la",
+        "word-ada"
       ],
-      "fulltext": "26 yon la"
+      "fulltext": "26 la ada"
     },
     "phrase-27": {
       "name": "27",
       "id": "phrase-27",
+      "type": "phrase",
+      "phrase": "we pull mouth",
+      "see": [
+        "word-sho",
+        "word-li",
+        "word-u"
+      ],
+      "fulltext": "27 sho li u"
+    },
+    "phrase-28": {
+      "name": "28",
+      "id": "phrase-28",
+      "type": "phrase",
+      "phrase": "we eat",
+      "see": [
+        "alt-sholiu"
+      ],
+      "fulltext": "28 sholiu"
+    },
+    "phrase-29": {
+      "name": "29",
+      "id": "phrase-29",
+      "type": "phrase",
+      "phrase": "I will be whipped.",
+      "see": [
+        "alt-zofolir"
+      ],
+      "fulltext": "29 zofolir"
+    },
+    "phrase-30": {
+      "name": "30",
+      "id": "phrase-30",
+      "type": "phrase",
+      "phrase": "yesterday, I kissed a girl.",
+      "see": [
+        "alt-olalema",
+        "word-ana"
+      ],
+      "fulltext": "30 olalema ana"
+    },
+    "phrase-31": {
+      "name": "31",
+      "id": "phrase-31",
+      "type": "phrase",
+      "phrase": "They might love you someday.",
+      "see": [
+        "alt-azulire",
+        "alt-auti"
+      ],
+      "fulltext": "31 azulire auti"
+    },
+    "phrase-32": {
+      "name": "32",
+      "id": "phrase-32",
       "type": "phrase",
       "phrase": "La Nature et un temple où de vivants piliers",
       "see": [
@@ -6375,22 +6708,22 @@
         "word-namel",
         "alt-oda"
       ],
-      "fulltext": "27 tu gupa ahe agaukida don namel oda"
+      "fulltext": "32 tu gupa ahe agaukida don namel oda"
     },
-    "phrase-28": {
-      "name": "28",
-      "id": "phrase-28",
+    "phrase-33": {
+      "name": "33",
+      "id": "phrase-33",
       "type": "phrase",
       "phrase": "Laissent parfois sortir de confuses paroles;",
       "see": [
         "alt-shalapa",
         "alt-nega"
       ],
-      "fulltext": "28 shalapa nega"
+      "fulltext": "33 shalapa nega"
     },
-    "phrase-29": {
-      "name": "29",
-      "id": "phrase-29",
+    "phrase-34": {
+      "name": "34",
+      "id": "phrase-34",
       "type": "phrase",
       "phrase": "L'homme y passe à travers des forêts de symboles",
       "see": [
@@ -6402,11 +6735,11 @@
         "word-lom",
         "word-lana"
       ],
-      "fulltext": "29 tu yosa afen roa jana lom lana"
+      "fulltext": "34 tu yosa afen roa jana lom lana"
     },
-    "phrase-30": {
-      "name": "30",
-      "id": "phrase-30",
+    "phrase-35": {
+      "name": "35",
+      "id": "phrase-35",
       "type": "phrase",
       "phrase": "Qui l'observent avec des regards familiers.",
       "see": [
@@ -6417,11 +6750,11 @@
         "word-fa",
         "word-lae"
       ],
-      "fulltext": "30 di ko gi sha fa lae"
+      "fulltext": "35 di ko gi sha fa lae"
     },
-    "phrase-31": {
-      "name": "31",
-      "id": "phrase-31",
+    "phrase-36": {
+      "name": "36",
+      "id": "phrase-36",
       "type": "phrase",
       "phrase": "Comme de longs échos qui de loin se confondent...",
       "see": [
@@ -6435,7 +6768,7 @@
         "word-sha",
         "word-nelil"
       ],
-      "fulltext": "31 si agade uki di ha uya es sha nelil"
+      "fulltext": "36 si agade uki di ha uya es sha nelil"
     }
   },
   "alt": {
@@ -6449,6 +6782,14 @@
         "word-e"
       ],
       "fulltext": "ahe a e"
+    },
+    "alt-ohau": {
+      "name": "ohau",
+      "id": "alt-ohau",
+      "type": "alt",
+      "glo": "I.INDF.love",
+      "alt": "word-au",
+      "fulltext": "ohau"
     },
     "alt-azulire": {
       "name": "azulire",
@@ -6466,6 +6807,14 @@
       "alt": "word-au",
       "fulltext": "auti"
     },
+    "alt-eliri": {
+      "name": "eliri",
+      "id": "alt-eliri",
+      "type": "alt",
+      "glo": "BE.later today",
+      "alt": "word-liri",
+      "fulltext": "eliri"
+    },
     "alt-afen": {
       "name": "afen",
       "id": "alt-afen",
@@ -6477,6 +6826,22 @@
         "word-fen"
       ],
       "fulltext": "afen a fen"
+    },
+    "alt-zofolir": {
+      "name": "zofolir",
+      "id": "alt-zofolir",
+      "type": "alt",
+      "glo": "you.PAS.whip",
+      "alt": "word-fo",
+      "fulltext": "zofolir"
+    },
+    "alt-ganaroa": {
+      "name": "ganaroa",
+      "id": "alt-ganaroa",
+      "type": "alt",
+      "glo": "earth.INE",
+      "alt": "word-gana",
+      "fulltext": "ganaroa"
     },
     "alt-nega": {
       "name": "nega",
@@ -6501,9 +6866,17 @@
       "name": "olalema",
       "id": "alt-olalema",
       "type": "alt",
-      "glo": "1SG.INDEF.kiss.PST.HEST",
+      "glo": "1SG.INDF.kiss.PST.HEST",
       "alt": "word-la",
       "fulltext": "olalema"
+    },
+    "alt-ofolir": {
+      "name": "ofolir",
+      "id": "alt-ofolir",
+      "type": "alt",
+      "glo": "I.INDF.whip",
+      "alt": "word-fo",
+      "fulltext": "ofolir"
     },
     "alt-sholiu": {
       "name": "sholiu",
@@ -6520,6 +6893,14 @@
       "glo": "body.ADJ",
       "alt": "word-oda",
       "fulltext": "oda"
+    },
+    "alt-zuzupa": {
+      "name": "zuzupa",
+      "id": "alt-zuzupa",
+      "type": "alt",
+      "glo": "make love.mystery",
+      "alt": "word-zuzu",
+      "fulltext": "zuzupa"
     }
   }
 }

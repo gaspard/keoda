@@ -48,19 +48,20 @@ export const guru = _.word('guru', {
 })
 
 export const gugai = _.word('gugai', {
-  noun: 'fertilité',
+  noun: 'fertility',
   adj: 'fertile',
   etym: () => [_.gu, _.gai],
 })
 
 export const augu = _.word('augu', {
-  adj: 'confiance',
+  noun: 'trust',
+  verb: 'to trust',
   etym: () => [_.au, _.gu],
 })
 
 export const negu = _.word('negu', {
-  noun: `l'agitation, vouloir changer, changer le monde, chercher la perfection pour ne plus rien sentir, la dissociation`,
-  desc: () => `C'est l'inverse de la confiance: ${_.augu}`,
+  noun: 'agitation/dissociation',
+  desc: () => `Searching for perfection to feel less. Opposite of ${_.augu}`,
   see: () => [_.shipa],
 })
 
@@ -71,7 +72,7 @@ export const guyuina = _.word('guyuina', {
 })
 
 export const gupa = _.word('gupa', {
-  noun: 'nature (tout le sombre/profondeur)',
+  noun: 'nature',
   glo: 'nature',
   etym: () => [_.gu, _.pa],
 })

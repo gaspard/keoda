@@ -25,7 +25,7 @@ export const djobaji = _.example([_.djobaj, _.i], 'caresser avec la cuisse')
 
 export const kebaj = _.word('kebaj', {
   noun: 'testicules',
-  desc: () => `Caché ${_.ke} entre les jambes ${_.baj}.`,
+  etym: () => [_.ke, _.baj],
 })
 
 _.see(_.odufeodaokelilirkebaj)

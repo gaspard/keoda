@@ -1,17 +1,22 @@
 import * as _ from '.'
 
 export const au = _.word('au', {
-  noun: 'coeur',
-  verb: 'aimer/recevoir',
+  noun: 'heart',
+  verb: 'to love/to receive',
 })
 _.see(_.zu)
+export const ohau = _.alt('ohau', {
+  glo: 'I.INDF.love',
+  alt: () => _.au,
+})
 
 export const auhu = _.word('auhu', {
-  noun: 'tomber amoureux.se, attraction du cœur',
+  noun: 'to fall in love, pull of the heart',
+  etym: () => [_.au, _.u],
 })
 
 export const aupa = _.word('aupa', {
-  noun: 'gratitude (aimer tout)',
+  noun: 'gratitude (love all)',
   etym: () => [_.au, _.pa],
 })
 _.see(_.pahau)
@@ -19,7 +24,10 @@ _.see(_.kupa)
 
 _.see(_.miau)
 
-export const auau = _.example([_.au, _.au], `Fais-moi l'amour`)
+export const auau = _.word('auau', {
+  verb: 'to make love',
+  see: () => [_.zuzu],
+})
 
 export const ausifalamau = _.example(
   [_.au, _.si, _.falam, _.au],

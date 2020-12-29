@@ -17,9 +17,9 @@ export const lipawi = _.word('lipawi', {
 })
 
 export const keli = _.word('keli', {
-  noun: 'langue',
-  verb: 'lécher',
-  desc: () => `De ${_.ke} (caché) et ${_.li} (bouche): caché dans la bouche.`,
+  noun: 'tongue',
+  verb: 'to lick',
+  etym: () => [_.ke, _.li],
 })
 
 export const kelikeyon = _.example([_.keli, _.keyon], `Lèche moi la vulve.`)

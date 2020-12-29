@@ -3,6 +3,7 @@ import * as _ from '.'
 export const o = _.word('o', {
   suffix: 'hit, hurt',
   conj: 'I/we (1SG.INDF)',
+  see: () => [_.zo],
 })
 _.see(_.omaconj)
 

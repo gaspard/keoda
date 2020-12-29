@@ -1,11 +1,10 @@
 import * as _ from '.'
 
 export const da = _.word('da', {
-  noun: 'lieu, 9',
-  suffix: 'lieu',
+  noun: 'place, 9',
+  suffix: 'place',
+  see: () => [_.kdana, _.counting, _.sen],
 })
-_.see(_.counting)
-_.see(_.sen)
 
 _.see(_.lama)
 _.see(_.lamagoa)
@@ -24,4 +23,9 @@ export const dafi = _.word('dafi', {
 export const guda = _.word('guda', {
   noun: 'the place of the experience',
   see: () => [_.gulei],
+})
+
+export const dana = _.word('dana', {
+  noun: 'geography',
+  etym: () => [_.da, _.na],
 })

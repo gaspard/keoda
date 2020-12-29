@@ -57,6 +57,6 @@ export const lana = _.word('lana', {
 
 // ==================== ALT
 export const olalema = _.alt('olalema', {
-  glo: '1SG.INDEF.kiss.PST.HEST',
+  glo: '1SG.INDF.kiss.PST.HEST',
   alt: () => _.la,
 })

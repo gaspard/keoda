@@ -3,7 +3,7 @@ import * as _ from '.'
 export const pi = _.word('pi', {
   conj: 'I (1SG)',
   adv: 'ici, origine',
-  noun: '1',
+  noun: '1, self',
   posit: 'debout',
   desc: () => `Opposé de ${_.pa}.`,
 })

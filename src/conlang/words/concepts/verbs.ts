@@ -53,6 +53,23 @@ So the possible conjugations are the same as the possible subjects:
 * ${_.pe} *some* (3PL.INDF)
 * ${_.ka} *us all* (1PL.DEF)
 
+## Passive voices
+
+This is used to highlight the receiver of the action and allows us to not
+say anything about the doer, as in
+
+${_.phrase('I will be whipped.', _.zofolir)}
+
+This conjugation is created by adding ${
+    _.e
+  } prefix. Think "Be I whipped", "Be you whipped".
+
+For most common cases, the language evolved from *eho*, *ehi* and *eha* to:
+
+* ${_.zo} *I/we passiv* (1SG.INDF.PAS)
+* ${_.zi} *you passiv* (2SG.PAS)
+* ${_.za} *they passiv* (3SG.PAS)
+
 # Tenses
 
 The tense is marked by a suffix related to time. There are a lot of them because these
@@ -77,5 +94,7 @@ timings are so important in the erotic situations where this language originated
 
 * ${_.phrase('yesterday, I kissed a girl.', _.olalema, _.ana)}
 * ${_.phrase('They might love you someday.', _.azulire, _.auti)}
+
+You might want to read ${_.order} next.
 `,
 })
