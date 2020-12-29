@@ -61,7 +61,7 @@ So the possible conjugations are the same as the possible subjects:
 This is used to highlight the receiver of the action and allows us to not
 say anything about the doer, as in
 
-${_.phrase('I (depraved) will be whipped.', _.zofolir)}
+${_.phrase('I will be whipped.', _.zofolir)}
 
 This conjugation is created by adding ${_.e} prefix and later became ${
     _.zo
@@ -86,7 +86,7 @@ This translates in possesive suffix ${_.tei}, ${_.tiyi}, ${
     _.tilo
   } or conjugations using ${_.kei} or the affix ${_.ei} or ${_.yi}.
 
-${_.phrase('I am ready, Master.', _.yihe, _.sen, _.kei)}
+${_.phrase('I am ready, Master.', _.yihe, _.sen, _.keda)}
 ${_.phrase('I will undress (you).', _.okeinefelir)}
 
 Just remember, what sounds like "OK" is in fact "I-fantastic".

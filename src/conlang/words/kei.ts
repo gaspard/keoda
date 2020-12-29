@@ -1,14 +1,13 @@
 import * as _ from '.'
 
 export const kei = _.word('kei', {
-  noun: 'fantastic (Dom)',
-  conj: 'you honorific (2SG.HON)',
+  conj: 'you honorific (2SG.HONOR)',
   see: () => [_.tei],
 })
-_.see(_.keimaconj)
 
 export const keda = _.word('keda', {
-  pron: 'you honorific',
+  pron: 'fantastic (Dom)',
+  glo: 'you.HONOR',
   etym: () => [_.kei, _.oda],
 })
 _.see(_.pronouns)

@@ -2625,13 +2625,12 @@
       "name": "kei",
       "id": "word-kei",
       "type": "word",
-      "noun": "fantastic (Dom)",
-      "conj": "you honorific (2SG.HON)",
+      "conj": "you honorific (2SG.HONOR)",
       "see": [
         "word-tei"
       ],
-      "fulltext": "kei akei ikei keda okei tei you honorific (2SG.HON) fantastic (Dom)",
-      "glo": "fantastic (Dom)",
+      "fulltext": "kei akei ikei keda okei tei you honorific (2SG.HONOR)",
+      "glo": "you honorific (2SG.HONOR)",
       "deriv": [
         "word-akei",
         "word-ikei",
@@ -2643,13 +2642,13 @@
       "name": "keda",
       "id": "word-keda",
       "type": "word",
-      "pron": "you honorific",
+      "pron": "fantastic (Dom)",
+      "glo": "you.HONOR",
       "etym": [
         "word-kei",
         "word-oda"
       ],
-      "fulltext": "keda word-kei word-oda you honorific",
-      "glo": "you honorific"
+      "fulltext": "keda word-kei word-oda fantastic (Dom)"
     },
     "word-ko": {
       "name": "ko",
@@ -6795,7 +6794,7 @@
       "name": "29",
       "id": "phrase-29",
       "type": "phrase",
-      "phrase": "I (depraved) will be whipped.",
+      "phrase": "I will be whipped.",
       "see": [
         "alt-zofolir"
       ],
@@ -6809,9 +6808,9 @@
       "see": [
         "alt-yihe",
         "word-sen",
-        "word-kei"
+        "word-keda"
       ],
-      "fulltext": "30 yihe sen kei"
+      "fulltext": "30 yihe sen keda"
     },
     "phrase-31": {
       "name": "31",
