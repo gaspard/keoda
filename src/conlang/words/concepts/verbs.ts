@@ -72,8 +72,11 @@ For most common cases, the language evolved from *eho*, *ehi* and *eha* to:
 
 # Tenses
 
-The tense is marked by a suffix related to time. There are a lot of them because these
-timings are so important in the erotic situations where this language originated.
+The tense is marked by a suffix related to time. There are a lot of them
+because these timings are so important in the erotic situations where this
+language originated.
+
+## Future tenses
 
 * ${_.lire} (FUT.EVNT) eventual future
 * ${_.liro} (FUT.DIST) distant future
@@ -81,11 +84,15 @@ timings are so important in the erotic situations where this language originated
 * ${_.lira} (FUT.CRAS) tomorrow
 * ${_.liri} (FUT.HOD) tonight or next morning
 
+## Past tenses
+
 * ${_.lemi} (PST.HOD) last night or this morning
 * ${_.lema} (PST.HEST) yesterday
 * ${_.lemu} (PST.PROX) recent past
 * ${_.lemo} (PST.DIST) distant past
 * ${_.leme} (PST.EVNT) eventual past
+
+## Eternal tenses
 
 * ${_.lei} (DEF) always
 * ${_.nei} (NEG) never
