@@ -20,3 +20,9 @@ export const ahe = _.alt('ahe', {
   glo: '3SG.être',
   see: () => [_.a, _.e],
 })
+
+export const akei = _.word('akei', {
+  conj: 'They (3SG.HONOR)',
+  glo: '3SG.HONOR',
+  etym: () => [_.a, _.kei],
+})

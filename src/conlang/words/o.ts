@@ -18,3 +18,9 @@ export const demoneoda = _.example(
 
 _.see(_.omopal)
 _.see(_.inedjilobo)
+
+export const okei = _.word('okei', {
+  conj: 'I (1SG.HONOR)',
+  glo: '1SG.HONOR',
+  etym: () => [_.o, _.kei],
+})

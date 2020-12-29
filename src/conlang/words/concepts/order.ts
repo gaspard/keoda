@@ -18,7 +18,7 @@ Or even
 ${_.phrase(
   'Intensely !... you will be whipped... later today.',
   _.dom,
-  _.zifo,
+  _.zikeifo,
   _.pal,
   _.eliri
 )}

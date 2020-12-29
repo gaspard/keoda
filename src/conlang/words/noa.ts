@@ -7,3 +7,8 @@ export const noa = _.word('noa', {
 export const noam = _.word('noam', {
   verb: 'toucher',
 })
+
+export const noati = _.alt('noati', {
+  glo: 'skin.2SG.POSS',
+  alt: () => _.noa,
+})

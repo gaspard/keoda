@@ -36,3 +36,13 @@ export const yosa = _.word('yosa', {
 
 _.see(_.ida)
 _.see(_.ti)
+
+export const odato = _.alt('odato', {
+  glo: 'body.1SG.INDF.POSS',
+  alt: () => _.oda,
+})
+
+export const odei = _.word('odei', {
+  noun: 'fantastic body (Dom)',
+  etym: () => [_.oda, _.ei],
+})

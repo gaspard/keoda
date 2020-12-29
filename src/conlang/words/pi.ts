@@ -65,3 +65,8 @@ export const djopi = _.word('djopi', {
 export const hapi = _.word('hapi', {
   noun: 'soi distal (Grand Soi, Grande Sœur, Grand Frère, souvent le futur)',
 })
+
+export const piyi = _.word('piyi', {
+  conj: '1SG.DPRV',
+  glo: '1SG.DPRV',
+})

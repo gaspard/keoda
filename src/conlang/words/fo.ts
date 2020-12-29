@@ -11,7 +11,7 @@ export const zofolir = _.alt('zofolir', {
   alt: () => _.fo,
 })
 
-export const zifo = _.alt('zofolir', {
-  glo: 'you.PAS.whip',
+export const zikeifo = _.alt('zofolir', {
+  glo: 'you.PAS.HONOR.whip',
   alt: () => _.fo,
 })

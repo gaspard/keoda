@@ -1,7 +1,9 @@
 import * as _ from '.'
 
 export const kei = _.word('kei', {
+  noun: 'fantastic (Dom)',
   conj: 'you honorific (2SG.HON)',
+  see: () => [_.tei],
 })
 _.see(_.keimaconj)
 

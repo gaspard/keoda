@@ -28,3 +28,8 @@ export const eha = _.word('eha', {
 
 _.see(_.edjil)
 _.see(_.enopisamdjobajom)
+
+export const yihe = _.alt('yihe', {
+  glo: '2SG.DPRV.be',
+  alt: () => _.e,
+})

@@ -46,7 +46,10 @@ So the possible conjugations are the same as the possible subjects:
 
 ## And the rarer forms
 
-* ${_.kei} *you honorific* (2SG.HONOR)
+* ${_.okei} *I honorific* (1SG.HONOR)
+* ${_.kei} *honorific* (2SG.HONOR)
+* ${_.akei} *they honorific* (3SG.HONOR)
+* ${_.piyi} *me depraved* (1SG.DPRV)
 * ${_.yi} *you depraved* (2SG.DPRV)
 * ${_.pi} *I* (1SG)
 * ${_.de} *us two* (1PL.DU)
@@ -58,17 +61,35 @@ So the possible conjugations are the same as the possible subjects:
 This is used to highlight the receiver of the action and allows us to not
 say anything about the doer, as in
 
-${_.phrase('I will be whipped.', _.zofolir)}
+${_.phrase('I (depraved) will be whipped.', _.zofolir)}
 
-This conjugation is created by adding ${
-    _.e
-  } prefix. Think "Be I whipped", "Be you whipped".
+This conjugation is created by adding ${_.e} prefix and later became ${
+    _.zo
+  } instead of ${_.eho}. Think "Be I whipped".
 
 For most common cases, the language evolved from *eho*, *ehi* and *eha* to:
 
 * ${_.zo} *I/we passiv* (1SG.INDF.PAS)
 * ${_.zi} *you passiv* (2SG.PAS)
 * ${_.za} *they passiv* (3SG.PAS)
+
+## Honorific / depraved
+
+This is super important and super important and super important. In many role
+play it is great to have Dom/sub relationships, one that is in control and
+another who is passive. In order to emphasise this setting, the Dominant is
+referred to as "fantastic" ${_.kei} and the sub as "tiny" ${_.yi} or "wet" ${
+    _.lo
+  }.
+
+This translates in possesive suffix ${_.tei}, ${_.tiyi}, ${
+    _.tilo
+  } or conjugations using ${_.kei} or the affix ${_.ei} or ${_.yi}.
+
+${_.phrase('I am ready, Master.', _.yihe, _.sen, _.kei)}
+${_.phrase('I will undress (you).', _.okeinefelir)}
+
+Just remember, what sounds like "OK" is in fact "I-fantastic".
 
 # Tenses
 

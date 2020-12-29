@@ -72,3 +72,8 @@ export const lilimasa = _.word('lilimasa', {
   noun: 'little spoon',
   etym: () => [_.lil, _.limasa],
 })
+
+export const toma = _.alt('mato', {
+  glo: '1SG.INDF.POSS.hand',
+  alt: () => _.ma,
+})

@@ -2,6 +2,7 @@ import * as _ from '.'
 
 export const wu = _.word('wu', {
   prep: 'of',
+  suffix: 'of',
   see: () => [_.to, _.ti, _.ta],
 })
 

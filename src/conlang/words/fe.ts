@@ -1,9 +1,9 @@
 import * as _ from '.'
 
 export const fe = _.word('fe', {
-  noun: '7 (sur)',
-  prefix: 'sur',
-  verb: 'être sur',
+  noun: '7',
+  prefix: 'on top',
+  verb: 'to cover, to be on top',
 })
 _.see(_.counting)
 _.see(_.faj)
@@ -22,9 +22,8 @@ export const feoda = _.word('feoda', {
 })
 
 export const nefe = _.word('nefe', {
-  noun: 'nu',
-  adj: 'découvert',
-  verb: 'déshabiller, découvrir',
+  adj: 'naked',
+  verb: 'to uncover',
 })
 
 _.see(_.nefeoda)
@@ -38,4 +37,14 @@ export const fepa = _.word('fepa', {
 export const fefi = _.word('fefi', {
   adj: 'adapting',
   see: () => [_.nunes, _.fepa],
+})
+
+export const afe = _.alt('afe', {
+  glo: '3SG.cover',
+  alt: () => _.fe,
+})
+
+export const okeinefelir = _.alt('okeinefelir', {
+  glo: 'I.HONOR.NEG.cover.FUT',
+  alt: () => _.fe,
 })

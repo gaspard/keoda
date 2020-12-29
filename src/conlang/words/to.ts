@@ -2,7 +2,10 @@ import * as _ from '.'
 
 export const to = _.word('to', {
   det: 'my/our (1SG.INDF)',
-  see: () => [_.ti, _.ta, _.wu],
+  prefix: 'my/our',
+  suffix: 'my/our',
+  glo: '1SG.INDF.POSS',
+  see: () => [_.ti, _.tei, _.ta, _.wu],
 })
 
 _.see(_.oda)

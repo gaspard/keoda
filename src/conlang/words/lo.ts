@@ -1,7 +1,9 @@
 import * as _ from '.'
 
 export const lo = _.word('lo', {
+  noun: '2SG.WET',
   adj: 'wet, who receives',
+  see: () => [_.tilo],
 })
 
 export const loda = _.word('loda', {

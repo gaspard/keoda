@@ -6,10 +6,11 @@
       "type": "word",
       "prep": "to (her, him)",
       "conj": "them (3SG)",
-      "fulltext": "a ahada ada lira lema eha them (3SG) to (her, him)",
+      "fulltext": "a ahada akei ada lira lema eha them (3SG) to (her, him)",
       "glo": "to (her, him)",
       "deriv": [
         "word-ahada",
+        "word-akei",
         "word-ada",
         "word-lira",
         "word-lema",
@@ -27,6 +28,18 @@
       ],
       "fulltext": "ahada word-a word-yada elle/lui poétique",
       "glo": "elle/lui poétique"
+    },
+    "word-akei": {
+      "name": "akei",
+      "id": "word-akei",
+      "type": "word",
+      "conj": "They (3SG.HONOR)",
+      "glo": "3SG.HONOR",
+      "etym": [
+        "word-a",
+        "word-kei"
+      ],
+      "fulltext": "akei word-a word-kei They (3SG.HONOR)"
     },
     "word-ada": {
       "name": "ada",
@@ -1439,11 +1452,11 @@
       "name": "fe",
       "id": "word-fe",
       "type": "word",
-      "noun": "7 (sur)",
-      "prefix": "sur",
-      "verb": "être sur",
-      "fulltext": "fe faj feyaj 7 (sur) être sur sur",
-      "glo": "7 (sur)",
+      "noun": "7",
+      "prefix": "on top",
+      "verb": "to cover, to be on top",
+      "fulltext": "fe faj feyaj 7 to cover, to be on top on top",
+      "glo": "7",
       "deriv": [
         "word-faj",
         "word-feyaj"
@@ -1478,11 +1491,10 @@
       "name": "nefe",
       "id": "word-nefe",
       "type": "word",
-      "noun": "nu",
-      "adj": "découvert",
-      "verb": "déshabiller, découvrir",
-      "fulltext": "nefe nu déshabiller, découvrir découvert",
-      "glo": "nu"
+      "adj": "naked",
+      "verb": "to uncover",
+      "fulltext": "nefe to uncover naked",
+      "glo": "naked"
     },
     "word-fepa": {
       "name": "fepa",
@@ -1512,11 +1524,11 @@
       "name": "fen",
       "id": "word-fen",
       "type": "word",
-      "noun": "genoux",
-      "posit": "à genoux",
-      "verb": "marcher",
-      "fulltext": "fen genoux marcher à genoux",
-      "glo": "genoux"
+      "noun": "knee",
+      "posit": "kneeling",
+      "verb": "to walk",
+      "fulltext": "fen knee to walk kneeling",
+      "glo": "knee"
     },
     "word-fi": {
       "name": "fi",
@@ -2187,7 +2199,7 @@
       "type": "word",
       "suffix": "caress",
       "conj": "you (2SG)",
-      "fulltext": "i liri lemi ehi gi gui iha ida ilir mi shei you (2SG) caress",
+      "fulltext": "i liri lemi ehi gi gui iha ida ikei ilir mi shei you (2SG) caress",
       "glo": "caress",
       "deriv": [
         "word-liri",
@@ -2197,6 +2209,7 @@
         "word-gui",
         "word-iha",
         "word-ida",
+        "word-ikei",
         "word-ilir",
         "word-mi",
         "word-shei"
@@ -2225,6 +2238,19 @@
       ],
       "fulltext": "ida word-i word-oda you (2SG)",
       "glo": "you (2SG)"
+    },
+    "word-ikei": {
+      "name": "ikei",
+      "id": "word-ikei",
+      "type": "word",
+      "conj": "You (2SG.HONOR)",
+      "glo": "1SG.HONOR",
+      "desc": "Less used than [kei](word-kei).",
+      "etym": [
+        "word-i",
+        "word-kei"
+      ],
+      "fulltext": "ikei word-i word-kei Less used than [kei](word-kei). You (2SG.HONOR)"
     },
     "word-ibu": {
       "name": "ibu",
@@ -2599,11 +2625,18 @@
       "name": "kei",
       "id": "word-kei",
       "type": "word",
+      "noun": "fantastic (Dom)",
       "conj": "you honorific (2SG.HON)",
-      "fulltext": "kei keda you honorific (2SG.HON)",
-      "glo": "you honorific (2SG.HON)",
+      "see": [
+        "word-tei"
+      ],
+      "fulltext": "kei akei ikei keda okei tei you honorific (2SG.HON) fantastic (Dom)",
+      "glo": "fantastic (Dom)",
       "deriv": [
-        "word-keda"
+        "word-akei",
+        "word-ikei",
+        "word-keda",
+        "word-okei"
       ]
     },
     "word-keda": {
@@ -3325,9 +3358,13 @@
       "name": "lo",
       "id": "word-lo",
       "type": "word",
+      "noun": "2SG.WET",
       "adj": "wet, who receives",
-      "fulltext": "lo loda loru nelo wet, who receives",
-      "glo": "wet, who receives",
+      "see": [
+        "word-tilo"
+      ],
+      "fulltext": "lo loda loru nelo tilo 2SG.WET wet, who receives",
+      "glo": "2SG.WET",
       "deriv": [
         "word-loda",
         "word-loru",
@@ -3999,7 +4036,7 @@
       "see": [
         "word-zo"
       ],
-      "fulltext": "o ago liro lemo eho gao go guo mo oha odo zo I/we (1SG.INDF) hit, hurt",
+      "fulltext": "o ago liro lemo eho gao go guo mo okei oha odo zo I/we (1SG.INDF) hit, hurt",
       "glo": "hit, hurt",
       "deriv": [
         "word-ago",
@@ -4010,6 +4047,7 @@
         "word-go",
         "word-guo",
         "word-mo",
+        "word-okei",
         "word-oha",
         "word-odo"
       ]
@@ -4021,6 +4059,18 @@
       "verb": "tomber (tête fouettée)",
       "fulltext": "hafo tomber (tête fouettée)",
       "glo": "tomber (tête fouettée)"
+    },
+    "word-okei": {
+      "name": "okei",
+      "id": "word-okei",
+      "type": "word",
+      "conj": "I (1SG.HONOR)",
+      "glo": "1SG.HONOR",
+      "etym": [
+        "word-o",
+        "word-kei"
+      ],
+      "fulltext": "okei word-o word-kei I (1SG.HONOR)"
     },
     "word-obo": {
       "name": "obo",
@@ -4072,7 +4122,7 @@
       "pron": "me/us (1SG.INDF)",
       "adj": "alive",
       "suffix": "animal",
-      "fulltext": "oda ada yada dog anoda djoda doda goda ida odin kada koda keda kuoda kelo lamioda loda noda yoda keoda yosa odo odu otoda peda pida shada shida shoda uloda yida body, place of life alive animal me/us (1SG.INDF)",
+      "fulltext": "oda ada yada dog anoda djoda doda goda ida odin kada koda keda kuoda kelo lamioda loda noda yoda keoda yosa odei odo odu otoda peda pida shada shida shoda uloda yida body, place of life alive animal me/us (1SG.INDF)",
       "glo": "body, place of life",
       "deriv": [
         "word-ada",
@@ -4095,6 +4145,7 @@
         "word-yoda",
         "word-keoda",
         "word-yosa",
+        "word-odei",
         "word-odo",
         "word-odu",
         "word-otoda",
@@ -4142,6 +4193,18 @@
       ],
       "fulltext": "yosa word-yo word-oda person",
       "glo": "person"
+    },
+    "word-odei": {
+      "name": "odei",
+      "id": "word-odei",
+      "type": "word",
+      "noun": "fantastic body (Dom)",
+      "etym": [
+        "word-oda",
+        "word-ei"
+      ],
+      "fulltext": "odei word-oda word-ei fantastic body (Dom)",
+      "glo": "fantastic body (Dom)"
     },
     "word-odo": {
       "name": "odo",
@@ -4708,6 +4771,14 @@
       "noun": "soi distal (Grand Soi, Grande Sœur, Grand Frère, souvent le futur)",
       "fulltext": "hapi soi distal (Grand Soi, Grande Sœur, Grand Frère, souvent le futur)",
       "glo": "soi distal (Grand Soi, Grande Sœur, Grand Frère, souvent le futur)"
+    },
+    "word-piyi": {
+      "name": "piyi",
+      "id": "word-piyi",
+      "type": "word",
+      "conj": "1SG.DPRV",
+      "glo": "1SG.DPRV",
+      "fulltext": "piyi 1SG.DPRV"
     },
     "word-pio": {
       "name": "pio",
@@ -5408,13 +5479,15 @@
       "id": "word-ta",
       "type": "word",
       "det": "their (3SG)",
+      "prefix": "their",
+      "suffix": "their",
+      "glo": "3SG.POSS",
       "see": [
         "word-to",
         "word-ti",
         "word-wu"
       ],
-      "fulltext": "ta taroa to ti wu their (3SG)",
-      "glo": "their (3SG)",
+      "fulltext": "ta taroa to ti wu their (3SG) their their",
       "deriv": [
         "word-taroa"
       ]
@@ -5523,16 +5596,48 @@
       "id": "word-ti",
       "type": "word",
       "det": "your (2SG)",
+      "prefix": "your",
+      "suffix": "your",
+      "glo": "2SG.POSS",
       "see": [
         "word-to",
         "word-ta",
+        "word-tei",
         "word-wu"
       ],
-      "fulltext": "ti tiroa to ta wu your (2SG)",
-      "glo": "your (2SG)",
+      "fulltext": "ti tiroa tei to ta tei wu your (2SG) your your",
       "deriv": [
-        "word-tiroa"
+        "word-tiroa",
+        "word-tei"
       ]
+    },
+    "word-tilo": {
+      "name": "tilo",
+      "id": "word-tilo",
+      "type": "word",
+      "det": "your (2SG.WET)",
+      "glo": "2SG.WET",
+      "fulltext": "tilo your (2SG.WET)"
+    },
+    "word-tei": {
+      "name": "tei",
+      "id": "word-tei",
+      "type": "word",
+      "det": "your (2SG.HONOR)",
+      "prefix": "your (HONOR)",
+      "suffix": "your (HONOR)",
+      "glo": "2SG.HONOR.POSS",
+      "etym": [
+        "word-ti",
+        "word-ei"
+      ],
+      "see": [
+        "word-to",
+        "word-ti",
+        "word-ta",
+        "word-wu"
+      ],
+      "fulltext": "tei word-ti word-ei to ti ta wu your (2SG.HONOR) your (HONOR) your (HONOR)"
     },
     "word-tio": {
       "name": "tio",
@@ -5576,13 +5681,16 @@
       "id": "word-to",
       "type": "word",
       "det": "my/our (1SG.INDF)",
+      "prefix": "my/our",
+      "suffix": "my/our",
+      "glo": "1SG.INDF.POSS",
       "see": [
         "word-ti",
+        "word-tei",
         "word-ta",
         "word-wu"
       ],
-      "fulltext": "to toroa ti ta wu my/our (1SG.INDF)",
-      "glo": "my/our (1SG.INDF)",
+      "fulltext": "to toroa ti tei ta wu my/our (1SG.INDF) my/our my/our",
       "deriv": [
         "word-toroa"
       ]
@@ -5803,12 +5911,13 @@
       "id": "word-wu",
       "type": "word",
       "prep": "of",
+      "suffix": "of",
       "see": [
         "word-to",
         "word-ti",
         "word-ta"
       ],
-      "fulltext": "wu guwu to ti ta of",
+      "fulltext": "wu guwu to ti ta of of",
       "glo": "of",
       "deriv": [
         "word-guwu"
@@ -5944,7 +6053,10 @@
       "type": "word",
       "conj": "you depraved (2SG.DPRV)",
       "adj": "tiny",
-      "fulltext": "yi yida you depraved (2SG.DPRV) tiny",
+      "see": [
+        "alt-tiyi"
+      ],
+      "fulltext": "yi yida tiyi you depraved (2SG.DPRV) tiny",
       "glo": "you depraved (2SG.DPRV)",
       "deriv": [
         "word-yida"
@@ -6216,6 +6328,23 @@
       ],
       "fulltext": "zuzu word-zu word-zu auau to make love",
       "glo": "to make love"
+    },
+    "word-ei": {
+      "name": "ei",
+      "id": "word-ei",
+      "type": "word",
+      "adj": "fantastic",
+      "suffix": "honor",
+      "glo": "HONOR",
+      "see": [
+        "word-yi"
+      ],
+      "desc": "Adds honorific mode to the verb or possesive term.",
+      "fulltext": "ei Adds honorific mode to the verb or possesive term. odei tei yi fantastic honor",
+      "deriv": [
+        "word-odei",
+        "word-tei"
+      ]
     }
   },
   "card": {
@@ -6319,8 +6448,8 @@
       "id": "card-verbs",
       "type": "card",
       "lang": "verbs and conjugation",
-      "desc": "\nMany nouns are also verbs such as [fa](word-fa) or [fen](word-fen).\n\nThis language was born from an imaginary place where love making is one of the most important activity of adults and this results in a rich vocabulary to talk about caressing, slapping, pinching and playing with body parts.\n\n# [i](word-i), [u](word-u), [o](word-o) suffix\n\nThese alter the verbs respectively to mean \"caressing\" or gentle, \"pinching\" and slapping or hurting.\n\n* [21](phrase-21)\n* [22](phrase-22)\n* [23](phrase-23)\n\nThe very first use of the language was to ask a sexual partner to do something so the imperative form is the simplest and looks like the infinitiv.\n\nPhrase do not have precise verb, subject or object positioning and conjugation is used to remove ambiguity.\n\nIf the first noun does not match conjugation, this means that it represents the adverb (receiver of an action):\n\n* [24](phrase-24)\n* which is a short form of [25](phrase-25)\n* and we can also say [26](phrase-26)\n\nIt really depends where we want to put the emphasis (on the kissing or on who is to be kissed).\n\n# Conjugation\n\nFor other tenses apart from imperative, the conjugation *comes first*. This is because it is an evolution\nfrom *subject verb* to *subjectverb*:\n\n* [27](phrase-27)\n* evolved into [28](phrase-28)\n\nSo the possible conjugations are the same as the possible subjects:\n\n* [o](word-o) *I/we* (1SG.INDF)\n* [i](word-i) *you* (2SG)\n* [a](word-a) *them* (3SG)\n* [sho](word-sho) *us* (present) (1PL.PRS)\n* [shi](word-shi) *you* (present) (2PL.PRS)\n* [sha](word-sha) *them* (3PL)\n\n## And the rarer forms\n\n* [kei](word-kei) *you honorific* (2SG.HONOR)\n* [yi](word-yi) *you depraved* (2SG.DPRV)\n* [pi](word-pi) *I* (1SG)\n* [de](word-de) *us two* (1PL.DU)\n* [pe](word-pe) *some* (3PL.INDF)\n* [ka](word-ka) *us all* (1PL.DEF)\n\n## Passive voices\n\nThis is used to highlight the receiver of the action and allows us to not\nsay anything about the doer, as in\n\n[29](phrase-29)\n\nThis conjugation is created by adding [e](word-e) prefix. Think \"Be I whipped\", \"Be you whipped\".\n\nFor most common cases, the language evolved from *eho*, *ehi* and *eha* to:\n\n* [zo](word-zo) *I/we passiv* (1SG.INDF.PAS)\n* [zi](word-zi) *you passiv* (2SG.PAS)\n* [zo](word-zo) *they passiv* (3SG.PAS)\n\n# Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them\nbecause these timings are so important in the erotic situations where this\nlanguage originated.\n\n## Future tenses\n\n* [lire](word-lire) (FUT.EVNT) eventual future\n* [liro](word-liro) (FUT.DIST) distant future\n* [liru](word-liru) (FUT.PROX) close future\n* [lira](word-lira) (FUT.CRAS) tomorrow\n* [liri](word-liri) (FUT.HOD) tonight or next morning\n\n## Past tenses\n\n* [lemi](word-lemi) (PST.HOD) last night or this morning\n* [lema](word-lema) (PST.HEST) yesterday\n* [lemu](word-lemu) (PST.PROX) recent past\n* [lemo](word-lemo) (PST.DIST) distant past\n* [leme](word-leme) (PST.EVNT) eventual past\n\n## Eternal tenses\n\n* [lei](word-lei) (DEF) always\n* [nei](word-nei) (NEG) never\n\n# Examples\n\n* [30](phrase-30)\n* [31](phrase-31)\n\nYou might want to read [order](card-order) next.\n",
-      "fulltext": "verbs \nMany nouns are also verbs such as [fa](word-fa) or [fen](word-fen).\n\nThis language was born from an imaginary place where love making is one of the most important activity of adults and this results in a rich vocabulary to talk about caressing, slapping, pinching and playing with body parts.\n\n# [i](word-i), [u](word-u), [o](word-o) suffix\n\nThese alter the verbs respectively to mean \"caressing\" or gentle, \"pinching\" and slapping or hurting.\n\n* [21](phrase-21)\n* [22](phrase-22)\n* [23](phrase-23)\n\nThe very first use of the language was to ask a sexual partner to do something so the imperative form is the simplest and looks like the infinitiv.\n\nPhrase do not have precise verb, subject or object positioning and conjugation is used to remove ambiguity.\n\nIf the first noun does not match conjugation, this means that it represents the adverb (receiver of an action):\n\n* [24](phrase-24)\n* which is a short form of [25](phrase-25)\n* and we can also say [26](phrase-26)\n\nIt really depends where we want to put the emphasis (on the kissing or on who is to be kissed).\n\n# Conjugation\n\nFor other tenses apart from imperative, the conjugation *comes first*. This is because it is an evolution\nfrom *subject verb* to *subjectverb*:\n\n* [27](phrase-27)\n* evolved into [28](phrase-28)\n\nSo the possible conjugations are the same as the possible subjects:\n\n* [o](word-o) *I/we* (1SG.INDF)\n* [i](word-i) *you* (2SG)\n* [a](word-a) *them* (3SG)\n* [sho](word-sho) *us* (present) (1PL.PRS)\n* [shi](word-shi) *you* (present) (2PL.PRS)\n* [sha](word-sha) *them* (3PL)\n\n## And the rarer forms\n\n* [kei](word-kei) *you honorific* (2SG.HONOR)\n* [yi](word-yi) *you depraved* (2SG.DPRV)\n* [pi](word-pi) *I* (1SG)\n* [de](word-de) *us two* (1PL.DU)\n* [pe](word-pe) *some* (3PL.INDF)\n* [ka](word-ka) *us all* (1PL.DEF)\n\n## Passive voices\n\nThis is used to highlight the receiver of the action and allows us to not\nsay anything about the doer, as in\n\n[29](phrase-29)\n\nThis conjugation is created by adding [e](word-e) prefix. Think \"Be I whipped\", \"Be you whipped\".\n\nFor most common cases, the language evolved from *eho*, *ehi* and *eha* to:\n\n* [zo](word-zo) *I/we passiv* (1SG.INDF.PAS)\n* [zi](word-zi) *you passiv* (2SG.PAS)\n* [zo](word-zo) *they passiv* (3SG.PAS)\n\n# Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them\nbecause these timings are so important in the erotic situations where this\nlanguage originated.\n\n## Future tenses\n\n* [lire](word-lire) (FUT.EVNT) eventual future\n* [liro](word-liro) (FUT.DIST) distant future\n* [liru](word-liru) (FUT.PROX) close future\n* [lira](word-lira) (FUT.CRAS) tomorrow\n* [liri](word-liri) (FUT.HOD) tonight or next morning\n\n## Past tenses\n\n* [lemi](word-lemi) (PST.HOD) last night or this morning\n* [lema](word-lema) (PST.HEST) yesterday\n* [lemu](word-lemu) (PST.PROX) recent past\n* [lemo](word-lemo) (PST.DIST) distant past\n* [leme](word-leme) (PST.EVNT) eventual past\n\n## Eternal tenses\n\n* [lei](word-lei) (DEF) always\n* [nei](word-nei) (NEG) never\n\n# Examples\n\n* [30](phrase-30)\n* [31](phrase-31)\n\nYou might want to read [order](card-order) next.\n verbs and conjugation",
+      "desc": "\nMany nouns are also verbs such as [fa](word-fa) or [fen](word-fen).\n\nThis language was born from an imaginary place where love making is one of the most important activity of adults and this results in a rich vocabulary to talk about caressing, slapping, pinching and playing with body parts.\n\n# [i](word-i), [u](word-u), [o](word-o) suffix\n\nThese alter the verbs respectively to mean \"caressing\" or gentle, \"pinching\" and slapping or hurting.\n\n* [21](phrase-21)\n* [22](phrase-22)\n* [23](phrase-23)\n\nThe very first use of the language was to ask a sexual partner to do something so the imperative form is the simplest and looks like the infinitiv.\n\nPhrase do not have precise verb, subject or object positioning and conjugation is used to remove ambiguity.\n\nIf the first noun does not match conjugation, this means that it represents the adverb (receiver of an action):\n\n* [24](phrase-24)\n* which is a short form of [25](phrase-25)\n* and we can also say [26](phrase-26)\n\nIt really depends where we want to put the emphasis (on the kissing or on who is to be kissed).\n\n# Conjugation\n\nFor other tenses apart from imperative, the conjugation *comes first*. This is because it is an evolution\nfrom *subject verb* to *subjectverb*:\n\n* [27](phrase-27)\n* evolved into [28](phrase-28)\n\nSo the possible conjugations are the same as the possible subjects:\n\n* [o](word-o) *I/we* (1SG.INDF)\n* [i](word-i) *you* (2SG)\n* [a](word-a) *them* (3SG)\n* [sho](word-sho) *us* (present) (1PL.PRS)\n* [shi](word-shi) *you* (present) (2PL.PRS)\n* [sha](word-sha) *them* (3PL)\n\n## And the rarer forms\n\n* [okei](word-okei) *I honorific* (1SG.HONOR)\n* [kei](word-kei) *honorific* (2SG.HONOR)\n* [akei](word-akei) *they honorific* (3SG.HONOR)\n* [piyi](word-piyi) *me depraved* (1SG.DPRV)\n* [yi](word-yi) *you depraved* (2SG.DPRV)\n* [pi](word-pi) *I* (1SG)\n* [de](word-de) *us two* (1PL.DU)\n* [pe](word-pe) *some* (3PL.INDF)\n* [ka](word-ka) *us all* (1PL.DEF)\n\n## Passive voices\n\nThis is used to highlight the receiver of the action and allows us to not\nsay anything about the doer, as in\n\n[29](phrase-29)\n\nThis conjugation is created by adding [e](word-e) prefix and later became [zo](word-zo) instead of [eho](word-eho). Think \"Be I whipped\".\n\nFor most common cases, the language evolved from *eho*, *ehi* and *eha* to:\n\n* [zo](word-zo) *I/we passiv* (1SG.INDF.PAS)\n* [zi](word-zi) *you passiv* (2SG.PAS)\n* [zo](word-zo) *they passiv* (3SG.PAS)\n\n## Honorific / depraved\n\nThis is super important and super important and super important. In many role\nplay it is great to have Dom/sub relationships, one that is in control and\nanother who is passive. In order to emphasise this setting, the Dominant is\nreferred to as \"fantastic\" [kei](word-kei) and the sub as \"tiny\" [yi](word-yi) or \"wet\" [lo](word-lo).\n\nThis translates in possesive suffix [tei](word-tei), [tiyi](alt-tiyi), [tilo](word-tilo) or conjugations using [kei](word-kei) or the affix [ei](word-ei) or [yi](word-yi).\n\n[30](phrase-30)\n[31](phrase-31)\n\nJust remember, what sounds like \"OK\" is in fact \"I-fantastic\".\n\n# Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them\nbecause these timings are so important in the erotic situations where this\nlanguage originated.\n\n## Future tenses\n\n* [lire](word-lire) (FUT.EVNT) eventual future\n* [liro](word-liro) (FUT.DIST) distant future\n* [liru](word-liru) (FUT.PROX) close future\n* [lira](word-lira) (FUT.CRAS) tomorrow\n* [liri](word-liri) (FUT.HOD) tonight or next morning\n\n## Past tenses\n\n* [lemi](word-lemi) (PST.HOD) last night or this morning\n* [lema](word-lema) (PST.HEST) yesterday\n* [lemu](word-lemu) (PST.PROX) recent past\n* [lemo](word-lemo) (PST.DIST) distant past\n* [leme](word-leme) (PST.EVNT) eventual past\n\n## Eternal tenses\n\n* [lei](word-lei) (DEF) always\n* [nei](word-nei) (NEG) never\n\n# Examples\n\n* [32](phrase-32)\n* [33](phrase-33)\n\nYou might want to read [order](card-order) next.\n",
+      "fulltext": "verbs \nMany nouns are also verbs such as [fa](word-fa) or [fen](word-fen).\n\nThis language was born from an imaginary place where love making is one of the most important activity of adults and this results in a rich vocabulary to talk about caressing, slapping, pinching and playing with body parts.\n\n# [i](word-i), [u](word-u), [o](word-o) suffix\n\nThese alter the verbs respectively to mean \"caressing\" or gentle, \"pinching\" and slapping or hurting.\n\n* [21](phrase-21)\n* [22](phrase-22)\n* [23](phrase-23)\n\nThe very first use of the language was to ask a sexual partner to do something so the imperative form is the simplest and looks like the infinitiv.\n\nPhrase do not have precise verb, subject or object positioning and conjugation is used to remove ambiguity.\n\nIf the first noun does not match conjugation, this means that it represents the adverb (receiver of an action):\n\n* [24](phrase-24)\n* which is a short form of [25](phrase-25)\n* and we can also say [26](phrase-26)\n\nIt really depends where we want to put the emphasis (on the kissing or on who is to be kissed).\n\n# Conjugation\n\nFor other tenses apart from imperative, the conjugation *comes first*. This is because it is an evolution\nfrom *subject verb* to *subjectverb*:\n\n* [27](phrase-27)\n* evolved into [28](phrase-28)\n\nSo the possible conjugations are the same as the possible subjects:\n\n* [o](word-o) *I/we* (1SG.INDF)\n* [i](word-i) *you* (2SG)\n* [a](word-a) *them* (3SG)\n* [sho](word-sho) *us* (present) (1PL.PRS)\n* [shi](word-shi) *you* (present) (2PL.PRS)\n* [sha](word-sha) *them* (3PL)\n\n## And the rarer forms\n\n* [okei](word-okei) *I honorific* (1SG.HONOR)\n* [kei](word-kei) *honorific* (2SG.HONOR)\n* [akei](word-akei) *they honorific* (3SG.HONOR)\n* [piyi](word-piyi) *me depraved* (1SG.DPRV)\n* [yi](word-yi) *you depraved* (2SG.DPRV)\n* [pi](word-pi) *I* (1SG)\n* [de](word-de) *us two* (1PL.DU)\n* [pe](word-pe) *some* (3PL.INDF)\n* [ka](word-ka) *us all* (1PL.DEF)\n\n## Passive voices\n\nThis is used to highlight the receiver of the action and allows us to not\nsay anything about the doer, as in\n\n[29](phrase-29)\n\nThis conjugation is created by adding [e](word-e) prefix and later became [zo](word-zo) instead of [eho](word-eho). Think \"Be I whipped\".\n\nFor most common cases, the language evolved from *eho*, *ehi* and *eha* to:\n\n* [zo](word-zo) *I/we passiv* (1SG.INDF.PAS)\n* [zi](word-zi) *you passiv* (2SG.PAS)\n* [zo](word-zo) *they passiv* (3SG.PAS)\n\n## Honorific / depraved\n\nThis is super important and super important and super important. In many role\nplay it is great to have Dom/sub relationships, one that is in control and\nanother who is passive. In order to emphasise this setting, the Dominant is\nreferred to as \"fantastic\" [kei](word-kei) and the sub as \"tiny\" [yi](word-yi) or \"wet\" [lo](word-lo).\n\nThis translates in possesive suffix [tei](word-tei), [tiyi](alt-tiyi), [tilo](word-tilo) or conjugations using [kei](word-kei) or the affix [ei](word-ei) or [yi](word-yi).\n\n[30](phrase-30)\n[31](phrase-31)\n\nJust remember, what sounds like \"OK\" is in fact \"I-fantastic\".\n\n# Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them\nbecause these timings are so important in the erotic situations where this\nlanguage originated.\n\n## Future tenses\n\n* [lire](word-lire) (FUT.EVNT) eventual future\n* [liro](word-liro) (FUT.DIST) distant future\n* [liru](word-liru) (FUT.PROX) close future\n* [lira](word-lira) (FUT.CRAS) tomorrow\n* [liri](word-liri) (FUT.HOD) tonight or next morning\n\n## Past tenses\n\n* [lemi](word-lemi) (PST.HOD) last night or this morning\n* [lema](word-lema) (PST.HEST) yesterday\n* [lemu](word-lemu) (PST.PROX) recent past\n* [lemo](word-lemo) (PST.DIST) distant past\n* [leme](word-leme) (PST.EVNT) eventual past\n\n## Eternal tenses\n\n* [lei](word-lei) (DEF) always\n* [nei](word-nei) (NEG) never\n\n# Examples\n\n* [32](phrase-32)\n* [33](phrase-33)\n\nYou might want to read [order](card-order) next.\n verbs and conjugation",
       "glo": "verbs and conjugation"
     },
     "card-corresp": {
@@ -6328,8 +6457,8 @@
       "id": "card-corresp",
       "type": "card",
       "lang": "Correspondances, Baudelaire (1821-1867)",
-      "desc": "\n[32](phrase-32)  \n[33](phrase-33)  \n[34](phrase-34)  \n[35](phrase-35)  \n[36](phrase-36)  \n",
-      "fulltext": "corresp \n[32](phrase-32)  \n[33](phrase-33)  \n[34](phrase-34)  \n[35](phrase-35)  \n[36](phrase-36)  \n Correspondances, Baudelaire (1821-1867)",
+      "desc": "\n[34](phrase-34)  \n[35](phrase-35)  \n[36](phrase-36)  \n[37](phrase-37)  \n[38](phrase-38)  \n",
+      "fulltext": "corresp \n[34](phrase-34)  \n[35](phrase-35)  \n[36](phrase-36)  \n[37](phrase-37)  \n[38](phrase-38)  \n Correspondances, Baudelaire (1821-1867)",
       "glo": "Correspondances, Baudelaire (1821-1867)"
     }
   },
@@ -6666,7 +6795,7 @@
       "name": "29",
       "id": "phrase-29",
       "type": "phrase",
-      "phrase": "I will be whipped.",
+      "phrase": "I (depraved) will be whipped.",
       "see": [
         "alt-zofolir"
       ],
@@ -6676,27 +6805,49 @@
       "name": "30",
       "id": "phrase-30",
       "type": "phrase",
+      "phrase": "I am ready, Master.",
+      "see": [
+        "alt-yihe",
+        "word-sen",
+        "word-kei"
+      ],
+      "fulltext": "30 yihe sen kei"
+    },
+    "phrase-31": {
+      "name": "31",
+      "id": "phrase-31",
+      "type": "phrase",
+      "phrase": "I will undress (you).",
+      "see": [
+        "alt-okeinefelir"
+      ],
+      "fulltext": "31 okeinefelir"
+    },
+    "phrase-32": {
+      "name": "32",
+      "id": "phrase-32",
+      "type": "phrase",
       "phrase": "yesterday, I kissed a girl.",
       "see": [
         "alt-olalema",
         "word-ana"
       ],
-      "fulltext": "30 olalema ana"
+      "fulltext": "32 olalema ana"
     },
-    "phrase-31": {
-      "name": "31",
-      "id": "phrase-31",
+    "phrase-33": {
+      "name": "33",
+      "id": "phrase-33",
       "type": "phrase",
       "phrase": "They might love you someday.",
       "see": [
         "alt-azulire",
         "alt-auti"
       ],
-      "fulltext": "31 azulire auti"
+      "fulltext": "33 azulire auti"
     },
-    "phrase-32": {
-      "name": "32",
-      "id": "phrase-32",
+    "phrase-34": {
+      "name": "34",
+      "id": "phrase-34",
       "type": "phrase",
       "phrase": "La Nature et un temple où de vivants piliers",
       "see": [
@@ -6708,22 +6859,22 @@
         "word-namel",
         "alt-oda"
       ],
-      "fulltext": "32 tu gupa ahe agaukida don namel oda"
+      "fulltext": "34 tu gupa ahe agaukida don namel oda"
     },
-    "phrase-33": {
-      "name": "33",
-      "id": "phrase-33",
+    "phrase-35": {
+      "name": "35",
+      "id": "phrase-35",
       "type": "phrase",
       "phrase": "Laissent parfois sortir de confuses paroles;",
       "see": [
         "alt-shalapa",
         "alt-nega"
       ],
-      "fulltext": "33 shalapa nega"
+      "fulltext": "35 shalapa nega"
     },
-    "phrase-34": {
-      "name": "34",
-      "id": "phrase-34",
+    "phrase-36": {
+      "name": "36",
+      "id": "phrase-36",
       "type": "phrase",
       "phrase": "L'homme y passe à travers des forêts de symboles",
       "see": [
@@ -6735,11 +6886,11 @@
         "word-lom",
         "word-lana"
       ],
-      "fulltext": "34 tu yosa afen roa jana lom lana"
+      "fulltext": "36 tu yosa afen roa jana lom lana"
     },
-    "phrase-35": {
-      "name": "35",
-      "id": "phrase-35",
+    "phrase-37": {
+      "name": "37",
+      "id": "phrase-37",
       "type": "phrase",
       "phrase": "Qui l'observent avec des regards familiers.",
       "see": [
@@ -6750,11 +6901,11 @@
         "word-fa",
         "word-lae"
       ],
-      "fulltext": "35 di ko gi sha fa lae"
+      "fulltext": "37 di ko gi sha fa lae"
     },
-    "phrase-36": {
-      "name": "36",
-      "id": "phrase-36",
+    "phrase-38": {
+      "name": "38",
+      "id": "phrase-38",
       "type": "phrase",
       "phrase": "Comme de longs échos qui de loin se confondent...",
       "see": [
@@ -6768,7 +6919,7 @@
         "word-sha",
         "word-nelil"
       ],
-      "fulltext": "36 si agade uki di ha uya es sha nelil"
+      "fulltext": "38 si agade uki di ha uya es sha nelil"
     }
   },
   "alt": {
@@ -6815,11 +6966,35 @@
       "alt": "word-liri",
       "fulltext": "eliri"
     },
+    "alt-yihe": {
+      "name": "yihe",
+      "id": "alt-yihe",
+      "type": "alt",
+      "glo": "2SG.DPRV.be",
+      "alt": "word-e",
+      "fulltext": "yihe"
+    },
+    "alt-afe": {
+      "name": "afe",
+      "id": "alt-afe",
+      "type": "alt",
+      "glo": "3SG.cover",
+      "alt": "word-fe",
+      "fulltext": "afe"
+    },
+    "alt-okeinefelir": {
+      "name": "okeinefelir",
+      "id": "alt-okeinefelir",
+      "type": "alt",
+      "glo": "I.HONOR.NEG.cover.FUT",
+      "alt": "word-fe",
+      "fulltext": "okeinefelir"
+    },
     "alt-afen": {
       "name": "afen",
       "id": "alt-afen",
       "type": "alt",
-      "glo": "marcher.3SG",
+      "glo": "walk.3SG",
       "alt": "word-fen",
       "see": [
         "word-a",
@@ -6831,7 +7006,7 @@
       "name": "zofolir",
       "id": "alt-zofolir",
       "type": "alt",
-      "glo": "you.PAS.whip",
+      "glo": "you.PAS.HONOR.whip",
       "alt": "word-fo",
       "fulltext": "zofolir"
     },
@@ -6886,6 +7061,30 @@
       "alt": "word-liu",
       "fulltext": "sholiu"
     },
+    "alt-mato": {
+      "name": "mato",
+      "id": "alt-mato",
+      "type": "alt",
+      "glo": "1SG.INDF.POSS.hand",
+      "alt": "word-ma",
+      "fulltext": "mato"
+    },
+    "alt-zami": {
+      "name": "zami",
+      "id": "alt-zami",
+      "type": "alt",
+      "glo": "3SG.PAS.caress",
+      "alt": "word-mi",
+      "fulltext": "zami"
+    },
+    "alt-noati": {
+      "name": "noati",
+      "id": "alt-noati",
+      "type": "alt",
+      "glo": "skin.2SG.POSS",
+      "alt": "word-noa",
+      "fulltext": "noati"
+    },
     "alt-oda": {
       "name": "oda",
       "id": "alt-oda",
@@ -6893,6 +7092,25 @@
       "glo": "body.ADJ",
       "alt": "word-oda",
       "fulltext": "oda"
+    },
+    "alt-odato": {
+      "name": "odato",
+      "id": "alt-odato",
+      "type": "alt",
+      "glo": "body.1SG.INDF.POSS",
+      "alt": "word-oda",
+      "fulltext": "odato"
+    },
+    "alt-tiyi": {
+      "name": "tiyi",
+      "id": "alt-tiyi",
+      "type": "alt",
+      "glo": "your.DPRV",
+      "see": [
+        "word-tilo"
+      ],
+      "alt": "word-yi",
+      "fulltext": "tiyi tilo"
     },
     "alt-zuzupa": {
       "name": "zuzupa",

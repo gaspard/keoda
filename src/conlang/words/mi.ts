@@ -17,3 +17,8 @@ export const mifa = _.example([_.mi, _.fa], 'Caresse mes yeux.')
 
 _.see(_.omilirpal)
 _.see(_.imimoon)
+
+export const zami = _.alt('zami', {
+  glo: '3SG.PAS.caress',
+  alt: () => _.mi,
+})
