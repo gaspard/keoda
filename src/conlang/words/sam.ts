@@ -1,6 +1,15 @@
 import * as _ from '.'
 
-export const sam = _.word('sam', { noun: 'pied', posit: 'debout' })
+export const sam = _.word('sam', {
+  noun: 'foot',
+  posit: 'standing',
+})
+
+export const samoda = _.word('samoda', {
+  noun: 'hero',
+  glo: 'foot.person',
+  etym: () => [_.sam, _.oda],
+})
 
 export const fesam = _.word('fesam', { noun: 'chaussettes' })
 

@@ -21,7 +21,9 @@ export interface EntryInfo {
   lang: string
   posit: string
   adv: string
+  phrases: string[]
   // phrases only
+  trad: string
   phrase: string
   // ???
   person: string
@@ -32,6 +34,8 @@ export interface FullEntry extends EntryInfo {
   desc: () => string
   etym: () => Entry[]
   see: () => Entry[]
+  // For phrases
+  words: () => Entry[]
   alt: () => Entry
 }
 
@@ -94,7 +98,7 @@ export interface Entry extends EntryDefinition {
 
 export interface CompiledEntry extends Partial<EntryInfo> {
   name: string
-  type: 'word' | 'card'
+  type: 'word' | 'card' | 'phrase' | 'alt'
   // concat of all text for search
   fulltext: string
   // alternative word to show def
@@ -103,4 +107,6 @@ export interface CompiledEntry extends Partial<EntryInfo> {
   desc?: string
   deriv?: string[]
   see?: string[]
+  // for phrases
+  words?: string[]
 }

@@ -31,3 +31,8 @@ export const nede = _.word('nede', {
   desc: () => 'life with time (anxiety, few memories)',
   see: () => [_.gunes, _.nunes],
 })
+
+export const de2 = _.alt('de', {
+  glo: '2',
+  alt: () => _.de,
+})

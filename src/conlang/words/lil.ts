@@ -25,3 +25,8 @@ export const nelil = _.word('nelil', {
   verb: 'to confound',
   see: () => [_.gunes, _.nunes],
 })
+
+export const lil5 = _.alt('lil', {
+  glo: '5',
+  alt: () => _.lil,
+})

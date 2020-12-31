@@ -27,3 +27,8 @@ export const nepe = _.word('nepe', {
   adj: 'offensive',
   see: () => [_.gunes, _.nunes],
 })
+
+export const pe3 = _.alt('pe', {
+  glo: '3',
+  alt: () => _.pe,
+})

@@ -6,8 +6,14 @@ import * as actions from './actions'
 import { KeodaConfig, Lexicons } from './app'
 import { App } from './components'
 import { CompiledEntriesByType, TYPES } from './conlang/types'
-import * as db from './db.json'
+import * as xdb from './db.json'
 import './style.css'
+
+const db = xdb as CompiledEntriesByType
+
+function phraseSort(a: string, b: string) {
+  return db.phrase[a].phrase! < db.phrase[b].phrase! ? -1 : 1
+}
 
 const config: KeodaConfig = {
   onInitialize(ctx) {
@@ -18,10 +24,11 @@ const config: KeodaConfig = {
   },
   state: {
     keoda: {
-      db: db as CompiledEntriesByType,
+      db,
       lexicon: Object.assign(
         {},
-        ...TYPES.map(type => ({ [type]: Object.keys(db[type]).sort() }))
+        ...TYPES.map(type => ({ [type]: Object.keys(db[type]).sort() })),
+        { phrase: Object.keys(db.phrase).sort(phraseSort) }
       ),
     },
   },

@@ -1,10 +1,11 @@
 import * as _ from '.'
 
 export const ka = _.word('ka', {
-  noun: '4 (singularité, qui ne peut pas être pensé)',
-  pron: 'tous',
-  suffix: 'tous',
-  posit: 'à quatre pattes',
+  noun: '4 / singularity',
+  desc: () => 'That which cannot be thought.',
+  pron: 'everyone',
+  suffix: 'every',
+  posit: 'on all fours',
   conj: 'us all, universal (1PL.DEF)',
 })
 _.see(_.kamaconj)
@@ -16,14 +17,11 @@ export const kada = _.word('kada', {
 })
 _.see(_.pronouns)
 
-export const ika = _.word('ika', {
-  pron: 'à toi, nous toutes et tous',
-})
-
 export const hamaka = _.word('hamaka', {
-  noun: 'annulaire (4ème doigt)',
-  posit:
-    'à quatre pattes (indiquée par un signe de main: pouce contre annulaire)',
+  noun: 'ring finger (4th finger)',
+  posit: 'on all fours',
+  desc: () =>
+    'The position is indicated by putting the thumb on the ring finger.',
 })
 
 export const neka = _.word('neka', {
@@ -34,7 +32,8 @@ export const neka = _.word('neka', {
 })
 
 export const karu = _.word('karu', {
-  verb: 'choisir (la réalisation du singulier en soi)',
+  verb: 'to choose',
+  desc: () => 'The realization of the singular in onself.',
   etym: () => [_.ka, _.ru],
 })
 _.see(_.ligau)
@@ -42,4 +41,9 @@ _.see(_.ligau)
 export const koda = _.word('koda', {
   noun: 'cow',
   etym: () => [_.ka, _.oda],
+})
+
+export const ka4 = _.alt('ka', {
+  glo: '4',
+  alt: () => _.ka,
 })

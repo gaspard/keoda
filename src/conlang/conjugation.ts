@@ -36,8 +36,9 @@ const EXCEPTIONS: string[] = ['pinu']
 
 export function detectConjugationIssues() {
   const conjugations: { [key: string]: string } = {}
-  const verbs = Object.keys(entries)
-    .filter(key => entries[key].verb)
+  const words = entries.word
+  const verbs = Object.keys(words)
+    .filter(key => words[key].verb)
     .sort()
 
   verbs.forEach(verb => {
@@ -46,13 +47,13 @@ export function detectConjugationIssues() {
       if (printed) {
         return
       }
-      console.log(`=========== ${verb} (${entries[verb].verb}) =========`)
+      console.log(`=========== ${verb} (${words[verb].verb}) =========`)
       printed = true
     }
     INFLECTIONS.forEach(inf => {
       const conj =
         inf + (VOWEL.indexOf(verb[0]) >= 0 && inf !== '' ? 'h' : '') + verb
-      if (entries[conj] && inf !== '' && !EXCEPTIONS.includes(conj)) {
+      if (words[conj] && inf !== '' && !EXCEPTIONS.includes(conj)) {
         printHeader()
         console.log(conj)
         console.log(`verb: ${inf} - ${verb} conflicts with ${conj}`)

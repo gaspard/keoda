@@ -11,7 +11,15 @@ export interface MarkdownProps {
 }
 
 const renderers = {
-  link: ({ href }: { href: string }) => <Link id={href} fromMd />,
+  link: ({
+    href,
+    children,
+  }: {
+    href: string
+    children: React.ElementType[]
+  }) => {
+    return <Link id={href} fromMd children={children} />
+  },
 }
 
 export const Markdown: Comp<MarkdownProps> = ({ className, text }) => {

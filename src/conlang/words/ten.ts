@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const ten = _.word('ten', {
-  pron: 'les',
-  desc: () => `optionel, utilisé pour souligner le sujet`,
+  pron: 'the',
+  desc: () => `Optional. Used to put emphasis on the noun.`,
+  see: () => [_.tu],
 })
-_.see(_.tu)

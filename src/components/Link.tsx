@@ -22,6 +22,10 @@ const Wrapper = styled.span`
     color: #2c383c;
     font-weight: bold;
   }
+  &.high,
+  &.ref.high {
+    border-bottom: 2px solid orange;
+  }
   &:not(.ref) {
     border-bottom: 1px solid #397d7d;
   }
@@ -29,14 +33,21 @@ const Wrapper = styled.span`
 
 const Anchor = styled.a`
   color: inherit;
-  text-decoration: none;
+  &:not(.out) {
+    text-decoration: none;
+  }
   &:hover {
     color: #397d7d;
   }
 `
 
-export const Link: Comp<LinkProps> = ({ className, id, fromMd }) => {
+export const Link: Comp<LinkProps> = ({ className, id, fromMd, children }) => {
   const ctx = useOvermind()
+  if (id.startsWith('http')) {
+    return (
+      <Anchor href={id} children={children} className="out" target="_blank" />
+    )
+  }
   const [type] = id.split('-')
   if (type === 'phrase') {
     return <Phrase id={id} />
@@ -49,7 +60,10 @@ export const Link: Comp<LinkProps> = ({ className, id, fromMd }) => {
   let timer: any
   return (
     <Wrapper
-      className={classnames('Link', className, { ref: fromMd })}
+      className={classnames('Link', className, {
+        ref: fromMd,
+        high: ref === ctx.state.keoda.selected,
+      })}
       onMouseEnter={e => {
         const r = e.currentTarget.getBoundingClientRect()
         if (!ctx.state.keoda.float || ctx.state.keoda.float.hidden) {

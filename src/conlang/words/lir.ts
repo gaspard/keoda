@@ -29,11 +29,6 @@ export const elir = _.word('elir', {
   etym: () => [_.e, _.lir],
 })
 
-export const ofolir = _.alt('ofolir', {
-  glo: 'I.INDF.whip',
-  alt: () => _.fo,
-})
-
 export const omilirpal = _.example(
   [_.o, _.mi, _.lir, _.pal],
   'On va te masser les fesses.'

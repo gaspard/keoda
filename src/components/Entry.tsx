@@ -1,10 +1,11 @@
-import { Comp, styled, useOvermind } from '../app'
 import classnames from 'classnames'
 import * as React from 'react'
-import { List } from './List'
-import { DEF_KEYS, CompiledEntry } from '../conlang/types'
-import { Markdown } from './Markdown'
+import { Comp, styled, useOvermind } from '../app'
+import { CompiledEntry, DEF_KEYS } from '../conlang/types'
 import { getEntry } from '../helpers/getEntry'
+import { Link } from './Link'
+import { List } from './List'
+import { Markdown } from './Markdown'
 
 export interface EntryProps {
   className?: string
@@ -15,16 +16,22 @@ export interface EntryProps {
 const Wrapper = styled.div`
   position: relative;
   display: flex;
-  flex-direction: row;
   font-size: 18px;
   border: 1px solid #444;
   background: #aba89c;
   margin: 14px;
   border-radius: 5px;
   align-items: start;
-  width: 450px;
   align-self: top;
   box-shadow: 0 0 10px #0000001f;
+  &:not(.phrase) {
+    flex-direction: row;
+    width: 450px;
+  }
+  &.phrase {
+    flex-direction: column;
+    width: auto;
+  }
   &.card {
     min-width: 600px;
     flex-grow: 1;
@@ -55,26 +62,39 @@ const ArrowUp = styled.div`
 
 const Name = styled.div`
   transition: background-color 0.8s;
-  padding: 12px 0 0 14px;
   border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
   font-weight: bold;
   background: #d6d3c6;
   align-self: stretch;
-  width: 7rem;
   flex-shrink: 0;
   flex-grow: 0;
   color: #333;
-  font-size: 1.4rem;
   display: flex;
   flex-direction: row;
+  &:not(.phrase) {
+    width: 7rem;
+    border-bottom-left-radius: 5px;
+    padding: 12px 0 0 14px;
+    font-size: 1.4rem;
+  }
+  &.phrase {
+    border-top-right-radius: 5px;
+    padding: 12px;
+    line-height: 1.3rem;
+    display: block;
+  }
   & span {
     align-self: top;
   }
 `
 
 const Definitions = styled.div`
+  .phrase & {
+    border-left: none;
+    border-top: 1px solid #7b7b7b;
+  }
   display: flex;
+  flex-grow: 1;
   flex-direction: column;
   padding: 5px;
   align-self: stretch;
@@ -87,10 +107,11 @@ const Definition = styled.div`
   padding: 5px;
   &.desc {
     border-top: 1px solid #888;
-    line-height: 1.3rem;
+    line-height: 1.6rem;
     font-style: italic;
     color: #555;
     display: block;
+    align-self: stretch;
     h1 {
       font-size: 1.6rem;
       font-style: normal;
@@ -102,6 +123,33 @@ const Definition = styled.div`
       font-style: normal;
       color: inherit;
       margin-top: 2rem;
+    }
+    blockquote {
+      font-family: 'Times New Roman', Times, serif;
+      padding: 0.5em 10px;
+      border-radius: 2px;
+      position: relative;
+      & p:first-child {
+        margin-top: 10px;
+      }
+      & p:not(:last-child) {
+        font-size: 1.9rem;
+        line-height: 2rem;
+      }
+      & p:last-child {
+        text-align: right;
+        margin-top: -1.5rem;
+        margin-bottom: 0;
+      }
+      &:before {
+        position: absolute;
+        font-weight: bold;
+        top: 22px;
+        left: -33px;
+        opacity: 0.8;
+        content: open-quote;
+        font-size: 4em;
+      }
     }
     code {
       color: #222;
@@ -176,6 +224,9 @@ const DefType = styled.div`
   &.see {
     color: #666;
   }
+  &.phrase {
+    color: #666;
+  }
   text-align: right;
 `
 
@@ -222,9 +273,15 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
       })}
     >
       {popup ? <ArrowUp /> : <ID id={id} />}
-      <Name className="Name">
-        <span>{entry.name}</span>
-      </Name>
+      {entry.type === 'phrase' ? (
+        <Name className="Name phrase">
+          <Link id={id} fromMd />
+        </Name>
+      ) : (
+        <Name className="Name">
+          <span>{entry.name}</span>
+        </Name>
+      )}
       <Definitions>
         {DEF_KEYS.map(key =>
           entry[key] ? (
@@ -246,6 +303,11 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
         {entry.desc && (
           <Definition className="desc">
             <Markdown text={entry.desc} />
+          </Definition>
+        )}
+        {entry.phrases && (
+          <Definition className="desc">
+            <List className="phrases" entries={entry.phrases} />
           </Definition>
         )}
       </Definitions>

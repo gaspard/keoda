@@ -26,7 +26,6 @@ export const eha = _.word('eha', {
   see: () => [_.za],
 })
 
-_.see(_.edjil)
 _.see(_.enopisamdjobajom)
 
 export const yihe = _.alt('yihe', {

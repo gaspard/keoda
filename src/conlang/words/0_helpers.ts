@@ -35,8 +35,23 @@ function makeId() {
   return `${++phraseIdx}`
 }
 
+export const PHRASE_ORIG: { entry?: Entry } = {}
+
 export function phrase(trad: string, ...args: Entry[]) {
-  return entry('phrase', makeId(), { phrase: trad, see: () => args })
+  const p = entry('phrase', makeId(), { trad, words: () => args })
+  const e = PHRASE_ORIG.entry
+  if (e) {
+    p.see = () => [e]
+  }
+  args.forEach(w => {
+    const orig = w.alt ? w.alt() : w
+    let { phrases } = orig
+    if (!phrases) {
+      phrases = orig.phrases = []
+    }
+    phrases.push(p.id)
+  })
+  return p
 }
 
 export function word(name: string, definition: EntryDefinition): Entry {

@@ -29,3 +29,8 @@ export const dana = _.word('dana', {
   noun: 'geography',
   etym: () => [_.da, _.na],
 })
+
+export const da9 = _.alt('da', {
+  glo: '9',
+  alt: () => _.da,
+})

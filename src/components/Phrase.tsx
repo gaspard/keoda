@@ -41,7 +41,7 @@ const Trad = styled.div`
 const Info = styled.div`
   cursor: pointer;
   font-style: normal;
-  transform: translate(0, -1px);
+  transform: translate(0, 1px);
   opacity: 0.5;
   font-size: 64%;
   filter: grayscale(80%);
@@ -60,6 +60,8 @@ const GWrap = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 5px;
+  font-weight: normal;
+  font-size: 1rem;
 `
 
 export const Phrase: Comp<PhraseProps> = ({ className, id }) => {
@@ -76,11 +78,11 @@ export const Phrase: Comp<PhraseProps> = ({ className, id }) => {
       </Info>
       {glo ? (
         <GWrap>
-          <Trad className="Trad">{phrase.phrase}</Trad>
-          <List phrase entries={phrase.see!} glo={glo} />
+          <Trad className="Trad">{phrase.trad}</Trad>
+          <List phrase entries={phrase.words!} glo={glo} />
         </GWrap>
       ) : (
-        <List phrase entries={phrase.see!} glo={glo} />
+        <List phrase entries={phrase.words!} glo={glo} />
       )}
     </Wrapper>
   )

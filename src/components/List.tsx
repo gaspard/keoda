@@ -22,8 +22,13 @@ export const ListWrapper = styled.div`
     font-weight: bold;
   }
   &.phrase {
-    display: inline-block;
     margin: 0;
+  }
+  &.phrases {
+    flex-direction: column;
+  }
+  &.phrases > * {
+    margin: 5px 0;
   }
   &.phrase.glo {
     display: flex;
@@ -47,6 +52,9 @@ const Glo = styled.div`
 
 const Gloss = styled.div`
   font-style: normal;
+  font-family: Monaco;
+  font-size: 0.9rem;
+  color: #565656;
 `
 
 export const GlossAndLink: Comp<LinkProps> = props => {
