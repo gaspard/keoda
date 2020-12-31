@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const am = _.word('am', {
-  glo: 'DAT',
+  glo: 'ACC',
   suffix: 'recipient',
   verb: 'to receive',
   desc: () => `The suffix is added to the last part of the recipient. So if the receiver is John's butt, depending on word order, the ${

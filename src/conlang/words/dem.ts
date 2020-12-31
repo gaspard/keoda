@@ -1,10 +1,9 @@
 import * as _ from '.'
 
-export const dahem = _.word('dahem', {
-  prep: 'quand (passé)',
+export const dem = _.word('dem', {
+  prep: 'when (past)',
+  glo: 'when.PST',
   etym: () => [_.da, _.em],
-  desc: () => `Le lieu ${_.da} vécu ${_.em}`,
+  see: () => [_.elem, _.dir, _.prep],
+  desc: () => `The place lived`,
 })
-_.see(_.elir)
-_.see(_.dahir)
-_.see(_.prep)

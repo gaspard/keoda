@@ -1,20 +1,34 @@
 import * as _ from '.'
 
 export const pe = _.word('pe', {
-  conj: 'some (3PL.INDF)',
+  conj: 'some',
+  glo: '3PL.INDF',
   noun: '3',
   suffix: 'some',
-  see: () => [_.mun],
+  see: () => [_.mun, _.counting],
   posit: 'two legs and a buttock (doggy style)',
 })
-_.see(_.pemaconj)
-_.see(_.counting)
+
+export const tope = _.word('tope', {
+  det: 'to some',
+  glo: 'POSS.3PL.INDF',
+  etym: () => [_.to, _.de],
+  see: () => [_.poss],
+})
 
 export const peda = _.word('peda', {
-  pron: 'some (3PL.INDF)',
+  pron: 'some',
+  glo: '3PL.INDF',
   etym: () => [_.pe, _.oda],
+  see: () => [_.peya, _.pron],
 })
-_.see(_.pronouns)
+
+export const peya = _.word('peya', {
+  pron: 'some (poetic)',
+  glo: '3PL.INDF.POET',
+  etym: () => [_.pe, _.yada],
+  see: () => [_.peda, _.pron],
+})
 
 export const hamape = _.word('hamape', {
   noun: 'middle finger',

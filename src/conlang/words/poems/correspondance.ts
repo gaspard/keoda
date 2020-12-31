@@ -29,8 +29,7 @@ ${_.phrase(
   _.tu,
   _.yosa,
   _.afen,
-  _.roa,
-  _.jana,
+  _.janaro,
   _.mei,
   _.lana
 )}  
@@ -46,14 +45,10 @@ ${_.phrase(
 ${_.phrase(
   'Comme de longs échos qui de loin se confondent...',
   _.si,
-  _.agade,
-  _.uki,
+  _.agadeuki,
   _.di,
-  _.ha,
-  _.uya,
-  _.es,
-  _.sha,
-  _.nelil
+  _.hadai,
+  _.esshanelil
 )}  
 `,
 })

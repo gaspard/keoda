@@ -3,6 +3,7 @@ import * as _ from '.'
 export const da = _.word('da', {
   noun: 'place, 9',
   suffix: 'place',
+  glo: 'LOC',
   see: () => [_.kdana, _.counting, _.sen],
 })
 

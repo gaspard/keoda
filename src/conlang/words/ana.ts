@@ -26,3 +26,10 @@ export const aniwi = _.word('aniwi', {
   adj: 'birdly tree (enby fem)',
   etym: () => [_.ana, _.iwi],
 })
+
+// ==== alt
+
+export const anam = _.alt('anam', {
+  glo: 'feminine.ACC',
+  alt: () => _.ana,
+})

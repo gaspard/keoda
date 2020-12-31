@@ -1,14 +1,13 @@
 import * as _ from '.'
 
 export const si = _.word('si', {
-  suffix: `comme`,
-  desc: () =>
-    `Annonce d'une manière qui se terminera par ${_.esi} (sauf si c'est qu'on mot).`,
+  prep: 'like, as if',
+  prefix: 'like',
+  see: () => [_.prep, _.esi],
 })
-_.see(_.prep)
 
 export const sigu = _.word('sigu', {
-  noun: 'sombre (comme le mystère)',
+  adj: 'dark (like a mystery)',
   etym: () => [_.si, _.gu],
 })
 
@@ -18,9 +17,10 @@ export const tajyonsitioa = _.example(
 )
 
 export const esi = _.word('esi', {
-  suffix: `ainsi, pour, de sorte que`,
+  prep: 'so that',
+  see: () => [_.prep],
+  etym: () => [_.e, _.si],
 })
-_.see(_.prep)
 
 _.see(_.lasimuhadjotionayon)
 

@@ -43,11 +43,6 @@ export const ofolirpal = _.example(
   'On va te fouetter les fesses.'
 )
 
-export const lirmunfa = _.example(
-  [_.lir, _.mun, _.fa],
-  'Tu vas montrer tes seins.'
-)
-
 export const lirlipa = _.example([_.lir, _.li, _.pa], 'Tu vas chanter.')
 
 // Ofalir mun.

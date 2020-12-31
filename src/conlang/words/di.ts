@@ -1,10 +1,9 @@
 import * as _ from '.'
 
 export const di = _.word('di', {
-  pron: 'whom',
+  prep: 'who',
+  see: () => [_.prep, _.dim, _.diwu],
 })
-_.see(_.prep)
-_.see(_.diwu)
 
 export const diguwu = _.word('diguwu', {
   noun: 'généreu.se.x',

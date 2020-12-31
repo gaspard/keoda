@@ -8,17 +8,17 @@ export const on = _.word('on', {
 _.see(_.yon)
 
 export const lamon = _.word('lamon', {
-  noun: `urètre (source de l'eau)`,
+  noun: 'urethra',
   etym: () => [_.lam, _.on],
 })
 
 export const yaon = _.word('yaon', {
-  noun: 'lever de la nuit (coucher de soleil)',
+  noun: 'dusk',
   etym: () => [_.ya, _.on],
 })
 
 export const yohon = _.word('yohon', {
-  noun: 'lever du jour',
+  noun: 'dawn',
   etym: () => [_.yo, _.on],
 })
 

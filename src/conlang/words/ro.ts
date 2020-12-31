@@ -1,14 +1,13 @@
 import * as _ from '.'
 
 export const ro = _.word('ro', {
-  prefix: 'proche du centre',
+  suffix: 'in (INESS)',
+  prefix: 'inner',
+  glo: 'INESS',
+  see: () => [_.ri, _.prep],
 })
-_.see(_.ri)
-_.see(_.royon)
-_.see(_.robo)
 
 export const robaj = _.word('robaj', {
-  noun: 'intérieur des cuisses',
-  desc: () =>
-    `On devrait dire rodjobaj mais on dit robaj. L'intérieur des mollets se dit rohabaj.`,
+  noun: 'inner thighs',
+  etym: () => [_.ro, _.baj],
 })

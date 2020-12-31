@@ -7,21 +7,18 @@ export const yoda = _.word('yoda', {
 
 export const oda = _.word('oda', {
   noun: 'body, place of life',
-  pron: 'me/us (1SG.INDF)',
+  pron: 'me/us',
   adj: 'alive',
   suffix: 'animal',
-})
-_.see(_.pronouns)
-_.see(_.to)
-
-export const oda_adj = _.alt('oda', {
-  glo: 'body.ADJ',
-  alt: () => _.oda,
+  glo: '1SG.INDF',
+  see: () => [_.to, _.oya, _.pron],
 })
 
-export const oha = _.word('oha', {
-  pron: 'poetic self (1G.INDF)',
+export const oya = _.word('oya', {
+  pron: 'me/us (poetic)',
+  glo: '1SG.INDF.POET',
   etym: () => [_.o, _.yada],
+  see: () => [_.oda, _.pron],
 })
 
 export const keoda = _.word('keoda', {
@@ -34,15 +31,33 @@ export const yosa = _.word('yosa', {
   etym: () => [_.yo, _.oda],
 })
 
-_.see(_.ida)
-_.see(_.ti)
+export const odei = _.word('odei', {
+  noun: 'fantastic me/us (Dom)',
+  glo: '1SG.INDF.HONOR',
+  etym: () => [_.oda, _.ei],
+  see: () => [_.yadei, _.pron],
+})
 
-export const odato = _.alt('odato', {
-  glo: 'body.1SG.INDF.POSS',
+export const yadei = _.word('yadei', {
+  noun: 'fantastic me/us (poetic)',
+  glo: '1SG.INDF.HONOR.POET',
+  etym: () => [_.yada, _.ei],
+  see: () => [_.odei, _.pron],
+})
+
+/// =============== ALT
+
+export const odatoam = _.alt('odatoam', {
+  glo: 'body.POSS.1SG.INDF.ACC',
   alt: () => _.oda,
 })
 
-export const odei = _.word('odei', {
-  noun: 'fantastic body (Dom)',
-  etym: () => [_.oda, _.ei],
+export const oda_adj = _.alt('oda', {
+  glo: 'body.ADJ',
+  alt: () => _.oda,
+})
+
+export const tohodam = _.alt('tohodam', {
+  glo: 'POSS.1SG.INDF.body.ACC',
+  alt: () => _.oda,
 })

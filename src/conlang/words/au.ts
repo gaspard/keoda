@@ -3,10 +3,11 @@ import * as _ from '.'
 export const au = _.word('au', {
   noun: 'heart',
   verb: 'to love/to receive',
+  see: () => [_.zu],
 })
-_.see(_.zu)
+
 export const ohau = _.alt('ohau', {
-  glo: 'I.INDF.love',
+  glo: '1SG.INDF.love',
   alt: () => _.au,
 })
 
@@ -21,8 +22,6 @@ export const aupa = _.word('aupa', {
 })
 _.see(_.pahau)
 _.see(_.kupa)
-
-_.see(_.miau)
 
 export const auau = _.word('auau', {
   verb: 'to make love',
@@ -40,7 +39,7 @@ export const azulire = _.alt('azulire', {
   alt: () => _.zu,
 })
 
-export const auti = _.alt('auti', {
-  glo: 'heart.DET.2SG',
+export const autim = _.alt('autim', {
+  glo: 'heart.DET.2SG.ACC',
   alt: () => _.au,
 })

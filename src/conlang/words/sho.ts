@@ -5,26 +5,38 @@ export const sho = _.word('sho', {
   noun: 'saliva',
   verb: 'salivate',
 })
-_.see(_.shomaconj)
 
 export const shoda = _.word('shoda', {
-  pron: 'us (1PL)',
+  pron: 'us',
+  glo: '1PL',
   etym: () => [_.sho, _.oda],
+  see: () => [_.tosho, _.shoya, _.pron],
 })
-_.see(_.pronouns)
 
-export const shoha = _.word('shoha', {
-  noun: 'nous poétique',
+export const shoya = _.word('shoya', {
+  pron: 'us (poetic)',
+  glo: '1PL.POET',
   etym: () => [_.sho, _.yada],
+  see: () => [_.shoda, _.pron],
 })
 
 // dem ofa noa osho
 export const eliofanoaosho = _.example(
-  [_.dahem, _.o, _.fa, _.noa, _.o, _.sho],
+  [_.dem, _.o, _.fa, _.noa, _.o, _.sho],
   'Quand je vois ta peau, je salive.'
 )
 
 export const onsho = _.word('onsho', {
   noun: 'sucre, récompense',
   etym: () => [_.on, _.sho],
+})
+
+export const shoyi = _.alt('shoyi', {
+  glo: '1PL.PRS.DPRV',
+  alt: () => _.sho,
+})
+
+export const shokei = _.alt('shokei', {
+  glo: '1PL.PRS.HONOR',
+  alt: () => _.sho,
 })

@@ -1,32 +1,44 @@
 import * as _ from '.'
 
 export const to = _.word('to', {
-  det: 'my/our (1SG.INDF)',
+  det: 'my/our',
   prefix: 'my/our',
   suffix: 'my/our',
-  glo: '1SG.INDF.POSS',
-  see: () => [_.ti, _.tei, _.ta, _.wu],
+  glo: 'POSS.1SG.INDF',
+  see: () => [_.poss],
 })
 
-_.see(_.oda)
-_.see(_.pronouns)
-
 export const tosho = _.word('tosho', {
-  noun: 'notre',
-  suffix: 'notre',
+  det: 'our',
+  suffix: 'our',
+  glo: 'POSS.1PL',
+  see: () => [_.poss],
 })
 
 export const toshi = _.word('toshi', {
-  noun: 'votre',
-  suffix: 'votre',
+  det: 'your',
+  suffix: 'your',
+  glo: 'POSS.2PL',
+  see: () => [_.poss],
 })
 
 export const tosha = _.word('tosha', {
-  noun: 'leur',
-  suffix: 'leur',
+  det: 'their',
+  suffix: 'their',
+  glo: 'POSS.3PL',
+  see: () => [_.poss],
 })
 
 export const topi = _.word('topi', {
-  noun: 'mon à moi',
-  suffix: 'mon à moi',
+  det: 'mine',
+  suffix: 'mine',
+  glo: 'POSS.1SG',
+  see: () => [_.poss],
+})
+
+// ========== ALT
+
+export const toI = _.alt('to', {
+  glo: '1SG.INDF',
+  alt: () => _.to,
 })

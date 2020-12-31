@@ -11,13 +11,26 @@ _.see(_.counting)
 _.see(_.pio)
 _.see(_.ajapi)
 
-// NB: "on" serait "oda" mais on utilise souvent pida ou shoda à la place.
 export const pida = _.word('pida', {
-  noun: 'moi',
+  pron: 'me',
+  glo: '1SG',
   etym: () => [_.pi, _.oda],
+  see: () => [_.piya, _.pron],
 })
-_.see(_.pronouns)
-_.see(_.piha)
+
+export const piyida = _.word('piyida', {
+  pron: 'tiny me',
+  glo: '1SG.DPRV',
+  etym: () => [_.piyi, _.oda],
+  see: () => [_.piyiya, _.pron],
+})
+
+export const piyiya = _.word('piyiya', {
+  pron: 'tiny me (poetic)',
+  glo: '1SG.DPRV.POET',
+  etym: () => [_.piyi, _.yada],
+  see: () => [_.piyida, _.pron],
+})
 
 export const papi = _.word('papi', {
   noun: 'sagesse (tout écho en soi)',
@@ -67,6 +80,13 @@ export const hapi = _.word('hapi', {
 })
 
 export const piyi = _.word('piyi', {
-  conj: '1SG.DPRV',
+  conj: 'I (tiny/depraved)',
   glo: '1SG.DPRV',
+  see: () => [_.verbs],
+})
+
+export const topiyi = _.word('topiyi', {
+  det: 'to me (tiny/depraved)',
+  glo: 'POSS.1SG.DPRV',
+  see: () => [_.poss],
 })

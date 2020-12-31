@@ -1,5 +1,15 @@
 import * as _ from '.'
 
 export const es = _.word('es', {
-  noun: 'se (être soi, se regarder, se confondre)',
+  prefix: 'self (INTR)',
+  suffix: 'state (BE)',
+  glo: 'INTR',
+  desc: () => `
+It is applied before the conjugation: ${_.esshanelil}.
+
+When used as suffix on a word ending with a vowel, we add an 'n':
+
+* ${_.nunes}
+* ${_.nefenesti}
+`,
 })

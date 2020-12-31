@@ -7,15 +7,28 @@ export const ka = _.word('ka', {
   suffix: 'every',
   posit: 'on all fours',
   conj: 'us all, universal (1PL.DEF)',
+  see: () => [_.counting],
 })
-_.see(_.kamaconj)
-_.see(_.counting)
+
+export const toka = _.word('toka', {
+  noun: 'to us all',
+  glo: 'POSS.1PL.DEF',
+  see: () => [_.poss, _.tosho, _.tosha, _.toshi],
+})
 
 export const kada = _.word('kada', {
-  pron: 'us all (1PL.DEF)',
+  pron: 'us all',
+  glo: '1PL.DEF',
   etym: () => [_.ka, _.oda],
+  see: () => [_.toka, _.kaya, _.pron],
 })
-_.see(_.pronouns)
+
+export const kaya = _.word('kaya', {
+  pron: 'us all (poetic)',
+  glo: '1PL.DEF.POET',
+  etym: () => [_.ka, _.oda],
+  see: () => [_.kada, _.pron],
+})
 
 export const hamaka = _.word('hamaka', {
   noun: 'ring finger (4th finger)',

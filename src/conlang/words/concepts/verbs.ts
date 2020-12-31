@@ -51,14 +51,20 @@ So the possible conjugations are the same as the possible subjects:
 * ${_.akei} *they honorific* (3SG.HONOR)
 * ${_.piyi} *me depraved* (1SG.DPRV)
 * ${_.yi} *you depraved* (2SG.DPRV)
+* ${_.ayi} *they depraved* (3SG.DPRV)
 * ${_.pi} *I* (1SG)
 * ${_.de} *us two* (1PL.DU)
 * ${_.pe} *some* (3PL.INDF)
 * ${_.ka} *us all* (1PL.DEF)
 
+We also have ${_.shoyi}, ${_.shokei}, etc. You get the idea.
+
+In case you haven't noticed, there is some consistency with ${_.pron} and
+${_.poss}.
+
 ## Passive voices
 
-To express passive phrases, we simply use dative case ${_.am} suffix and
+To express passive phrases, we simply use accusative case ${_.am} suffix and
 the infinitive verb:
 
 ${_.phrase('I will be whipped.', _.onam, _.folir)}
@@ -76,15 +82,15 @@ referred to as "fantastic" ${_.kei} and the sub as "tiny" ${_.yi} or "wet" ${
     _.lo
   }.
 
-This translates in possesive suffix ${_.tei}, ${_.tiyi}, ${
-    _.tilo
+This translates in possesive suffix ${_.tei}, ${_.toyi}, ${
+    _.tolo
   } or conjugations using ${_.kei} or the affix ${_.ei} or ${_.yi}.
 
 ${_.phrase('I am ready, Master.', _.yihe, _.sen, _.keda)}
 
 ${_.phrase('I (Master) will undress (you).', _.okeinefelir, _.yida)}
 
-${_.phrase('I (tiny) will undress you (Master).', _.oyinefelir, _.keda)}
+${_.phrase('I (tiny) will undress you (Master).', _.piyinefelir, _.keda)}
 
 Just remember, what sounds like "OK" is in fact "I-fantastic".
 
@@ -112,13 +118,13 @@ language originated.
 
 ## Eternal tenses
 
-* ${_.lei} (DEF) always
+* ${_.lau} (DEF) always
 * ${_.nei} (NEG) never
 
 # Examples
 
-* ${_.phrase('yesterday, I kissed a girl.', _.olalema, _.ana)}
-* ${_.phrase('They might love you someday.', _.azulire, _.auti)}
+* ${_.phrase('yesterday, I kissed a girl.', _.olalema, _.anam)}
+* ${_.phrase('They might love you someday.', _.azulire, _.autim)}
 
 You might want to read ${_.order} next.
 `,

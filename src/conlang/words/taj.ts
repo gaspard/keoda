@@ -17,6 +17,7 @@ export const tajegi = _.word('tajegi', {
 })
 _.see(_.genitals)
 
+// TO BE REMOVED ?
 export const toda = _.word('toda', { noun: 'personne avec un pénis' })
 
 export const tajo = _.word('tajo', {

@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const ulu = _.word('ulu', {
-  noun: 'amuser, faire rire (tirer sur la corde)',
+  verb: 'to have fun',
 })
 
 export const ulutaj = _.example([_.ulu, _.taj], `Amuser le pénis.`)

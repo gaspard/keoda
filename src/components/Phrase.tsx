@@ -24,7 +24,7 @@ const Trad = styled.div`
   position: absolute;
   opacity: 1;
   visibility: visible;
-  top: -32px;
+  top: -37px;
   left: 23px;
   z-index: 2;
   color: #333;

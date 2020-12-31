@@ -60,3 +60,8 @@ export const olalema = _.alt('olalema', {
   glo: '1SG.INDF.kiss.PST.HEST',
   alt: () => _.la,
 })
+
+export const lanaro = _.alt('lanaro', {
+  glo: 'speech.INESS',
+  alt: () => _.lana,
+})

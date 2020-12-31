@@ -1,12 +1,10 @@
 import * as _ from '.'
 
 export const bo = _.word('bo', {
-  noun: 'ventre',
+  noun: 'belly',
 })
-_.see(_.obo)
-_.see(_.habo)
 
 export const robo = _.word('robo', {
-  noun: 'nombril (centre du ventre)',
+  noun: 'belly button',
   etym: () => [_.ro, _.bo],
 })

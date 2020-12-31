@@ -1,9 +1,9 @@
 import * as _ from '.'
 
 export const ko = _.word('ko', {
-  prep: 'avec',
+  prep: 'with',
+  see: () => [_.prep],
 })
-_.see(_.prep)
 
 export const koi = _.example([_.ko, _.i], 'avec toi = salutation')
 

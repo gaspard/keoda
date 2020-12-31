@@ -3,10 +3,13 @@ import * as _ from '.'
 export const wu = _.word('wu', {
   prep: 'of',
   suffix: 'of',
-  see: () => [_.to, _.ti, _.ta],
+  see: () => [_.to, _.ti, _.ta, _.prep],
 })
 
-export const diwu = _.word('diwu', { prep: 'qui possède' })
+export const diwu = _.word('diwu', {
+  prep: 'who owns',
+  see: () => [_.prep],
+})
 _.see(_.su)
 
 // munwu Iris

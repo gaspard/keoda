@@ -8,12 +8,3 @@ export const le = _.word('le', {
 export const ile = _.word('ile', {
   prep: 'toi qui te nomme',
 })
-
-// Ohora eku
-export const ohoraekuIrisshuoauileGopioda = _.example(
-  [_.o, _.ora, _.eku, _.Iris, _.shu, _.o, _.au, _.i, _.le, _.Gopi, _.oda],
-  `J'ai envie qu'Iris et moi te faisions l'amour, à toi Gopi.`
-)
-
-_.see(_.ayonleAnaisodaoramimun)
-_.see(_.si)

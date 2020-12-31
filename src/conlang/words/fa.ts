@@ -1,29 +1,40 @@
 import * as _ from '.'
 
 export const fa = _.word('fa', {
-  noun: 'yeux',
-  verb: 'regarder',
-  desc: () =>
-    `Lorsqu’on utilise les yeux comme "récépteurs" d'un geste, ça veut dire montrer sauf si on utilise un des suffixes comme (${_.i}, ${_.u} ou ${_.o}). Par exemple ${_.mafa} versus ${_.mifa}.`,
+  noun: 'eyes',
+  verb: 'to look',
+  desc: () => `
+${_.phrase('Show your eyes.', _.guwu, _.fam)}
+
+${_.phrase('Look at my hand.', _.fa, _.matoham)}
+`,
 })
-_.see(_.fatio)
+
 export const gufa = _.word('gufa', {
-  noun: "pupille (vie de l'oeil)",
+  noun: 'pupil (life of the eye)',
+  glo: 'pupil',
   etym: () => [_.gu, _.fa],
 })
 
-export const fama = _.example([_.fa, _.ma], 'Regarde ma main.')
 export const falo = _.word('falo', {
-  noun: 'yeux humides, tristesse',
-  verb: 'être triste',
+  noun: 'sadness',
+  verb: 'to be sad',
+  etym: () => [_.fa, _.lo],
+  desc: () => `
+${_.phrase("Don't be sad.", _.nefalo)}`,
 })
-_.see(_.falam)
 
-export const nefalo = _.example([_.ne, _.falo], 'Ne soit pas triste.')
+export const nefalo = _.alt('nefalo', {
+  glo: 'NEG.be sad',
+  alt: () => _.falo,
+})
 
-_.see(_.mafa)
-_.see(_.mifa)
-_.see(_.lirmunfa)
-_.see(_.ofalirmun)
-_.see(_.nefa)
-_.see(_.djobajimfa)
+export const fam = _.alt('fam', {
+  glo: 'eyes.ACC',
+  alt: () => _.fa,
+})
+
+export const fatam = _.alt('fatam', {
+  glo: 'eyes.3SG.POSS.ACC',
+  alt: () => _.fa,
+})

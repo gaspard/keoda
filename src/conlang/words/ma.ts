@@ -42,12 +42,6 @@ export const mu = _.word('mu', {
 
 export const muhamun = _.example([_.mu, _.hamun], `Tire sur mes tétons.`)
 
-export const mafa = _.example(
-  [_.ma, _.fa],
-  'Montre ta main (ta main dans nos yeux).'
-)
-_.see(_.fama)
-
 export const malam = _.word('malam', {
   noun: 'mother (hand of the water)',
   etym: () => [_.ma, _.lam],
@@ -75,5 +69,15 @@ export const lilimasa = _.word('lilimasa', {
 
 export const toma = _.alt('mato', {
   glo: '1SG.INDF.POSS.hand',
+  alt: () => _.ma,
+})
+
+export const matiham = _.alt('matiham', {
+  glo: 'hand.2SG.POSS.ACC',
+  alt: () => _.ma,
+})
+
+export const matoham = _.alt('matoham', {
+  glo: 'hand.1SG.INDF.POSS.ACC',
   alt: () => _.ma,
 })

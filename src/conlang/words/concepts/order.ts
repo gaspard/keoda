@@ -11,6 +11,10 @@ export const fuJane = _.alt('fuJane', {
   glo: 'SBJ.Jane',
   alt: () => _.Jane,
 })
+export const niJane = _.alt('niJane', {
+  glo: 'DAT.Jane',
+  alt: () => _.Jane,
+})
 
 export const John = _.word('John', {
   noun: 'John',
@@ -96,5 +100,19 @@ ${_.phrase(
   _.palam
 )}
 
+# Dative
+
+${_.phrase('Iris shows her eyes to Jane.', _.Iris, _.aguwu, _.fatam, _.niJane)}
+
+${_.phrase(
+  'I always dream Iris and I make love to you.',
+  _.oyafalau,
+  _.eku,
+  _.Iris,
+  _.shu,
+  _.toI,
+  _.shozuzu,
+  _.tim
+)}
 `,
 })

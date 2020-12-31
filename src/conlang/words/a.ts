@@ -3,18 +3,13 @@ import * as _ from '.'
 export const a = _.word('a', {
   prep: 'to (her, him)',
   conj: 'them (3SG)',
+  see: () => [_.ta, _.verbs],
 })
-_.see(_.amaconj)
 
 export const ahada = _.word('ahada', {
   noun: 'elle/lui poétique',
   etym: () => [_.a, _.yada],
 })
-
-export const amimoon = _.example(
-  [_.a, _.yoda, _.mi, _.mun],
-  `À elle, caresse les seins.`
-)
 
 export const ahe = _.alt('ahe', {
   glo: '3SG.être',

@@ -34,9 +34,10 @@ export const gui = _.word('gui', {
 })
 
 export const guwu = _.word('guwu', {
-  verb: 'to give',
+  verb: 'to give/to show',
   etym: () => [_.gu, _.wu],
 })
+
 export const guwuna = _.word('guwuna', {
   noun: 'gift',
   etym: () => [_.guwu, _.na],
@@ -75,4 +76,9 @@ export const gupa = _.word('gupa', {
   noun: 'nature',
   glo: 'nature',
   etym: () => [_.gu, _.pa],
+})
+
+export const aguwu = _.alt('aguwu', {
+  glo: '3SG.give',
+  alt: () => _.guwu,
 })

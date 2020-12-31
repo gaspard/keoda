@@ -1,10 +1,9 @@
 import * as _ from '.'
 
 export const ta = _.word('ta', {
-  det: 'their (3SG)',
+  det: 'their',
   prefix: 'their',
   suffix: 'their',
-  glo: '3SG.POSS',
-  see: () => [_.to, _.ti, _.wu],
+  glo: 'POSS.3SG',
+  see: () => [_.poss],
 })
-_.see(_.pronouns)

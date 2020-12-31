@@ -1,6 +1,6 @@
 import * as _ from '.'
 
 export const mei = _.word('lom', {
-  noun: 'de (fait de)',
+  noun: 'of (made of)',
+  see: () => [_.prep],
 })
-_.see(_.prep)

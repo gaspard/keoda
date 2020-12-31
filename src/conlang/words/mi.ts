@@ -5,20 +5,20 @@ export const mi = _.word('mi', {
   glo: 'hand.VERB.CARE',
   etym: () => [_.ma, _.i],
   see: () => [_.mo, _.mu],
+  desc: () => `${_.phrase('Give me a hug.', _.mi, _.au)}`,
 })
 
-export const miau = _.example(
-  [_.mi, _.au],
-  'Fais-moi un câlin (caresse-moi le coeur).'
-)
+export const imilema = _.alt('imilema', {
+  glo: '2SG.caress.PST.HEST',
+  alt: () => _.mi,
+})
 
-export const mioda = _.example([_.mi, _.oda], 'Masse-moi le corps, partout.')
-export const mifa = _.example([_.mi, _.fa], 'Caresse mes yeux.')
+export const amilema = _.alt('amilema', {
+  glo: '3SG.caress.PST.HEST',
+  alt: () => _.mi,
+})
 
-_.see(_.omilirpal)
-_.see(_.imimoon)
-
-export const zami = _.alt('zami', {
-  glo: '3SG.PAS.caress',
+export const imileme = _.alt('imilema', {
+  glo: '2SG.caress.PST.EVNT',
   alt: () => _.mi,
 })

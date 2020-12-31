@@ -1,7 +1,9 @@
 import * as _ from '.'
 
-export const uma = _.word('uma', { prep: 'ou' })
-_.see(_.prep)
+export const uma = _.word('uma', {
+  prep: 'or',
+  see: () => [_.prep],
+})
 
 export const fafaumanefa = _.example(
   [_.fa, _.fa, _.uma, _.nefa],

@@ -4,15 +4,30 @@ export const de = _.word('de', {
   conj: 'us two (1PL.DU)',
   noun: '2',
   posit: 'on the back *two* legs wide open',
+  glo: '1PL.DU',
+  see: () => [_.counting],
 })
-_.see(_.demaconj)
-_.see(_.counting)
+
+export const tode = _.word('tode', {
+  det: 'to us two',
+  glo: 'POSS.1PL.DU',
+  etym: () => [_.to, _.de],
+  see: () => [_.poss],
+})
 
 export const deda = _.word('deda', {
   pron: 'us two',
+  glo: '1PL.DU',
+  etym: () => [_.de, _.oda],
+  see: () => [_.deya, _.pron],
 })
-_.see(_.pronouns)
-_.see(_.peda)
+
+export const deya = _.word('deya', {
+  pron: 'us two',
+  glo: '1PL.DU.POET',
+  etym: () => [_.de, _.yada],
+  see: () => [_.deda, _.pron],
+})
 
 export const demimunwe = _.example(
   [_.de, _.mi, _.munwe],
