@@ -45,6 +45,11 @@ export const afe = _.alt('afe', {
 })
 
 export const okeinefelir = _.alt('okeinefelir', {
-  glo: 'I.HONOR.NEG.cover.FUT',
-  alt: () => _.fe,
+  glo: 'I.HONOR.undress.FUT',
+  alt: () => _.nefe,
+})
+
+export const oyinefelir = _.alt('oyinefelir', {
+  glo: 'I/we.DPRV.undress.FUT',
+  alt: () => _.nefe,
 })

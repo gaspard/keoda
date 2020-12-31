@@ -6,8 +6,12 @@ export const lir = _.word('lir', {
   tens: 'future',
   see: () => [_.lei, _.lem],
 })
+export const liri = _.word('liri', {
+  tens: 'later today',
+  glo: 'FUT.HOD',
+  etym: () => [_.lir, _.i],
+})
 _.see(_.lemir)
-_.see(_.liri)
 _.see(_.lira)
 _.see(_.liru)
 _.see(_.liro)

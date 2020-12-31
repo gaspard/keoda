@@ -8,7 +8,7 @@ export const yi = _.word('yi', {
 _.see(_.yimaconj)
 
 export const yida = _.word('yida', {
-  pron: 'tu dépravé',
+  pron: 'tiny you',
   etym: () => [_.yi, _.oda],
 })
 _.see(_.pronouns)

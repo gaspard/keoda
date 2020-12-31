@@ -10,6 +10,7 @@ export interface PhraseProps {
 
 const Wrapper = styled.div`
   position: relative;
+  top: -3px;
   display: inline-flex;
   color: #222;
   &:hover .Trad {

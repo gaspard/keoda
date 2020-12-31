@@ -58,20 +58,14 @@ So the possible conjugations are the same as the possible subjects:
 
 ## Passive voices
 
-This is used to highlight the receiver of the action and allows us to not
-say anything about the doer, as in
+To express passive phrases, we simply use dative case ${_.am} suffix and
+the infinitive verb:
 
-${_.phrase('I will be whipped.', _.zofolir)}
+${_.phrase('I will be whipped.', _.onam, _.folir)}
 
-This conjugation is created by adding ${_.e} prefix and later became ${
-    _.zo
-  } instead of ${_.eho}. Think "Be I whipped".
+But we can also conjugate the verb:
 
-For most common cases, the language evolved from *eho*, *ehi* and *eha* to:
-
-* ${_.zo} *I/we passiv* (1SG.INDF.PAS)
-* ${_.zi} *you passiv* (2SG.PAS)
-* ${_.za} *they passiv* (3SG.PAS)
+${_.phrase('I will be whipped by some people.', _.onam, _.pefolir)}
 
 ## Honorific / depraved
 
@@ -87,7 +81,10 @@ This translates in possesive suffix ${_.tei}, ${_.tiyi}, ${
   } or conjugations using ${_.kei} or the affix ${_.ei} or ${_.yi}.
 
 ${_.phrase('I am ready, Master.', _.yihe, _.sen, _.keda)}
-${_.phrase('I will undress (you).', _.okeinefelir)}
+
+${_.phrase('I (Master) will undress (you).', _.okeinefelir, _.yida)}
+
+${_.phrase('I (tiny) will undress you (Master).', _.oyinefelir, _.keda)}
 
 Just remember, what sounds like "OK" is in fact "I-fantastic".
 

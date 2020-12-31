@@ -36,6 +36,8 @@ _.see(_.mei)
 _.see(_.eyu)
 // Pour
 _.see(_.ibu)
+// Par
+_.see(_.fu)
 
 // Et
 _.see(_.shu)

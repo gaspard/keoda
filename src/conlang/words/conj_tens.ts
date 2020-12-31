@@ -18,11 +18,6 @@ export const lira = _.word('lira', {
   tens: 'tomorrow (FUT.CRAS)',
   etym: () => [_.lir, _.a],
 })
-export const liri = _.word('liri', {
-  tens: 'later today',
-  glo: 'FUT.HOD',
-  etym: () => [_.lir, _.i],
-})
 export const eliri = _.alt('eliri', {
   glo: 'BE.later today',
   alt: () => _.liri,

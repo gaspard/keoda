@@ -3,7 +3,6 @@ import * as _ from '.'
 export const o = _.word('o', {
   suffix: 'hit, hurt',
   conj: 'I/we (1SG.INDF)',
-  see: () => [_.zo],
 })
 _.see(_.omaconj)
 
@@ -22,4 +21,9 @@ export const okei = _.word('okei', {
   conj: 'I (1SG.HONOR)',
   glo: '1SG.HONOR',
   etym: () => [_.o, _.kei],
+})
+
+export const onam = _.alt('onam', {
+  glo: 'I/we.DAT',
+  alt: () => _.o,
 })
