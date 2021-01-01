@@ -9,7 +9,7 @@ It is applied before the conjugation: ${_.esshanelil}.
 
 When used as suffix on a word ending with a vowel, we add an 'n':
 
-* ${_.nunes}
+* ${_.nanes}
 * ${_.nefenesti}
 `,
 })

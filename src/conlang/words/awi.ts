@@ -16,3 +16,8 @@ export const awiu = _.word('awiu', {
   verb: 'to swim',
   etym: () => [_.awi, _.u],
 })
+
+export const awinesti = _.alt('awinesti', {
+  glo: 'fish.magnitude.POSS.2SG',
+  alt: () => _.awi,
+})

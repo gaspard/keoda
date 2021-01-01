@@ -2,24 +2,31 @@ import * as _ from '.'
 
 export const gu = _.word('gu', {
   adj: 'darkness, gestation, deep',
+  desc: () => `${_.gu} is the terror of ${_.ga}.`,
   etym: () => [_.ga, _.u],
-  see: () => [_.nu, _.gunes, _.gufi],
+  see: () => [_.nu, _.ganes, _.gufi],
+})
+
+export const gunu = _.word('gunu', {
+  noun: 'tremendum',
+  see: () => [_.gana],
+  etym: () => [_.gu, _.nu],
 })
 
 export const gulir = _.word('gulir', {
-  noun: 'souhaiter (gu du future)',
+  verb: 'to wish',
   etym: () => [_.gu, _.lir],
 })
 
 export const gulem = _.word('gulem', {
-  noun: 'se souvenir (gu du passé)',
+  verb: 'to remember',
   etym: () => [_.gu, _.lem],
 })
 
 export const guna = _.word('guna', {
-  noun: 'life (spirit fulfilled in matter)',
+  noun: 'dissociation, robot',
   etym: () => [_.gu, _.na],
-  see: () => [_.nuga],
+  see: () => [_.ganu],
 })
 
 export const guo = _.word('guo', {

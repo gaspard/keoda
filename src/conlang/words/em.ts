@@ -11,3 +11,9 @@ export const nem = _.word('nem', {
   etym: () => [_.ne, _.em],
 })
 _.see(_.dem)
+
+// ============== alt
+export const ohemleme = _.alt('ohemleme', {
+  glo: '1SG.INDF.live.PST.EVNT',
+  alt: () => _.em,
+})

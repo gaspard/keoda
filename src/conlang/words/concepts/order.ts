@@ -110,7 +110,7 @@ ${_.phrase(
   _.eku,
   _.Iris,
   _.shu,
-  _.toI,
+  _.oda_sbj,
   _.shozuzu,
   _.tim
 )}

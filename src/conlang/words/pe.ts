@@ -39,7 +39,7 @@ export const hamape = _.word('hamape', {
 export const nepe = _.word('nepe', {
   noun: 'limbo (forgetting "pa")',
   adj: 'offensive',
-  see: () => [_.gunes, _.nunes],
+  see: () => [_.ganes, _.nanes],
 })
 
 export const pe3 = _.alt('pe', {

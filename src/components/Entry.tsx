@@ -82,6 +82,9 @@ const Name = styled.div`
     padding: 12px;
     line-height: 1.3rem;
     display: block;
+    & .Trad {
+      top: -32px;
+    }
   }
   & span {
     align-self: top;
@@ -156,13 +159,31 @@ const Definition = styled.div`
       font-style: normal;
       font-size: 90%;
       font-family: 'Fira Code', Courier, monospace;
-      background: #bfbcb1;
+      background: #bfbcb18c;
       padding: 3px 5px;
       display: inline-block;
       border-radius: 2px;
     }
     em {
       font-weight: bold;
+    }
+    table {
+      color: inherit;
+      margin: 2rem auto;
+      border-collapse: collapse;
+    }
+    td,
+    th {
+      border: 1px solid #807c70;
+      padding: 4px 10px;
+    }
+    pre {
+      background: #bfbcb1;
+      margin: 10px auto;
+      display: table;
+      border: 1px solid #807c70;
+      padding: 3px 8px;
+      border-radius: 3px;
     }
   }
 `

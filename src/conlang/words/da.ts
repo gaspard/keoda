@@ -13,12 +13,12 @@ _.see(_.goa)
 
 export const dapa = _.word('dapa', {
   noun: 'joy',
-  see: () => [_.gunes, _.dafi],
+  see: () => [_.ganes, _.dafi],
 })
 
 export const dafi = _.word('dafi', {
   adj: 'serving',
-  see: () => [_.nunes, _.dapa],
+  see: () => [_.nanes, _.dapa],
 })
 
 export const guda = _.word('guda', {

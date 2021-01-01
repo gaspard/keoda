@@ -1,20 +1,24 @@
 import * as _ from '..'
 
-export const nunes = _.card('nunes', {
-  noun: 'scale of nu',
-  lang: 'states of humility',
-  see: () => [_.gunes, _.counting],
+export const nanes = _.card('nanes', {
+  noun: 'scale of na',
+  lang: 'states of practicality',
+  see: () => [_.ganes, _.counting],
   desc: () => `
-# The scale of ${_.nu}
+# The scale of mastering ${_.na}
 
 These states correspond to increasing levels of humility and practicality
-${_.nu}. They are not "feelings" but how the person is perceived by others
-(all others, not just close friends).
+within ${_.na}, the material, practical world. If these increasing levels
+of mastery are not balanced by ${_.ga}, they are just other names for the
+machine.
+
+See ${_.ganes} for some explanation on the relation between ${_.ga}, ${_.na},
+${_.gu} and ${_.nu}.
 
 ## The "flowing" states
 
 These are the difficult (pragmatic) states that need to be cultivated to
-balance their equivalent ${_.gunes} (poetic) states.
+balance their equivalent ${_.ganes} (poetic) states.
 
 On their own they can feel dreadful if not enlightenend by some purpose given
 by the poetic states. Balancing serves both ways.
@@ -27,7 +31,7 @@ by the poetic states. Balancing serves both ways.
 
 ## The "territorial" states
 
-These states are the same as the ones on the spirit scale ${_.gunes}.
+These states are the same as the ones on the spirit scale ${_.ganes}.
 
 * 5 ${_.nelil} (confusion/insecure)
 * 4 ${_.neka} (shame/restless)

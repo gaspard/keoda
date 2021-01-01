@@ -41,7 +41,7 @@ export const neka = _.word('neka', {
   noun: 'shame',
   adj: 'restless',
   etym: () => [_.ne, _.ka],
-  see: () => [_.gunes, _.nunes],
+  see: () => [_.ganes, _.nanes],
 })
 
 export const karu = _.word('karu', {

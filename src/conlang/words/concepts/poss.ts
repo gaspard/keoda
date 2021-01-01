@@ -13,23 +13,23 @@ after a small pausee to express kindness or awe.
 In case you haven't noticed, there is some consistency with ${_.pron} and
 ${_.verbs}.
 
-* ${_.to} (to me/us)
-* ${_.ti} (to you SG)
-* ${_.ta} (to them SG)
-* ${_.tosho} (to us)
-* ${_.toshi} (to you PL)
-* ${_.tosha} (to them PL)
+* ${_.to} (my/our)
+* ${_.ti} (your SG)
+* ${_.ta} (their SG)
+* ${_.tosho} (our)
+* ${_.toshi} (your PL)
+* ${_.tosha} (their PL)
 
 Rarer forms:
 
-* ${_.tei} (to me Master)
-* ${_.toke} (to you Master)
-* ${_.topiyi} (to tiny me)
-* ${_.toyi} (to tiny you)
-* ${_.tayi} (to tiny them)
-* ${_.tolo} (to wet you)
-* ${_.topi} (to me)
-* ${_.tode} (to us two)
+* ${_.tei} (my as Master)
+* ${_.toke} (your as Master)
+* ${_.topiyi} (my as tiny)
+* ${_.toyi} (your as tiny)
+* ${_.tayi} (their as tiny)
+* ${_.tolo} (your as wet)
+* ${_.topi} (my)
+* ${_.tode} (our two)
 * ${_.tope} (to some)
 * ${_.toka} (to all of us)
 

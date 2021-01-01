@@ -7,9 +7,6 @@ export const yin = _.word('yin', {
 
 export const yinu = _.word('yinu', {
   verb: 'grasp with the vagina',
-  glo: 'vagina.pull',
+  glo: 'vagina.PULL',
   etym: () => [_.yin, _.u],
 })
-
-_.see(_.alayin)
-_.see(_.dualayin)

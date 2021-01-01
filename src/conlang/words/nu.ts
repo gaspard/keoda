@@ -1,14 +1,15 @@
 import * as _ from '.'
 
 export const nu = _.word('nu', {
-  adj: 'materiality, expression, light, surface',
+  adj: 'complexity, expression, light, surface',
   noun: 'humility',
+  desc: () => `${_.nu} is the confusion of ${_.na}.`,
   etym: () => [_.na, _.u],
-  see: () => [_.gu, _.nunes],
+  see: () => [_.gu, _.nanes],
 })
 
-export const nuga = _.word('nagu', {
-  noun: 'life (matter fulfilled in spirit)',
-  etym: () => [_.nu, _.ga],
+export const ganu = _.word('ganu', {
+  noun: 'psychosis, god-child',
+  etym: () => [_.ga, _.nu],
   see: () => [_.guna],
 })

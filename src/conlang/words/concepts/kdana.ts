@@ -24,5 +24,7 @@ ${_.phrase(
   _.ohau,
   _.zuzupa
 )}
+
+${_.phrase('Maybe in the past, I lived in Gana.', _.ohemleme, _.ganaroa)}
 `,
 })

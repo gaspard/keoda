@@ -35,12 +35,12 @@ _.see(_.nemafeyon)
 
 export const fepa = _.word('fepa', {
   noun: 'pride',
-  see: () => [_.gunes, _.fefi],
+  see: () => [_.ganes, _.fefi],
 })
 
 export const fefi = _.word('fefi', {
   adj: 'adapting',
-  see: () => [_.nunes, _.fepa],
+  see: () => [_.nanes, _.fepa],
 })
 
 export const afe = _.alt('afe', {

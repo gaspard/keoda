@@ -1,9 +1,8 @@
 import * as React from 'react'
 import ReactMarkdown from 'react-markdown'
-import { ContextReplacementPlugin } from 'webpack'
-import { Comp, useOvermind } from '../app'
+import { Comp } from '../app'
 import { Link } from './Link'
-import { List } from './List'
+import gfm from 'remark-gfm'
 
 export interface MarkdownProps {
   className?: string
@@ -23,7 +22,9 @@ const renderers = {
 }
 
 export const Markdown: Comp<MarkdownProps> = ({ className, text }) => {
-  const ctx = useOvermind()
-  // {text}
-  return <ReactMarkdown renderers={renderers}>{text}</ReactMarkdown>
+  return (
+    <ReactMarkdown plugins={[gfm]} renderers={renderers}>
+      {text}
+    </ReactMarkdown>
+  )
 }

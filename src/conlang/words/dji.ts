@@ -8,10 +8,10 @@ export const dji = _.word('dji', {
 
 export const djipa = _.word('djipa', {
   noun: 'remembering (being god.dess)',
-  see: () => [_.gunes, _.djifi],
+  see: () => [_.ganes, _.djifi],
 })
 
 export const djifi = _.word('djifi', {
   adj: 'humble',
-  see: () => [_.nunes, _.djipa],
+  see: () => [_.nanes, _.djipa],
 })

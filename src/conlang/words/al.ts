@@ -1,22 +1,17 @@
 import * as _ from '.'
 
 export const al = _.word('al', {
-  noun: 'ciel',
-  prefix: 'en haut, vers le ciel ou la tête',
+  noun: 'sky',
+  prefix: 'up',
+  see: () => [_.soa],
 })
-_.see(_.soa)
 
 export const alayin = _.word('alayin', {
-  noun: 'haut du vagin',
-  etym: () => [_.du, _.al, _.yin],
-})
-
-export const dualayin = _.word('dualayin', {
-  noun: 'point G',
-  etym: () => [_.du, _.alayin],
+  noun: 'top of vagina',
+  etym: () => [_.al, _.yin],
 })
 
 export const dalayin = _.word('dalayin', {
-  noun: 'point G (version courte)',
-  etym: () => [_.dualayin],
+  noun: 'G spot',
+  etym: () => [_.du, _.alayin],
 })

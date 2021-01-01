@@ -8,10 +8,10 @@ export const je = _.word('je', {
 
 export const jepa = _.word('jepa', {
   noun: 'belonging',
-  see: () => [_.gunes],
+  see: () => [_.ganes],
 })
 
 export const jefi = _.word('jefi', {
   adj: 'caring',
-  see: () => [_.nunes, _.jepa],
+  see: () => [_.nanes, _.jepa],
 })

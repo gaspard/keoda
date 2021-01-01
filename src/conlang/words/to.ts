@@ -38,7 +38,7 @@ export const topi = _.word('topi', {
 
 // ========== ALT
 
-export const toI = _.alt('to', {
+export const oda_sbj = _.alt('oda', {
   glo: '1SG.INDF',
-  alt: () => _.to,
+  alt: () => _.oda,
 })

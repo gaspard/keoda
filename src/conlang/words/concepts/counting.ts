@@ -2,7 +2,7 @@ import * as _ from '..'
 
 export const counting = _.card('counting', {
   lang: 'numbers and counting',
-  see: () => [_.gunes],
+  see: () => [_.ganes],
   desc: () => `
 Here are the number from 1 to 10:
 

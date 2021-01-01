@@ -61,3 +61,13 @@ export const tohodam = _.alt('tohodam', {
   glo: 'POSS.1SG.INDF.body.ACC',
   alt: () => _.oda,
 })
+
+export const odahem = _.alt('odahem', {
+  glo: 'body.offered',
+  alt: () => _.oda,
+})
+
+export const odam = _.alt('odam', {
+  glo: 'me/us.DAT',
+  alt: () => _.oda,
+})

@@ -23,7 +23,7 @@ export const nelil = _.word('nelil', {
   noun: 'confusion',
   adj: 'insecure',
   verb: 'to confound',
-  see: () => [_.gunes, _.nunes],
+  see: () => [_.ganes, _.nanes],
 })
 
 export const esshanelil = _.alt('esshanelil', {

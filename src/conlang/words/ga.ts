@@ -1,19 +1,18 @@
 import * as _ from '.'
 
 export const ga = _.word('ga', {
-  noun: 'esprit',
-  desc: () =>
-    `Dans le sens de l'esprit des choses, l'esprit de la nature, etc.`,
+  noun: 'spirit',
+  see: () => [_.gu],
 })
-_.see(_.gu)
 
 export const gana = _.word('gana', {
   noun: 'earth',
   etym: () => [_.ga, _.na],
+  see: () => [_.gunu],
 })
 
 export const ganaroa = _.alt('ganaroa', {
-  glo: 'earth.INE',
+  glo: 'earth.INESS',
   alt: () => _.gana,
 })
 

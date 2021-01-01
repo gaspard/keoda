@@ -43,7 +43,7 @@ const Anchor = styled.a`
 
 export const Link: Comp<LinkProps> = ({ className, id, fromMd, children }) => {
   const ctx = useOvermind()
-  if (id.startsWith('http')) {
+  if (id.startsWith('http') || id.startsWith('mailto')) {
     return (
       <Anchor href={id} children={children} className="out" target="_blank" />
     )

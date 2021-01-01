@@ -17,12 +17,15 @@ export const nefa = _.word('nefa', {
 })
 
 export const neoda = _.word('neoda', {
-  noun: 'cadavre, sans corps, personne (no body)',
+  noun: 'corpse',
+  etym: () => [_.ne, _.oda],
+  see: () => [_.nem],
 })
-_.see(_.nem)
+
 export const nepa = _.word('nepa', {
   noun: 'abyss, nothingness',
 })
+
 export const nelo = _.word('nelo', {
   verb: 'to struggle',
   desc: () => `to not surrender`,

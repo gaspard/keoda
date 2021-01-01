@@ -1,13 +1,12 @@
 import * as _ from '.'
 
 export const soa = _.word('soa', {
-  noun: 'la terre, le sol',
-  suffix: 'au sol',
-  prefix: 'proche du sol, des pieds',
+  noun: 'floor',
+  see: () => [_.al],
 })
 
 export const lisoa = _.word('lisoa', {
-  noun: 'table (petit sol)',
+  noun: 'table',
   etym: () => [_.lil, _.soa],
 })
 

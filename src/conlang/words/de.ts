@@ -44,7 +44,7 @@ export const nede = _.word('nede', {
   noun: 'anguish',
   adj: 'fighting',
   desc: () => 'life with time (anxiety, few memories)',
-  see: () => [_.gunes, _.nunes],
+  see: () => [_.ganes, _.nanes],
 })
 
 export const de2 = _.alt('de', {
