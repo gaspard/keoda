@@ -7,7 +7,7 @@ export const pi = _.word('pi', {
   posit: 'debout',
   desc: () => `Opposé de ${_.pa}.`,
 })
-_.see(_.counting)
+_.see(_.count)
 _.see(_.pio)
 _.see(_.ajapi)
 

@@ -3,7 +3,7 @@ import * as _ from '.'
 export const shi = _.word('shi', {
   conj: 'you (2PL.PRS)',
   noun: '6',
-  see: () => [_.counting],
+  see: () => [_.count],
 })
 
 export const shida = _.word('shida', {

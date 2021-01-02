@@ -40,7 +40,7 @@ And this one requires a complement and is only used as suffix:
 And don't forget to use ${_.am} on the last part of the receiver of the
 action.
 
-${_.phrase('Body of me is caressed.', _.odatoam, _.mi)}
+${_.phrase('Body of me is caressed.', _.odatoham, _.mi)}
 
 Could also be:
 

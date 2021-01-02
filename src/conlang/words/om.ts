@@ -6,5 +6,3 @@ export const om = _.word('om', {
   prefix: 'transcender',
   suffix: 'temple, lieu sacré',
 })
-
-_.see(_.enopisamdjobajom)

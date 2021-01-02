@@ -3,7 +3,7 @@ import * as _ from '.'
 export const dji = _.word('dji', {
   noun: '10 (memory)',
   etym: () => [_.pi, _.ipi],
-  see: () => [_.counting],
+  see: () => [_.count],
 })
 
 export const djipa = _.word('djipa', {

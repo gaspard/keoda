@@ -57,7 +57,7 @@ ${_.phrase('I like that you are naked.', _.ozu, _.eku, _.yihe, _.nefe)}
 * ${_.ro} (in)
 * ${_.ri} (out)
 * ${_.fe} (on/covering)
-* ${_.dai} (from.LOC)
+* ${_.dao} (from.LOC)
 * ${_.dau} (to.LOC)
 
 ${_.phrase('Where did you caress Iris ?', _.dona, _.Irisam, _.imilema, _.q)}

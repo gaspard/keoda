@@ -20,6 +20,8 @@ export const tolo = _.word('tilo', {
   glo: 'POSS.2SG.WET',
 })
 
+// ====== alt
+
 export const tim = _.alt('tim', {
   glo: 'you.ACC',
   alt: () => _.ti,

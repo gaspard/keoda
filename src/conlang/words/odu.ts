@@ -1,12 +1,16 @@
 import * as _ from '.'
 
 export const odu = _.word('odu', {
-  noun: 'rejoindre, venir, se tirer le corps vers',
+  verb: 'to come',
   etym: () => [_.oda, _.u],
+  see: () => [_.odo, _.dao],
+  desc: () => `
+${_.phrase('Where do you come from ?', _.dona, _.dao, _.ihodu)}
+  `,
 })
 
-// Odu fe oda okelilir kebaj.
-export const odufeodaokelilirkebaj = _.example(
-  [_.odu, _.fe, _.oda, _.o, _.keli, _.lir, _.kebaj],
-  `Viens sur moi, je vais te lécher les couilles.`
-)
+// ==== alt
+export const ihodu = _.alt('ihodu', {
+  glo: '2SG.come',
+  alt: () => _.odu,
+})

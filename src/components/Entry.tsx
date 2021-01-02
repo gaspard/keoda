@@ -36,7 +36,7 @@ const Wrapper = styled.div`
     min-width: 600px;
     flex-grow: 1;
   }
-  &.selected:not(.popup) > .Name {
+  &.selected:not(.popup) > .Title {
     background: #e4d593;
   }
   &.popup {
@@ -60,22 +60,24 @@ const ArrowUp = styled.div`
   position: absolute;
 `
 
-const Name = styled.div`
+const Title = styled.div`
   transition: background-color 0.8s;
   border-top-left-radius: 5px;
-  font-weight: bold;
   background: #d6d3c6;
   align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
   flex-shrink: 0;
   flex-grow: 0;
   color: #333;
-  display: flex;
-  flex-direction: row;
   &:not(.phrase) {
-    width: 7rem;
+    min-width: 7rem;
     border-bottom-left-radius: 5px;
-    padding: 12px 0 0 14px;
-    font-size: 1.4rem;
+    & > div {
+      padding: 12px 12px 0 14px;
+    }
+    padding-bottom: 12px;
   }
   &.phrase {
     border-top-right-radius: 5px;
@@ -86,9 +88,14 @@ const Name = styled.div`
       top: -32px;
     }
   }
-  & span {
-    align-self: top;
-  }
+`
+
+const Name = styled.div`
+  font-size: 1.4rem;
+  font-weight: bold;
+`
+const Phon = styled.div`
+  font-size: 1rem;
 `
 
 const Definitions = styled.div`
@@ -127,6 +134,11 @@ const Definition = styled.div`
       color: inherit;
       margin-top: 2rem;
     }
+    img {
+      border: 1px solid #555;
+      display: table;
+      margin: auto;
+    }
     blockquote {
       font-family: 'Times New Roman', Times, serif;
       padding: 0.5em 10px;
@@ -155,14 +167,11 @@ const Definition = styled.div`
       }
     }
     code {
-      color: #222;
       font-style: normal;
       font-size: 90%;
       font-family: 'Fira Code', Courier, monospace;
-      background: #bfbcb18c;
       padding: 3px 5px;
       display: inline-block;
-      border-radius: 2px;
     }
     em {
       font-weight: bold;
@@ -211,6 +220,9 @@ const DefType = styled.div`
   }
   &.adj {
     color: #149a32;
+  }
+  &.adv {
+    color: #040a02;
   }
   &.det {
     color: #9a1432;
@@ -266,7 +278,7 @@ export const ID = styled.a`
 
 export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
   const ctx = useOvermind()
-  const { filter } = ctx.state.keoda
+  const { filter, writ } = ctx.state.keoda
   const entry = getEntry(ctx, id)
   if (!entry) {
     // Should never happen
@@ -295,13 +307,15 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
     >
       {popup ? <ArrowUp /> : <ID id={id} />}
       {entry.type === 'phrase' ? (
-        <Name className="Name phrase">
+        <Title className="Title phrase">
           <Link id={id} fromMd />
-        </Name>
+        </Title>
       ) : (
-        <Name className="Name">
-          <span>{entry.name}</span>
-        </Name>
+        <Title className="Title">
+          <Name>{writ ? entry.writ : entry.name}</Name>
+          <Phon>{writ ? entry.name : entry.writ}</Phon>
+          <Phon>{entry.phon}</Phon>
+        </Title>
       )}
       <Definitions>
         {DEF_KEYS.map(key =>

@@ -47,7 +47,7 @@ ${_.phrase(
   _.si,
   _.agadeuki,
   _.di,
-  _.hadai,
+  _.hadau,
   _.esshanelil
 )}  
 `,

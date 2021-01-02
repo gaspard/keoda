@@ -1,16 +1,16 @@
 import * as _ from '.'
 
+// TODO: Could this be a huge source of confusion with 'am' suffix ?
 export const lam = _.word('lam', {
-  verb: 'laver',
-  noun: 'eau',
+  verb: 'to wash',
+  noun: 'water',
 })
 _.see(_.lamon)
 
 export const ilamoda = _.example([_.i, _.lam, _.oda], `Lave-toi le corps.`)
 
 export const falam = _.word('falam', {
-  noun: 'larmes profondes',
-  verb: 'pleurs qui lavent',
+  noun: 'tears',
 })
 _.see(_.ausifalamau)
 _.see(_.falo)

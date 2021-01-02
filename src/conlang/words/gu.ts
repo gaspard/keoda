@@ -41,7 +41,7 @@ export const gui = _.word('gui', {
 })
 
 export const guwu = _.word('guwu', {
-  verb: 'to give/to show',
+  verb: 'to give',
   etym: () => [_.gu, _.wu],
 })
 

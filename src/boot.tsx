@@ -21,6 +21,9 @@ const config: KeodaConfig = {
       const name = window.location.hash.replace('#', '')
       ctx.actions.keoda.select({ name })
     })
+    ctx.state.keoda.writ = JSON.parse(
+      window.localStorage.getItem('keoda.writ') || 'false'
+    )
   },
   state: {
     keoda: {

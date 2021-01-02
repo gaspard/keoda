@@ -3,7 +3,7 @@ import * as _ from '..'
 export const ganes = _.card('ganes', {
   noun: 'scale of ga',
   lang: 'states of consciousness',
-  see: () => [_.nanes, _.nepa, _.counting],
+  see: () => [_.nanes, _.nepa, _.count],
   desc: () => `
 This theme is part of ${_.gana} mythology and world-view.
 

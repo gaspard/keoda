@@ -5,7 +5,7 @@ export const de = _.word('de', {
   noun: '2',
   posit: 'on the back *two* legs wide open',
   glo: '1PL.DU',
-  see: () => [_.counting],
+  see: () => [_.count],
 })
 
 export const tode = _.word('tode', {

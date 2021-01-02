@@ -4,7 +4,7 @@ export const fa = _.word('fa', {
   noun: 'eyes',
   verb: 'to look',
   desc: () => `
-${_.phrase('Show your eyes.', _.guwu, _.fam)}
+${_.phrase('Show your eyes.', _.guwu, _.faham)}
 
 ${_.phrase('Look at my hand.', _.fa, _.matoham)}
 `,
@@ -29,7 +29,7 @@ export const nefalo = _.alt('nefalo', {
   alt: () => _.falo,
 })
 
-export const fam = _.alt('fam', {
+export const faham = _.alt('faham', {
   glo: 'eyes.ACC',
   alt: () => _.fa,
 })

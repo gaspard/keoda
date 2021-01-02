@@ -4,7 +4,7 @@ export const da = _.word('da', {
   noun: 'place, 9',
   suffix: 'place',
   glo: 'LOC',
-  see: () => [_.kdana, _.counting, _.sen],
+  see: () => [_.kedana, _.count, _.sen],
 })
 
 _.see(_.lama)

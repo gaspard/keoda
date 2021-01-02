@@ -23,6 +23,7 @@ export interface KeodaConfig {
   onInitialize: (ctx: Overmind<KeodaConfig>) => void
   state: {
     keoda: {
+      writ?: boolean
       selected?: string
       float?: FloatArg
       filter?: Filter

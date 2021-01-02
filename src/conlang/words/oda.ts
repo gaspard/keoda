@@ -47,7 +47,7 @@ export const yadei = _.word('yadei', {
 
 /// =============== ALT
 
-export const odatoam = _.alt('odatoam', {
+export const odatoham = _.alt('odatoham', {
   glo: 'body.POSS.1SG.INDF.ACC',
   alt: () => _.oda,
 })

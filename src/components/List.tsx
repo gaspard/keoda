@@ -39,7 +39,7 @@ export const ListWrapper = styled.div`
     padding: 5px;
   }
   & .Link:not(:last-child) {
-    margin-right: 8px;
+    margin-right: 12px;
   }
 `
 
@@ -66,6 +66,7 @@ export const GlossAndLink: Comp<LinkProps> = props => {
   return (
     <Glo>
       <Link {...props} />
+      <Gloss>{entry.phon}</Gloss>
       <Gloss>{entry.glo}</Gloss>
     </Glo>
   )

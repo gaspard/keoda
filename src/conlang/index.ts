@@ -11,6 +11,7 @@ import './words'
 import { entries, PHRASE_ORIG } from './words/0_helpers'
 import { writeFileSync } from 'fs'
 import { join } from 'path'
+import { phon, write } from './writing'
 
 export { CompiledEntry, EntryByName }
 
@@ -21,7 +22,11 @@ function compileWord(word: Entry): CompiledEntry {
   // their origin.
   PHRASE_ORIG.entry = word
 
-  const compiled = Object.assign({}, word, { fulltext: '' }) as CompiledEntry
+  const compiled = Object.assign({}, word, {
+    fulltext: '',
+    writ: word.writ || write(word.name),
+    phon: word.phon || phon(word.name),
+  }) as CompiledEntry
   const fulltext: string[] = [word.name]
   if (!compiled.glo) {
     // default value to show on gloss

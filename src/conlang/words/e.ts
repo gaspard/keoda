@@ -2,11 +2,10 @@ import * as _ from '.'
 
 export const e = _.word('e', {
   verb: 'to be',
-  prefix: 'passiv',
+  // Is this used ?
+  prefix: 'passive',
   glo: 'BE',
 })
-
-_.see(_.enopisamdjobajom)
 
 export const yihe = _.alt('yihe', {
   glo: '2SG.DPRV.be',

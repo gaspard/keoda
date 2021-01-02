@@ -1,6 +1,6 @@
 import * as _ from '..'
 
-export const kdana = _.card('kdana', {
+export const kedana = _.card('kedana', {
   lang: 'Keotian geography',
   desc: () => `
 # Geography

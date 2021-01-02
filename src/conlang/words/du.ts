@@ -2,41 +2,32 @@ import * as _ from '.'
 
 export const du = _.word('du', {
   prefix: 'front',
+  see: () => [_.we, _.no, _.se],
 })
-_.see(_.duha)
-
-// devant
-_.see(_.du)
-// droite
-_.see(_.we)
-// gauche
-_.see(_.se)
-// derrière
-_.see(_.no)
 
 export const duda = _.word('doda', {
   noun: 'small sibling',
   etym: () => [_.du, _.oda],
+  see: () => [_.noda, _.duwi, _.duna, _.duto],
 })
-_.see(_.noda)
 
 export const duto = _.word('duto', {
   noun: 'small brother/wind',
   etym: () => [_.du, _.oto],
+  see: () => [_.noto, _.duda],
 })
-_.see(_.noto)
 
 export const duna = _.word('duna', {
   noun: 'small sister/tree',
   etym: () => [_.du, _.ana],
+  see: () => [_.nona, _.duda],
 })
-_.see(_.nona)
 
 export const duwi = _.word('duwi', {
   noun: 'small enby/bird',
   etym: () => [_.du, _.iwi],
+  see: () => [_.nowi, _.duda],
 })
-_.see(_.nowi)
 
 export const duyin = _.word('duyin', {
   noun: 'front of the vagina',

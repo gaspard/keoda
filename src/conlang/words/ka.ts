@@ -7,7 +7,7 @@ export const ka = _.word('ka', {
   suffix: 'every',
   posit: 'on all fours',
   conj: 'us all, universal (1PL.DEF)',
-  see: () => [_.counting],
+  see: () => [_.count],
 })
 
 export const toka = _.word('toka', {

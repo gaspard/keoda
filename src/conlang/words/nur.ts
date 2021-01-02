@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const nur = _.word('nur', {
-  adv: 'seulement',
+  adv: 'only',
 })
 
 // ohe nur lilaj kegai

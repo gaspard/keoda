@@ -3,7 +3,7 @@ import * as _ from '.'
 export const je = _.word('je', {
   adj: 'close',
   noun: '8 (emotion)',
-  see: () => [_.counting],
+  see: () => [_.count],
 })
 
 export const jepa = _.word('jepa', {

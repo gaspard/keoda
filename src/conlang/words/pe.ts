@@ -5,7 +5,7 @@ export const pe = _.word('pe', {
   glo: '3PL.INDF',
   noun: '3',
   suffix: 'some',
-  see: () => [_.mun, _.counting],
+  see: () => [_.mun, _.count],
   posit: 'two legs and a buttock (doggy style)',
 })
 

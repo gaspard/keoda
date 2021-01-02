@@ -2,25 +2,46 @@ import * as _ from '..'
 
 export const phon = _.card('phon', {
   lang: 'Phonology',
+  writ: 'చోఁ',
+  phon: '/fɔn/',
   desc: () => `
+## Writing system
+
+![lepakshi](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Lepakshi...jpg/330px-Lepakshi...jpg)
+
+Using [telugu script](https://en.wikipedia.org/wiki/Telugu_script) because it
+is an *abugida*, the sounds match nearly perfectly and... it looks so good
+and curvy.
+
 ## Consonants
 
 |                 | Labial     | Coronal         | Dorsal       | Glottal |
 | :-------------  | :--------: | :-------------: | :----------: | :-----: |
-| **Nasal**       | m          | n               |              |         |
-| **Plosive**     | p / b      | t / d           | k / g        |         |
-| **Fricative**   | f          | s / z  -  ʃ / ʒ |              | h       |
-| **Approximant** | w          |                 | j            |         |
-| **Trill**       |            | r               |              |         |
-| **Lateral**     |            | l               |              |         |
+| **Nasal**       | m మ       | n న             |              |         |
+| **Plosive**     | p ప / b బ | t త / d ద  | k క / g గ        |         |
+| **Fricative**   | f చ       | s స / z ఠ -  ʃ ష / dʒ జ |   | h  ః హ * |
+| **Approximant** | ʋ  వ      |                 | j య         |         |
+| **Trill**       |            | r ర             |              |         |
+| **Lateral**     |            | l ల             |              |         |
+
+\\* The \`/h/\` sound is a kind of stop in the middle of a word and is written with 'ః' (stop).
+At the start of a word, it is written హ.
+
+All sounds correspond to [Telugu](https://en.wikipedia.org/wiki/Telugu_script) except for:
+
+| Symbol          | Telugu     | Keoda     | Example |
+| :-------------: | :--------: | :-------: | :--------: |
+| **చ**           | /tʃ/       | /f/      | ${_.falam} |
+| **ఠ**           | /tʰ/       | /z/      | ${_.zuzu}    |
+ 
 
 ## Vowels
 
 |                 | Front      | Central         | Back         |
 | :-------------  | :--------: | :-------------: | :----------: |
-| **Close**       | i          |                 | u            |
-| **Mid**         | ɛ          |                 | ɔ            |
-| **Open**        | a          |                 |              |
+| **Close**       | i  ి  ఇ   |                 | u   ు  ఉ   |
+| **Mid**         | ɛ  ే  ఎ   |                 | ɔ   ో  ఓ    |
+| **Open**        | a  ా  అ  |                 |              |
 
 ## Stress
 

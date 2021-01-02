@@ -1,16 +1,6 @@
 import * as _ from '.'
 
 export const we = _.word('we', {
-  suffix: 'droite',
-  desc: () => 'Inspiré de ouest (on regarde le sud).',
+  suffix: 'right',
+  see: () => [_.no, _.se, _.du],
 })
-_.see(_.hawe)
-
-// devant
-_.see(_.du)
-// droite
-_.see(_.we)
-// gauche
-_.see(_.se)
-// derrière
-_.see(_.no)

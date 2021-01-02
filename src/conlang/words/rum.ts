@@ -2,6 +2,7 @@ import * as _ from '.'
 
 export const rum = _.word('rum', {
   noun: 'arm',
+  see: () => [_.baj],
 })
 
 export const harum = _.word('harum', {

@@ -2,14 +2,15 @@ import * as _ from '.'
 
 export const fe = _.word('fe', {
   noun: '7',
-  prefix: 'on top',
+  prefix: 'on (SUPESS)',
   verb: 'to cover, to be on top',
+  glo: 'SUPESS',
   desc: () => `
 ${_.phrase('I like your nakedness.', _.ozu, _.nefenesti)}
   `,
 })
 
-_.see(_.counting)
+_.see(_.count)
 _.see(_.faj)
 
 export const fena = _.word('fena', {

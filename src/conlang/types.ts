@@ -21,6 +21,8 @@ export interface EntryInfo {
   lang: string
   posit: string
   adv: string
+  writ: string
+  phon: string
   phrases: string[]
   // phrases only
   trad: string
@@ -98,6 +100,8 @@ export interface Entry extends EntryDefinition {
 
 export interface CompiledEntry extends Partial<EntryInfo> {
   name: string
+  phon: string
+  writ: string
   type: 'word' | 'card' | 'phrase' | 'alt'
   // concat of all text for search
   fulltext: string

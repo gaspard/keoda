@@ -1,5 +1,5 @@
 import * as _ from '.'
 
-export const im = _.word('im', { noun: 'fermé' })
-
-_.see(_.djobajimfa)
+export const im = _.word('im', {
+  adj: 'closed',
+})

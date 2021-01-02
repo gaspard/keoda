@@ -1,21 +1,23 @@
 import * as _ from '..'
 
-export const counting = _.card('counting', {
+export const count = _.card('count', {
   lang: 'numbers and counting',
+  writ: 'కాుత్‌',
+  phon: '/caut/',
   see: () => [_.ganes],
   desc: () => `
 Here are the number from 1 to 10:
 
-* ${_.dji} (10)
-* ${_.da} (9)
-* ${_.je} (8)
-* ${_.fe} (7)
-* ${_.shi} (6)
-* ${_.lil} (5)
-* ${_.ka} (4)
-* ${_.pe} (3)
-* ${_.de} (2)
-* ${_.pi} (1)
+* ${_.dji} (10 / ౧౦)
+* ${_.da} (9 / ౯)
+* ${_.je} (8 / ౮)
+* ${_.fe} (7 / ౭)
+* ${_.shi} (6 / ౬)
+* ${_.lil} (5 / ౫)
+* ${_.ka} (4 / ౪)
+* ${_.pe} (3 / ౩)
+* ${_.de} (2 / ౨)
+* ${_.pi} (1 / ౧)
 
 The powers of ten:
 

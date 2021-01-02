@@ -26,9 +26,6 @@ const Wrapper = styled.span`
   &.ref.high {
     border-bottom: 2px solid orange;
   }
-  &:not(.ref) {
-    border-bottom: 1px solid #397d7d;
-  }
 `
 
 const Anchor = styled.a`
@@ -43,6 +40,7 @@ const Anchor = styled.a`
 
 export const Link: Comp<LinkProps> = ({ className, id, fromMd, children }) => {
   const ctx = useOvermind()
+  const { writ } = ctx.state.keoda
   if (id.startsWith('http') || id.startsWith('mailto')) {
     return (
       <Anchor href={id} children={children} className="out" target="_blank" />
@@ -90,7 +88,7 @@ export const Link: Comp<LinkProps> = ({ className, id, fromMd, children }) => {
         }, 500)
       }}
     >
-      <Anchor href={`#${ref}`}>{entry.name}</Anchor>
+      <Anchor href={`#${ref}`}>{writ ? entry.writ : entry.name}</Anchor>
     </Wrapper>
   )
 }

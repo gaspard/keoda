@@ -4,7 +4,7 @@ export const lil = _.word('lil', {
   adj: 'petit.e',
   noun: '5',
   suffix: 'petit.e',
-  see: () => [_.counting],
+  see: () => [_.count],
 })
 _.see(_.peulil)
 

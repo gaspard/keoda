@@ -4,6 +4,7 @@ export const ha = _.word('ha', {
   noun: 'head',
   adj: 'far',
   prefix: 'top or distal',
+  see: () => [_.djo],
 })
 _.see(_.djo)
 _.see(_.hama)
@@ -21,16 +22,6 @@ export const iohaftarkepal = _.example(
   `On va te pénétrer l'anus avec le gland.`
 )
 
-export const enopisamdjobajom = _.example(
-  [_.e, _.nopi, _.sam, _.habaj, _.om],
-  `Mets-toi sur le dos, les pieds contre les cuisses, jambes écartées.`
-)
-
-export const enopishusamdur = _.example(
-  [_.e, _.nopi, _.shu, _.sam, _.dur],
-  `Mets-toi sur le dos, les pieds contre ma nuque.`
-)
-
 export const duha = _.word('duha', {
   noun: 'face',
   etym: () => [_.du, _.ha],
@@ -40,16 +31,19 @@ export const hawe = _.word('hawe', {
   noun: 'right cheek',
   etym: () => [_.ha, _.we],
 })
-_.see(_.we)
 
 export const hase = _.word('hase', {
   noun: 'left cheek',
   etym: () => [_.ha, _.se],
 })
-_.see(_.se)
 
 export const noha = _.word('noha', {
   noun: 'occiput (back of the head)',
   etym: () => [_.no, _.ha],
 })
-_.see(_.no)
+
+// === alt
+export const feduhati = _.alt('feduhati', {
+  glo: 'SUPESS.face.POSS.2SG',
+  alt: () => _.duha,
+})

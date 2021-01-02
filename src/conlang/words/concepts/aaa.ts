@@ -44,6 +44,6 @@ I hope you do too, dear reader ❤️️
 PS: Some pages have not yet been translated to english, thanks for your
 patience: this whole thing is a work in progress...
 
-Your next read ? ${_.kdana} or ${_.verbs}
+Your next read ? ${_.kedana} or ${_.verbs}
 `,
 })

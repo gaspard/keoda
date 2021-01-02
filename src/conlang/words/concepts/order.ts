@@ -2,25 +2,31 @@ import * as _ from '..'
 
 export const Jane = _.word('Jane', {
   noun: 'Jane',
+  writ: 'జాఁ',
 })
 export const Janeam = _.alt('Janeam', {
-  glo: 'Jane.DAT',
+  glo: 'Jane.ACC',
+  writ: 'జానాం',
   alt: () => _.Jane,
 })
 export const fuJane = _.alt('fuJane', {
   glo: 'SBJ.Jane',
+  writ: 'చుజాఁ',
   alt: () => _.Jane,
 })
 export const niJane = _.alt('niJane', {
   glo: 'DAT.Jane',
+  writ: 'నిజాఁ',
   alt: () => _.Jane,
 })
 
 export const John = _.word('John', {
   noun: 'John',
+  writ: 'జోఁ',
 })
 export const Johnam = _.alt('Johnam', {
-  glo: 'John.DAT',
+  writ: 'జోనాం',
+  glo: 'John.ACC',
   alt: () => _.John,
 })
 
@@ -100,7 +106,7 @@ ${_.phrase(
   _.palam
 )}
 
-# Dative
+# Accusative and dative
 
 ${_.phrase('Iris shows her eyes to Jane.', _.Iris, _.aguwu, _.fatam, _.niJane)}
 

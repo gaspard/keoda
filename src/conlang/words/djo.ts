@@ -1,18 +1,19 @@
 import * as _ from '.'
 
 export const djo = _.word('djo', {
-  adj: 'partie proximal',
-  desc: () => `Au centre ${_.dej} ${_.ojo}`,
+  adj: 'close, proximal',
+  etym: () => [_.dau, _.ojo],
+  see: () => [_.ha],
 })
-_.see(_.ojo)
-_.see(_.dej)
-_.see(_.ha)
-_.see(_.djobaj)
-_.see(_.djorum)
-_.see(_.djoma)
 
-export const hadjo = _.word('hadjo', { verb: 'prendre vers soi' })
+export const hadjo = _.word('hadjo', {
+  verb: 'to take',
+})
 
-export const djoha = _.word('djoha', { verb: 'rejeter (loin de soi)' })
+export const djoha = _.word('djoha', {
+  verb: 'to reject',
+})
 
-export const muhadjo = _.word('muhadjo', { verb: 'cueillir' })
+export const muhadjo = _.word('muhadjo', {
+  verb: 'to pick up',
+})
