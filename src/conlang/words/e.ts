@@ -8,6 +8,6 @@ export const e = _.word('e', {
 })
 
 export const yihe = _.alt('yihe', {
-  glo: '2SG.DPRV.be',
+  glo: '2SG.TINY.**be**',
   alt: () => _.e,
 })

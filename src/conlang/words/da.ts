@@ -32,6 +32,6 @@ export const dana = _.word('dana', {
 })
 
 export const da9 = _.alt('da', {
-  glo: '9',
+  glo: '**9**',
   alt: () => _.da,
 })

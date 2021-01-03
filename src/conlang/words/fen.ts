@@ -7,7 +7,7 @@ export const fen = _.word('fen', {
 })
 
 export const afen = _.alt('afen', {
-  glo: 'walk.3SG',
+  glo: '**walk**.3SG',
   alt: () => _.fen,
   see: () => [_.a, _.fen],
 })

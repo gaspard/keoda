@@ -57,6 +57,6 @@ export const koda = _.word('koda', {
 })
 
 export const ka4 = _.alt('ka', {
-  glo: '4',
+  glo: '**4**',
   alt: () => _.ka,
 })

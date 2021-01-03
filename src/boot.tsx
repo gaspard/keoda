@@ -18,8 +18,8 @@ function phraseSort(a: string, b: string) {
 const config: KeodaConfig = {
   onInitialize(ctx) {
     window.addEventListener('hashchange', function (e) {
-      const name = window.location.hash.replace('#', '')
-      ctx.actions.keoda.select({ name })
+      const id = window.location.hash.replace('#', '')
+      ctx.actions.keoda.select({ id })
     })
     ctx.state.keoda.writ = JSON.parse(
       window.localStorage.getItem('keoda.writ') || 'false'

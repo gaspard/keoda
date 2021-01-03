@@ -33,7 +33,7 @@ function compileWord(word: Entry): CompiledEntry {
     const key = Object.keys(word).find(key =>
       FULLTEXT_KEYS.includes(key as any)
     )
-    compiled.glo = word[key as 'glo']
+    compiled.glo = '**' + word[key as 'glo'] + '**'
   }
   if (word.alt) {
     compiled.alt = word.alt().id

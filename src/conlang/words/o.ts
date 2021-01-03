@@ -16,15 +16,8 @@ export const demoneoda = _.example(
   'Quand je serai mort.e...'
 )
 
-_.see(_.omopal)
-
 export const okei = _.word('okei', {
   conj: 'I (1SG.HONOR)',
   glo: '1SG.HONOR',
   etym: () => [_.o, _.kei],
-})
-
-export const onam = _.alt('onam', {
-  glo: 'I/we.DAT',
-  alt: () => _.o,
 })

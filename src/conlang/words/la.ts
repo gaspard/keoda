@@ -20,11 +20,6 @@ export const lapa = _.word('lapa', {
   etym: () => [_.la, _.pa],
 })
 
-export const shalapa = _.alt('shalapa', {
-  glo: '3PL.talk',
-  see: () => [_.sha, _.lapa],
-})
-
 export const lapalapa = _.word('lapalapa', {
   noun: 'duck',
   etym: () => [_.lapa, _.lapa],
@@ -57,11 +52,21 @@ export const lana = _.word('lana', {
 
 // ==================== ALT
 export const olalema = _.alt('olalema', {
-  glo: '1SG.INDF.kiss.PST.HEST',
+  glo: '1SG.INDF.**kiss**.PST.HEST',
   alt: () => _.la,
 })
 
 export const lanaro = _.alt('lanaro', {
-  glo: 'speech.INESS',
+  glo: '**speech**.INESS',
   alt: () => _.lana,
+})
+
+export const laham = _.alt('laham', {
+  glo: '**lips**.ACC',
+  alt: () => _.la,
+})
+
+export const shalapa = _.alt('shalapa', {
+  glo: '3PL.**talk**',
+  see: () => [_.sha, _.lapa],
 })

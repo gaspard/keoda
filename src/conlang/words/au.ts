@@ -7,7 +7,7 @@ export const au = _.word('au', {
 })
 
 export const ohau = _.alt('ohau', {
-  glo: '1SG.INDF.love',
+  glo: '1SG.INDF.**love**',
   alt: () => _.au,
 })
 
@@ -29,17 +29,17 @@ export const auau = _.word('auau', {
 })
 
 export const ausifalamau = _.example(
-  [_.au, _.si, _.falam, _.au],
+  [_.au, _.si, _.falame, _.au],
   `Fais-moi l'amour comme si tu te lavais d'une grande tristesse.`
 )
 
 // =========== ALT
 export const azulire = _.alt('azulire', {
-  glo: '3SG.love.FUT.EVNT',
+  glo: '3SG.**love**.FUT.EVNT',
   alt: () => _.zu,
 })
 
 export const autim = _.alt('autim', {
-  glo: 'heart.DET.2SG.ACC',
+  glo: '**heart**.POSS.2SG.ACC',
   alt: () => _.au,
 })

@@ -8,4 +8,4 @@ export const uki = _.word('uki', {
 
 export const tajuki = _.example([_.taj, _.uki], `Long penis.`)
 
-export const djiluki = _.example([_.djil, _.uki], `Longs cheveux.`)
+export const djiluki = _.example([_.jil, _.uki], `Longs cheveux.`)

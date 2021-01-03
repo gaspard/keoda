@@ -18,6 +18,6 @@ export const awiu = _.word('awiu', {
 })
 
 export const awinesti = _.alt('awinesti', {
-  glo: 'fish.magnitude.POSS.2SG',
+  glo: '**fish**.magnitude.POSS.2SG',
   alt: () => _.awi,
 })

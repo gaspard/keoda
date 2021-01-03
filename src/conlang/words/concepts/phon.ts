@@ -31,7 +31,7 @@ All sounds correspond to [Telugu](https://en.wikipedia.org/wiki/Telugu_script) e
 
 | Symbol          | Telugu     | Keoda     | Example |
 | :-------------: | :--------: | :-------: | :--------: |
-| **చ**           | /tʃ/       | /f/      | ${_.falam} |
+| **చ**           | /tʃ/       | /f/      | ${_.falame} |
 | **ఠ**           | /tʰ/       | /z/      | ${_.zuzu}    |
  
 

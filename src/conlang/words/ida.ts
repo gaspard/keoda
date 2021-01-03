@@ -12,3 +12,10 @@ export const iya = _.word('iya', {
   glo: '2SG.POET',
   etym: () => [_.i, _.yada],
 })
+
+// ====== alt
+
+export const idam = _.alt('idam', {
+  glo: '**you**.ACC',
+  alt: () => _.ti,
+})

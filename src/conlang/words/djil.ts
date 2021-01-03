@@ -1,16 +1,16 @@
 import * as _ from '.'
 
-export const djil = _.word('djil', {
+export const jil = _.word('jil', {
   noun: 'hair',
   posit: 'standing, body leaning forward, hair offered ready to be taken',
 })
 
-export const djoda = _.word('djoda', {
+export const joda = _.word('joda', {
   noun: 'bear',
-  etym: () => [_.djil, _.oda],
+  etym: () => [_.jil, _.oda],
 })
 
-export const nedjil = _.word('nedjil', {
+export const nejil = _.word('nejil', {
   noun: 'without hair',
   verb: 'to shave',
 })

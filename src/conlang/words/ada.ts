@@ -13,3 +13,9 @@ export const aya = _.word('aya', {
   etym: () => [_.a, _.yada],
   see: () => [_.ada, _.pron],
 })
+
+// ==== ALT
+export const adam = _.alt('adam', {
+  glo: '**them**.ACC',
+  alt: () => _.ada,
+})

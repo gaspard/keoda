@@ -19,7 +19,7 @@ export const lira = _.word('lira', {
   etym: () => [_.lir, _.a],
 })
 export const eliri = _.alt('eliri', {
-  glo: 'BE.later today',
+  glo: '**be**.later today',
   alt: () => _.liri,
 })
 

@@ -30,6 +30,6 @@ export const aniwi = _.word('aniwi', {
 // ==== alt
 
 export const anam = _.alt('anam', {
-  glo: 'feminine.ACC',
+  glo: '**feminine**.ACC',
   alt: () => _.ana,
 })

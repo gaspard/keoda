@@ -81,7 +81,7 @@ const Title = styled.div`
   }
   &.phrase {
     border-top-right-radius: 5px;
-    padding: 12px;
+    padding: 12px 12px 5px;
     line-height: 1.3rem;
     display: block;
     & .Trad {
@@ -91,10 +91,17 @@ const Title = styled.div`
 `
 
 const Name = styled.div`
+  cursor: pointer;
   font-size: 1.4rem;
   font-weight: bold;
 `
+
 const Phon = styled.div`
+  font-size: 1rem;
+`
+
+const Other = styled.div`
+  margin-left: 8px;
   font-size: 1rem;
 `
 
@@ -312,8 +319,10 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
         </Title>
       ) : (
         <Title className="Title">
-          <Name>{writ ? entry.writ : entry.name}</Name>
-          <Phon>{writ ? entry.name : entry.writ}</Phon>
+          <Name onClick={() => ctx.actions.keoda.select({ id: entry.id })}>
+            {writ ? entry.writ : entry.name}
+          </Name>
+          <Other>{writ ? entry.name : entry.writ}</Other>
           <Phon>{entry.phon}</Phon>
         </Title>
       )}

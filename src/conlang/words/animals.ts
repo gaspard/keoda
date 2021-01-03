@@ -7,6 +7,7 @@ import * as _ from '.'
 // sur les fesses, les jambes font les ailes du papillon, les pieds ensemble
 _.see(_.miwi)
 
+_.see(_.lipaya)
 // Le crocodile
 // plank pose
 _.see(_.kelo)
@@ -87,7 +88,7 @@ _.see(_.awi)
 _.see(_.koda)
 
 // Ours
-_.see(_.djoda)
+_.see(_.joda)
 
 // Dauphin
 _.see(_.mawi)

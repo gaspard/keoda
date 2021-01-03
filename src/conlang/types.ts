@@ -99,6 +99,7 @@ export interface Entry extends EntryDefinition {
 }
 
 export interface CompiledEntry extends Partial<EntryInfo> {
+  id: string
   name: string
   phon: string
   writ: string

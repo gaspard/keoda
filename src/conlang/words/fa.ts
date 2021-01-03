@@ -25,16 +25,16 @@ ${_.phrase("Don't be sad.", _.nefalo)}`,
 })
 
 export const nefalo = _.alt('nefalo', {
-  glo: 'NEG.be sad',
+  glo: 'NEG.**be sad**',
   alt: () => _.falo,
 })
 
 export const faham = _.alt('faham', {
-  glo: 'eyes.ACC',
+  glo: '**eyes**.ACC',
   alt: () => _.fa,
 })
 
 export const fatam = _.alt('fatam', {
-  glo: 'eyes.3SG.POSS.ACC',
+  glo: '**eyes**.3SG.POSS.ACC',
   alt: () => _.fa,
 })

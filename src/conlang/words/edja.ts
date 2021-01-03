@@ -1,11 +1,11 @@
 import * as _ from '.'
 
-export const edja = _.word('edja', {
+export const eja = _.word('eja', {
   prep: 'plausibility (interrogation)',
-  etym: () => [_.e, _.dja],
+  etym: () => [_.e, _.ja],
 })
 
-export const nedja = _.word('nedja', {
+export const neja = _.word('neja', {
   prep: 'not possible',
-  etym: () => [_.ne, _.dja],
+  etym: () => [_.ne, _.ja],
 })

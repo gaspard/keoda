@@ -1,44 +1,42 @@
 import * as _ from '.'
 
-// TODO: Could this be a huge source of confusion with 'am' suffix ?
-export const lam = _.word('lam', {
+export const lame = _.word('lame', {
   verb: 'to wash',
   noun: 'water',
 })
 _.see(_.lamon)
 
-export const ilamoda = _.example([_.i, _.lam, _.oda], `Lave-toi le corps.`)
-
-export const falam = _.word('falam', {
+export const falame = _.word('falame', {
   noun: 'tears',
 })
 _.see(_.ausifalamau)
 _.see(_.falo)
 
 export const lama = _.word('lama', {
-  noun: 'mer',
-  etym: () => [_.lam, _.da],
+  noun: 'sea',
+  etym: () => [_.lame, _.da],
 })
 
 export const lamagoa = _.word('lamagoa', {
-  noun: 'océan',
+  noun: 'ocean',
   etym: () => [_.lama, _.goa],
 })
 
 export const lami = _.word('lami', {
-  noun: 'vague',
+  noun: 'wave',
+  etym: () => [_.lame, _.mi],
 })
 
 export const lamioda = _.word('lamioda', {
-  noun: 'serpent',
+  noun: 'snake',
   etym: () => [_.lami, _.oda],
 })
 
 export const lamoa = _.word('lamoa', {
-  noun: 'source (lieu)',
-  etym: () => [_.lam, _.on, _.da],
+  noun: 'source (place)',
+  etym: () => [_.lame, _.on, _.da],
 })
 
 export const lamu = _.word('lamu', {
-  verb: 'boire',
+  verb: 'to drink',
 })

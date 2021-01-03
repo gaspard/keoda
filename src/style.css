@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Telugu';
+  src: url('/assets/KohinoorTelugu-Medium.ttf');
+}
 body {
   margin-bottom: 140px;
   background:#9ca5a7;

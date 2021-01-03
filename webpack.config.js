@@ -70,8 +70,8 @@ module.exports = {
         ],
       },
       {
-        test: /\.(gif|jpg|png|mp3|aac|ogg)$/,
-        loader: 'file',
+        test: /\.(gif|jpg|png|mp3|aac|ogg|ttf)$/,
+        loader: 'file-loader',
       },
       {
         test: /\.css$/,

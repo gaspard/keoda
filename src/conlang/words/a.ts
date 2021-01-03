@@ -12,7 +12,7 @@ export const ahada = _.word('ahada', {
 })
 
 export const ahe = _.alt('ahe', {
-  glo: '3SG.être',
+  glo: '3SG.**be**',
   see: () => [_.a, _.e],
 })
 

@@ -30,6 +30,14 @@ const Wrapper = styled.span`
 
 const Anchor = styled.a`
   color: inherit;
+  .Title &.writ {
+    font-size: 1.3rem;
+  }
+  &.writ {
+    font-family: 'Telugu';
+    font-size: 1.1rem;
+    font-weight: normal;
+  }
   &:not(.out) {
     text-decoration: none;
   }
@@ -88,7 +96,9 @@ export const Link: Comp<LinkProps> = ({ className, id, fromMd, children }) => {
         }, 500)
       }}
     >
-      <Anchor href={`#${ref}`}>{writ ? entry.writ : entry.name}</Anchor>
+      <Anchor href={`#${ref}`} className={writ ? 'writ' : ''}>
+        {writ ? entry.writ : entry.name}
+      </Anchor>
     </Wrapper>
   )
 }

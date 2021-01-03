@@ -10,7 +10,7 @@ export const oda = _.word('oda', {
   pron: 'me/us',
   adj: 'alive',
   suffix: 'animal',
-  glo: '1SG.INDF',
+  glo: '**body**',
   see: () => [_.to, _.oya, _.pron],
 })
 
@@ -48,26 +48,26 @@ export const yadei = _.word('yadei', {
 /// =============== ALT
 
 export const odatoham = _.alt('odatoham', {
-  glo: 'body.POSS.1SG.INDF.ACC',
+  glo: '**body**.POSS.1SG.INDF.ACC',
   alt: () => _.oda,
 })
 
 export const oda_adj = _.alt('oda', {
-  glo: 'body.ADJ',
+  glo: '**body**.ADJ',
   alt: () => _.oda,
 })
 
 export const tohodam = _.alt('tohodam', {
-  glo: 'POSS.1SG.INDF.body.ACC',
+  glo: 'POSS.1SG.INDF.**body**.ACC',
   alt: () => _.oda,
 })
 
 export const odahem = _.alt('odahem', {
-  glo: 'body.offered',
+  glo: '**body**.*offered*',
   alt: () => _.oda,
 })
 
 export const odam = _.alt('odam', {
-  glo: 'me/us.DAT',
+  glo: '**body**.DAT',
   alt: () => _.oda,
 })

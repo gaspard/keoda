@@ -9,6 +9,6 @@ export const noam = _.word('noam', {
 })
 
 export const noati = _.alt('noati', {
-  glo: 'skin.2SG.POSS',
+  glo: '**skin**.2SG.POSS',
   alt: () => _.noa,
 })

@@ -13,16 +13,16 @@ export const zuzu = _.word('zuzu', {
 })
 
 export const zuzupa = _.alt('zuzupa', {
-  glo: 'to make love.MYST',
+  glo: '**make love**.MYST',
   alt: () => _.zuzu,
 })
 
 export const ozu = _.alt('ozu', {
-  glo: '1SG.INDF.love',
+  glo: '1SG.INDF.**love**',
   alt: () => _.zu,
 })
 
 export const shozuzu = _.alt('shozuzu', {
-  glo: '1PL.PRS.make love',
+  glo: '1PL.PRS.**make love**',
   alt: () => _.zuzu,
 })

@@ -28,6 +28,6 @@ export const akida = _.word('agaukida', {
 _.see(_.ago)
 
 export const agadeuki = _.alt('agadeuki', {
-  glo: 'echo.long',
+  glo: '**echo**.*long*',
   alt: () => _.agade,
 })

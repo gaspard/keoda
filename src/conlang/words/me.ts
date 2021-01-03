@@ -12,5 +12,5 @@ export const meshe = _.word('meshe', {
 
 export const melam = _.word('melam', {
   verb: 'nager',
-  etym: () => [_.me, _.lam],
+  etym: () => [_.me, _.lame],
 })

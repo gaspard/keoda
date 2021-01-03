@@ -25,6 +25,7 @@ const TELU: { [key: string]: string } = {
   // /ʋ/ sound = made with v     = వ
   // /ʃ/ sound = made with x     = ష
   // /f/ sound = made with c     = చ /tʃ/
+  // lone 'e'  = made with > (bottom left of kbd)
 
   // i
   mimx: 'మిం',
@@ -74,6 +75,7 @@ const TELU: { [key: string]: string } = {
   de: 'దే',
   ke: 'కే',
   ge: 'గే',
+  fenx: 'చేఁ',
   fe: 'వే',
   senx: 'సేఁ',
   se: 'సే',
@@ -92,6 +94,7 @@ const TELU: { [key: string]: string } = {
   namx: 'నాం',
   na: 'నా',
   pamx: 'పాం',
+  panx: 'పాఁ',
   pa: 'పా',
   bamx: 'బాం',
   ba: 'బా',
@@ -156,6 +159,7 @@ const TELU: { [key: string]: string } = {
   po: 'పో',
   bo: 'బో',
   to: 'తో',
+  donx: 'దోఁ',
   do: 'దో',
   ko: 'కో',
   go: 'గో',
@@ -171,12 +175,14 @@ const TELU: { [key: string]: string } = {
   yo: 'యో',
   roa: 'రోా',
   ro: 'రో',
+  lom: 'లోం',
   lo: 'లో',
 
   i: 'ఇ',
   em: 'ఎం',
   e: 'ఎ',
   ah: 'అః',
+  amx: 'లాం',
   am: 'లాం',
   a: 'అ',
   u: 'ఉ',
@@ -234,8 +240,10 @@ function tran(word: string) {
     .split('')
     .map(k => PHON[k] || k)
 }
+
 export function phon(word: string) {
-  return `/${tran(word.toLowerCase()).join('')}/`
+  const w = tran(word.toLowerCase()).join('')
+  return w === '?' ? '?' : `/${w}/`
 }
 
 const ENDRE = /[jrmn]$/

@@ -35,7 +35,7 @@ export const ihelem = [
   [_.o, _.zu, _.lem, _.au],
   // Tu (honor) aimes aimer ?
   // *Edja keizu au ?*
-  [_.edja, _.kei, _.zu, _.au],
+  [_.eja, _.kei, _.zu, _.au],
   // Ton sourire est comme le vent fou
   // *Tilaj ahe si oto nega*
   [_.ti, _.laj, _.a, /*h*/ _.e, _.si, _.oto, _.nega],

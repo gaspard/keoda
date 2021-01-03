@@ -5,17 +5,17 @@ export const Jane = _.word('Jane', {
   writ: 'జాఁ',
 })
 export const Janeam = _.alt('Janeam', {
-  glo: 'Jane.ACC',
+  glo: '**Jane**.ACC',
   writ: 'జానాం',
   alt: () => _.Jane,
 })
 export const fuJane = _.alt('fuJane', {
-  glo: 'SBJ.Jane',
+  glo: 'SBJ.**Jane**',
   writ: 'చుజాఁ',
   alt: () => _.Jane,
 })
 export const niJane = _.alt('niJane', {
-  glo: 'DAT.Jane',
+  glo: 'DAT.**Jane**',
   writ: 'నిజాఁ',
   alt: () => _.Jane,
 })
@@ -26,7 +26,7 @@ export const John = _.word('John', {
 })
 export const Johnam = _.alt('Johnam', {
   writ: 'జోనాం',
-  glo: 'John.ACC',
+  glo: '**John**.ACC',
   alt: () => _.John,
 })
 
@@ -116,9 +116,9 @@ ${_.phrase(
   _.eku,
   _.Iris,
   _.shu,
-  _.oda_sbj,
+  _.oda,
   _.shozuzu,
-  _.tim
+  _.idam
 )}
 `,
 })

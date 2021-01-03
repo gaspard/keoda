@@ -32,11 +32,11 @@ export const onsho = _.word('onsho', {
 })
 
 export const shoyi = _.alt('shoyi', {
-  glo: '1PL.PRS.DPRV',
+  glo: '**1PL.PRS**.TINY',
   alt: () => _.sho,
 })
 
 export const shokei = _.alt('shokei', {
-  glo: '1PL.PRS.HONOR',
+  glo: '**1PL.PRS**.HONOR',
   alt: () => _.sho,
 })

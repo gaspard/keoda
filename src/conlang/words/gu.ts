@@ -1,6 +1,7 @@
 import * as _ from '.'
 
 export const gu = _.word('gu', {
+  noun: 'darkness',
   adj: 'darkness, gestation, deep',
   desc: () => `${_.gu} is the terror of ${_.ga}.`,
   etym: () => [_.ga, _.u],
@@ -81,11 +82,10 @@ export const guyuina = _.word('guyuina', {
 
 export const gupa = _.word('gupa', {
   noun: 'nature',
-  glo: 'nature',
   etym: () => [_.gu, _.pa],
 })
 
 export const aguwu = _.alt('aguwu', {
-  glo: '3SG.give',
+  glo: '3SG.**give**',
   alt: () => _.guwu,
 })

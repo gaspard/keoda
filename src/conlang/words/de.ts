@@ -48,6 +48,6 @@ export const nede = _.word('nede', {
 })
 
 export const de2 = _.alt('de', {
-  glo: '2',
+  glo: '**2**',
   alt: () => _.de,
 })

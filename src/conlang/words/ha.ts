@@ -44,6 +44,6 @@ export const noha = _.word('noha', {
 
 // === alt
 export const feduhati = _.alt('feduhati', {
-  glo: 'SUPESS.face.POSS.2SG',
+  glo: 'SUPESS.**face**.POSS.2SG',
   alt: () => _.duha,
 })

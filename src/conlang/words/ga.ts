@@ -12,7 +12,7 @@ export const gana = _.word('gana', {
 })
 
 export const ganaroa = _.alt('ganaroa', {
-  glo: 'earth.INESS',
+  glo: '**earth**.INESS',
   alt: () => _.gana,
 })
 
@@ -65,6 +65,6 @@ export const nega = _.word('nega', {
 })
 
 export const nega_adv = _.alt('nega', {
-  glo: 'fou.ADV',
+  glo: '*fou*.ADV',
   alt: () => _.nega,
 })

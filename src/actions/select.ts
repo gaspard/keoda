@@ -1,9 +1,13 @@
 import { Action } from '../app'
 
 export interface SelectArg {
-  name: string
+  id: string
 }
 
 export const select: Action<SelectArg> = (ctx, arg) => {
-  ctx.state.keoda.selected = arg.name
+  if (ctx.state.keoda.selected === arg.id) {
+    delete ctx.state.keoda.selected
+  } else {
+    ctx.state.keoda.selected = arg.id
+  }
 }

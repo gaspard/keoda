@@ -14,6 +14,6 @@ _.see(_.dem)
 
 // ============== alt
 export const ohemleme = _.alt('ohemleme', {
-  glo: '1SG.INDF.live.PST.EVNT',
+  glo: '1SG.INDF.**live**.PST.EVNT',
   alt: () => _.em,
 })

@@ -9,7 +9,7 @@ _.see(_.yon)
 
 export const lamon = _.word('lamon', {
   noun: 'urethra',
-  etym: () => [_.lam, _.on],
+  etym: () => [_.lame, _.on],
 })
 
 export const yaon = _.word('yaon', {

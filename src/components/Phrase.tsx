@@ -80,7 +80,7 @@ export const Phrase: Comp<PhraseProps> = ({ className, id }) => {
       {glo ? (
         <GWrap>
           <Trad className="Trad">{phrase.trad}</Trad>
-          <List phrase entries={phrase.words!} glo={glo} />
+          <List phrase entries={phrase.words!} glo />
         </GWrap>
       ) : (
         <List phrase entries={phrase.words!} glo={glo} />

@@ -1,6 +1,6 @@
 import * as _ from '.'
 
-export const dja = _.word('dja', {
+export const ja = _.word('ja', {
   noun: 'possible',
 })
-_.see(_.edja)
+_.see(_.eja)

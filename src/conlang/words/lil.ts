@@ -27,11 +27,11 @@ export const nelil = _.word('nelil', {
 })
 
 export const esshanelil = _.alt('esshanelil', {
-  glo: 'INTR.3PL.confound',
+  glo: 'INTR.3PL.**confound**',
   alt: () => _.nelil,
 })
 
 export const lil5 = _.alt('lil', {
-  glo: '5',
+  glo: '**5**',
   alt: () => _.lil,
 })

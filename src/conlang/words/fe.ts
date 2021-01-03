@@ -45,26 +45,26 @@ export const fefi = _.word('fefi', {
 })
 
 export const afe = _.alt('afe', {
-  glo: '3SG.cover',
+  glo: '3SG.**cover**',
   alt: () => _.fe,
 })
 
 export const okeinefelir = _.alt('okeinefelir', {
-  glo: '1SG.HONOR.undress.FUT',
+  glo: '1SG.HONOR.**undress**.FUT',
   alt: () => _.nefe,
 })
 
 export const piyinefelir = _.alt('piyinefelir', {
-  glo: '1SG.DPRV.undress.FUT',
+  glo: '1SG.TINY.**undress**.FUT',
   alt: () => _.nefe,
 })
 
 export const esyinefe = _.alt('esyinefe', {
-  glo: 'INTR.2SG.DPRV.undress',
+  glo: 'INTR.2SG.TINY.**undress**',
   alt: () => _.nefe,
 })
 
 export const nefenesti = _.alt('nefenesti', {
-  glo: 'naked.BE.2SG.POSS',
+  glo: '**naked**.BE.2SG.POSS',
   alt: () => _.nefe,
 })

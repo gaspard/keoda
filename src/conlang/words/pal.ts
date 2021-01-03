@@ -21,11 +21,11 @@ export const kepal = _.word('kepal', {
 })
 
 export const palwu = _.alt('palwu', {
-  glo: 'butt.OF',
+  glo: '**butt**.POSS',
   alt: () => _.pal,
 })
 
 export const palam = _.alt('palam', {
-  glo: 'butt.DAT',
+  glo: '**butt**.DAT',
   alt: () => _.pal,
 })

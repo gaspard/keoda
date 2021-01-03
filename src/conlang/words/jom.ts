@@ -9,6 +9,6 @@ export const jana = _.word('jana', {
 })
 
 export const janaro = _.alt('janaro', {
-  glo: 'forest.INESS',
+  glo: '**forest**.INESS',
   alt: () => _.jana,
 })

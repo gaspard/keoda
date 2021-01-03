@@ -11,6 +11,6 @@ ${_.phrase('Where do you come from ?', _.dona, _.dao, _.ihodu)}
 
 // ==== alt
 export const ihodu = _.alt('ihodu', {
-  glo: '2SG.come',
+  glo: '2SG.**come**',
   alt: () => _.odu,
 })

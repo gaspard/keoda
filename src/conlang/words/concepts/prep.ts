@@ -4,11 +4,11 @@ export const Iris = _.word('Iris', {
   noun: 'Iris',
 })
 export const Irisam = _.alt('Irisam', {
-  glo: 'Iris.DAT',
+  glo: '**Iris**.DAT',
   alt: () => _.Iris,
 })
 export const fuIris = _.alt('fuIris', {
-  glo: 'SBJ.Iris',
+  glo: 'SBJ.**Iris**',
   alt: () => _.Iris,
 })
 
@@ -46,7 +46,7 @@ ${_.phrase('I like when you undress (your-self).', _.ozu, _.lau, _.esyinefe)}
 
 ${_.phrase('Iris whom you caressed.', _.Irisam, _.dim, _.imilema)}
 
-${_.phrase('Iris who caressed you.', _.Iris, _.di, _.amilema, _.tim)}
+${_.phrase('Iris who caressed you.', _.Iris, _.di, _.amilema, _.idam)}
 
 ${_.phrase('I like that you are naked.', _.ozu, _.eku, _.yihe, _.nefe)}
 
@@ -67,9 +67,9 @@ ${_.phrase('Where did you caress Iris ?', _.dona, _.Irisam, _.imilema, _.q)}
 * ${_.esi} (in order to)
 * ${_.eyu} (if)
 * ${_.ibu} (for)
-* ${_.edja} (plausibility)
+* ${_.eja} (plausibility)
 
-${_.phrase('Did you caress Iris ?', _.edja, _.Irisam, _.imileme, _.q)}
+${_.phrase('Did you caress Iris ?', _.eja, _.Irisam, _.imileme, _.q)}
 
 # Similarity
 

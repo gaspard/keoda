@@ -7,6 +7,6 @@ export const liu = _.word('liu', {
 _.see(_.li)
 
 export const sholiu = _.alt('sholiu', {
-  glo: '1PL.eat',
+  glo: '1PL.**eat**',
   alt: () => _.liu,
 })

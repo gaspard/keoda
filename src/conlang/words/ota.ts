@@ -7,7 +7,7 @@ export const ota = _.word('ota', {
 export const lamota = _.word('otalamon', {
   noun: `cercle de l'urètre`,
   desc: () => `zone autour de l'urètre (chez la femme)`,
-  etym: () => [_.lam, _.ota],
+  etym: () => [_.lame, _.ota],
 })
 
 export const hamunota = _.word('hamunon', {
