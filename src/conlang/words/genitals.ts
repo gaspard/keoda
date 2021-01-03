@@ -39,9 +39,9 @@ export const genitals = _.example(
     // corps érectile du pénis (corpus cavernosa)
     _.butaj,
     // corps spongieux du clitoris (bulbe du vestibule)
-    _.joyon,
+    _.desoyon,
     // corps spongieux du pénis
-    _.jotaj,
+    _.desotaj,
   ],
   'anatomie génitale et zones érogèns'
 )

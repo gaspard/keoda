@@ -45,6 +45,28 @@ export const yadei = _.word('yadei', {
   see: () => [_.odei, _.pron],
 })
 
+export const hida = _.word('hida', {
+  noun: 'sibling',
+  etym: () => [_.him, _.oda],
+  see: () => [_.family],
+})
+
+export const hina = _.word('hina', {
+  noun: 'sister',
+  etym: () => [_.him, _.oda],
+  see: () => [_.family],
+})
+export const hiwi = _.word('hiwi', {
+  noun: 'enby sibling',
+  etym: () => [_.him, _.iwi],
+  see: () => [_.family],
+})
+export const hito = _.word('hito', {
+  noun: 'brother',
+  etym: () => [_.him, _.oto],
+  see: () => [_.family],
+})
+
 /// =============== ALT
 
 export const odatoham = _.alt('odatoham', {

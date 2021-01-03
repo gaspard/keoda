@@ -15,7 +15,8 @@
     "prebuild": "npm run clean && npm run makedb",
     "build": "webpack --mode=production",
     "deploy": "git push origin `git subtree split --prefix public master`:gh-pages --force",
-    "conjugation": "ts-node src/conjugation.ts"
+    "conjugation": "ts-node src/conjugation.ts",
+    "stats": "ts-node src/stats.ts"
   },
   "author": "Lily Bucher <hi@lilybucher.com> (http://lilybucher.com)",
   "license": "code is MIT, language is private",

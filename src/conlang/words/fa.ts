@@ -3,6 +3,8 @@ import * as _ from '.'
 export const fa = _.word('fa', {
   noun: 'eyes',
   verb: 'to look',
+  img:
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Arctic_Fox_1_%2810549184013%29.jpg/400px-Arctic_Fox_1_%2810549184013%29.jpg',
   desc: () => `
 ${_.phrase('Show your eyes.', _.guwu, _.faham)}
 

@@ -23,7 +23,7 @@ balance their equivalent ${_.ganes} (poetic) states.
 On their own they can feel dreadful if not enlightenend by some purpose given
 by the poetic states. Balancing serves both ways.
 
-* 10 ${_.djifi} (humble) <=> ${_.djipa} (remembering being god.dess)
+* 10 ${_.jifi} (humble) <=> ${_.jipa} (remembering being god.dess)
 * 9 ${_.dafi} (serving) <=> ${_.dapa} (joy)
 * 8 ${_.jefi} (caring) <=> ${_.jepa} (belonging)
 * 7 ${_.fefi} (adapting) <=> ${_.fepa} (pride)

@@ -164,7 +164,7 @@
         "word-de"
       ],
       "phrases": [
-        "phrase-74"
+        "phrase-76"
       ],
       "fulltext": "agade word-aga word-de echo",
       "writ": "అగాదే",
@@ -198,7 +198,7 @@
         "word-da"
       ],
       "phrases": [
-        "phrase-70"
+        "phrase-72"
       ],
       "fulltext": "agaukida word-agauki word-da temple",
       "writ": "అగాఉకిదా",
@@ -321,8 +321,8 @@
       "glo": "ACC",
       "suffix": "recipient",
       "verb": "to receive",
-      "desc": "The suffix is added to the last part of the recipient. So if the receiver is John's butt, depending on word order, the [am](word-am) goes on [pal](word-pal) or [John](word-John):\n  \n  [75](phrase-75)\n\n  [76](phrase-76)\n  ",
-      "fulltext": "am The suffix is added to the last part of the recipient. So if the receiver is John's butt, depending on word order, the [am](word-am) goes on [pal](word-pal) or [John](word-John):\n  \n  [75](phrase-75)\n\n  [76](phrase-76)\n   sham to receive recipient",
+      "desc": "The suffix is added to the last part of the recipient. So if the receiver is John's butt, depending on word order, the [am](word-am) goes on [pal](word-pal) or [John](word-John):\n  \n  [77](phrase-77)\n\n  [78](phrase-78)\n  ",
+      "fulltext": "am The suffix is added to the last part of the recipient. So if the receiver is John's butt, depending on word order, the [am](word-am) goes on [pal](word-pal) or [John](word-John):\n  \n  [77](phrase-77)\n\n  [78](phrase-78)\n   sham to receive recipient",
       "writ": "లాం",
       "phon": "/am/",
       "deriv": [
@@ -335,10 +335,11 @@
       "type": "word",
       "noun": "tree",
       "adj": "feminine",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/032_Waterside_Tree%2C_Kolam_Telagorajo_%2827349860049%29.jpg/330px-032_Waterside_Tree%2C_Kolam_Telagorajo_%2827349860049%29.jpg",
       "phrases": [
         "phrase-68"
       ],
-      "fulltext": "ana anawi anoda anoto aniwi duna nona otana tree feminine",
+      "fulltext": "ana anawi anoda anoto aniwi jona duna hana nona otana tree feminine",
       "writ": "అనా",
       "phon": "/ana/",
       "glo": "**tree**",
@@ -347,7 +348,9 @@
         "word-anoda",
         "word-anoto",
         "word-aniwi",
+        "word-jona",
         "word-duna",
+        "word-hana",
         "word-nona",
         "word-otana"
       ]
@@ -427,7 +430,7 @@
         "phrase-43",
         "phrase-44",
         "phrase-69",
-        "phrase-82"
+        "phrase-84"
       ],
       "fulltext": "au auhu aupa augu lau aupi zu heart to love/to receive",
       "writ": "అు",
@@ -561,10 +564,10 @@
       "type": "word",
       "noun": "thigh",
       "etym": [
-        "word-djo",
+        "word-jo",
         "word-baj"
       ],
-      "fulltext": "djobaj word-djo word-baj thigh",
+      "fulltext": "djobaj word-jo word-baj thigh",
       "writ": "dజోబాజ్‌",
       "phon": "/ddʒɔbaʒ/",
       "glo": "**thigh**"
@@ -607,6 +610,53 @@
       "writ": "బేఓ",
       "phon": "/bɛɔ/",
       "glo": "**secouer**"
+    },
+    "word-bisa": {
+      "name": "bisa",
+      "id": "word-bisa",
+      "type": "word",
+      "noun": "spore",
+      "fulltext": "bisa bisajoda bisahina spore",
+      "writ": "బిసా",
+      "phon": "/bisa/",
+      "glo": "**spore**",
+      "deriv": [
+        "word-bisajoda",
+        "word-bisahina"
+      ]
+    },
+    "word-bisajoda": {
+      "name": "bisajoda",
+      "id": "word-bisajoda",
+      "type": "word",
+      "noun": "mushroom",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Lycoperdon-perlatum-flaschenstaeubling-alt.jpg/330px-Lycoperdon-perlatum-flaschenstaeubling-alt.jpg",
+      "etym": [
+        "word-bisa",
+        "word-joda"
+      ],
+      "fulltext": "bisajoda word-bisa word-joda mushroom",
+      "writ": "బిసాజోదా",
+      "phon": "/bisadʒɔda/",
+      "glo": "**mushroom**"
+    },
+    "word-bisahina": {
+      "name": "bisahina",
+      "id": "word-bisahina",
+      "type": "word",
+      "noun": "fern",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Athyrium_filix-femina.jpg/330px-Athyrium_filix-femina.jpg",
+      "etym": [
+        "word-bisa",
+        "word-ina"
+      ],
+      "see": [
+        "card-plants"
+      ],
+      "fulltext": "bisahina word-bisa word-ina plants fern",
+      "writ": "బిసాఠినా",
+      "phon": "/bisahina/",
+      "glo": "**fern**"
     },
     "word-bo": {
       "name": "bo",
@@ -667,6 +717,20 @@
       "phon": "/butaʒ/",
       "glo": "**corps érectile du pénis**"
     },
+    "word-buni": {
+      "name": "buni",
+      "id": "word-buni",
+      "type": "word",
+      "noun": "bud",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Magnolia_Bud.jpg/230px-Magnolia_Bud.jpg",
+      "see": [
+        "card-plants"
+      ],
+      "fulltext": "buni plants bud",
+      "writ": "బుని",
+      "phon": "/buni/",
+      "glo": "**bud**"
+    },
     "word-Jane": {
       "name": "Jane",
       "id": "word-Jane",
@@ -700,8 +764,8 @@
         "phrase-38",
         "phrase-39",
         "phrase-40",
-        "phrase-75",
-        "phrase-76"
+        "phrase-77",
+        "phrase-78"
       ],
       "fulltext": "John John",
       "phon": "/dʒɔhn/",
@@ -967,12 +1031,12 @@
         "word-dao",
         "card-prep"
       ],
-      "fulltext": "dao word-da word-o hadau djo odo dao prep to",
+      "fulltext": "dao word-da word-o hadau jo odo dao prep to",
       "writ": "దాఓ",
       "phon": "/daɔ/",
       "deriv": [
         "word-hadau",
-        "word-djo"
+        "word-jo"
       ]
     },
     "word-hadau": {
@@ -985,7 +1049,7 @@
         "word-dao"
       ],
       "phrases": [
-        "phrase-74"
+        "phrase-76"
       ],
       "fulltext": "hadau word-ha word-dao far",
       "writ": "హాదాఉ",
@@ -1132,8 +1196,8 @@
       ],
       "phrases": [
         "phrase-51",
-        "phrase-73",
-        "phrase-74"
+        "phrase-75",
+        "phrase-76"
       ],
       "fulltext": "di diguwu yadifa prep dim diwu who",
       "writ": "ది",
@@ -1253,9 +1317,9 @@
         "word-neja"
       ]
     },
-    "word-dji": {
-      "name": "dji",
-      "id": "word-dji",
+    "word-ji": {
+      "name": "ji",
+      "id": "word-ji",
       "type": "word",
       "noun": "10 (memory)",
       "etym": [
@@ -1269,37 +1333,37 @@
         "phrase-15",
         "phrase-18"
       ],
-      "fulltext": "dji word-pi word-ipi count 10 (memory)",
-      "writ": "dజి",
-      "phon": "/ddʒi/",
+      "fulltext": "ji word-pi word-ipi count 10 (memory)",
+      "writ": "జి",
+      "phon": "/dʒi/",
       "glo": "**10 (memory)**"
     },
-    "word-djipa": {
-      "name": "djipa",
-      "id": "word-djipa",
+    "word-jipa": {
+      "name": "jipa",
+      "id": "word-jipa",
       "type": "word",
       "noun": "remembering (being god.dess)",
       "see": [
         "card-ganes",
-        "word-djifi"
+        "word-jifi"
       ],
-      "fulltext": "djipa ganes djifi remembering (being god.dess)",
-      "writ": "dజిపా",
-      "phon": "/ddʒipa/",
+      "fulltext": "jipa ganes jifi remembering (being god.dess)",
+      "writ": "జిపా",
+      "phon": "/dʒipa/",
       "glo": "**remembering (being god.dess)**"
     },
-    "word-djifi": {
-      "name": "djifi",
-      "id": "word-djifi",
+    "word-jifi": {
+      "name": "jifi",
+      "id": "word-jifi",
       "type": "word",
       "adj": "humble",
       "see": [
         "card-nanes",
-        "word-djipa"
+        "word-jipa"
       ],
-      "fulltext": "djifi nanes djipa humble",
-      "writ": "dజివి",
-      "phon": "/ddʒifi/",
+      "fulltext": "jifi nanes jipa humble",
+      "writ": "జివి",
+      "phon": "/dʒifi/",
       "glo": "**humble**"
     },
     "word-jil": {
@@ -1308,26 +1372,27 @@
       "type": "word",
       "noun": "hair",
       "posit": "standing, body leaning forward, hair offered ready to be taken",
-      "fulltext": "jil joda hair standing, body leaning forward, hair offered ready to be taken",
+      "fulltext": "jil gojida hair standing, body leaning forward, hair offered ready to be taken",
       "writ": "జిల్‌",
       "phon": "/dʒil/",
       "glo": "**hair**",
       "deriv": [
-        "word-joda"
+        "word-gojida"
       ]
     },
-    "word-joda": {
-      "name": "joda",
-      "id": "word-joda",
+    "word-gojida": {
+      "name": "gojida",
+      "id": "word-gojida",
       "type": "word",
       "noun": "bear",
       "etym": [
+        "word-gol",
         "word-jil",
         "word-oda"
       ],
-      "fulltext": "joda word-jil word-oda bear",
-      "writ": "జోదా",
-      "phon": "/dʒɔda/",
+      "fulltext": "gojida word-gol word-jil word-oda bear",
+      "writ": "గోజిదా",
+      "phon": "/gɔdʒida/",
       "glo": "**bear**"
     },
     "word-nejil": {
@@ -1341,9 +1406,9 @@
       "phon": "/nɛdʒil/",
       "glo": "**without hair**"
     },
-    "word-djo": {
-      "name": "djo",
-      "id": "word-djo",
+    "word-jo": {
+      "name": "jo",
+      "id": "word-jo",
       "type": "word",
       "adj": "close, proximal",
       "etym": [
@@ -1353,46 +1418,144 @@
       "see": [
         "word-ha"
       ],
-      "fulltext": "djo word-dao word-ojo djobaj djoma djonopi obo ha close, proximal",
-      "writ": "dజో",
-      "phon": "/ddʒɔ/",
+      "fulltext": "jo word-dao word-ojo djobaj hajo joha joda jona jowi joto djoma djonopi obo ha close, proximal",
+      "writ": "జో",
+      "phon": "/dʒɔ/",
       "glo": "**close, proximal**",
       "deriv": [
         "word-djobaj",
+        "word-hajo",
+        "word-joha",
+        "word-joda",
+        "word-jona",
+        "word-jowi",
+        "word-joto",
         "word-djoma",
         "word-djonopi",
         "word-obo"
       ]
     },
-    "word-hadjo": {
-      "name": "hadjo",
-      "id": "word-hadjo",
+    "word-hajo": {
+      "name": "hajo",
+      "id": "word-hajo",
       "type": "word",
       "verb": "to take",
-      "fulltext": "hadjo to take",
-      "writ": "హాdజో",
-      "phon": "/haddʒɔ/",
-      "glo": "**to take**"
+      "etym": [
+        "word-ha",
+        "word-jo"
+      ],
+      "fulltext": "hajo word-ha word-jo muhajo to take",
+      "writ": "హాజో",
+      "phon": "/hadʒɔ/",
+      "glo": "**to take**",
+      "deriv": [
+        "word-muhajo"
+      ]
     },
-    "word-djoha": {
-      "name": "djoha",
-      "id": "word-djoha",
+    "word-joha": {
+      "name": "joha",
+      "id": "word-joha",
       "type": "word",
       "verb": "to reject",
-      "fulltext": "djoha to reject",
-      "writ": "dజోహా",
-      "phon": "/ddʒɔha/",
+      "etym": [
+        "word-jo",
+        "word-ha"
+      ],
+      "fulltext": "joha word-jo word-ha to reject",
+      "writ": "జోహా",
+      "phon": "/dʒɔha/",
       "glo": "**to reject**"
     },
-    "word-muhadjo": {
-      "name": "muhadjo",
-      "id": "word-muhadjo",
+    "word-muhajo": {
+      "name": "muhajo",
+      "id": "word-muhajo",
       "type": "word",
       "verb": "to pick up",
-      "fulltext": "muhadjo to pick up",
-      "writ": "ముహాdజో",
-      "phon": "/muhaddʒɔ/",
+      "etym": [
+        "word-mu",
+        "word-hajo"
+      ],
+      "fulltext": "muhajo word-mu word-hajo to pick up",
+      "writ": "ముహాజో",
+      "phon": "/muhadʒɔ/",
       "glo": "**to pick up**"
+    },
+    "word-joda": {
+      "name": "joda",
+      "id": "word-joda",
+      "type": "word",
+      "noun": "child",
+      "etym": [
+        "word-jo",
+        "word-oda"
+      ],
+      "see": [
+        "card-family"
+      ],
+      "fulltext": "joda word-jo word-oda bisajoda family child",
+      "writ": "జోదా",
+      "phon": "/dʒɔda/",
+      "glo": "**child**",
+      "deriv": [
+        "word-bisajoda"
+      ]
+    },
+    "word-jona": {
+      "name": "jona",
+      "id": "word-jona",
+      "type": "word",
+      "noun": "daughter",
+      "etym": [
+        "word-jo",
+        "word-ana"
+      ],
+      "see": [
+        "card-family"
+      ],
+      "phrases": [
+        "phrase-70"
+      ],
+      "fulltext": "jona word-jo word-ana family daughter",
+      "writ": "జోనా",
+      "phon": "/dʒɔna/",
+      "glo": "**daughter**"
+    },
+    "word-jowi": {
+      "name": "jowi",
+      "id": "word-jowi",
+      "type": "word",
+      "noun": "enby child",
+      "etym": [
+        "word-jo",
+        "word-iwi"
+      ],
+      "see": [
+        "card-family"
+      ],
+      "phrases": [
+        "phrase-71"
+      ],
+      "fulltext": "jowi word-jo word-iwi family enby child",
+      "writ": "జోవి",
+      "phon": "/dʒɔwi/",
+      "glo": "**enby child**"
+    },
+    "word-joto": {
+      "name": "joto",
+      "id": "word-joto",
+      "type": "word",
+      "noun": "son",
+      "etym": [
+        "word-jo",
+        "word-oto"
+      ],
+      "see": [
+        "card-family"
+      ],
+      "fulltext": "joto word-jo word-oto family son",
+      "writ": "జోతో",
+      "phon": "/dʒɔtɔ/",
+      "glo": "**son**"
     },
     "word-dom": {
       "name": "dom",
@@ -1417,7 +1580,7 @@
         "card-prep"
       ],
       "phrases": [
-        "phrase-70"
+        "phrase-72"
       ],
       "fulltext": "don dona prep where (body)",
       "writ": "దోఁ",
@@ -1436,7 +1599,7 @@
       "phrases": [
         "phrase-9",
         "phrase-53",
-        "phrase-83"
+        "phrase-85"
       ],
       "fulltext": "dona don prep where (place)",
       "writ": "దోనా",
@@ -1838,16 +2001,17 @@
       "type": "word",
       "noun": "eyes",
       "verb": "to look",
-      "desc": "\n[77](phrase-77)\n\n[78](phrase-78)\n",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Arctic_Fox_1_%2810549184013%29.jpg/400px-Arctic_Fox_1_%2810549184013%29.jpg",
+      "desc": "\n[79](phrase-79)\n\n[80](phrase-80)\n",
       "phrases": [
         "phrase-3",
         "phrase-4",
         "phrase-41",
-        "phrase-73",
-        "phrase-77",
-        "phrase-78"
+        "phrase-75",
+        "phrase-79",
+        "phrase-80"
       ],
-      "fulltext": "fa \n[77](phrase-77)\n\n[78](phrase-78)\n gufa falo fatio yafa yadifa eyes to look",
+      "fulltext": "fa \n[79](phrase-79)\n\n[80](phrase-80)\n gufa falo fatio yafa yadifa eyes to look",
       "writ": "చా",
       "phon": "/fa/",
       "glo": "**eyes**",
@@ -1883,12 +2047,12 @@
         "word-fa",
         "word-lo"
       ],
-      "desc": "\n[79](phrase-79)",
+      "desc": "\n[81](phrase-81)",
       "phrases": [
         "phrase-5",
-        "phrase-79"
+        "phrase-81"
       ],
-      "fulltext": "falo word-fa word-lo \n[79](phrase-79) sadness to be sad",
+      "fulltext": "falo word-fa word-lo \n[81](phrase-81) sadness to be sad",
       "writ": "చాలో",
       "phon": "/falɔ/",
       "glo": "**sadness**"
@@ -1941,11 +2105,11 @@
       "prefix": "on (SUPESS)",
       "verb": "to cover, to be on top",
       "glo": "SUPESS",
-      "desc": "\n[80](phrase-80)\n  ",
+      "desc": "\n[82](phrase-82)\n  ",
       "phrases": [
         "phrase-48"
       ],
-      "fulltext": "fe \n[80](phrase-80)\n   faj feyaj 7 to cover, to be on top on (SUPESS)",
+      "fulltext": "fe \n[82](phrase-82)\n   faj feyaj 7 to cover, to be on top on (SUPESS)",
       "writ": "వే",
       "phon": "/fɛ/",
       "deriv": [
@@ -1996,7 +2160,7 @@
         "phrase-52",
         "phrase-66",
         "phrase-67",
-        "phrase-80"
+        "phrase-82"
       ],
       "fulltext": "nefe to uncover/undress naked",
       "writ": "నేవే",
@@ -2039,7 +2203,7 @@
       "posit": "kneeling",
       "verb": "to walk",
       "phrases": [
-        "phrase-72"
+        "phrase-74"
       ],
       "fulltext": "fen knee to walk kneeling",
       "writ": "చేఁ",
@@ -2154,8 +2318,8 @@
         "phrase-40",
         "phrase-63",
         "phrase-64",
-        "phrase-75",
-        "phrase-76"
+        "phrase-77",
+        "phrase-78"
       ],
       "fulltext": "fo to whip",
       "writ": "చో",
@@ -2298,7 +2462,7 @@
         "word-ga"
       ],
       "phrases": [
-        "phrase-71"
+        "phrase-73"
       ],
       "fulltext": "nega word-ne word-ga fou (sans esprit) de manière folle",
       "writ": "నేగా",
@@ -2315,7 +2479,7 @@
         "word-i"
       ],
       "phrases": [
-        "phrase-73"
+        "phrase-75"
       ],
       "fulltext": "gi word-gu word-i gilapa yagi yaonagi yogi yohonagi doux (expérience caressée) doux",
       "writ": "గి",
@@ -2375,11 +2539,12 @@
       "id": "word-gol",
       "type": "word",
       "adj": "grand",
-      "fulltext": "gol goa gola gawi goda shegul grand",
+      "fulltext": "gol gojida goa gola gawi goda shegul grand",
       "writ": "గోల్‌",
       "phon": "/gɔl/",
       "glo": "**grand**",
       "deriv": [
+        "word-gojida",
         "word-goa",
         "word-gola",
         "word-gawi",
@@ -2598,7 +2763,7 @@
       "phrases": [
         "phrase-3",
         "phrase-41",
-        "phrase-77"
+        "phrase-79"
       ],
       "fulltext": "guwu word-gu word-wu diguwu guwuna to give",
       "writ": "గువు",
@@ -2708,7 +2873,7 @@
         "word-pa"
       ],
       "phrases": [
-        "phrase-70"
+        "phrase-72"
       ],
       "fulltext": "gupa word-gu word-pa nature",
       "writ": "గుపా",
@@ -2723,19 +2888,24 @@
       "adj": "far",
       "prefix": "top or distal",
       "see": [
-        "word-djo"
+        "word-jo"
       ],
-      "fulltext": "ha habaj hadau duha hawe hase noha hama hamun habo djo head far top or distal",
+      "fulltext": "ha habaj hadau hajo joha duha hawe hase noha hada hana hawi hama hamun habo jo head far top or distal",
       "writ": "హా",
       "phon": "/ha/",
       "glo": "**head**",
       "deriv": [
         "word-habaj",
         "word-hadau",
+        "word-hajo",
+        "word-joha",
         "word-duha",
         "word-hawe",
         "word-hase",
         "word-noha",
+        "word-hada",
+        "word-hana",
+        "word-hawi",
         "word-hama",
         "word-hamun",
         "word-habo"
@@ -2752,7 +2922,7 @@
       ],
       "phrases": [
         "phrase-10",
-        "phrase-84"
+        "phrase-86"
       ],
       "fulltext": "duha word-du word-ha face",
       "writ": "దుహా",
@@ -2801,6 +2971,72 @@
       "phon": "/nɔha/",
       "glo": "**occiput (back of the head)**"
     },
+    "word-hada": {
+      "name": "hada",
+      "id": "word-hada",
+      "type": "word",
+      "noun": "parent",
+      "etym": [
+        "word-ha",
+        "word-oda"
+      ],
+      "see": [
+        "card-family"
+      ],
+      "fulltext": "hada word-ha word-oda family parent",
+      "writ": "హాదా",
+      "phon": "/hada/",
+      "glo": "**parent**"
+    },
+    "word-hana": {
+      "name": "hana",
+      "id": "word-hana",
+      "type": "word",
+      "noun": "mother",
+      "etym": [
+        "word-ha",
+        "word-ana"
+      ],
+      "see": [
+        "card-family"
+      ],
+      "fulltext": "hana word-ha word-ana family mother",
+      "writ": "హానా",
+      "phon": "/hana/",
+      "glo": "**mother**"
+    },
+    "word-hawi": {
+      "name": "hawi",
+      "id": "word-hawi",
+      "type": "word",
+      "noun": "enby parent",
+      "etym": [
+        "word-ha",
+        "word-iwi"
+      ],
+      "see": [
+        "card-family"
+      ],
+      "fulltext": "hawi word-ha word-iwi family enby parent",
+      "writ": "హావి",
+      "phon": "/hawi/",
+      "glo": "**enby parent**"
+    },
+    "word-hato": {
+      "name": "hato",
+      "id": "word-hato",
+      "type": "word",
+      "noun": "father",
+      "see": [
+        "word-duto",
+        "word-noto",
+        "word-ha"
+      ],
+      "fulltext": "hato duto noto ha father",
+      "writ": "హాతో",
+      "phon": "/hatɔ/",
+      "glo": "**father**"
+    },
     "word-hal": {
       "name": "hal",
       "id": "word-hal",
@@ -2839,8 +3075,8 @@
       "type": "word",
       "adj": "offered",
       "suffix": "offered",
-      "desc": "\nImportant compliment which means \"I see what you are offering to me\".\n\nFor example: [81](phrase-81)\n",
-      "fulltext": "hem \nImportant compliment which means \"I see what you are offering to me\".\n\nFor example: [81](phrase-81)\n offered offered",
+      "desc": "\nImportant compliment which means \"I see what you are offering to me\".\n\nFor example: [83](phrase-83)\n",
+      "fulltext": "hem \nImportant compliment which means \"I see what you are offering to me\".\n\nFor example: [83](phrase-83)\n offered offered",
       "writ": "ఠేmx",
       "phon": "/hɛm/",
       "glo": "**offered**"
@@ -2850,12 +3086,16 @@
       "id": "word-him",
       "type": "word",
       "verb": "to grow",
-      "fulltext": "him mahim to grow",
+      "fulltext": "him mahim hida hina hiwi hito to grow",
       "writ": "హిం",
       "phon": "/him/",
       "glo": "**to grow**",
       "deriv": [
-        "word-mahim"
+        "word-mahim",
+        "word-hida",
+        "word-hina",
+        "word-hiwi",
+        "word-hito"
       ]
     },
     "word-yuhim": {
@@ -3038,12 +3278,14 @@
       "name": "ina",
       "id": "word-ina",
       "type": "word",
-      "noun": "plante",
-      "fulltext": "ina egina plante",
+      "noun": "plant",
+      "suffix": "plant",
+      "fulltext": "ina bisahina egina plant plant",
       "writ": "ఇనా",
       "phon": "/ina/",
-      "glo": "**plante**",
+      "glo": "**plant**",
       "deriv": [
+        "word-bisahina",
         "word-egina"
       ]
     },
@@ -3076,12 +3318,12 @@
         "phrase-25",
         "phrase-26"
       ],
-      "fulltext": "ipi dji 10",
+      "fulltext": "ipi ji 10",
       "writ": "ఇపి",
       "phon": "/ipi/",
       "glo": "**10**",
       "deriv": [
-        "word-dji"
+        "word-ji"
       ]
     },
     "word-ipu": {
@@ -3121,17 +3363,20 @@
         "word-ana",
         "word-oto"
       ],
-      "fulltext": "iwi aniwi duwi iwiu iwigui miwi nowi otiwi iwa ana oto bird enby",
+      "fulltext": "iwi aniwi jowi duwi hawi iwiu iwigui miwi nowi hiwi otiwi iwa ana oto bird enby",
       "writ": "ఇవి",
       "phon": "/iwi/",
       "glo": "**bird**",
       "deriv": [
         "word-aniwi",
+        "word-jowi",
         "word-duwi",
+        "word-hawi",
         "word-iwiu",
         "word-iwigui",
         "word-miwi",
         "word-nowi",
+        "word-hiwi",
         "word-otiwi",
         "word-iwa"
       ]
@@ -3235,42 +3480,42 @@
       "phon": "/dʒɛfi/",
       "glo": "**caring**"
     },
-    "word-jo": {
-      "name": "jo",
-      "id": "word-jo",
+    "word-deso": {
+      "name": "deso",
+      "id": "word-deso",
       "type": "word",
-      "noun": "éponge",
-      "fulltext": "jo joyon éponge",
-      "writ": "జో",
-      "phon": "/dʒɔ/",
-      "glo": "**éponge**",
+      "noun": "sponge",
+      "fulltext": "deso desoyon sponge",
+      "writ": "దేసో",
+      "phon": "/dɛsɔ/",
+      "glo": "**sponge**",
       "deriv": [
-        "word-joyon"
+        "word-desoyon"
       ]
     },
-    "word-joyon": {
-      "name": "joyon",
-      "id": "word-joyon",
+    "word-desoyon": {
+      "name": "desoyon",
+      "id": "word-desoyon",
       "type": "word",
-      "noun": "corps spongieux du clitoris",
+      "noun": "spongy clitoral body",
       "etym": [
-        "word-jo",
+        "word-deso",
         "word-yon"
       ],
-      "fulltext": "joyon word-jo word-yon corps spongieux du clitoris",
-      "writ": "జోయోఁ",
-      "phon": "/dʒɔjɔn/",
-      "glo": "**corps spongieux du clitoris**"
+      "fulltext": "desoyon word-deso word-yon spongy clitoral body",
+      "writ": "దేసోయోఁ",
+      "phon": "/dɛsɔjɔn/",
+      "glo": "**spongy clitoral body**"
     },
-    "word-jotaj": {
-      "name": "jotaj",
-      "id": "word-jotaj",
+    "word-desotaj": {
+      "name": "desotaj",
+      "id": "word-desotaj",
       "type": "word",
-      "noun": "corps spongieux du pénis",
-      "fulltext": "jotaj corps spongieux du pénis",
-      "writ": "జోతాజ్‌",
-      "phon": "/dʒɔtaʒ/",
-      "glo": "**corps spongieux du pénis**"
+      "noun": "spongy penis body",
+      "fulltext": "desotaj spongy penis body",
+      "writ": "దేసోతాజ్‌",
+      "phon": "/dɛsɔtaʒ/",
+      "glo": "**spongy penis body**"
     },
     "word-jom": {
       "name": "jom",
@@ -3288,7 +3533,7 @@
       "type": "word",
       "noun": "forest",
       "phrases": [
-        "phrase-72"
+        "phrase-74"
       ],
       "fulltext": "jana forest",
       "writ": "జానా",
@@ -3531,7 +3776,7 @@
         "card-prep"
       ],
       "phrases": [
-        "phrase-73"
+        "phrase-75"
       ],
       "fulltext": "ko prep with",
       "writ": "కో",
@@ -3774,7 +4019,7 @@
         "word-na"
       ],
       "phrases": [
-        "phrase-72"
+        "phrase-74"
       ],
       "fulltext": "lana word-la word-na speech",
       "writ": "లానా",
@@ -3787,7 +4032,7 @@
       "type": "word",
       "pron": "elle/il/elle.s/ils/eux",
       "phrases": [
-        "phrase-73"
+        "phrase-75"
       ],
       "fulltext": "lae elle/il/elle.s/ils/eux",
       "writ": "లాఎ",
@@ -3836,7 +4081,7 @@
       "noun": "tears",
       "phrases": [
         "phrase-10",
-        "phrase-84"
+        "phrase-86"
       ],
       "fulltext": "falame tears",
       "writ": "చాలామే",
@@ -4174,6 +4419,7 @@
       "id": "word-lipaya",
       "type": "word",
       "noun": "wolf",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Adara_%28Canis_lupus%29.jpg/300px-Adara_%28Canis_lupus%29.jpg",
       "etym": [
         "word-lipa",
         "word-ya"
@@ -4275,7 +4521,7 @@
         "card-nanes"
       ],
       "phrases": [
-        "phrase-74"
+        "phrase-76"
       ],
       "fulltext": "nelil ganes nanes confusion to confound insecure",
       "writ": "నేలిల్‌",
@@ -4481,7 +4727,7 @@
         "phrase-48",
         "phrase-58",
         "phrase-59",
-        "phrase-78"
+        "phrase-80"
       ],
       "fulltext": "ma mahim hama djoma nema mu malam masa mi mo hand to take, to hold",
       "writ": "మా",
@@ -4522,10 +4768,10 @@
       "type": "word",
       "noun": "wrist",
       "etym": [
-        "word-djo",
+        "word-jo",
         "word-ma"
       ],
-      "fulltext": "djoma word-djo word-ma wrist",
+      "fulltext": "djoma word-jo word-ma wrist",
       "writ": "dజోమా",
       "phon": "/ddʒɔma/",
       "glo": "**wrist**"
@@ -4561,9 +4807,12 @@
       "phrases": [
         "phrase-56"
       ],
-      "fulltext": "mu word-ma word-u mi mo to pull",
+      "fulltext": "mu word-ma word-u muhajo mi mo to pull",
       "writ": "ము",
-      "phon": "/mu/"
+      "phon": "/mu/",
+      "deriv": [
+        "word-muhajo"
+      ]
     },
     "word-malam": {
       "name": "malam",
@@ -4693,7 +4942,7 @@
         "card-prep"
       ],
       "phrases": [
-        "phrase-72"
+        "phrase-74"
       ],
       "fulltext": "lom prep of (made of)",
       "writ": "లోంx",
@@ -4724,7 +4973,7 @@
         "word-mo",
         "word-mu"
       ],
-      "desc": "[82](phrase-82)",
+      "desc": "[84](phrase-84)",
       "phrases": [
         "phrase-8",
         "phrase-45",
@@ -4735,9 +4984,9 @@
         "phrase-53",
         "phrase-54",
         "phrase-55",
-        "phrase-82"
+        "phrase-84"
       ],
-      "fulltext": "mi word-ma word-i [82](phrase-82) lami miwi mo mu to caress",
+      "fulltext": "mi word-ma word-i [84](phrase-84) lami miwi mo mu to caress",
       "writ": "మి",
       "phon": "/mi/",
       "deriv": [
@@ -4951,7 +5200,7 @@
         "word-el"
       ],
       "phrases": [
-        "phrase-70"
+        "phrase-72"
       ],
       "fulltext": "namel word-nam word-el bâton (bois droit)",
       "writ": "నామేల్‌",
@@ -5198,10 +5447,10 @@
       "type": "word",
       "noun": "lower back",
       "etym": [
-        "word-djo",
+        "word-jo",
         "word-nopi"
       ],
-      "fulltext": "djonopi word-djo word-nopi lower back",
+      "fulltext": "djonopi word-jo word-nopi lower back",
       "writ": "dజోనోపి",
       "phon": "/ddʒɔnɔpi/",
       "glo": "**lower back**"
@@ -5352,10 +5601,10 @@
       "type": "word",
       "noun": "pubis",
       "etym": [
-        "word-djo",
+        "word-jo",
         "word-bo"
       ],
-      "fulltext": "obo word-djo word-bo pubis",
+      "fulltext": "obo word-jo word-bo pubis",
       "writ": "ఓబో",
       "phon": "/ɔbɔ/",
       "glo": "**pubis**"
@@ -5411,10 +5660,10 @@
         "phrase-47",
         "phrase-63",
         "phrase-64",
-        "phrase-70",
-        "phrase-81"
+        "phrase-72",
+        "phrase-83"
       ],
-      "fulltext": "oda ada doda anoda deda joda goda ida odin kada kaya koda keda kuoda kelo lamioda loda neoda noda yoda keoda yosa odei odo odu otoda peda pida piyida samoda shada shida shoda uloda yada yida ayida to oya pronouns body, place of life alive animal me/us",
+      "fulltext": "oda ada doda anoda deda gojida joda goda hada ida odin kada kaya koda keda kuoda kelo lamioda loda neoda noda yoda keoda yosa odei hida hina odo odu otoda peda pida piyida samoda shada shida shoda uloda yada yida ayida to oya pronouns body, place of life alive animal me/us",
       "writ": "ఓదా",
       "phon": "/ɔda/",
       "deriv": [
@@ -5422,8 +5671,10 @@
         "word-doda",
         "word-anoda",
         "word-deda",
+        "word-gojida",
         "word-joda",
         "word-goda",
+        "word-hada",
         "word-ida",
         "word-odin",
         "word-kada",
@@ -5440,6 +5691,8 @@
         "word-keoda",
         "word-yosa",
         "word-odei",
+        "word-hida",
+        "word-hina",
         "word-odo",
         "word-odu",
         "word-otoda",
@@ -5498,7 +5751,7 @@
         "word-oda"
       ],
       "phrases": [
-        "phrase-72"
+        "phrase-74"
       ],
       "fulltext": "yosa word-yo word-oda person",
       "writ": "యోసా",
@@ -5541,6 +5794,74 @@
       "writ": "యాదేఇ",
       "phon": "/jadɛi/"
     },
+    "word-hida": {
+      "name": "hida",
+      "id": "word-hida",
+      "type": "word",
+      "noun": "sibling",
+      "etym": [
+        "word-him",
+        "word-oda"
+      ],
+      "see": [
+        "card-family"
+      ],
+      "fulltext": "hida word-him word-oda family sibling",
+      "writ": "ఠిదా",
+      "phon": "/hida/",
+      "glo": "**sibling**"
+    },
+    "word-hina": {
+      "name": "hina",
+      "id": "word-hina",
+      "type": "word",
+      "noun": "sister",
+      "etym": [
+        "word-him",
+        "word-oda"
+      ],
+      "see": [
+        "card-family"
+      ],
+      "fulltext": "hina word-him word-oda family sister",
+      "writ": "ఠినా",
+      "phon": "/hina/",
+      "glo": "**sister**"
+    },
+    "word-hiwi": {
+      "name": "hiwi",
+      "id": "word-hiwi",
+      "type": "word",
+      "noun": "enby sibling",
+      "etym": [
+        "word-him",
+        "word-iwi"
+      ],
+      "see": [
+        "card-family"
+      ],
+      "fulltext": "hiwi word-him word-iwi family enby sibling",
+      "writ": "ఠివి",
+      "phon": "/hiwi/",
+      "glo": "**enby sibling**"
+    },
+    "word-hito": {
+      "name": "hito",
+      "id": "word-hito",
+      "type": "word",
+      "noun": "brother",
+      "etym": [
+        "word-him",
+        "word-oto"
+      ],
+      "see": [
+        "card-family"
+      ],
+      "fulltext": "hito word-him word-oto family brother",
+      "writ": "ఠితో",
+      "phon": "/hitɔ/",
+      "glo": "**brother**"
+    },
     "word-odo": {
       "name": "odo",
       "id": "word-odo",
@@ -5572,12 +5893,12 @@
         "word-odo",
         "word-dao"
       ],
-      "desc": "\n[83](phrase-83)\n  ",
+      "desc": "\n[85](phrase-85)\n  ",
       "phrases": [
         "phrase-9",
-        "phrase-83"
+        "phrase-85"
       ],
-      "fulltext": "odu word-oda word-u \n[83](phrase-83)\n   odo dao to come",
+      "fulltext": "odu word-oda word-u \n[85](phrase-85)\n   odo dao to come",
       "writ": "ఓదు",
       "phon": "/ɔdu/",
       "glo": "**to come**"
@@ -5587,12 +5908,12 @@
       "id": "word-ojo",
       "type": "word",
       "adj": "centre",
-      "fulltext": "ojo djo centre",
+      "fulltext": "ojo jo centre",
       "writ": "ఓజో",
       "phon": "/ɔdʒɔ/",
       "glo": "**centre**",
       "deriv": [
-        "word-djo"
+        "word-jo"
       ]
     },
     "word-om": {
@@ -5739,14 +6060,16 @@
       "type": "word",
       "noun": "wind",
       "adj": "masculine",
-      "fulltext": "oto anoto duto noto otoda otana otiwi wind masculine",
+      "fulltext": "oto anoto joto duto noto hito otoda otana otiwi wind masculine",
       "writ": "ఓతో",
       "phon": "/ɔtɔ/",
       "glo": "**wind**",
       "deriv": [
         "word-anoto",
+        "word-joto",
         "word-duto",
         "word-noto",
+        "word-hito",
         "word-otoda",
         "word-otana",
         "word-otiwi"
@@ -5863,8 +6186,8 @@
         "phrase-39",
         "phrase-40",
         "phrase-57",
-        "phrase-75",
-        "phrase-76"
+        "phrase-77",
+        "phrase-78"
       ],
       "fulltext": "pal palaj kepal butt",
       "writ": "పాల్‌",
@@ -6107,13 +6430,13 @@
       "phrases": [
         "phrase-13"
       ],
-      "fulltext": "pi Opposé de [pa](word-pa). ajapi dji nopi pida papi pipa pienu aupi gupi piya I (1SG) 1, self debout ici, origine",
+      "fulltext": "pi Opposé de [pa](word-pa). ajapi ji nopi pida papi pipa pienu aupi gupi piya I (1SG) 1, self debout ici, origine",
       "writ": "పి",
       "phon": "/pi/",
       "glo": "**I (1SG)**",
       "deriv": [
         "word-ajapi",
-        "word-dji",
+        "word-ji",
         "word-nopi",
         "word-pida",
         "word-papi",
@@ -6740,7 +7063,7 @@
       "noun": "hip",
       "conj": "they (3PL)",
       "phrases": [
-        "phrase-73"
+        "phrase-75"
       ],
       "fulltext": "sha shada shaya sham shasha shana they (3PL) hip",
       "writ": "షా",
@@ -7096,7 +7419,7 @@
         "word-esi"
       ],
       "phrases": [
-        "phrase-74"
+        "phrase-76"
       ],
       "fulltext": "si sienu sigu esi prep esi like like, as if",
       "writ": "సి",
@@ -7531,8 +7854,8 @@
         "word-ten"
       ],
       "phrases": [
-        "phrase-70",
-        "phrase-72"
+        "phrase-72",
+        "phrase-74"
       ],
       "fulltext": "tu Express a reference to a previously mentioned noun. ten lae",
       "writ": "తు",
@@ -7573,12 +7896,12 @@
       "id": "word-uba",
       "type": "word",
       "verb": "run down",
-      "desc": "\n[84](phrase-84)",
+      "desc": "\n[86](phrase-86)",
       "phrases": [
         "phrase-10",
-        "phrase-84"
+        "phrase-86"
       ],
-      "fulltext": "uba \n[84](phrase-84) run down",
+      "fulltext": "uba \n[86](phrase-86) run down",
       "writ": "ఉబా",
       "phon": "/uba/",
       "glo": "**run down**"
@@ -8207,13 +8530,13 @@
       "phrases": [
         "phrase-12"
       ],
-      "fulltext": "yon word-yu word-on yoneri joyon yoda wiyon riyon royon yonin yonegi keyon vulva",
+      "fulltext": "yon word-yu word-on yoneri desoyon yoda wiyon riyon royon yonin yonegi keyon vulva",
       "writ": "యోఁ",
       "phon": "/jɔn/",
       "glo": "**vulva**",
       "deriv": [
         "word-yoneri",
-        "word-joyon",
+        "word-desoyon",
         "word-yoda",
         "word-wiyon",
         "word-riyon",
@@ -8370,7 +8693,7 @@
         "phrase-49",
         "phrase-52",
         "phrase-69",
-        "phrase-80"
+        "phrase-82"
       ],
       "fulltext": "zu zuzu au heart to love",
       "writ": "ఠు",
@@ -8435,8 +8758,8 @@
       "see": [
         "card-ganes"
       ],
-      "desc": "\nHere are the number from 1 to 10:\n\n* [dji](word-dji) (10 / ౧౦)\n* [da](word-da) (9 / ౯)\n* [je](word-je) (8 / ౮)\n* [fe](word-fe) (7 / ౭)\n* [shi](word-shi) (6 / ౬)\n* [lil](word-lil) (5 / ౫)\n* [ka](word-ka) (4 / ౪)\n* [pe](word-pe) (3 / ౩)\n* [de](word-de) (2 / ౨)\n* [pi](word-pi) (1 / ౧)\n\nThe powers of ten:\n\n* [ipi](word-ipi) (10)\n* [ipa](word-ipa) (100)\n* [ipu](word-ipu) (1000).\n\n## Some examples:\n\n* [13](phrase-13)\n* or [14](phrase-14)\n* or [15](phrase-15)\n* [16](phrase-16)\n* [17](phrase-17)\n* [18](phrase-18)\n* [19](phrase-19)\n\n## Big numbers !\n\n* 1000^2: [20](phrase-20)\n* 1000^3: [21](phrase-21)\n* 1000^4: [22](phrase-22)\n\nWe can also express powers of ten [23](phrase-23).\n\n## Small numbers\n\n* 10^-1: [24](phrase-24)\n* 10^-2: [25](phrase-25)\n* 10^-3: [26](phrase-26)\n",
-      "fulltext": "count \nHere are the number from 1 to 10:\n\n* [dji](word-dji) (10 / ౧౦)\n* [da](word-da) (9 / ౯)\n* [je](word-je) (8 / ౮)\n* [fe](word-fe) (7 / ౭)\n* [shi](word-shi) (6 / ౬)\n* [lil](word-lil) (5 / ౫)\n* [ka](word-ka) (4 / ౪)\n* [pe](word-pe) (3 / ౩)\n* [de](word-de) (2 / ౨)\n* [pi](word-pi) (1 / ౧)\n\nThe powers of ten:\n\n* [ipi](word-ipi) (10)\n* [ipa](word-ipa) (100)\n* [ipu](word-ipu) (1000).\n\n## Some examples:\n\n* [13](phrase-13)\n* or [14](phrase-14)\n* or [15](phrase-15)\n* [16](phrase-16)\n* [17](phrase-17)\n* [18](phrase-18)\n* [19](phrase-19)\n\n## Big numbers !\n\n* 1000^2: [20](phrase-20)\n* 1000^3: [21](phrase-21)\n* 1000^4: [22](phrase-22)\n\nWe can also express powers of ten [23](phrase-23).\n\n## Small numbers\n\n* 10^-1: [24](phrase-24)\n* 10^-2: [25](phrase-25)\n* 10^-3: [26](phrase-26)\n ganes numbers and counting",
+      "desc": "\nHere are the number from 1 to 10:\n\n* [ji](word-ji) (10 / ౧౦)\n* [da](word-da) (9 / ౯)\n* [je](word-je) (8 / ౮)\n* [fe](word-fe) (7 / ౭)\n* [shi](word-shi) (6 / ౬)\n* [lil](word-lil) (5 / ౫)\n* [ka](word-ka) (4 / ౪)\n* [pe](word-pe) (3 / ౩)\n* [de](word-de) (2 / ౨)\n* [pi](word-pi) (1 / ౧)\n\nThe powers of ten:\n\n* [ipi](word-ipi) (10)\n* [ipa](word-ipa) (100)\n* [ipu](word-ipu) (1000).\n\n## Some examples:\n\n* [13](phrase-13)\n* or [14](phrase-14)\n* or [15](phrase-15)\n* [16](phrase-16)\n* [17](phrase-17)\n* [18](phrase-18)\n* [19](phrase-19)\n\n## Big numbers !\n\n* 1000^2: [20](phrase-20)\n* 1000^3: [21](phrase-21)\n* 1000^4: [22](phrase-22)\n\nWe can also express powers of ten [23](phrase-23).\n\n## Small numbers\n\n* 10^-1: [24](phrase-24)\n* 10^-2: [25](phrase-25)\n* 10^-3: [26](phrase-26)\n",
+      "fulltext": "count \nHere are the number from 1 to 10:\n\n* [ji](word-ji) (10 / ౧౦)\n* [da](word-da) (9 / ౯)\n* [je](word-je) (8 / ౮)\n* [fe](word-fe) (7 / ౭)\n* [shi](word-shi) (6 / ౬)\n* [lil](word-lil) (5 / ౫)\n* [ka](word-ka) (4 / ౪)\n* [pe](word-pe) (3 / ౩)\n* [de](word-de) (2 / ౨)\n* [pi](word-pi) (1 / ౧)\n\nThe powers of ten:\n\n* [ipi](word-ipi) (10)\n* [ipa](word-ipa) (100)\n* [ipu](word-ipu) (1000).\n\n## Some examples:\n\n* [13](phrase-13)\n* or [14](phrase-14)\n* or [15](phrase-15)\n* [16](phrase-16)\n* [17](phrase-17)\n* [18](phrase-18)\n* [19](phrase-19)\n\n## Big numbers !\n\n* 1000^2: [20](phrase-20)\n* 1000^3: [21](phrase-21)\n* 1000^4: [22](phrase-22)\n\nWe can also express powers of ten [23](phrase-23).\n\n## Small numbers\n\n* 10^-1: [24](phrase-24)\n* 10^-2: [25](phrase-25)\n* 10^-3: [26](phrase-26)\n ganes numbers and counting",
       "glo": "**numbers and counting**"
     },
     "card-fruits": {
@@ -8472,8 +8795,8 @@
         "word-nepa",
         "card-count"
       ],
-      "desc": "\nThis theme is part of [gana](word-gana) mythology and world-view.\n\n# The scale [ga](word-ga)\n\nThese states correspond to increasing intensity of [ga](word-ga) and if they are\nnot balanced by increasing practicality and material humility [na](word-na),\nthey are just other names for hubris or psychosis.\n\nHere is a map of the relation between [gu](word-gu), [ga](word-ga), [nu](word-nu) and [na](word-na).\n\n~~~\nga                 gana\n                  .\n                .\n              .\nganes       .\n          .\n        .\ngu    .\n    .\ngunu  nu    nanes    na\n~~~\n\nThe `.` diagonal between gunu and gana represent **integration**. Distances\nfrom this diagonal represent some level of psychosis (above) or dissociation\n(below).\n\nAs you can see, the only way to escape the terror of [gunu](word-gunu) is to reach\n[gana](word-gana) (earth), not [guna](word-guna) (dissociation, robot) nor [ganu](word-ganu) (psychosis, god-child).\n\nIn reality, [gunu](word-gunu) and [gana](word-gana) are folded together and are the same\nthing. The growth of the spirit is just a way to come back to the childhood\nof the spirit. It is the same but it is not the same, like looking at\nyour loved one with or without alzheimer. The loved one is the same but\nthe experience is not.\n\n## The euphoric states\n\nThese need to be balanced with their equivalent [nanes](card-nanes) states.\n\n* 10 [djipa](word-djipa) (remembering being god.des) <=> [djifi](word-djifi) (humble)\n* 9 [dapa](word-dapa) (joy) <=> [dafi](word-dafi) (serving)\n* 8 [jepa](word-jepa) (belonging) <=> [jefi](word-jefi) (caring)\n* 7 [fepa](word-fepa) (pride) <=> [fefi](word-fefi) (adapting)\n* 6 [shipa](word-shipa) (believing) <=> [shifi](word-shifi) (learning)\n\n## The \"territorial\" states.\n\nFrom here, the states are more difficult. These states are shared on both\n[ganes](card-ganes) and [nanes](card-nanes) scales.\n\n* 5 [nelil](word-nelil) (confusion/insecure)\n* 4 [neka](word-neka) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n",
-      "fulltext": "ganes \nThis theme is part of [gana](word-gana) mythology and world-view.\n\n# The scale [ga](word-ga)\n\nThese states correspond to increasing intensity of [ga](word-ga) and if they are\nnot balanced by increasing practicality and material humility [na](word-na),\nthey are just other names for hubris or psychosis.\n\nHere is a map of the relation between [gu](word-gu), [ga](word-ga), [nu](word-nu) and [na](word-na).\n\n~~~\nga                 gana\n                  .\n                .\n              .\nganes       .\n          .\n        .\ngu    .\n    .\ngunu  nu    nanes    na\n~~~\n\nThe `.` diagonal between gunu and gana represent **integration**. Distances\nfrom this diagonal represent some level of psychosis (above) or dissociation\n(below).\n\nAs you can see, the only way to escape the terror of [gunu](word-gunu) is to reach\n[gana](word-gana) (earth), not [guna](word-guna) (dissociation, robot) nor [ganu](word-ganu) (psychosis, god-child).\n\nIn reality, [gunu](word-gunu) and [gana](word-gana) are folded together and are the same\nthing. The growth of the spirit is just a way to come back to the childhood\nof the spirit. It is the same but it is not the same, like looking at\nyour loved one with or without alzheimer. The loved one is the same but\nthe experience is not.\n\n## The euphoric states\n\nThese need to be balanced with their equivalent [nanes](card-nanes) states.\n\n* 10 [djipa](word-djipa) (remembering being god.des) <=> [djifi](word-djifi) (humble)\n* 9 [dapa](word-dapa) (joy) <=> [dafi](word-dafi) (serving)\n* 8 [jepa](word-jepa) (belonging) <=> [jefi](word-jefi) (caring)\n* 7 [fepa](word-fepa) (pride) <=> [fefi](word-fefi) (adapting)\n* 6 [shipa](word-shipa) (believing) <=> [shifi](word-shifi) (learning)\n\n## The \"territorial\" states.\n\nFrom here, the states are more difficult. These states are shared on both\n[ganes](card-ganes) and [nanes](card-nanes) scales.\n\n* 5 [nelil](word-nelil) (confusion/insecure)\n* 4 [neka](word-neka) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n nanes nepa count scale of ga states of consciousness",
+      "desc": "\nThis theme is part of [gana](word-gana) mythology and world-view.\n\n# The scale [ga](word-ga)\n\nThese states correspond to increasing intensity of [ga](word-ga) and if they are\nnot balanced by increasing practicality and material humility [na](word-na),\nthey are just other names for hubris or psychosis.\n\nHere is a map of the relation between [gu](word-gu), [ga](word-ga), [nu](word-nu) and [na](word-na).\n\n~~~\nga                 gana\n                  .\n                .\n              .\nganes       .\n          .\n        .\ngu    .\n    .\ngunu  nu    nanes    na\n~~~\n\nThe `.` diagonal between gunu and gana represent **integration**. Distances\nfrom this diagonal represent some level of psychosis (above) or dissociation\n(below).\n\nAs you can see, the only way to escape the terror of [gunu](word-gunu) is to reach\n[gana](word-gana) (earth), not [guna](word-guna) (dissociation, robot) nor [ganu](word-ganu) (psychosis, god-child).\n\nIn reality, [gunu](word-gunu) and [gana](word-gana) are folded together and are the same\nthing. The growth of the spirit is just a way to come back to the childhood\nof the spirit. It is the same but it is not the same, like looking at\nyour loved one with or without alzheimer. The loved one is the same but\nthe experience is not.\n\n## The euphoric states\n\nThese need to be balanced with their equivalent [nanes](card-nanes) states.\n\n* 10 [jipa](word-jipa) (remembering being god.des) <=> [jifi](word-jifi) (humble)\n* 9 [dapa](word-dapa) (joy) <=> [dafi](word-dafi) (serving)\n* 8 [jepa](word-jepa) (belonging) <=> [jefi](word-jefi) (caring)\n* 7 [fepa](word-fepa) (pride) <=> [fefi](word-fefi) (adapting)\n* 6 [shipa](word-shipa) (believing) <=> [shifi](word-shifi) (learning)\n\n## The \"territorial\" states.\n\nFrom here, the states are more difficult. These states are shared on both\n[ganes](card-ganes) and [nanes](card-nanes) scales.\n\n* 5 [nelil](word-nelil) (confusion/insecure)\n* 4 [neka](word-neka) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n",
+      "fulltext": "ganes \nThis theme is part of [gana](word-gana) mythology and world-view.\n\n# The scale [ga](word-ga)\n\nThese states correspond to increasing intensity of [ga](word-ga) and if they are\nnot balanced by increasing practicality and material humility [na](word-na),\nthey are just other names for hubris or psychosis.\n\nHere is a map of the relation between [gu](word-gu), [ga](word-ga), [nu](word-nu) and [na](word-na).\n\n~~~\nga                 gana\n                  .\n                .\n              .\nganes       .\n          .\n        .\ngu    .\n    .\ngunu  nu    nanes    na\n~~~\n\nThe `.` diagonal between gunu and gana represent **integration**. Distances\nfrom this diagonal represent some level of psychosis (above) or dissociation\n(below).\n\nAs you can see, the only way to escape the terror of [gunu](word-gunu) is to reach\n[gana](word-gana) (earth), not [guna](word-guna) (dissociation, robot) nor [ganu](word-ganu) (psychosis, god-child).\n\nIn reality, [gunu](word-gunu) and [gana](word-gana) are folded together and are the same\nthing. The growth of the spirit is just a way to come back to the childhood\nof the spirit. It is the same but it is not the same, like looking at\nyour loved one with or without alzheimer. The loved one is the same but\nthe experience is not.\n\n## The euphoric states\n\nThese need to be balanced with their equivalent [nanes](card-nanes) states.\n\n* 10 [jipa](word-jipa) (remembering being god.des) <=> [jifi](word-jifi) (humble)\n* 9 [dapa](word-dapa) (joy) <=> [dafi](word-dafi) (serving)\n* 8 [jepa](word-jepa) (belonging) <=> [jefi](word-jefi) (caring)\n* 7 [fepa](word-fepa) (pride) <=> [fefi](word-fefi) (adapting)\n* 6 [shipa](word-shipa) (believing) <=> [shifi](word-shifi) (learning)\n\n## The \"territorial\" states.\n\nFrom here, the states are more difficult. These states are shared on both\n[ganes](card-ganes) and [nanes](card-nanes) scales.\n\n* 5 [nelil](word-nelil) (confusion/insecure)\n* 4 [neka](word-neka) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n nanes nepa count scale of ga states of consciousness",
       "writ": "గానేస్‌",
       "phon": "/ganɛs/",
       "glo": "**scale of ga**"
@@ -8576,19 +8899,41 @@
         "card-ganes",
         "card-count"
       ],
-      "desc": "\n# The scale of mastering [na](word-na)\n\nThese states correspond to increasing levels of humility and practicality\nwithin [na](word-na), the material, practical world. If these increasing levels\nof mastery are not balanced by [ga](word-ga), they are just other names for the\nmachine.\n\nSee [ganes](card-ganes) for some explanation on the relation between [ga](word-ga), [na](word-na),\n[gu](word-gu) and [nu](word-nu).\n\n## The \"flowing\" states\n\nThese are the difficult (pragmatic) states that need to be cultivated to\nbalance their equivalent [ganes](card-ganes) (poetic) states.\n\nOn their own they can feel dreadful if not enlightenend by some purpose given\nby the poetic states. Balancing serves both ways.\n\n* 10 [djifi](word-djifi) (humble) <=> [djipa](word-djipa) (remembering being god.dess)\n* 9 [dafi](word-dafi) (serving) <=> [dapa](word-dapa) (joy)\n* 8 [jefi](word-jefi) (caring) <=> [jepa](word-jepa) (belonging)\n* 7 [fefi](word-fefi) (adapting) <=> [fepa](word-fepa) (pride)\n* 6 [shifi](word-shifi) (learning) <=> [shipa](word-shipa) (believing)\n\n## The \"territorial\" states\n\nThese states are the same as the ones on the spirit scale [ganes](card-ganes).\n\n* 5 [nelil](word-nelil) (confusion/insecure)\n* 4 [neka](word-neka) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n",
-      "fulltext": "nanes \n# The scale of mastering [na](word-na)\n\nThese states correspond to increasing levels of humility and practicality\nwithin [na](word-na), the material, practical world. If these increasing levels\nof mastery are not balanced by [ga](word-ga), they are just other names for the\nmachine.\n\nSee [ganes](card-ganes) for some explanation on the relation between [ga](word-ga), [na](word-na),\n[gu](word-gu) and [nu](word-nu).\n\n## The \"flowing\" states\n\nThese are the difficult (pragmatic) states that need to be cultivated to\nbalance their equivalent [ganes](card-ganes) (poetic) states.\n\nOn their own they can feel dreadful if not enlightenend by some purpose given\nby the poetic states. Balancing serves both ways.\n\n* 10 [djifi](word-djifi) (humble) <=> [djipa](word-djipa) (remembering being god.dess)\n* 9 [dafi](word-dafi) (serving) <=> [dapa](word-dapa) (joy)\n* 8 [jefi](word-jefi) (caring) <=> [jepa](word-jepa) (belonging)\n* 7 [fefi](word-fefi) (adapting) <=> [fepa](word-fepa) (pride)\n* 6 [shifi](word-shifi) (learning) <=> [shipa](word-shipa) (believing)\n\n## The \"territorial\" states\n\nThese states are the same as the ones on the spirit scale [ganes](card-ganes).\n\n* 5 [nelil](word-nelil) (confusion/insecure)\n* 4 [neka](word-neka) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n ganes count scale of na states of practicality",
+      "desc": "\n# The scale of mastering [na](word-na)\n\nThese states correspond to increasing levels of humility and practicality\nwithin [na](word-na), the material, practical world. If these increasing levels\nof mastery are not balanced by [ga](word-ga), they are just other names for the\nmachine.\n\nSee [ganes](card-ganes) for some explanation on the relation between [ga](word-ga), [na](word-na),\n[gu](word-gu) and [nu](word-nu).\n\n## The \"flowing\" states\n\nThese are the difficult (pragmatic) states that need to be cultivated to\nbalance their equivalent [ganes](card-ganes) (poetic) states.\n\nOn their own they can feel dreadful if not enlightenend by some purpose given\nby the poetic states. Balancing serves both ways.\n\n* 10 [jifi](word-jifi) (humble) <=> [jipa](word-jipa) (remembering being god.dess)\n* 9 [dafi](word-dafi) (serving) <=> [dapa](word-dapa) (joy)\n* 8 [jefi](word-jefi) (caring) <=> [jepa](word-jepa) (belonging)\n* 7 [fefi](word-fefi) (adapting) <=> [fepa](word-fepa) (pride)\n* 6 [shifi](word-shifi) (learning) <=> [shipa](word-shipa) (believing)\n\n## The \"territorial\" states\n\nThese states are the same as the ones on the spirit scale [ganes](card-ganes).\n\n* 5 [nelil](word-nelil) (confusion/insecure)\n* 4 [neka](word-neka) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n",
+      "fulltext": "nanes \n# The scale of mastering [na](word-na)\n\nThese states correspond to increasing levels of humility and practicality\nwithin [na](word-na), the material, practical world. If these increasing levels\nof mastery are not balanced by [ga](word-ga), they are just other names for the\nmachine.\n\nSee [ganes](card-ganes) for some explanation on the relation between [ga](word-ga), [na](word-na),\n[gu](word-gu) and [nu](word-nu).\n\n## The \"flowing\" states\n\nThese are the difficult (pragmatic) states that need to be cultivated to\nbalance their equivalent [ganes](card-ganes) (poetic) states.\n\nOn their own they can feel dreadful if not enlightenend by some purpose given\nby the poetic states. Balancing serves both ways.\n\n* 10 [jifi](word-jifi) (humble) <=> [jipa](word-jipa) (remembering being god.dess)\n* 9 [dafi](word-dafi) (serving) <=> [dapa](word-dapa) (joy)\n* 8 [jefi](word-jefi) (caring) <=> [jepa](word-jepa) (belonging)\n* 7 [fefi](word-fefi) (adapting) <=> [fepa](word-fepa) (pride)\n* 6 [shifi](word-shifi) (learning) <=> [shipa](word-shipa) (believing)\n\n## The \"territorial\" states\n\nThese states are the same as the ones on the spirit scale [ganes](card-ganes).\n\n* 5 [nelil](word-nelil) (confusion/insecure)\n* 4 [neka](word-neka) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n ganes count scale of na states of practicality",
       "writ": "నానేస్‌",
       "phon": "/nanɛs/",
       "glo": "**scale of na**"
+    },
+    "card-plants": {
+      "name": "plants",
+      "id": "card-plants",
+      "type": "card",
+      "lang": "plants",
+      "desc": "\nThe word for \"plant\" is [ina](word-ina), the caressing thing. Note that not all\nplants have the [ina](word-ina) suffix.\n\nThis is the list of words related to plants currently in the language:\n\n* [bisahina](word-bisahina)\n* [ana](word-ana)\n* [buni](word-buni)\n",
+      "fulltext": "plants \nThe word for \"plant\" is [ina](word-ina), the caressing thing. Note that not all\nplants have the [ina](word-ina) suffix.\n\nThis is the list of words related to plants currently in the language:\n\n* [bisahina](word-bisahina)\n* [ana](word-ana)\n* [buni](word-buni)\n plants",
+      "writ": "pలాntస్‌",
+      "phon": "/plants/",
+      "glo": "**plants**"
+    },
+    "card-family": {
+      "name": "family",
+      "id": "card-family",
+      "type": "card",
+      "lang": "Parents and siblings",
+      "desc": "\n\nTo understand family, you need to have a 3D view of space in\nthe language. Imagine that the person [oda](word-oda) is looking\nforward (up, at this paragraph). We have the spatial\ndirections as follow (yes it looks like a person looking\nsouth \"sud\").\n\n|         | front   |      |\n| :-:     | :-:     | :-:  |\n|         | [du](word-du) |      |\n| [es](word-es) |  🥰    | [we](word-we) |\n|         | [no](word-no) |      |\n|         | back    |      |\n\nOn a vertical plane:\n\n| up / far |\n| :-:     |\n| [ha](word-ha) |\n|    🥰    |\n| [jo](word-jo) |\n| down / close |\n\nImagine your family standing around you:\n\n* In front of you, your younger siblings [doda](word-doda).\n* Behind you, your elder siblings [noda](word-noda)\n* On the sides your friends [adu](word-adu)\n\nOn the vertical plane:\n\n* Above you, your parents: [hada](word-hada)\n* Below you, your children: [joda](word-joda)\n\nAnd now all these terms can be cased with one of the three genders:\n\n* [iwi](word-iwi)\n* [ana](word-ana)\n* [oto](word-oto)\n\n## Siblings [hida](word-hida)\n\n|           | [ana](word-ana) | [iwi](word-iwi) | [oto](word-oto) |\n| :----     | :------: | :------: | :-------: |\n| [doda](word-doda) | [duna](word-duna)| [duwi](word-duwi)| [duto](word-duto) |\n| [hida](word-hida) | [hina](word-hina)| [hiwi](word-hiwi)| [hito](word-hito) |\n| [noda](word-noda) | [nona](word-nona)| [nowi](word-nowi)| [noto](word-noto) |\n\nIf you just need quick terms (without the notion of being\nyounger or elderly):\n\n* sister: [hida](word-hida)\n* enby sibling: [hiwi](word-hiwi)\n* brother: [hito](word-hito)\n\n## Parent [hada](word-hada) / children [joda](word-joda)\n\n|           | [ana](word-ana) | [iwi](word-iwi) | [oto](word-oto) |\n| :----     | :------: | :------: | :-------: |\n| [hada](word-hada) | [hana](word-hana)| [hawi](word-hawi)| [hato](word-hato) |\n| [joda](word-joda) | [jona](word-jona)| [jowi](word-jowi)| [joto](word-joto) |\n\nAnd of course, you can be creative in the same way genders\ncan blend:\n\n* [70](phrase-70)\n* [71](phrase-71)\n* etc\n",
+      "fulltext": "family \n\nTo understand family, you need to have a 3D view of space in\nthe language. Imagine that the person [oda](word-oda) is looking\nforward (up, at this paragraph). We have the spatial\ndirections as follow (yes it looks like a person looking\nsouth \"sud\").\n\n|         | front   |      |\n| :-:     | :-:     | :-:  |\n|         | [du](word-du) |      |\n| [es](word-es) |  🥰    | [we](word-we) |\n|         | [no](word-no) |      |\n|         | back    |      |\n\nOn a vertical plane:\n\n| up / far |\n| :-:     |\n| [ha](word-ha) |\n|    🥰    |\n| [jo](word-jo) |\n| down / close |\n\nImagine your family standing around you:\n\n* In front of you, your younger siblings [doda](word-doda).\n* Behind you, your elder siblings [noda](word-noda)\n* On the sides your friends [adu](word-adu)\n\nOn the vertical plane:\n\n* Above you, your parents: [hada](word-hada)\n* Below you, your children: [joda](word-joda)\n\nAnd now all these terms can be cased with one of the three genders:\n\n* [iwi](word-iwi)\n* [ana](word-ana)\n* [oto](word-oto)\n\n## Siblings [hida](word-hida)\n\n|           | [ana](word-ana) | [iwi](word-iwi) | [oto](word-oto) |\n| :----     | :------: | :------: | :-------: |\n| [doda](word-doda) | [duna](word-duna)| [duwi](word-duwi)| [duto](word-duto) |\n| [hida](word-hida) | [hina](word-hina)| [hiwi](word-hiwi)| [hito](word-hito) |\n| [noda](word-noda) | [nona](word-nona)| [nowi](word-nowi)| [noto](word-noto) |\n\nIf you just need quick terms (without the notion of being\nyounger or elderly):\n\n* sister: [hida](word-hida)\n* enby sibling: [hiwi](word-hiwi)\n* brother: [hito](word-hito)\n\n## Parent [hada](word-hada) / children [joda](word-joda)\n\n|           | [ana](word-ana) | [iwi](word-iwi) | [oto](word-oto) |\n| :----     | :------: | :------: | :-------: |\n| [hada](word-hada) | [hana](word-hana)| [hawi](word-hawi)| [hato](word-hato) |\n| [joda](word-joda) | [jona](word-jona)| [jowi](word-jowi)| [joto](word-joto) |\n\nAnd of course, you can be creative in the same way genders\ncan blend:\n\n* [70](phrase-70)\n* [71](phrase-71)\n* etc\n Parents and siblings",
+      "writ": "చామిల్‌y",
+      "phon": "/familj/",
+      "glo": "**Parents and siblings**"
     },
     "card-corresp": {
       "name": "corresp",
       "id": "card-corresp",
       "type": "card",
       "lang": "Correspondances, Baudelaire (1821-1867)",
-      "desc": "\n[70](phrase-70)  \n[71](phrase-71)  \n[72](phrase-72)  \n[73](phrase-73)  \n[74](phrase-74)  \n",
-      "fulltext": "corresp \n[70](phrase-70)  \n[71](phrase-71)  \n[72](phrase-72)  \n[73](phrase-73)  \n[74](phrase-74)  \n Correspondances, Baudelaire (1821-1867)",
+      "desc": "\n[72](phrase-72)  \n[73](phrase-73)  \n[74](phrase-74)  \n[75](phrase-75)  \n[76](phrase-76)  \n",
+      "fulltext": "corresp \n[72](phrase-72)  \n[73](phrase-73)  \n[74](phrase-74)  \n[75](phrase-75)  \n[76](phrase-76)  \n Correspondances, Baudelaire (1821-1867)",
       "writ": "cఓrరేస్‌p",
       "phon": "/cɔrrɛsp/",
       "glo": "**Correspondances, Baudelaire (1821-1867)**"
@@ -8856,17 +9201,17 @@
       "type": "phrase",
       "trad": "14",
       "words": [
-        "word-dji",
+        "word-ji",
         "alt-ka"
       ],
       "see": [
         "card-count"
       ],
-      "fulltext": "15 count dji ka",
+      "fulltext": "15 count ji ka",
       "writ": "౧౫",
       "phon": "/15/",
       "glo": "**undefined**",
-      "phrase": "dji ka"
+      "phrase": "ji ka"
     },
     "phrase-16": {
       "name": "16",
@@ -8916,17 +9261,17 @@
       "words": [
         "alt-de",
         "word-ipu",
-        "word-dji",
+        "word-ji",
         "alt-da"
       ],
       "see": [
         "card-count"
       ],
-      "fulltext": "18 count de ipu dji da",
+      "fulltext": "18 count de ipu ji da",
       "writ": "౧౮",
       "phon": "/18/",
       "glo": "**undefined**",
-      "phrase": "de ipu dji da"
+      "phrase": "de ipu ji da"
     },
     "phrase-19": {
       "name": "19",
@@ -9873,6 +10218,40 @@
       "name": "70",
       "id": "phrase-70",
       "type": "phrase",
+      "trad": "daughter-boy",
+      "words": [
+        "alt-jonato"
+      ],
+      "see": [
+        "card-family"
+      ],
+      "fulltext": "70 family jonato",
+      "writ": "౭౦",
+      "phon": "/70/",
+      "glo": "**undefined**",
+      "phrase": "jonato"
+    },
+    "phrase-71": {
+      "name": "71",
+      "id": "phrase-71",
+      "type": "phrase",
+      "trad": "enby child-girl",
+      "words": [
+        "alt-jowina"
+      ],
+      "see": [
+        "card-family"
+      ],
+      "fulltext": "71 family jowina",
+      "writ": "౭౧",
+      "phon": "/71/",
+      "glo": "**undefined**",
+      "phrase": "jowina"
+    },
+    "phrase-72": {
+      "name": "72",
+      "id": "phrase-72",
+      "type": "phrase",
       "trad": "La Nature et un temple où de vivants piliers",
       "words": [
         "word-tu",
@@ -9886,15 +10265,15 @@
       "see": [
         "card-corresp"
       ],
-      "fulltext": "70 corresp tu gupa ahe agaukida don namel oda",
-      "writ": "౭౦",
-      "phon": "/70/",
+      "fulltext": "72 corresp tu gupa ahe agaukida don namel oda",
+      "writ": "౭౨",
+      "phon": "/72/",
       "glo": "**undefined**",
       "phrase": "tu gupa ahe agaukida don namel oda"
     },
-    "phrase-71": {
-      "name": "71",
-      "id": "phrase-71",
+    "phrase-73": {
+      "name": "73",
+      "id": "phrase-73",
       "type": "phrase",
       "trad": "Laissent parfois sortir de confuses paroles;",
       "words": [
@@ -9904,15 +10283,15 @@
       "see": [
         "card-corresp"
       ],
-      "fulltext": "71 corresp shalapa nega",
-      "writ": "౭౧",
-      "phon": "/71/",
+      "fulltext": "73 corresp shalapa nega",
+      "writ": "౭౩",
+      "phon": "/73/",
       "glo": "**undefined**",
       "phrase": "shalapa nega"
     },
-    "phrase-72": {
-      "name": "72",
-      "id": "phrase-72",
+    "phrase-74": {
+      "name": "74",
+      "id": "phrase-74",
       "type": "phrase",
       "trad": "L'homme y passe à travers des forêts de symboles",
       "words": [
@@ -9926,15 +10305,15 @@
       "see": [
         "card-corresp"
       ],
-      "fulltext": "72 corresp tu yosa afen janaro lom lana",
-      "writ": "౭౨",
-      "phon": "/72/",
+      "fulltext": "74 corresp tu yosa afen janaro lom lana",
+      "writ": "౭౪",
+      "phon": "/74/",
       "glo": "**undefined**",
       "phrase": "tu yosa afen janaro lom lana"
     },
-    "phrase-73": {
-      "name": "73",
-      "id": "phrase-73",
+    "phrase-75": {
+      "name": "75",
+      "id": "phrase-75",
       "type": "phrase",
       "trad": "Qui l'observent avec des regards familiers.",
       "words": [
@@ -9948,15 +10327,15 @@
       "see": [
         "card-corresp"
       ],
-      "fulltext": "73 corresp di ko gi sha fa lae",
-      "writ": "౭౩",
-      "phon": "/73/",
+      "fulltext": "75 corresp di ko gi sha fa lae",
+      "writ": "౭౫",
+      "phon": "/75/",
       "glo": "**undefined**",
       "phrase": "di ko gi sha fa lae"
     },
-    "phrase-74": {
-      "name": "74",
-      "id": "phrase-74",
+    "phrase-76": {
+      "name": "76",
+      "id": "phrase-76",
       "type": "phrase",
       "trad": "Comme de longs échos qui de loin se confondent...",
       "words": [
@@ -9969,9 +10348,9 @@
       "see": [
         "card-corresp"
       ],
-      "fulltext": "74 corresp si agadeuki di hadau esshanelil",
-      "writ": "౭౪",
-      "phon": "/74/",
+      "fulltext": "76 corresp si agadeuki di hadau esshanelil",
+      "writ": "౭౬",
+      "phon": "/76/",
       "glo": "**undefined**",
       "phrase": "si agadeuki di hadau esshanelil"
     }
@@ -9987,7 +10366,7 @@
         "word-e"
       ],
       "phrases": [
-        "phrase-70"
+        "phrase-72"
       ],
       "fulltext": "ahe a e",
       "writ": "అఠే",
@@ -10152,6 +10531,26 @@
       "fulltext": "de",
       "writ": "దే",
       "phon": "/dɛ/"
+    },
+    "alt-jonato": {
+      "name": "jonato",
+      "id": "alt-jonato",
+      "type": "alt",
+      "glo": "**daughter**.boy",
+      "alt": "word-jona",
+      "fulltext": "jonato",
+      "writ": "జోనాతో",
+      "phon": "/dʒɔnatɔ/"
+    },
+    "alt-jowina": {
+      "name": "jowina",
+      "id": "alt-jowina",
+      "type": "alt",
+      "glo": "**enby child**.girl",
+      "alt": "word-jowi",
+      "fulltext": "jowina",
+      "writ": "జోవినా",
+      "phon": "/dʒɔwina/"
     },
     "alt-yihe": {
       "name": "yihe",
@@ -10437,7 +10836,7 @@
         "word-lapa"
       ],
       "phrases": [
-        "phrase-71"
+        "phrase-73"
       ],
       "fulltext": "shalapa sha lapa",
       "writ": "షాలాపా",

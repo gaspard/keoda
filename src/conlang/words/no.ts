@@ -37,7 +37,7 @@ export const nopi = _.word('nopi', {
 
 export const djonopi = _.word('djonopi', {
   noun: 'lower back',
-  etym: () => [_.djo, _.nopi],
+  etym: () => [_.jo, _.nopi],
 })
 
 export const noyin = _.word('noyin', {

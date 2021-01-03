@@ -8,7 +8,7 @@ export const count = _.card('count', {
   desc: () => `
 Here are the number from 1 to 10:
 
-* ${_.dji} (10 / ౧౦)
+* ${_.ji} (10 / ౧౦)
 * ${_.da} (9 / ౯)
 * ${_.je} (8 / ౮)
 * ${_.fe} (7 / ౭)
@@ -29,10 +29,10 @@ The powers of ten:
 
 * ${_.phrase('14', _.pi, _.ipi, _.ka4)}
 * or ${_.phrase('14', _.ipi, _.ka4)}
-* or ${_.phrase('14', _.dji, _.ka4)}
+* or ${_.phrase('14', _.ji, _.ka4)}
 * ${_.phrase('24', _.de2, _.ipi, _.ka4)}
 * ${_.phrase('359', _.pe3, _.ipa, _.lil5, _.ipi, _.da9)}
-* ${_.phrase('2019', _.de2, _.ipu, _.dji, _.da9)}
+* ${_.phrase('2019', _.de2, _.ipu, _.ji, _.da9)}
 * ${_.phrase("105'000", _.ipa, _.lil5, _.ipu)}
 
 ## Big numbers !

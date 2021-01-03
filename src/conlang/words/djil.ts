@@ -5,9 +5,9 @@ export const jil = _.word('jil', {
   posit: 'standing, body leaning forward, hair offered ready to be taken',
 })
 
-export const joda = _.word('joda', {
+export const gojida = _.word('gojida', {
   noun: 'bear',
-  etym: () => [_.jil, _.oda],
+  etym: () => [_.gol, _.jil, _.oda],
 })
 
 export const nejil = _.word('nejil', {

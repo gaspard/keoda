@@ -1,6 +1,7 @@
 import * as _ from '.'
 
 export const ina = _.word('ina', {
-  noun: 'plante',
+  noun: 'plant',
+  suffix: 'plant',
 })
 _.see(_.egina)

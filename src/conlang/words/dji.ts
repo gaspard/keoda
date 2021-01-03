@@ -1,17 +1,17 @@
 import * as _ from '.'
 
-export const dji = _.word('dji', {
+export const ji = _.word('ji', {
   noun: '10 (memory)',
   etym: () => [_.pi, _.ipi],
   see: () => [_.count],
 })
 
-export const djipa = _.word('djipa', {
+export const jipa = _.word('jipa', {
   noun: 'remembering (being god.dess)',
-  see: () => [_.ganes, _.djifi],
+  see: () => [_.ganes, _.jifi],
 })
 
-export const djifi = _.word('djifi', {
+export const jifi = _.word('jifi', {
   adj: 'humble',
-  see: () => [_.nanes, _.djipa],
+  see: () => [_.nanes, _.jipa],
 })

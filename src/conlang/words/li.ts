@@ -16,6 +16,8 @@ export const lipa = _.word('lipa', {
 
 export const lipaya = _.word('lipaya', {
   noun: 'wolf',
+  img:
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Adara_%28Canis_lupus%29.jpg/300px-Adara_%28Canis_lupus%29.jpg',
   etym: () => [_.lipa, _.ya],
 })
 

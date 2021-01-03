@@ -13,7 +13,7 @@ export const hama = _.word('hama', {
 
 export const djoma = _.word('djoma', {
   noun: 'wrist',
-  etym: () => [_.djo, _.ma],
+  etym: () => [_.jo, _.ma],
 })
 _.see(_.djosam)
 

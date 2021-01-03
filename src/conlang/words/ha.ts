@@ -4,12 +4,12 @@ export const ha = _.word('ha', {
   noun: 'head',
   adj: 'far',
   prefix: 'top or distal',
-  see: () => [_.djo],
+  see: () => [_.jo],
 })
-_.see(_.djo)
+_.see(_.jo)
 _.see(_.hama)
 
-_.see(_.djoha)
+_.see(_.joha)
 
 export const hafalo = _.example([_.ha, _.fa, _.lo], `Montre ta tête, soumise !`)
 
@@ -40,6 +40,29 @@ export const hase = _.word('hase', {
 export const noha = _.word('noha', {
   noun: 'occiput (back of the head)',
   etym: () => [_.no, _.ha],
+})
+
+export const hada = _.word('hada', {
+  noun: 'parent',
+  etym: () => [_.ha, _.oda],
+  see: () => [_.family],
+})
+
+export const hana = _.word('hana', {
+  noun: 'mother',
+  etym: () => [_.ha, _.ana],
+  see: () => [_.family],
+})
+
+export const hawi = _.word('hawi', {
+  noun: 'enby parent',
+  etym: () => [_.ha, _.iwi],
+  see: () => [_.family],
+})
+
+export const hato = _.word('hato', {
+  noun: 'father',
+  see: () => [_.duto, _.noto, _.ha],
 })
 
 // === alt

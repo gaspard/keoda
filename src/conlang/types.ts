@@ -24,6 +24,8 @@ export interface EntryInfo {
   writ: string
   phon: string
   phrases: string[]
+  // for question cards
+  img: string
   // phrases only
   trad: string
   phrase: string

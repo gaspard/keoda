@@ -45,7 +45,7 @@ the experience is not.
 
 These need to be balanced with their equivalent ${_.nanes} states.
 
-* 10 ${_.djipa} (remembering being god.des) <=> ${_.djifi} (humble)
+* 10 ${_.jipa} (remembering being god.des) <=> ${_.jifi} (humble)
 * 9 ${_.dapa} (joy) <=> ${_.dafi} (serving)
 * 8 ${_.jepa} (belonging) <=> ${_.jefi} (caring)
 * 7 ${_.fepa} (pride) <=> ${_.fefi} (adapting)

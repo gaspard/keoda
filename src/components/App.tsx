@@ -23,8 +23,9 @@ const WritButton = styled.div`
   display: block;
   z-index: 99;
   background: #aba89d;
-  &.active {
-    background: #e4d593;
+  padding: 3px 8px 6px;
+  &.writ {
+    padding-bottom: 4px;
   }
   border: 1px solid #444;
   border-radius: 5px;
@@ -32,19 +33,19 @@ const WritButton = styled.div`
   box-shadow: 0px 0px 6px #00000050;
   font-weight: bold;
   color: #333;
-  padding: 3px 8px 0;
 `
 
 export const App: Comp<AppProps> = ({ className }) => {
   const ctx = useOvermind()
   const { lexicon } = ctx.state.keoda
+  const { writ } = ctx.state.keoda
   return (
     <React.Fragment>
       <WritButton
+        className={writ ? '' : 'writ'}
         onClick={ctx.actions.keoda.writToggle}
-        className={ctx.state.keoda.writ ? 'active' : ''}
       >
-        కేఓదా
+        {writ ? 'latin' : 'తేలుగు'}
       </WritButton>
       <Float />
       <Wrapper className={className}>

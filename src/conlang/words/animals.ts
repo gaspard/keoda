@@ -88,7 +88,7 @@ _.see(_.awi)
 _.see(_.koda)
 
 // Ours
-_.see(_.joda)
+_.see(_.gojida)
 
 // Dauphin
 _.see(_.mawi)

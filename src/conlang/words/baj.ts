@@ -7,7 +7,7 @@ export const baj = _.word('baj', {
 
 export const djobaj = _.word('djobaj', {
   noun: 'thigh',
-  etym: () => [_.djo, _.baj],
+  etym: () => [_.jo, _.baj],
 })
 
 export const habaj = _.word('habaj', {

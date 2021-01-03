@@ -18,7 +18,7 @@ const Wrapper = styled.div`
   display: flex;
   font-size: 18px;
   border: 1px solid #444;
-  background: #aba89c;
+  background: #636159;
   margin: 14px;
   border-radius: 5px;
   align-items: start;
@@ -88,6 +88,21 @@ const Title = styled.div`
       top: -32px;
     }
   }
+  &::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    pointer-events: none;
+    background-image: var(--data-img);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+  }
 `
 
 const Name = styled.div`
@@ -116,6 +131,10 @@ const Definitions = styled.div`
   padding: 5px;
   align-self: stretch;
   border-left: 1px solid #7b7b7b;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: #e4e1d582;
+  z-index: 3;
 `
 
 const Definition = styled.div`
@@ -305,6 +324,8 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
       }
     }
   }
+
+  const style = entry.img ? { ['--data-img']: `url(${entry.img})` } : {}
   return (
     <Wrapper
       className={classnames(entry.type, className, {
@@ -314,11 +335,11 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
     >
       {popup ? <ArrowUp /> : <ID id={id} />}
       {entry.type === 'phrase' ? (
-        <Title className="Title phrase">
+        <Title className="Title phrase" style={style as React.CSSProperties}>
           <Link id={id} fromMd />
         </Title>
       ) : (
-        <Title className="Title">
+        <Title className="Title" style={style as React.CSSProperties}>
           <Name onClick={() => ctx.actions.keoda.select({ id: entry.id })}>
             {writ ? entry.writ : entry.name}
           </Name>
