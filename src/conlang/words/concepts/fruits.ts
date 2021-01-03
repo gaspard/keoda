@@ -7,11 +7,11 @@ Existing fruits are:
 
 * ${_.erina} (cherry)
 * ${_.pona} (orange)
-* ${_.ponalil} (tangerine)
+* ${_.ponale} (tangerine)
 * ${_.palajil} (apricot)
-* ${_.putam} (tomato)
+* ${_.pantame} (tomato)
 * ${_.wiyon} (prune)
-* ${_.gola} (squash)
+* ${_.gopona} (squash)
 * ${_.guyuina} (apple)
 `,
 })

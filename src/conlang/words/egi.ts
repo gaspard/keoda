@@ -1,11 +1,11 @@
 import * as _ from '.'
 
 export const egi = _.word('egi', {
-  adj: 'froid',
+  adj: 'cold',
 })
 
 export const egina = _.word('egina', {
-  noun: 'endive, janvier',
+  noun: 'chicory, January',
   etym: () => [_.egi, _.ina],
+  see: () => [_.plants, _.seasons],
 })
-_.see(_.seasons)

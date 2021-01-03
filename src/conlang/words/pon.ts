@@ -6,15 +6,15 @@ export const pon = _.word('pon', {
 })
 
 export const pona = _.word('pona', {
-  noun: 'orange (fruit), november',
+  noun: 'orange, November',
   etym: () => [_.pon, _.na],
-  see: () => [_.fruits],
+  see: () => [_.fruits, _.seasons],
 })
 
-export const ponalil = _.word('ponalil', {
-  noun: 'tangerine (fruit), december',
-  etym: () => [_.pona, _.lil],
-  see: () => [_.fruits],
+export const ponale = _.word('ponale', {
+  noun: 'tangerine, December',
+  etym: () => [_.pona, _.le],
+  see: () => [_.fruits, _.seasons],
 })
 
 _.see(_.seasons)

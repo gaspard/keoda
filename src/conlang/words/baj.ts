@@ -19,3 +19,10 @@ export const kebaj = _.word('kebaj', {
   noun: 'testicles',
   etym: () => [_.ke, _.baj],
 })
+
+// ==== alt
+
+export const bajuki = _.alt('bajuki', {
+  glo: '**lower limb**.*long*',
+  alt: () => _.baj,
+})

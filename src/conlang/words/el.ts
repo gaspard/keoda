@@ -1,7 +1,5 @@
 import * as _ from '.'
 
 export const el = _.word('el', {
-  adj: 'droit',
+  adj: 'straight',
 })
-
-_.see(_.namel)

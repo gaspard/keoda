@@ -11,5 +11,5 @@ export const pedil = _.word('pedil', {
 
 export const lipedil = _.word('lipedil', {
   noun: 'fourchette',
-  etym: () => [_.lil, _.pedil],
+  etym: () => [_.le, _.pedil],
 })

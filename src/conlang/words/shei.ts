@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const shei = _.word('shei', {
-  verb: 'souffler (air qui caresse)',
+  verb: 'to blow',
   etym: () => [_.she, _.i],
+  see: () => [_.sheu],
 })
-_.see(_.sheu)

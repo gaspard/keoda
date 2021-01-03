@@ -187,6 +187,9 @@ const TELU: { [key: string]: string } = {
   a: 'అ',
   u: 'ఉ',
   o: 'ఓ',
+  g: 'గ్‌',
+  rx: 'ర్‌',
+  r: 'ర్‌',
 
   // leftover letters due to double consonants
   s: 'స్‌',

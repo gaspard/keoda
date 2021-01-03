@@ -3,8 +3,8 @@ import * as _ from '.'
 export const lame = _.word('lame', {
   verb: 'to wash',
   noun: 'water',
+  see: () => [_.nature],
 })
-_.see(_.lamon)
 
 export const falame = _.word('falame', {
   noun: 'tears',
@@ -35,6 +35,7 @@ export const lamioda = _.word('lamioda', {
 export const lamoa = _.word('lamoa', {
   noun: 'source (place)',
   etym: () => [_.lame, _.on, _.da],
+  see: () => [_.nature],
 })
 
 export const lamu = _.word('lamu', {

@@ -6,8 +6,8 @@ export const eri = _.word('dim', {
 })
 
 export const erina = _.word('erina', {
-  noun: 'cherry (fruit), june',
-  see: () => [_.fruits],
+  noun: 'cherry, June',
+  see: () => [_.fruits, _.seasons],
 })
 _.see(_.seasons)
 _.see(_.fruits)

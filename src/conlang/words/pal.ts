@@ -11,8 +11,8 @@ export const palaj = _.word('palaj', {
 
 export const palajil = _.word('palajil', {
   noun: 'apricot, July',
-  etym: () => [_.palaj, _.lil],
-  see: () => [_.fruits],
+  etym: () => [_.palaj, _.le],
+  see: () => [_.fruits, _.seasons],
 })
 
 export const kepal = _.word('kepal', {

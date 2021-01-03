@@ -1,24 +1,41 @@
 import * as _ from '.'
 
-export const sam = _.word('sam', {
+export const same = _.word('same', {
   noun: 'foot',
   posit: 'standing',
+  desc: () => `
+Note that when saying "left foot" or "right foot", the terminal
+'e' is dropped:
+
+${_.phrase('left foot, right foot', _.samse, _.samwe)}`,
 })
 
 export const samoda = _.word('samoda', {
   noun: 'hero',
   glo: 'foot.person',
-  etym: () => [_.sam, _.oda],
+  etym: () => [_.same, _.oda],
 })
 
-export const fesam = _.word('fesam', {
+export const fesame = _.word('fesame', {
   noun: 'socks',
 })
 
-export const hasam = _.word('hasam', {
+export const hasame = _.word('hasame', {
   noun: 'toe',
 })
 
-export const djosam = _.word('djosam', {
+export const josame = _.word('josame', {
   noun: 'ankle',
+})
+
+// ======= alt
+
+export const samse = _.alt('samse', {
+  glo: '**foot**.LEFT',
+  alt: () => _.same,
+})
+
+export const samwe = _.alt('samwe', {
+  glo: '**foot**.RIGHT',
+  alt: () => _.same,
 })

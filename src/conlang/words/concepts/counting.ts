@@ -8,12 +8,12 @@ export const count = _.card('count', {
   desc: () => `
 Here are the number from 1 to 10:
 
-* ${_.ji} (10 / ౧౦)
+* ${_.ipi} (10 / ౧౦)
 * ${_.da} (9 / ౯)
 * ${_.je} (8 / ౮)
 * ${_.fe} (7 / ౭)
 * ${_.shi} (6 / ౬)
-* ${_.lil} (5 / ౫)
+* ${_.le} (5 / ౫)
 * ${_.ka} (4 / ౪)
 * ${_.pe} (3 / ౩)
 * ${_.de} (2 / ౨)
@@ -27,13 +27,12 @@ The powers of ten:
 
 ## Some examples:
 
-* ${_.phrase('14', _.pi, _.ipi, _.ka4)}
-* or ${_.phrase('14', _.ipi, _.ka4)}
-* or ${_.phrase('14', _.ji, _.ka4)}
-* ${_.phrase('24', _.de2, _.ipi, _.ka4)}
-* ${_.phrase('359', _.pe3, _.ipa, _.lil5, _.ipi, _.da9)}
-* ${_.phrase('2019', _.de2, _.ipu, _.ji, _.da9)}
-* ${_.phrase("105'000", _.ipa, _.lil5, _.ipu)}
+* ${_.phrase('14', _.pi, _.i10, _.ka4)}
+* or ${_.phrase('14', _.i10, _.ka4)}
+* ${_.phrase('24', _.de2, _.i10, _.ka4)}
+* ${_.phrase('359', _.pe3, _.ipa, _.le5, _.i10, _.da9)}
+* ${_.phrase('2019', _.de2, _.ipu, _.i10, _.da9)}
+* ${_.phrase("105'000", _.ipa, _.le5, _.ipu)}
 
 ## Big numbers !
 
@@ -45,8 +44,8 @@ We can also express powers of ten ${_.phrase('10^4', _.ipa, _.ka, _.uki)}.
 
 ## Small numbers
 
-* 10^-1: ${_.phrase('tenth', _.ipi, _.iki)}
-* 10^-2: ${_.phrase('hundredth', _.ipi, _.de, _.iki)}
-* 10^-3: ${_.phrase('thouandth', _.ipi, _.pe, _.iki)}
+* 10^-1: ${_.phrase('tenth', _.i10, _.iki)}
+* 10^-2: ${_.phrase('hundredth', _.i10, _.de, _.iki)}
+* 10^-3: ${_.phrase('thouandth', _.i10, _.pe, _.iki)}
 `,
 })

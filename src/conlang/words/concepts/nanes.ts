@@ -33,7 +33,7 @@ by the poetic states. Balancing serves both ways.
 
 These states are the same as the ones on the spirit scale ${_.ganes}.
 
-* 5 ${_.nelil} (confusion/insecure)
+* 5 ${_.nele} (confusion/insecure)
 * 4 ${_.neka} (shame/restless)
 * 3 ${_.nepe} (limbo/offensive)
 * 2 ${_.nede} (anguish/fighting)

@@ -68,6 +68,12 @@ Two consecutive identical vowels are reduced to a single one: ${_.phrase(
     _.oda
   )}
 
+Words cannot end in ${
+    _.am
+  } (used for accusative). Words often drop the last vowel when adding a suffix that starts with a vowel instead of adding 'h'.
+
+Example: ${_.same} (foot) becomes ${_.samwe} (right foot).
+
 ## Evolution
 
 There is an ongoing evolution transforming 'au' into 'zu'.

@@ -17,6 +17,7 @@ export const uloda = _.word('uloda', {
 })
 
 export const ulul = _.word('ulul', {
-  noun: 'asperge, avril',
+  noun: 'asparagus, April',
   etym: () => [_.ulu, _.la],
+  see: () => [_.seasons],
 })

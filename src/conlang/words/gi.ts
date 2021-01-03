@@ -1,10 +1,8 @@
 import * as _ from '.'
 
 export const gi = _.word('gi', {
-  noun: 'doux (expérience caressée)',
-  suffix: 'doux',
+  noun: 'gentle',
+  suffix: 'gentle',
   etym: () => [_.gu, _.i],
+  see: () => [_.go],
 })
-_.see(_.gilapa)
-_.see(_.go)
-_.see(_.yagi)

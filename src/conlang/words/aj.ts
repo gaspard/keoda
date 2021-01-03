@@ -1,8 +1,8 @@
 import * as _ from '.'
 
 export const aj = _.word('aj', {
-  noun: 'feu',
-  verb: 'brûler',
+  noun: 'fire',
+  verb: 'to burn',
 })
 
 export const ajapi = _.word('ajapi', {
@@ -11,4 +11,4 @@ export const ajapi = _.word('ajapi', {
 })
 
 _.see(_.naj)
-_.see(_.lilaj)
+_.see(_.ajale)

@@ -4,11 +4,9 @@ export const family = _.card('family', {
   lang: 'Parents and siblings',
   desc: () => `
 
-To understand family, you need to have a 3D view of space in
-the language. Imagine that the person ${_.oda} is looking
-forward (up, at this paragraph). We have the spatial
-directions as follow (yes it looks like a person looking
-south "sud").
+To understand family, you need to have a 3D view of space in the language.
+Imagine that you are looking forward. You have the spatial directions as
+follow (yes it looks like a person looking south "sud").
 
 |         | front   |      |
 | :-:     | :-:     | :-:  |
@@ -39,11 +37,11 @@ On the vertical plane:
 
 And now all these terms can be cased with one of the three genders:
 
-* ${_.iwi}
-* ${_.ana}
-* ${_.oto}
+* ${_.iwi} (bird)
+* ${_.ana} (tree)
+* ${_.oto} (wind)
 
-## Siblings ${_.hida}
+## ${_.hida} (siblings)
 
 |           | ${_.ana} | ${_.iwi} | ${_.oto} |
 | :----     | :------: | :------: | :-------: |
@@ -54,11 +52,11 @@ And now all these terms can be cased with one of the three genders:
 If you just need quick terms (without the notion of being
 younger or elderly):
 
-* sister: ${_.hida}
-* enby sibling: ${_.hiwi}
-* brother: ${_.hito}
+* ${_.hida} (sister)
+* ${_.hiwi} (enby sibling)
+* ${_.hito} (brother)
 
-## Parent ${_.hada} / children ${_.joda}
+## ${_.hada} (parent) / ${_.joda} (child)
 
 |           | ${_.ana} | ${_.iwi} | ${_.oto} |
 | :----     | :------: | :------: | :-------: |
@@ -71,5 +69,6 @@ can blend:
 * ${_.phrase('daughter-boy', _.jonato)}
 * ${_.phrase('enby child-girl', _.jowina)}
 * etc
+
 `,
 })

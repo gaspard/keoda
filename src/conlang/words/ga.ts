@@ -39,7 +39,6 @@ export const kegai = _.word('kegai', {
   noun: 'dieu',
   desc: () => `caché dans l'esprit caressé`,
 })
-_.see(_.ohenurlilajkegai)
 
 export const gau = _.word('gau', {
   noun: 'attention (esprit tiré)',

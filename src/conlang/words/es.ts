@@ -5,7 +5,7 @@ export const es = _.word('es', {
   suffix: 'state (BE)',
   glo: 'INTR',
   desc: () => `
-It is applied before the conjugation: ${_.esshanelil}.
+It is applied before the conjugation: ${_.esshanele}.
 
 When used as suffix on a word ending with a vowel, we add an 'n':
 

@@ -15,13 +15,13 @@ export const correspondances = [
   [_.sha, _.lapa, _.nega],
   // L'homme y passe à travers des forêts de symboles
   // *Loda afen roa jana mei lana*
-  [_.tu, _.yosa, _.a, _.fen, _.roa, _.jana, _.mei, _.lana],
+  [_.tu, _.yosa, _.a, _.fen, _.ro, _.jana, _.mei, _.lana],
   // Qui l'observent avec des regards familiers.
   // *di ko gi shafa lae*
   [_.di, _.ko, _.gi, _.sha, _.fa, _.lae],
   // Comme de longs échos qui de loin se confondent
   // *si agadeuki di hauya es shanelil*
-  [_.si, _.agade, _.uki, _.di, _.ha, _.uya, _.es, _.sha, _.nelil],
+  [_.si, _.agade, _.uki, _.di, _.ha, _.uya, _.es, _.sha, _.nele],
   // Dans une ténébreuse et profonde unité,
   // Vaste comme la nuit et comme la clarté,
   // Les parfums, les couleurs et les sons se répondent.

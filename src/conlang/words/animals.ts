@@ -58,7 +58,7 @@ _.see(_.iwa)
 
 // Le cochon
 // Happy baby pose
-_.see(_.shegul)
+_.see(_.gosheu)
 
 // Le canard
 // Debout, une jambe derrière soi, tenue par une main (même côté), l'autre devant soi
@@ -73,7 +73,7 @@ _.see(_.kawi)
 
 // Le tigre
 // Cat pose, quatre pattes, dos arondi
-_.see(_.gil)
+_.see(_.gili)
 
 // La baleine
 // Le pont

@@ -1,10 +1,36 @@
 import * as _ from '.'
 
 export const le = _.word('le', {
-  suffix: "annonce d' un nom",
-  desc: () => `L'enchassée avec le nom se termine par ${_.oda}.`,
+  adj: 'small',
+  noun: '5',
+  suffix: 'small',
+  see: () => [_.count],
 })
 
-export const ile = _.word('ile', {
-  prep: 'toi qui te nomme',
+export const hamale = _.word('hamale', {
+  noun: 'little finger',
+})
+
+export const ajale = _.word('ajale', {
+  noun: 'spark',
+  posit:
+    'sur moi: 4 membres et 1 sexe (indiquée par un signe de main: pouce contre auriculaire)',
+  etym: () => [_.aj],
+})
+
+export const nele = _.word('nele', {
+  noun: 'confusion',
+  adj: 'insecure',
+  verb: 'to confound',
+  see: () => [_.ganes, _.nanes],
+})
+
+export const esshanele = _.alt('esshanele', {
+  glo: 'INTR.3PL.**confound**',
+  alt: () => _.nele,
+})
+
+export const le5 = _.alt('le', {
+  glo: '**5**',
+  alt: () => _.le,
 })

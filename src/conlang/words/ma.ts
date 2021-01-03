@@ -15,7 +15,7 @@ export const djoma = _.word('djoma', {
   noun: 'wrist',
   etym: () => [_.jo, _.ma],
 })
-_.see(_.djosam)
+_.see(_.josame)
 
 _.see(_.lihafma)
 
@@ -59,12 +59,12 @@ export const masa = _.word('masa', {
 
 export const limasa = _.word('limasa', {
   noun: 'spoon',
-  etym: () => [_.lil, _.masa],
+  etym: () => [_.le, _.masa],
 })
 
-export const lilimasa = _.word('lilimasa', {
+export const limasale = _.word('limasale', {
   noun: 'little spoon',
-  etym: () => [_.lil, _.limasa],
+  etym: () => [_.limasa, _.le],
 })
 
 // ========== alt
