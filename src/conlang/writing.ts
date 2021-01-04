@@ -21,6 +21,7 @@ const TELU: { [key: string]: string } = {
   ['^yih']: 'యిః',
   ['^pih']: 'పిః',
 
+  // ka.ˈˌ˴ˌˈˌla
   // /z/ sound = made with alt+T = ఠ /ʈʰ/
   // /ʋ/ sound = made with v     = వ
   // /ʃ/ sound = made with x     = ష

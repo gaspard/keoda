@@ -21,3 +21,14 @@ export const leirumi = _.word('leirumi', {
   verb: 'to embrace time, to live',
   see: () => [_.em],
 })
+
+export const rumo = _.word('rumo', {
+  verb: 'to throw',
+})
+
+// === alt
+
+export const arumo = _.alt('arumo', {
+  glo: '3SG.**throw**',
+  alt: () => _.rumo,
+})

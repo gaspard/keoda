@@ -69,7 +69,7 @@ const Aspect = styled.div`
   margin-top: 6px;
   &.writ {
     font-family: 'Telugu';
-    font-size: 1.1rem;
+    font-size: 110%;
     opacity: 0.4;
   }
   &.name {

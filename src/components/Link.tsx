@@ -31,11 +31,11 @@ const Wrapper = styled.span`
 const Anchor = styled.a`
   color: inherit;
   .Title &.writ {
-    font-size: 1.3rem;
+    font-size: 130%;
   }
   &.writ {
     font-family: 'Telugu';
-    font-size: 1.1rem;
+    font-size: 110%;
     font-weight: normal;
   }
   &:not(.out) {
@@ -56,7 +56,7 @@ export const Link: Comp<LinkProps> = ({ className, id, fromMd, children }) => {
   }
   const [type] = id.split('-')
   if (type === 'phrase') {
-    return <Phrase id={id} />
+    return <Phrase id={id} fromMd={fromMd} />
   }
   const entry = getEntry(ctx, id)
   if (!entry) {

@@ -27,8 +27,7 @@ The powers of ten:
 
 ## Some examples:
 
-* ${_.phrase('14', _.pi, _.i10, _.ka4)}
-* or ${_.phrase('14', _.i10, _.ka4)}
+* ${_.phrase('14', _.i10, _.ka4)}
 * ${_.phrase('24', _.de2, _.i10, _.ka4)}
 * ${_.phrase('359', _.pe3, _.ipa, _.le5, _.i10, _.da9)}
 * ${_.phrase('2019', _.de2, _.ipu, _.i10, _.da9)}
@@ -36,16 +35,16 @@ The powers of ten:
 
 ## Big numbers !
 
-* 1000^2: ${_.phrase('million', _.ipu, _.de2, _.uki)}
-* 1000^3: ${_.phrase('billion', _.ipu, _.pe3, _.uki)}
-* 1000^4: ${_.phrase('trillion', _.ipu, _.ka4, _.uki)}
+* ${_.phrase('million (1000^2)', _.ipu, _.de2, _.uki)}
+* ${_.phrase('billion (1000^3)', _.ipu, _.pe3, _.uki)}
+* ${_.phrase('trillion (1000^4)', _.ipu, _.ka4, _.uki)}
 
 We can also express powers of ten ${_.phrase('10^4', _.ipa, _.ka, _.uki)}.
 
 ## Small numbers
 
-* 10^-1: ${_.phrase('tenth', _.i10, _.iki)}
-* 10^-2: ${_.phrase('hundredth', _.i10, _.de, _.iki)}
-* 10^-3: ${_.phrase('thouandth', _.i10, _.pe, _.iki)}
+* ${_.phrase('tenth (10^-1)', _.i10, _.iki)}
+* ${_.phrase('hundredth (10^-2)', _.i10, _.de, _.iki)}
+* ${_.phrase('thouandth (10^-3)', _.i10, _.pe, _.iki)}
 `,
 })

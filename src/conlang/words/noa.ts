@@ -12,3 +12,8 @@ export const noati = _.alt('noati', {
   glo: '**skin**.2SG.POSS',
   alt: () => _.noa,
 })
+
+export const fenoati = _.alt('fenoati', {
+  glo: 'SUPESS.**skin**.2SG.POSS',
+  alt: () => _.noa,
+})

@@ -31,6 +31,8 @@ export interface EntryInfo {
   phrase: string
   // ???
   person: string
+  // phrase options
+  open?: boolean
 }
 
 export interface FullEntry extends EntryInfo {

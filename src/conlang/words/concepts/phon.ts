@@ -74,8 +74,10 @@ Words cannot end in ${
 
 Example: ${_.same} (foot) becomes ${_.samwe} (right foot).
 
-## Evolution
+## Current evolutions
 
-There is an ongoing evolution transforming 'au' into 'zu'.
+* Some dialects seem to be using \`/zu/\` instead of \`/au/\`.
+* There might be a trend to change \`/dʒ/\` into \`/ʒ/\`. 
+
 `,
 })

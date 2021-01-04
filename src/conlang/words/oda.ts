@@ -90,6 +90,11 @@ export const odahem = _.alt('odahem', {
 })
 
 export const odam = _.alt('odam', {
-  glo: '**body**.DAT',
+  glo: '**body**.ACC',
+  alt: () => _.oda,
+})
+
+export const nioda = _.alt('nioda', {
+  glo: 'DAT.**body**',
   alt: () => _.oda,
 })

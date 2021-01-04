@@ -57,14 +57,14 @@ export const masa = _.word('masa', {
   etym: () => [_.ma, _.sa],
 })
 
-export const limasa = _.word('limasa', {
+export const masale = _.word('masale', {
   noun: 'spoon',
-  etym: () => [_.le, _.masa],
+  etym: () => [_.masa, _.le],
 })
 
-export const limasale = _.word('limasale', {
+export const masalele = _.word('masalele', {
   noun: 'little spoon',
-  etym: () => [_.limasa, _.le],
+  etym: () => [_.masale, _.le],
 })
 
 // ========== alt
@@ -86,5 +86,10 @@ export const matoham = _.alt('matoham', {
 
 export const maham = _.alt('maham', {
   glo: '**hand**.ACC',
+  alt: () => _.ma,
+})
+
+export const fuma = _.alt('fuma', {
+  glo: 'ERG.**hand**',
   alt: () => _.ma,
 })

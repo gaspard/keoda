@@ -38,12 +38,20 @@ function makeId() {
 export const PHRASE_ORIG: { entry?: Entry } = {}
 
 export function phrase(trad: string, ...args: Entry[]) {
-  const p = entry('phrase', makeId(), { trad, words: () => args })
+  return makePhrase({ trad, words: () => args })
+}
+
+export function ophrase(trad: string, ...args: Entry[]) {
+  return makePhrase({ trad, words: () => args, open: true })
+}
+
+function makePhrase(definition: EntryDefinition) {
+  const p = entry('phrase', makeId(), definition)
   const e = PHRASE_ORIG.entry
   if (e) {
     p.see = () => [e]
   }
-  args.forEach(w => {
+  definition.words!().forEach(w => {
     const orig = w.alt ? w.alt() : w
     let { phrases } = orig
     if (!phrases) {

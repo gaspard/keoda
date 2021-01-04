@@ -8,13 +8,14 @@ export const fe = _.word('fe', {
   desc: () => `
 ${_.phrase('I like your nakedness.', _.ozu, _.nefenesti)}
   `,
+  see: () => [_.prep],
 })
 
-_.see(_.count)
-_.see(_.faj)
-
 export const fena = _.word('fena', {
-  noun: 'choux (couches), février',
+  noun: 'cabbage, February',
+  adj: 'layers',
+  etym: () => [_.fe, _.na],
+  see: () => [_.seasons, _.food],
 })
 
 export const feo = _.word('feo', {

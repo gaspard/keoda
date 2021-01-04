@@ -50,6 +50,11 @@ export const lana = _.word('lana', {
   etym: () => [_.la, _.na],
 })
 
+export const lanagu = _.word('lanagu', {
+  noun: 'insult',
+  etym: () => [_.lana, _.gu],
+})
+
 // ==================== ALT
 export const olalema = _.alt('olalema', {
   glo: '1SG.INDF.**kiss**.PST.HEST',
@@ -69,4 +74,14 @@ export const laham = _.alt('laham', {
 export const shalapa = _.alt('shalapa', {
   glo: '3PL.**talk**',
   see: () => [_.sha, _.lapa],
+})
+
+export const alapa = _.alt('alapa', {
+  glo: '3SG.**talk**',
+  alt: () => _.lapa,
+})
+
+export const lanaguam = _.alt('lanaguam', {
+  glo: '**insult**.ACC',
+  alt: () => _.lanagu,
 })

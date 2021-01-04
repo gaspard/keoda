@@ -2,54 +2,155 @@ import * as _ from '..'
 
 export const Jane = _.word('Jane', {
   noun: 'Jane',
+  phon: '/dʒan/',
   writ: 'జాఁ',
 })
 export const Janeam = _.alt('Janeam', {
   glo: '**Jane**.ACC',
+  phon: '/dʒanam/',
   writ: 'జానాం',
   alt: () => _.Jane,
 })
 export const fuJane = _.alt('fuJane', {
-  glo: 'SBJ.**Jane**',
+  glo: 'ERG.**Jane**',
+  phon: '/fudʒan/',
   writ: 'చుజాఁ',
   alt: () => _.Jane,
 })
 export const niJane = _.alt('niJane', {
   glo: 'DAT.**Jane**',
   writ: 'నిజాఁ',
+  phon: '/nidʒan/',
   alt: () => _.Jane,
 })
 
 export const John = _.word('John', {
   noun: 'John',
+  phon: '/dʒɔn/',
   writ: 'జోఁ',
 })
 export const Johnam = _.alt('Johnam', {
   writ: 'జోనాం',
+  phon: '/dʒɔnam/',
   glo: '**John**.ACC',
+  alt: () => _.John,
+})
+export const niJohn = _.alt('niJohn', {
+  writ: 'నిజోఁ',
+  phon: '/nidʒɔn/',
+  glo: 'DAT.**John**',
   alt: () => _.John,
 })
 
 export const order = _.card('order', {
-  lang: 'Word order',
+  lang: 'Word order and cases',
   desc: () => `
-Word order evolved to not matter so that we can put emphasis and
-expectation on any part of the phrase.
+Word order evolved to be nearly free so that we can put emphasis and
+expectation on any part of the phrase, helping identify the [theme](https://en.wikipedia.org/wiki/Topic_and_comment) and the
+[rheme](https://en.wikipedia.org/wiki/Topic_and_comment), the topic and the comment, the known and the unknown, the old information and the new.
 
-In our imaginary context, Jane is the Domina and John's butt is the
-receiver of the action. Talking to friends we want to tell that Jane
-will be whipping John's butt putting emphasis (i.e revealing last) on
-any part of this action. So here are the different parts:
+In order to be able to move words and sub phrases around, we use three cases:
 
-1. Jane (Subject)
+* ${_.fu} *Ergative*: the doer (who)
+* ${_.am} *Accusative*: object / receiver (what)
+* ${_.ni} *Dative*: incidental receiver (to whom)
+
+For more information on accusative and dative, I found
+[this](http://courses.washington.edu/furman2/dative%20&%20accusative/expl-ex.htm)
+to be a good read.
+
+Ergative case marking is rare. It is only used when we want to emphasize
+who does the action or if the context is very confusing (for example when
+using body parts as subjects):
+
+${_.ophrase('On your skin, my hand walks.', _.fenoati, _.fuma, _.afen)}
+
+## Examples:
+
+In these examples, the english traductions are not meant to be grammatically
+correct because english is not a free word order language.
+
+${_.ophrase('Jane whips the butt of John', _.Jane, _.afo, _.palwu, _.Johnam)}
+
+${_.ophrase(
+  'John gives the ball to Jane',
+  _.John,
+  _.aguwu,
+  _.tameham,
+  _.niJane
+)}
+
+${_.ophrase(
+  'John talks about Iris to Jane',
+  _.John,
+  _.alapa,
+  _.Irisam,
+  _.niJane
+)}
+
+${_.ophrase(
+  'To John, insults, yells Jane.',
+  _.niJohn,
+  _.lanaguam,
+  _.ahaopa,
+  _.Jane
+)}
+
+## Some more examples
+
+${_.ophrase('Iris shows her eyes to Jane.', _.Iris, _.aguwu, _.fatam, _.niJane)}
+
+${_.ophrase(
+  'I always dream Iris and I make love to you.',
+  _.oyafalau,
+  _.eku,
+  _.Iris,
+  _.shu,
+  _.oda,
+  _.shozuzu,
+  _.idam
+)}
+
+${_.ophrase('They talk about John to me.', _.alapa, _.Johnam, _.nioda)}
+
+And in this one, "Jane" is the object of a preposition (the place where the
+all is thrown) and has no marking.
+
+${_.ophrase(
+  'John throws the ball at Jane',
+  _.John,
+  _.arumo,
+  _.tameham,
+  _.dona,
+  _.Jane
+)}
+
+## Accusative marking
+
+Here are some examples to show when accusative marking on grouped and ungrouped words of a noun phrase.
+
+${_.ophrase("They whip John's butt.", _.afo, _.John, _.palam)}
+
+${_.ophrase('They whip the butt of John.', _.afo, _.palwu, _.Johnam)}
+
+${_.ophrase('The butt, they whip (of) John.', _.palam, _.afo, _.Johnam)}
+
+---
+
+In our imaginary context, Jane is the Domina and John's butt is the receiver
+of the action. Talking to friends we want to tell that Jane will be whipping
+John's butt putting emphasis on any part of this action by suspending
+discourse and revealing the crux of the action last. So here are the
+different parts:
+
+1. Jane (Subject, optional ergative case ${_.fu})
 2. will (Tense)
 3. whip (Verb)
-4. John's (Receiver)
-5. butt (Body part)
+4. John's butt (Receiver, accusative ${_.am})
 
 ## 1. Emphasis on the subject
 
-${_.phrase(
+${_.ophrase(
   'The butt of John will be whipped by ... Jane.',
   _.palwu,
   _.Johnam,
@@ -64,10 +165,10 @@ Note that here we do not say ${_.phrase(
     _.palwu,
     _.Johnam
   )} because pal is seen
-as part of the verb "to whip a butt". Body parts tend to stick to verbs and actions. Don't ask me
-why.
+as part of the verb "to whip a butt". Body parts tend to stick to verbs and
+actions. Don't ask me why.
 
-${_.phrase(
+${_.ophrase(
   'There will be a whipping of butt of John by Jane... tonight.',
   _.fo,
   _.pal,
@@ -78,7 +179,7 @@ ${_.phrase(
 
 ## 3. Emphasis on the verb
 
-${_.phrase(
+${_.ophrase(
   "By Jane on John's butt, tonight, there will be a whipping.",
   _.fuJane,
   _.John,
@@ -88,7 +189,7 @@ ${_.phrase(
 
 ## 4. Emphasis on the receiver
 
-${_.phrase(
+${_.ophrase(
   'Jane will whip tonight the butt of ... John.',
   _.Jane,
   _.afoliri,
@@ -98,7 +199,7 @@ ${_.phrase(
 
 ## 5. Emphasis on the body part
 
-${_.phrase(
+${_.ophrase(
   "Jane will whip tonight John's butt.",
   _.Jane,
   _.afoliri,
@@ -106,19 +207,23 @@ ${_.phrase(
   _.palam
 )}
 
-# Accusative and dative
+---
 
-${_.phrase('Iris shows her eyes to Jane.', _.Iris, _.aguwu, _.fatam, _.niJane)}
+## One last word
 
-${_.phrase(
-  'I always dream Iris and I make love to you.',
-  _.oyafalau,
-  _.eku,
-  _.Iris,
-  _.shu,
-  _.oda,
-  _.shozuzu,
-  _.idam
+The topic of the phrase can be further highlighted by ending the first part
+of the phrase with ${_.wa}. This allows a kind of pause before saying
+precisely what happens (the comment).
+
+We all know Jane loves to whip but we are really interested in knowing
+who's butt it will be: 
+
+${_.ophrase(
+  "Jane will whip tonight - wa ! - John's butt.",
+  _.Jane,
+  _.afoliriwa,
+  _.John,
+  _.palam
 )}
 `,
 })

@@ -4,11 +4,11 @@ export const Iris = _.word('Iris', {
   noun: 'Iris',
 })
 export const Irisam = _.alt('Irisam', {
-  glo: '**Iris**.DAT',
+  glo: '**Iris**.ACC',
   alt: () => _.Iris,
 })
 export const fuIris = _.alt('fuIris', {
-  glo: 'SBJ.**Iris**',
+  glo: 'ERG.**Iris**',
   alt: () => _.Iris,
 })
 
@@ -39,10 +39,15 @@ ${_.phrase('I like when you undress (your-self).', _.ozu, _.lau, _.esyinefe)}
 * ${_.di} (who)
 * ${_.dim} (whom)
 * ${_.eku} (that)
-* ${_.fu} (by)
+* ${_.fu} (by*)
 * ${_.ko} (with)
 * ${_.es} (self)
-* ${_.ni} (to.SBJ)
+* ${_.ni} (to*)
+
+\* ${_.fu} and ${_.ni} are prefix that modify the noun to \`ERG\`
+and \`DAT\` cases respectively. Think of ${_.fuJane} as meaning "does Jane".
+
+See word order for more on cases: ${_.order}
 
 ${_.phrase('Iris whom you caressed.', _.Irisam, _.dim, _.imilema)}
 

@@ -6,7 +6,19 @@ export const food = _.card('food', {
 
 See also ${_.fruits}.
 
-* peas ${_.piule}
+* ${_.piule} (peas)
+* ${_.egina} (chicory)
+* ${_.fena} (cabbage) 
+* ${_.piutaj} (leek) 
+* ${_.ulul} (asparagus) 
+* ${_.piuna} (spinach) 
+* ${_.erina} (cherry) 
+* ${_.palajil} (apricot) 
+* ${_.pantame} (tomato) 
+* ${_.wiyon} (prune) 
+* ${_.gopona} (squash) 
+* ${_.pona} (orange) 
+* ${_.ponale} (tangerine) 
 
 `,
 })
