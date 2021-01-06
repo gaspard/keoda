@@ -18,12 +18,14 @@ ${_.phrase(
   _.don,
   _.namel,
   _.oda_adj
-)}  
+)}
+
 ${_.phrase(
   'Laissent parfois sortir de confuses paroles;',
   _.shalapa,
   _.nega_adv
-)}  
+)}
+
 ${_.phrase(
   "L'homme y passe à travers des forêts de symboles",
   _.tu,
@@ -31,8 +33,9 @@ ${_.phrase(
   _.afen,
   _.janaro,
   _.mei,
-  _.lana
-)}  
+  _.lapana
+)}
+
 ${_.phrase(
   "Qui l'observent avec des regards familiers.",
   _.di,
@@ -41,7 +44,8 @@ ${_.phrase(
   _.sha,
   _.fa,
   _.lae
-)}  
+)}
+
 ${_.phrase(
   'Comme de longs échos qui de loin se confondent...',
   _.si,
@@ -49,7 +53,8 @@ ${_.phrase(
   _.di,
   _.hadau,
   _.esshanele
-)}  
+)}
+
 `,
 })
 

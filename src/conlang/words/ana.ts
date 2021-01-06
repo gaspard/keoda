@@ -8,6 +8,12 @@ export const ana = _.word('ana', {
   see: () => [_.genders, _.plants],
 })
 
+export const lana = _.word('lana', {
+  noun: 'she',
+  glo: '3SG.FEM',
+  see: () => [_.pron],
+})
+
 export const anawi = _.word('anawi', {
   noun: 'medusa',
   etym: () => [_.ana, _.awi],
@@ -59,4 +65,9 @@ export const anasame = _.word('anasame', {
 export const anam = _.alt('anam', {
   glo: '**feminine**.ACC',
   alt: () => _.ana,
+})
+
+export const lanam = _.alt('lanam', {
+  glo: '**her**.ACC',
+  alt: () => _.lana,
 })

@@ -23,7 +23,10 @@ export interface KeodaConfig {
   onInitialize: (ctx: Overmind<KeodaConfig>) => void
   state: {
     keoda: {
+      // Show telugu writing
       writ?: boolean
+      // Show nsfw content
+      nsfw?: boolean
       selected?: string
       float?: FloatArg
       filter?: Filter

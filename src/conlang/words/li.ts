@@ -34,3 +34,10 @@ export const ligau = _.word('ligau', {
   etym: () => [_.li, _.gau],
 })
 _.see(_.karu)
+
+// === alt
+
+export const oheskelilir = _.alt('oheskelilir', {
+  glo: '1SG.INDF.INTR.**lick**.FUT',
+  alt: () => _.keli,
+})

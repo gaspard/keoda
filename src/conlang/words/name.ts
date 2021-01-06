@@ -4,6 +4,11 @@ export const name = _.word('name', {
   noun: 'wood',
 })
 
+export const ajaname = _.word('ajaname', {
+  noun: 'ash',
+  etym: () => [_.aj, _.name],
+})
+
 export const kaname = _.word('kaname', {
   noun: 'chair',
   etym: () => [_.ka, _.name],

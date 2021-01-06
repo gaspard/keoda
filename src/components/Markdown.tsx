@@ -6,22 +6,23 @@ import gfm from 'remark-gfm'
 
 export interface MarkdownProps {
   className?: string
+  type: 'md' | 'md-open'
   text: string
 }
 
-const renderers = {
-  link: ({
-    href,
-    children,
-  }: {
-    href: string
-    children: React.ElementType[]
-  }) => {
-    return <Link id={href} fromMd children={children} />
-  },
-}
+export const Markdown: Comp<MarkdownProps> = ({ type, text }) => {
+  const renderers = {
+    link: ({
+      href,
+      children,
+    }: {
+      href: string
+      children: React.ElementType[]
+    }) => {
+      return <Link id={href} type={type} children={children} />
+    },
+  }
 
-export const Markdown: Comp<MarkdownProps> = ({ className, text }) => {
   return (
     <ReactMarkdown plugins={[gfm]} renderers={renderers}>
       {text}

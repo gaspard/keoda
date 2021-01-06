@@ -1,7 +1,6 @@
 import * as _ from '..'
 
 export const kedana = _.card('kedana', {
-  lang: 'Keotian geography',
   desc: () => `
 # Geography
 
@@ -20,11 +19,13 @@ create bonding, trust or simply as a way to explore the self ${_.pi}.
 
 ${_.phrase(
   'On earth, we enjoy the mystery of love making.',
-  _.ganaroa,
+  _.ganaro,
   _.ohau,
   _.zuzupa
 )}
 
-${_.phrase('Maybe in the past, I lived in Gana.', _.ohemleme, _.ganaroa)}
+${_.phrase('Maybe in the past, I lived in Gana.', _.ohemleme, _.ganaro)}
+
+Your next read: ${_.verbs} (conjugation)
 `,
 })

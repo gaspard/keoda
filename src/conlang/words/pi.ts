@@ -9,7 +9,6 @@ export const pi = _.word('pi', {
 })
 _.see(_.count)
 _.see(_.pio)
-_.see(_.ajapi)
 
 export const pida = _.word('pida', {
   pron: 'me',

@@ -26,6 +26,14 @@ export const falo = _.word('falo', {
 ${_.phrase("Don't be sad.", _.nefalo)}`,
 })
 
+export const fahata = _.word('fahata', {
+  noun: 'mirror',
+  verb: 'to reflect',
+  etym: () => [_.fa, _.ta],
+})
+
+// === alt
+
 export const nefalo = _.alt('nefalo', {
   glo: 'NEG.**be sad**',
   alt: () => _.falo,
@@ -38,5 +46,25 @@ export const faham = _.alt('faham', {
 
 export const fatam = _.alt('fatam', {
   glo: '**eyes**.3SG.POSS.ACC',
+  alt: () => _.fa,
+})
+
+export const ifa = _.alt('ifa', {
+  glo: '2SG.**see**',
+  alt: () => _.fa,
+})
+
+export const ofa = _.alt('ofa', {
+  glo: '1SG.INDF.**look**',
+  alt: () => _.fa,
+})
+
+export const fahatam = _.alt('fahatam', {
+  glo: '**mirror**.ACC',
+  alt: () => _.fahata,
+})
+
+export const shafa = _.alt('shafa', {
+  glo: '3PL.**look**',
   alt: () => _.fa,
 })

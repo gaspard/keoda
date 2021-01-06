@@ -1,44 +1,55 @@
 import * as _ from '..'
 
 export const verbs = _.card('verbs', {
-  lang: 'verbs and conjugation',
   desc: () => `
-Many nouns are also verbs such as ${_.fa} or ${_.fen}.
+# Verbs and conjugation
 
-This language was born from an imaginary place where love making is one of the most important activity of adults and this results in a rich vocabulary to talk about caressing, slapping, pinching and playing with body parts.
+Many nouns are also verbs such as ${_.fa}, ${_.fen}, ${_.yin}, ${_.taj}.
 
-# ${_.i}, ${_.u}, ${_.o} suffix
+One of the particularities of this language is the use of three suffix
+used to mark cases related to the body: 
 
-These alter the verbs respectively to mean "caressing" or gentle, "pinching" and slapping or hurting.
+* ${_.i} (CARE)
+* ${_.u} (ABL)
+* ${_.o} (ALL)
 
-* ${_.phrase('caress my back', _.mi, _.nopi)}
-* ${_.phrase('pinch my nipple', _.mu, _.hamun)}
-* ${_.phrase('hit my buttock', _.mo, _.pal)}
+These alter the verbs respectively to mean "caring" or gentle, "pulling" and "pushing" or intensity.
 
-The very first use of the language was to ask a sexual partner to do something so the imperative form is the simplest and looks like the infinitiv.
+* ${_.phrase('Caress (i) my long hair.', _.mi, _.jihukiam)}
+* ${_.phrase('You breath (u) fresh air.', _.isheu, _.shehegiam)}
+* ${_.phrase('Yesterdan, you threw (o) the ball.', _.irumolema, _.tameham)}
 
-Phrase do not have precise verb, subject or object positioning. We
+#### nsfw
+
+* ${_.phrase('Pinch my nipple.', _.mu, _.hamunam)}
+* ${_.phrase('Whip my butt.', _.fo, _.palam)}
+
+The simplest tense is the imperative which looks like the infinitive.
+
+* ${_.phrase('Kiss my cheek (face).', _.la, _.duham)}
+
+Phrases do not have precise verb, subject or object positioning. We
 use the accusative (target) and sometimes dative (receiver) to
 remove ambiguity.
 
-* ${_.phrase('Kiss hand !', _.la, _.maham)}
-* ${_.phrase('Lips touch !', _.laham, _.ma)}
-* ${_.phrase('Kiss me !', _.la, _.la)}
+* ${_.phrase('Touch my lips.', _.ma, _.laham)}
+* ${_.phrase('My hand, kiss.', _.maham, _.la)}
+* ${_.phrase('Kiss me.', _.la, _.lam)}
 
-Since the last example is not ambiguous, case ${_.am} is not required.
+Some verbs-noun actions are so common that they fuse and "kiss my lips"
+becomes "kiss-lips" as its own verb:
 
-It really depends where we want to put the emphasis (on the kissing or on who
-is to be kissed).
+* ${_.phrase('Kiss-lips.', _.lala)}
 
-See ${_.order} for more...
+For more information on word order: ${_.order}
 
 # Conjugation
 
-For other tenses apart from imperative, the conjugation *comes first*. This is because it is an evolution
-from *subject verb* to *subjectverb*:
+For other tenses, the conjugation comes *first*. This is because it is an
+evolution from *subject verb case* to *subject.verb.case*:
 
-* ${_.phrase('we pull mouth', _.sho, _.li, _.u)}
-* evolved into ${_.phrase('we eat', _.sholiu)}
+* ${_.phrase('We mouth pull', _.sho, _.li, _.u)}
+* ${_.phrase('We eat.', _.sholiu)}
 
 So the possible conjugations are the same as the possible subjects:
 
@@ -64,31 +75,40 @@ So the possible conjugations are the same as the possible subjects:
 
 We also have ${_.shoyi}, ${_.shokei}, etc. You get the idea.
 
-In case you haven't noticed, there is some consistency with ${_.pron} and
-${_.poss}.
+In case you haven't noticed, there is some consistency with:
+
+* ${_.pron} (pronouns)
+* ${_.poss} (possessivity)
 
 ## Passive voices
 
-To express passive phrases, we simply use accusative case ${_.am} suffix and
-the infinitive verb:
+To express passive voice, we have the intransitive case ${_.es} prefix:
 
-${_.phrase('I will be whipped.', _.odam, _.folir)}
+* ${_.phrase('I will be massaged.', _.ohesmalir)}
 
-But we can also conjugate the verb:
+#### nsfw
 
-${_.phrase('I will be whipped by some people.', _.odam, _.pefolir)}
+* ${_.phrase('The pussy, I will be licked.', _.yonam, _.oheskelilir)}
 
 ## Honorific / tiny
 
-This is important. In many role play it is great to have Dom/sub
-relationships, one that is in control and another who is passive. In order to
-emphasise this setting, the Dominant is referred to as "fantastic" ${_.kei}
-and the sub as "tiny" ${_.yi} or "wet" ${_.lo}.
+This idea of Honorific/tiny was inspired by BDSM power exchange and role play
+but it transformed quite a lot to express something closer to the person
+taking care (parent) and the innocent being taken care of (child). This is
+also present in the BDSM Dom/sub relationship but I wanted something that
+focussed more on expressing respect for the responsabilty of the "carer"
+(${_.keda}) and the vulnerability of the "cared for" (${_.yida}).
 
-This translates in possesive suffix ${_.tei}, ${_.toyi}, ${
-    _.tolo
-  } or conjugations
-using ${_.kei} or the affix ${_.ei} or ${_.yi}.
+#### nsfw
+
+For more BDSM and sexual contexts, the Dominant is still referred to as
+"fantastic" ${_.keda} but the sub is refered to as "wet" ${_.loda} instead of
+"tiny" ${_.yida}.
+
+You can look at ${_.pron}
+
+This translates in possesive suffix ${_.tei}, ${_.toyi}, ${_.tolo} or
+conjugations using ${_.kei} or the affix ${_.ei} or ${_.yi}.
 
 ${_.phrase('I am ready, Master.', _.yihe, _.sen, _.keda)}
 
@@ -133,6 +153,6 @@ language originated.
 * ${_.phrase('yesterday, I kissed a girl.', _.olalema, _.anam)}
 * ${_.phrase('They might love you someday.', _.azulire, _.autim)}
 
-You might want to read ${_.order} next.
+Your next read: ${_.order} (word order)
 `,
 })

@@ -17,5 +17,7 @@ And as with all adjecives, they can be combined:
 * ${_.iwoto}
 * ${_.otana}
 * ${_.otiwi}
+
+Your next read: ${_.pron} (pronouns)
 `,
 })

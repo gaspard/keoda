@@ -7,20 +7,19 @@ import { Markdown } from './Markdown'
 
 export interface DerivedProps {
   className?: string
-  phrase?: boolean
+  type?: 'md' | 'md-open'
   glo?: boolean
   entries: string[]
 }
 
 export const ListWrapper = styled.div`
   flex-wrap: wrap;
-  padding-left: 5px;
   display: flex;
+  align-self: flex-start;
   flex-direction: row;
-  align-self: center;
   &.etym a {
     color: #222;
-    font-weight: bold;
+    font-weight: 500;
   }
   &.phrase {
     margin: 0;
@@ -28,8 +27,8 @@ export const ListWrapper = styled.div`
   &.phrases {
     flex-direction: column;
   }
-  &.phrases > * {
-    margin: 5px 0;
+  &.phrases > *:not(:first-child) {
+    margin-top: 5px;
   }
   &.phrase.glo {
     display: flex;
@@ -50,7 +49,6 @@ const Detail = styled.div`
   margin-right: 15px;
   margin: 8px 15px;
   & > p {
-    font-style: normal;
     font-family: Monaco;
     font-size: 0.9rem;
     margin-top: 6px;
@@ -63,7 +61,6 @@ const Detail = styled.div`
 `
 
 const Aspect = styled.div`
-  font-style: normal;
   font-family: Monaco;
   font-size: 0.9rem;
   margin-top: 6px;
@@ -99,24 +96,21 @@ export const GlossAndLink: Comp<LinkProps> = props => {
       <Aspect className={writ ? 'name' : 'writ'}>
         {writ ? entry.name : entry.writ}
       </Aspect>
-      <Markdown text={entry.glo!} />
+      <Markdown text={entry.glo!} type="md" />
     </Detail>
   )
 }
 
-export const List: Comp<DerivedProps> = ({
-  className,
-  entries,
-  phrase,
-  glo,
-}) => {
+export const List: Comp<DerivedProps> = ({ className, entries, type, glo }) => {
   return (
-    <ListWrapper className={classnames(className, { phrase, glo })}>
+    <ListWrapper
+      className={classnames(className, { phrase: type !== undefined, glo })}
+    >
       {entries.map(key =>
         glo ? (
-          <GlossAndLink id={key} fromMd={phrase} />
+          <GlossAndLink id={key} type={type} />
         ) : (
-          <Link id={key} fromMd={phrase} />
+          <Link id={key} type={type} />
         )
       )}
     </ListWrapper>

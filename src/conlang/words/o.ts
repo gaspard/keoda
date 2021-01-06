@@ -3,7 +3,7 @@ import * as _ from '.'
 export const o = _.word('o', {
   suffix: 'hit, hurt',
   conj: 'I/we (1SG.INDF)',
-  glo: 'HIT',
+  glo: 'ALL',
   see: () => [_.to, _.verbs],
 })
 

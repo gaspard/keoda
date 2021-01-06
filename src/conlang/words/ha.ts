@@ -27,6 +27,11 @@ export const duha = _.word('duha', {
   etym: () => [_.du, _.ha],
 })
 
+export const duhasha = _.word('duhasha', {
+  verb: 'to laugh',
+  etym: () => [_.duha, _.sha],
+})
+
 export const hawe = _.word('hawe', {
   noun: 'right cheek',
   etym: () => [_.ha, _.we],
@@ -68,5 +73,25 @@ export const hato = _.word('hato', {
 // === alt
 export const feduhati = _.alt('feduhati', {
   glo: 'SUPESS.**face**.POSS.2SG',
+  alt: () => _.duha,
+})
+
+export const iduhasha = _.alt('iduhasha', {
+  glo: '2SG.**laugh**',
+  alt: () => _.duhasha,
+})
+
+export const duhashati = _.alt('duhashati', {
+  glo: '**laugh**.POSS.2SG',
+  alt: () => _.duhasha,
+})
+
+export const duhawu = _.alt('duhawu', {
+  glo: '**face**.POSS',
+  alt: () => _.duha,
+})
+
+export const duham = _.alt('duham', {
+  glo: '**face**.ACC',
   alt: () => _.duha,
 })

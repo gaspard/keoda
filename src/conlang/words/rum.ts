@@ -32,3 +32,8 @@ export const arumo = _.alt('arumo', {
   glo: '3SG.**throw**',
   alt: () => _.rumo,
 })
+
+export const irumolema = _.alt('irumolema', {
+  glo: '2SG.**throw**.PST.HEST',
+  alt: () => _.lema,
+})

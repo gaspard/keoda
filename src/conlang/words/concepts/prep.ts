@@ -83,6 +83,7 @@ ${_.phrase('Did you caress Iris ?', _.eja, _.Irisam, _.imileme, _.q)}
 # Composability
 
 * ${_.mei} (made of)
+* ${_.ru} (become)
 
 # Articulation
 

@@ -3,7 +3,7 @@ import * as _ from '.'
 export const i = _.word('i', {
   suffix: 'caress',
   conj: 'you (2SG)',
-  glo: 'CARES',
+  glo: 'CARE',
   see: () => [_.ti, _.verbs],
 })
 

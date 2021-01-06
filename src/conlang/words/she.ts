@@ -1,7 +1,13 @@
 import * as _ from '.'
 
-export const she = _.word('she', { noun: `l'air` })
-_.see(_.oto)
+export const she = _.word('she', {
+  noun: 'air',
+  see: () => [_.oto],
+})
 
-_.see(_.sheu)
-_.see(_.shei)
+// === alt
+
+export const shehegiam = _.alt('shehegiam', {
+  glo: '**air**.*fresh*.ACC',
+  alt: () => _.she,
+})

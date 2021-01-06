@@ -5,7 +5,5 @@ export const hem = _.word('hem', {
   suffix: 'offered',
   desc: () => `
 Important compliment which means "I see what you are offering to me".
-
-For example: ${_.phrase('Offered body.', _.odahem)}
 `,
 })

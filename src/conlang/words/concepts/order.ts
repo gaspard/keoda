@@ -43,11 +43,16 @@ export const niJohn = _.alt('niJohn', {
 })
 
 export const order = _.card('order', {
-  lang: 'Word order and cases',
+  open: true,
   desc: () => `
 Word order evolved to be nearly free so that we can put emphasis and
 expectation on any part of the phrase, helping identify the [theme](https://en.wikipedia.org/wiki/Topic_and_comment) and the
 [rheme](https://en.wikipedia.org/wiki/Topic_and_comment), the topic and the comment, the known and the unknown, the old information and the new.
+
+##### note 
+
+Click on the "i" emoji on the top right corner of this card to hide/show gloss and
+traductions for all phrases on this card.
 
 In order to be able to move words and sub phrases around, we use three cases:
 
@@ -63,24 +68,18 @@ Ergative case marking is rare. It is only used when we want to emphasize
 who does the action or if the context is very confusing (for example when
 using body parts as subjects):
 
-${_.ophrase('On your skin, my hand walks.', _.fenoati, _.fuma, _.afen)}
+${_.phrase('On your skin, my hand walks.', _.fenoati, _.fuma, _.afen)}
 
 ## Examples:
 
 In these examples, the english traductions are not meant to be grammatically
 correct because english is not a free word order language.
 
-${_.ophrase('Jane whips the butt of John', _.Jane, _.afo, _.palwu, _.Johnam)}
+${_.phrase('Jane whips the butt of John', _.Jane, _.afo, _.palwu, _.Johnam)}
 
-${_.ophrase(
-  'John gives the ball to Jane',
-  _.John,
-  _.aguwu,
-  _.tameham,
-  _.niJane
-)}
+${_.phrase('John gives the ball to Jane', _.John, _.aguwu, _.tameham, _.niJane)}
 
-${_.ophrase(
+${_.phrase(
   'John talks about Iris to Jane',
   _.John,
   _.alapa,
@@ -88,7 +87,7 @@ ${_.ophrase(
   _.niJane
 )}
 
-${_.ophrase(
+${_.phrase(
   'To John, insults, yells Jane.',
   _.niJohn,
   _.lanaguam,
@@ -98,9 +97,9 @@ ${_.ophrase(
 
 ## Some more examples
 
-${_.ophrase('Iris shows her eyes to Jane.', _.Iris, _.aguwu, _.fatam, _.niJane)}
+${_.phrase('Iris shows her eyes to Jane.', _.Iris, _.aguwu, _.fatam, _.niJane)}
 
-${_.ophrase(
+${_.phrase(
   'I always dream Iris and I make love to you.',
   _.oyafalau,
   _.eku,
@@ -111,12 +110,12 @@ ${_.ophrase(
   _.idam
 )}
 
-${_.ophrase('They talk about John to me.', _.alapa, _.Johnam, _.nioda)}
+${_.phrase('They talk about John to me.', _.alapa, _.Johnam, _.nioda)}
 
 And in this one, "Jane" is the object of a preposition (the place where the
 all is thrown) and has no marking.
 
-${_.ophrase(
+${_.phrase(
   'John throws the ball at Jane',
   _.John,
   _.arumo,
@@ -129,11 +128,11 @@ ${_.ophrase(
 
 Here are some examples to show when accusative marking on grouped and ungrouped words of a noun phrase.
 
-${_.ophrase("They whip John's butt.", _.afo, _.John, _.palam)}
+${_.phrase("They whip John's butt.", _.afo, _.John, _.palam)}
 
-${_.ophrase('They whip the butt of John.', _.afo, _.palwu, _.Johnam)}
+${_.phrase('They whip the butt of John.', _.afo, _.palwu, _.Johnam)}
 
-${_.ophrase('The butt, they whip (of) John.', _.palam, _.afo, _.Johnam)}
+${_.phrase('The butt, they whip (of) John.', _.palam, _.afo, _.Johnam)}
 
 ---
 
@@ -150,7 +149,7 @@ different parts:
 
 ## 1. Emphasis on the subject
 
-${_.ophrase(
+${_.phrase(
   'The butt of John will be whipped by ... Jane.',
   _.palwu,
   _.Johnam,
@@ -168,7 +167,7 @@ Note that here we do not say ${_.phrase(
 as part of the verb "to whip a butt". Body parts tend to stick to verbs and
 actions. Don't ask me why.
 
-${_.ophrase(
+${_.phrase(
   'There will be a whipping of butt of John by Jane... tonight.',
   _.fo,
   _.pal,
@@ -179,7 +178,7 @@ ${_.ophrase(
 
 ## 3. Emphasis on the verb
 
-${_.ophrase(
+${_.phrase(
   "By Jane on John's butt, tonight, there will be a whipping.",
   _.fuJane,
   _.John,
@@ -189,7 +188,7 @@ ${_.ophrase(
 
 ## 4. Emphasis on the receiver
 
-${_.ophrase(
+${_.phrase(
   'Jane will whip tonight the butt of ... John.',
   _.Jane,
   _.afoliri,
@@ -199,7 +198,7 @@ ${_.ophrase(
 
 ## 5. Emphasis on the body part
 
-${_.ophrase(
+${_.phrase(
   "Jane will whip tonight John's butt.",
   _.Jane,
   _.afoliri,
@@ -218,12 +217,14 @@ precisely what happens (the comment).
 We all know Jane loves to whip but we are really interested in knowing
 who's butt it will be: 
 
-${_.ophrase(
+${_.phrase(
   "Jane will whip tonight - wa ! - John's butt.",
   _.Jane,
   _.afoliriwa,
   _.John,
   _.palam
 )}
+
+Your next read: ${_.genders} (genders)
 `,
 })

@@ -9,6 +9,7 @@ _.see(_.lir)
 _.see(_.lei)
 
 export const lemir = _.word('lemir', {
+  noun: 'eternity',
   suffix: 'always',
   etym: () => [_.lem, _.lir],
 })
@@ -26,4 +27,11 @@ export const elemir = _.word('elemir', {
 export const lemana = _.word('lemana', {
   noun: 'history',
   etym: () => [_.lem, _.na],
+})
+
+// === alt
+
+export const lemiram = _.alt('lemiram', {
+  glo: '**eternity**.ACC',
+  alt: () => _.lemir,
 })

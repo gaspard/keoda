@@ -35,7 +35,7 @@ _.see(_.nemafeyon)
 
 export const mu = _.word('mu', {
   verb: 'to pull',
-  glo: 'hand.VERB.PULL',
+  glo: 'hand.VERB.ABL',
   etym: () => [_.ma, _.u],
   see: () => [_.mi, _.mo],
 })
@@ -91,5 +91,15 @@ export const maham = _.alt('maham', {
 
 export const fuma = _.alt('fuma', {
   glo: 'ERG.**hand**',
+  alt: () => _.ma,
+})
+
+export const ohesmalir = _.alt('ohesmalir', {
+  glo: '1SG.INDF.INTR.**massage**.FUT',
+  alt: () => _.ma,
+})
+
+export const pemalir = _.alt('pemalir', {
+  glo: '3PL.INDF.**massage**.FUT',
   alt: () => _.ma,
 })

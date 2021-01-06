@@ -79,5 +79,6 @@ Example: ${_.same} (foot) becomes ${_.samwe} (right foot).
 * Some dialects seem to be using \`/zu/\` instead of \`/au/\`.
 * There might be a trend to change \`/dʒ/\` into \`/ʒ/\`. 
 
+Your next read: ${_.kedana} (geography)
 `,
 })

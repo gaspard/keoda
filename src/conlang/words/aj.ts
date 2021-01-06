@@ -6,9 +6,13 @@ export const aj = _.word('aj', {
 })
 
 export const ajapi = _.word('ajapi', {
-  noun: 'calcination de soi, transformation totale',
-  etym: () => [_.aj, _.pi],
+  verb: 'to burn the self',
+  see: () => [_.iwigui],
 })
 
-_.see(_.naj)
-_.see(_.ajale)
+// === alt
+
+export const esohajapi = _.alt('esohajapi', {
+  glo: 'INTR.1SG.INDF.**self-burn**',
+  alt: () => _.ajapi,
+})

@@ -32,3 +32,10 @@ export const muna = _.word('muna', {
   noun: 'baby bottle',
   etym: () => [_.mun, _.na],
 })
+
+// === alt
+
+export const hamunam = _.alt('hamunam', {
+  glo: '**nipple**.ACC',
+  alt: () => _.hamun,
+})

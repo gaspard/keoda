@@ -1,15 +1,17 @@
 import * as _ from '.'
 
 export const naj = _.word('naj', {
-  noun: 'frisson, nuage',
-  verb: 'frissonner',
+  noun: 'cloud',
+  verb: 'to shiver',
+  etym: () => [_.ne, _.aj],
 })
 
 export const najlo = _.word('najlo', {
-  noun: 'orgasme,pluie',
+  noun: 'orgasm, rain',
+  etym: () => [_.naj, _.lo],
 })
 
 export const najapa = _.word('najapa', {
-  noun: 'brouillard',
-  desc: () => `De ${_.naj} (nuage) et ${_.pa} (partout).`,
+  noun: 'fog',
+  etym: () => [_.naj, _.pa],
 })

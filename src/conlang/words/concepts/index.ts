@@ -18,4 +18,4 @@ export * from './prep'
 export * from './pron'
 export * from './seasons'
 export * from './verbs'
-
+export * from './sing'

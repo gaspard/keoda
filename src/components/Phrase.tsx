@@ -5,7 +5,7 @@ import { List } from './List'
 
 export interface PhraseProps {
   className?: string
-  fromMd?: boolean
+  type?: 'md' | 'md-open'
   id: string
 }
 
@@ -14,6 +14,9 @@ const Wrapper = styled.div`
   top: -3px;
   display: inline-flex;
   color: #222;
+  p > &:first-child {
+    margin-left: 10px;
+  }
   &:hover .Trad:not(.fix) {
     opacity: 0;
     visibility: hidden;
@@ -42,13 +45,12 @@ const Trad = styled.div`
   &.fix {
     margin: 5px 20px;
   }
-  font-style: normal;
 `
 
-const Info = styled.div`
+export const Info = styled.div`
   cursor: pointer;
-  font-style: normal;
   transform: translate(0, 1px);
+  padding-right: 5px;
   opacity: 0.5;
   font-size: 64%;
   filter: grayscale(80%);
@@ -57,7 +59,7 @@ const Info = styled.div`
     opacity: 0.7;
     filter: grayscale(0%);
   }
-  &.glo {
+  &.open {
     opacity: 1;
     filter: grayscale(0%);
   }
@@ -66,40 +68,39 @@ const Info = styled.div`
 const GWrap = styled.div`
   display: flex;
   flex-direction: column;
-  margin-left: 5px;
   font-weight: normal;
   font-size: 1rem;
 `
 
-export const Phrase: Comp<PhraseProps> = ({ className, fromMd, id }) => {
+export const Phrase: Comp<PhraseProps> = ({ className, type, id }) => {
   const ctx = useOvermind()
-  const [glo, setGlo] = React.useState(false)
+  const [open, setOpen] = React.useState(false)
   const phrase = getEntry(ctx, id)
   if (!phrase) {
     return null
   }
-  if (phrase.open && fromMd) {
+  if ((phrase.open && type === 'md') || type === 'md-open') {
     return (
       <Wrapper className={className}>
         <GWrap>
           <Trad className="Trad fix">{phrase.trad}</Trad>
-          <List phrase entries={phrase.words!} glo />
+          <List type={type} entries={phrase.words!} glo />
         </GWrap>
       </Wrapper>
     )
   } else {
     return (
       <Wrapper className={className}>
-        <Info onClick={() => setGlo(!glo)} className={glo ? 'glo' : ''}>
+        <Info onClick={() => setOpen(!open)} className={open ? 'open' : ''}>
           ℹ️
         </Info>
-        {glo ? (
+        {open ? (
           <GWrap>
             <Trad className="Trad">{phrase.trad}</Trad>
-            <List phrase entries={phrase.words!} glo />
+            <List type={type} entries={phrase.words!} glo />
           </GWrap>
         ) : (
-          <List phrase entries={phrase.words!} glo={glo} />
+          <List type={type} entries={phrase.words!} glo={open} />
         )}
       </Wrapper>
     )

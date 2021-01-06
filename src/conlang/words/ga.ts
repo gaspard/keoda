@@ -11,7 +11,7 @@ export const gana = _.word('gana', {
   see: () => [_.gunu],
 })
 
-export const ganaroa = _.alt('ganaroa', {
+export const ganaro = _.alt('ganaro', {
   glo: '**earth**.INESS',
   alt: () => _.gana,
 })

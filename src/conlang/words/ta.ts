@@ -5,5 +5,6 @@ export const ta = _.word('ta', {
   prefix: 'their',
   suffix: 'their',
   glo: 'POSS.3SG',
+  etym: () => [_.wu, _.lada],
   see: () => [_.poss],
 })

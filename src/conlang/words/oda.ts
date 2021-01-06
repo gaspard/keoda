@@ -7,7 +7,7 @@ export const yoda = _.word('yoda', {
 
 export const oda = _.word('oda', {
   noun: 'body, place of life',
-  pron: 'me/us',
+  pron: 'I/we',
   adj: 'alive',
   suffix: 'animal',
   glo: '**body**',

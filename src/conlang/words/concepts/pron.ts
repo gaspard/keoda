@@ -8,12 +8,23 @@ export const pron = _.card('pronouns', {
 In case you haven't noticed, there is some consistency with ${_.verbs} and
 ${_.poss}.
 
-* ${_.oda} (me/us)
+Without gender
+
+* ${_.oda} (I/we)
 * ${_.ida} (you SG)
-* ${_.ada} (them SG)
-* ${_.shoda} (us)
+* ${_.lada} (they SG)
+* ${_.shoda} (we)
 * ${_.shida} (you PL)
-* ${_.shada} (them PL)
+* ${_.shada} (they PL)
+
+With gender
+
+* ${_.idiwi} (you enby)
+* ${_.idana} (you fem)
+* ${_.idoto} (you masc)
+* ${_.liwi} (they enby)
+* ${_.lana} (she)
+* ${_.loto} (he)
 
 Rarer forms:
 
@@ -35,7 +46,7 @@ intimate dreams about themselves.
 
 * ${_.oya} (me/us.INDF)
 * ${_.iya} (you)
-* ${_.aya} (you)
+* ${_.laya} (you)
 * ${_.shoya} (us)
 * ${_.shiya} (you PL)
 * ${_.shaya} (them PL)
@@ -53,5 +64,6 @@ Rarer forms:
 * ${_.peya} (some)
 * ${_.kaya} (all of us)
 
+Your next read: ${_.nature} (nature)
 `,
 })

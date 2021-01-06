@@ -8,7 +8,7 @@ import { Phrase } from './Phrase'
 export interface LinkProps {
   className?: string
   // from markdown
-  fromMd?: boolean
+  type?: 'md' | 'md-open'
   id: string
 }
 
@@ -16,11 +16,10 @@ export interface LinkProps {
 const Wrapper = styled.span`
   cursor: pointer;
   color: #546161;
-  font-style: normal;
   align-self: start;
   &.ref {
     color: #2c383c;
-    font-weight: bold;
+    font-weight: 500;
   }
   &.high,
   &.ref.high {
@@ -46,7 +45,7 @@ const Anchor = styled.a`
   }
 `
 
-export const Link: Comp<LinkProps> = ({ className, id, fromMd, children }) => {
+export const Link: Comp<LinkProps> = ({ className, id, type, children }) => {
   const ctx = useOvermind()
   const { writ } = ctx.state.keoda
   if (id.startsWith('http') || id.startsWith('mailto')) {
@@ -54,9 +53,9 @@ export const Link: Comp<LinkProps> = ({ className, id, fromMd, children }) => {
       <Anchor href={id} children={children} className="out" target="_blank" />
     )
   }
-  const [type] = id.split('-')
-  if (type === 'phrase') {
-    return <Phrase id={id} fromMd={fromMd} />
+  const [entryType] = id.split('-')
+  if (entryType === 'phrase') {
+    return <Phrase id={id} type={type} />
   }
   const entry = getEntry(ctx, id)
   if (!entry) {
@@ -67,7 +66,7 @@ export const Link: Comp<LinkProps> = ({ className, id, fromMd, children }) => {
   return (
     <Wrapper
       className={classnames('Link', className, {
-        ref: fromMd,
+        ref: entryType,
         high: ref === ctx.state.keoda.selected,
       })}
       onMouseEnter={e => {

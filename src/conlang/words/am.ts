@@ -4,12 +4,14 @@ export const am = _.word('am', {
   glo: 'ACC',
   suffix: 'recipient',
   verb: 'to receive',
-  desc: () => `The suffix is added to the last part of the recipient. So if the receiver is John's butt, depending on word order, the ${
-    _.am
-  } goes on ${_.pal} or ${_.John}:
+  desc: () => `
+The suffix is added to the last part of the a group with the accusative case.
+So if the noun phrase is John's face, depending on word order, the ${_.am}
+goes on ${_.duha} or ${_.John}:
   
-  ${_.phrase('They whip the butt of John', _.shafo, _.palwu, _.Johnam)}
+* ${_.phrase('They look at the face of John.', _.shafa, _.duhawu, _.Johnam)}
+* ${_.phrase("They look at John's hand.", _.shafa, _.John, _.duham)}
 
-  ${_.phrase("They whip John's butt", _.shafo, _.John, _.palam)}
-  `,
+On words with an adjective or other suffix, ${_.am} suffix always comes last.
+`,
 })

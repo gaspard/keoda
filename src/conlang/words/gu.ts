@@ -19,9 +19,9 @@ export const gulir = _.word('gulir', {
   etym: () => [_.gu, _.lir],
 })
 
-export const gulem = _.word('gulem', {
+export const lemegu = _.word('lemegu', {
   verb: 'to remember',
-  etym: () => [_.gu, _.lem],
+  etym: () => [_.leme, _.gu],
 })
 
 export const guna = _.word('guna', {
@@ -30,15 +30,15 @@ export const guna = _.word('guna', {
   see: () => [_.ganu],
 })
 
-export const guo = _.word('guo', {
-  verb: 'to die',
-  etym: () => [_.gu, _.o],
-})
-
 export const gui = _.word('gui', {
   verb: 'to be born',
-  see: () => [_.yuhim],
+  see: () => [_.yuhim, _.nem],
   etym: () => [_.gu, _.i],
+})
+
+export const rugui = _.word('rugui', {
+  verb: 'to bustle about',
+  etym: () => [_.ru, _.gui],
 })
 
 export const guwu = _.word('guwu', {
@@ -88,4 +88,14 @@ export const gupa = _.word('gupa', {
 export const aguwu = _.alt('aguwu', {
   glo: '3SG.**give**',
   alt: () => _.guwu,
+})
+
+export const irugui = _.alt('irugui', {
+  glo: '2SG.**bustle about**',
+  alt: () => _.rugui,
+})
+
+export const alemegu = _.alt('alemegu', {
+  glo: '3SG.**remember**',
+  alt: () => _.lemegu,
 })

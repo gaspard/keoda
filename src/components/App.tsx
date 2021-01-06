@@ -31,24 +31,40 @@ const WritButton = styled.div`
   border-radius: 5px;
   font-size: 18px;
   box-shadow: 0px 0px 6px #00000050;
-  font-weight: bold;
+  font-weight: 500;
   color: #333;
+`
+
+const Nsfw = styled(WritButton)`
+  top: 60px;
+  &.nsfw {
+    background: #bfb370;
+  }
 `
 
 export const App: Comp<AppProps> = ({ className }) => {
   const ctx = useOvermind()
   const { lexicon } = ctx.state.keoda
-  const { writ } = ctx.state.keoda
+  const { writ, nsfw } = ctx.state.keoda
   return (
     <React.Fragment>
       <WritButton
         className={writ ? '' : 'writ'}
-        onClick={ctx.actions.keoda.writToggle}
+        onClick={() => ctx.actions.keoda.toggle({ key: 'writ' })}
       >
         {writ ? 'latin' : 'తేలుగు'}
       </WritButton>
+      <Nsfw
+        className={nsfw ? 'nsfw' : ''}
+        onClick={() => ctx.actions.keoda.toggle({ key: 'nsfw' })}
+      >
+        🍑
+      </Nsfw>
       <Float />
-      <Wrapper className={className}>
+      <Wrapper
+        style={{ ['--nsfw']: nsfw ? 'block' : 'none' } as React.CSSProperties}
+        className={className}
+      >
         {lexicon.card.map(id => (
           <Entry key={id} id={id} />
         ))}

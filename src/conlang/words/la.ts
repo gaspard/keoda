@@ -5,6 +5,10 @@ export const la = _.word('la', {
   verb: 'to kiss',
 })
 
+export const lala = _.word('lala', {
+  verb: 'to kiss-lips',
+})
+
 export const kela = _.word('kela', {
   noun: 'teeth',
   etym: () => [_.ke, _.la],
@@ -45,25 +49,20 @@ export const gilapa = _.word('gilapa', {
   etym: () => [_.gi, _.lapa],
 })
 
-export const lana = _.word('lana', {
+export const lapana = _.word('lana', {
   noun: 'speech',
   etym: () => [_.la, _.na],
 })
 
-export const lanagu = _.word('lanagu', {
+export const lapanagu = _.word('lanagu', {
   noun: 'insult',
-  etym: () => [_.lana, _.gu],
+  etym: () => [_.lapana, _.gu],
 })
 
 // ==================== ALT
 export const olalema = _.alt('olalema', {
   glo: '1SG.INDF.**kiss**.PST.HEST',
   alt: () => _.la,
-})
-
-export const lanaro = _.alt('lanaro', {
-  glo: '**speech**.INESS',
-  alt: () => _.lana,
 })
 
 export const laham = _.alt('laham', {
@@ -83,5 +82,10 @@ export const alapa = _.alt('alapa', {
 
 export const lanaguam = _.alt('lanaguam', {
   glo: '**insult**.ACC',
-  alt: () => _.lanagu,
+  alt: () => _.lapanagu,
+})
+
+export const lam = _.alt('lam', {
+  glo: '**lips**.ACC',
+  alt: () => _.la,
 })

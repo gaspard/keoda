@@ -5,6 +5,7 @@ export const ti = _.word('ti', {
   prefix: 'your',
   suffix: 'your',
   glo: 'POSS.**2SG**',
+  etym: () => [_.wu, _.ida],
   see: () => [_.poss],
 })
 

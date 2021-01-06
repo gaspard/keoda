@@ -10,16 +10,6 @@ const TELU: { [key: string]: string } = {
   lirx: 'లిర్‌',
   munx: 'ముఁ',
   yinx: 'యిఁ',
-  tohamx: 'తోఃఅం',
-  dahemx: 'దాఃఎం',
-
-  // In word
-  dah: 'దాః',
-  // Conjugations / POSS
-  ['^oh']: 'ఓః',
-  ['^toh']: 'తోః',
-  ['^yih']: 'యిః',
-  ['^pih']: 'పిః',
 
   // ka.ˈˌ˴ˌˈˌla
   // /z/ sound = made with alt+T = ఠ /ʈʰ/
@@ -56,7 +46,7 @@ const TELU: { [key: string]: string } = {
   jimx: 'జిం',
   ji: 'జి',
   himx: 'హిం',
-  hi: 'ఠి',
+  hi: 'హి',
   wiu: 'విు',
   wimx: 'విం',
   wi: 'వి',
@@ -65,6 +55,7 @@ const TELU: { [key: string]: string } = {
   rimx: 'రిం',
   ri: 'రి',
   limx: 'లిం',
+  liu: 'లిు',
   li: 'లి',
 
   // e
@@ -73,6 +64,7 @@ const TELU: { [key: string]: string } = {
   pe: 'పే',
   be: 'బే',
   te: 'తే',
+  demx: 'దేం',
   de: 'దే',
   ke: 'కే',
   ge: 'గే',
@@ -108,7 +100,6 @@ const TELU: { [key: string]: string } = {
   gamx: 'గాం',
   ga: 'గా',
   famx: 'చాం',
-  fah: 'చాః',
   fa: 'చా',
   samx: 'సాం',
   sa: 'సా',
@@ -149,6 +140,7 @@ const TELU: { [key: string]: string } = {
   hu: 'హు',
   wu: 'వు',
   yu: 'యు',
+  rumx: 'రుం',
   ru: 'రు',
   lu: 'లు',
 
@@ -194,8 +186,9 @@ const TELU: { [key: string]: string } = {
 
   // leftover letters due to double consonants
   s: 'స్‌',
-  //
+  m: 'మ్‌',
   l: 'ల్‌',
+  //
   ['1']: '౧',
   ['2']: '౨',
   ['3']: '౩',
@@ -228,7 +221,7 @@ const PHON: { [key: string]: string } = {
   f: 'f',
   s: 's',
   z: 'z',
-  S: 'ʃ',
+  S: 'ʃ', // 'ʂ' in reality but less people know the IPA sign
   j: 'dʒ',
   h: 'h',
   w: 'w',

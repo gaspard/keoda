@@ -39,3 +39,10 @@ _.see(_.nemafeyon)
 
 _.see(_.yaj)
 _.see(_.keyon)
+
+// === alt
+
+export const yonam = _.alt('yonam', {
+  glo: '**vulva**.ACC',
+  alt: () => _.yon,
+})

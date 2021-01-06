@@ -6,22 +6,22 @@ export const sha = _.word('sha', {
 })
 
 export const shada = _.word('shada', {
-  pron: 'them',
+  pron: 'they',
   glo: '3PL',
   etym: () => [_.sha, _.oda],
   see: () => [_.tosha, _.shaya, _.pron],
 })
 
 export const shaya = _.word('shaya', {
-  pron: 'them (3PL)',
+  pron: 'they (poetic)',
+  glo: '3PL.POET',
   etym: () => [_.sha, _.yada],
   see: () => [_.shada, _.pron],
 })
 
-// shadam ??
-export const sham = _.word('sham', {
+export const shadam = _.word('shadam', {
   noun: 'them',
-  glo: 'they.DAT',
+  glo: '3PL.DAT',
   etym: () => [_.sha, _.am],
 })
 

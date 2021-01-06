@@ -13,8 +13,7 @@ export const hamale = _.word('hamale', {
 
 export const ajale = _.word('ajale', {
   noun: 'spark',
-  posit:
-    'sur moi: 4 membres et 1 sexe (indiquée par un signe de main: pouce contre auriculaire)',
+  posit: 'on top of me: 4 limbs and 1 genital (little finger)',
   etym: () => [_.aj],
 })
 

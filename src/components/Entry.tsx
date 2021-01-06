@@ -6,6 +6,7 @@ import { getEntry } from '../helpers/getEntry'
 import { Link } from './Link'
 import { List } from './List'
 import { Markdown } from './Markdown'
+import { Info } from './Phrase'
 
 export interface EntryProps {
   className?: string
@@ -45,6 +46,26 @@ const Wrapper = styled.div`
     top: 30px;
     left: -25px;
     z-index: 3;
+  }
+  hr,
+  div.hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(
+      to right,
+      rgba(80, 80, 80, 0),
+      rgba(80, 80, 80, 0.75),
+      rgba(80, 80, 80, 0)
+    );
+  }
+  div.hr:first-child {
+    display: none;
+  }
+  div.hr:last-child {
+    display: none;
+  }
+  div.hr {
+    margin: 10px;
   }
 `
 
@@ -108,7 +129,7 @@ const Title = styled.div`
 const Name = styled.div`
   cursor: pointer;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: 500;
 `
 
 const Phon = styled.div`
@@ -142,33 +163,57 @@ const Definition = styled.div`
   flex-direction: row;
   padding: 5px;
   &.desc {
-    border-top: 1px solid #888;
     line-height: 1.6rem;
-    font-style: italic;
     color: #555;
     display: block;
     align-self: stretch;
+    h4,
+    h5 {
+      display: none;
+    }
+    h4 + *,
+    h5 + * {
+      position: relative;
+      margin-left: 40px;
+      margin-right: 80px;
+      padding: 10px 10px 5px;
+      border-radius: 7px 2px 2px 7px;
+      li {
+        list-style: none;
+      }
+    }
+    h4 + *::before,
+    h5 + *::before {
+      position: absolute;
+      top: 4px;
+      left: -23px;
+    }
+    h4 + * {
+      display: var(--nsfw);
+      border-left: 26px solid #88815e;
+      background: #bfb370;
+    }
+    h4 + *::before {
+      content: '🍑';
+    }
+    h5 + * {
+      border-left: 26px solid #908e82;
+      background: #afada4;
+    }
+    h5 + *::before {
+      content: '💡';
+    }
     h1 {
       font-size: 1.6rem;
-      font-style: normal;
       color: #444;
-      margin-top: 2rem;
+      margin-bottom: 2rem;
     }
     h2 {
       font-size: 1.2rem;
-      font-style: normal;
       color: inherit;
       margin-top: 2rem;
     }
-    hr {
-      border: 0;
-      height: 1px;
-      background-image: linear-gradient(
-        to right,
-        rgba(0, 0, 0, 0),
-        rgba(0, 0, 0, 0.75),
-        rgba(0, 0, 0, 0)
-      );
+    ul {
     }
     img {
       border: 1px solid #555;
@@ -194,7 +239,7 @@ const Definition = styled.div`
       }
       &:before {
         position: absolute;
-        font-weight: bold;
+        font-weight: 500;
         top: 22px;
         left: -33px;
         opacity: 0.8;
@@ -203,14 +248,13 @@ const Definition = styled.div`
       }
     }
     code {
-      font-style: normal;
       font-size: 90%;
       font-family: 'Fira Code', Courier, monospace;
       padding: 3px 5px;
       display: inline-block;
     }
     em {
-      font-weight: bold;
+      font-weight: 500;
     }
     table {
       color: inherit;
@@ -235,8 +279,8 @@ const Definition = styled.div`
 
 const DefType = styled.div`
   cursor: pointer;
-  padding: 5px 20px 5px 0;
-  font-weight: bold;
+  margin-right: 20px;
+  font-weight: 500;
   width: 4rem;
   flex-shrink: 0;
   color: red;
@@ -300,9 +344,7 @@ const DefType = styled.div`
 `
 
 const DefText = styled.div`
-  padding: 5px;
   color: #333;
-  font-style: italic;
 `
 
 export const ID = styled.a`
@@ -312,10 +354,18 @@ export const ID = styled.a`
   visibility: hidden;
 `
 
+export const MyInfo = styled(Info)`
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 9;
+`
+
 export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
   const ctx = useOvermind()
-  const { filter, writ } = ctx.state.keoda
   const entry = getEntry(ctx, id)
+  const [open, setOpen] = React.useState(entry?.open)
+  const { filter, writ } = ctx.state.keoda
   if (!entry) {
     // Should never happen
     return null
@@ -336,6 +386,7 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
   }
 
   const style = entry.img ? { ['--data-img']: `url(${entry.img})` } : {}
+
   return (
     <Wrapper
       className={classnames(entry.type, className, {
@@ -344,9 +395,14 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
       })}
     >
       {popup ? <ArrowUp /> : <ID id={id} />}
+      {!popup && (
+        <MyInfo onClick={() => setOpen(!open)} className={open ? 'open' : ''}>
+          ℹ️
+        </MyInfo>
+      )}
       {entry.type === 'phrase' ? (
         <Title className="Title phrase" style={style as React.CSSProperties}>
-          <Link id={id} fromMd />
+          <Link id={id} type="md" />
         </Title>
       ) : (
         <Title className="Title" style={style as React.CSSProperties}>
@@ -375,14 +431,19 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
             </Definition>
           ) : null
         )}
+        <div className="hr" />
         {entry.desc && (
           <Definition className="desc">
-            <Markdown text={entry.desc} />
+            <Markdown text={entry.desc} type={open ? 'md-open' : 'md'} />
           </Definition>
         )}
         {entry.phrases && (
           <Definition className="desc">
-            <List className="phrases" entries={entry.phrases} />
+            <List
+              className="phrases"
+              entries={entry.phrases}
+              type={open ? 'md-open' : 'md'}
+            />
           </Definition>
         )}
       </Definitions>

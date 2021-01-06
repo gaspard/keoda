@@ -42,8 +42,3 @@ export const folir = _.alt('folir', {
   glo: '**whip**.FUT',
   alt: () => _.fo,
 })
-
-export const pefolir = _.alt('pefolir', {
-  glo: '3PL.INDF.**whip**.FUT',
-  alt: () => _.fo,
-})
