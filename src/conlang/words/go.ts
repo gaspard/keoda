@@ -3,6 +3,7 @@ import * as _ from '.'
 export const go = _.word('go', {
   prefix: 'big',
   adj: 'intense',
+  glo: 'AUG',
   etym: () => [_.gu, _.o],
   see: () => [_.gi],
 })

@@ -280,14 +280,15 @@
       "noun": "sky",
       "prefix": "up",
       "see": [
-        "word-soa"
+        "word-so"
       ],
-      "fulltext": "al alayin soa sky up",
+      "fulltext": "al alayin gahal so sky up",
       "writ": "అల్‌",
       "phon": "/al/",
       "glo": "**sky**",
       "deriv": [
-        "word-alayin"
+        "word-alayin",
+        "word-gahal"
       ]
     },
     "word-alayin": {
@@ -328,8 +329,8 @@
       "glo": "ACC",
       "suffix": "recipient",
       "verb": "to receive",
-      "desc": "\nThe suffix is added to the last part of the a group with the accusative case.\nSo if the noun phrase is John's face, depending on word order, the [am](word-am)\ngoes on [duha](word-duha) or [John](word-John):\n  \n* [95](phrase-95)\n* [96](phrase-96)\n\nOn words with an adjective or other suffix, [am](word-am) suffix always comes last.\n",
-      "fulltext": "am \nThe suffix is added to the last part of the a group with the accusative case.\nSo if the noun phrase is John's face, depending on word order, the [am](word-am)\ngoes on [duha](word-duha) or [John](word-John):\n  \n* [95](phrase-95)\n* [96](phrase-96)\n\nOn words with an adjective or other suffix, [am](word-am) suffix always comes last.\n shadam to receive recipient",
+      "desc": "\nThe suffix is added to the last part of the a group with the accusative case.\nSo if the noun phrase is John's face, depending on word order, the [am](word-am)\ngoes on [duha](word-duha) or [John](word-John):\n  \n* [98](phrase-98)\n* [99](phrase-99)\n\nOn words with an adjective or other suffix, [am](word-am) suffix always comes last.\n",
+      "fulltext": "am \nThe suffix is added to the last part of the a group with the accusative case.\nSo if the noun phrase is John's face, depending on word order, the [am](word-am)\ngoes on [duha](word-duha) or [John](word-John):\n  \n* [98](phrase-98)\n* [99](phrase-99)\n\nOn words with an adjective or other suffix, [am](word-am) suffix always comes last.\n shadam to receive recipient",
       "writ": "లాం",
       "phon": "/am/",
       "deriv": [
@@ -350,7 +351,7 @@
       "phrases": [
         "phrase-84"
       ],
-      "fulltext": "ana anawi anoda anoto aniwi ananoa anama anarum anasame jona duna hana nona otana genders plants tree feminine",
+      "fulltext": "ana anawi anoda anoto aniwi ananoa anama anarum anasame duna hana jona nona otana genders plants tree feminine",
       "writ": "అనా",
       "phon": "/ana/",
       "glo": "**tree**",
@@ -363,9 +364,9 @@
         "word-anama",
         "word-anarum",
         "word-anasame",
-        "word-jona",
         "word-duna",
         "word-hana",
+        "word-jona",
         "word-nona",
         "word-otana"
       ]
@@ -518,6 +519,21 @@
       "phon": "/anasamɛ/",
       "glo": "**root**"
     },
+    "word-okana": {
+      "name": "okana",
+      "id": "word-okana",
+      "type": "word",
+      "noun": "oak",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/a/af/Quercus_robur.jpg",
+      "imgpos": "50%",
+      "see": [
+        "word-ana"
+      ],
+      "fulltext": "okana ana oak",
+      "writ": "ఓకానా",
+      "phon": "/ɔkana/",
+      "glo": "**oak**"
+    },
     "word-au": {
       "name": "au",
       "id": "word-au",
@@ -533,7 +549,7 @@
         "phrase-55",
         "phrase-56",
         "phrase-85",
-        "phrase-101"
+        "phrase-104"
       ],
       "fulltext": "au auhu aupa augu lau aupi zu heart to love/to receive",
       "writ": "అు",
@@ -652,7 +668,7 @@
       ],
       "phrases": [
         "phrase-11",
-        "phrase-105"
+        "phrase-108"
       ],
       "fulltext": "baj djobaj habaj kebaj robaj rum lower limb",
       "writ": "బాజ్‌",
@@ -738,6 +754,7 @@
       "type": "word",
       "noun": "mushroom",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Lycoperdon-perlatum-flaschenstaeubling-alt.jpg/330px-Lycoperdon-perlatum-flaschenstaeubling-alt.jpg",
+      "imgpos": "50%",
       "etym": [
         "word-bisa",
         "word-joda"
@@ -830,6 +847,7 @@
       "type": "word",
       "noun": "bud",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Magnolia_Bud.jpg/230px-Magnolia_Bud.jpg",
+      "imgpos": "50%",
       "see": [
         "card-plants"
       ],
@@ -888,8 +906,8 @@
         "phrase-52",
         "phrase-53",
         "phrase-54",
-        "phrase-95",
-        "phrase-96"
+        "phrase-98",
+        "phrase-99"
       ],
       "fulltext": "John John",
       "glo": "**John**"
@@ -1077,7 +1095,7 @@
         "phrase-16",
         "phrase-17"
       ],
-      "fulltext": "da agaukida dana dao dem dir goa lama lamoa kedana count sen place, 9 place",
+      "fulltext": "da agaukida dana dao dem dir goa lama lamoa dau kedana count sen place, 9 place",
       "writ": "దా",
       "phon": "/da/",
       "deriv": [
@@ -1088,7 +1106,8 @@
         "word-dir",
         "word-goa",
         "word-lama",
-        "word-lamoa"
+        "word-lamoa",
+        "word-dau"
       ]
     },
     "word-dapa": {
@@ -1150,23 +1169,27 @@
       "name": "dao",
       "id": "word-dao",
       "type": "word",
-      "noun": "to",
-      "glo": "to.LOC",
+      "pron": "from",
+      "glo": "**from**.LOC",
       "etym": [
         "word-da",
         "word-o"
       ],
       "see": [
-        "word-odo",
-        "word-dao",
+        "word-odu",
+        "word-dau",
         "card-prep"
       ],
-      "fulltext": "dao word-da word-o hadau jo odo dao prep to",
+      "phrases": [
+        "phrase-8",
+        "phrase-96",
+        "phrase-105"
+      ],
+      "fulltext": "dao word-da word-o hadau odu dau prep from",
       "writ": "దాఓ",
       "phon": "/daɔ/",
       "deriv": [
-        "word-hadau",
-        "word-jo"
+        "word-hadau"
       ]
     },
     "word-hadau": {
@@ -1314,6 +1337,43 @@
       "writ": "దేం",
       "phon": "/dɛm/"
     },
+    "word-deso": {
+      "name": "deso",
+      "id": "word-deso",
+      "type": "word",
+      "noun": "sponge",
+      "fulltext": "deso desoyon sponge",
+      "writ": "దేసో",
+      "phon": "/dɛsɔ/",
+      "glo": "**sponge**",
+      "deriv": [
+        "word-desoyon"
+      ]
+    },
+    "word-desoyon": {
+      "name": "desoyon",
+      "id": "word-desoyon",
+      "type": "word",
+      "noun": "spongy clitoral body",
+      "etym": [
+        "word-deso",
+        "word-yon"
+      ],
+      "fulltext": "desoyon word-deso word-yon spongy clitoral body",
+      "writ": "దేసోయోఁ",
+      "phon": "/dɛsɔjɔn/",
+      "glo": "**spongy clitoral body**"
+    },
+    "word-desotaj": {
+      "name": "desotaj",
+      "id": "word-desotaj",
+      "type": "word",
+      "noun": "spongy penis body",
+      "fulltext": "desotaj spongy penis body",
+      "writ": "దేసోతాజ్‌",
+      "phon": "/dɛsɔtaʒ/",
+      "glo": "**spongy penis body**"
+    },
     "word-di": {
       "name": "di",
       "id": "word-di",
@@ -1416,217 +1476,6 @@
       "writ": "దిర్‌",
       "phon": "/dir/"
     },
-    "word-ja": {
-      "name": "ja",
-      "id": "word-ja",
-      "type": "word",
-      "noun": "possible",
-      "fulltext": "ja eja neja possible",
-      "writ": "జా",
-      "phon": "/dʒa/",
-      "glo": "**possible**",
-      "deriv": [
-        "word-eja",
-        "word-neja"
-      ]
-    },
-    "word-ji": {
-      "name": "ji",
-      "id": "word-ji",
-      "type": "word",
-      "noun": "hair",
-      "posit": "standing, body leaning forward, hair offered ready to be taken",
-      "phrases": [
-        "phrase-11",
-        "phrase-67",
-        "phrase-105"
-      ],
-      "fulltext": "ji gojida soaji hair standing, body leaning forward, hair offered ready to be taken",
-      "writ": "జి",
-      "phon": "/dʒi/",
-      "glo": "**hair**",
-      "deriv": [
-        "word-gojida",
-        "word-soaji"
-      ]
-    },
-    "word-gojida": {
-      "name": "gojida",
-      "id": "word-gojida",
-      "type": "word",
-      "noun": "bear",
-      "etym": [
-        "word-go",
-        "word-ji",
-        "word-oda"
-      ],
-      "fulltext": "gojida word-go word-ji word-oda bear",
-      "writ": "గోజిదా",
-      "phon": "/gɔdʒida/",
-      "glo": "**bear**"
-    },
-    "word-neji": {
-      "name": "neji",
-      "id": "word-neji",
-      "type": "word",
-      "noun": "without hair",
-      "verb": "to shave",
-      "fulltext": "neji without hair to shave",
-      "writ": "నేజి",
-      "phon": "/nɛdʒi/",
-      "glo": "**without hair**"
-    },
-    "word-jo": {
-      "name": "jo",
-      "id": "word-jo",
-      "type": "word",
-      "adj": "close, proximal",
-      "etym": [
-        "word-dao",
-        "word-ojo"
-      ],
-      "see": [
-        "word-ha"
-      ],
-      "fulltext": "jo word-dao word-ojo djobaj hajo joha joda jona jowi joto djoma djonopi obo ha close, proximal",
-      "writ": "జో",
-      "phon": "/dʒɔ/",
-      "glo": "**close, proximal**",
-      "deriv": [
-        "word-djobaj",
-        "word-hajo",
-        "word-joha",
-        "word-joda",
-        "word-jona",
-        "word-jowi",
-        "word-joto",
-        "word-djoma",
-        "word-djonopi",
-        "word-obo"
-      ]
-    },
-    "word-hajo": {
-      "name": "hajo",
-      "id": "word-hajo",
-      "type": "word",
-      "verb": "to take",
-      "etym": [
-        "word-ha",
-        "word-jo"
-      ],
-      "fulltext": "hajo word-ha word-jo muhajo to take",
-      "writ": "హాజో",
-      "phon": "/hadʒɔ/",
-      "glo": "**to take**",
-      "deriv": [
-        "word-muhajo"
-      ]
-    },
-    "word-joha": {
-      "name": "joha",
-      "id": "word-joha",
-      "type": "word",
-      "verb": "to reject",
-      "etym": [
-        "word-jo",
-        "word-ha"
-      ],
-      "fulltext": "joha word-jo word-ha to reject",
-      "writ": "జోహా",
-      "phon": "/dʒɔha/",
-      "glo": "**to reject**"
-    },
-    "word-muhajo": {
-      "name": "muhajo",
-      "id": "word-muhajo",
-      "type": "word",
-      "verb": "to pick up",
-      "etym": [
-        "word-mu",
-        "word-hajo"
-      ],
-      "fulltext": "muhajo word-mu word-hajo to pick up",
-      "writ": "ముహాజో",
-      "phon": "/muhadʒɔ/",
-      "glo": "**to pick up**"
-    },
-    "word-joda": {
-      "name": "joda",
-      "id": "word-joda",
-      "type": "word",
-      "noun": "child",
-      "etym": [
-        "word-jo",
-        "word-oda"
-      ],
-      "see": [
-        "card-family"
-      ],
-      "fulltext": "joda word-jo word-oda bisajoda family child",
-      "writ": "జోదా",
-      "phon": "/dʒɔda/",
-      "glo": "**child**",
-      "deriv": [
-        "word-bisajoda"
-      ]
-    },
-    "word-jona": {
-      "name": "jona",
-      "id": "word-jona",
-      "type": "word",
-      "noun": "daughter",
-      "etym": [
-        "word-jo",
-        "word-ana"
-      ],
-      "see": [
-        "card-family"
-      ],
-      "phrases": [
-        "phrase-26"
-      ],
-      "fulltext": "jona word-jo word-ana family daughter",
-      "writ": "జోనా",
-      "phon": "/dʒɔna/",
-      "glo": "**daughter**"
-    },
-    "word-jowi": {
-      "name": "jowi",
-      "id": "word-jowi",
-      "type": "word",
-      "noun": "enby child",
-      "etym": [
-        "word-jo",
-        "word-iwi"
-      ],
-      "see": [
-        "card-family"
-      ],
-      "phrases": [
-        "phrase-27"
-      ],
-      "fulltext": "jowi word-jo word-iwi family enby child",
-      "writ": "జోవి",
-      "phon": "/dʒɔwi/",
-      "glo": "**enby child**"
-    },
-    "word-joto": {
-      "name": "joto",
-      "id": "word-joto",
-      "type": "word",
-      "noun": "son",
-      "etym": [
-        "word-jo",
-        "word-oto"
-      ],
-      "see": [
-        "card-family"
-      ],
-      "fulltext": "joto word-jo word-oto family son",
-      "writ": "జోతో",
-      "phon": "/dʒɔtɔ/",
-      "glo": "**son**"
-    },
     "word-dom": {
       "name": "dom",
       "id": "word-dom",
@@ -1670,7 +1519,7 @@
         "phrase-8",
         "phrase-44",
         "phrase-65",
-        "phrase-102"
+        "phrase-105"
       ],
       "fulltext": "dona don prep where (place)",
       "writ": "దోనా",
@@ -1806,37 +1655,6 @@
         "word-eyu"
       ]
     },
-    "word-eja": {
-      "name": "eja",
-      "id": "word-eja",
-      "type": "word",
-      "prep": "plausibility (interrogation)",
-      "etym": [
-        "word-e",
-        "word-ja"
-      ],
-      "phrases": [
-        "phrase-66"
-      ],
-      "fulltext": "eja word-e word-ja plausibility (interrogation)",
-      "writ": "ఎజా",
-      "phon": "/ɛdʒa/",
-      "glo": "**plausibility (interrogation)**"
-    },
-    "word-neja": {
-      "name": "neja",
-      "id": "word-neja",
-      "type": "word",
-      "prep": "not possible",
-      "etym": [
-        "word-ne",
-        "word-ja"
-      ],
-      "fulltext": "neja word-ne word-ja not possible",
-      "writ": "నేజా",
-      "phon": "/nɛdʒa/",
-      "glo": "**not possible**"
-    },
     "word-egi": {
       "name": "egi",
       "id": "word-egi",
@@ -1889,6 +1707,37 @@
         "word-yadei",
         "word-tei"
       ]
+    },
+    "word-eja": {
+      "name": "eja",
+      "id": "word-eja",
+      "type": "word",
+      "prep": "plausibility (interrogation)",
+      "etym": [
+        "word-e",
+        "word-ja"
+      ],
+      "phrases": [
+        "phrase-66"
+      ],
+      "fulltext": "eja word-e word-ja plausibility (interrogation)",
+      "writ": "ఎజా",
+      "phon": "/ɛdʒa/",
+      "glo": "**plausibility (interrogation)**"
+    },
+    "word-neja": {
+      "name": "neja",
+      "id": "word-neja",
+      "type": "word",
+      "prep": "not possible",
+      "etym": [
+        "word-ne",
+        "word-ja"
+      ],
+      "fulltext": "neja word-ne word-ja not possible",
+      "writ": "నేజా",
+      "phon": "/nɛdʒa/",
+      "glo": "**not possible**"
     },
     "word-eku": {
       "name": "eku",
@@ -2079,7 +1928,7 @@
       "noun": "eyes",
       "verb": "to look",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Arctic_Fox_1_%2810549184013%29.jpg/400px-Arctic_Fox_1_%2810549184013%29.jpg",
-      "desc": "\n[97](phrase-97)\n\n[98](phrase-98)\n",
+      "desc": "\n[100](phrase-100)\n\n[101](phrase-101)\n",
       "phrases": [
         "phrase-1",
         "phrase-2",
@@ -2089,12 +1938,12 @@
         "phrase-89",
         "phrase-89",
         "phrase-93",
-        "phrase-95",
-        "phrase-96",
-        "phrase-97",
-        "phrase-98"
+        "phrase-98",
+        "phrase-99",
+        "phrase-100",
+        "phrase-101"
       ],
-      "fulltext": "fa \n[97](phrase-97)\n\n[98](phrase-98)\n gufa falo fahata fatio yafa yadifa eyes to look",
+      "fulltext": "fa \n[100](phrase-100)\n\n[101](phrase-101)\n gufa falo fahata fatio yafa yadifa eyes to look",
       "writ": "చా",
       "phon": "/fa/",
       "glo": "**eyes**",
@@ -2131,12 +1980,12 @@
         "word-fa",
         "word-lo"
       ],
-      "desc": "\n[99](phrase-99)",
+      "desc": "\n[102](phrase-102)",
       "phrases": [
         "phrase-5",
-        "phrase-99"
+        "phrase-102"
       ],
-      "fulltext": "falo word-fa word-lo \n[99](phrase-99) sadness to be sad",
+      "fulltext": "falo word-fa word-lo \n[102](phrase-102) sadness to be sad",
       "writ": "చాలో",
       "phon": "/falɔ/",
       "glo": "**sadness**"
@@ -2207,14 +2056,15 @@
       "prefix": "on (SUPESS)",
       "verb": "to cover, to be on top",
       "glo": "SUPESS",
-      "desc": "\n[100](phrase-100)\n  ",
+      "desc": "\n[103](phrase-103)\n  ",
       "see": [
         "card-prep"
       ],
       "phrases": [
-        "phrase-60"
+        "phrase-60",
+        "phrase-97"
       ],
-      "fulltext": "fe \n[100](phrase-100)\n   faj feyaj fena prep 7 to cover, to be on top on (SUPESS)",
+      "fulltext": "fe \n[103](phrase-103)\n   faj feyaj fena prep 7 to cover, to be on top on (SUPESS)",
       "writ": "వే",
       "phon": "/fɛ/",
       "deriv": [
@@ -2275,7 +2125,7 @@
         "phrase-64",
         "phrase-82",
         "phrase-83",
-        "phrase-100"
+        "phrase-103"
       ],
       "fulltext": "nefe to uncover/undress naked",
       "writ": "నేవే",
@@ -2437,10 +2287,13 @@
         "phrase-54",
         "phrase-71"
       ],
-      "fulltext": "fo to whip",
+      "fulltext": "fo hafo to whip",
       "writ": "చో",
       "phon": "/fɔ/",
-      "glo": "**to whip**"
+      "glo": "**to whip**",
+      "deriv": [
+        "word-hafo"
+      ]
     },
     "word-fu": {
       "name": "fu",
@@ -2461,7 +2314,10 @@
       "see": [
         "word-gu"
       ],
-      "fulltext": "ga gana gao kuga nega gu ganu gu spirit",
+      "phrases": [
+        "phrase-95"
+      ],
+      "fulltext": "ga gana gao kuga nega gu ganu gahal gu spirit",
       "writ": "గా",
       "phon": "/ga/",
       "glo": "**spirit**",
@@ -2471,7 +2327,8 @@
         "word-kuga",
         "word-nega",
         "word-gu",
-        "word-ganu"
+        "word-ganu",
+        "word-gahal"
       ]
     },
     "word-gana": {
@@ -2499,12 +2356,14 @@
       "name": "gai",
       "id": "word-gai",
       "type": "word",
-      "noun": "conscience, pluie",
-      "desc": "esprit caressé / qui caresse (la pluie sur la terre)",
-      "fulltext": "gai esprit caressé / qui caresse (la pluie sur la terre) gugai conscience, pluie",
+      "noun": "consciousness, rain",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Falling_rain_in_mexico.jpg/330px-Falling_rain_in_mexico.jpg",
+      "imgpos": "50%",
+      "desc": "\nCaressed spirit / caressing spirit (rain on earth)\n",
+      "fulltext": "gai \nCaressed spirit / caressing spirit (rain on earth)\n gugai consciousness, rain",
       "writ": "గాఇ",
       "phon": "/gai/",
-      "glo": "**conscience, pluie**",
+      "glo": "**consciousness, rain**",
       "deriv": [
         "word-gugai"
       ]
@@ -2645,6 +2504,7 @@
       "type": "word",
       "prefix": "big",
       "adj": "intense",
+      "glo": "AUG",
       "etym": [
         "word-gu",
         "word-o"
@@ -2652,18 +2512,18 @@
       "see": [
         "word-gi"
       ],
-      "fulltext": "go word-gu word-o gojida goa gopona gawi goda gosheu gosoa gi intense big",
+      "fulltext": "go word-gu word-o goa gopona gawi goda gojida gosheu gosoa goweis gi intense big",
       "writ": "గో",
       "phon": "/gɔ/",
-      "glo": "**big**",
       "deriv": [
-        "word-gojida",
         "word-goa",
         "word-gopona",
         "word-gawi",
         "word-goda",
+        "word-gojida",
         "word-gosheu",
-        "word-gosoa"
+        "word-gosoa",
+        "word-goweis"
       ]
     },
     "word-goa": {
@@ -2745,7 +2605,7 @@
         "card-ganes",
         "word-gufi"
       ],
-      "fulltext": "gu word-ga word-u [gu](word-gu) is the terror of [ga](word-ga). gufa gufi gi go gunu gulir lemegu guna gui guwu guru gugai augu guyuina gupa lanagu gupi sigu nu ganes gufi darkness darkness, gestation, deep",
+      "fulltext": "gu word-ga word-u [gu](word-gu) is the terror of [ga](word-ga). gufa gufi gi go gunu gulir lemegu guna gui guwu guru gugai augu guyuina gupa lanagu gupi sigu gusona nu ganes gufi darkness darkness, gestation, deep",
       "writ": "గు",
       "phon": "/gu/",
       "glo": "**darkness**",
@@ -2767,7 +2627,8 @@
         "word-gupa",
         "word-lanagu",
         "word-gupi",
-        "word-sigu"
+        "word-sigu",
+        "word-gusona"
       ]
     },
     "word-gunu": {
@@ -2887,7 +2748,7 @@
         "phrase-3",
         "phrase-38",
         "phrase-41",
-        "phrase-97"
+        "phrase-100"
       ],
       "fulltext": "guwu word-gu word-wu diguwu guwuna to give",
       "writ": "గువు",
@@ -3014,15 +2875,13 @@
       "see": [
         "word-jo"
       ],
-      "fulltext": "ha habaj hadau hajo joha duha hawe hase noha hada hana hawi hao hama hamun habo jo head far top or distal",
+      "fulltext": "ha habaj hadau duha hawe hase noha hada hana hawi hao hajo joha hama hamun hafo habo jo head far top or distal",
       "writ": "హా",
       "phon": "/ha/",
       "glo": "**head**",
       "deriv": [
         "word-habaj",
         "word-hadau",
-        "word-hajo",
-        "word-joha",
         "word-duha",
         "word-hawe",
         "word-hase",
@@ -3031,8 +2890,11 @@
         "word-hana",
         "word-hawi",
         "word-hao",
+        "word-hajo",
+        "word-joha",
         "word-hama",
         "word-hamun",
+        "word-hafo",
         "word-habo"
       ]
     },
@@ -3050,9 +2912,9 @@
         "phrase-2",
         "phrase-10",
         "phrase-72",
-        "phrase-95",
-        "phrase-96",
-        "phrase-104"
+        "phrase-98",
+        "phrase-99",
+        "phrase-107"
       ],
       "fulltext": "duha word-du word-ha duhasha face",
       "writ": "దుహా",
@@ -3299,6 +3161,25 @@
       "phon": "/mahim/",
       "glo": "**to build**"
     },
+    "word-hurakan": {
+      "name": "hurakan",
+      "id": "word-hurakan",
+      "type": "word",
+      "noun": "hurricane",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Deity_Figure_%28Zem%C3%AD%29_MET_DP295635.jpg/330px-Deity_Figure_%28Zem%C3%AD%29_MET_DP295635.jpg",
+      "imgpos": "50%",
+      "desc": "\nDeity or [zemi](https://en.wikipedia.org/wiki/Zemi) of chaos and disorder from the Taïno culture of the Caribbean.\n\n\n",
+      "see": [
+        "card-gods"
+      ],
+      "phrases": [
+        "phrase-96"
+      ],
+      "fulltext": "hurakan \nDeity or [zemi](https://en.wikipedia.org/wiki/Zemi) of chaos and disorder from the Taïno culture of the Caribbean.\n\n\n gods hurricane",
+      "writ": "హురాకాఁ",
+      "phon": "/hurakan/",
+      "glo": "**hurricane**"
+    },
     "word-i": {
       "name": "i",
       "id": "word-i",
@@ -3310,7 +3191,7 @@
         "word-ti",
         "card-verbs"
       ],
-      "fulltext": "i lemi gi gui ikei iya liri ilir mi shei ti verbs you (2SG) caress",
+      "fulltext": "i lemi gi gui ikei iya liri ilir mi leirui shei ti verbs you (2SG) caress",
       "writ": "ఇ",
       "phon": "/i/",
       "deriv": [
@@ -3322,6 +3203,7 @@
         "word-liri",
         "word-ilir",
         "word-mi",
+        "word-leirui",
         "word-shei"
       ]
     },
@@ -3567,17 +3449,17 @@
       "see": [
         "card-genders"
       ],
-      "fulltext": "iwi aniwi jowi duwi hawi iwiu iwigui miwi nowi hiwi otiwi iwa genders bird enby",
+      "fulltext": "iwi aniwi duwi hawi iwiu iwigui jowi miwi nowi hiwi otiwi iwa genders bird enby",
       "writ": "ఇవి",
       "phon": "/iwi/",
       "glo": "**bird**",
       "deriv": [
         "word-aniwi",
-        "word-jowi",
         "word-duwi",
         "word-hawi",
         "word-iwiu",
         "word-iwigui",
+        "word-jowi",
         "word-miwi",
         "word-nowi",
         "word-hiwi",
@@ -3653,6 +3535,20 @@
       "phon": "/iwigui/",
       "glo": "**phoenix**"
     },
+    "word-ja": {
+      "name": "ja",
+      "id": "word-ja",
+      "type": "word",
+      "noun": "possible",
+      "fulltext": "ja eja neja possible",
+      "writ": "జా",
+      "phon": "/dʒa/",
+      "glo": "**possible**",
+      "deriv": [
+        "word-eja",
+        "word-neja"
+      ]
+    },
     "word-je": {
       "name": "je",
       "id": "word-je",
@@ -3694,42 +3590,202 @@
       "phon": "/dʒɛfi/",
       "glo": "**caring**"
     },
-    "word-deso": {
-      "name": "deso",
-      "id": "word-deso",
+    "word-ji": {
+      "name": "ji",
+      "id": "word-ji",
       "type": "word",
-      "noun": "sponge",
-      "fulltext": "deso desoyon sponge",
-      "writ": "దేసో",
-      "phon": "/dɛsɔ/",
-      "glo": "**sponge**",
+      "noun": "hair",
+      "posit": "standing, body leaning forward, hair offered ready to be taken",
+      "phrases": [
+        "phrase-11",
+        "phrase-67",
+        "phrase-108"
+      ],
+      "fulltext": "ji gojida soaji hair standing, body leaning forward, hair offered ready to be taken",
+      "writ": "జి",
+      "phon": "/dʒi/",
+      "glo": "**hair**",
       "deriv": [
-        "word-desoyon"
+        "word-gojida",
+        "word-soaji"
       ]
     },
-    "word-desoyon": {
-      "name": "desoyon",
-      "id": "word-desoyon",
+    "word-gojida": {
+      "name": "gojida",
+      "id": "word-gojida",
       "type": "word",
-      "noun": "spongy clitoral body",
+      "noun": "bear",
       "etym": [
-        "word-deso",
-        "word-yon"
+        "word-go",
+        "word-ji",
+        "word-oda"
       ],
-      "fulltext": "desoyon word-deso word-yon spongy clitoral body",
-      "writ": "దేసోయోఁ",
-      "phon": "/dɛsɔjɔn/",
-      "glo": "**spongy clitoral body**"
+      "fulltext": "gojida word-go word-ji word-oda bear",
+      "writ": "గోజిదా",
+      "phon": "/gɔdʒida/",
+      "glo": "**bear**"
     },
-    "word-desotaj": {
-      "name": "desotaj",
-      "id": "word-desotaj",
+    "word-neji": {
+      "name": "neji",
+      "id": "word-neji",
       "type": "word",
-      "noun": "spongy penis body",
-      "fulltext": "desotaj spongy penis body",
-      "writ": "దేసోతాజ్‌",
-      "phon": "/dɛsɔtaʒ/",
-      "glo": "**spongy penis body**"
+      "noun": "without hair",
+      "verb": "to shave",
+      "fulltext": "neji without hair to shave",
+      "writ": "నేజి",
+      "phon": "/nɛdʒi/",
+      "glo": "**without hair**"
+    },
+    "word-jo": {
+      "name": "jo",
+      "id": "word-jo",
+      "type": "word",
+      "adj": "close, proximal",
+      "etym": [
+        "word-dau",
+        "word-ojo"
+      ],
+      "see": [
+        "word-ha"
+      ],
+      "fulltext": "jo word-dau word-ojo djobaj hajo joha joda jona jowi joto djoma djonopi obo ha close, proximal",
+      "writ": "జో",
+      "phon": "/dʒɔ/",
+      "glo": "**close, proximal**",
+      "deriv": [
+        "word-djobaj",
+        "word-hajo",
+        "word-joha",
+        "word-joda",
+        "word-jona",
+        "word-jowi",
+        "word-joto",
+        "word-djoma",
+        "word-djonopi",
+        "word-obo"
+      ]
+    },
+    "word-hajo": {
+      "name": "hajo",
+      "id": "word-hajo",
+      "type": "word",
+      "verb": "to take",
+      "etym": [
+        "word-ha",
+        "word-jo"
+      ],
+      "fulltext": "hajo word-ha word-jo muhajo to take",
+      "writ": "హాజో",
+      "phon": "/hadʒɔ/",
+      "glo": "**to take**",
+      "deriv": [
+        "word-muhajo"
+      ]
+    },
+    "word-joha": {
+      "name": "joha",
+      "id": "word-joha",
+      "type": "word",
+      "verb": "to reject",
+      "etym": [
+        "word-jo",
+        "word-ha"
+      ],
+      "fulltext": "joha word-jo word-ha to reject",
+      "writ": "జోహా",
+      "phon": "/dʒɔha/",
+      "glo": "**to reject**"
+    },
+    "word-muhajo": {
+      "name": "muhajo",
+      "id": "word-muhajo",
+      "type": "word",
+      "verb": "to pick up",
+      "etym": [
+        "word-mu",
+        "word-hajo"
+      ],
+      "fulltext": "muhajo word-mu word-hajo to pick up",
+      "writ": "ముహాజో",
+      "phon": "/muhadʒɔ/",
+      "glo": "**to pick up**"
+    },
+    "word-joda": {
+      "name": "joda",
+      "id": "word-joda",
+      "type": "word",
+      "noun": "child",
+      "etym": [
+        "word-jo",
+        "word-oda"
+      ],
+      "see": [
+        "card-family"
+      ],
+      "fulltext": "joda word-jo word-oda bisajoda family child",
+      "writ": "జోదా",
+      "phon": "/dʒɔda/",
+      "glo": "**child**",
+      "deriv": [
+        "word-bisajoda"
+      ]
+    },
+    "word-jona": {
+      "name": "jona",
+      "id": "word-jona",
+      "type": "word",
+      "noun": "daughter",
+      "etym": [
+        "word-jo",
+        "word-ana"
+      ],
+      "see": [
+        "card-family"
+      ],
+      "phrases": [
+        "phrase-26"
+      ],
+      "fulltext": "jona word-jo word-ana family daughter",
+      "writ": "జోనా",
+      "phon": "/dʒɔna/",
+      "glo": "**daughter**"
+    },
+    "word-jowi": {
+      "name": "jowi",
+      "id": "word-jowi",
+      "type": "word",
+      "noun": "enby child",
+      "etym": [
+        "word-jo",
+        "word-iwi"
+      ],
+      "see": [
+        "card-family"
+      ],
+      "phrases": [
+        "phrase-27"
+      ],
+      "fulltext": "jowi word-jo word-iwi family enby child",
+      "writ": "జోవి",
+      "phon": "/dʒɔwi/",
+      "glo": "**enby child**"
+    },
+    "word-joto": {
+      "name": "joto",
+      "id": "word-joto",
+      "type": "word",
+      "noun": "son",
+      "etym": [
+        "word-jo",
+        "word-oto"
+      ],
+      "see": [
+        "card-family"
+      ],
+      "fulltext": "joto word-jo word-oto family son",
+      "writ": "జోతో",
+      "phon": "/dʒɔtɔ/",
+      "glo": "**son**"
     },
     "word-jom": {
       "name": "jom",
@@ -4314,7 +4370,7 @@
       "noun": "tears",
       "phrases": [
         "phrase-10",
-        "phrase-104"
+        "phrase-107"
       ],
       "fulltext": "falame tears",
       "writ": "చాలామే",
@@ -4435,13 +4491,84 @@
       "phon": "/lau/",
       "glo": "**always**"
     },
+    "word-le": {
+      "name": "le",
+      "id": "word-le",
+      "type": "word",
+      "adj": "small",
+      "noun": "5",
+      "suffix": "small",
+      "see": [
+        "card-count"
+      ],
+      "phrases": [
+        "phrase-16",
+        "phrase-18"
+      ],
+      "fulltext": "le gilile masale masalele palajil piule ponale lisoa count 5 small small",
+      "writ": "లే",
+      "phon": "/lɛ/",
+      "glo": "**small**",
+      "deriv": [
+        "word-gilile",
+        "word-masale",
+        "word-masalele",
+        "word-palajil",
+        "word-piule",
+        "word-ponale",
+        "word-lisoa"
+      ]
+    },
+    "word-hamale": {
+      "name": "hamale",
+      "id": "word-hamale",
+      "type": "word",
+      "noun": "little finger",
+      "fulltext": "hamale little finger",
+      "writ": "హామాలే",
+      "phon": "/hamalɛ/",
+      "glo": "**little finger**"
+    },
+    "word-ajale": {
+      "name": "ajale",
+      "id": "word-ajale",
+      "type": "word",
+      "noun": "spark",
+      "posit": "on top of me: 4 limbs and 1 genital (little finger)",
+      "etym": [
+        "word-aj"
+      ],
+      "fulltext": "ajale word-aj spark on top of me: 4 limbs and 1 genital (little finger)",
+      "writ": "అజాలే",
+      "phon": "/adʒalɛ/",
+      "glo": "**spark**"
+    },
+    "word-nele": {
+      "name": "nele",
+      "id": "word-nele",
+      "type": "word",
+      "noun": "confusion",
+      "adj": "insecure",
+      "verb": "to confound",
+      "see": [
+        "card-ganes",
+        "card-nanes"
+      ],
+      "phrases": [
+        "phrase-94"
+      ],
+      "fulltext": "nele ganes nanes confusion to confound insecure",
+      "writ": "నేలే",
+      "phon": "/nɛlɛ/",
+      "glo": "**confusion**"
+    },
     "word-lei": {
       "name": "lei",
       "id": "word-lei",
       "type": "word",
       "noun": "time",
       "prep": "then",
-      "fulltext": "lei kulei lau leiuki lem nei ul time then",
+      "fulltext": "lei kulei lau leiuki lem nei leiru ukile ul time then",
       "writ": "లేఇ",
       "phon": "/lɛi/",
       "glo": "**time**",
@@ -4451,6 +4578,8 @@
         "word-leiuki",
         "word-lem",
         "word-nei",
+        "word-leiru",
+        "word-ukile",
         "word-ul"
       ]
     },
@@ -4679,77 +4808,6 @@
       "phon": "/ligau/",
       "glo": "**to taste**"
     },
-    "word-le": {
-      "name": "le",
-      "id": "word-le",
-      "type": "word",
-      "adj": "small",
-      "noun": "5",
-      "suffix": "small",
-      "see": [
-        "card-count"
-      ],
-      "phrases": [
-        "phrase-16",
-        "phrase-18"
-      ],
-      "fulltext": "le gilile masale masalele palajil piule ponale lisoa count 5 small small",
-      "writ": "లే",
-      "phon": "/lɛ/",
-      "glo": "**small**",
-      "deriv": [
-        "word-gilile",
-        "word-masale",
-        "word-masalele",
-        "word-palajil",
-        "word-piule",
-        "word-ponale",
-        "word-lisoa"
-      ]
-    },
-    "word-hamale": {
-      "name": "hamale",
-      "id": "word-hamale",
-      "type": "word",
-      "noun": "little finger",
-      "fulltext": "hamale little finger",
-      "writ": "హామాలే",
-      "phon": "/hamalɛ/",
-      "glo": "**little finger**"
-    },
-    "word-ajale": {
-      "name": "ajale",
-      "id": "word-ajale",
-      "type": "word",
-      "noun": "spark",
-      "posit": "on top of me: 4 limbs and 1 genital (little finger)",
-      "etym": [
-        "word-aj"
-      ],
-      "fulltext": "ajale word-aj spark on top of me: 4 limbs and 1 genital (little finger)",
-      "writ": "అజాలే",
-      "phon": "/adʒalɛ/",
-      "glo": "**spark**"
-    },
-    "word-nele": {
-      "name": "nele",
-      "id": "word-nele",
-      "type": "word",
-      "noun": "confusion",
-      "adj": "insecure",
-      "verb": "to confound",
-      "see": [
-        "card-ganes",
-        "card-nanes"
-      ],
-      "phrases": [
-        "phrase-94"
-      ],
-      "fulltext": "nele ganes nanes confusion to confound insecure",
-      "writ": "నేలే",
-      "phon": "/nɛlɛ/",
-      "glo": "**confusion**"
-    },
     "word-lir": {
       "name": "lir",
       "id": "word-lir",
@@ -4952,7 +5010,7 @@
         "phrase-73",
         "phrase-74",
         "phrase-79",
-        "phrase-98"
+        "phrase-101"
       ],
       "fulltext": "ma anama mahim hama djoma nema mu malam masa mi mo hand to take, to hold",
       "writ": "మా",
@@ -5021,7 +5079,7 @@
       "id": "word-mu",
       "type": "word",
       "verb": "to pull",
-      "glo": "hand.VERB.ABL",
+      "glo": "hand.VERB.ALL",
       "etym": [
         "word-ma",
         "word-u"
@@ -5199,7 +5257,7 @@
         "word-mo",
         "word-mu"
       ],
-      "desc": "[101](phrase-101)",
+      "desc": "[104](phrase-104)",
       "phrases": [
         "phrase-7",
         "phrase-57",
@@ -5210,9 +5268,9 @@
         "phrase-65",
         "phrase-66",
         "phrase-67",
-        "phrase-101"
+        "phrase-104"
       ],
-      "fulltext": "mi word-ma word-i [101](phrase-101) lami miwi mo mu to caress",
+      "fulltext": "mi word-ma word-i [104](phrase-104) lami miwi mo mu to caress",
       "writ": "మి",
       "phon": "/mi/",
       "deriv": [
@@ -5225,7 +5283,7 @@
       "id": "word-mo",
       "type": "word",
       "verb": "to slap",
-      "glo": "**hand**.VERB.ALL",
+      "glo": "**hand**.VERB.ABL",
       "etym": [
         "word-ma",
         "word-o"
@@ -5559,10 +5617,13 @@
       "id": "word-nes",
       "type": "word",
       "noun": "magnitude, is-ness",
-      "fulltext": "nes magnitude, is-ness",
+      "fulltext": "nes zunes magnitude, is-ness",
       "writ": "నేస్‌",
       "phon": "/nɛs/",
-      "glo": "**magnitude, is-ness**"
+      "glo": "**magnitude, is-ness**",
+      "deriv": [
+        "word-zunes"
+      ]
     },
     "word-ni": {
       "name": "ni",
@@ -5806,13 +5867,13 @@
       "id": "word-o",
       "type": "word",
       "suffix": "hit, hurt",
-      "conj": "I/we (1SG.INDF)",
-      "glo": "ALL",
+      "conj": "I/we (1SG.INDF = 1SI)",
+      "glo": "ABL",
       "see": [
         "word-to",
         "card-verbs"
       ],
-      "fulltext": "o ago liro lemo dao gao go mo okei oya odo to verbs I/we (1SG.INDF) hit, hurt",
+      "fulltext": "o ago liro lemo dao gao go mo okei oya odo leiruo to verbs I/we (1SG.INDF = 1SI) hit, hurt",
       "writ": "ఓ",
       "phon": "/ɔ/",
       "deriv": [
@@ -5825,18 +5886,26 @@
         "word-mo",
         "word-okei",
         "word-oya",
-        "word-odo"
+        "word-odo",
+        "word-leiruo"
       ]
     },
     "word-hafo": {
       "name": "hafo",
       "id": "word-hafo",
       "type": "word",
-      "verb": "tomber (tête fouettée)",
-      "fulltext": "hafo tomber (tête fouettée)",
+      "verb": "to fall",
+      "etym": [
+        "word-ha",
+        "word-fo"
+      ],
+      "phrases": [
+        "phrase-97"
+      ],
+      "fulltext": "hafo word-ha word-fo to fall",
       "writ": "హాచో",
       "phon": "/hafɔ/",
-      "glo": "**tomber (tête fouettée)**"
+      "glo": "**to fall**"
     },
     "word-okei": {
       "name": "okei",
@@ -5917,7 +5986,7 @@
         "phrase-59",
         "phrase-90"
       ],
-      "fulltext": "oda lada doda anoda deda gojida joda goda hada hao odin kada kaya koda keda kuoda kelo lamioda loda neoda noda yoda keoda yosa odei hida hina odo odu otoda peda pida piyida samoda shada shida shoda to uloda yada yida ayida to oya pronouns body, place of life alive animal I/we",
+      "fulltext": "oda lada doda anoda deda goda hada hao odin gojida joda kada kaya koda keda kuoda kelo lamioda loda neoda noda yoda keoda yosa odei hida hina odo odu otoda peda pida piyida samoda shada shida shoda to uloda yada yida ayida to oya pronouns body, place of life alive animal I/we",
       "writ": "ఓదా",
       "phon": "/ɔda/",
       "deriv": [
@@ -5925,12 +5994,12 @@
         "word-doda",
         "word-anoda",
         "word-deda",
-        "word-gojida",
-        "word-joda",
         "word-goda",
         "word-hada",
         "word-hao",
         "word-odin",
+        "word-gojida",
+        "word-joda",
         "word-kada",
         "word-kaya",
         "word-koda",
@@ -5969,7 +6038,7 @@
       "id": "word-oya",
       "type": "word",
       "pron": "me/us (poetic)",
-      "glo": "1SG.INDF.POET",
+      "glo": "1SI.POET",
       "etym": [
         "word-o",
         "word-yada"
@@ -6018,7 +6087,7 @@
       "id": "word-odei",
       "type": "word",
       "noun": "fantastic me/us (Dom)",
-      "glo": "1SG.INDF.HONOR",
+      "glo": "1SI.HONOR",
       "etym": [
         "word-oda",
         "word-ei"
@@ -6036,7 +6105,7 @@
       "id": "word-yadei",
       "type": "word",
       "noun": "fantastic me/us (poetic)",
-      "glo": "1SG.INDF.HONOR.POET",
+      "glo": "1SI.HONOR.POET",
       "etym": [
         "word-yada",
         "word-ei"
@@ -6128,9 +6197,9 @@
       ],
       "see": [
         "word-odu",
-        "word-dao"
+        "word-dau"
       ],
-      "fulltext": "odo word-oda word-o odu dao to leave",
+      "fulltext": "odo word-oda word-o odu dau to leave",
       "writ": "ఓదో",
       "phon": "/ɔdɔ/",
       "glo": "**to leave**"
@@ -6148,12 +6217,12 @@
         "word-odo",
         "word-dao"
       ],
-      "desc": "\n[102](phrase-102)\n  ",
+      "desc": "\n[105](phrase-105)\n  ",
       "phrases": [
         "phrase-8",
-        "phrase-102"
+        "phrase-105"
       ],
-      "fulltext": "odu word-oda word-u \n[102](phrase-102)\n   odo dao to come",
+      "fulltext": "odu word-oda word-u \n[105](phrase-105)\n   odo dao to come",
       "writ": "ఓదు",
       "phon": "/ɔdu/",
       "glo": "**to come**"
@@ -6319,15 +6388,15 @@
         "word-she",
         "card-pronouns"
       ],
-      "fulltext": "oto anoto joto duto ida noto hito otoda otana otiwi she pronouns wind masculine",
+      "fulltext": "oto anoto duto ida joto noto hito otoda otana otiwi she pronouns wind masculine",
       "writ": "ఓతో",
       "phon": "/ɔtɔ/",
       "glo": "**wind**",
       "deriv": [
         "word-anoto",
-        "word-joto",
         "word-duto",
         "word-ida",
+        "word-joto",
         "word-noto",
         "word-hito",
         "word-otoda",
@@ -6745,7 +6814,7 @@
       "id": "word-piyida",
       "type": "word",
       "pron": "tiny me",
-      "glo": "1SG.TINY",
+      "glo": "1SG.DIM",
       "etym": [
         "word-piyi",
         "word-oda"
@@ -6763,7 +6832,7 @@
       "id": "word-piyiya",
       "type": "word",
       "pron": "tiny me (poetic)",
-      "glo": "1SG.TINY.POET",
+      "glo": "1SG.DIM.POET",
       "etym": [
         "word-piyi",
         "word-yada"
@@ -6903,7 +6972,7 @@
       "id": "word-piyi",
       "type": "word",
       "conj": "I (tiny)",
-      "glo": "1SG.TINY",
+      "glo": "1SG.DIM",
       "see": [
         "card-verbs"
       ],
@@ -6920,7 +6989,7 @@
       "id": "word-topiyi",
       "type": "word",
       "det": "to me (tiny)",
-      "glo": "POSS.1SG.TINY",
+      "glo": "POSS.1SG.DIM",
       "see": [
         "card-det"
       ],
@@ -7166,7 +7235,7 @@
       "phrases": [
         "phrase-87"
       ],
-      "fulltext": "ru rugui guru karu loru runa prep to become to become",
+      "fulltext": "ru rugui guru karu loru runa leiru prep to become to become",
       "writ": "రు",
       "phon": "/ru/",
       "glo": "**to become**",
@@ -7175,7 +7244,8 @@
         "word-guru",
         "word-karu",
         "word-loru",
-        "word-runa"
+        "word-runa",
+        "word-leiru"
       ]
     },
     "word-runa": {
@@ -7191,6 +7261,56 @@
       "writ": "రునా",
       "phon": "/runa/",
       "glo": "**emergence**"
+    },
+    "word-leiru": {
+      "name": "leiru",
+      "id": "word-leiru",
+      "type": "word",
+      "noun": "destiny",
+      "etym": [
+        "word-lei",
+        "word-ru"
+      ],
+      "fulltext": "leiru word-lei word-ru leirui leiruo destiny",
+      "writ": "లేఇరు",
+      "phon": "/lɛiru/",
+      "glo": "**destiny**",
+      "deriv": [
+        "word-leirui",
+        "word-leiruo"
+      ]
+    },
+    "word-leirui": {
+      "name": "leirui",
+      "id": "word-leirui",
+      "type": "word",
+      "noun": "fortune",
+      "etym": [
+        "word-leiru",
+        "word-i"
+      ],
+      "fulltext": "leirui word-leiru word-i fortune",
+      "writ": "లేఇరుఇ",
+      "phon": "/lɛirui/",
+      "glo": "**fortune**"
+    },
+    "word-leiruo": {
+      "name": "leiruo",
+      "id": "word-leiruo",
+      "type": "word",
+      "noun": "misfortune",
+      "adv": "alas",
+      "etym": [
+        "word-leiru",
+        "word-o"
+      ],
+      "phrases": [
+        "phrase-95"
+      ],
+      "fulltext": "leiruo word-leiru word-o misfortune alas",
+      "writ": "లేఇరుఓ",
+      "phon": "/lɛiruɔ/",
+      "glo": "**misfortune**"
     },
     "word-rum": {
       "name": "rum",
@@ -7284,14 +7404,14 @@
       "type": "word",
       "noun": "foot",
       "posit": "standing",
-      "desc": "\nNote that when saying \"left foot\" or \"right foot\", the terminal\n'e' is dropped:\n\n[103](phrase-103)",
+      "desc": "\nNote that when saying \"left foot\" or \"right foot\", the terminal\n'e' is dropped:\n\n[106](phrase-106)",
       "phrases": [
         "phrase-9",
         "phrase-9",
-        "phrase-103",
-        "phrase-103"
+        "phrase-106",
+        "phrase-106"
       ],
-      "fulltext": "same \nNote that when saying \"left foot\" or \"right foot\", the terminal\n'e' is dropped:\n\n[103](phrase-103) anasame samoda foot standing",
+      "fulltext": "same \nNote that when saying \"left foot\" or \"right foot\", the terminal\n'e' is dropped:\n\n[106](phrase-106) anasame samoda foot standing",
       "writ": "సామే",
       "phon": "/samɛ/",
       "glo": "**foot**",
@@ -7764,7 +7884,8 @@
         "word-esi"
       ],
       "phrases": [
-        "phrase-94"
+        "phrase-94",
+        "phrase-96"
       ],
       "fulltext": "si sienu sigu esi prep esi like like, as if",
       "writ": "సి",
@@ -7867,6 +7988,9 @@
       ],
       "see": [
         "card-nature"
+      ],
+      "phrases": [
+        "phrase-96"
       ],
       "fulltext": "gosoa word-go word-soa nature mountain",
       "writ": "గోసోఅ",
@@ -8168,7 +8292,7 @@
       "det": "my/our",
       "prefix": "my/our",
       "suffix": "my/our",
-      "glo": "POSS.1SG.INDF",
+      "glo": "POSS.1SI",
       "etym": [
         "word-wu",
         "word-oda"
@@ -8265,11 +8389,11 @@
       "id": "word-u",
       "type": "word",
       "suffix": "pull",
-      "glo": "ABL",
+      "glo": "ALL",
       "phrases": [
         "phrase-77"
       ],
-      "fulltext": "u auhu awiu liru lemu gau gu iwiu liu mu nu odu sheu ul uya yinu pull",
+      "fulltext": "u auhu awiu liru lemu gau gu iwiu liu mu nu odu sheu dau ul uya yinu pull",
       "writ": "ఉ",
       "phon": "/u/",
       "deriv": [
@@ -8285,6 +8409,7 @@
         "word-nu",
         "word-odu",
         "word-sheu",
+        "word-dau",
         "word-ul",
         "word-uya",
         "word-yinu"
@@ -8295,15 +8420,37 @@
       "id": "word-uba",
       "type": "word",
       "verb": "run down",
-      "desc": "\n[104](phrase-104)",
+      "desc": "\n[107](phrase-107)",
       "phrases": [
         "phrase-10",
-        "phrase-104"
+        "phrase-107"
       ],
-      "fulltext": "uba \n[104](phrase-104) run down",
+      "fulltext": "uba \n[107](phrase-107) run down",
       "writ": "ఉబా",
       "phon": "/uba/",
       "glo": "**run down**"
+    },
+    "word-dau": {
+      "name": "dau",
+      "id": "word-dau",
+      "type": "word",
+      "noun": "to",
+      "glo": "to.LOC",
+      "etym": [
+        "word-da",
+        "word-u"
+      ],
+      "see": [
+        "word-odo",
+        "word-dao",
+        "card-prep"
+      ],
+      "fulltext": "dau word-da word-u jo odo dao prep to",
+      "writ": "దాఉ",
+      "phon": "/dau/",
+      "deriv": [
+        "word-jo"
+      ]
     },
     "word-uki": {
       "name": "uki",
@@ -8314,21 +8461,36 @@
       "see": [
         "word-iki"
       ],
-      "desc": "\n* [105](phrase-105)",
+      "desc": "\n* [108](phrase-108)",
       "phrases": [
         "phrase-19",
         "phrase-20",
         "phrase-21",
         "phrase-22"
       ],
-      "fulltext": "uki \n* [105](phrase-105) agauki leiuki iki long long",
+      "fulltext": "uki \n* [108](phrase-108) agauki leiuki ukile iki long long",
       "writ": "ఉకి",
       "phon": "/uki/",
       "glo": "**long**",
       "deriv": [
         "word-agauki",
-        "word-leiuki"
+        "word-leiuki",
+        "word-ukile"
       ]
+    },
+    "word-ukile": {
+      "name": "ukile",
+      "id": "word-ukile",
+      "type": "word",
+      "noun": "old",
+      "etym": [
+        "word-uki",
+        "word-lei"
+      ],
+      "fulltext": "ukile word-uki word-lei old",
+      "writ": "ఉకిలే",
+      "phon": "/ukilɛ/",
+      "glo": "**old**"
     },
     "word-ul": {
       "name": "ul",
@@ -8424,6 +8586,19 @@
       "phon": "/uja/",
       "glo": "**since**"
     },
+    "word-wa": {
+      "name": "wa",
+      "id": "word-wa",
+      "type": "word",
+      "noun": "is",
+      "glo": "TOP",
+      "phrases": [
+        "phrase-95"
+      ],
+      "fulltext": "wa is",
+      "writ": "వా",
+      "phon": "/wa/"
+    },
     "word-we": {
       "name": "we",
       "id": "word-we",
@@ -8442,6 +8617,37 @@
         "word-hawe",
         "word-munwe"
       ]
+    },
+    "word-weis": {
+      "name": "weis",
+      "id": "word-weis",
+      "type": "word",
+      "adj": "empty",
+      "fulltext": "weis goweis empty",
+      "writ": "వేఇస్‌",
+      "phon": "/wɛis/",
+      "glo": "**empty**",
+      "deriv": [
+        "word-goweis"
+      ]
+    },
+    "word-goweis": {
+      "name": "goweis",
+      "id": "word-goweis",
+      "type": "word",
+      "noun": "desolate",
+      "verb": "to desolate",
+      "etym": [
+        "word-go",
+        "word-weis"
+      ],
+      "phrases": [
+        "phrase-95"
+      ],
+      "fulltext": "goweis word-go word-weis desolate to desolate",
+      "writ": "గోవేఇస్‌",
+      "phon": "/gɔwɛis/",
+      "glo": "**desolate**"
     },
     "word-wen": {
       "name": "wen",
@@ -8719,16 +8925,16 @@
       "name": "yi",
       "id": "word-yi",
       "type": "word",
-      "conj": "you tiny (2SG.TINY)",
+      "conj": "you tiny (2SG.DIM)",
       "adj": "tiny",
       "suffix": "tiny",
+      "glo": "DIM",
       "see": [
         "alt-tiyi"
       ],
-      "fulltext": "yi yida yiya ayi tayi tiyi you tiny (2SG.TINY) tiny tiny",
+      "fulltext": "yi yida yiya ayi tayi tiyi you tiny (2SG.DIM) tiny tiny",
       "writ": "యి",
       "phon": "/ji/",
-      "glo": "**you tiny (2SG.TINY)**",
       "deriv": [
         "word-yida",
         "word-yiya",
@@ -8736,12 +8942,29 @@
         "word-tayi"
       ]
     },
+    "word-yile": {
+      "name": "yile",
+      "id": "word-yile",
+      "type": "word",
+      "noun": "young",
+      "see": [
+        "word-yi",
+        "word-lei"
+      ],
+      "phrases": [
+        "phrase-97"
+      ],
+      "fulltext": "yile yi lei young",
+      "writ": "యిలే",
+      "phon": "/jilɛ/",
+      "glo": "**young**"
+    },
     "word-yida": {
       "name": "yida",
       "id": "word-yida",
       "type": "word",
       "pron": "tiny you",
-      "glo": "2SG.TINY",
+      "glo": "2SG.DIM",
       "etym": [
         "word-yi",
         "word-oda"
@@ -8763,7 +8986,7 @@
       "id": "word-yiya",
       "type": "word",
       "pron": "tiny you (poetic)",
-      "glo": "2SG.TINY.POET",
+      "glo": "2SG.DIM.POET",
       "etym": [
         "word-yi",
         "word-yada"
@@ -8781,7 +9004,7 @@
       "id": "word-ayi",
       "type": "word",
       "conj": "they (tiny)",
-      "glo": "3SG.TINY",
+      "glo": "3SG.DIM",
       "etym": [
         "word-a",
         "word-yi"
@@ -8799,7 +9022,7 @@
       "id": "word-tayi",
       "type": "word",
       "conj": "their (tiny)",
-      "glo": "POSS.3SG.TINY",
+      "glo": "POSS.3SG.DIM",
       "etym": [
         "word-ta",
         "word-yi"
@@ -8816,7 +9039,7 @@
       "id": "word-ayida",
       "type": "word",
       "pron": "them",
-      "glo": "32g.TINY",
+      "glo": "32g.DIM",
       "etym": [
         "word-ayi",
         "word-oda"
@@ -8830,7 +9053,7 @@
       "id": "word-ayiya",
       "type": "word",
       "pron": "them (poetic)",
-      "glo": "32g.TINY.POET",
+      "glo": "32g.DIM.POET",
       "etym": [
         "word-ayi",
         "word-yada"
@@ -8864,7 +9087,7 @@
       "id": "word-yinu",
       "type": "word",
       "verb": "grasp with the vagina",
-      "glo": "vagina.ABL",
+      "glo": "vagina.ALL",
       "etym": [
         "word-yin",
         "word-u"
@@ -8938,13 +9161,13 @@
         "phrase-13",
         "phrase-80"
       ],
-      "fulltext": "yon word-yu word-on yoneri desoyon yoda wiyon riyon royon yonin yonegi keyon vulva",
+      "fulltext": "yon word-yu word-on desoyon yoneri yoda wiyon riyon royon yonin yonegi keyon vulva",
       "writ": "యోఁ",
       "phon": "/jɔn/",
       "glo": "**vulva**",
       "deriv": [
-        "word-yoneri",
         "word-desoyon",
+        "word-yoneri",
         "word-yoda",
         "word-wiyon",
         "word-riyon",
@@ -9105,14 +9328,15 @@
         "phrase-61",
         "phrase-64",
         "phrase-85",
-        "phrase-100"
+        "phrase-103"
       ],
-      "fulltext": "zu zuzu au heart to love",
+      "fulltext": "zu zuzu zunes au heart to love",
       "writ": "ఠు",
       "phon": "/zu/",
       "glo": "**heart**",
       "deriv": [
-        "word-zuzu"
+        "word-zuzu",
+        "word-zunes"
       ]
     },
     "word-zuzu": {
@@ -9136,15 +9360,92 @@
       "phon": "/zuzu/",
       "glo": "**to make love**"
     },
-    "word-wa": {
-      "name": "wa",
-      "id": "word-wa",
+    "word-zunes": {
+      "name": "zunes",
+      "id": "word-zunes",
       "type": "word",
-      "noun": "is",
-      "glo": "TOP",
-      "fulltext": "wa is",
-      "writ": "వా",
-      "phon": "/wa/"
+      "noun": "love",
+      "etym": [
+        "word-zu",
+        "word-nes"
+      ],
+      "phrases": [
+        "phrase-95"
+      ],
+      "fulltext": "zunes word-zu word-nes love",
+      "writ": "ఠునేస్‌",
+      "phon": "/zunɛs/",
+      "glo": "**love**"
+    },
+    "word-gahal": {
+      "name": "gahal",
+      "id": "word-gahal",
+      "type": "word",
+      "noun": "sky deity",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/J%C3%BApiter_y_Tetis%2C_por_Dominique_Ingres.jpg/330px-J%C3%BApiter_y_Tetis%2C_por_Dominique_Ingres.jpg",
+      "desc": "\n[Sky father](https://en.wikipedia.org/wiki/Sky_father)\n\n  ",
+      "etym": [
+        "word-ga",
+        "word-al"
+      ],
+      "see": [
+        "card-gods"
+      ],
+      "fulltext": "gahal word-ga word-al \n[Sky father](https://en.wikipedia.org/wiki/Sky_father)\n\n   gods sky deity",
+      "writ": "గాహాల్‌",
+      "phon": "/gahal/",
+      "glo": "**sky deity**"
+    },
+    "word-so": {
+      "name": "so",
+      "id": "word-so",
+      "type": "word",
+      "noun": "earth",
+      "suffix": "down",
+      "see": [
+        "word-al"
+      ],
+      "fulltext": "so al earth down",
+      "writ": "సో",
+      "phon": "/sɔ/",
+      "glo": "**earth**"
+    },
+    "word-sona": {
+      "name": "sona",
+      "id": "word-sona",
+      "type": "word",
+      "noun": "mother earth",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Mother_Goddess%2C_Madhya_Pradesh_or_Rajasthan%2C_India%2C_6th_-_7th_cents.%2C_National_Museum_of_Korea%2C_Seoul_%2840236606165%29.jpg/330px-Mother_Goddess%2C_Madhya_Pradesh_or_Rajasthan%2C_India%2C_6th_-_7th_cents.%2C_National_Museum_of_Korea%2C_Seoul_%2840236606165%29.jpg",
+      "desc": "\n[Mother goddess](https://en.wikipedia.org/wiki/Mother_goddess)\n  ",
+      "see": [
+        "card-gods"
+      ],
+      "fulltext": "sona \n[Mother goddess](https://en.wikipedia.org/wiki/Mother_goddess)\n   gusona gods mother earth",
+      "writ": "సోనా",
+      "phon": "/sɔna/",
+      "glo": "**mother earth**",
+      "deriv": [
+        "word-gusona"
+      ]
+    },
+    "word-gusona": {
+      "name": "gusona",
+      "id": "word-gusona",
+      "type": "word",
+      "noun": "impermanence",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Kali_by_Raja_Ravi_Varma.jpg/330px-Kali_by_Raja_Ravi_Varma.jpg",
+      "desc": "\n[gusona](word-gusona) allows the unfolding of space through time, of life through\ndeath, of knowledge through experience. She is the mother goddess of [gu](word-gu).\n\nHer other name is **Kālī (काली)**, the Hindu goddess of Time, Creation,\nDestruction and Power.\n\nKali is the chief of the\n[Mahavidyas](https://en.wikipedia.org/wiki/Mahavidya), a group of ten Tantric\ngoddesses who each form a different aspect of the mother goddess [sona](word-sona).\n  ",
+      "etym": [
+        "word-gu",
+        "word-sona"
+      ],
+      "see": [
+        "card-gods"
+      ],
+      "fulltext": "gusona word-gu word-sona \n[gusona](word-gusona) allows the unfolding of space through time, of life through\ndeath, of knowledge through experience. She is the mother goddess of [gu](word-gu).\n\nHer other name is **Kālī (काली)**, the Hindu goddess of Time, Creation,\nDestruction and Power.\n\nKali is the chief of the\n[Mahavidyas](https://en.wikipedia.org/wiki/Mahavidya), a group of ten Tantric\ngoddesses who each form a different aspect of the mother goddess [sona](word-sona).\n   gods impermanence",
+      "writ": "గుసోనా",
+      "phon": "/gusɔna/",
+      "glo": "**impermanence**"
     }
   },
   "card": {
@@ -9317,12 +9618,11 @@
       "name": "plants",
       "id": "card-plants",
       "type": "card",
-      "lang": "plants",
-      "desc": "\nThe word for \"plant\" is [ina](word-ina), the caressing thing. Note that not all\nplants have the [ina](word-ina) suffix.\n\nSee also [food](card-food), [fruits](card-fruits) and [seasons](card-seasons).\n\nThis is the list of words related to plants currently in the language:\n\n* [bisahina](word-bisahina) (fern)\n* [ana](word-ana) (tree)\n* [ananoa](word-ananoa) (bark)\n* [anama](word-anama) (leaf)\n* [anarum](word-anarum) (branch)\n* [anasame](word-anasame) (root)\n* [buni](word-buni) (bud)\n* [soaji](word-soaji) (grass)\n\n",
-      "fulltext": "plants \nThe word for \"plant\" is [ina](word-ina), the caressing thing. Note that not all\nplants have the [ina](word-ina) suffix.\n\nSee also [food](card-food), [fruits](card-fruits) and [seasons](card-seasons).\n\nThis is the list of words related to plants currently in the language:\n\n* [bisahina](word-bisahina) (fern)\n* [ana](word-ana) (tree)\n* [ananoa](word-ananoa) (bark)\n* [anama](word-anama) (leaf)\n* [anarum](word-anarum) (branch)\n* [anasame](word-anasame) (root)\n* [buni](word-buni) (bud)\n* [soaji](word-soaji) (grass)\n\n plants",
+      "desc": "\n# Plants\n\nThe word for \"plant\" is [ina](word-ina), the caressing thing. Note that not all\nplants have the [ina](word-ina) suffix.\n\nSee also [food](card-food), [fruits](card-fruits) and [seasons](card-seasons).\n\nThis is the list of words related to plants currently in the language:\n\n* [bisahina](word-bisahina) (fern)\n* [ana](word-ana) (tree)\n* [ananoa](word-ananoa) (bark)\n* [anama](word-anama) (leaf)\n* [anarum](word-anarum) (branch)\n* [anasame](word-anasame) (root)\n* [buni](word-buni) (bud)\n* [soaji](word-soaji) (grass)\n\n## Specific plant names\n\n* [okana](word-okana)\n",
+      "fulltext": "plants \n# Plants\n\nThe word for \"plant\" is [ina](word-ina), the caressing thing. Note that not all\nplants have the [ina](word-ina) suffix.\n\nSee also [food](card-food), [fruits](card-fruits) and [seasons](card-seasons).\n\nThis is the list of words related to plants currently in the language:\n\n* [bisahina](word-bisahina) (fern)\n* [ana](word-ana) (tree)\n* [ananoa](word-ananoa) (bark)\n* [anama](word-anama) (leaf)\n* [anarum](word-anarum) (branch)\n* [anasame](word-anasame) (root)\n* [buni](word-buni) (bud)\n* [soaji](word-soaji) (grass)\n\n## Specific plant names\n\n* [okana](word-okana)\n",
       "writ": "pలాntస్‌",
       "phon": "/plants/",
-      "glo": "**plants**"
+      "glo": "**undefined**"
     },
     "card-det": {
       "name": "det",
@@ -9339,20 +9639,19 @@
       "name": "prep",
       "id": "card-prep",
       "type": "card",
-      "lang": "All prepositions",
-      "desc": "\n\nI am not 100% sure all these are technically prepositions but they are \"the small\nconnecting words in a phrase\".\n\n# Time\n\n* [lau](word-lau) (always)\n* [ul](word-ul) (until)\n* [uya](word-uya) (since)\n* [dem](word-dem) (when.PST)\n* [dir](word-dir) (when.FUT)\n* [lei](word-lei) (then)\n\n[61](phrase-61)\n\n# Nouns\n\n* [di](word-di) (who)\n* [dim](word-dim) (whom)\n* [eku](word-eku) (that)\n* [fu](word-fu) (by*)\n* [ko](word-ko) (with)\n* [es](word-es) (self)\n* [ni](word-ni) (to*)\n\n* [fu](word-fu) and [ni](word-ni) are prefix that modify the noun to `ERG`\nand `DAT` cases respectively. Think of [fuJane](alt-fuJane) as meaning \"does Jane\".\n\nSee word order for more on cases: [order](card-order)\n\n[62](phrase-62)\n\n[63](phrase-63)\n\n[64](phrase-64)\n\n# Location\n\n* [don](word-don) (where body)\n* [dona](word-dona) (where place)\n* [ro](word-ro) (in)\n* [ri](word-ri) (out)\n* [fe](word-fe) (on/covering)\n* [dao](word-dao) (from.LOC)\n* [dao](word-dao) (to.LOC)\n\n[65](phrase-65)\n\n# Causality\n\n* [esi](word-esi) (in order to)\n* [eyu](word-eyu) (if)\n* [ibu](word-ibu) (for)\n* [eja](word-eja) (plausibility)\n\n[66](phrase-66)\n\n# Similarity\n\n* [si](word-si) (as if)\n\n# Composability\n\n* [lom](word-lom) (made of)\n* [ru](word-ru) (become)\n\n# Articulation\n\n* [shu](word-shu) (and)\n* [uma](word-uma) (or)\n\n",
-      "fulltext": "prep \n\nI am not 100% sure all these are technically prepositions but they are \"the small\nconnecting words in a phrase\".\n\n# Time\n\n* [lau](word-lau) (always)\n* [ul](word-ul) (until)\n* [uya](word-uya) (since)\n* [dem](word-dem) (when.PST)\n* [dir](word-dir) (when.FUT)\n* [lei](word-lei) (then)\n\n[61](phrase-61)\n\n# Nouns\n\n* [di](word-di) (who)\n* [dim](word-dim) (whom)\n* [eku](word-eku) (that)\n* [fu](word-fu) (by*)\n* [ko](word-ko) (with)\n* [es](word-es) (self)\n* [ni](word-ni) (to*)\n\n* [fu](word-fu) and [ni](word-ni) are prefix that modify the noun to `ERG`\nand `DAT` cases respectively. Think of [fuJane](alt-fuJane) as meaning \"does Jane\".\n\nSee word order for more on cases: [order](card-order)\n\n[62](phrase-62)\n\n[63](phrase-63)\n\n[64](phrase-64)\n\n# Location\n\n* [don](word-don) (where body)\n* [dona](word-dona) (where place)\n* [ro](word-ro) (in)\n* [ri](word-ri) (out)\n* [fe](word-fe) (on/covering)\n* [dao](word-dao) (from.LOC)\n* [dao](word-dao) (to.LOC)\n\n[65](phrase-65)\n\n# Causality\n\n* [esi](word-esi) (in order to)\n* [eyu](word-eyu) (if)\n* [ibu](word-ibu) (for)\n* [eja](word-eja) (plausibility)\n\n[66](phrase-66)\n\n# Similarity\n\n* [si](word-si) (as if)\n\n# Composability\n\n* [lom](word-lom) (made of)\n* [ru](word-ru) (become)\n\n# Articulation\n\n* [shu](word-shu) (and)\n* [uma](word-uma) (or)\n\n All prepositions",
+      "desc": "\n# Prepositions\n\nI am not 100% sure all these are technically prepositions but they are \"the small\nconnecting words in a phrase\".\n\n# Time\n\n* [lau](word-lau) (always)\n* [ul](word-ul) (until)\n* [uya](word-uya) (since)\n* [dem](word-dem) (when.PST)\n* [dir](word-dir) (when.FUT)\n* [lei](word-lei) (then)\n\n[61](phrase-61)\n\n# Nouns\n\n* [di](word-di) (who)\n* [dim](word-dim) (whom)\n* [eku](word-eku) (that)\n* [fu](word-fu) (by*)\n* [ko](word-ko) (with)\n* [es](word-es) (self)\n* [ni](word-ni) (to*)\n\n* [fu](word-fu) and [ni](word-ni) are prefix that modify the noun to `ERG`\nand `DAT` cases respectively. Think of [fuJane](alt-fuJane) as meaning \"does Jane\".\n\nSee word order for more on cases: [order](card-order)\n\n#### nsfw\n\n* [62](phrase-62)\n* [63](phrase-63)\n* [64](phrase-64)\n\n# Location\n\n* [don](word-don) (where body)\n* [dona](word-dona) (where place)\n* [ro](word-ro) (in)\n* [ri](word-ri) (out)\n* [fe](word-fe) (on/covering)\n* [dau](word-dau) (to.LOC)\n* [dao](word-dao) (from.LOC)\n\n[65](phrase-65)\n\n# Causality\n\n* [esi](word-esi) (in order to)\n* [eyu](word-eyu) (if)\n* [ibu](word-ibu) (for)\n* [eja](word-eja) (plausibility)\n\n[66](phrase-66)\n\n# Similarity\n\n* [si](word-si) (as if)\n\n# Composability\n\n* [lom](word-lom) (made of)\n* [ru](word-ru) (become)\n\n# Articulation\n\n* [shu](word-shu) (and)\n* [uma](word-uma) (or)\n\n",
+      "fulltext": "prep \n# Prepositions\n\nI am not 100% sure all these are technically prepositions but they are \"the small\nconnecting words in a phrase\".\n\n# Time\n\n* [lau](word-lau) (always)\n* [ul](word-ul) (until)\n* [uya](word-uya) (since)\n* [dem](word-dem) (when.PST)\n* [dir](word-dir) (when.FUT)\n* [lei](word-lei) (then)\n\n[61](phrase-61)\n\n# Nouns\n\n* [di](word-di) (who)\n* [dim](word-dim) (whom)\n* [eku](word-eku) (that)\n* [fu](word-fu) (by*)\n* [ko](word-ko) (with)\n* [es](word-es) (self)\n* [ni](word-ni) (to*)\n\n* [fu](word-fu) and [ni](word-ni) are prefix that modify the noun to `ERG`\nand `DAT` cases respectively. Think of [fuJane](alt-fuJane) as meaning \"does Jane\".\n\nSee word order for more on cases: [order](card-order)\n\n#### nsfw\n\n* [62](phrase-62)\n* [63](phrase-63)\n* [64](phrase-64)\n\n# Location\n\n* [don](word-don) (where body)\n* [dona](word-dona) (where place)\n* [ro](word-ro) (in)\n* [ri](word-ri) (out)\n* [fe](word-fe) (on/covering)\n* [dau](word-dau) (to.LOC)\n* [dao](word-dao) (from.LOC)\n\n[65](phrase-65)\n\n# Causality\n\n* [esi](word-esi) (in order to)\n* [eyu](word-eyu) (if)\n* [ibu](word-ibu) (for)\n* [eja](word-eja) (plausibility)\n\n[66](phrase-66)\n\n# Similarity\n\n* [si](word-si) (as if)\n\n# Composability\n\n* [lom](word-lom) (made of)\n* [ru](word-ru) (become)\n\n# Articulation\n\n* [shu](word-shu) (and)\n* [uma](word-uma) (or)\n\n",
       "writ": "pరేp",
       "phon": "/prɛp/",
-      "glo": "**All prepositions**"
+      "glo": "**undefined**"
     },
     "card-pronouns": {
       "name": "pronouns",
       "id": "card-pronouns",
       "type": "card",
       "lang": "All pronouns",
-      "desc": "\n## Daytime pronouns\n\nIn case you haven't noticed, there is some consistency with [verbs](card-verbs) and\n[det](card-det).\n\nWithout gender\n\n* [oda](word-oda) (I/we)\n* [ida](word-ida) (you SG)\n* [lada](word-lada) (they SG)\n* [shoda](word-shoda) (we)\n* [shida](word-shida) (you PL)\n* [shada](word-shada) (they PL)\n\nWith gender\n\n* [ida](word-ida) (you enby)\n* [ida](word-ida) (you fem)\n* [ida](word-ida) (you masc)\n* [liwi](word-liwi) (they enby)\n* [lana](word-lana) (she)\n* [loto](word-loto) (he)\n\nRarer forms:\n\n* [odei](word-odei) (me Master)\n* [keda](word-keda) (you Master)\n* [piyida](word-piyida) (tiny me)\n* [yida](word-yida) (tiny you)\n* [ayida](word-ayida) (tiny them)\n* [loda](word-loda) (wet you)\n* [pida](word-pida) (me)\n* [deda](word-deda) (us two)\n* [peda](word-peda) (some)\n* [kada](word-kada) (all of us)\n\n## Dream / intimate body\n\nThese are used for affection and kindness because they respect people's\nintimate dreams about themselves.\n\n* [oya](word-oya) (me/us.INDF)\n* [iya](word-iya) (you)\n* [laya](word-laya) (you)\n* [shoya](word-shoya) (us)\n* [shiya](word-shiya) (you PL)\n* [shaya](word-shaya) (them PL)\n\nRarer forms:\n\n* [yadei](word-yadei) (me Master)\n* [keya](word-keya) (you Master)\n* [piyiya](word-piyiya) (tiny me)\n* [yiya](word-yiya) (tiny you)\n* [ayiya](word-ayiya) (tiny them)\n* [loya](word-loya) (wet you)\n* [piya](word-piya) (me)\n* [deya](word-deya) (us two)\n* [peya](word-peya) (some)\n* [kaya](word-kaya) (all of us)\n\nYour next read: [nature](card-nature) (nature)\n",
-      "fulltext": "pronouns \n## Daytime pronouns\n\nIn case you haven't noticed, there is some consistency with [verbs](card-verbs) and\n[det](card-det).\n\nWithout gender\n\n* [oda](word-oda) (I/we)\n* [ida](word-ida) (you SG)\n* [lada](word-lada) (they SG)\n* [shoda](word-shoda) (we)\n* [shida](word-shida) (you PL)\n* [shada](word-shada) (they PL)\n\nWith gender\n\n* [ida](word-ida) (you enby)\n* [ida](word-ida) (you fem)\n* [ida](word-ida) (you masc)\n* [liwi](word-liwi) (they enby)\n* [lana](word-lana) (she)\n* [loto](word-loto) (he)\n\nRarer forms:\n\n* [odei](word-odei) (me Master)\n* [keda](word-keda) (you Master)\n* [piyida](word-piyida) (tiny me)\n* [yida](word-yida) (tiny you)\n* [ayida](word-ayida) (tiny them)\n* [loda](word-loda) (wet you)\n* [pida](word-pida) (me)\n* [deda](word-deda) (us two)\n* [peda](word-peda) (some)\n* [kada](word-kada) (all of us)\n\n## Dream / intimate body\n\nThese are used for affection and kindness because they respect people's\nintimate dreams about themselves.\n\n* [oya](word-oya) (me/us.INDF)\n* [iya](word-iya) (you)\n* [laya](word-laya) (you)\n* [shoya](word-shoya) (us)\n* [shiya](word-shiya) (you PL)\n* [shaya](word-shaya) (them PL)\n\nRarer forms:\n\n* [yadei](word-yadei) (me Master)\n* [keya](word-keya) (you Master)\n* [piyiya](word-piyiya) (tiny me)\n* [yiya](word-yiya) (tiny you)\n* [ayiya](word-ayiya) (tiny them)\n* [loya](word-loya) (wet you)\n* [piya](word-piya) (me)\n* [deya](word-deya) (us two)\n* [peya](word-peya) (some)\n* [kaya](word-kaya) (all of us)\n\nYour next read: [nature](card-nature) (nature)\n All pronouns",
+      "desc": "\n## Daytime pronouns\n\nIn case you haven't noticed, there is some consistency with [verbs](card-verbs) and\n[det](card-det).\n\nWithout gender\n\n* [oda](word-oda) (I/we: 1SG.INDF = 1SI)\n* [ida](word-ida) (you: 2SG)\n* [lada](word-lada) (they: 3SG)\n* [shoda](word-shoda) (we: 1PL.PRS)\n* [shida](word-shida) (you: 2PL.PRS)\n* [shada](word-shada) (they: 3PL)\n\nWith gender\n\n* [ida](word-ida) (you enby)\n* [ida](word-ida) (you fem)\n* [ida](word-ida) (you masc)\n* [liwi](word-liwi) (they enby)\n* [lana](word-lana) (she)\n* [loto](word-loto) (he)\n\nRarer forms:\n\n* [odei](word-odei) (me Master)\n* [keda](word-keda) (you Master)\n* [piyida](word-piyida) (tiny me)\n* [yida](word-yida) (tiny you)\n* [ayida](word-ayida) (tiny them)\n* [loda](word-loda) (wet you)\n* [pida](word-pida) (me: 1SG)\n* [deda](word-deda) (us two)\n* [peda](word-peda) (some: 3PL.INDF)\n* [kada](word-kada) (all of us: 1PL.DEF)\n\n## Dream / intimate body\n\nThese are used for affection and kindness because they respect people's\nintimate dreams about themselves.\n\n* [oya](word-oya) (me/us.INDF)\n* [iya](word-iya) (you)\n* [laya](word-laya) (you)\n* [shoya](word-shoya) (us)\n* [shiya](word-shiya) (you PL)\n* [shaya](word-shaya) (them PL)\n\nRarer forms:\n\n* [yadei](word-yadei) (me Master)\n* [keya](word-keya) (you Master)\n* [piyiya](word-piyiya) (tiny me)\n* [yiya](word-yiya) (tiny you)\n* [ayiya](word-ayiya) (tiny them)\n* [loya](word-loya) (wet you)\n* [piya](word-piya) (me)\n* [deya](word-deya) (us two)\n* [peya](word-peya) (some)\n* [kaya](word-kaya) (all of us)\n\nYour next read: [nature](card-nature) (nature)\n",
+      "fulltext": "pronouns \n## Daytime pronouns\n\nIn case you haven't noticed, there is some consistency with [verbs](card-verbs) and\n[det](card-det).\n\nWithout gender\n\n* [oda](word-oda) (I/we: 1SG.INDF = 1SI)\n* [ida](word-ida) (you: 2SG)\n* [lada](word-lada) (they: 3SG)\n* [shoda](word-shoda) (we: 1PL.PRS)\n* [shida](word-shida) (you: 2PL.PRS)\n* [shada](word-shada) (they: 3PL)\n\nWith gender\n\n* [ida](word-ida) (you enby)\n* [ida](word-ida) (you fem)\n* [ida](word-ida) (you masc)\n* [liwi](word-liwi) (they enby)\n* [lana](word-lana) (she)\n* [loto](word-loto) (he)\n\nRarer forms:\n\n* [odei](word-odei) (me Master)\n* [keda](word-keda) (you Master)\n* [piyida](word-piyida) (tiny me)\n* [yida](word-yida) (tiny you)\n* [ayida](word-ayida) (tiny them)\n* [loda](word-loda) (wet you)\n* [pida](word-pida) (me: 1SG)\n* [deda](word-deda) (us two)\n* [peda](word-peda) (some: 3PL.INDF)\n* [kada](word-kada) (all of us: 1PL.DEF)\n\n## Dream / intimate body\n\nThese are used for affection and kindness because they respect people's\nintimate dreams about themselves.\n\n* [oya](word-oya) (me/us.INDF)\n* [iya](word-iya) (you)\n* [laya](word-laya) (you)\n* [shoya](word-shoya) (us)\n* [shiya](word-shiya) (you PL)\n* [shaya](word-shaya) (them PL)\n\nRarer forms:\n\n* [yadei](word-yadei) (me Master)\n* [keya](word-keya) (you Master)\n* [piyiya](word-piyiya) (tiny me)\n* [yiya](word-yiya) (tiny you)\n* [ayiya](word-ayiya) (tiny them)\n* [loya](word-loya) (wet you)\n* [piya](word-piya) (me)\n* [deya](word-deya) (us two)\n* [peya](word-peya) (some)\n* [kaya](word-kaya) (all of us)\n\nYour next read: [nature](card-nature) (nature)\n All pronouns",
       "writ": "pరోనోఉnస్‌",
       "phon": "/prɔnɔuns/",
       "glo": "**All pronouns**"
@@ -9372,8 +9671,8 @@
       "name": "verbs",
       "id": "card-verbs",
       "type": "card",
-      "desc": "\n# Verbs and conjugation\n\nMany nouns are also verbs such as [fa](word-fa), [fen](word-fen), [yin](word-yin), [taj](word-taj).\n\nOne of the particularities of this language is the use of three suffix\nused to mark cases related to the body: \n\n* [i](word-i) (CARE)\n* [u](word-u) (ABL)\n* [o](word-o) (ALL)\n\nThese alter the verbs respectively to mean \"caring\" or gentle, \"pulling\" and \"pushing\" or intensity.\n\n* [67](phrase-67)\n* [68](phrase-68)\n* [69](phrase-69)\n\n#### nsfw\n\n* [70](phrase-70)\n* [71](phrase-71)\n\nThe simplest tense is the imperative which looks like the infinitive.\n\n* [72](phrase-72)\n\nPhrases do not have precise verb, subject or object positioning. We\nuse the accusative (target) and sometimes dative (receiver) to\nremove ambiguity.\n\n* [73](phrase-73)\n* [74](phrase-74)\n* [75](phrase-75)\n\nSome verbs-noun actions are so common that they fuse and \"kiss my lips\"\nbecomes \"kiss-lips\" as its own verb:\n\n* [76](phrase-76)\n\nFor more information on word order: [order](card-order)\n\n# Conjugation\n\nFor other tenses, the conjugation comes *first*. This is because it is an\nevolution from *subject verb case* to *subject.verb.case*:\n\n* [77](phrase-77)\n* [78](phrase-78)\n\nSo the possible conjugations are the same as the possible subjects:\n\n* [o](word-o) I/we (1SG.INDF)\n* [i](word-i) you (2SG)\n* [a](word-a) they (3SG)\n* [sho](word-sho) us present (1PL.PRS)\n* [shi](word-shi) you present (2PL.PRS)\n* [sha](word-sha) they (3PL)\n\n## And the rarer forms\n\n* [okei](word-okei) I (1SG.HONOR)\n* [kei](word-kei)  you (2SG.HONOR)\n* [akei](word-akei) they (3SG.HONOR)\n* [piyi](word-piyi) I (1SG.TINY)\n* [yi](word-yi) you (2SG.TINY)\n* [ayi](word-ayi) they (3SG.TINY)\n* [pi](word-pi) I (1SG)\n* [de](word-de) us two (1PL.DU)\n* [pe](word-pe) some (3PL.INDF)\n* [ka](word-ka) us all (1PL.DEF)\n\nWe also have [shoyi](alt-shoyi), [shokei](alt-shokei), etc. You get the idea.\n\nIn case you haven't noticed, there is some consistency with:\n\n* [pronouns](card-pronouns) (pronouns)\n* [det](card-det) (possessivity)\n\n## Passive voices\n\nTo express passive voice, we have the intransitive case [es](word-es) prefix:\n\n* [79](phrase-79)\n\n#### nsfw\n\n* [80](phrase-80)\n\n## Honorific / tiny\n\nThis idea of Honorific/tiny was inspired by BDSM power exchange and role play\nbut it transformed quite a lot to express something closer to the person\ntaking care (parent) and the innocent being taken care of (child). This is\nalso present in the BDSM Dom/sub relationship but I wanted something that\nfocussed more on expressing respect for the responsabilty of the \"carer\"\n([keda](word-keda)) and the vulnerability of the \"cared for\" ([yida](word-yida)).\n\n#### nsfw\n\nFor more BDSM and sexual contexts, the Dominant is still referred to as\n\"fantastic\" [keda](word-keda) but the sub is refered to as \"wet\" [loda](word-loda) instead of\n\"tiny\" [yida](word-yida).\n\nYou can look at [pronouns](card-pronouns)\n\nThis translates in possesive suffix [tei](word-tei), [tiyi](alt-tiyi), [tilo](alt-tilo) or\nconjugations using [kei](word-kei) or the affix [ei](word-ei) or [yi](word-yi).\n\n[81](phrase-81)\n\n[82](phrase-82)\n\n[83](phrase-83)\n\nJust remember, what sounds like \"OKey\" is in fact \"I-fantastic\" and everything hard to\npronounce such as [yiya](word-yiya) are meant to be said with a soft and very kind voice.\n\n# Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them\nbecause these timings are important in the erotic situations where this\nlanguage originated.\n\n## Future tenses\n\n* [lire](word-lire) (FUT.EVNT) eventual future\n* [liro](word-liro) (FUT.DIST) distant future\n* [liru](word-liru) (FUT.PROX) close future\n* [lira](word-lira) (FUT.CRAS) tomorrow\n* [liri](word-liri) (FUT.HOD) tonight or next morning\n\n## Past tenses\n\n* [lemi](word-lemi) (PST.HOD) last night or this morning\n* [lema](word-lema) (PST.HEST) yesterday\n* [lemu](word-lemu) (PST.PROX) recent past\n* [lemo](word-lemo) (PST.DIST) distant past\n* [leme](word-leme) (PST.EVNT) eventual past\n\n## Eternal tenses\n\n* [lau](word-lau) (DEF) always\n* [nei](word-nei) (NEG) never\n\n# Examples\n\n* [84](phrase-84)\n* [85](phrase-85)\n\nYour next read: [order](card-order) (word order)\n",
-      "fulltext": "verbs \n# Verbs and conjugation\n\nMany nouns are also verbs such as [fa](word-fa), [fen](word-fen), [yin](word-yin), [taj](word-taj).\n\nOne of the particularities of this language is the use of three suffix\nused to mark cases related to the body: \n\n* [i](word-i) (CARE)\n* [u](word-u) (ABL)\n* [o](word-o) (ALL)\n\nThese alter the verbs respectively to mean \"caring\" or gentle, \"pulling\" and \"pushing\" or intensity.\n\n* [67](phrase-67)\n* [68](phrase-68)\n* [69](phrase-69)\n\n#### nsfw\n\n* [70](phrase-70)\n* [71](phrase-71)\n\nThe simplest tense is the imperative which looks like the infinitive.\n\n* [72](phrase-72)\n\nPhrases do not have precise verb, subject or object positioning. We\nuse the accusative (target) and sometimes dative (receiver) to\nremove ambiguity.\n\n* [73](phrase-73)\n* [74](phrase-74)\n* [75](phrase-75)\n\nSome verbs-noun actions are so common that they fuse and \"kiss my lips\"\nbecomes \"kiss-lips\" as its own verb:\n\n* [76](phrase-76)\n\nFor more information on word order: [order](card-order)\n\n# Conjugation\n\nFor other tenses, the conjugation comes *first*. This is because it is an\nevolution from *subject verb case* to *subject.verb.case*:\n\n* [77](phrase-77)\n* [78](phrase-78)\n\nSo the possible conjugations are the same as the possible subjects:\n\n* [o](word-o) I/we (1SG.INDF)\n* [i](word-i) you (2SG)\n* [a](word-a) they (3SG)\n* [sho](word-sho) us present (1PL.PRS)\n* [shi](word-shi) you present (2PL.PRS)\n* [sha](word-sha) they (3PL)\n\n## And the rarer forms\n\n* [okei](word-okei) I (1SG.HONOR)\n* [kei](word-kei)  you (2SG.HONOR)\n* [akei](word-akei) they (3SG.HONOR)\n* [piyi](word-piyi) I (1SG.TINY)\n* [yi](word-yi) you (2SG.TINY)\n* [ayi](word-ayi) they (3SG.TINY)\n* [pi](word-pi) I (1SG)\n* [de](word-de) us two (1PL.DU)\n* [pe](word-pe) some (3PL.INDF)\n* [ka](word-ka) us all (1PL.DEF)\n\nWe also have [shoyi](alt-shoyi), [shokei](alt-shokei), etc. You get the idea.\n\nIn case you haven't noticed, there is some consistency with:\n\n* [pronouns](card-pronouns) (pronouns)\n* [det](card-det) (possessivity)\n\n## Passive voices\n\nTo express passive voice, we have the intransitive case [es](word-es) prefix:\n\n* [79](phrase-79)\n\n#### nsfw\n\n* [80](phrase-80)\n\n## Honorific / tiny\n\nThis idea of Honorific/tiny was inspired by BDSM power exchange and role play\nbut it transformed quite a lot to express something closer to the person\ntaking care (parent) and the innocent being taken care of (child). This is\nalso present in the BDSM Dom/sub relationship but I wanted something that\nfocussed more on expressing respect for the responsabilty of the \"carer\"\n([keda](word-keda)) and the vulnerability of the \"cared for\" ([yida](word-yida)).\n\n#### nsfw\n\nFor more BDSM and sexual contexts, the Dominant is still referred to as\n\"fantastic\" [keda](word-keda) but the sub is refered to as \"wet\" [loda](word-loda) instead of\n\"tiny\" [yida](word-yida).\n\nYou can look at [pronouns](card-pronouns)\n\nThis translates in possesive suffix [tei](word-tei), [tiyi](alt-tiyi), [tilo](alt-tilo) or\nconjugations using [kei](word-kei) or the affix [ei](word-ei) or [yi](word-yi).\n\n[81](phrase-81)\n\n[82](phrase-82)\n\n[83](phrase-83)\n\nJust remember, what sounds like \"OKey\" is in fact \"I-fantastic\" and everything hard to\npronounce such as [yiya](word-yiya) are meant to be said with a soft and very kind voice.\n\n# Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them\nbecause these timings are important in the erotic situations where this\nlanguage originated.\n\n## Future tenses\n\n* [lire](word-lire) (FUT.EVNT) eventual future\n* [liro](word-liro) (FUT.DIST) distant future\n* [liru](word-liru) (FUT.PROX) close future\n* [lira](word-lira) (FUT.CRAS) tomorrow\n* [liri](word-liri) (FUT.HOD) tonight or next morning\n\n## Past tenses\n\n* [lemi](word-lemi) (PST.HOD) last night or this morning\n* [lema](word-lema) (PST.HEST) yesterday\n* [lemu](word-lemu) (PST.PROX) recent past\n* [lemo](word-lemo) (PST.DIST) distant past\n* [leme](word-leme) (PST.EVNT) eventual past\n\n## Eternal tenses\n\n* [lau](word-lau) (DEF) always\n* [nei](word-nei) (NEG) never\n\n# Examples\n\n* [84](phrase-84)\n* [85](phrase-85)\n\nYour next read: [order](card-order) (word order)\n",
+      "desc": "\n# Verbs and conjugation\n\nMany nouns are also verbs such as [fa](word-fa), [fen](word-fen), [yin](word-yin), [taj](word-taj).\n\nOne of the particularities of this language is the use of three suffix\nused to mark cases related to the body: \n\n* [i](word-i) (CARE, caring, gentle)\n* [o](word-o) (ABL, pushing, away from)\n* [u](word-u) (ALL, pulling, towards)\n\nExamples:\n\n* [67](phrase-67)\n* [68](phrase-68)\n* [69](phrase-69)\n\n#### nsfw\n\n* [70](phrase-70)\n* [71](phrase-71)\n\nThe simplest tense is the imperative which looks like the infinitive.\n\n* [72](phrase-72)\n\nPhrases do not have precise verb, subject or object positioning. We\nuse the accusative (target) and sometimes dative (receiver) to\nremove ambiguity.\n\n* [73](phrase-73)\n* [74](phrase-74)\n* [75](phrase-75)\n\nSome verbs-noun actions are so common that they fuse and \"kiss my lips\"\nbecomes \"kiss-lips\" as its own verb:\n\n* [76](phrase-76)\n\nFor more information on word order: [order](card-order)\n\n# Conjugation\n\nFor other tenses, the conjugation comes *first*. This is because it is an\nevolution from *subject verb case* to *subject.verb.case*:\n\n* [77](phrase-77)\n* [78](phrase-78)\n\nSo the possible conjugations are the same as the possible subjects:\n\n* [o](word-o) I/we (1SG.INDF = 1SI)\n* [i](word-i) you (2SG)\n* [a](word-a) they (3SG)\n* [sho](word-sho) us present (1PL.PRS)\n* [shi](word-shi) you present (2PL.PRS)\n* [sha](word-sha) they (3PL)\n\n## And the rarer forms\n\n* [okei](word-okei) I (1SG.HONOR)\n* [kei](word-kei)  you (2SG.HONOR)\n* [akei](word-akei) they (3SG.HONOR)\n* [piyi](word-piyi) I (1SG.DIM)\n* [yi](word-yi) you (2SG.DIM)\n* [ayi](word-ayi) they (3SG.DIM)\n* [pi](word-pi) I (1SG)\n* [de](word-de) us two (1PL.DU)\n* [pe](word-pe) some (3PL.INDF)\n* [ka](word-ka) us all (1PL.DEF)\n\nWe also have [shoyi](alt-shoyi), [shokei](alt-shokei), etc. You get the idea.\n\nIn case you haven't noticed, there is some consistency with:\n\n* [pronouns](card-pronouns) (pronouns)\n* [det](card-det) (possessivity)\n\n## Passive voices\n\nTo express passive voice, we have the intransitive case [es](word-es) prefix:\n\n* [79](phrase-79)\n\n#### nsfw\n\n* [80](phrase-80)\n\n## Honorific / tiny\n\nThis idea of Honorific/tiny was inspired by BDSM power exchange and role play\nbut it transformed quite a lot to express something closer to the person\ntaking care (parent) and the innocent being taken care of (child). This is\nalso present in the BDSM Dom/sub relationship but I wanted something that\nfocussed more on expressing respect for the responsabilty of the \"carer\"\n([keda](word-keda)) and the vulnerability of the \"cared for\" ([yida](word-yida)).\n\n#### nsfw\n\nFor more BDSM and sexual contexts, the Dominant is still referred to as\n\"fantastic\" [keda](word-keda) but the sub is refered to as \"wet\" [loda](word-loda) instead of\n\"tiny\" [yida](word-yida).\n\nYou can look at [pronouns](card-pronouns)\n\nThis translates in possesive suffix [tei](word-tei), [tiyi](alt-tiyi), [tilo](alt-tilo) or\nconjugations using [kei](word-kei) or the affix [ei](word-ei) or [yi](word-yi).\n\n[81](phrase-81)\n\n[82](phrase-82)\n\n[83](phrase-83)\n\nJust remember, what sounds like \"OKey\" is in fact \"I-fantastic\" and everything hard to\npronounce such as [yiya](word-yiya) are meant to be said with a soft and very kind voice.\n\n# Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them\nbecause these timings are important in the erotic situations where this\nlanguage originated.\n\n## Future tenses\n\n* [lire](word-lire) (FUT.EVNT) eventual future\n* [liro](word-liro) (FUT.DIST) distant future\n* [liru](word-liru) (FUT.PROX) close future\n* [lira](word-lira) (FUT.CRAS) tomorrow\n* [liri](word-liri) (FUT.HOD) tonight or next morning\n\n## Past tenses\n\n* [lemi](word-lemi) (PST.HOD) last night or this morning\n* [lema](word-lema) (PST.HEST) yesterday\n* [lemu](word-lemu) (PST.PROX) recent past\n* [lemo](word-lemo) (PST.DIST) distant past\n* [leme](word-leme) (PST.EVNT) eventual past\n\n## Eternal tenses\n\n* [lau](word-lau) (DEF) always\n* [nei](word-nei) (NEG) never\n\n# Examples\n\n* [84](phrase-84)\n* [85](phrase-85)\n\nYour next read: [order](card-order) (word order)\n",
+      "fulltext": "verbs \n# Verbs and conjugation\n\nMany nouns are also verbs such as [fa](word-fa), [fen](word-fen), [yin](word-yin), [taj](word-taj).\n\nOne of the particularities of this language is the use of three suffix\nused to mark cases related to the body: \n\n* [i](word-i) (CARE, caring, gentle)\n* [o](word-o) (ABL, pushing, away from)\n* [u](word-u) (ALL, pulling, towards)\n\nExamples:\n\n* [67](phrase-67)\n* [68](phrase-68)\n* [69](phrase-69)\n\n#### nsfw\n\n* [70](phrase-70)\n* [71](phrase-71)\n\nThe simplest tense is the imperative which looks like the infinitive.\n\n* [72](phrase-72)\n\nPhrases do not have precise verb, subject or object positioning. We\nuse the accusative (target) and sometimes dative (receiver) to\nremove ambiguity.\n\n* [73](phrase-73)\n* [74](phrase-74)\n* [75](phrase-75)\n\nSome verbs-noun actions are so common that they fuse and \"kiss my lips\"\nbecomes \"kiss-lips\" as its own verb:\n\n* [76](phrase-76)\n\nFor more information on word order: [order](card-order)\n\n# Conjugation\n\nFor other tenses, the conjugation comes *first*. This is because it is an\nevolution from *subject verb case* to *subject.verb.case*:\n\n* [77](phrase-77)\n* [78](phrase-78)\n\nSo the possible conjugations are the same as the possible subjects:\n\n* [o](word-o) I/we (1SG.INDF = 1SI)\n* [i](word-i) you (2SG)\n* [a](word-a) they (3SG)\n* [sho](word-sho) us present (1PL.PRS)\n* [shi](word-shi) you present (2PL.PRS)\n* [sha](word-sha) they (3PL)\n\n## And the rarer forms\n\n* [okei](word-okei) I (1SG.HONOR)\n* [kei](word-kei)  you (2SG.HONOR)\n* [akei](word-akei) they (3SG.HONOR)\n* [piyi](word-piyi) I (1SG.DIM)\n* [yi](word-yi) you (2SG.DIM)\n* [ayi](word-ayi) they (3SG.DIM)\n* [pi](word-pi) I (1SG)\n* [de](word-de) us two (1PL.DU)\n* [pe](word-pe) some (3PL.INDF)\n* [ka](word-ka) us all (1PL.DEF)\n\nWe also have [shoyi](alt-shoyi), [shokei](alt-shokei), etc. You get the idea.\n\nIn case you haven't noticed, there is some consistency with:\n\n* [pronouns](card-pronouns) (pronouns)\n* [det](card-det) (possessivity)\n\n## Passive voices\n\nTo express passive voice, we have the intransitive case [es](word-es) prefix:\n\n* [79](phrase-79)\n\n#### nsfw\n\n* [80](phrase-80)\n\n## Honorific / tiny\n\nThis idea of Honorific/tiny was inspired by BDSM power exchange and role play\nbut it transformed quite a lot to express something closer to the person\ntaking care (parent) and the innocent being taken care of (child). This is\nalso present in the BDSM Dom/sub relationship but I wanted something that\nfocussed more on expressing respect for the responsabilty of the \"carer\"\n([keda](word-keda)) and the vulnerability of the \"cared for\" ([yida](word-yida)).\n\n#### nsfw\n\nFor more BDSM and sexual contexts, the Dominant is still referred to as\n\"fantastic\" [keda](word-keda) but the sub is refered to as \"wet\" [loda](word-loda) instead of\n\"tiny\" [yida](word-yida).\n\nYou can look at [pronouns](card-pronouns)\n\nThis translates in possesive suffix [tei](word-tei), [tiyi](alt-tiyi), [tilo](alt-tilo) or\nconjugations using [kei](word-kei) or the affix [ei](word-ei) or [yi](word-yi).\n\n[81](phrase-81)\n\n[82](phrase-82)\n\n[83](phrase-83)\n\nJust remember, what sounds like \"OKey\" is in fact \"I-fantastic\" and everything hard to\npronounce such as [yiya](word-yiya) are meant to be said with a soft and very kind voice.\n\n# Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them\nbecause these timings are important in the erotic situations where this\nlanguage originated.\n\n## Future tenses\n\n* [lire](word-lire) (FUT.EVNT) eventual future\n* [liro](word-liro) (FUT.DIST) distant future\n* [liru](word-liru) (FUT.PROX) close future\n* [lira](word-lira) (FUT.CRAS) tomorrow\n* [liri](word-liri) (FUT.HOD) tonight or next morning\n\n## Past tenses\n\n* [lemi](word-lemi) (PST.HOD) last night or this morning\n* [lema](word-lema) (PST.HEST) yesterday\n* [lemu](word-lemu) (PST.PROX) recent past\n* [lemo](word-lemo) (PST.DIST) distant past\n* [leme](word-leme) (PST.EVNT) eventual past\n\n## Eternal tenses\n\n* [lau](word-lau) (DEF) always\n* [nei](word-nei) (NEG) never\n\n# Examples\n\n* [84](phrase-84)\n* [85](phrase-85)\n\nYour next read: [order](card-order) (word order)\n",
       "writ": "vఎర్‌bస్‌",
       "phon": "/vɛrbs/",
       "glo": "**undefined**"
@@ -9389,6 +9688,18 @@
       "fulltext": "sing \n\n## [duhashati](alt-duhashati) (your laugh)\n\n[86](phrase-86)\n\n[87](phrase-87)\n\n[88](phrase-88)\n\n## [loto](word-loto) (him)\n\n[89](phrase-89)\n Some ideas for lyrics",
       "glo": "**Some ideas for lyrics**"
     },
+    "card-gods": {
+      "name": "gods",
+      "id": "card-gods",
+      "type": "card",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Mother_Goddess%2C_Madhya_Pradesh_or_Rajasthan%2C_India%2C_6th_-_7th_cents.%2C_National_Museum_of_Korea%2C_Seoul_%2840236606165%29.jpg/330px-Mother_Goddess%2C_Madhya_Pradesh_or_Rajasthan%2C_India%2C_6th_-_7th_cents.%2C_National_Museum_of_Korea%2C_Seoul_%2840236606165%29.jpg",
+      "imgpos": "30%",
+      "desc": "\n# Goddesses and gods\n\n* [sona](word-sona)\n* [gahal](word-gahal)\n* [gusona](word-gusona)\n* [hurakan](word-hurakan)\n\n",
+      "fulltext": "gods \n# Goddesses and gods\n\n* [sona](word-sona)\n* [gahal](word-gahal)\n* [gusona](word-gusona)\n* [hurakan](word-hurakan)\n\n",
+      "writ": "గోdస్‌",
+      "phon": "/gɔds/",
+      "glo": "**undefined**"
+    },
     "card-corresp": {
       "name": "corresp",
       "id": "card-corresp",
@@ -9399,6 +9710,17 @@
       "writ": "cఓర్‌రేస్‌p",
       "phon": "/cɔrrɛsp/",
       "glo": "**Correspondances, Baudelaire (1821-1867)**"
+    },
+    "card-sapho": {
+      "name": "sapho",
+      "id": "card-sapho",
+      "type": "card",
+      "lang": "",
+      "desc": "\n# Sapho\n\n *(630-580 A.D)*\n\n## Poem from her youth:\n\n[95](phrase-95)\n\n[96](phrase-96)\n\n[97](phrase-97)\n\n *(trad. Françoise Chandernagor)*\n\n---\n\nIl me parraît égal aux dieux,  \nL'homme qui te regarde  \nSans craindre ton sourire et tes yeux et ta voix.  \nMoi, sitôt que je vois ton visage,  \nMon cœur bat sur mes lèvres  \nEt ma gorge s'étrangle.  \nLa chaleur et le froid tour à tour m'envahissent,  \nMes oreilles deviennent sourdes  \nEt mes yeux sont aveugles.  \nMon corps ruisselle de sueur,  \nJe tremble (...)  \nEt je sens que je meurs.  \n\n*(trad. Ernest Falconnet, revue par Françoise Chandernagor)*\n\n---\n",
+      "fulltext": "sapho \n# Sapho\n\n *(630-580 A.D)*\n\n## Poem from her youth:\n\n[95](phrase-95)\n\n[96](phrase-96)\n\n[97](phrase-97)\n\n *(trad. Françoise Chandernagor)*\n\n---\n\nIl me parraît égal aux dieux,  \nL'homme qui te regarde  \nSans craindre ton sourire et tes yeux et ta voix.  \nMoi, sitôt que je vois ton visage,  \nMon cœur bat sur mes lèvres  \nEt ma gorge s'étrangle.  \nLa chaleur et le froid tour à tour m'envahissent,  \nMes oreilles deviennent sourdes  \nEt mes yeux sont aveugles.  \nMon corps ruisselle de sueur,  \nJe tremble (...)  \nEt je sens que je meurs.  \n\n*(trad. Ernest Falconnet, revue par Françoise Chandernagor)*\n\n---\n",
+      "writ": "సాpహో",
+      "phon": "/saphɔ/",
+      "glo": "****"
     }
   },
   "phrase": {
@@ -10677,7 +10999,7 @@
       "name": "69",
       "id": "phrase-69",
       "type": "phrase",
-      "trad": "Yesterdan, you threw (o) the ball.",
+      "trad": "Yesterday, you threw (o) the ball.",
       "words": [
         "alt-irumolema",
         "alt-tameham"
@@ -11167,6 +11489,66 @@
       "phon": "/94/",
       "glo": "**undefined**",
       "phrase": "si agadeuki di hadau esshanele"
+    },
+    "phrase-95": {
+      "name": "95",
+      "id": "phrase-95",
+      "type": "phrase",
+      "trad": "L'amour hélas, a dévasté mon âme ",
+      "words": [
+        "word-zunes",
+        "word-wa",
+        "word-leiruo",
+        "alt-agoweiselem",
+        "alt-gatoam"
+      ],
+      "see": [
+        "card-sapho"
+      ],
+      "fulltext": "95 sapho zunes wa leiruo agoweiselem gatoam",
+      "writ": "౯౫",
+      "phon": "/95/",
+      "glo": "**undefined**",
+      "phrase": "zunes wa leiruo agoweiselem gatoam"
+    },
+    "phrase-96": {
+      "name": "96",
+      "id": "phrase-96",
+      "type": "phrase",
+      "trad": "Comme l'ouragan des montagnes",
+      "words": [
+        "word-si",
+        "word-hurakan",
+        "word-dao",
+        "word-gosoa"
+      ],
+      "see": [
+        "card-sapho"
+      ],
+      "fulltext": "96 sapho si hurakan dao gosoa",
+      "writ": "౯౬",
+      "phon": "/96/",
+      "glo": "**undefined**",
+      "phrase": "si hurakan dao gosoa"
+    },
+    "phrase-97": {
+      "name": "97",
+      "id": "phrase-97",
+      "type": "phrase",
+      "trad": "S'abat sur les jeunes chênes.",
+      "words": [
+        "word-hafo",
+        "word-fe",
+        "alt-okanayiam"
+      ],
+      "see": [
+        "card-sapho"
+      ],
+      "fulltext": "97 sapho hafo fe okanayiam",
+      "writ": "౯౭",
+      "phon": "/97/",
+      "glo": "**undefined**",
+      "phrase": "hafo fe okanayiam"
     }
   },
   "alt": {
@@ -11210,7 +11592,7 @@
       "name": "esohajapi",
       "id": "alt-esohajapi",
       "type": "alt",
-      "glo": "INTR.1SG.INDF.**self-burn**",
+      "glo": "INTR.1SI.**self-burn**",
       "alt": "word-ajapi",
       "fulltext": "esohajapi",
       "writ": "ఎసోహాజాపి",
@@ -11236,11 +11618,21 @@
       "writ": "లానాం",
       "phon": "/lanam/"
     },
+    "alt-okanayiam": {
+      "name": "okanayiam",
+      "id": "alt-okanayiam",
+      "type": "alt",
+      "glo": "**oak**.*young*.ACC",
+      "alt": "word-yile",
+      "fulltext": "okanayiam",
+      "writ": "ఓకానాయిాం",
+      "phon": "/ɔkanajiam/"
+    },
     "alt-ohau": {
       "name": "ohau",
       "id": "alt-ohau",
       "type": "alt",
-      "glo": "1SG.INDF.**love**",
+      "glo": "1SI.**love**",
       "alt": "word-au",
       "fulltext": "ohau",
       "writ": "ఓహాఉ",
@@ -11386,51 +11778,11 @@
       "writ": "దే",
       "phon": "/dɛ/"
     },
-    "alt-jihuki": {
-      "name": "jihuki",
-      "id": "alt-jihuki",
-      "type": "alt",
-      "glo": "**hair**.*long*",
-      "alt": "word-ji",
-      "fulltext": "jihuki",
-      "writ": "జిహుకి",
-      "phon": "/dʒihuki/"
-    },
-    "alt-jihukiam": {
-      "name": "jihukiam",
-      "id": "alt-jihukiam",
-      "type": "alt",
-      "glo": "**hair**.*long*.ACC",
-      "alt": "word-ji",
-      "fulltext": "jihukiam",
-      "writ": "జిహుకిలాం",
-      "phon": "/dʒihukiam/"
-    },
-    "alt-jonato": {
-      "name": "jonato",
-      "id": "alt-jonato",
-      "type": "alt",
-      "glo": "**daughter**.boy",
-      "alt": "word-jona",
-      "fulltext": "jonato",
-      "writ": "జోనాతో",
-      "phon": "/dʒɔnatɔ/"
-    },
-    "alt-jowina": {
-      "name": "jowina",
-      "id": "alt-jowina",
-      "type": "alt",
-      "glo": "**enby child**.girl",
-      "alt": "word-jowi",
-      "fulltext": "jowina",
-      "writ": "జోవినా",
-      "phon": "/dʒɔwina/"
-    },
     "alt-yihe": {
       "name": "yihe",
       "id": "alt-yihe",
       "type": "alt",
-      "glo": "2SG.TINY.**be**",
+      "glo": "2SG.DIM.**be**",
       "alt": "word-e",
       "fulltext": "yihe",
       "writ": "యిఠే",
@@ -11440,7 +11792,7 @@
       "name": "ohe",
       "id": "alt-ohe",
       "type": "alt",
-      "glo": "1SG.INDF.**be**",
+      "glo": "1SI.**be**",
       "alt": "word-e",
       "fulltext": "ohe",
       "writ": "ఓఠే",
@@ -11460,7 +11812,7 @@
       "name": "ohemleme",
       "id": "alt-ohemleme",
       "type": "alt",
-      "glo": "1SG.INDF.**live**.PST.EVNT",
+      "glo": "1SI.**live**.PST.EVNT",
       "alt": "word-em",
       "fulltext": "ohemleme",
       "writ": "ఓఠేమ్‌లేమే",
@@ -11510,7 +11862,7 @@
       "name": "ofa",
       "id": "alt-ofa",
       "type": "alt",
-      "glo": "1SG.INDF.**look**",
+      "glo": "1SI.**look**",
       "alt": "word-fa",
       "fulltext": "ofa",
       "writ": "ఓచా",
@@ -11560,7 +11912,7 @@
       "name": "piyinefelir",
       "id": "alt-piyinefelir",
       "type": "alt",
-      "glo": "1SG.TINY.**undress**.FUT",
+      "glo": "1SG.DIM.**undress**.FUT",
       "alt": "word-nefe",
       "fulltext": "piyinefelir",
       "writ": "పియినేవేలిర్‌",
@@ -11570,7 +11922,7 @@
       "name": "esyinefe",
       "id": "alt-esyinefe",
       "type": "alt",
-      "glo": "INTR.2SG.TINY.**undress**",
+      "glo": "INTR.2SG.DIM.**undress**",
       "alt": "word-nefe",
       "fulltext": "esyinefe",
       "writ": "ఎస్‌యినేవే",
@@ -11614,7 +11966,7 @@
       "name": "ofolir",
       "id": "alt-ofolir",
       "type": "alt",
-      "glo": "1SG.INDF.**whip**.FUT",
+      "glo": "1SI.**whip**.FUT",
       "alt": "word-fo",
       "fulltext": "ofolir",
       "writ": "ఓచోలిర్‌",
@@ -11689,6 +12041,16 @@
       "fulltext": "nega",
       "writ": "నేగా",
       "phon": "/nɛga/"
+    },
+    "alt-gatoam": {
+      "name": "gatoam",
+      "id": "alt-gatoam",
+      "type": "alt",
+      "glo": "**spirit**.POSS.1SI.ACC",
+      "alt": "word-ga",
+      "fulltext": "gatoam",
+      "writ": "గాతోలాం",
+      "phon": "/gatɔam/"
     },
     "alt-aguwu": {
       "name": "aguwu",
@@ -11810,6 +12172,46 @@
       "writ": "లివాం",
       "phon": "/liwam/"
     },
+    "alt-jihuki": {
+      "name": "jihuki",
+      "id": "alt-jihuki",
+      "type": "alt",
+      "glo": "**hair**.*long*",
+      "alt": "word-ji",
+      "fulltext": "jihuki",
+      "writ": "జిహుకి",
+      "phon": "/dʒihuki/"
+    },
+    "alt-jihukiam": {
+      "name": "jihukiam",
+      "id": "alt-jihukiam",
+      "type": "alt",
+      "glo": "**hair**.*long*.ACC",
+      "alt": "word-ji",
+      "fulltext": "jihukiam",
+      "writ": "జిహుకిలాం",
+      "phon": "/dʒihukiam/"
+    },
+    "alt-jonato": {
+      "name": "jonato",
+      "id": "alt-jonato",
+      "type": "alt",
+      "glo": "**daughter**.boy",
+      "alt": "word-jona",
+      "fulltext": "jonato",
+      "writ": "జోనాతో",
+      "phon": "/dʒɔnatɔ/"
+    },
+    "alt-jowina": {
+      "name": "jowina",
+      "id": "alt-jowina",
+      "type": "alt",
+      "glo": "**enby child**.girl",
+      "alt": "word-jowi",
+      "fulltext": "jowina",
+      "writ": "జోవినా",
+      "phon": "/dʒɔwina/"
+    },
     "alt-janaro": {
       "name": "janaro",
       "id": "alt-janaro",
@@ -11834,7 +12236,7 @@
       "name": "olalema",
       "id": "alt-olalema",
       "type": "alt",
-      "glo": "1SG.INDF.**kiss**.PST.HEST",
+      "glo": "1SI.**kiss**.PST.HEST",
       "alt": "word-la",
       "fulltext": "olalema",
       "writ": "ఓలాలేమా",
@@ -11896,26 +12298,6 @@
       "writ": "లాం",
       "phon": "/lam/"
     },
-    "alt-lemiram": {
-      "name": "lemiram",
-      "id": "alt-lemiram",
-      "type": "alt",
-      "glo": "**eternity**.ACC",
-      "alt": "word-lemir",
-      "fulltext": "lemiram",
-      "writ": "లేమిరాం",
-      "phon": "/lɛmiram/"
-    },
-    "alt-oheskelilir": {
-      "name": "oheskelilir",
-      "id": "alt-oheskelilir",
-      "type": "alt",
-      "glo": "1SG.INDF.INTR.**lick**.FUT",
-      "alt": "word-keli",
-      "fulltext": "oheskelilir",
-      "writ": "ఓఠేస్‌కేలిలిర్‌",
-      "phon": "/ɔhɛskɛlilir/"
-    },
     "alt-esshanele": {
       "name": "esshanele",
       "id": "alt-esshanele",
@@ -11936,6 +12318,26 @@
       "writ": "లే",
       "phon": "/lɛ/"
     },
+    "alt-lemiram": {
+      "name": "lemiram",
+      "id": "alt-lemiram",
+      "type": "alt",
+      "glo": "**eternity**.ACC",
+      "alt": "word-lemir",
+      "fulltext": "lemiram",
+      "writ": "లేమిరాం",
+      "phon": "/lɛmiram/"
+    },
+    "alt-oheskelilir": {
+      "name": "oheskelilir",
+      "id": "alt-oheskelilir",
+      "type": "alt",
+      "glo": "1SI.INTR.**lick**.FUT",
+      "alt": "word-keli",
+      "fulltext": "oheskelilir",
+      "writ": "ఓఠేస్‌కేలిలిర్‌",
+      "phon": "/ɔhɛskɛlilir/"
+    },
     "alt-sholiu": {
       "name": "sholiu",
       "id": "alt-sholiu",
@@ -11950,7 +12352,7 @@
       "name": "mato",
       "id": "alt-mato",
       "type": "alt",
-      "glo": "1SG.INDF.POSS.**hand**",
+      "glo": "1SI.POSS.**hand**",
       "alt": "word-ma",
       "fulltext": "mato",
       "writ": "మాతో",
@@ -11970,7 +12372,7 @@
       "name": "matoham",
       "id": "alt-matoham",
       "type": "alt",
-      "glo": "**hand**.1SG.INDF.POSS.ACC",
+      "glo": "**hand**.1SI.POSS.ACC",
       "alt": "word-ma",
       "fulltext": "matoham",
       "writ": "మాతోహాం",
@@ -12000,7 +12402,7 @@
       "name": "ohesmalir",
       "id": "alt-ohesmalir",
       "type": "alt",
-      "glo": "1SG.INDF.INTR.**massage**.FUT",
+      "glo": "1SI.INTR.**massage**.FUT",
       "alt": "word-ma",
       "fulltext": "ohesmalir",
       "writ": "ఓఠేస్‌మాలిర్‌",
@@ -12066,11 +12468,21 @@
       "writ": "వేనోాతి",
       "phon": "/fɛnɔati/"
     },
+    "alt-ahafo": {
+      "name": "ahafo",
+      "id": "alt-ahafo",
+      "type": "alt",
+      "glo": "3SG.**fall**",
+      "alt": "word-hafo",
+      "fulltext": "ahafo",
+      "writ": "అహాచో",
+      "phon": "/ahafɔ/"
+    },
     "alt-odatoham": {
       "name": "odatoham",
       "id": "alt-odatoham",
       "type": "alt",
-      "glo": "**body**.POSS.1SG.INDF.ACC",
+      "glo": "**body**.POSS.1SI.ACC",
       "alt": "word-oda",
       "fulltext": "odatoham",
       "writ": "ఓదాతోహాం",
@@ -12090,7 +12502,7 @@
       "name": "tohodam",
       "id": "alt-tohodam",
       "type": "alt",
-      "glo": "POSS.1SG.INDF.**body**.ACC",
+      "glo": "POSS.1SI.**body**.ACC",
       "alt": "word-oda",
       "fulltext": "tohodam",
       "writ": "తోహోదాం",
@@ -12250,7 +12662,7 @@
       "name": "shoyi",
       "id": "alt-shoyi",
       "type": "alt",
-      "glo": "**1PL.PRS**.TINY",
+      "glo": "**1PL.PRS**.DIM",
       "alt": "word-sho",
       "fulltext": "shoyi",
       "writ": "షోయి",
@@ -12281,7 +12693,7 @@
       "id": "alt-tiyi",
       "type": "alt",
       "det": "your (tiny)",
-      "glo": "POSS.**2SG**.TINY",
+      "glo": "POSS.**2SG**.DIM",
       "see": [
         "alt-tilo"
       ],
@@ -12311,11 +12723,21 @@
       "writ": "అహుబా",
       "phon": "/ahuba/"
     },
+    "alt-agoweiselem": {
+      "name": "agoweiselem",
+      "id": "alt-agoweiselem",
+      "type": "alt",
+      "glo": "3SG.**desolate**.PST",
+      "alt": "word-goweis",
+      "fulltext": "agoweiselem",
+      "writ": "అగోవేఇసేలేమ్‌x",
+      "phon": "/agɔwɛisɛlɛm/"
+    },
     "alt-oyafalau": {
       "name": "oyafalau",
       "id": "alt-oyafalau",
       "type": "alt",
-      "glo": "1SG.INDF.**dream**.ETERN",
+      "glo": "1SI.**dream**.ETERN",
       "alt": "word-yafa",
       "fulltext": "oyafalau",
       "writ": "ఓయాచాలాు",
@@ -12345,7 +12767,7 @@
       "name": "ozu",
       "id": "alt-ozu",
       "type": "alt",
-      "glo": "1SG.INDF.**love**",
+      "glo": "1SI.**love**",
       "alt": "word-zu",
       "fulltext": "ozu",
       "writ": "ఓఠు",
@@ -12360,6 +12782,16 @@
       "fulltext": "shozuzu",
       "writ": "షోఠుఠు",
       "phon": "/ʃɔzuzu/"
+    },
+    "alt-kali": {
+      "name": "kali",
+      "id": "alt-kali",
+      "type": "alt",
+      "glo": "**impermanence**",
+      "alt": "word-gusona",
+      "fulltext": "kali",
+      "writ": "కాలి",
+      "phon": "/kali/"
     }
   }
 }

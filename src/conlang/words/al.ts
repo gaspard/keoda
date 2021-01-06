@@ -3,7 +3,7 @@ import * as _ from '.'
 export const al = _.word('al', {
   noun: 'sky',
   prefix: 'up',
-  see: () => [_.soa],
+  see: () => [_.so],
 })
 
 export const alayin = _.word('alayin', {

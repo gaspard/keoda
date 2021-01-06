@@ -7,3 +7,8 @@ export const uki = _.word('uki', {
   desc: () => `
 * ${_.phrase('Long hair, long legs', _.jihuki, _.bajuki)}`,
 })
+
+export const ukile = _.word('ukile', {
+  noun: 'old',
+  etym: () => [_.uki, _.lei],
+})

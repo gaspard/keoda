@@ -32,7 +32,7 @@ export const onsho = _.word('onsho', {
 })
 
 export const shoyi = _.alt('shoyi', {
-  glo: '**1PL.PRS**.TINY',
+  glo: '**1PL.PRS**.DIM',
   alt: () => _.sho,
 })
 

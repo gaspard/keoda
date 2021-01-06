@@ -56,12 +56,12 @@ export const okeinefelir = _.alt('okeinefelir', {
 })
 
 export const piyinefelir = _.alt('piyinefelir', {
-  glo: '1SG.TINY.**undress**.FUT',
+  glo: '1SG.DIM.**undress**.FUT',
   alt: () => _.nefe,
 })
 
 export const esyinefe = _.alt('esyinefe', {
-  glo: 'INTR.2SG.TINY.**undress**',
+  glo: 'INTR.2SG.DIM.**undress**',
   alt: () => _.nefe,
 })
 

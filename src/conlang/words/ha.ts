@@ -9,7 +9,7 @@ export const ha = _.word('ha', {
 _.see(_.jo)
 _.see(_.hama)
 
-_.see(_.joha)
+_.see(_.hafo)
 
 export const hafalo = _.example([_.ha, _.fa, _.lo], `Montre ta tête, soumise !`)
 

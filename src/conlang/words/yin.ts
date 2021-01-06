@@ -7,6 +7,6 @@ export const yin = _.word('yin', {
 
 export const yinu = _.word('yinu', {
   verb: 'grasp with the vagina',
-  glo: 'vagina.ABL',
+  glo: 'vagina.ALL',
   etym: () => [_.yin, _.u],
 })

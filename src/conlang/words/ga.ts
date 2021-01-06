@@ -18,10 +18,14 @@ export const ganaro = _.alt('ganaro', {
 
 // C'est l'eau qui devrait être la caresse 'gai', non ?
 export const gai = _.word('gai', {
-  noun: 'conscience, pluie',
-  desc: () => `esprit caressé / qui caresse (la pluie sur la terre)`,
+  noun: 'consciousness, rain',
+  img:
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Falling_rain_in_mexico.jpg/330px-Falling_rain_in_mexico.jpg',
+  imgpos: '50%',
+  desc: () => `
+Caressed spirit / caressing spirit (rain on earth)
+`,
 })
-_.see(_.gugai)
 
 // gai ma
 export const gaima = _.example(
@@ -66,4 +70,9 @@ export const nega = _.word('nega', {
 export const nega_adv = _.alt('nega', {
   glo: '*fou*.ADV',
   alt: () => _.nega,
+})
+
+export const gatoam = _.alt('gatoam', {
+  glo: '**spirit**.POSS.1SI.ACC',
+  alt: () => _.ga,
 })

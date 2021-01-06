@@ -7,7 +7,7 @@ export const au = _.word('au', {
 })
 
 export const ohau = _.alt('ohau', {
-  glo: '1SG.INDF.**love**',
+  glo: '1SI.**love**',
   alt: () => _.au,
 })
 

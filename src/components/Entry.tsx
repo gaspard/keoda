@@ -121,7 +121,7 @@ const Title = styled.div`
     pointer-events: none;
     background-image: var(--data-img);
     background-repeat: no-repeat;
-    background-position: 50% 0;
+    background-position: center var(--data-pos);
     background-size: cover;
   }
 `
@@ -254,6 +254,9 @@ const Definition = styled.div`
       display: inline-block;
     }
     em {
+      font-weight: italic;
+    }
+    strong {
       font-weight: 500;
     }
     table {
@@ -385,7 +388,12 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
     }
   }
 
-  const style = entry.img ? { ['--data-img']: `url(${entry.img})` } : {}
+  const style = entry.img
+    ? {
+        ['--data-img']: `url(${entry.img})`,
+        ['--data-pos']: entry.imgpos || '0',
+      }
+    : {}
 
   return (
     <Wrapper

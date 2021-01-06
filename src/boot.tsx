@@ -33,6 +33,14 @@ const config: KeodaConfig = {
         ...TYPES.map(type => ({ [type]: Object.keys(db[type]).sort() })),
         { phrase: Object.keys(db.phrase).sort(phraseSort) }
       ),
+      float: {
+        id: 'card-zu',
+        hidden: true,
+        position: {
+          top: 5000,
+          left: 5000,
+        },
+      },
     },
   },
   actions: {

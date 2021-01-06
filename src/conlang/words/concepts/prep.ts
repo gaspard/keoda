@@ -17,8 +17,8 @@ export const q = _.word('?', {
 })
 
 export const prep = _.card('prep', {
-  lang: 'All prepositions',
   desc: () => `
+# Prepositions
 
 I am not 100% sure all these are technically prepositions but they are "the small
 connecting words in a phrase".
@@ -49,11 +49,11 @@ and \`DAT\` cases respectively. Think of ${_.fuJane} as meaning "does Jane".
 
 See word order for more on cases: ${_.order}
 
-${_.phrase('Iris whom you caressed.', _.Irisam, _.dim, _.imilema)}
+#### nsfw
 
-${_.phrase('Iris who caressed you.', _.Iris, _.di, _.amilema, _.idam)}
-
-${_.phrase('I like that you are naked.', _.ozu, _.eku, _.yihe, _.nefe)}
+* ${_.phrase('Iris whom you caressed.', _.Irisam, _.dim, _.imilema)}
+* ${_.phrase('Iris who caressed you.', _.Iris, _.di, _.amilema, _.idam)}
+* ${_.phrase('I like that you are naked.', _.ozu, _.eku, _.yihe, _.nefe)}
 
 # Location
 
@@ -62,8 +62,8 @@ ${_.phrase('I like that you are naked.', _.ozu, _.eku, _.yihe, _.nefe)}
 * ${_.ro} (in)
 * ${_.ri} (out)
 * ${_.fe} (on/covering)
-* ${_.dao} (from.LOC)
 * ${_.dau} (to.LOC)
+* ${_.dao} (from.LOC)
 
 ${_.phrase('Where did you caress Iris ?', _.dona, _.Irisam, _.imilema, _.q)}
 

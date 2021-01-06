@@ -13,6 +13,6 @@ export const ajapi = _.word('ajapi', {
 // === alt
 
 export const esohajapi = _.alt('esohajapi', {
-  glo: 'INTR.1SG.INDF.**self-burn**',
+  glo: 'INTR.1SI.**self-burn**',
   alt: () => _.ajapi,
 })

@@ -10,12 +10,12 @@ ${_.poss}.
 
 Without gender
 
-* ${_.oda} (I/we)
-* ${_.ida} (you SG)
-* ${_.lada} (they SG)
-* ${_.shoda} (we)
-* ${_.shida} (you PL)
-* ${_.shada} (they PL)
+* ${_.oda} (I/we: 1SG.INDF = 1SI)
+* ${_.ida} (you: 2SG)
+* ${_.lada} (they: 3SG)
+* ${_.shoda} (we: 1PL.PRS)
+* ${_.shida} (you: 2PL.PRS)
+* ${_.shada} (they: 3PL)
 
 With gender
 
@@ -34,10 +34,10 @@ Rarer forms:
 * ${_.yida} (tiny you)
 * ${_.ayida} (tiny them)
 * ${_.loda} (wet you)
-* ${_.pida} (me)
+* ${_.pida} (me: 1SG)
 * ${_.deda} (us two)
-* ${_.peda} (some)
-* ${_.kada} (all of us)
+* ${_.peda} (some: 3PL.INDF)
+* ${_.kada} (all of us: 1PL.DEF)
 
 ## Dream / intimate body
 

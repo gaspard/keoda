@@ -11,7 +11,7 @@ export const ti = _.word('ti', {
 
 export const toyi = _.alt('tiyi', {
   det: 'your (tiny)',
-  glo: 'POSS.**2SG**.TINY',
+  glo: 'POSS.**2SG**.DIM',
   see: () => [_.tolo],
   alt: () => _.yi,
 })

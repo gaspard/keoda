@@ -16,7 +16,7 @@ export const oda = _.word('oda', {
 
 export const oya = _.word('oya', {
   pron: 'me/us (poetic)',
-  glo: '1SG.INDF.POET',
+  glo: '1SI.POET',
   etym: () => [_.o, _.yada],
   see: () => [_.oda, _.pron],
 })
@@ -33,14 +33,14 @@ export const yosa = _.word('yosa', {
 
 export const odei = _.word('odei', {
   noun: 'fantastic me/us (Dom)',
-  glo: '1SG.INDF.HONOR',
+  glo: '1SI.HONOR',
   etym: () => [_.oda, _.ei],
   see: () => [_.yadei, _.pron],
 })
 
 export const yadei = _.word('yadei', {
   noun: 'fantastic me/us (poetic)',
-  glo: '1SG.INDF.HONOR.POET',
+  glo: '1SI.HONOR.POET',
   etym: () => [_.yada, _.ei],
   see: () => [_.odei, _.pron],
 })
@@ -70,7 +70,7 @@ export const hito = _.word('hito', {
 /// =============== ALT
 
 export const odatoham = _.alt('odatoham', {
-  glo: '**body**.POSS.1SG.INDF.ACC',
+  glo: '**body**.POSS.1SI.ACC',
   alt: () => _.oda,
 })
 
@@ -80,7 +80,7 @@ export const oda_adj = _.alt('oda', {
 })
 
 export const tohodam = _.alt('tohodam', {
-  glo: 'POSS.1SG.INDF.**body**.ACC',
+  glo: 'POSS.1SI.**body**.ACC',
   alt: () => _.oda,
 })
 

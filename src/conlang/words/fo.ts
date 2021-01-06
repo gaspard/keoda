@@ -14,7 +14,7 @@ export const afo = _.alt('afo', {
 })
 
 export const ofolir = _.alt('ofolir', {
-  glo: '1SG.INDF.**whip**.FUT',
+  glo: '1SI.**whip**.FUT',
   alt: () => _.fo,
 })
 

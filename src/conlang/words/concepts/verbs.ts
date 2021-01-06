@@ -9,15 +9,15 @@ Many nouns are also verbs such as ${_.fa}, ${_.fen}, ${_.yin}, ${_.taj}.
 One of the particularities of this language is the use of three suffix
 used to mark cases related to the body: 
 
-* ${_.i} (CARE)
-* ${_.u} (ABL)
-* ${_.o} (ALL)
+* ${_.i} (CARE, caring, gentle)
+* ${_.o} (ABL, pushing, away from)
+* ${_.u} (ALL, pulling, towards)
 
-These alter the verbs respectively to mean "caring" or gentle, "pulling" and "pushing" or intensity.
+Examples:
 
 * ${_.phrase('Caress (i) my long hair.', _.mi, _.jihukiam)}
 * ${_.phrase('You breath (u) fresh air.', _.isheu, _.shehegiam)}
-* ${_.phrase('Yesterdan, you threw (o) the ball.', _.irumolema, _.tameham)}
+* ${_.phrase('Yesterday, you threw (o) the ball.', _.irumolema, _.tameham)}
 
 #### nsfw
 
@@ -53,7 +53,7 @@ evolution from *subject verb case* to *subject.verb.case*:
 
 So the possible conjugations are the same as the possible subjects:
 
-* ${_.o} I/we (1SG.INDF)
+* ${_.o} I/we (1SG.INDF = 1SI)
 * ${_.i} you (2SG)
 * ${_.a} they (3SG)
 * ${_.sho} us present (1PL.PRS)
@@ -65,9 +65,9 @@ So the possible conjugations are the same as the possible subjects:
 * ${_.okei} I (1SG.HONOR)
 * ${_.kei}  you (2SG.HONOR)
 * ${_.akei} they (3SG.HONOR)
-* ${_.piyi} I (1SG.TINY)
-* ${_.yi} you (2SG.TINY)
-* ${_.ayi} they (3SG.TINY)
+* ${_.piyi} I (1SG.DIM)
+* ${_.yi} you (2SG.DIM)
+* ${_.ayi} they (3SG.DIM)
 * ${_.pi} I (1SG)
 * ${_.de} us two (1PL.DU)
 * ${_.pe} some (3PL.INDF)

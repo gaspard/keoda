@@ -6,14 +6,14 @@ export const e = _.word('e', {
 })
 
 export const yihe = _.alt('yihe', {
-  glo: '2SG.TINY.**be**',
+  glo: '2SG.DIM.**be**',
   alt: () => _.e,
 })
 
 // === alt
 
 export const ohe = _.alt('ohe', {
-  glo: '1SG.INDF.**be**',
+  glo: '1SI.**be**',
   alt: () => _.e,
 })
 

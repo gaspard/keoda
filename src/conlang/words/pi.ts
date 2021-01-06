@@ -19,14 +19,14 @@ export const pida = _.word('pida', {
 
 export const piyida = _.word('piyida', {
   pron: 'tiny me',
-  glo: '1SG.TINY',
+  glo: '1SG.DIM',
   etym: () => [_.piyi, _.oda],
   see: () => [_.piyiya, _.pron],
 })
 
 export const piyiya = _.word('piyiya', {
   pron: 'tiny me (poetic)',
-  glo: '1SG.TINY.POET',
+  glo: '1SG.DIM.POET',
   etym: () => [_.piyi, _.yada],
   see: () => [_.piyida, _.pron],
 })
@@ -80,12 +80,12 @@ export const hapi = _.word('hapi', {
 
 export const piyi = _.word('piyi', {
   conj: 'I (tiny)',
-  glo: '1SG.TINY',
+  glo: '1SG.DIM',
   see: () => [_.verbs],
 })
 
 export const topiyi = _.word('topiyi', {
   det: 'to me (tiny)',
-  glo: 'POSS.1SG.TINY',
+  glo: 'POSS.1SG.DIM',
   see: () => [_.poss],
 })

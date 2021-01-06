@@ -60,6 +60,13 @@ export const anasame = _.word('anasame', {
   see: () => [_.plants],
 })
 
+export const okana = _.word('okana', {
+  noun: 'oak',
+  img: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Quercus_robur.jpg',
+  imgpos: '50%',
+  see: () => [_.ana],
+})
+
 // ==== alt
 
 export const anam = _.alt('anam', {
@@ -70,4 +77,9 @@ export const anam = _.alt('anam', {
 export const lanam = _.alt('lanam', {
   glo: '**her**.ACC',
   alt: () => _.lana,
+})
+
+export const okanayiam = _.alt('okanayiam', {
+  glo: '**oak**.*young*.ACC',
+  alt: () => _.yile,
 })

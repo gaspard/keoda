@@ -37,6 +37,6 @@ export const yadifa = _.word('yadifa', {
 // ==== alt
 
 export const oyafalau = _.alt('oyafalau', {
-  glo: '1SG.INDF.**dream**.ETERN',
+  glo: '1SI.**dream**.ETERN',
   alt: () => _.yafa,
 })

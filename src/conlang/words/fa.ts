@@ -55,7 +55,7 @@ export const ifa = _.alt('ifa', {
 })
 
 export const ofa = _.alt('ofa', {
-  glo: '1SG.INDF.**look**',
+  glo: '1SI.**look**',
   alt: () => _.fa,
 })
 

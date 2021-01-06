@@ -94,6 +94,9 @@ export const Link: Comp<LinkProps> = ({ className, id, type, children }) => {
           ctx.actions.keoda.hideFloat({ id: ref })
         }, 500)
       }}
+      onClick={() => {
+        ctx.actions.keoda.hideFloat({ id: ref })
+      }}
     >
       <Anchor href={`#${ref}`} className={writ ? 'writ' : ''}>
         {writ ? entry.writ : entry.name}

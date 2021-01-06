@@ -12,13 +12,18 @@ export const zuzu = _.word('zuzu', {
   etym: () => [_.zu, _.zu],
 })
 
+export const zunes = _.word('zunes', {
+  noun: 'love',
+  etym: () => [_.zu, _.nes],
+})
+
 export const zuzupa = _.alt('zuzupa', {
   glo: '**make love**.MYST',
   alt: () => _.zuzu,
 })
 
 export const ozu = _.alt('ozu', {
-  glo: '1SG.INDF.**love**',
+  glo: '1SI.**love**',
   alt: () => _.zu,
 })
 

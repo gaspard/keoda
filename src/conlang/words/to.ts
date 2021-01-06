@@ -4,7 +4,7 @@ export const to = _.word('to', {
   det: 'my/our',
   prefix: 'my/our',
   suffix: 'my/our',
-  glo: 'POSS.1SG.INDF',
+  glo: 'POSS.1SI',
   etym: () => [_.wu, _.oda],
   see: () => [_.poss],
 })
