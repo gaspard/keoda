@@ -1,13 +1,14 @@
 import * as _ from '.'
 
 export const ru = _.word('ru', {
+  noun: 'creation (Sristi)',
   suffix: 'to become',
-  verb: 'to become',
+  verb: 'to emerge',
   see: () => [_.prep],
 })
 
 export const runa = _.word('runa', {
-  noun: 'emergence',
+  noun: 'emergence (Krtya कृत्य)',
   etym: () => [_.ru, _.na],
 })
 

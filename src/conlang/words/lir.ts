@@ -1,7 +1,5 @@
 import * as _ from '.'
 
-_.see(_.ofalirmun)
-
 export const lir = _.word('lir', {
   tens: 'future',
   see: () => [_.lei, _.lem],
@@ -33,27 +31,9 @@ export const elir = _.word('elir', {
   etym: () => [_.e, _.lir],
 })
 
-export const omilirpal = _.example(
-  [_.o, _.mi, _.lir, _.pal],
-  'On va te masser les fesses.'
-)
+// === alt
 
-export const ofolirpal = _.example(
-  [_.o, _.fo, _.lir, _.pal],
-  'On va te fouetter les fesses.'
-)
-
-export const lirlipa = _.example([_.lir, _.li, _.pa], 'Tu vas chanter.')
-
-// Ofalir mun.
-export const ofalirmun = _.example(
-  [_.o, _.fa, _.lir, _.mun],
-  'On va regarder tes seins.'
-)
-
-// Omalir tajwu pi.
-export const olirimataj = _.example(
-  [_.o, _.ma, _.lir, _.taj, _.topi],
-  `On va se masturber (chacun pour soi).`
-)
-_.see(_.lau)
+export const esahelir = _.alt('esahelir', {
+  glo: 'INTR.3SG.**be**.FUT',
+  alt: () => _.e,
+})

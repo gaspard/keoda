@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const ne = _.word('ne', {
-  prefix: 'negation',
+  prefix: 'negation, destruction (Samhara)',
   desc: () =>
     `Also means something along the line of 'world of words' or common trance (${_.nepa})`,
 })

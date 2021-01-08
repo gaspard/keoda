@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const lau = _.word('lau', {
-  noun: 'always',
+  adv: 'always',
   tens: 'ETERN',
   etym: () => [_.lei, _.au],
   desc: () => `The time loves.`,

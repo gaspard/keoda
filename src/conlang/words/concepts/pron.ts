@@ -3,6 +3,13 @@ import * as _ from '..'
 export const pron = _.card('pronouns', {
   lang: 'All pronouns',
   desc: () => `
+# Pronouns
+
+## Relative pronouns
+
+* ${_.di} (who)
+* ${_.dim} (whom)
+
 ## Daytime pronouns
 
 In case you haven't noticed, there is some consistency with ${_.verbs} and

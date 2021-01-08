@@ -17,7 +17,8 @@ export const nekupa = _.word('nekupa', {
 })
 
 export const kulei = _.word('kulei', {
-  verb: 'manipuler',
+  noun: 'causal time',
+  verb: 'to rig',
   desc: () =>
     `Attacher le temps, manipuler, relation marchande au temps (si alors).`,
   etym: () => [_.ku, _.lei],

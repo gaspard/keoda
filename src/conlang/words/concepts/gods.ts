@@ -12,5 +12,12 @@ export const gods = _.card('gods', {
 * ${_.gusona}
 * ${_.hurakan}
 
+## Devotion ${_.baka}
+
+Keoda has incorporated the Hindu notion of Bhakti and the Mahavidya. Here are the ten aspects of the Mother Goddess Parvati:
+
+* ${_.gusona} (Kali/time)
+* ${_.gisona} (Tara/compassion)
+* ${_.gisona} (Lalita/Sati/all of life)
 `,
 })

@@ -59,6 +59,8 @@ See word order for more on cases: ${_.order}
 
 * ${_.don} (where body)
 * ${_.dona} (where place)
+* ${_.ha} (up)
+* ${_.jo} (down)
 * ${_.ro} (in)
 * ${_.ri} (out)
 * ${_.fe} (on/covering)

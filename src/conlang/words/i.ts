@@ -7,8 +7,6 @@ export const i = _.word('i', {
   see: () => [_.ti, _.verbs],
 })
 
-_.see(_.olirimataj)
-
 export const imiyon = _.example([_.i, _.mi, _.yon], `Masse-toi la vulve.`)
 export const imimoon = _.example([_.i, _.mi, _.mun], 'Masse-toi les seins.')
 

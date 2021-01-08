@@ -1,12 +1,12 @@
 import * as _ from '.'
 
 export const ha = _.word('ha', {
+  prep: 'up',
   noun: 'head',
   adj: 'far',
   prefix: 'top or distal',
   see: () => [_.jo],
 })
-_.see(_.jo)
 _.see(_.hama)
 
 _.see(_.hafo)

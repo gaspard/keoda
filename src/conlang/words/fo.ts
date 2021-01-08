@@ -4,8 +4,6 @@ export const fo = _.word('fo', {
   verb: 'to whip',
 })
 
-_.see(_.ofolirpal)
-
 // === alt
 
 export const afo = _.alt('afo', {

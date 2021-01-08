@@ -9,7 +9,7 @@ export const gu = _.word('gu', {
 })
 
 export const gunu = _.word('gunu', {
-  noun: 'tremendum',
+  noun: 'tremendum, illusion (Thirodana)',
   see: () => [_.gana],
   etym: () => [_.gu, _.nu],
 })

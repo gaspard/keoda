@@ -7,6 +7,14 @@ export const sapho = _.card('sapho', {
 
  *(630-580 A.D)*
 
+${_.phrase(
+  "Il y aura quelqu'un, un jour, pour se souvenir de nous.",
+  _.esahelir,
+  _.oda,
+  _.pe,
+  _.yo
+)}
+
 ## Poem from her youth:
 
 ${_.phrase(

@@ -16,6 +16,7 @@ const TELU: { [key: string]: string } = {
   // /ʋ/ sound = made with v     = వ
   // /ʃ/ sound = made with x     = ష
   // /f/ sound = made with c     = చ /tʃ/
+
   // lone 'e'  = made with > (bottom left of kbd)
 
   // i

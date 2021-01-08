@@ -11,7 +11,7 @@ This theme is part of ${_.gana} mythology and world-view.
 
 These states correspond to increasing intensity of ${_.ga} and if they are
 not balanced by increasing practicality and material humility ${_.na},
-they are just other names for hubris or psychosis.
+they are just other names for hubris or psychosis or just craziness (${_.maga}).
 
 Here is a map of the relation between ${_.gu}, ${_.ga}, ${_.nu} and ${_.na}.
 

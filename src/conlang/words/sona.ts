@@ -35,3 +35,25 @@ export const kali = _.alt('kali', {
   glo: '**impermanence**',
   alt: () => _.gusona,
 })
+
+// 1. Kali (Time)
+// 2. Tara (Protection)
+export const gisona = _.word('gisona', {
+  noun: 'compassion',
+})
+// 3. Lalita (All of life)
+export const pasona = _.word('pasona', {
+  noun: 'mystery',
+  desc: () => `
+This is the name of the Goddess Lalita (Tripura Sundari, Sati). She is the highest form of the ten aspects of ${_.sona} (Parvati).
+
+With Sadasiva, she is the creator of the 5 Pancha-Krityas (${_.ru}):
+
+* ${_.ru} Sristi or creation
+* ${_.gi} Sthithi or protection
+* ${_.ne} Samhara or destruction
+* ${_.gunu} Thirodhana or concealment of the world in Maya
+* ${_.gana} Anugraha or final liberation
+`,
+  see: () => [_.ganes],
+})

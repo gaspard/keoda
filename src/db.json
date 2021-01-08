@@ -329,8 +329,8 @@
       "glo": "ACC",
       "suffix": "recipient",
       "verb": "to receive",
-      "desc": "\nThe suffix is added to the last part of the a group with the accusative case.\nSo if the noun phrase is John's face, depending on word order, the [am](word-am)\ngoes on [duha](word-duha) or [John](word-John):\n  \n* [98](phrase-98)\n* [99](phrase-99)\n\nOn words with an adjective or other suffix, [am](word-am) suffix always comes last.\n",
-      "fulltext": "am \nThe suffix is added to the last part of the a group with the accusative case.\nSo if the noun phrase is John's face, depending on word order, the [am](word-am)\ngoes on [duha](word-duha) or [John](word-John):\n  \n* [98](phrase-98)\n* [99](phrase-99)\n\nOn words with an adjective or other suffix, [am](word-am) suffix always comes last.\n shadam to receive recipient",
+      "desc": "\nThe suffix is added to the last part of the a group with the accusative case.\nSo if the noun phrase is John's face, depending on word order, the [am](word-am)\ngoes on [duha](word-duha) or [John](word-John):\n  \n* [99](phrase-99)\n* [100](phrase-100)\n\nOn words with an adjective or other suffix, [am](word-am) suffix always comes last.\n",
+      "fulltext": "am \nThe suffix is added to the last part of the a group with the accusative case.\nSo if the noun phrase is John's face, depending on word order, the [am](word-am)\ngoes on [duha](word-duha) or [John](word-John):\n  \n* [99](phrase-99)\n* [100](phrase-100)\n\nOn words with an adjective or other suffix, [am](word-am) suffix always comes last.\n shadam to receive recipient",
       "writ": "లాం",
       "phon": "/am/",
       "deriv": [
@@ -549,7 +549,7 @@
         "phrase-55",
         "phrase-56",
         "phrase-85",
-        "phrase-104"
+        "phrase-105"
       ],
       "fulltext": "au auhu aupa augu lau aupi zu heart to love/to receive",
       "writ": "అు",
@@ -668,7 +668,7 @@
       ],
       "phrases": [
         "phrase-11",
-        "phrase-108"
+        "phrase-109"
       ],
       "fulltext": "baj djobaj habaj kebaj robaj rum lower limb",
       "writ": "బాజ్‌",
@@ -906,8 +906,8 @@
         "phrase-52",
         "phrase-53",
         "phrase-54",
-        "phrase-98",
-        "phrase-99"
+        "phrase-99",
+        "phrase-100"
       ],
       "fulltext": "John John",
       "glo": "**John**"
@@ -1182,8 +1182,8 @@
       ],
       "phrases": [
         "phrase-8",
-        "phrase-96",
-        "phrase-105"
+        "phrase-97",
+        "phrase-106"
       ],
       "fulltext": "dao word-da word-o hadau odu dau prep from",
       "writ": "దాఓ",
@@ -1468,11 +1468,10 @@
         "word-lir"
       ],
       "see": [
-        "word-elir",
         "word-dem",
         "card-prep"
       ],
-      "fulltext": "dir word-da word-lir elir dem prep when (future)",
+      "fulltext": "dir word-da word-lir dem prep when (future)",
       "writ": "దిర్‌",
       "phon": "/dir/"
     },
@@ -1519,7 +1518,7 @@
         "phrase-8",
         "phrase-44",
         "phrase-65",
-        "phrase-105"
+        "phrase-106"
       ],
       "fulltext": "dona don prep where (place)",
       "writ": "దోనా",
@@ -1639,7 +1638,8 @@
         "phrase-64",
         "phrase-81",
         "phrase-86",
-        "phrase-87"
+        "phrase-87",
+        "phrase-95"
       ],
       "fulltext": "e lire leme eja elem elemir elir esi eyu to be",
       "writ": "ఎ",
@@ -1743,7 +1743,7 @@
       "name": "eku",
       "id": "word-eku",
       "type": "word",
-      "prep": "that",
+      "adv": "that",
       "see": [
         "card-prep"
       ],
@@ -1928,7 +1928,7 @@
       "noun": "eyes",
       "verb": "to look",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Arctic_Fox_1_%2810549184013%29.jpg/400px-Arctic_Fox_1_%2810549184013%29.jpg",
-      "desc": "\n[100](phrase-100)\n\n[101](phrase-101)\n",
+      "desc": "\n[101](phrase-101)\n\n[102](phrase-102)\n",
       "phrases": [
         "phrase-1",
         "phrase-2",
@@ -1938,12 +1938,12 @@
         "phrase-89",
         "phrase-89",
         "phrase-93",
-        "phrase-98",
         "phrase-99",
         "phrase-100",
-        "phrase-101"
+        "phrase-101",
+        "phrase-102"
       ],
-      "fulltext": "fa \n[100](phrase-100)\n\n[101](phrase-101)\n gufa falo fahata fatio yafa yadifa eyes to look",
+      "fulltext": "fa \n[101](phrase-101)\n\n[102](phrase-102)\n gufa falo fahata fatio yafa yadifa eyes to look",
       "writ": "చా",
       "phon": "/fa/",
       "glo": "**eyes**",
@@ -1980,12 +1980,12 @@
         "word-fa",
         "word-lo"
       ],
-      "desc": "\n[102](phrase-102)",
+      "desc": "\n[103](phrase-103)",
       "phrases": [
         "phrase-5",
-        "phrase-102"
+        "phrase-103"
       ],
-      "fulltext": "falo word-fa word-lo \n[102](phrase-102) sadness to be sad",
+      "fulltext": "falo word-fa word-lo \n[103](phrase-103) sadness to be sad",
       "writ": "చాలో",
       "phon": "/falɔ/",
       "glo": "**sadness**"
@@ -2056,15 +2056,15 @@
       "prefix": "on (SUPESS)",
       "verb": "to cover, to be on top",
       "glo": "SUPESS",
-      "desc": "\n[103](phrase-103)\n  ",
+      "desc": "\n[104](phrase-104)\n  ",
       "see": [
         "card-prep"
       ],
       "phrases": [
         "phrase-60",
-        "phrase-97"
+        "phrase-98"
       ],
-      "fulltext": "fe \n[103](phrase-103)\n   faj feyaj fena prep 7 to cover, to be on top on (SUPESS)",
+      "fulltext": "fe \n[104](phrase-104)\n   faj feyaj fena prep 7 to cover, to be on top on (SUPESS)",
       "writ": "వే",
       "phon": "/fɛ/",
       "deriv": [
@@ -2125,7 +2125,7 @@
         "phrase-64",
         "phrase-82",
         "phrase-83",
-        "phrase-103"
+        "phrase-104"
       ],
       "fulltext": "nefe to uncover/undress naked",
       "writ": "నేవే",
@@ -2315,9 +2315,9 @@
         "word-gu"
       ],
       "phrases": [
-        "phrase-95"
+        "phrase-96"
       ],
-      "fulltext": "ga gana gao kuga nega gu ganu gahal gu spirit",
+      "fulltext": "ga gana gao kuga nega gu ganu gahal maga gu spirit",
       "writ": "గా",
       "phon": "/ga/",
       "glo": "**spirit**",
@@ -2328,14 +2328,15 @@
         "word-nega",
         "word-gu",
         "word-ganu",
-        "word-gahal"
+        "word-gahal",
+        "word-maga"
       ]
     },
     "word-gana": {
       "name": "gana",
       "id": "word-gana",
       "type": "word",
-      "noun": "earth",
+      "noun": "earth (Anugraha)",
       "etym": [
         "word-ga",
         "word-na"
@@ -2347,10 +2348,10 @@
         "phrase-34",
         "phrase-35"
       ],
-      "fulltext": "gana word-ga word-na gunu earth",
+      "fulltext": "gana word-ga word-na gunu earth (Anugraha)",
       "writ": "గానా",
       "phon": "/gana/",
-      "glo": "**earth**"
+      "glo": "**earth (Anugraha)**"
     },
     "word-gai": {
       "name": "gai",
@@ -2447,7 +2448,7 @@
       "name": "gi",
       "id": "word-gi",
       "type": "word",
-      "noun": "gentle",
+      "noun": "gentle (Sthiti)",
       "suffix": "gentle",
       "etym": [
         "word-gu",
@@ -2459,10 +2460,10 @@
       "phrases": [
         "phrase-93"
       ],
-      "fulltext": "gi word-gu word-i gilapa yagi yaonagi yogi yohonagi go gentle gentle",
+      "fulltext": "gi word-gu word-i gilapa yagi yaonagi yogi yohonagi go gentle (Sthiti) gentle",
       "writ": "గి",
       "phon": "/gi/",
-      "glo": "**gentle**",
+      "glo": "**gentle (Sthiti)**",
       "deriv": [
         "word-gilapa",
         "word-yagi",
@@ -2635,7 +2636,7 @@
       "name": "gunu",
       "id": "word-gunu",
       "type": "word",
-      "noun": "tremendum",
+      "noun": "tremendum, illusion (Thirodana)",
       "see": [
         "word-gana"
       ],
@@ -2643,10 +2644,10 @@
         "word-gu",
         "word-nu"
       ],
-      "fulltext": "gunu word-gu word-nu gana tremendum",
+      "fulltext": "gunu word-gu word-nu gana tremendum, illusion (Thirodana)",
       "writ": "గును",
       "phon": "/gunu/",
-      "glo": "**tremendum**"
+      "glo": "**tremendum, illusion (Thirodana)**"
     },
     "word-gulir": {
       "name": "gulir",
@@ -2748,7 +2749,7 @@
         "phrase-3",
         "phrase-38",
         "phrase-41",
-        "phrase-100"
+        "phrase-101"
       ],
       "fulltext": "guwu word-gu word-wu diguwu guwuna to give",
       "writ": "గువు",
@@ -2869,16 +2870,17 @@
       "name": "ha",
       "id": "word-ha",
       "type": "word",
+      "prep": "up",
       "noun": "head",
       "adj": "far",
       "prefix": "top or distal",
       "see": [
         "word-jo"
       ],
-      "fulltext": "ha habaj hadau duha hawe hase noha hada hana hawi hao hajo joha hama hamun hafo habo jo head far top or distal",
+      "fulltext": "ha habaj hadau duha hawe hase noha hada hana hawi hao hajo joha hama hamun hafo habo jo head far top or distal up",
       "writ": "హా",
       "phon": "/ha/",
-      "glo": "**head**",
+      "glo": "**up**",
       "deriv": [
         "word-habaj",
         "word-hadau",
@@ -2912,9 +2914,9 @@
         "phrase-2",
         "phrase-10",
         "phrase-72",
-        "phrase-98",
         "phrase-99",
-        "phrase-107"
+        "phrase-100",
+        "phrase-108"
       ],
       "fulltext": "duha word-du word-ha duhasha face",
       "writ": "దుహా",
@@ -3173,7 +3175,7 @@
         "card-gods"
       ],
       "phrases": [
-        "phrase-96"
+        "phrase-97"
       ],
       "fulltext": "hurakan \nDeity or [zemi](https://en.wikipedia.org/wiki/Zemi) of chaos and disorder from the Taïno culture of the Caribbean.\n\n\n gods hurricane",
       "writ": "హురాకాఁ",
@@ -3227,10 +3229,11 @@
       "id": "word-ibu",
       "type": "word",
       "prep": "for",
+      "adv": "to",
       "see": [
         "card-prep"
       ],
-      "fulltext": "ibu prep for",
+      "fulltext": "ibu prep for to",
       "writ": "ఇబు",
       "phon": "/ibu/",
       "glo": "**for**"
@@ -3599,7 +3602,7 @@
       "phrases": [
         "phrase-11",
         "phrase-67",
-        "phrase-108"
+        "phrase-109"
       ],
       "fulltext": "ji gojida soaji hair standing, body leaning forward, hair offered ready to be taken",
       "writ": "జి",
@@ -3641,6 +3644,7 @@
       "id": "word-jo",
       "type": "word",
       "adj": "close, proximal",
+      "prep": "down",
       "etym": [
         "word-dau",
         "word-ojo"
@@ -3648,7 +3652,7 @@
       "see": [
         "word-ha"
       ],
-      "fulltext": "jo word-dau word-ojo djobaj hajo joha joda jona jowi joto djoma djonopi obo ha close, proximal",
+      "fulltext": "jo word-dau word-ojo djobaj hajo joha joda jona jowi joto djoma djonopi obo ha close, proximal down",
       "writ": "జో",
       "phon": "/dʒɔ/",
       "glo": "**close, proximal**",
@@ -4103,16 +4107,17 @@
       "name": "kulei",
       "id": "word-kulei",
       "type": "word",
-      "verb": "manipuler",
+      "noun": "causal time",
+      "verb": "to rig",
       "desc": "Attacher le temps, manipuler, relation marchande au temps (si alors).",
       "etym": [
         "word-ku",
         "word-lei"
       ],
-      "fulltext": "kulei word-ku word-lei Attacher le temps, manipuler, relation marchande au temps (si alors). manipuler",
+      "fulltext": "kulei word-ku word-lei Attacher le temps, manipuler, relation marchande au temps (si alors). causal time to rig",
       "writ": "కులేఇ",
       "phon": "/kulɛi/",
-      "glo": "**manipuler**"
+      "glo": "**causal time**"
     },
     "word-kuoda": {
       "name": "kuoda",
@@ -4274,9 +4279,9 @@
       "verb": "to announce",
       "etym": [
         "word-lapa",
-        "word-elir"
+        "word-lir"
       ],
-      "fulltext": "lapir word-lapa word-elir to announce",
+      "fulltext": "lapir word-lapa word-lir to announce",
       "writ": "లాపిర్‌",
       "phon": "/lapir/",
       "glo": "**to announce**"
@@ -4370,7 +4375,7 @@
       "noun": "tears",
       "phrases": [
         "phrase-10",
-        "phrase-107"
+        "phrase-108"
       ],
       "fulltext": "falame tears",
       "writ": "చాలామే",
@@ -4472,7 +4477,7 @@
       "name": "lau",
       "id": "word-lau",
       "type": "word",
-      "noun": "always",
+      "adv": "always",
       "tens": "ETERN",
       "etym": [
         "word-lei",
@@ -4486,7 +4491,7 @@
       "phrases": [
         "phrase-61"
       ],
-      "fulltext": "lau word-lei word-au The time loves. prep verbs always ETERN",
+      "fulltext": "lau word-lei word-au The time loves. prep verbs ETERN always",
       "writ": "లాు",
       "phon": "/lau/",
       "glo": "**always**"
@@ -4817,7 +4822,7 @@
         "word-lei",
         "word-lem"
       ],
-      "fulltext": "lir lire liro liru lira dir gulir lemir liri ilir elir lei lem future",
+      "fulltext": "lir lire liro liru lira dir gulir lapir lemir liri ilir elir lei lem future",
       "writ": "లిర్‌",
       "phon": "/lir/",
       "glo": "**future**",
@@ -4828,6 +4833,7 @@
         "word-lira",
         "word-dir",
         "word-gulir",
+        "word-lapir",
         "word-lemir",
         "word-liri",
         "word-ilir",
@@ -4889,12 +4895,9 @@
         "word-e",
         "word-lir"
       ],
-      "fulltext": "elir word-e word-lir lapir in the future",
+      "fulltext": "elir word-e word-lir in the future",
       "writ": "ఎలిర్‌",
-      "phon": "/ɛlir/",
-      "deriv": [
-        "word-lapir"
-      ]
+      "phon": "/ɛlir/"
     },
     "word-liu": {
       "name": "liu",
@@ -5010,9 +5013,9 @@
         "phrase-73",
         "phrase-74",
         "phrase-79",
-        "phrase-101"
+        "phrase-102"
       ],
-      "fulltext": "ma anama mahim hama djoma nema mu malam masa mi mo hand to take, to hold",
+      "fulltext": "ma anama mahim hama djoma nema mu malam masa mi mo maga hand to take, to hold",
       "writ": "మా",
       "phon": "/ma/",
       "glo": "**hand**",
@@ -5026,7 +5029,8 @@
         "word-malam",
         "word-masa",
         "word-mi",
-        "word-mo"
+        "word-mo",
+        "word-maga"
       ]
     },
     "word-hama": {
@@ -5257,7 +5261,7 @@
         "word-mo",
         "word-mu"
       ],
-      "desc": "[104](phrase-104)",
+      "desc": "[105](phrase-105)",
       "phrases": [
         "phrase-7",
         "phrase-57",
@@ -5268,9 +5272,9 @@
         "phrase-65",
         "phrase-66",
         "phrase-67",
-        "phrase-104"
+        "phrase-105"
       ],
-      "fulltext": "mi word-ma word-i [104](phrase-104) lami miwi mo mu to caress",
+      "fulltext": "mi word-ma word-i [105](phrase-105) lami miwi mo mu to caress",
       "writ": "మి",
       "phon": "/mi/",
       "deriv": [
@@ -5524,12 +5528,12 @@
       "name": "ne",
       "id": "word-ne",
       "type": "word",
-      "prefix": "negation",
+      "prefix": "negation, destruction (Samhara)",
       "desc": "Also means something along the line of 'world of words' or common trance ([nepa](word-nepa))",
-      "fulltext": "ne Also means something along the line of 'world of words' or common trance ([nepa](word-nepa)) neja nem nega neka nekupa neleiuki nema naj neoda nelo nei negupi nesu negation",
+      "fulltext": "ne Also means something along the line of 'world of words' or common trance ([nepa](word-nepa)) neja nem nega neka nekupa neleiuki nema naj neoda nelo nei negupi nesu negation, destruction (Samhara)",
       "writ": "నే",
       "phon": "/nɛ/",
-      "glo": "**negation**",
+      "glo": "**negation, destruction (Samhara)**",
       "deriv": [
         "word-neja",
         "word-nem",
@@ -5900,7 +5904,7 @@
         "word-fo"
       ],
       "phrases": [
-        "phrase-97"
+        "phrase-98"
       ],
       "fulltext": "hafo word-ha word-fo to fall",
       "writ": "హాచో",
@@ -5984,7 +5988,8 @@
         "phrase-57",
         "phrase-58",
         "phrase-59",
-        "phrase-90"
+        "phrase-90",
+        "phrase-95"
       ],
       "fulltext": "oda lada doda anoda deda goda hada hao odin gojida joda kada kaya koda keda kuoda kelo lamioda loda neoda noda yoda keoda yosa odei hida hina odo odu otoda peda pida piyida samoda shada shida shoda to uloda yada yida ayida to oya pronouns body, place of life alive animal I/we",
       "writ": "ఓదా",
@@ -6217,12 +6222,12 @@
         "word-odo",
         "word-dao"
       ],
-      "desc": "\n[105](phrase-105)\n  ",
+      "desc": "\n[106](phrase-106)\n  ",
       "phrases": [
         "phrase-8",
-        "phrase-105"
+        "phrase-106"
       ],
-      "fulltext": "odu word-oda word-u \n[105](phrase-105)\n   odo dao to come",
+      "fulltext": "odu word-oda word-u \n[106](phrase-106)\n   odo dao to come",
       "writ": "ఓదు",
       "phon": "/ɔdu/",
       "glo": "**to come**"
@@ -6645,7 +6650,8 @@
       "phrases": [
         "phrase-16",
         "phrase-20",
-        "phrase-25"
+        "phrase-25",
+        "phrase-95"
       ],
       "fulltext": "pe pedili peda peya hamape moon count some 3 some two legs and a buttock (doggy style)",
       "writ": "పే",
@@ -7227,18 +7233,19 @@
       "name": "ru",
       "id": "word-ru",
       "type": "word",
+      "noun": "creation (Sristi)",
       "suffix": "to become",
-      "verb": "to become",
+      "verb": "to emerge",
       "see": [
         "card-prep"
       ],
       "phrases": [
         "phrase-87"
       ],
-      "fulltext": "ru rugui guru karu loru runa leiru prep to become to become",
+      "fulltext": "ru rugui guru karu loru runa leiru prep creation (Sristi) to emerge to become",
       "writ": "రు",
       "phon": "/ru/",
-      "glo": "**to become**",
+      "glo": "**creation (Sristi)**",
       "deriv": [
         "word-rugui",
         "word-guru",
@@ -7252,15 +7259,15 @@
       "name": "runa",
       "id": "word-runa",
       "type": "word",
-      "noun": "emergence",
+      "noun": "emergence (Krtya कृत्य)",
       "etym": [
         "word-ru",
         "word-na"
       ],
-      "fulltext": "runa word-ru word-na emergence",
+      "fulltext": "runa word-ru word-na emergence (Krtya कृत्य)",
       "writ": "రునా",
       "phon": "/runa/",
-      "glo": "**emergence**"
+      "glo": "**emergence (Krtya कृत्य)**"
     },
     "word-leiru": {
       "name": "leiru",
@@ -7305,7 +7312,7 @@
         "word-o"
       ],
       "phrases": [
-        "phrase-95"
+        "phrase-96"
       ],
       "fulltext": "leiruo word-leiru word-o misfortune alas",
       "writ": "లేఇరుఓ",
@@ -7404,14 +7411,14 @@
       "type": "word",
       "noun": "foot",
       "posit": "standing",
-      "desc": "\nNote that when saying \"left foot\" or \"right foot\", the terminal\n'e' is dropped:\n\n[106](phrase-106)",
+      "desc": "\nNote that when saying \"left foot\" or \"right foot\", the terminal\n'e' is dropped:\n\n[107](phrase-107)",
       "phrases": [
         "phrase-9",
         "phrase-9",
-        "phrase-106",
-        "phrase-106"
+        "phrase-107",
+        "phrase-107"
       ],
-      "fulltext": "same \nNote that when saying \"left foot\" or \"right foot\", the terminal\n'e' is dropped:\n\n[106](phrase-106) anasame samoda foot standing",
+      "fulltext": "same \nNote that when saying \"left foot\" or \"right foot\", the terminal\n'e' is dropped:\n\n[107](phrase-107) anasame samoda foot standing",
       "writ": "సామే",
       "phon": "/samɛ/",
       "glo": "**foot**",
@@ -7885,7 +7892,7 @@
       ],
       "phrases": [
         "phrase-94",
-        "phrase-96"
+        "phrase-97"
       ],
       "fulltext": "si sienu sigu esi prep esi like like, as if",
       "writ": "సి",
@@ -7990,7 +7997,7 @@
         "card-nature"
       ],
       "phrases": [
-        "phrase-96"
+        "phrase-97"
       ],
       "fulltext": "gosoa word-go word-soa nature mountain",
       "writ": "గోసోఅ",
@@ -8420,12 +8427,12 @@
       "id": "word-uba",
       "type": "word",
       "verb": "run down",
-      "desc": "\n[107](phrase-107)",
+      "desc": "\n[108](phrase-108)",
       "phrases": [
         "phrase-10",
-        "phrase-107"
+        "phrase-108"
       ],
-      "fulltext": "uba \n[107](phrase-107) run down",
+      "fulltext": "uba \n[108](phrase-108) run down",
       "writ": "ఉబా",
       "phon": "/uba/",
       "glo": "**run down**"
@@ -8461,14 +8468,14 @@
       "see": [
         "word-iki"
       ],
-      "desc": "\n* [108](phrase-108)",
+      "desc": "\n* [109](phrase-109)",
       "phrases": [
         "phrase-19",
         "phrase-20",
         "phrase-21",
         "phrase-22"
       ],
-      "fulltext": "uki \n* [108](phrase-108) agauki leiuki ukile iki long long",
+      "fulltext": "uki \n* [109](phrase-109) agauki leiuki ukile iki long long",
       "writ": "ఉకి",
       "phon": "/uki/",
       "glo": "**long**",
@@ -8593,7 +8600,7 @@
       "noun": "is",
       "glo": "TOP",
       "phrases": [
-        "phrase-95"
+        "phrase-96"
       ],
       "fulltext": "wa is",
       "writ": "వా",
@@ -8642,7 +8649,7 @@
         "word-weis"
       ],
       "phrases": [
-        "phrase-95"
+        "phrase-96"
       ],
       "fulltext": "goweis word-go word-weis desolate to desolate",
       "writ": "గోవేఇస్‌",
@@ -8952,7 +8959,7 @@
         "word-lei"
       ],
       "phrases": [
-        "phrase-97"
+        "phrase-98"
       ],
       "fulltext": "yile yi lei young",
       "writ": "యిలే",
@@ -9106,6 +9113,9 @@
       "noun": "daytime",
       "see": [
         "word-ya"
+      ],
+      "phrases": [
+        "phrase-95"
       ],
       "fulltext": "yo yosa yohon yogi ya daytime",
       "writ": "యో",
@@ -9328,7 +9338,7 @@
         "phrase-61",
         "phrase-64",
         "phrase-85",
-        "phrase-103"
+        "phrase-104"
       ],
       "fulltext": "zu zuzu zunes au heart to love",
       "writ": "ఠు",
@@ -9370,7 +9380,7 @@
         "word-nes"
       ],
       "phrases": [
-        "phrase-95"
+        "phrase-96"
       ],
       "fulltext": "zunes word-zu word-nes love",
       "writ": "ఠునేస్‌",
@@ -9446,6 +9456,69 @@
       "writ": "గుసోనా",
       "phon": "/gusɔna/",
       "glo": "**impermanence**"
+    },
+    "word-gisona": {
+      "name": "gisona",
+      "id": "word-gisona",
+      "type": "word",
+      "noun": "compassion",
+      "fulltext": "gisona compassion",
+      "writ": "గిసోనా",
+      "phon": "/gisɔna/",
+      "glo": "**compassion**"
+    },
+    "word-pasona": {
+      "name": "pasona",
+      "id": "word-pasona",
+      "type": "word",
+      "noun": "mystery",
+      "desc": "\nThis is the name of the Goddess Lalita (Tripura Sundari, Sati). She is the highest form of the ten aspects of [sona](word-sona) (Parvati).\n\nWith Sadasiva, she is the creator of the 5 Pancha-Krityas ([ru](word-ru)):\n\n* [ru](word-ru) Sristi or creation\n* [gi](word-gi) Sthithi or protection\n* [ne](word-ne) Samhara or destruction\n* [gunu](word-gunu) Thirodhana or concealment of the world in Maya\n* [gana](word-gana) Anugraha or final liberation\n",
+      "see": [
+        "card-ganes"
+      ],
+      "fulltext": "pasona \nThis is the name of the Goddess Lalita (Tripura Sundari, Sati). She is the highest form of the ten aspects of [sona](word-sona) (Parvati).\n\nWith Sadasiva, she is the creator of the 5 Pancha-Krityas ([ru](word-ru)):\n\n* [ru](word-ru) Sristi or creation\n* [gi](word-gi) Sthithi or protection\n* [ne](word-ne) Samhara or destruction\n* [gunu](word-gunu) Thirodhana or concealment of the world in Maya\n* [gana](word-gana) Anugraha or final liberation\n ganes mystery",
+      "writ": "పాసోనా",
+      "phon": "/pasɔna/",
+      "glo": "**mystery**"
+    },
+    "word-rigami": {
+      "name": "rigami",
+      "id": "word-rigami",
+      "type": "word",
+      "adj": "modesty",
+      "verb": "to be shy",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Cranes_made_by_Origami_paper.jpg/330px-Cranes_made_by_Origami_paper.jpg",
+      "imgpos": "50%",
+      "fulltext": "rigami to be shy modesty",
+      "writ": "రిగామి",
+      "phon": "/rigami/",
+      "glo": "**modesty**"
+    },
+    "word-baka": {
+      "name": "baka",
+      "id": "word-baka",
+      "type": "word",
+      "noun": "devotion",
+      "verb": "to surrender",
+      "fulltext": "baka devotion to surrender",
+      "writ": "బాకా",
+      "phon": "/baka/",
+      "glo": "**devotion**"
+    },
+    "word-maga": {
+      "name": "maga",
+      "id": "word-maga",
+      "type": "word",
+      "adj": "crazy",
+      "etym": [
+        "word-ma",
+        "word-ga"
+      ],
+      "desc": "\nThis litterally means \"palm-spirit\" (face-palm).\n\nThe adjective is used to talk about a person so far into [ganes](card-ganes)\ndellusions that they start acting in dangerous ways both for themselves and\nothers.\n",
+      "fulltext": "maga word-ma word-ga \nThis litterally means \"palm-spirit\" (face-palm).\n\nThe adjective is used to talk about a person so far into [ganes](card-ganes)\ndellusions that they start acting in dangerous ways both for themselves and\nothers.\n crazy",
+      "writ": "మాగా",
+      "phon": "/maga/",
+      "glo": "**crazy**"
     }
   },
   "card": {
@@ -9527,8 +9600,8 @@
         "word-nepa",
         "card-count"
       ],
-      "desc": "\nThis theme is part of [gana](word-gana) mythology and world-view.\n\n# The scale [ga](word-ga)\n\nThese states correspond to increasing intensity of [ga](word-ga) and if they are\nnot balanced by increasing practicality and material humility [na](word-na),\nthey are just other names for hubris or psychosis.\n\nHere is a map of the relation between [gu](word-gu), [ga](word-ga), [nu](word-nu) and [na](word-na).\n\n~~~\nga                 gana\n                  /\n                /\n              /\nganes       /\n          /\n        /\ngu    /\n    /\ngunu  nu    nanes    na\n~~~\n\nThe `/` diagonal between gunu and gana represent **integration**. Distances\nfrom this diagonal represent some level of psychosis (above) or dissociation\n(below).\n\nAs you can see, the only way to escape the terror of [gunu](word-gunu) is to reach\n[gana](word-gana) (earth), not [guna](word-guna) (dissociation, robot) nor [ganu](word-ganu) (psychosis, god-child).\n\nIn reality, [gunu](word-gunu) and [gana](word-gana) are folded together and are the same\nthing. The growth of the spirit is just a way to come back to the childhood\nof the spirit. It is the same but it is not the same, like looking at\nyour loved one with or without alzheimer. The loved one is the same but\nthe experience is not.\n\n## The euphoric states\n\nThese need to be balanced with their equivalent [nanes](card-nanes) states.\n\n* 10 [jipa](word-jipa) (remembering being god.des) <=> [jifi](word-jifi) (humble)\n* 9 [dapa](word-dapa) (joy) <=> [dafi](word-dafi) (serving)\n* 8 [jepa](word-jepa) (belonging) <=> [jefi](word-jefi) (caring)\n* 7 [fepa](word-fepa) (pride) <=> [fefi](word-fefi) (adapting)\n* 6 [shipa](word-shipa) (believing) <=> [shifi](word-shifi) (learning)\n\n## The \"territorial\" states.\n\nFrom here, the states are more difficult. These states are shared on both\n[ganes](card-ganes) and [nanes](card-nanes) scales.\n\n* 5 [nele](word-nele) (confusion/insecure)\n* 4 [neka](word-neka) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n",
-      "fulltext": "ganes \nThis theme is part of [gana](word-gana) mythology and world-view.\n\n# The scale [ga](word-ga)\n\nThese states correspond to increasing intensity of [ga](word-ga) and if they are\nnot balanced by increasing practicality and material humility [na](word-na),\nthey are just other names for hubris or psychosis.\n\nHere is a map of the relation between [gu](word-gu), [ga](word-ga), [nu](word-nu) and [na](word-na).\n\n~~~\nga                 gana\n                  /\n                /\n              /\nganes       /\n          /\n        /\ngu    /\n    /\ngunu  nu    nanes    na\n~~~\n\nThe `/` diagonal between gunu and gana represent **integration**. Distances\nfrom this diagonal represent some level of psychosis (above) or dissociation\n(below).\n\nAs you can see, the only way to escape the terror of [gunu](word-gunu) is to reach\n[gana](word-gana) (earth), not [guna](word-guna) (dissociation, robot) nor [ganu](word-ganu) (psychosis, god-child).\n\nIn reality, [gunu](word-gunu) and [gana](word-gana) are folded together and are the same\nthing. The growth of the spirit is just a way to come back to the childhood\nof the spirit. It is the same but it is not the same, like looking at\nyour loved one with or without alzheimer. The loved one is the same but\nthe experience is not.\n\n## The euphoric states\n\nThese need to be balanced with their equivalent [nanes](card-nanes) states.\n\n* 10 [jipa](word-jipa) (remembering being god.des) <=> [jifi](word-jifi) (humble)\n* 9 [dapa](word-dapa) (joy) <=> [dafi](word-dafi) (serving)\n* 8 [jepa](word-jepa) (belonging) <=> [jefi](word-jefi) (caring)\n* 7 [fepa](word-fepa) (pride) <=> [fefi](word-fefi) (adapting)\n* 6 [shipa](word-shipa) (believing) <=> [shifi](word-shifi) (learning)\n\n## The \"territorial\" states.\n\nFrom here, the states are more difficult. These states are shared on both\n[ganes](card-ganes) and [nanes](card-nanes) scales.\n\n* 5 [nele](word-nele) (confusion/insecure)\n* 4 [neka](word-neka) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n nanes nepa count scale of ga states of consciousness",
+      "desc": "\nThis theme is part of [gana](word-gana) mythology and world-view.\n\n# The scale [ga](word-ga)\n\nThese states correspond to increasing intensity of [ga](word-ga) and if they are\nnot balanced by increasing practicality and material humility [na](word-na),\nthey are just other names for hubris or psychosis or just craziness ([maga](word-maga)).\n\nHere is a map of the relation between [gu](word-gu), [ga](word-ga), [nu](word-nu) and [na](word-na).\n\n~~~\nga                 gana\n                  /\n                /\n              /\nganes       /\n          /\n        /\ngu    /\n    /\ngunu  nu    nanes    na\n~~~\n\nThe `/` diagonal between gunu and gana represent **integration**. Distances\nfrom this diagonal represent some level of psychosis (above) or dissociation\n(below).\n\nAs you can see, the only way to escape the terror of [gunu](word-gunu) is to reach\n[gana](word-gana) (earth), not [guna](word-guna) (dissociation, robot) nor [ganu](word-ganu) (psychosis, god-child).\n\nIn reality, [gunu](word-gunu) and [gana](word-gana) are folded together and are the same\nthing. The growth of the spirit is just a way to come back to the childhood\nof the spirit. It is the same but it is not the same, like looking at\nyour loved one with or without alzheimer. The loved one is the same but\nthe experience is not.\n\n## The euphoric states\n\nThese need to be balanced with their equivalent [nanes](card-nanes) states.\n\n* 10 [jipa](word-jipa) (remembering being god.des) <=> [jifi](word-jifi) (humble)\n* 9 [dapa](word-dapa) (joy) <=> [dafi](word-dafi) (serving)\n* 8 [jepa](word-jepa) (belonging) <=> [jefi](word-jefi) (caring)\n* 7 [fepa](word-fepa) (pride) <=> [fefi](word-fefi) (adapting)\n* 6 [shipa](word-shipa) (believing) <=> [shifi](word-shifi) (learning)\n\n## The \"territorial\" states.\n\nFrom here, the states are more difficult. These states are shared on both\n[ganes](card-ganes) and [nanes](card-nanes) scales.\n\n* 5 [nele](word-nele) (confusion/insecure)\n* 4 [neka](word-neka) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n",
+      "fulltext": "ganes \nThis theme is part of [gana](word-gana) mythology and world-view.\n\n# The scale [ga](word-ga)\n\nThese states correspond to increasing intensity of [ga](word-ga) and if they are\nnot balanced by increasing practicality and material humility [na](word-na),\nthey are just other names for hubris or psychosis or just craziness ([maga](word-maga)).\n\nHere is a map of the relation between [gu](word-gu), [ga](word-ga), [nu](word-nu) and [na](word-na).\n\n~~~\nga                 gana\n                  /\n                /\n              /\nganes       /\n          /\n        /\ngu    /\n    /\ngunu  nu    nanes    na\n~~~\n\nThe `/` diagonal between gunu and gana represent **integration**. Distances\nfrom this diagonal represent some level of psychosis (above) or dissociation\n(below).\n\nAs you can see, the only way to escape the terror of [gunu](word-gunu) is to reach\n[gana](word-gana) (earth), not [guna](word-guna) (dissociation, robot) nor [ganu](word-ganu) (psychosis, god-child).\n\nIn reality, [gunu](word-gunu) and [gana](word-gana) are folded together and are the same\nthing. The growth of the spirit is just a way to come back to the childhood\nof the spirit. It is the same but it is not the same, like looking at\nyour loved one with or without alzheimer. The loved one is the same but\nthe experience is not.\n\n## The euphoric states\n\nThese need to be balanced with their equivalent [nanes](card-nanes) states.\n\n* 10 [jipa](word-jipa) (remembering being god.des) <=> [jifi](word-jifi) (humble)\n* 9 [dapa](word-dapa) (joy) <=> [dafi](word-dafi) (serving)\n* 8 [jepa](word-jepa) (belonging) <=> [jefi](word-jefi) (caring)\n* 7 [fepa](word-fepa) (pride) <=> [fefi](word-fefi) (adapting)\n* 6 [shipa](word-shipa) (believing) <=> [shifi](word-shifi) (learning)\n\n## The \"territorial\" states.\n\nFrom here, the states are more difficult. These states are shared on both\n[ganes](card-ganes) and [nanes](card-nanes) scales.\n\n* 5 [nele](word-nele) (confusion/insecure)\n* 4 [neka](word-neka) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n nanes nepa count scale of ga states of consciousness",
       "writ": "గానేస్‌",
       "phon": "/ganɛs/",
       "glo": "**scale of ga**"
@@ -9639,8 +9712,8 @@
       "name": "prep",
       "id": "card-prep",
       "type": "card",
-      "desc": "\n# Prepositions\n\nI am not 100% sure all these are technically prepositions but they are \"the small\nconnecting words in a phrase\".\n\n# Time\n\n* [lau](word-lau) (always)\n* [ul](word-ul) (until)\n* [uya](word-uya) (since)\n* [dem](word-dem) (when.PST)\n* [dir](word-dir) (when.FUT)\n* [lei](word-lei) (then)\n\n[61](phrase-61)\n\n# Nouns\n\n* [di](word-di) (who)\n* [dim](word-dim) (whom)\n* [eku](word-eku) (that)\n* [fu](word-fu) (by*)\n* [ko](word-ko) (with)\n* [es](word-es) (self)\n* [ni](word-ni) (to*)\n\n* [fu](word-fu) and [ni](word-ni) are prefix that modify the noun to `ERG`\nand `DAT` cases respectively. Think of [fuJane](alt-fuJane) as meaning \"does Jane\".\n\nSee word order for more on cases: [order](card-order)\n\n#### nsfw\n\n* [62](phrase-62)\n* [63](phrase-63)\n* [64](phrase-64)\n\n# Location\n\n* [don](word-don) (where body)\n* [dona](word-dona) (where place)\n* [ro](word-ro) (in)\n* [ri](word-ri) (out)\n* [fe](word-fe) (on/covering)\n* [dau](word-dau) (to.LOC)\n* [dao](word-dao) (from.LOC)\n\n[65](phrase-65)\n\n# Causality\n\n* [esi](word-esi) (in order to)\n* [eyu](word-eyu) (if)\n* [ibu](word-ibu) (for)\n* [eja](word-eja) (plausibility)\n\n[66](phrase-66)\n\n# Similarity\n\n* [si](word-si) (as if)\n\n# Composability\n\n* [lom](word-lom) (made of)\n* [ru](word-ru) (become)\n\n# Articulation\n\n* [shu](word-shu) (and)\n* [uma](word-uma) (or)\n\n",
-      "fulltext": "prep \n# Prepositions\n\nI am not 100% sure all these are technically prepositions but they are \"the small\nconnecting words in a phrase\".\n\n# Time\n\n* [lau](word-lau) (always)\n* [ul](word-ul) (until)\n* [uya](word-uya) (since)\n* [dem](word-dem) (when.PST)\n* [dir](word-dir) (when.FUT)\n* [lei](word-lei) (then)\n\n[61](phrase-61)\n\n# Nouns\n\n* [di](word-di) (who)\n* [dim](word-dim) (whom)\n* [eku](word-eku) (that)\n* [fu](word-fu) (by*)\n* [ko](word-ko) (with)\n* [es](word-es) (self)\n* [ni](word-ni) (to*)\n\n* [fu](word-fu) and [ni](word-ni) are prefix that modify the noun to `ERG`\nand `DAT` cases respectively. Think of [fuJane](alt-fuJane) as meaning \"does Jane\".\n\nSee word order for more on cases: [order](card-order)\n\n#### nsfw\n\n* [62](phrase-62)\n* [63](phrase-63)\n* [64](phrase-64)\n\n# Location\n\n* [don](word-don) (where body)\n* [dona](word-dona) (where place)\n* [ro](word-ro) (in)\n* [ri](word-ri) (out)\n* [fe](word-fe) (on/covering)\n* [dau](word-dau) (to.LOC)\n* [dao](word-dao) (from.LOC)\n\n[65](phrase-65)\n\n# Causality\n\n* [esi](word-esi) (in order to)\n* [eyu](word-eyu) (if)\n* [ibu](word-ibu) (for)\n* [eja](word-eja) (plausibility)\n\n[66](phrase-66)\n\n# Similarity\n\n* [si](word-si) (as if)\n\n# Composability\n\n* [lom](word-lom) (made of)\n* [ru](word-ru) (become)\n\n# Articulation\n\n* [shu](word-shu) (and)\n* [uma](word-uma) (or)\n\n",
+      "desc": "\n# Prepositions\n\nI am not 100% sure all these are technically prepositions but they are \"the small\nconnecting words in a phrase\".\n\n# Time\n\n* [lau](word-lau) (always)\n* [ul](word-ul) (until)\n* [uya](word-uya) (since)\n* [dem](word-dem) (when.PST)\n* [dir](word-dir) (when.FUT)\n* [lei](word-lei) (then)\n\n[61](phrase-61)\n\n# Nouns\n\n* [di](word-di) (who)\n* [dim](word-dim) (whom)\n* [eku](word-eku) (that)\n* [fu](word-fu) (by*)\n* [ko](word-ko) (with)\n* [es](word-es) (self)\n* [ni](word-ni) (to*)\n\n* [fu](word-fu) and [ni](word-ni) are prefix that modify the noun to `ERG`\nand `DAT` cases respectively. Think of [fuJane](alt-fuJane) as meaning \"does Jane\".\n\nSee word order for more on cases: [order](card-order)\n\n#### nsfw\n\n* [62](phrase-62)\n* [63](phrase-63)\n* [64](phrase-64)\n\n# Location\n\n* [don](word-don) (where body)\n* [dona](word-dona) (where place)\n* [ha](word-ha) (up)\n* [jo](word-jo) (down)\n* [ro](word-ro) (in)\n* [ri](word-ri) (out)\n* [fe](word-fe) (on/covering)\n* [dau](word-dau) (to.LOC)\n* [dao](word-dao) (from.LOC)\n\n[65](phrase-65)\n\n# Causality\n\n* [esi](word-esi) (in order to)\n* [eyu](word-eyu) (if)\n* [ibu](word-ibu) (for)\n* [eja](word-eja) (plausibility)\n\n[66](phrase-66)\n\n# Similarity\n\n* [si](word-si) (as if)\n\n# Composability\n\n* [lom](word-lom) (made of)\n* [ru](word-ru) (become)\n\n# Articulation\n\n* [shu](word-shu) (and)\n* [uma](word-uma) (or)\n\n",
+      "fulltext": "prep \n# Prepositions\n\nI am not 100% sure all these are technically prepositions but they are \"the small\nconnecting words in a phrase\".\n\n# Time\n\n* [lau](word-lau) (always)\n* [ul](word-ul) (until)\n* [uya](word-uya) (since)\n* [dem](word-dem) (when.PST)\n* [dir](word-dir) (when.FUT)\n* [lei](word-lei) (then)\n\n[61](phrase-61)\n\n# Nouns\n\n* [di](word-di) (who)\n* [dim](word-dim) (whom)\n* [eku](word-eku) (that)\n* [fu](word-fu) (by*)\n* [ko](word-ko) (with)\n* [es](word-es) (self)\n* [ni](word-ni) (to*)\n\n* [fu](word-fu) and [ni](word-ni) are prefix that modify the noun to `ERG`\nand `DAT` cases respectively. Think of [fuJane](alt-fuJane) as meaning \"does Jane\".\n\nSee word order for more on cases: [order](card-order)\n\n#### nsfw\n\n* [62](phrase-62)\n* [63](phrase-63)\n* [64](phrase-64)\n\n# Location\n\n* [don](word-don) (where body)\n* [dona](word-dona) (where place)\n* [ha](word-ha) (up)\n* [jo](word-jo) (down)\n* [ro](word-ro) (in)\n* [ri](word-ri) (out)\n* [fe](word-fe) (on/covering)\n* [dau](word-dau) (to.LOC)\n* [dao](word-dao) (from.LOC)\n\n[65](phrase-65)\n\n# Causality\n\n* [esi](word-esi) (in order to)\n* [eyu](word-eyu) (if)\n* [ibu](word-ibu) (for)\n* [eja](word-eja) (plausibility)\n\n[66](phrase-66)\n\n# Similarity\n\n* [si](word-si) (as if)\n\n# Composability\n\n* [lom](word-lom) (made of)\n* [ru](word-ru) (become)\n\n# Articulation\n\n* [shu](word-shu) (and)\n* [uma](word-uma) (or)\n\n",
       "writ": "pరేp",
       "phon": "/prɛp/",
       "glo": "**undefined**"
@@ -9650,8 +9723,8 @@
       "id": "card-pronouns",
       "type": "card",
       "lang": "All pronouns",
-      "desc": "\n## Daytime pronouns\n\nIn case you haven't noticed, there is some consistency with [verbs](card-verbs) and\n[det](card-det).\n\nWithout gender\n\n* [oda](word-oda) (I/we: 1SG.INDF = 1SI)\n* [ida](word-ida) (you: 2SG)\n* [lada](word-lada) (they: 3SG)\n* [shoda](word-shoda) (we: 1PL.PRS)\n* [shida](word-shida) (you: 2PL.PRS)\n* [shada](word-shada) (they: 3PL)\n\nWith gender\n\n* [ida](word-ida) (you enby)\n* [ida](word-ida) (you fem)\n* [ida](word-ida) (you masc)\n* [liwi](word-liwi) (they enby)\n* [lana](word-lana) (she)\n* [loto](word-loto) (he)\n\nRarer forms:\n\n* [odei](word-odei) (me Master)\n* [keda](word-keda) (you Master)\n* [piyida](word-piyida) (tiny me)\n* [yida](word-yida) (tiny you)\n* [ayida](word-ayida) (tiny them)\n* [loda](word-loda) (wet you)\n* [pida](word-pida) (me: 1SG)\n* [deda](word-deda) (us two)\n* [peda](word-peda) (some: 3PL.INDF)\n* [kada](word-kada) (all of us: 1PL.DEF)\n\n## Dream / intimate body\n\nThese are used for affection and kindness because they respect people's\nintimate dreams about themselves.\n\n* [oya](word-oya) (me/us.INDF)\n* [iya](word-iya) (you)\n* [laya](word-laya) (you)\n* [shoya](word-shoya) (us)\n* [shiya](word-shiya) (you PL)\n* [shaya](word-shaya) (them PL)\n\nRarer forms:\n\n* [yadei](word-yadei) (me Master)\n* [keya](word-keya) (you Master)\n* [piyiya](word-piyiya) (tiny me)\n* [yiya](word-yiya) (tiny you)\n* [ayiya](word-ayiya) (tiny them)\n* [loya](word-loya) (wet you)\n* [piya](word-piya) (me)\n* [deya](word-deya) (us two)\n* [peya](word-peya) (some)\n* [kaya](word-kaya) (all of us)\n\nYour next read: [nature](card-nature) (nature)\n",
-      "fulltext": "pronouns \n## Daytime pronouns\n\nIn case you haven't noticed, there is some consistency with [verbs](card-verbs) and\n[det](card-det).\n\nWithout gender\n\n* [oda](word-oda) (I/we: 1SG.INDF = 1SI)\n* [ida](word-ida) (you: 2SG)\n* [lada](word-lada) (they: 3SG)\n* [shoda](word-shoda) (we: 1PL.PRS)\n* [shida](word-shida) (you: 2PL.PRS)\n* [shada](word-shada) (they: 3PL)\n\nWith gender\n\n* [ida](word-ida) (you enby)\n* [ida](word-ida) (you fem)\n* [ida](word-ida) (you masc)\n* [liwi](word-liwi) (they enby)\n* [lana](word-lana) (she)\n* [loto](word-loto) (he)\n\nRarer forms:\n\n* [odei](word-odei) (me Master)\n* [keda](word-keda) (you Master)\n* [piyida](word-piyida) (tiny me)\n* [yida](word-yida) (tiny you)\n* [ayida](word-ayida) (tiny them)\n* [loda](word-loda) (wet you)\n* [pida](word-pida) (me: 1SG)\n* [deda](word-deda) (us two)\n* [peda](word-peda) (some: 3PL.INDF)\n* [kada](word-kada) (all of us: 1PL.DEF)\n\n## Dream / intimate body\n\nThese are used for affection and kindness because they respect people's\nintimate dreams about themselves.\n\n* [oya](word-oya) (me/us.INDF)\n* [iya](word-iya) (you)\n* [laya](word-laya) (you)\n* [shoya](word-shoya) (us)\n* [shiya](word-shiya) (you PL)\n* [shaya](word-shaya) (them PL)\n\nRarer forms:\n\n* [yadei](word-yadei) (me Master)\n* [keya](word-keya) (you Master)\n* [piyiya](word-piyiya) (tiny me)\n* [yiya](word-yiya) (tiny you)\n* [ayiya](word-ayiya) (tiny them)\n* [loya](word-loya) (wet you)\n* [piya](word-piya) (me)\n* [deya](word-deya) (us two)\n* [peya](word-peya) (some)\n* [kaya](word-kaya) (all of us)\n\nYour next read: [nature](card-nature) (nature)\n All pronouns",
+      "desc": "\n# Pronouns\n\n## Relative pronouns\n\n* [di](word-di) (who)\n* [dim](word-dim) (whom)\n\n## Daytime pronouns\n\nIn case you haven't noticed, there is some consistency with [verbs](card-verbs) and\n[det](card-det).\n\nWithout gender\n\n* [oda](word-oda) (I/we: 1SG.INDF = 1SI)\n* [ida](word-ida) (you: 2SG)\n* [lada](word-lada) (they: 3SG)\n* [shoda](word-shoda) (we: 1PL.PRS)\n* [shida](word-shida) (you: 2PL.PRS)\n* [shada](word-shada) (they: 3PL)\n\nWith gender\n\n* [ida](word-ida) (you enby)\n* [ida](word-ida) (you fem)\n* [ida](word-ida) (you masc)\n* [liwi](word-liwi) (they enby)\n* [lana](word-lana) (she)\n* [loto](word-loto) (he)\n\nRarer forms:\n\n* [odei](word-odei) (me Master)\n* [keda](word-keda) (you Master)\n* [piyida](word-piyida) (tiny me)\n* [yida](word-yida) (tiny you)\n* [ayida](word-ayida) (tiny them)\n* [loda](word-loda) (wet you)\n* [pida](word-pida) (me: 1SG)\n* [deda](word-deda) (us two)\n* [peda](word-peda) (some: 3PL.INDF)\n* [kada](word-kada) (all of us: 1PL.DEF)\n\n## Dream / intimate body\n\nThese are used for affection and kindness because they respect people's\nintimate dreams about themselves.\n\n* [oya](word-oya) (me/us.INDF)\n* [iya](word-iya) (you)\n* [laya](word-laya) (you)\n* [shoya](word-shoya) (us)\n* [shiya](word-shiya) (you PL)\n* [shaya](word-shaya) (them PL)\n\nRarer forms:\n\n* [yadei](word-yadei) (me Master)\n* [keya](word-keya) (you Master)\n* [piyiya](word-piyiya) (tiny me)\n* [yiya](word-yiya) (tiny you)\n* [ayiya](word-ayiya) (tiny them)\n* [loya](word-loya) (wet you)\n* [piya](word-piya) (me)\n* [deya](word-deya) (us two)\n* [peya](word-peya) (some)\n* [kaya](word-kaya) (all of us)\n\nYour next read: [nature](card-nature) (nature)\n",
+      "fulltext": "pronouns \n# Pronouns\n\n## Relative pronouns\n\n* [di](word-di) (who)\n* [dim](word-dim) (whom)\n\n## Daytime pronouns\n\nIn case you haven't noticed, there is some consistency with [verbs](card-verbs) and\n[det](card-det).\n\nWithout gender\n\n* [oda](word-oda) (I/we: 1SG.INDF = 1SI)\n* [ida](word-ida) (you: 2SG)\n* [lada](word-lada) (they: 3SG)\n* [shoda](word-shoda) (we: 1PL.PRS)\n* [shida](word-shida) (you: 2PL.PRS)\n* [shada](word-shada) (they: 3PL)\n\nWith gender\n\n* [ida](word-ida) (you enby)\n* [ida](word-ida) (you fem)\n* [ida](word-ida) (you masc)\n* [liwi](word-liwi) (they enby)\n* [lana](word-lana) (she)\n* [loto](word-loto) (he)\n\nRarer forms:\n\n* [odei](word-odei) (me Master)\n* [keda](word-keda) (you Master)\n* [piyida](word-piyida) (tiny me)\n* [yida](word-yida) (tiny you)\n* [ayida](word-ayida) (tiny them)\n* [loda](word-loda) (wet you)\n* [pida](word-pida) (me: 1SG)\n* [deda](word-deda) (us two)\n* [peda](word-peda) (some: 3PL.INDF)\n* [kada](word-kada) (all of us: 1PL.DEF)\n\n## Dream / intimate body\n\nThese are used for affection and kindness because they respect people's\nintimate dreams about themselves.\n\n* [oya](word-oya) (me/us.INDF)\n* [iya](word-iya) (you)\n* [laya](word-laya) (you)\n* [shoya](word-shoya) (us)\n* [shiya](word-shiya) (you PL)\n* [shaya](word-shaya) (them PL)\n\nRarer forms:\n\n* [yadei](word-yadei) (me Master)\n* [keya](word-keya) (you Master)\n* [piyiya](word-piyiya) (tiny me)\n* [yiya](word-yiya) (tiny you)\n* [ayiya](word-ayiya) (tiny them)\n* [loya](word-loya) (wet you)\n* [piya](word-piya) (me)\n* [deya](word-deya) (us two)\n* [peya](word-peya) (some)\n* [kaya](word-kaya) (all of us)\n\nYour next read: [nature](card-nature) (nature)\n All pronouns",
       "writ": "pరోనోఉnస్‌",
       "phon": "/prɔnɔuns/",
       "glo": "**All pronouns**"
@@ -9694,8 +9767,8 @@
       "type": "card",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Mother_Goddess%2C_Madhya_Pradesh_or_Rajasthan%2C_India%2C_6th_-_7th_cents.%2C_National_Museum_of_Korea%2C_Seoul_%2840236606165%29.jpg/330px-Mother_Goddess%2C_Madhya_Pradesh_or_Rajasthan%2C_India%2C_6th_-_7th_cents.%2C_National_Museum_of_Korea%2C_Seoul_%2840236606165%29.jpg",
       "imgpos": "30%",
-      "desc": "\n# Goddesses and gods\n\n* [sona](word-sona)\n* [gahal](word-gahal)\n* [gusona](word-gusona)\n* [hurakan](word-hurakan)\n\n",
-      "fulltext": "gods \n# Goddesses and gods\n\n* [sona](word-sona)\n* [gahal](word-gahal)\n* [gusona](word-gusona)\n* [hurakan](word-hurakan)\n\n",
+      "desc": "\n# Goddesses and gods\n\n* [sona](word-sona)\n* [gahal](word-gahal)\n* [gusona](word-gusona)\n* [hurakan](word-hurakan)\n\n## Devotion [baka](word-baka)\n\nKeoda has incorporated the Hindu notion of Bhakti and the Mahavidya. Here are the ten aspects of the Mother Goddess Parvati:\n\n* [gusona](word-gusona) (Kali/time)\n* [gisona](word-gisona) (Tara/compassion)\n* [gisona](word-gisona) (Lalita/Sati/all of life)\n",
+      "fulltext": "gods \n# Goddesses and gods\n\n* [sona](word-sona)\n* [gahal](word-gahal)\n* [gusona](word-gusona)\n* [hurakan](word-hurakan)\n\n## Devotion [baka](word-baka)\n\nKeoda has incorporated the Hindu notion of Bhakti and the Mahavidya. Here are the ten aspects of the Mother Goddess Parvati:\n\n* [gusona](word-gusona) (Kali/time)\n* [gisona](word-gisona) (Tara/compassion)\n* [gisona](word-gisona) (Lalita/Sati/all of life)\n",
       "writ": "గోdస్‌",
       "phon": "/gɔds/",
       "glo": "**undefined**"
@@ -9716,8 +9789,8 @@
       "id": "card-sapho",
       "type": "card",
       "lang": "",
-      "desc": "\n# Sapho\n\n *(630-580 A.D)*\n\n## Poem from her youth:\n\n[95](phrase-95)\n\n[96](phrase-96)\n\n[97](phrase-97)\n\n *(trad. Françoise Chandernagor)*\n\n---\n\nIl me parraît égal aux dieux,  \nL'homme qui te regarde  \nSans craindre ton sourire et tes yeux et ta voix.  \nMoi, sitôt que je vois ton visage,  \nMon cœur bat sur mes lèvres  \nEt ma gorge s'étrangle.  \nLa chaleur et le froid tour à tour m'envahissent,  \nMes oreilles deviennent sourdes  \nEt mes yeux sont aveugles.  \nMon corps ruisselle de sueur,  \nJe tremble (...)  \nEt je sens que je meurs.  \n\n*(trad. Ernest Falconnet, revue par Françoise Chandernagor)*\n\n---\n",
-      "fulltext": "sapho \n# Sapho\n\n *(630-580 A.D)*\n\n## Poem from her youth:\n\n[95](phrase-95)\n\n[96](phrase-96)\n\n[97](phrase-97)\n\n *(trad. Françoise Chandernagor)*\n\n---\n\nIl me parraît égal aux dieux,  \nL'homme qui te regarde  \nSans craindre ton sourire et tes yeux et ta voix.  \nMoi, sitôt que je vois ton visage,  \nMon cœur bat sur mes lèvres  \nEt ma gorge s'étrangle.  \nLa chaleur et le froid tour à tour m'envahissent,  \nMes oreilles deviennent sourdes  \nEt mes yeux sont aveugles.  \nMon corps ruisselle de sueur,  \nJe tremble (...)  \nEt je sens que je meurs.  \n\n*(trad. Ernest Falconnet, revue par Françoise Chandernagor)*\n\n---\n",
+      "desc": "\n# Sapho\n\n *(630-580 A.D)*\n\n[95](phrase-95)\n\n## Poem from her youth:\n\n[96](phrase-96)\n\n[97](phrase-97)\n\n[98](phrase-98)\n\n *(trad. Françoise Chandernagor)*\n\n---\n\nIl me parraît égal aux dieux,  \nL'homme qui te regarde  \nSans craindre ton sourire et tes yeux et ta voix.  \nMoi, sitôt que je vois ton visage,  \nMon cœur bat sur mes lèvres  \nEt ma gorge s'étrangle.  \nLa chaleur et le froid tour à tour m'envahissent,  \nMes oreilles deviennent sourdes  \nEt mes yeux sont aveugles.  \nMon corps ruisselle de sueur,  \nJe tremble (...)  \nEt je sens que je meurs.  \n\n*(trad. Ernest Falconnet, revue par Françoise Chandernagor)*\n\n---\n",
+      "fulltext": "sapho \n# Sapho\n\n *(630-580 A.D)*\n\n[95](phrase-95)\n\n## Poem from her youth:\n\n[96](phrase-96)\n\n[97](phrase-97)\n\n[98](phrase-98)\n\n *(trad. Françoise Chandernagor)*\n\n---\n\nIl me parraît égal aux dieux,  \nL'homme qui te regarde  \nSans craindre ton sourire et tes yeux et ta voix.  \nMoi, sitôt que je vois ton visage,  \nMon cœur bat sur mes lèvres  \nEt ma gorge s'étrangle.  \nLa chaleur et le froid tour à tour m'envahissent,  \nMes oreilles deviennent sourdes  \nEt mes yeux sont aveugles.  \nMon corps ruisselle de sueur,  \nJe tremble (...)  \nEt je sens que je meurs.  \n\n*(trad. Ernest Falconnet, revue par Françoise Chandernagor)*\n\n---\n",
       "writ": "సాpహో",
       "phon": "/saphɔ/",
       "glo": "****"
@@ -11494,6 +11567,26 @@
       "name": "95",
       "id": "phrase-95",
       "type": "phrase",
+      "trad": "Il y aura quelqu'un, un jour, pour se souvenir de nous.",
+      "words": [
+        "alt-esahelir",
+        "word-oda",
+        "word-pe",
+        "word-yo"
+      ],
+      "see": [
+        "card-sapho"
+      ],
+      "fulltext": "95 sapho esahelir oda pe yo",
+      "writ": "౯౫",
+      "phon": "/95/",
+      "glo": "**undefined**",
+      "phrase": "esahelir oda pe yo"
+    },
+    "phrase-96": {
+      "name": "96",
+      "id": "phrase-96",
+      "type": "phrase",
       "trad": "L'amour hélas, a dévasté mon âme ",
       "words": [
         "word-zunes",
@@ -11505,15 +11598,15 @@
       "see": [
         "card-sapho"
       ],
-      "fulltext": "95 sapho zunes wa leiruo agoweiselem gatoam",
-      "writ": "౯౫",
-      "phon": "/95/",
+      "fulltext": "96 sapho zunes wa leiruo agoweiselem gatoam",
+      "writ": "౯౬",
+      "phon": "/96/",
       "glo": "**undefined**",
       "phrase": "zunes wa leiruo agoweiselem gatoam"
     },
-    "phrase-96": {
-      "name": "96",
-      "id": "phrase-96",
+    "phrase-97": {
+      "name": "97",
+      "id": "phrase-97",
       "type": "phrase",
       "trad": "Comme l'ouragan des montagnes",
       "words": [
@@ -11525,15 +11618,15 @@
       "see": [
         "card-sapho"
       ],
-      "fulltext": "96 sapho si hurakan dao gosoa",
-      "writ": "౯౬",
-      "phon": "/96/",
+      "fulltext": "97 sapho si hurakan dao gosoa",
+      "writ": "౯౭",
+      "phon": "/97/",
       "glo": "**undefined**",
       "phrase": "si hurakan dao gosoa"
     },
-    "phrase-97": {
-      "name": "97",
-      "id": "phrase-97",
+    "phrase-98": {
+      "name": "98",
+      "id": "phrase-98",
       "type": "phrase",
       "trad": "S'abat sur les jeunes chênes.",
       "words": [
@@ -11544,9 +11637,9 @@
       "see": [
         "card-sapho"
       ],
-      "fulltext": "97 sapho hafo fe okanayiam",
-      "writ": "౯౭",
-      "phon": "/97/",
+      "fulltext": "98 sapho hafo fe okanayiam",
+      "writ": "౯౮",
+      "phon": "/98/",
       "glo": "**undefined**",
       "phrase": "hafo fe okanayiam"
     }
@@ -12338,6 +12431,16 @@
       "writ": "ఓఠేస్‌కేలిలిర్‌",
       "phon": "/ɔhɛskɛlilir/"
     },
+    "alt-esahelir": {
+      "name": "esahelir",
+      "id": "alt-esahelir",
+      "type": "alt",
+      "glo": "INTR.3SG.**be**.FUT",
+      "alt": "word-e",
+      "fulltext": "esahelir",
+      "writ": "ఎసాఠేలిర్‌",
+      "phon": "/ɛsahɛlir/"
+    },
     "alt-sholiu": {
       "name": "sholiu",
       "id": "alt-sholiu",
@@ -12792,6 +12895,16 @@
       "fulltext": "kali",
       "writ": "కాలి",
       "phon": "/kali/"
+    },
+    "alt-bakati": {
+      "name": "bakati",
+      "id": "alt-bakati",
+      "type": "alt",
+      "glo": "**devotion**.POSS.2SG",
+      "alt": "word-baka",
+      "fulltext": "bakati",
+      "writ": "బాకాతి",
+      "phon": "/bakati/"
     }
   }
 }
