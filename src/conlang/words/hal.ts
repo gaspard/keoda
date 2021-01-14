@@ -9,5 +9,4 @@ export const mahal = _.word('mahal', {
   noun: 'divine action',
   adj: 'miraculous',
   etym: () => [_.ma, _.hal],
-  exam: () => [_.phraseX('Miraculous penis', _.taj, _.mahal)],
 })
