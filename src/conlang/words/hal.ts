@@ -1,10 +1,13 @@
 import * as _ from '.'
 
 export const hal = _.word('hal', {
-  adj: 'vers le ciel, immense',
+  adj: 'huge',
+  adv: 'to the sky',
 })
 
 export const mahal = _.word('mahal', {
-  noun: 'main immense, action divine',
-  adj: 'miraculeuse.x',
+  noun: 'divine action',
+  adj: 'miraculous',
+  etym: () => [_.ma, _.hal],
+  exam: () => [_.phraseX('Miraculous penis', _.taj, _.mahal)],
 })
