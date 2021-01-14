@@ -14,6 +14,10 @@ lyrism. I encourage you to check the full article.
 As with everything in life, overarching explanations hurt. Use these ideas to put life in your dreams, not stockpile
 them in a jar.
 
+Work in progress...
+`,
+})
+/*
 # Departure
 
 ## 1. The Call to Adventure
@@ -157,3 +161,4 @@ In this step, mastery leads to freedom from the fear of death, which in turn is 
 The hero is the champion of things becoming, not of things become, because he is. "Before Abraham was, I AM." He does not mistake apparent changelessness in time for the permanence of Being, nor is he fearful of the next moment (or of the "other thing"), as destroying the permanent with its change. [Quoting Ovid's Metamorphoses:] "Nothing retains its own form; but Nature, the greater renewer, ever makes up forms from forms. Be sure that nothing perishes in the whole universe; it does but vary and renew its form." Thus the next moment is permitted to come to pass.[38]
 `,
 })
+*/

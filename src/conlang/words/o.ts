@@ -3,7 +3,7 @@ import * as _ from '.'
 export const o = _.word('o', {
   suffix: 'hit, hurt',
   conj: 'I/we (1SG.INDF = 1SI)',
-  glo: 'ABL',
+  glo: 'PUSH (ABL)',
   see: () => [_.to, _.verbs],
 })
 
@@ -12,8 +12,8 @@ export const hafo = _.word('hafo', {
   etym: () => [_.ha, _.fo],
 })
 
-export const demoneoda = _.example(
-  [_.dem, _.o, _.neoda],
+export const dironeoda = _.example(
+  [_.dir, _.o, _.neoda],
   'Quand je serai mort.e...'
 )
 

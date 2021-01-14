@@ -21,12 +21,16 @@ function compileWord(word: Entry): CompiledEntry {
   // So that phrases created during compilation register
   // their origin.
   PHRASE_ORIG.entry = word
-
   const compiled = Object.assign({}, word, {
     fulltext: '',
-    writ: word.writ || write(word.name),
-    phon: word.phon || phon(word.name),
+    writ: word.writ === undefined ? write(word.name) : word.writ,
+    phon: word.phon === undefined ? phon(word.name) : word.phon,
   }) as CompiledEntry
+  delete (compiled as Entry).exam
+  if (word.exam) {
+    // This runs the phrase production
+    word.exam()
+  }
   const fulltext: string[] = [word.name]
   if (!compiled.glo) {
     // default value to show on gloss
@@ -79,21 +83,7 @@ function compileWord(word: Entry): CompiledEntry {
   return compiled
 }
 
-function registerPhrases() {
-  Object.values(entries.phrase).forEach(p => {
-    p.see!().forEach(w => {
-      const orig = w.alt ? w.alt() : w
-      let { phrases } = orig
-      if (!phrases) {
-        phrases = orig.phrases = []
-      }
-      phrases.push(p.id)
-    })
-  })
-}
-
 export function exportJSON(db: EntriesByType) {
-  registerPhrases()
   const compiled: CompiledEntriesByType = {
     word: {},
     card: {},

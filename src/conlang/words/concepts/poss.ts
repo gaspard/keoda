@@ -1,8 +1,10 @@
 import * as _ from '..'
 
-export const poss = _.card('det', {
-  lang: 'Possessive',
+export const poss = _.card('poss', {
+  writ: 'poss',
   desc: () => `
+# Possessivity
+
 Here are the different affix to express possessivity. They can all be
 used as prefix or suffix depending on context and what sounds best.
 

@@ -21,3 +21,8 @@ export const ihe = _.alt('ihe', {
   glo: '2SG.**be**',
   alt: () => _.e,
 })
+
+export const ohelem = _.alt('ohelem', {
+  glo: '1SI.**be**.PST',
+  alt: () => _.e,
+})

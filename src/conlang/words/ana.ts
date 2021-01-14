@@ -83,3 +83,8 @@ export const okanayiam = _.alt('okanayiam', {
   glo: '**oak**.*young*.ACC',
   alt: () => _.yile,
 })
+
+export const anayiam = _.alt('anayiam', {
+  glo: '**feminine**.DIM.ACC',
+  alt: () => _.ana,
+})

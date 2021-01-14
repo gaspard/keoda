@@ -22,6 +22,7 @@ export const gulir = _.word('gulir', {
 export const lemegu = _.word('lemegu', {
   verb: 'to remember',
   etym: () => [_.leme, _.gu],
+  see: () => [_.dafodil],
 })
 
 export const guna = _.word('guna', {
@@ -98,4 +99,14 @@ export const irugui = _.alt('irugui', {
 export const alemegu = _.alt('alemegu', {
   glo: '3SG.**remember**',
   alt: () => _.lemegu,
+})
+
+export const guitonam = _.alt('guitonam', {
+  glo: '**life**.POSS.1SI.ACC',
+  alt: () => _.gui,
+})
+
+export const oguwulem = _.alt('oguwulem', {
+  glo: '1SI.**give**.PST',
+  alt: () => _.guwu,
 })

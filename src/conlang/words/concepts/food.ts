@@ -1,8 +1,9 @@
 import * as _ from '..'
 
 export const food = _.card('food', {
-  lang: 'Food',
+  writ: 'food',
   desc: () => `
+# Food
 
 See also ${_.fruits}.
 
@@ -16,7 +17,7 @@ See also ${_.fruits}.
 * ${_.palajil} (apricot) 
 * ${_.pantame} (tomato) 
 * ${_.wiyon} (prune) 
-* ${_.gopona} (squash) 
+* ${_.gopona} (pumpkin) 
 * ${_.pona} (orange) 
 * ${_.ponale} (tangerine) 
 

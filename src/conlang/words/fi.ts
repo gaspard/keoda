@@ -20,3 +20,10 @@ export const gufi = _.word('gufi', {
   noun: 'thread of life',
   etym: () => [_.gu, _.fi],
 })
+
+// === alt
+
+export const gufitinam = _.alt('gufitinam', {
+  glo: '**thread of life**.POSS.2SG',
+  alt: () => _.gufi,
+})

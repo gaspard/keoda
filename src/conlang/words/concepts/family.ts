@@ -1,8 +1,9 @@
 import * as _ from '..'
 
 export const family = _.card('family', {
-  lang: 'Parents and siblings',
+  writ: 'family',
   desc: () => `
+# Parents and siblings
 
 To understand family, you need to have a 3D view of space in the language.
 Imagine that you are looking forward. You have the spatial directions as
@@ -66,8 +67,8 @@ younger or elderly):
 And of course, you can be creative in the same way genders
 can blend:
 
-* ${_.phrase('daughter-boy', _.jonato)}
-* ${_.phrase('enby child-girl', _.jowina)}
+* ${_.phrase('girl-boy child', _.jonato)}
+* ${_.phrase('enby-girl child', _.jowina)}
 * etc
 
 `,

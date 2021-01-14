@@ -1,7 +1,8 @@
 import * as _ from '.'
 
-export const eri = _.word('dim', {
+export const eri = _.word('eri', {
   adj: 'cherry (color)',
+  glo: '**cherry** (color)',
   see: () => [_.colors],
 })
 

@@ -41,6 +41,10 @@ export function phrase(trad: string, ...args: Entry[]) {
   return makePhrase({ trad, words: () => args })
 }
 
+export function phraseX(trad: string, ...args: Entry[]) {
+  return makePhrase({ trad, nsfw: true, words: () => args })
+}
+
 export function ophrase(trad: string, ...args: Entry[]) {
   return makePhrase({ trad, words: () => args, open: true })
 }
@@ -57,7 +61,9 @@ function makePhrase(definition: EntryDefinition) {
     if (!phrases) {
       phrases = orig.phrases = []
     }
-    phrases.push(p.id)
+    if (!phrases.includes(p.id)) {
+      phrases.push(p.id)
+    }
   })
   return p
 }

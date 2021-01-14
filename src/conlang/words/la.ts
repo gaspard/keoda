@@ -20,6 +20,7 @@ export const kelasa = _.word('kelasa', {
 })
 
 export const lapa = _.word('lapa', {
+  noun: 'voice',
   verb: 'to talk',
   etym: () => [_.la, _.pa],
 })
@@ -88,4 +89,9 @@ export const lanaguam = _.alt('lanaguam', {
 export const lam = _.alt('lam', {
   glo: '**lips**.ACC',
   alt: () => _.la,
+})
+
+export const lapatonam = _.alt('lapatonam', {
+  glo: '**voice**.POSS.1SI.ACC',
+  alt: () => _.lapa,
 })

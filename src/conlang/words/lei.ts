@@ -3,14 +3,17 @@ import * as _ from '.'
 export const lei = _.word('lei', {
   noun: 'time',
   prep: 'then',
+  prefix: 'time',
 })
-_.see(_.lem)
-_.see(_.lir)
+
+export const leu = _.word('leu', {
+  prep: 'while, as',
+  etym: () => [_.lei, _.u],
+})
 
 export const gulei = _.word('gulei', {
   noun: "le temps de l'expérience",
 })
-_.see(_.guda)
 
 export const elei = _.word('elei', {
   prep: 'toujours (pas usité, on utilise lau)',

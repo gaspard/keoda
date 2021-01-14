@@ -4,16 +4,31 @@ export const em = _.word('em', {
   suffix: 'lived',
   verb: 'to live',
 })
-_.see(_.leirumi)
 
 export const nem = _.word('nem', {
-  verb: 'to die',
+  noun: 'death',
+  verb: 'to die, to make dead',
   etym: () => [_.ne, _.em],
 })
-_.see(_.dem)
 
 // ============== alt
 export const ohemleme = _.alt('ohemleme', {
   glo: '1SI.**live**.PST.EVNT',
   alt: () => _.em,
+})
+
+export const ihem = _.alt('ihem', {
+  glo: '2SG.**live**',
+  alt: () => _.em,
+})
+
+export const nemetonam = _.alt('nemetonam', {
+  glo: '**death**.POSS.1SI.ACC',
+  alt: () => _.nem,
+})
+
+// More in the sense "made dead"
+export const esonem = _.alt('esonem', {
+  glo: 'INTR.1SI.**die**',
+  alt: () => _.nem,
 })

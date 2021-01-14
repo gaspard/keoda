@@ -1,6 +1,7 @@
 import * as _ from '..'
 
 export const plants = _.card('plants', {
+  writ: 'plants',
   desc: () => `
 # Plants
 

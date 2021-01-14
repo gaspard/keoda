@@ -1,8 +1,9 @@
 import * as _ from '..'
 
 export const seasons = _.card('seasons', {
-  lang: 'Seasons',
+  writ: 'seasons',
   desc: () => `
+# Seasons
 
 Seasons take the name of things that grow at that part of the 
 year. If the language is ever used in other regions, the words

@@ -1,11 +1,10 @@
 import * as _ from '..'
 
 export const phon = _.card('phon', {
-  lang: 'Phonology',
-  writ: 'చోఁ',
+  writ: 'phon',
   phon: '/fɔn/',
   desc: () => `
-## Writing system
+## Phonology and script
 
 ![lepakshi](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Lepakshi...jpg/330px-Lepakshi...jpg)
 

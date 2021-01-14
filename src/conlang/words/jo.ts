@@ -29,19 +29,19 @@ export const joda = _.word('joda', {
 })
 
 export const jona = _.word('jona', {
-  noun: 'daughter',
+  noun: 'girl (child)',
   etym: () => [_.jo, _.ana],
   see: () => [_.family],
 })
 
 export const jowi = _.word('jowi', {
-  noun: 'enby child',
+  noun: 'enby (child)',
   etym: () => [_.jo, _.iwi],
   see: () => [_.family],
 })
 
 export const joto = _.word('joto', {
-  noun: 'son',
+  noun: 'boy (child)',
   etym: () => [_.jo, _.oto],
   see: () => [_.family],
 })
@@ -49,11 +49,21 @@ export const joto = _.word('joto', {
 // ==== alt
 
 export const jonato = _.alt('jonato', {
-  glo: '**daughter**.boy',
+  glo: '**girl**.boy',
   alt: () => _.jona,
 })
 
 export const jowina = _.alt('jowina', {
   glo: '**enby child**.girl',
   alt: () => _.jowi,
+})
+
+export const ahajolemo = _.alt('ahajolemo', {
+  glo: '3SG.**take**.PST.DST',
+  alt: () => _.hajo,
+})
+
+export const jonam = _.alt('jonam', {
+  glo: '**daughter**.ACC',
+  alt: () => _.jona,
 })

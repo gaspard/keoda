@@ -8,9 +8,8 @@ export const lame = _.word('lame', {
 
 export const falame = _.word('falame', {
   noun: 'tears',
+  etym: () => [_.fa, _.lame],
 })
-_.see(_.ausifalamau)
-_.see(_.falo)
 
 export const lama = _.word('lama', {
   noun: 'sea',
@@ -40,4 +39,11 @@ export const lamoa = _.word('lamoa', {
 
 export const lamu = _.word('lamu', {
   verb: 'to drink',
+})
+
+// === alt
+
+export const lameN = _.alt('lame', {
+  glo: '**water**',
+  alt: () => _.lame,
 })

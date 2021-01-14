@@ -1,8 +1,10 @@
 import * as _ from '..'
 
 export const genders = _.card('genders', {
-  adj: 'genders',
+  writ: 'genders',
   desc: () => `
+# Genders
+
 Keoda does not have mandatory gender for conjugation or pronouns but the notion still exists as the following adjectives:
 
 * ${_.ana} (tree / feminine)

@@ -1,10 +1,10 @@
 import * as _ from '.'
 
 export const eshu = _.word('eshu', {
-  adj: 'perdu',
+  adj: 'lost',
 })
 
 export const eshubeo = _.word('eshubeo', {
-  noun: 'monstre',
+  noun: 'monster',
 })
 _.see(_.beo)

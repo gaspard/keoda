@@ -6,5 +6,5 @@ export const dili = _.word('dili', {
 
 export const pedili = _.word('pedili', {
   noun: 'fork',
-  etym: () => [_.pe, _.dili],
+  etym: () => [_.pe3, _.dili],
 })

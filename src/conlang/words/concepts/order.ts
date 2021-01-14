@@ -44,6 +44,7 @@ export const niJohn = _.alt('niJohn', {
 
 export const order = _.card('order', {
   open: true,
+  writ: 'order',
   desc: () => `
 Word order evolved to be nearly free so that we can put emphasis and
 expectation on any part of the phrase, helping identify the [theme](https://en.wikipedia.org/wiki/Topic_and_comment) and the

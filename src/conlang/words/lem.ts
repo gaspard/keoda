@@ -8,20 +8,9 @@ export const lem = _.word('lem', {
 _.see(_.lir)
 _.see(_.lei)
 
-export const lemir = _.word('lemir', {
-  noun: 'eternity',
-  suffix: 'always',
-  etym: () => [_.lem, _.lir],
-})
-
 export const elem = _.word('elem', {
   noun: 'in the past',
   etym: () => [_.e, _.lem],
-})
-
-export const elemir = _.word('elemir', {
-  noun: 'in all eternity',
-  etym: () => [_.e, _.lemir],
 })
 
 export const lemana = _.word('lemana', {
@@ -30,8 +19,3 @@ export const lemana = _.word('lemana', {
 })
 
 // === alt
-
-export const lemiram = _.alt('lemiram', {
-  glo: '**eternity**.ACC',
-  alt: () => _.lemir,
-})

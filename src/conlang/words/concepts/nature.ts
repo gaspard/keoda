@@ -1,8 +1,9 @@
 import * as _ from '..'
 
 export const nature = _.card('nature', {
-  lang: 'Nature',
+  writ: 'nature',
   desc: () => `
+# Nature
 
 * ${_.lamagoa} (ocean)
 * ${_.oto} (wind)

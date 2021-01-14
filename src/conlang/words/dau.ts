@@ -6,3 +6,8 @@ export const dau = _.word('dau', {
   etym: () => [_.da, _.u],
   see: () => [_.odo, _.dao, _.prep],
 })
+
+export const hadau = _.word('hadau', {
+  noun: 'far away',
+  etym: () => [_.ha, _.dau],
+})

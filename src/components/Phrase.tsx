@@ -1,4 +1,5 @@
 import * as React from 'react'
+import classnames from 'classnames'
 import { Comp, styled, useOvermind } from '../app'
 import { getEntry } from '../helpers/getEntry'
 import { List } from './List'
@@ -9,7 +10,7 @@ export interface PhraseProps {
   id: string
 }
 
-const Wrapper = styled.div`
+const PhraseWrap = styled.div`
   position: relative;
   top: -3px;
   display: inline-flex;
@@ -20,6 +21,16 @@ const Wrapper = styled.div`
   &:hover .Trad:not(.fix) {
     opacity: 0;
     visibility: hidden;
+  }
+  &.nsfw {
+    background: #ffa50063;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: -10px;
+  }
+  &.nsfw .Trad:not(.fix) {
+    top: -26px;
+    left: 33px;
   }
 `
 
@@ -65,7 +76,7 @@ export const Info = styled.div`
   }
 `
 
-const GWrap = styled.div`
+export const GWrap = styled.div`
   display: flex;
   flex-direction: column;
   font-weight: normal;
@@ -79,19 +90,37 @@ export const Phrase: Comp<PhraseProps> = ({ className, type, id }) => {
   if (!phrase) {
     return null
   }
+  if (phrase.nsfw) {
+    if (!ctx.state.keoda.nsfw) {
+      return null
+    }
+  }
+
+  function phraseClick(e: React.MouseEvent) {
+    e.preventDefault()
+    e.stopPropagation()
+    if (phrase?.open || e.ctrlKey || e.metaKey) {
+      ctx.actions.keoda.copyPhrase({ id })
+    } else {
+      setOpen(!open)
+    }
+  }
+
   if ((phrase.open && type === 'md') || type === 'md-open') {
     return (
-      <Wrapper className={className}>
+      <PhraseWrap className={classnames(className, { nsfw: phrase.nsfw })}>
         <GWrap>
-          <Trad className="Trad fix">{phrase.trad}</Trad>
+          <Trad onClick={phraseClick} className={`Trad fix`}>
+            {phrase.trad}
+          </Trad>
           <List type={type} entries={phrase.words!} glo />
         </GWrap>
-      </Wrapper>
+      </PhraseWrap>
     )
   } else {
     return (
-      <Wrapper className={className}>
-        <Info onClick={() => setOpen(!open)} className={open ? 'open' : ''}>
+      <PhraseWrap className={classnames(className, { nsfw: phrase.nsfw })}>
+        <Info onClick={phraseClick} className={open ? 'open' : ''}>
           ℹ️
         </Info>
         {open ? (
@@ -102,7 +131,7 @@ export const Phrase: Comp<PhraseProps> = ({ className, type, id }) => {
         ) : (
           <List type={type} entries={phrase.words!} glo={open} />
         )}
-      </Wrapper>
+      </PhraseWrap>
     )
   }
 }

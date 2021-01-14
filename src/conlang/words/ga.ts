@@ -40,39 +40,42 @@ export const gauma = _.example(
 )
 
 export const kegai = _.word('kegai', {
-  noun: 'dieu',
-  desc: () => `caché dans l'esprit caressé`,
+  noun: 'god',
+  etym: () => [_.ke, _.gai],
+  see: () => [_.gau],
 })
 
 export const gau = _.word('gau', {
-  noun: 'attention (esprit tiré)',
+  noun: 'attention',
   etym: () => [_.gau, _.u],
-})
-_.see(_.gai)
-
-export const gao = _.word('gao', {
-  noun: 'attention (esprit projeté)',
-  etym: () => [_.ga, _.o],
+  see: () => [_.gai],
 })
 
 export const kuga = _.word('kuga', {
-  noun: "la pensée causale, l'esprit de victime",
+  noun: 'causal thinking, victimhood',
   etym: () => [_.ku, _.ga],
 })
 
 export const nega = _.word('nega', {
-  noun: 'fou (sans esprit)',
-  glo: 'fou',
-  adv: 'de manière folle',
+  noun: 'crazy',
+  glo: 'crazy',
+  adv: 'crazily',
   etym: () => [_.ne, _.ga],
 })
 
-export const nega_adv = _.alt('nega', {
-  glo: '*fou*.ADV',
+// === alt
+
+export const negaADV = _.alt('nega', {
+  glo: '*crazy*.ADV',
   alt: () => _.nega,
 })
 
-export const gatoam = _.alt('gatoam', {
+export const gatonam = _.alt('gatonam', {
   glo: '**spirit**.POSS.1SI.ACC',
+  alt: () => _.ga,
+})
+
+export const gogam = _.alt('gogam', {
+  glo: '*big*.**spirit**.ACC',
   alt: () => _.ga,
 })

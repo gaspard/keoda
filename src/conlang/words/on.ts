@@ -21,5 +21,3 @@ export const yohon = _.word('yohon', {
   noun: 'dawn',
   etym: () => [_.yo, _.on],
 })
-
-_.see(_.onsho)

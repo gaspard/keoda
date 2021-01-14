@@ -1,16 +1,23 @@
 import * as _ from '.'
 
 export const me = _.word('me', {
-  verb: 'être en mouvement',
-  prefix: 'bouger dans',
+  verb: 'to move',
+  prefix: 'to move into',
 })
 
 export const meshe = _.word('meshe', {
-  verb: 'voler',
+  verb: 'to fly',
   etym: () => [_.me, _.she],
 })
 
 export const melam = _.word('melam', {
-  verb: 'nager',
+  verb: 'to swim',
   etym: () => [_.me, _.lame],
+})
+
+// === alt
+
+export const piyimeshe = _.alt('piyimeshe', {
+  glo: '1SG.DIM.**fly**',
+  alt: () => _.meshe,
 })

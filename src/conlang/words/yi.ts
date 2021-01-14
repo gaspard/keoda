@@ -10,7 +10,7 @@ export const yi = _.word('yi', {
 
 export const yile = _.word('yile', {
   noun: 'young',
-  see: () => [_.yi, _.lei],
+  etym: () => [_.yi, _.lei],
 })
 
 export const yida = _.word('yida', {

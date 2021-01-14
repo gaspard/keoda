@@ -3,13 +3,14 @@ import { phon } from '../writing'
 
 export const uba = _.word('uba', {
   verb: 'run down',
-  desc: () => `
-${_.phrase(
-  'Tears are running down your face.',
-  _.falame,
-  _.ahuba,
-  _.feduhati
-)}`,
+  exam: () => [
+    _.phrase(
+      'Tears are running down your face.',
+      _.falame,
+      _.ahuba,
+      _.feduhati
+    ),
+  ],
 })
 
 // ===== alt

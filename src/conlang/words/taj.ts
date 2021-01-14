@@ -3,33 +3,40 @@ import * as _ from '.'
 export const taj = _.word('taj', {
   noun: 'penis',
   verb: 'penis action',
-  etym: () => [_.te, _.aj],
+  etym: () => [_.oto, _.aj],
+
+  exam: () => [_.phraseX('Miraculous penis', _.taj, _.mahal)],
 })
 
 export const tajin = _.word('tajin', {
-  noun: 'pénis chaud, en érection',
+  noun: 'erect penis',
   etym: () => [_.taj, _.in],
 })
 
 export const tajegi = _.word('tajegi', {
-  noun: 'pénis froid, au repos',
+  noun: 'penis at rest',
   etym: () => [_.taj, _.egi],
 })
-_.see(_.genitals)
-
-// TO BE REMOVED ?
-export const toda = _.word('toda', { noun: 'personne avec un pénis' })
 
 export const tajo = _.word('tajo', {
-  noun: 'frapper du pénis',
-  desc: () => `Basé sur ${_.taj} (pénis) et ${_.o} (frapper).`,
+  verb: 'to hit with a penis',
+  etym: () => [_.taj, _.o],
 })
 
 export const hataj = _.word('hataj', {
-  noun: 'gland',
-  desc: () => `De ${_.ha} (tête, partie supérieure) et ${_.taj} (pénis).`,
+  noun: 'glans',
+  etym: () => [_.ha, _.taj],
+  exam: () => [_.phraseX('Suck (my) glans.', _.li, _.hatajam)],
 })
 
-export const lihataj = _.example([_.li, _.ha, _.taj], 'Suce mon gland.')
+// === alt
 
-export const tajmahal = _.example([_.taj, _.mahal], 'Pénis miraculeux')
+export const tajam = _.alt('tajam', {
+  glo: '**penis**.ACC',
+  alt: () => _.taj,
+})
+
+export const hatajam = _.alt('hatajam', {
+  glo: '**glans**.ACC',
+  alt: () => _.hataj,
+})

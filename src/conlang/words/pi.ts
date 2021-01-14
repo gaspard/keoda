@@ -4,8 +4,9 @@ export const pi = _.word('pi', {
   conj: 'I (1SG)',
   adv: 'ici, origine',
   noun: '1, self',
+  glo: 'me',
   posit: 'debout',
-  desc: () => `Opposé de ${_.pa}.`,
+  see: () => [_.pa],
 })
 _.see(_.count)
 _.see(_.pio)
@@ -47,19 +48,15 @@ export const pienu = _.word('pienu', {
 })
 
 export const aupi = _.word('aupi', {
-  noun: `S'aimer soi-même, ici.`,
+  verb: `to love onself`,
+  glo: '**love**.self',
   etym: () => [_.au, _.pi],
 })
 
 export const gupi = _.word('gupi', {
-  noun: `intégrer le mouvement, ressentir, se laisser transformer`,
+  verb: 'to accept',
   etym: () => [_.gu, _.pi],
-})
-_.see(_.kupa)
-
-export const negupi = _.word('negupi', {
-  noun: "lutter contre l'expérience",
-  etym: () => [_.ne, _.gupi],
+  see: () => [_.nelo, _.kupa],
 })
 
 export const nepi = _.word('nepi', {

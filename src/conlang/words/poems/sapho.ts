@@ -1,7 +1,7 @@
 import * as _ from '..'
 
 export const sapho = _.card('sapho', {
-  lang: '',
+  writ: 'sapho',
   desc: () => `
 # Sapho
 
@@ -23,7 +23,7 @@ ${_.phrase(
   _.wa,
   _.leiruo,
   _.agoweiselem,
-  _.gatoam
+  _.gatonam
 )}
 
 ${_.phrase("Comme l'ouragan des montagnes", _.si, _.hurakan, _.dao, _.gosoa)}

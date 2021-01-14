@@ -18,7 +18,7 @@ export const correspondances = [
   [_.tu, _.yosa, _.a, _.fen, _.ro, _.jana, _.mei, _.lapana],
   // Qui l'observent avec des regards familiers.
   // *di ko gi shafa lae*
-  [_.di, _.ko, _.gi, _.sha, _.fa, _.lae],
+  [_.di, _.ko, _.gi, _.sha, _.fa, _.ladam],
   // Comme de longs échos qui de loin se confondent
   // *si agadeuki di hauya es shanelil*
   [_.si, _.agade, _.uki, _.di, _.ha, _.uya, _.es, _.sha, _.nele],

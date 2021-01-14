@@ -1,8 +1,9 @@
 import * as _ from '..'
 
 export const colors = _.card('colors', {
+  writ: 'colors',
   desc: () => `
-# Colors:
+# Colors
 
 * ${_.pan} (red)
 * ${_.eri} (cherry)

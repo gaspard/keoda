@@ -38,7 +38,9 @@ export interface EntryInfo {
 
 export interface FullEntry extends EntryInfo {
   name: string
+  nsfw?: boolean
   desc: () => string
+  exam: () => Entry[]
   etym: () => Entry[]
   see: () => Entry[]
   // For phrases
@@ -65,7 +67,6 @@ export const FULLTEXT_KEYS: (keyof EntryInfo)[] = [
 
 export const DEF_KEYS: (keyof CompiledEntry)[] = [
   ...FULLTEXT_KEYS,
-  'etym',
   'deriv',
   'see',
 ]
@@ -119,4 +120,5 @@ export interface CompiledEntry extends Partial<EntryInfo> {
   see?: string[]
   // for phrases
   words?: string[]
+  nsfw?: boolean
 }

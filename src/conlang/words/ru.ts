@@ -27,3 +27,25 @@ export const leiruo = _.word('leiruo', {
   adv: 'alas',
   etym: () => [_.leiru, _.o],
 })
+
+export const kuru = _.word('kuru', {
+  verb: 'to must',
+  etym: () => [_.ku, _.ru],
+})
+
+// === alt
+
+export const piyiru = _.alt('piyiru', {
+  glo: '1SG.DIM.**become**',
+  alt: () => _.ru,
+})
+
+export const okuru = _.alt('okuru', {
+  glo: '1SI.**must**',
+  alt: () => _.kuru,
+})
+
+export const iru = _.alt('iru', {
+  glo: '2SG.**become**',
+  alt: () => _.ru,
+})

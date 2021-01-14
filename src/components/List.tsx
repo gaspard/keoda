@@ -17,6 +17,15 @@ export const ListWrapper = styled.div`
   display: flex;
   align-self: flex-start;
   flex-direction: row;
+  &.phrase.etym.glo {
+    align-self: stretch;
+    border: none;
+    background: #d0cdc261;
+    margin: 0 0 5px;
+    padding: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #888;
+  }
   &.etym a {
     color: #222;
     font-weight: 500;

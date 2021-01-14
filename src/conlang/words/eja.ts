@@ -1,7 +1,8 @@
 import * as _ from '.'
 
 export const eja = _.word('eja', {
-  prep: 'plausibility (interrogation)',
+  prep: 'plausibile',
+  desc: () => 'Introduces an interogation',
   etym: () => [_.e, _.ja],
 })
 

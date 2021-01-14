@@ -1,7 +1,7 @@
 import * as _ from '..'
 
 export const fruits = _.card('fruits', {
-  noun: 'fruits',
+  writ: 'fruits',
   desc: () => `
 Existing fruits are:
 

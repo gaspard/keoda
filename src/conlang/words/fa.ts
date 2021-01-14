@@ -68,3 +68,13 @@ export const shafa = _.alt('shafa', {
   glo: '3PL.**look**',
   alt: () => _.fa,
 })
+
+export const fatonam = _.alt('fatonam', {
+  glo: '**eyes**.POSS.1SI',
+  alt: () => _.fa,
+})
+
+export const ofalem = _.alt('ofalem', {
+  glo: '1SI.**see**.PST',
+  alt: () => _.fa,
+})

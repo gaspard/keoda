@@ -2,9 +2,12 @@ import * as _ from '.'
 
 export const ma = _.word('ma', {
   noun: 'hand',
-  verb: 'to take, to hold',
+  verb: 'to shake, to take',
+  exam: () => [
+    _.phraseX(`Wank my vulva gently.`, _.masilo, _.yonam),
+    _.phraseX(`Wank my penis intensely.`, _.madom, _.tajam),
+  ],
 })
-_.see(_.mahim)
 
 export const hama = _.word('hama', {
   noun: 'finger',
@@ -21,30 +24,21 @@ _.see(_.lihafma)
 
 export const nema = _.word('nema', {
   verb: 'to let go',
-  glo: 'NEG.hand.VERB',
+  glo: 'NEG.**take**',
   etym: () => [_.ne, _.ma],
+  exam: () => [_.phraseX('Drop (your) panties.', _.nema, _.feyonam)],
 })
-
-export const mataj = _.example([_.ma, _.taj], `Prends mon pénis dans ta main.`)
-
-export const mayonmelo = _.example(
-  [_.ma, _.yon, _.silo],
-  `Branle ma vulve doucement.`
-)
-_.see(_.nemafeyon)
 
 export const mu = _.word('mu', {
   verb: 'to pull',
-  glo: 'hand.VERB.ALL',
+  glo: '**hand**.PULL',
   etym: () => [_.ma, _.u],
   see: () => [_.mi, _.mo],
 })
 
-export const muhamun = _.example([_.mu, _.hamun], `Tire sur mes tétons.`)
-
-export const malam = _.word('malam', {
-  noun: 'mother (hand of the water)',
-  etym: () => [_.ma, _.lame],
+export const malame = _.word('malame', {
+  noun: 'parturient',
+  etym: () => [_.ma, _.lameN],
 })
 
 export const miwi = _.word('miwi', {
@@ -101,5 +95,15 @@ export const ohesmalir = _.alt('ohesmalir', {
 
 export const pemalir = _.alt('pemalir', {
   glo: '3PL.INDF.**massage**.FUT',
+  alt: () => _.ma,
+})
+
+export const madom = _.alt('madom', {
+  glo: '**shake**.*intensely*',
+  alt: () => _.ma,
+})
+
+export const masilo = _.alt('masilo', {
+  glo: '**shake**.*gently*',
   alt: () => _.ma,
 })

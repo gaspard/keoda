@@ -33,16 +33,19 @@ export const keyon = _.word('keyon', {
 
 export const mukeyon = _.example([_.mu, _.keyon], `Pince-moi le clitoris.`)
 
-export const feyon = _.word('feyon', { noun: 'culotte' })
-
-_.see(_.nemafeyon)
-
-_.see(_.yaj)
-_.see(_.keyon)
+export const feyon = _.word('feyon', {
+  noun: 'panties',
+  etym: () => [_.fe, _.yon],
+})
 
 // === alt
 
 export const yonam = _.alt('yonam', {
   glo: '**vulva**.ACC',
   alt: () => _.yon,
+})
+
+export const feyonam = _.alt('feyonam', {
+  glo: '**panties**.ACC',
+  alt: () => _.feyon,
 })

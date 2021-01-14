@@ -3,6 +3,7 @@ import * as _ from '.'
 export const lo = _.word('lo', {
   noun: '2SG.WET',
   adj: 'wet, who receives',
+  verb: 'to surrender',
   see: () => [_.tolo],
 })
 
@@ -35,3 +36,10 @@ _.see(_.najlo)
 _.see(_.falo)
 _.see(_.nelo)
 _.see(_.nefalo)
+
+// === alt
+
+export const loV = _.alt('lo', {
+  glo: '**surrender**',
+  alt: () => _.lo,
+})

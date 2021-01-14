@@ -1,11 +1,11 @@
 import * as _ from '..'
 
 export const count = _.card('count', {
-  lang: 'numbers and counting',
-  writ: 'కాుత్‌',
+  writ: 'count',
   phon: '/caut/',
-  see: () => [_.ganes],
   desc: () => `
+# Numbers and counting
+
 Here are the number from 1 to 10:
 
 * ${_.ipi} (10 / ౧౦)
@@ -46,5 +46,7 @@ We can also express powers of ten ${_.phrase('10^4', _.ipa, _.ka, _.uki)}.
 * ${_.phrase('tenth (10^-1)', _.i10, _.iki)}
 * ${_.phrase('hundredth (10^-2)', _.i10, _.de, _.iki)}
 * ${_.phrase('thouandth (10^-3)', _.i10, _.pe, _.iki)}
+
+See ${_.ganes}
 `,
 })

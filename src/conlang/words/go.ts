@@ -14,7 +14,7 @@ export const goa = _.word('goa', {
 })
 
 export const gopona = _.word('gopona', {
-  noun: 'squash, October',
+  noun: 'pumpkin, October',
   etym: () => [_.go, _.pona],
   see: () => [_.fruits, _.seasons],
 })

@@ -4,6 +4,7 @@ export const sho = _.word('sho', {
   conj: 'us present (1PL.PRS)',
   noun: 'saliva',
   verb: 'salivate',
+  glo: '1PL.PRS',
 })
 
 export const shoda = _.word('shoda', {
@@ -26,9 +27,14 @@ export const eliofanoaosho = _.example(
   'Quand je vois ta peau, je salive.'
 )
 
+export const shoV = _.alt('sho', {
+  glo: '**salivate**',
+  alt: () => _.sho,
+})
+
 export const onsho = _.word('onsho', {
-  noun: 'sucre, récompense',
-  etym: () => [_.on, _.sho],
+  noun: 'sugar',
+  etym: () => [_.on, _.shoV],
 })
 
 export const shoyi = _.alt('shoyi', {

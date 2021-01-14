@@ -26,3 +26,8 @@ export const jihukiam = _.alt('jihukiam', {
   glo: '**hair**.*long*.ACC',
   alt: () => _.ji,
 })
+
+export const jihukitonam = _.alt('jihukitonam', {
+  glo: '**hair**.*long*.POSS.1SI.ACC',
+  alt: () => _.ji,
+})

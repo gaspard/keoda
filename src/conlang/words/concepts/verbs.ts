@@ -1,6 +1,7 @@
 import * as _ from '..'
 
 export const verbs = _.card('verbs', {
+  writ: 'verbs',
   desc: () => `
 # Verbs and conjugation
 
@@ -21,8 +22,8 @@ Examples:
 
 #### nsfw
 
-* ${_.phrase('Pinch my nipple.', _.mu, _.hamunam)}
-* ${_.phrase('Whip my butt.', _.fo, _.palam)}
+* ${_.phraseX('Pinch my nipple.', _.mu, _.hamunam)}
+* ${_.phraseX('Whip my butt.', _.fo, _.palam)}
 
 The simplest tense is the imperative which looks like the infinitive.
 
@@ -152,6 +153,10 @@ language originated.
 
 * ${_.phrase('yesterday, I kissed a girl.', _.olalema, _.anam)}
 * ${_.phrase('They might love you someday.', _.azulire, _.autim)}
+
+#### nsfw
+
+* ${_.phraseX('I am eating pussy.', _.ohe, _.ladam, _.di, _.aliu, _.yonam)}
 
 Your next read: ${_.order} (word order)
 `,

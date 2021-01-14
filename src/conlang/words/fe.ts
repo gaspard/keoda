@@ -23,17 +23,19 @@ export const feo = _.word('feo', {
 })
 
 export const feoda = _.word('feoda', {
-  noun: 'habits',
-  desc: () => `Littéralement "sur le corps".`,
+  noun: 'clothes',
+  etym: () => [_.fe, _.oda],
 })
 
 export const nefe = _.word('nefe', {
   adj: 'naked',
   verb: 'to uncover/undress',
+  exam: () => [
+    _.phraseX('Undress !', _.nefe),
+    _.phraseX('Remove your clothes !', _.ne, _.feodatim),
+    _.phraseX('Undress your body !', _.nefe, _.idam),
+  ],
 })
-
-_.see(_.nefeoda)
-_.see(_.nemafeyon)
 
 export const fepa = _.word('fepa', {
   noun: 'pride',
@@ -68,4 +70,9 @@ export const esyinefe = _.alt('esyinefe', {
 export const nefenesti = _.alt('nefenesti', {
   glo: '**naked**.BE.2SG.POSS',
   alt: () => _.nefe,
+})
+
+export const feodatim = _.alt('feodatim', {
+  glo: '**clothes**.POSS.2SG.ACC',
+  alt: () => _.feoda,
 })

@@ -12,6 +12,10 @@ goes on ${_.duha} or ${_.John}:
 * ${_.phrase('They look at the face of John.', _.shafa, _.duhawu, _.Johnam)}
 * ${_.phrase("They look at John's hand.", _.shafa, _.John, _.duham)}
 
-On words with an adjective or other suffix, ${_.am} suffix always comes last.
+On words with an adjective or other suffix, ${_.am} suffix always comes last: ${
+    _.jihukitonam
+  }
+
+To add ${_.am} on words ending with a vowel, add an \`n\`.
 `,
 })

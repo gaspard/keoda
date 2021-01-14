@@ -24,6 +24,9 @@ const config: KeodaConfig = {
     ctx.state.keoda.writ = JSON.parse(
       window.localStorage.getItem('keoda.writ') || 'false'
     )
+    ctx.state.keoda.nsfw = JSON.parse(
+      window.localStorage.getItem('keoda.nsfw') || 'false'
+    )
   },
   state: {
     keoda: {

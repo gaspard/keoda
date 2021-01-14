@@ -12,11 +12,8 @@ export const fuIris = _.alt('fuIris', {
   alt: () => _.Iris,
 })
 
-export const q = _.word('?', {
-  glo: '?',
-})
-
 export const prep = _.card('prep', {
+  writ: 'prep',
   desc: () => `
 # Prepositions
 
@@ -75,6 +72,8 @@ ${_.phrase('Where did you caress Iris ?', _.dona, _.Irisam, _.imilema, _.q)}
 * ${_.eyu} (if)
 * ${_.ibu} (for)
 * ${_.eja} (plausibility)
+* ${_.ku} (and/implies)
+* ${_.meu} (otherwise)
 
 ${_.phrase('Did you caress Iris ?', _.eja, _.Irisam, _.imileme, _.q)}
 
@@ -90,6 +89,7 @@ ${_.phrase('Did you caress Iris ?', _.eja, _.Irisam, _.imileme, _.q)}
 # Articulation
 
 * ${_.shu} (and)
+* ${_.shuhe} (but)
 * ${_.uma} (or)
 
 `,

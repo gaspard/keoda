@@ -1,7 +1,7 @@
 import * as _ from '..'
 
 export const pron = _.card('pronouns', {
-  lang: 'All pronouns',
+  writ: 'pron',
   desc: () => `
 # Pronouns
 

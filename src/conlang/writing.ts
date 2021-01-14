@@ -178,8 +178,8 @@ const TELU: { [key: string]: string } = {
   em: 'ఎం',
   e: 'ఎ',
   ah: 'అః',
-  amx: 'లాం',
-  am: 'లాం',
+  amx: 'అం',
+  // am: 'అ',
   a: 'అ',
   u: 'ఉ',
   o: 'ఓ',
@@ -243,7 +243,7 @@ function tran(word: string) {
 
 export function phon(word: string) {
   const w = tran(word.toLowerCase()).join('')
-  return w === '?' ? '?' : `/${w}/`
+  return `/${w}/`
 }
 
 const ENDRE = /[jrmn]$/

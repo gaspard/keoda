@@ -37,3 +37,13 @@ export const irumolema = _.alt('irumolema', {
   glo: '2SG.**throw**.PST.HEST',
   alt: () => _.lema,
 })
+
+export const leirumitonam = _.alt('leirumitonam', {
+  glo: '*time*.**embrace**.POSS.1SI.ACC',
+  alt: () => _.leirumi,
+})
+
+export const rorumitinam = _.alt('rorumitinam', {
+  glo: '*INESS*.**hug**.POSS.2SG.ACC',
+  alt: () => _.ro,
+})

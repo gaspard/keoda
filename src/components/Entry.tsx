@@ -6,7 +6,7 @@ import { getEntry } from '../helpers/getEntry'
 import { Link } from './Link'
 import { List } from './List'
 import { Markdown } from './Markdown'
-import { Info } from './Phrase'
+import { GWrap, Info } from './Phrase'
 
 export interface EntryProps {
   className?: string
@@ -137,9 +137,9 @@ const Phon = styled.div`
 `
 
 const Other = styled.div`
-  margin-left: 8px;
   font-size: 1rem;
 `
+// margin-left: 8px;
 
 const Definitions = styled.div`
   .phrase & {
@@ -149,7 +149,8 @@ const Definitions = styled.div`
   display: flex;
   flex-grow: 1;
   flex-direction: column;
-  padding: 5px;
+  padding-bottom: 5px;
+  overflow: hidden;
   align-self: stretch;
   border-left: 1px solid #7b7b7b;
   border-top-right-radius: 5px;
@@ -163,6 +164,7 @@ const Definition = styled.div`
   flex-direction: row;
   padding: 5px;
   &.desc {
+    padding: 0 20px;
     line-height: 1.6rem;
     color: #555;
     display: block;
@@ -192,6 +194,9 @@ const Definition = styled.div`
       display: var(--nsfw);
       border-left: 26px solid #88815e;
       background: #bfb370;
+    }
+    h4 + * .nsfw {
+      background: none;
     }
     h4 + *::before {
       content: '🍑';
@@ -308,7 +313,7 @@ const DefType = styled.div`
     color: #040a02;
   }
   &.det {
-    color: #9a1432;
+    color: #444;
   }
   &.conj {
     color: #b7ec34;
@@ -422,6 +427,13 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
         </Title>
       )}
       <Definitions>
+        {entry.etym && (
+          <React.Fragment>
+            <GWrap className="etym">
+              <List className="etym" entries={entry.etym} type="md-open" glo />
+            </GWrap>
+          </React.Fragment>
+        )}
         {DEF_KEYS.map(key =>
           entry[key] ? (
             <Definition key={key}>
@@ -439,20 +451,25 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
             </Definition>
           ) : null
         )}
-        <div className="hr" />
         {entry.desc && (
-          <Definition className="desc">
-            <Markdown text={entry.desc} type={open ? 'md-open' : 'md'} />
-          </Definition>
+          <React.Fragment>
+            <div className="hr" />
+            <Definition className="desc">
+              <Markdown text={entry.desc} type={open ? 'md-open' : 'md'} />
+            </Definition>
+          </React.Fragment>
         )}
         {entry.phrases && (
-          <Definition className="desc">
-            <List
-              className="phrases"
-              entries={entry.phrases}
-              type={open ? 'md-open' : 'md'}
-            />
-          </Definition>
+          <React.Fragment>
+            <div className="hr" />
+            <Definition className="desc">
+              <List
+                className="phrases"
+                entries={entry.phrases}
+                type={open ? 'md-open' : 'md'}
+              />
+            </Definition>
+          </React.Fragment>
         )}
       </Definitions>
     </Wrapper>

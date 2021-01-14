@@ -1,8 +1,10 @@
 import * as _ from '.'
 
 export const ku = _.word('ku', {
-  noun: 'corde',
-  verb: 'attacher',
+  noun: 'rope',
+  verb: 'to tie',
+  prep: 'imply',
+  desc: () => `Causality`,
 })
 
 export const kupa = _.word('kupa', {
@@ -12,15 +14,16 @@ export const kupa = _.word('kupa', {
 })
 
 export const nekupa = _.word('nekupa', {
-  noun: 'lâcher prise, ne pas attacher tout',
+  verb: 'to let go',
   etym: () => [_.ne, _.kupa],
+  desc: () => `To not attach to everything.`,
 })
 
 export const kulei = _.word('kulei', {
   noun: 'causal time',
   verb: 'to rig',
   desc: () =>
-    `Attacher le temps, manipuler, relation marchande au temps (si alors).`,
+    `To tie time, manipulate, transactional relation to time (if-then).`,
   etym: () => [_.ku, _.lei],
 })
 

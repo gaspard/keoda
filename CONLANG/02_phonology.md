@@ -12,7 +12,7 @@
 
 Get inspiration from Brazilian and Hawaiian...
 
-All syllables are open (ending with a vowel or voiced consonant like j, r, n, m and l or s).
+All syllables are open (ending with a vowel or voiced consonant like j, r, n, m and l or z).
 
 Basically you need to be able to siiiiiiiing a long ending on every vowel as
 this is heavily used to stress words and help avoid ambiguity.

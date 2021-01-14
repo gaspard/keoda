@@ -7,8 +7,10 @@ import * as _ from '..'
 //
 //
 export const corresp = _.card('corresp', {
-  lang: 'Correspondances, Baudelaire (1821-1867)',
+  writ: 'corresp',
   desc: () => `
+# Correspondances, Baudelaire (1821-1867)
+
 ${_.phrase(
   'La Nature et un temple où de vivants piliers',
   _.tu,
@@ -23,7 +25,7 @@ ${_.phrase(
 ${_.phrase(
   'Laissent parfois sortir de confuses paroles;',
   _.shalapa,
-  _.nega_adv
+  _.negaADV
 )}
 
 ${_.phrase(
@@ -43,7 +45,7 @@ ${_.phrase(
   _.gi,
   _.sha,
   _.fa,
-  _.lae
+  _.ladam
 )}
 
 ${_.phrase(

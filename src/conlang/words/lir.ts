@@ -9,7 +9,6 @@ export const liri = _.word('liri', {
   glo: 'FUT.HOD',
   etym: () => [_.lir, _.i],
 })
-_.see(_.lemir)
 _.see(_.lira)
 _.see(_.liru)
 _.see(_.liro)
