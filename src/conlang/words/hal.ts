@@ -1,8 +1,8 @@
 import * as _ from '.'
 
 export const hal = _.word('hal', {
-  adj: 'huge',
-  adv: 'to the sky',
+  adj: 'from the sky',
+  glo: '*from the sky*',
 })
 
 export const mahal = _.word('mahal', {

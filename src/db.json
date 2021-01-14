@@ -3206,12 +3206,11 @@
       "name": "hal",
       "id": "word-hal",
       "type": "word",
-      "adj": "huge",
-      "adv": "to the sky",
-      "fulltext": "hal mahal huge to the sky",
+      "adj": "from the sky",
+      "glo": "*from the sky*",
+      "fulltext": "hal mahal from the sky",
       "writ": "హాల్‌",
       "phon": "/hal/",
-      "glo": "**huge**",
       "deriv": [
         "word-mahal"
       ]
