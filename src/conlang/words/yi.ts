@@ -20,7 +20,7 @@ export const yida = _.word('yida', {
   see: () => [_.keda, _.loda, _.pron],
 })
 
-export const yiya = _.word('yiya', {
+export const yiyada = _.word('yiyada', {
   pron: 'tiny you (poetic)',
   glo: '2SG.DIM.POET',
   etym: () => [_.yi, _.yada],
@@ -46,7 +46,7 @@ export const ayida = _.word('ayida', {
   etym: () => [_.ayi, _.oda],
 })
 
-export const ayiya = _.word('ayiya', {
+export const ayiyada = _.word('ayiyada', {
   pron: 'them (poetic)',
   glo: '32g.DIM.POET',
   etym: () => [_.ayi, _.yada],

@@ -95,3 +95,8 @@ export const duham = _.alt('duham', {
   glo: '**face**.ACC',
   alt: () => _.duha,
 })
+
+export const duhatinam = _.alt('duhatinam', {
+  glo: '**face**.POSS.2SG.ACC',
+  alt: () => _.duha,
+})

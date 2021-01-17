@@ -4,12 +4,12 @@ export const onesu = [
   // I/we miss your presence (bodies)
   [_.o, _.nesu, _.shida],
   // I/we miss your spirit (poetic self)
-  [_.o, _.nesu, _.shiha],
+  [_.o, _.nesu, _.shiya],
   // I/we miss your smiles
   [_.o, _.nesu, _.laj, _.wu, _.shi],
   //
   // When are you coming back ?
-  [_.dahir, _.shi, _.odu, _.sen],
+  [_.dir, _.shi, _.odu, _.sen],
   [_.odu, _.sen],
   [_.odu, _.sen],
   //
@@ -22,7 +22,7 @@ export const onesu = [
   [_.sho, _.lipa],
   //
   // When are you coming back ?
-  [_.dahir, _.shi, _.odu, _.sen],
+  [_.dir, _.shi, _.odu, _.sen],
   [_.odu, _.sen],
   [_.odu, _.sen],
   //

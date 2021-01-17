@@ -61,15 +61,15 @@ intimate dreams about themselves.
 Rarer forms:
 
 * ${_.yadei} (me Master)
-* ${_.keya} (you Master)
-* ${_.piyiya} (tiny me)
-* ${_.yiya} (tiny you)
-* ${_.ayiya} (tiny them)
-* ${_.loya} (wet you)
-* ${_.piya} (me)
-* ${_.deya} (us two)
-* ${_.peya} (some)
-* ${_.kaya} (all of us)
+* ${_.keyada} (you Master)
+* ${_.piyiyada} (tiny me)
+* ${_.yiyada} (tiny you)
+* ${_.ayiyada} (tiny them)
+* ${_.loyada} (wet you)
+* ${_.piyada} (me)
+* ${_.deyada} (us two)
+* ${_.peyada} (some)
+* ${_.kayada} (all of us)
 
 Your next read: ${_.nature} (nature)
 `,

@@ -19,10 +19,10 @@ export const deda = _.word('deda', {
   pron: 'us two',
   glo: '1PL.DU',
   etym: () => [_.de, _.oda],
-  see: () => [_.deya, _.pron],
+  see: () => [_.deyada, _.pron],
 })
 
-export const deya = _.word('deya', {
+export const deyada = _.word('deyada', {
   pron: 'us two',
   glo: '1PL.DU.POET',
   etym: () => [_.de, _.yada],

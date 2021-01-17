@@ -15,17 +15,17 @@ export const pida = _.word('pida', {
   pron: 'me',
   glo: '1SG',
   etym: () => [_.pi, _.oda],
-  see: () => [_.piya, _.pron],
+  see: () => [_.piyada, _.pron],
 })
 
 export const piyida = _.word('piyida', {
   pron: 'tiny me',
   glo: '1SG.DIM',
   etym: () => [_.piyi, _.oda],
-  see: () => [_.piyiya, _.pron],
+  see: () => [_.piyiyada, _.pron],
 })
 
-export const piyiya = _.word('piyiya', {
+export const piyiyada = _.word('piyiyada', {
   pron: 'tiny me (poetic)',
   glo: '1SG.DIM.POET',
   etym: () => [_.piyi, _.yada],

@@ -11,10 +11,10 @@ export const loda = _.word('loda', {
   noun: 'submissive',
   glo: '2SG.WET',
   etym: () => [_.lo, _.oda],
-  see: () => [_.loya, _.pron],
+  see: () => [_.loyada, _.pron],
 })
 
-export const loya = _.word('loya', {
+export const loyada = _.word('loyada', {
   noun: 'submissive (poetic)',
   glo: '2SG.WET.POET',
   etym: () => [_.lo, _.yada],

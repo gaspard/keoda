@@ -27,14 +27,16 @@ export const eliofanoaosho = _.example(
   'Quand je vois ta peau, je salive.'
 )
 
-export const shoV = _.alt('sho', {
-  glo: '**salivate**',
-  alt: () => _.sho,
-})
-
 export const onsho = _.word('onsho', {
   noun: 'sugar',
   etym: () => [_.on, _.shoV],
+})
+
+// === alt
+
+export const shoV = _.alt('sho', {
+  glo: '**salivate**',
+  alt: () => _.sho,
 })
 
 export const shoyi = _.alt('shoyi', {
@@ -45,4 +47,9 @@ export const shoyi = _.alt('shoyi', {
 export const shokei = _.alt('shokei', {
   glo: '**1PL.PRS**.HONOR',
   alt: () => _.sho,
+})
+
+export const shodam = _.alt('shodam', {
+  glo: '**1PL.PRS**.ACC',
+  alt: () => _.shoda,
 })

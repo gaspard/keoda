@@ -39,7 +39,13 @@ export const azulire = _.alt('azulire', {
   alt: () => _.zu,
 })
 
+// same as autinam
 export const autim = _.alt('autim', {
   glo: '**heart**.POSS.2SG.ACC',
+  alt: () => _.au,
+})
+
+export const auto = _.alt('auto', {
+  glo: '**heart**.POSS.1SI',
   alt: () => _.au,
 })

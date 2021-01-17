@@ -12,7 +12,7 @@ const TELU: { [key: string]: string } = {
   yinx: 'యిఁ',
 
   // ka.ˈˌ˴ˌˈˌla
-  // /z/ sound = made with alt+T = ఠ /ʈʰ/
+  // /z/ sound = made with alt+shift+T = ఠ /ʈʰ/
   // /ʋ/ sound = made with v     = వ
   // /ʃ/ sound = made with x     = ష
   // /f/ sound = made with c     = చ /tʃ/

@@ -9,7 +9,7 @@ intimate, poetic, "subconscious" like Julia Serano would say.
 `,
 })
 
-export const piya = _.word('piya', {
+export const piyada = _.word('piyada', {
   noun: 'me (poetic)',
   glo: '1SG.POET',
   etym: () => [_.pi, _.yada],

@@ -49,13 +49,23 @@ export const fatam = _.alt('fatam', {
   alt: () => _.fa,
 })
 
+export const ofa = _.alt('ofa', {
+  glo: '1SI.**look**',
+  alt: () => _.fa,
+})
+
 export const ifa = _.alt('ifa', {
   glo: '2SG.**see**',
   alt: () => _.fa,
 })
 
-export const ofa = _.alt('ofa', {
-  glo: '1SI.**look**',
+export const afa = _.alt('afa', {
+  glo: '3SG.**see**',
+  alt: () => _.fa,
+})
+
+export const pifa = _.alt('pifa', {
+  glo: '1SG.**see**',
   alt: () => _.fa,
 })
 
@@ -76,5 +86,10 @@ export const fatonam = _.alt('fatonam', {
 
 export const ofalem = _.alt('ofalem', {
   glo: '1SI.**see**.PST',
+  alt: () => _.fa,
+})
+
+export const fatinam = _.alt('fatinam', {
+  glo: '**eyes**.POSS.2SG.ACC',
   alt: () => _.fa,
 })

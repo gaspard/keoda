@@ -119,7 +119,7 @@ ${_.phrase('(tiny) me will undress you (Master).', _.piyinefelir, _.keda)}
 
 Just remember, what sounds like "OKey" is in fact "I-fantastic" and everything hard to
 pronounce such as ${
-    _.yiya
+    _.yiyada
   } are meant to be said with a soft and very kind voice.
 
 # Tenses

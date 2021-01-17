@@ -34,6 +34,25 @@ export const yadifa = _.word('yadifa', {
   etym: () => [_.ya, _.di, _.fa],
 })
 
+export const teya = _.word('teya', {
+  noun: 'tonight',
+  etym: () => [_.ten, _.ya],
+})
+
+export const peya = _.word('peya', {
+  noun: 'some night',
+  etym: () => [_.pe, _.ya],
+})
+
+export const liraya = _.word('liraya', {
+  noun: 'tomorrow night',
+  etym: () => [_.lira, _.ya],
+})
+
+export const lemaya = _.word('lemaya', {
+  noun: 'night before',
+  etym: () => [_.lema, _.ya],
+})
 // ==== alt
 
 export const oyafalau = _.alt('oyafalau', {

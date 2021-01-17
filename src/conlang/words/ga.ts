@@ -79,3 +79,8 @@ export const gogam = _.alt('gogam', {
   glo: '*big*.**spirit**.ACC',
   alt: () => _.ga,
 })
+
+export const kegaiam = _.alt('kegaiam', {
+  glo: '**god**.ACC',
+  alt: () => _.kegai,
+})

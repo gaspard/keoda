@@ -20,10 +20,10 @@ export const kada = _.word('kada', {
   pron: 'us all',
   glo: '1PL.DEF',
   etym: () => [_.ka, _.oda],
-  see: () => [_.toka, _.kaya, _.pron],
+  see: () => [_.toka, _.kayada, _.pron],
 })
 
-export const kaya = _.word('kaya', {
+export const kayada = _.word('kayada', {
   pron: 'us all (poetic)',
   glo: '1PL.DEF.POET',
   etym: () => [_.ka, _.oda],

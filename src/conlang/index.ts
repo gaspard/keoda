@@ -45,12 +45,12 @@ function compileWord(word: Entry): CompiledEntry {
   if (word.etym) {
     const etym = word.etym().map(w => w.id)
     compiled.etym = etym
-    fulltext.push(...etym)
+    // fulltext.push(...etym)
   }
 
   if (word.desc) {
     compiled.desc = word.desc()
-    fulltext.push(compiled.desc)
+    // fulltext.push(compiled.desc)
   }
 
   const deriv = wordList.filter(
@@ -58,19 +58,19 @@ function compileWord(word: Entry): CompiledEntry {
   )
   if (deriv.length) {
     compiled.deriv = deriv.map(w => w.id)
-    fulltext.push(...deriv.map(w => w.name))
+    // fulltext.push(...deriv.map(w => w.name))
   }
 
   if (word.see) {
     const see = word.see()
     compiled.see = see.map(w => w.id)
-    fulltext.push(...see.map(w => w.name))
+    // fulltext.push(...see.map(w => w.name))
   }
 
   if (word.words) {
     const words = word.words()
     compiled.words = words.map(w => w.id)
-    fulltext.push(...words.map(w => w.name))
+    // fulltext.push(...words.map(w => w.name))
     if (word.type === 'phrase') {
       compiled.phrase = words.map(w => w.name).join(' ')
     }
@@ -78,7 +78,7 @@ function compileWord(word: Entry): CompiledEntry {
 
   compiled.fulltext = [
     ...fulltext,
-    ...FULLTEXT_KEYS.map(k => compiled[k]).filter(x => x),
+    // ...FULLTEXT_KEYS.map(k => compiled[k]).filter(x => x),
   ].join(' ')
   return compiled
 }

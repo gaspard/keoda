@@ -95,3 +95,15 @@ export const lapatonam = _.alt('lapatonam', {
   glo: '**voice**.POSS.1SI.ACC',
   alt: () => _.lapa,
 })
+
+// lapatim === lapatinam
+// It's just a phonetic evolution and both can be used.
+export const lapatim = _.alt('lapatim', {
+  glo: '**voice**.POSS.2SG.ACC',
+  alt: () => _.lapa,
+})
+
+export const latonam = _.alt('latonam', {
+  glo: '**lips**.POSS.1SI',
+  alt: () => _.la,
+})

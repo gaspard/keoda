@@ -11,10 +11,10 @@ export const keda = _.word('keda', {
   pron: 'fantastic you (Dom)',
   glo: '2SG.HONOR',
   etym: () => [_.kei, _.oda],
-  see: () => [_.keya, _.pron],
+  see: () => [_.keyada, _.pron],
 })
 
-export const keya = _.word('keya', {
+export const keyada = _.word('keyada', {
   pron: 'fantastic you (poetic)',
   glo: '2SG.HONOR.POET',
   etym: () => [_.kei, _.yada],

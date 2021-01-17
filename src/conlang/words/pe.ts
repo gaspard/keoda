@@ -23,7 +23,7 @@ export const peda = _.word('peda', {
   see: () => [_.peya, _.pron],
 })
 
-export const peya = _.word('peya', {
+export const peyada = _.word('peyada', {
   pron: 'some (poetic)',
   glo: '3PL.INDF.POET',
   etym: () => [_.pe, _.yada],
