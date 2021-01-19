@@ -49,3 +49,13 @@ export const iru = _.alt('iru', {
   glo: '2SG.**become**',
   alt: () => _.ru,
 })
+
+export const esarulem = _.alt('esarulem', {
+  glo: 'INTR.3SG.**become**.PST',
+  alt: () => _.e,
+})
+
+export const shokuru = _.alt('shokuru', {
+  glo: '1PL.**must**',
+  alt: () => _.kuru,
+})

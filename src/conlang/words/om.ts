@@ -1,8 +1,7 @@
 import * as _ from '.'
 
 export const om = _.word('om', {
-  noun: 'transcendance',
-  adj: 'ouvert',
-  prefix: 'transcender',
-  suffix: 'temple, lieu sacré',
+  noun: 'transcendence',
+  adj: 'open, sacred',
+  suffix: 'temple, sacred',
 })

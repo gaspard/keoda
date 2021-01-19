@@ -11,11 +11,15 @@ const TELU: { [key: string]: string } = {
   munx: 'ముఁ',
   yinx: 'యిఁ',
 
-  // ka.ˈˌ˴ˌˈˌla
-  // /z/ sound = made with alt+shift+T = ఠ /ʈʰ/
-  // /ʋ/ sound = made with v     = వ
-  // /ʃ/ sound = made with x     = ష
-  // /f/ sound = made with c     = చ /tʃ/
+  // Some letters that are not where expected:
+  // /ʋ/ sound = made with v       = వ
+  // /ʃ/ sound = made with shift+s = శ
+  // /au/ sound = alt+shift+o = ఔ
+  // /ai/ sound = alt+shift+e = ఐ
+
+  // Phonetic change from Telugu
+  // /z/ sound = made with alt+shift+T = ఠ = /ʈʰ/
+  // /f/ sound = made with c     = చ  = /tʃ/
 
   // lone 'e'  = made with > (bottom left of kbd)
 
@@ -37,13 +41,13 @@ const TELU: { [key: string]: string } = {
   gimx: 'గిం',
   gi: 'గి',
   fimx: 'చిం',
-  fi: 'వి',
+  fi: 'చి',
   simx: 'సిం',
   si: 'సి',
   zimx: 'ఠిం',
   zi: 'ఠి',
-  shimx: 'షిం',
-  shi: 'షి',
+  shimx: 'శిం',
+  shi: 'శి',
   jimx: 'జిం',
   ji: 'జి',
   himx: 'హిం',
@@ -71,62 +75,79 @@ const TELU: { [key: string]: string } = {
   ke: 'కే',
   ge: 'గే',
   fenx: 'చేఁ',
-  fe: 'వే',
+  fe: 'చే',
   senx: 'సేఁ',
   se: 'సే',
   ze: 'ఠే',
-  sheu: 'షేు',
-  she: 'షే',
+  she: 'శే',
   je: 'జే',
   he: 'ఠే',
   we: 'వే',
   ye: 'యే',
   re: 'రే',
+  lemx: 'లేం',
   le: 'లే',
 
   // a
   ma: 'మా',
   namx: 'నాం',
+  nau: 'నౌ',
   na: 'నా',
   pamx: 'పాం',
   panx: 'పాఁ',
+  pau: 'పౌ',
   pa: 'పా',
   bamx: 'బాం',
+  bau: 'బౌ',
   ba: 'బా',
   tamx: 'తాం',
+  tanx: 'తాఁ',
+  tau: 'తౌ',
   ta: 'తా',
   damx: 'దాం',
+  dau: 'దౌ',
   da: 'దా',
   kamx: 'కాం',
   kanx: 'కాఁ',
+  kau: 'కౌ',
   ka: 'కా',
   gamx: 'గాం',
+  gau: 'గౌ',
   ga: 'గా',
   famx: 'చాం',
+  fau: 'చౌ',
   fa: 'చా',
   samx: 'సాం',
+  sau: 'సౌ',
   sa: 'సా',
-  zamx: 'థాం',
+  zamx: 'ఠాం',
+  zau: 'ఠౌ',
   za: 'ఠా',
-  shamx: 'షాం',
-  sha: 'షా',
+  shamx: 'శాం',
+  shau: 'శౌ',
+  sha: 'శా',
   jamx: 'జాం',
+  jau: 'జౌ',
   ja: 'జా',
   hamx: 'హాం',
+  hau: 'హౌ',
   ha: 'హా',
   wamx: 'వాం',
+  wau: 'వౌ',
   wa: 'వా',
   yamx: 'యాం',
+  yau: 'యౌ',
   ya: 'యా',
   ramx: 'రాం',
+  rau: 'రౌ',
   ra: 'రా',
   lamx: 'లాం',
-  lau: 'లాు',
+  lau: 'లౌ',
   la: 'లా',
 
   // u
-  auh: 'అుః',
-  au: 'అు',
+  // au: 'అు',
+  au: 'ఔ', // alt+shift+o (this is what Telugu uses for this sound)
   mu: 'ము',
   nu: 'ను',
   pu: 'పు',
@@ -138,7 +159,7 @@ const TELU: { [key: string]: string } = {
   fu: 'చు',
   su: 'సు',
   zu: 'ఠు',
-  shu: 'షు',
+  shu: 'శు',
   ju: 'జు',
   hu: 'హు',
   wu: 'వు',
@@ -149,7 +170,6 @@ const TELU: { [key: string]: string } = {
 
   // o
   mo: 'మో',
-  noa: 'నోా',
   no: 'నో',
   ponx: 'పోఁ',
   po: 'పో',
@@ -162,25 +182,32 @@ const TELU: { [key: string]: string } = {
   fo: 'చో',
   so: 'సో',
   zo: 'ఠో',
-  sho: 'షో',
+  sho: 'శో',
   jo: 'జో',
   honx: 'హోఁ',
   ho: 'హో',
   wo: 'వో',
   yonx: 'యోఁ',
   yo: 'యో',
-  roa: 'రోా',
   ro: 'రో',
   lom: 'లోం',
   lo: 'లో',
 
-  i: 'ఇ',
+  iu: 'ఇు',
+  ai: 'ఐ', // alt+shift+e
+  i: 'ఇ', // Telugu would use యి (yi = /ji/ )
   em: 'ఎం',
   e: 'ఎ',
   ah: 'అః',
   amx: 'అం',
-  // am: 'అ',
   a: 'అ',
+  // Telugu uses: వు (vu = /ʋu/) but then there would be a
+  // confusion between
+  // awi = అవి = /aʋi/
+  // ai  = అవి = /ai/
+  // instead of
+  // ai  = అఇ = /ai/
+
   u: 'ఉ',
   o: 'ఓ',
   g: 'గ్‌',

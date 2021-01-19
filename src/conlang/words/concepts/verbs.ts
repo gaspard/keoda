@@ -91,6 +91,19 @@ To express passive voice, we have the intransitive case ${_.es} prefix:
 
 * ${_.phrase('The pussy, I will be licked.', _.yonam, _.oheskelilir)}
 
+## Impersonal
+
+This is from [1401st Just Used 5 Minutes of Your Day](https://www.reddit.com/r/conlangs/comments/kzeek7/1401st_just_used_5_minutes_of_your_day/).
+
+${_.phrase(
+  'It turned out that the child was lying.',
+  _.esarulem,
+  _.gamalam,
+  _.mei,
+  _.joda,
+  _.adololem
+)}
+
 ## Honorific / tiny
 
 This idea of Honorific/tiny was inspired by BDSM power exchange and role play

@@ -36,6 +36,11 @@ const PhraseWrap = styled.div`
 
 const Trad = styled.div`
   color: #333;
+  transition: filter 0.3s;
+  &.blink {
+    filter: grayscale(0%) hue-rotate(45deg) saturate(1.5);
+    opacity: 1;
+  }
   &:not(.fix) {
     transition: opacity 0.2s ease-in 0s, visibility 0.2s ease-in 0.5s;
     position: absolute;
@@ -66,6 +71,13 @@ export const Info = styled.div`
   font-size: 64%;
   filter: grayscale(80%);
   transition: filter 0.3s;
+  &.blink,
+  &.blink.open,
+  &.blink:hover,
+  &.blink.open:hover {
+    filter: grayscale(0%) hue-rotate(90deg) saturate(1.5);
+    opacity: 1;
+  }
   &:hover {
     opacity: 0.7;
     filter: grayscale(0%);
@@ -96,10 +108,17 @@ export const Phrase: Comp<PhraseProps> = ({ className, type, id }) => {
     }
   }
 
-  function phraseClick(e: React.MouseEvent) {
+  function phraseClick(e: React.MouseEvent<HTMLDivElement>) {
     e.preventDefault()
     e.stopPropagation()
     if (phrase?.open || e.ctrlKey || e.metaKey) {
+      const div = e.currentTarget
+      if (div) {
+        div.classList.add('blink')
+        setTimeout(() => {
+          div.classList.remove('blink')
+        }, 1000)
+      }
       ctx.actions.keoda.copyPhrase({ id })
     } else {
       setOpen(!open)

@@ -28,3 +28,8 @@ export const ahawi = _.alt('ahawi', {
   glo: '3SG.**appear**',
   alt: () => _.awi,
 })
+
+export const okeihawi = _.alt('okeihawi', {
+  glo: '1SG.HONOR.**appear**',
+  alt: () => _.awi,
+})

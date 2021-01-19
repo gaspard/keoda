@@ -18,7 +18,7 @@ and curvy.
 | :-------------  | :--------: | :-------------: | :----------: | :-----: |
 | **Nasal**       | m మ       | n న             |              |         |
 | **Plosive**     | p ప / b బ | t త / d ద  | k క / g గ        |         |
-| **Fricative**   | f చ       | s స / z ఠ -  ʃ ష / dʒ జ |   | h  ః హ * |
+| **Fricative**   | f చ       | s స / z ఠ -  ʃ శ / dʒ జ |   | h  ః హ * |
 | **Approximant** | ʋ  వ      |                 | j య         |         |
 | **Trill**       |            | r ర             |              |         |
 | **Lateral**     |            | l ల             |              |         |
@@ -72,6 +72,14 @@ Words cannot end in ${
   } (used for accusative). Words often drop the last vowel when adding a suffix that starts with a vowel instead of adding 'h'.
 
 Example: ${_.same} (foot) becomes ${_.samwe} (right foot).
+
+## Script
+
+Diphthongs are written on the same consonant when possible if the second vowel is /u/ as in ${
+    _.peu
+  } or ${_.agadeuki}. For other vowels, we write the second one separately: ${
+    _.noa
+  }.
 
 ## Current evolutions
 

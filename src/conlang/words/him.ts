@@ -21,6 +21,17 @@ export const gahi = _.word('gahi', {
   etym: () => [_.ga, _.him],
 })
 
+export const gama = _.word('gama', {
+  noun: 'knowledge',
+  verb: 'to know',
+  etym: () => [_.ga, _.ma],
+})
+
+export const gamahim = _.word('gamahim', {
+  verb: 'to learn',
+  etym: () => [_.gama, _.him],
+})
+
 // === alt
 
 export const ogahilem = _.alt('ogahilem', {
@@ -31,4 +42,9 @@ export const ogahilem = _.alt('ogahilem', {
 export const gahinuram = _.alt('gahinuram', {
   glo: '**thought**.*only*.ACC',
   alt: () => _.gahi,
+})
+
+export const gamalam = _.alt('gamalam', {
+  glo: '**knowledge**.ACC',
+  alt: () => _.gama,
 })
