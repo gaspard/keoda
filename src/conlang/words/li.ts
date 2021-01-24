@@ -36,7 +36,12 @@ _.see(_.karu)
 
 // === alt
 
-export const oheskelilir = _.alt('oheskelilir', {
-  glo: '1SI.INTR.**lick**.FUT',
+export const esakelilir = _.alt('esakelilir', {
+  glo: 'PASS.3SG.**lick**.FUT',
+  alt: () => _.keli,
+})
+
+export const esalukelilir = _.alt('esalukelilir', {
+  glo: 'PASS.3SG.CONT.**lick**.FUT',
   alt: () => _.keli,
 })

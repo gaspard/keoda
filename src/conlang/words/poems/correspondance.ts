@@ -54,7 +54,7 @@ ${_.phrase(
   _.agadeuki,
   _.di,
   _.hadau,
-  _.esshanele
+  _.eseshanele
 )}
 
 `,

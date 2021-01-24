@@ -1,7 +1,10 @@
 import * as _ from '.'
 
 export const ulu = _.word('ulu', {
+  noun: 'until',
+  // Not sure we should keep the verb...
   verb: 'to have fun',
+  etym: () => [_.u, _.lu],
 })
 
 export const ulutaj = _.example([_.ulu, _.taj], `Amuser le pénis.`)

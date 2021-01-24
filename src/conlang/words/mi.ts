@@ -22,3 +22,23 @@ export const imileme = _.alt('imilema', {
   glo: '2SG.**caress**.PST.EVNT',
   alt: () => _.mi,
 })
+
+export const esomilir = _.alt('esomilir', {
+  glo: 'PASS.1SI.**caress**.FUT',
+  alt: () => _.mi,
+})
+
+export const omi = _.alt('omi', {
+  glo: '1SI.**caress**',
+  alt: () => _.mi,
+})
+
+export const esami = _.alt('esami', {
+  glo: 'PASS.3SG.**caress**',
+  alt: () => _.mi,
+})
+
+export const esilumilem = _.alt('esilumilem', {
+  glo: 'PASS.2SG.CONT.**caress**.PST',
+  alt: () => _.mi,
+})

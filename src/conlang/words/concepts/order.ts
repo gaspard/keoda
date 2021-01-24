@@ -76,6 +76,8 @@ ${_.phrase('On your skin, my hand walks.', _.fenoati, _.fuma, _.afen)}
 In these examples, the english traductions are not meant to be grammatically
 correct because english is not a free word order language.
 
+#### nsfw
+
 ${_.phrase('Jane whips the butt of John', _.Jane, _.afo, _.palwu, _.Johnam)}
 
 ${_.phrase('John gives the ball to Jane', _.John, _.aguwu, _.tameham, _.niJane)}

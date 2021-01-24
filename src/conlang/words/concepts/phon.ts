@@ -58,7 +58,9 @@ But ${_.najlo}, or  ${_.phrase(
     _.awinesti
   )} works.
 
-Two vowels in a row are not allowed between conjugation and verb. An 'h' is
+Two vowels in a row are not allowed between conjugation and verb or counting and power ${
+    _.dahipa
+  }. An 'h' is
 added in such cases: ${_.phrase('I love my body.', _.ohau, _.tohodam)}.
 
 Two consecutive identical vowels are reduced to a single one: ${_.phrase(

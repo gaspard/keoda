@@ -46,3 +46,8 @@ export const pe3 = _.alt('pe', {
   glo: '3',
   alt: () => _.pe,
 })
+
+export const pehipa = _.alt('pehipa', {
+  glo: '**3**.*100*',
+  alt: () => _.pe,
+})

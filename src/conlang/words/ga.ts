@@ -16,9 +16,9 @@ export const ganaro = _.alt('ganaro', {
   alt: () => _.gana,
 })
 
-// C'est l'eau qui devrait être la caresse 'gai', non ?
 export const gai = _.word('gai', {
   noun: 'consciousness, rain',
+  verb: 'to rain',
   img:
     'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Falling_rain_in_mexico.jpg/330px-Falling_rain_in_mexico.jpg',
   imgpos: '50%',
@@ -83,4 +83,14 @@ export const gogam = _.alt('gogam', {
 export const kegaiam = _.alt('kegaiam', {
   glo: '**god**.ACC',
   alt: () => _.kegai,
+})
+
+export const esagai = _.alt('esagai', {
+  glo: 'PASS.3PL.**rain**',
+  alt: () => _.gai,
+})
+
+export const esalugai = _.alt('esalugai', {
+  glo: 'PASS.3PL.CONT.**rain**',
+  alt: () => _.gai,
 })

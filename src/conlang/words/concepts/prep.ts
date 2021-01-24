@@ -23,13 +23,16 @@ connecting words in a phrase".
 # Time
 
 * ${_.lau} (always)
-* ${_.ul} (until)
 * ${_.uya} (since)
+* ${_.lu} (while)
+* ${_.lulei} (until)
 * ${_.dem} (when.PST)
 * ${_.dir} (when.FUT)
 * ${_.lei} (then)
 
-${_.phrase('I like when you undress (your-self).', _.ozu, _.lau, _.esyinefe)}
+#### nsfw
+
+* ${_.phrase('I like when you are undressed.', _.ozu, _.lau, _.esyinefe)}
 
 # Nouns
 

@@ -7,7 +7,7 @@ export const dolo = _.word('dolo', {
 
 // === alt
 
-export const adololem = _.alt('adololem', {
-  glo: '3SG.**lie**.PST',
+export const aludololem = _.alt('aludololem', {
+  glo: '3SG.CONT.**lie**.PST',
   alt: () => _.dolo,
 })

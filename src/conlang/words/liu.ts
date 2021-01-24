@@ -13,7 +13,7 @@ export const sholiu = _.alt('sholiu', {
   alt: () => _.liu,
 })
 
-export const aliu = _.alt('aliu', {
-  glo: '3SG.**eat**',
+export const oluliu = _.alt('oluliu', {
+  glo: '1SI.CONT.**eat**',
   alt: () => _.liu,
 })

@@ -29,6 +29,6 @@ export const nemetonam = _.alt('nemetonam', {
 
 // More in the sense "made dead"
 export const esonem = _.alt('esonem', {
-  glo: 'INTR.1SI.**die**',
+  glo: 'PASS.1SI.**die**',
   alt: () => _.nem,
 })

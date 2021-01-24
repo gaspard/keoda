@@ -49,3 +49,8 @@ export const auto = _.alt('auto', {
   glo: '**heart**.POSS.1SI',
   alt: () => _.au,
 })
+
+export const esohau = _.alt('esohau', {
+  glo: 'PASS.1SI.**love**',
+  alt: () => _.au,
+})

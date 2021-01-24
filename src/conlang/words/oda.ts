@@ -53,7 +53,7 @@ export const hida = _.word('hida', {
 
 export const hina = _.word('hina', {
   noun: 'sister',
-  etym: () => [_.him, _.oda],
+  etym: () => [_.him, _.ana],
   see: () => [_.family],
 })
 export const hiwi = _.word('hiwi', {

@@ -22,6 +22,7 @@ export const falo = _.word('falo', {
   noun: 'sadness',
   verb: 'to be sad',
   etym: () => [_.fa, _.lo],
+  see: () => [_.falame],
   desc: () => `
 ${_.phrase("Don't be sad.", _.nefalo)}`,
 })

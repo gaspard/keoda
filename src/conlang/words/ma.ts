@@ -88,11 +88,6 @@ export const fuma = _.alt('fuma', {
   alt: () => _.ma,
 })
 
-export const ohesmalir = _.alt('ohesmalir', {
-  glo: '1SI.INTR.**massage**.FUT',
-  alt: () => _.ma,
-})
-
 export const pemalir = _.alt('pemalir', {
   glo: '3PL.INDF.**massage**.FUT',
   alt: () => _.ma,

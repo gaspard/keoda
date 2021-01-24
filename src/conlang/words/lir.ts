@@ -33,6 +33,6 @@ export const elir = _.word('elir', {
 // === alt
 
 export const esahelir = _.alt('esahelir', {
-  glo: 'INTR.3SG.**be**.FUT',
+  glo: 'PASS.3SG.**be**.FUT',
   alt: () => _.e,
 })

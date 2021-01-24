@@ -49,3 +49,8 @@ export const feyonam = _.alt('feyonam', {
   glo: '**panties**.ACC',
   alt: () => _.feyon,
 })
+
+export const yonato = _.alt('yonato', {
+  glo: '**vulva**.POSS.1SI',
+  alt: () => _.yon,
+})

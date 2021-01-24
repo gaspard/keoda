@@ -8,6 +8,7 @@ export const lame = _.word('lame', {
 
 export const falame = _.word('falame', {
   noun: 'tears',
+  verb: 'to cry',
   etym: () => [_.fa, _.lame],
 })
 

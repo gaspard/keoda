@@ -35,3 +35,13 @@ export const da9 = _.alt('da', {
   glo: '**9**',
   alt: () => _.da,
 })
+
+export const dahipi = _.alt('dahipi', {
+  glo: '**9**.*10*',
+  alt: () => _.da,
+})
+
+export const dahipa = _.alt('dahipa', {
+  glo: '**9**.*100*',
+  alt: () => _.da,
+})

@@ -51,7 +51,7 @@ export const iru = _.alt('iru', {
 })
 
 export const esarulem = _.alt('esarulem', {
-  glo: 'INTR.3SG.**become**.PST',
+  glo: 'PASS.3SG.**become**.PST',
   alt: () => _.e,
 })
 

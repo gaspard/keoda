@@ -51,3 +51,13 @@ export const de2 = _.alt('de', {
   glo: '**2**',
   alt: () => _.de,
 })
+
+export const dehipi = _.alt('dehipi', {
+  glo: '**2**.*10*',
+  alt: () => _.de,
+})
+
+export const dehipu = _.alt('dehipu', {
+  glo: '**2**.*1000*',
+  alt: () => _.de,
+})

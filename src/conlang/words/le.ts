@@ -24,12 +24,17 @@ export const nele = _.word('nele', {
   see: () => [_.ganes, _.nanes],
 })
 
-export const esshanele = _.alt('esshanele', {
-  glo: 'INTR.3PL.**confound**',
+export const eseshanele = _.alt('eseshanele', {
+  glo: 'PASS.3PL.**confound**',
   alt: () => _.nele,
 })
 
 export const le5 = _.alt('le', {
   glo: '**5**',
+  alt: () => _.le,
+})
+
+export const lehipi = _.alt('lehipi', {
+  glo: '**5**.*10*',
   alt: () => _.le,
 })

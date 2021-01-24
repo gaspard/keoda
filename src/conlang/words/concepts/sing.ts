@@ -121,5 +121,55 @@ ${_.phrase(
   _.piyimeshe,
   _.hadau
 )}
+
+## Death
+
+* ${_.phrase('Experiencing pain and death')}
+* ${_.phrase('Destruction and anihilation')}
+* ${_.phrase('Inside me')}
+* ${_.phrase('Inside me')}
+* ${_.phrase('Somehow, I see the love')}
+* ${_.phrase('Behind the pain')}
+* ${_.phrase('Behind death')}
+* ${_.phrase('Behind')}
+* ${_.phrase('Behind')}
+* ${_.phrase('I love you life')}
+* ${_.phrase('I love you like I never loved before')}
+* ${_.phrase('I miss dancing')}
+* ${_.phrase('I miss cuddling')}
+* ${_.phrase('I miss the eyes of another')}
+* ${_.phrase('I miss everything')}
+* ${_.phrase('This lesson in pain')}
+* ${_.phrase('Kills me')}
+* ${_.phrase('Kills me')}
+* ${_.phrase('Transformation is hard')}
+* ${_.phrase('I love you people')}
+* ${_.phrase('I miss you so much')}
+* ${_.phrase('I miss dancing with you')}
+* ${_.phrase('I miss looking at you')}
+* ${_.phrase('I miss loving you')}
+* ${_.phrase('I miss making love to life')}
+* ${_.phrase('Looking to the world')}
+* ${_.phrase('Looking at the children')}
+* ${_.phrase('Looking at animals')}
+* ${_.phrase('Looking at nature')}
+* ${_.phrase('Did I ask for so much ?')}
+* ${_.phrase('I feel loved like never before')}
+* ${_.phrase('I feel wounded like never before')}
+* ${_.phrase('Why ?')}
+* ${_.phrase('Oh why ?')}
+* ${_.phrase('To bring me closer...')}
+* ${_.phrase('To bring me closer...')}
+* ${_.phrase('I love everyone of you')}
+* ${_.phrase('I love your dreams')}
+* ${_.phrase('I love your bodies')}
+* ${_.phrase('I love your weird struggles')}
+* ${_.phrase('You are my life')}
+* ${_.phrase('You are my soul')}
+* ${_.phrase('You are my enchantment')}
+* ${_.phrase('I know I have to go down')}
+* ${_.phrase('I love you so much')}
+* ${_.phrase('For giving me this')}
+* ${_.phrase('Kindness')}
 `,
 })

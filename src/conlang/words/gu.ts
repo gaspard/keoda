@@ -110,3 +110,5 @@ export const oguwulem = _.alt('oguwulem', {
   glo: '1SI.**give**.PST',
   alt: () => _.guwu,
 })
+
+_.gulei

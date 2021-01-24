@@ -43,8 +43,6 @@ export const leme = _.word('leme', {
   tens: 'eventual past (PST.EVNT)',
   etym: () => [_.lem, _.e],
 })
-_.see(_.lei) // always
-_.see(_.nei) // never
 
 // Otajliri kepal.
 export const otajlirikepal = _.example(

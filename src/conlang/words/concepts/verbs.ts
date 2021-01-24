@@ -8,7 +8,7 @@ export const verbs = _.card('verbs', {
 Many nouns are also verbs such as ${_.fa}, ${_.fen}, ${_.yin}, ${_.taj}.
 
 One of the particularities of this language is the use of three suffix
-used to mark cases related to the body: 
+used to mark cases related to the body when derivating verbs: 
 
 * ${_.i} (CARE, caring, gentle)
 * ${_.o} (ABL, pushing, away from)
@@ -25,34 +25,60 @@ Examples:
 * ${_.phraseX('Pinch my nipple.', _.mu, _.hamunam)}
 * ${_.phraseX('Whip my butt.', _.fo, _.palam)}
 
+## The hardest case
+
+The most complicated conjugation is the continuous passive in the past or future. Here we go:
+
+* ${_.ophrase('You were being caressed.', _.esilumilem)}
+
+Decomposed in its parts, this is:
+
+| ${_.es} | ${_.i} | ${_.lu} | ${_.mi} | ${_.lem} |
+| :-:     | :-:    | :-:     | :-:     |  :-:     |
+| es | i | lu | mi | lem |
+| passive | you    | continuous | caress | past |
+
+Now that you know about the hardest, let's restart and move gently from one concept to the next.
+
+## Imperative
+
 The simplest tense is the imperative which looks like the infinitive.
 
 * ${_.phrase('Kiss my cheek (face).', _.la, _.duham)}
+
+## Word order
 
 Phrases do not have precise verb, subject or object positioning. We
 use the accusative (target) and sometimes dative (receiver) to
 remove ambiguity.
 
-* ${_.phrase('Touch my lips.', _.ma, _.laham)}
-* ${_.phrase('My hand, kiss.', _.maham, _.la)}
-* ${_.phrase('Kiss me.', _.la, _.lam)}
+* ${_.phrase('Touch (my) lips.', _.ma, _.laham)}
+* ${_.phrase('(My) hand, kiss.', _.maham, _.la)}
+* ${_.phrase('Kiss (my) lips.', _.la, _.lam)}
+* ${_.phrase(
+    'John gives the ball (ACC) to Jane (DAT)',
+    _.John,
+    _.aguwu,
+    _.tameham,
+    _.niJane
+  )}
 
-Some verbs-noun actions are so common that they fuse and "kiss my lips"
+Some verb-noun actions are so common that they fuse and "kiss my lips"
 becomes "kiss-lips" as its own verb:
 
 * ${_.phrase('Kiss-lips.', _.lala)}
 
 For more information on word order: ${_.order}
 
-# Conjugation
+## Accord with the subject
 
-For other tenses, the conjugation comes *first*. This is because it is an
-evolution from *subject verb case* to *subject.verb.case*:
+The accord with the subject comes *first*. This is because it is an
+agglutination of *subject verb case* (separate words) to *subject.verb.case* (single word):
 
 * ${_.phrase('We mouth pull', _.sho, _.li, _.u)}
 * ${_.phrase('We eat.', _.sholiu)}
 
-So the possible conjugations are the same as the possible subjects:
+So the possible accords are:
 
 * ${_.o} I/we (1SG.INDF = 1SI)
 * ${_.i} you (2SG)
@@ -61,7 +87,7 @@ So the possible conjugations are the same as the possible subjects:
 * ${_.shi} you present (2PL.PRS)
 * ${_.sha} they (3PL)
 
-## And the rarer forms
+**And the rarer forms**
 
 * ${_.okei} I (1SG.HONOR)
 * ${_.kei}  you (2SG.HONOR)
@@ -83,15 +109,53 @@ In case you haven't noticed, there is some consistency with:
 
 ## Passive voices
 
-To express passive voice, we have the intransitive case ${_.es} prefix:
+The passive voice transforms the target of the action into the subject. For this we use ${
+    _.es
+  } prefix before conjugation.
 
-* ${_.phrase('I will be massaged.', _.ohesmalir)}
+For example:
+
+* ${_.phrase('I massage your foot.', _.omi, _.sametinam)} becomes ${_.phrase(
+    'Your foot is massaged',
+    _.sameti,
+    _.esami
+  )}
+* ${_.phrase('I will be massaged.', _.esomilir)}
 
 #### nsfw
 
-* ${_.phrase('The pussy, I will be licked.', _.yonam, _.oheskelilir)}
+* ${_.phrase('My pussy will be licked.', _.yonato, _.esakelilir)}
 
-## Impersonal
+## Continuous aspect ${_.lu}
+
+To denote an action that is happening for some time, we use ${_.lu} as prefix
+on the verb (comes after accord with the subject).
+
+* ${_.phrase(
+    'He was thinkink of you when he fell asleep.',
+    _.alugahi,
+    _.idam,
+    _.dem,
+    _.afodiru
+  )}
+* ${_.phrase('Thinkink of you, he fell asleep.', _.lugahi, _.idam, _.afodiru)}
+* ${_.phrase('I am dreaming of you.', _.oluyafa, _.idam)}
+
+#### nsfw
+
+* ${_.phrase(
+    'My pussy will be licked (continuously).',
+    _.yonato,
+    _.esalukelilir
+  )}
+
+## Impersonal (weather verbs)
+
+To express things without a subject, we use the passive voice accorded to third person singular:
+
+* ${_.phrase('It rains', _.esagai)}
+* ${_.phrase('It rains (there is a rain)', _.esahe, _.gai)}
+* ${_.phrase('It is raining', _.esalugai)}
 
 This is from [1401st Just Used 5 Minutes of Your Day](https://www.reddit.com/r/conlangs/comments/kzeek7/1401st_just_used_5_minutes_of_your_day/).
 
@@ -101,7 +165,8 @@ ${_.phrase(
   _.gamalam,
   _.mei,
   _.joda,
-  _.adololem
+  _.ahelem,
+  _.aludololem
 )}
 
 ## Honorific / tiny
@@ -169,7 +234,7 @@ language originated.
 
 #### nsfw
 
-* ${_.phraseX('I am eating pussy.', _.ohe, _.ladam, _.di, _.aliu, _.yonam)}
+* ${_.phraseX('I am eating pussy.', _.oluliu, _.yonam)}
 
 Your next read: ${_.order} (word order)
 `,

@@ -63,7 +63,7 @@ export const piyinefelir = _.alt('piyinefelir', {
 })
 
 export const esyinefe = _.alt('esyinefe', {
-  glo: 'INTR.2SG.DIM.**undress**',
+  glo: 'PASS.2SG.DIM.**undress**',
   alt: () => _.nefe,
 })
 

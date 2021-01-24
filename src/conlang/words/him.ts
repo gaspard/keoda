@@ -48,3 +48,13 @@ export const gamalam = _.alt('gamalam', {
   glo: '**knowledge**.ACC',
   alt: () => _.gama,
 })
+
+export const lugahi = _.alt('lugahi', {
+  glo: 'CONT.**think**',
+  alt: () => _.gahi,
+})
+
+export const alugahi = _.alt('alugahi', {
+  glo: 'CONT.**think**',
+  alt: () => _.gahi,
+})

@@ -59,3 +59,8 @@ export const oyafalau = _.alt('oyafalau', {
   glo: '1SI.**dream**.ETERN',
   alt: () => _.yafa,
 })
+
+export const oluyafa = _.alt('oluyafa', {
+  glo: '1SI.CONT.**dream**',
+  alt: () => _.yafa,
+})
