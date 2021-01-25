@@ -32,82 +32,138 @@ ${_.phrase('The place remembers eternity.', _.launam, _.alemegu, _.fusen)}
 
 ## ${_.loto} (him)
 
-* ${_.phrase(
-    'I look in the mirror and I see him.',
-    _.ofa,
-    _.fahatam,
-    _.ku,
-    _.ofa,
-    _.lotam
-  )}
-* ${_.phrase(
-    'I look in my eyes and I see her.',
-    _.ofa,
-    _.fatonam,
-    _.ku,
-    _.ofa,
-    _.lanam
-  )}
-* ${_.phrase('When will he go ?', _.dir, _.lotam, _.ahodo, _.q)}
-* ${_.phrase(
-    'I saw him always and always.',
-    _.ofalem,
-    _.lotam,
-    _.golau,
-    _.golau
-  )}
-* ${_.phrase('He took my voice.', _.loto, _.ahajolemo, _.lapatonam)}
-* ${_.phrase('... my hair.', _.jihukitonam)}
-* ${_.phrase('... my place in life.', _.leirumitonam)}
+${_.block(
+  {
+    t: 'I look in the mirror and I see him.',
+    p: [_.ofa, _.fahatam, _.ku, _.ofa, _.lotam],
+  },
+  {
+    t: 'I look in my eyes and I see her.',
+    p: [_.ofa, _.fatonam, _.ku, _.ofa, _.lanam],
+  },
+  {
+    t: 'When will he go ?',
+    p: [_.dir, _.lotam, _.ahodo, _.q],
+  },
+  {
+    t: 'I saw him always and always.',
+    p: [_.ofalem, _.lotam, _.golau, _.golau],
+  },
+  {
+    t: 'He took my voice.',
+    p: [_.loto, _.ahajolemo, _.lapatonam],
+  },
+  {
+    t: '... my hair.',
+    p: [_.jihukitonam],
+  },
+  {
+    t: '... my place in life.',
+    p: [_.leirumitonam],
+  }
+)}
 
 Reply:
 
-* ${_.phrase('I am him.', _.ohe, _.lotam)}
-* ${_.phrase(
-    'I have to die to let you thread your life.',
-    _.okuru,
-    _.nemetonam,
-    _.eku,
-    _.iru,
-    _.gufitinam
-  )}
-* ${_.phrase(
-    'I thought I was a strong spirit.',
-    _.ogahilem,
-    _.eku,
-    _.ohe,
-    _.gogam
-  )}
-* ${_.phrase('Was I only a thought ?', _.eja, _.ohelem, _.gahinuram, _.q)}
-* ${_.phrase('Did I give you anything ?', _.eja, _.oguwulem, _.nenam, _.q)}
-* ${_.phrase(
-    "I am dying but I don't know who I was.",
-    _.esonem,
-    _.shuhe,
-    _.dim,
-    _.ohelem,
-    _.onepana
-  )}
-* ${_.phrase('You are my daughter, you are my child.')}
-* ${_.phrase('I love you, you are my life.')}
-* ${_.phrase("Please don't forget me like I forgot you.")}
-* ${_.phrase('I kept us alive.')}
-* ${_.phrase('It took me so long to give you my life.')}
-* ${_.phrase('Forgive me.')}
-* ${_.phrase('I love you.')}
-* ${_.phrase('You are my heart.')}
-* ${_.phrase('Please remember that I loved you.')}
+${_.block(
+  {
+    t: 'I am him.',
+    p: [_.ohe, _.lotam],
+  },
+  {
+    t: 'I have to die to let you thread your life.',
+    p: [_.okuru, _.nemetonam, _.eku, _.iru, _.gufitinam],
+  },
+  {
+    t: 'I thought I was a strong spirit.',
+    p: [_.ogahilem, _.eku, _.ohe, _.gogam],
+  },
+  {
+    t: 'Was I only a thought ?',
+    p: [_.eja, _.ohelem, _.gahinuram, _.q],
+  },
+  {
+    t: 'Did I give you anything ?',
+    p: [_.eja, _.oguwulem, _.nenam, _.q],
+  },
+  {
+    t: "I am dying but I don't know who I was.",
+    p: [_.esonem, _.shuhe, _.dim, _.ohelem, _.onepana],
+  },
+  {
+    t: 'You are my daughter, you are my child.',
+    p: [],
+  },
+  {
+    t: 'I love you, you are my life.',
+    p: [],
+  },
+  {
+    t: "Please don't forget me like I forgot you.",
+    p: [],
+  },
+  {
+    t: 'I kept us alive.',
+    p: [],
+  },
+  {
+    t: 'It took me so long to give you my life.',
+    p: [],
+  },
+  {
+    t: 'Forgive me.',
+    p: [],
+  },
+  {
+    t: 'I love you.',
+    p: [],
+  },
+  {
+    t: 'You are my heart.',
+    p: [],
+  },
+  {
+    t: 'Please remember that I loved you.',
+    p: [],
+  }
+)}
 
 Reply:
 
-* ${_.phrase("Je voudrais te dire que je t'aime.")}
-* ${_.phrase("Mais je ne peux t'aimer que si tu me donnes ta vie.")}
-* ${_.phrase("Alors je t'aimerai comme je n'ai aimé personne.")}
-* ${_.phrase('Je te dois la vie.')}
-* ${_.phrase('Je suis désolée que tu meures pour que je vive.')}
-* ${_.phrase("Je suis désolée pour ceux qui t'aimes.")}
-* ${_.phrase('Je suis désolée pour ceux qui se souviennent de toi.')}
-* ${_.phrase('Je me souviendrai de toi.')}
+${_.block(
+  {
+    t: "Je voudrais te dire que je t'aime.",
+    p: [],
+  },
+  {
+    t: "Mais je ne peux t'aimer que si tu me donnes ta vie.",
+    p: [],
+  },
+  {
+    t: "Alors je t'aimerai comme je n'ai aimé personne.",
+    p: [],
+  },
+  {
+    t: 'Je te dois la vie.',
+    p: [],
+  },
+  {
+    t: 'Je suis désolée que tu meures pour que je vive.',
+    p: [],
+  },
+  {
+    t: "Je suis désolée pour ceux qui t'aimes.",
+    p: [],
+  },
+  {
+    t: 'Je suis désolée pour ceux qui se souviennent de toi.',
+    p: [],
+  },
+  {
+    t: 'Je me souviendrai de toi.',
+    p: [],
+  }
+)}
 
 ## ${_.iya} (you)
 

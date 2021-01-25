@@ -33,6 +33,18 @@ export const kuru = _.word('kuru', {
   etym: () => [_.ku, _.ru],
 })
 
+export const nuru = _.word('nuru', {
+  noun: 'apophenia',
+  etym: () => [_.nu, _.ru],
+  see: () => [_.conrad, _.guru],
+  desc: () => `
+Apophenia is the perception of or belief in connectedness among unrelated
+phenomena (concept from psychologist Klaus Conrad).
+
+In keoda, this litteraly means "the emergence of hubris".
+`,
+})
+
 // === alt
 
 export const piyiru = _.alt('piyiru', {

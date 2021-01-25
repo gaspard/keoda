@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const sa = _.word('sa', {
-  noun: 'outil',
+  noun: 'tool',
 })
 
 _.see(_.masa)

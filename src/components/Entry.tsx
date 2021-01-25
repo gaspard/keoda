@@ -170,11 +170,13 @@ const Definition = styled.div`
     display: block;
     align-self: stretch;
     h4,
-    h5 {
+    h5,
+    h6 {
       display: none;
     }
     h4 + *,
-    h5 + * {
+    h5 + *,
+    h6 + * {
       position: relative;
       margin-left: 40px;
       margin-right: 80px;
@@ -185,7 +187,8 @@ const Definition = styled.div`
       }
     }
     h4 + *::before,
-    h5 + *::before {
+    h5 + *::before,
+    h6 + *::before {
       position: absolute;
       top: 4px;
       left: -23px;
@@ -207,6 +210,13 @@ const Definition = styled.div`
     }
     h5 + *::before {
       content: '💡';
+    }
+    h6 + * {
+      border-left: 6px solid #908e82;
+      background: #afada4;
+    }
+    h6 + *::before {
+      content: '';
     }
     h1 {
       font-size: 1.6rem;

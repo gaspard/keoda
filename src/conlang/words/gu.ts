@@ -3,15 +3,37 @@ import * as _ from '.'
 export const gu = _.word('gu', {
   noun: 'darkness',
   adj: 'darkness, gestation, deep',
-  desc: () => `${_.gu} is the terror of ${_.ga}.`,
   etym: () => [_.ga, _.u],
   see: () => [_.nu, _.ganes, _.gufi],
+  desc: () => `
+${_.gu} is the unrealized ${_.ga}.
+
+Unconscious --> Conscious
+
+But ${_.gu} is not just the "unconscious", it also means "experience" or
+"transformation" or even "life".
+
+In some way, it is the desire for experience, the quest for knowledge more than a
+state of "not knowing".
+
+And to complicate things further, the bigger ${_.ga} becomes, the bigger
+${_.gu} becomes because they are the same and not the same thing.
+
+We could also that ${_.gu} is "the possibility of karma" and ${_.ga} is made
+of "karma".
+
+So why does ${_.nugu} mean "terror" ? Because there is a huge potential for
+chaos and instability due to the unrooted nature of ${_.nu} and the power of
+${_.gu}
+`,
 })
 
-export const gunu = _.word('gunu', {
+export const nugu = _.word('nugu', {
   noun: 'tremendum, illusion (Thirodana)',
   see: () => [_.gana],
-  etym: () => [_.gu, _.nu],
+  etym: () => [_.nu, _.gu],
+  desc: () => `
+Litteraly, the "immaterial unconscious"`,
 })
 
 export const gulir = _.word('gulir', {
@@ -28,7 +50,7 @@ export const lemegu = _.word('lemegu', {
 export const guna = _.word('guna', {
   noun: 'dissociation, robot',
   etym: () => [_.gu, _.na],
-  see: () => [_.ganu],
+  see: () => [_.nuga],
 })
 
 export const gui = _.word('gui', {
@@ -53,8 +75,15 @@ export const guwuna = _.word('guwuna', {
 })
 
 export const guru = _.word('guru', {
-  noun: 'realization of the spirit',
+  noun: 'trema (stage fright)',
   etym: () => [_.gu, _.ru],
+  see: () => [_.conrad, _.nuru],
+  desc: () => `
+Trema is the feeling of something bad coming, the feeling of the world
+conspiring against oneself (concept from psychologist Klaus Conrad).
+
+In keoda, this litteraly means "the emergence of the darkness".
+`,
 })
 
 export const gugai = _.word('gugai', {

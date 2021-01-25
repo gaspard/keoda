@@ -25,17 +25,17 @@ ganes       /
         /
 gu    /
     /
-gunu  nu    nanes    na
+nugu  nu    nanes    na
 ~~~
 
 The \`/\` diagonal between gunu and gana represent **integration**. Distances
 from this diagonal represent some level of psychosis (above) or dissociation
 (below).
 
-As you can see, the only way to escape the terror of ${_.gunu} is to reach
-${_.gana} (earth), not ${_.guna} (dissociation, robot) nor ${_.ganu} (psychosis, god-child).
+As you can see, the only way to escape the terror of ${_.nugu} is to reach
+${_.gana} (earth), not ${_.guna} (dissociation, robot) nor ${_.nuga} (psychosis, god-child).
 
-In reality, ${_.gunu} and ${_.gana} are folded together and are the same
+In reality, ${_.nugu} and ${_.gana} are folded together and are the same
 thing. The growth of the spirit is just a way to come back to the childhood
 of the spirit. It is the same but it is not the same, like looking at
 your loved one with or without alzheimer. The loved one is the same but

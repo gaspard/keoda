@@ -41,6 +41,10 @@ export function phrase(trad: string, ...args: Entry[]) {
   return makePhrase({ trad, words: () => args })
 }
 
+export function block(...phrases: { t: string; p: Entry[] }[]) {
+  return `###### block\n* ${phrases.map(p => phrase(p.t, ...p.p)).join('\n* ')}`
+}
+
 export function phraseX(trad: string, ...args: Entry[]) {
   return makePhrase({ trad, nsfw: true, words: () => args })
 }

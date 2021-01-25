@@ -2,7 +2,7 @@ import * as _ from '..'
 
 export const aaa = _.card('aaa', {
   desc: () => `
-# Why Keoda ?
+# Why keoda ?
 
 My first goal was to create a language for love and sex. Something that would
 make it easy and fun to express desire, play with power exchanges and honor
@@ -47,7 +47,7 @@ I have always loved languages, choreography notations, music notation,
 programming languages. Maybe this is my way to try and decipher why I felt
 so dead inside... or a way to escape reality and dream of peace.
 
-So here is **Keoda**, a language born in the realm of sexuality, evolved as a
+So here is **keoda**, a language born in the realm of sexuality, evolved as a
 way of coping through mental illness and blossomed in the poetic realm as a
 way to build a bridge above the ugly waters of gender dysphoria,
 ${_.iwigui}...

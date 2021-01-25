@@ -8,7 +8,7 @@ export const ga = _.word('ga', {
 export const gana = _.word('gana', {
   noun: 'earth (Anugraha)',
   etym: () => [_.ga, _.na],
-  see: () => [_.gunu],
+  see: () => [_.nugu],
 })
 
 export const ganaro = _.alt('ganaro', {
