@@ -16,7 +16,7 @@ export const elau = _.word('elau', {
 
 // === alt
 
-export const launam = _.alt('launam', {
+export const laum = _.alt('laum', {
   glo: '**eternity**.ACC',
   alt: () => _.lau,
 })

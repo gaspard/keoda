@@ -8,3 +8,10 @@ export const pedili = _.word('pedili', {
   noun: 'fork',
   etym: () => [_.pe3, _.dili],
 })
+
+// === alt
+
+export const dilin = _.alt('dilin', {
+  glo: '**claw**.ACC',
+  alt: () => _.dili,
+})

@@ -7,7 +7,8 @@ export const she = _.word('she', {
 
 // === alt
 
-export const shehegiam = _.alt('shehegiam', {
+export const shehegim = _.alt('shehegam', {
   glo: '**air**.*fresh*.ACC',
   alt: () => _.she,
+  see: () => [_.egi],
 })

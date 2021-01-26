@@ -16,9 +16,9 @@ used to mark cases related to the body when derivating verbs:
 
 Examples:
 
-* ${_.phrase('Caress (i) my long hair.', _.mi, _.jihukiam)}
-* ${_.phrase('You breath (u) fresh air.', _.isheu, _.shehegiam)}
-* ${_.phrase('Yesterday, you threw (o) the ball.', _.irumolema, _.tameham)}
+* ${_.phrase('Caress (i) my long hair.', _.mi, _.jihukin)}
+* ${_.phrase('You breath (u) fresh air.', _.isheu, _.shehegim)}
+* ${_.phrase('Yesterday, you threw (o) the ball.', _.irumolema, _.tamem)}
 
 #### nsfw
 
@@ -53,13 +53,13 @@ use the accusative (target) and sometimes dative (receiver) to
 remove ambiguity.
 
 * ${_.phrase('Touch (my) lips.', _.ma, _.laham)}
-* ${_.phrase('(My) hand, kiss.', _.maham, _.la)}
+* ${_.phrase('(My) hand, kiss.', _.maye, _.la)}
 * ${_.phrase('Kiss (my) lips.', _.la, _.lam)}
 * ${_.phrase(
     'John gives the ball (ACC) to Jane (DAT)',
     _.John,
     _.aguwu,
-    _.tameham,
+    _.tamem,
     _.niJane
   )}
 

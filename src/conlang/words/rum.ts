@@ -38,12 +38,13 @@ export const irumolema = _.alt('irumolema', {
   alt: () => _.lema,
 })
 
-export const leirumitonam = _.alt('leirumitonam', {
-  glo: '*time*.**embrace**.POSS.1SI.ACC',
+// poss prefix
+export const toleirumi = _.alt('toleirumi', {
+  glo: 'POSS.1SI.*time*.**embrace**',
   alt: () => _.leirumi,
 })
 
-export const rorumitinam = _.alt('rorumitinam', {
+export const rorumitin = _.alt('rorumitin', {
   glo: '*INESS*.**hug**.POSS.2SG.ACC',
   alt: () => _.ro,
 })

@@ -54,3 +54,8 @@ export const esohau = _.alt('esohau', {
   glo: 'PASS.1SI.**love**',
   alt: () => _.au,
 })
+
+export const aum = _.alt('aum', {
+  glo: '**heart**.ACC',
+  alt: () => _.au,
+})

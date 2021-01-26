@@ -48,7 +48,7 @@ ${_.phrase(
   _.lajatim,
   _.fatinam,
   _.uma,
-  _.lapatim
+  _.lapatin
 )}
 
 ${_.phrase(
@@ -60,7 +60,7 @@ ${_.phrase(
   _.ku
 )}
 
-${_.phrase('Mon cœur bat sur mes lèvres', _.auto, _.afo, _.latonam)}
+${_.phrase('Mon cœur bat sur mes lèvres', _.auto, _.afo, _.laton)}
 
 Et ma gorge s'étrangle.  
 La chaleur et le froid tour à tour m'envahissent,  

@@ -13,7 +13,7 @@ goes on ${_.duha} or ${_.John}:
 * ${_.phrase("They look at John's hand.", _.shafa, _.John, _.duham)}
 
 On words with an adjective or other suffix, ${_.am} suffix always comes last: ${
-    _.jihukitonam
+    _.tojihuki
   }
 
 To add ${_.am} on words ending with a vowel, add an \`n\`.

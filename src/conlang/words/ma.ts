@@ -63,22 +63,22 @@ export const masalele = _.word('masalele', {
 
 // ========== alt
 
-export const toma = _.alt('mato', {
+export const toma = _.alt('toma', {
   glo: '1SI.POSS.**hand**',
   alt: () => _.ma,
 })
 
-export const matiham = _.alt('matiham', {
+export const matim = _.alt('matim', {
   glo: '**hand**.2SG.POSS.ACC',
   alt: () => _.ma,
 })
 
-export const matoham = _.alt('matoham', {
+export const matom = _.alt('matom', {
   glo: '**hand**.1SI.POSS.ACC',
   alt: () => _.ma,
 })
 
-export const maham = _.alt('maham', {
+export const maye = _.alt('maye', {
   glo: '**hand**.ACC',
   alt: () => _.ma,
 })

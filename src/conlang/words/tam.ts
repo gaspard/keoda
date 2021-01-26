@@ -7,7 +7,7 @@ _.see(_.pantame)
 
 // === alt
 
-export const tameham = _.alt('tameham', {
+export const tamem = _.alt('tamem', {
   glo: '**ball**.ACC',
   alt: () => _.tame,
 })

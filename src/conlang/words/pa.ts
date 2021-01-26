@@ -1,7 +1,8 @@
 import * as _ from '.'
 
 export const pa = _.word('pa', {
-  noun: 'everything, mystery',
+  noun: 'everywhere',
+  suffix: 'mystery',
   glo: 'MYST',
   see: () => [_.fi],
 })
@@ -23,5 +24,9 @@ export const paoda = _.word('paoda', {
   pron: 'tou.te.s',
 })
 
-_.see(_.nepa)
-_.see(_.aupa)
+// === alt
+
+export const paye = _.alt('paye', {
+  glo: '**everywhere**.ACC',
+  alt: () => _.pa,
+})

@@ -22,12 +22,12 @@ export const jihuki = _.alt('jihuki', {
   alt: () => _.ji,
 })
 
-export const jihukiam = _.alt('jihukiam', {
+export const jihukin = _.alt('jihukin', {
   glo: '**hair**.*long*.ACC',
   alt: () => _.ji,
 })
 
-export const jihukitonam = _.alt('jihukitonam', {
-  glo: '**hair**.*long*.POSS.1SI.ACC',
+export const tojihuki = _.alt('tojihuki', {
+  glo: 'POSS.1SI.**hair**.*long*',
   alt: () => _.ji,
 })

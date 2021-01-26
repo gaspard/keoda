@@ -80,7 +80,7 @@ correct because english is not a free word order language.
 
 ${_.phrase('Jane whips the butt of John', _.Jane, _.afo, _.palwu, _.Johnam)}
 
-${_.phrase('John gives the ball to Jane', _.John, _.aguwu, _.tameham, _.niJane)}
+${_.phrase('John gives the ball to Jane', _.John, _.aguwu, _.tamem, _.niJane)}
 
 ${_.phrase(
   'John talks about Iris to Jane',
@@ -93,7 +93,7 @@ ${_.phrase(
 ${_.phrase(
   'To John, insults, yells Jane.',
   _.niJohn,
-  _.lanaguam,
+  _.lanagum,
   _.ahaopa,
   _.Jane
 )}
@@ -122,12 +122,27 @@ ${_.phrase(
   'John throws the ball at Jane',
   _.John,
   _.arumo,
-  _.tameham,
+  _.tamem,
   _.dona,
   _.Jane
 )}
 
 ## Accusative marking
+
+We add the ${_.am} suffix but sounds are (usually) transformed as follow:
+
+* /..da+am/ => /dam/
+* /..na+am/ => /nam/
+* /..ti+am/ => /tim/
+* /..to+am/ => /tom/
+* /..ta+am/ => /tam/
+* /...a+am/ => /aye/
+* /...u+am/ => /um/
+* /...e+am/ => /em/
+* /...i+am/ => /in/
+* /...o+am/ => /on/
+
+For poetic purpose, the full "nam" can be used on vowel ending: ${_.tojihuki}
 
 Here are some examples to show when accusative marking on grouped and ungrouped words of a noun phrase.
 

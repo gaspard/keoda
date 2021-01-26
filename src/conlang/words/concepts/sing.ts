@@ -28,38 +28,44 @@ ${_.phrase(
   _.sen
 )}
 
-${_.phrase('The place remembers eternity.', _.launam, _.alemegu, _.fusen)}
+${_.phrase(
+  'Eternity is remembered by the place.',
+  _.laum,
+  _.wa,
+  _.alemegu,
+  _.fusen
+)}
 
 ## ${_.loto} (him)
 
 ${_.block(
   {
     t: 'I look in the mirror and I see him.',
-    p: [_.ofa, _.fahatam, _.ku, _.ofa, _.lotam],
+    p: [_.ofa, _.fahataye, _.ku, _.ofa, _.lotom],
   },
   {
     t: 'I look in my eyes and I see her.',
-    p: [_.ofa, _.fatonam, _.ku, _.ofa, _.lanam],
+    p: [_.ofa, _.fatom, _.ku, _.ofa, _.lanam],
   },
   {
     t: 'When will he go ?',
-    p: [_.dir, _.lotam, _.ahodo, _.q],
+    p: [_.dir, _.lotom, _.ahodo, _.q],
   },
   {
     t: 'I saw him always and always.',
-    p: [_.ofalem, _.lotam, _.golau, _.golau],
+    p: [_.ofalem, _.lotom, _.golau, _.golau],
   },
   {
     t: 'He took my voice.',
-    p: [_.loto, _.ahajolemo, _.lapatonam],
+    p: [_.loto, _.ahajolemo, _.tolapaye],
   },
   {
-    t: '... my hair.',
-    p: [_.jihukitonam],
+    t: '... my hair everywhere.',
+    p: [_.tojihuki, _.paye],
   },
   {
-    t: '... my place in life.',
-    p: [_.leirumitonam],
+    t: '... my place in life everywhere.',
+    p: [_.toleirumi, _.paye],
   }
 )}
 
@@ -68,7 +74,7 @@ Reply:
 ${_.block(
   {
     t: 'I am him.',
-    p: [_.ohe, _.lotam],
+    p: [_.ohe, _.lotom],
   },
   {
     t: 'I have to die to let you thread your life.',
@@ -167,7 +173,7 @@ ${_.block(
 
 ## ${_.iya} (you)
 
-${_.phrase('I fall asleep in your embrace.', _.piyifodi, _.rorumitinam)}
+${_.phrase('I fall asleep in your embrace.', _.piyifodi, _.rorumitin)}
 
 ${_.phrase(
   'I become a small girl as I drift away.',

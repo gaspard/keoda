@@ -12,7 +12,7 @@ export const loto = _.word('loto', {
   see: () => [_.pron],
 })
 
-export const lotam = _.alt('lotam', {
+export const lotom = _.alt('lotom', {
   glo: '**him**.ACC',
   alt: () => _.loto,
 })

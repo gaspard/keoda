@@ -8,7 +8,7 @@ export const fa = _.word('fa', {
   desc: () => `
 ${_.phrase('Show your eyes.', _.guwu, _.faham)}
 
-${_.phrase('Look at my hand.', _.fa, _.matoham)}
+${_.phrase('Look at my hand.', _.fa, _.matom)}
 `,
 })
 
@@ -70,7 +70,7 @@ export const pifa = _.alt('pifa', {
   alt: () => _.fa,
 })
 
-export const fahatam = _.alt('fahatam', {
+export const fahataye = _.alt('fahataye', {
   glo: '**mirror**.ACC',
   alt: () => _.fahata,
 })
@@ -80,7 +80,7 @@ export const shafa = _.alt('shafa', {
   alt: () => _.fa,
 })
 
-export const fatonam = _.alt('fatonam', {
+export const fatom = _.alt('fatom', {
   glo: '**eyes**.POSS.1SI',
   alt: () => _.fa,
 })

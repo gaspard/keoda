@@ -74,6 +74,7 @@ export const anam = _.alt('anam', {
   alt: () => _.ana,
 })
 
+// irreg (should be lano but did not evolve)
 export const lanam = _.alt('lanam', {
   glo: '**her**.ACC',
   alt: () => _.lana,

@@ -332,7 +332,7 @@
       "glo": "ACC",
       "suffix": "recipient",
       "verb": "to receive",
-      "desc": "\nThe suffix is added to the last part of the a group with the accusative case.\nSo if the noun phrase is John's face, depending on word order, the [am](word-am)\ngoes on [duha](word-duha) or [John](word-John):\n  \n* [204](phrase-204)\n* [205](phrase-205)\n\nOn words with an adjective or other suffix, [am](word-am) suffix always comes last: [jihukitonam](alt-jihukitonam)\n\nTo add [am](word-am) on words ending with a vowel, add an `n`.\n",
+      "desc": "\nThe suffix is added to the last part of the a group with the accusative case.\nSo if the noun phrase is John's face, depending on word order, the [am](word-am)\ngoes on [duha](word-duha) or [John](word-John):\n  \n* [204](phrase-204)\n* [205](phrase-205)\n\nOn words with an adjective or other suffix, [am](word-am) suffix always comes last: [tojihuki](alt-tojihuki)\n\nTo add [am](word-am) on words ending with a vowel, add an `n`.\n",
       "fulltext": "am",
       "writ": "అం",
       "phon": "/am/",
@@ -380,21 +380,17 @@
       "name": "lana",
       "id": "word-lana",
       "type": "word",
-      "noun": "speech",
-      "etym": [
-        "word-la",
-        "word-na"
+      "noun": "she",
+      "glo": "3SG.FEM",
+      "see": [
+        "card-pronouns"
       ],
       "phrases": [
-        "phrase-192"
+        "phrase-80"
       ],
       "fulltext": "lana",
       "writ": "లానా",
-      "phon": "/lana/",
-      "glo": "**speech**",
-      "deriv": [
-        "word-lanagu"
-      ]
+      "phon": "/lana/"
     },
     "word-anawi": {
       "name": "anawi",
@@ -4454,9 +4450,9 @@
       "phon": "/la/",
       "glo": "**lips**",
       "deriv": [
-        "word-lana",
         "word-kela",
         "word-lapa",
+        "word-lapana",
         "word-laj",
         "word-ulul"
       ]
@@ -4604,13 +4600,33 @@
       "phon": "/gilapa/",
       "glo": "**to whisper**"
     },
+    "word-lapana": {
+      "name": "lapana",
+      "id": "word-lapana",
+      "type": "word",
+      "noun": "speech",
+      "etym": [
+        "word-la",
+        "word-na"
+      ],
+      "phrases": [
+        "phrase-192"
+      ],
+      "fulltext": "lapana",
+      "writ": "లాపానా",
+      "phon": "/lapana/",
+      "glo": "**speech**",
+      "deriv": [
+        "word-lanagu"
+      ]
+    },
     "word-lanagu": {
       "name": "lanagu",
       "id": "word-lanagu",
       "type": "word",
       "noun": "insult",
       "etym": [
-        "word-lana",
+        "word-lapana",
         "word-gu"
       ],
       "phrases": [
@@ -5738,13 +5754,13 @@
       "glo": "**thing**",
       "deriv": [
         "word-agana",
-        "word-lana",
         "word-dana",
         "word-fena",
         "word-fiona",
         "word-gana",
         "word-guna",
         "word-guwuna",
+        "word-lapana",
         "word-lemana",
         "word-lirana",
         "word-muna",
@@ -6856,10 +6872,15 @@
       "name": "pa",
       "id": "word-pa",
       "type": "word",
-      "noun": "everything, mystery",
+      "noun": "everywhere",
+      "suffix": "mystery",
       "glo": "MYST",
       "see": [
         "word-fi"
+      ],
+      "phrases": [
+        "phrase-84",
+        "phrase-85"
       ],
       "fulltext": "pa",
       "writ": "పా",
@@ -9118,6 +9139,7 @@
       "noun": "is",
       "glo": "TOP",
       "phrases": [
+        "phrase-78",
         "phrase-196",
         "phrase-202"
       ],
@@ -10382,6 +10404,16 @@
       "phon": "/hɛrɔ/",
       "glo": "**Words for a Campbelian quest**"
     },
+    "card-irreg": {
+      "name": "irreg",
+      "id": "card-irreg",
+      "type": "card",
+      "desc": "\n# The language is boring\n\nNow that I feel that I have sorted things out in a very \"mathematical\" and predictable\nway, I realise it make the language actually **harder** to memorize because everything\nlooks like everything.\n\nIrregularities wanted !\n\nWith my choice of accusative [am](word-am) ending and tenses, then all verbs and many nouns\nend in either [am](word-am) or [lem](word-lem) or [lir](word-lir). Maybe I should have something more varied\nfor accusative. This would be a good start.\n\n## Word assembly\n\nCurrent word assembly is boring. To be explored.\n\n## Accusative rules\n\nWords ending with a vowel change like this on the accusative:\n\n* /..da+am/ => /dam/\n* /..na+am/ => /nam/\n* /..ti+am/ => /tim/\n* /..to+am/ => /tom/\n* /..ta+am/ => /tam/\n* /...a+am/ => /aye/\n* /...u+am/ => /um/\n* /...i+am/ => /in/\n* /...o+am/ => /on/\n\nExamples: \n\n* [odam](alt-odam) /da+am/ => /dam/\n* [dodam](alt-dodam) /da+am/ => /do/\n* [lapano](alt-lapano) /na+am/ => /nam/\n* [dilin](alt-dilin) (/i+am/ => /in/)\n* [maye](alt-maye) (/a+am/ => /aye/)\n* [aum](alt-aum) (/u+am/ => /um/)\n* [palam](alt-palam) (normal)\n* [yonam](alt-yonam) (normal)\n\nWhen doing poetry or writing, the old (full) forms can be used for style.\n\nWith this \"trick\" and because accusative case is usualy only marked on the last\nword of the noun phrase, we can use adjectives to change rhyme, while still having\naccusative marking.\n\n## Subject accord\n\nI also feel that something could be done here but... No. It is fine like it is and\nit would become very confusing.\n\n## Tenses\n\nShould I keep this regularity ? Yes, it's nice and funny.\n\nlire, liro, liru, lira, liri ?\nleme, lemo, lemu, lema, lemi ?\n\nConjugation is not really a conjugation, it's just a time marker. Maybe I need\nsomething else...\n\nOr maybe try to evolve sounds from these basic rules, maybe having some words from another\nprotolang...\n\n",
+      "fulltext": "irreg",
+      "writ": "ఇర్‌రేగ్‌",
+      "phon": "/irrɛg/",
+      "glo": "**undefined**"
+    },
     "card-kedana": {
       "name": "kedana",
       "id": "card-kedana",
@@ -10424,7 +10456,7 @@
       "type": "card",
       "open": true,
       "writ": "order",
-      "desc": "\nWord order evolved to be nearly free so that we can put emphasis and\nexpectation on any part of the phrase, helping identify the [theme](https://en.wikipedia.org/wiki/Topic_and_comment) and the\n[rheme](https://en.wikipedia.org/wiki/Topic_and_comment), the topic and the comment, the known and the unknown, the old information and the new.\n\n##### note \n\nClick on the \"i\" emoji on the top right corner of this card to hide/show gloss and\ntraductions for all phrases on this card.\n\nIn order to be able to move words and sub phrases around, we use three cases:\n\n* [fu](word-fu) *Ergative*: the doer (who)\n* [am](word-am) *Accusative*: object / receiver (what)\n* [ni](word-ni) *Dative*: incidental receiver (to whom)\n\nFor more information on accusative and dative, I found\n[this](http://courses.washington.edu/furman2/dative%20&%20accusative/expl-ex.htm)\nto be a good read.\n\nErgative case marking is rare. It is only used when we want to emphasize\nwho does the action or if the context is very confusing (for example when\nusing body parts as subjects):\n\n[45](phrase-45)\n\n## Examples:\n\nIn these examples, the english traductions are not meant to be grammatically\ncorrect because english is not a free word order language.\n\n#### nsfw\n\n[46](phrase-46)\n\n[47](phrase-47)\n\n[48](phrase-48)\n\n[49](phrase-49)\n\n## Some more examples\n\n[50](phrase-50)\n\n[51](phrase-51)\n\n[52](phrase-52)\n\nAnd in this one, \"Jane\" is the object of a preposition (the place where the\nall is thrown) and has no marking.\n\n[53](phrase-53)\n\n## Accusative marking\n\nHere are some examples to show when accusative marking on grouped and ungrouped words of a noun phrase.\n\n[54](phrase-54)\n\n[55](phrase-55)\n\n[56](phrase-56)\n\n---\n\nIn our imaginary context, Jane is the Domina and John's butt is the receiver\nof the action. Talking to friends we want to tell that Jane will be whipping\nJohn's butt putting emphasis on any part of this action by suspending\ndiscourse and revealing the crux of the action last. So here are the\ndifferent parts:\n\n1. Jane (Subject, optional ergative case [fu](word-fu))\n2. will (Tense)\n3. whip (Verb)\n4. John's butt (Receiver, accusative [am](word-am))\n\n## 1. Emphasis on the subject\n\n[57](phrase-57)\n\n## 2. Emphasis on the tense\n\nNote that here we do not say [58](phrase-58) because pal is seen\nas part of the verb \"to whip a butt\". Body parts tend to stick to verbs and\nactions. Don't ask me why.\n\n[59](phrase-59)\n\n## 3. Emphasis on the verb\n\n[60](phrase-60)\n\n## 4. Emphasis on the receiver\n\n[61](phrase-61)\n\n## 5. Emphasis on the body part\n\n[62](phrase-62)\n\n---\n\n## One last word\n\nThe topic of the phrase can be further highlighted by ending the first part\nof the phrase with [wa](word-wa). This allows a kind of pause before saying\nprecisely what happens (the comment).\n\nWe all know Jane loves to whip but we are really interested in knowing\nwho's butt it will be: \n\n[63](phrase-63)\n\nYour next read: [genders](card-genders) (genders)\n",
+      "desc": "\nWord order evolved to be nearly free so that we can put emphasis and\nexpectation on any part of the phrase, helping identify the [theme](https://en.wikipedia.org/wiki/Topic_and_comment) and the\n[rheme](https://en.wikipedia.org/wiki/Topic_and_comment), the topic and the comment, the known and the unknown, the old information and the new.\n\n##### note \n\nClick on the \"i\" emoji on the top right corner of this card to hide/show gloss and\ntraductions for all phrases on this card.\n\nIn order to be able to move words and sub phrases around, we use three cases:\n\n* [fu](word-fu) *Ergative*: the doer (who)\n* [am](word-am) *Accusative*: object / receiver (what)\n* [ni](word-ni) *Dative*: incidental receiver (to whom)\n\nFor more information on accusative and dative, I found\n[this](http://courses.washington.edu/furman2/dative%20&%20accusative/expl-ex.htm)\nto be a good read.\n\nErgative case marking is rare. It is only used when we want to emphasize\nwho does the action or if the context is very confusing (for example when\nusing body parts as subjects):\n\n[45](phrase-45)\n\n## Examples:\n\nIn these examples, the english traductions are not meant to be grammatically\ncorrect because english is not a free word order language.\n\n#### nsfw\n\n[46](phrase-46)\n\n[47](phrase-47)\n\n[48](phrase-48)\n\n[49](phrase-49)\n\n## Some more examples\n\n[50](phrase-50)\n\n[51](phrase-51)\n\n[52](phrase-52)\n\nAnd in this one, \"Jane\" is the object of a preposition (the place where the\nall is thrown) and has no marking.\n\n[53](phrase-53)\n\n## Accusative marking\n\nWe add the [am](word-am) suffix but sounds are (usually) transformed as follow:\n\n* /..da+am/ => /dam/\n* /..na+am/ => /nam/\n* /..ti+am/ => /tim/\n* /..to+am/ => /tom/\n* /..ta+am/ => /tam/\n* /...a+am/ => /aye/\n* /...u+am/ => /um/\n* /...e+am/ => /em/\n* /...i+am/ => /in/\n* /...o+am/ => /on/\n\nFor poetic purpose, the full \"nam\" can be used on vowel ending: [tojihuki](alt-tojihuki)\n\nHere are some examples to show when accusative marking on grouped and ungrouped words of a noun phrase.\n\n[54](phrase-54)\n\n[55](phrase-55)\n\n[56](phrase-56)\n\n---\n\nIn our imaginary context, Jane is the Domina and John's butt is the receiver\nof the action. Talking to friends we want to tell that Jane will be whipping\nJohn's butt putting emphasis on any part of this action by suspending\ndiscourse and revealing the crux of the action last. So here are the\ndifferent parts:\n\n1. Jane (Subject, optional ergative case [fu](word-fu))\n2. will (Tense)\n3. whip (Verb)\n4. John's butt (Receiver, accusative [am](word-am))\n\n## 1. Emphasis on the subject\n\n[57](phrase-57)\n\n## 2. Emphasis on the tense\n\nNote that here we do not say [58](phrase-58) because pal is seen\nas part of the verb \"to whip a butt\". Body parts tend to stick to verbs and\nactions. Don't ask me why.\n\n[59](phrase-59)\n\n## 3. Emphasis on the verb\n\n[60](phrase-60)\n\n## 4. Emphasis on the receiver\n\n[61](phrase-61)\n\n## 5. Emphasis on the body part\n\n[62](phrase-62)\n\n---\n\n## One last word\n\nThe topic of the phrase can be further highlighted by ending the first part\nof the phrase with [wa](word-wa). This allows a kind of pause before saying\nprecisely what happens (the comment).\n\nWe all know Jane loves to whip but we are really interested in knowing\nwho's butt it will be: \n\n[63](phrase-63)\n\nYour next read: [genders](card-genders) (genders)\n",
       "fulltext": "order",
       "phon": "/ɔrdɛr/",
       "glo": "**undefined**"
@@ -10647,7 +10679,7 @@
       "trad": "Look at my hand.",
       "words": [
         "word-fa",
-        "alt-matoham"
+        "alt-matom"
       ],
       "see": [
         "word-fa"
@@ -10656,7 +10688,7 @@
       "writ": "౭",
       "phon": "/7/",
       "glo": "**undefined**",
-      "phrase": "fa matoham"
+      "phrase": "fa matom"
     },
     "phrase-8": {
       "name": "8",
@@ -11388,7 +11420,7 @@
       "words": [
         "word-John",
         "alt-aguwu",
-        "alt-tameham",
+        "alt-tamem",
         "alt-niJane"
       ],
       "see": [
@@ -11398,7 +11430,7 @@
       "writ": "౪౭",
       "phon": "/47/",
       "glo": "**undefined**",
-      "phrase": "John aguwu tameham niJane"
+      "phrase": "John aguwu tamem niJane"
     },
     "phrase-48": {
       "name": "48",
@@ -11427,7 +11459,7 @@
       "trad": "To John, insults, yells Jane.",
       "words": [
         "alt-niJohn",
-        "alt-lanaguam",
+        "alt-lanagum",
         "alt-ahaopa",
         "word-Jane"
       ],
@@ -11438,7 +11470,7 @@
       "writ": "౪౯",
       "phon": "/49/",
       "glo": "**undefined**",
-      "phrase": "niJohn lanaguam ahaopa Jane"
+      "phrase": "niJohn lanagum ahaopa Jane"
     },
     "phrase-50": {
       "name": "50",
@@ -11510,7 +11542,7 @@
       "words": [
         "word-John",
         "alt-arumo",
-        "alt-tameham",
+        "alt-tamem",
         "word-dona",
         "word-Jane"
       ],
@@ -11521,7 +11553,7 @@
       "writ": "౫౩",
       "phon": "/53/",
       "glo": "**undefined**",
-      "phrase": "John arumo tameham dona Jane"
+      "phrase": "John arumo tamem dona Jane"
     },
     "phrase-54": {
       "name": "54",
@@ -11815,7 +11847,7 @@
       "type": "phrase",
       "trad": "My/our hand covers your skin.",
       "words": [
-        "alt-mato",
+        "alt-toma",
         "alt-afe",
         "alt-noati"
       ],
@@ -11826,7 +11858,7 @@
       "writ": "౬౯",
       "phon": "/69/",
       "glo": "**undefined**",
-      "phrase": "mato afe noati"
+      "phrase": "toma afe noati"
     },
     "phrase-70": {
       "name": "70",
@@ -11994,9 +12026,10 @@
       "name": "78",
       "id": "phrase-78",
       "type": "phrase",
-      "trad": "The place remembers eternity.",
+      "trad": "Eternity is remembered by the place.",
       "words": [
-        "alt-launam",
+        "alt-laum",
+        "word-wa",
         "alt-alemegu",
         "alt-fusen"
       ],
@@ -12007,7 +12040,7 @@
       "writ": "౭౮",
       "phon": "/78/",
       "glo": "**undefined**",
-      "phrase": "launam alemegu fusen"
+      "phrase": "laum wa alemegu fusen"
     },
     "phrase-79": {
       "name": "79",
@@ -12016,10 +12049,10 @@
       "trad": "I look in the mirror and I see him.",
       "words": [
         "alt-ofa",
-        "alt-fahatam",
+        "alt-fahataye",
         "word-ku",
         "alt-ofa",
-        "alt-lotam"
+        "alt-lotom"
       ],
       "see": [
         "card-sing"
@@ -12028,7 +12061,7 @@
       "writ": "౭౯",
       "phon": "/79/",
       "glo": "**undefined**",
-      "phrase": "ofa fahatam ku ofa lotam"
+      "phrase": "ofa fahataye ku ofa lotom"
     },
     "phrase-80": {
       "name": "80",
@@ -12037,7 +12070,7 @@
       "trad": "I look in my eyes and I see her.",
       "words": [
         "alt-ofa",
-        "alt-fatonam",
+        "alt-fatom",
         "word-ku",
         "alt-ofa",
         "alt-lanam"
@@ -12049,7 +12082,7 @@
       "writ": "౮౦",
       "phon": "/80/",
       "glo": "**undefined**",
-      "phrase": "ofa fatonam ku ofa lanam"
+      "phrase": "ofa fatom ku ofa lanam"
     },
     "phrase-81": {
       "name": "81",
@@ -12058,7 +12091,7 @@
       "trad": "When will he go ?",
       "words": [
         "word-dir",
-        "alt-lotam",
+        "alt-lotom",
         "alt-ahodo",
         "word-?"
       ],
@@ -12069,7 +12102,7 @@
       "writ": "౮౧",
       "phon": "/81/",
       "glo": "**undefined**",
-      "phrase": "dir lotam ahodo ?"
+      "phrase": "dir lotom ahodo ?"
     },
     "phrase-82": {
       "name": "82",
@@ -12078,7 +12111,7 @@
       "trad": "I saw him always and always.",
       "words": [
         "alt-ofalem",
-        "alt-lotam",
+        "alt-lotom",
         "alt-golau",
         "alt-golau"
       ],
@@ -12089,7 +12122,7 @@
       "writ": "౮౨",
       "phon": "/82/",
       "glo": "**undefined**",
-      "phrase": "ofalem lotam golau golau"
+      "phrase": "ofalem lotom golau golau"
     },
     "phrase-83": {
       "name": "83",
@@ -12099,7 +12132,7 @@
       "words": [
         "word-loto",
         "alt-ahajolemo",
-        "alt-lapatonam"
+        "alt-tolapaye"
       ],
       "see": [
         "card-sing"
@@ -12108,15 +12141,16 @@
       "writ": "౮౩",
       "phon": "/83/",
       "glo": "**undefined**",
-      "phrase": "loto ahajolemo lapatonam"
+      "phrase": "loto ahajolemo tolapaye"
     },
     "phrase-84": {
       "name": "84",
       "id": "phrase-84",
       "type": "phrase",
-      "trad": "... my hair.",
+      "trad": "... my hair everywhere.",
       "words": [
-        "alt-jihukitonam"
+        "alt-tojihuki",
+        "alt-paye"
       ],
       "see": [
         "card-sing"
@@ -12125,15 +12159,16 @@
       "writ": "౮౪",
       "phon": "/84/",
       "glo": "**undefined**",
-      "phrase": "jihukitonam"
+      "phrase": "tojihuki paye"
     },
     "phrase-85": {
       "name": "85",
       "id": "phrase-85",
       "type": "phrase",
-      "trad": "... my place in life.",
+      "trad": "... my place in life everywhere.",
       "words": [
-        "alt-leirumitonam"
+        "alt-toleirumi",
+        "alt-paye"
       ],
       "see": [
         "card-sing"
@@ -12142,7 +12177,7 @@
       "writ": "౮౫",
       "phon": "/85/",
       "glo": "**undefined**",
-      "phrase": "leirumitonam"
+      "phrase": "toleirumi paye"
     },
     "phrase-86": {
       "name": "86",
@@ -12151,7 +12186,7 @@
       "trad": "I am him.",
       "words": [
         "alt-ohe",
-        "alt-lotam"
+        "alt-lotom"
       ],
       "see": [
         "card-sing"
@@ -12160,7 +12195,7 @@
       "writ": "౮౬",
       "phon": "/86/",
       "glo": "**undefined**",
-      "phrase": "ohe lotam"
+      "phrase": "ohe lotom"
     },
     "phrase-87": {
       "name": "87",
@@ -12526,7 +12561,7 @@
       "trad": "I fall asleep in your embrace.",
       "words": [
         "alt-piyifodi",
-        "alt-rorumitinam"
+        "alt-rorumitin"
       ],
       "see": [
         "card-sing"
@@ -12535,7 +12570,7 @@
       "writ": "౧౦౯",
       "phon": "/109/",
       "glo": "**undefined**",
-      "phrase": "piyifodi rorumitinam"
+      "phrase": "piyifodi rorumitin"
     },
     "phrase-110": {
       "name": "110",
@@ -13270,7 +13305,7 @@
       "trad": "Caress (i) my long hair.",
       "words": [
         "word-mi",
-        "alt-jihukiam"
+        "alt-jihukin"
       ],
       "see": [
         "card-verbs"
@@ -13279,7 +13314,7 @@
       "writ": "౧౫౮",
       "phon": "/158/",
       "glo": "**undefined**",
-      "phrase": "mi jihukiam"
+      "phrase": "mi jihukin"
     },
     "phrase-159": {
       "name": "159",
@@ -13288,7 +13323,7 @@
       "trad": "You breath (u) fresh air.",
       "words": [
         "alt-isheu",
-        "alt-shehegiam"
+        "alt-shehegam"
       ],
       "see": [
         "card-verbs"
@@ -13297,7 +13332,7 @@
       "writ": "౧౫౯",
       "phon": "/159/",
       "glo": "**undefined**",
-      "phrase": "isheu shehegiam"
+      "phrase": "isheu shehegam"
     },
     "phrase-160": {
       "name": "160",
@@ -13306,7 +13341,7 @@
       "trad": "Yesterday, you threw (o) the ball.",
       "words": [
         "alt-irumolema",
-        "alt-tameham"
+        "alt-tamem"
       ],
       "see": [
         "card-verbs"
@@ -13315,7 +13350,7 @@
       "writ": "౧౬౦",
       "phon": "/160/",
       "glo": "**undefined**",
-      "phrase": "irumolema tameham"
+      "phrase": "irumolema tamem"
     },
     "phrase-161": {
       "name": "161",
@@ -13415,7 +13450,7 @@
       "type": "phrase",
       "trad": "(My) hand, kiss.",
       "words": [
-        "alt-maham",
+        "alt-maye",
         "word-la"
       ],
       "see": [
@@ -13425,7 +13460,7 @@
       "writ": "౧౬౬",
       "phon": "/166/",
       "glo": "**undefined**",
-      "phrase": "maham la"
+      "phrase": "maye la"
     },
     "phrase-167": {
       "name": "167",
@@ -13453,7 +13488,7 @@
       "words": [
         "word-John",
         "alt-aguwu",
-        "alt-tameham",
+        "alt-tamem",
         "alt-niJane"
       ],
       "see": [
@@ -13463,7 +13498,7 @@
       "writ": "౧౬౮",
       "phon": "/168/",
       "glo": "**undefined**",
-      "phrase": "John aguwu tameham niJane"
+      "phrase": "John aguwu tamem niJane"
     },
     "phrase-169": {
       "name": "169",
@@ -13900,7 +13935,7 @@
         "alt-afen",
         "alt-janaro",
         "word-mei",
-        "word-lana"
+        "word-lapana"
       ],
       "see": [
         "card-corresp"
@@ -13909,7 +13944,7 @@
       "writ": "౧౯౨",
       "phon": "/192/",
       "glo": "**undefined**",
-      "phrase": "tu yosa afen janaro mei lana"
+      "phrase": "tu yosa afen janaro mei lapana"
     },
     "phrase-193": {
       "name": "193",
@@ -14086,7 +14121,7 @@
         "alt-lajatim",
         "alt-fatinam",
         "word-uma",
-        "alt-lapatim"
+        "alt-lapatin"
       ],
       "see": [
         "card-sapho"
@@ -14095,7 +14130,7 @@
       "writ": "౨౦౧",
       "phon": "/201/",
       "glo": "**undefined**",
-      "phrase": "shuhe ne apeu lajatim fatinam uma lapatim"
+      "phrase": "shuhe ne apeu lajatim fatinam uma lapatin"
     },
     "phrase-202": {
       "name": "202",
@@ -14126,7 +14161,7 @@
       "words": [
         "alt-auto",
         "alt-afo",
-        "alt-latonam"
+        "alt-laton"
       ],
       "see": [
         "card-sapho"
@@ -14135,7 +14170,7 @@
       "writ": "౨౦౩",
       "phon": "/203/",
       "glo": "**undefined**",
-      "phrase": "auto afo latonam"
+      "phrase": "auto afo laton"
     }
   },
   "alt": {
@@ -14164,6 +14199,16 @@
       "fulltext": "ladam",
       "writ": "లాదాం",
       "phon": "/ladam/"
+    },
+    "alt-dodam": {
+      "name": "dodam",
+      "id": "alt-dodam",
+      "type": "alt",
+      "glo": "**dog**.ACC",
+      "alt": "word-doda",
+      "fulltext": "dodam",
+      "writ": "దోదాం",
+      "phon": "/dɔdam/"
     },
     "alt-agadeuki": {
       "name": "agadeuki",
@@ -14274,6 +14319,16 @@
       "fulltext": "esohau",
       "writ": "ఎసోహౌ",
       "phon": "/ɛsɔhau/"
+    },
+    "alt-aum": {
+      "name": "aum",
+      "id": "alt-aum",
+      "type": "alt",
+      "glo": "**heart**.ACC",
+      "alt": "word-au",
+      "fulltext": "aum",
+      "writ": "ఔమ్‌x",
+      "phon": "/aum/"
     },
     "alt-awinesti": {
       "name": "awinesti",
@@ -14465,6 +14520,16 @@
       "writ": "దేహిపు",
       "phon": "/dɛhipu/"
     },
+    "alt-dilin": {
+      "name": "dilin",
+      "id": "alt-dilin",
+      "type": "alt",
+      "glo": "**claw**.ACC",
+      "alt": "word-dili",
+      "fulltext": "dilin",
+      "writ": "దిలిnx",
+      "phon": "/dilin/"
+    },
     "alt-yihe": {
       "name": "yihe",
       "id": "alt-yihe",
@@ -14645,15 +14710,15 @@
       "writ": "పిచా",
       "phon": "/pifa/"
     },
-    "alt-fahatam": {
-      "name": "fahatam",
-      "id": "alt-fahatam",
+    "alt-fahataye": {
+      "name": "fahataye",
+      "id": "alt-fahataye",
       "type": "alt",
       "glo": "**mirror**.ACC",
       "alt": "word-fahata",
-      "fulltext": "fahatam",
-      "writ": "చాహాతాం",
-      "phon": "/fahatam/"
+      "fulltext": "fahataye",
+      "writ": "చాహాతాయే",
+      "phon": "/fahatajɛ/"
     },
     "alt-shafa": {
       "name": "shafa",
@@ -14665,15 +14730,15 @@
       "writ": "శాచా",
       "phon": "/ʃafa/"
     },
-    "alt-fatonam": {
-      "name": "fatonam",
-      "id": "alt-fatonam",
+    "alt-fatom": {
+      "name": "fatom",
+      "id": "alt-fatom",
       "type": "alt",
       "glo": "**eyes**.POSS.1SI",
       "alt": "word-fa",
-      "fulltext": "fatonam",
-      "writ": "చాతోనాం",
-      "phon": "/fatɔnam/"
+      "fulltext": "fatom",
+      "writ": "చాతోమ్‌x",
+      "phon": "/fatɔm/"
     },
     "alt-ofalem": {
       "name": "ofalem",
@@ -15219,25 +15284,25 @@
       "writ": "జిహుకి",
       "phon": "/dʒihuki/"
     },
-    "alt-jihukiam": {
-      "name": "jihukiam",
-      "id": "alt-jihukiam",
+    "alt-jihukin": {
+      "name": "jihukin",
+      "id": "alt-jihukin",
       "type": "alt",
       "glo": "**hair**.*long*.ACC",
       "alt": "word-ji",
-      "fulltext": "jihukiam",
-      "writ": "జిహుకిఅం",
-      "phon": "/dʒihukiam/"
+      "fulltext": "jihukin",
+      "writ": "జిహుకిnx",
+      "phon": "/dʒihukin/"
     },
-    "alt-jihukitonam": {
-      "name": "jihukitonam",
-      "id": "alt-jihukitonam",
+    "alt-tojihuki": {
+      "name": "tojihuki",
+      "id": "alt-tojihuki",
       "type": "alt",
-      "glo": "**hair**.*long*.POSS.1SI.ACC",
+      "glo": "POSS.1SI.**hair**.*long*",
       "alt": "word-ji",
-      "fulltext": "jihukitonam",
-      "writ": "జిహుకితోనాం",
-      "phon": "/dʒihukitɔnam/"
+      "fulltext": "tojihuki",
+      "writ": "తోజిహుకి",
+      "phon": "/tɔdʒihuki/"
     },
     "alt-jonato": {
       "name": "jonato",
@@ -15345,15 +15410,15 @@
       "writ": "అలాపా",
       "phon": "/alapa/"
     },
-    "alt-lanaguam": {
-      "name": "lanaguam",
-      "id": "alt-lanaguam",
+    "alt-lanagum": {
+      "name": "lanagum",
+      "id": "alt-lanagum",
       "type": "alt",
       "glo": "**insult**.ACC",
       "alt": "word-lanagu",
-      "fulltext": "lanaguam",
-      "writ": "లానాగుఅం",
-      "phon": "/lanaguam/"
+      "fulltext": "lanagum",
+      "writ": "లానాగుమ్‌x",
+      "phon": "/lanagum/"
     },
     "alt-lam": {
       "name": "lam",
@@ -15365,35 +15430,45 @@
       "writ": "లాం",
       "phon": "/lam/"
     },
-    "alt-lapatonam": {
-      "name": "lapatonam",
-      "id": "alt-lapatonam",
+    "alt-tolapaye": {
+      "name": "tolapaye",
+      "id": "alt-tolapaye",
       "type": "alt",
-      "glo": "**voice**.POSS.1SI.ACC",
+      "glo": "POSS.1SI.**voice**.ACC",
       "alt": "word-lapa",
-      "fulltext": "lapatonam",
-      "writ": "లాపాతోనాం",
-      "phon": "/lapatɔnam/"
+      "fulltext": "tolapaye",
+      "writ": "తోలాపాయే",
+      "phon": "/tɔlapajɛ/"
     },
-    "alt-lapatim": {
-      "name": "lapatim",
-      "id": "alt-lapatim",
+    "alt-lapatin": {
+      "name": "lapatin",
+      "id": "alt-lapatin",
       "type": "alt",
       "glo": "**voice**.POSS.2SG.ACC",
       "alt": "word-lapa",
-      "fulltext": "lapatim",
-      "writ": "లాపాతిం",
-      "phon": "/lapatim/"
+      "fulltext": "lapatin",
+      "writ": "లాపాతిnx",
+      "phon": "/lapatin/"
     },
-    "alt-latonam": {
-      "name": "latonam",
-      "id": "alt-latonam",
+    "alt-laton": {
+      "name": "laton",
+      "id": "alt-laton",
       "type": "alt",
       "glo": "**lips**.POSS.1SI",
       "alt": "word-la",
-      "fulltext": "latonam",
-      "writ": "లాతోనాం",
-      "phon": "/latɔnam/"
+      "fulltext": "laton",
+      "writ": "లాతోnx",
+      "phon": "/latɔn/"
+    },
+    "alt-lapano": {
+      "name": "lapano",
+      "id": "alt-lapano",
+      "type": "alt",
+      "glo": "**speech**.ACC",
+      "alt": "word-lapana",
+      "fulltext": "lapano",
+      "writ": "లాపానో",
+      "phon": "/lapanɔ/"
     },
     "alt-lajatim": {
       "name": "lajatim",
@@ -15418,15 +15493,15 @@
         "word-malame"
       ]
     },
-    "alt-launam": {
-      "name": "launam",
-      "id": "alt-launam",
+    "alt-laum": {
+      "name": "laum",
+      "id": "alt-laum",
       "type": "alt",
       "glo": "**eternity**.ACC",
       "alt": "word-lau",
-      "fulltext": "launam",
-      "writ": "లౌనాం",
-      "phon": "/launam/"
+      "fulltext": "laum",
+      "writ": "లౌమ్‌x",
+      "phon": "/laum/"
     },
     "alt-golau": {
       "name": "golau",
@@ -15531,45 +15606,45 @@
         "word-nelo"
       ]
     },
-    "alt-mato": {
-      "name": "mato",
-      "id": "alt-mato",
+    "alt-toma": {
+      "name": "toma",
+      "id": "alt-toma",
       "type": "alt",
       "glo": "1SI.POSS.**hand**",
       "alt": "word-ma",
-      "fulltext": "mato",
-      "writ": "మాతో",
-      "phon": "/matɔ/"
+      "fulltext": "toma",
+      "writ": "తోమా",
+      "phon": "/tɔma/"
     },
-    "alt-matiham": {
-      "name": "matiham",
-      "id": "alt-matiham",
+    "alt-matim": {
+      "name": "matim",
+      "id": "alt-matim",
       "type": "alt",
       "glo": "**hand**.2SG.POSS.ACC",
       "alt": "word-ma",
-      "fulltext": "matiham",
-      "writ": "మాతిహాం",
-      "phon": "/matiham/"
+      "fulltext": "matim",
+      "writ": "మాతిం",
+      "phon": "/matim/"
     },
-    "alt-matoham": {
-      "name": "matoham",
-      "id": "alt-matoham",
+    "alt-matom": {
+      "name": "matom",
+      "id": "alt-matom",
       "type": "alt",
       "glo": "**hand**.1SI.POSS.ACC",
       "alt": "word-ma",
-      "fulltext": "matoham",
-      "writ": "మాతోహాం",
-      "phon": "/matɔham/"
+      "fulltext": "matom",
+      "writ": "మాతోమ్‌x",
+      "phon": "/matɔm/"
     },
-    "alt-maham": {
-      "name": "maham",
-      "id": "alt-maham",
+    "alt-maye": {
+      "name": "maye",
+      "id": "alt-maye",
       "type": "alt",
       "glo": "**hand**.ACC",
       "alt": "word-ma",
-      "fulltext": "maham",
-      "writ": "మాహాం",
-      "phon": "/maham/"
+      "fulltext": "maye",
+      "writ": "మాయే",
+      "phon": "/majɛ/"
     },
     "alt-fuma": {
       "name": "fuma",
@@ -15821,15 +15896,25 @@
       "writ": "ఇహోదు",
       "phon": "/ihɔdu/"
     },
-    "alt-lotam": {
-      "name": "lotam",
-      "id": "alt-lotam",
+    "alt-lotom": {
+      "name": "lotom",
+      "id": "alt-lotom",
       "type": "alt",
       "glo": "**him**.ACC",
       "alt": "word-loto",
-      "fulltext": "lotam",
-      "writ": "లోతాం",
-      "phon": "/lɔtam/"
+      "fulltext": "lotom",
+      "writ": "లోతోమ్‌x",
+      "phon": "/lɔtɔm/"
+    },
+    "alt-paye": {
+      "name": "paye",
+      "id": "alt-paye",
+      "type": "alt",
+      "glo": "**everywhere**.ACC",
+      "alt": "word-pa",
+      "fulltext": "paye",
+      "writ": "పాయే",
+      "phon": "/pajɛ/"
     },
     "alt-palwu": {
       "name": "palwu",
@@ -15964,25 +16049,25 @@
       "writ": "ఇరుమోలేమా",
       "phon": "/irumɔlɛma/"
     },
-    "alt-leirumitonam": {
-      "name": "leirumitonam",
-      "id": "alt-leirumitonam",
+    "alt-toleirumi": {
+      "name": "toleirumi",
+      "id": "alt-toleirumi",
       "type": "alt",
-      "glo": "*time*.**embrace**.POSS.1SI.ACC",
+      "glo": "POSS.1SI.*time*.**embrace**",
       "alt": "word-leirumi",
-      "fulltext": "leirumitonam",
-      "writ": "లేఇరుమితోనాం",
-      "phon": "/lɛirumitɔnam/"
+      "fulltext": "toleirumi",
+      "writ": "తోలేఇరుమి",
+      "phon": "/tɔlɛirumi/"
     },
-    "alt-rorumitinam": {
-      "name": "rorumitinam",
-      "id": "alt-rorumitinam",
+    "alt-rorumitin": {
+      "name": "rorumitin",
+      "id": "alt-rorumitin",
       "type": "alt",
       "glo": "*INESS*.**hug**.POSS.2SG.ACC",
       "alt": "word-ro",
-      "fulltext": "rorumitinam",
-      "writ": "రోరుమితినాం",
-      "phon": "/rɔrumitinam/"
+      "fulltext": "rorumitin",
+      "writ": "రోరుమితిnx",
+      "phon": "/rɔrumitin/"
     },
     "alt-samse": {
       "name": "samse",
@@ -16034,15 +16119,18 @@
       "writ": "చుసేఁ",
       "phon": "/fusɛn/"
     },
-    "alt-shehegiam": {
-      "name": "shehegiam",
-      "id": "alt-shehegiam",
+    "alt-shehegam": {
+      "name": "shehegam",
+      "id": "alt-shehegam",
       "type": "alt",
       "glo": "**air**.*fresh*.ACC",
       "alt": "word-she",
-      "fulltext": "shehegiam",
-      "writ": "శేఠేగిఅం",
-      "phon": "/ʃɛhɛgiam/"
+      "see": [
+        "word-egi"
+      ],
+      "fulltext": "shehegam",
+      "writ": "శేఠేగాం",
+      "phon": "/ʃɛhɛgam/"
     },
     "alt-isheu": {
       "name": "isheu",
@@ -16127,15 +16215,15 @@
       "writ": "హాతాజాం",
       "phon": "/hatadʒam/"
     },
-    "alt-tameham": {
-      "name": "tameham",
-      "id": "alt-tameham",
+    "alt-tamem": {
+      "name": "tamem",
+      "id": "alt-tamem",
       "type": "alt",
       "glo": "**ball**.ACC",
       "alt": "word-tame",
-      "fulltext": "tameham",
-      "writ": "తామేహాం",
-      "phon": "/tamɛham/"
+      "fulltext": "tamem",
+      "writ": "తామేమ్‌x",
+      "phon": "/tamɛm/"
     },
     "alt-tiyi": {
       "name": "tiyi",

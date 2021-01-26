@@ -50,7 +50,7 @@ export const gilapa = _.word('gilapa', {
   etym: () => [_.gi, _.lapa],
 })
 
-export const lapana = _.word('lana', {
+export const lapana = _.word('lapana', {
   noun: 'speech',
   etym: () => [_.la, _.na],
 })
@@ -81,7 +81,7 @@ export const alapa = _.alt('alapa', {
   alt: () => _.lapa,
 })
 
-export const lanaguam = _.alt('lanaguam', {
+export const lanagum = _.alt('lanagum', {
   glo: '**insult**.ACC',
   alt: () => _.lapanagu,
 })
@@ -91,19 +91,22 @@ export const lam = _.alt('lam', {
   alt: () => _.la,
 })
 
-export const lapatonam = _.alt('lapatonam', {
-  glo: '**voice**.POSS.1SI.ACC',
+export const tolapaye = _.alt('tolapaye', {
+  glo: 'POSS.1SI.**voice**.ACC',
   alt: () => _.lapa,
 })
 
-// lapatim === lapatinam
-// It's just a phonetic evolution and both can be used.
-export const lapatim = _.alt('lapatim', {
+export const lapatin = _.alt('lapatin', {
   glo: '**voice**.POSS.2SG.ACC',
   alt: () => _.lapa,
 })
 
-export const latonam = _.alt('latonam', {
+export const laton = _.alt('laton', {
   glo: '**lips**.POSS.1SI',
   alt: () => _.la,
+})
+
+export const lapanam = _.alt('lapano', {
+  glo: '**speech**.ACC',
+  alt: () => _.lapana,
 })
