@@ -78,7 +78,7 @@ export const matom = _.alt('matom', {
   alt: () => _.ma,
 })
 
-export const maye = _.alt('maye', {
+export const man = _.alt('man', {
   glo: '**hand**.ACC',
   alt: () => _.ma,
 })

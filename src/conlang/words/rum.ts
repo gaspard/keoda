@@ -35,12 +35,12 @@ export const arumo = _.alt('arumo', {
 
 export const irumolema = _.alt('irumolema', {
   glo: '2SG.**throw**.PST.HEST',
-  alt: () => _.lema,
+  alt: () => _.lemi,
 })
 
 // poss prefix
-export const toleirumi = _.alt('toleirumi', {
-  glo: 'POSS.1SI.*time*.**embrace**',
+export const toleirumipan = _.alt('toleirumipan', {
+  glo: 'POSS.1SI.*time*.**embrace**.*everywhere*.ACC',
   alt: () => _.leirumi,
 })
 

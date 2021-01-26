@@ -6,52 +6,46 @@ export const lire = _.word('lire', {
   tens: 'eventual future (FUT.EVNT)',
   etym: () => [_.lir, _.e],
 })
-export const liro = _.word('liro', {
+export const liru = _.word('liru', {
   tens: 'distant future (FUT.DIST)',
   etym: () => [_.lir, _.o],
 })
-export const liru = _.word('liru', {
+export const lira = _.word('lira', {
   tens: 'close future (FUT.PROX)',
   etym: () => [_.lir, _.u],
 })
-export const lira = _.word('lira', {
+export const liri = _.word('liri', {
   tens: 'tomorrow (FUT.CRAS)',
   etym: () => [_.lir, _.a],
 })
-export const eliri = _.alt('eliri', {
-  glo: '**be**.later today',
-  alt: () => _.liri,
+export const liro = _.word('liri', {
+  tens: 'later today',
+  glo: 'FUT.HOD',
+  etym: () => [_.lir, _.i],
 })
 
-export const lemi = _.word('lemi', {
+export const lemo = _.word('lemo', {
   tens: 'earlir today (PST.HOD)',
   etym: () => [_.lem, _.i],
 })
-export const lema = _.word('lema', {
+export const lemi = _.word('lemi', {
   tens: 'yesterday (PST.HEST)',
   etym: () => [_.lem, _.a],
 })
-export const lemu = _.word('lemu', {
+export const lema = _.word('lema', {
   tens: 'recent past (PST.PROX)',
-  etym: () => [_.lem, _.u],
+  etym: () => [_.lem, _.a],
 })
-export const lemo = _.word('lemo', {
+export const lemu = _.word('lemu', {
   tens: 'distant past (PST.DIST)',
-  etym: () => [_.lem, _.o],
+  etym: () => [_.lem, _.u],
 })
 export const leme = _.word('leme', {
   tens: 'eventual past (PST.EVNT)',
   etym: () => [_.lem, _.e],
 })
 
-// Otajliri kepal.
-export const otajlirikepal = _.example(
-  [_.o, _.taj, _.liri, _.kepal],
-  `Je vais te sodomiser ce soir (au plus tard ce soir).`
-)
-
-// Otiolemi dutodawui.
-export const otiolemidutodawui = _.example(
-  [_.o, _.tio, _.lemi, _.duto, _.ti],
-  `Hier soir, j'ai baisé ton grand frère.`
-)
+export const eliro = _.alt('eliro', {
+  glo: '**be**.later today',
+  alt: () => _.liro,
+})

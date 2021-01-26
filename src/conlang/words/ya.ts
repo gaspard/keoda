@@ -46,12 +46,12 @@ export const peya = _.word('peya', {
 
 export const liraya = _.word('liraya', {
   noun: 'tomorrow night',
-  etym: () => [_.lira, _.ya],
+  etym: () => [_.liri, _.ya],
 })
 
 export const lemaya = _.word('lemaya', {
   noun: 'night before',
-  etym: () => [_.lema, _.ya],
+  etym: () => [_.lemi, _.ya],
 })
 // ==== alt
 

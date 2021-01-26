@@ -53,7 +53,7 @@ use the accusative (target) and sometimes dative (receiver) to
 remove ambiguity.
 
 * ${_.phrase('Touch (my) lips.', _.ma, _.laham)}
-* ${_.phrase('(My) hand, kiss.', _.maye, _.la)}
+* ${_.phrase('(My) hand, kiss.', _.man, _.la)}
 * ${_.phrase('Kiss (my) lips.', _.la, _.lam)}
 * ${_.phrase(
     'John gives the ball (ACC) to Jane (DAT)',
@@ -209,17 +209,17 @@ language originated.
 ## Future tenses
 
 * ${_.lire} (FUT.EVNT) eventual future
-* ${_.liro} (FUT.DIST) distant future
-* ${_.liru} (FUT.PROX) close future
-* ${_.lira} (FUT.CRAS) tomorrow
-* ${_.liri} (FUT.HOD) tonight or next morning
+* ${_.liru} (FUT.DIST) distant future
+* ${_.lira} (FUT.PROX) close future
+* ${_.liri} (FUT.CRAS) tomorrow
+* ${_.liro} (FUT.HOD) tonight or next morning
 
 ## Past tenses
 
-* ${_.lemi} (PST.HOD) last night or this morning
-* ${_.lema} (PST.HEST) yesterday
+* ${_.lemo} (PST.HOD) last night or this morning
+* ${_.lemi} (PST.HEST) yesterday
 * ${_.lemu} (PST.PROX) recent past
-* ${_.lemo} (PST.DIST) distant past
+* ${_.lemu} (PST.DIST) distant past
 * ${_.leme} (PST.EVNT) eventual past
 
 ## Eternal tenses

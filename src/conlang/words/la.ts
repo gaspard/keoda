@@ -91,7 +91,7 @@ export const lam = _.alt('lam', {
   alt: () => _.la,
 })
 
-export const tolapaye = _.alt('tolapaye', {
+export const tolapan = _.alt('tolapan', {
   glo: 'POSS.1SI.**voice**.ACC',
   alt: () => _.lapa,
 })

@@ -19,7 +19,7 @@
         "word-akei",
         "word-lada",
         "word-laya",
-        "word-lira",
+        "word-lemi",
         "word-lema",
         "word-ayi"
       ]
@@ -962,70 +962,73 @@
       "phon": "/lirɛ/",
       "glo": "**eventual future (FUT.EVNT)**"
     },
-    "word-liro": {
-      "name": "liro",
-      "id": "word-liro",
+    "word-liru": {
+      "name": "liru",
+      "id": "word-liru",
       "type": "word",
       "tens": "distant future (FUT.DIST)",
       "etym": [
         "word-lir",
         "word-o"
       ],
-      "fulltext": "liro",
-      "writ": "లిరో",
-      "phon": "/lirɔ/",
+      "fulltext": "liru",
+      "writ": "లిరు",
+      "phon": "/liru/",
       "glo": "**distant future (FUT.DIST)**"
     },
-    "word-liru": {
-      "name": "liru",
-      "id": "word-liru",
+    "word-lira": {
+      "name": "lira",
+      "id": "word-lira",
       "type": "word",
       "tens": "close future (FUT.PROX)",
       "etym": [
         "word-lir",
         "word-u"
       ],
-      "fulltext": "liru",
-      "writ": "లిరు",
-      "phon": "/liru/",
-      "glo": "**close future (FUT.PROX)**"
-    },
-    "word-lira": {
-      "name": "lira",
-      "id": "word-lira",
-      "type": "word",
-      "tens": "tomorrow (FUT.CRAS)",
-      "etym": [
-        "word-lir",
-        "word-a"
-      ],
       "fulltext": "lira",
       "writ": "లిరా",
       "phon": "/lira/",
-      "glo": "**tomorrow (FUT.CRAS)**",
+      "glo": "**close future (FUT.PROX)**"
+    },
+    "word-liri": {
+      "name": "liri",
+      "id": "word-liri",
+      "type": "word",
+      "tens": "later today",
+      "glo": "FUT.HOD",
+      "etym": [
+        "word-lir",
+        "word-i"
+      ],
+      "phrases": [
+        "phrase-59"
+      ],
+      "fulltext": "liri",
+      "writ": "లిరి",
+      "phon": "/liri/",
       "deriv": [
         "word-lirana",
         "word-liraya",
         "word-lirayo"
       ]
     },
-    "word-lemi": {
-      "name": "lemi",
-      "id": "word-lemi",
+    "word-lemo": {
+      "name": "lemo",
+      "id": "word-lemo",
       "type": "word",
       "tens": "earlir today (PST.HOD)",
       "etym": [
         "word-lem",
         "word-i"
       ],
-      "fulltext": "lemi",
-      "writ": "లేమి",
-      "phon": "/lɛmi/",
+      "fulltext": "lemo",
+      "writ": "లేమో",
+      "phon": "/lɛmɔ/",
       "glo": "**earlir today (PST.HOD)**"
     },
-    "word-lema": {
-      "name": "lema",
-      "id": "word-lema",
+    "word-lemi": {
+      "name": "lemi",
+      "id": "word-lemi",
       "type": "word",
       "tens": "yesterday (PST.HEST)",
       "etym": [
@@ -1035,20 +1038,34 @@
       "phrases": [
         "phrase-160"
       ],
-      "fulltext": "lema",
-      "writ": "లేమా",
-      "phon": "/lɛma/",
+      "fulltext": "lemi",
+      "writ": "లేమి",
+      "phon": "/lɛmi/",
       "glo": "**yesterday (PST.HEST)**",
       "deriv": [
         "word-lemaya",
         "word-lemayo"
       ]
     },
+    "word-lema": {
+      "name": "lema",
+      "id": "word-lema",
+      "type": "word",
+      "tens": "recent past (PST.PROX)",
+      "etym": [
+        "word-lem",
+        "word-a"
+      ],
+      "fulltext": "lema",
+      "writ": "లేమా",
+      "phon": "/lɛma/",
+      "glo": "**recent past (PST.PROX)**"
+    },
     "word-lemu": {
       "name": "lemu",
       "id": "word-lemu",
       "type": "word",
-      "tens": "recent past (PST.PROX)",
+      "tens": "distant past (PST.DIST)",
       "etym": [
         "word-lem",
         "word-u"
@@ -1056,20 +1073,6 @@
       "fulltext": "lemu",
       "writ": "లేము",
       "phon": "/lɛmu/",
-      "glo": "**recent past (PST.PROX)**"
-    },
-    "word-lemo": {
-      "name": "lemo",
-      "id": "word-lemo",
-      "type": "word",
-      "tens": "distant past (PST.DIST)",
-      "etym": [
-        "word-lem",
-        "word-o"
-      ],
-      "fulltext": "lemo",
-      "writ": "లేమో",
-      "phon": "/lɛmɔ/",
       "glo": "**distant past (PST.DIST)**"
     },
     "word-leme": {
@@ -3486,12 +3489,12 @@
       "writ": "ఇ",
       "phon": "/i/",
       "deriv": [
-        "word-lemi",
+        "word-liri",
+        "word-lemo",
         "word-gi",
         "word-gui",
         "word-ikei",
         "word-iya",
-        "word-liri",
         "word-ilir",
         "word-mi",
         "word-leirui",
@@ -5007,10 +5010,10 @@
       "phon": "/lɛm/",
       "glo": "**past**",
       "deriv": [
+        "word-lemo",
         "word-lemi",
         "word-lema",
         "word-lemu",
-        "word-lemo",
         "word-leme",
         "word-elem",
         "word-lemana"
@@ -5146,33 +5149,15 @@
       "glo": "**future**",
       "deriv": [
         "word-lire",
-        "word-liro",
         "word-liru",
         "word-lira",
+        "word-liri",
         "word-dir",
         "word-gulir",
         "word-lapir",
-        "word-liri",
         "word-ilir",
         "word-elir"
       ]
-    },
-    "word-liri": {
-      "name": "liri",
-      "id": "word-liri",
-      "type": "word",
-      "tens": "later today",
-      "glo": "FUT.HOD",
-      "etym": [
-        "word-lir",
-        "word-i"
-      ],
-      "phrases": [
-        "phrase-59"
-      ],
-      "fulltext": "liri",
-      "writ": "లిరి",
-      "phon": "/liri/"
     },
     "word-lirana": {
       "name": "lirana",
@@ -5180,7 +5165,7 @@
       "type": "word",
       "noun": "promise",
       "etym": [
-        "word-lira",
+        "word-liri",
         "word-na"
       ],
       "fulltext": "lirana",
@@ -6271,8 +6256,7 @@
       "phon": "/ɔ/",
       "deriv": [
         "word-ago",
-        "word-liro",
-        "word-lemo",
+        "word-liru",
         "word-dao",
         "word-fo",
         "word-go",
@@ -6877,10 +6861,6 @@
       "glo": "MYST",
       "see": [
         "word-fi"
-      ],
-      "phrases": [
-        "phrase-84",
-        "phrase-85"
       ],
       "fulltext": "pa",
       "writ": "పా",
@@ -8984,7 +8964,7 @@
       "deriv": [
         "word-auhu",
         "word-awiu",
-        "word-liru",
+        "word-lira",
         "word-lemu",
         "word-dau",
         "word-gau",
@@ -9426,7 +9406,7 @@
       "type": "word",
       "noun": "tomorrow night",
       "etym": [
-        "word-lira",
+        "word-liri",
         "word-ya"
       ],
       "fulltext": "liraya",
@@ -9440,7 +9420,7 @@
       "type": "word",
       "noun": "night before",
       "etym": [
-        "word-lema",
+        "word-lemi",
         "word-ya"
       ],
       "fulltext": "lemaya",
@@ -9800,7 +9780,7 @@
       "type": "word",
       "noun": "tomorrow",
       "etym": [
-        "word-lira",
+        "word-liri",
         "word-yo"
       ],
       "fulltext": "lirayo",
@@ -9814,7 +9794,7 @@
       "type": "word",
       "noun": "yesterday",
       "etym": [
-        "word-lema",
+        "word-lemi",
         "word-yo"
       ],
       "fulltext": "lemayo",
@@ -10408,7 +10388,7 @@
       "name": "irreg",
       "id": "card-irreg",
       "type": "card",
-      "desc": "\n# The language is boring\n\nNow that I feel that I have sorted things out in a very \"mathematical\" and predictable\nway, I realise it make the language actually **harder** to memorize because everything\nlooks like everything.\n\nIrregularities wanted !\n\nWith my choice of accusative [am](word-am) ending and tenses, then all verbs and many nouns\nend in either [am](word-am) or [lem](word-lem) or [lir](word-lir). Maybe I should have something more varied\nfor accusative. This would be a good start.\n\n## Word assembly\n\nCurrent word assembly is boring. To be explored.\n\n## Accusative rules\n\nWords ending with a vowel change like this on the accusative:\n\n* /..da+am/ => /dam/\n* /..na+am/ => /nam/\n* /..ti+am/ => /tim/\n* /..to+am/ => /tom/\n* /..ta+am/ => /tam/\n* /...a+am/ => /aye/\n* /...u+am/ => /um/\n* /...i+am/ => /in/\n* /...o+am/ => /on/\n\nExamples: \n\n* [odam](alt-odam) /da+am/ => /dam/\n* [dodam](alt-dodam) /da+am/ => /do/\n* [lapano](alt-lapano) /na+am/ => /nam/\n* [dilin](alt-dilin) (/i+am/ => /in/)\n* [maye](alt-maye) (/a+am/ => /aye/)\n* [aum](alt-aum) (/u+am/ => /um/)\n* [palam](alt-palam) (normal)\n* [yonam](alt-yonam) (normal)\n\nWhen doing poetry or writing, the old (full) forms can be used for style.\n\nWith this \"trick\" and because accusative case is usualy only marked on the last\nword of the noun phrase, we can use adjectives to change rhyme, while still having\naccusative marking.\n\n## Subject accord\n\nI also feel that something could be done here but... No. It is fine like it is and\nit would become very confusing.\n\n## Tenses\n\nShould I keep this regularity ? Yes, it's nice and funny.\n\nlire, liro, liru, lira, liri ?\nleme, lemo, lemu, lema, lemi ?\n\nConjugation is not really a conjugation, it's just a time marker. Maybe I need\nsomething else...\n\nOr maybe try to evolve sounds from these basic rules, maybe having some words from another\nprotolang...\n\n",
+      "desc": "\n# The language is boring\n\nNow that I feel that I have sorted things out in a very \"mathematical\" and predictable\nway, I realise it make the language actually **harder** to memorize because everything\nlooks like everything.\n\nIrregularities wanted !\n\nWith my choice of accusative [am](word-am) ending and tenses, then all verbs and many nouns\nend in either [am](word-am) or [lem](word-lem) or [lir](word-lir). Maybe I should have something more varied\nfor accusative. This would be a good start.\n\n## Word assembly\n\nCurrent word assembly is boring. To be explored.\n\n## Accusative rules\n\nWords ending with a vowel change like this on the accusative:\n\n* /..danam/ => /dam/ => no further evol\n* /..nanam/ => /nam/ => no further evol\n* /..tinam/ => /tim/ => no further evol\n* /..tonam/ => /tom/ => no further evol\n* /..tanam/ => /tam/ => no further evol\n* /...anam/ => ... => /an/\n* /...unam/ => ... => /un/\n* /...inam/ => ... => /in/\n* /...onam/ => ... => /on/\n\nExamples: \n\n* [odam](alt-odam) /dam/\n* [dodam](alt-dodam) /dam/\n* [lapano](alt-lapano) /nam/\n* [dilin](alt-dilin) /in/\n* [man](alt-man) /an/\n* [aun](alt-aun) /un/\n* [palam](alt-palam) (normal)\n* [yonam](alt-yonam) (normal)\n\nWhen doing poetry or writing, the old (full) forms can be used for style.\n\nWith this \"trick\" and because accusative case is usualy only marked on the last\nword of the noun phrase, we can use adjectives to change rhyme, while still having\naccusative marking.\n\n## Subject accord\n\nI also feel that something could be done here but... No. It is fine like it is and\nit would become very confusing.\n\n## Tenses\n\nShould I keep this regularity ? Yes, it's nice and funny.\n\nlire, liro, liru, lira, liri ?\nleme, lemo, lemu, lema, lemi ?\n\nConjugation is not really a conjugation, it's just a time marker. Maybe I need\nsomething else...\n\nOr maybe try to evolve sounds from these basic rules, maybe having some words from another\nprotolang...\n\n## Sound evolutions\n\n1. Droping consonant or vowel ending on words... but using the original vowel\nwhen connecting the word to adj, tenses or case.\n2. Apply changes (create new \"regularity\")... but have some very common words\nresist such as with accusatives `/..tinam/` => `/..tim/` not evolving to `/tin/`\nlike `/dilinam/` => `/dilin`.\n3. Aux verbs (should list them and make them less regular)\n\n## To-be (\"e\")\n\nHow can I mess with this one ? Damned. My conjugation system is already so\ntiny, the only way to evolve it would be to realise that it is confusing and\nneeds to be easier to differentiate.\n\nBut... this differentiation by vowel o/i/a/ is so present everywhere, it's\nlike THE feature of the language and the speakers are thus very very good at\ndetecting and speaking them. So there is no way this is going away.\n\nThis means that o/i/a aspect is very stable.\n\nI mean, the language could be called oia (me, you, them).\n\n",
       "fulltext": "irreg",
       "writ": "ఇర్‌రేగ్‌",
       "phon": "/irrɛg/",
@@ -10536,7 +10516,7 @@
       "id": "card-verbs",
       "type": "card",
       "writ": "verbs",
-      "desc": "\n# Verbs and conjugation\n\nMany nouns are also verbs such as [fa](word-fa), [fen](word-fen), [yin](word-yin), [taj](word-taj).\n\nOne of the particularities of this language is the use of three suffix\nused to mark cases related to the body when derivating verbs: \n\n* [i](word-i) (CARE, caring, gentle)\n* [o](word-o) (ABL, pushing, away from)\n* [u](word-u) (ALL, pulling, towards)\n\nExamples:\n\n* [158](phrase-158)\n* [159](phrase-159)\n* [160](phrase-160)\n\n#### nsfw\n\n* [161](phrase-161)\n* [162](phrase-162)\n\n## The hardest case\n\nThe most complicated conjugation is the continuous passive in the past or future. Here we go:\n\n* [163](phrase-163)\n\nDecomposed in its parts, this is:\n\n| [es](word-es) | [i](word-i) | [lu](word-lu) | [mi](word-mi) | [lem](word-lem) |\n| :-:     | :-:    | :-:     | :-:     |  :-:     |\n| es | i | lu | mi | lem |\n| passive | you    | continuous | caress | past |\n\nNow that you know about the hardest, let's restart and move gently from one concept to the next.\n\n## Imperative\n\nThe simplest tense is the imperative which looks like the infinitive.\n\n* [164](phrase-164)\n\n## Word order\n\nPhrases do not have precise verb, subject or object positioning. We\nuse the accusative (target) and sometimes dative (receiver) to\nremove ambiguity.\n\n* [165](phrase-165)\n* [166](phrase-166)\n* [167](phrase-167)\n* [168](phrase-168)\n\nSome verb-noun actions are so common that they fuse and \"kiss my lips\"\nbecomes \"kiss-lips\" as its own verb:\n\n* [169](phrase-169)\n\nFor more information on word order: [order](card-order)\n\n## Accord with the subject\n\nThe accord with the subject comes *first*. This is because it is an\nagglutination of *subject verb case* (separate words) to *subject.verb.case* (single word):\n\n* [170](phrase-170)\n* [171](phrase-171)\n\nSo the possible accords are:\n\n* [o](word-o) I/we (1SG.INDF = 1SI)\n* [i](word-i) you (2SG)\n* [a](word-a) they (3SG)\n* [sho](word-sho) us present (1PL.PRS)\n* [shi](word-shi) you present (2PL.PRS)\n* [sha](word-sha) they (3PL)\n\n**And the rarer forms**\n\n* [okei](word-okei) I (1SG.HONOR)\n* [kei](word-kei)  you (2SG.HONOR)\n* [akei](word-akei) they (3SG.HONOR)\n* [piyi](word-piyi) I (1SG.DIM)\n* [yi](word-yi) you (2SG.DIM)\n* [ayi](word-ayi) they (3SG.DIM)\n* [pi](word-pi) I (1SG)\n* [de](word-de) us two (1PL.DU)\n* [pe](word-pe) some (3PL.INDF)\n* [ka](word-ka) us all (1PL.DEF)\n\nWe also have [shoyi](alt-shoyi), [shokei](alt-shokei), etc. You get the idea.\n\nIn case you haven't noticed, there is some consistency with:\n\n* [pronouns](card-pronouns) (pronouns)\n* [poss](card-poss) (possessivity)\n\n## Passive voices\n\nThe passive voice transforms the target of the action into the subject. For this we use [es](word-es) prefix before conjugation.\n\nFor example:\n\n* [172](phrase-172) becomes [173](phrase-173)\n* [174](phrase-174)\n\n#### nsfw\n\n* [175](phrase-175)\n\n## Continuous aspect [lu](word-lu)\n\nTo denote an action that is happening for some time, we use [lu](word-lu) as prefix\non the verb (comes after accord with the subject).\n\n* [176](phrase-176)\n* [177](phrase-177)\n* [178](phrase-178)\n\n#### nsfw\n\n* [179](phrase-179)\n\n## Impersonal (weather verbs)\n\nTo express things without a subject, we use the passive voice accorded to third person singular:\n\n* [180](phrase-180)\n* [181](phrase-181)\n* [182](phrase-182)\n\nThis is from [1401st Just Used 5 Minutes of Your Day](https://www.reddit.com/r/conlangs/comments/kzeek7/1401st_just_used_5_minutes_of_your_day/).\n\n[183](phrase-183)\n\n## Honorific / tiny\n\nThis idea of Honorific/tiny was inspired by BDSM power exchange and role play\nbut it transformed quite a lot to express something closer to the person\ntaking care (parent) and the innocent being taken care of (child). This is\nalso present in the BDSM Dom/sub relationship but I wanted something that\nfocussed more on expressing respect for the responsabilty of the \"carer\"\n([keda](word-keda)) and the vulnerability of the \"cared for\" ([yida](word-yida)).\n\n#### nsfw\n\nFor more BDSM and sexual contexts, the Dominant is still referred to as\n\"fantastic\" [keda](word-keda) but the sub is refered to as \"wet\" [loda](word-loda) instead of\n\"tiny\" [yida](word-yida).\n\nYou can look at [pronouns](card-pronouns)\n\nThis translates in possesive suffix [tei](word-tei), [tiyi](alt-tiyi), [tilo](alt-tilo) or\nconjugations using [kei](word-kei) or the affix [ei](word-ei) or [yi](word-yi).\n\n[184](phrase-184)\n\n[185](phrase-185)\n\n[186](phrase-186)\n\nJust remember, what sounds like \"OKey\" is in fact \"I-fantastic\" and everything hard to\npronounce such as [yiyada](word-yiyada) are meant to be said with a soft and very kind voice.\n\n# Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them\nbecause these timings are important in the erotic situations where this\nlanguage originated.\n\n## Future tenses\n\n* [lire](word-lire) (FUT.EVNT) eventual future\n* [liro](word-liro) (FUT.DIST) distant future\n* [liru](word-liru) (FUT.PROX) close future\n* [lira](word-lira) (FUT.CRAS) tomorrow\n* [liri](word-liri) (FUT.HOD) tonight or next morning\n\n## Past tenses\n\n* [lemi](word-lemi) (PST.HOD) last night or this morning\n* [lema](word-lema) (PST.HEST) yesterday\n* [lemu](word-lemu) (PST.PROX) recent past\n* [lemo](word-lemo) (PST.DIST) distant past\n* [leme](word-leme) (PST.EVNT) eventual past\n\n## Eternal tenses\n\n* [lau](word-lau) (DEF) always\n* [nei](word-nei) (NEG) never\n\n# Examples\n\n* [187](phrase-187)\n* [188](phrase-188)\n\n#### nsfw\n\n* [189](phrase-189)\n\nYour next read: [order](card-order) (word order)\n",
+      "desc": "\n# Verbs and conjugation\n\nMany nouns are also verbs such as [fa](word-fa), [fen](word-fen), [yin](word-yin), [taj](word-taj).\n\nOne of the particularities of this language is the use of three suffix\nused to mark cases related to the body when derivating verbs: \n\n* [i](word-i) (CARE, caring, gentle)\n* [o](word-o) (ABL, pushing, away from)\n* [u](word-u) (ALL, pulling, towards)\n\nExamples:\n\n* [158](phrase-158)\n* [159](phrase-159)\n* [160](phrase-160)\n\n#### nsfw\n\n* [161](phrase-161)\n* [162](phrase-162)\n\n## The hardest case\n\nThe most complicated conjugation is the continuous passive in the past or future. Here we go:\n\n* [163](phrase-163)\n\nDecomposed in its parts, this is:\n\n| [es](word-es) | [i](word-i) | [lu](word-lu) | [mi](word-mi) | [lem](word-lem) |\n| :-:     | :-:    | :-:     | :-:     |  :-:     |\n| es | i | lu | mi | lem |\n| passive | you    | continuous | caress | past |\n\nNow that you know about the hardest, let's restart and move gently from one concept to the next.\n\n## Imperative\n\nThe simplest tense is the imperative which looks like the infinitive.\n\n* [164](phrase-164)\n\n## Word order\n\nPhrases do not have precise verb, subject or object positioning. We\nuse the accusative (target) and sometimes dative (receiver) to\nremove ambiguity.\n\n* [165](phrase-165)\n* [166](phrase-166)\n* [167](phrase-167)\n* [168](phrase-168)\n\nSome verb-noun actions are so common that they fuse and \"kiss my lips\"\nbecomes \"kiss-lips\" as its own verb:\n\n* [169](phrase-169)\n\nFor more information on word order: [order](card-order)\n\n## Accord with the subject\n\nThe accord with the subject comes *first*. This is because it is an\nagglutination of *subject verb case* (separate words) to *subject.verb.case* (single word):\n\n* [170](phrase-170)\n* [171](phrase-171)\n\nSo the possible accords are:\n\n* [o](word-o) I/we (1SG.INDF = 1SI)\n* [i](word-i) you (2SG)\n* [a](word-a) they (3SG)\n* [sho](word-sho) us present (1PL.PRS)\n* [shi](word-shi) you present (2PL.PRS)\n* [sha](word-sha) they (3PL)\n\n**And the rarer forms**\n\n* [okei](word-okei) I (1SG.HONOR)\n* [kei](word-kei)  you (2SG.HONOR)\n* [akei](word-akei) they (3SG.HONOR)\n* [piyi](word-piyi) I (1SG.DIM)\n* [yi](word-yi) you (2SG.DIM)\n* [ayi](word-ayi) they (3SG.DIM)\n* [pi](word-pi) I (1SG)\n* [de](word-de) us two (1PL.DU)\n* [pe](word-pe) some (3PL.INDF)\n* [ka](word-ka) us all (1PL.DEF)\n\nWe also have [shoyi](alt-shoyi), [shokei](alt-shokei), etc. You get the idea.\n\nIn case you haven't noticed, there is some consistency with:\n\n* [pronouns](card-pronouns) (pronouns)\n* [poss](card-poss) (possessivity)\n\n## Passive voices\n\nThe passive voice transforms the target of the action into the subject. For this we use [es](word-es) prefix before conjugation.\n\nFor example:\n\n* [172](phrase-172) becomes [173](phrase-173)\n* [174](phrase-174)\n\n#### nsfw\n\n* [175](phrase-175)\n\n## Continuous aspect [lu](word-lu)\n\nTo denote an action that is happening for some time, we use [lu](word-lu) as prefix\non the verb (comes after accord with the subject).\n\n* [176](phrase-176)\n* [177](phrase-177)\n* [178](phrase-178)\n\n#### nsfw\n\n* [179](phrase-179)\n\n## Impersonal (weather verbs)\n\nTo express things without a subject, we use the passive voice accorded to third person singular:\n\n* [180](phrase-180)\n* [181](phrase-181)\n* [182](phrase-182)\n\nThis is from [1401st Just Used 5 Minutes of Your Day](https://www.reddit.com/r/conlangs/comments/kzeek7/1401st_just_used_5_minutes_of_your_day/).\n\n[183](phrase-183)\n\n## Honorific / tiny\n\nThis idea of Honorific/tiny was inspired by BDSM power exchange and role play\nbut it transformed quite a lot to express something closer to the person\ntaking care (parent) and the innocent being taken care of (child). This is\nalso present in the BDSM Dom/sub relationship but I wanted something that\nfocussed more on expressing respect for the responsabilty of the \"carer\"\n([keda](word-keda)) and the vulnerability of the \"cared for\" ([yida](word-yida)).\n\n#### nsfw\n\nFor more BDSM and sexual contexts, the Dominant is still referred to as\n\"fantastic\" [keda](word-keda) but the sub is refered to as \"wet\" [loda](word-loda) instead of\n\"tiny\" [yida](word-yida).\n\nYou can look at [pronouns](card-pronouns)\n\nThis translates in possesive suffix [tei](word-tei), [tiyi](alt-tiyi), [tilo](alt-tilo) or\nconjugations using [kei](word-kei) or the affix [ei](word-ei) or [yi](word-yi).\n\n[184](phrase-184)\n\n[185](phrase-185)\n\n[186](phrase-186)\n\nJust remember, what sounds like \"OKey\" is in fact \"I-fantastic\" and everything hard to\npronounce such as [yiyada](word-yiyada) are meant to be said with a soft and very kind voice.\n\n# Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them\nbecause these timings are important in the erotic situations where this\nlanguage originated.\n\n## Future tenses\n\n* [lire](word-lire) (FUT.EVNT) eventual future\n* [liru](word-liru) (FUT.DIST) distant future\n* [lira](word-lira) (FUT.PROX) close future\n* [liri](word-liri) (FUT.CRAS) tomorrow\n* [liri](word-liri) (FUT.HOD) tonight or next morning\n\n## Past tenses\n\n* [lemo](word-lemo) (PST.HOD) last night or this morning\n* [lemi](word-lemi) (PST.HEST) yesterday\n* [lemu](word-lemu) (PST.PROX) recent past\n* [lemu](word-lemu) (PST.DIST) distant past\n* [leme](word-leme) (PST.EVNT) eventual past\n\n## Eternal tenses\n\n* [lau](word-lau) (DEF) always\n* [nei](word-nei) (NEG) never\n\n# Examples\n\n* [187](phrase-187)\n* [188](phrase-188)\n\n#### nsfw\n\n* [189](phrase-189)\n\nYour next read: [order](card-order) (word order)\n",
       "fulltext": "verbs",
       "phon": "/vɛrbs/",
       "glo": "**undefined**"
@@ -11660,7 +11640,7 @@
         "word-pal",
         "alt-Johnam",
         "alt-fuJane",
-        "alt-eliri"
+        "alt-eliro"
       ],
       "see": [
         "card-order"
@@ -11669,7 +11649,7 @@
       "writ": "౫౯",
       "phon": "/59/",
       "glo": "**undefined**",
-      "phrase": "fo pal Johnam fuJane eliri"
+      "phrase": "fo pal Johnam fuJane eliro"
     },
     "phrase-60": {
       "name": "60",
@@ -12131,8 +12111,8 @@
       "trad": "He took my voice.",
       "words": [
         "word-loto",
-        "alt-ahajolemo",
-        "alt-tolapaye"
+        "alt-ahajolemu",
+        "alt-tolapan"
       ],
       "see": [
         "card-sing"
@@ -12141,16 +12121,15 @@
       "writ": "౮౩",
       "phon": "/83/",
       "glo": "**undefined**",
-      "phrase": "loto ahajolemo tolapaye"
+      "phrase": "loto ahajolemu tolapan"
     },
     "phrase-84": {
       "name": "84",
       "id": "phrase-84",
       "type": "phrase",
-      "trad": "... my hair everywhere.",
+      "trad": "... my long hair everywhere.",
       "words": [
-        "alt-tojihuki",
-        "alt-paye"
+        "alt-tojihukipan"
       ],
       "see": [
         "card-sing"
@@ -12159,7 +12138,7 @@
       "writ": "౮౪",
       "phon": "/84/",
       "glo": "**undefined**",
-      "phrase": "tojihuki paye"
+      "phrase": "tojihukipan"
     },
     "phrase-85": {
       "name": "85",
@@ -12167,8 +12146,7 @@
       "type": "phrase",
       "trad": "... my place in life everywhere.",
       "words": [
-        "alt-toleirumi",
-        "alt-paye"
+        "alt-toleirumipan"
       ],
       "see": [
         "card-sing"
@@ -12177,7 +12155,7 @@
       "writ": "౮౫",
       "phon": "/85/",
       "glo": "**undefined**",
-      "phrase": "toleirumi paye"
+      "phrase": "toleirumipan"
     },
     "phrase-86": {
       "name": "86",
@@ -13450,7 +13428,7 @@
       "type": "phrase",
       "trad": "(My) hand, kiss.",
       "words": [
-        "alt-maye",
+        "alt-man",
         "word-la"
       ],
       "see": [
@@ -13460,7 +13438,7 @@
       "writ": "౧౬౬",
       "phon": "/166/",
       "glo": "**undefined**",
-      "phrase": "maye la"
+      "phrase": "man la"
     },
     "phrase-167": {
       "name": "167",
@@ -14320,15 +14298,15 @@
       "writ": "ఎసోహౌ",
       "phon": "/ɛsɔhau/"
     },
-    "alt-aum": {
-      "name": "aum",
-      "id": "alt-aum",
+    "alt-aun": {
+      "name": "aun",
+      "id": "alt-aun",
       "type": "alt",
       "glo": "**heart**.ACC",
       "alt": "word-au",
-      "fulltext": "aum",
-      "writ": "ఔమ్‌x",
-      "phon": "/aum/"
+      "fulltext": "aun",
+      "writ": "ఔnx",
+      "phon": "/aun/"
     },
     "alt-awinesti": {
       "name": "awinesti",
@@ -14450,15 +14428,15 @@
       "writ": "చుఇరిస్‌",
       "phon": "/fuiris/"
     },
-    "alt-eliri": {
-      "name": "eliri",
-      "id": "alt-eliri",
+    "alt-eliro": {
+      "name": "eliro",
+      "id": "alt-eliro",
       "type": "alt",
       "glo": "**be**.later today",
       "alt": "word-liri",
-      "fulltext": "eliri",
-      "writ": "ఎలిరి",
-      "phon": "/ɛliri/"
+      "fulltext": "eliro",
+      "writ": "ఎలిరో",
+      "phon": "/ɛlirɔ/"
     },
     "alt-da": {
       "name": "da",
@@ -15304,6 +15282,16 @@
       "writ": "తోజిహుకి",
       "phon": "/tɔdʒihuki/"
     },
+    "alt-tojihukipan": {
+      "name": "tojihukipan",
+      "id": "alt-tojihukipan",
+      "type": "alt",
+      "glo": "POSS.1SI.**hair**.*long*.*everywhere*.ACC",
+      "alt": "word-ji",
+      "fulltext": "tojihukipan",
+      "writ": "తోజిహుకిపాఁ",
+      "phon": "/tɔdʒihukipan/"
+    },
     "alt-jonato": {
       "name": "jonato",
       "id": "alt-jonato",
@@ -15324,15 +15312,15 @@
       "writ": "జోవినా",
       "phon": "/dʒɔwina/"
     },
-    "alt-ahajolemo": {
-      "name": "ahajolemo",
-      "id": "alt-ahajolemo",
+    "alt-ahajolemu": {
+      "name": "ahajolemu",
+      "id": "alt-ahajolemu",
       "type": "alt",
       "glo": "3SG.**take**.PST.DST",
       "alt": "word-hajo",
-      "fulltext": "ahajolemo",
-      "writ": "అహాజోలేమో",
-      "phon": "/ahadʒɔlɛmɔ/"
+      "fulltext": "ahajolemu",
+      "writ": "అహాజోలేము",
+      "phon": "/ahadʒɔlɛmu/"
     },
     "alt-jonam": {
       "name": "jonam",
@@ -15430,15 +15418,15 @@
       "writ": "లాం",
       "phon": "/lam/"
     },
-    "alt-tolapaye": {
-      "name": "tolapaye",
-      "id": "alt-tolapaye",
+    "alt-tolapan": {
+      "name": "tolapan",
+      "id": "alt-tolapan",
       "type": "alt",
       "glo": "POSS.1SI.**voice**.ACC",
       "alt": "word-lapa",
-      "fulltext": "tolapaye",
-      "writ": "తోలాపాయే",
-      "phon": "/tɔlapajɛ/"
+      "fulltext": "tolapan",
+      "writ": "తోలాపాఁ",
+      "phon": "/tɔlapan/"
     },
     "alt-lapatin": {
       "name": "lapatin",
@@ -15636,15 +15624,15 @@
       "writ": "మాతోమ్‌x",
       "phon": "/matɔm/"
     },
-    "alt-maye": {
-      "name": "maye",
-      "id": "alt-maye",
+    "alt-man": {
+      "name": "man",
+      "id": "alt-man",
       "type": "alt",
       "glo": "**hand**.ACC",
       "alt": "word-ma",
-      "fulltext": "maye",
-      "writ": "మాయే",
-      "phon": "/majɛ/"
+      "fulltext": "man",
+      "writ": "మాnx",
+      "phon": "/man/"
     },
     "alt-fuma": {
       "name": "fuma",
@@ -15906,16 +15894,6 @@
       "writ": "లోతోమ్‌x",
       "phon": "/lɔtɔm/"
     },
-    "alt-paye": {
-      "name": "paye",
-      "id": "alt-paye",
-      "type": "alt",
-      "glo": "**everywhere**.ACC",
-      "alt": "word-pa",
-      "fulltext": "paye",
-      "writ": "పాయే",
-      "phon": "/pajɛ/"
-    },
     "alt-palwu": {
       "name": "palwu",
       "id": "alt-palwu",
@@ -16044,20 +16022,20 @@
       "id": "alt-irumolema",
       "type": "alt",
       "glo": "2SG.**throw**.PST.HEST",
-      "alt": "word-lema",
+      "alt": "word-lemi",
       "fulltext": "irumolema",
       "writ": "ఇరుమోలేమా",
       "phon": "/irumɔlɛma/"
     },
-    "alt-toleirumi": {
-      "name": "toleirumi",
-      "id": "alt-toleirumi",
+    "alt-toleirumipan": {
+      "name": "toleirumipan",
+      "id": "alt-toleirumipan",
       "type": "alt",
-      "glo": "POSS.1SI.*time*.**embrace**",
+      "glo": "POSS.1SI.*time*.**embrace**.*everywhere*.ACC",
       "alt": "word-leirumi",
-      "fulltext": "toleirumi",
-      "writ": "తోలేఇరుమి",
-      "phon": "/tɔlɛirumi/"
+      "fulltext": "toleirumipan",
+      "writ": "తోలేఇరుమిపాఁ",
+      "phon": "/tɔlɛirumipan/"
     },
     "alt-rorumitin": {
       "name": "rorumitin",

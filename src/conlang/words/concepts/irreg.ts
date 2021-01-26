@@ -22,24 +22,24 @@ Current word assembly is boring. To be explored.
 
 Words ending with a vowel change like this on the accusative:
 
-* /..da+am/ => /dam/
-* /..na+am/ => /nam/
-* /..ti+am/ => /tim/
-* /..to+am/ => /tom/
-* /..ta+am/ => /tam/
-* /...a+am/ => /aye/
-* /...u+am/ => /um/
-* /...i+am/ => /in/
-* /...o+am/ => /on/
+* /..danam/ => /dam/ => no further evol
+* /..nanam/ => /nam/ => no further evol
+* /..tinam/ => /tim/ => no further evol
+* /..tonam/ => /tom/ => no further evol
+* /..tanam/ => /tam/ => no further evol
+* /...anam/ => ... => /an/
+* /...unam/ => ... => /un/
+* /...inam/ => ... => /in/
+* /...onam/ => ... => /on/
 
 Examples: 
 
-* ${_.odam} /da+am/ => /dam/
-* ${_.dodam} /da+am/ => /do/
-* ${_.lapanam} /na+am/ => /nam/
-* ${_.dilin} (/i+am/ => /in/)
-* ${_.maye} (/a+am/ => /aye/)
-* ${_.aum} (/u+am/ => /um/)
+* ${_.odam} /dam/
+* ${_.dodam} /dam/
+* ${_.lapanam} /nam/
+* ${_.dilin} /in/
+* ${_.man} /an/
+* ${_.aun} /un/
 * ${_.palam} (normal)
 * ${_.yonam} (normal)
 
@@ -66,6 +66,29 @@ something else...
 
 Or maybe try to evolve sounds from these basic rules, maybe having some words from another
 protolang...
+
+## Sound evolutions
+
+1. Droping consonant or vowel ending on words... but using the original vowel
+when connecting the word to adj, tenses or case.
+2. Apply changes (create new "regularity")... but have some very common words
+resist such as with accusatives \`/..tinam/\` => \`/..tim/\` not evolving to \`/tin/\`
+like \`/dilinam/\` => \`/dilin\`.
+3. Aux verbs (should list them and make them less regular)
+
+## To-be ("e")
+
+How can I mess with this one ? Damned. My conjugation system is already so
+tiny, the only way to evolve it would be to realise that it is confusing and
+needs to be easier to differentiate.
+
+But... this differentiation by vowel o/i/a/ is so present everywhere, it's
+like THE feature of the language and the speakers are thus very very good at
+detecting and speaking them. So there is no way this is going away.
+
+This means that o/i/a aspect is very stable.
+
+I mean, the language could be called oia (me, you, them).
 
 `,
 })

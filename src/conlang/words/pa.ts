@@ -26,7 +26,3 @@ export const paoda = _.word('paoda', {
 
 // === alt
 
-export const paye = _.alt('paye', {
-  glo: '**everywhere**.ACC',
-  alt: () => _.pa,
-})

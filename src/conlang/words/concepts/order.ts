@@ -191,7 +191,7 @@ ${_.phrase(
   _.pal,
   _.Johnam,
   _.fuJane,
-  _.eliri
+  _.eliro
 )}
 
 ## 3. Emphasis on the verb

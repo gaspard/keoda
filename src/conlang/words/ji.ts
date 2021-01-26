@@ -31,3 +31,8 @@ export const tojihuki = _.alt('tojihuki', {
   glo: 'POSS.1SI.**hair**.*long*',
   alt: () => _.ji,
 })
+
+export const tojihukipan = _.alt('tojihukipan', {
+  glo: 'POSS.1SI.**hair**.*long*.*everywhere*.ACC',
+  alt: () => _.ji,
+})

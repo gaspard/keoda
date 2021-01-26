@@ -57,15 +57,15 @@ ${_.block(
   },
   {
     t: 'He took my voice.',
-    p: [_.loto, _.ahajolemo, _.tolapaye],
+    p: [_.loto, _.ahajolemu, _.tolapan],
   },
   {
-    t: '... my hair everywhere.',
-    p: [_.tojihuki, _.paye],
+    t: '... my long hair everywhere.',
+    p: [_.tojihukipan],
   },
   {
     t: '... my place in life everywhere.',
-    p: [_.toleirumi, _.paye],
+    p: [_.toleirumipan],
   }
 )}
 

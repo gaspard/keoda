@@ -58,7 +58,7 @@ export const jowina = _.alt('jowina', {
   alt: () => _.jowi,
 })
 
-export const ahajolemo = _.alt('ahajolemo', {
+export const ahajolemu = _.alt('ahajolemu', {
   glo: '3SG.**take**.PST.DST',
   alt: () => _.hajo,
 })
