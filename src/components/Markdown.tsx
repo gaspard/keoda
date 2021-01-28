@@ -10,7 +10,7 @@ export interface MarkdownProps {
   text: string
 }
 
-export const Markdown: Comp<MarkdownProps> = ({ type, text }) => {
+export const Markdown: Comp<MarkdownProps> = ({ type, text, className }) => {
   const renderers = {
     link: ({
       href,
@@ -24,7 +24,7 @@ export const Markdown: Comp<MarkdownProps> = ({ type, text }) => {
   }
 
   return (
-    <ReactMarkdown plugins={[gfm]} renderers={renderers}>
+    <ReactMarkdown className={className} plugins={[gfm]} renderers={renderers}>
       {text}
     </ReactMarkdown>
   )

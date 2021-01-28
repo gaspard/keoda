@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const sona = _.word('sona', {
-  noun: 'mother earth',
+  def: 'mother earth',
   img:
     'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Mother_Goddess%2C_Madhya_Pradesh_or_Rajasthan%2C_India%2C_6th_-_7th_cents.%2C_National_Museum_of_Korea%2C_Seoul_%2840236606165%29.jpg/330px-Mother_Goddess%2C_Madhya_Pradesh_or_Rajasthan%2C_India%2C_6th_-_7th_cents.%2C_National_Museum_of_Korea%2C_Seoul_%2840236606165%29.jpg',
   desc: () => `
@@ -11,7 +11,7 @@ export const sona = _.word('sona', {
 })
 
 export const gusona = _.word('gusona', {
-  noun: 'impermanence',
+  def: 'impermanence',
   img:
     'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Kali_by_Raja_Ravi_Varma.jpg/330px-Kali_by_Raja_Ravi_Varma.jpg',
   desc: () => `
@@ -39,11 +39,11 @@ export const kali = _.alt('kali', {
 // 1. Kali (Time)
 // 2. Tara (Protection)
 export const gisona = _.word('gisona', {
-  noun: 'compassion',
+  def: 'compassion',
 })
 // 3. Lalita (All of life)
 export const pasona = _.word('pasona', {
-  noun: 'mystery',
+  def: 'mystery',
   desc: () => `
 This is the name of the Goddess Lalita (Tripura Sundari, Sati). She is the highest form of the ten aspects of ${_.sona} (Parvati).
 

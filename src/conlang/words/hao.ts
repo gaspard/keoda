@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const hao = _.word('hao', {
-  noun: 'buste',
+  def: 'buste',
   etym: () => [_.ha, _.oda],
 })
 
@@ -13,7 +13,6 @@ export const haopa = _.word('haopa', {
 // ==== alt
 
 export const ahaopa = _.alt('ahaopa', {
-  glo: '3SG.**yell**',
+  glo: 'they1.**yell**',
   alt: () => _.haopa,
 })
-

@@ -1,10 +1,12 @@
 import * as _ from '.'
 
-export const o = _.word('o', {
-  suffix: 'hit, hurt',
-  conj: 'I/we (1SG.INDF = 1SI)',
+// o case
+export const oC = _.word('o', {
+  id: 'oK',
+  def: '**shock**',
+  suffix: '**shock**',
   glo: 'PUSH (ABL)',
-  see: () => [_.to, _.verbs],
+  see: () => [_.oS, _.verbs],
 })
 
 export const hafo = _.word('hafo', {
@@ -13,19 +15,13 @@ export const hafo = _.word('hafo', {
 })
 
 export const dironeoda = _.example(
-  [_.dir, _.o, _.neoda],
+  [_.dir, _.oC, _.neoda],
   'Quand je serai mort.e...'
 )
-
-export const okei = _.word('okei', {
-  conj: 'I (1SG.HONOR)',
-  glo: '1SG.HONOR',
-  etym: () => [_.o, _.kei],
-})
 
 // === alt
 
 export const ahafo = _.alt('ahafo', {
-  glo: '3SG.**fall**',
+  glo: 'they1.**fall**',
   alt: () => _.hafo,
 })

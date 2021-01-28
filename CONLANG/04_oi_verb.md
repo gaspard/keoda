@@ -15,7 +15,7 @@ et [tens](../src/words/conj_tens.ts)
 
 ```s
 1s je   pi-ma
-2s tu   (i)-ma
+2s tu   wex-ma
 3s iel  a-ma
 1p (nous tous présents) ka-ma
 2p vous  no-ma

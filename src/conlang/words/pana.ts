@@ -2,7 +2,7 @@ import * as _ from '.'
 
 // bahasa indonesia: paham
 export const pana = _.word('pana', {
-  noun: 'understanding',
+  def: 'understanding',
   verb: 'to understand',
   etym: () => [_.pa, _.na],
   desc: () =>
@@ -12,6 +12,6 @@ export const pana = _.word('pana', {
 // === alt
 
 export const onepana = _.alt('onepana', {
-  glo: '1SI.*not*.**understand**',
+  glo: 'wex.*not*.**understand**',
   alt: () => _.pana,
 })

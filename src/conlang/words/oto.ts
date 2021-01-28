@@ -1,35 +1,30 @@
 import * as _ from '.'
 
 export const oto = _.word('oto', {
-  noun: 'wind',
+  def: '**wind** or **masculinity**',
   adj: 'masculine',
-  see: () => [_.she, _.pron],
-})
-
-export const loto = _.word('loto', {
-  noun: 'he',
-  glo: '3SG.MASC',
-  see: () => [_.pron],
-})
-
-export const lotom = _.alt('lotom', {
-  glo: '**him**.ACC',
-  alt: () => _.loto,
+  see: () => [_.subj],
 })
 
 export const otoda = _.word('otoda', {
-  noun: 'man',
+  def: '**male** (wind) **person**',
   desc: () => `place of the wind-self`,
-  etym: () => [_.oto, _.oda],
-})
-_.see(_.duto)
-
-export const otana = _.word('otana', {
-  adj: 'treeish wind (fem masc)',
-  etym: () => [_.oto, _.ana],
+  etym: () => [_.oto, _.da],
 })
 
-export const otiwi = _.word('otiwi', {
-  adj: 'birdly wind (enby masc)',
-  etym: () => [_.oto, _.iwi],
+// === alt
+
+export const tahoton = _.alt('tahoton', {
+  glo: '**they1**.wind~',
+  alt: () => _.oto,
+})
+
+export const shohoto = _.alt('shohoto', {
+  glo: '**we9**.wind',
+  alt: () => _.oto,
+})
+
+export const tahoto = _.alt('tahoto', {
+  glo: 'they1.**wind**',
+  alt: () => _.oto,
 })

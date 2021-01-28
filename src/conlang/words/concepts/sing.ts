@@ -33,31 +33,31 @@ ${_.phrase(
   _.laum,
   _.wa,
   _.alemegu,
-  _.fusen
+  _.fuse
 )}
 
-## ${_.loto} (him)
+## ${_.tahoto} (him)
 
 ${_.block(
   {
     t: 'I look in the mirror and I see him.',
-    p: [_.ofa, _.fahataye, _.ku, _.ofa, _.lotom],
+    p: [_.ofa, _.fahatah, _.ku, _.ofa, _.tahoton],
   },
   {
     t: 'I look in my eyes and I see her.',
-    p: [_.ofa, _.fatom, _.ku, _.ofa, _.lanam],
+    p: [_.ofa, _.faton, _.ku, _.ofa, _.anadam],
   },
   {
     t: 'When will he go ?',
-    p: [_.dir, _.lotom, _.ahodo, _.q],
+    p: [_.dir, _.tahoton, _.ahodo, _.q],
   },
   {
     t: 'I saw him always and always.',
-    p: [_.ofalem, _.lotom, _.golau, _.golau],
+    p: [_.ofalem, _.tahoton, _.golau, _.golau],
   },
   {
     t: 'He took my voice.',
-    p: [_.loto, _.ahajolemu, _.tolapan],
+    p: [_.tahoto, _.ahajolemu, _.tolapan],
   },
   {
     t: '... my long hair everywhere.',
@@ -74,7 +74,7 @@ Reply:
 ${_.block(
   {
     t: 'I am him.',
-    p: [_.ohe, _.lotom],
+    p: [_.ohe, _.tahoton],
   },
   {
     t: 'I have to die to let you thread your life.',
@@ -171,9 +171,9 @@ ${_.block(
   }
 )}
 
-## ${_.iya} (you)
+## ${_.iS} (you)
 
-${_.phrase('I fall asleep in your embrace.', _.piyifodi, _.rorumitin)}
+${_.phrase('I fall asleep in your embrace.', _.piyifodi, _.rorumitim)}
 
 ${_.phrase(
   'I become a small girl as I drift away.',
@@ -181,7 +181,7 @@ ${_.phrase(
   _.anayiam,
   _.leu,
   _.piyimeshe,
-  _.hadau
+  _.dao
 )}
 
 ## Death

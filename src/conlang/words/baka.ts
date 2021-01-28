@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const baka = _.word('baka', {
-  noun: 'devotion',
+  def: '**devotion**',
   verb: 'to surrender',
 })
 
@@ -9,6 +9,6 @@ export const baka = _.word('baka', {
 
 // Bhakti
 export const bakati = _.alt('bakati', {
-  glo: '**devotion**.POSS.2SG',
+  glo: '**devotion**.you1',
   alt: () => _.baka,
 })

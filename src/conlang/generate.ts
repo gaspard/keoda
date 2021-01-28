@@ -20,23 +20,24 @@ export const CONSONANT = [
   'z',
 ]
 export const VOWEL = ['a', 'e', 'i', 'o', 'u']
-export const END = ['m', 'n', 'r', 'j', 'l', 's']
+export const END = ['r', 'j', 'l', 's'] // no ending in m/n/h because used for accusative
 
 const OR_NOTHING = ''
 const GROUPS = [
-  [VOWEL],
   [VOWEL, CONSONANT, VOWEL],
   [VOWEL, [...VOWEL, OR_NOTHING], [...END, OR_NOTHING]],
   [CONSONANT, VOWEL, [...END, OR_NOTHING]],
+  [CONSONANT, VOWEL, CONSONANT, VOWEL],
   [CONSONANT, VOWEL, VOWEL],
 ]
 
 export function generate() {
   const seen: { [key: string]: boolean } = { '': true }
   const syllables: string[] = []
+  const lsyllables: string[] = []
 
   GROUPS.forEach(g => {
-    const [a, b, c] = g
+    const [a, b, c, d] = g
     a.forEach(la => {
       b.forEach(lb => {
         if (lb === la) {
@@ -46,23 +47,29 @@ export function generate() {
           if (lc === lb) {
             return
           }
-          const syllable = [la, lb, lc].filter(a => a !== OR_NOTHING).join('')
-          if (!seen[syllable]) {
-            seen[syllable] = true
-            syllables.push(syllable)
+          if (d) {
+            d.forEach(ld => {
+              if (ld === lc) {
+                return
+              }
+              const syllable = [la, lb, lc, ld]
+                .filter(x => x !== OR_NOTHING)
+                .join('')
+              if (!seen[syllable]) {
+                seen[syllable] = true
+                lsyllables.push(syllable)
+              }
+            })
+          } else {
+            const syllable = [la, lb, lc].filter(x => x !== OR_NOTHING).join('')
+            if (!seen[syllable]) {
+              seen[syllable] = true
+              syllables.push(syllable)
+            }
           }
         })
       })
     })
   })
-  syllables.sort()
-  return syllables
+  return { syllables, lsyllables }
 }
-
-function run() {
-  const SYLLABLES = generate()
-  console.log('COUNT: ', SYLLABLES.length)
-  console.log(SYLLABLES.join('\n'))
-}
-
-// run()

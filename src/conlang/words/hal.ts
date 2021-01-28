@@ -6,7 +6,7 @@ export const hal = _.word('hal', {
 })
 
 export const mahal = _.word('mahal', {
-  noun: 'divine action',
+  def: 'divine action',
   adj: 'miraculous',
   etym: () => [_.ma, _.hal],
 })

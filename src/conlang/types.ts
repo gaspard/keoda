@@ -8,11 +8,11 @@ export interface Example {
 export interface EntryInfo {
   // https://www.eva.mpg.de/lingua/resources/glossing-rules.php
   glo: string
-  noun: string
+  def: string
   verb: string
   adj: string
   det: string
-  conj: string
+  subj: string
   prefix: string
   suffix: string
   prep: string
@@ -36,10 +36,13 @@ export interface EntryInfo {
   open?: boolean
 }
 
+export type LazyString = string | (() => string)
+
 export interface FullEntry extends EntryInfo {
+  id: string
   name: string
-  nsfw?: boolean
-  desc: () => string
+  nsfw: boolean
+  desc: LazyString
   exam: () => Entry[]
   etym: () => Entry[]
   see: () => Entry[]
@@ -49,9 +52,9 @@ export interface FullEntry extends EntryInfo {
 }
 
 export const FULLTEXT_KEYS: (keyof EntryInfo)[] = [
-  'conj',
-  'noun',
+  'def',
   'verb',
+  'subj',
   'adj',
   'det',
   'prefix',
@@ -66,7 +69,7 @@ export const FULLTEXT_KEYS: (keyof EntryInfo)[] = [
 ]
 
 export const DEF_KEYS: (keyof CompiledEntry)[] = [
-  ...FULLTEXT_KEYS,
+  ...FULLTEXT_KEYS.filter(k => k !== 'def'),
   'deriv',
   'see',
 ]

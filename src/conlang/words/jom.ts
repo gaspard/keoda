@@ -1,11 +1,11 @@
 import * as _ from '.'
 
 export const jom = _.word('jom', {
-  noun: 'group, family',
+  def: 'group, family',
 })
 
 export const jana = _.word('jana', {
-  noun: 'forest',
+  def: 'forest',
 })
 
 export const janaro = _.alt('janaro', {

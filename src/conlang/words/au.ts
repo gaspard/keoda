@@ -1,23 +1,23 @@
 import * as _ from '.'
 
 export const au = _.word('au', {
-  noun: 'heart',
+  def: 'heart',
   verb: 'to love/to receive',
   see: () => [_.zu],
 })
 
 export const ohau = _.alt('ohau', {
-  glo: '1SI.**love**',
+  glo: 'wex.**heart**',
   alt: () => _.au,
 })
 
 export const auhu = _.word('auhu', {
-  noun: 'to fall in love, pull of the heart',
+  def: 'to fall in love, pull of the heart',
   etym: () => [_.au, _.u],
 })
 
 export const aupa = _.word('aupa', {
-  noun: 'gratitude (love all)',
+  def: 'gratitude (love all)',
   etym: () => [_.au, _.pa],
 })
 _.see(_.pahau)
@@ -35,27 +35,27 @@ export const ausifalamau = _.example(
 
 // =========== ALT
 export const azulire = _.alt('azulire', {
-  glo: '3SG.**love**.FUT.EVNT',
+  glo: 'they1.**heart**.FUT.EVNT',
   alt: () => _.zu,
 })
 
 // same as autinam
 export const autim = _.alt('autim', {
-  glo: '**heart**.POSS.2SG.ACC',
+  glo: '**heart**.you1+',
   alt: () => _.au,
 })
 
 export const auto = _.alt('auto', {
-  glo: '**heart**.POSS.1SI',
+  glo: '**heart**.wex',
   alt: () => _.au,
 })
 
 export const esohau = _.alt('esohau', {
-  glo: 'PASS.1SI.**love**',
+  glo: 'PASS.wex.**heart**',
   alt: () => _.au,
 })
 
 export const aun = _.alt('aun', {
-  glo: '**heart**.ACC',
+  glo: '**heart**+',
   alt: () => _.au,
 })

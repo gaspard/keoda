@@ -1,11 +1,12 @@
 import * as _ from '.'
 
 export const adu = _.word('adu', {
-  adj: 'close, friend',
+  def: '**friend**',
+  adj: 'close',
 })
 
 export const doda = _.word('doda', {
-  noun: 'dog',
+  def: '**dog**',
   etym: () => [_.adu, _.oda],
   see: () => [_.duda],
 })
@@ -13,6 +14,6 @@ export const doda = _.word('doda', {
 // === alt
 
 export const dodam = _.alt('dodam', {
-  glo: '**dog**.ACC',
+  glo: '**dog**+',
   alt: () => _.doda,
 })

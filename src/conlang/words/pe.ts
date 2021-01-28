@@ -1,43 +1,43 @@
 import * as _ from '.'
 
 export const pe = _.word('pe', {
-  conj: 'some',
-  glo: '3PL.INDF',
-  noun: '3',
+  subj: 'some',
+  glo: 'they9.INDF',
+  def: '3',
   suffix: 'some',
   see: () => [_.mun, _.count],
   posit: 'two legs and a buttock (doggy style)',
 })
 
-export const tope = _.word('tope', {
-  det: 'to some',
-  glo: 'POSS.3PL.INDF',
-  etym: () => [_.to, _.de],
-  see: () => [_.poss],
+export const ape = _.word('ape', {
+  def: '**someˣ**',
+  prefix: '**to someone**',
+  suffix: '**to someone**',
+  etym: () => [_.aS, _.pe],
+  see: () => [_.subj],
 })
 
 export const peda = _.word('peda', {
-  pron: 'some',
-  glo: '3PL.INDF',
-  etym: () => [_.pe, _.oda],
-  see: () => [_.peya, _.pron],
+  def: '**some person**',
+  glo: '**someone**',
+  etym: () => [_.pe, _.da],
+  see: () => [_.subj],
 })
 
-export const peyada = _.word('peyada', {
-  pron: 'some (poetic)',
-  glo: '3PL.INDF.POET',
-  etym: () => [_.pe, _.yada],
-  see: () => [_.peda, _.pron],
+export const pesen = _.word('pesen', {
+  def: '**some place**',
+  etym: () => [_.pe, _.sen],
+  see: () => [_.subj],
 })
 
 export const hamape = _.word('hamape', {
-  noun: 'middle finger',
+  def: 'middle finger',
   etym: () => [_.hama, _.pe],
   posit: '(mun) indicated by thumb against middle finger',
 })
 
 export const nepe = _.word('nepe', {
-  noun: 'limbo (forgetting "pa")',
+  def: 'limbo (forgetting "pa")',
   adj: 'offensive',
   see: () => [_.ganes, _.nanes],
 })
@@ -50,4 +50,9 @@ export const pe3 = _.alt('pe', {
 export const pehipa = _.alt('pehipa', {
   glo: '**3**.*100*',
   alt: () => _.pe,
+})
+
+export const pedam = _.alt('pedam', {
+  glo: '**someone**+',
+  alt: () => _.peda,
 })

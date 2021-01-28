@@ -1,17 +1,17 @@
 import * as _ from '.'
 
 export const ji = _.word('ji', {
-  noun: 'hair',
+  def: 'hair',
   posit: 'standing, body leaning forward, hair offered ready to be taken',
 })
 
 export const gojida = _.word('gojida', {
-  noun: 'bear',
+  def: 'bear',
   etym: () => [_.go, _.ji, _.oda],
 })
 
 export const neji = _.word('neji', {
-  noun: 'without hair',
+  def: 'without hair',
   verb: 'to shave',
 })
 
@@ -23,16 +23,16 @@ export const jihuki = _.alt('jihuki', {
 })
 
 export const jihukin = _.alt('jihukin', {
-  glo: '**hair**.*long*.ACC',
+  glo: '**hair**.*long*+',
   alt: () => _.ji,
 })
 
 export const tojihuki = _.alt('tojihuki', {
-  glo: 'POSS.1SI.**hair**.*long*',
+  glo: 'wex.**hair**.*long*',
   alt: () => _.ji,
 })
 
 export const tojihukipan = _.alt('tojihukipan', {
-  glo: 'POSS.1SI.**hair**.*long*.*everywhere*.ACC',
+  glo: 'wex.**hair**.*long*.*everywhere*+',
   alt: () => _.ji,
 })

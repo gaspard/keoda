@@ -18,13 +18,16 @@ and curvy.
 | :-------------  | :--------: | :-------------: | :----------: | :-----: |
 | **Nasal**       | m మ       | n న             |              |         |
 | **Plosive**     | p ప / b బ | t త / d ద  | k క / g గ        |         |
-| **Fricative**   | f చ       | s స / z ఠ -  ʃ శ / dʒ జ |   | h  ః హ * |
+| **Fricative**   | f చ       | s స / z ఠ -  ʃ శ / dʒ జ | x ః * | h హ |
 | **Approximant** | ʋ  వ      |                 | j య         |         |
 | **Trill**       |            | r ర             |              |         |
 | **Lateral**     |            | l ల             |              |         |
 
-\\* The \`/h/\` sound is a kind of stop in the middle of a word and is written with 'ః' (stop).
-At the start of a word, it is written హ.
+\\* The \`/x/\` sound is only used at the end of a word to mark "bad taste/mood"
+or accusative with a rejection feeling ("good taste" is /m/ ending and
+"neutral taste" is /n/). The more the sound becomes uvular (feeling of
+choking), the worst the taste/mood. A near silent expletive /h/ sound can
+express (subtle) disdain.
 
 All sounds correspond to [Telugu](https://en.wikipedia.org/wiki/Telugu_script) except for:
 
@@ -85,7 +88,7 @@ Diphthongs are written on the same consonant when possible if the second vowel i
 
 ## Current evolutions
 
-* Some dialects seem to be using \`/zu/\` instead of \`/au/\`.
+* There is a tendency to use \`/zu/\` instead of \`/au/\`.
 * There might be a trend to change \`/dʒ/\` into \`/ʒ/\`. 
 
 Your next read: ${_.kedana} (geography)

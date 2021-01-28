@@ -1,41 +1,50 @@
 import * as _ from '.'
 
 export const mun = _.word('moon', {
-  noun: 'breast',
+  def: '**breast**',
   posit: 'kneeling, breast touching the ground (doggy style)',
   see: () => [_.pe],
 })
 
 export const munwe = _.word('munwe', {
-  noun: 'right breast',
+  def: 'right breast',
   etym: () => [_.mun, _.we],
 })
 
-_.see(_.demimunwe)
-
-export const imimunmenu = _.example(
-  [_.i, _.mi, _.mun, _.sienu],
-  `Caresse-toi les seins en effleurant.`
-)
-
 export const hamun = _.word('hamun', {
-  noun: 'nipple',
+  def: 'nipple',
   etym: () => [_.ha, _.mun],
 })
 
 export const munawi = _.word('munawi', {
-  noun: 'moon',
+  def: 'moon',
   etym: () => [_.mun, _.awi],
 })
 
 export const muna = _.word('muna', {
-  noun: 'baby bottle',
+  def: 'baby bottle',
   etym: () => [_.mun, _.na],
 })
 
 // === alt
 
 export const hamunam = _.alt('hamunam', {
-  glo: '**nipple**.ACC',
+  glo: '**nipple**+',
   alt: () => _.hamun,
+})
+
+export const hamunah = _.alt('hamunah', {
+  glo: '**nipple**:',
+  alt: () => _.hamun,
+})
+
+export const munatinamHIST = _.alt('munatinam', {
+  id: 'munatinamHIST',
+  glo: '**breast**.POSS.2SG.ACC',
+  alt: () => _.mun,
+})
+
+export const munatim = _.alt('munatim', {
+  glo: '**breast**.you1+',
+  alt: () => _.mun,
 })

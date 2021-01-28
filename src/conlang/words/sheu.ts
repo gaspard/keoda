@@ -1,19 +1,19 @@
 import * as _ from '.'
 
 export const sheu = _.word('sheu', {
-  noun: 'nose',
+  def: 'nose',
   verb: 'to breath',
   etym: () => [_.she, _.u],
   see: () => [_.shei],
 })
 
 export const sheulama = _.word('sheulama', {
-  noun: 'diving',
+  def: 'diving',
   etym: () => [_.sheu, _.lama],
 })
 
 export const gosheu = _.word('gosheu', {
-  noun: 'pig',
+  def: 'pig',
   etym: () => [_.go, _.sheu],
 })
 

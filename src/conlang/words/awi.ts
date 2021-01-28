@@ -1,18 +1,19 @@
 import * as _ from '.'
 
 export const awi = _.word('awi', {
-  noun: 'fish',
+  def: '**fish**',
   verb: 'to shine, to appear',
   adj: 'beautiful',
   see: () => [_.fawulama],
 })
 
 export const mawi = _.word('mawi', {
-  noun: 'dolphin',
+  def: '**dolphin**',
   etym: () => [_.mun, _.awi],
 })
 
 export const awiu = _.word('awiu', {
+  def: '**fin**',
   verb: 'to swim',
   etym: () => [_.awi, _.u],
 })
@@ -20,16 +21,16 @@ export const awiu = _.word('awiu', {
 // === alt
 
 export const awinesti = _.alt('awinesti', {
-  glo: '**fish**.magnitude.POSS.2SG',
+  glo: '**fish**.isness.you1',
   alt: () => _.awi,
 })
 
 export const ahawi = _.alt('ahawi', {
-  glo: '3SG.**appear**',
+  glo: 'they1.**fish**',
   alt: () => _.awi,
 })
 
 export const okeihawi = _.alt('okeihawi', {
-  glo: '1SG.HONOR.**appear**',
+  glo: 'I~.HONOR.**fish**',
   alt: () => _.awi,
 })

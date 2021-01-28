@@ -2,12 +2,12 @@ import * as _ from '.'
 
 export const je = _.word('je', {
   adj: 'close',
-  noun: '8 (emotion)',
+  def: '8 (emotion)',
   see: () => [_.count],
 })
 
 export const jepa = _.word('jepa', {
-  noun: 'belonging',
+  def: 'belonging',
   see: () => [_.ganes],
 })
 

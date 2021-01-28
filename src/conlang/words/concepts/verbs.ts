@@ -1,39 +1,42 @@
 import * as _ from '..'
 
 export const verbs = _.card('verbs', {
-  writ: 'verbs',
   desc: () => `
-# Verbs and conjugation
+# Actions (verbs)
 
-Many nouns are also verbs such as ${_.fa}, ${_.fen}, ${_.yin}, ${_.taj}.
+All nouns can become actions (verbs). Some nouns have a precise meaning when
+they take the "action" role such as ${_.fa}, ${_.fen}, ${_.awi}, ${_.yon},
+etc.
 
-One of the particularities of this language is the use of three suffix
-used to mark cases related to the body when derivating verbs: 
+Another particularity of this language is the use of three suffix used to
+mark cases related to the body when derivating verbs:
 
-* ${_.i} (CARE, caring, gentle)
-* ${_.o} (ABL, pushing, away from)
+* ${_.iC} (CARE, caring, gentle)
+* ${_.oC} (ABL, pushing, away from)
 * ${_.u} (ALL, pulling, towards)
 
 Examples:
 
-* ${_.phrase('Caress (i) my long hair.', _.mi, _.jihukin)}
+* ${_.phrase('Caress wex my long hair.', _.mi, _.jihukin)}
 * ${_.phrase('You breath (u) fresh air.', _.isheu, _.shehegim)}
-* ${_.phrase('Yesterday, you threw (o) the ball.', _.irumolema, _.tamem)}
+* ${_.phrase('Yesterday, you threw (o) the ball.', _.irumolemi, _.tameh)}
 
 #### nsfw
 
-* ${_.phraseX('Pinch my nipple.', _.mu, _.hamunam)}
+* ${_.phraseX('Pinch my nipple (lovingly).', _.mu, _.hamunam)}
+* ${_.phraseX('Pinch my nipple (sadisticaly).', _.mu, _.hamunah)}
 * ${_.phraseX('Whip my butt.', _.fo, _.palam)}
 
 ## The hardest case
 
-The most complicated conjugation is the continuous passive in the past or future. Here we go:
+The most complicated action type is the continuous passive in the past or
+future. Here we go:
 
 * ${_.ophrase('You were being caressed.', _.esilumilem)}
 
 Decomposed in its parts, this is:
 
-| ${_.es} | ${_.i} | ${_.lu} | ${_.mi} | ${_.lem} |
+| ${_.es} | ${_.iC} | ${_.lu} | ${_.mi} | ${_.lem} |
 | :-:     | :-:    | :-:     | :-:     |  :-:     |
 | es | i | lu | mi | lem |
 | passive | you    | continuous | caress | past |
@@ -48,70 +51,41 @@ The simplest tense is the imperative which looks like the infinitive.
 
 ## Word order
 
-Phrases do not have precise verb, subject or object positioning. We
-use the accusative (target) and sometimes dative (receiver) to
-remove ambiguity.
+Phrases do not have precise verb, subject or object positioning. We use
+marking on the target expressing some kind of bond with the subject (taste,
+accusative) and sometimes receiver marking (dative) to remove ambiguity. See
+${_.am} for details on "taste" marking.
 
-* ${_.phrase('Touch (my) lips.', _.ma, _.laham)}
-* ${_.phrase('(My) hand, kiss.', _.man, _.la)}
-* ${_.phrase('Kiss (my) lips.', _.la, _.lam)}
+* ${_.phrase('Touch wex lips.', _.ma, _.lan)}
+* ${_.phrase('wex hand, kiss.', _.man, _.la)}
+* ${_.phrase('Kiss wex lips (wholeheartedly).', _.la, _.lam)}
 * ${_.phrase(
-    'John gives the ball (ACC) to Jane (DAT)',
+    'John gives the ball (he dislikes, accusative) to Jane (dative)',
     _.John,
     _.aguwu,
-    _.tamem,
+    _.tameh,
     _.niJane
   )}
 
-Some verb-noun actions are so common that they fuse and "kiss my lips"
-becomes "kiss-lips" as its own verb:
-
-* ${_.phrase('Kiss-lips.', _.lala)}
-
 For more information on word order: ${_.order}
 
-## Accord with the subject
+## Transforming a noun into an action
 
-The accord with the subject comes *first*. This is because it is an
-agglutination of *subject verb case* (separate words) to *subject.verb.case* (single word):
+To mark nouns as "active", making them something like verbs, we prefix them with
+a subject marker (the "doer" or "receiver" when used with ${_.es}).
+
+The origin of this is that saying "I hand" transforms "hand" into the "massage" or
+"take" action and it evolved to be "Ihand" in a single word. Example:
 
 * ${_.phrase('We mouth pull', _.sho, _.li, _.u)}
 * ${_.phrase('We eat.', _.sholiu)}
 
-So the possible accords are:
+The full list of "subject" prefix: ${_.subj}
 
-* ${_.o} I/we (1SG.INDF = 1SI)
-* ${_.i} you (2SG)
-* ${_.a} they (3SG)
-* ${_.sho} us present (1PL.PRS)
-* ${_.shi} you present (2PL.PRS)
-* ${_.sha} they (3PL)
+## Passive voice
 
-**And the rarer forms**
-
-* ${_.okei} I (1SG.HONOR)
-* ${_.kei}  you (2SG.HONOR)
-* ${_.akei} they (3SG.HONOR)
-* ${_.piyi} I (1SG.DIM)
-* ${_.yi} you (2SG.DIM)
-* ${_.ayi} they (3SG.DIM)
-* ${_.pi} I (1SG)
-* ${_.de} us two (1PL.DU)
-* ${_.pe} some (3PL.INDF)
-* ${_.ka} us all (1PL.DEF)
-
-We also have ${_.shoyi}, ${_.shokei}, etc. You get the idea.
-
-In case you haven't noticed, there is some consistency with:
-
-* ${_.pron} (pronouns)
-* ${_.poss} (possessivity)
-
-## Passive voices
-
-The passive voice transforms the target of the action into the subject. For this we use ${
-    _.es
-  } prefix before conjugation.
+The passive voice transforms the target of the action into the subject. For
+this we use ${_.es} prefix before the subject.
 
 For example:
 
@@ -119,8 +93,8 @@ For example:
     'Your foot is massaged',
     _.sameti,
     _.esami
-  )}
-* ${_.phrase('I will be massaged.', _.esomilir)}
+  )}, litteraly "foot.you be-him.**caress**".
+* ${_.phrase('I will be massaged.', _.esomilir)} ("be-me.**caress**.will-be")
 
 #### nsfw
 
@@ -129,17 +103,17 @@ For example:
 ## Continuous aspect ${_.lu}
 
 To denote an action that is happening for some time, we use ${_.lu} as prefix
-on the verb (comes after accord with the subject).
+on the action (comes after accord with the subject).
 
 * ${_.phrase(
     'He was thinkink of you when he fell asleep.',
     _.alugahi,
-    _.idam,
+    _.tim,
     _.dem,
-    _.afodiru
+    _.afodirulem
   )}
-* ${_.phrase('Thinkink of you, he fell asleep.', _.lugahi, _.idam, _.afodiru)}
-* ${_.phrase('I am dreaming of you.', _.oluyafa, _.idam)}
+* ${_.phrase('Thinkink of you, he fell asleep.', _.lugahi, _.tim, _.afodirulem)}
+* ${_.phrase('I am dreaming of you.', _.oluyafa, _.tim)}
 
 #### nsfw
 
@@ -162,7 +136,7 @@ This is from [1401st Just Used 5 Minutes of Your Day](https://www.reddit.com/r/c
 ${_.phrase(
   'It turned out that the child was lying.',
   _.esarulem,
-  _.gamalam,
+  _.gamalan,
   _.mei,
   _.joda,
   _.ahelem,
@@ -184,10 +158,7 @@ For more BDSM and sexual contexts, the Dominant is still referred to as
 "fantastic" ${_.keda} but the sub is refered to as "wet" ${_.loda} instead of
 "tiny" ${_.yida}.
 
-You can look at ${_.pron}
-
-This translates in possesive suffix ${_.tei}, ${_.toyi}, ${_.tolo} or
-conjugations using ${_.kei} or the affix ${_.ei} or ${_.yi}.
+This translates in subjects ${_.okei}, ${_.iyi}, ${_.ilo}, etc.
 
 ${_.phrase('I am ready, Master.', _.yihe, _.sen, _.keda)}
 
@@ -195,10 +166,9 @@ ${_.phrase('I (Master) will undress (tiny you).', _.okeinefelir, _.yida)}
 
 ${_.phrase('(tiny) me will undress you (Master).', _.piyinefelir, _.keda)}
 
-Just remember, what sounds like "OKey" is in fact "I-fantastic" and everything hard to
-pronounce such as ${
-    _.yiyada
-  } are meant to be said with a soft and very kind voice.
+Just remember, what sounds like "OKey" is in fact "I-fantastic" and
+everything with a /y/ such as ${_.yida} are meant to be said with a soft and
+very kind voice.
 
 # Tenses
 
@@ -229,12 +199,12 @@ language originated.
 
 # Examples
 
-* ${_.phrase('yesterday, I kissed a girl.', _.olalema, _.anam)}
-* ${_.phrase('They might love you someday.', _.azulire, _.autim)}
+* ${_.phrase('yesterday, I kissed a girl (I dislike).', _.olalemi, _.anah)}
+* ${_.phrase('They might love you (completely) someday.', _.azulire, _.autim)}
 
 #### nsfw
 
-* ${_.phraseX('I am eating pussy.', _.oluliu, _.yonam)}
+* ${_.phraseX('I am eating (lots of) pussy.', _.oluliu, _.yonam)}
 
 Your next read: ${_.order} (word order)
 `,

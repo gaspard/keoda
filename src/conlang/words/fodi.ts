@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const fodi = _.word('fodi', {
-  noun: 'sleep',
+  def: 'sleep',
   verb: 'to sleep',
 })
 
@@ -17,7 +17,7 @@ export const piyifodi = _.alt('piyifodi', {
   alt: () => _.fodi,
 })
 
-export const afodiru = _.alt('afodiru', {
-  glo: '3SG.**sleep**.*become*',
+export const afodirulem = _.alt('afodirulem', {
+  glo: 'they1.**sleep**.become.PST',
   alt: () => _.fodi,
 })

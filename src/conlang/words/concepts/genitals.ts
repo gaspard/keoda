@@ -1,5 +1,5 @@
-import * as _ from '.'
-
+import * as _ from '..'
+// FIXME
 export const genitals = _.example(
   [
     // vulve

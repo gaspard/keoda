@@ -1,11 +1,12 @@
 import * as _ from '.'
 
 export const aj = _.word('aj', {
-  noun: 'fire',
+  def: '**fire** (dopamine, serotonine)',
   verb: 'to burn',
 })
 
 export const ajapi = _.word('ajapi', {
+  def: '**self-burn** (initiation)',
   verb: 'to burn the self',
   see: () => [_.iwigui],
 })
@@ -13,6 +14,6 @@ export const ajapi = _.word('ajapi', {
 // === alt
 
 export const esohajapi = _.alt('esohajapi', {
-  glo: 'PASS.1SI.**burn**',
+  glo: 'PASS.wex.**burn**',
   alt: () => _.ajapi,
 })

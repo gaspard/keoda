@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const so = _.word('so', {
-  noun: 'earth',
+  def: 'earth',
   suffix: 'down',
   see: () => [_.al],
 })

@@ -15,6 +15,6 @@ export const uba = _.word('uba', {
 
 // ===== alt
 export const ahuba = _.alt('ahuba', {
-  glo: '3SG.**run down**',
+  glo: 'they1.**run down**',
   alt: () => _.uba,
 })

@@ -1,10 +1,10 @@
 import * as _ from '.'
 
 export const gili = _.word('gili', {
-  noun: 'tiger',
+  def: 'tiger',
 })
 
 export const gilile = _.word('gilile', {
-  noun: 'cat',
+  def: 'cat',
   etym: () => [_.gili, _.le],
 })

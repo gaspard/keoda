@@ -1,6 +1,8 @@
 import * as _ from '.'
 
 export const ja = _.word('ja', {
-  noun: 'possible',
+  def: 'reality',
+  adj: 'real',
+  verb: 'to exist',
 })
 _.see(_.eja)

@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const yin = _.word('yin', {
-  noun: 'vagina',
+  def: 'vagina',
   etym: () => [_.yu, _.in],
 })
 

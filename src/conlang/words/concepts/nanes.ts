@@ -1,7 +1,7 @@
 import * as _ from '..'
 
 export const nanes = _.card('nanes', {
-  noun: 'scale of na',
+  def: 'scale of na',
   lang: 'states of practicality',
   see: () => [_.ganes, _.count],
   desc: () => `

@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const zu = _.word('zu', {
-  noun: 'heart',
+  def: 'heart',
   verb: 'to love',
   see: () => [_.au],
 })
@@ -13,7 +13,7 @@ export const zuzu = _.word('zuzu', {
 })
 
 export const zunes = _.word('zunes', {
-  noun: 'love',
+  def: 'love',
   etym: () => [_.zu, _.nes],
 })
 
@@ -23,7 +23,7 @@ export const zuzupa = _.alt('zuzupa', {
 })
 
 export const ozu = _.alt('ozu', {
-  glo: '1SI.**love**',
+  glo: 'wex.**heart**',
   alt: () => _.zu,
 })
 

@@ -9,6 +9,6 @@ export const uki = _.word('uki', {
 })
 
 export const ukile = _.word('ukile', {
-  noun: 'old',
+  def: 'old',
   etym: () => [_.uki, _.lei],
 })

@@ -6,7 +6,7 @@ export const wi = _.word('wi', {
 })
 
 export const wiyon = _.word('wiyon', {
-  noun: 'prune, September',
+  def: 'prune, September',
   etym: () => [_.wi, _.yon],
   see: () => [_.fruits, _.seasons],
 })

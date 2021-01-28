@@ -5,7 +5,7 @@ export const weis = _.word('weis', {
 })
 
 export const goweis = _.word('goweis', {
-  noun: 'desolate',
+  def: 'desolation',
   verb: 'to desolate',
   etym: () => [_.go, _.weis],
 })
@@ -13,6 +13,6 @@ export const goweis = _.word('goweis', {
 // === alt
 
 export const agoweiselem = _.alt('agoweiselem', {
-  glo: '3SG.**desolate**.PST',
+  glo: 'they1.**desolation**.PST',
   alt: () => _.goweis,
 })

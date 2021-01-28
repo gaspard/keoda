@@ -9,12 +9,12 @@ _.see(_.lir)
 _.see(_.lei)
 
 export const elem = _.word('elem', {
-  noun: 'in the past',
+  def: 'in the past',
   etym: () => [_.e, _.lem],
 })
 
 export const lemana = _.word('lemana', {
-  noun: 'history',
+  def: 'history',
   etym: () => [_.lem, _.na],
 })
 

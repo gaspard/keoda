@@ -6,7 +6,7 @@ const _in = _.word('in', {
 export { _in as in }
 
 export const odin = _.word('odin', {
-  noun: 'lion',
+  def: 'lion',
   etym: () => [_.oda, _.in],
 })
 

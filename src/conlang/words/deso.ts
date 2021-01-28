@@ -1,15 +1,15 @@
 import * as _ from '.'
 
 export const deso = _.word('deso', {
-  noun: 'sponge',
+  def: 'sponge',
 })
 
 export const desoyon = _.word('desoyon', {
-  noun: 'spongy clitoral body',
+  def: 'spongy clitoral body',
   etym: () => [_.deso, _.yon],
 })
 
 export const desotaj = _.word('desotaj', {
-  noun: 'spongy penis body',
+  def: 'spongy penis body',
 })
 _.see(_.genitals)

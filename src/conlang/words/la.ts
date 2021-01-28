@@ -1,42 +1,38 @@
 import * as _ from '.'
 
 export const la = _.word('la', {
-  noun: 'lips',
+  def: 'lips',
   verb: 'to kiss',
 })
 
-export const lala = _.word('lala', {
-  verb: 'to kiss-lips',
-})
-
 export const kela = _.word('kela', {
-  noun: 'teeth',
+  def: 'teeth',
   etym: () => [_.ke, _.la],
 })
 
 export const kelasa = _.word('kelasa', {
-  noun: 'knife',
+  def: 'knife',
   etym: () => [_.kela, _.sa],
 })
 
 export const lapa = _.word('lapa', {
-  noun: 'voice',
+  def: 'voice',
   verb: 'to talk',
   etym: () => [_.la, _.pa],
 })
 
 export const lapalapa = _.word('lapalapa', {
-  noun: 'duck',
+  def: 'duck',
   etym: () => [_.lapa, _.lapa],
 })
 
 export const kelo = _.word('kelo', {
-  noun: 'crocodile',
+  def: 'crocodile',
   etym: () => [_.kela, _.oda],
 })
 
 export const kawi = _.word('kawi', {
-  noun: 'shark',
+  def: 'shark',
   etym: () => [_.kela, _.awi],
 })
 
@@ -46,67 +42,73 @@ export const lapir = _.word('lapir', {
 })
 
 export const gilapa = _.word('gilapa', {
-  noun: 'to whisper',
+  def: 'to whisper',
   etym: () => [_.gi, _.lapa],
 })
 
 export const lapana = _.word('lapana', {
-  noun: 'speech',
+  def: 'speech',
   etym: () => [_.la, _.na],
 })
 
 export const lapanagu = _.word('lanagu', {
-  noun: 'insult',
+  def: 'insult',
   etym: () => [_.lapana, _.gu],
 })
 
 // ==================== ALT
-export const olalema = _.alt('olalema', {
-  glo: '1SI.**kiss**.PST.HEST',
+export const olalemi = _.alt('olalemi', {
+  glo: 'wex.**kiss**.PST.HEST',
   alt: () => _.la,
 })
 
-export const laham = _.alt('laham', {
-  glo: '**lips**.ACC',
+export const lan = _.alt('lan', {
+  glo: '**lips**~',
   alt: () => _.la,
 })
 
 export const shalapa = _.alt('shalapa', {
-  glo: '3PL.**talk**',
-  see: () => [_.sha, _.lapa],
+  glo: 'they9.**talk**',
+  alt: () => _.lapa,
+  see: () => [_.shaH, _.lapa],
 })
 
 export const alapa = _.alt('alapa', {
-  glo: '3SG.**talk**',
+  glo: 'they1.**talk**',
   alt: () => _.lapa,
 })
 
 export const lanagum = _.alt('lanagum', {
-  glo: '**insult**.ACC',
+  glo: '**insult**+',
   alt: () => _.lapanagu,
 })
 
 export const lam = _.alt('lam', {
-  glo: '**lips**.ACC',
+  glo: '**lips**+',
   alt: () => _.la,
 })
 
 export const tolapan = _.alt('tolapan', {
-  glo: 'POSS.1SI.**voice**.ACC',
+  glo: 'wex.**voice**+',
   alt: () => _.lapa,
 })
 
 export const lapatin = _.alt('lapatin', {
-  glo: '**voice**.POSS.2SG.ACC',
+  glo: '**voice**.you1+',
   alt: () => _.lapa,
 })
 
 export const laton = _.alt('laton', {
-  glo: '**lips**.POSS.1SI',
+  glo: '**lips**.wex',
   alt: () => _.la,
 })
 
 export const lapanam = _.alt('lapano', {
-  glo: '**speech**.ACC',
+  glo: '**speech**+',
   alt: () => _.lapana,
+})
+
+export const alapalir = _.alt('alapalir', {
+  glo: 'they1.**voice**.FUT',
+  alt: () => _.lapa,
 })

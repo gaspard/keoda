@@ -1,6 +1,6 @@
 import * as _ from '.'
 
 export const wa = _.word('wa', {
-  noun: 'is',
+  def: 'is',
   glo: 'TOP',
 })

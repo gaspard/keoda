@@ -1,10 +1,4 @@
-import {
-  EntriesByType,
-  Entry,
-  EntryByName,
-  EntryDefinition,
-  Example,
-} from '../types'
+import { EntriesByType, Entry, EntryDefinition, Example } from '../types'
 
 export const entries: EntriesByType = {
   word: {},
@@ -18,12 +12,12 @@ export function entry(
   name: string,
   definition: EntryDefinition
 ): Entry {
-  const id = `${type}-${name}`
+  const id = `${type}-${definition.id || name}`
   const entry: Entry = {
+    ...definition,
     name,
     id,
     type,
-    ...definition,
     toString: () => `[${name}](${id})`,
   }
   entries[type][id] = entry
@@ -59,29 +53,36 @@ function makePhrase(definition: EntryDefinition) {
   if (e) {
     p.see = () => [e]
   }
-  definition.words!().forEach(w => {
-    const orig = w.alt ? w.alt() : w
-    let { phrases } = orig
-    if (!phrases) {
-      phrases = orig.phrases = []
-    }
-    if (!phrases.includes(p.id)) {
-      phrases.push(p.id)
-    }
-  })
   return p
+}
+
+export function md(strs: TemplateStringsArray, ...keys: any[]): () => string {
+  const lastIndex = strs.length - 1
+  return function () {
+    return (
+      strs.slice(0, lastIndex).reduce((p, s, i) => p + s + keys[i], '') +
+      strs[lastIndex]
+    )
+  }
 }
 
 export function word(name: string, definition: EntryDefinition): Entry {
   return entry('word', name, definition)
 }
 
-export function alt(name: string, definition: EntryDefinition): Entry {
+export function alt(
+  name: string,
+  definition: EntryDefinition & { alt: () => Entry }
+): Entry {
   return entry('alt', name, definition)
 }
 
 export function card(name: string, definition: EntryDefinition): Entry {
-  return entry('card', name, definition)
+  return entry(
+    'card',
+    name,
+    Object.assign({ writ: name, phon: '' }, definition)
+  )
 }
 
 // FIXME: REMOVE

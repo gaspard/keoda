@@ -1,13 +1,13 @@
 import * as _ from '.'
 
 export const faj = _.word('faj', {
-  noun: 'prépuce, protection',
+  def: 'prépuce, protection',
   desc: () => `version courte de ${_.feyaj}`,
   etym: () => [_.fe, _.yaj],
 })
 
 export const feyaj = _.word('feyaj', {
-  noun: 'prépuce',
+  def: 'prépuce',
   desc: () => `version longue de ${_.faj}`,
   etym: () => [_.fe, _.yaj],
 })

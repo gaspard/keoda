@@ -12,13 +12,13 @@ export const nefa = _.word('nefa', {
 })
 
 export const neoda = _.word('neoda', {
-  noun: 'corpse',
+  def: 'corpse',
   etym: () => [_.ne, _.oda],
   see: () => [_.nem],
 })
 
 export const nepa = _.word('nepa', {
-  noun: 'abyss, nothingness',
+  def: 'abyss, nothingness',
 })
 
 export const nelo = _.word('nelo', {

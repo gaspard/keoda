@@ -1,16 +1,4 @@
 const TELU: { [key: string]: string } = {
-  // TODO: change ending 'j' to 'n' ?
-  // baj => ban ?
-  // taj => tan ?
-  // aj => an ?
-  // Doesn't this look to close to DAT case ?
-  bajx: 'బాజ్‌',
-  tajx: 'తాజ్‌',
-  ajx: 'అజ్‌',
-  lirx: 'లిర్‌',
-  munx: 'ముఁ',
-  yinx: 'యిఁ',
-
   // Some letters that are not where expected:
   // /ʋ/ sound = made with v       = వ
   // /ʃ/ sound = made with shift+s = శ
@@ -24,43 +12,24 @@ const TELU: { [key: string]: string } = {
   // lone 'e'  = made with > (bottom left of kbd)
 
   // i
-  mimx: 'మిం',
   mi: 'మి',
-  nimx: 'నిం',
   ni: 'ని',
-  pimx: 'పిం',
   pi: 'పి',
-  bimx: 'బిం',
   bi: 'బి',
-  timx: 'తిం',
   ti: 'తి',
-  dimx: 'దిం',
   di: 'ది',
-  kimx: 'కిం',
   ki: 'కి',
-  gimx: 'గిం',
   gi: 'గి',
-  fimx: 'చిం',
   fi: 'చి',
-  simx: 'సిం',
   si: 'సి',
-  zimx: 'ఠిం',
   zi: 'ఠి',
-  shimx: 'శిం',
   shi: 'శి',
-  jimx: 'జిం',
   ji: 'జి',
-  himx: 'హిం',
   hi: 'హి',
   wiu: 'విు',
-  wimx: 'విం',
   wi: 'వి',
-  yiamx: 'యిాం',
-  yimx: 'యిం',
   yi: 'యి',
-  rimx: 'రిం',
   ri: 'రి',
-  limx: 'లిం',
   liu: 'లిు',
   li: 'లి',
 
@@ -70,13 +39,10 @@ const TELU: { [key: string]: string } = {
   pe: 'పే',
   be: 'బే',
   te: 'తే',
-  demx: 'దేం',
   de: 'దే',
   ke: 'కే',
   ge: 'గే',
-  fenx: 'చేఁ',
   fe: 'చే',
-  senx: 'సేఁ',
   se: 'సే',
   ze: 'ఠే',
   she: 'శే',
@@ -85,63 +51,43 @@ const TELU: { [key: string]: string } = {
   we: 'వే',
   ye: 'యే',
   re: 'రే',
-  lemx: 'లేం',
   le: 'లే',
 
   // a
   ma: 'మా',
-  namx: 'నాం',
   nau: 'నౌ',
   na: 'నా',
-  pamx: 'పాం',
-  panx: 'పాఁ',
   pau: 'పౌ',
   pa: 'పా',
-  bamx: 'బాం',
   bau: 'బౌ',
   ba: 'బా',
-  tamx: 'తాం',
-  tanx: 'తాఁ',
   tau: 'తౌ',
   ta: 'తా',
-  damx: 'దాం',
   dau: 'దౌ',
   da: 'దా',
-  kamx: 'కాం',
-  kanx: 'కాఁ',
   kau: 'కౌ',
   ka: 'కా',
-  gamx: 'గాం',
   gau: 'గౌ',
   ga: 'గా',
-  famx: 'చాం',
   fau: 'చౌ',
   fa: 'చా',
-  samx: 'సాం',
   sau: 'సౌ',
   sa: 'సా',
-  zamx: 'ఠాం',
   zau: 'ఠౌ',
   za: 'ఠా',
-  shamx: 'శాం',
   shau: 'శౌ',
   sha: 'శా',
-  jamx: 'జాం',
   jau: 'జౌ',
   ja: 'జా',
-  hamx: 'హాం',
   hau: 'హౌ',
   ha: 'హా',
-  wamx: 'వాం',
   wau: 'వౌ',
   wa: 'వా',
-  yamx: 'యాం',
   yau: 'యౌ',
   ya: 'యా',
-  ramx: 'రాం',
+  ram$: 'రాం',
   rau: 'రౌ',
   ra: 'రా',
-  lamx: 'లాం',
   lau: 'లౌ',
   la: 'లా',
 
@@ -164,18 +110,16 @@ const TELU: { [key: string]: string } = {
   hu: 'హు',
   wu: 'వు',
   yu: 'యు',
-  rumx: 'రుం',
   ru: 'రు',
   lu: 'లు',
 
   // o
   mo: 'మో',
   no: 'నో',
-  ponx: 'పోఁ',
+  pon$: 'పోఁ',
   po: 'పో',
   bo: 'బో',
   to: 'తో',
-  donx: 'దోఁ',
   do: 'దో',
   ko: 'కో',
   go: 'గో',
@@ -184,13 +128,10 @@ const TELU: { [key: string]: string } = {
   zo: 'ఠో',
   sho: 'శో',
   jo: 'జో',
-  honx: 'హోఁ',
   ho: 'హో',
   wo: 'వో',
-  yonx: 'యోఁ',
   yo: 'యో',
   ro: 'రో',
-  lom: 'లోం',
   lo: 'లో',
 
   iu: 'ఇు',
@@ -198,8 +139,6 @@ const TELU: { [key: string]: string } = {
   i: 'ఇ', // Telugu would use యి (yi = /ji/ )
   em: 'ఎం',
   e: 'ఎ',
-  ah: 'అః',
-  amx: 'అం',
   a: 'అ',
   // Telugu uses: వు (vu = /ʋu/) but then there would be a
   // confusion between
@@ -208,10 +147,14 @@ const TELU: { [key: string]: string } = {
   // instead of
   // ai  = అఇ = /ai/
 
+  m$: 'ం',
+  n$: 'ఁ',
+  h$: 'ః',
+
   u: 'ఉ',
   o: 'ఓ',
   g: 'గ్‌',
-  rx: 'ర్‌',
+  r$: 'ర్‌',
   r: 'ర్‌',
 
   // leftover letters due to double consonants
@@ -230,10 +173,8 @@ const TELU: { [key: string]: string } = {
   ['9']: '౯',
   ['0']: '౦',
 }
-const TKEYS = Object.keys(TELU)
 
 const PHON: { [key: string]: string } = {
-  J: 'ʒ',
   i: 'i',
   e: 'ɛ',
   a: 'a',
@@ -252,7 +193,9 @@ const PHON: { [key: string]: string } = {
   s: 's',
   z: 'z',
   S: 'ʃ', // 'ʂ' in reality but less people know the IPA sign
+  J: 'ʒ',
   j: 'dʒ',
+  H: 'x',
   h: 'h',
   w: 'w',
   y: 'j',
@@ -264,6 +207,7 @@ function tran(word: string) {
   return word
     .replace(/sh/g, 'S')
     .replace(/j$/, 'J')
+    .replace(/h$/, 'H')
     .split('')
     .map(k => PHON[k] || k)
 }
@@ -276,14 +220,14 @@ export function phon(word: string) {
 const ENDRE = /[jrmn]$/
 function fixEnd(word: string) {
   if (ENDRE.test(word)) {
-    return word + 'x'
+    return word
   }
   return word
 }
 
 export function write(word: string) {
   let w = fixEnd(word.toLowerCase())
-  for (const k of TKEYS) {
+  for (const k in TELU) {
     w = w.replace(new RegExp(k, 'g'), TELU[k])
   }
   return w

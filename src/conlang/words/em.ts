@@ -6,14 +6,14 @@ export const em = _.word('em', {
 })
 
 export const nem = _.word('nem', {
-  noun: 'death',
+  def: 'death',
   verb: 'to die, to make dead',
   etym: () => [_.ne, _.em],
 })
 
 // ============== alt
 export const ohemleme = _.alt('ohemleme', {
-  glo: '1SI.**live**.PST.EVNT',
+  glo: 'wex.**live**.PST.EVNT',
   alt: () => _.em,
 })
 
@@ -23,12 +23,12 @@ export const ihem = _.alt('ihem', {
 })
 
 export const nemetonam = _.alt('nemetonam', {
-  glo: '**death**.POSS.1SI.ACC',
+  glo: '**death**.wex+',
   alt: () => _.nem,
 })
 
 // More in the sense "made dead"
 export const esonem = _.alt('esonem', {
-  glo: 'PASS.1SI.**die**',
+  glo: 'PASS.wex.**die**',
   alt: () => _.nem,
 })

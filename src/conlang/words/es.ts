@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const es = _.word('es', {
-  noun: 'is-ness',
+  def: 'is-ness',
   prefix: 'self (PASS)',
   suffix: 'state (BE)',
   glo: 'PASS',

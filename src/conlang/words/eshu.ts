@@ -5,6 +5,6 @@ export const eshu = _.word('eshu', {
 })
 
 export const eshubeo = _.word('eshubeo', {
-  noun: 'monster',
+  def: 'monster',
 })
 _.see(_.beo)

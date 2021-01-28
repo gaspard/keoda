@@ -1,31 +1,28 @@
 import * as _ from '.'
 
 export const aga = _.word('aga', {
-  noun: 'music',
+  def: '**music** or **narration**',
+  desc: () => `
+Melodies and stories unraveling through time.
+`,
 })
-_.see(_.agu)
 
 export const agana = _.word('agana', {
-  noun: 'sound',
+  def: '**sound**',
   etym: () => [_.aga, _.na],
 })
 
 export const agade = _.word('agade', {
-  noun: 'echo',
+  def: '**echo**',
   etym: () => [_.aga, _.de],
 })
 
-export const agauki = _.word('agauki', {
-  verb: 'to resonate',
-  etym: () => [_.agana, _.uki],
-})
-
 export const akida = _.word('agaukida', {
-  noun: 'temple',
-  etym: () => [_.agauki, _.da],
+  def: '**temple**',
+  etym: () => [_.aga, _.uki, _.da],
 })
 
-_.see(_.ago)
+// === alt
 
 export const agadeuki = _.alt('agadeuki', {
   glo: '**echo**.*long*',

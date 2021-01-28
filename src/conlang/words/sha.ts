@@ -1,36 +1,23 @@
 import * as _ from '.'
 
-export const sha = _.word('sha', {
-  noun: 'hip',
-  conj: 'they (3PL)',
+export const shaH = _.word('sha', {
+  id: 'shaD',
+  def: '**hip**',
+  see: () => [_.shaP],
 })
 
-export const shada = _.word('shada', {
-  pron: 'they',
-  glo: '3PL',
-  etym: () => [_.sha, _.oda],
-  see: () => [_.tosha, _.shaya, _.pron],
-})
-
-export const shaya = _.word('shaya', {
-  pron: 'they (poetic)',
-  glo: '3PL.POET',
-  etym: () => [_.sha, _.yada],
-  see: () => [_.shada, _.pron],
-})
-
-export const shadam = _.word('shadam', {
-  noun: 'them',
-  glo: '3PL.DAT',
-  etym: () => [_.sha, _.am],
+export const shaP = _.word('sha', {
+  id: 'shaP',
+  def: '**they\\***',
+  prefix: '**their\\***',
+  suffix: '**their\\***',
+  see: () => [_.shaH, _.subj],
 })
 
 export const shasha = _.word('shasha', {
+  def: '**dance**',
   verb: 'to dance',
-  etym: () => [_.sha, _.sha],
+  etym: () => [_.shaH, _.shaH],
 })
 
-export const shana = _.word('shana', {
-  noun: 'danse',
-  etym: () => [_.sha, _.na],
-})
+// === alt

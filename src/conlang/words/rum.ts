@@ -1,16 +1,16 @@
 import * as _ from '.'
 
 export const rum = _.word('rum', {
-  noun: 'arm',
+  def: 'arm',
   see: () => [_.baj],
 })
 
 export const harum = _.word('harum', {
-  noun: 'forearm',
+  def: 'forearm',
 })
 
 export const djorum = _.word('djorum', {
-  noun: 'upper arm',
+  def: 'upper arm',
 })
 
 export const rumi = _.word('rumi', {
@@ -24,27 +24,28 @@ export const leirumi = _.word('leirumi', {
 
 export const rumo = _.word('rumo', {
   verb: 'to throw',
+  etym: () => [_.rum, _.oC],
 })
 
 // === alt
 
 export const arumo = _.alt('arumo', {
-  glo: '3SG.**throw**',
+  glo: 'they1.**throw**',
   alt: () => _.rumo,
 })
 
-export const irumolema = _.alt('irumolema', {
+export const irumolemi = _.alt('irumolemi', {
   glo: '2SG.**throw**.PST.HEST',
-  alt: () => _.lemi,
+  alt: () => _.rumo,
 })
 
 // poss prefix
 export const toleirumipan = _.alt('toleirumipan', {
-  glo: 'POSS.1SI.*time*.**embrace**.*everywhere*.ACC',
+  glo: 'wex.*time*.**embrace**.*everywhere*+',
   alt: () => _.leirumi,
 })
 
-export const rorumitin = _.alt('rorumitin', {
-  glo: '*INESS*.**hug**.POSS.2SG.ACC',
+export const rorumitim = _.alt('rorumitim', {
+  glo: '*INESS*.**hug**.you1+',
   alt: () => _.ro,
 })

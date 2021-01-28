@@ -1,76 +1,52 @@
 import * as _ from '.'
 
 export const yoda = _.word('yoda', {
-  noun: 'body with a vulva',
+  def: 'body with a vulva',
   etym: () => [_.yon, _.oda],
 })
 
 export const oda = _.word('oda', {
-  noun: 'body, place of life',
-  pron: 'I/we',
-  adj: 'alive',
-  suffix: 'animal',
-  glo: '**body**',
-  see: () => [_.to, _.oya, _.pron],
-})
-
-export const oya = _.word('oya', {
-  pron: 'me/us (poetic)',
-  glo: '1SI.POET',
-  etym: () => [_.o, _.yada],
-  see: () => [_.oda, _.pron],
+  def: '**weˣ self**',
+  glo: '**wex**.self',
+  etym: () => [_.oS, _.da],
 })
 
 export const keoda = _.word('keoda', {
-  noun: 'hidden body language',
+  def: 'hidden body language',
   etym: () => [_.ke, _.oda],
 })
 
 export const yosa = _.word('yosa', {
-  noun: 'person',
+  def: 'person',
   etym: () => [_.yo, _.oda],
 })
 
-export const odei = _.word('odei', {
-  noun: 'fantastic me/us (Dom)',
-  glo: '1SI.HONOR',
-  etym: () => [_.oda, _.ei],
-  see: () => [_.yadei, _.pron],
-})
-
-export const yadei = _.word('yadei', {
-  noun: 'fantastic me/us (poetic)',
-  glo: '1SI.HONOR.POET',
-  etym: () => [_.yada, _.ei],
-  see: () => [_.odei, _.pron],
-})
-
 export const hida = _.word('hida', {
-  noun: 'sibling',
+  def: 'sibling',
   etym: () => [_.him, _.oda],
   see: () => [_.family],
 })
 
 export const hina = _.word('hina', {
-  noun: 'sister',
+  def: 'sister',
   etym: () => [_.him, _.ana],
   see: () => [_.family],
 })
 export const hiwi = _.word('hiwi', {
-  noun: 'enby sibling',
+  def: 'enby sibling',
   etym: () => [_.him, _.iwi],
   see: () => [_.family],
 })
 export const hito = _.word('hito', {
-  noun: 'brother',
+  def: 'brother',
   etym: () => [_.him, _.oto],
   see: () => [_.family],
 })
 
 /// =============== ALT
 
-export const odatoham = _.alt('odatoham', {
-  glo: '**body**.POSS.1SI.ACC',
+export const odatom = _.alt('odatom', {
+  glo: '**body**.wex+',
   alt: () => _.oda,
 })
 
@@ -80,7 +56,7 @@ export const oda_adj = _.alt('oda', {
 })
 
 export const tohodam = _.alt('tohodam', {
-  glo: 'POSS.1SI.**body**.ACC',
+  glo: 'wex.**body**+',
   alt: () => _.oda,
 })
 
@@ -90,11 +66,11 @@ export const odahem = _.alt('odahem', {
 })
 
 export const odam = _.alt('odam', {
-  glo: '**body**.ACC',
+  glo: '**body**+',
   alt: () => _.oda,
 })
 
 export const nioda = _.alt('nioda', {
-  glo: 'DAT.**body**',
+  glo: 'to.**body**',
   alt: () => _.oda,
 })

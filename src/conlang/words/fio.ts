@@ -6,6 +6,6 @@ export const fio = _.word('fio', {
 })
 
 export const fiona = _.word('fiona', {
-  noun: 'eggplant (vegetable)',
+  def: 'eggplant (vegetable)',
   etym: () => [_.fio, _.na],
 })

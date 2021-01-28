@@ -14,6 +14,6 @@ export const sholiu = _.alt('sholiu', {
 })
 
 export const oluliu = _.alt('oluliu', {
-  glo: '1SI.CONT.**eat**',
+  glo: 'wex.CONT.**eat**',
   alt: () => _.liu,
 })

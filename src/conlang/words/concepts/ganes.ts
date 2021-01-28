@@ -1,7 +1,7 @@
 import * as _ from '..'
 
 export const ganes = _.card('ganes', {
-  noun: 'scale of ga',
+  def: 'scale of ga',
   lang: 'states of consciousness',
   see: () => [_.nanes, _.nepa, _.count],
   desc: () => `

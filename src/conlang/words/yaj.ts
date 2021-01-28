@@ -1,12 +1,12 @@
 import * as _ from '.'
 
 export const yaj = _.word('yaj', {
-  noun: 'clitoris, gland (joie en feu)',
+  def: 'clitoris, gland (joie en feu)',
   etym: () => [_.yu, _.aj],
 })
 
 export const yajin = _.word('yajin', {
-  noun: 'gland froid, au repos',
+  def: 'gland froid, au repos',
   etym: () => [_.yaj, _.in],
 })
 _.see(_.genitals)

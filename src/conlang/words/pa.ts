@@ -1,14 +1,14 @@
 import * as _ from '.'
 
 export const pa = _.word('pa', {
-  noun: 'everywhere',
+  def: 'everywhere',
   suffix: 'mystery',
   glo: 'MYST',
   see: () => [_.fi],
 })
 
 export const pali = _.word('pali', {
-  noun: 'enchanter (chanter de dedans)',
+  def: 'enchanter (chanter de dedans)',
 })
 
 _.see(_.lapa)
@@ -25,4 +25,3 @@ export const paoda = _.word('paoda', {
 })
 
 // === alt
-

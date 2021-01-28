@@ -47,6 +47,102 @@ I have always loved languages, choreography notations, music notation,
 programming languages. Maybe this is my way to try and decipher why I felt
 so dead inside... or a way to escape reality and dream of peace.
 
+# Language evolution
+
+During the first phase of this language creation, the language started with
+nouns (representing positions) and nothing else and then I added the notion
+that nouns could be verbs (${_.la} means lips but also kissing).
+
+With this in place, it became confusing as to what was the verb and what was
+the subject or the target of the action. To solve this, I added the "subject"
+prefixes ${_.oC}, ${_.iC}, and later ${_.aC}.
+
+After around 2 years into the language creation, I met a guy on a bus and as
+we talked, he told me that he was a linguist so I told him about my language
+creation project. This is when he said that this was called a "conlang" and
+that there were actually books and websites on the subject.
+
+So I bought the books and studies conlanging with passion. Since I new
+nothing about linguistices, not even the concept of "adverb" or "pronoun" was
+alien to me due to me going in schools with different languages and skipping
+all this, I had to do some catching up. This was very good for my project
+because it helped me name some of my problems (who does what to whom) and see
+(classical) solutions to this problem (accusative, dative, prepositions,
+etc).
+
+I went on a feverish refactoring of the language, clarifying verbs and nouns,
+transforming afixes into case markings, conjugating verbs, adding tenses,
+accusative and dative. All of this helped me create more and more complex
+phrases and I started to manage translating some of my favorite poets such as
+(Sapho: ${_.sapho}).
+
+But then, things started to feel bad. The language started to sound very dull
+(most phrases were ending with /am/ due to how the accusative worked). So I
+tried to evolve my most important case to have some variation, I studied
+irregularities and tried to evolve the language naturally.
+
+But then, the language started to feel "constructed" and "in a box". It
+wasn't sexy and fun and childish anymore but felt "clever" and I really
+disliked this feeling and having to the urge to "fix" things to make it
+better instead of enjoying the creation process.
+
+At this point I realised that everything I had learned about languages had
+greatly opened my understanding but at the same time was limiting me and this
+is when I went back and removed some of the "linguistic" idioms in my work on
+the language.
+
+Instead, I focused on how to make it easy to understand the role a word plays
+in a phrase. That is, instead of "conjugating verbs", I looked at how to
+"make words take the role of actions" and then finding a way to clarify the
+"agent" doing something and the "tasted" thing (direct object) instead of
+thinking in terms of "ergative" and "accusative" case markings. Same goes
+with "adjectives" and "adverbs": they are just affixes that modify whatever
+they are related to.
+
+Removing technical jargon for cases and pronouns and just saying "they"
+instead of "3SG" and changing "ACC" to something else that marks "flavor"
+also makes more sense for this project.
+
+${_.ophrase('Your eyes shine.', _.fati, _.ahawi)}
+${_.ophrase('I love your eyes.', _.ozu, _.fatim)}
+
+# Glossing
+
+Here are some of the terms and weird abbreviations I use for glossing (the
+morpheme by morpheme translation of words):
+
+### Indefinite subject (weˣ)
+
+Written as **weˣ** this means "one", "people", "someone". It does not really
+mean "I" but often does. The blurry aspect of this "I/we" is important in
+keoda because it highlights the unknowable aspect of the other. The meaning
+of this "unknown person" can mean many things. For example, if I say "weˣ
+will undress you tonight", this can mean any of:
+
+1. You do not know me, you will be undressed by the "surprising me" tonight.
+2. We have consented to inviting others without warning and one of them will
+ undress you tonight (submissive level ++).
+3. I will enter some role to undress you and it will be another kind of "me".
+4. etc
+
+To actually say "me", we use ${_.pi} and we gloss this one as **me**.
+
+### Singular/plural they
+
+Written as **they¹**, this represents the third person singular.
+
+Plural they is written as **they\***.
+
+### Special case markings
+
+* DIM: diminutive, **tiny**
+* HONOR: honorific **fantastic**
+* WET: submissive **surrendered**
+* ENBY: **non-binary**
+* POET: **poetic**
+
+# Welcome
+
 So here is **keoda**, a language born in the realm of sexuality, evolved as a
 way of coping through mental illness and blossomed in the poetic realm as a
 way to build a bridge above the ugly waters of gender dysphoria,

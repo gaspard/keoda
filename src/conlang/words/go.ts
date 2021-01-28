@@ -4,7 +4,7 @@ export const go = _.word('go', {
   prefix: 'big',
   adj: 'intense',
   glo: 'AUG',
-  etym: () => [_.gu, _.o],
+  etym: () => [_.gu, _.oC],
   see: () => [_.gi],
 })
 
@@ -14,17 +14,17 @@ export const goa = _.word('goa', {
 })
 
 export const gopona = _.word('gopona', {
-  noun: 'pumpkin, October',
+  def: 'pumpkin, October',
   etym: () => [_.go, _.pona],
   see: () => [_.fruits, _.seasons],
 })
 
 export const gawi = _.word('gawi', {
-  noun: 'whale',
+  def: 'whale',
   etym: () => [_.go, _.awi],
 })
 
 export const goda = _.word('goda', {
-  noun: 'elephant',
+  def: 'elephant',
   etym: () => [_.go, _.oda],
 })

@@ -11,10 +11,10 @@ ${_.phrase(
   "Il y aura quelqu'un, un jour, pour se souvenir de nous.",
   _.peyo,
   _.esahelir,
-  _.odam,
+  _.pedam,
   _.eku,
   _.alemegu,
-  _.shodam
+  _.futon
 )}
 
 ## Poem from her youth:
@@ -25,7 +25,7 @@ ${_.phrase(
   _.wa,
   _.leiruo,
   _.agoweiselem,
-  _.gatonam
+  _.gatoh
 )}
 
 ${_.phrase("Comme l'ouragan des montagnes", _.si, _.hurakan, _.dao, _.gosoa)}
@@ -38,7 +38,7 @@ ${_.phrase("S'abat sur les jeunes chênes.", _.hafo, _.fe, _.okanayiam)}
 
 ${_.phrase('Il me parraît égal aux dieux,', _.ahawi, _.kegaiam)}
 
-${_.phrase("L'homme qui te regarde", _.loto, _.dim, _.afa, _.idam)}
+${_.phrase("L'homme qui te regarde", _.otoda, _.dim, _.afa, _.tim)}
 
 ${_.phrase(
   'Sans craindre ton sourire et tes yeux et ta voix.',
@@ -46,7 +46,7 @@ ${_.phrase(
   _.ne,
   _.apeu,
   _.lajatim,
-  _.fatinam,
+  _.fatim,
   _.uma,
   _.lapatin
 )}

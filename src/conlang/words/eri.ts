@@ -7,24 +7,24 @@ export const eri = _.word('eri', {
 })
 
 export const erina = _.word('erina', {
-  noun: 'cherry, June',
+  def: 'cherry, June',
   see: () => [_.fruits, _.seasons],
 })
 _.see(_.seasons)
 _.see(_.fruits)
 
 export const muneri = _.word('muneri', {
-  noun: 'nipple',
+  def: 'nipple',
   etym: () => [_.mun, _.eri],
 })
 
 export const tajeri = _.word('tajeri', {
-  noun: 'glans',
+  def: 'glans',
   etym: () => [_.taj, _.eri],
 })
 
 export const yoneri = _.word('yoneri', {
-  noun: 'clitoris',
+  def: 'clitoris',
   see: () => [_.keyon],
   etym: () => [_.yon, _.eri],
 })

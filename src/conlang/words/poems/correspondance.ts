@@ -43,9 +43,8 @@ ${_.phrase(
   _.di,
   _.ko,
   _.gi,
-  _.sha,
-  _.fa,
-  _.ladam
+  _.shafa,
+  _.futam
 )}
 
 ${_.phrase(
@@ -53,7 +52,7 @@ ${_.phrase(
   _.si,
   _.agadeuki,
   _.di,
-  _.hadau,
+  _.dao,
   _.eseshanele
 )}
 

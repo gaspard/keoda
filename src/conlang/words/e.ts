@@ -12,8 +12,18 @@ export const yihe = _.alt('yihe', {
 
 // === alt
 
+export const ahe = _.alt('ahe', {
+  glo: 'they1.**be**',
+  alt: () => _.e,
+})
+
+export const eliro = _.alt('eliro', {
+  glo: '**be**.later today',
+  alt: () => _.liro,
+})
+
 export const ohe = _.alt('ohe', {
-  glo: '1SI.**be**',
+  glo: 'wex.**be**',
   alt: () => _.e,
 })
 
@@ -23,21 +33,21 @@ export const ihe = _.alt('ihe', {
 })
 
 export const ohelem = _.alt('ohelem', {
-  glo: '1SI.**be**.PST',
+  glo: 'wex.**be**.PST',
   alt: () => _.e,
 })
 
 export const ahelem = _.alt('ahelem', {
-  glo: '3SG.**be**.PST',
+  glo: 'they1.**be**.PST',
   alt: () => _.e,
 })
 
 export const esohe = _.alt('esohe', {
-  glo: 'PASS.1SI.**be**',
+  glo: 'PASS.wex.**be**',
   alt: () => _.e,
 })
 
 export const esahe = _.alt('esahe', {
-  glo: 'PASS.3SG.**be**',
+  glo: 'PASS.they1.**be**',
   alt: () => _.e,
 })

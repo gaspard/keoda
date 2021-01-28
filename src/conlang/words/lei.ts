@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const lei = _.word('lei', {
-  noun: 'time',
+  def: 'time',
   prep: 'then',
   prefix: 'time',
 })
@@ -13,18 +13,18 @@ export const leu = _.word('leu', {
 
 export const gulei = _.word('gulei', {
   verb: 'to experience',
-  noun: 'experience',
+  def: 'experience',
   etym: () => [_.gu, _.lei],
 })
 
 export const leiuki = _.word('leiuki', {
-  noun: 'patience',
+  def: 'patience',
   adj: 'patient',
   etym: () => [_.lei, _.uki],
 })
 
 export const neleiuki = _.word('neleiuki', {
-  noun: 'impatience',
+  def: 'impatience',
   adj: 'impatient',
   etym: () => [_.ne, _.leiuki],
 })

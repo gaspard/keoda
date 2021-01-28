@@ -1,19 +1,16 @@
 import * as _ from '.'
 
 export const noa = _.word('noa', {
-  noun: 'peau',
+  def: 'skin',
+  verb: 'to touch',
 })
 
-export const noam = _.word('noam', {
-  verb: 'toucher',
-})
-
-export const noati = _.alt('noati', {
-  glo: '**skin**.2SG.POSS',
+export const noatim = _.alt('noatim', {
+  glo: '**skin**.you1+',
   alt: () => _.noa,
 })
 
 export const fenoati = _.alt('fenoati', {
-  glo: 'SUPESS.**skin**.2SG.POSS',
+  glo: 'SUPESS.**skin**.you1',
   alt: () => _.noa,
 })

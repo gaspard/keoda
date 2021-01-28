@@ -1,32 +1,32 @@
 import * as _ from '.'
 
 export const yon = _.word('yon', {
-  noun: 'vulva',
+  def: 'vulva',
   etym: () => [_.yu, _.on],
 })
 
 export const riyon = _.word('riyon', {
-  noun: 'peripheral lips',
+  def: 'peripheral lips',
   etym: () => [_.ri, _.yon],
 })
 
 export const royon = _.word('royon', {
-  noun: 'central lips of the vulva',
+  def: 'central lips of the vulva',
   etym: () => [_.ro, _.yon],
 })
 export const yonin = _.word('yonin', {
-  noun: 'hot vulva, erect',
+  def: 'hot vulva, erect',
   etym: () => [_.yon, _.in],
 })
 export const yonegi = _.word('yonegi', {
-  noun: 'cold vulva, sleeping',
+  def: 'cold vulva, sleeping',
   etym: () => [_.yon, _.egi],
 })
 
 _.see(_.genitals)
 
 export const keyon = _.word('keyon', {
-  noun: 'clitoris',
+  def: 'clitoris',
   see: () => [_.yoneri],
   etym: () => [_.ke, _.yon],
 })
@@ -34,23 +34,23 @@ export const keyon = _.word('keyon', {
 export const mukeyon = _.example([_.mu, _.keyon], `Pince-moi le clitoris.`)
 
 export const feyon = _.word('feyon', {
-  noun: 'panties',
+  def: 'panties',
   etym: () => [_.fe, _.yon],
 })
 
 // === alt
 
 export const yonam = _.alt('yonam', {
-  glo: '**vulva**.ACC',
+  glo: '**vulva**+',
   alt: () => _.yon,
 })
 
 export const feyonam = _.alt('feyonam', {
-  glo: '**panties**.ACC',
+  glo: '**panties**+',
   alt: () => _.feyon,
 })
 
 export const yonato = _.alt('yonato', {
-  glo: '**vulva**.POSS.1SI',
+  glo: '**vulva**.wex',
   alt: () => _.yon,
 })

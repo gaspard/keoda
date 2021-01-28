@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const gu = _.word('gu', {
-  noun: 'darkness',
+  def: 'darkness',
   adj: 'darkness, gestation, deep',
   etym: () => [_.ga, _.u],
   see: () => [_.nu, _.ganes, _.gufi],
@@ -29,7 +29,7 @@ ${_.gu}
 })
 
 export const nugu = _.word('nugu', {
-  noun: 'tremendum, illusion (Thirodana)',
+  def: 'tremendum, illusion\n(Thirodana)',
   see: () => [_.gana],
   etym: () => [_.nu, _.gu],
   desc: () => `
@@ -48,7 +48,7 @@ export const lemegu = _.word('lemegu', {
 })
 
 export const guna = _.word('guna', {
-  noun: 'dissociation, robot',
+  def: 'dissociation, robot',
   etym: () => [_.gu, _.na],
   see: () => [_.nuga],
 })
@@ -56,7 +56,7 @@ export const guna = _.word('guna', {
 export const gui = _.word('gui', {
   verb: 'to be born',
   see: () => [_.yuhim, _.nem],
-  etym: () => [_.gu, _.i],
+  etym: () => [_.gu, _.iC],
 })
 
 export const rugui = _.word('rugui', {
@@ -70,12 +70,12 @@ export const guwu = _.word('guwu', {
 })
 
 export const guwuna = _.word('guwuna', {
-  noun: 'gift',
+  def: 'gift',
   etym: () => [_.guwu, _.na],
 })
 
 export const guru = _.word('guru', {
-  noun: 'trema (stage fright)',
+  def: 'trema (stage fright)',
   etym: () => [_.gu, _.ru],
   see: () => [_.conrad, _.nuru],
   desc: () => `
@@ -87,36 +87,36 @@ In keoda, this litteraly means "the emergence of the darkness".
 })
 
 export const gugai = _.word('gugai', {
-  noun: 'fertility',
+  def: 'fertility',
   adj: 'fertile',
   etym: () => [_.gu, _.gai],
 })
 
 export const augu = _.word('augu', {
-  noun: 'trust',
+  def: 'trust',
   verb: 'to trust',
   etym: () => [_.au, _.gu],
 })
 
 export const negu = _.word('negu', {
-  noun: 'agitation/dissociation',
+  def: 'agitation/dissociation',
   desc: () => `Searching for perfection to feel less. Opposite of ${_.augu}`,
   see: () => [_.shipa],
 })
 
 export const guyuina = _.word('guyuina', {
-  noun: 'apple',
+  def: 'apple',
   etym: () => [_.gu, _.yuina],
   see: () => [_.fruits],
 })
 
 export const gupa = _.word('gupa', {
-  noun: 'nature',
+  def: 'nature',
   etym: () => [_.gu, _.pa],
 })
 
 export const aguwu = _.alt('aguwu', {
-  glo: '3SG.**give**',
+  glo: 'they1.**give**',
   alt: () => _.guwu,
 })
 
@@ -126,17 +126,17 @@ export const irugui = _.alt('irugui', {
 })
 
 export const alemegu = _.alt('alemegu', {
-  glo: '3SG.**remember**',
+  glo: 'they1.**remember**',
   alt: () => _.lemegu,
 })
 
 export const guitonam = _.alt('guitonam', {
-  glo: '**life**.POSS.1SI.ACC',
+  glo: '**life**.wex+',
   alt: () => _.gui,
 })
 
 export const oguwulem = _.alt('oguwulem', {
-  glo: '1SI.**give**.PST',
+  glo: 'wex.**give**.PST',
   alt: () => _.guwu,
 })
 

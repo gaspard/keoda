@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const nu = _.word('nu', {
   adj: 'arrogance',
-  noun: 'hubris',
+  def: 'hubris',
   etym: () => [_.na, _.u],
   see: () => [_.gu, _.nanes],
   desc: () => `
@@ -13,7 +13,7 @@ Immateriality --> Matter
 })
 
 export const nuga = _.word('nuga', {
-  noun: 'psychosis, god-child',
+  def: 'psychosis, god-child',
   etym: () => [_.ga, _.nu],
   see: () => [_.guna],
 })

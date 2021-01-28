@@ -2,12 +2,12 @@ import * as _ from '.'
 
 export const dolo = _.word('dolo', {
   verb: 'to lie',
-  noun: 'deceit',
+  def: 'deceit',
 })
 
 // === alt
 
 export const aludololem = _.alt('aludololem', {
-  glo: '3SG.CONT.**lie**.PST',
+  glo: 'they1.CONT.**lie**.PST',
   alt: () => _.dolo,
 })

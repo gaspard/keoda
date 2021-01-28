@@ -1,11 +1,14 @@
 import * as _ from '.'
 
 export const him = _.word('him', {
+  def: 'growth',
   verb: 'to grow',
 })
 
 export const yuhim = _.word('yuhim', {
+  def: 'growing joy',
   verb: 'to be born',
+  etym: () => [_.yu, _.him],
   see: () => [_.gui],
 })
 
@@ -16,13 +19,13 @@ export const mahim = _.word('mahim', {
 })
 
 export const gahi = _.word('gahi', {
+  def: 'thought',
   verb: 'to think',
-  noun: 'thought',
   etym: () => [_.ga, _.him],
 })
 
 export const gama = _.word('gama', {
-  noun: 'knowledge',
+  def: 'knowledge',
   verb: 'to know',
   etym: () => [_.ga, _.ma],
 })
@@ -35,17 +38,17 @@ export const gamahim = _.word('gamahim', {
 // === alt
 
 export const ogahilem = _.alt('ogahilem', {
-  glo: '1SI.**think**.PST',
+  glo: 'wex.**think**.PST',
   alt: () => _.gahi,
 })
 
 export const gahinuram = _.alt('gahinuram', {
-  glo: '**thought**.*only*.ACC',
+  glo: '**thought**.*only*+',
   alt: () => _.gahi,
 })
 
-export const gamalam = _.alt('gamalam', {
-  glo: '**knowledge**.ACC',
+export const gamalan = _.alt('gamalan', {
+  glo: '**knowledge**~',
   alt: () => _.gama,
 })
 

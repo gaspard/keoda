@@ -1,55 +1,73 @@
 import * as _ from '.'
 
 export const yi = _.word('yi', {
-  conj: 'you tiny (2SG.DIM)',
+  def: '**innoncence**',
   adj: 'tiny',
   suffix: 'tiny',
-  glo: 'DIM',
-  see: () => [_.toyi],
+})
+
+export const oyi = _.word('oyi', {
+  def: '**weˣ tiny**',
+  prefix: 'ourˣ tiny',
+  suffix: 'ourˣ tiny',
+  glo: '**weˣ**.DIM',
+  etym: () => [_.iS, _.yi],
+  see: () => [_.subj],
+})
+
+export const iyi = _.word('iyi', {
+  def: '**you¹ tiny**',
+  prefix: 'your¹ tiny',
+  suffix: 'your¹ tiny',
+  glo: '**you1**.DIM',
+  etym: () => [_.iS, _.yi],
+  see: () => [_.subj],
+})
+
+export const ayi = _.word('ayi', {
+  def: '**they¹ tiny**',
+  prefix: 'their¹ tiny',
+  suffix: 'their¹ tiny',
+  glo: '**they1**.DIM',
+  etym: () => [_.aS, _.yi],
+  see: () => [_.subj],
+})
+
+export const shoyi = _.word('shoyi', {
+  def: '**we\\* tiny**',
+  prefix: 'our* tiny',
+  suffix: 'our* tiny',
+  glo: '**we\\***.DIM',
+  etym: () => [_.sho, _.yi],
+  see: () => [_.subj],
+})
+
+export const shiyi = _.word('shiyi', {
+  def: '**you\\* tiny**',
+  prefix: 'your tiny*',
+  suffix: 'your tiny*',
+  glo: '**you\\***.DIM',
+  etym: () => [_.sho, _.yi],
+  see: () => [_.subj],
+})
+
+export const shayi = _.word('shayi', {
+  def: '**they\\* tiny**',
+  prefix: 'their tiny*',
+  suffix: 'their tiny*',
+  glo: '**they\\***.DIM',
+  etym: () => [_.sho, _.yi],
+  see: () => [_.subj],
 })
 
 export const yile = _.word('yile', {
-  noun: 'young',
+  def: 'young',
   etym: () => [_.yi, _.lei],
 })
 
 export const yida = _.word('yida', {
-  pron: 'tiny you',
-  glo: '2SG.DIM',
-  etym: () => [_.yi, _.oda],
-  see: () => [_.keda, _.loda, _.pron],
-})
-
-export const yiyada = _.word('yiyada', {
-  pron: 'tiny you (poetic)',
-  glo: '2SG.DIM.POET',
-  etym: () => [_.yi, _.yada],
-  see: () => [_.yida, _.pron],
-})
-
-export const ayi = _.word('ayi', {
-  conj: 'they (tiny)',
-  glo: '3SG.DIM',
-  etym: () => [_.a, _.yi],
-})
-
-export const tayi = _.word('tayi', {
-  conj: 'their (tiny)',
-  glo: 'POSS.3SG.DIM',
-  etym: () => [_.ta, _.yi],
-  see: () => [_.poss],
-})
-
-export const ayida = _.word('ayida', {
-  pron: 'them',
-  glo: '32g.DIM',
-  etym: () => [_.ayi, _.oda],
-})
-
-export const ayiyada = _.word('ayiyada', {
-  pron: 'them (poetic)',
-  glo: '32g.DIM.POET',
-  etym: () => [_.ayi, _.yada],
+  def: '**tiny person**',
+  etym: () => [_.yi, _.da],
 })
 
 // === alt

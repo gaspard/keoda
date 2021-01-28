@@ -1,9 +1,9 @@
 import * as _ from '.'
 
 export const da = _.word('da', {
-  noun: 'place, 9',
-  suffix: 'place',
-  glo: 'LOC',
+  def: '**self** or **9**',
+  suffix: '**self**',
+  glo: '**self**',
   see: () => [_.kedana, _.count, _.sen],
 })
 
@@ -12,24 +12,30 @@ _.see(_.lamagoa)
 _.see(_.goa)
 
 export const dapa = _.word('dapa', {
-  noun: 'joy',
+  def: '**joy**',
+  etym: () => [_.da, _.pa],
   see: () => [_.ganes, _.dafi],
 })
 
 export const dafi = _.word('dafi', {
+  def: '**service**',
   adj: 'serving',
+  etym: () => [_.da, _.fi],
   see: () => [_.nanes, _.dapa],
 })
 
 export const guda = _.word('guda', {
-  noun: 'the place of the experience',
+  def: '**the place of the experience**',
+  etym: () => [_.gu, _.da],
   see: () => [_.gulei],
 })
 
 export const dana = _.word('dana', {
-  noun: 'geography',
+  def: '**geography**',
   etym: () => [_.da, _.na],
 })
+
+// === alt
 
 export const da9 = _.alt('da', {
   glo: '**9**',

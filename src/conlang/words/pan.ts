@@ -6,6 +6,6 @@ export const pan = _.word('pan', {
 })
 
 export const dupan = _.word('dudapan', {
-  noun: 'fox',
+  def: 'fox',
   etym: () => [_.doda, _.pan],
 })

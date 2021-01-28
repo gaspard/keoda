@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const ku = _.word('ku', {
-  noun: 'rope',
+  def: 'rope',
   verb: 'to tie',
   prep: 'imply',
   desc: () => `Causality`,
@@ -20,7 +20,7 @@ export const nekupa = _.word('nekupa', {
 })
 
 export const kulei = _.word('kulei', {
-  noun: 'causal time',
+  def: 'causal time',
   verb: 'to rig',
   desc: () =>
     `To tie time, manipulate, transactional relation to time (if-then).`,
@@ -28,7 +28,7 @@ export const kulei = _.word('kulei', {
 })
 
 export const kuoda = _.word('kuoda', {
-  noun: 'victime-bourreau-sauveu.se.r',
+  def: 'victime-bourreau-sauveu.se.r',
   desc: () => `Corps attaché.`,
   etym: () => [_.ku, _.oda],
 })

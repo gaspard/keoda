@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const ma = _.word('ma', {
-  noun: 'hand',
+  def: 'hand',
   verb: 'to shake, to take',
   exam: () => [
     _.phraseX(`Wank my vulva gently.`, _.masilo, _.yonam),
@@ -10,12 +10,12 @@ export const ma = _.word('ma', {
 })
 
 export const hama = _.word('hama', {
-  noun: 'finger',
+  def: 'finger',
   etym: () => [_.ha, _.ma],
 })
 
 export const djoma = _.word('djoma', {
-  noun: 'wrist',
+  def: 'wrist',
   etym: () => [_.jo, _.ma],
 })
 _.see(_.josame)
@@ -37,49 +37,49 @@ export const mu = _.word('mu', {
 })
 
 export const malame = _.word('malame', {
-  noun: 'parturient',
+  def: 'parturient',
   etym: () => [_.ma, _.lameN],
 })
 
 export const miwi = _.word('miwi', {
-  noun: 'butterfly',
+  def: 'butterfly',
   etym: () => [_.mi, _.iwi],
 })
 
 export const masa = _.word('masa', {
-  noun: 'shovel',
+  def: 'shovel',
   etym: () => [_.ma, _.sa],
 })
 
 export const masale = _.word('masale', {
-  noun: 'spoon',
+  def: 'spoon',
   etym: () => [_.masa, _.le],
 })
 
 export const masalele = _.word('masalele', {
-  noun: 'little spoon',
+  def: 'little spoon',
   etym: () => [_.masale, _.le],
 })
 
 // ========== alt
 
 export const toma = _.alt('toma', {
-  glo: '1SI.POSS.**hand**',
+  glo: 'wex.**hand**',
   alt: () => _.ma,
 })
 
 export const matim = _.alt('matim', {
-  glo: '**hand**.2SG.POSS.ACC',
+  glo: '**hand**.you1+',
   alt: () => _.ma,
 })
 
 export const matom = _.alt('matom', {
-  glo: '**hand**.1SI.POSS.ACC',
+  glo: '**hand**.wex+',
   alt: () => _.ma,
 })
 
 export const man = _.alt('man', {
-  glo: '**hand**.ACC',
+  glo: '**hand**~',
   alt: () => _.ma,
 })
 
@@ -89,7 +89,7 @@ export const fuma = _.alt('fuma', {
 })
 
 export const pemalir = _.alt('pemalir', {
-  glo: '3PL.INDF.**massage**.FUT',
+  glo: 'they9.INDF.**massage**.FUT',
   alt: () => _.ma,
 })
 
@@ -100,5 +100,20 @@ export const madom = _.alt('madom', {
 
 export const masilo = _.alt('masilo', {
   glo: '**shake**.*gently*',
+  alt: () => _.ma,
+})
+
+export const mati = _.alt('mati', {
+  glo: '**hand**.you1',
+  alt: () => _.ma,
+})
+
+export const mawu = _.alt('mawu', {
+  glo: '**hand**.POSS',
+  alt: () => _.ma,
+})
+
+export const tima = _.alt('tima', {
+  glo: 'you1.**hand**',
   alt: () => _.ma,
 })

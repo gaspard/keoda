@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const fi = _.word('fi', {
-  noun: 'thread',
+  def: 'thread',
   verb: 'to connect',
   see: () => [_.pa],
 })
@@ -17,13 +17,13 @@ export const gufishasha = _.word('gufishasha', {
 })
 
 export const gufi = _.word('gufi', {
-  noun: 'thread of life',
+  def: 'thread of life',
   etym: () => [_.gu, _.fi],
 })
 
 // === alt
 
 export const gufitinam = _.alt('gufitinam', {
-  glo: '**thread of life**.POSS.2SG',
+  glo: '**thread of life**.you1',
   alt: () => _.gufi,
 })

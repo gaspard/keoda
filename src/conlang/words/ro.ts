@@ -8,6 +8,6 @@ export const ro = _.word('ro', {
 })
 
 export const robaj = _.word('robaj', {
-  noun: 'inner thighs',
+  def: 'inner thighs',
   etym: () => [_.ro, _.baj],
 })

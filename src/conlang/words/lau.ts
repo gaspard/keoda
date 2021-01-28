@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const lau = _.word('lau', {
-  noun: 'eternity',
+  def: 'eternity',
   adv: 'always',
   tens: 'ETERN',
   etym: () => [_.lei, _.au],
@@ -10,14 +10,14 @@ export const lau = _.word('lau', {
 })
 
 export const elau = _.word('elau', {
-  noun: 'in all eternity',
+  def: 'in all eternity',
   etym: () => [_.e, _.lau],
 })
 
 // === alt
 
 export const laum = _.alt('laum', {
-  glo: '**eternity**.ACC',
+  glo: '**eternity**+',
   alt: () => _.lau,
 })
 

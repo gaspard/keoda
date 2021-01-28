@@ -6,13 +6,13 @@ export const na = _.word('na', {
 })
 
 export const nena = _.word('nena', {
-  noun: 'nothing',
+  def: 'nothing',
   etym: () => [_.ne, _.na],
 })
 
 // === alt
 
 export const nenam = _.alt('nenam', {
-  glo: '**nothing**.ACC',
+  glo: '**nothing**+',
   alt: () => _.nena,
 })

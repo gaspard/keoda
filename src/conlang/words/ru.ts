@@ -1,31 +1,31 @@
 import * as _ from '.'
 
 export const ru = _.word('ru', {
-  noun: 'creation (Sristi)',
+  def: 'creation (Sristi)',
   suffix: 'to become',
   verb: 'to emerge',
   see: () => [_.prep],
 })
 
 export const runa = _.word('runa', {
-  noun: 'emergence (Krtya कृत्य)',
+  def: 'emergence (Krtya कृत्य)',
   etym: () => [_.ru, _.na],
 })
 
 export const leiru = _.word('leiru', {
-  noun: 'destiny',
+  def: 'destiny',
   etym: () => [_.lei, _.ru],
 })
 
 export const leirui = _.word('leirui', {
-  noun: 'fortune',
-  etym: () => [_.leiru, _.i],
+  def: 'fortune',
+  etym: () => [_.leiru, _.iC],
 })
 
 export const leiruo = _.word('leiruo', {
-  noun: 'misfortune',
+  def: 'misfortune',
   adv: 'alas',
-  etym: () => [_.leiru, _.o],
+  etym: () => [_.leiru, _.oC],
 })
 
 export const kuru = _.word('kuru', {
@@ -34,7 +34,7 @@ export const kuru = _.word('kuru', {
 })
 
 export const nuru = _.word('nuru', {
-  noun: 'apophenia',
+  def: 'apophenia',
   etym: () => [_.nu, _.ru],
   see: () => [_.conrad, _.guru],
   desc: () => `
@@ -53,7 +53,7 @@ export const piyiru = _.alt('piyiru', {
 })
 
 export const okuru = _.alt('okuru', {
-  glo: '1SI.**must**',
+  glo: 'wex.**must**',
   alt: () => _.kuru,
 })
 
@@ -63,7 +63,7 @@ export const iru = _.alt('iru', {
 })
 
 export const esarulem = _.alt('esarulem', {
-  glo: 'PASS.3SG.**become**.PST',
+  glo: 'PASS.they1.**become**.PST',
   alt: () => _.e,
 })
 

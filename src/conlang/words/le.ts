@@ -2,30 +2,30 @@ import * as _ from '.'
 
 export const le = _.word('le', {
   adj: 'small',
-  noun: '5',
+  def: '5',
   suffix: 'small',
   see: () => [_.count],
 })
 
 export const hamale = _.word('hamale', {
-  noun: 'little finger',
+  def: 'little finger',
 })
 
 export const ajale = _.word('ajale', {
-  noun: 'spark',
+  def: 'spark',
   posit: 'on top of me: 4 limbs and 1 genital (little finger)',
   etym: () => [_.aj],
 })
 
 export const nele = _.word('nele', {
-  noun: 'confusion',
+  def: 'confusion',
   adj: 'insecure',
   verb: 'to confound',
   see: () => [_.ganes, _.nanes],
 })
 
 export const eseshanele = _.alt('eseshanele', {
-  glo: 'PASS.3PL.**confound**',
+  glo: 'PASS.they9.**confound**',
   alt: () => _.nele,
 })
 

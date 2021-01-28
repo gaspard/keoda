@@ -1,12 +1,12 @@
 import * as _ from '.'
 
 export const ga = _.word('ga', {
-  noun: 'spirit',
+  def: 'spirit',
   see: () => [_.gu],
 })
 
 export const gana = _.word('gana', {
-  noun: 'earth (Anugraha)',
+  def: '**earth** (Anugraha)',
   etym: () => [_.ga, _.na],
   see: () => [_.nugu],
 })
@@ -17,7 +17,7 @@ export const ganaro = _.alt('ganaro', {
 })
 
 export const gai = _.word('gai', {
-  noun: 'consciousness, rain',
+  def: 'consciousness\nrain',
   verb: 'to rain',
   img:
     'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Falling_rain_in_mexico.jpg/330px-Falling_rain_in_mexico.jpg',
@@ -40,24 +40,24 @@ export const gauma = _.example(
 )
 
 export const kegai = _.word('kegai', {
-  noun: 'god',
+  def: 'god',
   etym: () => [_.ke, _.gai],
   see: () => [_.gau],
 })
 
 export const gau = _.word('gau', {
-  noun: 'attention',
+  def: 'attention',
   etym: () => [_.gau, _.u],
   see: () => [_.gai],
 })
 
 export const kuga = _.word('kuga', {
-  noun: 'causal thinking, victimhood',
+  def: 'causal thinking, victimhood',
   etym: () => [_.ku, _.ga],
 })
 
 export const nega = _.word('nega', {
-  noun: 'crazy',
+  def: 'crazy',
   glo: 'crazy',
   adv: 'crazily',
   etym: () => [_.ne, _.ga],
@@ -70,27 +70,27 @@ export const negaADV = _.alt('nega', {
   alt: () => _.nega,
 })
 
-export const gatonam = _.alt('gatonam', {
-  glo: '**spirit**.POSS.1SI.ACC',
+export const gatoh = _.alt('gatoh', {
+  glo: '**spirit**.wex:',
   alt: () => _.ga,
 })
 
 export const gogam = _.alt('gogam', {
-  glo: '*big*.**spirit**.ACC',
+  glo: '*big*.**spirit**+',
   alt: () => _.ga,
 })
 
 export const kegaiam = _.alt('kegaiam', {
-  glo: '**god**.ACC',
+  glo: '**god**+',
   alt: () => _.kegai,
 })
 
 export const esagai = _.alt('esagai', {
-  glo: 'PASS.3PL.**rain**',
+  glo: 'PASS.they9.**rain**',
   alt: () => _.gai,
 })
 
 export const esalugai = _.alt('esalugai', {
-  glo: 'PASS.3PL.CONT.**rain**',
+  glo: 'PASS.they9.CONT.**rain**',
   alt: () => _.gai,
 })

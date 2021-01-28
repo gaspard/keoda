@@ -12,6 +12,6 @@ This prefix comes after accord to the subject (unlike ${_.es}):
 })
 
 export const lulei = _.word('lulei', {
-  noun: 'until',
+  def: 'until',
   etym: () => [_.lu, _.lei],
 })

@@ -1,20 +1,20 @@
 import * as _ from '.'
 
 export const name = _.word('name', {
-  noun: 'wood',
+  def: 'wood',
 })
 
 export const ajaname = _.word('ajaname', {
-  noun: 'ash',
+  def: 'ash',
   etym: () => [_.aj, _.name],
 })
 
 export const kaname = _.word('kaname', {
-  noun: 'chair',
+  def: 'chair',
   etym: () => [_.ka, _.name],
 })
 
 export const namel = _.word('namel', {
-  noun: 'stick',
+  def: 'stick',
   etym: () => [_.name, _.el],
 })

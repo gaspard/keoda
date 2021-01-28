@@ -1,44 +1,35 @@
 import * as _ from '.'
 
 export const pi = _.word('pi', {
-  conj: 'I (1SG)',
+  subj: 'I (1SG)',
   adv: 'ici, origine',
-  noun: '1, self',
+  def: '1, self',
   glo: 'me',
   posit: 'debout',
   see: () => [_.pa],
 })
-_.see(_.count)
-_.see(_.pio)
+
+export const opi = _.word('opi', {
+  def: '**I**',
+  prefix: '**my**',
+  suffix: '**my**',
+  etym: () => [_.oS, _.pi],
+  see: () => [_.subj],
+})
 
 export const pida = _.word('pida', {
-  pron: 'me',
-  glo: '1SG',
-  etym: () => [_.pi, _.oda],
-  see: () => [_.piyada, _.pron],
-})
-
-export const piyida = _.word('piyida', {
-  pron: 'tiny me',
-  glo: '1SG.DIM',
-  etym: () => [_.piyi, _.oda],
-  see: () => [_.piyiyada, _.pron],
-})
-
-export const piyiyada = _.word('piyiyada', {
-  pron: 'tiny me (poetic)',
-  glo: '1SG.DIM.POET',
-  etym: () => [_.piyi, _.yada],
-  see: () => [_.piyida, _.pron],
+  pron: '**I person**',
+  etym: () => [_.pi, _.da],
+  see: () => [_.subj],
 })
 
 export const papi = _.word('papi', {
-  noun: 'sagesse (tout écho en soi)',
+  def: 'sagesse (tout écho en soi)',
   etym: () => [_.pa, _.pi],
 })
 
 export const pipa = _.word('pipa', {
-  noun: 'innocence (soi partout)',
+  def: 'innocence (soi partout)',
   etym: () => [_.pi, _.pa],
 })
 
@@ -49,7 +40,7 @@ export const pienu = _.word('pienu', {
 
 export const aupi = _.word('aupi', {
   verb: `to love onself`,
-  glo: '**love**.self',
+  glo: '**heart**.self',
   etym: () => [_.au, _.pi],
 })
 
@@ -60,29 +51,23 @@ export const gupi = _.word('gupi', {
 })
 
 export const nepi = _.word('nepi', {
-  noun: 'division',
+  def: 'division',
   adj: 'disembodied, fragmented',
   see: () => [_.ganes, _.nanes],
 })
 
 // L'écoute de djopi ouvre à hapi
 export const djopi = _.word('djopi', {
-  noun: 'soi proximal (soi profond, souvent le passé)',
+  def: 'soi proximal (soi profond, souvent le passé)',
 })
 
 // Sentir hapi donne le courage d'écouter djopi
 export const hapi = _.word('hapi', {
-  noun: 'soi distal (Grand Soi, Grande Sœur, Grand Frère, souvent le futur)',
+  def: 'soi distal (Grand Soi, Grande Sœur, Grand Frère, souvent le futur)',
 })
 
 export const piyi = _.word('piyi', {
-  conj: 'I (tiny)',
+  subj: 'I (tiny)',
   glo: '1SG.DIM',
   see: () => [_.verbs],
-})
-
-export const topiyi = _.word('topiyi', {
-  det: 'to me (tiny)',
-  glo: 'POSS.1SG.DIM',
-  see: () => [_.poss],
 })

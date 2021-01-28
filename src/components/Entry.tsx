@@ -132,6 +132,19 @@ const Name = styled.div`
   font-weight: 500;
 `
 
+const Def = styled(Markdown)`
+  white-space: pre-line;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  border-bottom: 1px solid rgb(123, 123, 123);
+  padding-left: 10px;
+  color: #666;
+  strong {
+    font-weight: 500;
+    color: #333;
+  }
+`
+
 const Phon = styled.div`
   font-size: 1rem;
 `
@@ -310,7 +323,7 @@ const DefType = styled.div`
   &.etym {
     color: #222;
   }
-  &.noun {
+  &.def {
     color: #28467d;
   }
   &.verb {
@@ -325,7 +338,7 @@ const DefType = styled.div`
   &.det {
     color: #444;
   }
-  &.conj {
+  &.subj {
     color: #b7ec34;
   }
   &.prefix {
@@ -437,6 +450,7 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
         </Title>
       )}
       <Definitions>
+        {entry.def && <Def className="desc" type="md-open" text={entry.def} />}
         {entry.etym && (
           <React.Fragment>
             <GWrap className="etym">

@@ -2,23 +2,23 @@ import * as _ from '.'
 
 export const fo = _.word('fo', {
   verb: 'to whip',
-  etym: () => [_.fen, _.o],
+  etym: () => [_.fen, _.oC],
 })
 
 // === alt
 
 export const afo = _.alt('afo', {
-  glo: '3SG.**whip**',
+  glo: 'they1.**whip**',
   alt: () => _.fo,
 })
 
 export const ofolir = _.alt('ofolir', {
-  glo: '1SI.**whip**.FUT',
+  glo: 'wex.**whip**.FUT',
   alt: () => _.fo,
 })
 
 export const shafo = _.alt('shafo', {
-  glo: '3PL.**whip**',
+  glo: 'they9.**whip**',
   alt: () => _.fo,
 })
 
@@ -28,12 +28,12 @@ export const foliri = _.alt('foliri', {
 })
 
 export const afoliri = _.alt('afoliri', {
-  glo: '3SG.**whip**.FUT.HOD',
+  glo: 'they1.**whip**.FUT.HOD',
   alt: () => _.fo,
 })
 
 export const afoliriwa = _.alt('afoliriwa', {
-  glo: '3SG.**whip**.FUT.HOD.TOP',
+  glo: 'they1.**whip**.FUT.HOD.TOP',
   alt: () => _.fo,
 })
 

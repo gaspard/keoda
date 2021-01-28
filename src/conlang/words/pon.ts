@@ -6,13 +6,13 @@ export const pon = _.word('pon', {
 })
 
 export const pona = _.word('pona', {
-  noun: 'orange, November',
+  def: 'orange, November',
   etym: () => [_.pon, _.na],
   see: () => [_.fruits, _.seasons],
 })
 
 export const ponale = _.word('ponale', {
-  noun: 'tangerine, December',
+  def: 'tangerine, December',
   etym: () => [_.pona, _.le],
   see: () => [_.fruits, _.seasons],
 })

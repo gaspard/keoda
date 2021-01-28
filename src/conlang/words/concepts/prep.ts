@@ -1,10 +1,10 @@
 import * as _ from '..'
 
 export const Iris = _.word('Iris', {
-  noun: 'Iris',
+  def: 'Iris',
 })
 export const Irisam = _.alt('Irisam', {
-  glo: '**Iris**.ACC',
+  glo: '**Iris**+',
   alt: () => _.Iris,
 })
 export const fuIris = _.alt('fuIris', {
@@ -52,7 +52,7 @@ See word order for more on cases: ${_.order}
 #### nsfw
 
 * ${_.phrase('Iris whom you caressed.', _.Irisam, _.dim, _.imilema)}
-* ${_.phrase('Iris who caressed you.', _.Iris, _.di, _.amilema, _.idam)}
+* ${_.phrase('Iris who caressed you.', _.Iris, _.di, _.amilema, _.tim)}
 * ${_.phrase('I like that you are naked.', _.ozu, _.eku, _.yihe, _.nefe)}
 
 # Location

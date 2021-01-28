@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const same = _.word('same', {
-  noun: 'foot',
+  def: 'foot',
   posit: 'standing',
   desc: () => `
 Note that when saying "left foot" or "right foot", the terminal
@@ -11,21 +11,21 @@ ${_.phrase('left foot, right foot', _.samse, _.samwe)}`,
 })
 
 export const samoda = _.word('samoda', {
-  noun: 'hero',
+  def: 'hero',
   glo: 'foot.person',
   etym: () => [_.same, _.oda],
 })
 
 export const fesame = _.word('fesame', {
-  noun: 'socks',
+  def: 'socks',
 })
 
 export const hasame = _.word('hasame', {
-  noun: 'toe',
+  def: 'toe',
 })
 
 export const josame = _.word('josame', {
-  noun: 'ankle',
+  def: 'ankle',
 })
 
 // ======= alt
@@ -41,11 +41,11 @@ export const samwe = _.alt('samwe', {
 })
 
 export const sametinam = _.alt('sametinam', {
-  glo: '**foot**.POSS.2SG.ACC',
+  glo: '**foot**.you1+',
   alt: () => _.same,
 })
 
 export const sameti = _.alt('sameti', {
-  glo: '**foot**.POSS.2SG',
+  glo: '**foot**.you1',
   alt: () => _.same,
 })

@@ -1,26 +1,26 @@
 import * as _ from '.'
 
 export const ya = _.word('ya', {
-  noun: 'night',
+  def: 'night',
   see: () => [_.yo],
 })
 _.see(_.yaon)
 _.see(_.yo)
 
 export const yagi = _.word('yagi', {
-  noun: 'goodnight',
+  def: 'goodnight',
   etym: () => [_.ya, _.gi],
 })
 
 export const yaonagi = _.word('yaonagi', {
-  noun: 'good evening',
+  def: 'good evening',
   etym: () => [_.yaon, _.gi],
 })
 
 _.see(_.yogi)
 
 export const iwa = _.word('iwa', {
-  noun: 'owl',
+  def: 'owl',
   etym: () => [_.iwi, _.ya],
 })
 
@@ -30,37 +30,37 @@ export const yafa = _.word('yafa', {
 })
 
 export const yadifa = _.word('yadifa', {
-  noun: 'dream',
+  def: 'dream',
   etym: () => [_.ya, _.di, _.fa],
 })
 
 export const teya = _.word('teya', {
-  noun: 'tonight',
+  def: 'tonight',
   etym: () => [_.ten, _.ya],
 })
 
 export const peya = _.word('peya', {
-  noun: 'some night',
+  def: 'some night',
   etym: () => [_.pe, _.ya],
 })
 
 export const liraya = _.word('liraya', {
-  noun: 'tomorrow night',
+  def: 'tomorrow night',
   etym: () => [_.liri, _.ya],
 })
 
 export const lemaya = _.word('lemaya', {
-  noun: 'night before',
+  def: 'night before',
   etym: () => [_.lemi, _.ya],
 })
 // ==== alt
 
 export const oyafalau = _.alt('oyafalau', {
-  glo: '1SI.**dream**.ETERN',
+  glo: 'wex.**dream**.ETERN',
   alt: () => _.yafa,
 })
 
 export const oluyafa = _.alt('oluyafa', {
-  glo: '1SI.CONT.**dream**',
+  glo: 'wex.CONT.**dream**',
   alt: () => _.yafa,
 })

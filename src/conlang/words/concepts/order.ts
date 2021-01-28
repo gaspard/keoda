@@ -1,12 +1,12 @@
 import * as _ from '..'
 
 export const Jane = _.word('Jane', {
-  noun: 'Jane',
+  def: 'Jane',
   phon: '/dʒan/',
   writ: 'జాఁ',
 })
 export const Janeam = _.alt('Janeam', {
-  glo: '**Jane**.ACC',
+  glo: '**Jane**+',
   phon: '/dʒanam/',
   writ: 'జానాం',
   alt: () => _.Jane,
@@ -25,14 +25,14 @@ export const niJane = _.alt('niJane', {
 })
 
 export const John = _.word('John', {
-  noun: 'John',
+  def: 'John',
   phon: '/dʒɔn/',
   writ: 'జోఁ',
 })
 export const Johnam = _.alt('Johnam', {
   writ: 'జోనాం',
   phon: '/dʒɔnam/',
-  glo: '**John**.ACC',
+  glo: '**John**+',
   alt: () => _.John,
 })
 export const niJohn = _.alt('niJohn', {
@@ -46,9 +46,19 @@ export const order = _.card('order', {
   open: true,
   writ: 'order',
   desc: () => `
+# Word order
+
+##### note
+
+Warning: there is a lot of butt whipping on this page and phrases are not
+marked as 'nsfw' here because the explanations would not make sense without
+all the examples. It's just butt whipping (nothing more).
+
 Word order evolved to be nearly free so that we can put emphasis and
-expectation on any part of the phrase, helping identify the [theme](https://en.wikipedia.org/wiki/Topic_and_comment) and the
-[rheme](https://en.wikipedia.org/wiki/Topic_and_comment), the topic and the comment, the known and the unknown, the old information and the new.
+expectation on any part of the phrase, helping identify the
+[theme](https://en.wikipedia.org/wiki/Topic_and_comment) and the
+[rheme](https://en.wikipedia.org/wiki/Topic_and_comment), the topic and the
+comment, the known and the unknown, the old information and the new.
 
 ##### note 
 
@@ -57,17 +67,13 @@ traductions for all phrases on this card.
 
 In order to be able to move words and sub phrases around, we use three cases:
 
-* ${_.fu} *Ergative*: the doer (who)
-* ${_.am} *Accusative*: object / receiver (what)
-* ${_.ni} *Dative*: incidental receiver (to whom)
+* ${_.fu} *Doer*: ergative (who)
+* ${_.am} *Taste/mood*: accusative (what)
+* ${_.ni} *Incidental*: dative (to whom)
 
-For more information on accusative and dative, I found
-[this](http://courses.washington.edu/furman2/dative%20&%20accusative/expl-ex.htm)
-to be a good read.
-
-Ergative case marking is rare. It is only used when we want to emphasize
-who does the action or if the context is very confusing (for example when
-using body parts as subjects):
+Ergative case marking is rare. It is only used when we want to emphasize who
+does the action or if the context is very confusing (for example when using
+body parts as subjects):
 
 ${_.phrase('On your skin, my hand walks.', _.fenoati, _.fuma, _.afen)}
 
@@ -80,7 +86,7 @@ correct because english is not a free word order language.
 
 ${_.phrase('Jane whips the butt of John', _.Jane, _.afo, _.palwu, _.Johnam)}
 
-${_.phrase('John gives the ball to Jane', _.John, _.aguwu, _.tamem, _.niJane)}
+${_.phrase('John gives the ball to Jane', _.John, _.aguwu, _.tameh, _.niJane)}
 
 ${_.phrase(
   'John talks about Iris to Jane',
@@ -110,7 +116,7 @@ ${_.phrase(
   _.shu,
   _.oda,
   _.shozuzu,
-  _.idam
+  _.tim
 )}
 
 ${_.phrase('They talk about John to me.', _.alapa, _.Johnam, _.nioda)}
@@ -122,27 +128,22 @@ ${_.phrase(
   'John throws the ball at Jane',
   _.John,
   _.arumo,
-  _.tamem,
+  _.tameh,
   _.dona,
   _.Jane
 )}
 
-## Accusative marking
+## Taste/mood marking
 
-We add the ${_.am} suffix but sounds are (usually) transformed as follow:
+See ${_.am} for all the details on this... But basically, the target of an
+action (accusative case) is marked with one of three moods:
 
-* /..da+am/ => /dam/
-* /..na+am/ => /nam/
-* /..ti+am/ => /tim/
-* /..to+am/ => /tom/
-* /..ta+am/ => /tam/
-* /...a+am/ => /aye/
-* /...u+am/ => /um/
-* /...e+am/ => /em/
-* /...i+am/ => /in/
-* /...o+am/ => /on/
+* ${_.am}, glossed '+', means "whole"
+* ${_.an}, glossed '~', means "parts"
+* ${_.ah}, glossed ':', means "rejection"
 
-For poetic purpose, the full "nam" can be used on vowel ending: ${_.tojihuki}
+For poetic purpose, the "na" can be added before the marking on vowel ending
+to refer to "old style" markings in /nam/, /nan/ and /nah/.
 
 Here are some examples to show when accusative marking on grouped and ungrouped words of a noun phrase.
 
@@ -243,6 +244,6 @@ ${_.phrase(
   _.palam
 )}
 
-Your next read: ${_.genders} (genders)
+Your next read: ${_.subj} (subjects)
 `,
 })

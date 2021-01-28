@@ -1,18 +1,18 @@
 import * as _ from '.'
 
 export const tio = _.word('tio', {
-  noun: `genitals`,
+  def: `genitals`,
   verb: `faire l'amour`,
 })
 _.see(_.pio)
 
 export const fatio = _.word('fatio', {
-  noun: "iris (fleur de l'oeil",
+  def: "iris (fleur de l'oeil",
   etym: () => [_.fa, _.tio],
 })
 
 export const tiona = _.word('tiona', {
-  noun: 'flower (genital thing)',
+  def: 'flower (genital thing)',
   etym: () => [_.tio, _.na],
 })
 

@@ -2,38 +2,38 @@ import * as _ from '.'
 
 export const lame = _.word('lame', {
   verb: 'to wash',
-  noun: 'water',
+  def: 'water',
   see: () => [_.nature],
 })
 
 export const falame = _.word('falame', {
-  noun: 'tears',
+  def: 'tears',
   verb: 'to cry',
   etym: () => [_.fa, _.lame],
 })
 
 export const lama = _.word('lama', {
-  noun: 'sea',
+  def: 'sea',
   etym: () => [_.lame, _.da],
 })
 
 export const lamagoa = _.word('lamagoa', {
-  noun: 'ocean',
+  def: 'ocean',
   etym: () => [_.lama, _.goa],
 })
 
 export const lami = _.word('lami', {
-  noun: 'wave',
+  def: 'wave',
   etym: () => [_.lame, _.mi],
 })
 
 export const lamioda = _.word('lamioda', {
-  noun: 'snake',
+  def: 'snake',
   etym: () => [_.lami, _.oda],
 })
 
 export const lamoa = _.word('lamoa', {
-  noun: 'source (place)',
+  def: 'source (place)',
   etym: () => [_.lame, _.on, _.da],
   see: () => [_.nature],
 })

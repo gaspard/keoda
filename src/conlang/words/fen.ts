@@ -1,15 +1,15 @@
 import * as _ from '.'
 
 export const fen = _.word('fen', {
-  noun: 'knee',
+  def: 'knee',
   posit: 'kneeling',
   verb: 'to walk',
 })
 
 export const afen = _.alt('afen', {
-  glo: '**walk**.3SG',
+  glo: '**walk**.they1',
   alt: () => _.fen,
-  see: () => [_.a, _.fen],
+  see: () => [_.aC, _.fen],
 })
 
 export const efenom = _.example(

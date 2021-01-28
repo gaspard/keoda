@@ -1,4 +1,4 @@
-import * as _ from '.'
+import * as _ from '..'
 
 // Le tatou
 // sur les genoux, les mains en avant

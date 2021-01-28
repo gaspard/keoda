@@ -1,28 +1,20 @@
 import * as _ from '.'
 
-export const shi = _.word('shi', {
-  conj: 'you (2PL.PRS)',
-  noun: '6',
+export const shi6 = _.word('shi', {
+  def: '6',
   glo: '2PL.PRS',
-  see: () => [_.count],
+  see: () => [_.shiP, _.count],
 })
 
-export const shida = _.word('shida', {
-  pron: 'you',
-  glo: '2PL',
-  etym: () => [_.shi, _.oda],
-  see: () => [_.toshi, _.shiya, _.pron],
-})
-
-export const shiya = _.word('shiya', {
-  pron: 'you (poetic)',
-  glo: '2PL.POET',
-  etym: () => [_.shi, _.yada],
-  see: () => [_.shida, _.pron],
+export const shiP = _.word('shi', {
+  def: '**you\\***',
+  prefix: '**your\\***',
+  suffix: '**your\\***',
+  see: () => [_.shi6, _.subj],
 })
 
 export const shipa = _.word('shipa', {
-  noun: 'believing',
+  def: 'believing',
   see: () => [_.ganes, _.shifi, _.negu],
 })
 
