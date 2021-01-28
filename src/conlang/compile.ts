@@ -61,8 +61,8 @@ function compileWord(word: Entry): CompiledEntry {
     compiled.glo = gloReplace(word.glo)
   } else if (!compiled.glo) {
     // default value to show on gloss
-    if (word.def) {
-      compiled.glo = word.def
+    if (word.noun) {
+      compiled.glo = word.noun
     } else {
       const key = Object.keys(word).find(key =>
         FULLTEXT_KEYS.includes(key as any)
@@ -146,7 +146,7 @@ export function exportJSON(db: EntriesByType) {
       if (!phrases) {
         phrases = word.phrases = []
       }
-      if (!phrases.includes(id)) {
+      if (!phrases.includes(phrase.id)) {
         phrases.push(phrase.id)
       }
     })

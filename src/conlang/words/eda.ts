@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const eda = _.word('eda', {
-  def: '**place**',
-  suffix: '**place**',
+  noun: '**place**',
+  suff: '**place**',
   see: () => [_.da],
 })

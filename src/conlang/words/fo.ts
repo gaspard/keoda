@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const fo = _.word('fo', {
-  verb: 'to whip',
+  action: 'to whip',
   etym: () => [_.fen, _.oC],
 })
 

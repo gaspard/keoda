@@ -1,8 +1,8 @@
 import * as _ from '.'
 
 export const fa = _.word('fa', {
-  def: 'eyes',
-  verb: 'to see',
+  noun: 'eyes',
+  action: 'to see',
   img:
     'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Arctic_Fox_1_%2810549184013%29.jpg/400px-Arctic_Fox_1_%2810549184013%29.jpg',
   desc: () => `
@@ -13,14 +13,14 @@ ${_.phrase('Look at my hand.', _.fa, _.matom)}
 })
 
 export const gufa = _.word('gufa', {
-  def: 'pupil (life of the eye)',
+  noun: 'pupil (life of the eye)',
   glo: 'pupil',
   etym: () => [_.gu, _.fa],
 })
 
 export const falo = _.word('falo', {
-  def: 'sadness',
-  verb: 'to be sad',
+  noun: 'sadness',
+  action: 'to be sad',
   etym: () => [_.fa, _.lo],
   see: () => [_.falame],
   desc: () => `
@@ -28,8 +28,8 @@ ${_.phrase("Don't be sad.", _.nefalo)}`,
 })
 
 export const fahata = _.word('fahata', {
-  def: 'mirror',
-  verb: 'to reflect',
+  noun: 'mirror',
+  action: 'to reflect',
   etym: () => [_.fa, _.aS],
 })
 

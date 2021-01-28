@@ -1,18 +1,18 @@
 import * as _ from '.'
 
 export const ji = _.word('ji', {
-  def: 'hair',
-  posit: 'standing, body leaning forward, hair offered ready to be taken',
+  noun: 'hair',
+  pos: 'standing, body leaning forward, hair offered ready to be taken',
 })
 
 export const gojida = _.word('gojida', {
-  def: 'bear',
+  noun: 'bear',
   etym: () => [_.go, _.ji, _.oda],
 })
 
 export const neji = _.word('neji', {
-  def: 'without hair',
-  verb: 'to shave',
+  noun: 'without hair',
+  action: 'to shave',
 })
 
 // ==== alt

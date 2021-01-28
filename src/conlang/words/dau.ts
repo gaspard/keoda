@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const dau = _.word('dau', {
-  def: '**close place**',
+  noun: '**close place**',
   prep: 'to',
   glo: 'to.LOC',
   etym: () => [_.da, _.u],

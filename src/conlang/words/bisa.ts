@@ -1,11 +1,11 @@
 import * as _ from '.'
 
 export const bisa = _.word('bisa', {
-  def: '**spore**',
+  noun: '**spore**',
 })
 
 export const bisajoda = _.word('bisajoda', {
-  def: '**mushroom**',
+  noun: '**mushroom**',
   img:
     'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Lycoperdon-perlatum-flaschenstaeubling-alt.jpg/330px-Lycoperdon-perlatum-flaschenstaeubling-alt.jpg',
   imgpos: '50%',
@@ -13,7 +13,7 @@ export const bisajoda = _.word('bisajoda', {
 })
 
 export const bisahina = _.word('bisahina', {
-  def: 'fern',
+  noun: 'fern',
   img:
     'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Athyrium_filix-femina.jpg/330px-Athyrium_filix-femina.jpg',
   etym: () => [_.bisa, _.ina],

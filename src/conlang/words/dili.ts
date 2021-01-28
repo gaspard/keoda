@@ -1,11 +1,11 @@
 import * as _ from '.'
 
 export const dili = _.word('dili', {
-  def: 'claw',
+  noun: 'claw',
 })
 
 export const pedili = _.word('pedili', {
-  def: 'fork',
+  noun: 'fork',
   etym: () => [_.pe3, _.dili],
 })
 

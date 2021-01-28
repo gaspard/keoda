@@ -1,9 +1,9 @@
 import * as _ from '.'
 
 export const ulu = _.word('ulu', {
-  def: 'until',
+  noun: 'until',
   // Not sure we should keep the verb...
-  verb: 'to have fun',
+  action: 'to have fun',
   etym: () => [_.u, _.lu],
 })
 
@@ -15,12 +15,12 @@ export const uluyaj = _.example(
 )
 
 export const uloda = _.word('uloda', {
-  def: 'clown',
+  noun: 'clown',
   etym: () => [_.ulu, _.oda],
 })
 
 export const ulul = _.word('ulul', {
-  def: 'asparagus, April',
+  noun: 'asparagus, April',
   etym: () => [_.ulu, _.la],
   see: () => [_.seasons],
 })

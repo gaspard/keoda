@@ -1,7 +1,7 @@
 import * as _ from '..'
 
 export const Iris = _.word('Iris', {
-  def: 'Iris',
+  noun: 'Iris',
 })
 export const Irisam = _.alt('Irisam', {
   glo: '**Iris**+',

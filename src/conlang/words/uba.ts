@@ -2,7 +2,7 @@ import * as _ from '.'
 import { phon } from '../writing'
 
 export const uba = _.word('uba', {
-  verb: 'run down',
+  action: 'run down',
   exam: () => [
     _.phrase(
       'Tears are running down your face.',

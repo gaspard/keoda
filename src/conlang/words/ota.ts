@@ -1,22 +1,22 @@
 import * as _ from '.'
 
 export const ota = _.word('ota', {
-  def: 'source, ouverture',
+  noun: 'source, ouverture',
 })
 
 export const lamota = _.word('otalamon', {
-  def: `cercle de l'urètre`,
+  noun: `cercle de l'urètre`,
   desc: () => `zone autour de l'urètre (chez la femme)`,
   etym: () => [_.lame, _.ota],
 })
 
 export const hamunota = _.word('hamunon', {
-  def: 'areola',
+  noun: 'areola',
   etym: () => [_.hamun, _.on],
 })
 
 export const kepalota = _.word('kepalota', {
-  def: `zone autour de l'anus`,
+  noun: `zone autour de l'anus`,
   etym: () => [_.kepal, _.ota],
 })
 _.see(_.genitals)

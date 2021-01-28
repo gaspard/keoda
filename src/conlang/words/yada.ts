@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const yada = _.word('yada', {
-  def: '**night body**',
+  noun: '**night body**',
   etym: () => [_.ya, _.oda],
   desc: () => `
 If the visible body is ${_.oda}, this is the the identity body, deep,

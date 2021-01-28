@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const mi = _.word('mi', {
-  verb: 'to caress',
+  action: 'to caress',
   glo: '**hand**.VERB.CARE',
   etym: () => [_.ma, _.iC],
   see: () => [_.mo, _.mu],

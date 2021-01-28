@@ -1,12 +1,12 @@
 import * as _ from '.'
 
 const _in = _.word('in', {
-  adj: 'warm',
+  prop: 'warm',
 })
 export { _in as in }
 
 export const odin = _.word('odin', {
-  def: 'lion',
+  noun: 'lion',
   etym: () => [_.oda, _.in],
 })
 

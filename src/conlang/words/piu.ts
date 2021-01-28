@@ -1,23 +1,23 @@
 import * as _ from '.'
 
 export const piu = _.word('piu', {
-  adj: 'green',
+  prop: 'green',
   see: () => [_.colors],
 })
 
 export const piuna = _.word('piuna', {
-  def: 'spinach, May',
+  noun: 'spinach, May',
   etym: () => [_.piu, _.na],
   see: () => [_.seasons, _.food],
 })
 
 export const piule = _.word('piule', {
-  def: 'peas',
+  noun: 'peas',
   etym: () => [_.piu, _.le],
   see: () => [_.food],
 })
 
 export const piutaj = _.word('piutaj', {
-  def: 'leek, March',
+  noun: 'leek, March',
   see: () => [_.seasons, _.food],
 })

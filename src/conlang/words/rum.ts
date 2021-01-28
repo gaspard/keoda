@@ -1,29 +1,29 @@
 import * as _ from '.'
 
 export const rum = _.word('rum', {
-  def: 'arm',
+  noun: 'arm',
   see: () => [_.baj],
 })
 
 export const harum = _.word('harum', {
-  def: 'forearm',
+  noun: 'forearm',
 })
 
 export const djorum = _.word('djorum', {
-  def: 'upper arm',
+  noun: 'upper arm',
 })
 
 export const rumi = _.word('rumi', {
-  verb: 'to hug',
+  action: 'to hug',
 })
 
 export const leirumi = _.word('leirumi', {
-  verb: 'to embrace time, to live',
+  action: 'to embrace time, to live',
   see: () => [_.em],
 })
 
 export const rumo = _.word('rumo', {
-  verb: 'to throw',
+  action: 'to throw',
   etym: () => [_.rum, _.oC],
 })
 

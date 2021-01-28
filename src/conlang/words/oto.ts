@@ -1,13 +1,13 @@
 import * as _ from '.'
 
 export const oto = _.word('oto', {
-  def: '**wind** or **masculinity**',
-  adj: 'masculine',
+  noun: '**wind** or **masculinity**',
+  prop: 'masculine',
   see: () => [_.subj],
 })
 
 export const otoda = _.word('otoda', {
-  def: '**male** (wind) **person**',
+  noun: '**male** (wind) **person**',
   desc: () => `place of the wind-self`,
   etym: () => [_.oto, _.da],
 })

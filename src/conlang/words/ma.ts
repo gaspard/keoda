@@ -1,8 +1,8 @@
 import * as _ from '.'
 
 export const ma = _.word('ma', {
-  def: 'hand',
-  verb: 'to shake, to take',
+  noun: 'hand',
+  action: 'to shake, to take',
   exam: () => [
     _.phraseX(`Wank my vulva gently.`, _.masilo, _.yonam),
     _.phraseX(`Wank my penis intensely.`, _.madom, _.tajam),
@@ -10,12 +10,12 @@ export const ma = _.word('ma', {
 })
 
 export const hama = _.word('hama', {
-  def: 'finger',
+  noun: 'finger',
   etym: () => [_.ha, _.ma],
 })
 
 export const djoma = _.word('djoma', {
-  def: 'wrist',
+  noun: 'wrist',
   etym: () => [_.jo, _.ma],
 })
 _.see(_.josame)
@@ -23,41 +23,41 @@ _.see(_.josame)
 _.see(_.lihafma)
 
 export const nema = _.word('nema', {
-  verb: 'to let go',
+  action: 'to let go',
   glo: 'NEG.**take**',
   etym: () => [_.ne, _.ma],
   exam: () => [_.phraseX('Drop (your) panties.', _.nema, _.feyonam)],
 })
 
 export const mu = _.word('mu', {
-  verb: 'to pull',
+  action: 'to pull',
   glo: '**hand**.PULL',
   etym: () => [_.ma, _.u],
   see: () => [_.mi, _.mo],
 })
 
 export const malame = _.word('malame', {
-  def: 'parturient',
+  noun: 'parturient',
   etym: () => [_.ma, _.lameN],
 })
 
 export const miwi = _.word('miwi', {
-  def: 'butterfly',
+  noun: 'butterfly',
   etym: () => [_.mi, _.iwi],
 })
 
 export const masa = _.word('masa', {
-  def: 'shovel',
+  noun: 'shovel',
   etym: () => [_.ma, _.sa],
 })
 
 export const masale = _.word('masale', {
-  def: 'spoon',
+  noun: 'spoon',
   etym: () => [_.masa, _.le],
 })
 
 export const masalele = _.word('masalele', {
-  def: 'little spoon',
+  noun: 'little spoon',
   etym: () => [_.masale, _.le],
 })
 

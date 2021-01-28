@@ -1,40 +1,40 @@
 import * as _ from '.'
 
 export const ru = _.word('ru', {
-  def: 'creation (Sristi)',
-  suffix: 'to become',
-  verb: 'to emerge',
+  noun: 'creation (Sristi)',
+  suff: 'to become',
+  action: 'to emerge',
   see: () => [_.prep],
 })
 
 export const runa = _.word('runa', {
-  def: 'emergence (Krtya कृत्य)',
+  noun: 'emergence (Krtya कृत्य)',
   etym: () => [_.ru, _.na],
 })
 
 export const leiru = _.word('leiru', {
-  def: 'destiny',
+  noun: 'destiny',
   etym: () => [_.lei, _.ru],
 })
 
 export const leirui = _.word('leirui', {
-  def: 'fortune',
+  noun: 'fortune',
   etym: () => [_.leiru, _.iC],
 })
 
 export const leiruo = _.word('leiruo', {
-  def: 'misfortune',
-  adv: 'alas',
+  noun: 'misfortune',
+  style: 'alas',
   etym: () => [_.leiru, _.oC],
 })
 
 export const kuru = _.word('kuru', {
-  verb: 'to must',
+  action: 'to must',
   etym: () => [_.ku, _.ru],
 })
 
 export const nuru = _.word('nuru', {
-  def: 'apophenia',
+  noun: 'apophenia',
   etym: () => [_.nu, _.ru],
   see: () => [_.conrad, _.guru],
   desc: () => `

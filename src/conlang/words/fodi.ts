@@ -1,12 +1,12 @@
 import * as _ from '.'
 
 export const fodi = _.word('fodi', {
-  def: 'sleep',
-  verb: 'to sleep',
+  noun: 'sleep',
+  action: 'to sleep',
 })
 
 export const fodiru = _.word('fodiru', {
-  verb: 'to fall asleep',
+  action: 'to fall asleep',
   etym: () => [_.fodi, _.ru],
 })
 

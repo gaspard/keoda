@@ -1,8 +1,8 @@
 import * as _ from '.'
 
 export const ri = _.word('ri', {
-  suffix: 'out of (ELAT)',
-  prefix: 'outer',
+  suff: 'out of (ELAT)',
+  pref: 'outer',
   glo: 'ELAT',
   see: () => [_.ro, _.prep],
 })

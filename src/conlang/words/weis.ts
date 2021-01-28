@@ -1,12 +1,12 @@
 import * as _ from '.'
 
 export const weis = _.word('weis', {
-  adj: 'empty',
+  prop: 'empty',
 })
 
 export const goweis = _.word('goweis', {
-  def: 'desolation',
-  verb: 'to desolate',
+  noun: 'desolation',
+  action: 'to desolate',
   etym: () => [_.go, _.weis],
 })
 

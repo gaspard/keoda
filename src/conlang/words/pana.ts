@@ -2,8 +2,8 @@ import * as _ from '.'
 
 // bahasa indonesia: paham
 export const pana = _.word('pana', {
-  def: 'understanding',
-  verb: 'to understand',
+  noun: 'understanding',
+  action: 'to understand',
   etym: () => [_.pa, _.na],
   desc: () =>
     `Borrowed and adapted from [paham](https://en.wiktionary.org/wiki/paham)`,

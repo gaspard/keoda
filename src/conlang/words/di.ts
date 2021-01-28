@@ -6,6 +6,6 @@ export const di = _.word('di', {
 })
 
 export const diguwu = _.word('diguwu', {
-  def: 'généreu.se.x',
+  noun: 'généreu.se.x',
   etym: () => [_.di, _.guwu],
 })

@@ -1,8 +1,8 @@
 import * as _ from '.'
 
 export const dolo = _.word('dolo', {
-  verb: 'to lie',
-  def: 'deceit',
+  action: 'to lie',
+  noun: 'deceit',
 })
 
 // === alt

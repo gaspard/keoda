@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const she = _.word('she', {
-  def: 'air',
+  noun: 'air',
   see: () => [_.oto],
 })
 

@@ -1,80 +1,80 @@
 import * as _ from '.'
 
 export const lo = _.word('lo', {
-  def: '**submissive**',
+  noun: '**submissive**',
   glo: 'submissive',
-  adj: 'wet, who receives',
-  verb: 'to surrender',
+  prop: 'wet, who receives',
+  action: 'to surrender',
 })
 
 export const olo = _.word('olo', {
-  def: '**weˣ** wet',
-  prefix: 'ourˣ wet',
-  suffix: 'ourˣ wet',
+  noun: '**weˣ** wet',
+  pref: 'ourˣ wet',
+  suff: 'ourˣ wet',
   glo: '**weˣ**.WET',
   etym: () => [_.iS, _.lo],
   see: () => [_.subj],
 })
 
 export const ilo = _.word('tilo', {
-  def: '**you¹** wet',
-  prefix: 'your¹ wet',
-  suffix: 'your¹ wet',
+  noun: '**you¹** wet',
+  pref: 'your¹ wet',
+  suff: 'your¹ wet',
   glo: '**you1**.WET',
   etym: () => [_.iS, _.lo],
   see: () => [_.subj],
 })
 
 export const alo = _.word('alo', {
-  def: '**they¹** wet',
-  prefix: 'their¹ wet',
-  suffix: 'their¹ wet',
+  noun: '**they¹** wet',
+  pref: 'their¹ wet',
+  suff: 'their¹ wet',
   glo: '**they1**.WET',
   etym: () => [_.aS, _.lo],
   see: () => [_.subj],
 })
 
 export const sholo = _.word('sholo', {
-  def: '**we\\*** wet',
-  prefix: 'our* wet',
-  suffix: 'our* wet',
+  noun: '**we\\*** wet',
+  pref: 'our* wet',
+  suff: 'our* wet',
   glo: '**we\\***.WET',
   etym: () => [_.sho, _.lo],
   see: () => [_.subj],
 })
 
 export const shilo = _.word('shilo', {
-  def: '**you\\*** wet',
-  prefix: 'your* wet',
-  suffix: 'your* wet',
+  noun: '**you\\*** wet',
+  pref: 'your* wet',
+  suff: 'your* wet',
   glo: '**you\\***.WET',
   etym: () => [_.sho, _.lo],
   see: () => [_.subj],
 })
 
 export const shalo = _.word('shalo', {
-  def: '**they\\*** wet',
-  prefix: 'their* wet',
-  suffix: 'their* wet',
+  noun: '**they\\*** wet',
+  pref: 'their* wet',
+  suff: 'their* wet',
   glo: '**they\\***.WET',
   etym: () => [_.sho, _.lo],
   see: () => [_.subj],
 })
 
 export const loda = _.word('loda', {
-  def: '**submissive person**',
+  noun: '**submissive person**',
   etym: () => [_.lo, _.da],
   see: () => [_.subj],
 })
 
 export const loru = _.word('loru', {
-  verb: 'to submit, to become small',
-  adj: 'humilité',
+  action: 'to submit, to become small',
+  prop: 'humilité',
   etym: () => [_.lo, _.ru],
 })
 
 export const silo = _.word('silo', {
-  adj: 'doucement',
+  prop: 'doucement',
   desc: () => `De ${_.si} et ${_.lo} (comme soumis.e).`,
 })
 

@@ -1,12 +1,12 @@
 import * as _ from '.'
 
 export const na = _.word('na', {
-  suffix: 'thing',
-  adj: 'humility',
+  suff: 'thing',
+  prop: 'humility',
 })
 
 export const nena = _.word('nena', {
-  def: 'nothing',
+  noun: 'nothing',
   etym: () => [_.ne, _.na],
 })
 

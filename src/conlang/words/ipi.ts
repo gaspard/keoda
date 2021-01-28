@@ -1,17 +1,17 @@
 import * as _ from '.'
 
 export const ipi = _.word('ipi', {
-  def: 'memory (10)',
+  noun: 'memory (10)',
   see: () => [_.count],
 })
 
 export const jipa = _.word('jipa', {
-  def: 'remembering (being god.dess)',
+  noun: 'remembering (being god.dess)',
   see: () => [_.ganes, _.jifi],
 })
 
 export const jifi = _.word('jifi', {
-  adj: 'humble',
+  prop: 'humble',
   see: () => [_.nanes, _.jipa],
 })
 

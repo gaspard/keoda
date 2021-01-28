@@ -38,7 +38,7 @@ export function detectConjugationIssues() {
   const conjugations: { [key: string]: string } = {}
   const words = entries.word
   const verbs = Object.keys(words)
-    .filter(key => words[key].verb)
+    .filter(key => words[key].action)
     .sort()
 
   verbs.forEach(verb => {
@@ -47,7 +47,7 @@ export function detectConjugationIssues() {
       if (printed) {
         return
       }
-      console.log(`=========== ${verb} (${words[verb].verb}) =========`)
+      console.log(`=========== ${verb} (${words[verb].action}) =========`)
       printed = true
     }
     INFLECTIONS.forEach(inf => {

@@ -3,42 +3,42 @@ import * as _ from '.'
 export const pe = _.word('pe', {
   subj: 'some',
   glo: 'they9.INDF',
-  def: '3',
-  suffix: 'some',
+  noun: '3',
+  suff: 'some',
   see: () => [_.mun, _.count],
-  posit: 'two legs and a buttock (doggy style)',
+  pos: 'two legs and a buttock (doggy style)',
 })
 
 export const ape = _.word('ape', {
-  def: '**someˣ**',
-  prefix: '**to someone**',
-  suffix: '**to someone**',
+  noun: '**someˣ**',
+  pref: '**to someone**',
+  suff: '**to someone**',
   etym: () => [_.aS, _.pe],
   see: () => [_.subj],
 })
 
 export const peda = _.word('peda', {
-  def: '**some person**',
+  noun: '**some person**',
   glo: '**someone**',
   etym: () => [_.pe, _.da],
   see: () => [_.subj],
 })
 
 export const pesen = _.word('pesen', {
-  def: '**some place**',
+  noun: '**some place**',
   etym: () => [_.pe, _.sen],
   see: () => [_.subj],
 })
 
 export const hamape = _.word('hamape', {
-  def: 'middle finger',
+  noun: 'middle finger',
   etym: () => [_.hama, _.pe],
-  posit: '(mun) indicated by thumb against middle finger',
+  pos: '(mun) indicated by thumb against middle finger',
 })
 
 export const nepe = _.word('nepe', {
-  def: 'limbo (forgetting "pa")',
-  adj: 'offensive',
+  noun: 'limbo (forgetting "pa")',
+  prop: 'offensive',
   see: () => [_.ganes, _.nanes],
 })
 

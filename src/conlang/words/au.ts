@@ -1,8 +1,8 @@
 import * as _ from '.'
 
 export const au = _.word('au', {
-  def: 'heart',
-  verb: 'to love/to receive',
+  noun: 'heart',
+  action: 'to love/to receive',
   see: () => [_.zu],
 })
 
@@ -12,19 +12,19 @@ export const ohau = _.alt('ohau', {
 })
 
 export const auhu = _.word('auhu', {
-  def: 'to fall in love, pull of the heart',
+  noun: 'to fall in love, pull of the heart',
   etym: () => [_.au, _.u],
 })
 
 export const aupa = _.word('aupa', {
-  def: 'gratitude (love all)',
+  noun: 'gratitude (love all)',
   etym: () => [_.au, _.pa],
 })
 _.see(_.pahau)
 _.see(_.kupa)
 
 export const auau = _.word('auau', {
-  verb: 'to make love',
+  action: 'to make love',
   see: () => [_.zuzu, _.kude],
 })
 

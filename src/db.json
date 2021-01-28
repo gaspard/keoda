@@ -2,7 +2,7 @@
   "word": {
     "word-aC": {
       "id": "word-aC",
-      "def": "**distance**",
+      "noun": "**distance**",
       "see": [
         "word-aS",
         "card-verbs"
@@ -19,8 +19,8 @@
       ]
     },
     "word-adu": {
-      "def": "**friend**",
-      "adj": "close",
+      "noun": "**friend**",
+      "prop": "close",
       "name": "adu",
       "id": "word-adu",
       "type": "word",
@@ -30,7 +30,7 @@
       "glo": "**friend**"
     },
     "word-doda": {
-      "def": "small sibling",
+      "noun": "small sibling",
       "etym": [
         "word-du",
         "word-oda"
@@ -53,7 +53,7 @@
       ]
     },
     "word-aga": {
-      "def": "**music** or **narration**",
+      "noun": "**music** or **narration**",
       "desc": "\nMelodies and stories unraveling through time.\n",
       "name": "aga",
       "id": "word-aga",
@@ -72,7 +72,7 @@
       ]
     },
     "word-agana": {
-      "def": "**sound**",
+      "noun": "**sound**",
       "etym": [
         "word-aga",
         "word-na"
@@ -86,7 +86,7 @@
       "glo": "**sound**"
     },
     "word-agade": {
-      "def": "**echo**",
+      "noun": "**echo**",
       "etym": [
         "word-aga",
         "word-de"
@@ -103,7 +103,7 @@
       ]
     },
     "word-agaukida": {
-      "def": "**temple**",
+      "noun": "**temple**",
       "etym": [
         "word-aga",
         "word-uki",
@@ -121,7 +121,7 @@
       ]
     },
     "word-agi": {
-      "def": "**story**",
+      "noun": "**story**",
       "etym": [
         "word-aga",
         "word-iC"
@@ -135,7 +135,7 @@
       "glo": "**story**"
     },
     "word-ago": {
-      "def": "**rythme**",
+      "noun": "**rythme**",
       "etym": [
         "word-aga",
         "word-oC"
@@ -150,8 +150,8 @@
       "glo": "**rythme**"
     },
     "word-agu": {
-      "def": "**ear**",
-      "verb": "to listen",
+      "noun": "**ear**",
+      "action": "to listen",
       "etym": [
         "word-aga",
         "word-u"
@@ -168,9 +168,9 @@
       ]
     },
     "word-ah": {
-      "def": "**bad mood** (serotonine depletion)",
+      "noun": "**bad mood** (serotonine depletion)",
       "glo": ": (dislike)",
-      "suffix": "accusative marking",
+      "suff": "accusative marking",
       "see": [
         "word-am",
         "word-an"
@@ -184,8 +184,8 @@
       "phon": "/ax/"
     },
     "word-aj": {
-      "def": "**fire** (dopamine, serotonine)",
-      "verb": "to burn",
+      "noun": "**fire** (dopamine, serotonine)",
+      "action": "to burn",
       "name": "aj",
       "id": "word-aj",
       "type": "word",
@@ -204,8 +204,8 @@
       ]
     },
     "word-ajapi": {
-      "def": "**self-burn** (initiation)",
-      "verb": "to burn the self",
+      "noun": "**self-burn** (initiation)",
+      "action": "to burn the self",
       "see": [
         "word-iwigui"
       ],
@@ -221,8 +221,9 @@
       ]
     },
     "word-al": {
-      "def": "**sky**",
-      "prefix": "up",
+      "noun": "**sky**",
+      "prop": "up",
+      "pref": "up",
       "see": [
         "word-so"
       ],
@@ -239,8 +240,8 @@
       ]
     },
     "word-alayin": {
-      "def": "**top of vagina**",
-      "adj": "happy",
+      "noun": "**top of vagina**",
+      "prop": "happy",
       "etym": [
         "word-al",
         "word-yin"
@@ -255,9 +256,9 @@
       "glo": "**top of vagina**"
     },
     "word-am": {
-      "def": "**good mood** (oxytocin)",
+      "noun": "**good mood** (oxytocin)",
       "glo": "O (whole)",
-      "suffix": "accusative marking",
+      "suff": "accusative marking",
       "see": [
         "word-an",
         "word-ah"
@@ -271,9 +272,9 @@
       "phon": "/am/"
     },
     "word-an": {
-      "def": "**secret** (modesty)",
+      "noun": "**secret** (modesty)",
       "glo": "~ (neutral)",
-      "suffix": "accusative marking",
+      "suff": "accusative marking",
       "see": [
         "word-am",
         "word-ah"
@@ -287,8 +288,8 @@
       "phon": "/an/"
     },
     "word-ana": {
-      "def": "**tree** or **feminity**",
-      "adj": "feminine",
+      "noun": "**tree** or **feminity**",
+      "prop": "feminine",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/032_Waterside_Tree%2C_Kolam_Telagorajo_%2827349860049%29.jpg/330px-032_Waterside_Tree%2C_Kolam_Telagorajo_%2827349860049%29.jpg",
       "see": [
         "card-subj",
@@ -322,7 +323,7 @@
       ]
     },
     "word-anawi": {
-      "def": "**medusa**",
+      "noun": "**medusa**",
       "etym": [
         "word-ana",
         "word-awi"
@@ -336,7 +337,7 @@
       "glo": "**medusa**"
     },
     "word-anoda": {
-      "def": "**female** (tree) **person**",
+      "noun": "**female** (tree) **person**",
       "desc": "place of the tree-self",
       "etym": [
         "word-ana",
@@ -357,7 +358,7 @@
       ]
     },
     "word-ananoa": {
-      "def": "**bark**",
+      "noun": "**bark**",
       "etym": [
         "word-ana",
         "word-noa"
@@ -374,7 +375,7 @@
       "glo": "**bark**"
     },
     "word-anama": {
-      "def": "**leaf**",
+      "noun": "**leaf**",
       "etym": [
         "word-ana",
         "word-ma"
@@ -391,7 +392,7 @@
       "glo": "**leaf**"
     },
     "word-anarum": {
-      "def": "**branch**",
+      "noun": "**branch**",
       "etym": [
         "word-ana",
         "word-rum"
@@ -408,7 +409,7 @@
       "glo": "**branch**"
     },
     "word-anasame": {
-      "def": "**root**",
+      "noun": "**root**",
       "etym": [
         "word-ana",
         "word-same"
@@ -425,7 +426,7 @@
       "glo": "**root**"
     },
     "word-okana": {
-      "def": "**oak**",
+      "noun": "**oak**",
       "img": "https://upload.wikimedia.org/wikipedia/commons/a/af/Quercus_robur.jpg",
       "imgpos": "50%",
       "see": [
@@ -440,8 +441,8 @@
       "glo": "**oak**"
     },
     "word-au": {
-      "def": "heart",
-      "verb": "to love/to receive",
+      "noun": "heart",
+      "action": "to love/to receive",
       "see": [
         "word-zu"
       ],
@@ -469,7 +470,7 @@
       ]
     },
     "word-auhu": {
-      "def": "to fall in love, pull of the heart",
+      "noun": "to fall in love, pull of the heart",
       "etym": [
         "word-au",
         "word-u"
@@ -483,7 +484,7 @@
       "glo": "to fall in love, pull of the heart"
     },
     "word-aupa": {
-      "def": "gratitude (love all)",
+      "noun": "gratitude (love all)",
       "etym": [
         "word-au",
         "word-pa"
@@ -497,7 +498,7 @@
       "glo": "gratitude (love all)"
     },
     "word-auau": {
-      "verb": "to make love",
+      "action": "to make love",
       "see": [
         "word-zuzu",
         "word-kude"
@@ -511,9 +512,9 @@
       "glo": "**to make love**"
     },
     "word-awi": {
-      "def": "**fish**",
-      "verb": "to shine, to appear",
-      "adj": "beautiful",
+      "noun": "**fish**",
+      "action": "to shine, to appear",
+      "prop": "beautiful",
       "see": [
         "word-fawulama"
       ],
@@ -543,7 +544,7 @@
       ]
     },
     "word-mawi": {
-      "def": "**dolphin**",
+      "noun": "**dolphin**",
       "etym": [
         "word-moon",
         "word-awi"
@@ -557,8 +558,8 @@
       "glo": "**dolphin**"
     },
     "word-awiu": {
-      "def": "**fin**",
-      "verb": "to swim",
+      "noun": "**fin**",
+      "action": "to swim",
       "etym": [
         "word-awi",
         "word-u"
@@ -572,7 +573,7 @@
       "glo": "**fin**"
     },
     "word-baj": {
-      "def": "**lower limb**",
+      "noun": "**lower limb**",
       "see": [
         "word-rum"
       ],
@@ -594,7 +595,7 @@
       ]
     },
     "word-djobaj": {
-      "def": "**thigh**",
+      "noun": "**thigh**",
       "etym": [
         "word-jo",
         "word-baj"
@@ -608,7 +609,7 @@
       "glo": "**thigh**"
     },
     "word-habaj": {
-      "def": "**leg**",
+      "noun": "**leg**",
       "etym": [
         "word-ha",
         "word-baj"
@@ -622,7 +623,7 @@
       "glo": "**leg**"
     },
     "word-kebaj": {
-      "def": "**testicles**",
+      "noun": "**testicles**",
       "etym": [
         "word-ke",
         "word-baj"
@@ -636,8 +637,8 @@
       "glo": "**testicles**"
     },
     "word-baka": {
-      "def": "**devotion**",
-      "verb": "to surrender",
+      "noun": "**devotion**",
+      "action": "to surrender",
       "name": "baka",
       "id": "word-baka",
       "type": "word",
@@ -647,9 +648,9 @@
       "glo": "**devotion**"
     },
     "word-beo": {
-      "def": "**vibration**",
-      "verb": "to shake",
-      "adj": "shaken",
+      "noun": "**vibration**",
+      "action": "to shake",
+      "prop": "shaken",
       "name": "beo",
       "id": "word-beo",
       "type": "word",
@@ -659,7 +660,7 @@
       "glo": "**vibration**"
     },
     "word-bisa": {
-      "def": "**spore**",
+      "noun": "**spore**",
       "name": "bisa",
       "id": "word-bisa",
       "type": "word",
@@ -673,7 +674,7 @@
       ]
     },
     "word-bisajoda": {
-      "def": "**mushroom**",
+      "noun": "**mushroom**",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Lycoperdon-perlatum-flaschenstaeubling-alt.jpg/330px-Lycoperdon-perlatum-flaschenstaeubling-alt.jpg",
       "imgpos": "50%",
       "etym": [
@@ -689,7 +690,7 @@
       "glo": "**mushroom**"
     },
     "word-bisahina": {
-      "def": "fern",
+      "noun": "fern",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Athyrium_filix-femina.jpg/330px-Athyrium_filix-femina.jpg",
       "etym": [
         "word-bisa",
@@ -707,7 +708,7 @@
       "glo": "fern"
     },
     "word-bo": {
-      "def": "**belly**",
+      "noun": "**belly**",
       "name": "bo",
       "id": "word-bo",
       "type": "word",
@@ -722,7 +723,7 @@
       ]
     },
     "word-robo": {
-      "def": "**belly button**",
+      "noun": "**belly button**",
       "etym": [
         "word-ro",
         "word-bo"
@@ -736,8 +737,8 @@
       "glo": "**belly button**"
     },
     "word-bu": {
-      "def": "**sponge**",
-      "prefix": "erectile body",
+      "noun": "**sponge**",
+      "pref": "erectile body",
       "name": "bu",
       "id": "word-bu",
       "type": "word",
@@ -751,7 +752,7 @@
       ]
     },
     "word-buyon": {
-      "def": "**erectile part of the vulva**",
+      "noun": "**erectile part of the vulva**",
       "etym": [
         "word-bu",
         "word-yon"
@@ -770,7 +771,7 @@
       "glo": "**erectile part of the vulva**"
     },
     "word-butaj": {
-      "def": "**erectile part of the penis**",
+      "noun": "**erectile part of the penis**",
       "etym": [
         "word-bu",
         "word-taj"
@@ -789,7 +790,7 @@
       "glo": "**erectile part of the penis**"
     },
     "word-buni": {
-      "def": "**bud**",
+      "noun": "**bud**",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Magnolia_Bud.jpg/230px-Magnolia_Bud.jpg",
       "imgpos": "50%",
       "see": [
@@ -804,7 +805,7 @@
       "glo": "**bud**"
     },
     "word-Jane": {
-      "def": "Jane",
+      "noun": "Jane",
       "phon": "/dʒan/",
       "writ": "జాఁ",
       "name": "Jane",
@@ -829,7 +830,7 @@
       ]
     },
     "word-John": {
-      "def": "John",
+      "noun": "John",
       "phon": "/dʒɔn/",
       "writ": "జోఁ",
       "name": "John",
@@ -860,7 +861,7 @@
       ]
     },
     "word-Iris": {
-      "def": "Iris",
+      "noun": "Iris",
       "name": "Iris",
       "id": "word-Iris",
       "type": "word",
@@ -879,8 +880,8 @@
       ]
     },
     "word-da": {
-      "def": "**self** or **9**",
-      "suffix": "**self**",
+      "noun": "**self** or **9**",
+      "suff": "**self**",
       "glo": "**self**",
       "see": [
         "card-kedana",
@@ -923,19 +924,11 @@
       "phrases": [
         "phrase-36",
         "phrase-37",
-        "phrase-42",
-        "phrase-42",
-        "phrase-42",
-        "phrase-42",
-        "phrase-42",
-        "phrase-42",
-        "phrase-42",
-        "phrase-42",
         "phrase-42"
       ]
     },
     "word-dapa": {
-      "def": "**joy**",
+      "noun": "**joy**",
       "etym": [
         "word-da",
         "word-pa"
@@ -953,8 +946,8 @@
       "glo": "**joy**"
     },
     "word-dafi": {
-      "def": "**service**",
-      "adj": "serving",
+      "noun": "**service**",
+      "prop": "serving",
       "etym": [
         "word-da",
         "word-fi"
@@ -972,7 +965,7 @@
       "glo": "**service**"
     },
     "word-guda": {
-      "def": "**the place of the experience**",
+      "noun": "**the place of the experience**",
       "etym": [
         "word-gu",
         "word-da"
@@ -989,7 +982,7 @@
       "glo": "**the place of the experience**"
     },
     "word-dana": {
-      "def": "**geography**",
+      "noun": "**geography**",
       "etym": [
         "word-da",
         "word-na"
@@ -1003,7 +996,7 @@
       "glo": "**geography**"
     },
     "word-dafodil": {
-      "def": "**remembered**",
+      "noun": "**remembered**",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Daffodil_--_Narcissus_%27Tahiti%27.jpg/330px-Daffodil_--_Narcissus_%27Tahiti%27.jpg",
       "desc": "\nRemembered beyond the tomb.\n\nA flower from the Lily family.\n\nOther names: Daffodil, Narcissus, Jonquil, Underworld\n",
       "name": "dafodil",
@@ -1015,7 +1008,7 @@
       "glo": "**remembered**"
     },
     "word-dao": {
-      "def": "**distant place**",
+      "noun": "**distant place**",
       "prep": "from",
       "glo": "**from**.LOC",
       "etym": [
@@ -1041,7 +1034,7 @@
       ]
     },
     "word-dau": {
-      "def": "**close place**",
+      "noun": "**close place**",
       "prep": "to",
       "glo": "to.LOC",
       "etym": [
@@ -1064,9 +1057,9 @@
       ]
     },
     "word-de": {
-      "def": "**2**",
+      "noun": "**2**",
       "subj": "us two",
-      "posit": "on the back *two* legs wide open",
+      "pos": "on the back *two* legs wide open",
       "glo": "1PL.DU",
       "see": [
         "card-count"
@@ -1090,9 +1083,9 @@
       ]
     },
     "word-ode": {
-      "def": "**us two**",
-      "prefix": "**to us two**",
-      "suffix": "**to us two**",
+      "noun": "**us two**",
+      "pref": "**to us two**",
+      "suff": "**to us two**",
       "etym": [
         "word-oS",
         "word-de"
@@ -1109,7 +1102,7 @@
       "glo": "**us two**"
     },
     "word-deda": {
-      "def": "**two bodies**",
+      "noun": "**two bodies**",
       "glo": "two.**body**",
       "etym": [
         "word-de",
@@ -1126,12 +1119,12 @@
       "phon": "/dɛda/"
     },
     "word-hamade": {
-      "def": "**index finger**",
+      "noun": "**index finger**",
       "etym": [
         "word-hama",
         "word-de"
       ],
-      "posit": "On the back two legs wide open (indicated by thumb touching index finger)",
+      "pos": "On the back two legs wide open (indicated by thumb touching index finger)",
       "name": "hamade",
       "id": "word-hamade",
       "type": "word",
@@ -1141,8 +1134,8 @@
       "glo": "**index finger**"
     },
     "word-nede": {
-      "def": "anguish",
-      "adj": "fighting",
+      "noun": "anguish",
+      "prop": "fighting",
       "desc": "life with time (anxiety, few memories)",
       "see": [
         "card-ganes",
@@ -1182,7 +1175,7 @@
       ]
     },
     "word-deso": {
-      "def": "sponge",
+      "noun": "sponge",
       "name": "deso",
       "id": "word-deso",
       "type": "word",
@@ -1195,7 +1188,7 @@
       ]
     },
     "word-desoyon": {
-      "def": "spongy clitoral body",
+      "noun": "spongy clitoral body",
       "etym": [
         "word-deso",
         "word-yon"
@@ -1209,7 +1202,7 @@
       "glo": "spongy clitoral body"
     },
     "word-desotaj": {
-      "def": "spongy penis body",
+      "noun": "spongy penis body",
       "name": "desotaj",
       "id": "word-desotaj",
       "type": "word",
@@ -1243,7 +1236,7 @@
       ]
     },
     "word-diguwu": {
-      "def": "généreu.se.x",
+      "noun": "généreu.se.x",
       "etym": [
         "word-di",
         "word-guwu"
@@ -1257,8 +1250,8 @@
       "glo": "généreu.se.x"
     },
     "word-dil": {
-      "verb": "to ease",
-      "def": "peace",
+      "action": "to ease",
+      "noun": "peace",
       "desc": "Name evolved from the flower [dafodil](word-dafodil).",
       "name": "dil",
       "id": "word-dil",
@@ -1269,7 +1262,7 @@
       "glo": "peace"
     },
     "word-dili": {
-      "def": "claw",
+      "noun": "claw",
       "name": "dili",
       "id": "word-dili",
       "type": "word",
@@ -1282,7 +1275,7 @@
       ]
     },
     "word-pedili": {
-      "def": "fork",
+      "noun": "fork",
       "etym": [
         "alt-pe",
         "word-dili"
@@ -1336,8 +1329,8 @@
       ]
     },
     "word-dolo": {
-      "verb": "to lie",
-      "def": "deceit",
+      "action": "to lie",
+      "noun": "deceit",
       "name": "dolo",
       "id": "word-dolo",
       "type": "word",
@@ -1350,8 +1343,8 @@
       ]
     },
     "word-dom": {
-      "adj": "intense",
-      "adv": "intensely",
+      "prop": "intense",
+      "style": "intensely",
       "desc": "\nImplies a very deep, intimate and intense contact. Not something out\nof brute force but through whatever creates intensity in the specific\ngiving and receiving vsituation.\n",
       "name": "dom",
       "id": "word-dom",
@@ -1397,7 +1390,7 @@
       ]
     },
     "word-du": {
-      "prefix": "front",
+      "pref": "front",
       "see": [
         "word-we",
         "word-no",
@@ -1409,7 +1402,7 @@
       "fulltext": "du",
       "writ": "దు",
       "phon": "/du/",
-      "glo": "**front**",
+      "glo": "**undefined**",
       "deriv": [
         "word-doda",
         "word-duto",
@@ -1420,7 +1413,7 @@
       ]
     },
     "word-duto": {
-      "def": "small brother/wind",
+      "noun": "small brother/wind",
       "etym": [
         "word-du",
         "word-oto"
@@ -1438,7 +1431,7 @@
       "glo": "small brother/wind"
     },
     "word-duna": {
-      "def": "small sister/tree",
+      "noun": "small sister/tree",
       "etym": [
         "word-du",
         "word-ana"
@@ -1456,7 +1449,7 @@
       "glo": "small sister/tree"
     },
     "word-duwi": {
-      "def": "small enby/bird",
+      "noun": "small enby/bird",
       "etym": [
         "word-du",
         "word-iwi"
@@ -1474,7 +1467,7 @@
       "glo": "small enby/bird"
     },
     "word-duyin": {
-      "def": "front of the vagina",
+      "noun": "front of the vagina",
       "etym": [
         "word-du",
         "word-yin"
@@ -1488,7 +1481,7 @@
       "glo": "front of the vagina"
     },
     "word-dua": {
-      "def": "reflection",
+      "noun": "reflection",
       "name": "dua",
       "id": "word-dua",
       "type": "word",
@@ -1501,7 +1494,7 @@
       ]
     },
     "word-duana": {
-      "def": "mirror",
+      "noun": "mirror",
       "etym": [
         "word-dua",
         "word-na"
@@ -1515,9 +1508,9 @@
       "glo": "mirror"
     },
     "word-dur": {
-      "def": "nuque",
-      "verb": "obéir",
-      "adj": "obéissant.e",
+      "noun": "nuque",
+      "action": "obéir",
+      "prop": "obéissant.e",
       "name": "dur",
       "id": "word-dur",
       "type": "word",
@@ -1527,7 +1520,7 @@
       "glo": "nuque"
     },
     "word-e": {
-      "verb": "to be",
+      "action": "to be",
       "glo": "BE",
       "name": "e",
       "id": "word-e",
@@ -1557,14 +1550,13 @@
         "phrase-103",
         "phrase-203",
         "phrase-205",
-        "phrase-205",
         "phrase-206",
         "phrase-212",
         "phrase-217"
       ]
     },
     "word-egi": {
-      "adj": "cold",
+      "prop": "cold",
       "name": "egi",
       "id": "word-egi",
       "type": "word",
@@ -1579,7 +1571,7 @@
       ]
     },
     "word-egina": {
-      "def": "chicory, January",
+      "noun": "chicory, January",
       "etym": [
         "word-egi",
         "word-ina"
@@ -1597,8 +1589,8 @@
       "glo": "chicory, January"
     },
     "word-dadi": {
-      "def": "**saliva**",
-      "verb": "to salivate",
+      "noun": "**saliva**",
+      "action": "to salivate",
       "name": "dadi",
       "id": "word-dadi",
       "type": "word",
@@ -1611,7 +1603,7 @@
       ]
     },
     "word-onsho": {
-      "def": "sugar",
+      "noun": "sugar",
       "etym": [
         "word-on",
         "word-dadi"
@@ -1625,7 +1617,7 @@
       "glo": "sugar"
     },
     "word-eja": {
-      "def": "plausible",
+      "noun": "plausible",
       "desc": "Introduces an interogation",
       "see": [
         "word-neja"
@@ -1667,7 +1659,7 @@
       "glo": "**not possible**"
     },
     "word-eku": {
-      "adv": "that",
+      "style": "that",
       "see": [
         "card-prep"
       ],
@@ -1687,7 +1679,7 @@
       ]
     },
     "word-el": {
-      "adj": "straight",
+      "prop": "straight",
       "name": "el",
       "id": "word-el",
       "type": "word",
@@ -1700,15 +1692,15 @@
       ]
     },
     "word-em": {
-      "suffix": "lived",
-      "verb": "to live",
+      "suff": "lived",
+      "action": "to live",
       "name": "em",
       "id": "word-em",
       "type": "word",
       "fulltext": "em",
       "writ": "ఎం",
       "phon": "/ɛm/",
-      "glo": "**lived**",
+      "glo": "**to live**",
       "deriv": [
         "word-dem",
         "word-nem",
@@ -1719,8 +1711,8 @@
       ]
     },
     "word-nem": {
-      "def": "death",
-      "verb": "to die, to make dead",
+      "noun": "death",
+      "action": "to die, to make dead",
       "etym": [
         "word-ne",
         "word-em"
@@ -1738,8 +1730,8 @@
       ]
     },
     "word-enu": {
-      "def": "**embroidery**",
-      "verb": "to embroider",
+      "noun": "**embroidery**",
+      "action": "to embroider",
       "name": "enu",
       "id": "word-enu",
       "type": "word",
@@ -1759,8 +1751,8 @@
       ]
     },
     "word-eri": {
-      "def": "**cherry** (June)",
-      "adj": "provocative",
+      "noun": "**cherry** (June)",
+      "prop": "provocative",
       "see": [
         "card-fruits",
         "card-colors",
@@ -1780,7 +1772,7 @@
       ]
     },
     "word-muneri": {
-      "def": "**nipple**",
+      "noun": "**nipple**",
       "etym": [
         "word-moon",
         "word-eri"
@@ -1794,7 +1786,7 @@
       "glo": "**nipple**"
     },
     "word-tajeri": {
-      "def": "**glans**",
+      "noun": "**glans**",
       "etym": [
         "word-taj",
         "word-eri"
@@ -1808,7 +1800,7 @@
       "glo": "**glans**"
     },
     "word-yoneri": {
-      "def": "**clitoris**",
+      "noun": "**clitoris**",
       "see": [
         "word-keyon"
       ],
@@ -1825,9 +1817,9 @@
       "glo": "**clitoris**"
     },
     "word-es": {
-      "def": "is-ness",
-      "prefix": "self (PASS)",
-      "suffix": "state (BE)",
+      "noun": "is-ness",
+      "pref": "self (PASS)",
+      "suff": "state (BE)",
       "glo": "PASS",
       "desc": "\n## Passive voice\n\nThis is something like saying 'there is' before the accord on subject\nthus making \"There is an I massaged in the future\" is said as:\n\n* [7](phrase-7)\n\nIt is applied before the conjugation: [eseshanele](alt-eseshanele).\n\nWhen the conjugation starts with a consonant, we fix with an 'e'.\n\nWith the verb [e](word-e), it means 'there is a fact of':\n\n* [8](phrase-8)\n* [9](phrase-9)\n\n## State, thing\n\nWhen used as suffix on a word ending with a vowel, we add an 'n':\n\n* [nanes](card-nanes)\n* [nefenesti](alt-nefenesti)\n",
       "name": "es",
@@ -1838,7 +1830,7 @@
       "phon": "/ɛs/"
     },
     "word-eshu": {
-      "adj": "lost",
+      "prop": "lost",
       "name": "eshu",
       "id": "word-eshu",
       "type": "word",
@@ -1848,7 +1840,7 @@
       "glo": "**lost**"
     },
     "word-eshubeo": {
-      "def": "monster",
+      "noun": "monster",
       "name": "eshubeo",
       "id": "word-eshubeo",
       "type": "word",
@@ -1858,8 +1850,8 @@
       "glo": "monster"
     },
     "word-fa": {
-      "def": "eyes",
-      "verb": "to see",
+      "noun": "eyes",
+      "action": "to see",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Arctic_Fox_1_%2810549184013%29.jpg/400px-Arctic_Fox_1_%2810549184013%29.jpg",
       "desc": "\n[10](phrase-10)\n\n[11](phrase-11)\n",
       "name": "fa",
@@ -1888,9 +1880,6 @@
         "phrase-31",
         "phrase-65",
         "phrase-91",
-        "phrase-91",
-        "phrase-92",
-        "phrase-92",
         "phrase-92",
         "phrase-94",
         "phrase-215",
@@ -1900,7 +1889,7 @@
       ]
     },
     "word-gufa": {
-      "def": "pupil (life of the eye)",
+      "noun": "pupil (life of the eye)",
       "glo": "pupil",
       "etym": [
         "word-gu",
@@ -1914,8 +1903,8 @@
       "phon": "/gufa/"
     },
     "word-falo": {
-      "def": "sadness",
-      "verb": "to be sad",
+      "noun": "sadness",
+      "action": "to be sad",
       "etym": [
         "word-fa",
         "word-lo"
@@ -1936,8 +1925,8 @@
       ]
     },
     "word-fahata": {
-      "def": "mirror",
-      "verb": "to reflect",
+      "noun": "mirror",
+      "action": "to reflect",
       "etym": [
         "word-fa",
         "word-aS"
@@ -1954,7 +1943,7 @@
       ]
     },
     "word-faj": {
-      "def": "prépuce, protection",
+      "noun": "prépuce, protection",
       "desc": "version courte de [feyaj](word-feyaj)",
       "etym": [
         "word-fe",
@@ -1969,7 +1958,7 @@
       "glo": "prépuce, protection"
     },
     "word-feyaj": {
-      "def": "prépuce",
+      "noun": "prépuce",
       "desc": "version longue de [faj](word-faj)",
       "etym": [
         "word-fe",
@@ -1984,7 +1973,7 @@
       "glo": "prépuce"
     },
     "word-nefaj": {
-      "verb": "découvrir le gland, retrousser la peau du prépuce",
+      "action": "découvrir le gland, retrousser la peau du prépuce",
       "name": "nefaj",
       "id": "word-nefaj",
       "type": "word",
@@ -1994,9 +1983,9 @@
       "glo": "**découvrir le gland, retrousser la peau du prépuce**"
     },
     "word-fe": {
-      "def": "7",
-      "prefix": "on (SUPESS)",
-      "verb": "to cover, to be on top",
+      "noun": "7",
+      "pref": "on (SUPESS)",
+      "action": "to cover, to be on top",
       "glo": "SUPESS",
       "desc": "\n[13](phrase-13)\n  ",
       "see": [
@@ -2021,8 +2010,8 @@
       ]
     },
     "word-fena": {
-      "def": "cabbage, February",
-      "adj": "layers",
+      "noun": "cabbage, February",
+      "prop": "layers",
       "etym": [
         "word-fe",
         "word-na"
@@ -2040,7 +2029,7 @@
       "glo": "cabbage, February"
     },
     "word-feo": {
-      "adv": "sur moi",
+      "style": "sur moi",
       "name": "feo",
       "id": "word-feo",
       "type": "word",
@@ -2050,7 +2039,7 @@
       "glo": "**sur moi**"
     },
     "word-feoda": {
-      "def": "clothes",
+      "noun": "clothes",
       "etym": [
         "word-fe",
         "word-oda"
@@ -2067,8 +2056,8 @@
       ]
     },
     "word-nefe": {
-      "adj": "naked",
-      "verb": "to uncover/undress",
+      "prop": "naked",
+      "action": "to uncover/undress",
       "name": "nefe",
       "id": "word-nefe",
       "type": "word",
@@ -2087,7 +2076,7 @@
       ]
     },
     "word-fepa": {
-      "def": "pride",
+      "noun": "pride",
       "see": [
         "card-ganes",
         "word-fefi"
@@ -2101,7 +2090,7 @@
       "glo": "pride"
     },
     "word-fefi": {
-      "adj": "adapting",
+      "prop": "adapting",
       "see": [
         "card-nanes",
         "word-fepa"
@@ -2115,9 +2104,9 @@
       "glo": "**adapting**"
     },
     "word-fen": {
-      "def": "knee",
-      "posit": "kneeling",
-      "verb": "to walk",
+      "noun": "knee",
+      "pos": "kneeling",
+      "action": "to walk",
       "name": "fen",
       "id": "word-fen",
       "type": "word",
@@ -2134,8 +2123,8 @@
       ]
     },
     "word-fi": {
-      "def": "thread",
-      "verb": "to connect",
+      "noun": "thread",
+      "action": "to connect",
       "see": [
         "word-pa"
       ],
@@ -2153,7 +2142,7 @@
       ]
     },
     "word-fishasha": {
-      "verb": "to sew",
+      "action": "to sew",
       "etym": [
         "word-fi",
         "word-shasha"
@@ -2167,7 +2156,7 @@
       "glo": "**to sew**"
     },
     "word-gufishasha": {
-      "verb": "to sew life, connect things out of causal time",
+      "action": "to sew life, connect things out of causal time",
       "etym": [
         "word-gufi",
         "word-shasha"
@@ -2181,7 +2170,7 @@
       "glo": "**to sew life, connect things out of causal time**"
     },
     "word-gufi": {
-      "def": "thread of life",
+      "noun": "thread of life",
       "etym": [
         "word-gu",
         "word-fi"
@@ -2201,7 +2190,7 @@
       ]
     },
     "word-fio": {
-      "adj": "eggplant (color)",
+      "prop": "eggplant (color)",
       "see": [
         "card-colors"
       ],
@@ -2217,7 +2206,7 @@
       ]
     },
     "word-fiona": {
-      "def": "eggplant (vegetable)",
+      "noun": "eggplant (vegetable)",
       "etym": [
         "word-fio",
         "word-na"
@@ -2231,7 +2220,7 @@
       "glo": "eggplant (vegetable)"
     },
     "word-fo": {
-      "verb": "to whip",
+      "action": "to whip",
       "etym": [
         "word-fen",
         "word-oC"
@@ -2262,8 +2251,8 @@
       ]
     },
     "word-fodi": {
-      "def": "sleep",
-      "verb": "to sleep",
+      "noun": "sleep",
+      "action": "to sleep",
       "name": "fodi",
       "id": "word-fodi",
       "type": "word",
@@ -2281,7 +2270,7 @@
       ]
     },
     "word-fodiru": {
-      "verb": "to fall asleep",
+      "action": "to fall asleep",
       "etym": [
         "word-fodi",
         "word-ru"
@@ -2295,8 +2284,8 @@
       "glo": "**to fall asleep**"
     },
     "word-fu": {
-      "def": "**arrow**",
-      "prefix": "by/does (ERG)",
+      "noun": "**arrow**",
+      "pref": "by/does (ERG)",
       "glo": "ERG",
       "prep": "by",
       "name": "fu",
@@ -2307,7 +2296,7 @@
       "phon": "/fu/"
     },
     "word-ga": {
-      "def": "spirit",
+      "noun": "spirit",
       "see": [
         "word-gu"
       ],
@@ -2335,7 +2324,7 @@
       ]
     },
     "word-gana": {
-      "def": "**earth** (Anugraha)",
+      "noun": "**earth** (Anugraha)",
       "etym": [
         "word-ga",
         "word-na"
@@ -2356,8 +2345,8 @@
       ]
     },
     "word-gai": {
-      "def": "consciousness\nrain",
-      "verb": "to rain",
+      "noun": "consciousness\nrain",
+      "action": "to rain",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Falling_rain_in_mexico.jpg/330px-Falling_rain_in_mexico.jpg",
       "imgpos": "50%",
       "desc": "\nCaressed spirit / caressing spirit (rain on earth)\n",
@@ -2379,7 +2368,7 @@
       ]
     },
     "word-kegai": {
-      "def": "god",
+      "noun": "god",
       "etym": [
         "word-ke",
         "word-gai"
@@ -2399,7 +2388,7 @@
       ]
     },
     "word-gau": {
-      "def": "attention",
+      "noun": "attention",
       "etym": [
         "word-gau",
         "word-u"
@@ -2420,7 +2409,7 @@
       ]
     },
     "word-kuga": {
-      "def": "causal thinking, victimhood",
+      "noun": "causal thinking, victimhood",
       "etym": [
         "word-ku",
         "word-ga"
@@ -2434,9 +2423,9 @@
       "glo": "causal thinking, victimhood"
     },
     "word-nega": {
-      "def": "crazy",
+      "noun": "crazy",
       "glo": "crazy",
-      "adv": "crazily",
+      "style": "crazily",
       "etym": [
         "word-ne",
         "word-ga"
@@ -2452,7 +2441,7 @@
       ]
     },
     "word-gahal": {
-      "def": "sky deity",
+      "noun": "sky deity",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/J%C3%BApiter_y_Tetis%2C_por_Dominique_Ingres.jpg/330px-J%C3%BApiter_y_Tetis%2C_por_Dominique_Ingres.jpg",
       "desc": "\n[Sky father](https://en.wikipedia.org/wiki/Sky_father)\n\n  ",
       "etym": [
@@ -2471,8 +2460,8 @@
       "glo": "sky deity"
     },
     "word-gi": {
-      "def": "gentle (Sthiti)",
-      "suffix": "gentle",
+      "noun": "gentle (Sthiti)",
+      "suff": "gentle",
       "etym": [
         "word-gu",
         "word-iC"
@@ -2499,7 +2488,7 @@
       ]
     },
     "word-gili": {
-      "def": "tiger",
+      "noun": "tiger",
       "name": "gili",
       "id": "word-gili",
       "type": "word",
@@ -2512,7 +2501,7 @@
       ]
     },
     "word-gilile": {
-      "def": "cat",
+      "noun": "cat",
       "etym": [
         "word-gili",
         "word-le"
@@ -2526,8 +2515,8 @@
       "glo": "cat"
     },
     "word-go": {
-      "prefix": "big",
-      "adj": "intense",
+      "pref": "big",
+      "prop": "intense",
       "glo": "AUG",
       "etym": [
         "word-gu",
@@ -2553,12 +2542,11 @@
         "word-goweis"
       ],
       "phrases": [
-        "phrase-94",
         "phrase-94"
       ]
     },
     "word-goa": {
-      "suffix": "big place",
+      "suff": "big place",
       "etym": [
         "word-go",
         "word-da"
@@ -2569,13 +2557,13 @@
       "fulltext": "goa",
       "writ": "గోఅ",
       "phon": "/gɔa/",
-      "glo": "**big place**",
+      "glo": "**undefined**",
       "deriv": [
         "word-lamagoa"
       ]
     },
     "word-gopona": {
-      "def": "pumpkin, October",
+      "noun": "pumpkin, October",
       "etym": [
         "word-go",
         "word-pona"
@@ -2593,7 +2581,7 @@
       "glo": "pumpkin, October"
     },
     "word-gawi": {
-      "def": "whale",
+      "noun": "whale",
       "etym": [
         "word-go",
         "word-awi"
@@ -2607,7 +2595,7 @@
       "glo": "whale"
     },
     "word-goda": {
-      "def": "elephant",
+      "noun": "elephant",
       "etym": [
         "word-go",
         "word-oda"
@@ -2621,8 +2609,8 @@
       "glo": "elephant"
     },
     "word-gu": {
-      "def": "darkness",
-      "adj": "darkness, gestation, deep",
+      "noun": "darkness",
+      "prop": "darkness, gestation, deep",
       "etym": [
         "word-ga",
         "word-u"
@@ -2665,7 +2653,7 @@
       ]
     },
     "word-nugu": {
-      "def": "tremendum, illusion\n(Thirodana)",
+      "noun": "tremendum, illusion\n(Thirodana)",
       "see": [
         "word-gana"
       ],
@@ -2683,7 +2671,7 @@
       "glo": "tremendum, illusion\n(Thirodana)"
     },
     "word-gulir": {
-      "verb": "to wish",
+      "action": "to wish",
       "etym": [
         "word-gu",
         "word-lir"
@@ -2697,7 +2685,7 @@
       "glo": "**to wish**"
     },
     "word-lemegu": {
-      "verb": "to remember",
+      "action": "to remember",
       "etym": [
         "word-leme",
         "word-gu"
@@ -2718,7 +2706,7 @@
       ]
     },
     "word-guna": {
-      "def": "dissociation, robot",
+      "noun": "dissociation, robot",
       "etym": [
         "word-gu",
         "word-na"
@@ -2735,7 +2723,7 @@
       "glo": "dissociation, robot"
     },
     "word-gui": {
-      "verb": "to be born",
+      "action": "to be born",
       "see": [
         "word-yuhim",
         "word-nem"
@@ -2757,7 +2745,7 @@
       ]
     },
     "word-rugui": {
-      "verb": "to bustle about",
+      "action": "to bustle about",
       "etym": [
         "word-ru",
         "word-gui"
@@ -2774,7 +2762,7 @@
       ]
     },
     "word-guwu": {
-      "verb": "to give",
+      "action": "to give",
       "etym": [
         "word-gu",
         "word-wu"
@@ -2799,7 +2787,7 @@
       ]
     },
     "word-guwuna": {
-      "def": "gift",
+      "noun": "gift",
       "etym": [
         "word-guwu",
         "word-na"
@@ -2813,7 +2801,7 @@
       "glo": "gift"
     },
     "word-guru": {
-      "def": "trema (stage fright)",
+      "noun": "trema (stage fright)",
       "etym": [
         "word-gu",
         "word-ru"
@@ -2832,8 +2820,8 @@
       "glo": "trema (stage fright)"
     },
     "word-gugai": {
-      "def": "fertility",
-      "adj": "fertile",
+      "noun": "fertility",
+      "prop": "fertile",
       "etym": [
         "word-gu",
         "word-gai"
@@ -2847,8 +2835,8 @@
       "glo": "fertility"
     },
     "word-augu": {
-      "def": "trust",
-      "verb": "to trust",
+      "noun": "trust",
+      "action": "to trust",
       "etym": [
         "word-au",
         "word-gu"
@@ -2862,7 +2850,7 @@
       "glo": "trust"
     },
     "word-negu": {
-      "def": "agitation/dissociation",
+      "noun": "agitation/dissociation",
       "desc": "Searching for perfection to feel less. Opposite of [augu](word-augu)",
       "see": [
         "word-shipa"
@@ -2880,7 +2868,7 @@
       ]
     },
     "word-guyuina": {
-      "def": "apple",
+      "noun": "apple",
       "etym": [
         "word-gu",
         "word-yuina"
@@ -2897,7 +2885,7 @@
       "glo": "apple"
     },
     "word-gupa": {
-      "def": "nature",
+      "noun": "nature",
       "etym": [
         "word-gu",
         "word-pa"
@@ -2915,9 +2903,9 @@
     },
     "word-ha": {
       "prep": "up",
-      "def": "head",
-      "adj": "far",
-      "prefix": "top or distal",
+      "noun": "head",
+      "prop": "far",
+      "pref": "top or distal",
       "see": [
         "word-jo"
       ],
@@ -2948,7 +2936,7 @@
       ]
     },
     "word-duha": {
-      "def": "face",
+      "noun": "face",
       "etym": [
         "word-du",
         "word-ha"
@@ -2972,7 +2960,7 @@
       ]
     },
     "word-duhasha": {
-      "verb": "to laugh",
+      "action": "to laugh",
       "etym": [
         "word-duha",
         "word-shaD"
@@ -2989,7 +2977,7 @@
       ]
     },
     "word-hawe": {
-      "def": "right cheek",
+      "noun": "right cheek",
       "etym": [
         "word-ha",
         "word-we"
@@ -3003,7 +2991,7 @@
       "glo": "right cheek"
     },
     "word-hase": {
-      "def": "left cheek",
+      "noun": "left cheek",
       "etym": [
         "word-ha",
         "word-se"
@@ -3017,7 +3005,7 @@
       "glo": "left cheek"
     },
     "word-noha": {
-      "def": "occiput (back of the head)",
+      "noun": "occiput (back of the head)",
       "etym": [
         "word-no",
         "word-ha"
@@ -3031,7 +3019,7 @@
       "glo": "occiput (back of the head)"
     },
     "word-hada": {
-      "def": "parent",
+      "noun": "parent",
       "etym": [
         "word-ha",
         "word-oda"
@@ -3048,7 +3036,7 @@
       "glo": "parent"
     },
     "word-hana": {
-      "def": "mother",
+      "noun": "mother",
       "etym": [
         "word-ha",
         "word-ana"
@@ -3065,7 +3053,7 @@
       "glo": "mother"
     },
     "word-hawi": {
-      "def": "enby parent",
+      "noun": "enby parent",
       "etym": [
         "word-ha",
         "word-iwi"
@@ -3082,7 +3070,7 @@
       "glo": "enby parent"
     },
     "word-hato": {
-      "def": "father",
+      "noun": "father",
       "see": [
         "word-duto",
         "word-noto",
@@ -3097,7 +3085,7 @@
       "glo": "father"
     },
     "word-hal": {
-      "adj": "from the sky",
+      "prop": "from the sky",
       "glo": "*from the sky*",
       "name": "hal",
       "id": "word-hal",
@@ -3110,8 +3098,8 @@
       ]
     },
     "word-mahal": {
-      "def": "divine action",
-      "adj": "miraculous",
+      "noun": "divine action",
+      "prop": "miraculous",
       "etym": [
         "word-ma",
         "word-hal"
@@ -3128,7 +3116,7 @@
       ]
     },
     "word-hao": {
-      "def": "buste",
+      "noun": "buste",
       "etym": [
         "word-ha",
         "word-oda"
@@ -3145,7 +3133,7 @@
       ]
     },
     "word-haopa": {
-      "verb": "to yell",
+      "action": "to yell",
       "etym": [
         "word-hao",
         "word-pa"
@@ -3162,8 +3150,8 @@
       ]
     },
     "word-hem": {
-      "adj": "offered",
-      "suffix": "offered",
+      "prop": "offered",
+      "suff": "offered",
       "desc": "\nImportant compliment which means \"I see what you are offering to me\".\n",
       "name": "hem",
       "id": "word-hem",
@@ -3174,8 +3162,8 @@
       "glo": "**offered**"
     },
     "word-him": {
-      "def": "growth",
-      "verb": "to grow",
+      "noun": "growth",
+      "action": "to grow",
       "name": "him",
       "id": "word-him",
       "type": "word",
@@ -3195,8 +3183,8 @@
       ]
     },
     "word-yuhim": {
-      "def": "growing joy",
-      "verb": "to be born",
+      "noun": "growing joy",
+      "action": "to be born",
       "etym": [
         "word-yu",
         "word-him"
@@ -3213,7 +3201,7 @@
       "glo": "growing joy"
     },
     "word-mahim": {
-      "verb": "to build",
+      "action": "to build",
       "desc": "the hands make grow",
       "etym": [
         "word-ma",
@@ -3228,8 +3216,8 @@
       "glo": "**to build**"
     },
     "word-gahi": {
-      "def": "thought",
-      "verb": "to think",
+      "noun": "thought",
+      "action": "to think",
       "etym": [
         "word-ga",
         "word-him"
@@ -3249,8 +3237,8 @@
       ]
     },
     "word-gama": {
-      "def": "knowledge",
-      "verb": "to know",
+      "noun": "knowledge",
+      "action": "to know",
       "etym": [
         "word-ga",
         "word-ma"
@@ -3270,7 +3258,7 @@
       ]
     },
     "word-gamahim": {
-      "verb": "to learn",
+      "action": "to learn",
       "etym": [
         "word-gama",
         "word-him"
@@ -3284,7 +3272,7 @@
       "glo": "**to learn**"
     },
     "word-hurakan": {
-      "def": "hurricane",
+      "noun": "hurricane",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Deity_Figure_%28Zem%C3%AD%29_MET_DP295635.jpg/330px-Deity_Figure_%28Zem%C3%AD%29_MET_DP295635.jpg",
       "imgpos": "50%",
       "desc": "\nDeity or [zemi](https://en.wikipedia.org/wiki/Zemi) of chaos and disorder from the Taïno culture of the Caribbean.\n\n\n",
@@ -3304,8 +3292,8 @@
     },
     "word-iC": {
       "id": "word-iC",
-      "def": "**caress**",
-      "suffix": "caress",
+      "noun": "**caress**",
+      "suff": "caress",
       "subj": "you (2SG)",
       "glo": "CARE",
       "see": [
@@ -3331,7 +3319,7 @@
     },
     "word-ibu": {
       "prep": "for",
-      "adv": "to",
+      "style": "to",
       "see": [
         "card-prep"
       ],
@@ -3344,8 +3332,8 @@
       "glo": "**for**"
     },
     "word-iki": {
-      "adj": "court",
-      "suffix": "court",
+      "prop": "court",
+      "suff": "court",
       "see": [
         "word-uki",
         "card-count"
@@ -3359,7 +3347,7 @@
       "glo": "**court**"
     },
     "word-im": {
-      "adj": "closed",
+      "prop": "closed",
       "name": "im",
       "id": "word-im",
       "type": "word",
@@ -3369,7 +3357,7 @@
       "glo": "**closed**"
     },
     "word-in": {
-      "adj": "warm",
+      "prop": "warm",
       "name": "in",
       "id": "word-in",
       "type": "word",
@@ -3387,7 +3375,7 @@
       ]
     },
     "word-odin": {
-      "def": "lion",
+      "noun": "lion",
       "etym": [
         "word-oda",
         "word-in"
@@ -3401,8 +3389,8 @@
       "glo": "lion"
     },
     "word-ina": {
-      "def": "plant",
-      "suffix": "plant",
+      "noun": "plant",
+      "suff": "plant",
       "name": "ina",
       "id": "word-ina",
       "type": "word",
@@ -3416,7 +3404,7 @@
       ]
     },
     "word-ipa": {
-      "def": "100",
+      "noun": "100",
       "name": "ipa",
       "id": "word-ipa",
       "type": "word",
@@ -3429,7 +3417,7 @@
       ]
     },
     "word-ipi": {
-      "def": "memory (10)",
+      "noun": "memory (10)",
       "see": [
         "card-count"
       ],
@@ -3450,7 +3438,7 @@
       ]
     },
     "word-jipa": {
-      "def": "remembering (being god.dess)",
+      "noun": "remembering (being god.dess)",
       "see": [
         "card-ganes",
         "word-jifi"
@@ -3464,7 +3452,7 @@
       "glo": "remembering (being god.dess)"
     },
     "word-jifi": {
-      "adj": "humble",
+      "prop": "humble",
       "see": [
         "card-nanes",
         "word-jipa"
@@ -3478,7 +3466,7 @@
       "glo": "**humble**"
     },
     "word-ipu": {
-      "def": "1000",
+      "noun": "1000",
       "name": "ipu",
       "id": "word-ipu",
       "type": "word",
@@ -3491,12 +3479,11 @@
         "phrase-39",
         "phrase-40",
         "phrase-41",
-        "phrase-42",
         "phrase-42"
       ]
     },
     "word-ir": {
-      "adj": "sous",
+      "prop": "sous",
       "name": "ir",
       "id": "word-ir",
       "type": "word",
@@ -3506,8 +3493,8 @@
       "glo": "**sous**"
     },
     "word-iwi": {
-      "def": "bird",
-      "adj": "enby",
+      "noun": "bird",
+      "prop": "enby",
       "see": [
         "card-subj"
       ],
@@ -3532,7 +3519,7 @@
       ]
     },
     "word-iwoda": {
-      "def": "**enby** (bird) **person**",
+      "noun": "**enby** (bird) **person**",
       "etym": [
         "word-iwi",
         "word-da"
@@ -3546,7 +3533,7 @@
       "glo": "**enby** (bird) **person**"
     },
     "word-iwiu": {
-      "verb": "to fly",
+      "action": "to fly",
       "etym": [
         "word-iwi",
         "word-u"
@@ -3560,7 +3547,7 @@
       "glo": "**to fly**"
     },
     "word-iwigui": {
-      "def": "phoenix",
+      "noun": "phoenix",
       "etym": [
         "word-iwi",
         "word-gui"
@@ -3574,9 +3561,9 @@
       "glo": "phoenix"
     },
     "word-ja": {
-      "def": "reality",
-      "adj": "real",
-      "verb": "to exist",
+      "noun": "reality",
+      "prop": "real",
+      "action": "to exist",
       "name": "ja",
       "id": "word-ja",
       "type": "word",
@@ -3590,8 +3577,8 @@
       ]
     },
     "word-je": {
-      "adj": "close",
-      "def": "8 (emotion)",
+      "prop": "close",
+      "noun": "8 (emotion)",
       "see": [
         "card-count"
       ],
@@ -3604,7 +3591,7 @@
       "glo": "8 (emotion)"
     },
     "word-jepa": {
-      "def": "belonging",
+      "noun": "belonging",
       "see": [
         "card-ganes"
       ],
@@ -3617,7 +3604,7 @@
       "glo": "belonging"
     },
     "word-jefi": {
-      "adj": "caring",
+      "prop": "caring",
       "see": [
         "card-nanes",
         "word-jepa"
@@ -3631,8 +3618,8 @@
       "glo": "**caring**"
     },
     "word-ji": {
-      "def": "hair",
-      "posit": "standing, body leaning forward, hair offered ready to be taken",
+      "noun": "hair",
+      "pos": "standing, body leaning forward, hair offered ready to be taken",
       "name": "ji",
       "id": "word-ji",
       "type": "word",
@@ -3651,7 +3638,7 @@
       ]
     },
     "word-gojida": {
-      "def": "bear",
+      "noun": "bear",
       "etym": [
         "word-go",
         "word-ji",
@@ -3666,8 +3653,8 @@
       "glo": "bear"
     },
     "word-neji": {
-      "def": "without hair",
-      "verb": "to shave",
+      "noun": "without hair",
+      "action": "to shave",
       "name": "neji",
       "id": "word-neji",
       "type": "word",
@@ -3677,7 +3664,7 @@
       "glo": "without hair"
     },
     "word-jo": {
-      "adj": "close, proximal",
+      "prop": "close, proximal",
       "prep": "down",
       "etym": [
         "word-dau",
@@ -3707,7 +3694,7 @@
       ]
     },
     "word-hajo": {
-      "verb": "to take",
+      "action": "to take",
       "etym": [
         "word-ha",
         "word-jo"
@@ -3727,7 +3714,7 @@
       ]
     },
     "word-joha": {
-      "verb": "to reject",
+      "action": "to reject",
       "etym": [
         "word-jo",
         "word-ha"
@@ -3741,7 +3728,7 @@
       "glo": "**to reject**"
     },
     "word-muhajo": {
-      "verb": "to pick up",
+      "action": "to pick up",
       "etym": [
         "word-mu",
         "word-hajo"
@@ -3755,7 +3742,7 @@
       "glo": "**to pick up**"
     },
     "word-joda": {
-      "def": "**child**",
+      "noun": "**child**",
       "etym": [
         "word-jo",
         "word-oda"
@@ -3778,7 +3765,7 @@
       ]
     },
     "word-jona": {
-      "def": "girl (child)",
+      "noun": "girl (child)",
       "etym": [
         "word-jo",
         "word-ana"
@@ -3798,7 +3785,7 @@
       ]
     },
     "word-jowi": {
-      "def": "enby (child)",
+      "noun": "enby (child)",
       "etym": [
         "word-jo",
         "word-iwi"
@@ -3818,7 +3805,7 @@
       ]
     },
     "word-joto": {
-      "def": "boy (child)",
+      "noun": "boy (child)",
       "etym": [
         "word-jo",
         "word-oto"
@@ -3835,7 +3822,7 @@
       "glo": "boy (child)"
     },
     "word-jom": {
-      "def": "group, family",
+      "noun": "group, family",
       "name": "jom",
       "id": "word-jom",
       "type": "word",
@@ -3845,7 +3832,7 @@
       "glo": "group, family"
     },
     "word-jana": {
-      "def": "forest",
+      "noun": "forest",
       "name": "jana",
       "id": "word-jana",
       "type": "word",
@@ -3858,11 +3845,11 @@
       ]
     },
     "word-ka": {
-      "def": "4 / singularity",
+      "noun": "4 / singularity",
       "desc": "That which cannot be thought.",
       "pron": "everyone",
-      "suffix": "every",
-      "posit": "on all fours",
+      "suff": "every",
+      "pos": "on all fours",
       "subj": "us all, universal (1PL.DEF)",
       "see": [
         "card-count"
@@ -3888,9 +3875,9 @@
       ]
     },
     "word-oka": {
-      "def": "**we\\* all**",
-      "prefix": "**our\\* all**",
-      "suffix": "**our\\* all**",
+      "noun": "**we\\* all**",
+      "pref": "**our\\* all**",
+      "suff": "**our\\* all**",
       "etym": [
         "word-oS",
         "word-ka"
@@ -3907,7 +3894,7 @@
       "glo": "**we\\* all**"
     },
     "word-kada": {
-      "def": "**every people**",
+      "noun": "**every people**",
       "glo": "every.**body**",
       "etym": [
         "word-ka",
@@ -3924,8 +3911,8 @@
       "phon": "/kada/"
     },
     "word-hamaka": {
-      "def": "ring finger (4th finger)",
-      "posit": "on all fours",
+      "noun": "ring finger (4th finger)",
+      "pos": "on all fours",
       "desc": "The position is indicated by putting the thumb on the ring finger.",
       "name": "hamaka",
       "id": "word-hamaka",
@@ -3936,8 +3923,8 @@
       "glo": "ring finger (4th finger)"
     },
     "word-neka": {
-      "def": "shame",
-      "adj": "restless",
+      "noun": "shame",
+      "prop": "restless",
       "etym": [
         "word-ne",
         "word-ka"
@@ -3955,7 +3942,7 @@
       "glo": "shame"
     },
     "word-karu": {
-      "verb": "to choose",
+      "action": "to choose",
       "desc": "The realization of the singular in onself.",
       "etym": [
         "word-ka",
@@ -3970,7 +3957,7 @@
       "glo": "**to choose**"
     },
     "word-koda": {
-      "def": "cow",
+      "noun": "cow",
       "etym": [
         "word-ka",
         "word-oda"
@@ -3984,14 +3971,14 @@
       "glo": "cow"
     },
     "word-ke": {
-      "prefix": "hidden",
+      "pref": "hidden",
       "name": "ke",
       "id": "word-ke",
       "type": "word",
       "fulltext": "ke",
       "writ": "కే",
       "phon": "/kɛ/",
-      "glo": "**hidden**",
+      "glo": "**undefined**",
       "deriv": [
         "word-kebaj",
         "word-kegai",
@@ -4003,8 +3990,8 @@
       ]
     },
     "word-kei": {
-      "def": "**Master**",
-      "adj": "fantastic",
+      "noun": "**Master**",
+      "prop": "fantastic",
       "see": [
         "card-subj"
       ],
@@ -4026,7 +4013,7 @@
       ]
     },
     "word-okei": {
-      "def": "**I** Fantastic",
+      "noun": "**I** Fantastic",
       "glo": "**I**.HONOR",
       "etym": [
         "word-oS",
@@ -4043,9 +4030,9 @@
       "phon": "/ɔkɛi/"
     },
     "word-ikei": {
-      "def": "**you¹** Fantastic",
-      "prefix": "your¹ Fantastic",
-      "suffix": "your¹ Fantastic",
+      "noun": "**you¹** Fantastic",
+      "pref": "your¹ Fantastic",
+      "suff": "your¹ Fantastic",
       "glo": "**you¹**.HONOR",
       "etym": [
         "word-ti",
@@ -4062,9 +4049,9 @@
       "phon": "/ikɛi/"
     },
     "word-akei": {
-      "def": "**they¹** Fantastic",
-      "prefix": "their¹ Fantastic",
-      "suffix": "their¹ Fantastic",
+      "noun": "**they¹** Fantastic",
+      "pref": "their¹ Fantastic",
+      "suff": "their¹ Fantastic",
       "glo": "**they¹**.HONOR",
       "etym": [
         "word-aS",
@@ -4081,9 +4068,9 @@
       "phon": "/akɛi/"
     },
     "word-shokei": {
-      "def": "**we\\*** Fantastic",
-      "prefix": "our* Fantastic",
-      "suffix": "our* Fantastic",
+      "noun": "**we\\*** Fantastic",
+      "pref": "our* Fantastic",
+      "suff": "our* Fantastic",
       "glo": "**we\\***.HONOR",
       "etym": [
         "word-sho",
@@ -4100,9 +4087,9 @@
       "phon": "/ʃɔkɛi/"
     },
     "word-shikei": {
-      "def": "**you\\*** Fantastic",
-      "prefix": "your* Fantastic",
-      "suffix": "your* Fantastic",
+      "noun": "**you\\*** Fantastic",
+      "pref": "your* Fantastic",
+      "suff": "your* Fantastic",
       "glo": "**you\\***.HONOR",
       "etym": [
         "word-sho",
@@ -4119,9 +4106,9 @@
       "phon": "/ʃikɛi/"
     },
     "word-shakei": {
-      "def": "**they\\*** Fantastic",
-      "prefix": "their* Fantastic",
-      "suffix": "their* Fantastic",
+      "noun": "**they\\*** Fantastic",
+      "pref": "their* Fantastic",
+      "suff": "their* Fantastic",
       "glo": "**they\\***.HONOR",
       "etym": [
         "word-sho",
@@ -4138,7 +4125,7 @@
       "phon": "/ʃakɛi/"
     },
     "word-keda": {
-      "def": "**Master-person**",
+      "noun": "**Master-person**",
       "etym": [
         "word-kei",
         "word-da"
@@ -4175,8 +4162,8 @@
       ]
     },
     "word-ku": {
-      "def": "rope",
-      "verb": "to tie",
+      "noun": "rope",
+      "action": "to tie",
       "prep": "imply",
       "desc": "Causality",
       "name": "ku",
@@ -4201,8 +4188,8 @@
       ]
     },
     "word-kude": {
-      "def": "**knot**",
-      "verb": "to make love",
+      "noun": "**knot**",
+      "action": "to make love",
       "etym": [
         "word-ku",
         "word-de"
@@ -4233,7 +4220,7 @@
       ]
     },
     "word-nekupa": {
-      "verb": "to let go",
+      "action": "to let go",
       "etym": [
         "word-ne",
         "word-kupa"
@@ -4248,8 +4235,8 @@
       "glo": "**to let go**"
     },
     "word-kulei": {
-      "def": "causal time",
-      "verb": "to rig",
+      "noun": "causal time",
+      "action": "to rig",
       "desc": "To tie time, manipulate, transactional relation to time (if-then).",
       "etym": [
         "word-ku",
@@ -4264,7 +4251,7 @@
       "glo": "causal time"
     },
     "word-kuoda": {
-      "def": "victime-bourreau-sauveu.se.r",
+      "noun": "victime-bourreau-sauveu.se.r",
       "desc": "Corps attaché.",
       "etym": [
         "word-ku",
@@ -4279,8 +4266,8 @@
       "glo": "victime-bourreau-sauveu.se.r"
     },
     "word-la": {
-      "def": "lips",
-      "verb": "to kiss",
+      "noun": "lips",
+      "action": "to kiss",
       "name": "la",
       "id": "word-la",
       "type": "word",
@@ -4301,13 +4288,12 @@
         "phrase-188",
         "phrase-189",
         "phrase-190",
-        "phrase-190",
         "phrase-209",
         "phrase-225"
       ]
     },
     "word-kela": {
-      "def": "teeth",
+      "noun": "teeth",
       "etym": [
         "word-ke",
         "word-la"
@@ -4326,7 +4312,7 @@
       ]
     },
     "word-kelasa": {
-      "def": "knife",
+      "noun": "knife",
       "etym": [
         "word-kela",
         "word-sa"
@@ -4340,8 +4326,8 @@
       "glo": "knife"
     },
     "word-lapa": {
-      "def": "voice",
-      "verb": "to talk",
+      "noun": "voice",
+      "action": "to talk",
       "etym": [
         "word-la",
         "word-pa"
@@ -4369,7 +4355,7 @@
       ]
     },
     "word-lapalapa": {
-      "def": "duck",
+      "noun": "duck",
       "etym": [
         "word-lapa",
         "word-lapa"
@@ -4383,7 +4369,7 @@
       "glo": "duck"
     },
     "word-kelo": {
-      "def": "crocodile",
+      "noun": "crocodile",
       "etym": [
         "word-kela",
         "word-oda"
@@ -4397,7 +4383,7 @@
       "glo": "crocodile"
     },
     "word-kawi": {
-      "def": "shark",
+      "noun": "shark",
       "etym": [
         "word-kela",
         "word-awi"
@@ -4411,7 +4397,7 @@
       "glo": "shark"
     },
     "word-lapir": {
-      "verb": "to announce",
+      "action": "to announce",
       "etym": [
         "word-lapa",
         "word-lir"
@@ -4425,7 +4411,7 @@
       "glo": "**to announce**"
     },
     "word-gilapa": {
-      "def": "to whisper",
+      "noun": "to whisper",
       "etym": [
         "word-gi",
         "word-lapa"
@@ -4439,7 +4425,7 @@
       "glo": "to whisper"
     },
     "word-lapana": {
-      "def": "speech",
+      "noun": "speech",
       "etym": [
         "word-la",
         "word-na"
@@ -4459,7 +4445,7 @@
       ]
     },
     "word-lanagu": {
-      "def": "insult",
+      "noun": "insult",
       "etym": [
         "word-lapana",
         "word-gu"
@@ -4476,8 +4462,8 @@
       ]
     },
     "word-laj": {
-      "def": "smile",
-      "verb": "to smile",
+      "noun": "smile",
+      "action": "to smile",
       "etym": [
         "word-la",
         "word-aj"
@@ -4494,8 +4480,8 @@
       ]
     },
     "word-lame": {
-      "verb": "to wash",
-      "def": "water",
+      "action": "to wash",
+      "noun": "water",
       "see": [
         "card-nature"
       ],
@@ -4517,8 +4503,8 @@
       ]
     },
     "word-falame": {
-      "def": "tears",
-      "verb": "to cry",
+      "noun": "tears",
+      "action": "to cry",
       "etym": [
         "word-fa",
         "word-lame"
@@ -4535,7 +4521,7 @@
       ]
     },
     "word-lama": {
-      "def": "sea",
+      "noun": "sea",
       "etym": [
         "word-lame",
         "word-da"
@@ -4553,7 +4539,7 @@
       ]
     },
     "word-lamagoa": {
-      "def": "ocean",
+      "noun": "ocean",
       "etym": [
         "word-lama",
         "word-goa"
@@ -4567,7 +4553,7 @@
       "glo": "ocean"
     },
     "word-lami": {
-      "def": "wave",
+      "noun": "wave",
       "etym": [
         "word-lame",
         "word-mi"
@@ -4584,7 +4570,7 @@
       ]
     },
     "word-lamioda": {
-      "def": "snake",
+      "noun": "snake",
       "etym": [
         "word-lami",
         "word-oda"
@@ -4598,7 +4584,7 @@
       "glo": "snake"
     },
     "word-lamoa": {
-      "def": "source (place)",
+      "noun": "source (place)",
       "etym": [
         "word-lame",
         "word-on",
@@ -4616,7 +4602,7 @@
       "glo": "source (place)"
     },
     "word-lamu": {
-      "verb": "to drink",
+      "action": "to drink",
       "name": "lamu",
       "id": "word-lamu",
       "type": "word",
@@ -4626,8 +4612,8 @@
       "glo": "**to drink**"
     },
     "word-lau": {
-      "def": "eternity",
-      "adv": "always",
+      "noun": "eternity",
+      "style": "always",
       "tens": "ETERN",
       "etym": [
         "word-lei",
@@ -4654,7 +4640,7 @@
       ]
     },
     "word-elau": {
-      "def": "in all eternity",
+      "noun": "in all eternity",
       "etym": [
         "word-e",
         "word-lau"
@@ -4668,9 +4654,9 @@
       "glo": "in all eternity"
     },
     "word-le": {
-      "adj": "small",
-      "def": "5",
-      "suffix": "small",
+      "prop": "small",
+      "noun": "5",
+      "suff": "small",
       "see": [
         "card-count"
       ],
@@ -4697,7 +4683,7 @@
       ]
     },
     "word-hamale": {
-      "def": "little finger",
+      "noun": "little finger",
       "name": "hamale",
       "id": "word-hamale",
       "type": "word",
@@ -4707,8 +4693,8 @@
       "glo": "little finger"
     },
     "word-ajale": {
-      "def": "spark",
-      "posit": "on top of me: 4 limbs and 1 genital (little finger)",
+      "noun": "spark",
+      "pos": "on top of me: 4 limbs and 1 genital (little finger)",
       "etym": [
         "word-aj"
       ],
@@ -4721,9 +4707,9 @@
       "glo": "spark"
     },
     "word-nele": {
-      "def": "confusion",
-      "adj": "insecure",
-      "verb": "to confound",
+      "noun": "confusion",
+      "prop": "insecure",
+      "action": "to confound",
       "see": [
         "card-ganes",
         "card-nanes"
@@ -4740,9 +4726,9 @@
       ]
     },
     "word-lei": {
-      "def": "time",
+      "noun": "time",
       "prep": "then",
-      "prefix": "time",
+      "pref": "time",
       "name": "lei",
       "id": "word-lei",
       "type": "word",
@@ -4782,8 +4768,8 @@
       ]
     },
     "word-gulei": {
-      "verb": "to experience",
-      "def": "experience",
+      "action": "to experience",
+      "noun": "experience",
       "etym": [
         "word-gu",
         "word-lei"
@@ -4797,8 +4783,8 @@
       "glo": "experience"
     },
     "word-leiuki": {
-      "def": "patience",
-      "adj": "patient",
+      "noun": "patience",
+      "prop": "patient",
       "etym": [
         "word-lei",
         "word-uki"
@@ -4815,8 +4801,8 @@
       ]
     },
     "word-neleiuki": {
-      "def": "impatience",
-      "adj": "impatient",
+      "noun": "impatience",
+      "prop": "impatient",
       "etym": [
         "word-ne",
         "word-leiuki"
@@ -4831,7 +4817,7 @@
     },
     "word-lem": {
       "tens": "past",
-      "verb": "lived",
+      "action": "lived",
       "etym": [
         "word-lei",
         "word-em"
@@ -4854,7 +4840,7 @@
       ]
     },
     "word-elem": {
-      "def": "in the past",
+      "noun": "in the past",
       "etym": [
         "word-e",
         "word-lem"
@@ -4868,7 +4854,7 @@
       "glo": "in the past"
     },
     "word-lemana": {
-      "def": "history",
+      "noun": "history",
       "etym": [
         "word-lem",
         "word-na"
@@ -4882,8 +4868,8 @@
       "glo": "history"
     },
     "word-li": {
-      "def": "mouth",
-      "verb": "to suck",
+      "noun": "mouth",
+      "action": "to suck",
       "name": "li",
       "id": "word-li",
       "type": "word",
@@ -4903,7 +4889,7 @@
       ]
     },
     "word-lipa": {
-      "verb": "to sing",
+      "action": "to sing",
       "etym": [
         "word-li",
         "word-pa"
@@ -4920,7 +4906,7 @@
       ]
     },
     "word-lipaya": {
-      "def": "wolf",
+      "noun": "wolf",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Adara_%28Canis_lupus%29.jpg/300px-Adara_%28Canis_lupus%29.jpg",
       "etym": [
         "word-lipa",
@@ -4935,8 +4921,8 @@
       "glo": "wolf"
     },
     "word-keli": {
-      "def": "tongue",
-      "verb": "to lick",
+      "noun": "tongue",
+      "action": "to lick",
       "etym": [
         "word-ke",
         "word-li"
@@ -4954,7 +4940,7 @@
       ]
     },
     "word-ligau": {
-      "verb": "to taste",
+      "action": "to taste",
       "etym": [
         "word-li",
         "word-gau"
@@ -4994,7 +4980,7 @@
       ]
     },
     "word-lirana": {
-      "def": "promise",
+      "noun": "promise",
       "etym": [
         "word-liri",
         "word-na"
@@ -5008,7 +4994,7 @@
       "glo": "promise"
     },
     "word-ilir": {
-      "def": "future you (you will...)",
+      "noun": "future you (you will...)",
       "etym": [
         "word-iC",
         "word-lir"
@@ -5022,7 +5008,7 @@
       "glo": "future you (you will...)"
     },
     "word-elir": {
-      "def": "in the future",
+      "noun": "in the future",
       "glo": "future.BE",
       "etym": [
         "word-e",
@@ -5036,7 +5022,7 @@
       "phon": "/ɛlir/"
     },
     "word-liu": {
-      "verb": "to eat",
+      "action": "to eat",
       "etym": [
         "word-li",
         "word-u"
@@ -5054,10 +5040,10 @@
       ]
     },
     "word-lo": {
-      "def": "**submissive**",
+      "noun": "**submissive**",
       "glo": "submissive",
-      "adj": "wet, who receives",
-      "verb": "to surrender",
+      "prop": "wet, who receives",
+      "action": "to surrender",
       "name": "lo",
       "id": "word-lo",
       "type": "word",
@@ -5078,9 +5064,9 @@
       ]
     },
     "word-olo": {
-      "def": "**weˣ** wet",
-      "prefix": "ourˣ wet",
-      "suffix": "ourˣ wet",
+      "noun": "**weˣ** wet",
+      "pref": "ourˣ wet",
+      "suff": "ourˣ wet",
       "glo": "**weˣ**.WET",
       "etym": [
         "word-ti",
@@ -5097,9 +5083,9 @@
       "phon": "/ɔlɔ/"
     },
     "word-tilo": {
-      "def": "**you¹** wet",
-      "prefix": "your¹ wet",
-      "suffix": "your¹ wet",
+      "noun": "**you¹** wet",
+      "pref": "your¹ wet",
+      "suff": "your¹ wet",
       "glo": "**you¹**.WET",
       "etym": [
         "word-ti",
@@ -5116,9 +5102,9 @@
       "phon": "/tilɔ/"
     },
     "word-alo": {
-      "def": "**they¹** wet",
-      "prefix": "their¹ wet",
-      "suffix": "their¹ wet",
+      "noun": "**they¹** wet",
+      "pref": "their¹ wet",
+      "suff": "their¹ wet",
       "glo": "**they¹**.WET",
       "etym": [
         "word-aS",
@@ -5135,9 +5121,9 @@
       "phon": "/alɔ/"
     },
     "word-sholo": {
-      "def": "**we\\*** wet",
-      "prefix": "our* wet",
-      "suffix": "our* wet",
+      "noun": "**we\\*** wet",
+      "pref": "our* wet",
+      "suff": "our* wet",
       "glo": "**we\\***.WET",
       "etym": [
         "word-sho",
@@ -5154,9 +5140,9 @@
       "phon": "/ʃɔlɔ/"
     },
     "word-shilo": {
-      "def": "**you\\*** wet",
-      "prefix": "your* wet",
-      "suffix": "your* wet",
+      "noun": "**you\\*** wet",
+      "pref": "your* wet",
+      "suff": "your* wet",
       "glo": "**you\\***.WET",
       "etym": [
         "word-sho",
@@ -5173,9 +5159,9 @@
       "phon": "/ʃilɔ/"
     },
     "word-shalo": {
-      "def": "**they\\*** wet",
-      "prefix": "their* wet",
-      "suffix": "their* wet",
+      "noun": "**they\\*** wet",
+      "pref": "their* wet",
+      "suff": "their* wet",
       "glo": "**they\\***.WET",
       "etym": [
         "word-sho",
@@ -5192,7 +5178,7 @@
       "phon": "/ʃalɔ/"
     },
     "word-loda": {
-      "def": "**submissive person**",
+      "noun": "**submissive person**",
       "etym": [
         "word-lo",
         "word-da"
@@ -5212,8 +5198,8 @@
       ]
     },
     "word-loru": {
-      "verb": "to submit, to become small",
-      "adj": "humilité",
+      "action": "to submit, to become small",
+      "prop": "humilité",
       "etym": [
         "word-lo",
         "word-ru"
@@ -5227,7 +5213,7 @@
       "glo": "**to submit, to become small**"
     },
     "word-silo": {
-      "adj": "doucement",
+      "prop": "doucement",
       "desc": "De [si](word-si) et [lo](word-lo) (comme soumis.e).",
       "name": "silo",
       "id": "word-silo",
@@ -5239,7 +5225,7 @@
     },
     "word-lu": {
       "prep": "while",
-      "prefix": "continuous (CONT)",
+      "pref": "continuous (CONT)",
       "glo": "while",
       "desc": "\nThis prefix comes after accord to the subject (unlike [es](word-es)):\n\n* [17](phrase-17)\n",
       "name": "lu",
@@ -5254,7 +5240,7 @@
       ]
     },
     "word-lulei": {
-      "def": "until",
+      "noun": "until",
       "etym": [
         "word-lu",
         "word-lei"
@@ -5268,8 +5254,8 @@
       "glo": "until"
     },
     "word-ma": {
-      "def": "hand",
-      "verb": "to shake, to take",
+      "noun": "hand",
+      "action": "to shake, to take",
       "name": "ma",
       "id": "word-ma",
       "type": "word",
@@ -5306,7 +5292,7 @@
       ]
     },
     "word-hama": {
-      "def": "finger",
+      "noun": "finger",
       "etym": [
         "word-ha",
         "word-ma"
@@ -5324,7 +5310,7 @@
       ]
     },
     "word-djoma": {
-      "def": "wrist",
+      "noun": "wrist",
       "etym": [
         "word-jo",
         "word-ma"
@@ -5338,7 +5324,7 @@
       "glo": "wrist"
     },
     "word-nema": {
-      "verb": "to let go",
+      "action": "to let go",
       "glo": "NEG.**take**",
       "etym": [
         "word-ne",
@@ -5355,7 +5341,7 @@
       ]
     },
     "word-mu": {
-      "verb": "to pull",
+      "action": "to pull",
       "glo": "**hand**.PULL",
       "etym": [
         "word-ma",
@@ -5380,7 +5366,7 @@
       ]
     },
     "word-malame": {
-      "def": "parturient",
+      "noun": "parturient",
       "etym": [
         "word-ma",
         "alt-lame"
@@ -5394,7 +5380,7 @@
       "glo": "parturient"
     },
     "word-miwi": {
-      "def": "butterfly",
+      "noun": "butterfly",
       "etym": [
         "word-mi",
         "word-iwi"
@@ -5408,7 +5394,7 @@
       "glo": "butterfly"
     },
     "word-masa": {
-      "def": "shovel",
+      "noun": "shovel",
       "etym": [
         "word-ma",
         "word-sa"
@@ -5425,7 +5411,7 @@
       ]
     },
     "word-masale": {
-      "def": "spoon",
+      "noun": "spoon",
       "etym": [
         "word-masa",
         "word-le"
@@ -5442,7 +5428,7 @@
       ]
     },
     "word-masalele": {
-      "def": "little spoon",
+      "noun": "little spoon",
       "etym": [
         "word-masale",
         "word-le"
@@ -5456,7 +5442,7 @@
       "glo": "little spoon"
     },
     "word-maga": {
-      "adj": "crazy",
+      "prop": "crazy",
       "etym": [
         "word-ma",
         "word-ga"
@@ -5471,8 +5457,8 @@
       "glo": "**crazy**"
     },
     "word-me": {
-      "verb": "to move",
-      "prefix": "to move into",
+      "action": "to move",
+      "pref": "to move into",
       "name": "me",
       "id": "word-me",
       "type": "word",
@@ -5486,7 +5472,7 @@
       ]
     },
     "word-meshe": {
-      "verb": "to fly",
+      "action": "to fly",
       "etym": [
         "word-me",
         "word-she"
@@ -5503,7 +5489,7 @@
       ]
     },
     "word-melam": {
-      "verb": "to swim",
+      "action": "to swim",
       "etym": [
         "word-me",
         "word-lame"
@@ -5547,7 +5533,7 @@
       "glo": "**otherwise**"
     },
     "word-mi": {
-      "verb": "to caress",
+      "action": "to caress",
       "glo": "**hand**.VERB.CARE",
       "etym": [
         "word-ma",
@@ -5590,7 +5576,7 @@
       ]
     },
     "word-mo": {
-      "verb": "to slap",
+      "action": "to slap",
       "glo": "**hand**.VERB.PUSH",
       "etym": [
         "word-ma",
@@ -5608,8 +5594,8 @@
       "phon": "/mɔ/"
     },
     "word-moon": {
-      "def": "**breast**",
-      "posit": "kneeling, breast touching the ground (doggy style)",
+      "noun": "**breast**",
+      "pos": "kneeling, breast touching the ground (doggy style)",
       "see": [
         "word-pe"
       ],
@@ -5636,7 +5622,7 @@
       ]
     },
     "word-munwe": {
-      "def": "right breast",
+      "noun": "right breast",
       "etym": [
         "word-moon",
         "word-we"
@@ -5650,7 +5636,7 @@
       "glo": "right breast"
     },
     "word-hamun": {
-      "def": "nipple",
+      "noun": "nipple",
       "etym": [
         "word-ha",
         "word-moon"
@@ -5671,7 +5657,7 @@
       ]
     },
     "word-munawi": {
-      "def": "moon",
+      "noun": "moon",
       "etym": [
         "word-moon",
         "word-awi"
@@ -5685,7 +5671,7 @@
       "glo": "moon"
     },
     "word-muna": {
-      "def": "baby bottle",
+      "noun": "baby bottle",
       "etym": [
         "word-moon",
         "word-na"
@@ -5699,15 +5685,15 @@
       "glo": "baby bottle"
     },
     "word-na": {
-      "suffix": "thing",
-      "adj": "humility",
+      "suff": "thing",
+      "prop": "humility",
       "name": "na",
       "id": "word-na",
       "type": "word",
       "fulltext": "na",
       "writ": "నా",
       "phon": "/na/",
-      "glo": "**thing**",
+      "glo": "**humility**",
       "deriv": [
         "word-agana",
         "word-dana",
@@ -5734,7 +5720,7 @@
       ]
     },
     "word-nena": {
-      "def": "nothing",
+      "noun": "nothing",
       "etym": [
         "word-ne",
         "word-na"
@@ -5751,8 +5737,8 @@
       ]
     },
     "word-naj": {
-      "def": "cloud",
-      "verb": "to shiver",
+      "noun": "cloud",
+      "action": "to shiver",
       "etym": [
         "word-ne",
         "word-aj"
@@ -5770,7 +5756,7 @@
       ]
     },
     "word-najlo": {
-      "def": "orgasm, rain",
+      "noun": "orgasm, rain",
       "etym": [
         "word-naj",
         "word-lo"
@@ -5784,7 +5770,7 @@
       "glo": "orgasm, rain"
     },
     "word-najapa": {
-      "def": "fog",
+      "noun": "fog",
       "etym": [
         "word-naj",
         "word-pa"
@@ -5798,7 +5784,7 @@
       "glo": "fog"
     },
     "word-name": {
-      "def": "wood",
+      "noun": "wood",
       "name": "name",
       "id": "word-name",
       "type": "word",
@@ -5813,7 +5799,7 @@
       ]
     },
     "word-ajaname": {
-      "def": "ash",
+      "noun": "ash",
       "etym": [
         "word-aj",
         "word-name"
@@ -5830,7 +5816,7 @@
       ]
     },
     "word-kaname": {
-      "def": "chair",
+      "noun": "chair",
       "etym": [
         "word-ka",
         "word-name"
@@ -5844,7 +5830,7 @@
       "glo": "chair"
     },
     "word-namel": {
-      "def": "stick",
+      "noun": "stick",
       "etym": [
         "word-name",
         "word-el"
@@ -5861,7 +5847,7 @@
       ]
     },
     "word-ne": {
-      "prefix": "negation, destruction (Samhara)",
+      "pref": "negation, destruction (Samhara)",
       "glo": "NEG",
       "desc": "Also means something along the line of 'world of words' or common trance ([nepa](word-nepa))",
       "name": "ne",
@@ -5892,7 +5878,7 @@
       ]
     },
     "word-nefa": {
-      "verb": "to close eyes, to not look",
+      "action": "to close eyes, to not look",
       "name": "nefa",
       "id": "word-nefa",
       "type": "word",
@@ -5902,7 +5888,7 @@
       "glo": "**to close eyes, to not look**"
     },
     "word-neoda": {
-      "def": "corpse",
+      "noun": "corpse",
       "etym": [
         "word-ne",
         "word-oda"
@@ -5919,7 +5905,7 @@
       "glo": "corpse"
     },
     "word-nepa": {
-      "def": "abyss, nothingness",
+      "noun": "abyss, nothingness",
       "name": "nepa",
       "id": "word-nepa",
       "type": "word",
@@ -5929,7 +5915,7 @@
       "glo": "abyss, nothingness"
     },
     "word-nelo": {
-      "verb": "to struggle",
+      "action": "to struggle",
       "etym": [
         "word-ne",
         "alt-lo"
@@ -5960,7 +5946,7 @@
       "glo": "**never (NEG)**"
     },
     "word-nes": {
-      "def": "magnitude, is-ness",
+      "noun": "magnitude, is-ness",
       "name": "nes",
       "id": "word-nes",
       "type": "word",
@@ -5974,7 +5960,7 @@
     },
     "word-ni": {
       "prep": "to",
-      "prefix": "to (DAT)",
+      "pref": "to (DAT)",
       "glo": "DAT",
       "see": [
         "card-prep",
@@ -5988,7 +5974,7 @@
       "phon": "/ni/"
     },
     "word-no": {
-      "prefix": "back",
+      "pref": "back",
       "see": [
         "word-se",
         "word-du",
@@ -6000,7 +5986,7 @@
       "fulltext": "no",
       "writ": "నో",
       "phon": "/nɔ/",
-      "glo": "**back**",
+      "glo": "**undefined**",
       "deriv": [
         "word-noha",
         "word-noda",
@@ -6012,7 +5998,7 @@
       ]
     },
     "word-noda": {
-      "def": "older sibling",
+      "noun": "older sibling",
       "etym": [
         "word-no",
         "word-oda"
@@ -6032,7 +6018,7 @@
       "glo": "older sibling"
     },
     "word-noto": {
-      "def": "older brother/wind",
+      "noun": "older brother/wind",
       "etym": [
         "word-no",
         "word-oto"
@@ -6050,7 +6036,7 @@
       "glo": "older brother/wind"
     },
     "word-nona": {
-      "def": "older sister/tree",
+      "noun": "older sister/tree",
       "etym": [
         "word-no",
         "word-ana"
@@ -6068,7 +6054,7 @@
       "glo": "older sister/tree"
     },
     "word-nowi": {
-      "def": "older enby/bird",
+      "noun": "older enby/bird",
       "etym": [
         "word-no",
         "word-iwi"
@@ -6086,8 +6072,8 @@
       "glo": "older enby/bird"
     },
     "word-nopi": {
-      "def": "back",
-      "posit": "lying on th back",
+      "noun": "back",
+      "pos": "lying on th back",
       "etym": [
         "word-no",
         "word-pi"
@@ -6104,7 +6090,7 @@
       ]
     },
     "word-djonopi": {
-      "def": "lower back",
+      "noun": "lower back",
       "etym": [
         "word-jo",
         "word-nopi"
@@ -6118,7 +6104,7 @@
       "glo": "lower back"
     },
     "word-noyin": {
-      "def": "fond du vagin (col de l'utérus)",
+      "noun": "fond du vagin (col de l'utérus)",
       "etym": [
         "word-no",
         "word-yin"
@@ -6132,8 +6118,8 @@
       "glo": "fond du vagin (col de l'utérus)"
     },
     "word-noa": {
-      "def": "skin",
-      "verb": "to touch",
+      "noun": "skin",
+      "action": "to touch",
       "name": "noa",
       "id": "word-noa",
       "type": "word",
@@ -6150,8 +6136,8 @@
       ]
     },
     "word-nu": {
-      "adj": "arrogance",
-      "def": "hubris",
+      "prop": "arrogance",
+      "noun": "hubris",
       "etym": [
         "word-na",
         "word-u"
@@ -6175,7 +6161,7 @@
       ]
     },
     "word-nuga": {
-      "def": "psychosis, god-child",
+      "noun": "psychosis, god-child",
       "etym": [
         "word-ga",
         "word-nu"
@@ -6192,7 +6178,7 @@
       "glo": "psychosis, god-child"
     },
     "word-nur": {
-      "adv": "only",
+      "style": "only",
       "name": "nur",
       "id": "word-nur",
       "type": "word",
@@ -6203,8 +6189,8 @@
     },
     "word-oC": {
       "id": "word-oC",
-      "def": "**shock**",
-      "suffix": "**shock**",
+      "noun": "**shock**",
+      "suff": "**shock**",
       "glo": "PUSH (ABL)",
       "see": [
         "word-oS",
@@ -6230,7 +6216,7 @@
       ]
     },
     "word-hafo": {
-      "verb": "to fall",
+      "action": "to fall",
       "etym": [
         "word-ha",
         "word-fo"
@@ -6247,7 +6233,7 @@
       ]
     },
     "word-obo": {
-      "def": "pubis",
+      "noun": "pubis",
       "etym": [
         "word-jo",
         "word-bo"
@@ -6261,7 +6247,7 @@
       "glo": "pubis"
     },
     "word-habo": {
-      "def": "plexus",
+      "noun": "plexus",
       "etym": [
         "word-ha",
         "word-bo"
@@ -6275,7 +6261,7 @@
       "glo": "plexus"
     },
     "word-oda": {
-      "def": "**weˣ self**",
+      "noun": "**weˣ self**",
       "glo": "**weˣ**.self",
       "etym": [
         "word-oS",
@@ -6322,7 +6308,7 @@
       ]
     },
     "word-keoda": {
-      "def": "hidden body language",
+      "noun": "hidden body language",
       "etym": [
         "word-ke",
         "word-oda"
@@ -6336,7 +6322,7 @@
       "glo": "hidden body language"
     },
     "word-yosa": {
-      "def": "person",
+      "noun": "person",
       "etym": [
         "word-yo",
         "word-oda"
@@ -6353,7 +6339,7 @@
       ]
     },
     "word-hida": {
-      "def": "sibling",
+      "noun": "sibling",
       "etym": [
         "word-him",
         "word-oda"
@@ -6370,7 +6356,7 @@
       "glo": "sibling"
     },
     "word-hina": {
-      "def": "sister",
+      "noun": "sister",
       "etym": [
         "word-him",
         "word-ana"
@@ -6387,7 +6373,7 @@
       "glo": "sister"
     },
     "word-hiwi": {
-      "def": "enby sibling",
+      "noun": "enby sibling",
       "etym": [
         "word-him",
         "word-iwi"
@@ -6404,7 +6390,7 @@
       "glo": "enby sibling"
     },
     "word-hito": {
-      "def": "brother",
+      "noun": "brother",
       "etym": [
         "word-him",
         "word-oto"
@@ -6421,7 +6407,7 @@
       "glo": "brother"
     },
     "word-odo": {
-      "verb": "to leave",
+      "action": "to leave",
       "etym": [
         "word-oda",
         "word-oC"
@@ -6442,7 +6428,7 @@
       ]
     },
     "word-odu": {
-      "verb": "to come",
+      "action": "to come",
       "etym": [
         "word-oda",
         "word-u"
@@ -6463,7 +6449,7 @@
       ]
     },
     "word-ojo": {
-      "adj": "centre",
+      "prop": "centre",
       "name": "ojo",
       "id": "word-ojo",
       "type": "word",
@@ -6476,9 +6462,9 @@
       ]
     },
     "word-om": {
-      "def": "transcendence",
-      "adj": "open, sacred",
-      "suffix": "temple, sacred",
+      "noun": "transcendence",
+      "prop": "open, sacred",
+      "suff": "temple, sacred",
       "name": "om",
       "id": "word-om",
       "type": "word",
@@ -6491,8 +6477,8 @@
       ]
     },
     "word-on": {
-      "def": "source",
-      "verb": "to reveal",
+      "noun": "source",
+      "action": "to reveal",
       "name": "on",
       "id": "word-on",
       "type": "word",
@@ -6511,7 +6497,7 @@
       ]
     },
     "word-lamon": {
-      "def": "urethra",
+      "noun": "urethra",
       "etym": [
         "word-lame",
         "word-on"
@@ -6525,7 +6511,7 @@
       "glo": "urethra"
     },
     "word-yaon": {
-      "def": "dusk",
+      "noun": "dusk",
       "etym": [
         "word-ya",
         "word-on"
@@ -6542,7 +6528,7 @@
       ]
     },
     "word-yohon": {
-      "def": "dawn",
+      "noun": "dawn",
       "etym": [
         "word-yo",
         "word-on"
@@ -6559,7 +6545,7 @@
       ]
     },
     "word-ota": {
-      "def": "source, ouverture",
+      "noun": "source, ouverture",
       "name": "ota",
       "id": "word-ota",
       "type": "word",
@@ -6573,7 +6559,7 @@
       ]
     },
     "word-otalamon": {
-      "def": "cercle de l'urètre",
+      "noun": "cercle de l'urètre",
       "desc": "zone autour de l'urètre (chez la femme)",
       "etym": [
         "word-lame",
@@ -6588,7 +6574,7 @@
       "glo": "cercle de l'urètre"
     },
     "word-hamunon": {
-      "def": "areola",
+      "noun": "areola",
       "etym": [
         "word-hamun",
         "word-on"
@@ -6602,7 +6588,7 @@
       "glo": "areola"
     },
     "word-kepalota": {
-      "def": "zone autour de l'anus",
+      "noun": "zone autour de l'anus",
       "etym": [
         "word-kepal",
         "word-ota"
@@ -6616,8 +6602,8 @@
       "glo": "zone autour de l'anus"
     },
     "word-oto": {
-      "def": "**wind** or **masculinity**",
-      "adj": "masculine",
+      "noun": "**wind** or **masculinity**",
+      "prop": "masculine",
       "see": [
         "card-subj"
       ],
@@ -6645,7 +6631,7 @@
       ]
     },
     "word-otoda": {
-      "def": "**male** (wind) **person**",
+      "noun": "**male** (wind) **person**",
       "desc": "place of the wind-self",
       "etym": [
         "word-oto",
@@ -6663,8 +6649,8 @@
       ]
     },
     "word-pa": {
-      "def": "everywhere",
-      "suffix": "mystery",
+      "noun": "everywhere",
+      "suff": "mystery",
       "glo": "MYST",
       "see": [
         "word-fi"
@@ -6690,7 +6676,7 @@
       ]
     },
     "word-pali": {
-      "def": "enchanter (chanter de dedans)",
+      "noun": "enchanter (chanter de dedans)",
       "name": "pali",
       "id": "word-pali",
       "type": "word",
@@ -6700,7 +6686,7 @@
       "glo": "enchanter (chanter de dedans)"
     },
     "word-pahau": {
-      "verb": "pardonner (tout recevoir)",
+      "action": "pardonner (tout recevoir)",
       "desc": "[aupa](word-aupa) et [pahau](word-pahau) sont la même chose exprimés depuis des lieux un peu différents. La gratitude et le pardon, c'est pareil. Pardonner [pahau](word-pahau) c'est enfin recevoir ce qui nous est arrivé (et ce qu'on a fait), c'est un peu lié au passé. La gratitude, c'est recevoir le présent [aupa](word-aupa). La confiance, c'est recevoir le temps entier [augu](word-augu) (passé, présent, avenir), accepter le processus de vie.",
       "name": "pahau",
       "id": "word-pahau",
@@ -6721,7 +6707,7 @@
       "glo": "**tou.te.s**"
     },
     "word-pal": {
-      "def": "butt",
+      "noun": "butt",
       "name": "pal",
       "id": "word-pal",
       "type": "word",
@@ -6749,7 +6735,7 @@
       ]
     },
     "word-palaj": {
-      "def": "sun",
+      "noun": "sun",
       "etym": [
         "word-pal",
         "word-aj"
@@ -6766,7 +6752,7 @@
       ]
     },
     "word-palajil": {
-      "def": "apricot, July",
+      "noun": "apricot, July",
       "etym": [
         "word-palaj",
         "word-le"
@@ -6784,7 +6770,7 @@
       "glo": "apricot, July"
     },
     "word-kepal": {
-      "def": "anus",
+      "noun": "anus",
       "etym": [
         "word-ke",
         "word-pal"
@@ -6801,7 +6787,7 @@
       ]
     },
     "word-pan": {
-      "adj": "red",
+      "prop": "red",
       "see": [
         "card-colors"
       ],
@@ -6818,7 +6804,7 @@
       ]
     },
     "word-dudapan": {
-      "def": "fox",
+      "noun": "fox",
       "etym": [
         "word-doda",
         "word-pan"
@@ -6832,8 +6818,8 @@
       "glo": "fox"
     },
     "word-pana": {
-      "def": "understanding",
-      "verb": "to understand",
+      "noun": "understanding",
+      "action": "to understand",
       "etym": [
         "word-pa",
         "word-na"
@@ -6851,7 +6837,7 @@
       ]
     },
     "word-pasu": {
-      "verb": "to teach",
+      "action": "to teach",
       "etym": [
         "word-lapa",
         "word-sun"
@@ -6868,7 +6854,7 @@
       ]
     },
     "word-pasuna": {
-      "def": "teaching",
+      "noun": "teaching",
       "glo": "**teach**.THING",
       "etym": [
         "word-pasu",
@@ -6887,13 +6873,13 @@
     "word-pe": {
       "subj": "some",
       "glo": "they\\*.INDF",
-      "def": "3",
-      "suffix": "some",
+      "noun": "3",
+      "suff": "some",
       "see": [
         "word-moon",
         "card-count"
       ],
-      "posit": "two legs and a buttock (doggy style)",
+      "pos": "two legs and a buttock (doggy style)",
       "name": "pe",
       "id": "word-pe",
       "type": "word",
@@ -6913,9 +6899,9 @@
       ]
     },
     "word-ape": {
-      "def": "**someˣ**",
-      "prefix": "**to someone**",
-      "suffix": "**to someone**",
+      "noun": "**someˣ**",
+      "pref": "**to someone**",
+      "suff": "**to someone**",
       "etym": [
         "word-aS",
         "word-pe"
@@ -6932,7 +6918,7 @@
       "glo": "**someˣ**"
     },
     "word-peda": {
-      "def": "**some person**",
+      "noun": "**some person**",
       "glo": "**someone**",
       "etym": [
         "word-pe",
@@ -6952,7 +6938,7 @@
       ]
     },
     "word-pesen": {
-      "def": "**some place**",
+      "noun": "**some place**",
       "etym": [
         "word-pe",
         "word-sen"
@@ -6969,12 +6955,12 @@
       "glo": "**some place**"
     },
     "word-hamape": {
-      "def": "middle finger",
+      "noun": "middle finger",
       "etym": [
         "word-hama",
         "word-pe"
       ],
-      "posit": "(mun) indicated by thumb against middle finger",
+      "pos": "(mun) indicated by thumb against middle finger",
       "name": "hamape",
       "id": "word-hamape",
       "type": "word",
@@ -6984,8 +6970,8 @@
       "glo": "middle finger"
     },
     "word-nepe": {
-      "def": "limbo (forgetting \"pa\")",
-      "adj": "offensive",
+      "noun": "limbo (forgetting \"pa\")",
+      "prop": "offensive",
       "see": [
         "card-ganes",
         "card-nanes"
@@ -6999,8 +6985,8 @@
       "glo": "limbo (forgetting \"pa\")"
     },
     "word-peu": {
-      "def": "fear",
-      "verb": "to fear",
+      "noun": "fear",
+      "action": "to fear",
       "name": "peu",
       "id": "word-peu",
       "type": "word",
@@ -7016,7 +7002,7 @@
       ]
     },
     "word-agupeu": {
-      "def": "courage",
+      "noun": "courage",
       "etym": [
         "word-agu",
         "word-peu"
@@ -7031,10 +7017,10 @@
     },
     "word-pi": {
       "subj": "I (1SG)",
-      "adv": "ici, origine",
-      "def": "1, self",
+      "style": "ici, origine",
+      "noun": "1, self",
       "glo": "me",
-      "posit": "debout",
+      "pos": "debout",
       "see": [
         "word-pa"
       ],
@@ -7056,9 +7042,9 @@
       ]
     },
     "word-opi": {
-      "def": "**I**",
-      "prefix": "**my**",
-      "suffix": "**my**",
+      "noun": "**I**",
+      "pref": "**my**",
+      "suff": "**my**",
       "etym": [
         "word-oS",
         "word-pi"
@@ -7098,7 +7084,7 @@
       ]
     },
     "word-papi": {
-      "def": "sagesse (tout écho en soi)",
+      "noun": "sagesse (tout écho en soi)",
       "etym": [
         "word-pa",
         "word-pi"
@@ -7112,7 +7098,7 @@
       "glo": "sagesse (tout écho en soi)"
     },
     "word-pipa": {
-      "def": "innocence (soi partout)",
+      "noun": "innocence (soi partout)",
       "etym": [
         "word-pi",
         "word-pa"
@@ -7126,7 +7112,7 @@
       "glo": "innocence (soi partout)"
     },
     "word-pienu": {
-      "adj": "alone (I embroider)",
+      "prop": "alone (I embroider)",
       "etym": [
         "word-pi",
         "word-enu"
@@ -7140,7 +7126,7 @@
       "glo": "**alone (I embroider)**"
     },
     "word-aupi": {
-      "verb": "to love onself",
+      "action": "to love onself",
       "glo": "**heart**.self",
       "etym": [
         "word-au",
@@ -7154,7 +7140,7 @@
       "phon": "/aupi/"
     },
     "word-gupi": {
-      "verb": "to accept",
+      "action": "to accept",
       "etym": [
         "word-gu",
         "word-pi"
@@ -7172,8 +7158,8 @@
       "glo": "**to accept**"
     },
     "word-nepi": {
-      "def": "division",
-      "adj": "disembodied, fragmented",
+      "noun": "division",
+      "prop": "disembodied, fragmented",
       "see": [
         "card-ganes",
         "card-nanes"
@@ -7187,7 +7173,7 @@
       "glo": "division"
     },
     "word-djopi": {
-      "def": "soi proximal (soi profond, souvent le passé)",
+      "noun": "soi proximal (soi profond, souvent le passé)",
       "name": "djopi",
       "id": "word-djopi",
       "type": "word",
@@ -7197,7 +7183,7 @@
       "glo": "soi proximal (soi profond, souvent le passé)"
     },
     "word-hapi": {
-      "def": "soi distal (Grand Soi, Grande Sœur, Grand Frère, souvent le futur)",
+      "noun": "soi distal (Grand Soi, Grande Sœur, Grand Frère, souvent le futur)",
       "name": "hapi",
       "id": "word-hapi",
       "type": "word",
@@ -7220,7 +7206,7 @@
       "phon": "/piji/"
     },
     "word-pio": {
-      "def": "périnée, origine",
+      "noun": "périnée, origine",
       "name": "pio",
       "id": "word-pio",
       "type": "word",
@@ -7230,7 +7216,7 @@
       "glo": "périnée, origine"
     },
     "word-piu": {
-      "adj": "green",
+      "prop": "green",
       "see": [
         "card-colors"
       ],
@@ -7247,7 +7233,7 @@
       ]
     },
     "word-piuna": {
-      "def": "spinach, May",
+      "noun": "spinach, May",
       "etym": [
         "word-piu",
         "word-na"
@@ -7265,7 +7251,7 @@
       "glo": "spinach, May"
     },
     "word-piule": {
-      "def": "peas",
+      "noun": "peas",
       "etym": [
         "word-piu",
         "word-le"
@@ -7282,7 +7268,7 @@
       "glo": "peas"
     },
     "word-piutaj": {
-      "def": "leek, March",
+      "noun": "leek, March",
       "see": [
         "card-seasons",
         "card-food"
@@ -7296,7 +7282,7 @@
       "glo": "leek, March"
     },
     "word-pon": {
-      "adj": "orange (color)",
+      "prop": "orange (color)",
       "see": [
         "card-colors"
       ],
@@ -7312,7 +7298,7 @@
       ]
     },
     "word-pona": {
-      "def": "orange, November",
+      "noun": "orange, November",
       "etym": [
         "word-pon",
         "word-na"
@@ -7334,7 +7320,7 @@
       ]
     },
     "word-ponale": {
-      "def": "tangerine, December",
+      "noun": "tangerine, December",
       "etym": [
         "word-pona",
         "word-le"
@@ -7352,7 +7338,7 @@
       "glo": "tangerine, December"
     },
     "word-pu": {
-      "def": "couleur tomate",
+      "noun": "couleur tomate",
       "see": [
         "card-colors"
       ],
@@ -7365,7 +7351,7 @@
       "glo": "couleur tomate"
     },
     "word-pantame": {
-      "def": "tomato, August",
+      "noun": "tomato, August",
       "etym": [
         "word-pan",
         "word-tame"
@@ -7403,7 +7389,7 @@
       ]
     },
     "word-ram": {
-      "def": "épaule",
+      "noun": "épaule",
       "name": "ram",
       "id": "word-ram",
       "type": "word",
@@ -7413,8 +7399,8 @@
       "glo": "épaule"
     },
     "word-ri": {
-      "suffix": "out of (ELAT)",
-      "prefix": "outer",
+      "suff": "out of (ELAT)",
+      "pref": "outer",
       "glo": "ELAT",
       "see": [
         "word-ro",
@@ -7431,8 +7417,8 @@
       ]
     },
     "word-rigami": {
-      "adj": "modesty",
-      "verb": "to be shy",
+      "prop": "modesty",
+      "action": "to be shy",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Cranes_made_by_Origami_paper.jpg/330px-Cranes_made_by_Origami_paper.jpg",
       "imgpos": "50%",
       "name": "rigami",
@@ -7444,8 +7430,8 @@
       "glo": "**modesty**"
     },
     "word-ro": {
-      "suffix": "in (INESS)",
-      "prefix": "inner",
+      "suff": "in (INESS)",
+      "pref": "inner",
       "glo": "INESS",
       "see": [
         "word-ri",
@@ -7467,7 +7453,7 @@
       ]
     },
     "word-robaj": {
-      "def": "inner thighs",
+      "noun": "inner thighs",
       "etym": [
         "word-ro",
         "word-baj"
@@ -7481,9 +7467,9 @@
       "glo": "inner thighs"
     },
     "word-ru": {
-      "def": "creation (Sristi)",
-      "suffix": "to become",
-      "verb": "to emerge",
+      "noun": "creation (Sristi)",
+      "suff": "to become",
+      "action": "to emerge",
       "see": [
         "card-prep"
       ],
@@ -7512,7 +7498,7 @@
       ]
     },
     "word-runa": {
-      "def": "emergence (Krtya कृत्य)",
+      "noun": "emergence (Krtya कृत्य)",
       "etym": [
         "word-ru",
         "word-na"
@@ -7526,7 +7512,7 @@
       "glo": "emergence (Krtya कृत्य)"
     },
     "word-leiru": {
-      "def": "destiny",
+      "noun": "destiny",
       "etym": [
         "word-lei",
         "word-ru"
@@ -7544,7 +7530,7 @@
       ]
     },
     "word-leirui": {
-      "def": "fortune",
+      "noun": "fortune",
       "etym": [
         "word-leiru",
         "word-iC"
@@ -7558,8 +7544,8 @@
       "glo": "fortune"
     },
     "word-leiruo": {
-      "def": "misfortune",
-      "adv": "alas",
+      "noun": "misfortune",
+      "style": "alas",
       "etym": [
         "word-leiru",
         "word-oC"
@@ -7576,7 +7562,7 @@
       ]
     },
     "word-kuru": {
-      "verb": "to must",
+      "action": "to must",
       "etym": [
         "word-ku",
         "word-ru"
@@ -7594,7 +7580,7 @@
       ]
     },
     "word-nuru": {
-      "def": "apophenia",
+      "noun": "apophenia",
       "etym": [
         "word-nu",
         "word-ru"
@@ -7613,7 +7599,7 @@
       "glo": "apophenia"
     },
     "word-rum": {
-      "def": "arm",
+      "noun": "arm",
       "see": [
         "word-baj"
       ],
@@ -7630,7 +7616,7 @@
       ]
     },
     "word-harum": {
-      "def": "forearm",
+      "noun": "forearm",
       "name": "harum",
       "id": "word-harum",
       "type": "word",
@@ -7640,7 +7626,7 @@
       "glo": "forearm"
     },
     "word-djorum": {
-      "def": "upper arm",
+      "noun": "upper arm",
       "name": "djorum",
       "id": "word-djorum",
       "type": "word",
@@ -7650,7 +7636,7 @@
       "glo": "upper arm"
     },
     "word-rumi": {
-      "verb": "to hug",
+      "action": "to hug",
       "name": "rumi",
       "id": "word-rumi",
       "type": "word",
@@ -7660,7 +7646,7 @@
       "glo": "**to hug**"
     },
     "word-leirumi": {
-      "verb": "to embrace time, to live",
+      "action": "to embrace time, to live",
       "see": [
         "word-em"
       ],
@@ -7676,7 +7662,7 @@
       ]
     },
     "word-rumo": {
-      "verb": "to throw",
+      "action": "to throw",
       "etym": [
         "word-rum",
         "word-oC"
@@ -7694,7 +7680,7 @@
       ]
     },
     "word-sa": {
-      "def": "tool",
+      "noun": "tool",
       "name": "sa",
       "id": "word-sa",
       "type": "word",
@@ -7708,8 +7694,8 @@
       ]
     },
     "word-same": {
-      "def": "foot",
-      "posit": "standing",
+      "noun": "foot",
+      "pos": "standing",
       "desc": "\nNote that when saying \"left foot\" or \"right foot\", the terminal\n'e' is dropped:\n\n[23](phrase-23)",
       "name": "same",
       "id": "word-same",
@@ -7724,13 +7710,12 @@
       ],
       "phrases": [
         "phrase-23",
-        "phrase-23",
         "phrase-194",
         "phrase-195"
       ]
     },
     "word-samoda": {
-      "def": "hero",
+      "noun": "hero",
       "glo": "foot.person",
       "etym": [
         "word-same",
@@ -7744,7 +7729,7 @@
       "phon": "/samɔda/"
     },
     "word-fesame": {
-      "def": "socks",
+      "noun": "socks",
       "name": "fesame",
       "id": "word-fesame",
       "type": "word",
@@ -7754,7 +7739,7 @@
       "glo": "socks"
     },
     "word-hasame": {
-      "def": "toe",
+      "noun": "toe",
       "name": "hasame",
       "id": "word-hasame",
       "type": "word",
@@ -7764,7 +7749,7 @@
       "glo": "toe"
     },
     "word-josame": {
-      "def": "ankle",
+      "noun": "ankle",
       "name": "josame",
       "id": "word-josame",
       "type": "word",
@@ -7774,7 +7759,7 @@
       "glo": "ankle"
     },
     "word-se": {
-      "suffix": "left",
+      "suff": "left",
       "see": [
         "word-du",
         "word-we",
@@ -7786,13 +7771,13 @@
       "fulltext": "se",
       "writ": "సే",
       "phon": "/sɛ/",
-      "glo": "**left**",
+      "glo": "**undefined**",
       "deriv": [
         "word-hase"
       ]
     },
     "word-sen": {
-      "def": "here",
+      "noun": "here",
       "see": [
         "word-da"
       ],
@@ -7815,7 +7800,7 @@
     },
     "word-shaD": {
       "id": "word-shaD",
-      "def": "**hip**",
+      "noun": "**hip**",
       "see": [
         "word-shaP"
       ],
@@ -7832,9 +7817,9 @@
     },
     "word-shaP": {
       "id": "word-shaP",
-      "def": "**they\\***",
-      "prefix": "**their\\***",
-      "suffix": "**their\\***",
+      "noun": "**they\\***",
+      "pref": "**their\\***",
+      "suff": "**their\\***",
       "see": [
         "word-shaD",
         "card-subj"
@@ -7847,8 +7832,8 @@
       "glo": "**they\\***"
     },
     "word-shasha": {
-      "def": "**dance**",
-      "verb": "to dance",
+      "noun": "**dance**",
+      "action": "to dance",
       "etym": [
         "word-shaD",
         "word-shaD"
@@ -7866,7 +7851,7 @@
       ]
     },
     "word-she": {
-      "def": "air",
+      "noun": "air",
       "see": [
         "word-oto"
       ],
@@ -7887,7 +7872,7 @@
       ]
     },
     "word-shei": {
-      "verb": "to blow",
+      "action": "to blow",
       "etym": [
         "word-she",
         "word-iC"
@@ -7904,8 +7889,8 @@
       "glo": "**to blow**"
     },
     "word-sheu": {
-      "def": "nose",
-      "verb": "to breath",
+      "noun": "nose",
+      "action": "to breath",
       "etym": [
         "word-she",
         "word-u"
@@ -7929,7 +7914,7 @@
       ]
     },
     "word-sheulama": {
-      "def": "diving",
+      "noun": "diving",
       "etym": [
         "word-sheu",
         "word-lama"
@@ -7943,7 +7928,7 @@
       "glo": "diving"
     },
     "word-gosheu": {
-      "def": "pig",
+      "noun": "pig",
       "etym": [
         "word-go",
         "word-sheu"
@@ -7957,9 +7942,9 @@
       "glo": "pig"
     },
     "word-shi": {
-      "def": "**you\\***",
-      "prefix": "**your\\***",
-      "suffix": "**your\\***",
+      "noun": "**you\\***",
+      "pref": "**your\\***",
+      "suff": "**your\\***",
       "see": [
         "word-shi",
         "card-subj"
@@ -7973,7 +7958,7 @@
       "glo": "**you\\***"
     },
     "word-shipa": {
-      "def": "believing",
+      "noun": "believing",
       "see": [
         "card-ganes",
         "word-shifi",
@@ -7988,7 +7973,7 @@
       "glo": "believing"
     },
     "word-shifi": {
-      "adj": "learning",
+      "prop": "learning",
       "see": [
         "card-nanes",
         "word-shipa"
@@ -8002,9 +7987,9 @@
       "glo": "**learning**"
     },
     "word-sho": {
-      "def": "**we\\***",
-      "prefix": "**our\\***",
-      "suffix": "**our\\***",
+      "noun": "**we\\***",
+      "pref": "**our\\***",
+      "suff": "**our\\***",
       "see": [
         "card-subj"
       ],
@@ -8073,7 +8058,7 @@
     },
     "word-si": {
       "prep": "like, as if",
-      "prefix": "like",
+      "pref": "like",
       "see": [
         "card-prep",
         "word-esi"
@@ -8096,7 +8081,7 @@
       ]
     },
     "word-sigu": {
-      "adj": "dark (like a mystery)",
+      "prop": "dark (like a mystery)",
       "etym": [
         "word-si",
         "word-gu"
@@ -8127,8 +8112,8 @@
       "glo": "**so that**"
     },
     "word-so": {
-      "def": "earth",
-      "suffix": "down",
+      "noun": "earth",
+      "suff": "down",
       "see": [
         "word-al"
       ],
@@ -8141,7 +8126,7 @@
       "glo": "earth"
     },
     "word-soa": {
-      "def": "floor",
+      "noun": "floor",
       "see": [
         "word-al"
       ],
@@ -8159,7 +8144,7 @@
       ]
     },
     "word-lisoa": {
-      "def": "table",
+      "noun": "table",
       "etym": [
         "word-le",
         "word-soa"
@@ -8173,7 +8158,7 @@
       "glo": "table"
     },
     "word-soaji": {
-      "def": "grass",
+      "noun": "grass",
       "etym": [
         "word-soa",
         "word-ji"
@@ -8190,7 +8175,7 @@
       "glo": "grass"
     },
     "word-gosoa": {
-      "def": "mountain",
+      "noun": "mountain",
       "etym": [
         "word-go",
         "word-soa"
@@ -8210,7 +8195,7 @@
       ]
     },
     "word-sona": {
-      "def": "mother earth",
+      "noun": "mother earth",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Mother_Goddess%2C_Madhya_Pradesh_or_Rajasthan%2C_India%2C_6th_-_7th_cents.%2C_National_Museum_of_Korea%2C_Seoul_%2840236606165%29.jpg/330px-Mother_Goddess%2C_Madhya_Pradesh_or_Rajasthan%2C_India%2C_6th_-_7th_cents.%2C_National_Museum_of_Korea%2C_Seoul_%2840236606165%29.jpg",
       "desc": "\n[Mother goddess](https://en.wikipedia.org/wiki/Mother_goddess)\n  ",
       "see": [
@@ -8228,7 +8213,7 @@
       ]
     },
     "word-gusona": {
-      "def": "impermanence",
+      "noun": "impermanence",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Kali_by_Raja_Ravi_Varma.jpg/330px-Kali_by_Raja_Ravi_Varma.jpg",
       "desc": "\n[gusona](word-gusona) allows the unfolding of space through time, of life through\ndeath, of knowledge through experience. She is the mother goddess of [gu](word-gu).\n\nHer other name is **Kālī (काली)**, the Hindu goddess of Time, Creation,\nDestruction and Power.\n\nKali is the chief of the\n[Mahavidyas](https://en.wikipedia.org/wiki/Mahavidya), a group of ten Tantric\ngoddesses who each form a different aspect of the mother goddess [sona](word-sona).\n  ",
       "etym": [
@@ -8247,7 +8232,7 @@
       "glo": "impermanence"
     },
     "word-gisona": {
-      "def": "compassion",
+      "noun": "compassion",
       "name": "gisona",
       "id": "word-gisona",
       "type": "word",
@@ -8257,7 +8242,7 @@
       "glo": "compassion"
     },
     "word-pasona": {
-      "def": "mystery",
+      "noun": "mystery",
       "desc": "\nThis is the name of the Goddess Lalita (Tripura Sundari, Sati). She is the highest form of the ten aspects of [sona](word-sona) (Parvati).\n\nWith Sadasiva, she is the creator of the 5 Pancha-Krityas ([ru](word-ru)):\n\n* [ru](word-ru) Sristi or creation\n* [gi](word-gi) Sthithi or protection\n* [ne](word-ne) Samhara or destruction\n* [nugu](word-nugu) Thirodhana or concealment of the world in Maya\n* [gana](word-gana) Anugraha or final liberation\n",
       "see": [
         "card-ganes"
@@ -8271,7 +8256,7 @@
       "glo": "mystery"
     },
     "word-su": {
-      "verb": "to have",
+      "action": "to have",
       "see": [
         "word-wu"
       ],
@@ -8287,7 +8272,7 @@
       ]
     },
     "word-nesu": {
-      "verb": "to miss",
+      "action": "to miss",
       "etym": [
         "word-ne",
         "word-su"
@@ -8301,8 +8286,8 @@
       "glo": "**to miss**"
     },
     "word-sun": {
-      "def": "advice",
-      "verb": "to advice",
+      "noun": "advice",
+      "action": "to advice",
       "name": "sun",
       "id": "word-sun",
       "type": "word",
@@ -8316,9 +8301,9 @@
     },
     "word-aS": {
       "id": "word-aS",
-      "def": "**they¹**",
-      "prefix": "their",
-      "suffix": "their",
+      "noun": "**they¹**",
+      "pref": "their",
+      "suff": "their",
       "see": [
         "word-aC",
         "card-subj"
@@ -8342,7 +8327,7 @@
       ]
     },
     "word-ada": {
-      "def": "**they¹ self**",
+      "noun": "**they¹ self**",
       "glo": "**they¹**.self",
       "etym": [
         "word-aS",
@@ -8362,8 +8347,8 @@
       ]
     },
     "word-taj": {
-      "def": "penis",
-      "verb": "penis action",
+      "noun": "penis",
+      "action": "penis action",
       "etym": [
         "word-oto",
         "word-aj"
@@ -8390,7 +8375,7 @@
       ]
     },
     "word-tajin": {
-      "def": "erect penis",
+      "noun": "erect penis",
       "etym": [
         "word-taj",
         "word-in"
@@ -8404,7 +8389,7 @@
       "glo": "erect penis"
     },
     "word-tajegi": {
-      "def": "penis at rest",
+      "noun": "penis at rest",
       "etym": [
         "word-taj",
         "word-egi"
@@ -8418,7 +8403,7 @@
       "glo": "penis at rest"
     },
     "word-tajo": {
-      "verb": "to hit with a penis",
+      "action": "to hit with a penis",
       "etym": [
         "word-taj",
         "word-oC"
@@ -8432,7 +8417,7 @@
       "glo": "**to hit with a penis**"
     },
     "word-hataj": {
-      "def": "glans",
+      "noun": "glans",
       "etym": [
         "word-ha",
         "word-taj"
@@ -8449,7 +8434,7 @@
       ]
     },
     "word-tame": {
-      "def": "ball",
+      "noun": "ball",
       "name": "tame",
       "id": "word-tame",
       "type": "word",
@@ -8468,7 +8453,7 @@
       ]
     },
     "word-tan": {
-      "def": "sign",
+      "noun": "sign",
       "name": "tan",
       "id": "word-tan",
       "type": "word",
@@ -8484,8 +8469,8 @@
       ]
     },
     "word-tanom": {
-      "def": "meaning",
-      "verb": "to mean",
+      "noun": "meaning",
+      "action": "to mean",
       "etym": [
         "word-tan",
         "word-om"
@@ -8499,8 +8484,8 @@
       "glo": "meaning"
     },
     "word-tanada": {
-      "def": "script",
-      "verb": "to write",
+      "noun": "script",
+      "action": "to write",
       "etym": [
         "word-tan",
         "word-na"
@@ -8514,7 +8499,7 @@
       "glo": "script"
     },
     "word-tanale": {
-      "def": "letter",
+      "noun": "letter",
       "etym": [
         "word-tan",
         "word-le"
@@ -8528,7 +8513,7 @@
       "glo": "letter"
     },
     "word-fatan": {
-      "verb": "to read",
+      "action": "to read",
       "etym": [
         "word-fa",
         "word-tan"
@@ -8562,7 +8547,7 @@
       ]
     },
     "word-lire": {
-      "def": "**eventual future**",
+      "noun": "**eventual future**",
       "tens": "FUT.EVNT",
       "etym": [
         "word-lir",
@@ -8577,7 +8562,7 @@
       "glo": "**eventual future**"
     },
     "word-liru": {
-      "def": "**distant future**",
+      "noun": "**distant future**",
       "tens": "FUT.DIST",
       "etym": [
         "word-lir",
@@ -8592,7 +8577,7 @@
       "glo": "**distant future**"
     },
     "word-lira": {
-      "def": "**near future**",
+      "noun": "**near future**",
       "tens": "FUT.PROX",
       "etym": [
         "word-lir",
@@ -8607,7 +8592,7 @@
       "glo": "**near future**"
     },
     "word-liri": {
-      "def": "**tomorrow**",
+      "noun": "**tomorrow**",
       "tens": "FUT.CRAS",
       "etym": [
         "word-lir",
@@ -8627,7 +8612,7 @@
       ]
     },
     "word-liro": {
-      "def": "later today",
+      "noun": "later today",
       "tens": "FUT.HOD",
       "etym": [
         "word-lir",
@@ -8646,7 +8631,7 @@
       ]
     },
     "word-lemo": {
-      "def": "**earlier today**",
+      "noun": "**earlier today**",
       "tens": "PST.HOD",
       "etym": [
         "word-lem",
@@ -8661,7 +8646,7 @@
       "glo": "**earlier today**"
     },
     "word-lemi": {
-      "def": "**yesterday**",
+      "noun": "**yesterday**",
       "tens": "PST.HEST",
       "etym": [
         "word-lem",
@@ -8680,7 +8665,7 @@
       ]
     },
     "word-lema": {
-      "def": "**recent past**",
+      "noun": "**recent past**",
       "tens": "PST.PROX",
       "etym": [
         "word-lem",
@@ -8695,7 +8680,7 @@
       "glo": "**recent past**"
     },
     "word-lemu": {
-      "def": "**distant past**",
+      "noun": "**distant past**",
       "tens": "PST.DIST",
       "etym": [
         "word-lem",
@@ -8710,7 +8695,7 @@
       "glo": "**distant past**"
     },
     "word-leme": {
-      "def": "**eventual past**",
+      "noun": "**eventual past**",
       "tens": "PST.EVNT",
       "etym": [
         "word-lem",
@@ -8728,9 +8713,9 @@
       ]
     },
     "word-ti": {
-      "def": "**you¹**",
-      "prefix": "**your¹**",
-      "suffix": "**your¹**",
+      "noun": "**you¹**",
+      "pref": "**your¹**",
+      "suff": "**your¹**",
       "see": [
         "card-subj"
       ],
@@ -8768,7 +8753,7 @@
       ]
     },
     "word-ida": {
-      "def": "**you¹ self**",
+      "noun": "**you¹ self**",
       "glo": "**you¹**.self",
       "etym": [
         "word-ti",
@@ -8788,8 +8773,8 @@
       ]
     },
     "word-tio": {
-      "def": "genitals",
-      "verb": "faire l'amour",
+      "noun": "genitals",
+      "action": "faire l'amour",
       "name": "tio",
       "id": "word-tio",
       "type": "word",
@@ -8803,7 +8788,7 @@
       ]
     },
     "word-fatio": {
-      "def": "iris (fleur de l'oeil",
+      "noun": "iris (fleur de l'oeil",
       "etym": [
         "word-fa",
         "word-tio"
@@ -8817,7 +8802,7 @@
       "glo": "iris (fleur de l'oeil"
     },
     "word-tiona": {
-      "def": "flower (genital thing)",
+      "noun": "flower (genital thing)",
       "etym": [
         "word-tio",
         "word-na"
@@ -8832,9 +8817,9 @@
     },
     "word-oS": {
       "id": "word-oS",
-      "def": "**weˣ**",
-      "prefix": "**ourˣ**",
-      "suffix": "**ourˣ**",
+      "noun": "**weˣ**",
+      "pref": "**ourˣ**",
+      "suff": "**ourˣ**",
       "glo": "**weˣ**",
       "see": [
         "word-oC",
@@ -8858,7 +8843,7 @@
       ]
     },
     "word-tu": {
-      "def": "lae",
+      "noun": "lae",
       "glo": "lae.DET",
       "desc": "Express a reference to a previously mentioned noun.",
       "see": [
@@ -8876,7 +8861,7 @@
       ]
     },
     "word-u": {
-      "suffix": "pull",
+      "suff": "pull",
       "glo": "PULL (ALL)",
       "name": "u",
       "id": "word-u",
@@ -8909,7 +8894,7 @@
       ]
     },
     "word-uba": {
-      "verb": "run down",
+      "action": "run down",
       "name": "uba",
       "id": "word-uba",
       "type": "word",
@@ -8922,8 +8907,8 @@
       ]
     },
     "word-uka": {
-      "def": "order",
-      "verb": "to command",
+      "noun": "order",
+      "action": "to command",
       "name": "uka",
       "id": "word-uka",
       "type": "word",
@@ -8933,8 +8918,8 @@
       "glo": "order"
     },
     "word-uki": {
-      "adj": "long",
-      "suffix": "long",
+      "prop": "long",
+      "suff": "long",
       "see": [
         "word-iki"
       ],
@@ -8953,7 +8938,7 @@
       ]
     },
     "word-ukile": {
-      "def": "old",
+      "noun": "old",
       "etym": [
         "word-uki",
         "word-lei"
@@ -8967,8 +8952,8 @@
       "glo": "old"
     },
     "word-ulu": {
-      "def": "until",
-      "verb": "to have fun",
+      "noun": "until",
+      "action": "to have fun",
       "etym": [
         "word-u",
         "word-lu"
@@ -8986,7 +8971,7 @@
       ]
     },
     "word-uloda": {
-      "def": "clown",
+      "noun": "clown",
       "etym": [
         "word-ulu",
         "word-oda"
@@ -9000,7 +8985,7 @@
       "glo": "clown"
     },
     "word-ulul": {
-      "def": "asparagus, April",
+      "noun": "asparagus, April",
       "etym": [
         "word-ulu",
         "word-la"
@@ -9050,7 +9035,7 @@
       "glo": "**since**"
     },
     "word-wa": {
-      "def": "is",
+      "noun": "is",
       "glo": "TOP",
       "name": "wa",
       "id": "word-wa",
@@ -9065,7 +9050,7 @@
       ]
     },
     "word-we": {
-      "suffix": "right",
+      "suff": "right",
       "see": [
         "word-no",
         "word-se",
@@ -9077,14 +9062,14 @@
       "fulltext": "we",
       "writ": "వే",
       "phon": "/wɛ/",
-      "glo": "**right**",
+      "glo": "**undefined**",
       "deriv": [
         "word-hawe",
         "word-munwe"
       ]
     },
     "word-weis": {
-      "adj": "empty",
+      "prop": "empty",
       "name": "weis",
       "id": "word-weis",
       "type": "word",
@@ -9097,8 +9082,8 @@
       ]
     },
     "word-goweis": {
-      "def": "desolation",
-      "verb": "to desolate",
+      "noun": "desolation",
+      "action": "to desolate",
       "etym": [
         "word-go",
         "word-weis"
@@ -9115,7 +9100,7 @@
       ]
     },
     "word-wen": {
-      "def": "elbow",
+      "noun": "elbow",
       "name": "wen",
       "id": "word-wen",
       "type": "word",
@@ -9125,7 +9110,7 @@
       "glo": "elbow"
     },
     "word-wi": {
-      "adj": "prun (color)",
+      "prop": "prun (color)",
       "see": [
         "card-colors"
       ],
@@ -9141,7 +9126,7 @@
       ]
     },
     "word-wiyon": {
-      "def": "prune, September",
+      "noun": "prune, September",
       "etym": [
         "word-wi",
         "word-yon"
@@ -9160,7 +9145,7 @@
     },
     "word-wu": {
       "prep": "of",
-      "suffix": "of",
+      "suff": "of",
       "see": [
         "word-oS",
         "word-ti",
@@ -9192,7 +9177,7 @@
       "glo": "**who owns**"
     },
     "word-fawulama": {
-      "def": "poisson (yeux de la mer)",
+      "noun": "poisson (yeux de la mer)",
       "desc": "Voir aussi [awi](word-awi)",
       "name": "fawulama",
       "id": "word-fawulama",
@@ -9203,7 +9188,7 @@
       "glo": "poisson (yeux de la mer)"
     },
     "word-ya": {
-      "def": "night",
+      "noun": "night",
       "see": [
         "word-yo"
       ],
@@ -9230,7 +9215,7 @@
       ]
     },
     "word-yagi": {
-      "def": "goodnight",
+      "noun": "goodnight",
       "etym": [
         "word-ya",
         "word-gi"
@@ -9244,7 +9229,7 @@
       "glo": "goodnight"
     },
     "word-yaonagi": {
-      "def": "good evening",
+      "noun": "good evening",
       "etym": [
         "word-yaon",
         "word-gi"
@@ -9258,7 +9243,7 @@
       "glo": "good evening"
     },
     "word-iwa": {
-      "def": "owl",
+      "noun": "owl",
       "etym": [
         "word-iwi",
         "word-ya"
@@ -9272,7 +9257,7 @@
       "glo": "owl"
     },
     "word-yafa": {
-      "verb": "to dream",
+      "action": "to dream",
       "etym": [
         "word-ya",
         "word-fa"
@@ -9291,7 +9276,7 @@
       ]
     },
     "word-yadifa": {
-      "def": "dream",
+      "noun": "dream",
       "etym": [
         "word-ya",
         "word-di",
@@ -9306,7 +9291,7 @@
       "glo": "dream"
     },
     "word-teya": {
-      "def": "tonight",
+      "noun": "tonight",
       "etym": [
         "word-ten",
         "word-ya"
@@ -9320,7 +9305,7 @@
       "glo": "tonight"
     },
     "word-peya": {
-      "def": "some night",
+      "noun": "some night",
       "etym": [
         "word-pe",
         "word-ya"
@@ -9334,7 +9319,7 @@
       "glo": "some night"
     },
     "word-liraya": {
-      "def": "tomorrow night",
+      "noun": "tomorrow night",
       "etym": [
         "word-liri",
         "word-ya"
@@ -9348,7 +9333,7 @@
       "glo": "tomorrow night"
     },
     "word-lemaya": {
-      "def": "night before",
+      "noun": "night before",
       "etym": [
         "word-lemi",
         "word-ya"
@@ -9362,7 +9347,7 @@
       "glo": "night before"
     },
     "word-yada": {
-      "def": "**night body**",
+      "noun": "**night body**",
       "etym": [
         "word-ya",
         "word-oda"
@@ -9377,7 +9362,7 @@
       "glo": "**night body**"
     },
     "word-yaj": {
-      "def": "clitoris, gland (joie en feu)",
+      "noun": "clitoris, gland (joie en feu)",
       "etym": [
         "word-yu",
         "word-aj"
@@ -9396,7 +9381,7 @@
       ]
     },
     "word-yajin": {
-      "def": "gland froid, au repos",
+      "noun": "gland froid, au repos",
       "etym": [
         "word-yaj",
         "word-in"
@@ -9410,9 +9395,9 @@
       "glo": "gland froid, au repos"
     },
     "word-yi": {
-      "def": "**innoncence**",
-      "adj": "tiny",
-      "suffix": "tiny",
+      "noun": "**innoncence**",
+      "prop": "tiny",
+      "suff": "tiny",
       "name": "yi",
       "id": "word-yi",
       "type": "word",
@@ -9432,9 +9417,9 @@
       ]
     },
     "word-oyi": {
-      "def": "**weˣ tiny**",
-      "prefix": "ourˣ tiny",
-      "suffix": "ourˣ tiny",
+      "noun": "**weˣ tiny**",
+      "pref": "ourˣ tiny",
+      "suff": "ourˣ tiny",
       "glo": "**weˣ**.DIM",
       "etym": [
         "word-ti",
@@ -9451,9 +9436,9 @@
       "phon": "/ɔji/"
     },
     "word-iyi": {
-      "def": "**you¹ tiny**",
-      "prefix": "your¹ tiny",
-      "suffix": "your¹ tiny",
+      "noun": "**you¹ tiny**",
+      "pref": "your¹ tiny",
+      "suff": "your¹ tiny",
       "glo": "**you¹**.DIM",
       "etym": [
         "word-ti",
@@ -9470,9 +9455,9 @@
       "phon": "/iji/"
     },
     "word-ayi": {
-      "def": "**they¹ tiny**",
-      "prefix": "their¹ tiny",
-      "suffix": "their¹ tiny",
+      "noun": "**they¹ tiny**",
+      "pref": "their¹ tiny",
+      "suff": "their¹ tiny",
       "glo": "**they¹**.DIM",
       "etym": [
         "word-aS",
@@ -9489,9 +9474,9 @@
       "phon": "/aji/"
     },
     "word-shoyi": {
-      "def": "**we\\* tiny**",
-      "prefix": "our* tiny",
-      "suffix": "our* tiny",
+      "noun": "**we\\* tiny**",
+      "pref": "our* tiny",
+      "suff": "our* tiny",
       "glo": "**we\\***.DIM",
       "etym": [
         "word-sho",
@@ -9508,9 +9493,9 @@
       "phon": "/ʃɔji/"
     },
     "word-shiyi": {
-      "def": "**you\\* tiny**",
-      "prefix": "your tiny*",
-      "suffix": "your tiny*",
+      "noun": "**you\\* tiny**",
+      "pref": "your tiny*",
+      "suff": "your tiny*",
       "glo": "**you\\***.DIM",
       "etym": [
         "word-sho",
@@ -9527,9 +9512,9 @@
       "phon": "/ʃiji/"
     },
     "word-shayi": {
-      "def": "**they\\* tiny**",
-      "prefix": "their tiny*",
-      "suffix": "their tiny*",
+      "noun": "**they\\* tiny**",
+      "pref": "their tiny*",
+      "suff": "their tiny*",
       "glo": "**they\\***.DIM",
       "etym": [
         "word-sho",
@@ -9546,7 +9531,7 @@
       "phon": "/ʃaji/"
     },
     "word-yile": {
-      "def": "young",
+      "noun": "young",
       "etym": [
         "word-yi",
         "word-lei"
@@ -9563,7 +9548,7 @@
       ]
     },
     "word-yida": {
-      "def": "**tiny person**",
+      "noun": "**tiny person**",
       "etym": [
         "word-yi",
         "word-da"
@@ -9580,7 +9565,7 @@
       ]
     },
     "word-yin": {
-      "def": "vagina",
+      "noun": "vagina",
       "etym": [
         "word-yu",
         "word-in"
@@ -9600,7 +9585,7 @@
       ]
     },
     "word-yinu": {
-      "verb": "grasp with the vagina",
+      "action": "grasp with the vagina",
       "glo": "vagina.PULL",
       "etym": [
         "word-yin",
@@ -9617,7 +9602,7 @@
       ]
     },
     "word-yo": {
-      "def": "daytime",
+      "noun": "daytime",
       "see": [
         "word-ya"
       ],
@@ -9638,7 +9623,7 @@
       ]
     },
     "word-yogi": {
-      "def": "Sweet day (salutation)",
+      "noun": "Sweet day (salutation)",
       "etym": [
         "word-yo",
         "word-gi"
@@ -9655,7 +9640,7 @@
       "glo": "Sweet day (salutation)"
     },
     "word-yohonagi": {
-      "def": "Sweet dawn",
+      "noun": "Sweet dawn",
       "etym": [
         "word-yohon",
         "word-gi"
@@ -9669,7 +9654,7 @@
       "glo": "Sweet dawn"
     },
     "word-teyo": {
-      "def": "today",
+      "noun": "today",
       "see": [
         "word-ten",
         "word-yo"
@@ -9683,7 +9668,7 @@
       "glo": "today"
     },
     "word-peyo": {
-      "def": "someday",
+      "noun": "someday",
       "etym": [
         "word-pe",
         "word-yo"
@@ -9700,7 +9685,7 @@
       ]
     },
     "word-lirayo": {
-      "def": "tomorrow",
+      "noun": "tomorrow",
       "etym": [
         "word-liri",
         "word-yo"
@@ -9714,7 +9699,7 @@
       "glo": "tomorrow"
     },
     "word-lemayo": {
-      "def": "yesterday",
+      "noun": "yesterday",
       "etym": [
         "word-lemi",
         "word-yo"
@@ -9728,7 +9713,7 @@
       "glo": "yesterday"
     },
     "word-yon": {
-      "def": "vulva",
+      "noun": "vulva",
       "etym": [
         "word-yu",
         "word-on"
@@ -9761,7 +9746,7 @@
       ]
     },
     "word-riyon": {
-      "def": "peripheral lips",
+      "noun": "peripheral lips",
       "etym": [
         "word-ri",
         "word-yon"
@@ -9775,7 +9760,7 @@
       "glo": "peripheral lips"
     },
     "word-royon": {
-      "def": "central lips of the vulva",
+      "noun": "central lips of the vulva",
       "etym": [
         "word-ro",
         "word-yon"
@@ -9789,7 +9774,7 @@
       "glo": "central lips of the vulva"
     },
     "word-yonin": {
-      "def": "hot vulva, erect",
+      "noun": "hot vulva, erect",
       "etym": [
         "word-yon",
         "word-in"
@@ -9803,7 +9788,7 @@
       "glo": "hot vulva, erect"
     },
     "word-yonegi": {
-      "def": "cold vulva, sleeping",
+      "noun": "cold vulva, sleeping",
       "etym": [
         "word-yon",
         "word-egi"
@@ -9817,7 +9802,7 @@
       "glo": "cold vulva, sleeping"
     },
     "word-keyon": {
-      "def": "clitoris",
+      "noun": "clitoris",
       "see": [
         "word-yoneri"
       ],
@@ -9834,7 +9819,7 @@
       "glo": "clitoris"
     },
     "word-feyon": {
-      "def": "panties",
+      "noun": "panties",
       "etym": [
         "word-fe",
         "word-yon"
@@ -9851,8 +9836,8 @@
       ]
     },
     "word-yu": {
-      "def": "joy",
-      "adj": "joyful",
+      "noun": "joy",
+      "prop": "joyful",
       "name": "yu",
       "id": "word-yu",
       "type": "word",
@@ -9870,7 +9855,7 @@
       ]
     },
     "word-eyu": {
-      "def": "maybe",
+      "noun": "maybe",
       "prep": "if",
       "etym": [
         "word-e",
@@ -9885,7 +9870,7 @@
       "glo": "maybe"
     },
     "word-yuina": {
-      "def": "fruit",
+      "noun": "fruit",
       "etym": [
         "word-yu",
         "word-in",
@@ -9903,8 +9888,8 @@
       ]
     },
     "word-zu": {
-      "def": "heart",
-      "verb": "to love",
+      "noun": "heart",
+      "action": "to love",
       "see": [
         "word-au"
       ],
@@ -9936,7 +9921,7 @@
       ]
     },
     "word-zuzu": {
-      "verb": "to make love",
+      "action": "to make love",
       "see": [
         "word-auau",
         "word-kude"
@@ -9958,7 +9943,7 @@
       ]
     },
     "word-zunes": {
-      "def": "love",
+      "noun": "love",
       "etym": [
         "word-zu",
         "word-nes"
@@ -10081,7 +10066,7 @@
     "card-ganes": {
       "writ": "ganes",
       "phon": "",
-      "def": "scale of ga",
+      "noun": "scale of ga",
       "lang": "states of consciousness",
       "see": [
         "card-nanes",
@@ -10141,7 +10126,7 @@
     "card-nanes": {
       "writ": "nanes",
       "phon": "",
-      "def": "scale of na",
+      "noun": "scale of na",
       "lang": "states of practicality",
       "see": [
         "card-ganes",

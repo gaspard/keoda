@@ -1,5 +1,5 @@
 import * as _ from '.'
 
 export const nes = _.word('nes', {
-  def: 'magnitude, is-ness',
+  noun: 'magnitude, is-ness',
 })

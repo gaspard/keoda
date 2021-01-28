@@ -2,9 +2,9 @@ import * as _ from '.'
 
 export const ha = _.word('ha', {
   prep: 'up',
-  def: 'head',
-  adj: 'far',
-  prefix: 'top or distal',
+  noun: 'head',
+  prop: 'far',
+  pref: 'top or distal',
   see: () => [_.jo],
 })
 _.see(_.hama)
@@ -23,50 +23,50 @@ export const iohaftarkepal = _.example(
 )
 
 export const duha = _.word('duha', {
-  def: 'face',
+  noun: 'face',
   etym: () => [_.du, _.ha],
 })
 
 export const duhasha = _.word('duhasha', {
-  verb: 'to laugh',
+  action: 'to laugh',
   etym: () => [_.duha, _.shaH],
 })
 
 export const hawe = _.word('hawe', {
-  def: 'right cheek',
+  noun: 'right cheek',
   etym: () => [_.ha, _.we],
 })
 
 export const hase = _.word('hase', {
-  def: 'left cheek',
+  noun: 'left cheek',
   etym: () => [_.ha, _.se],
 })
 
 export const noha = _.word('noha', {
-  def: 'occiput (back of the head)',
+  noun: 'occiput (back of the head)',
   etym: () => [_.no, _.ha],
 })
 
 export const hada = _.word('hada', {
-  def: 'parent',
+  noun: 'parent',
   etym: () => [_.ha, _.oda],
   see: () => [_.family],
 })
 
 export const hana = _.word('hana', {
-  def: 'mother',
+  noun: 'mother',
   etym: () => [_.ha, _.ana],
   see: () => [_.family],
 })
 
 export const hawi = _.word('hawi', {
-  def: 'enby parent',
+  noun: 'enby parent',
   etym: () => [_.ha, _.iwi],
   see: () => [_.family],
 })
 
 export const hato = _.word('hato', {
-  def: 'father',
+  noun: 'father',
   see: () => [_.duto, _.noto, _.ha],
 })
 

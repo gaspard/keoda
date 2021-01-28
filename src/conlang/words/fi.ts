@@ -1,23 +1,23 @@
 import * as _ from '.'
 
 export const fi = _.word('fi', {
-  def: 'thread',
-  verb: 'to connect',
+  noun: 'thread',
+  action: 'to connect',
   see: () => [_.pa],
 })
 
 export const fishasha = _.word('fishasha', {
-  verb: 'to sew',
+  action: 'to sew',
   etym: () => [_.fi, _.shasha],
 })
 
 export const gufishasha = _.word('gufishasha', {
-  verb: 'to sew life, connect things out of causal time',
+  action: 'to sew life, connect things out of causal time',
   etym: () => [_.gufi, _.shasha],
 })
 
 export const gufi = _.word('gufi', {
-  def: 'thread of life',
+  noun: 'thread of life',
   etym: () => [_.gu, _.fi],
 })
 

@@ -1,13 +1,13 @@
 import * as _ from '.'
 
 export const aj = _.word('aj', {
-  def: '**fire** (dopamine, serotonine)',
-  verb: 'to burn',
+  noun: '**fire** (dopamine, serotonine)',
+  action: 'to burn',
 })
 
 export const ajapi = _.word('ajapi', {
-  def: '**self-burn** (initiation)',
-  verb: 'to burn the self',
+  noun: '**self-burn** (initiation)',
+  action: 'to burn the self',
   see: () => [_.iwigui],
 })
 

@@ -1,22 +1,22 @@
 import * as _ from '.'
 
 export const baj = _.word('baj', {
-  def: '**lower limb**',
+  noun: '**lower limb**',
   see: () => [_.rum],
 })
 
 export const djobaj = _.word('djobaj', {
-  def: '**thigh**',
+  noun: '**thigh**',
   etym: () => [_.jo, _.baj],
 })
 
 export const habaj = _.word('habaj', {
-  def: '**leg**',
+  noun: '**leg**',
   etym: () => [_.ha, _.baj],
 })
 
 export const kebaj = _.word('kebaj', {
-  def: '**testicles**',
+  noun: '**testicles**',
   etym: () => [_.ke, _.baj],
 })
 

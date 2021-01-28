@@ -2,9 +2,9 @@ import * as _ from '.'
 
 export const oS = _.word('o', {
   id: 'oS',
-  def: '**weˣ**',
-  prefix: '**ourˣ**',
-  suffix: '**ourˣ**',
+  noun: '**weˣ**',
+  pref: '**ourˣ**',
+  suff: '**ourˣ**',
   glo: '**weˣ**',
   see: () => [_.oC, _.subj],
 })

@@ -2,14 +2,14 @@ import * as _ from '.'
 
 export const aS = _.word('a', {
   id: 'aS',
-  def: '**they¹**',
-  prefix: 'their',
-  suffix: 'their',
+  noun: '**they¹**',
+  pref: 'their',
+  suff: 'their',
   see: () => [_.aC, _.subj],
 })
 
 export const ada = _.word('ada', {
-  def: '**they¹ self**',
+  noun: '**they¹ self**',
   glo: '**they1**.self',
   etym: () => [_.aS, _.da],
   see: () => [_.subj],

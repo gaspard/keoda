@@ -2,12 +2,12 @@ import * as _ from '.'
 
 export const si = _.word('si', {
   prep: 'like, as if',
-  prefix: 'like',
+  pref: 'like',
   see: () => [_.prep, _.esi],
 })
 
 export const sigu = _.word('sigu', {
-  adj: 'dark (like a mystery)',
+  prop: 'dark (like a mystery)',
   etym: () => [_.si, _.gu],
 })
 

@@ -3,8 +3,8 @@ import * as _ from '.'
 // i case
 export const iC = _.word('i', {
   id: 'iC',
-  def: '**caress**',
-  suffix: 'caress',
+  noun: '**caress**',
+  suff: 'caress',
   subj: 'you (2SG)',
   glo: 'CARE',
   see: () => [_.iS, _.verbs],

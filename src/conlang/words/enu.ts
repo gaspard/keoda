@@ -1,8 +1,8 @@
 import * as _ from '.'
 
 export const enu = _.word('enu', {
-  def: '**embroidery**',
-  verb: 'to embroider',
+  noun: '**embroidery**',
+  action: 'to embroider',
 })
 
 // === alt

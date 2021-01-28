@@ -1,9 +1,9 @@
 import * as _ from '.'
 
 export const fen = _.word('fen', {
-  def: 'knee',
-  posit: 'kneeling',
-  verb: 'to walk',
+  noun: 'knee',
+  pos: 'kneeling',
+  action: 'to walk',
 })
 
 export const afen = _.alt('afen', {

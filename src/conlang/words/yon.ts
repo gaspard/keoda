@@ -1,32 +1,32 @@
 import * as _ from '.'
 
 export const yon = _.word('yon', {
-  def: 'vulva',
+  noun: 'vulva',
   etym: () => [_.yu, _.on],
 })
 
 export const riyon = _.word('riyon', {
-  def: 'peripheral lips',
+  noun: 'peripheral lips',
   etym: () => [_.ri, _.yon],
 })
 
 export const royon = _.word('royon', {
-  def: 'central lips of the vulva',
+  noun: 'central lips of the vulva',
   etym: () => [_.ro, _.yon],
 })
 export const yonin = _.word('yonin', {
-  def: 'hot vulva, erect',
+  noun: 'hot vulva, erect',
   etym: () => [_.yon, _.in],
 })
 export const yonegi = _.word('yonegi', {
-  def: 'cold vulva, sleeping',
+  noun: 'cold vulva, sleeping',
   etym: () => [_.yon, _.egi],
 })
 
 _.see(_.genitals)
 
 export const keyon = _.word('keyon', {
-  def: 'clitoris',
+  noun: 'clitoris',
   see: () => [_.yoneri],
   etym: () => [_.ke, _.yon],
 })
@@ -34,7 +34,7 @@ export const keyon = _.word('keyon', {
 export const mukeyon = _.example([_.mu, _.keyon], `Pince-moi le clitoris.`)
 
 export const feyon = _.word('feyon', {
-  def: 'panties',
+  noun: 'panties',
   etym: () => [_.fe, _.yon],
 })
 

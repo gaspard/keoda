@@ -1,72 +1,72 @@
 import * as _ from '.'
 
 export const yi = _.word('yi', {
-  def: '**innoncence**',
-  adj: 'tiny',
-  suffix: 'tiny',
+  noun: '**innoncence**',
+  prop: 'tiny',
+  suff: 'tiny',
 })
 
 export const oyi = _.word('oyi', {
-  def: '**weˣ tiny**',
-  prefix: 'ourˣ tiny',
-  suffix: 'ourˣ tiny',
+  noun: '**weˣ tiny**',
+  pref: 'ourˣ tiny',
+  suff: 'ourˣ tiny',
   glo: '**weˣ**.DIM',
   etym: () => [_.iS, _.yi],
   see: () => [_.subj],
 })
 
 export const iyi = _.word('iyi', {
-  def: '**you¹ tiny**',
-  prefix: 'your¹ tiny',
-  suffix: 'your¹ tiny',
+  noun: '**you¹ tiny**',
+  pref: 'your¹ tiny',
+  suff: 'your¹ tiny',
   glo: '**you1**.DIM',
   etym: () => [_.iS, _.yi],
   see: () => [_.subj],
 })
 
 export const ayi = _.word('ayi', {
-  def: '**they¹ tiny**',
-  prefix: 'their¹ tiny',
-  suffix: 'their¹ tiny',
+  noun: '**they¹ tiny**',
+  pref: 'their¹ tiny',
+  suff: 'their¹ tiny',
   glo: '**they1**.DIM',
   etym: () => [_.aS, _.yi],
   see: () => [_.subj],
 })
 
 export const shoyi = _.word('shoyi', {
-  def: '**we\\* tiny**',
-  prefix: 'our* tiny',
-  suffix: 'our* tiny',
+  noun: '**we\\* tiny**',
+  pref: 'our* tiny',
+  suff: 'our* tiny',
   glo: '**we\\***.DIM',
   etym: () => [_.sho, _.yi],
   see: () => [_.subj],
 })
 
 export const shiyi = _.word('shiyi', {
-  def: '**you\\* tiny**',
-  prefix: 'your tiny*',
-  suffix: 'your tiny*',
+  noun: '**you\\* tiny**',
+  pref: 'your tiny*',
+  suff: 'your tiny*',
   glo: '**you\\***.DIM',
   etym: () => [_.sho, _.yi],
   see: () => [_.subj],
 })
 
 export const shayi = _.word('shayi', {
-  def: '**they\\* tiny**',
-  prefix: 'their tiny*',
-  suffix: 'their tiny*',
+  noun: '**they\\* tiny**',
+  pref: 'their tiny*',
+  suff: 'their tiny*',
   glo: '**they\\***.DIM',
   etym: () => [_.sho, _.yi],
   see: () => [_.subj],
 })
 
 export const yile = _.word('yile', {
-  def: 'young',
+  noun: 'young',
   etym: () => [_.yi, _.lei],
 })
 
 export const yida = _.word('yida', {
-  def: '**tiny person**',
+  noun: '**tiny person**',
   etym: () => [_.yi, _.da],
 })
 

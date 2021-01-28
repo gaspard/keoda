@@ -1,8 +1,8 @@
 import * as _ from '.'
 
 export const noa = _.word('noa', {
-  def: 'skin',
-  verb: 'to touch',
+  noun: 'skin',
+  action: 'to touch',
 })
 
 export const noatim = _.alt('noatim', {

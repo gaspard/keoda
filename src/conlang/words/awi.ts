@@ -1,20 +1,20 @@
 import * as _ from '.'
 
 export const awi = _.word('awi', {
-  def: '**fish**',
-  verb: 'to shine, to appear',
-  adj: 'beautiful',
+  noun: '**fish**',
+  action: 'to shine, to appear',
+  prop: 'beautiful',
   see: () => [_.fawulama],
 })
 
 export const mawi = _.word('mawi', {
-  def: '**dolphin**',
+  noun: '**dolphin**',
   etym: () => [_.mun, _.awi],
 })
 
 export const awiu = _.word('awiu', {
-  def: '**fin**',
-  verb: 'to swim',
+  noun: '**fin**',
+  action: 'to swim',
   etym: () => [_.awi, _.u],
 })
 

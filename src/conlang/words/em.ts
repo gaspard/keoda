@@ -1,13 +1,13 @@
 import * as _ from '.'
 
 export const em = _.word('em', {
-  suffix: 'lived',
-  verb: 'to live',
+  suff: 'lived',
+  action: 'to live',
 })
 
 export const nem = _.word('nem', {
-  def: 'death',
-  verb: 'to die, to make dead',
+  noun: 'death',
+  action: 'to die, to make dead',
   etym: () => [_.ne, _.em],
 })
 

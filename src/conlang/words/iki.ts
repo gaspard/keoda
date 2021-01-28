@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const iki = _.word('iki', {
-  adj: 'court',
-  suffix: 'court',
+  prop: 'court',
+  suff: 'court',
   see: () => [_.uki, _.count],
 })

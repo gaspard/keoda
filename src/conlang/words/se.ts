@@ -1,12 +1,12 @@
 import * as _ from '.'
 
 export const se = _.word('se', {
-  suffix: 'left',
+  suff: 'left',
   see: () => [_.du, _.we, _.no],
 })
 
 export const sen = _.word('sen', {
-  def: 'here',
+  noun: 'here',
   see: () => [_.da],
 })
 

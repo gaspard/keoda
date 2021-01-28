@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const lu = _.word('lu', {
   prep: 'while',
-  prefix: 'continuous (CONT)',
+  pref: 'continuous (CONT)',
   glo: 'while',
   desc: () => `
 This prefix comes after accord to the subject (unlike ${_.es}):
@@ -12,6 +12,6 @@ This prefix comes after accord to the subject (unlike ${_.es}):
 })
 
 export const lulei = _.word('lulei', {
-  def: 'until',
+  noun: 'until',
   etym: () => [_.lu, _.lei],
 })

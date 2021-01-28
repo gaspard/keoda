@@ -1,9 +1,9 @@
 import * as _ from '.'
 
 export const fe = _.word('fe', {
-  def: '7',
-  prefix: 'on (SUPESS)',
-  verb: 'to cover, to be on top',
+  noun: '7',
+  pref: 'on (SUPESS)',
+  action: 'to cover, to be on top',
   glo: 'SUPESS',
   desc: () => `
 ${_.phrase('I like your nakedness.', _.ozu, _.nefenesti)}
@@ -12,24 +12,24 @@ ${_.phrase('I like your nakedness.', _.ozu, _.nefenesti)}
 })
 
 export const fena = _.word('fena', {
-  def: 'cabbage, February',
-  adj: 'layers',
+  noun: 'cabbage, February',
+  prop: 'layers',
   etym: () => [_.fe, _.na],
   see: () => [_.seasons, _.food],
 })
 
 export const feo = _.word('feo', {
-  adv: 'sur moi',
+  style: 'sur moi',
 })
 
 export const feoda = _.word('feoda', {
-  def: 'clothes',
+  noun: 'clothes',
   etym: () => [_.fe, _.oda],
 })
 
 export const nefe = _.word('nefe', {
-  adj: 'naked',
-  verb: 'to uncover/undress',
+  prop: 'naked',
+  action: 'to uncover/undress',
   exam: () => [
     _.phraseX('Undress !', _.nefe),
     _.phraseX('Remove your clothes !', _.ne, _.feodatim),
@@ -38,12 +38,12 @@ export const nefe = _.word('nefe', {
 })
 
 export const fepa = _.word('fepa', {
-  def: 'pride',
+  noun: 'pride',
   see: () => [_.ganes, _.fefi],
 })
 
 export const fefi = _.word('fefi', {
-  adj: 'adapting',
+  prop: 'adapting',
   see: () => [_.nanes, _.fepa],
 })
 

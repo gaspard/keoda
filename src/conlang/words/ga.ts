@@ -1,12 +1,12 @@
 import * as _ from '.'
 
 export const ga = _.word('ga', {
-  def: 'spirit',
+  noun: 'spirit',
   see: () => [_.gu],
 })
 
 export const gana = _.word('gana', {
-  def: '**earth** (Anugraha)',
+  noun: '**earth** (Anugraha)',
   etym: () => [_.ga, _.na],
   see: () => [_.nugu],
 })
@@ -17,8 +17,8 @@ export const ganaro = _.alt('ganaro', {
 })
 
 export const gai = _.word('gai', {
-  def: 'consciousness\nrain',
-  verb: 'to rain',
+  noun: 'consciousness\nrain',
+  action: 'to rain',
   img:
     'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Falling_rain_in_mexico.jpg/330px-Falling_rain_in_mexico.jpg',
   imgpos: '50%',
@@ -40,26 +40,26 @@ export const gauma = _.example(
 )
 
 export const kegai = _.word('kegai', {
-  def: 'god',
+  noun: 'god',
   etym: () => [_.ke, _.gai],
   see: () => [_.gau],
 })
 
 export const gau = _.word('gau', {
-  def: 'attention',
+  noun: 'attention',
   etym: () => [_.gau, _.u],
   see: () => [_.gai],
 })
 
 export const kuga = _.word('kuga', {
-  def: 'causal thinking, victimhood',
+  noun: 'causal thinking, victimhood',
   etym: () => [_.ku, _.ga],
 })
 
 export const nega = _.word('nega', {
-  def: 'crazy',
+  noun: 'crazy',
   glo: 'crazy',
-  adv: 'crazily',
+  style: 'crazily',
   etym: () => [_.ne, _.ga],
 })
 

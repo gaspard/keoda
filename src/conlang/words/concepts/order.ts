@@ -1,7 +1,7 @@
 import * as _ from '..'
 
 export const Jane = _.word('Jane', {
-  def: 'Jane',
+  noun: 'Jane',
   phon: '/dʒan/',
   writ: 'జాఁ',
 })
@@ -25,7 +25,7 @@ export const niJane = _.alt('niJane', {
 })
 
 export const John = _.word('John', {
-  def: 'John',
+  noun: 'John',
   phon: '/dʒɔn/',
   writ: 'జోఁ',
 })

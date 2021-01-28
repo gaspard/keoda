@@ -1,12 +1,12 @@
 import * as _ from '.'
 
 export const peu = _.word('peu', {
-  def: 'fear',
-  verb: 'to fear',
+  noun: 'fear',
+  action: 'to fear',
 })
 
 export const agupeu = _.word('agupeu', {
-  def: 'courage',
+  noun: 'courage',
   etym: () => [_.agu, _.peu],
 })
 

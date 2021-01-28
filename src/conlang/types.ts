@@ -8,19 +8,26 @@ export interface Example {
 export interface EntryInfo {
   // https://www.eva.mpg.de/lingua/resources/glossing-rules.php
   glo: string
-  def: string
-  verb: string
-  adj: string
-  det: string
+  // TRY TO USE KEYS REFLECTING FUNCTION (NOT FORM)
+  noun: string
+  // as a property modifier
+  prop: string
+  // as an action
+  action: string
+  // as an action modifier
+  style: string
+  pos: string
+  // Ho to treat these two ?
+  pref: string
+  suff: string
+  // TO BE REMOVED I THINK (we have cards for this)
   subj: string
-  prefix: string
-  suffix: string
+  det: string
   prep: string
   pron: string
   tens: string
   lang: string
-  posit: string
-  adv: string
+  // INTERNAL
   writ: string
   phon: string
   phrases: string[]
@@ -52,24 +59,22 @@ export interface FullEntry extends EntryInfo {
 }
 
 export const FULLTEXT_KEYS: (keyof EntryInfo)[] = [
-  'def',
-  'verb',
+  'noun', // noun
+  'action',
   'subj',
-  'adj',
+  'prop', // property concept modifier
+  'style', // action concept modifier
   'det',
-  'prefix',
-  'suffix',
   'prep',
   'pron',
   'tens',
   'lang',
-  'posit',
-  'adv',
+  'pos',
   'person',
 ]
 
 export const DEF_KEYS: (keyof CompiledEntry)[] = [
-  ...FULLTEXT_KEYS.filter(k => k !== 'def'),
+  ...FULLTEXT_KEYS.filter(k => k !== 'noun'),
   'deriv',
   'see',
 ]

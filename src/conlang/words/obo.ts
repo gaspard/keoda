@@ -1,11 +1,11 @@
 import * as _ from '.'
 
 export const obo = _.word('obo', {
-  def: 'pubis',
+  noun: 'pubis',
   etym: () => [_.jo, _.bo],
 })
 
 export const habo = _.word('habo', {
-  def: 'plexus',
+  noun: 'plexus',
   etym: () => [_.ha, _.bo],
 })

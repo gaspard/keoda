@@ -1,39 +1,39 @@
 import * as _ from '.'
 
 export const oda = _.word('oda', {
-  def: '**weˣ self**',
+  noun: '**weˣ self**',
   glo: '**wex**.self',
   etym: () => [_.oS, _.da],
 })
 
 export const keoda = _.word('keoda', {
-  def: 'hidden body language',
+  noun: 'hidden body language',
   etym: () => [_.ke, _.oda],
 })
 
 export const yosa = _.word('yosa', {
-  def: 'person',
+  noun: 'person',
   etym: () => [_.yo, _.oda],
 })
 
 export const hida = _.word('hida', {
-  def: 'sibling',
+  noun: 'sibling',
   etym: () => [_.him, _.oda],
   see: () => [_.family],
 })
 
 export const hina = _.word('hina', {
-  def: 'sister',
+  noun: 'sister',
   etym: () => [_.him, _.ana],
   see: () => [_.family],
 })
 export const hiwi = _.word('hiwi', {
-  def: 'enby sibling',
+  noun: 'enby sibling',
   etym: () => [_.him, _.iwi],
   see: () => [_.family],
 })
 export const hito = _.word('hito', {
-  def: 'brother',
+  noun: 'brother',
   etym: () => [_.him, _.oto],
   see: () => [_.family],
 })

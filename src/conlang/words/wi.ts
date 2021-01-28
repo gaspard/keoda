@@ -1,12 +1,12 @@
 import * as _ from '.'
 
 export const wi = _.word('wi', {
-  adj: 'prun (color)',
+  prop: 'prun (color)',
   see: () => [_.colors],
 })
 
 export const wiyon = _.word('wiyon', {
-  def: 'prune, September',
+  noun: 'prune, September',
   etym: () => [_.wi, _.yon],
   see: () => [_.fruits, _.seasons],
 })

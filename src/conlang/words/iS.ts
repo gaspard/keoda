@@ -1,14 +1,14 @@
 import * as _ from '.'
 
 export const iS = _.word('ti', {
-  def: '**you¹**',
-  prefix: '**your¹**',
-  suffix: '**your¹**',
+  noun: '**you¹**',
+  pref: '**your¹**',
+  suff: '**your¹**',
   see: () => [_.subj],
 })
 
 export const ida = _.word('ida', {
-  def: '**you¹ self**',
+  noun: '**you¹ self**',
   glo: '**you1**.self',
   etym: () => [_.iS, _.da],
   see: () => [_.subj],

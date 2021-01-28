@@ -1,8 +1,8 @@
 import * as _ from '.'
 
 export const baka = _.word('baka', {
-  def: '**devotion**',
-  verb: 'to surrender',
+  noun: '**devotion**',
+  action: 'to surrender',
 })
 
 // === alt

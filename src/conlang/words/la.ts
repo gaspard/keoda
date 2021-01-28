@@ -1,58 +1,58 @@
 import * as _ from '.'
 
 export const la = _.word('la', {
-  def: 'lips',
-  verb: 'to kiss',
+  noun: 'lips',
+  action: 'to kiss',
 })
 
 export const kela = _.word('kela', {
-  def: 'teeth',
+  noun: 'teeth',
   etym: () => [_.ke, _.la],
 })
 
 export const kelasa = _.word('kelasa', {
-  def: 'knife',
+  noun: 'knife',
   etym: () => [_.kela, _.sa],
 })
 
 export const lapa = _.word('lapa', {
-  def: 'voice',
-  verb: 'to talk',
+  noun: 'voice',
+  action: 'to talk',
   etym: () => [_.la, _.pa],
 })
 
 export const lapalapa = _.word('lapalapa', {
-  def: 'duck',
+  noun: 'duck',
   etym: () => [_.lapa, _.lapa],
 })
 
 export const kelo = _.word('kelo', {
-  def: 'crocodile',
+  noun: 'crocodile',
   etym: () => [_.kela, _.oda],
 })
 
 export const kawi = _.word('kawi', {
-  def: 'shark',
+  noun: 'shark',
   etym: () => [_.kela, _.awi],
 })
 
 export const lapir = _.word('lapir', {
-  verb: 'to announce',
+  action: 'to announce',
   etym: () => [_.lapa, _.lir],
 })
 
 export const gilapa = _.word('gilapa', {
-  def: 'to whisper',
+  noun: 'to whisper',
   etym: () => [_.gi, _.lapa],
 })
 
 export const lapana = _.word('lapana', {
-  def: 'speech',
+  noun: 'speech',
   etym: () => [_.la, _.na],
 })
 
 export const lapanagu = _.word('lanagu', {
-  def: 'insult',
+  noun: 'insult',
   etym: () => [_.lapana, _.gu],
 })
 

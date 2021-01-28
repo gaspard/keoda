@@ -1,45 +1,45 @@
 import * as _ from '.'
 
 export const lame = _.word('lame', {
-  verb: 'to wash',
-  def: 'water',
+  action: 'to wash',
+  noun: 'water',
   see: () => [_.nature],
 })
 
 export const falame = _.word('falame', {
-  def: 'tears',
-  verb: 'to cry',
+  noun: 'tears',
+  action: 'to cry',
   etym: () => [_.fa, _.lame],
 })
 
 export const lama = _.word('lama', {
-  def: 'sea',
+  noun: 'sea',
   etym: () => [_.lame, _.da],
 })
 
 export const lamagoa = _.word('lamagoa', {
-  def: 'ocean',
+  noun: 'ocean',
   etym: () => [_.lama, _.goa],
 })
 
 export const lami = _.word('lami', {
-  def: 'wave',
+  noun: 'wave',
   etym: () => [_.lame, _.mi],
 })
 
 export const lamioda = _.word('lamioda', {
-  def: 'snake',
+  noun: 'snake',
   etym: () => [_.lami, _.oda],
 })
 
 export const lamoa = _.word('lamoa', {
-  def: 'source (place)',
+  noun: 'source (place)',
   etym: () => [_.lame, _.on, _.da],
   see: () => [_.nature],
 })
 
 export const lamu = _.word('lamu', {
-  verb: 'to drink',
+  action: 'to drink',
 })
 
 // === alt

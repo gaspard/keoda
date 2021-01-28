@@ -1,9 +1,9 @@
 import * as _ from '.'
 
 export const am = _.word('am', {
-  def: '**good mood** (oxytocin)',
+  noun: '**good mood** (oxytocin)',
   glo: 'O (whole)',
-  suffix: 'accusative marking',
+  suff: 'accusative marking',
   see: () => [_.an, _.ah],
   desc: () => `
 The suffix is added to the last part of the a group with the accusative case.

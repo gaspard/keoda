@@ -6,17 +6,17 @@ export const lir = _.word('lir', {
 })
 
 export const lirana = _.word('lirana', {
-  def: 'promise',
+  noun: 'promise',
   etym: () => [_.liri, _.na],
 })
 
 export const ilir = _.word('ilir', {
-  def: 'future you (you will...)',
+  noun: 'future you (you will...)',
   etym: () => [_.iC, _.lir],
 })
 
 export const elir = _.word('elir', {
-  def: 'in the future',
+  noun: 'in the future',
   glo: 'future.BE',
   etym: () => [_.e, _.lir],
 })

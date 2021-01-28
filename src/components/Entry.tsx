@@ -132,6 +132,34 @@ const Name = styled.div`
   font-weight: 500;
 `
 
+const Suf = styled.span`
+  position: relative;
+  &.suff::before {
+    left: 0;
+  }
+  &.pref::before {
+    right: 0;
+  }
+  &::before {
+    position: absolute;
+    top: 22px;
+    background: #f9f5e4f0;
+    display: none;
+    content: attr(data-def);
+    font-size: 14px;
+    color: #555;
+    font-weight: normal;
+    padding: 4px 8px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 6px #33333340;
+    border: 1px solid #a5a399bf;
+  }
+  &:hover::before {
+    display: block;
+  }
+  color: #999;
+`
+
 const Def = styled(Markdown)`
   white-space: pre-line;
   font-size: 1.3rem;
@@ -331,25 +359,30 @@ const DefType = styled.div`
   font-weight: 500;
   width: 4rem;
   flex-shrink: 0;
-  color: red;
+  color: #0000002b;
   &.selected {
     border-left: 4px solid #8a847a;
     position: relative;
     left: -4px;
   }
+  text-align: right;
+`
+
+const DefText = styled.div`
+  color: #333;
   &.etym {
     color: #222;
   }
   &.def {
     color: #28467d;
   }
-  &.verb {
+  &.action {
     color: #883ea7;
   }
-  &.adj {
+  &.prop {
     color: #149a32;
   }
-  &.adv {
+  &.style {
     color: #040a02;
   }
   &.det {
@@ -358,10 +391,10 @@ const DefType = styled.div`
   &.subj {
     color: #b7ec34;
   }
-  &.prefix {
+  &.pref {
     color: #444;
   }
-  &.suffix {
+  &.suff {
     color: #444;
   }
   &.prep {
@@ -376,7 +409,7 @@ const DefType = styled.div`
   &.lang {
     color: #444;
   }
-  &.posit {
+  &.pos {
     color: pink;
   }
   &.deriv {
@@ -388,11 +421,6 @@ const DefType = styled.div`
   &.phrase {
     color: #666;
   }
-  text-align: right;
-`
-
-const DefText = styled.div`
-  color: #333;
 `
 
 export const ID = styled.a`
@@ -460,14 +488,26 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
       ) : (
         <Title className="Title" style={style as React.CSSProperties}>
           <Name onClick={() => ctx.actions.keoda.select({ id: entry.id })}>
+            {entry.suff && (
+              <Suf className="suff" data-def={entry.suff}>
+                ○
+              </Suf>
+            )}
             {writ ? entry.writ : entry.name}
+            {entry.pref && (
+              <Suf className="pref" data-def={entry.pref}>
+                ○
+              </Suf>
+            )}
           </Name>
           <Other>{writ ? entry.name : entry.writ}</Other>
           <Phon>{entry.phon}</Phon>
         </Title>
       )}
       <Definitions>
-        {entry.def && <Def className="desc" type="md-open" text={entry.def} />}
+        {entry.noun && (
+          <Def className="desc" type="md-open" text={entry.noun} />
+        )}
         {entry.etym && (
           <React.Fragment>
             <GWrap className="etym">
@@ -487,7 +527,7 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
               {key === 'etym' || key === 'see' || key === 'deriv' ? (
                 <List className={key} entries={entry[key]!} />
               ) : (
-                <DefText>{entry[key]}</DefText>
+                <DefText className={key}>{entry[key]}</DefText>
               )}
             </Definition>
           ) : null

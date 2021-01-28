@@ -1,11 +1,11 @@
 import * as _ from '.'
 
 export const dadi = _.word('dadi', {
-  def: '**saliva**',
-  verb: 'to salivate',
+  noun: '**saliva**',
+  action: 'to salivate',
 })
 
 export const onadi = _.word('onsho', {
-  def: 'sugar',
+  noun: 'sugar',
   etym: () => [_.on, _.dadi],
 })

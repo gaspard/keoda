@@ -1,23 +1,23 @@
 import * as _ from '.'
 
 export const iwi = _.word('iwi', {
-  def: 'bird',
-  adj: 'enby',
+  noun: 'bird',
+  prop: 'enby',
   see: () => [_.subj],
 })
 
 export const iwida = _.word('iwoda', {
-  def: '**enby** (bird) **person**',
+  noun: '**enby** (bird) **person**',
   etym: () => [_.iwi, _.da],
 })
 
 export const iwiu = _.word('iwiu', {
-  verb: 'to fly',
+  action: 'to fly',
   etym: () => [_.iwi, _.u],
 })
 
 export const iwigui = _.word('iwigui', {
-  def: 'phoenix',
+  noun: 'phoenix',
   etym: () => [_.iwi, _.gui],
 })
 

@@ -1,19 +1,19 @@
 import * as _ from '.'
 
 export const zu = _.word('zu', {
-  def: 'heart',
-  verb: 'to love',
+  noun: 'heart',
+  action: 'to love',
   see: () => [_.au],
 })
 
 export const zuzu = _.word('zuzu', {
-  verb: 'to make love',
+  action: 'to make love',
   see: () => [_.auau, _.kude],
   etym: () => [_.zu, _.zu],
 })
 
 export const zunes = _.word('zunes', {
-  def: 'love',
+  noun: 'love',
   etym: () => [_.zu, _.nes],
 })
 

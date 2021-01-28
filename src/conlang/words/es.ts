@@ -1,9 +1,9 @@
 import * as _ from '.'
 
 export const es = _.word('es', {
-  def: 'is-ness',
-  prefix: 'self (PASS)',
-  suffix: 'state (BE)',
+  noun: 'is-ness',
+  pref: 'self (PASS)',
+  suff: 'state (BE)',
   glo: 'PASS',
   desc: () => `
 ## Passive voice

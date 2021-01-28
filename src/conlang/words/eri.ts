@@ -1,23 +1,23 @@
 import * as _ from '.'
 
 export const eri = _.word('eri', {
-  def: '**cherry** (June)',
-  adj: 'provocative',
+  noun: '**cherry** (June)',
+  prop: 'provocative',
   see: () => [_.fruits, _.colors, _.seasons],
 })
 
 export const muneri = _.word('muneri', {
-  def: '**nipple**',
+  noun: '**nipple**',
   etym: () => [_.mun, _.eri],
 })
 
 export const tajeri = _.word('tajeri', {
-  def: '**glans**',
+  noun: '**glans**',
   etym: () => [_.taj, _.eri],
 })
 
 export const yoneri = _.word('yoneri', {
-  def: '**clitoris**',
+  noun: '**clitoris**',
   see: () => [_.keyon],
   etym: () => [_.yon, _.eri],
 })

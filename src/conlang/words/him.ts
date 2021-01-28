@@ -1,37 +1,37 @@
 import * as _ from '.'
 
 export const him = _.word('him', {
-  def: 'growth',
-  verb: 'to grow',
+  noun: 'growth',
+  action: 'to grow',
 })
 
 export const yuhim = _.word('yuhim', {
-  def: 'growing joy',
-  verb: 'to be born',
+  noun: 'growing joy',
+  action: 'to be born',
   etym: () => [_.yu, _.him],
   see: () => [_.gui],
 })
 
 export const mahim = _.word('mahim', {
-  verb: 'to build',
+  action: 'to build',
   desc: () => 'the hands make grow',
   etym: () => [_.ma, _.him],
 })
 
 export const gahi = _.word('gahi', {
-  def: 'thought',
-  verb: 'to think',
+  noun: 'thought',
+  action: 'to think',
   etym: () => [_.ga, _.him],
 })
 
 export const gama = _.word('gama', {
-  def: 'knowledge',
-  verb: 'to know',
+  noun: 'knowledge',
+  action: 'to know',
   etym: () => [_.ga, _.ma],
 })
 
 export const gamahim = _.word('gamahim', {
-  verb: 'to learn',
+  action: 'to learn',
   etym: () => [_.gama, _.him],
 })
 
