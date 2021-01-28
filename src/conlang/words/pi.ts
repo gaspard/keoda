@@ -71,3 +71,8 @@ export const piyi = _.word('piyi', {
   glo: '1SG.DIM',
   see: () => [_.verbs],
 })
+
+export const topim = _.alt('topim', {
+  glo: '**I**+',
+  alt: () => _.opi,
+})

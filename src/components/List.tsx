@@ -48,7 +48,7 @@ export const ListWrapper = styled.div`
     padding: 5px;
   }
   & .Link:not(:last-child) {
-    margin-right: 12px;
+    margin-right: 10px;
   }
 `
 

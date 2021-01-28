@@ -232,14 +232,31 @@ const Definition = styled.div`
       content: '';
     }
     h1 {
-      font-size: 1.6rem;
+      font-size: 2.1rem;
+      margin-bottom: 2.4rem;
+      color: inherit;
+    }
+    h1:not(:first-child) {
+      font-size: 1.8rem;
+      margin-top: 4.8rem;
       color: #444;
-      margin-bottom: 2rem;
     }
     h2 {
+      font-size: 1.6rem;
+      margin-top: 3rem;
+      color: #444;
+    }
+    h3 {
       font-size: 1.2rem;
-      color: inherit;
-      margin-top: 2rem;
+      margin-top: 1.2rem;
+      color: #444;
+    }
+    h1 em,
+    h2 em,
+    h3 em {
+      font-size: 80%;
+      font-weight: normal;
+      font-style: normal;
     }
     ul {
     }
@@ -278,7 +295,6 @@ const Definition = styled.div`
     code {
       font-size: 90%;
       font-family: 'Fira Code', Courier, monospace;
-      padding: 3px 5px;
       display: inline-block;
     }
     em {
@@ -286,6 +302,7 @@ const Definition = styled.div`
     }
     strong {
       font-weight: 500;
+      color: #444;
     }
     table {
       color: inherit;

@@ -25,6 +25,11 @@ export const shohoto = _.alt('shohoto', {
 })
 
 export const tahoto = _.alt('tahoto', {
-  glo: 'they1.**wind**',
+  glo: '**they1**.wind',
+  alt: () => _.oto,
+})
+
+export const ahoto = _.alt('ahoto', {
+  glo: '**they1**.wind',
   alt: () => _.oto,
 })

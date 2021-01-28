@@ -2,11 +2,11 @@ import * as _ from '..'
 
 export const verbs = _.card('verbs', {
   desc: () => `
-# Actions (verbs)
+# Action
 
-All nouns can become actions (verbs). Some nouns have a precise meaning when
-they take the "action" role such as ${_.fa}, ${_.fen}, ${_.awi}, ${_.yon},
-etc.
+All nouns can become actions (verbs) with an "activity" marker (${_.subj}).
+Some nouns have a precise meaning when they take the "action" role such as
+${_.fa}, ${_.fen}, ${_.awi}, ${_.yon}, etc.
 
 Another particularity of this language is the use of three suffix used to
 mark cases related to the body when derivating verbs:
@@ -15,7 +15,7 @@ mark cases related to the body when derivating verbs:
 * ${_.oC} (ABL, pushing, away from)
 * ${_.u} (ALL, pulling, towards)
 
-Examples:
+### Examples:
 
 * ${_.phrase('Caress wex my long hair.', _.mi, _.jihukin)}
 * ${_.phrase('You breath (u) fresh air.', _.isheu, _.shehegim)}
@@ -197,7 +197,7 @@ language originated.
 * ${_.lau} (DEF) always
 * ${_.nei} (NEG) never
 
-# Examples
+## Examples
 
 * ${_.phrase('yesterday, I kissed a girl (I dislike).', _.olalemi, _.anah)}
 * ${_.phrase('They might love you (completely) someday.', _.azulire, _.autim)}

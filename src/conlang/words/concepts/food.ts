@@ -13,7 +13,7 @@ See also ${_.fruits}.
 * ${_.piutaj} (leek) 
 * ${_.ulul} (asparagus) 
 * ${_.piuna} (spinach) 
-* ${_.erina} (cherry) 
+* ${_.eri} (cherry) 
 * ${_.palajil} (apricot) 
 * ${_.pantame} (tomato) 
 * ${_.wiyon} (prune) 

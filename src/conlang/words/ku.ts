@@ -7,6 +7,12 @@ export const ku = _.word('ku', {
   desc: () => `Causality`,
 })
 
+export const kude = _.word('kude', {
+  def: '**knot**',
+  verb: 'to make love',
+  etym: () => [_.ku, _.de],
+})
+
 export const kupa = _.word('kupa', {
   desc: () =>
     `Tout attacher, relation marchande au monde, "faire pour", opposé de ${_.gupi} ou ${_.aupa}.`,

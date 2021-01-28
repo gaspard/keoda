@@ -15,7 +15,7 @@ year.
 * ${_.piutaj} (March) 
 * ${_.ulul} (April) 
 * ${_.piuna} (May) 
-* ${_.erina} (June) 
+* ${_.eri} (June) 
 * ${_.palajil} (July) 
 * ${_.pantame} (August) 
 * ${_.wiyon} (September) 

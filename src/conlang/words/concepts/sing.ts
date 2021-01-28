@@ -36,7 +36,7 @@ ${_.phrase(
   _.fuse
 )}
 
-## ${_.tahoto} (him)
+## ${_.ahoto} (him)
 
 ${_.block(
   {

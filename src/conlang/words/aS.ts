@@ -1,6 +1,7 @@
 import * as _ from '.'
 
 export const aS = _.word('a', {
+  id: 'aS',
   def: '**they¹**',
   prefix: 'their',
   suffix: 'their',

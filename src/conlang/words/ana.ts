@@ -73,3 +73,14 @@ export const anayiam = _.alt('anayiam', {
   glo: '**feminine**.DIM+',
   alt: () => _.ana,
 })
+
+// NOT A WORD ! (only used as verb prefix)
+export const ahana = _.alt('ahana', {
+  glo: '**they1**.tree',
+  alt: () => _.ana,
+})
+
+export const tahana = _.alt('tahana', {
+  glo: '**they1**.tree',
+  alt: () => _.ana,
+})

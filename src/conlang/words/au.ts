@@ -25,7 +25,7 @@ _.see(_.kupa)
 
 export const auau = _.word('auau', {
   verb: 'to make love',
-  see: () => [_.zuzu],
+  see: () => [_.zuzu, _.kude],
 })
 
 export const ausifalamau = _.example(

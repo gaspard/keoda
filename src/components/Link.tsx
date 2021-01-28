@@ -2,7 +2,6 @@ import classnames from 'classnames'
 import * as React from 'react'
 import { Comp, styled, useOvermind } from '../app'
 import { getEntry } from '../helpers/getEntry'
-import { List } from './List'
 import { Phrase } from './Phrase'
 
 export interface LinkProps {
@@ -63,6 +62,18 @@ export const Link: Comp<LinkProps> = ({ className, id, type, children }) => {
   }
   const ref = entry.alt || id
   let timer: any
+  // @ts-ignore
+  let customLink = false
+  if (children && (children as any)['0']) {
+    const inner = (children as any)['0'].props.children
+    customLink = inner && inner !== entry.name
+  }
+  const text = customLink ? children : writ ? entry.writ : entry.name
+  const anchorClass = customLink
+    ? 'custom'
+    : writ && entryType !== 'card'
+    ? 'writ'
+    : ''
   return (
     <Wrapper
       className={classnames('Link', className, {
@@ -98,8 +109,8 @@ export const Link: Comp<LinkProps> = ({ className, id, type, children }) => {
         ctx.actions.keoda.hideFloat({ id: ref })
       }}
     >
-      <Anchor href={`#${ref}`} className={writ ? 'writ' : ''}>
-        {writ ? entry.writ : entry.name}
+      <Anchor href={`#${ref}`} className={anchorClass}>
+        {text}
       </Anchor>
     </Wrapper>
   )

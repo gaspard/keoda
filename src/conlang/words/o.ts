@@ -2,7 +2,7 @@ import * as _ from '.'
 
 // o case
 export const oC = _.word('o', {
-  id: 'oK',
+  id: 'oC',
   def: '**shock**',
   suffix: '**shock**',
   glo: 'PUSH (ABL)',

@@ -1,10 +1,5 @@
 import * as _ from '.'
 
-export const yoda = _.word('yoda', {
-  def: 'body with a vulva',
-  etym: () => [_.yon, _.oda],
-})
-
 export const oda = _.word('oda', {
   def: '**weˣ self**',
   glo: '**wex**.self',

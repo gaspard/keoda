@@ -117,3 +117,8 @@ export const tima = _.alt('tima', {
   glo: 'you1.**hand**',
   alt: () => _.ma,
 })
+
+export const ama = _.alt('ama', {
+  glo: 'they1.**hand**',
+  alt: () => _.ma,
+})

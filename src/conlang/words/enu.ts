@@ -1,10 +1,13 @@
 import * as _ from '.'
 
 export const enu = _.word('enu', {
+  def: '**embroidery**',
   verb: 'to embroider',
 })
 
-export const sienu = _.word('sienu', {
-  adj: 'delicately',
-  etym: () => [_.si, _.enu],
+// === alt
+
+export const sienu = _.alt('sienu', {
+  glo: 'like.**embroidery**',
+  alt: () => _.enu,
 })

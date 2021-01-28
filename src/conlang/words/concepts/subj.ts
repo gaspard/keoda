@@ -143,9 +143,19 @@ are appended to the subject in place of ${_.da}. The important flavors are:
 * ${_.ana} (tree or female)
 * ${_.oto} (wind or male)
 
-* So an enby (they¹) is: ${_.ahiwi}
-* So a female (you¹) is: ${_.ihana}
-* A male group (we\\*) is: ${_.shohoto}
+We can then add these flavors on the subject marking:
+
+* ${_.ahiwi} (they¹.*enby*)
+* ${_.ahana} (they¹.*female*)
+* ${_.ahoto} (they¹.*male*)
+* ${_.shohoto} (we\\*.*male*)
+* etc
+
+For example: ${_.phrase(
+    'She loves me.',
+    _.ahanazu,
+    _.topim
+  )} translate a bit like "that-girl-love I".
 
 Note that we also have words to express gendered-bodies and these (like any noun) can be
 used as subjects or "targets" in phrases.
@@ -153,6 +163,7 @@ used as subjects or "targets" in phrases.
 * ${_.iwida} (enby-person)
 * ${_.anada} (female-person)
 * ${_.otoda} (male-person)
+
 
 Your next read: ${_.evolution} (how things evolved)
 `,

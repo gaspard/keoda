@@ -5,7 +5,7 @@ export const fruits = _.card('fruits', {
   desc: () => `
 Existing fruits are:
 
-* ${_.erina} (cherry)
+* ${_.eri} (cherry)
 * ${_.pona} (orange)
 * ${_.ponale} (tangerine)
 * ${_.palajil} (apricot)

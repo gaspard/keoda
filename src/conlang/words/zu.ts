@@ -8,7 +8,7 @@ export const zu = _.word('zu', {
 
 export const zuzu = _.word('zuzu', {
   verb: 'to make love',
-  see: () => [_.auau],
+  see: () => [_.auau, _.kude],
   etym: () => [_.zu, _.zu],
 })
 
@@ -30,4 +30,14 @@ export const ozu = _.alt('ozu', {
 export const shozuzu = _.alt('shozuzu', {
   glo: '1PL.PRS.**make love**',
   alt: () => _.zuzu,
+})
+
+export const ahanazu = _.alt('ahanazu', {
+  glo: 'they1.*tree*.**heart**',
+  alt: () => _.zu,
+})
+
+export const esoluzu = _.alt('esoluzu', {
+  glo: 'PASS.wex.CONT.**heart**',
+  alt: () => _.zu,
 })
