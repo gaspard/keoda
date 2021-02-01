@@ -7,6 +7,7 @@ export const m = suffix('m', {
   suff: 'taste marking',
   glo: 'NICE',
   force: 'noun',
+  maxPhrases: 10,
   see: () => [_.n, _.h],
   desc: () => `Oxytocin (taste marking)[${_.taste.id}]`,
 })

@@ -42,6 +42,10 @@ export interface EntryInfo {
   cla: MainKeys
   // Suffix/case forcing class on previous elements
   force: MainKeys
+  // If this is true, the element is considered too common and should not
+  // register phrases created with it (such as ACC markers, conjugation, etc).
+  // set to false to ignore phrases.
+  maxPhrases: number
 }
 
 export interface FullEntry extends EntryInfo {

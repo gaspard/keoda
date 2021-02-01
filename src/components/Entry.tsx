@@ -502,13 +502,13 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
           <Name onClick={() => ctx.actions.keoda.select({ id: entry.id })}>
             {entry.suff && (
               <Suf className="suff" data-def={entry.suff}>
-                ○
+                ○&nbsp;
               </Suf>
             )}
             {writ ? entry.writ : entry.name}
             {entry.pref && (
               <Suf className="pref" data-def={entry.pref}>
-                ○
+                &nbsp;○
               </Suf>
             )}
           </Name>

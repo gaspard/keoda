@@ -7,6 +7,7 @@ export const h = suffix('h', {
   suff: 'taste marking',
   glo: 'REPULS',
   force: 'noun',
+  maxPhrases: 10,
   see: () => [_.m, _.n],
   desc: () => `Serotonin depletion (taste marking)[${_.taste.id}]`,
 })

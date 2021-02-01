@@ -138,7 +138,10 @@ function registerWord(phrase: CompiledEntry, word: CompiledEntry) {
   if (!phrases) {
     phrases = word.phrases = []
   }
-  if (!phrases.includes(phrase.id)) {
+  if (
+    (word.maxPhrases === undefined || phrases.length < word.maxPhrases) &&
+    !phrases.includes(phrase.id)
+  ) {
     phrases.push(phrase.id)
   }
 }
