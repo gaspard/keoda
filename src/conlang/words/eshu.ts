@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const eshu = _.word('eshu', {
-  prop: 'lost',
+  adj: 'lost',
 })
 
 export const eshubeo = _.word('eshubeo', {

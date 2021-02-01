@@ -2,17 +2,17 @@ import * as _ from '.'
 
 export const fi = _.word('fi', {
   noun: 'thread',
-  action: 'to connect',
+  verb: 'to connect',
   see: () => [_.pa],
 })
 
 export const fishasha = _.word('fishasha', {
-  action: 'to sew',
+  verb: 'to sew',
   etym: () => [_.fi, _.shasha],
 })
 
 export const gufishasha = _.word('gufishasha', {
-  action: 'to sew life, connect things out of causal time',
+  verb: 'to sew life, connect things out of causal time',
   etym: () => [_.gufi, _.shasha],
 })
 

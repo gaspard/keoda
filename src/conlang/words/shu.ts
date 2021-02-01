@@ -1,12 +1,12 @@
 import * as _ from '.'
 
 export const shu = _.word('shu', {
-  prep: 'and',
+  def: 'and',
   see: () => [_.prep],
 })
 
-export const shuhe = _.word('shuhe', {
-  prep: 'but',
-  etym: () => [_.shu, _.ne],
+export const shune = _.word('shune', {
+  def: 'but',
+  etym: () => [_.shu, _.neW],
   see: () => [_.prep],
 })

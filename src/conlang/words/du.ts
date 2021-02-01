@@ -31,5 +31,5 @@ export const duwi = _.word('duwi', {
 
 export const duyin = _.word('duyin', {
   noun: 'front of the vagina',
-  etym: () => [_.du, _.yin],
+  etym: () => [_.du, _.yuru],
 })

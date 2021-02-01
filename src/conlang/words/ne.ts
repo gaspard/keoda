@@ -1,6 +1,6 @@
 import * as _ from '.'
 
-export const ne = _.word('ne', {
+export const neW = _.word('ne', {
   pref: 'negation, destruction (Samhara)',
   glo: 'NEG',
   desc: () =>
@@ -8,12 +8,12 @@ export const ne = _.word('ne', {
 })
 
 export const nefa = _.word('nefa', {
-  action: 'to close eyes, to not look',
+  verb: 'to close eyes, to not look',
 })
 
 export const neoda = _.word('neoda', {
   noun: 'corpse',
-  etym: () => [_.ne, _.oda],
+  etym: () => [_.neW, _.oda],
   see: () => [_.nem],
 })
 
@@ -22,7 +22,7 @@ export const nepa = _.word('nepa', {
 })
 
 export const nelo = _.word('nelo', {
-  action: 'to struggle',
-  etym: () => [_.ne, _.loV],
+  verb: 'to struggle',
+  etym: () => [_.neW, _.loV],
   see: () => [_.gupi],
 })

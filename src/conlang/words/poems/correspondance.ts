@@ -15,7 +15,7 @@ ${_.phrase(
   'La Nature et un temple où de vivants piliers',
   _.tu,
   _.gupa,
-  _.ahe,
+  _.a.e,
   _.akida,
   _.don,
   _.namel,
@@ -24,14 +24,14 @@ ${_.phrase(
 
 ${_.phrase(
   'Laissent parfois sortir de confuses paroles;',
-  _.shalapa,
+  _.sha.lapa,
   _.negaADV
 )}
 
 ${_.phrase(
   "L'homme y passe à travers des forêts de symboles",
   _.tu,
-  _.yosa,
+  _.oda,
   _.afen,
   _.janaro,
   _.mei,
@@ -43,14 +43,14 @@ ${_.phrase(
   _.di,
   _.ko,
   _.gi,
-  _.shafa,
-  _.futam
+  _.sha.fa,
+  _.fu.ta.$.m
 )}
 
 ${_.phrase(
   'Comme de longs échos qui de loin se confondent...',
   _.si,
-  _.agadeuki,
+  _.agade.uki,
   _.di,
   _.dao,
   _.eseshanele

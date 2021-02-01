@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const dao = _.word('dao', {
   noun: '**distant place**',
-  prep: 'from',
+  def: 'from',
   glo: '**from**.LOC',
   etym: () => [_.da, _.oC],
   see: () => [_.odu, _.dau, _.prep],

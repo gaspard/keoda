@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const gu = _.word('gu', {
   noun: 'darkness',
-  prop: 'darkness, gestation, deep',
+  adj: 'darkness, gestation, deep',
   etym: () => [_.ga, _.u],
   see: () => [_.nu, _.ganes, _.gufi],
   desc: () => `
@@ -37,12 +37,12 @@ Litteraly, the "immaterial unconscious"`,
 })
 
 export const gulir = _.word('gulir', {
-  action: 'to wish',
+  verb: 'to wish',
   etym: () => [_.gu, _.lir],
 })
 
 export const lemegu = _.word('lemegu', {
-  action: 'to remember',
+  verb: 'to remember',
   etym: () => [_.leme, _.gu],
   see: () => [_.dafodil],
 })
@@ -54,18 +54,18 @@ export const guna = _.word('guna', {
 })
 
 export const gui = _.word('gui', {
-  action: 'to be born',
+  verb: 'to be born',
   see: () => [_.yuhim, _.nem],
   etym: () => [_.gu, _.iC],
 })
 
 export const rugui = _.word('rugui', {
-  action: 'to bustle about',
+  verb: 'to bustle about',
   etym: () => [_.ru, _.gui],
 })
 
 export const guwu = _.word('guwu', {
-  action: 'to give',
+  verb: 'to give',
   etym: () => [_.gu, _.wu],
 })
 
@@ -88,13 +88,13 @@ In keoda, this litteraly means "the emergence of the darkness".
 
 export const gugai = _.word('gugai', {
   noun: 'fertility',
-  prop: 'fertile',
+  adj: 'fertile',
   etym: () => [_.gu, _.gai],
 })
 
 export const augu = _.word('augu', {
   noun: 'trust',
-  action: 'to trust',
+  verb: 'to trust',
   etym: () => [_.au, _.gu],
 })
 
@@ -113,16 +113,6 @@ export const guyuina = _.word('guyuina', {
 export const gupa = _.word('gupa', {
   noun: 'nature',
   etym: () => [_.gu, _.pa],
-})
-
-export const aguwu = _.alt('aguwu', {
-  glo: 'they1.**give**',
-  alt: () => _.guwu,
-})
-
-export const irugui = _.alt('irugui', {
-  glo: '2SG.**bustle about**',
-  alt: () => _.rugui,
 })
 
 export const alemegu = _.alt('alemegu', {

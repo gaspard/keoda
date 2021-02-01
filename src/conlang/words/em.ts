@@ -2,13 +2,13 @@ import * as _ from '.'
 
 export const em = _.word('em', {
   suff: 'lived',
-  action: 'to live',
+  verb: 'to live',
 })
 
 export const nem = _.word('nem', {
   noun: 'death',
-  action: 'to die, to make dead',
-  etym: () => [_.ne, _.em],
+  verb: 'to die, to make dead',
+  etym: () => [_.neW, _.em],
 })
 
 // ============== alt

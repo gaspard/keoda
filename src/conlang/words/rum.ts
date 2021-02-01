@@ -14,16 +14,16 @@ export const djorum = _.word('djorum', {
 })
 
 export const rumi = _.word('rumi', {
-  action: 'to hug',
+  verb: 'to hug',
 })
 
 export const leirumi = _.word('leirumi', {
-  action: 'to embrace time, to live',
+  verb: 'to embrace time, to live',
   see: () => [_.em],
 })
 
 export const rumo = _.word('rumo', {
-  action: 'to throw',
+  verb: 'to throw',
   etym: () => [_.rum, _.oC],
 })
 

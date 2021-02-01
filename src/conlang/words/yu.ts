@@ -2,19 +2,24 @@ import * as _ from '.'
 
 export const yu = _.word('yu', {
   noun: 'joy',
-  prop: 'joyful',
+  adj: 'joyful',
+})
+
+export const yuru = _.word('yuru', {
+  noun: '**vagina**',
+  see: () => [_.yu, _.ru],
 })
 
 export const eyu = _.word('eyu', {
   noun: 'maybe',
-  prep: 'if',
+  def: 'if',
   etym: () => [_.e, _.yu],
 })
 
-_.see(_.yon)
+_.see(_.yin)
 
 export const yuina = _.word('yuina', {
   noun: 'fruit',
-  etym: () => [_.yu, _.in, _.na],
+  etym: () => [_.yu, _.il, _.na],
 })
 _.see(_.fruits)

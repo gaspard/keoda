@@ -8,7 +8,7 @@ export const eja = _.word('eja', {
 })
 
 export const neja = _.word('neja', {
-  prep: 'not possible',
+  def: 'not possible',
   see: () => [_.eja],
-  etym: () => [_.ne, _.ja],
+  etym: () => [_.neW, _.ja],
 })

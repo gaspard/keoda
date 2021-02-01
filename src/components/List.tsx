@@ -63,9 +63,21 @@ const Detail = styled.div`
     margin-top: 6px;
     font-size: 0.8rem;
     color: #777;
-    & strong {
-      color: #222;
-    }
+  }
+  && strong {
+    color: #222;
+  }
+  &&.noun strong {
+    color: #40495a;
+  }
+  &&.verb strong {
+    color: #883ea7;
+  }
+  &&.adj strong {
+    color: #149a32;
+  }
+  &&.adv strong {
+    color: #040a02;
   }
 `
 
@@ -99,7 +111,7 @@ export const GlossAndLink: Comp<LinkProps> = props => {
     return null
   }
   return (
-    <Detail>
+    <Detail className={entry.cla}>
       <Link {...props} />
       <Aspect className="phon">{entry.phon}</Aspect>
       <Aspect className={writ ? 'name' : 'writ'}>

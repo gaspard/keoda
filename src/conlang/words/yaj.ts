@@ -1,15 +1,19 @@
 import * as _ from '.'
 
 export const yaj = _.word('yaj', {
-  noun: 'clitoris, gland (joie en feu)',
+  noun: '**glans**',
   etym: () => [_.yu, _.aj],
+  desc: () => `This is the ungendered term for clitoridial or penial glans.`,
 })
 
-export const yajin = _.word('yajin', {
-  noun: 'gland froid, au repos',
-  etym: () => [_.yaj, _.in],
+// === alt
+
+export const yajil = _.alt('yajil', {
+  glo: '**glans**.*erect*',
+  alt: () => _.yaj,
 })
-_.see(_.genitals)
-_.see(_.keyon)
-_.see(_.hataj)
-_.see(_.faj)
+
+export const yajegi = _.alt('yajegi', {
+  glo: '**glans**.*cold*',
+  alt: () => _.yaj,
+})

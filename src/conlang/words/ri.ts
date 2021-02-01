@@ -7,4 +7,4 @@ export const ri = _.word('ri', {
   see: () => [_.ro, _.prep],
 })
 _.see(_.ro)
-_.see(_.riyon)
+_.see(_.riyin)

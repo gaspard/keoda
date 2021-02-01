@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const eri = _.word('eri', {
   noun: '**cherry** (June)',
-  prop: 'provocative',
+  adj: 'provocative',
   see: () => [_.fruits, _.colors, _.seasons],
 })
 
@@ -16,8 +16,8 @@ export const tajeri = _.word('tajeri', {
   etym: () => [_.taj, _.eri],
 })
 
-export const yoneri = _.word('yoneri', {
-  noun: '**clitoris**',
-  see: () => [_.keyon],
-  etym: () => [_.yon, _.eri],
+export const yineri = _.word('yineri', {
+  noun: '**clitoris glans**',
+  see: () => [_.keyin],
+  etym: () => [_.yin, _.eri],
 })

@@ -1,40 +1,47 @@
+import { PHRASE_ORIG } from './helpers'
+import { entries } from './make'
 import {
   CompiledEntriesByType,
   CompiledEntry,
   EntriesByType,
   Entry,
   EntryByName,
-  FULLTEXT_KEYS,
-  LazyString,
+  EntryDefinition,
+  MAIN_KEYS,
   TYPES,
 } from './types'
+// Import all to force word creation
 import './words'
-import { entries, PHRASE_ORIG } from './words/0_helpers'
 import { phon, write } from './writing'
 
 export { CompiledEntry, EntryByName }
 
-const wordList = Object.keys(entries.word).map(key => entries.word[key])
-
-function unlazy(s: LazyString): string {
-  return typeof s === 'string' ? s : s()
-}
+const wordList = Object.values(entries.word)
+const cache: { id: string; etym: string[] }[] = wordList
+  .filter(w => w.definition.etym)
+  .map(w => ({ id: w.id, etym: w.definition.etym!().map(w => w.id) }))
 
 const GLO_REPLACE: { [key: string]: string } = {
   // to
-  wex: 'weˣ',
-  we9: 'we\\*',
+  wex: '1SG.INDF',
+  ourx: 'POSS.1SG.INDF',
+  we9: '1PL',
+  our9: 'POSS.1PL',
   // ti
-  you1: 'you¹',
-  you9: 'you\\*',
+  you1: '2SG',
+  your1: 'POSS.2SG',
+  you9: '2PL',
+  your9: 'POSS.2PL',
   // ta
-  they1: 'they¹',
-  they9: 'they\\*',
+  they1: '3SG',
+  their1: 'POSS.3SG',
+  they9: '3PL',
+  their9: 'POSS.3PL',
   // other
-  somex: 'someˣ',
+  somex: '3PL.INDF',
 }
 
-function gloReplace(glo: string): string {
+function fixGlo(glo: string): string {
   let w = glo
   for (const k in GLO_REPLACE) {
     w = w.replace(new RegExp(k, 'g'), GLO_REPLACE[k])
@@ -42,68 +49,81 @@ function gloReplace(glo: string): string {
   return w
 }
 
-function compileWord(word: Entry): CompiledEntry {
+function compileWord(entry: Entry): CompiledEntry {
   // So that phrases created during compilation register
   // their origin.
-  PHRASE_ORIG.entry = word
-  const compiled = Object.assign({}, word, {
-    fulltext: '',
-    writ: word.writ === undefined ? write(word.name) : word.writ,
-    phon: word.phon === undefined ? phon(word.name) : word.phon,
-  }) as CompiledEntry
-  delete (compiled as Entry).exam
-  if (word.exam) {
-    // This runs the phrase production
-    word.exam()
-  }
-  const fulltext: string[] = [word.name]
-  if (word.glo) {
-    compiled.glo = gloReplace(word.glo)
-  } else if (!compiled.glo) {
-    // default value to show on gloss
-    if (word.noun) {
-      compiled.glo = word.noun
-    } else {
-      const key = Object.keys(word).find(key =>
-        FULLTEXT_KEYS.includes(key as any)
-      )
-      compiled.glo = '**' + word[key as 'glo'] + '**'
+  PHRASE_ORIG.entry = entry
+  const definition = entry.definition
+  const compiled = Object.assign(
+    {
+      id: entry.id,
+      name: entry.name,
+      type: entry.type,
+    },
+    definition,
+    {
+      fulltext: '',
+      writ: definition.writ === undefined ? write(entry.name) : definition.writ,
+      phon: definition.phon === undefined ? phon(entry.name) : definition.phon,
     }
+  ) as CompiledEntry
+  const c = compiled as EntryDefinition
+  delete c.exam
+  if (definition.exam) {
+    // This runs the phrase production
+    definition.exam()
   }
-  if (word.alt) {
-    compiled.alt = word.alt().id
+  const fulltext: string[] = [entry.name]
+  if (!compiled.glo) {
+    // default value to show on gloss
+    const key = MAIN_KEYS.find(k => definition[k])
+    compiled.glo = '**' + definition[key!] + '**'
   }
-  if (word.etym) {
-    const etym = word.etym().map(w => w.id)
+  compiled.glo = fixGlo(compiled.glo)
+  if (definition.alt) {
+    compiled.alt = definition.alt().id
+  }
+  if (definition.etym) {
+    const etym = definition.etym().map(w => w.id)
     compiled.etym = etym
     // fulltext.push(...etym)
   }
 
-  if (word.desc) {
-    compiled.desc = unlazy(word.desc)
+  if (definition.desc) {
+    compiled.desc = definition.desc()
     // fulltext.push(compiled.desc)
   }
 
-  const deriv = wordList.filter(
-    w => w.etym && w.etym().find(w => w.id === word.id)
-  )
+  const deriv = cache.filter(w => w.etym.find(id => id === entry.id))
+
   if (deriv.length) {
     compiled.deriv = deriv.map(w => w.id)
     // fulltext.push(...deriv.map(w => w.name))
   }
 
-  if (word.see) {
-    const see = word.see()
+  if (definition.see) {
+    const see = definition.see()
     compiled.see = see.map(w => w.id)
     // fulltext.push(...see.map(w => w.name))
   }
 
-  if (word.words) {
-    const words = word.words()
-    compiled.words = words.map(w => w.id)
+  if (definition.words) {
+    const words = definition.words()
+    compiled.words = words
+      .map(w => {
+        if (w === undefined) {
+          console.log(entry.name)
+          return ''
+        }
+        return w.id
+      })
+      .filter(w => w)
     // fulltext.push(...words.map(w => w.name))
-    if (word.type === 'phrase') {
-      compiled.phrase = words.map(w => w.name).join(' ')
+    if (entry.type === 'phrase') {
+      compiled.phrase = words
+        .filter(w => w)
+        .map(w => w.name)
+        .join(' ')
     }
   }
 
@@ -138,9 +158,15 @@ export function exportJSON(db: EntriesByType) {
       let word = compiled[type as keyof typeof compiled][id]
       if (type === 'alt') {
         const a = alt[id]
-        id = a.alt!
-        type = id.split('-')[0]
-        word = compiled[type as keyof typeof compiled][id]
+        const aid = a.alt!
+        type = aid.split('-')[0]
+        word = compiled[type as keyof typeof compiled][aid]
+      }
+      if (!word) {
+        // not compiled...
+        // FIXME: This happens with non-words like 'futa' ...
+        console.log(`Missing word '${id}'`)
+        return
       }
       let { phrases } = word
       if (!phrases) {

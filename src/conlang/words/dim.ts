@@ -1,6 +1,6 @@
 import * as _ from '.'
 
 export const dim = _.word('dim', {
-  prep: 'whom',
+  def: 'whom',
   see: () => [_.di, _.prep],
 })

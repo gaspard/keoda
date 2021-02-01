@@ -51,7 +51,7 @@ With Sadasiva, she is the creator of the 5 Pancha-Krityas (${_.ru}):
 
 * ${_.ru} Sristi or creation
 * ${_.gi} Sthithi or protection
-* ${_.ne} Samhara or destruction
+* ${_.neW} Samhara or destruction
 * ${_.nugu} Thirodhana or concealment of the world in Maya
 * ${_.gana} Anugraha or final liberation
 `,

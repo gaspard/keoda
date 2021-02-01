@@ -1,7 +1,7 @@
 import * as _ from '.'
 
-export const ni = _.word('ni', {
-  prep: 'to',
+export const niW = _.word('ni', {
+  def: 'to',
   pref: 'to (DAT)',
   glo: 'DAT',
   see: () => [_.prep, _.order],

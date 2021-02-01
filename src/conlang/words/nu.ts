@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const nu = _.word('nu', {
-  prop: 'arrogance',
+  adj: 'arrogance',
   noun: 'hubris',
   etym: () => [_.na, _.u],
   see: () => [_.gu, _.nanes],

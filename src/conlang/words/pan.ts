@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const pan = _.word('pan', {
-  prop: 'red',
+  adj: 'red',
   see: () => [_.colors],
 })
 

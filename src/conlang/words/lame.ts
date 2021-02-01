@@ -1,14 +1,14 @@
 import * as _ from '.'
 
 export const lame = _.word('lame', {
-  action: 'to wash',
+  verb: 'to wash',
   noun: 'water',
   see: () => [_.nature],
 })
 
 export const falame = _.word('falame', {
   noun: 'tears',
-  action: 'to cry',
+  verb: 'to cry',
   etym: () => [_.fa, _.lame],
 })
 
@@ -39,7 +39,7 @@ export const lamoa = _.word('lamoa', {
 })
 
 export const lamu = _.word('lamu', {
-  action: 'to drink',
+  verb: 'to drink',
 })
 
 // === alt

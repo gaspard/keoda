@@ -6,7 +6,7 @@ export const deso = _.word('deso', {
 
 export const desoyon = _.word('desoyon', {
   noun: 'spongy clitoral body',
-  etym: () => [_.deso, _.yon],
+  etym: () => [_.deso, _.yin],
 })
 
 export const desotaj = _.word('desotaj', {

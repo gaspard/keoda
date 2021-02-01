@@ -1,9 +1,9 @@
 import * as _ from '.'
 
 export const ha = _.word('ha', {
-  prep: 'up',
+  def: 'up',
   noun: 'head',
-  prop: 'far',
+  adj: 'far',
   pref: 'top or distal',
   see: () => [_.jo],
 })
@@ -28,7 +28,7 @@ export const duha = _.word('duha', {
 })
 
 export const duhasha = _.word('duhasha', {
-  action: 'to laugh',
+  verb: 'to laugh',
   etym: () => [_.duha, _.shaH],
 })
 
@@ -74,11 +74,6 @@ export const hato = _.word('hato', {
 export const feduhati = _.alt('feduhati', {
   glo: 'SUPESS.**face**.you1',
   alt: () => _.duha,
-})
-
-export const iduhasha = _.alt('iduhasha', {
-  glo: '2SG.**laugh**',
-  alt: () => _.duhasha,
 })
 
 export const duhashati = _.alt('duhashati', {

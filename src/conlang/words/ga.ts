@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const ga = _.word('ga', {
-  noun: 'spirit',
+  noun: '**spirit**',
   see: () => [_.gu],
 })
 
@@ -18,7 +18,7 @@ export const ganaro = _.alt('ganaro', {
 
 export const gai = _.word('gai', {
   noun: 'consciousness\nrain',
-  action: 'to rain',
+  verb: 'to rain',
   img:
     'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Falling_rain_in_mexico.jpg/330px-Falling_rain_in_mexico.jpg',
   imgpos: '50%',
@@ -59,8 +59,8 @@ export const kuga = _.word('kuga', {
 export const nega = _.word('nega', {
   noun: 'crazy',
   glo: 'crazy',
-  style: 'crazily',
-  etym: () => [_.ne, _.ga],
+  adv: 'crazily',
+  etym: () => [_.neW, _.ga],
 })
 
 // === alt
@@ -68,11 +68,6 @@ export const nega = _.word('nega', {
 export const negaADV = _.alt('nega', {
   glo: '*crazy*.ADV',
   alt: () => _.nega,
-})
-
-export const gatoh = _.alt('gatoh', {
-  glo: '**spirit**.wex:',
-  alt: () => _.ga,
 })
 
 export const gogam = _.alt('gogam', {
@@ -83,14 +78,4 @@ export const gogam = _.alt('gogam', {
 export const kegaiam = _.alt('kegaiam', {
   glo: '**god**+',
   alt: () => _.kegai,
-})
-
-export const esagai = _.alt('esagai', {
-  glo: 'PASS.they9.**rain**',
-  alt: () => _.gai,
-})
-
-export const esalugai = _.alt('esalugai', {
-  glo: 'PASS.they9.CONT.**rain**',
-  alt: () => _.gai,
 })

@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const maga = _.word('maga', {
-  prop: 'crazy',
+  adj: 'crazy',
   etym: () => [_.ma, _.ga],
   desc: () => `
 This litterally means "palm-spirit" (face-palm).

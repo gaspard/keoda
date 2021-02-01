@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const odo = _.word('odo', {
-  action: 'to leave',
+  verb: 'to leave',
   etym: () => [_.oda, _.oC],
   see: () => [_.odu, _.dau],
 })

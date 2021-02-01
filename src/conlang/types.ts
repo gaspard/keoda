@@ -1,3 +1,6 @@
+import * as suffix from './suffix'
+import { CASES } from './cases'
+
 export interface Example {
   phrase: (Entry | Example)[]
   meaning: string
@@ -6,27 +9,20 @@ export interface Example {
 // ============================================ Word
 
 export interface EntryInfo {
-  // https://www.eva.mpg.de/lingua/resources/glossing-rules.php
-  glo: string
-  // TRY TO USE KEYS REFLECTING FUNCTION (NOT FORM)
+  // MAIN KEYS ==========
   noun: string
-  // as a property modifier
-  prop: string
   // as an action
-  action: string
+  verb: string
+  // as a property modifier
+  adj: string
   // as an action modifier
-  style: string
+  adv: string
+  // generic
+  def: string
+  // MAIN KEYS ==========
   pos: string
-  // Ho to treat these two ?
   pref: string
   suff: string
-  // TO BE REMOVED I THINK (we have cards for this)
-  subj: string
-  det: string
-  prep: string
-  pron: string
-  tens: string
-  lang: string
   // INTERNAL
   writ: string
   phon: string
@@ -37,44 +33,47 @@ export interface EntryInfo {
   // phrases only
   trad: string
   phrase: string
-  // ???
-  person: string
   // phrase options
   open?: boolean
+  // alt ====
+  // https://www.eva.mpg.de/lingua/resources/glossing-rules.php
+  glo: string
+  // For prefix/suffix
+  join: string
+  // Type of element. Changes classname of gloss in UI.
+  cla: MainKeys
+  // Suffix/case forcing class on previous elements
+  force: MainKeys
 }
-
-export type LazyString = string | (() => string)
 
 export interface FullEntry extends EntryInfo {
   id: string
   name: string
   nsfw: boolean
-  desc: LazyString
+  desc: () => string
   exam: () => Entry[]
-  etym: () => Entry[]
-  see: () => Entry[]
+  etym: () => { id: string }[]
+  see: () => { id: string }[]
   // For phrases
-  words: () => Entry[]
+  words: () => { id: string; name: string }[]
   alt: () => Entry
 }
 
 export const FULLTEXT_KEYS: (keyof EntryInfo)[] = [
   'noun', // noun
-  'action',
-  'subj',
-  'prop', // property concept modifier
-  'style', // action concept modifier
-  'det',
-  'prep',
-  'pron',
-  'tens',
-  'lang',
+  'verb',
+  'adj', // property concept modifier
+  'adv', // action concept modifier
+  'def',
   'pos',
-  'person',
 ]
 
+export type MainKeys = 'noun' | 'verb' | 'adj' | 'adv' | 'def'
+
+export const MAIN_KEYS: MainKeys[] = ['noun', 'verb', 'adj', 'adv', 'def']
+
 export const DEF_KEYS: (keyof CompiledEntry)[] = [
-  ...FULLTEXT_KEYS.filter(k => k !== 'noun'),
+  ...FULLTEXT_KEYS.filter(k => !MAIN_KEYS.includes(k as any)),
   'deriv',
   'see',
 ]
@@ -105,10 +104,20 @@ export interface CompiledEntriesByType {
 
 export type EntryDefinition = Partial<FullEntry>
 
-export interface Entry extends EntryDefinition {
+export const LAST_VOWEL = /([aoeiu])[^aoeiu]*$/
+export const STARTS_VOWEL = /^[aoeiu]/
+export const ENDS_VOWEL = /[aoeiu]$/
+
+export type Suffix = typeof suffix
+// FIXME: Remove Cases once 'cases' is empty and we only have suffix.
+export type Cases = AsEntry<keyof typeof CASES>
+export type AsEntry<K extends string> = { [key in K]: Entry }
+
+export interface Entry extends Cases, Suffix {
   name: string
   type: 'word' | 'card' | 'phrase' | 'alt'
   id: string // === `${type}-${name}
+  definition: EntryDefinition
   toString: () => string
 }
 

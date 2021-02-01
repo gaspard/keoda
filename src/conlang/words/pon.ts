@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const pon = _.word('pon', {
-  prop: 'orange (color)',
+  adj: 'orange (color)',
   see: () => [_.colors],
 })
 

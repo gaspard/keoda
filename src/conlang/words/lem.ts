@@ -1,8 +1,8 @@
 import * as _ from '.'
 
 export const lem = _.word('lem', {
-  tens: 'past',
-  action: 'lived',
+  def: 'past',
+  verb: 'lived',
   etym: () => [_.lei, _.em],
 })
 _.see(_.lir)

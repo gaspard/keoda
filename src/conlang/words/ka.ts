@@ -3,10 +3,9 @@ import * as _ from '.'
 export const ka = _.word('ka', {
   noun: '4 / singularity',
   desc: () => 'That which cannot be thought.',
-  pron: 'everyone',
+  def: 'everyone',
   suff: 'every',
   pos: 'on all fours',
-  subj: 'us all, universal (1PL.DEF)',
   see: () => [_.count],
 })
 
@@ -14,7 +13,7 @@ export const oka = _.word('oka', {
   noun: '**we\\* all**',
   pref: '**our\\* all**',
   suff: '**our\\* all**',
-  etym: () => [_.oS, _.ka],
+  etym: () => [_.o, _.ka],
   see: () => [_.subj],
 })
 
@@ -34,13 +33,13 @@ export const hamaka = _.word('hamaka', {
 
 export const neka = _.word('neka', {
   noun: 'shame',
-  prop: 'restless',
-  etym: () => [_.ne, _.ka],
+  adj: 'restless',
+  etym: () => [_.neW, _.ka],
   see: () => [_.ganes, _.nanes],
 })
 
 export const karu = _.word('karu', {
-  action: 'to choose',
+  verb: 'to choose',
   desc: () => 'The realization of the singular in onself.',
   etym: () => [_.ka, _.ru],
 })

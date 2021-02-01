@@ -1,5 +1,6 @@
 import * as _ from '../src/conlang/words'
 
+/*
 export const onesu = [
   // I/we miss your presence (bodies)
   [_.o, _.nesu, _.shida],
@@ -27,3 +28,4 @@ export const onesu = [
   [_.odu, _.sen],
   //
 ]
+*/

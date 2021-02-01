@@ -7,8 +7,8 @@ export const bu = _.word('bu', {
 
 export const buyon = _.word('buyon', {
   noun: '**erectile part of the vulva**',
-  etym: () => [_.bu, _.yon],
-  see: () => [_.butaj, _.yoneri],
+  etym: () => [_.bu, _.yin],
+  see: () => [_.butaj, _.yineri],
   desc: () => `
 This is the cavernous body of the "big clitoris" (you know, this 3D printed shape).
 

@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const ibu = _.word('ibu', {
-  prep: 'for',
-  style: 'to',
+  def: 'for',
+  adv: 'to',
   see: () => [_.prep],
 })

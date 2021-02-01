@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const lir = _.word('lir', {
-  tens: 'future',
+  def: 'future',
   see: () => [_.lei, _.lem],
 })
 

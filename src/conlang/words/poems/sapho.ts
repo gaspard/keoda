@@ -1,4 +1,5 @@
 import * as _ from '..'
+import { okana } from '../ana'
 
 export const sapho = _.card('sapho', {
   writ: 'sapho',
@@ -10,11 +11,11 @@ export const sapho = _.card('sapho', {
 ${_.phrase(
   "Il y aura quelqu'un, un jour, pour se souvenir de nous.",
   _.peyo,
-  _.esahelir,
+  _.es.a.e.lir,
   _.pedam,
   _.eku,
   _.alemegu,
-  _.futon
+  _.fu.to.n
 )}
 
 ## Poem from her youth:
@@ -24,43 +25,43 @@ ${_.phrase(
   _.zunes,
   _.wa,
   _.leiruo,
-  _.agoweiselem,
-  _.gatoh
+  _.a.goweis.lem,
+  _.ga.to.h
 )}
 
 ${_.phrase("Comme l'ouragan des montagnes", _.si, _.hurakan, _.dao, _.gosoa)}
 
-${_.phrase("S'abat sur les jeunes chênes.", _.hafo, _.fe, _.okanayiam)}
+${_.phrase("S'abat sur les jeunes chênes.", _.hafo, _.fe, okana.yi.m)}
 
  *(trad. Françoise Chandernagor)*
 
 ---
 
-${_.phrase('Il me parraît égal aux dieux,', _.ahawi, _.kegaiam)}
+${_.phrase('Il me parraît égal aux dieux,', _.a.awi, _.kegaiam)}
 
-${_.phrase("L'homme qui te regarde", _.otoda, _.dim, _.afa, _.tim)}
+${_.phrase("L'homme qui te regarde", _.otoda, _.dim, _.a.fa, _.ti.m)}
 
 ${_.phrase(
   'Sans craindre ton sourire et tes yeux et ta voix.',
-  _.shuhe,
-  _.ne,
+  _.shune,
+  _.neW,
   _.apeu,
   _.lajatim,
-  _.fatim,
+  _.fa.ti.m,
   _.uma,
-  _.lapatin
+  _.lapa.ti.n
 )}
 
 ${_.phrase(
   'Moi, sitôt que je vois ton visage,',
   _.pida,
   _.wa,
-  _.pifa,
+  _.opi.fa,
   _.duhatinam,
   _.ku
 )}
 
-${_.phrase('Mon cœur bat sur mes lèvres', _.auto, _.afo, _.laton)}
+${_.phrase('Mon cœur bat sur mes lèvres', _.au.to, _.afo, _.la.to.n)}
 
 Et ma gorge s'étrangle.  
 La chaleur et le froid tour à tour m'envahissent,  

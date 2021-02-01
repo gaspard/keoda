@@ -1,11 +1,11 @@
 import * as _ from '.'
 
 export const su = _.word('su', {
-  action: 'to have',
+  verb: 'to have',
   see: () => [_.wu],
 })
 
 export const nesu = _.word('nesu', {
-  action: 'to miss',
-  etym: () => [_.ne, _.su],
+  verb: 'to miss',
+  etym: () => [_.neW, _.su],
 })

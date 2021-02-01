@@ -1,13 +1,7 @@
 import * as _ from '.'
 
-export const wu = _.word('wu', {
-  prep: 'of',
-  suff: 'of',
-  see: () => [_.oS, _.iS, _.aS, _.prep],
-})
-
 export const diwu = _.word('diwu', {
-  prep: 'who owns',
+  def: 'who owns',
   see: () => [_.prep],
 })
 _.see(_.su)

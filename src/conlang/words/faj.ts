@@ -13,5 +13,5 @@ export const feyaj = _.word('feyaj', {
 })
 
 export const nefaj = _.word('nefaj', {
-  action: 'découvrir le gland, retrousser la peau du prépuce',
+  verb: 'découvrir le gland, retrousser la peau du prépuce',
 })

@@ -6,8 +6,3 @@ export const tame = _.word('tame', {
 _.see(_.pantame)
 
 // === alt
-
-export const tameh = _.alt('tameh', {
-  glo: '**ball**:',
-  alt: () => _.tame,
-})

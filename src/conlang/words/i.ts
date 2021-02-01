@@ -5,12 +5,12 @@ export const iC = _.word('i', {
   id: 'iC',
   noun: '**caress**',
   suff: 'caress',
-  subj: 'you (2SG)',
+  def: 'you (2SG)',
   glo: 'CARE',
-  see: () => [_.iS, _.verbs],
+  see: () => [_.i$, _.verbs],
 })
 
-export const imiyon = _.example([_.iC, _.mi, _.yon], `Masse-toi la vulve.`)
+export const imiyon = _.example([_.iC, _.mi, _.yin], `Masse-toi la vulve.`)
 export const imimoon = _.example([_.iC, _.mi, _.mun], 'Masse-toi les seins.')
 
 // === alt
@@ -18,5 +18,5 @@ export const imimoon = _.example([_.iC, _.mi, _.mun], 'Masse-toi les seins.')
 export const iHIST = _.alt('i', {
   id: 'iHIST',
   glo: 'to you',
-  alt: () => _.iS,
+  alt: () => _.i$,
 })

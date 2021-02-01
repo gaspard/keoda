@@ -1,16 +1,17 @@
 import * as _ from '.'
 
 export const al = _.word('al', {
-  noun: '**sky**',
-  prop: 'up',
+  noun: 'sky',
+  adj: 'up',
   pref: 'up',
   see: () => [_.so],
 })
 
-export const alayin = _.word('alayin', {
-  noun: '**top of vagina**',
-  prop: 'happy',
-  etym: () => [_.al, _.yin],
+export const alayuru = _.word('alayuru', {
+  noun: 'top of vagina',
+  adj: 'happy',
+  glo: '*top*.**vagina**',
+  etym: () => [_.al, _.yuru],
   desc: () => `This should definitely have a name in english...`,
 })
 

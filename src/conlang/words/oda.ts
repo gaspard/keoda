@@ -1,19 +1,13 @@
 import * as _ from '.'
 
 export const oda = _.word('oda', {
-  noun: '**weˣ self**',
-  glo: '**wex**.self',
-  etym: () => [_.oS, _.da],
+  noun: 'body',
+  etym: () => [_.o, _.da],
 })
 
 export const keoda = _.word('keoda', {
   noun: 'hidden body language',
   etym: () => [_.ke, _.oda],
-})
-
-export const yosa = _.word('yosa', {
-  noun: 'person',
-  etym: () => [_.yo, _.oda],
 })
 
 export const hida = _.word('hida', {

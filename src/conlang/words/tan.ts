@@ -6,13 +6,13 @@ export const tan = _.word('tan', {
 
 export const tanom = _.word('tanom', {
   noun: 'meaning',
-  action: 'to mean',
+  verb: 'to mean',
   etym: () => [_.tan, _.om],
 })
 
 export const tana = _.word('tanada', {
   noun: 'script',
-  action: 'to write',
+  verb: 'to write',
   etym: () => [_.tan, _.na],
 })
 
@@ -22,6 +22,6 @@ export const tanale = _.word('tanale', {
 })
 
 export const fatan = _.word('fatan', {
-  action: 'to read',
+  verb: 'to read',
   etym: () => [_.fa, _.tan],
 })

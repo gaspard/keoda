@@ -3,14 +3,14 @@ import * as _ from '.'
 // o case
 export const oC = _.word('o', {
   id: 'oC',
-  noun: '**shock**',
-  suff: '**shock**',
-  glo: 'PUSH (ABL)',
-  see: () => [_.oS, _.verbs],
+  noun: 'shock',
+  suff: 'shock',
+  glo: 'PUSH',
+  see: () => [_.o, _.verbs],
 })
 
 export const hafo = _.word('hafo', {
-  action: 'to fall',
+  verb: 'to fall',
   etym: () => [_.ha, _.fo],
 })
 

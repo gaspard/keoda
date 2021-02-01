@@ -12,7 +12,7 @@ export const gojida = _.word('gojida', {
 
 export const neji = _.word('neji', {
   noun: 'without hair',
-  action: 'to shave',
+  verb: 'to shave',
 })
 
 // ==== alt

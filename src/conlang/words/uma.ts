@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const uma = _.word('uma', {
-  prep: 'or',
+  def: 'or',
   see: () => [_.prep],
 })
 

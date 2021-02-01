@@ -2,10 +2,10 @@ import * as _ from '.'
 
 export const ma = _.word('ma', {
   noun: 'hand',
-  action: 'to shake, to take',
+  verb: 'to shake, to take',
   exam: () => [
-    _.phraseX(`Wank my vulva gently.`, _.masilo, _.yonam),
-    _.phraseX(`Wank my penis intensely.`, _.madom, _.tajam),
+    _.phraseX(`Wank my vulva gently.`, _.masilo, _.yin.m),
+    _.phraseX(`Wank my penis intensely.`, _.madom, _.taj.m),
   ],
 })
 
@@ -23,14 +23,14 @@ _.see(_.josame)
 _.see(_.lihafma)
 
 export const nema = _.word('nema', {
-  action: 'to let go',
+  verb: 'to let go',
   glo: 'NEG.**take**',
-  etym: () => [_.ne, _.ma],
-  exam: () => [_.phraseX('Drop (your) panties.', _.nema, _.feyonam)],
+  etym: () => [_.neW, _.ma],
+  exam: () => [_.phraseX('Drop (your) panties.', _.nema, _.feyin.m)],
 })
 
 export const mu = _.word('mu', {
-  action: 'to pull',
+  verb: 'to pull',
   glo: '**hand**.PULL',
   etym: () => [_.ma, _.u],
   see: () => [_.mi, _.mo],

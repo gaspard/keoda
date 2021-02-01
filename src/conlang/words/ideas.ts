@@ -12,10 +12,10 @@ import * as _ from '.'
 // vs changer le monde selon l'idée
 
 // être aimé.e ?
-export const pehaukawupi = _.example(
-  [_.pe, _.au, _.ka, _.opi],
-  `Être aimé.e pour soi`
-)
+// export const pehaukawupi = _.example(
+//   [_.pe, _.au, _.ka, _.opiW],
+//   `Être aimé.e pour soi`
+// )
 
 _.see(_.augu)
 _.see(_.negu)

@@ -1,24 +1,24 @@
 import * as _ from '.'
 
 export const jo = _.word('jo', {
-  prop: 'close, proximal',
-  prep: 'down',
+  adj: 'close, proximal',
+  def: 'down',
   etym: () => [_.dau, _.ojo],
   see: () => [_.ha],
 })
 
 export const hajo = _.word('hajo', {
-  action: 'to take',
+  verb: 'to take',
   etym: () => [_.ha, _.jo],
 })
 
 export const joha = _.word('joha', {
-  action: 'to reject',
+  verb: 'to reject',
   etym: () => [_.jo, _.ha],
 })
 
 export const muhajo = _.word('muhajo', {
-  action: 'to pick up',
+  verb: 'to pick up',
   etym: () => [_.mu, _.hajo],
 })
 

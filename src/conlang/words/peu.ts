@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const peu = _.word('peu', {
   noun: 'fear',
-  action: 'to fear',
+  verb: 'to fear',
 })
 
 export const agupeu = _.word('agupeu', {

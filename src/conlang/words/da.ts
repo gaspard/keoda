@@ -1,12 +1,5 @@
 import * as _ from '.'
 
-export const da = _.word('da', {
-  noun: '**self** or **9**',
-  suff: '**self**',
-  glo: '**self**',
-  see: () => [_.kedana, _.count, _.sen],
-})
-
 _.see(_.lama)
 _.see(_.lamagoa)
 _.see(_.goa)
@@ -19,7 +12,7 @@ export const dapa = _.word('dapa', {
 
 export const dafi = _.word('dafi', {
   noun: '**service**',
-  prop: 'serving',
+  adj: 'serving',
   etym: () => [_.da, _.fi],
   see: () => [_.nanes, _.dapa],
 })
@@ -38,6 +31,7 @@ export const dana = _.word('dana', {
 // === alt
 
 export const da9 = _.alt('da', {
+  id: 'da9',
   glo: '**9**',
   alt: () => _.da,
 })

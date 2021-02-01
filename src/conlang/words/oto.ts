@@ -1,8 +1,8 @@
 import * as _ from '.'
 
-export const oto = _.word('oto', {
+export const oto$ = _.word('oto', {
   noun: '**wind** or **masculinity**',
-  prop: 'masculine',
+  adj: 'masculine',
   see: () => [_.subj],
 })
 
@@ -16,20 +16,20 @@ export const otoda = _.word('otoda', {
 
 export const tahoton = _.alt('tahoton', {
   glo: '**they1**.wind~',
-  alt: () => _.oto,
+  alt: () => _.oto.$,
 })
 
 export const shohoto = _.alt('shohoto', {
   glo: '**we9**.wind',
-  alt: () => _.oto,
+  alt: () => _.oto.$,
 })
 
 export const tahoto = _.alt('tahoto', {
   glo: '**they1**.wind',
-  alt: () => _.oto,
+  alt: () => _.oto.$,
 })
 
 export const ahoto = _.alt('ahoto', {
   glo: '**they1**.wind',
-  alt: () => _.oto,
+  alt: () => _.oto.$,
 })

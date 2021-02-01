@@ -1,13 +1,13 @@
 import * as _ from '.'
 
 export const zu = _.word('zu', {
-  noun: 'heart',
-  action: 'to love',
+  noun: '**heart**',
+  verb: 'to love',
   see: () => [_.au],
 })
 
 export const zuzu = _.word('zuzu', {
-  action: 'to make love',
+  verb: 'to make love',
   see: () => [_.auau, _.kude],
   etym: () => [_.zu, _.zu],
 })
@@ -22,19 +22,9 @@ export const zuzupa = _.alt('zuzupa', {
   alt: () => _.zuzu,
 })
 
-export const ozu = _.alt('ozu', {
-  glo: 'wex.**heart**',
-  alt: () => _.zu,
-})
-
 export const shozuzu = _.alt('shozuzu', {
   glo: '1PL.PRS.**make love**',
   alt: () => _.zuzu,
-})
-
-export const ahanazu = _.alt('ahanazu', {
-  glo: 'they1.*tree*.**heart**',
-  alt: () => _.zu,
 })
 
 export const esoluzu = _.alt('esoluzu', {

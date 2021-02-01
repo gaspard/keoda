@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const pe = _.word('pe', {
-  subj: 'some',
+  def: 'some',
   glo: 'they9.INDF',
   noun: '3',
   suff: 'some',
@@ -13,7 +13,7 @@ export const ape = _.word('ape', {
   noun: '**someˣ**',
   pref: '**to someone**',
   suff: '**to someone**',
-  etym: () => [_.aS, _.pe],
+  etym: () => [_.a$, _.pe],
   see: () => [_.subj],
 })
 
@@ -38,7 +38,7 @@ export const hamape = _.word('hamape', {
 
 export const nepe = _.word('nepe', {
   noun: 'limbo (forgetting "pa")',
-  prop: 'offensive',
+  adj: 'offensive',
   see: () => [_.ganes, _.nanes],
 })
 

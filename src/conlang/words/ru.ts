@@ -3,7 +3,7 @@ import * as _ from '.'
 export const ru = _.word('ru', {
   noun: 'creation (Sristi)',
   suff: 'to become',
-  action: 'to emerge',
+  verb: 'to emerge',
   see: () => [_.prep],
 })
 
@@ -24,12 +24,12 @@ export const leirui = _.word('leirui', {
 
 export const leiruo = _.word('leiruo', {
   noun: 'misfortune',
-  style: 'alas',
+  adv: 'alas',
   etym: () => [_.leiru, _.oC],
 })
 
 export const kuru = _.word('kuru', {
-  action: 'to must',
+  verb: 'to must',
   etym: () => [_.ku, _.ru],
 })
 
@@ -50,11 +50,6 @@ In keoda, this litteraly means "the emergence of hubris".
 export const piyiru = _.alt('piyiru', {
   glo: '1SG.DIM.**become**',
   alt: () => _.ru,
-})
-
-export const okuru = _.alt('okuru', {
-  glo: 'wex.**must**',
-  alt: () => _.kuru,
 })
 
 export const iru = _.alt('iru', {

@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const di = _.word('di', {
-  prep: 'who',
+  def: 'who',
   see: () => [_.prep, _.dim, _.diwu],
 })
 

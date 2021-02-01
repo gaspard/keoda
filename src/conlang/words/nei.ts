@@ -1,6 +1,6 @@
 import * as _ from '.'
 
 export const nei = _.word('nei', {
-  tens: 'never (NEG)',
-  etym: () => [_.ne, _.lei],
+  def: 'never (NEG)',
+  etym: () => [_.neW, _.lei],
 })

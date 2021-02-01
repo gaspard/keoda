@@ -2,10 +2,10 @@ import * as _ from '.'
 
 export const on = _.word('on', {
   noun: 'source',
-  action: 'to reveal',
+  verb: 'to reveal',
 })
 
-_.see(_.yon)
+_.see(_.yin)
 
 export const lamon = _.word('lamon', {
   noun: 'urethra',

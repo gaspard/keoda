@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const tio = _.word('tio', {
   noun: `genitals`,
-  action: `faire l'amour`,
+  verb: `faire l'amour`,
 })
 _.see(_.pio)
 
@@ -18,6 +18,6 @@ export const tiona = _.word('tiona', {
 
 // cueillir des fleurs
 export const lasimuhadjotionayon = _.example(
-  [_.la, _.si, _.muhajo, _.tiona, _.yon],
+  [_.la, _.si, _.muhajo, _.tiona, _.yin],
   `Embrasse ma vulve comme si tu cueillais des fleurs.`
 )

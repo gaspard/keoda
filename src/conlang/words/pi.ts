@@ -1,24 +1,16 @@
 import * as _ from '.'
 
 export const pi = _.word('pi', {
-  subj: 'I (1SG)',
-  style: 'ici, origine',
+  def: 'I (1SG)',
+  adv: 'ici, origine',
   noun: '1, self',
   glo: 'me',
   pos: 'debout',
   see: () => [_.pa],
 })
 
-export const opi = _.word('opi', {
-  noun: '**I**',
-  pref: '**my**',
-  suff: '**my**',
-  etym: () => [_.oS, _.pi],
-  see: () => [_.subj],
-})
-
 export const pida = _.word('pida', {
-  pron: '**I person**',
+  def: '**I person**',
   etym: () => [_.pi, _.da],
   see: () => [_.subj],
 })
@@ -34,25 +26,25 @@ export const pipa = _.word('pipa', {
 })
 
 export const pienu = _.word('pienu', {
-  prop: 'alone (I embroider)',
+  adj: 'alone (I embroider)',
   etym: () => [_.pi, _.enu],
 })
 
 export const aupi = _.word('aupi', {
-  action: `to love onself`,
+  verb: `to love onself`,
   glo: '**heart**.self',
   etym: () => [_.au, _.pi],
 })
 
 export const gupi = _.word('gupi', {
-  action: 'to accept',
+  verb: 'to accept',
   etym: () => [_.gu, _.pi],
   see: () => [_.nelo, _.kupa],
 })
 
 export const nepi = _.word('nepi', {
   noun: 'division',
-  prop: 'disembodied, fragmented',
+  adj: 'disembodied, fragmented',
   see: () => [_.ganes, _.nanes],
 })
 
@@ -66,13 +58,8 @@ export const hapi = _.word('hapi', {
   noun: 'soi distal (Grand Soi, Grande Sœur, Grand Frère, souvent le futur)',
 })
 
-export const piyi = _.word('piyi', {
-  subj: 'I (tiny)',
-  glo: '1SG.DIM',
+export const piyi$ = _.word('piyi', {
+  def: '**I (tiny)**',
+  glo: 'I.TINY',
   see: () => [_.verbs],
-})
-
-export const topim = _.alt('topim', {
-  glo: '**I**+',
-  alt: () => _.opi,
 })

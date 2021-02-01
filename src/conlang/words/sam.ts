@@ -39,13 +39,3 @@ export const samwe = _.alt('samwe', {
   glo: '**foot**.RIGHT',
   alt: () => _.same,
 })
-
-export const sametinam = _.alt('sametinam', {
-  glo: '**foot**.you1+',
-  alt: () => _.same,
-})
-
-export const sameti = _.alt('sameti', {
-  glo: '**foot**.you1',
-  alt: () => _.same,
-})

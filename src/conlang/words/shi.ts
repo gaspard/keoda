@@ -3,14 +3,7 @@ import * as _ from '.'
 export const shi6 = _.word('shi', {
   noun: '6',
   glo: '2PL.PRS',
-  see: () => [_.shiP, _.count],
-})
-
-export const shiP = _.word('shi', {
-  noun: '**you\\***',
-  pref: '**your\\***',
-  suff: '**your\\***',
-  see: () => [_.shi6, _.subj],
+  see: () => [_.shi, _.count],
 })
 
 export const shipa = _.word('shipa', {
@@ -19,6 +12,6 @@ export const shipa = _.word('shipa', {
 })
 
 export const shifi = _.word('shifi', {
-  prop: 'learning',
+  adj: 'learning',
   see: () => [_.nanes, _.shipa],
 })

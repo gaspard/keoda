@@ -11,7 +11,7 @@ export const jipa = _.word('jipa', {
 })
 
 export const jifi = _.word('jifi', {
-  prop: 'humble',
+  adj: 'humble',
   see: () => [_.nanes, _.jipa],
 })
 

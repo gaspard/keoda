@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const ko = _.word('ko', {
-  prep: 'with',
+  def: 'with',
   see: () => [_.prep],
 })
 

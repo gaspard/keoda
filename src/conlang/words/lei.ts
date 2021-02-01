@@ -1,30 +1,31 @@
 import * as _ from '.'
 
+// on rename, change suffix/uki
 export const lei = _.word('lei', {
   noun: 'time',
-  prep: 'then',
+  def: 'then',
   pref: 'time',
 })
 
 export const leu = _.word('leu', {
-  prep: 'while, as',
+  def: 'while, as',
   etym: () => [_.lei, _.u],
 })
 
 export const gulei = _.word('gulei', {
-  action: 'to experience',
+  verb: 'to experience',
   noun: 'experience',
   etym: () => [_.gu, _.lei],
 })
 
 export const leiuki = _.word('leiuki', {
   noun: 'patience',
-  prop: 'patient',
+  adj: 'patient',
   etym: () => [_.lei, _.uki],
 })
 
 export const neleiuki = _.word('neleiuki', {
   noun: 'impatience',
-  prop: 'impatient',
-  etym: () => [_.ne, _.leiuki],
+  adj: 'impatient',
+  etym: () => [_.neW, _.leiuki],
 })

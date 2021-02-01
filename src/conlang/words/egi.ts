@@ -1,7 +1,9 @@
 import * as _ from '.'
 
 export const egi = _.word('egi', {
-  prop: 'cold',
+  noun: '**winter**',
+  adj: 'cold',
+  see: () => [_.il],
 })
 
 export const egina = _.word('egina', {

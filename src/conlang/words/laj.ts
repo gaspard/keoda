@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const laj = _.word('laj', {
   noun: 'smile',
-  action: 'to smile',
+  verb: 'to smile',
   etym: () => [_.la, _.aj],
 })
 

@@ -1,17 +1,17 @@
 import * as _ from '.'
 
 export const me = _.word('me', {
-  action: 'to move',
+  verb: 'to move',
   pref: 'to move into',
 })
 
 export const meshe = _.word('meshe', {
-  action: 'to fly',
+  verb: 'to fly',
   etym: () => [_.me, _.she],
 })
 
 export const melam = _.word('melam', {
-  action: 'to swim',
+  verb: 'to swim',
   etym: () => [_.me, _.lame],
 })
 

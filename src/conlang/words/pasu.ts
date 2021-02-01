@@ -2,7 +2,7 @@ import * as _ from '.'
 
 // lapa sun
 export const pasu = _.word('pasu', {
-  action: 'to teach',
+  verb: 'to teach',
   etym: () => [_.lapa, _.sun],
 })
 

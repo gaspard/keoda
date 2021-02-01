@@ -42,5 +42,5 @@ export const djonopi = _.word('djonopi', {
 
 export const noyin = _.word('noyin', {
   noun: `fond du vagin (col de l'utérus)`,
-  etym: () => [_.no, _.yin],
+  etym: () => [_.no, _.yuru],
 })

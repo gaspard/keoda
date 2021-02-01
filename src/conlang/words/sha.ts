@@ -2,21 +2,13 @@ import * as _ from '.'
 
 export const shaH = _.word('sha', {
   id: 'shaD',
-  noun: '**hip**',
-  see: () => [_.shaP],
-})
-
-export const shaP = _.word('sha', {
-  id: 'shaP',
-  noun: '**they\\***',
-  pref: '**their\\***',
-  suff: '**their\\***',
-  see: () => [_.shaH, _.subj],
+  noun: 'hip',
+  see: () => [_.sha],
 })
 
 export const shasha = _.word('shasha', {
-  noun: '**dance**',
-  action: 'to dance',
+  noun: 'dance',
+  verb: 'to dance',
   etym: () => [_.shaH, _.shaH],
 })
 

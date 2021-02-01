@@ -1,6 +1,6 @@
 import * as _ from '.'
 
 export const mei = _.word('mei', {
-  prep: 'made of',
+  def: 'made of',
   see: () => [_.prep],
 })

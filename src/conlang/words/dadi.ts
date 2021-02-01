@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const dadi = _.word('dadi', {
   noun: '**saliva**',
-  action: 'to salivate',
+  verb: 'to salivate',
 })
 
 export const onadi = _.word('onsho', {

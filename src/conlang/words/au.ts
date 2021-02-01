@@ -1,8 +1,8 @@
 import * as _ from '.'
 
 export const au = _.word('au', {
-  noun: 'heart',
-  action: 'to love/to receive',
+  noun: '**heart**',
+  verb: 'to love',
   see: () => [_.zu],
 })
 
@@ -24,7 +24,7 @@ _.see(_.pahau)
 _.see(_.kupa)
 
 export const auau = _.word('auau', {
-  action: 'to make love',
+  verb: 'to make love',
   see: () => [_.zuzu, _.kude],
 })
 
@@ -37,25 +37,4 @@ export const ausifalamau = _.example(
 export const azulire = _.alt('azulire', {
   glo: 'they1.**heart**.FUT.EVNT',
   alt: () => _.zu,
-})
-
-// same as autinam
-export const autim = _.alt('autim', {
-  glo: '**heart**.you1+',
-  alt: () => _.au,
-})
-
-export const auto = _.alt('auto', {
-  glo: '**heart**.wex',
-  alt: () => _.au,
-})
-
-export const esohau = _.alt('esohau', {
-  glo: 'PASS.wex.**heart**',
-  alt: () => _.au,
-})
-
-export const aun = _.alt('aun', {
-  glo: '**heart**+',
-  alt: () => _.au,
 })

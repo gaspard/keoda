@@ -25,7 +25,7 @@ export const iwa = _.word('iwa', {
 })
 
 export const yafa = _.word('yafa', {
-  action: 'to dream',
+  verb: 'to dream',
   etym: () => [_.ya, _.fa],
 })
 

@@ -1,7 +1,7 @@
 import classnames from 'classnames'
 import * as React from 'react'
 import { Comp, styled, useOvermind } from '../app'
-import { CompiledEntry, DEF_KEYS } from '../conlang/types'
+import { CompiledEntry, DEF_KEYS, MAIN_KEYS } from '../conlang/types'
 import { getEntry } from '../helpers/getEntry'
 import { Link } from './Link'
 import { List } from './List'
@@ -160,16 +160,34 @@ const Suf = styled.span`
   color: #999;
 `
 
-const Def = styled(Markdown)`
-  white-space: pre-line;
-  font-size: 1.3rem;
-  line-height: 1.8rem;
-  border-bottom: 1px solid rgb(123, 123, 123);
-  padding-left: 10px;
+const Group = styled.div`
+  &.Main {
+    font-size: 1.3rem;
+  }
+  &:not(:last-child) {
+    border-bottom: 1px solid rgb(123, 123, 123);
+  }
+  padding: 20px 10px;
+`
+
+const Def = styled.span`
   color: #666;
-  strong {
-    font-weight: 500;
-    color: #333;
+  & span {
+    margin-right: 10px;
+    color: #666;
+  }
+  font-weight: 500;
+  &.noun {
+    color: #40495a;
+  }
+  &.verb {
+    color: #883ea7;
+  }
+  &.adj {
+    color: #149a32;
+  }
+  &.adv {
+    color: #040a02;
   }
 `
 
@@ -330,7 +348,7 @@ const Definition = styled.div`
     }
     strong {
       font-weight: 500;
-      color: #444;
+      color: #333;
     }
     table {
       color: inherit;
@@ -373,16 +391,16 @@ const DefText = styled.div`
   &.etym {
     color: #222;
   }
-  &.def {
-    color: #28467d;
+  &.noun {
+    color: #40495a;
   }
-  &.action {
+  &.verb {
     color: #883ea7;
   }
-  &.prop {
+  &.adj {
     color: #149a32;
   }
-  &.style {
+  &.adv {
     color: #040a02;
   }
   &.det {
@@ -467,7 +485,7 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
         ['--data-pos']: entry.imgpos || '0',
       }
     : {}
-
+  const def_keys = DEF_KEYS.filter(k => entry[k])
   return (
     <Wrapper
       className={classnames(entry.type, className, {
@@ -505,9 +523,6 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
         </Title>
       )}
       <Definitions>
-        {entry.noun && (
-          <Def className="desc" type="md-open" text={entry.noun} />
-        )}
         {entry.etym && (
           <React.Fragment>
             <GWrap className="etym">
@@ -515,34 +530,44 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
             </GWrap>
           </React.Fragment>
         )}
-        {DEF_KEYS.map(key =>
-          entry[key] ? (
-            <Definition key={key}>
-              <DefType
-                className={classnames(key, { selected: key === highKey })}
-                onClick={() => ctx.actions.keoda.filter({ type: 'type', key })}
-              >
-                {key}
-              </DefType>
-              {key === 'etym' || key === 'see' || key === 'deriv' ? (
-                <List className={key} entries={entry[key]!} />
-              ) : (
-                <DefText className={key}>{entry[key]}</DefText>
-              )}
-            </Definition>
-          ) : null
+        <Group className="Main">
+          {MAIN_KEYS.filter(key => entry[key] !== undefined).map((key, idx) => (
+            <Def className={key} key={key}>
+              {idx > 0 ? <span>,</span> : null}
+              {entry[key]}
+            </Def>
+          ))}
+        </Group>
+        {def_keys.length > 0 && (
+          <Group>
+            {def_keys.map(key => (
+              <Definition key={key}>
+                <DefType
+                  className={classnames(key, { selected: key === highKey })}
+                  onClick={() =>
+                    ctx.actions.keoda.filter({ type: 'type', key })
+                  }
+                >
+                  {key}
+                </DefType>
+                {key === 'etym' || key === 'see' || key === 'deriv' ? (
+                  <List className={key} entries={entry[key]!} />
+                ) : (
+                  <DefText className={key}>{entry[key]}</DefText>
+                )}
+              </Definition>
+            ))}
+          </Group>
         )}
         {entry.desc && (
-          <React.Fragment>
-            <div className="hr" />
+          <Group>
             <Definition className="desc">
               <Markdown text={entry.desc} type={open ? 'md-open' : 'md'} />
             </Definition>
-          </React.Fragment>
+          </Group>
         )}
         {entry.phrases && (
-          <React.Fragment>
-            <div className="hr" />
+          <Group>
             <Definition className="desc">
               <List
                 className="phrases"
@@ -550,7 +575,7 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
                 type={open ? 'md-open' : 'md'}
               />
             </Definition>
-          </React.Fragment>
+          </Group>
         )}
       </Definitions>
     </Wrapper>

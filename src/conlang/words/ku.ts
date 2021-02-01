@@ -2,15 +2,15 @@ import * as _ from '.'
 
 export const ku = _.word('ku', {
   noun: 'rope',
-  action: 'to tie',
-  prep: 'imply',
+  verb: 'to tie',
+  def: 'imply',
   desc: () => `Causality`,
 })
 
 export const kude = _.word('kude', {
   noun: '**knot**',
-  action: 'to make love',
-  etym: () => [_.ku, _.de],
+  verb: 'to make love',
+  etym: () => [_.ku, _.de2],
 })
 
 export const kupa = _.word('kupa', {
@@ -20,14 +20,14 @@ export const kupa = _.word('kupa', {
 })
 
 export const nekupa = _.word('nekupa', {
-  action: 'to let go',
-  etym: () => [_.ne, _.kupa],
+  verb: 'to let go',
+  etym: () => [_.neW, _.kupa],
   desc: () => `To not attach to everything.`,
 })
 
 export const kulei = _.word('kulei', {
   noun: 'causal time',
-  action: 'to rig',
+  verb: 'to rig',
   desc: () =>
     `To tie time, manipulate, transactional relation to time (if-then).`,
   etym: () => [_.ku, _.lei],

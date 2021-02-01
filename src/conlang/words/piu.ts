@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const piu = _.word('piu', {
-  prop: 'green',
+  adj: 'green',
   see: () => [_.colors],
 })
 
