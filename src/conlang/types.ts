@@ -13,10 +13,8 @@ export interface EntryInfo {
   noun: string
   // as an action
   verb: string
-  // as a property modifier
-  adj: string
-  // as an action modifier
-  adv: string
+  // as an action or property modifier
+  mod: string
   // generic
   def: string
   // MAIN KEYS ==========
@@ -56,21 +54,25 @@ export interface FullEntry extends EntryInfo {
   see: () => { id: string }[]
   // For phrases
   words: () => { id: string; name: string }[]
+  // top-most original word (points to real word)
   alt: () => Entry
+  // for multi-level word composition (points to real word)
+  orig: () => Entry
+  // for multi-level word composition (can point to alt or word)
+  prev: () => Entry
 }
 
 export const FULLTEXT_KEYS: (keyof EntryInfo)[] = [
   'noun', // noun
   'verb',
-  'adj', // property concept modifier
-  'adv', // action concept modifier
+  'mod', // modifier
   'def',
   'pos',
 ]
 
-export type MainKeys = 'noun' | 'verb' | 'adj' | 'adv' | 'def'
+export type MainKeys = 'noun' | 'verb' | 'mod' | 'def'
 
-export const MAIN_KEYS: MainKeys[] = ['noun', 'verb', 'adj', 'adv', 'def']
+export const MAIN_KEYS: MainKeys[] = ['noun', 'verb', 'mod', 'def']
 
 export const DEF_KEYS: (keyof CompiledEntry)[] = [
   ...FULLTEXT_KEYS.filter(k => !MAIN_KEYS.includes(k as any)),
@@ -131,6 +133,8 @@ export interface CompiledEntry extends Partial<EntryInfo> {
   fulltext: string
   // alternative word to show def
   alt?: string
+  prev?: string
+  orig?: string
   etym?: string[]
   desc?: string
   deriv?: string[]

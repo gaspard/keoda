@@ -21,8 +21,3 @@ export const kebaj = _.word('kebaj', {
 })
 
 // ==== alt
-
-export const bajuki = _.alt('bajuki', {
-  glo: '**lower limb**.*long*',
-  alt: () => _.baj,
-})

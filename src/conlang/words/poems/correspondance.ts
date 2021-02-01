@@ -41,10 +41,8 @@ ${_.phrase(
 ${_.phrase(
   "Qui l'observent avec des regards familiers.",
   _.di,
-  _.ko,
-  _.gi,
-  _.sha.fa,
-  _.fu.ta.$.m
+  _.sha.fa.gi,
+  _.fu.ta.m
 )}
 
 ${_.phrase(

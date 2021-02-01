@@ -1,6 +1,7 @@
 import * as _ from '../words'
 
 export const verbs = _.card('verbs', {
+  open: true,
   desc: () => `
 # Action
 
@@ -17,14 +18,20 @@ mark intent or style:
 
 ### Examples:
 
-* ${_.phrase('Caress wex my long hair.', _.mi.imp, _.jihukin)}
-* ${_.phrase('You breath (u) fresh air.', _.isheu, _.shehegim)}
-* ${_.phrase('Yesterday, you threw (o) the ball.', _.irumolemi, _.tame.h)}
+* ${_.phrase('Caress (i) long hair.', _.mi.imp, _.ji.uki.n)}
+* ${_.phrase('You breath (u) fresh air.', _.i.sheu, _.she.egi.m)}
+* ${_.phrase('Yesterday, you threw (o) the ball.', _.i.rumo.emi, _.tame.h)}
 
 #### nsfw
 
 * ${_.phraseX('Pinch my nipple (lovingly).', _.mu.imp, _.hamun.m)}
 * ${_.phraseX('Pinch my nipple (sadisticaly).', _.mu.imp, _.hamun.h)}
+* ${_.phraseX(
+    'Pinch my nipple (intensely and with love).',
+    _.mu.do.imp,
+    _.hamun.m
+  )}
+* ${_.phraseX('Pinch my nipple (gently with love).', _.mu.gi.imp, _.hamun.m)}
 * ${_.phraseX('Whip my butt.', _.fo.imp, _.pal.m)}
 
 ## The hardest case
@@ -32,7 +39,7 @@ mark intent or style:
 The most complicated action type is the continuous passive in the past or
 future. Here we go:
 
-* ${_.ophrase('You were being caressed.', _.es.i.lu.mi.lem)}
+* ${_.ophrase('You were being caressed.', _.es.i.lu.mi.em)}
 
 Decomposed in its parts, this is:
 
@@ -94,11 +101,11 @@ For example:
     _.same.ti,
     _.es.a.mi
   )}, litteraly "foot.you be-him.**caress**".
-* ${_.phrase('I will be massaged.', _.es.o.mi.lir)} ("be-me.**caress**.will-be")
+* ${_.phrase('I will be massaged.', _.es.o.mi.ir)} ("be-me.**caress**.will-be")
 
 #### nsfw
 
-* ${_.phrase('My pussy will be licked.', _.yin.to, _.es.a.keli.lir)}
+* ${_.phrase('My pussy will be licked.', _.yin.to, _.es.a.keli.ir)}
 
 ## Continuous aspect ${_.lu}
 
@@ -110,13 +117,13 @@ on the action (comes after accord with the subject).
     _.a.lu.gahi,
     _.ti.m,
     _.dem,
-    _.a.fodiru.lem
+    _.a.fodiru.em
   )}
 * ${_.phrase(
     'Thinking of you, he fell asleep.',
     _.lu.gahi,
     _.ti.m,
-    _.a.fodiru.lem
+    _.a.fodiru.em
   )}
 * ${_.phrase('I am dreaming of you.', _.oluyafa, _.ti.m)}
 
@@ -144,7 +151,7 @@ ${_.phrase(
   _.gama.n,
   _.mei,
   _.joda,
-  _.a.lu.dolo.lem
+  _.a.lu.dolo.em
 )}
 
 ## Honorific / tiny
@@ -166,9 +173,9 @@ This translates in subjects ${_.o.kei}, ${_.i.yi$}, ${_.i.lo}, etc.
 
 ${_.phrase('I am ready, Master.', _.yi$.e, _.sen, _.keda)}
 
-${_.phrase('I (Master) will undress (tiny you).', _.o.kei.nefe.lir, _.yi$.da)}
+${_.phrase('I (Master) will undress (tiny you).', _.o.kei.nefe.ir, _.yi$.da)}
 
-${_.phrase('(tiny) me will undress you (Master).', _.opi.yi$.nefe.lir, _.keda)}
+${_.phrase('(tiny) me will undress you (Master).', _.opi.yi$.nefe.ir, _.keda)}
 
 Just remember, what sounds like "OKey" is in fact "I-fantastic" and
 everything with a /y/ such as ${_.yi$.da} are meant to be said with a soft and
@@ -203,7 +210,7 @@ language originated.
 
 ## Examples
 
-* ${_.phrase('yesterday, I kissed a girl (I dislike).', _.o.la.lemi, _.ana.h)}
+* ${_.phrase('yesterday, I kissed a girl (I dislike).', _.o.la.emi, _.ana.h)}
 * ${_.phrase('They might love you (completely) someday.', _.azulire, _.au.ti.m)}
 
 #### nsfw

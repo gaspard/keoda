@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const oto$ = _.word('oto', {
   noun: '**wind** or **masculinity**',
-  adj: 'masculine',
+  mod: 'masculine',
   see: () => [_.subj],
 })
 

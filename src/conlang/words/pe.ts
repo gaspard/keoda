@@ -38,7 +38,7 @@ export const hamape = _.word('hamape', {
 
 export const nepe = _.word('nepe', {
   noun: 'limbo (forgetting "pa")',
-  adj: 'offensive',
+  mod: 'offensive',
   see: () => [_.ganes, _.nanes],
 })
 

@@ -66,7 +66,7 @@ correct because english is not a free word order language.
 
 #### nsfw
 
-${_.phrase('Jane whips the butt of John', _.Jane, _.afo, _.palwu, _.John.m)}
+${_.phrase('Jane whips the butt of John', _.Jane, _.afo, _.pal.wu, _.John.m)}
 
 ${_.phrase(
   'John gives the ball to Jane',
@@ -104,7 +104,7 @@ ${_.phrase(
 
 ${_.phrase(
   'I always dream Iris and I make love to you.',
-  _.o.yafa.lau,
+  _.o.yafa.au,
   _.eku,
   _.Iris,
   _.shu,
@@ -145,7 +145,7 @@ ${_.phrase("They whip John's butt.", _.afo, _.John, _.pal.m)}
 
 ${_.phrase('They whip the butt of John.', _.afo, _.pal.wu, _.John.m)}
 
-${_.phrase('The butt, they whip (of) John.', _.palam, _.afo, _.John.m)}
+${_.phrase('The butt, they whip (of) John.', _.pal.m, _.afo, _.John.m)}
 
 ---
 
@@ -164,7 +164,7 @@ different parts:
 
 ${_.phrase(
   'The butt of John will be whipped by ... Jane.',
-  _.palwu,
+  _.pal.wu,
   _.John.m,
   _.afoliri,
   _.fuJane
@@ -174,7 +174,7 @@ ${_.phrase(
 
 Note that here we do not say ${_.phrase(
     'The butt of John',
-    _.palwu,
+    _.pal.wu,
     _.John.m
   )} because pal is seen
 as part of the verb "to whip a butt". Body parts tend to stick to verbs and
@@ -186,7 +186,7 @@ ${_.phrase(
   _.pal,
   _.John.m,
   _.fuJane,
-  _.e.liro
+  _.e.iro
 )}
 
 ## 3. Emphasis on the verb
@@ -195,7 +195,7 @@ ${_.phrase(
   "By Jane on John's butt, tonight, there will be a whipping.",
   _.fuJane,
   _.John,
-  _.palam,
+  _.pal.m,
   _.foliri
 )}
 
@@ -205,7 +205,7 @@ ${_.phrase(
   'Jane will whip tonight the butt of ... John.',
   _.Jane,
   _.afoliri,
-  _.palwu,
+  _.pal.wu,
   _.John.m
 )}
 
@@ -216,7 +216,7 @@ ${_.phrase(
   _.Jane,
   _.afoliri,
   _.John,
-  _.palam
+  _.pal.m
 )}
 
 ---
@@ -235,7 +235,7 @@ ${_.phrase(
   _.Jane,
   _.afoliriwa,
   _.John,
-  _.palam
+  _.pal.m
 )}
 
 Your next read: ${_.subj} (subjects)

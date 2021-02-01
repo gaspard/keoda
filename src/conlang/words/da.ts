@@ -12,7 +12,7 @@ export const dapa = _.word('dapa', {
 
 export const dafi = _.word('dafi', {
   noun: '**service**',
-  adj: 'serving',
+  mod: 'serving',
   etym: () => [_.da, _.fi],
   see: () => [_.nanes, _.dapa],
 })

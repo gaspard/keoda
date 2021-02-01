@@ -1,11 +1,13 @@
-import * as _ from '.'
+import { suffix } from '../make'
 
-export const dom = _.word('dom', {
-  adj: 'intense',
-  adv: 'intensely',
+const do_ = suffix('do', {
+  id: 'do',
+  mod: 'intense',
+  noun: 'intensity',
   desc: () => `
 Implies a very deep, intimate and intense contact. Not something out
 of brute force but through whatever creates intensity in the specific
 giving and receiving vsituation.
 `,
 })
+export { do_ as do }

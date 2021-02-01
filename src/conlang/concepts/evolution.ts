@@ -33,7 +33,7 @@ we added the dative back but with more power and made the accusative nicer.
 * ${_.phrase(
     'For us, tonight, you will be caressing your lovely breasts lightly.',
     _.fu.to,
-    _.i.lu.mi.liro,
+    _.i.lu.mi.iro,
     _.munatim,
     _.sienu
   )}

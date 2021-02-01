@@ -42,8 +42,8 @@ See word order for more on cases: ${_.order}
 
 #### nsfw
 
-* ${_.phrase('Iris whom you caressed.', _.Iris.m, _.dim, _.i.mi.lema)}
-* ${_.phrase('Iris who caressed you.', _.Iris, _.di, _.a.mi.lema, _.ti.m)}
+* ${_.phrase('Iris whom you caressed.', _.Iris.m, _.dim, _.i.mi.ema)}
+* ${_.phrase('Iris who caressed you.', _.Iris, _.di, _.a.mi.ema, _.ti.m)}
 * ${_.phrase('I like that you are naked.', _.o.zu, _.eku, _.o.yi$.e, _.nefe)}
 
 ## Location
@@ -58,7 +58,7 @@ See word order for more on cases: ${_.order}
 * ${_.dau} (to.LOC)
 * ${_.dao} (from.LOC)
 
-${_.phrase('Where did you caress Iris ?', _.dona, _.Iris.m, _.i.mi.lema, _.q)}
+${_.phrase('Where did you caress Iris ?', _.dona, _.Iris.m, _.i.mi.ema, _.q)}
 
 ## Causality
 
@@ -69,7 +69,7 @@ ${_.phrase('Where did you caress Iris ?', _.dona, _.Iris.m, _.i.mi.lema, _.q)}
 * ${_.ku} (and/implies)
 * ${_.meu} (otherwise)
 
-${_.phrase('Did you caress Iris ?', _.eja, _.Iris.m, _.i.mi.leme, _.q)}
+${_.phrase('Did you caress Iris ?', _.eja, _.Iris.m, _.i.mi.eme, _.q)}
 
 ## Similarity
 

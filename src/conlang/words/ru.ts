@@ -24,7 +24,7 @@ export const leirui = _.word('leirui', {
 
 export const leiruo = _.word('leiruo', {
   noun: 'misfortune',
-  adv: 'alas',
+  mod: 'alas',
   etym: () => [_.leiru, _.oC],
 })
 

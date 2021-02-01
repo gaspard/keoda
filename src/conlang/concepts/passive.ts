@@ -7,7 +7,7 @@ export const passive = _.card('passive', {
 This is something like saying 'there is' before the accord on subject
 thus making "There is an I massaged in the future" is said as:
 
-* ${_.phrase('I will be caressed.', _.es.o.mi.lir)}
+* ${_.phrase('I will be caressed.', _.es.o.mi.ir)}
 
 It is applied before the conjugation: ${_.es.sha.nele}.
 

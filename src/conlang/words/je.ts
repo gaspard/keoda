@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const je = _.word('je', {
-  adj: 'close',
+  mod: 'close',
   noun: '8 (emotion)',
   see: () => [_.count],
 })
@@ -12,6 +12,6 @@ export const jepa = _.word('jepa', {
 })
 
 export const jefi = _.word('jefi', {
-  adj: 'caring',
+  mod: 'caring',
   see: () => [_.nanes, _.jepa],
 })

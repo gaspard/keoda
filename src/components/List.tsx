@@ -73,11 +73,8 @@ const Detail = styled.div`
   &&.verb strong {
     color: #883ea7;
   }
-  &&.adj strong {
-    color: #149a32;
-  }
-  &&.adv strong {
-    color: #040a02;
+  && em {
+    color: #4ba05e;
   }
 `
 

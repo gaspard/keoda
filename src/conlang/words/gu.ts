@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const gu = _.word('gu', {
   noun: 'darkness',
-  adj: 'darkness, gestation, deep',
+  mod: 'darkness, gestation, deep',
   etym: () => [_.ga, _.u],
   see: () => [_.nu, _.ganes, _.gufi],
   desc: () => `
@@ -88,7 +88,7 @@ In keoda, this litteraly means "the emergence of the darkness".
 
 export const gugai = _.word('gugai', {
   noun: 'fertility',
-  adj: 'fertile',
+  mod: 'fertile',
   etym: () => [_.gu, _.gai],
 })
 

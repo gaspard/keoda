@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const lau = _.word('lau', {
   noun: 'eternity',
-  adv: 'always',
+  mod: 'always',
   def: 'ETERN',
   etym: () => [_.lei, _.au],
   desc: () => `The time loves.`,

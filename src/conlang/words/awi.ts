@@ -3,7 +3,7 @@ import * as _ from '.'
 export const awi = _.word('awi', {
   noun: '**fish**',
   verb: 'shine',
-  adj: 'beautiful',
+  mod: 'beautiful',
   see: () => [_.fawulama],
 })
 

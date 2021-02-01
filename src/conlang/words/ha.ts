@@ -3,7 +3,7 @@ import * as _ from '.'
 export const ha = _.word('ha', {
   def: 'up',
   noun: 'head',
-  adj: 'far',
+  mod: 'far',
   pref: 'top or distal',
   see: () => [_.jo],
 })

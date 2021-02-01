@@ -7,7 +7,6 @@ import {
   Entry,
   EntryByName,
   EntryDefinition,
-  MAIN_KEYS,
   TYPES,
 } from './types'
 // Import all to force word creation
@@ -74,14 +73,22 @@ function compileWord(entry: Entry): CompiledEntry {
     definition.exam()
   }
   const fulltext: string[] = [entry.name]
-  if (!compiled.glo) {
-    // default value to show on gloss
-    const key = MAIN_KEYS.find(k => definition[k])
-    compiled.glo = '**' + definition[key!] + '**'
+  // if (compiled.glo === undefined) {
+  //   // default value to show on gloss
+  //   const key = MAIN_KEYS.find(k => definition[k])
+  //   compiled.glo = '**' + definition[key!] + '**'
+  // }
+  if (compiled.glo) {
+    compiled.glo = fixGlo(compiled.glo)
   }
-  compiled.glo = fixGlo(compiled.glo)
   if (definition.alt) {
     compiled.alt = definition.alt().id
+  }
+  if (definition.orig) {
+    compiled.orig = definition.orig().id
+  }
+  if (definition.prev) {
+    compiled.prev = definition.prev().id
   }
   if (definition.etym) {
     const etym = definition.etym().map(w => w.id)
@@ -109,15 +116,7 @@ function compileWord(entry: Entry): CompiledEntry {
 
   if (definition.words) {
     const words = definition.words()
-    compiled.words = words
-      .map(w => {
-        if (w === undefined) {
-          console.log(entry.name)
-          return ''
-        }
-        return w.id
-      })
-      .filter(w => w)
+    compiled.words = words.map(w => w.id)
     // fulltext.push(...words.map(w => w.name))
     if (entry.type === 'phrase') {
       compiled.phrase = words
@@ -132,6 +131,39 @@ function compileWord(entry: Entry): CompiledEntry {
     // ...FULLTEXT_KEYS.map(k => compiled[k]).filter(x => x),
   ].join(' ')
   return compiled
+}
+
+function registerWord(phrase: CompiledEntry, word: CompiledEntry) {
+  let { phrases } = word
+  if (!phrases) {
+    phrases = word.phrases = []
+  }
+  if (!phrases.includes(phrase.id)) {
+    phrases.push(phrase.id)
+  }
+}
+
+function registerInPhrase(
+  compiled: CompiledEntriesByType,
+  phrase: CompiledEntry,
+  id: string
+) {
+  const [type] = id.split('-')
+  const word = compiled[type as keyof typeof compiled][id]
+  if (!word) {
+    console.error(`Missing word '${id}', cannot register`)
+    return
+  }
+  if (type === 'alt') {
+    if (word.orig) {
+      registerInPhrase(compiled, phrase, word.orig)
+    }
+    if (word.prev) {
+      registerInPhrase(compiled, phrase, word.prev)
+    }
+  } else {
+    registerWord(phrase, word)
+  }
 }
 
 export function exportJSON(db: EntriesByType) {
@@ -153,29 +185,7 @@ export function exportJSON(db: EntriesByType) {
   // Register phrases in words
   const { alt, phrase } = compiled
   Object.values(phrase).forEach(phrase => {
-    phrase.words!.forEach(id => {
-      let [type] = id.split('-')
-      let word = compiled[type as keyof typeof compiled][id]
-      if (type === 'alt') {
-        const a = alt[id]
-        const aid = a.alt!
-        type = aid.split('-')[0]
-        word = compiled[type as keyof typeof compiled][aid]
-      }
-      if (!word) {
-        // not compiled...
-        // FIXME: This happens with non-words like 'futa' ...
-        console.log(`Missing word '${id}'`)
-        return
-      }
-      let { phrases } = word
-      if (!phrases) {
-        phrases = word.phrases = []
-      }
-      if (!phrases.includes(phrase.id)) {
-        phrases.push(phrase.id)
-      }
-    })
+    phrase.words!.forEach(id => registerInPhrase(compiled, phrase, id))
   })
 
   return JSON.stringify(compiled, null, 2)

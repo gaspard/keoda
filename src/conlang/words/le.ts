@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const le = _.word('le', {
-  adj: 'small',
+  mod: 'small',
   noun: '5',
   suff: 'small',
   see: () => [_.count],
@@ -19,7 +19,7 @@ export const ajale = _.word('ajale', {
 
 export const nele = _.word('nele', {
   noun: 'confusion',
-  adj: 'insecure',
+  mod: 'insecure',
   verb: 'to confound',
   see: () => [_.ganes, _.nanes],
 })

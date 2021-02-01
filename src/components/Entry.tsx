@@ -183,11 +183,8 @@ const Def = styled.span`
   &.verb {
     color: #883ea7;
   }
-  &.adj {
+  &.mod {
     color: #149a32;
-  }
-  &.adv {
-    color: #040a02;
   }
 `
 
@@ -397,11 +394,8 @@ const DefText = styled.div`
   &.verb {
     color: #883ea7;
   }
-  &.adj {
+  &.mod {
     color: #149a32;
-  }
-  &.adv {
-    color: #040a02;
   }
   &.det {
     color: #444;

@@ -19,13 +19,3 @@ export const kepal = _.word('kepal', {
   noun: 'anus',
   etym: () => [_.ke, _.pal],
 })
-
-export const palwu = _.alt('palwu', {
-  glo: '**butt**.POSS',
-  alt: () => _.pal,
-})
-
-export const palam = _.alt('palam', {
-  glo: '**butt**.DAT',
-  alt: () => _.pal,
-})

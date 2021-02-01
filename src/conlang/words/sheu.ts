@@ -18,8 +18,3 @@ export const gosheu = _.word('gosheu', {
 })
 
 // === alt
-
-export const isheu = _.alt('isheu', {
-  glo: '2SG.**breath**',
-  alt: () => _.sheu,
-})

@@ -17,16 +17,6 @@ export const neji = _.word('neji', {
 
 // ==== alt
 
-export const jihuki = _.alt('jihuki', {
-  glo: '**hair**.*long*',
-  alt: () => _.ji,
-})
-
-export const jihukin = _.alt('jihukin', {
-  glo: '**hair**.*long*+',
-  alt: () => _.ji,
-})
-
 export const tojihuki = _.alt('tojihuki', {
   glo: 'wex.**hair**.*long*',
   alt: () => _.ji,

@@ -34,10 +34,6 @@ export const arumo = _.alt('arumo', {
   alt: () => _.rumo,
 })
 
-export const irumolemi = _.alt('irumolemi', {
-  glo: '2SG.**throw**.PST.HEST',
-  alt: () => _.rumo,
-})
 
 // poss prefix
 export const toleirumipan = _.alt('toleirumipan', {

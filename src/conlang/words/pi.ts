@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const pi = _.word('pi', {
   def: 'I (1SG)',
-  adv: 'ici, origine',
+  mod: 'ici, origine',
   noun: '1, self',
   glo: 'me',
   pos: 'debout',
@@ -26,7 +26,7 @@ export const pipa = _.word('pipa', {
 })
 
 export const pienu = _.word('pienu', {
-  adj: 'alone (I embroider)',
+  mod: 'alone (I embroider)',
   etym: () => [_.pi, _.enu],
 })
 
@@ -44,7 +44,7 @@ export const gupi = _.word('gupi', {
 
 export const nepi = _.word('nepi', {
   noun: 'division',
-  adj: 'disembodied, fragmented',
+  mod: 'disembodied, fragmented',
   see: () => [_.ganes, _.nanes],
 })
 

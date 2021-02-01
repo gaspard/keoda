@@ -2,7 +2,7 @@ import { suffix } from '../make'
 
 export const yi = suffix('yi', {
   noun: 'innoncence',
-  adj: 'tiny',
+  mod: 'tiny',
   suff: 'tiny',
   glo: '*TINY*',
 })

@@ -20,12 +20,12 @@ export const gulei = _.word('gulei', {
 
 export const leiuki = _.word('leiuki', {
   noun: 'patience',
-  adj: 'patient',
+  mod: 'patient',
   etym: () => [_.lei, _.uki],
 })
 
 export const neleiuki = _.word('neleiuki', {
   noun: 'impatience',
-  adj: 'impatient',
+  mod: 'impatient',
   etym: () => [_.neW, _.leiuki],
 })

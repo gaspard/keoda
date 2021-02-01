@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const au = _.word('au', {
-  noun: '**heart**',
+  noun: 'heart',
   verb: 'to love',
   see: () => [_.zu],
 })

@@ -53,7 +53,7 @@ ${_.block(
   },
   {
     t: 'I saw him always and always.',
-    p: [_.o.fa.lem, _.tahoton, _.golau, _.golau],
+    p: [_.o.fa.em, _.tahoton, _.golau, _.golau],
   },
   {
     t: 'He took my voice.',
@@ -82,11 +82,11 @@ ${_.block(
   },
   {
     t: 'I thought I was a strong spirit.',
-    p: [_.o.gahi.lem, _.eku, _.o.e, _.gogam],
+    p: [_.o.gahi.em, _.eku, _.o.e, _.gogam],
   },
   {
     t: 'Was I only a thought ?',
-    p: [_.eja, _.o.e.lem, _.gahinur.m, _.q],
+    p: [_.eja, _.o.e.em, _.gahinur.m, _.q],
   },
   {
     t: 'Did I give you anything ?',
@@ -94,7 +94,7 @@ ${_.block(
   },
   {
     t: "I am dying but I don't know who I was.",
-    p: [_.esonem, _.shune, _.dim, _.o.e.lem, _.onepana],
+    p: [_.esonem, _.shune, _.dim, _.o.e.em, _.onepana],
   },
   {
     t: 'You are my daughter, you are my child.',

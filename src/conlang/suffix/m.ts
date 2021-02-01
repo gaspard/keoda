@@ -5,7 +5,7 @@ export const m = suffix('m', {
   noun: 'good mood',
   writ: 'ం',
   suff: 'taste marking',
-  glo: 'ACC+',
+  glo: 'NICE',
   force: 'noun',
   see: () => [_.n, _.h],
   desc: () => `Oxytocin (taste marking)[${_.taste.id}]`,

@@ -11,7 +11,7 @@ export const sapho = _.card('sapho', {
 ${_.phrase(
   "Il y aura quelqu'un, un jour, pour se souvenir de nous.",
   _.peyo,
-  _.es.a.e.lir,
+  _.es.a.e.ir,
   _.pedam,
   _.eku,
   _.alemegu,
@@ -25,7 +25,7 @@ ${_.phrase(
   _.zunes,
   _.wa,
   _.leiruo,
-  _.a.goweis.lem,
+  _.a.goweis.em,
   _.ga.to.h
 )}
 

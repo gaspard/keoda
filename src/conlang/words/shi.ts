@@ -12,6 +12,6 @@ export const shipa = _.word('shipa', {
 })
 
 export const shifi = _.word('shifi', {
-  adj: 'learning',
+  mod: 'learning',
   see: () => [_.nanes, _.shipa],
 })

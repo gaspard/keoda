@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const jo = _.word('jo', {
-  adj: 'close, proximal',
+  mod: 'close, proximal',
   def: 'down',
   etym: () => [_.dau, _.ojo],
   see: () => [_.ha],

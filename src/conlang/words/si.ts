@@ -7,7 +7,7 @@ export const si = _.word('si', {
 })
 
 export const sigu = _.word('sigu', {
-  adj: 'dark (like a mystery)',
+  mod: 'dark (like a mystery)',
   etym: () => [_.si, _.gu],
 })
 

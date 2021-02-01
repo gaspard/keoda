@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const na = _.word('na', {
   suff: 'thing',
-  adj: 'humility',
+  mod: 'humility',
 })
 
 export const nena = _.word('nena', {

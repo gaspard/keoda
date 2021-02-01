@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const weis = _.word('weis', {
-  adj: 'empty',
+  mod: 'empty',
 })
 
 export const goweis = _.word('goweis', {

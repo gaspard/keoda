@@ -13,7 +13,7 @@ agglutinated (or not).
 To transform a noun into a verb, the morpheme representing the subject is
 prefixed on the noun as-is or with an /h/ to fix double vowels. Example:
 
-* ${_.i.mi.lema}
+* ${_.i.mi.ema}
 
 Details on verbs here: ${_.verbs}.
 
@@ -121,7 +121,7 @@ The /m/ endings are the 'mood' markings (accusative). See ${_.m}.
 We usually omit the subject because it is visible on the verb but when we
 want to use it, we use ${_.da} (self).
 
-* ${_.phrase('They will talk to you.', _.a.da, _.a.lapa.lir, _.ti.m)}
+* ${_.phrase('They will talk to you.', _.a.da, _.a.lapa.ir, _.ti.m)}
 
 List of people:
 

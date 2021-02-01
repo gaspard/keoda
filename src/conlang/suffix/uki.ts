@@ -2,13 +2,13 @@ import { suffix } from '../make'
 import * as _ from '../words'
 
 export const uki = suffix('uki', {
-  adj: 'long',
+  mod: 'long',
   see: () => [_.iki],
   desc: () => `
-* ${_.phrase('Long hair, long legs', _.jihuki, _.bajuki)}`,
+* ${_.phrase('Long hair, long legs', _.ji.uki, _.baj.uki)}`,
 })
 
 export const ukile = suffix('ukile', {
-  adj: 'old',
+  mod: 'old',
   etym: () => [_.uki, _.lei],
 })
