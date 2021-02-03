@@ -2,14 +2,6 @@
 export const CASES = {
   // is-ness
   es: { glo: 'BE', join: 'n' },
-  // style
-  u: { glo: 'PULL', join: '' },
-  i: { glo: 'CARE', join: '' },
-  o: { glo: 'PUSH', join: '' },
-  // gender
-  iwi: { glo: '*bird*', join: 'n' },
-  ana: { glo: '*tree*', join: 'n' },
-  oto: { glo: '*wind*', join: 'n' },
   // possessivity
   to: { glo: 'ourx' },
   ti: { glo: 'your1' },

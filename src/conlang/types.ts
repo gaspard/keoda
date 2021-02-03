@@ -1,6 +1,25 @@
 import * as suffix from './suffix'
 import { CASES } from './cases'
 
+export const LAST_VOWEL = /([aoeiu])[^aoeiu]*$/
+export const STARTS_VOWEL = /^[aoeiu]/
+export const ENDS_VOWEL = /[aoeiu]$/
+
+const NATIVE_KEYS: (string | number | symbol)[] = [
+  '_comp',
+  'toString',
+  'toJSON',
+  'id',
+  'name',
+  'type',
+  'definition',
+]
+
+export function isNativeKey(key: string | number | symbol) {
+  return NATIVE_KEYS.includes(key) || typeof key === 'symbol'
+}
+
+// FIXME: REMOVE
 export interface Example {
   phrase: (Entry | Example)[]
   meaning: string
@@ -11,10 +30,12 @@ export interface Example {
 export interface EntryInfo {
   // MAIN KEYS ==========
   noun: string
+  // property modifier
+  adj: string
   // as an action
   verb: string
-  // as an action or property modifier
-  mod: string
+  // as an action modifier
+  adv: string
   // generic
   def: string
   // MAIN KEYS ==========
@@ -34,8 +55,10 @@ export interface EntryInfo {
   // phrase options
   open?: boolean
   // alt ====
-  // https://www.eva.mpg.de/lingua/resources/glossing-rules.php
+  // forced glo
   glo: string
+  // https://www.eva.mpg.de/lingua/resources/glossing-rules.php
+  forcedGlo: boolean
   // For prefix/suffix
   join: string
   // Type of element. Changes classname of gloss in UI.
@@ -67,16 +90,17 @@ export interface FullEntry extends EntryInfo {
 }
 
 export const FULLTEXT_KEYS: (keyof EntryInfo)[] = [
-  'noun', // noun
+  'noun',
   'verb',
-  'mod', // modifier
+  'adj',
+  'adv',
   'def',
   'pos',
 ]
 
-export type MainKeys = 'noun' | 'verb' | 'mod' | 'def'
+export type MainKeys = 'noun' | 'verb' | 'adj' | 'adv' | 'def'
 
-export const MAIN_KEYS: MainKeys[] = ['noun', 'verb', 'mod', 'def']
+export const MAIN_KEYS: MainKeys[] = ['noun', 'verb', 'adj', 'adv', 'def']
 
 export const DEF_KEYS: (keyof CompiledEntry)[] = [
   ...FULLTEXT_KEYS.filter(k => !MAIN_KEYS.includes(k as any)),
@@ -109,10 +133,6 @@ export interface CompiledEntriesByType {
 }
 
 export type EntryDefinition = Partial<FullEntry>
-
-export const LAST_VOWEL = /([aoeiu])[^aoeiu]*$/
-export const STARTS_VOWEL = /^[aoeiu]/
-export const ENDS_VOWEL = /[aoeiu]$/
 
 export type Suffix = typeof suffix
 // FIXME: Remove Cases once 'cases' is empty and we only have suffix.

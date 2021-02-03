@@ -22,8 +22,8 @@ Details on verbs here: ${_.verbs}.
 To mark possessivity, the morpheme is prefixed or suffixed to the noun and a
 /t/ is added. Double consonant is fixed with an /a/. Examples:
 
-* ${_.tima}
-* ${_.mati}
+* ${_.ti.ma}
+* ${_.ma.ti}
 
 The choice between prefix or suffix depends on context and what sounds best.
 The difference is a bit like saying "your hand" or "hand of you". This lets
@@ -36,7 +36,7 @@ Depending on context we can chose between adding ${_.da} (self) suffix or
 use the morpheme with /t/ prefix on singular (as-is for plural). Examples:
 
 * ${_.phrase('I love you.', _.o.zu, _.ti.m)}
-* ${_.phrase('I love you.', _.o.zu, _.ida.m)}
+* ${_.phrase('I love you.', _.o.zu, _.i.da.m)}
 * ${_.phrase('I love them.', _.o.zu, _.sha.$.m)}
 
 The extra /m/ at the end is flavor marking (${_.m}).
@@ -50,12 +50,12 @@ Here is the full list of subjects to express actions, possessivity and address.
 * ${_.o} (weˣ)
 * ${_.o.kei} (weˣ.*Masters*)
 * ${_.o.pi} (I)
-* ${_.o.yi$} (I.*tiny*)
+* ${_.o.yi} (I.*tiny*)
 * ${_.o.lo} (I.*wet*)
 * ${_.o.de} (we.*us two*)
 * ${_.shoW} (we\\*)
 * ${_.sho.kei} (we\\*.*Masters*)
-* ${_.sho.yi$} (we\\*.*tiny*)
+* ${_.sho.yi} (we\\*.*tiny*)
 * ${_.sho.lo} (we\\*.*wet*)
 * ${_.oka} (we.*all of us*)
 
@@ -65,23 +65,23 @@ Here is the full list of subjects to express actions, possessivity and address.
 
 * ${_.i$} (you¹)
 * ${_.i.kei} (you¹.*Master*)
-* ${_.i.yi$} (you¹.*tiny*)
+* ${_.i.yi} (you¹.*tiny*)
 * ${_.i.lo} (you¹.*wet*)
 * ${_.shi} (you\\*)
 * ${_.shi.kei} (you\\*.*Masters*.)
-* ${_.shi.yi$} (you\\*.*tiny*)
+* ${_.shi.yi} (you\\*.*tiny*)
 * ${_.shi.lo} (you\\*.*wet*)
 
 ### the others
 
-* ${_.a$} (theiy¹)
+* ${_.a} (theiy¹)
 * ${_.a.kei} (theiy¹.*Masters*)
-* ${_.a.yi$} (they¹.*tiny*)
+* ${_.a.yi} (they¹.*tiny*)
 * ${_.a.lo} (they¹.*wet*)
 * ${_.ape} (theyˣ)
 * ${_.sha} (they\\*)
 * ${_.sha.kei} (they\\*.*Masters*.)
-* ${_.sha.yi$} (they\\*.*tiny*)
+* ${_.sha.yi} (they\\*.*tiny*)
 * ${_.sha.lo} (they\\*.*wet*)
 
 ## Relative
@@ -93,11 +93,11 @@ Here is the full list of subjects to express actions, possessivity and address.
 
 ${_.wu} is used as suffix to introduce a noun phrase clarifying possessivity.
 
-* ${_.phrase('your hand', _.mati)}
+* ${_.phrase('your hand', _.ma.ti)}
 
 or
 
-* ${_.phrase('hand of you', _.mawu, _.i$)}
+* ${_.phrase('hand of you', _.ma.wu, _.i)}
 
 ## Target prefix 
 
@@ -105,10 +105,10 @@ When specifying the target of an action, we use ${_.fu} (arrow) as prefix on
 the subject. You can understand this prefix as something in the line of
 "to/of". For linguists, this is the dative marker.
 
-* ${_.phrase('Massage body of us.', _.mi, _.odatom)}
-* ${_.phrase('Massage our body.', _.mi, _.tohodam)}
+* ${_.phrase('Massage body of us.', _.mi, _.oda.to.m)}
+* ${_.phrase('Massage our body.', _.mi, _.to.oda.m)}
 * ${_.phrase('Massage us.', _.mi, _.fu.to.m)}
-* ${_.phrase('Our hand covers your skin.', _.toma, _.a.fe, _.noa.ti.m)}
+* ${_.phrase('Our hand covers your skin.', _.to.ma, _.a.fe, _.noa.ti.m)}
 
 Yes, in this language a subject can have both dative and accusative markers
 as seen with ${_.fu.to.m} because the person is both the direct object of the
@@ -130,7 +130,7 @@ List of people:
 * ${_.a.da} (they¹-person)
 * ${_.pi.da} (I-person)
 * ${_.kei.da} (Master-person)
-* ${_.yi$.da} (tiny-person)
+* ${_.yi.da} (tiny-person)
 * ${_.lo.da} (wet-person)
 * ${_.pe.da} (someone)
 * ${_.de2.da} (us-two)
@@ -138,34 +138,22 @@ List of people:
 
 ## Genders
 
-The genders are expressed with 'flavors' (what people call adjectives). These
-are appended to the subject in place of ${_.da}. The important flavors are:
+To express gender, we use the possessive 'your', 'their', etc and the noun that
+most closely expresses the desired notion. Note that the verb is accorded to the
+possessive argument. Here are some examples:
 
-* ${_.iwi} (bird or non-binary)
-* ${_.ana} (tree or female)
-* ${_.oto} (wind or male)
+* ${_.phrase('You-enby walk.', _.ti.iwi, _.i.lipa)}
+* ${_.phrase('She sings.', _.ta.ana, _.a.lipa)}
+* ${_.phrase('They-men talk.', _.tasha.oto, _.sho.lapa)}
+* ${_.phrase('She loves me.', _.ta.ana, _.a.zu, _.pi.m)}
 
-We can then add these flavors on the subject marking:
+Note that we also have words to express gendered-bodies and these (like any
+noun) can be used as subjects or "targets" in phrases but they then accord as
+an indefinite 'person' as if we would say 'someone', 'some girl', etc.
 
-* ${_.a.iwi} (they¹.*enby*)
-* ${_.a.ana} (they¹.*female*)
-* ${_.a.oto} (they¹.*male*)
-* ${_.sho.oto} (we\\*.*male*)
-* etc
-
-For example: ${_.phrase(
-    'She loves me.',
-    _.a.ana.zu,
-    _.to.pi.m
-  )} translate a bit like "that-girl-love I".
-
-Note that we also have words to express gendered-bodies and these (like any noun) can be
-used as subjects or "targets" in phrases.
-
-* ${_.iwida} (enby-person)
-* ${_.anada} (female-person)
-* ${_.otoda} (male-person)
-
+* ${_.iwi.da} (enby-person)
+* ${_.ana.da} (female-person)
+* ${_.oto.da} (male-person)
 
 Your next read: ${_.evolution} (how things evolved)
 `,

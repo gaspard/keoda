@@ -2,11 +2,11 @@ import * as _ from '.'
 
 export const lau = _.word('lau', {
   noun: 'eternity',
-  mod: 'always',
+  adj: 'always',
   def: 'ETERN',
   etym: () => [_.lei, _.au],
   desc: () => `The time loves.`,
-  see: () => [_.prep, _.verbs],
+  see: () => [_.tu, _.verbs],
 })
 
 export const elau = _.word('elau', {

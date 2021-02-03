@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const fo = _.word('fo', {
   verb: 'to whip',
-  etym: () => [_.fen, _.oC],
+  etym: () => [_.fen, _.o$],
 })
 
 // === alt

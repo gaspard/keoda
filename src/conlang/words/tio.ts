@@ -17,7 +17,7 @@ export const tiona = _.word('tiona', {
 })
 
 // cueillir des fleurs
-export const lasimuhadjotionayon = _.example(
-  [_.la, _.si, _.muhajo, _.tiona, _.yin],
-  `Embrasse ma vulve comme si tu cueillais des fleurs.`
-)
+// export const lasimuhadjotionayon = _.example(
+//   [_.la, _.si.muhajo, _.tiona, _.yin],
+//   `Embrasse ma vulve comme si tu cueillais des fleurs.`
+// )

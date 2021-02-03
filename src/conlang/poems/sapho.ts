@@ -1,5 +1,5 @@
-import * as _ from '..'
-import { okana } from '../ana'
+import * as _ from '../words'
+import { okana } from '../words/anaT'
 
 export const sapho = _.card('sapho', {
   writ: 'sapho',
@@ -14,7 +14,7 @@ ${_.phrase(
   _.es.a.e.ir,
   _.pedam,
   _.eku,
-  _.alemegu,
+  _.a.lemegu,
   _.fu.to.n
 )}
 
@@ -31,7 +31,7 @@ ${_.phrase(
 
 ${_.phrase("Comme l'ouragan des montagnes", _.si, _.hurakan, _.dao, _.gosoa)}
 
-${_.phrase("S'abat sur les jeunes chênes.", _.hafo, _.fe, okana.yi.m)}
+${_.phrase("S'abat sur les jeunes chênes.", _.hafo, _.fe, okana.lil.m)}
 
  *(trad. Françoise Chandernagor)*
 
@@ -39,12 +39,12 @@ ${_.phrase("S'abat sur les jeunes chênes.", _.hafo, _.fe, okana.yi.m)}
 
 ${_.phrase('Il me parraît égal aux dieux,', _.a.awi, _.kegaiam)}
 
-${_.phrase("L'homme qui te regarde", _.otoda, _.dim, _.a.fa, _.ti.m)}
+${_.phrase("L'homme qui te regarde", _.oto.da, _.dim, _.a.fa, _.ti.m)}
 
 ${_.phrase(
   'Sans craindre ton sourire et tes yeux et ta voix.',
   _.shune,
-  _.neW,
+  _.ne,
   _.apeu,
   _.lajatim,
   _.fa.ti.m,
@@ -56,7 +56,7 @@ ${_.phrase(
   'Moi, sitôt que je vois ton visage,',
   _.pida,
   _.wa,
-  _.opi.fa,
+  _.o.pi.fa,
   _.duhatinam,
   _.ku
 )}

@@ -1,15 +1,19 @@
 import * as _ from '.'
 
-export const iwida = _.iwi.da
+export const iwiB = _.word('iwi', {
+  id: 'iwiB',
+  noun: 'bird',
+  see: () => [_.iwi],
+})
 
 export const iwiu = _.word('iwiu', {
   verb: 'to fly',
-  etym: () => [_.iwi, _.u],
+  etym: () => [_.iwiB, _.u$],
 })
 
 export const iwigui = _.word('iwigui', {
   noun: 'phoenix',
-  etym: () => [_.iwi, _.gui],
+  etym: () => [_.iwiB, _.gui],
 })
 
 // === alt

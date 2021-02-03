@@ -7,9 +7,9 @@ export const aj = _.word('aj', {
 })
 
 export const ajapi = _.word('ajapi', {
-  noun: '**self-burn** (initiation)',
-  verb: 'to burn the self',
+  noun: 'ego-burn',
+  verb: 'to burn the ego',
+  desc: () => `Initiation`,
+  etym: () => [_.aj, _.pi],
   see: () => [_.iwigui],
 })
-
-// === alt

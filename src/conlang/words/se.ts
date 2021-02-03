@@ -1,6 +1,7 @@
 import * as _ from '.'
 
 export const se = _.word('se', {
+  adj: 'left',
   suff: 'left',
   see: () => [_.du, _.we, _.no],
 })

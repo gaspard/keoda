@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const fio = _.word('fio', {
-  mod: 'eggplant (color)',
+  adj: 'eggplant (color)',
   see: () => [_.colors],
 })
 

@@ -19,13 +19,13 @@ export const leiru = _.word('leiru', {
 
 export const leirui = _.word('leirui', {
   noun: 'fortune',
-  etym: () => [_.leiru, _.iC],
+  etym: () => [_.leiru, _.i$],
 })
 
 export const leiruo = _.word('leiruo', {
   noun: 'misfortune',
-  mod: 'alas',
-  etym: () => [_.leiru, _.oC],
+  adj: 'alas',
+  etym: () => [_.leiru, _.o$],
 })
 
 export const kuru = _.word('kuru', {
@@ -46,23 +46,3 @@ In keoda, this litteraly means "the emergence of hubris".
 })
 
 // === alt
-
-export const piyiru = _.alt('piyiru', {
-  glo: '1SG.DIM.**become**',
-  alt: () => _.ru,
-})
-
-export const iru = _.alt('iru', {
-  glo: '2SG.**become**',
-  alt: () => _.ru,
-})
-
-export const esarulem = _.alt('esarulem', {
-  glo: 'PASS.they1.**become**.PST',
-  alt: () => _.e,
-})
-
-export const shokuru = _.alt('shokuru', {
-  glo: '1PL.**must**',
-  alt: () => _.kuru,
-})

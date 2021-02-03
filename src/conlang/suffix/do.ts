@@ -2,7 +2,7 @@ import { suffix } from '../make'
 
 const do_ = suffix('do', {
   id: 'do',
-  mod: 'intense',
+  adj: 'intense',
   noun: 'intensity',
   desc: () => `
 Implies a very deep, intimate and intense contact. Not something out

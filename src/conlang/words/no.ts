@@ -1,6 +1,7 @@
 import * as _ from '.'
 
 export const no = _.word('no', {
+  adj: 'back',
   pref: 'back',
   see: () => [_.se, _.du, _.we],
 })
@@ -40,7 +41,7 @@ export const djonopi = _.word('djonopi', {
   etym: () => [_.jo, _.nopi],
 })
 
-export const noyin = _.word('noyin', {
-  noun: `fond du vagin (col de l'utérus)`,
+export const noyuru = _.word('noyuru', {
+  noun: 'cervix',
   etym: () => [_.no, _.yuru],
 })

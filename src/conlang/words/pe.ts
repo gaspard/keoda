@@ -13,7 +13,7 @@ export const ape = _.word('ape', {
   noun: '**someˣ**',
   pref: '**to someone**',
   suff: '**to someone**',
-  etym: () => [_.a$, _.pe],
+  etym: () => [_.a, _.pe],
   see: () => [_.subj],
 })
 
@@ -38,7 +38,7 @@ export const hamape = _.word('hamape', {
 
 export const nepe = _.word('nepe', {
   noun: 'limbo (forgetting "pa")',
-  mod: 'offensive',
+  adj: 'offensive',
   see: () => [_.ganes, _.nanes],
 })
 

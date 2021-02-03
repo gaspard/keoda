@@ -10,5 +10,5 @@ export const eja = _.word('eja', {
 export const neja = _.word('neja', {
   def: 'not possible',
   see: () => [_.eja],
-  etym: () => [_.neW, _.ja],
+  etym: () => [_.ne, _.ja],
 })

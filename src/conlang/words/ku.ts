@@ -14,14 +14,20 @@ export const kude = _.word('kude', {
 })
 
 export const kupa = _.word('kupa', {
-  desc: () =>
-    `Tout attacher, relation marchande au monde, "faire pour", opposé de ${_.gupi} ou ${_.aupa}.`,
+  noun: 'addiction',
+  verb: 'to crave',
+  desc: () => `
+Tie everything, transactional relation to the world. Opposed to ${_.gupi} or ${_.aupa}.
+
+See ${_.kulei}.
+`,
+  see: () => [_.kulei],
   etym: () => [_.ku, _.pa],
 })
 
 export const nekupa = _.word('nekupa', {
   verb: 'to let go',
-  etym: () => [_.neW, _.kupa],
+  etym: () => [_.ne, _.kupa],
   desc: () => `To not attach to everything.`,
 })
 

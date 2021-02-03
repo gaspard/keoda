@@ -2,13 +2,14 @@ import * as _ from '.'
 
 export const go = _.word('go', {
   pref: 'big',
-  mod: 'intense',
+  adj: 'intense',
   glo: 'AUG',
-  etym: () => [_.gu, _.oC],
+  etym: () => [_.gu, _.o$],
   see: () => [_.gi],
 })
 
 export const goa = _.word('goa', {
+  noun: 'big place',
   suff: 'big place',
   etym: () => [_.go, _.da],
 })

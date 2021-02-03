@@ -3,7 +3,7 @@ import * as _ from '.'
 export const ha = _.word('ha', {
   def: 'up',
   noun: 'head',
-  mod: 'far',
+  adj: 'far',
   pref: 'top or distal',
   see: () => [_.jo],
 })
@@ -14,11 +14,11 @@ _.see(_.hafo)
 export const hafalo = _.example([_.ha, _.fa, _.lo], `Montre ta tête, soumise !`)
 
 export const inefehafoda = _.example(
-  [_.iC, _.nefe, _.hao],
+  [_.i$, _.nefe, _.hao],
   `Enlève les habits qui couvrent ton buste.`
 )
 export const iohaftarkepal = _.example(
-  [_.oC, _.hataj, _.kepal],
+  [_.o$, _.hataj, _.kepal],
   `On va te pénétrer l'anus avec le gland.`
 )
 

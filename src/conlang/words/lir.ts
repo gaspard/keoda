@@ -12,7 +12,7 @@ export const lirana = _.word('lirana', {
 
 export const ilir = _.word('ilir', {
   noun: 'future you (you will...)',
-  etym: () => [_.iC, _.lir],
+  etym: () => [_.i$, _.lir],
 })
 
 export const elir = _.word('elir', {

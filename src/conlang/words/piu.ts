@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const piu = _.word('piu', {
-  mod: 'green',
+  adj: 'green',
   see: () => [_.colors],
 })
 
@@ -13,7 +13,7 @@ export const piuna = _.word('piuna', {
 
 export const piule = _.word('piule', {
   noun: 'peas',
-  etym: () => [_.piu, _.le],
+  etym: () => [_.piu, _.lil],
   see: () => [_.food],
 })
 

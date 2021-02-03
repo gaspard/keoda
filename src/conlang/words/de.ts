@@ -11,7 +11,7 @@ export const hamade = _.word('hamade', {
 
 export const nede = _.word('nede', {
   noun: 'anguish',
-  mod: 'fighting',
+  adj: 'fighting',
   desc: () => 'life with time (anxiety, few memories)',
   see: () => [_.ganes, _.nanes],
 })

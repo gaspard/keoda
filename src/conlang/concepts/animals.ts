@@ -14,7 +14,7 @@ _.see(_.kelo)
 
 // Le chien
 // Downward facing dog
-_.see(_.doda)
+_.see(_.kadu)
 
 // Eléphant
 // debout, penché.e en avant, on touche le sol avec les mains (éléphant qui boit)
@@ -50,7 +50,7 @@ _.see(_.munawi)
 
 // L'oiseau
 // Sur le ventre, les mains qui tiennent les chevilles, le dos cambré
-_.see(_.iwi.$)
+_.see(_.iwi)
 
 // Le hibou
 // À genoux, position de méditation le regard au loin

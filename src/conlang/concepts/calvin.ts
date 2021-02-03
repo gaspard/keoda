@@ -11,7 +11,7 @@ From [/r/conlangs](https://www.reddit.com/r/conlangs/comments/kzz8h8/translate_t
 * Hobbes: ${_.phrase(
     "Shouldn't we read the instructions ?",
     _.eja,
-    _.shokuru,
+    _.sho.kuru,
     _.fatan,
     _.pasuna,
     _.q

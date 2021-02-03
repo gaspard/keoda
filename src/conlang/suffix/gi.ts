@@ -2,8 +2,8 @@ import { suffix } from '../make'
 import * as _ from '../words'
 
 export const gi = suffix('gi', {
-  mod: 'gentle',
+  adj: 'kind',
   noun: 'premanence (Sthiti)',
-  etym: () => [_.gu, _.iC],
+  etym: () => [_.gu, _.i$],
   see: () => [_.go],
 })

@@ -5,14 +5,14 @@ _.see(_.lamagoa)
 _.see(_.goa)
 
 export const dapa = _.word('dapa', {
-  noun: '**joy**',
+  noun: 'joy',
   etym: () => [_.da, _.pa],
   see: () => [_.ganes, _.dafi],
 })
 
 export const dafi = _.word('dafi', {
   noun: '**service**',
-  mod: 'serving',
+  adj: 'serving',
   etym: () => [_.da, _.fi],
   see: () => [_.nanes, _.dapa],
 })

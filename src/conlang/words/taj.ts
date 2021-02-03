@@ -8,7 +8,7 @@ export const taj = _.word('taj', {
 
 export const tajo = _.word('tajo', {
   verb: 'to hit with a penis',
-  etym: () => [_.taj, _.oC],
+  etym: () => [_.taj, _.o$],
 })
 
 export const hataj = _.word('hataj', {

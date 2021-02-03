@@ -12,9 +12,9 @@ ${_.fa}, ${_.fen}, ${_.awi}, ${_.yin}, etc.
 Another particularity of this language is the use of three suffix used to
 mark intent or style:
 
-* ${_.iC} (CARE, caring, gentle)
-* ${_.oC} (PUSH, pushing, away from)
-* ${_.u} (PULL, pulling, towards)
+* ${_.i$} (CARE, caring, gentle)
+* ${_.o$} (PUSH, pushing, away from)
+* ${_.u$} (PULL, pulling, towards)
 
 ### Examples:
 
@@ -63,8 +63,8 @@ marking on the target expressing some kind of bond with the subject (taste,
 accusative) and sometimes receiver marking (dative) to remove ambiguity. See
 ${_.m} for details on "taste" marking.
 
-* ${_.phrase('Touch wex lips.', _.ma, _.la.n)}
-* ${_.phrase('wex hand, kiss.', _.man, _.la)}
+* ${_.phrase('Touch (our) lips.', _.ma, _.la.n)}
+* ${_.phrase('(our) hand, kiss.', _.ma.n, _.la)}
 * ${_.phrase('Kiss wex lips (wholeheartedly).', _.la, _.la.m)}
 * ${_.phrase(
     'John gives the ball (he dislikes, accusative) to Jane (dative)',
@@ -84,8 +84,8 @@ a subject marker (the "doer" or "receiver" when used with ${_.es}).
 The origin of this is that saying "I hand" transforms "hand" into the "massage" or
 "take" action and it evolved to be "Ihand" in a single word. Example:
 
-* ${_.phrase('We mouth pull', _.shoW, _.li, _.u)}
-* ${_.phrase('We eat.', _.sholiu)}
+* ${_.phrase('We mouth pull', _.shoW, _.li, _.u$)}
+* ${_.phrase('We eat.', _.sho.liu)}
 
 The full list of "subject" prefix: ${_.subj}
 
@@ -135,6 +135,18 @@ on the action (comes after accord with the subject).
     _.esalukelilir
   )}
 
+## Infinitive
+
+The prefix ${_.u} marks the infinitive. The meaning is something like
+'somebody does'. Note that because the infinitive behaves like a noun,
+adjective or adverb it requires proper markings and accusative. The ${_.u}
+prefix simply makes a noun, extra markers are required for other roles.
+
+* ${_.phrase('They like to talk.', _.a.au, _.u.lapa.n)}
+* ${_.phrase('I saw him coming.', _.o.fa.em, _.oto.n, _.le.u.lu.odu)}
+* ${_.phrase('The person to love is me.', _.o.da, _.le.u.au, _.a.e, _.pi.m)}
+* ${_.phrase('I want to see.', _.o.ora, _.u.fa.m)}
+
 ## Impersonal (weather verbs)
 
 To express things without a subject, we use the passive voice accorded to third person singular:
@@ -147,7 +159,7 @@ This is from [1401st Just Used 5 Minutes of Your Day](https://www.reddit.com/r/c
 
 ${_.phrase(
   'It turned out that the child was lying.',
-  _.esarulem,
+  _.es.a.ru.em,
   _.gama.n,
   _.mei,
   _.joda,
@@ -161,24 +173,24 @@ but it transformed quite a lot to express something closer to the person
 taking care (parent) and the innocent being taken care of (child). This is
 also present in the BDSM Dom/sub relationship but I wanted something that
 focussed more on expressing respect for the responsabilty of the "carer"
-(${_.keda}) and the vulnerability of the "cared for" (${_.yi$.da}).
+(${_.keda}) and the vulnerability of the "cared for" (${_.yi.da}).
 
 #### nsfw
 
 For more BDSM and sexual contexts, the Dominant is still referred to as
 "fantastic" ${_.keda} but the sub is refered to as "wet" ${_.lo.da} instead of
-"tiny" ${_.yi$.da}.
+"tiny" ${_.yi.da}.
 
-This translates in subjects ${_.o.kei}, ${_.i.yi$}, ${_.i.lo}, etc.
+This translates in subjects ${_.o.kei}, ${_.i.yi}, ${_.i.lo}, etc.
 
-${_.phrase('I am ready, Master.', _.yi$.e, _.sen, _.keda)}
+${_.phrase('I am ready, Master.', _.yi.e, _.sen, _.keda)}
 
-${_.phrase('I (Master) will undress (tiny you).', _.o.kei.nefe.ir, _.yi$.da)}
+${_.phrase('I (Master) will undress (tiny you).', _.o.kei.nefe.ir, _.yi.da)}
 
-${_.phrase('(tiny) me will undress you (Master).', _.opi.yi$.nefe.ir, _.keda)}
+${_.phrase('(tiny) me will undress you (Master).', _.o.yi.nefe.ir, _.keda)}
 
 Just remember, what sounds like "OKey" is in fact "I-fantastic" and
-everything with a /y/ such as ${_.yi$.da} are meant to be said with a soft and
+everything with a /y/ such as ${_.yi.da} are meant to be said with a soft and
 very kind voice.
 
 # Tenses
@@ -211,11 +223,15 @@ language originated.
 ## Examples
 
 * ${_.phrase('yesterday, I kissed a girl (I dislike).', _.o.la.emi, _.ana.h)}
-* ${_.phrase('They might love you (completely) someday.', _.azulire, _.au.ti.m)}
+* ${_.phrase(
+    'They might love you (completely) someday.',
+    _.a.zu.ire,
+    _.au.ti.m
+  )}
 
 #### nsfw
 
-* ${_.phraseX('I am eating (lots of) pussy.', _.oluliu, _.yin.m)}
+* ${_.phraseX('I am eating (lots of) pussy.', _.o.lu.liu, _.yin.m)}
 
 Your next read: ${_.order} (word order)
 `,

@@ -4,7 +4,7 @@ export const gili = _.word('gili', {
   noun: 'tiger',
 })
 
-export const gilile = _.word('gilile', {
+export const gilil = _.word('gilile', {
   noun: 'cat',
-  etym: () => [_.gili, _.le],
+  etym: () => [_.gili, _.lil],
 })

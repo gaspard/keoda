@@ -1,6 +1,6 @@
 import classnames from 'classnames'
 import * as React from 'react'
-import { Comp, styled, useOvermind } from '../app'
+import { Comp, styled, useOvermind, COLORS } from '../app'
 import { CompiledEntry, DEF_KEYS, MAIN_KEYS } from '../conlang/types'
 import { getEntry } from '../helpers/getEntry'
 import { Link } from './Link'
@@ -178,13 +178,16 @@ const Def = styled.span`
   }
   font-weight: 500;
   &.noun {
-    color: #40495a;
+    color: ${COLORS.noun};
+  }
+  &.adj {
+    color: ${COLORS.adj};
   }
   &.verb {
-    color: #883ea7;
+    color: ${COLORS.verb};
   }
-  &.mod {
-    color: #149a32;
+  &.adv {
+    color: ${COLORS.adv};
   }
 `
 

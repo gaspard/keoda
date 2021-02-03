@@ -1,21 +1,12 @@
 import * as _ from '.'
 
-// o case
-export const oC = _.word('o', {
-  id: 'oC',
-  noun: 'shock',
-  suff: 'shock',
-  glo: 'PUSH',
-  see: () => [_.o, _.verbs],
-})
-
 export const hafo = _.word('hafo', {
   verb: 'to fall',
   etym: () => [_.ha, _.fo],
 })
 
 export const dironeoda = _.example(
-  [_.dir, _.oC, _.neoda],
+  [_.dir, _.o$, _.neoda],
   'Quand je serai mort.e...'
 )
 

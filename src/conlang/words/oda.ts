@@ -34,32 +34,7 @@ export const hito = _.word('hito', {
 
 /// =============== ALT
 
-export const odatom = _.alt('odatom', {
-  glo: '**body**.wex+',
-  alt: () => _.oda,
-})
-
 export const oda_adj = _.alt('oda', {
-  glo: '**body**.ADJ',
-  alt: () => _.oda,
-})
-
-export const tohodam = _.alt('tohodam', {
-  glo: 'wex.**body**+',
-  alt: () => _.oda,
-})
-
-export const odahem = _.alt('odahem', {
-  glo: '**body**.*offered*',
-  alt: () => _.oda,
-})
-
-export const odam = _.alt('odam', {
-  glo: '**body**+',
-  alt: () => _.oda,
-})
-
-export const nioda = _.alt('nioda', {
-  glo: 'to.**body**',
+  adj: 'body',
   alt: () => _.oda,
 })

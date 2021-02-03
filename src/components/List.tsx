@@ -1,8 +1,8 @@
-import * as React from 'react'
 import classnames from 'classnames'
-import { Comp, styled, useOvermind } from '../app'
-import { Link, LinkProps } from './Link'
+import * as React from 'react'
+import { COLORS, Comp, styled, useOvermind } from '../app'
 import { getEntry } from '../helpers/getEntry'
+import { Link, LinkProps } from './Link'
 import { Markdown } from './Markdown'
 
 export interface DerivedProps {
@@ -64,17 +64,25 @@ const Detail = styled.div`
     font-size: 0.8rem;
     color: #777;
   }
-  && strong {
-    color: #222;
-  }
   &&.noun strong {
-    color: #40495a;
+    color: ${COLORS.noun};
+  }
+  &&.noun em,
+  &&.adj strong,
+  &&.adj em {
+    font-style: italic;
+    font-weight: normal;
+    color: ${COLORS.adj};
   }
   &&.verb strong {
-    color: #883ea7;
+    color: ${COLORS.verb};
   }
-  && em {
-    color: #4ba05e;
+  &&.verb em,
+  &&.adv strong,
+  &&.adv em {
+    font-style: italic;
+    font-weight: normal;
+    color: ${COLORS.adv};
   }
 `
 

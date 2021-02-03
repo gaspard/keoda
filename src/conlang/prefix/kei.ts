@@ -3,6 +3,6 @@ import { verb } from '../mprefix'
 
 export const kei = verb('kei', {
   noun: 'Master',
-  mod: 'fantastic',
-  glo: '*FANTASTIC*',
+  adj: 'fantastic',
+  glo: 'FANTASTIC',
 })

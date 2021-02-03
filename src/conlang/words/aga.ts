@@ -2,6 +2,7 @@ import * as _ from '.'
 
 export const aga = _.word('aga', {
   noun: 'music',
+  adv: 'musically',
   desc: () => `
 Melodies and stories unraveling through time.
 `,
@@ -21,5 +22,3 @@ export const akida = _.word('agaukida', {
   noun: 'temple',
   etym: () => [_.aga, _.uki, _.da],
 })
-
-// === alt

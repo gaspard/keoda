@@ -1,6 +1,7 @@
 import * as _ from '.'
 
 // on rename, change suffix/uki
+_.lil
 export const lei = _.word('lei', {
   noun: 'time',
   def: 'then',
@@ -9,7 +10,7 @@ export const lei = _.word('lei', {
 
 export const leu = _.word('leu', {
   def: 'while, as',
-  etym: () => [_.lei, _.u],
+  etym: () => [_.lei, _.u$],
 })
 
 export const gulei = _.word('gulei', {
@@ -20,12 +21,12 @@ export const gulei = _.word('gulei', {
 
 export const leiuki = _.word('leiuki', {
   noun: 'patience',
-  mod: 'patient',
+  adj: 'patient',
   etym: () => [_.lei, _.uki],
 })
 
 export const neleiuki = _.word('neleiuki', {
   noun: 'impatience',
-  mod: 'impatient',
-  etym: () => [_.neW, _.leiuki],
+  adj: 'impatient',
+  etym: () => [_.ne, _.leiuki],
 })

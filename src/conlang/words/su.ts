@@ -7,5 +7,5 @@ export const su = _.word('su', {
 
 export const nesu = _.word('nesu', {
   verb: 'to miss',
-  etym: () => [_.neW, _.su],
+  etym: () => [_.ne, _.su],
 })

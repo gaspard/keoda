@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const yu = _.word('yu', {
   noun: 'joy',
-  mod: 'joyful',
+  adj: 'joyful',
 })
 
 export const yuru = _.word('yuru', {

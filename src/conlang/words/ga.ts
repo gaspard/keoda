@@ -19,6 +19,8 @@ export const ganaro = _.alt('ganaro', {
 export const gai = _.word('gai', {
   noun: 'consciousness\nrain',
   verb: 'to rain',
+  adj: 'gentle',
+  adv: 'carefully',
   img:
     'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Falling_rain_in_mexico.jpg/330px-Falling_rain_in_mexico.jpg',
   imgpos: '50%',
@@ -47,7 +49,7 @@ export const kegai = _.word('kegai', {
 
 export const gau = _.word('gau', {
   noun: 'attention',
-  etym: () => [_.gau, _.u],
+  etym: () => [_.gau, _.u$],
   see: () => [_.gai],
 })
 
@@ -59,8 +61,8 @@ export const kuga = _.word('kuga', {
 export const nega = _.word('nega', {
   noun: 'crazy',
   glo: 'crazy',
-  mod: 'crazily',
-  etym: () => [_.neW, _.ga],
+  adj: 'crazily',
+  etym: () => [_.ne, _.ga],
 })
 
 // === alt

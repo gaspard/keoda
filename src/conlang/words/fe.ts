@@ -13,13 +13,13 @@ ${_.phrase('I like your nakedness.', o.zu, _.nefenesti)}
 
 export const fena = _.word('fena', {
   noun: 'cabbage, February',
-  mod: 'layers',
+  adj: 'layers',
   etym: () => [_.fe, _.na],
   see: () => [_.seasons, _.food],
 })
 
 export const feo = _.word('feo', {
-  mod: 'sur moi',
+  adj: 'sur moi',
 })
 
 export const feoda = _.word('feoda', {
@@ -29,11 +29,11 @@ export const feoda = _.word('feoda', {
 
 export const nefe = _.word('nefe', {
   noun: '**undressed**',
-  mod: 'naked',
+  adj: 'naked',
   verb: 'to uncover/undress',
   exam: () => [
     _.phraseX('Undress !', _.nefe),
-    _.phraseX('Remove your clothes !', _.neW, _.feodatim),
+    _.phraseX('Remove your clothes !', _.ne, _.feodatim),
     _.phraseX('Undress your body !', _.nefe, _.ti.m),
   ],
 })
@@ -44,7 +44,7 @@ export const fepa = _.word('fepa', {
 })
 
 export const fefi = _.word('fefi', {
-  mod: 'adapting',
+  adj: 'adapting',
   see: () => [_.nanes, _.fepa],
 })
 

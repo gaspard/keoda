@@ -8,7 +8,7 @@ export const fa = _.word('fa', {
   desc: () => `
 ${_.phrase('Show your eyes (partially).', _.guwu, _.fa.n)}
 
-${_.phrase('Look at my hand.', _.fa, _.matom)}
+${_.phrase('Look at my hand.', _.fa, _.ma.to.m)}
 `,
 })
 
@@ -30,7 +30,7 @@ ${_.phrase("Don't be sad.", _.ne.falo)}`,
 export const fahata = _.word('fahata', {
   noun: 'mirror',
   verb: 'to reflect',
-  etym: () => [_.fa, _.a$],
+  etym: () => [_.fa, _.a],
 })
 
 // === alt

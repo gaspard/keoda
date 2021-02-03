@@ -4,7 +4,6 @@ import * as $ from '../prefix'
 export const aaa = _.card('aaa', {
   noun: 'Why keoda ?',
   desc: () => `
-
 My first goal was to create a language for love and sex. Something that would
 make it easy and fun to express desire, play with power exchanges and honor
 the great gift of sharing bodily love.
@@ -16,16 +15,15 @@ feminine action taking.
 
 #### nsfw
 
-* ${_.phrase('Grasp my penis with your vagina.', _.yin.u, _.taj)}
-* ${_.phrase('Kiss my lips with your vulva.', _.yin, _.la)}
+* ${_.phrase('Grasp my penis with your vagina.', _.yin.u$.imp, _.taj)}
+* ${_.phrase('Kiss my lips with your vulva.', _.yin.imp, _.la)}
 
-In order to "fix" this, I started to work on a language with the following
-constraints:
+I thus started to work on a language with the following constraints (in order
+of importance):
 
 1. Focus on the body
-2. Support for 4 genders: **unspecified**, **enby**, **fem**, **masc**
-3. Very simple phrases to give sexual orders
-4. Relatively easy to pronounce: ${_.phon}
+2. Simple phrases to give sexual orders
+3. Relatively easy to pronounce: ${_.phon}
 
 As I worked on the language while going through difficult mental states, I
 discovered that creating words helped me better understand what happened to
@@ -56,7 +54,7 @@ that nouns could be verbs (${_.la} means lips but also kissing).
 
 With this in place, it became confusing as to what was the verb and what was
 the subject or the target of the action. To solve this, I added the "subject"
-prefixes ${_.oC}, ${_.iC}, and later ${_.aC}.
+prefixes ${_.o$}, ${_.i$}, and later ${_.a}.
 
 After around 2 years into the language creation, I met a guy on a bus and as
 we talked, he told me that he was a linguist so I told him about my language
@@ -112,9 +110,9 @@ ${_.ophrase('I love your eyes.', $.o.zu, _.fa.ti.m)}
 Here are some of the terms and weird abbreviations I use for glossing (the
 morpheme by morpheme translation of words):
 
-### Indefinite subject (weˣ)
+### Indefinite subject
 
-Written as **weˣ** this means "one", "people", "someone". It does not really
+Written as **1SG.INDF** this means "one", "people", "someone". It does not really
 mean "I" but often does. The blurry aspect of this "I/we" is important in
 keoda because it highlights the unknowable aspect of the other. The meaning
 of this "unknown person" can mean many things. For example, if I say "weˣ
@@ -128,21 +126,28 @@ will undress you tonight", this can mean any of:
 
 To actually say "me", we use ${_.pi} and we gloss this one as **me**.
 
-### Singular/plural they
-
-Written as **they¹**, this represents the third person singular.
-
-Plural they is written as **they\***.
-
 ### Special case markings
 
-* DIM: diminutive, **tiny**
-* HONOR: honorific **fantastic**
-* WET: submissive **surrendered**
-* ENBY: **non-binary**
-* POET: **poetic**
+* **\`TINY\`**: diminutive, tiny
+* **\`FANTASTIC\`**: honorific, Dom
+* **\`WET\`**: surrendered, submissive
+* **\`ENBY\`**: non-binary
+* **\`NICE\`**: accusitive with a feeling of appreciation
+* **\`ACC\`**: neutral accusative
+* **\`UNP\`**: accusative with a feeling of unpleasantness
+* **\`MYST\`**: mystical modifier (from numinous to delirious)
 
-# Welcome
+## Gloss color
+
+Words are glossed with a specific color depending on the role they take.
+Modifiers are in italic (whether in-word or as separate words).
+
+1. Noun: blue
+1. Noun modifier (adjective): light blue
+1. Verb: purple
+1. Verb modifier (adverb): light purple
+
+# With all this said, Welcome !
 
 So here is **keoda**, a language born in the realm of sexuality, evolved as a
 way of coping through mental illness and blossomed in the poetic realm as a

@@ -1,9 +1,9 @@
-import { prefix } from '../mprefix'
+import { verb } from '../mprefix'
 import { phrase } from '../words'
 import { es } from './es'
 import { o } from './o'
 
-export const lu = prefix('lu', {
+export const lu = verb('lu', {
   def: 'while',
   glo: 'CONT',
   desc: () => `

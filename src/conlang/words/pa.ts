@@ -1,12 +1,5 @@
 import * as _ from '.'
 
-export const pa = _.word('pa', {
-  noun: 'everywhere',
-  suff: 'mystery',
-  glo: 'MYST',
-  see: () => [_.fi],
-})
-
 export const pali = _.word('pali', {
   noun: 'enchanter (chanter de dedans)',
 })

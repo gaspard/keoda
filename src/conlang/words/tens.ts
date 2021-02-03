@@ -10,43 +10,43 @@ export const lire = _.word('lire', {
 export const liru = _.word('liru', {
   noun: '**distant future**',
   def: 'FUT.DIST',
-  etym: () => [_.lir, _.u],
+  etym: () => [_.lir, _.u$],
 })
 export const lira = _.word('lira', {
   noun: '**near future**',
   def: 'FUT.PROX',
-  etym: () => [_.lir, _.aC],
+  etym: () => [_.lir, _.a],
 })
 export const liri = _.word('liri', {
   noun: '**tomorrow**',
   def: 'FUT.CRAS',
-  etym: () => [_.lir, _.iC],
+  etym: () => [_.lir, _.i$],
 })
 export const liro = _.word('liro', {
   noun: 'later today',
   def: 'FUT.HOD',
-  etym: () => [_.lir, _.oC],
+  etym: () => [_.lir, _.o$],
 })
 
 export const lemo = _.word('lemo', {
   noun: '**earlier today**',
   def: 'PST.HOD',
-  etym: () => [_.lem, _.oC],
+  etym: () => [_.lem, _.o$],
 })
 export const lemi = _.word('lemi', {
   noun: '**yesterday**',
   def: 'PST.HEST',
-  etym: () => [_.lem, _.iC],
+  etym: () => [_.lem, _.i$],
 })
 export const lema = _.word('lema', {
   noun: '**recent past**',
   def: 'PST.PROX',
-  etym: () => [_.lem, _.aC],
+  etym: () => [_.lem, _.a],
 })
 export const lemu = _.word('lemu', {
   noun: '**distant past**',
   def: 'PST.DIST',
-  etym: () => [_.lem, _.u],
+  etym: () => [_.lem, _.u$],
 })
 export const leme = _.word('leme', {
   noun: '**eventual past**',

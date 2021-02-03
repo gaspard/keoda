@@ -22,8 +22,3 @@ export const gufi = _.word('gufi', {
 })
 
 // === alt
-
-export const gufitinam = _.alt('gufitinam', {
-  glo: '**thread of life**.you1',
-  alt: () => _.gufi,
-})

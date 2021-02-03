@@ -1,5 +1,5 @@
-import { getGlo, entry, joinMorphemes } from './make'
-import { Entry, EntryDefinition, MAIN_KEYS } from './types'
+import { getGlo, entry, joinMorphemes, getCla } from './make'
+import { Entry, EntryDefinition, isNativeKey, MAIN_KEYS } from './types'
 import * as words from './words'
 
 export function prefix(
@@ -25,12 +25,7 @@ export function prefix(
       get(words, key) {
         if (key === '_comp') {
           return ent
-        } else if (
-          key === 'name' ||
-          key === 'id' ||
-          key === 'toString' ||
-          typeof key === 'symbol'
-        ) {
+        } else if (isNativeKey(key)) {
           return (ent as any)[key]
         } else if (key === '$') {
           return ent
@@ -61,9 +56,7 @@ export function prefix(
           return entry('alt', name, {
             glo: getGlo(prev, next.definition, true),
             alt: next.definition.alt || (() => next),
-            // when class is set (in suffix for example), this overrides current
-            // class.
-            cla: next.definition.force || prev.cla,
+            cla: getCla(prev, next.definition, true),
           })
         }
       },
@@ -83,5 +76,14 @@ export function noun(pref: string, def: EntryDefinition) {
 
 export function poss(pref: string, def: EntryDefinition) {
   def.cla = 'noun'
+  // Next is forced as a noun
+  def.force = 'noun'
+  return prefix(pref, def)
+}
+
+export function adj(pref: string, def: EntryDefinition) {
+  def.cla = 'adj'
+  // Next is forced as a noun
+  def.force = 'noun'
   return prefix(pref, def)
 }

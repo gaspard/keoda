@@ -5,16 +5,6 @@ export const ipi = _.word('ipi', {
   see: () => [_.count],
 })
 
-export const jipa = _.word('jipa', {
-  noun: 'remembering (being god.dess)',
-  see: () => [_.ganes, _.jifi],
-})
-
-export const jifi = _.word('jifi', {
-  mod: 'humble',
-  see: () => [_.nanes, _.jipa],
-})
-
 // ==== alt
 export const i10 = _.alt('ipi', {
   glo: '10',

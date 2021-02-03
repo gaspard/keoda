@@ -3,12 +3,13 @@ import * as _ from '.'
 export const em = _.word('em', {
   suff: 'lived',
   verb: 'to live',
+  see: () => [_.gu],
 })
 
 export const nem = _.word('nem', {
   noun: 'death',
   verb: 'to die, to make dead',
-  etym: () => [_.neW, _.em],
+  etym: () => [_.ne, _.em],
 })
 
 // ============== alt
@@ -20,11 +21,6 @@ export const ohemleme = _.alt('ohemleme', {
 export const ihem = _.alt('ihem', {
   glo: '2SG.**live**',
   alt: () => _.em,
-})
-
-export const nemetonam = _.alt('nemetonam', {
-  glo: '**death**.wex+',
-  alt: () => _.nem,
 })
 
 // More in the sense "made dead"

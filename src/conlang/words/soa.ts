@@ -7,7 +7,7 @@ export const soa = _.word('soa', {
 
 export const lisoa = _.word('lisoa', {
   noun: 'table',
-  etym: () => [_.le, _.soa],
+  etym: () => [_.lil, _.soa],
 })
 
 export const soaji = _.word('soaji', {

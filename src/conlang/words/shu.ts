@@ -7,6 +7,6 @@ export const shu = _.word('shu', {
 
 export const shune = _.word('shune', {
   def: 'but',
-  etym: () => [_.shu, _.neW],
+  etym: () => [_.shu, _.ne],
   see: () => [_.prep],
 })

@@ -33,8 +33,8 @@ export const hamaka = _.word('hamaka', {
 
 export const neka = _.word('neka', {
   noun: 'shame',
-  mod: 'restless',
-  etym: () => [_.neW, _.ka],
+  adj: 'restless',
+  etym: () => [_.ne, _.ka],
   see: () => [_.ganes, _.nanes],
 })
 

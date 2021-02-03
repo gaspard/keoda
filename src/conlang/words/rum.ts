@@ -24,7 +24,7 @@ export const leirumi = _.word('leirumi', {
 
 export const rumo = _.word('rumo', {
   verb: 'to throw',
-  etym: () => [_.rum, _.oC],
+  etym: () => [_.rum, _.o$],
 })
 
 // === alt
@@ -33,7 +33,6 @@ export const arumo = _.alt('arumo', {
   glo: 'they1.**throw**',
   alt: () => _.rumo,
 })
-
 
 // poss prefix
 export const toleirumipan = _.alt('toleirumipan', {

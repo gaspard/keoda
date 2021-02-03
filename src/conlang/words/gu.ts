@@ -2,13 +2,18 @@ import * as _ from '.'
 
 export const gu = _.word('gu', {
   noun: 'darkness',
-  mod: 'darkness, gestation, deep',
-  etym: () => [_.ga, _.u],
-  see: () => [_.nu, _.ganes, _.gufi],
+  verb: 'to live',
+  adj: 'darkness',
+  adv: 'lively',
+  etym: () => [_.ga, _.u$],
+  see: () => [_.em, _.nu, _.ganes, _.gufi],
   desc: () => `
-${_.gu} is the unrealized ${_.ga}.
+This might be the most complicated concept of the whole language... Confusion in
+understanding this is good. The greater the confusion, the greater the question
+and the closer we are to a "feeling" of ${_.gu}.
 
-Unconscious --> Conscious
+${_.gu} can be seen as is the unrealized ${_.ga}. Understanding ${_.gu} would mean
+something like being dead, all questions answered and it would be very sad.
 
 But ${_.gu} is not just the "unconscious", it also means "experience" or
 "transformation" or even "life".
@@ -56,7 +61,7 @@ export const guna = _.word('guna', {
 export const gui = _.word('gui', {
   verb: 'to be born',
   see: () => [_.yuhim, _.nem],
-  etym: () => [_.gu, _.iC],
+  etym: () => [_.gu, _.i$],
 })
 
 export const rugui = _.word('rugui', {
@@ -71,6 +76,7 @@ export const guwu = _.word('guwu', {
 
 export const guwuna = _.word('guwuna', {
   noun: 'gift',
+  see: () => [_.pola],
   etym: () => [_.guwu, _.na],
 })
 
@@ -88,7 +94,7 @@ In keoda, this litteraly means "the emergence of the darkness".
 
 export const gugai = _.word('gugai', {
   noun: 'fertility',
-  mod: 'fertile',
+  adj: 'fertile',
   etym: () => [_.gu, _.gai],
 })
 
@@ -115,19 +121,16 @@ export const gupa = _.word('gupa', {
   etym: () => [_.gu, _.pa],
 })
 
-export const alemegu = _.alt('alemegu', {
-  glo: 'they1.**remember**',
-  alt: () => _.lemegu,
-})
+export const kegu = _.word('kegu', {
+  noun: 'wound/healing',
+  etym: () => [_.ke, _.gu],
+  desc: () => `
+Hidden inside the darkness, behind the terror of change and the ripping of
+the self lies a calling, ${_.jipa}.
 
-export const guitonam = _.alt('guitonam', {
-  glo: '**life**.wex+',
-  alt: () => _.gui,
+\\- Was the wound necessary asked the suffering seeker ? 
+\\- No it wasn't but it occured.
+\\- But why ?
+\\- ${_.gu}.
+`,
 })
-
-export const oguwulem = _.alt('oguwulem', {
-  glo: 'wex.**give**.PST',
-  alt: () => _.guwu,
-})
-
-_.gulei

@@ -10,6 +10,7 @@ import {
   LAST_VOWEL,
   MainKeys,
   MAIN_KEYS,
+  isNativeKey,
   STARTS_VOWEL,
 } from './types'
 
@@ -52,47 +53,87 @@ export function joinMorphemes(
   return prevName + fix + nextName.replace('*', last[1])
 }
 
+// When 'next' forces class, this is set (such as with accusative)
+// When 'prev' forces class, this changes (such as with possessivity)
+// Else, keep previous class.
+export function getCla(
+  prev: EntryDefinition,
+  next: EntryDefinition,
+  // Finding the class of the final word
+  fromPrefix = true
+) {
+  const forced = next.force || prev.force
+  if (forced) {
+    return forced
+  }
+  const { cla } = prev
+  if (fromPrefix) {
+    return cla!
+  } else if (cla === 'noun') {
+    return 'adj'
+  } else if (cla === 'verb') {
+    return 'adv'
+  } else {
+    return cla!
+  }
+}
+
 export function getGlo(
   prev: EntryDefinition,
   next: EntryDefinition,
-  followPrefix = false
+  fromPrefix = false
 ): string {
-  let glo = prev.glo!
+  let glo = prev.glo || prev[prev.cla!]!
   if (next.force) {
+    // rewrite previous glo
+    const parts = glo.split('.')
     let g = prev[next.force]
     if (g) {
+      parts.pop()
       if (next.force === 'verb') {
         g = g.replace(/^to /, '')
       }
-      const stars = next.force === 'mod' ? '*' : '**'
-      glo = stars + g + stars
+      parts.push('**' + g + '**')
+      glo = parts.join('')
     }
-  } else if (followPrefix && prev.cla) {
-    const classGlo = next[prev.cla]
-    if (classGlo) {
-      if (prev.cla === 'verb') {
-        return glo + '.**' + classGlo.replace(/^to /, '') + '**'
+  }
+
+  if (fromPrefix && glo.includes('INF')) {
+    // Special case. Have not found an elegant way to solve this...
+    return glo + '.**' + next.verb! + '**'
+  } else if (!next.forcedGlo) {
+    // Try to follow class
+    const cla = getCla(prev, next, fromPrefix)
+    const nglo = next[cla]
+    if (nglo) {
+      if (cla === 'verb') {
+        return glo + '.**' + nglo.replace(/^to /, '') + '**'
+      } else if (cla === 'noun') {
+        return glo + '.**' + nglo + '**'
       } else {
-        return glo + '.**' + classGlo + '**'
+        // modifier
+        return glo + '.*' + nglo + '*'
       }
     }
   }
-  return glo + (next.glo === '' ? '' : '.') + next.glo
+  const nglo = next.glo || next[next.cla!]!
+  return glo + (nglo === '' ? '' : '.') + nglo
 }
 
-function setDefaults(def: EntryDefinition) {
-  if (def.glo !== undefined && def.cla !== undefined) {
-    return def
-  }
+function setDefaults(name: string, def: EntryDefinition) {
   const ndef = { ...def }
+  ndef.forcedGlo = !!def.glo
+  if (def.glo !== undefined && def.cla !== undefined) {
+    return ndef
+  }
   const key = MAIN_KEYS.find(k => def[k])
   if (!key) {
     throw new Error(
-      `Invalid definition ${JSON.stringify(def)} (none of the main keys).`
+      `Invalid entry '${name}': ${JSON.stringify(def)} (none of the main keys).`
     )
   }
-  const stars = key === 'mod' ? '*' : '**'
   if (def.glo === undefined) {
+    const stars = key === 'adj' || key === 'adv' ? '*' : '**'
     ndef.glo = stars + def[key!] + stars
   }
   if (def.cla === undefined) {
@@ -102,10 +143,10 @@ function setDefaults(def: EntryDefinition) {
 }
 
 function makeSuffix(
-  prev: Entry,
+  prevEntry: Entry,
   suf: string,
   // Once CASES are moved to 'suffix', we can change this to next.definition
-  def: {
+  next: {
     glo?: string
     join?: string
     force?: MainKeys
@@ -114,31 +155,34 @@ function makeSuffix(
   // Once CASES are moved to 'suffix', we can change this to EntryDefinition
   orig?: Entry
 ) {
-  const [, eid] = prev.id.split('-')
+  const [, eid] = prevEntry.id.split('-')
   const id = `${eid}${suf}`
   const alt = entries.alt[id]
   if (alt) {
     return alt
   } else {
-    const r = LAST_VOWEL.exec(prev.name)
+    const prev = prevEntry.definition
+    const r = LAST_VOWEL.exec(prevEntry.name)
     if (!r) {
       throw new Error(
-        `Invalid word ${prev.name} (no vowel): ${JSON.stringify({
+        `Invalid word ${prevEntry.name} (no vowel): ${JSON.stringify({
           suf,
-          def,
+          next,
         })}).`
       )
     }
 
-    const pdef = prev.definition
-
-    return entry('alt', joinMorphemes(prev.name, suf, def.join, 'suffix'), {
-      glo: getGlo(pdef, def),
-      cla: def.force || pdef.cla,
-      alt: pdef.alt || (() => prev),
-      orig: orig ? () => orig : undefined,
-      prev: () => prev,
-    })
+    return entry(
+      'alt',
+      joinMorphemes(prevEntry.name, suf, next.join, 'suffix'),
+      {
+        glo: getGlo(prev, next),
+        cla: getCla(prev, next),
+        alt: prev.alt || (() => prevEntry),
+        orig: orig ? () => orig : undefined,
+        prev: () => prevEntry,
+      }
+    )
   }
 }
 
@@ -146,15 +190,7 @@ const CASEKEYS = Object.keys(CASES)
 
 export const suffixAccessor = {
   get(obj: Entry, key: string) {
-    if (
-      key === '_comp' ||
-      key === 'id' ||
-      key === 'name' ||
-      key === 'type' ||
-      key === 'definition' ||
-      key === 'toString' ||
-      typeof key === 'symbol'
-    ) {
+    if (isNativeKey(key)) {
       return (obj as any)[key]
     }
     const id = `word-${key}`
@@ -188,7 +224,7 @@ export function entry(
     id,
     name,
     type,
-    definition: type === 'word' ? setDefaults(definition) : definition,
+    definition: type === 'word' ? setDefaults(name, definition) : definition,
     toString() {
       return `[${name}](${id})`
     },
@@ -205,9 +241,6 @@ export function suffix(name: string, definition: EntryDefinition): Entry {
   const firstKey = Object.keys(def).find(k =>
     MAIN_KEYS.includes(k as MainKeys)
   ) as MainKeys
-  if (def.glo === undefined) {
-    def.glo = '*' + def[firstKey] + '*'
-  }
   if (!def.suff) {
     def.suff = def[firstKey]
   }

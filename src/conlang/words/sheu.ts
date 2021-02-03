@@ -3,7 +3,7 @@ import * as _ from '.'
 export const sheu = _.word('sheu', {
   noun: 'nose',
   verb: 'to breath',
-  etym: () => [_.she, _.u],
+  etym: () => [_.she, _.u$],
   see: () => [_.sheo],
 })
 

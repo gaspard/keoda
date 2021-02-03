@@ -4,7 +4,7 @@ import { verb } from '../mprefix'
 // and I have no idea how to deal with this...
 export const lo$ = verb('lo', {
   noun: 'submissive',
-  mod: 'wet',
+  adj: 'wet',
   glo: 'WET',
   verb: 'to surrender',
 })

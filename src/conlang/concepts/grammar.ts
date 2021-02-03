@@ -1,6 +1,7 @@
 import * as _ from '../words'
 
 export const grammar = _.card('grammar', {
+  open: true,
   desc: () => `
 # Grammar
 
@@ -16,18 +17,18 @@ mention honorific or diminutives and other ways to address people.
 These moods are a very important part of the language because they enable subtlety without
 requiring lots of vocabulary.
 
-### Nouns
+### Meaning and form
 
-The language does not have the concept of verbs, pronouns or adjectives that
-are different from nouns. In this language, everything is a noun and it
-changes role with markers. This means that **every body part is a verb** !!!
-Youhou ! Now we have a "vulving" verb and a glans-hitting one too ! Nice.
+In this language, words change their meaning depending on their function. At
+the basic level, everything is a noun and it changes role with markers
+(mostly prefix). This means that **every body part is a verb** !!! Youhou !
+Now we have a "vulving" verb and a glans-hitting one too ! Nice.
 
 And this also means that we can be creative in how things become active
 (verbs) or how they extend meaning (adjective, adverbs). If someone decides
 that "cherry" feels like it should mean "provocative" as an adverb and this
-becomes part of some love making blow my mind thing. That would be crazy
-nice. And now cherries never ever look or taste the same...
+becomes part of some love making "surprise me" thing. That would be crazy
+nice. And now cherries never look or taste the same...
 
 ### Active marker
 
@@ -35,22 +36,22 @@ The "active" marker creates a verb by prefixing a noun with a [subject
 morpheme](${_.subj.id}):
 
 * ${_.ma} (hand)
-* ${_.ama} (they "do something with hand = massage")
+* ${_.a.ma} (they "do something with hand = grab")
 
-### Semantic extensions
+### Semantic modifiers
 
-Nouns prefixed with ${_.si} become semantic extensions ("adverbs" or
-"adjectives"). Example:
+Nouns prefixed with ${_.le} or ${_.si} become semantic extensions
+("adjectives" or "adverbs"). Example:
 
-* ${_.phrase('They¹ massage delicately.', _.ama, _.sienu)}
+* ${_.phrase('They grab delicately.', _.a.ma, _.si.enu)}
 
-Some morphemes behave well as suffix. For example ${_.uki}:
+Some morphemes that are used a lot as modifiers become suffixes. For example
+${_.uki}, ${_.lo} or ${_.lil}:
 
 * ${_.agade.uki}
 
-The transformation from independent word to suffix happens to frequently used
-semantic extenders (long, short, left, up). In this case, the morphemes
-behave a lot like a grammatical cases (INESS, SUPESS, etc).
+In these cases, the morphemes behave a lot like a grammatical cases (INESS,
+SUPESS, DIM, etc).
 
 ## To be or not to be
 
@@ -68,22 +69,34 @@ Latin copula ("connection, linking of words"), from co- ("together") +‎ apere
 This means that instead of saying "She is beautiful", we would say "She is
 being beautified" (passive continuous tense):
 
-* ${_.phrase('self-she-beautifying', _.es.a.ana.lu.awi)}
+* ${_.phrase('She is beautiful.', _.ta.ana, _.es.a.lu.awi)}
 
-But if this can be divided into different words:
+This highlights the fact that most things in
+life happen to us without much agency on our side (one of the reasons why we
+should be kind and helping to one another).
 
-* ${_.phrase('She self-they-beautifying', _.ta.ana.$, _.es.a.lu.awi)}
+A noun or person's property could arise from personal effort, happy birth,
+bad luck or anything. In the end, people are mysteries and we have no way of
+knowing what they are, their ontology or even the slightest thing about the
+causal nature of their being. This is why we just say "beauty is happening"
+or "joy is happening" or "love is happening".
 
-Expressing properties in this way highlights the fact that most things in
-life happen to us without much knowledge on our agency on these matters.
-We cannot say anything on the nature or cause of this property. It could be
-from personal effort, happy birth, bad luck or anything. In the end, people
-are mysteries and we have no way of knowing what they are, their ontology or
-even the slightest thing about the causal nature of their being. This is why
-we just say "beauty is happening" or "joy is happening" or "love is happening".
+When using adjectives, these are bound to the context of the phrase and do
+not produce the "is-ness" feeling:
 
-Actually using the verb to be (${_.e}) to express properties is seen as rude.
+* ${_.phrase('Woman beautiful.', _.ana, _.le.awi)}
 
-* ${_.phrase('I am loved.', _.es.o.lu.zu)}
+And in this case, since 'feminine' is a suffix, we can attach it on a noun
+(remember that in Keoda, ${_.awi} means beauty because fishes are beautiful
+and shiny):
+
+* ${_.phrase('Womanly beauty.', _.awi.ana)}
+
+Actually using the verb to be (${_.e}) to express properties is rude and cute
+because only foreigners do it.
+
+* ${_.phrase('We are loved.', _.es.o.lu.zu)}
+
+Next reading: ${_.taste}
 `,
 })

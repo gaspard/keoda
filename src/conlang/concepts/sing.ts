@@ -32,40 +32,40 @@ ${_.phrase(
   'Eternity is remembered by the place.',
   _.laum,
   _.wa,
-  _.alemegu,
+  _.a.lemegu,
   _.fuse
 )}
 
-## ${_.ahoto} (him)
+## ${_.oto.n} (him)
 
 ${_.block(
   {
     t: 'I look in the mirror and I see him.',
-    p: [_.o.fa, _.fahata.h, _.ku, _.o.fa, _.tahoton],
+    p: [_.o.fa, _.fahata.h, _.ku, _.o.fa, _.oto.n],
   },
   {
     t: 'I look in my eyes and I see her.',
-    p: [_.o.fa, _.fa.to.n, _.ku, _.o.fa, _.anada.m],
+    p: [_.o.fa, _.fa.to.n, _.ku, _.o.fa, _.ana.m],
   },
   {
     t: 'When will he go ?',
-    p: [_.dir, _.tahoton, _.ahodo, _.q],
+    p: [_.dir, _.oto.n, _.ahodo, _.q],
   },
   {
     t: 'I saw him always and always.',
-    p: [_.o.fa.em, _.tahoton, _.golau, _.golau],
+    p: [_.o.fa.em, _.oto.n, _.golau, _.golau],
   },
   {
     t: 'He took my voice.',
-    p: [_.tahoto, _.ahajolemu, _.to.lapa.n],
+    p: [_.oto, _.a.hajo.emu, _.to.lapa.n],
   },
   {
     t: '... my long hair everywhere.',
-    p: [_.tojihukipan],
+    p: [_.to.ji.uki.pa.n],
   },
   {
     t: '... my place in life everywhere.',
-    p: [_.toleirumipan],
+    p: [_.to.leirumi.pa.n],
   }
 )}
 
@@ -74,11 +74,11 @@ Reply:
 ${_.block(
   {
     t: 'I am him.',
-    p: [_.o.e, _.tahoton],
+    p: [_.o.e, _.oto.n],
   },
   {
     t: 'I have to die to let you thread your life.',
-    p: [_.o.kuru, _.nemetonam, _.eku, _.iru, _.gufitinam],
+    p: [_.o.kuru, _.nem.to.m, _.eku, _.i.ru, _.gufi.ti.m],
   },
   {
     t: 'I thought I was a strong spirit.',
@@ -90,7 +90,7 @@ ${_.block(
   },
   {
     t: 'Did I give you anything ?',
-    p: [_.eja, _.oguwulem, _.nenam, _.q],
+    p: [_.eja, _.o.guwu.em, _.nenam, _.q],
   },
   {
     t: "I am dying but I don't know who I was.",
@@ -177,8 +177,8 @@ ${_.phrase('I fall asleep in your embrace.', _.piyifodi, _.rorumitim)}
 
 ${_.phrase(
   'I become a small girl as I drift away.',
-  _.piyiru,
-  _.anayiam,
+  _.o.pi.yi.ru,
+  _.ana.lil.m,
   _.leu,
   _.piyimeshe,
   _.dao

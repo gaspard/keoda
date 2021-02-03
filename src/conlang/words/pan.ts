@@ -1,11 +1,11 @@
 import * as _ from '.'
 
 export const pan = _.word('pan', {
-  mod: 'red',
+  adj: 'red',
   see: () => [_.colors],
 })
 
 export const dupan = _.word('dudapan', {
   noun: 'fox',
-  etym: () => [_.doda, _.pan],
+  etym: () => [_.kadu, _.pan],
 })

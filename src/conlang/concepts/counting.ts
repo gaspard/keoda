@@ -13,7 +13,7 @@ Here are the number from 1 to 10:
 * ${_.je} (8 / ౮)
 * ${_.fe} (7 / ౭)
 * ${_.shi6} (6 / ౬)
-* ${_.le} (5 / ౫)
+* ${_.lil} (5 / ౫)
 * ${_.ka} (4 / ౪)
 * ${_.pe} (3 / ౩)
 * ${_.de2} (2 / ౨)
@@ -29,9 +29,9 @@ The powers of ten:
 
 * ${_.phrase('14', _.i10, _.ka4)}
 * ${_.phrase('24', _.dehipi, _.ka4)}
-* ${_.phrase('359', _.pehipa, _.lehipi, _.da9)}
+* ${_.phrase('359', _.pehipa, _.lilipi, _.da9)}
 * ${_.phrase('2019', _.dehipu, _.i10, _.da9)}
-* ${_.phrase("105'000", _.ipa, _.le5, _.ipu)}
+* ${_.phrase("105'000", _.ipa, _.lil5, _.ipu)}
 
 ## Big numbers !
 

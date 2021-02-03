@@ -1,7 +1,7 @@
 import * as _ from '.'
 
 export const li = _.word('li', {
-  noun: '**mouth**',
+  noun: 'mouth',
   verb: 'to suck',
 })
 _.see(_.liu)

@@ -41,13 +41,6 @@ function makePhrase(definition: EntryDefinition) {
 }
 
 export function word(name: string, definition: EntryDefinition): Entry {
-  const main = MAIN_KEYS.find(k => definition[k]) || 'noun'
-  if (!definition.cla) {
-    definition.cla = main
-  }
-  if (!definition.glo) {
-    definition.glo = '**' + definition[main] + '**'
-  }
   return entry('word', name, definition)
 }
 

@@ -1,5 +1,10 @@
 import * as _ from '../words'
 
+export const tinam = _.alt('tinam', {
+  glo: 'you1.NICE++',
+  alt: () => _.ti.$,
+})
+
 // ON RENAME, CHANGE suffix h, n, m
 export const taste = _.card('taste', {
   desc: () => `
@@ -48,7 +53,8 @@ When the word ends with a vowel, we can also use the "old way" of adding
     _.o.zu,
     _.ti.h
   )} (I don't really love you)
-* ${_.phrase('I love you so much !', _.o.zu, _.tinam)} (I love every bit of you)
+* ${_.phrase('I love you so much !', _.o.zu, _.ti.m)} (I love every bit of you)
 
+Next reading: ${_.verbs}
 `,
 })

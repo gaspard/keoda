@@ -1,4 +1,4 @@
-import * as _ from '..'
+import * as _ from '../words'
 // Baudelaire(1821-1867)
 //
 //
@@ -32,7 +32,7 @@ ${_.phrase(
   "L'homme y passe à travers des forêts de symboles",
   _.tu,
   _.oda,
-  _.afen,
+  _.a.fen,
   _.janaro,
   _.mei,
   _.lapana
@@ -51,7 +51,7 @@ ${_.phrase(
   _.agade.uki,
   _.di,
   _.dao,
-  _.eseshanele
+  _.es.sha.nelil
 )}
 
 `,

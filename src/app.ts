@@ -7,6 +7,13 @@ import { FloatArg } from './actions'
 import { CompiledEntriesByType } from './conlang/types'
 export { styled, Comp }
 
+export const COLORS = {
+  noun: '#2e4f8c',
+  adj: '#5c9ab3',
+  verb: '#883ea7',
+  adv: '#c371c1',
+}
+
 export interface Filter {
   type: 'type' | 'word'
   key: string

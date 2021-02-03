@@ -19,12 +19,12 @@ a way to explore the self ${_.pi}.
 ${_.phrase(
   'On earth, we enjoy the mystery of love making.',
   _.ganaro,
-  _.ohau,
-  _.zuzupa
+  _.o.au,
+  _.zuzu.pa.m
 )}
 
 ${_.phrase('Maybe in the past, I lived in Gana.', _.ohemleme, _.ganaro)}
 
-Your next read: ${_.verbs} (conjugation)
+Your next read: ${_.grammar}
 `,
 })

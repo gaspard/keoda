@@ -2,6 +2,11 @@
 import { poss } from '../mprefix'
 
 export const to = poss('to', {
-  noun: 'wex',
+  noun: 'our (INDF)',
   glo: 'ourx',
+})
+
+export const tosho = poss('tosho', {
+  noun: 'our (PL)',
+  glo: 'our9',
 })

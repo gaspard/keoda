@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const eri = _.word('eri', {
   noun: '**cherry** (June)',
-  mod: 'provocative',
+  adj: 'provocative',
   see: () => [_.fruits, _.colors, _.seasons],
 })
 

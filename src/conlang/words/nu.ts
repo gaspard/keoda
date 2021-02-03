@@ -1,9 +1,9 @@
 import * as _ from '.'
 
 export const nu = _.word('nu', {
-  mod: 'arrogance',
+  adj: 'arrogance',
   noun: 'hubris',
-  etym: () => [_.na, _.u],
+  etym: () => [_.na, _.u$],
   see: () => [_.gu, _.nanes],
   desc: () => `
 ${_.nu} is the unrealized ${_.na}.

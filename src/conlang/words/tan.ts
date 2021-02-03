@@ -18,7 +18,7 @@ export const tana = _.word('tanada', {
 
 export const tanale = _.word('tanale', {
   noun: 'letter',
-  etym: () => [_.tan, _.le],
+  etym: () => [_.tan, _.lil],
 })
 
 export const fatan = _.word('fatan', {

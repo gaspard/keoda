@@ -2,7 +2,7 @@ import * as _ from '.'
 
 export const ulu = _.word('ulu', {
   noun: 'until',
-  etym: () => [_.u, _.lu],
+  etym: () => [_.u$, _.lu],
 })
 
 // export const ulutaj = _.example([_.ulu, _.taj], `Amuser le pénis.`)

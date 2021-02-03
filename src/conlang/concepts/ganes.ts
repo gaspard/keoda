@@ -56,7 +56,7 @@ These need to be balanced with their equivalent ${_.nanes} states.
 From here, the states are more difficult. These states are shared on both
 ${_.ganes} and ${_.nanes} scales.
 
-* 5 ${_.nele} (confusion/insecure)
+* 5 ${_.nelil} (confusion/insecure)
 * 4 ${_.neka} (shame/restless)
 * 3 ${_.nepe} (limbo/offensive)
 * 2 ${_.nede} (anguish/fighting)

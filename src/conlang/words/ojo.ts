@@ -1,4 +1,4 @@
 import * as _ from '.'
 
-export const ojo = _.word('ojo', { mod: 'centre' })
+export const ojo = _.word('ojo', { adj: 'centre' })
 _.see(_.jo)

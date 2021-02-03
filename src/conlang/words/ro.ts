@@ -1,6 +1,7 @@
 import * as _ from '.'
 
 export const ro = _.word('ro', {
+  adj: 'inner',
   suff: 'in (INESS)',
   pref: 'inner',
   glo: 'INESS',

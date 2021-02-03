@@ -3,7 +3,7 @@ import * as _ from '.'
 export const naj = _.word('naj', {
   noun: 'cloud',
   verb: 'to shiver',
-  etym: () => [_.neW, _.aj],
+  etym: () => [_.ne, _.aj],
 })
 
 export const najlo = _.word('najlo', {

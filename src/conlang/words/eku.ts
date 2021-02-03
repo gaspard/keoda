@@ -1,6 +1,6 @@
 import * as _ from '.'
 
 export const eku = _.word('eku', {
-  mod: 'that',
+  adj: 'that',
   see: () => [_.prep],
 })
