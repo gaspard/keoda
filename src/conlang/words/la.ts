@@ -21,16 +21,19 @@ export const lapa = _.word('lapa', {
   etym: () => [_.la, _.pa],
 })
 
+// Debout, une jambe derrière soi, tenue par une main (même côté), l'autre devant soi
 export const lapalapa = _.word('lapalapa', {
   noun: 'duck',
   etym: () => [_.lapa, _.lapa],
 })
 
+// plank pose
 export const kelo = _.word('kelo', {
   noun: 'crocodile',
   etym: () => [_.kela, _.oda],
 })
 
+// Couché sur le ventre, les bras en arrière, les jambes au-dessus du sol (dos un peu cambré)
 export const kawi = _.word('kawi', {
   noun: 'shark',
   etym: () => [_.kela, _.awi],
@@ -38,7 +41,7 @@ export const kawi = _.word('kawi', {
 
 export const lapir = _.word('lapir', {
   verb: 'to announce',
-  etym: () => [_.lapa, _.lir],
+  etym: () => [_.lapa, _.ir],
 })
 
 export const gilapa = _.word('gilapa', {

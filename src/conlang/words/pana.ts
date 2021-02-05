@@ -10,8 +10,3 @@ export const pana = _.word('pana', {
 })
 
 // === alt
-
-export const onepana = _.alt('onepana', {
-  glo: 'wex.*not*.**understand**',
-  alt: () => _.pana,
-})

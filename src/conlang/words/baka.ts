@@ -2,6 +2,7 @@ import * as _ from '.'
 
 export const baka = _.word('baka', {
   noun: 'devotion',
+  def: 'please',
   verb: 'to surrender',
   see: () => [_.lo],
   desc: () => `

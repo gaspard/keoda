@@ -1,5 +1,6 @@
 import * as _ from '.'
 
+// Cat pose, quatre pattes, dos arondi
 export const gili = _.word('gili', {
   noun: 'tiger',
 })

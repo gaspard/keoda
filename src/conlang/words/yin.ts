@@ -1,12 +1,12 @@
-export { }
+export {}
 import * as _ from '.'
 
 export const yin = _.word('yin', {
-  noun: '**vulva**',
-  see: () => [_.yuru],
+  noun: 'vulva',
+  verb: 'to vulva',
+  see: () => [_.yuru /*_.genitals*/],
   etym: () => [_.yu, _.ina],
 })
-_.see(_.genitals)
 
 export const riyin = _.word('riyin', {
   noun: 'peripheral lips',

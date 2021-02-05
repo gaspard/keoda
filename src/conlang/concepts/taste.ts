@@ -40,9 +40,9 @@ When the word ends with a vowel, we can also use the "old way" of adding
 
 ## Summary:
 
-* ${_.m}, glossed '${_.m.definition.glo}', means "whole"
-* ${_.n}, glossed '${_.n.definition.glo}', means "parts"
-* ${_.h}, glossed '${_.h.definition.glo}', means "rejection"
+* ${_.m} glossed \`${_.m.definition.glo}\` means "${_.m.definition.adj}"
+* ${_.n} glossed \`${_.n.definition.glo}\` means "${_.n.definition.adj}"
+* ${_.h} glossed \`${_.h.definition.glo}\` means "${_.h.definition.adj}"
 
 ## Example
 

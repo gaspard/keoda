@@ -12,17 +12,18 @@ See also ${_.food}, ${_.fruits} and ${_.seasons}.
 
 This is the list of words related to plants currently in the language:
 
-* ${_.bisahina} (fern)
-* ${_.ana} (tree)
-* ${_.ananoa} (bark)
-* ${_.anama} (leaf)
-* ${_.anarum} (branch)
-* ${_.anasame} (root)
-* ${_.buni} (bud)
-* ${_.soaji} (grass)
+* ${_.nounRef(_.bisahina)}
+* ${_.nounRef(_.ana)}
+* ${_.nounRef(_.ananoa)}
+* ${_.nounRef(_.anama)}
+* ${_.nounRef(_.anarum)}
+* ${_.nounRef(_.anasame)}
+* ${_.nounRef(_.buni)}
+* ${_.nounRef(_.soaji)}
 
 ## Specific plant names
 
-* ${_.okana}
+* ${_.nounRef(_.okana)}
+
 `,
 })

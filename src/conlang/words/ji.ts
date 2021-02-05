@@ -4,6 +4,7 @@ export const jiM = _.word('ji', {
   id: 'jiM',
   noun: 'memory',
   verb: 'to remember',
+  see: () => [_.ji, _.fiji],
 })
 
 export const ji10 = _.word('ji', {
@@ -14,6 +15,7 @@ export const ji10 = _.word('ji', {
 export const ji = _.word('ji', {
   noun: 'hair',
   pos: 'standing, body leaning forward, hair offered ready to be taken',
+  see: () => [_.jiM],
 })
 
 export const jipa = _.word('jipa', {

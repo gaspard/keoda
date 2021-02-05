@@ -7,6 +7,7 @@ export const naj = _.word('naj', {
 })
 
 export const najlo = _.word('najlo', {
+  verb: 'to cum',
   noun: 'orgasm, rain',
   etym: () => [_.naj, _.lo],
 })

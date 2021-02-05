@@ -10,17 +10,17 @@ year. If the language is ever used in other regions, the words
 can be adapted with something regional linked to that time of
 year.
 
-* ${_.egina} (January)
-* ${_.fena} (February) 
-* ${_.piutaj} (March) 
-* ${_.ulul} (April) 
-* ${_.piuna} (May) 
-* ${_.eri} (June) 
-* ${_.palajil} (July) 
-* ${_.pantame} (August) 
-* ${_.wiyon} (September) 
-* ${_.gopona} (October) 
-* ${_.pona} (November) 
-* ${_.ponale} (December) 
+* ${_.nounRef(_.egina)}
+* ${_.nounRef(_.fena)}
+* ${_.nounRef(_.piutaj)}
+* ${_.nounRef(_.ulul)}
+* ${_.nounRef(_.piuna)}
+* ${_.nounRef(_.eri)}
+* ${_.nounRef(_.palajil)}
+* ${_.nounRef(_.pantame)}
+* ${_.nounRef(_.wiyon)}
+* ${_.nounRef(_.gopona)}
+* ${_.nounRef(_.pona)}
+* ${_.nounRef(_.ponale)}
 `,
 })

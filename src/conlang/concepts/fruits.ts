@@ -5,13 +5,14 @@ export const fruits = _.card('fruits', {
   desc: () => `
 Existing fruits are:
 
-* ${_.eri} (cherry)
-* ${_.pona} (orange)
-* ${_.ponale} (tangerine)
-* ${_.palajil} (apricot)
-* ${_.pantame} (tomato)
-* ${_.wiyon} (prune)
-* ${_.gopona} (squash)
-* ${_.guyuina} (apple)
+* ${_.nounRef(_.eri)}
+* ${_.nounRef(_.pona)}
+* ${_.nounRef(_.ponale)}
+* ${_.nounRef(_.palajil)}
+* ${_.nounRef(_.pantame)}
+* ${_.nounRef(_.wiyon)}
+* ${_.nounRef(_.gopona)}
+* ${_.nounRef(_.guyuina)}
+
 `,
 })

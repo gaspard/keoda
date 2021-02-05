@@ -140,7 +140,8 @@ on the action (comes after accord with the subject).
 The prefix ${_.u} marks the infinitive. The meaning is something like
 'somebody does'. Note that because the infinitive behaves like a noun,
 adjective or adverb it requires proper markings and accusative. The ${_.u}
-prefix simply makes a noun, extra markers are required for other roles.
+prefix simply makes a noun, extra markers are required for other roles such
+as adjective or adverb.
 
 * ${_.phrase('They like to talk.', _.a.au, _.u.lapa.n)}
 * ${_.phrase('I saw him coming.', _.o.fa.em, _.oto.n, _.le.u.lu.odu)}

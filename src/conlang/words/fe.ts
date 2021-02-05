@@ -30,7 +30,7 @@ export const feoda = _.word('feoda', {
 export const nefe = _.word('nefe', {
   noun: '**undressed**',
   adj: 'naked',
-  verb: 'to uncover/undress',
+  verb: 'to uncover',
   exam: () => [
     _.phraseX('Undress !', _.nefe),
     _.phraseX('Remove your clothes !', _.ne, _.feodatim),

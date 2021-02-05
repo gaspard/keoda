@@ -43,9 +43,7 @@ ${_.phrase("L'homme qui te regarde", _.oto.da, _.dim, _.a.fa, _.ti.m)}
 
 ${_.phrase(
   'Sans craindre ton sourire et tes yeux et ta voix.',
-  _.shune,
-  _.ne,
-  _.apeu,
+  _.ne.u.peu,
   _.lajatim,
   _.fa.ti.m,
   _.uma,

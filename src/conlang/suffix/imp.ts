@@ -2,9 +2,10 @@ import { suffix } from '../make'
 
 export const imp = suffix('', {
   id: 'imp',
-  verb: 'imperative',
+  verb: '',
   writ: '',
-  suff: 'imperative',
-  glo: '',
+  glo: '!',
+  cla: 'verb',
   force: 'verb',
+  debug: true,
 })

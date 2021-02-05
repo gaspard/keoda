@@ -41,6 +41,7 @@ export const malame = _.word('malame', {
   etym: () => [_.ma, _.lameN],
 })
 
+// sur les fesses, les jambes font les ailes du papillon, les pieds ensemble
 export const miwi = _.word('miwi', {
   noun: 'butterfly',
   etym: () => [_.mi, _.iwi],

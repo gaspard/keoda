@@ -43,7 +43,7 @@ Litteraly, the "immaterial unconscious"`,
 
 export const gulir = _.word('gulir', {
   verb: 'to wish',
-  etym: () => [_.gu, _.lir],
+  etym: () => [_.gu, _.ir],
 })
 
 export const lemegu = _.word('lemegu', {

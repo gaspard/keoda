@@ -5,6 +5,7 @@ export const adu = _.word('adu', {
   adj: 'close',
 })
 
+// Downward facing dog
 export const kadu = _.word('doda', {
   noun: 'dog',
   adj: 'follower',

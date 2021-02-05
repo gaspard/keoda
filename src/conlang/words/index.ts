@@ -1,6 +1,7 @@
 export * from './0_prefix'
 export * from './1_helpers'
 export * from './2_suffix'
+export * from './3_nonRoots'
 export * from './adu'
 export * from './aga'
 export * from './agi'

@@ -1,4 +1,5 @@
-// FIXME MOVE ALL THESE IN 'suffix' as entries.
+// The cases here cannot be moved to 'suffix' because a word exists already
+// with the same name (either it is the same word or another such as 'au')
 export const CASES = {
   // is-ness
   es: { glo: 'BE', join: 'n' },

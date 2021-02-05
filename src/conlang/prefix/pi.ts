@@ -2,7 +2,7 @@ import { verb } from '../mprefix'
 import * as _ from '../words'
 
 export const pi = verb('pi', {
-  noun: 'me',
+  noun: 'I',
   glo: 'I',
   adj: 'origin',
   desc: () => `

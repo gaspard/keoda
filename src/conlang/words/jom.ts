@@ -1,14 +1,10 @@
 import * as _ from '.'
 
 export const jom = _.word('jom', {
-  noun: 'group, family',
+  noun: 'clan',
+  desc: () => 'Can also mean "group" or "family" depending on context.',
 })
 
 export const jana = _.word('jana', {
   noun: 'forest',
-})
-
-export const janaro = _.alt('janaro', {
-  glo: '**forest**.INESS',
-  alt: () => _.jana,
 })

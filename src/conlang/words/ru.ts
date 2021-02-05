@@ -4,7 +4,7 @@ export const ru = _.word('ru', {
   noun: 'creation (Sristi)',
   suff: 'to become',
   verb: 'to emerge',
-  see: () => [_.prep],
+  see: () => [_.nem],
 })
 
 export const runa = _.word('runa', {

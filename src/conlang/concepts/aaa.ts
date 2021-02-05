@@ -150,17 +150,10 @@ Modifiers are in italic (whether in-word or as separate words).
 # With all this said, Welcome !
 
 So here is **keoda**, a language born in the realm of sexuality, evolved as a
-way of coping through mental illness and blossomed in the poetic realm as a
-way to build a bridge above the ugly waters of gender dysphoria,
-${_.iwigui}...
+way of coping through mental illness and dysphoria and blossomed as a way to
+sing my love of this journey ${_.iwigui}...
 
-My hope by sharing it is that some of the confusions and weird notions of
-this poetic endeavour might echo in someone's heart and help validate this
-person's feelings.
-
-I feel utterly weird.
-
-I hope you do too, dear reader ❤️️
+❤️️
 
 ## Using this web page
 

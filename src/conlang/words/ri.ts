@@ -1,11 +1,3 @@
-import * as _ from '.'
+export {}
 
-export const ri = _.word('ri', {
-  adj: 'outer',
-  pref: 'outer',
-  suff: 'out of (ELAT)',
-  glo: 'ELAT',
-  see: () => [_.ro, _.prep],
-})
-_.see(_.ro)
-_.see(_.riyin)
+// words with ri with special meaning should be added here.

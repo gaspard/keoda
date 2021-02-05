@@ -12,6 +12,7 @@ export const sheulama = _.word('sheulama', {
   etym: () => [_.sheu, _.lama],
 })
 
+// Happy baby pose
 export const gosheu = _.word('gosheu', {
   noun: 'pig',
   etym: () => [_.go, _.sheu],

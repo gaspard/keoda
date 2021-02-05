@@ -12,6 +12,7 @@ export const gods = _.card('gods', {
 * ${_.gahal}
 * ${_.gusona}
 * ${_.hurakan}
+* ${_.pan}
 
 ## Devotion ${_.baka}
 

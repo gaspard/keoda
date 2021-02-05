@@ -6,6 +6,7 @@ export const anaT = _.alt('ana', {
   alt: () => _.ana,
 })
 
+// Sur le dos, les jambes pliées
 export const anawi = _.word('anawi', {
   noun: 'medusa',
   etym: () => [_.anaT, _.awi],

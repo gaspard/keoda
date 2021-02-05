@@ -31,10 +31,11 @@ express (subtle) disdain.
 
 All sounds correspond to [Telugu](https://en.wikipedia.org/wiki/Telugu_script) except for:
 
-| Symbol          | Telugu     | Keoda     | Example |
-| :-------------: | :--------: | :-------: | :--------: |
-| **చ**           | /tʃ/       | /f/      | ${_.falame} |
-| **ఠ**           | /tʰ/       | /z/      | ${_.zuzu}    |
+| Symbol | Telugu     | Keoda     | Example             |
+| :----: | :--------: | :-------: | :--------:          |
+| **చ**  | /tʃ/       | /f/       | ${_.falame}        |
+| **ఠ**  | /tʰ/       | /z/       | ${_.zuzu}          |
+| **జ్‌**  | /dʒ/       | /dʒ/ or /ʒ/ (end of word) | ${_.joda}, ${_.baj} |
  
 
 ## Vowels

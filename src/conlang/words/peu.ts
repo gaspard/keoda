@@ -11,8 +11,3 @@ export const agupeu = _.word('agupeu', {
 })
 
 // === alt
-
-export const apeu = _.alt('apeu', {
-  glo: 'they1.**fear**',
-  alt: () => _.peu,
-})

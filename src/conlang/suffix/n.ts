@@ -2,7 +2,7 @@ import { suffix } from '../make'
 import * as _ from '../words'
 
 export const n = suffix('n', {
-  noun: 'modesty',
+  adj: 'modest',
   writ: 'ఁ',
   suff: 'taste marking',
   glo: 'ACC',

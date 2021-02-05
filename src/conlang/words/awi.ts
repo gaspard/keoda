@@ -1,5 +1,6 @@
 import * as _ from '.'
 
+// Comme le requin avec la tête au sol
 export const awi = _.word('awi', {
   noun: 'fish',
   verb: 'shine',

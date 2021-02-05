@@ -20,10 +20,10 @@ ${_.phrase(
   'On earth, we enjoy the mystery of love making.',
   _.ganaro,
   _.o.au,
-  _.zuzu.pa.m
+  _.u.zuzu.pa.m
 )}
 
-${_.phrase('Maybe in the past, I lived in Gana.', _.ohemleme, _.ganaro)}
+${_.phrase('Maybe in the past, I lived in Gana.', _.o.em.eme, _.ganaro)}
 
 Your next read: ${_.grammar}
 `,

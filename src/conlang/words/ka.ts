@@ -45,6 +45,7 @@ export const karu = _.word('karu', {
 })
 _.see(_.ligau)
 
+// Cow pose, quatre pattes, dos creux
 export const koda = _.word('koda', {
   noun: 'cow',
   etym: () => [_.ka, _.oda],

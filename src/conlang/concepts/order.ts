@@ -132,9 +132,10 @@ ${_.phrase(
 See ${_.m} for all the details on this... But basically, the target of an
 action (accusative case) is marked with one of three moods:
 
-* ${_.m}, glossed '${_.m.definition.glo}', means "whole"
-* ${_.n}, glossed '${_.n.definition.glo}', means "parts"
-* ${_.h}, glossed '${_.h.definition.glo}', means "rejection"
+* ${_.m} glossed \`${_.m.definition.glo}\` means "${_.m.definition.adj}"
+* ${_.n} glossed \`${_.n.definition.glo}\` means "${_.n.definition.adj}"
+* ${_.h} glossed \`${_.h.definition.glo}\` means "${_.h.definition.adj}"
+
 
 For poetic purpose, the "na" can be added before the marking on vowel ending
 to refer to "old style" markings in /nam/, /nan/ and /nah/.

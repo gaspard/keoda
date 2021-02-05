@@ -1,7 +1,7 @@
 import { poss } from '../mprefix'
 
 export const ti = poss('ti', {
-  noun: 'you1',
+  noun: 'you (SG)',
   glo: 'your1',
 })
 

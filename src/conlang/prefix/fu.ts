@@ -1,4 +1,3 @@
-// ERG
 import { noun } from '../mprefix'
 
 export const fu = noun('fu', {

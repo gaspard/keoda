@@ -1,8 +1,7 @@
 import * as _ from '../words'
 
 export const sing = _.card('sing', {
-  phon: '/sin/',
-  writ: 'sing',
+  open: true,
   desc: () => `
 # Some ideas for lyrics
 
@@ -94,19 +93,19 @@ ${_.block(
   },
   {
     t: "I am dying but I don't know who I was.",
-    p: [_.esonem, _.shune, _.dim, _.o.e.em, _.onepana],
+    p: [_.es.o.nem, _.ne.shu, _.o.ne.pana, _.dim, _.o.e.em],
   },
   {
     t: 'You are my daughter, you are my child.',
-    p: [],
+    p: [_.i.e, _.to.ana.lil.m, _.i.e, _.to.joda.m],
   },
   {
     t: 'I love you, you are my life.',
-    p: [],
+    p: [_.o.zu, _.ti.m, _.i.e, _.to.em],
   },
   {
     t: "Please don't forget me like I forgot you.",
-    p: [],
+    p: [_.baka, _.baka, _.ne.fiji.imp, _.pi.da.n, _.si.o.fiji.em, _.ti.da.n],
   },
   {
     t: 'I kept us alive.',

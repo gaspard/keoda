@@ -1,8 +1,8 @@
-import { adj } from '../mprefix'
+import { prefix } from '../mprefix'
 
 // Semantic transform
-export const ne = adj('ne', {
-  adj: 'negation',
+export const ne = prefix('ne', {
+  def: 'negation',
   glo: 'NEG',
   join: '',
 })

@@ -1,7 +1,13 @@
 import * as _ from '.'
 
 export const ha = _.word('ha', {
+  adj: 'far',
   def: 'up',
+  desc: () => 'Also means top or distal',
+  see: () => [_.jo],
+})
+
+export const hame = _.word('hame', {
   noun: 'head',
   adj: 'far',
   pref: 'top or distal',

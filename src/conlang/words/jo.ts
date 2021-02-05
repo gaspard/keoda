@@ -1,8 +1,9 @@
 import * as _ from '.'
 
 export const jo = _.word('jo', {
-  adj: 'close, proximal',
+  adj: 'close',
   def: 'down',
+  desc: () => 'Also means proximal.',
   etym: () => [_.dau, _.ojo],
   see: () => [_.ha],
 })
@@ -23,25 +24,26 @@ export const muhajo = _.word('muhajo', {
 })
 
 export const joda = _.word('joda', {
-  noun: '**child**',
+  noun: 'child',
   etym: () => [_.jo, _.oda],
   see: () => [_.family],
 })
 
 export const jona = _.word('jona', {
-  noun: 'girl (child)',
+  noun: 'daughter',
+  desc: () => `We also use: ${_.gloRef(_.ana.lil)}`,
   etym: () => [_.jo, _.ana],
   see: () => [_.family],
 })
 
 export const jowi = _.word('jowi', {
-  noun: 'enby (child)',
+  noun: 'enby child',
   etym: () => [_.jo, _.iwi],
   see: () => [_.family],
 })
 
 export const joto = _.word('joto', {
-  noun: 'boy (child)',
+  noun: 'son',
   etym: () => [_.jo, _.oto],
   see: () => [_.family],
 })
