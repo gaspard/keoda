@@ -1,6 +1,12 @@
 import * as _ from '.'
 
-// yi defined in 'prefix'
+export const yi = _.word('yi', {
+  noun: 'innoncence',
+  adj: 'tiny',
+  suff: 'tiny',
+  glo: 'TINY',
+})
+
 export const yile = _.word('yile', {
   noun: 'young',
   etym: () => [_.yi, _.lei],

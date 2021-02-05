@@ -1,5 +1,5 @@
-import { verb } from '../mprefix'
-import { phrase } from '../words'
+import { verb } from '../../mprefix'
+import { phrase } from '../../words'
 import { es } from './es'
 import { o } from './o'
 

@@ -54,7 +54,7 @@ ${_.phrase(
   'Moi, sitôt que je vois ton visage,',
   _.pida,
   _.wa,
-  _.o.pi.fa,
+  _.opi.fa,
   _.duhatinam,
   _.ku
 )}

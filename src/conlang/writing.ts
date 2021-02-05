@@ -154,13 +154,13 @@ const TELU: { [key: string]: string } = {
   u: 'ఉ',
   o: 'ఓ',
   g: 'గ్‌',
-  r$: 'ర్‌',
-  r: 'ర్‌',
 
   // leftover letters due to double consonants
   s: 'స్‌',
   m: 'మ్‌',
   l: 'ల్‌',
+  r: 'ర్‌',
+  j: 'జ్‌', //   /ʒ/ (end) or /dʒ/ (in-word)
   //
   ['1']: '౧',
   ['2']: '౨',

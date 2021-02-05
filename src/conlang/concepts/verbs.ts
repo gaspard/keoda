@@ -184,11 +184,11 @@ For more BDSM and sexual contexts, the Dominant is still referred to as
 
 This translates in subjects ${_.o.kei}, ${_.i.yi}, ${_.i.lo}, etc.
 
-${_.phrase('I am ready, Master.', _.yi.e, _.sen, _.keda)}
+${_.phrase('I am ready, Master.', _.oyi.e, _.sen, _.keda)}
 
-${_.phrase('I (Master) will undress (tiny you).', _.o.kei.nefe.ir, _.yi.da)}
+${_.phrase('I (Master) will undress (tiny you).', _.okei.nefe.ir, _.yi.da)}
 
-${_.phrase('(tiny) me will undress you (Master).', _.o.yi.nefe.ir, _.keda)}
+${_.phrase('(tiny) me will undress you (Master).', _.oyi.nefe.ir, _.keda)}
 
 Just remember, what sounds like "OKey" is in fact "I-fantastic" and
 everything with a /y/ such as ${_.yi.da} are meant to be said with a soft and

@@ -19,7 +19,9 @@ export function phrase(trad: string, ...args: { id: string; name: string }[]) {
   return makePhrase({ trad, words: () => args })
 }
 
-export function block(...phrases: { t: string; p: Entry[] }[]) {
+export function block(
+  ...phrases: { t: string; p: { id: string; name: string }[] }[]
+) {
   return `###### block\n* ${phrases.map(p => phrase(p.t, ...p.p)).join('\n* ')}`
 }
 
@@ -50,6 +52,24 @@ export function card(name: string, definition: EntryDefinition): Entry {
     name,
     Object.assign({ writ: name, phon: '' }, definition)
   )
+}
+
+function getEntry(entry: Entry | { $: Entry }): Entry {
+  const e = entry as { $: Entry }
+  return e.$ || entry
+}
+
+export function nounRef(entry: Entry | { $: Entry }) {
+  const ent = getEntry(entry)
+  return `${ent} (${ent.definition.noun})`
+}
+
+export function adjRef(entry: Entry) {
+  return `${entry} (${entry.definition.noun})`
+}
+
+export function gloRef(entry: Entry) {
+  return `${entry} (${entry.definition.glo})`
 }
 
 // FIXME: REMOVE

@@ -11,8 +11,3 @@ export const nena = _.word('nena', {
 })
 
 // === alt
-
-export const nenam = _.alt('nenam', {
-  glo: '**nothing**+',
-  alt: () => _.nena,
-})

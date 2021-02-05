@@ -18,29 +18,12 @@ export const rumi = _.word('rumi', {
 })
 
 export const leirumi = _.word('leirumi', {
-  verb: 'to embrace time, to live',
+  verb: 'to embrace time',
+  desc: () => `To live one's life`,
   see: () => [_.em],
 })
 
 export const rumo = _.word('rumo', {
   verb: 'to throw',
   etym: () => [_.rum, _.o$],
-})
-
-// === alt
-
-export const arumo = _.alt('arumo', {
-  glo: 'they1.**throw**',
-  alt: () => _.rumo,
-})
-
-// poss prefix
-export const toleirumipan = _.alt('toleirumipan', {
-  glo: 'wex.*time*.**embrace**.*everywhere*+',
-  alt: () => _.leirumi,
-})
-
-export const rorumitim = _.alt('rorumitim', {
-  glo: '*INESS*.**hug**.you1+',
-  alt: () => _.ro,
 })

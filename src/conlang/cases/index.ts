@@ -5,6 +5,7 @@ export const CASES = {
   es: { glo: 'BE', join: 'n' },
   // possessivity
   to: { glo: 'ourx' },
+  topi: { glo: 'POSS.I' },
   ti: { glo: 'your1' },
   ta: { glo: 'their1' },
   // tens

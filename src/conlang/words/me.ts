@@ -14,10 +14,3 @@ export const melam = _.word('melam', {
   verb: 'to swim',
   etym: () => [_.me, _.lame],
 })
-
-// === alt
-
-export const piyimeshe = _.alt('piyimeshe', {
-  glo: '1SG.DIM.**fly**',
-  alt: () => _.meshe,
-})

@@ -33,7 +33,7 @@ ${_.phrase(
   _.tu,
   _.oda,
   _.a.fen,
-  _.jana.ro,
+  _.ro.jana,
   _.mei,
   _.lapana
 )}

@@ -1,5 +1,5 @@
 // verb cases
-import { verb } from '../mprefix'
+import { verb } from '../../mprefix'
 
 export const es = verb('es', {
   noun: 'is-ness',

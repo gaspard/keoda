@@ -46,7 +46,7 @@ See word order for more on cases: ${_.order}
 
 * ${_.phrase('Iris whom you caressed.', _.Iris.m, _.dim, _.i.mi.ema)}
 * ${_.phrase('Iris who caressed you.', _.Iris, _.di, _.a.mi.ema, _.ti.m)}
-* ${_.phrase('I like that you are naked.', _.o.zu, _.eku, _.o.yi.e, _.nefe)}
+* ${_.phrase('I like that you are naked.', _.o.zu, _.eku, _.oyi.e, _.nefe)}
 
 ## Location
 

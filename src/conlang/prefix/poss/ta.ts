@@ -1,4 +1,4 @@
-import { poss } from '../mprefix'
+import { poss } from '../../mprefix'
 
 export const ta = poss('ta', {
   noun: 'them (SG)',

@@ -38,6 +38,7 @@ const GLO_REPLACE: { [key: string]: string } = {
   their9: 'POSS.3PL',
   // other
   somex: '3PL.INDF',
+  // ['^!.']: '',
 }
 
 function fixGlo(glo: string): string {
@@ -68,6 +69,7 @@ function compileWord(entry: Entry): CompiledEntry {
   ) as CompiledEntry
   const c = compiled as EntryDefinition
   delete c.exam
+  delete c.debug
   if (definition.exam) {
     // This runs the phrase production
     definition.exam()

@@ -9,6 +9,13 @@ export const pe = _.word('pe', {
   pos: 'two legs and a buttock (doggy style)',
 })
 
+export const pena = _.word('pena', {
+  noun: 'something',
+  etym: () => [_.pe, _.na],
+})
+
+// FIXME: ALL THIS IS ALL WRONG NOW
+
 export const ape = _.word('ape', {
   noun: '**someˣ**',
   pref: '**to someone**',

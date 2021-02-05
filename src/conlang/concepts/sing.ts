@@ -73,27 +73,27 @@ Reply:
 ${_.block(
   {
     t: 'I am him.',
-    p: [_.o.e, _.oto.n],
+    p: [_.opi.e, _.oto.n],
   },
   {
     t: 'I have to die to let you thread your life.',
-    p: [_.o.kuru, _.nem.to.m, _.eku, _.i.ru, _.gufi.ti.m],
+    p: [_.opi.kuru, _.u.nem.m, _.eku, _.i.ru, _.gufi.ti.m],
   },
   {
     t: 'I thought I was a strong spirit.',
-    p: [_.o.gahi.em, _.eku, _.o.e, _.gogam],
+    p: [_.opi.gahi.em, _.eku, _.opi.e, _.gogam],
   },
   {
     t: 'Was I only a thought ?',
-    p: [_.eja, _.o.e.em, _.gahinur.m, _.q],
+    p: [_.eja, _.opi.e.em, _.gahi.nur.m, _.q],
   },
   {
     t: 'Did I give you anything ?',
-    p: [_.eja, _.o.guwu.em, _.nenam, _.q],
+    p: [_.eja, _.opi.guwu.em, _.pena.m, _.ni.ti, _.q],
   },
   {
     t: "I am dying but I don't know who I was.",
-    p: [_.es.o.nem, _.ne.shu, _.o.ne.pana, _.dim, _.o.e.em],
+    p: [_.es.opi.nem, _.ne.shu, _.opi.ne.pana, _.dim, _.opi.e.em],
   },
   {
     t: 'You are my daughter, you are my child.',
@@ -101,15 +101,15 @@ ${_.block(
   },
   {
     t: 'I love you, you are my life.',
-    p: [_.o.zu, _.ti.m, _.i.e, _.to.em],
+    p: [_.opi.zu, _.ti.m, _.i.e, _.topi.em],
   },
   {
     t: "Please don't forget me like I forgot you.",
-    p: [_.baka, _.baka, _.ne.fiji.imp, _.pi.da.n, _.si.o.fiji.em, _.ti.da.n],
+    p: [_.baka, _.baka, _.ne.fiji.imp, _.pi.da.n, _.si.opi.fiji.em, _.ti.da.n],
   },
   {
     t: 'I kept us alive.',
-    p: [],
+    p: [_.opi.magi, _.de.m, _.le.em],
   },
   {
     t: 'It took me so long to give you my life.',
@@ -172,14 +172,14 @@ ${_.block(
 
 ## ${_.i$} (you)
 
-${_.phrase('I fall asleep in your embrace.', _.piyifodi, _.rorumitim)}
+${_.phrase('I fall asleep in your embrace.', _.oyi.fodi, _.ro.rumi.ti.m)}
 
 ${_.phrase(
   'I become a small girl as I drift away.',
-  _.o.pi.yi.ru,
+  _.oyi.ru,
   _.ana.lil.m,
   _.leu,
-  _.piyimeshe,
+  _.oyi.meshe,
   _.dao
 )}
 

@@ -5,7 +5,7 @@ export const h = suffix('h', {
   adj: 'unpleasant',
   writ: 'ః',
   suff: 'taste marking',
-  glo: 'UNP',
+  glo: 'ACC-',
   force: 'noun',
   maxPhrases: 10,
   see: () => [_.m, _.n],

@@ -5,6 +5,10 @@ export const LAST_VOWEL = /([aoeiu])[^aoeiu]*$/
 export const STARTS_VOWEL = /^[aoeiu]/
 export const ENDS_VOWEL = /[aoeiu]$/
 
+export function debug(l: any) {
+  console.log(JSON.stringify(l, null, 2))
+}
+
 const NATIVE_KEYS: (string | number | symbol)[] = [
   '_comp',
   'toString',
@@ -69,6 +73,8 @@ export interface EntryInfo {
   // register phrases created with it (such as ACC markers, conjugation, etc).
   // set to false to ignore phrases.
   maxPhrases: number
+  // Setting this to true log all glossing and agglutinations that imply the word
+  debug?: boolean
 }
 
 export interface FullEntry extends EntryInfo {

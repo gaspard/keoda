@@ -1,5 +1,17 @@
 import * as _ from '.'
 
+export const pi = _.word('pi', {
+  noun: 'I',
+  glo: 'I',
+  adj: 'origin',
+  desc: () => `
+${_.pi} is the opposite of ${_.pa}... and it is the same.
+
+It means 'one', 'here' whereas ${_.pa} means 'every', 'all around'.
+`,
+  see: () => [_.pa],
+})
+
 export const pida = _.word('pida', {
   def: '**I person**',
   etym: () => [_.pi, _.da],

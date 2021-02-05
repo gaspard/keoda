@@ -4,8 +4,7 @@ export const imp = suffix('', {
   id: 'imp',
   verb: '',
   writ: '',
-  glo: '!',
+  glo: '',
   cla: 'verb',
   force: 'verb',
-  debug: true,
 })

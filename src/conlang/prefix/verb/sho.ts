@@ -1,4 +1,4 @@
-import { verb } from '../mprefix'
+import { verb } from '../../mprefix'
 
 export const sho = verb('sho', {
   noun: 'us',

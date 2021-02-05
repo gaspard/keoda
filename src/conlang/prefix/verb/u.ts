@@ -1,5 +1,5 @@
-import { prefix } from '../mprefix'
-import * as _ from '../words'
+import { prefix } from '../../mprefix'
+import * as _ from '../../words'
 
 export const u = prefix('u', {
   noun: 'emptiness',

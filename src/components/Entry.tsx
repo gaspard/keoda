@@ -348,7 +348,7 @@ const Definition = styled.div`
     }
     strong {
       font-weight: 500;
-      color: #333;
+      color: #555;
     }
     table {
       color: inherit;

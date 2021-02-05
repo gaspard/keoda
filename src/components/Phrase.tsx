@@ -15,6 +15,9 @@ const PhraseWrap = styled.div`
   top: -3px;
   display: inline-flex;
   color: #222;
+  &.open {
+    margin-top: 1rem;
+  }
   p > &:first-child {
     margin-left: 10px;
   }
@@ -127,7 +130,9 @@ export const Phrase: Comp<PhraseProps> = ({ className, type, id }) => {
 
   if ((phrase.open && type === 'md') || type === 'md-open') {
     return (
-      <PhraseWrap className={classnames(className, { nsfw: phrase.nsfw })}>
+      <PhraseWrap
+        className={classnames(className, { nsfw: phrase.nsfw, open: true })}
+      >
         <GWrap>
           <Trad onClick={phraseClick} className={`Trad fix`}>
             {phrase.trad}

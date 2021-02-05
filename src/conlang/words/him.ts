@@ -15,6 +15,7 @@ export const yuhim = _.word('yuhim', {
 export const mahim = _.word('mahim', {
   verb: 'to build',
   desc: () => 'the hands make grow',
+  see: () => [_.magi],
   etym: () => [_.ma, _.him],
 })
 
@@ -36,9 +37,3 @@ export const gamahim = _.word('gamahim', {
 })
 
 // === alt
-
-// FIXME: bad word (seems literal)...
-export const gahinur = _.alt('gahinuram', {
-  glo: '**thought**.*only*',
-  alt: () => _.gahi,
-})

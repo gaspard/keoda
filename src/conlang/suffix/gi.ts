@@ -7,3 +7,9 @@ export const gi = suffix('gi', {
   etym: () => [_.gu, _.i$],
   see: () => [_.go],
 })
+
+export const magi = _.word('magi', {
+  verb: 'to preserve',
+  see: () => [_.mahim],
+  etym: () => [_.ma, _.gi],
+})

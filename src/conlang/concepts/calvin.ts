@@ -19,7 +19,7 @@ From [/r/conlangs](https://www.reddit.com/r/conlangs/comments/kzz8h8/translate_t
 * Calvin: ${_.phrase(
     'Do I look like a Sissy ?',
     _.eja,
-    _.o.kei.awi,
+    _.okei.awi,
     _.si,
     _.lo.da,
     _.q

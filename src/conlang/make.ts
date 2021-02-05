@@ -12,6 +12,7 @@ import {
   MAIN_KEYS,
   isNativeKey,
   STARTS_VOWEL,
+  debug,
 } from './types'
 
 export const entries: EntriesByType = {
@@ -66,9 +67,9 @@ export function getCla(
   if (forced) {
     return forced
   }
-  const { cla } = prev
+  const cla = prev.cla!
   if (fromPrefix) {
-    return cla!
+    return cla === 'def' ? next.cla! : cla
   } else if (cla === 'noun') {
     return 'adj'
   } else if (cla === 'verb') {
@@ -134,7 +135,8 @@ function setDefaults(name: string, def: EntryDefinition) {
   }
   if (def.glo === undefined) {
     const stars = key === 'adj' || key === 'adv' ? '*' : '**'
-    ndef.glo = stars + def[key!] + stars
+    const glo = key === 'verb' ? def[key]!.replace(/^to /, '') : def[key]
+    ndef.glo = stars + glo + stars
   }
   if (def.cla === undefined) {
     ndef.cla = key
@@ -147,6 +149,7 @@ function makeSuffix(
   suf: string,
   // Once CASES are moved to 'suffix', we can change this to next.definition
   next: {
+    id?: string
     glo?: string
     join?: string
     force?: MainKeys
@@ -171,11 +174,15 @@ function makeSuffix(
         })}).`
       )
     }
+    if (prev.debug || next.debug) {
+      debug({ prev, next, cla: getCla(prev, next) })
+    }
 
     return entry(
       'alt',
       joinMorphemes(prevEntry.name, suf, next.join, 'suffix'),
       {
+        id: prevEntry.name + (next.id || suf || '+'),
         glo: getGlo(prev, next),
         cla: getCla(prev, next),
         alt: prev.alt || (() => prevEntry),
@@ -192,6 +199,8 @@ export const suffixAccessor = {
   get(obj: Entry, key: string) {
     if (isNativeKey(key)) {
       return (obj as any)[key]
+    } else if (key === '$') {
+      return obj
     }
     const id = `word-${key}`
     if (CASEKEYS.includes(key)) {

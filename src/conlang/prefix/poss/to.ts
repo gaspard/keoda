@@ -1,5 +1,5 @@
 // Possessivity (use to$, ti$, ta$ for subjects)
-import { poss } from '../mprefix'
+import { poss } from '../../mprefix'
 
 export const to = poss('to', {
   noun: 'us (INDF)',
@@ -9,4 +9,9 @@ export const to = poss('to', {
 export const tosho = poss('tosho', {
   noun: 'us (PL)',
   glo: 'our9',
+})
+
+export const topi = poss('topi', {
+  noun: 'my',
+  glo: 'my',
 })
