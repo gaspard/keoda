@@ -53,12 +53,7 @@ export {
   it_ as it,
 }
 
-export const expectGlo: typeof expect = (e: Entry | { $: Entry }) => {
+export const expecto: typeof expect = (e: Entry | { $: Entry }) => {
   const ent = getEntry(e)
-  return expect(ent.definition.glo)
-}
-
-export const expectCla: typeof expect = (e: Entry | { $: Entry }) => {
-  const ent = getEntry(e)
-  return expect(ent.definition.glo)
+  return expect(`${ent.definition.glo}/${ent.definition.cla}`)
 }
