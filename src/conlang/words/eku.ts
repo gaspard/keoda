@@ -1,6 +1,7 @@
 import * as _ from '.'
 
 export const eku = _.word('eku', {
-  def: 'that',
+  def: 'fact',
+  desc: () => `Behaves lik "that" or "because"`,
   see: () => [_.prep],
 })

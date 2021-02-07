@@ -14,19 +14,19 @@ export const opi = verb('opi', {
 export const oyi = verb('oyi', {
   noun: 'I',
   adj: 'I',
-  glo: 'I.*TINY*',
+  glo: 'I.TINY',
 })
 
 export const olo = verb('olo', {
   noun: 'submissive',
   adj: 'wet',
-  glo: 'I.*WET*',
+  glo: 'I.WET',
 })
 
 export const okei = verb('kei', {
   noun: 'Master',
   adj: 'fantastic',
-  glo: 'wex.*FANTASTIC*',
+  glo: 'wex.FANTASTIC',
 })
 
 export const ode = verb('ode', {

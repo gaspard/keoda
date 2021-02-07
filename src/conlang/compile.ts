@@ -70,6 +70,7 @@ function compileWord(entry: Entry): CompiledEntry {
   const c = compiled as EntryDefinition
   delete c.exam
   delete c.debug
+  delete c.ncla
   if (definition.exam) {
     // This runs the phrase production
     definition.exam()

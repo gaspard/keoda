@@ -67,8 +67,9 @@ export function getCla(
   if (forced) {
     return forced
   }
-  const cla = prev.cla!
+  const cla = prev.ncla || prev.cla!
   if (fromPrefix) {
+    // "weak" previous element
     return cla === 'def' ? next.cla! : cla
   } else if (cla === 'noun') {
     return 'adj'
@@ -127,7 +128,9 @@ function setDefaults(name: string, def: EntryDefinition) {
   if (def.glo !== undefined && def.cla !== undefined) {
     return ndef
   }
-  const key = MAIN_KEYS.find(k => def[k])
+  const key = Object.keys(def).find(k =>
+    MAIN_KEYS.includes(k as any)
+  ) as MainKeys
   if (!key) {
     throw new Error(
       `Invalid entry '${name}': ${JSON.stringify(def)} (none of the main keys).`

@@ -5,6 +5,7 @@ import * as words from './words'
 export function prefix(
   pref: string,
   prev: EntryDefinition,
+  asEntry: EntryDefinition = {},
   type: 'word' | 'alt' = 'word'
 ) {
   if (!prev.glo) {
@@ -16,7 +17,7 @@ export function prefix(
   if (!prev.pref) {
     prev.pref = prev.glo
   }
-  const ent = entry(type, pref, prev)
+  const ent = entry(type, pref, Object.assign({}, prev, asEntry))
 
   const SUBC: any = {}
   return new Proxy<typeof words & { $: Entry; id: string; name: string }>(
@@ -48,6 +49,7 @@ export function prefix(
                 cla: prev.cla,
                 alt: ndef.definition.alt || (() => ndef),
               },
+              {},
               'alt'
             )
           }
@@ -65,24 +67,24 @@ export function prefix(
 }
 
 export function verb(pref: string, def: EntryDefinition) {
-  def.cla = 'verb'
+  def.ncla = 'verb'
   return prefix(pref, def)
 }
 
 export function noun(pref: string, def: EntryDefinition) {
-  def.cla = 'noun'
+  def.ncla = 'noun'
   return prefix(pref, def)
 }
 
 export function poss(pref: string, def: EntryDefinition) {
-  def.cla = 'noun'
+  def.ncla = 'noun'
   // Next is forced as a noun
   def.force = 'noun'
   return prefix(pref, def)
 }
 
 export function adj(pref: string, def: EntryDefinition) {
-  def.cla = 'adj'
+  def.ncla = 'adj'
   // Next is forced as a noun
   def.force = 'noun'
   return prefix(pref, def)

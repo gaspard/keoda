@@ -1,19 +1,25 @@
-import { generate } from './conlang/generate'
+import { generate, shuffle } from './conlang/generate'
 import * as words from './conlang/words'
 
 const existing = Object.keys(words)
+const trueTest = (k: string) => true
 
-function list(filter: string = '') {
-  const { syllables, lsyllables } = generate()
-  const possible = syllables.filter(k => !existing.includes(k))
-  const lpossible = lsyllables.filter(k => !existing.includes(k))
-  let list = [...possible, ...lpossible]
+function list(filter: string = '', count = 10) {
+  let test = trueTest
   if (filter) {
-    const re = new RegExp('^' + filter + '$')
+    const re = new RegExp('^' + (filter || '') + '$')
     console.log(re)
-    list = list.filter(k => re.test(k))
+    test = k => re.test(k)
   }
-  console.log(list.join('\n'))
+  const { syllables, lsyllables } = generate()
+  const possible = shuffle(
+    syllables.filter(k => !existing.includes(k) && test(k))
+  )
+  const lpossible = shuffle(
+    lsyllables.filter(k => !existing.includes(k) && test(k))
+  )
+  console.log(possible.slice(0, count).join('\n'))
+  console.log(lpossible.slice(0, count).join('\n'))
 }
 
-list(process.argv[2])
+list(process.argv[2], parseInt(process.argv[3] || '20') || 20)

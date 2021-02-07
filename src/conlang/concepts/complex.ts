@@ -15,7 +15,7 @@ things correctly (make sure to enable the "🍑" button).
 ## Verb deranking
   
 * ${_.phrase('I begin to run', _.o.ju, _.u.feno.h)}  (modals and phasals)
-* ${_.phraseX('I came out in order to cum on her tits')}  (purpose clauses)
+* ${_.phrase('I came home early in order to prepare dinner')}  (purpose clauses)
 * ${_.phraseX(
     'I want to vagina-grasp your penis.',
     _.o.ora,
@@ -29,26 +29,51 @@ things correctly (make sure to enable the "🍑" button).
     _.u.fo,
     _.oto.m
   )} (manipulatives)
-* ${_.phraseX(
+* ${_.phrase(
     'I saw them undressing.',
     _.o.fa.em,
     _.tasha.m,
     _.le.u.lu.nefe
   )} (perception)
-* ${_.phraseX(
-    'She screamed like a goat before she came.',
-    _.ta.ana,
-    _.a.haopa.em,
-    _.si.hapan,
-    _.ju.dem,
-    _.u.najlo
+* ${_.phrase(
+    'I kissed you after you fell asleep.',
+    _.o.la.em,
+    _.ti.m,
+    _.le.hu.fodiru
   )} ('before/after' relativisation)
-* ${_.phraseX(
-    'When we arrived, they were still in bed.'
+* ${_.phrase(
+    'I kissed you after they fell asleep.',
+    _.o.la.em,
+    _.ti.m,
+    _.hu.dem,
+    _.a.fodiru.em
+  )} ('before/after' relativisation)
+* ${_.phrase(
+    'When we arrived, they were still in bed.',
+    _.dem,
+    _.o.odu,
+    _.a.lu.e.em,
+    _.ro.piwe
   )} ('when' relativisation)
-* ${_.phraseX('What I prefer is doggy style.')} (nominative relativisation)
 * ${_.phraseX(
-    'I cannot leave her alone because she is tied to the radiator.'
+    'What I prefer is to sleep with you.',
+    _.eku,
+    _.o.ora.go,
+    _.a.e,
+    _.u.fodi,
+    _.ko,
+    _.ti.m
+  )} (nominative relativisation)
+* ${_.phraseX(
+    'I cannot leave her alone because she is tied to the radiator.',
+    _.o.neja,
+    _.u.odo,
+    _.si.pienu,
+    _.ana.m,
+    _.eku,
+    _.a.e,
+    _.le.ku,
+    _.ajayusa.m
   )} (reason)
 * ${_.phraseX(
     'If they did not enjoy sex with you, they should not have come back.'

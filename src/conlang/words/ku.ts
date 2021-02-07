@@ -1,14 +1,14 @@
 import * as _ from '.'
 
 export const ku = _.word('ku', {
+  def: 'imply',
   noun: 'rope',
   verb: 'to tie',
-  def: 'imply',
   desc: () => `Causality`,
 })
 
 export const kude = _.word('kude', {
-  noun: '**knot**',
+  noun: 'knot',
   verb: 'to make love',
   etym: () => [_.ku, _.de2],
 })

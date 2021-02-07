@@ -20,8 +20,7 @@ ${_.phrase(
 ${_.phrase(
   'I burn to ashes when you are here.',
   _.es.o.ajapi,
-  _.ru,
-  _.ajaname,
+  _.si.ajaname,
   _.dem,
   _.i.e,
   _.sen

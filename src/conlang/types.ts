@@ -67,7 +67,9 @@ export interface EntryInfo {
   join: string
   // Type of element. Changes classname of gloss in UI.
   cla: MainKeys
-  // Suffix/case forcing class on previous elements
+  // Type of next element class.
+  ncla: MainKeys
+  // Case forcing class on next/previous elements
   force: MainKeys
   // If this is true, the element is considered too common and should not
   // register phrases created with it (such as ACC markers, conjugation, etc).

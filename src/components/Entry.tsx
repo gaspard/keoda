@@ -342,6 +342,7 @@ const Definition = styled.div`
       font-size: 90%;
       font-family: 'Fira Code', Courier, monospace;
       display: inline-block;
+      color: #317577;
     }
     em {
       font-weight: italic;

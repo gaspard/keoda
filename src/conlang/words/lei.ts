@@ -2,8 +2,8 @@ import * as _ from '.'
 
 // on rename, change suffix/uki
 export const lei = _.word('lei', {
-  noun: 'time',
   def: 'then',
+  noun: 'time',
   pref: 'time',
 })
 

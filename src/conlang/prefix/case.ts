@@ -1,25 +1,33 @@
 import { noun, prefix } from '../mprefix'
 import * as _ from '../words'
 
-export const fu = noun('fu', {
-  noun: 'monkey',
+export const fu = prefix('fu', {
   def: 'by',
+  noun: 'monkey',
   pref: 'by/does',
   glo: 'ERG',
+  force: 'noun',
   join: '',
 })
 
-export const ju = noun('ju', {
-  def: 'before',
-  noun: 'start',
-  verb: 'to begin',
-  glo: 'ANTE',
-  forcedGlo: false,
-  etym: () => [_.jo, _.ru],
-  see: () => [_.hu],
-})
+export const ju = prefix(
+  'ju',
+  {
+    def: 'before',
+    noun: 'start',
+    verb: 'to begin',
+    glo: 'ANTE',
+    forcedGlo: false,
+    etym: () => [_.jo, _.ru],
+    see: () => [_.hu],
+  },
+  {
+    verb: 'to begin',
+    cla: 'verb',
+  }
+)
 
-export const hu = noun('hu', {
+export const hu = prefix('hu', {
   def: 'after',
   noun: 'end',
   verb: 'to finish',
@@ -28,9 +36,9 @@ export const hu = noun('hu', {
   see: () => [_.ju],
 })
 
-export const ni = noun('ni', {
-  noun: 'arrow',
+export const ni = prefix('ni', {
   def: 'to',
+  noun: 'arrow',
   pref: 'to',
   glo: 'DAT',
   force: 'noun',
@@ -41,6 +49,7 @@ export const le = prefix('le', {
   adj: 'very',
   glo: 'ADJ',
   cla: 'adj',
+  force: 'adj',
   join: '',
 })
 
@@ -58,7 +67,7 @@ export const ne = prefix('ne', {
 })
 
 export const fe = noun('fe', {
-  pref: 'on',
+  def: 'on',
   verb: 'to cover',
   glo: 'SUPESS',
 })

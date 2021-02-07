@@ -1,9 +1,9 @@
 import * as _ from '.'
 
 export const lau = _.word('lau', {
+  def: 'always',
   noun: 'eternity',
-  adj: 'always',
-  def: 'ETERN',
+  glo: 'ETERN',
   etym: () => [_.lei, _.au],
   desc: () => `The time loves.`,
   see: () => [_.tu, _.verbs],

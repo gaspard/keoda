@@ -1,11 +1,11 @@
 import * as _ from '.'
 
 export const fodi = _.word('fodi', {
-  noun: '**sleep**',
+  noun: 'sleep',
   verb: 'to sleep',
 })
 
 export const fodiru = _.word('fodiru', {
-  noun: '**sleep**.become',
+  verb: 'to fall asleep',
   etym: () => [_.fodi, _.ru],
 })

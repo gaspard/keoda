@@ -1,3 +1,15 @@
+export function shuffle(array: string[]) {
+  const len = array.length
+  for (let i = 0; i < len - 1; i++) {
+    const t = i + Math.floor(Math.random() * (len - i))
+    const a = array[i] // where to store randomized pick
+    const b = array[t] // random pick un unshuffled area
+    array[i] = b
+    array[t] = a
+  }
+  return array
+}
+
 export const CONSONANT = [
   'p',
   'b',

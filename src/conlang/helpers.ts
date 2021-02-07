@@ -54,9 +54,21 @@ export function card(name: string, definition: EntryDefinition): Entry {
   )
 }
 
-function getEntry(entry: Entry | { $: Entry }): Entry {
+export function getEntry(entry: Entry | { $: Entry }): Entry {
   const e = entry as { $: Entry }
   return e.$ || entry
+}
+
+export function ref(entry: Entry | { $: Entry }) {
+  const ent = getEntry(entry)
+  return `${ent} (${ent.definition[ent.definition.cla!]})`
+}
+
+export function refAndGlo(entry: Entry | { $: Entry }) {
+  const ent = getEntry(entry)
+  return `${ent} (${ent.definition[ent.definition.cla!]}) \`${
+    ent.definition.glo
+  }\``
 }
 
 export function nounRef(entry: Entry | { $: Entry }) {

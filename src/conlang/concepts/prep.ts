@@ -8,20 +8,19 @@ export const prep = _.card('prep', {
   desc: () => `
 # Prepositions
 
-I am not 100% sure all these are technically prepositions but they are "the small
-connecting words in a phrase".
+The prepositions that can be used as case marking have the gloss next to them
 
 ## Time
 
-* ${_.nounRef(_.lau)}
-* ${_.nounRef(_.uya)}
-* ${_.nounRef(_.lu)}
-* ${_.nounRef(_.lulei)}
-* ${_.nounRef(_.dem)}
-* ${_.nounRef(_.dir)}
-* ${_.nounRef(_.lei)}
-* ${_.nounRef(_.ju)}
-* ${_.nounRef(_.hu)}
+* ${_.ref(_.lau)}
+* ${_.ref(_.uya)}
+* ${_.ref(_.lulei)}
+* ${_.ref(_.dem)}
+* ${_.ref(_.dir)}
+* ${_.ref(_.lei)}
+* ${_.refAndGlo(_.lu)}
+* ${_.refAndGlo(_.ju)}
+* ${_.refAndGlo(_.hu)}
 
 #### nsfw
 
@@ -29,18 +28,14 @@ connecting words in a phrase".
 
 ## Nouns
 
-* ${_.nounRef(_.di)}
-* ${_.nounRef(_.dim)}
-* ${_.nounRef(_.eku)}
-* ${_.nounRef(_.fu)}
-* ${_.nounRef(_.ko)}
-* ${_.nounRef(_.es)}
-* ${_.nounRef(_.ni)}
-
-\\* ${_.fu} and ${_.ni} are prefix that modify the noun to \`ERG\`
-and \`DAT\` cases respectively. Think of ${_.fuJane} as meaning "does Jane".
-
-See word order for more on cases: ${_.order}
+* ${_.ref(_.di)}
+* ${_.ref(_.dim)}
+* ${_.ref(_.eku)}
+* ${_.ref(_.ko)}
+* ${_.refAndGlo(_.es)}
+* ${_.refAndGlo(_.fu)}
+* ${_.refAndGlo(_.ni)}
+* ${_.refAndGlo(_.le)}
 
 #### nsfw
 
@@ -50,43 +45,43 @@ See word order for more on cases: ${_.order}
 
 ## Location
 
-* ${_.nounRef(_.don)}
-* ${_.nounRef(_.dona)}
-* ${_.nounRef(_.ha)}
-* ${_.nounRef(_.jo)}
-* ${_.nounRef(_.ro)}
-* ${_.nounRef(_.ri)}
-* ${_.nounRef(_.fe)}
-* ${_.nounRef(_.dau)}
-* ${_.nounRef(_.dao)}
+* ${_.ref(_.don)}
+* ${_.ref(_.dona)}
+* ${_.ref(_.ha)}
+* ${_.ref(_.jo)}
+* ${_.ref(_.dau)}
+* ${_.ref(_.dao)}
+* ${_.refAndGlo(_.fe)}
+* ${_.refAndGlo(_.ro)}
+* ${_.refAndGlo(_.ri)}
 
 ${_.phrase('Where did you caress Iris ?', _.dona, _.Iris.m, _.i.mi.ema, _.q)}
 
 ## Causality
 
-* ${_.nounRef(_.esi)}
-* ${_.nounRef(_.eyu)}
-* ${_.nounRef(_.ibu)}
-* ${_.nounRef(_.eja)}
-* ${_.nounRef(_.ku)}
-* ${_.nounRef(_.meu)}
+* ${_.ref(_.esi)}
+* ${_.ref(_.eyu)}
+* ${_.ref(_.ibu)}
+* ${_.ref(_.eja)}
+* ${_.ref(_.ku)}
+* ${_.ref(_.eku)}
+* ${_.ref(_.meu)}
 
 ${_.phrase('Did you caress Iris ?', _.eja, _.Iris.m, _.i.mi.eme, _.q)}
 
 ## Similarity
 
-* ${_.nounRef(_.si)}
+* ${_.refAndGlo(_.si)}
 
 ## Composability
 
-* ${_.nounRef(_.mei)}
-* ${_.nounRef(_.ru)}
+* ${_.ref(_.mei)}
 
 ## Articulation
 
-* ${_.nounRef(_.shu)}
-* ${_.nounRef(_.ne.shu)}
-* ${_.nounRef(_.uma)}
+* ${_.ref(_.shu)}
+* ${_.ne.shu} (but)
+* ${_.ref(_.uma)}
 
 `,
 })

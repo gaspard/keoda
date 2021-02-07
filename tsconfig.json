@@ -16,7 +16,12 @@
     "sourceMap": true,
     "strictNullChecks": true,
     "target": "es6",
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "test": [
+        "src/test"
+      ]
+    }
   },
   "include": [
     "src",

@@ -29,7 +29,8 @@ export const pipa = _.word('pipa', {
 })
 
 export const pienu = _.word('pienu', {
-  adj: 'alone (I embroider)',
+  adj: 'alone',
+  adv: 'alone',
   etym: () => [_.pi, _.enu],
 })
 
