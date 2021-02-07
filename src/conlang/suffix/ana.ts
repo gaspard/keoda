@@ -1,7 +1,7 @@
-import { suffix } from '../make'
+import { word } from '../keoda'
 import * as _ from '../words'
 
-export const ana = suffix('ana', {
+export const ana = word('ana', {
   noun: 'woman',
   adj: 'feminine',
   img:

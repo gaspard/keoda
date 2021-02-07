@@ -1,6 +1,7 @@
-import * as _ from '../words'
+import { word } from '../keoda'
+import * as _ from '../lang'
 
-export const nur = _.word('nur', {
+export const nur = word('nur', {
   adj: 'only',
   exam: () => [
     _.phrase(

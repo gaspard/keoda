@@ -1,4 +1,4 @@
-import * as _ from '../words'
+import * as _ from '../lang'
 // Baudelaire(1821-1867)
 //
 //
@@ -19,13 +19,13 @@ ${_.phrase(
   _.akida,
   _.don,
   _.namel,
-  _.oda_adj
+  _.le.oda
 )}
 
 ${_.phrase(
   'Laissent parfois sortir de confuses paroles;',
   _.sha.lapa,
-  _.negaADV
+  _.si.nega
 )}
 
 ${_.phrase(

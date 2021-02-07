@@ -1,4 +1,4 @@
-import * as _ from '../words'
+import * as _ from '../lang'
 
 export const Jane = _.word('Jane', {
   noun: 'Jane',
@@ -6,7 +6,7 @@ export const Jane = _.word('Jane', {
   writ: 'జాఁ',
 })
 export const Janeam = _.alt('Janeam', {
-  glo: '**Jane**+',
+  glo: '**Jane**.ACC+',
   phon: '/dʒanam/',
   writ: 'జానాం',
   alt: () => _.Jane,
@@ -66,7 +66,7 @@ correct because english is not a free word order language.
 
 #### nsfw
 
-${_.phrase('Jane whips the butt of John', _.Jane, _.afo, _.pal.wu, _.John.m)}
+${_.phrase('Jane whips the butt of John', _.Jane, _.a.fo, _.pal.wu, _.John.m)}
 
 ${_.phrase(
   'John gives the ball to Jane',
@@ -142,11 +142,11 @@ to refer to "old style" markings in /nam/, /nan/ and /nah/.
 
 Here are some examples to show when accusative marking on grouped and ungrouped words of a noun phrase.
 
-${_.phrase("They whip John's butt.", _.afo, _.John, _.pal.m)}
+${_.phrase("They whip John's butt.", _.a.fo, _.John, _.pal.m)}
 
-${_.phrase('They whip the butt of John.', _.afo, _.pal.wu, _.John.m)}
+${_.phrase('They whip the butt of John.', _.a.fo, _.pal.wu, _.John.m)}
 
-${_.phrase('The butt, they whip (of) John.', _.pal.m, _.afo, _.John.m)}
+${_.phrase('The butt, they whip (of) John.', _.pal.m, _.a.fo, _.John.m)}
 
 ---
 
@@ -167,7 +167,7 @@ ${_.phrase(
   'The butt of John will be whipped by ... Jane.',
   _.pal.wu,
   _.John.m,
-  _.afoliri,
+  _.a.fo.iri,
   _.fuJane
 )}
 
@@ -197,7 +197,7 @@ ${_.phrase(
   _.fuJane,
   _.John,
   _.pal.m,
-  _.foliri
+  _.a.fo.iri
 )}
 
 ## 4. Emphasis on the receiver
@@ -205,7 +205,7 @@ ${_.phrase(
 ${_.phrase(
   'Jane will whip tonight the butt of ... John.',
   _.Jane,
-  _.afoliri,
+  _.a.fo.iri,
   _.pal.wu,
   _.John.m
 )}
@@ -215,7 +215,7 @@ ${_.phrase(
 ${_.phrase(
   "Jane will whip tonight John's butt.",
   _.Jane,
-  _.afoliri,
+  _.a.fo.iri,
   _.John,
   _.pal.m
 )}
@@ -234,7 +234,7 @@ who's butt it will be:
 ${_.phrase(
   "Jane will whip tonight - wa ! - John's butt.",
   _.Jane,
-  _.afoliriwa,
+  _.a.fo.iri.wa,
   _.John,
   _.pal.m
 )}

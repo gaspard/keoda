@@ -1,8 +1,9 @@
-import { verb } from '../../mprefix'
-import { shi6 } from '../../words'
+import { prefix } from '../../keoda'
+import { shi6 } from '../../roots'
 
-export const shi = verb('shi', {
+export const shi = prefix('shi', {
   noun: 'you (plural)',
   glo: 'you9',
+  cla: 'verb',
   see: () => [shi6],
 })

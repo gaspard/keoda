@@ -1,4 +1,4 @@
-import { CompiledEntriesByType } from '../conlang/types'
+import { CompiledEntriesByType } from '../conlib'
 
 export function getEntry(
   ctx: { state: { keoda: { db: CompiledEntriesByType } } },
@@ -10,7 +10,8 @@ export function getEntry(
   const [type] = ref.split('-')
   const entries = ctx.state.keoda.db[type as keyof CompiledEntriesByType]
   if (!entries) {
-    throw new Error(`Invalid type '${type}' in id '${ref}'.`)
+    console.error(`Invalid type '${type}' in id '${ref}'.`)
+    return undefined
   }
   return entries[ref]
 }

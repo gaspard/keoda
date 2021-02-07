@@ -1,4 +1,4 @@
-import * as _ from '../words'
+import * as _ from '../lang'
 
 export const seasons = _.card('seasons', {
   writ: 'seasons',

@@ -1,9 +1,11 @@
 // verb cases
-import { verb } from '../../mprefix'
+import { prefix } from '../../keoda'
 
-export const es = verb('es', {
+export const es = prefix('es', {
   noun: 'is-ness',
-  def: 'left',
-  suff: 'state, left',
+  suff: 'state',
+  join: 'n',
   glo: 'PASS',
+  sglo: 'IS-NESS',
+  cla: 'verb',
 })

@@ -1,4 +1,4 @@
-import * as _ from '../words'
+import * as _ from '../lang'
 
 export const evolution = _.card('evolution', {
   desc: () => `
@@ -29,12 +29,12 @@ we added the dative back but with more power and made the accusative nicer.
     _.si.enu
   )}
 * ${_.phrase('Caress your breasts lightly.', _.mi, _.munatinamHIST, _.si.enu)}
-* ${_.phrase('Caress your lovely breasts lightly.', _.mi, _.munatim, _.si.enu)}
+* ${_.phrase('Caress your lovely breasts lightly.', _.mi, _.mun.ti.m, _.si.enu)}
 * ${_.phrase(
     'For us, tonight, you will be caressing your lovely breasts lightly.',
     _.fu.to,
     _.i.lu.mi.iro,
-    _.munatim,
+    _.mun.ti.m,
     _.si.enu
   )}
 

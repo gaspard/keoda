@@ -1,11 +1,13 @@
-import { verb } from '../../mprefix'
+import { prefix } from '../../keoda'
 
-export const i = verb('i', {
+export const i = prefix('i', {
   noun: 'you (singular)',
   glo: 'you1',
+  cla: 'verb',
 })
 
-export const ilo = verb('ilo', {
+export const ilo = prefix('ilo', {
   noun: 'submissive',
   glo: 'you1.*WET*',
+  cla: 'verb',
 })

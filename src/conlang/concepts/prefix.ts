@@ -1,6 +1,6 @@
-import * as _ from '../words'
+import * as _ from '../lang'
 
-export const prefix = _.card('prefix', {
+export const pref = _.card('prefix', {
   open: true,
   desc: () => `
 # List of all prefix
@@ -18,7 +18,10 @@ ${_.subj}
 
 ## Adjective ${_.le}
 
+TODO
+
 ## Adverb ${_.si}
 
+TODO
 `,
 })

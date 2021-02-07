@@ -1,11 +1,5 @@
-import * as _ from '../words'
+import * as _ from '../lang'
 
-export const tinam = _.alt('tinam', {
-  glo: 'you1.NICE++',
-  alt: () => _.ti.$,
-})
-
-// ON RENAME, CHANGE suffix h, n, m
 export const taste = _.card('taste', {
   desc: () => `
 ## Accusative marking
@@ -14,8 +8,8 @@ The suffix is added to the last part of the a group with the accusative case.
 So if the noun phrase is John's face, depending on word order, the ${_.m}
 goes on ${_.duha} or ${_.John}:
   
-* ${_.phrase('They look at the face of John.', _.sha.fa, _.duhawu, _.John.m)}
-* ${_.phrase("They look at John's hand.", _.sha.fa, _.John, _.duham)}
+* ${_.phrase('They look at the face of John.', _.sha.fa, _.duha.wu, _.John.m)}
+* ${_.phrase("They look at John's hand.", _.sha.fa, _.John, _.duha.m)}
 
 On words with other suffix, ${_.m} suffix always comes last.
 
@@ -23,17 +17,16 @@ On words ending with a vowel, we just add \`m\`, \`n\` or \`h\` and when the
 words ends with a consonant, we add a vowel to fix. To do this, we repeat the
 last vowel:
 
-* ${_.John.m}
-* ${_.taj.m}
-* ${_.yin.m}
+* ${_.phrase('John', _.John.m)}
+* ${_.phrase('A sign', _.tan.m)}
+* ${_.phrase('A thread', _.fi.m)}
 
-The
-important aspect here is how the mouth ends expressing the "direct object" of
-the action. Lip sound \`/m/\` means "miam", "I'll it all". The coronal sound
-\`/n/\` expresses ambiguity "let me taste some of this" and the uvular /χ/ is
-for rejection or disdain "I'd prefer not take any of that". The more it
-sounds like choking (uvular \`/χ/\`), the more the rejection and the lighter
-plosive \`/h/\` expresses disdain.
+The important aspect here is how the mouth ends expressing the "direct
+object" of the action. Lip sound \`/m/\` means "miam", "I'll it all". The
+coronal sound \`/n/\` expresses ambiguity "let me taste some of this" and the
+uvular /χ/ is for rejection or disdain "I'd prefer not take any of that". The
+more it sounds like choking (uvular \`/χ/\`), the more the rejection and the
+lighter plosive \`/h/\` expresses disdain.
 
 When the word ends with a vowel, we can also use the "old way" of adding
 /nam/ as this highlights the marking.

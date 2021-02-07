@@ -1,17 +1,16 @@
-// Possessivity (use to$, ti$, ta$ for subjects)
-import { poss } from '../../mprefix'
+import { prefix } from '../../keoda'
 
-export const to = poss('to', {
+export const to = prefix('to', {
   noun: 'us (INDF)',
   glo: 'ourx',
 })
 
-export const tosho = poss('tosho', {
+export const tosho = prefix('tosho', {
   noun: 'us (PL)',
   glo: 'our9',
 })
 
-export const topi = poss('topi', {
+export const topi = prefix('topi', {
   noun: 'my',
   glo: 'my',
 })

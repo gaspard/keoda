@@ -1,20 +1,18 @@
 // Had to get these ones out of helpers to avoid compilation
 // issues...
 
-import { Entry, EntryFunc, SuffixAccessor, SuffixCases } from './types'
 import { setDefaults } from './setDefaults'
 import { makeSuffixAccessor } from './suffix'
 import {
   BaseEntry,
   EntriesByType,
-  EntryDefinition,
-  MainKeys,
-  MAIN_KEYS,
+  Entry,
+  EntryFunc,
+  SuffixAccessor,
 } from './types'
 
 export function makeEntry<T extends Object = {}>(
-  entries: EntriesByType,
-  cases: SuffixCases
+  entries: EntriesByType
 ): EntryFunc<T> {
   let suffixAccessor: SuffixAccessor
 
@@ -44,6 +42,6 @@ export function makeEntry<T extends Object = {}>(
     return entry as Entry<T>
   }
 
-  suffixAccessor = makeSuffixAccessor(entries, cases, entry)
+  suffixAccessor = makeSuffixAccessor(entries, entry)
   return entry
 }

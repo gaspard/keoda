@@ -1,4 +1,4 @@
-import * as _ from '../words'
+import * as _ from '../lang'
 
 export const Iris = _.word('Iris', {
   noun: '**Iris**',
@@ -24,18 +24,20 @@ The prepositions that can be used as case marking have the gloss next to them
 
 #### nsfw
 
-* ${_.phrase('I like when you are undressed.', _.o.zu, _.lau, _.esyinefe)}
+* ${_.phrase('I like when you are undressed.', _.o.zu, _.lau, _.es.yi.nefe)}
 
 ## Nouns
 
 * ${_.ref(_.di)}
 * ${_.ref(_.dim)}
+* ${_.ref(_.diwu)}
 * ${_.ref(_.eku)}
 * ${_.ref(_.ko)}
 * ${_.refAndGlo(_.es)}
 * ${_.refAndGlo(_.fu)}
 * ${_.refAndGlo(_.ni)}
 * ${_.refAndGlo(_.le)}
+* ${_.refAndGlo(_.ne)}
 
 #### nsfw
 

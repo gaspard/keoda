@@ -1,4 +1,4 @@
-import * as _ from '../words'
+import * as _ from '../lang'
 
 export const passive = _.card('passive', {
   desc: () => `
@@ -7,7 +7,7 @@ export const passive = _.card('passive', {
 This is something like saying 'there is' before the accord on subject
 thus making "There is an I massaged in the future" is said as:
 
-* ${_.phrase('I will be caressed.', _.es.o.mi.ir)}
+* ${_.phrase('I will be caressed.', _.es.o.mi.irP)}
 
 It is applied before the conjugation: ${_.es.sha.nelil}.
 

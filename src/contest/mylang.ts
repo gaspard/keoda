@@ -1,5 +1,4 @@
-import * as words from './words'
-import { cases } from './cases'
 import { makeLang } from '../conlib'
+import * as words from './words'
 
-export const { prefix, word, entry } = makeLang<typeof words>(cases)
+export const { prefix, word, entry } = makeLang<typeof words>()

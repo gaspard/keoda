@@ -1,12 +1,13 @@
-import { poss } from '../../mprefix'
+import { prefix } from '../../keoda'
 
-export const ti = poss('ti', {
+export const ti = prefix('ti', {
   noun: 'you (SG)',
   glo: 'your1',
-  forcedGlo: false,
+  cla: 'noun',
+  // forcedGlo: false,
 })
 
-export const tishi = poss('tishi', {
+export const tishi = prefix('tishi', {
   noun: 'your (PL)',
   glo: 'your9',
 })

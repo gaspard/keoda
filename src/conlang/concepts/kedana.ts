@@ -1,4 +1,4 @@
-import * as _ from '../words'
+import * as _ from '../lang'
 
 export const kedana = _.card('kedana', {
   desc: () => `
@@ -18,12 +18,12 @@ a way to explore the self ${_.pi}.
 
 ${_.phrase(
   'On earth, we enjoy the mystery of love making.',
-  _.ganaro,
+  _.ro.gana,
   _.o.au,
   _.u.zuzu.pa.m
 )}
 
-${_.phrase('Maybe in the past, I lived in Gana.', _.o.em.eme, _.ganaro)}
+${_.phrase('Maybe in the past, I lived in Gana.', _.o.em.eme, _.ro.gana)}
 
 Your next read: ${_.grammar}
 `,

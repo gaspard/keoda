@@ -1,7 +1,7 @@
-import { suffix } from '../make'
-import * as _ from '../words'
+import { word } from '../keoda'
+import * as _ from '../lang'
 
-export const h = suffix('h', {
+export const h = word('h', {
   adj: 'unpleasant',
   writ: 'ః',
   suff: 'taste marking',

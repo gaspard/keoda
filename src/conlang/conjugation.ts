@@ -1,5 +1,5 @@
 import { VOWEL } from './generate'
-import { entries } from './words'
+import { entries } from './roots'
 
 const INFLECTIONS = [
   // 1sp   on                   o   -ma

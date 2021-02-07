@@ -1,7 +1,8 @@
 import { generate, shuffle } from './conlang/generate'
-import * as words from './conlang/words'
+import { entries } from './conlang/lang'
+import './conlang/words'
 
-const existing = Object.keys(words)
+const existing = Object.keys(entries.wordAndAlt)
 const trueTest = (k: string) => true
 
 function list(filter: string = '', count = 10) {

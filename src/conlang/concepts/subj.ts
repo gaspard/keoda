@@ -1,4 +1,4 @@
-import * as _ from '../words'
+import * as _ from '../lang'
 
 export const subj = _.card('subj', {
   desc: () => `
@@ -37,7 +37,7 @@ use the morpheme with /t/ prefix on singular (as-is for plural). Examples:
 
 * ${_.phrase('I love you.', _.o.zu, _.ti.m)}
 * ${_.phrase('I love you.', _.o.zu, _.i.da.m)}
-* ${_.phrase('I love them.', _.o.zu, _.sha.$.m)}
+* ${_.phrase('I love them.', _.o.zu, _.sha.m)}
 
 The extra /m/ at the end is flavor marking (${_.m}).
 
@@ -121,7 +121,7 @@ The /m/ endings are the 'mood' markings (accusative). See ${_.m}.
 We usually omit the subject because it is visible on the verb but when we
 want to use it, we use ${_.da} (self).
 
-* ${_.phrase('They will talk to you.', _.a.da, _.a.lapa.ir, _.ti.m)}
+* ${_.phrase('They will talk to you.', _.a.da, _.a.lapa.irP, _.ti.m)}
 
 List of people:
 
@@ -133,7 +133,7 @@ List of people:
 * ${_.yi.da} (tiny-person)
 * ${_.lo.da} (wet-person)
 * ${_.pe.da} (someone)
-* ${_.de2.da} (us-two)
+* ${_.de1.da} (us-two)
 * ${_.ka.da} (all of us)
 
 ## Genders

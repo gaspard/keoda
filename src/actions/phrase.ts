@@ -1,5 +1,5 @@
 import { Action, Filter } from '../app'
-import { CompiledEntry } from '../conlang'
+import { CompiledEntry } from '../conlib'
 import { getEntry } from '../helpers/getEntry'
 
 export interface CopyPhraseArg {

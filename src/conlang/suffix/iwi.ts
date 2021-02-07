@@ -1,8 +1,8 @@
-import { suffix } from '../make'
-import * as _ from '../words'
+import { word } from '../keoda'
+import * as _ from '../roots'
 
 // Sur le ventre, les mains qui tiennent les chevilles, le dos cambré
-export const iwi = suffix('iwi', {
+export const iwi = word('iwi', {
   noun: 'enby person',
   adj: 'enby',
   glo: 'ENBY',

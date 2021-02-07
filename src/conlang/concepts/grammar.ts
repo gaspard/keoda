@@ -1,11 +1,11 @@
-import * as _ from '../words'
+import * as _ from '../lang'
 
 export const grammar = _.card('grammar', {
   open: true,
   desc: () => `
 # Grammar
 
-If you haven't, you should read the [origins of the language](${_.aaa.id}).
+If you haven't, you should read the ${_.link('origins of the language', _.aaa)}.
 
 ### Moods
 
@@ -32,8 +32,10 @@ nice. And now cherries never look or taste the same...
 
 ### Active marker
 
-The "active" marker creates a verb by prefixing a noun with a [subject
-morpheme](${_.subj.id}):
+The "active" marker creates a verb by prefixing a noun with a ${_.link(
+    'subject morpheme',
+    _.subj
+  )}:
 
 * ${_.ma} (hand)
 * ${_.a.ma} (they "do something with hand = grab")
@@ -48,10 +50,12 @@ Nouns prefixed with ${_.le} or ${_.si} become semantic extensions
 Some morphemes that are used a lot as modifiers become suffixes. For example
 ${_.uki}, ${_.lo} or ${_.lil}:
 
-* ${_.agade.uki}
+* ${_.phrase('Long echoes.', _.agade.uki)}
 
-In these cases, the morphemes behave a lot like a grammatical cases (INESS,
+In these cases, some of these morphemes behave like grammatical cases (INESS,
 SUPESS, DIM, etc).
+
+* ${_.phraseX('Inside the vagina.', _.ro.yuru)}
 
 ## To be or not to be
 

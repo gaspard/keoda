@@ -1,4 +1,4 @@
-import { prefix } from '../../mylang'
+import { prefix } from '../../lang'
 
 export const ne = prefix('ne', {
   def: 'negation',

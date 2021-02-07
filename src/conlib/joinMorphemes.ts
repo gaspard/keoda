@@ -8,7 +8,7 @@ export function joinMorphemes(
   prevName: string,
   nextName: string,
   join: string | undefined,
-  type: 'prefix' | 'suffix'
+  prefix: boolean
 ) {
   if (nextName === '') {
     // 'silent' elements like imperative
@@ -22,9 +22,12 @@ export function joinMorphemes(
   const pvowel = ENDS_VOWEL.test(prevName)
   const nvowel = STARTS_VOWEL.test(nextName)
   if (pvowel && nvowel) {
-    // two vowels
-    fix =
-      join !== undefined ? join : type === 'prefix' ? PREFIX_JOIN : SUFFIX_JOIN
+    if (prevName.slice(0, 1) === nextName.slice(0, 1)) {
+      prevName = prevName.slice(1)
+    } else {
+      // two vowels
+      fix = join !== undefined ? join : prefix ? PREFIX_JOIN : SUFFIX_JOIN
+    }
   } else if (!pvowel && !nvowel) {
     // two cononants
     fix = join !== undefined ? join : last[1]

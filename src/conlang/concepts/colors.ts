@@ -1,4 +1,4 @@
-import * as _ from '../words'
+import * as _ from '../lang'
 
 export const colors = _.card('colors', {
   writ: 'colors',

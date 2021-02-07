@@ -22,6 +22,11 @@ export function isNativeKey(key: string | number | symbol) {
   return NATIVE_KEYS.includes(key) || typeof key === 'symbol'
 }
 
+export function resolve(entry: EntryOrPrefix): BaseEntry {
+  const e = entry as { $: BaseEntry }
+  return e.$ || entry
+}
+
 // ============================================ Word
 
 export interface EntryInfo {
@@ -54,6 +59,8 @@ export interface EntryInfo {
   // alt ====
   // forced glo
   glo: string
+  // suffix glo
+  sglo?: string
   // https://www.eva.mpg.de/lingua/resources/glossing-rules.php
   forcedGlo: boolean
   // For prefix/suffix
@@ -79,13 +86,13 @@ export interface FullEntry extends EntryInfo {
   etym: () => { id: string }[]
   see: () => { id: string }[]
   // For phrases
-  words: () => { id: string; name: string }[]
+  words: () => Base[]
   // top-most original word (points to real word)
-  alt: () => BaseEntry
+  alt: () => Base
   // for multi-level word composition (points to real word)
-  orig: () => BaseEntry
+  orig: () => Base
   // for multi-level word composition (can point to alt or word)
-  prev: () => BaseEntry
+  prev: () => Base
 }
 
 export const FULLTEXT_KEYS: (keyof EntryInfo)[] = [
@@ -111,11 +118,12 @@ export interface EntryByName {
   [key: string]: BaseEntry
 }
 
-export interface SuffixCases {
-  [key: string]: { glo: string; join?: string }
-}
-
-export const TYPES: (keyof EntriesByType)[] = ['word', 'card', 'phrase', 'alt']
+export const TYPES: ('word' | 'card' | 'phrase' | 'alt')[] = [
+  'word',
+  'card',
+  'phrase',
+  'alt',
+]
 
 export interface EntriesByType {
   word: EntryByName
@@ -123,6 +131,7 @@ export interface EntriesByType {
   phrase: EntryByName
   alt: EntryByName
   wordAndAlt: EntryByName
+  phraseOrig?: BaseEntry
 }
 
 export interface CompiledEntryByName {
@@ -137,12 +146,16 @@ export interface CompiledEntriesByType {
 }
 
 export type EntryDefinition = Partial<FullEntry>
+export type BaseType = 'word' | 'card' | 'phrase' | 'alt'
 
-export interface BaseEntry {
-  [IsPrefix]?: boolean
+export interface Base {
+  id: string
+  type: BaseType
   name: string
-  type: 'word' | 'card' | 'phrase' | 'alt'
-  id: string // === `${type}-${name}
+}
+
+export interface BaseEntry extends Base {
+  [IsPrefix]?: boolean
   definition: EntryDefinition
   toString: () => string
 }
@@ -154,7 +167,7 @@ export interface CompiledEntry extends Partial<EntryInfo> {
   name: string
   phon: string
   writ: string
-  type: 'word' | 'card' | 'phrase' | 'alt'
+  type: BaseType
   // concat of all text for search
   fulltext: string
   // alternative word to show def
@@ -178,11 +191,8 @@ export interface EntryFunc<T extends Object = {}> {
   (name: string, definition: EntryDefinition, type: BaseEntry['type']): Entry<T>
 }
 
-export type Prefix<T extends Object> = T & {
-  $: BaseEntry
-  id: string
-  name: string
-}
+export type Prefix<T extends Object> = T & { $: BaseEntry } & Base
+export type EntryOrPrefix = BaseEntry | Prefix<{}>
 
 export interface PrefixFunc<T extends Object> {
   (name: string, definition: EntryDefinition, type?: 'word' | 'alt'): Prefix<T>

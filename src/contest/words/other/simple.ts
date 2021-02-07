@@ -1,4 +1,4 @@
-import { word } from '../../mylang'
+import { word } from '../../lang'
 
 export const la = word('la', {
   noun: 'lips',

@@ -1,5 +1,4 @@
-import * as _ from '../words'
-import * as $ from '../prefix'
+import * as _ from '../lang'
 
 export const aaa = _.card('aaa', {
   noun: 'Why keoda ?',
@@ -102,8 +101,8 @@ Removing technical jargon for cases and pronouns and just saying "they"
 instead of "3SG" and changing "ACC" to something else that marks "flavor"
 also makes more sense for this project.
 
-${_.ophrase('Your eyes shine.', _.fa.ti, $.a.awi)}
-${_.ophrase('I love your eyes.', $.o.zu, _.fa.ti.m)}
+${_.ophrase('Your eyes shine.', _.fa.ti, _.a.awi)}
+${_.ophrase('I love your eyes.', _.o.zu, _.fa.ti.m)}
 
 # Glossing
 

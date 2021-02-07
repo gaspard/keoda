@@ -1,4 +1,4 @@
-import * as _ from '../words'
+import * as _ from '../lang'
 
 export const ganes = _.card('ganes', {
   noun: 'scale of ga',

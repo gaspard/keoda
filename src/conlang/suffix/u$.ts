@@ -1,7 +1,7 @@
-import { suffix } from '../make'
+import { word } from '../keoda'
 
 // u case (suffix)
-export const u$ = suffix('u', {
+export const u$ = word('u', {
   id: 'u$',
   verb: 'pull',
   glo: '*PULL*',

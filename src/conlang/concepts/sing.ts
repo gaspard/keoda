@@ -1,11 +1,11 @@
-import * as _ from '../words'
+import * as _ from '../lang'
 
 export const sing = _.card('sing', {
   open: true,
   desc: () => `
 # Some ideas for lyrics
 
-## ${_.duhashati} (your laugh)
+## ${_.duhasha.ti} (your laugh)
 
 ${_.phrase(
   "You laugh and get agitated when I'm here.",
@@ -28,10 +28,10 @@ ${_.phrase(
 
 ${_.phrase(
   'Eternity is remembered by the place.',
-  _.laum,
+  _.lau.m,
   _.wa,
   _.a.lemegu,
-  _.fuse
+  _.fu.sen
 )}
 
 ## ${_.oto.n} (him)
@@ -47,11 +47,11 @@ ${_.block(
   },
   {
     t: 'When will he go ?',
-    p: [_.dir, _.oto.n, _.ahodo, _.q],
+    p: [_.dir, _.oto.n, _.a.odo, _.q],
   },
   {
     t: 'I saw him always and always.',
-    p: [_.o.fa.em, _.oto.n, _.golau, _.golau],
+    p: [_.o.fa.em, _.oto.n, _.si.lau, _.si.lau],
   },
   {
     t: 'He took my voice.',
@@ -80,7 +80,7 @@ ${_.block(
   },
   {
     t: 'I thought I was a strong spirit.',
-    p: [_.opi.gahi.em, _.eku, _.opi.e, _.gogam],
+    p: [_.opi.gahi.em, _.eku, _.opi.e, _.go.ga.m],
   },
   {
     t: 'Was I only a thought ?',

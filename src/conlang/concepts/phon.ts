@@ -1,4 +1,4 @@
-import * as _ from '../words'
+import * as _ from '../lang'
 
 export const phon = _.card('phon', {
   writ: 'phon',
@@ -62,10 +62,13 @@ But ${_.najlo}, or  ${_.phrase(
     _.awi.es.ti
   )} works.
 
-Two vowels in a row are not allowed between conjugation and verb or counting and power ${
-    _.dahipa
-  }. An 'h' is
-added in such cases: ${_.phrase('I love my body.', _.o.au, _.to.oda.m)}.
+Two vowels in a row are not allowed between conjugation and verb or counting
+and power ${_.da1.ipa1}. An 'h' or 'l' ('h' when joining a prefix and an 'l'
+when joining a suffix) is added in such cases: ${_.phrase(
+    'I love my body.',
+    _.o.au,
+    _.to.oda.m
+  )}.
 
 Two consecutive identical vowels are reduced to a single one: ${_.phrase(
     'Carress my body !',
@@ -77,7 +80,7 @@ Words cannot end in ${
     _.m
   } (used for accusative). Words often drop the last vowel when adding a suffix that starts with a vowel instead of adding 'h'.
 
-Example: ${_.same} (foot) becomes ${_.samwe} (right foot).
+Example: ${_.same} (foot) becomes ${_.same.we} (right foot).
 
 ## Script
 

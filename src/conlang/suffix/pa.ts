@@ -1,7 +1,7 @@
-import { suffix } from '../make'
-import * as _ from '../words'
+import { word } from '../keoda'
+import * as _ from '../roots'
 
-export const pa = suffix('pa', {
+export const pa = word('pa', {
   noun: 'everywhere',
   suff: 'mystery',
   glo: 'MYST',

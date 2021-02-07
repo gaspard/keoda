@@ -1,4 +1,4 @@
-import { prefix } from '../../mylang'
+import { prefix } from '../../lang'
 
 export const o = prefix('o', {
   noun: 'I',
@@ -26,4 +26,11 @@ export const si = prefix('si', {
   glo: 'ADV',
   // makes an adverb
   cla: 'adv',
+})
+
+export const u = prefix('u', {
+  noun: 'emptiness',
+  // FIXME: we have a hack with 'INF' in getGlo...
+  glo: 'INF',
+  cla: 'noun', // we read the 'verb' value
 })

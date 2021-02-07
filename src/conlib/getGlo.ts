@@ -24,6 +24,8 @@ export function getGlo(
   if (prefix && glo.includes('INF')) {
     // Special case. Have not found an elegant way to solve this...
     return glo + '.**' + next.verb! + '**'
+  } else if (!prefix && next.sglo) {
+    return glo + '.' + next.sglo
   } else if (!next.forcedGlo) {
     // Try to follow class
     let cla = getCla(prev, next, false)

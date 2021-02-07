@@ -1,6 +1,4 @@
-import * as _ from '../words'
-
-export const niti = _.alt('niti', {
-  glo: 'DAT.**you**',
-  alt: () => _.ti.$,
-})
+export * from './case'
+export * from './hist'
+export * from './numbers'
+export * from './other'

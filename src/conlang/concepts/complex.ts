@@ -1,4 +1,4 @@
-import * as _ from '../words'
+import * as _ from '../lang'
 
 export const complex = _.card('complex', {
   open: true,
@@ -71,8 +71,8 @@ things correctly (make sure to enable the "🍑" button).
     _.si.pienu,
     _.ana.m,
     _.eku,
-    _.a.e,
-    _.le.ku,
+    _.lae,
+    _.es.a.lu.ku,
     _.ajayusa.m
   )} (reason)
 * ${_.phraseX(

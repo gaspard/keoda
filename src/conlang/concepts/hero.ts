@@ -1,4 +1,4 @@
-import * as _ from '../words'
+import * as _ from '../lang'
 
 export const hero = _.card('hero', {
   def: 'Words for a Campbelian quest',

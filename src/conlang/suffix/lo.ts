@@ -1,7 +1,7 @@
-import { suffix } from '../make'
-import * as _ from '../words'
+import { word } from '../keoda'
+import * as _ from '../lang'
 
-export const lo = suffix('lo', {
+export const lo = word('lo', {
   noun: 'submissive',
   adj: 'wet',
   glo: 'WET',
@@ -9,7 +9,7 @@ export const lo = suffix('lo', {
   see: () => [_.baka],
 })
 
-export const silo = suffix('silo', {
+export const silo = word('silo', {
   adj: 'gentle',
   desc: () => `This means "as a submissive".`,
   see: () => [_.gi],

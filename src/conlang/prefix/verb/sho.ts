@@ -1,6 +1,7 @@
-import { verb } from '../../mprefix'
+import { prefix } from '../../keoda'
 
-export const sho = verb('sho', {
+export const sho = prefix('sho', {
   noun: 'us',
   glo: 'we9',
+  cla: 'verb',
 })

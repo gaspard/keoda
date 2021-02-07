@@ -1,4 +1,4 @@
-import * as _ from '../words'
+import * as _ from '../lang'
 
 export const verbs = _.card('verbs', {
   open: true,
@@ -43,7 +43,7 @@ future. Here we go:
 
 Decomposed in its parts, this is:
 
-| ${_.es} | ${_.i} | ${_.lu} | ${_.mi} | ${_.lem} |
+| ${_.es} | ${_.i} | ${_.lu} | ${_.mi} | ${_.em} |
 | :-:     | :-:    | :-:     | :-:     |  :-:     |
 | es | i | lu | mi | lem |
 | passive | you    | continuous | caress | past |
@@ -54,7 +54,7 @@ Now that you know about the hardest, let's restart and move gently from one conc
 
 The simplest tense is the imperative which looks like the infinitive.
 
-* ${_.phrase('Kiss my cheek (face).', _.la, _.duham)}
+* ${_.phrase('Kiss my cheek (face).', _.la, _.duha.m)}
 
 ## Word order
 
@@ -101,11 +101,11 @@ For example:
     _.same.ti,
     _.es.a.mi
   )}, litteraly "foot.you be-him.**caress**".
-* ${_.phrase('I will be massaged.', _.es.o.mi.ir)} ("be-me.**caress**.will-be")
+* ${_.phrase('I will be massaged.', _.es.o.mi.irP)} ("be-me.**caress**.will-be")
 
 #### nsfw
 
-* ${_.phrase('My pussy will be licked.', _.yin.to, _.es.a.keli.ir)}
+* ${_.phrase('My pussy will be licked.', _.yin.to, _.es.a.keli.irP)}
 
 ## Continuous aspect ${_.lu}
 
@@ -125,14 +125,14 @@ on the action (comes after accord with the subject).
     _.ti.m,
     _.a.fodiru.em
   )}
-* ${_.phrase('I am dreaming of you.', _.oluyafa, _.ti.m)}
+* ${_.phrase('I am dreaming of you.', _.o.lu.yafa, _.ti.m)}
 
 #### nsfw
 
 * ${_.phrase(
     'My pussy will be licked (continuously).',
     _.yin.to,
-    _.esalukelilir
+    _.es.a.lu.keli.ir
   )}
 
 ## Infinitive
@@ -186,9 +186,9 @@ This translates in subjects ${_.o.kei}, ${_.i.yi}, ${_.i.lo}, etc.
 
 ${_.phrase('I am ready, Master.', _.oyi.e, _.sen, _.keda)}
 
-${_.phrase('I (Master) will undress (tiny you).', _.okei.nefe.ir, _.yi.da)}
+${_.phrase('I (Master) will undress (tiny you).', _.okei.nefe.irP, _.yi.da)}
 
-${_.phrase('(tiny) me will undress you (Master).', _.oyi.nefe.ir, _.keda)}
+${_.phrase('(tiny) me will undress you (Master).', _.oyi.nefe.irP, _.keda)}
 
 Just remember, what sounds like "OKey" is in fact "I-fantastic" and
 everything with a /y/ such as ${_.yi.da} are meant to be said with a soft and
@@ -202,19 +202,21 @@ language originated.
 
 ## Future tenses
 
-* ${_.lire} (FUT.EVNT) eventual future
-* ${_.liru} (FUT.DIST) distant future
-* ${_.lira} (FUT.PROX) close future
-* ${_.liri} (FUT.CRAS) tomorrow
-* ${_.liro} (FUT.HOD) tonight or next morning
+* ${_.ir} (FUT) general future
+* ${_.ire} (FUT.EVNT) eventual future
+* ${_.iru} (FUT.DIST) distant future
+* ${_.ira} (FUT.PROX) close future
+* ${_.iri} (FUT.CRAS) tomorrow
+* ${_.iro} (FUT.HOD) tonight or next morning
 
 ## Past tenses
 
-* ${_.lemo} (PST.HOD) last night or this morning
-* ${_.lemi} (PST.HEST) yesterday
-* ${_.lemu} (PST.PROX) recent past
-* ${_.lemu} (PST.DIST) distant past
-* ${_.leme} (PST.EVNT) eventual past
+* ${_.em} (FUT) general past
+* ${_.emo} (PST.HOD) last night or this morning
+* ${_.emi} (PST.HEST) yesterday
+* ${_.emu} (PST.PROX) recent past
+* ${_.emu} (PST.DIST) distant past
+* ${_.eme} (PST.EVNT) eventual past
 
 ## Eternal tenses
 

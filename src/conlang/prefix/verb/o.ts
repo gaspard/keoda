@@ -1,36 +1,42 @@
-import { verb } from '../../mprefix'
+import { prefix } from '../../keoda'
 
-export const o = verb('o', {
+export const o = prefix('o', {
   noun: 'indefinite me/us',
   glo: 'wex',
+  cla: 'verb',
 })
 
-export const opi = verb('opi', {
+export const opi = prefix('opi', {
   noun: 'I',
   adj: 'I',
   glo: 'I',
+  cla: 'verb',
 })
 
-export const oyi = verb('oyi', {
-  noun: 'I',
+export const oyi = prefix('oyi', {
+  noun: 'I-tiny',
   adj: 'I',
   glo: 'I.TINY',
+  cla: 'verb',
 })
 
-export const olo = verb('olo', {
-  noun: 'submissive',
+export const olo = prefix('olo', {
+  noun: 'I-submissive',
   adj: 'wet',
   glo: 'I.WET',
+  cla: 'verb',
 })
 
-export const okei = verb('kei', {
+export const okei = prefix('kei', {
   noun: 'Master',
   adj: 'fantastic',
   glo: 'wex.FANTASTIC',
+  cla: 'verb',
 })
 
-export const ode = verb('ode', {
+export const ode = prefix('ode', {
   noun: 'us two',
   adj: 'us two',
   glo: 'DUO',
+  cla: 'verb',
 })

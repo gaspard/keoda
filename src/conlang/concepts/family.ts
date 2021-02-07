@@ -1,4 +1,4 @@
-import * as _ from '../words'
+import * as _ from '../lang'
 
 export const family = _.card('family', {
   writ: 'family',
@@ -12,7 +12,7 @@ follow (yes it looks like a person looking south "sud").
 |          | front   |        |
 | :-:      | :-:     | :-:    |
 |          | ${_.du} |        |
-| ${_.es} |  🥰     | ${_.we} |
+| ${_.se}  |  🥰     | ${_.we} |
 |          | ${_.no} |        |
 |          | back    |        |
 
@@ -59,17 +59,10 @@ younger or elderly):
 
 ## ${_.hada} (parent) / ${_.joda} (child)
 
-|           | ${_.ana} | ${_.iwi} | ${_.oto} |
-| :----     | :------: | :------: | :-------: |
-| ${_.hada} | ${_.hana}| ${_.hawi}| ${_.hato} |
-| ${_.joda} | ${_.jona}| ${_.jowi}| ${_.joto} |
-
-And of course, you can be creative in the same way genders
-can blend:
-
-* ${_.phrase('girl-boy child', _.jonato)}
-* ${_.phrase('enby-girl child', _.jowina)}
-* etc
+|           | ${_.ana}  | ${_.iwi}  | ${_.oto}  |
+| :----     | :------:  | :------:  | :-------: |
+| ${_.hada} | ${_.hana} | ${_.hawi} | ${_.hato} |
+| ${_.joda} | ${_.jona} | ${_.jowi} | ${_.joto} |
 
 `,
 })

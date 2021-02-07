@@ -1,5 +1,4 @@
-import { getEntry } from './conlang/helpers'
-import { Entry } from './conlang/types'
+import { Entry, EntryOrPrefix, resolve } from './conlib'
 
 export type Describe = {
   (what: string, callback: () => void): void
@@ -53,7 +52,7 @@ export {
   it_ as it,
 }
 
-export const expecto: typeof expect = (e: Entry | { $: Entry }) => {
-  const ent = getEntry(e)
-  return expect(`${ent.definition.glo}/${ent.definition.cla}`)
+export const expecto: typeof expect = (e: EntryOrPrefix) => {
+  const ent = resolve(e)
+  return expect(`${ent.name}/${ent.definition.glo}/${ent.definition.cla}`)
 }

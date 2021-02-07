@@ -1,6 +1,6 @@
-import { suffix } from '../make'
+import { word } from '../keoda'
 
-export const da = suffix('da', {
+export const da = word('da', {
   noun: 'self',
   glo: 'SELF',
   cla: 'noun',
