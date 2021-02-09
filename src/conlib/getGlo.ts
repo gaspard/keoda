@@ -22,13 +22,14 @@ export function getGlo(
   }
 
   if (prefix && glo.includes('INF')) {
-    // Special case. Have not found an elegant way to solve this...
+    // Special case. Have not found an elegant way to solve this yet...
     return glo + '.**' + next.verb! + '**'
   } else if (!prefix && next.sglo) {
     return glo + '.' + next.sglo
   } else if (!next.forcedGlo) {
     // Try to follow class
-    let cla = getCla(prev, next, false)
+    const base = getCla(prev, next, false)
+    let cla = base
     if (!prefix) {
       if (cla === 'noun') {
         cla = 'adj'
@@ -36,7 +37,7 @@ export function getGlo(
         cla = 'adv'
       }
     }
-    const nglo = next[cla]
+    const nglo = next[cla] || next[base]
     if (nglo) {
       if (cla === 'verb') {
         return glo + '.**' + nglo.replace(/^to /, '') + '**'

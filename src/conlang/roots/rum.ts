@@ -20,7 +20,7 @@ export const rumi = _.word('rumi', {
 export const leirumi = _.word('leirumi', {
   verb: 'to embrace time',
   desc: () => `To live one's life`,
-  see: () => [_.em$],
+  see: () => [_.em],
 })
 
 export const rumo = _.word('rumo', {

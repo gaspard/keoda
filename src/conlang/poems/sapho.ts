@@ -14,14 +14,14 @@ ${_.phrase(
   _.peda.m,
   _.eku,
   _.a.lemegu,
-  _.fu.to.n
+  _.to.n
 )}
 
 ## Poem from her youth:
 
 ${_.phrase(
   "L'amour hélas, a dévasté mon âme ",
-  _.zuxnes,
+  _.zu.es,
   _.wa,
   _.leiruo,
   _.a.goweis.em,
@@ -36,9 +36,9 @@ ${_.phrase("S'abat sur les jeunes chênes.", _.hafo, _.fe, _.okana.lil.m)}
 
 ---
 
-${_.phrase('Il me parraît égal aux dieux,', _.a.awi, _.kegai.m)}
+${_.phrase('Il me parraît égal aux dieux,', _.a.awi, _.si.kegai)}
 
-${_.phrase("L'homme qui te regarde", _.oto.da, _.dim, _.a.fa, _.ti.m)}
+${_.phrase("L'homme qui te regarde", _.oto.da, _.le, _.a.fa, _.ti.m)}
 
 ${_.phrase(
   'Sans craindre ton sourire et tes yeux et ta voix.',
@@ -46,19 +46,19 @@ ${_.phrase(
   _.laj.ti.m,
   _.fa.ti.m,
   _.uma,
-  _.lapa.ti.n
+  _.lapa.ti.m
 )}
 
 ${_.phrase(
   'Moi, sitôt que je vois ton visage,',
   _.pida,
   _.wa,
-  _.opi.fa,
+  _.o.pi.fa,
   _.duha.ti.m,
   _.ku
 )}
 
-${_.phrase('Mon cœur bat sur mes lèvres', _.au.to, _.a.fo, _.la.to.n)}
+${_.phrase('Mon cœur bat sur mes lèvres', _.au.to, _.a.fo, _.la.to.m)}
 
 Et ma gorge s'étrangle.  
 La chaleur et le froid tour à tour m'envahissent,  

@@ -1,5 +1,37 @@
 import * as _ from '../lang'
 
+const emPST = _.alt('em', {
+  id: 'emPST',
+  def: 'past',
+  cla: 'def',
+  glo: 'PST',
+  alt: () => _.em,
+})
+
+const irFUT = _.alt('ir', {
+  id: 'irFUT',
+  def: 'future',
+  cla: 'def',
+  glo: 'FUT',
+  alt: () => _.ir,
+})
+
+const lauETERN = _.alt('lau', {
+  id: 'lauETERN',
+  adv: 'always',
+  glo: 'ETERN',
+  cla: 'adv',
+  alt: () => _.la,
+})
+
+const neiNEVER = _.alt('nei', {
+  id: 'neiNEVER',
+  adv: 'never',
+  glo: 'NEVER',
+  cla: 'adv',
+  alt: () => _.nei,
+})
+
 export const verbs = _.card('verbs', {
   open: true,
   desc: () => `
@@ -24,10 +56,10 @@ mark intent or style:
 
 #### nsfw
 
-* ${_.phraseX('Pinch my nipple (lovingly).', _.mu.imp, _.hamun.m)}
-* ${_.phraseX('Pinch my nipple (sadisticaly).', _.mu.imp, _.hamun.h)}
+* ${_.phraseX('Pull my nipple (lovingly).', _.mu.imp, _.hamun.m)}
+* ${_.phraseX('Pull my nipple (sadisticaly).', _.mu.imp, _.hamun.h)}
 * ${_.phraseX(
-    'Pinch my nipple (intensely and with love).',
+    'Pull my nipple (intensely and with love).',
     _.mu.do.imp,
     _.hamun.m
   )}
@@ -54,7 +86,7 @@ Now that you know about the hardest, let's restart and move gently from one conc
 
 The simplest tense is the imperative which looks like the infinitive.
 
-* ${_.phrase('Kiss my cheek (face).', _.la, _.duha.m)}
+* ${_.phrase('Kiss my cheek (face).', _.la.imp, _.duha.m)}
 
 ## Word order
 
@@ -63,9 +95,9 @@ marking on the target expressing some kind of bond with the subject (taste,
 accusative) and sometimes receiver marking (dative) to remove ambiguity. See
 ${_.m} for details on "taste" marking.
 
-* ${_.phrase('Touch (our) lips.', _.ma, _.la.n)}
-* ${_.phrase('(our) hand, kiss.', _.ma.n, _.la)}
-* ${_.phrase('Kiss wex lips (wholeheartedly).', _.la, _.la.m)}
+* ${_.phrase('Touch (our) lips.', _.noa.imp, _.la.n)}
+* ${_.phrase('(our) skin, kiss.', _.noa.n, _.la.imp)}
+* ${_.phrase('Kiss (our) lips (wholeheartedly).', _.la.imp, _.la.m)}
 * ${_.phrase(
     'John gives the ball (he dislikes, accusative) to Jane (dative)',
     _.John,
@@ -84,7 +116,7 @@ a subject marker (the "doer" or "receiver" when used with ${_.es}).
 The origin of this is that saying "I hand" transforms "hand" into the "massage" or
 "take" action and it evolved to be "Ihand" in a single word. Example:
 
-* ${_.phrase('We mouth pull', _.shoW, _.li, _.u$)}
+* ${_.phrase('We mouth pull', _.sho, _.li, _.u$)}
 * ${_.phrase('We eat.', _.sho.liu)}
 
 The full list of "subject" prefix: ${_.subj}
@@ -101,11 +133,11 @@ For example:
     _.same.ti,
     _.es.a.mi
   )}, litteraly "foot.you be-him.**caress**".
-* ${_.phrase('I will be massaged.', _.es.o.mi.irP)} ("be-me.**caress**.will-be")
+* ${_.phrase('I will be massaged.', _.es.o.mi.ir)} ("be-me.**caress**.will-be")
 
 #### nsfw
 
-* ${_.phrase('My pussy will be licked.', _.yin.to, _.es.a.keli.irP)}
+* ${_.phrase('My pussy will be licked.', _.yin.to, _.es.a.keli.ir)}
 
 ## Continuous aspect ${_.lu}
 
@@ -184,11 +216,9 @@ For more BDSM and sexual contexts, the Dominant is still referred to as
 
 This translates in subjects ${_.o.kei}, ${_.i.yi}, ${_.i.lo}, etc.
 
-${_.phrase('I am ready, Master.', _.oyi.e, _.sen, _.keda)}
-
-${_.phrase('I (Master) will undress (tiny you).', _.okei.nefe.irP, _.yi.da)}
-
-${_.phrase('(tiny) me will undress you (Master).', _.oyi.nefe.irP, _.keda)}
+* ${_.phrase('I am ready, Master.', _.o.yi.e, _.sen, _.keda)}
+* ${_.phrase('I (Master) will undress (tiny you).', _.o.kei.nefe.ir, _.yi.da)}
+* ${_.phrase('(tiny) me will undress you (Master).', _.o.yi.nefe.ir, _.keda)}
 
 Just remember, what sounds like "OKey" is in fact "I-fantastic" and
 everything with a /y/ such as ${_.yi.da} are meant to be said with a soft and
@@ -200,28 +230,30 @@ The tense is marked by a suffix related to time. There are a lot of them
 because these timings are important in the erotic situations where this
 language originated.
 
-## Future tenses
+The logic is as follows:
 
-* ${_.ir} (FUT) general future
-* ${_.ire} (FUT.EVNT) eventual future
-* ${_.iru} (FUT.DIST) distant future
-* ${_.ira} (FUT.PROX) close future
-* ${_.iri} (FUT.CRAS) tomorrow
-* ${_.iro} (FUT.HOD) tonight or next morning
-
-## Past tenses
-
-* ${_.em} (FUT) general past
-* ${_.emo} (PST.HOD) last night or this morning
-* ${_.emi} (PST.HEST) yesterday
-* ${_.emu} (PST.PROX) recent past
-* ${_.emu} (PST.DIST) distant past
-* ${_.eme} (PST.EVNT) eventual past
+| vowel | meaning | future |
+| :---: | :---------- | :------------ |
+|       | ${_.refAndGlo(emPST)} | ${_.refAndGlo(irFUT)} |
+| **o** | ${_.refAndGlo(_.emo)} | ${_.refAndGlo(_.iro)} |
+| **i** | ${_.refAndGlo(_.emi)} | ${_.refAndGlo(_.iri)} |
+| **a** | ${_.refAndGlo(_.ema)} | ${_.refAndGlo(_.ira)} |
+| **u** | ${_.refAndGlo(_.emu)} | ${_.refAndGlo(_.iru)} |
+| **e** | ${_.refAndGlo(_.eme)} | ${_.refAndGlo(_.ire)} |
 
 ## Eternal tenses
 
-* ${_.lau} (DEF) always
-* ${_.nei} (NEG) never
+| always | never |
+| :---------- | :------------ |
+| ${_.refAndGlo(lauETERN)} | ${_.refAndGlo(neiNEVER)} |
+
+#### nsfw
+
+The "never" tens can be used in phrases where we say,  
+${_.phrase('With you, I make-love...never', _.ti.m, _.o.zuzu.nei)}  
+or  
+${_.phrase('With you, I make-love...tonight', _.ti.m, _.o.zuzu.iro)}  
+droping the tens as a cliff hanger.
 
 ## Examples
 
@@ -231,6 +263,9 @@ language originated.
     _.a.zu.ire,
     _.au.ti.m
   )}
+* ${_.phrase('I will always love you.', _.o.zu.lau, _.ti.m)}
+* ${_.phraseX('I will not make love with you.', _.o.ne.zuzu.ir, _.ti.n)}
+* ${_.phrase('I never eat apples.', _.o.liu.nei, _.guyil.h)}
 
 #### nsfw
 

@@ -28,7 +28,7 @@ export const yafa = _.word('yafa', {
 
 export const yadifa = _.word('yadifa', {
   noun: 'dream',
-  etym: () => [_.ya, _.di, _.fa],
+  etym: () => [_.ya, _.le, _.fa],
 })
 
 export const teya = _.word('teya', {

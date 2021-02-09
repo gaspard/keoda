@@ -3,7 +3,7 @@ import { shaH } from '../../roots'
 
 export const sha = prefix('sha', {
   noun: 'they (plural)',
-  glo: 'they9',
+  glo: 'they.PL',
   cla: 'verb',
   see: () => [shaH],
 })

@@ -6,6 +6,9 @@ export const es = prefix('es', {
   suff: 'state',
   join: 'n',
   glo: 'PASS',
-  sglo: 'IS-NESS',
   cla: 'verb',
+  // force only apply on suffix
+  force: 'adj',
+  sglo: 'IS-NESS',
+  scla: 'noun',
 })

@@ -127,14 +127,14 @@ To actually say "me", we use ${_.pi}.
 
 ### Special case markings
 
-* **\`${_.yi.definition.glo}\`**: diminutive, tiny
-* **\`${_.kei.definition.glo}\`**: honorific, Dom
-* **\`${_.lo.definition.glo}\`**: surrendered, submissive
-* **\`${_.iwi.definition.glo}\`**: non-binary
-* **\`${_.m.definition.glo}\`**: accusitive with a feeling of appreciation
-* **\`${_.n.definition.glo}\`**: neutral accusative
-* **\`${_.h.definition.glo}\`**: accusative with a feeling of unpleasantness
-* **\`${_.pa.definition.glo}\`**: mystical modifier (from numinous to delirious)
+* ${_.linkAndGlo(_.yi)}: diminutive, tiny
+* ${_.linkAndGlo(_.kei)}: honorific, Dom
+* ${_.linkAndGlo(_.lo)}: surrendered, submissive
+* ${_.linkAndGlo(_.iwi)}: non-binary
+* ${_.linkAndGlo(_.m)}: accusitive with a feeling of appreciation
+* ${_.linkAndGlo(_.n)}: neutral accusative
+* ${_.linkAndGlo(_.h)}: accusative with a feeling of unpleasantness
+* ${_.linkAndGlo(_.pa)}: mystical modifier (from numinous to delirious)
 
 ## Gloss color
 

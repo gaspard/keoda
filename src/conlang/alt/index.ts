@@ -1,4 +1,4 @@
-export * from './case'
+import './case'
 export * from './hist'
 export * from './numbers'
 export * from './other'

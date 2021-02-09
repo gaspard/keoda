@@ -7,19 +7,20 @@ export const food = _.card('food', {
 
 See also ${_.fruits}.
 
-* ${_.nounRef(_.piule)}
 * ${_.nounRef(_.egina)}
-* ${_.nounRef(_.fena)}
-* ${_.nounRef(_.piutaj)}
-* ${_.nounRef(_.ulul)}
-* ${_.nounRef(_.piuna)}
 * ${_.nounRef(_.eri)}
+* ${_.nounRef(_.fena)}
+* ${_.nounRef(_.gopona)}
+* ${_.nounRef(_.guyil)}
 * ${_.nounRef(_.palajil)}
 * ${_.nounRef(_.pantame)}
-* ${_.nounRef(_.wiyon)}
-* ${_.nounRef(_.gopona)}
+* ${_.nounRef(_.piule)}
+* ${_.nounRef(_.piuna)}
+* ${_.nounRef(_.piutaj)}
 * ${_.nounRef(_.pona)}
 * ${_.nounRef(_.ponale)}
+* ${_.nounRef(_.ulul)}
+* ${_.nounRef(_.wiyon)}
 
 `,
 })

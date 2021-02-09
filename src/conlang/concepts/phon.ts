@@ -76,19 +76,14 @@ Two consecutive identical vowels are reduced to a single one: ${_.phrase(
     _.oda
   )}
 
-Words cannot end in ${
-    _.m
-  } (used for accusative). Words often drop the last vowel when adding a suffix that starts with a vowel instead of adding 'h'.
-
-Example: ${_.same} (foot) becomes ${_.same.we} (right foot).
+Words cannot end in ${_.m} (used for accusative). Words sometimes drop the
+last vowel when adding a suffix that starts with a vowel instead of adding
+'h'.
 
 ## Script
 
-Diphthongs are written on the same consonant when possible if the second vowel is /u/ as in ${
-    _.peu
-  } or ${_.agade.uki}. For other vowels, we write the second one separately: ${
-    _.noa
-  }.
+Diphthongs are avoided and should not comme too often in scripts. If they
+are present, they are written as two separate letters: ${_.noa}.
 
 ## Current evolutions
 

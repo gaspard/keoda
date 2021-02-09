@@ -6,13 +6,13 @@ export const fruits = _.card('fruits', {
 Existing fruits are:
 
 * ${_.nounRef(_.eri)}
-* ${_.nounRef(_.pona)}
-* ${_.nounRef(_.ponale)}
+* ${_.nounRef(_.gopona)}
+* ${_.nounRef(_.guyil)}
 * ${_.nounRef(_.palajil)}
 * ${_.nounRef(_.pantame)}
+* ${_.nounRef(_.pona)}
+* ${_.nounRef(_.ponale)}
 * ${_.nounRef(_.wiyon)}
-* ${_.nounRef(_.gopona)}
-* ${_.nounRef(_.guyuina)}
 
 `,
 })

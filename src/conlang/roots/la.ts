@@ -41,7 +41,7 @@ export const kawi = _.word('kawi', {
 
 export const lapir = _.word('lapir', {
   verb: 'to announce',
-  etym: () => [_.lapa, _.irP],
+  etym: () => [_.lapa, _.ir],
 })
 
 export const gilapa = _.word('gilapa', {

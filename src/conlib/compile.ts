@@ -18,35 +18,6 @@ const cache: { id: string; etym: string[] }[] = wordList
   .filter(w => w.definition.etym)
   .map(w => ({ id: makeId(w), etym: w.definition.etym!().map(makeId) }))
 
-const GLO_REPLACE: { [key: string]: string } = {
-  // to
-  wex: '1SG.INDF',
-  ourx: 'POSS.1SG.INDF',
-  we9: '1PL',
-  our9: 'POSS.1PL',
-  // ti
-  you1: '2SG',
-  your1: 'POSS.2SG',
-  you9: '2PL',
-  your9: 'POSS.2PL',
-  // ta
-  they1: '3SG',
-  their1: 'POSS.3SG',
-  they9: '3PL',
-  their9: 'POSS.3PL',
-  // other
-  somex: '3PL.INDF',
-  // ['^!.']: '',
-}
-
-function fixGlo(glo: string): string {
-  let w = glo
-  for (const k in GLO_REPLACE) {
-    w = w.replace(new RegExp(k, 'g'), GLO_REPLACE[k])
-  }
-  return w
-}
-
 function makeId(entry: { type: string; id: string }) {
   return `${entry.type}-${entry.id}`
 }
@@ -72,6 +43,7 @@ function compileWord(entry: BaseEntry): CompiledEntry {
   const c = compiled as EntryDefinition
   delete c.exam
   delete c.sglo
+  delete c.scla
   delete c.ncla
   if (definition.exam) {
     // This runs the phrase production
@@ -83,9 +55,6 @@ function compileWord(entry: BaseEntry): CompiledEntry {
   //   const key = MAIN_KEYS.find(k => definition[k])
   //   compiled.glo = '**' + definition[key!] + '**'
   // }
-  if (compiled.glo) {
-    compiled.glo = fixGlo(compiled.glo)
-  }
   if (definition.alt) {
     compiled.alt = makeId(definition.alt())
   }

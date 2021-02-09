@@ -4,6 +4,7 @@ import * as words from './words'
 const keoda = makeLang<typeof words>()
 export const entries = keoda.entries
 export const prefix = keoda.prefix
+export const suffix = keoda.suffix
 export const phrase = keoda.phrase
 export const word = keoda.word
 export const alt = keoda.alt
@@ -36,9 +37,17 @@ export function ref(entry: EntryOrPrefix) {
 
 export function refAndGlo(entry: EntryOrPrefix) {
   const ent = keoda.resolve(entry)
-  return `${ent} (${ent.definition[ent.definition.cla!]}) \`${
-    ent.definition.glo
-  }\``
+  const def = ent.definition[ent.definition.cla!]
+  if (def) {
+    return `${ent} (${def}) \`${ent.definition.glo}\``
+  } else {
+    return `${ent} \`${ent.definition.glo}\``
+  }
+}
+
+export function debug(entry: EntryOrPrefix) {
+  const ent = keoda.resolve(entry)
+  return `### ${ent}\n\n~~~\n${JSON.stringify(ent.definition, null, 2)}\n~~~`
 }
 
 export function nounRef(entry: EntryOrPrefix) {

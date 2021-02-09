@@ -5,8 +5,11 @@ export function getCla(
   next: EntryDefinition,
   prefix: boolean
 ) {
+  if (!prefix && next.scla) {
+    return next.scla
+  }
   const forced = next.force || prev.force
-  if (forced) {
+  if (!prefix && forced) {
     return forced
   }
   const cla = prev.ncla || prev.cla!

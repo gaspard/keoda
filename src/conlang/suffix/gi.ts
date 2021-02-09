@@ -1,7 +1,7 @@
-import { word } from '../keoda'
+import { suffix } from '../keoda'
 import * as _ from '../lang'
 
-export const gi = word('gi', {
+export const gi = suffix('gi', {
   adj: 'kind',
   noun: 'premanence (Sthiti)',
   etym: () => [_.gu, _.i$],

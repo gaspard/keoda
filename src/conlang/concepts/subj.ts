@@ -45,49 +45,76 @@ The extra /m/ at the end is flavor marking (${_.m}).
 
 Here is the full list of subjects to express actions, possessivity and address.
 
-### including me
+### indefinite
 
-* ${_.o} (weˣ)
-* ${_.okei} (weˣ.*Masters*)
-* ${_.opi} (I)
-* ${_.oyi} (I.*tiny*)
-* ${_.olo} (I.*wet*)
-* ${_.ode} (we.*us two*)
-* ${_.shoW} (we\\*)
-* ${_.sho.kei} (we\\*.*Masters*)
-* ${_.sho.yi} (we\\*.*tiny*)
-* ${_.sho.lo} (we\\*.*wet*)
-* ${_.oka} (we.*all of us*)
+This subject is the most used to talk about oneself and it means "we" in the
+indefinite sense. It is part royal and part modesty.
 
-(ˣ): special subject markers are explained here: ${_.aaa}
+* ${_.linkAndGlo(_.o)}
+* ${_.linkAndGlo(_.o.kei)}
 
-### including you
+### me
 
-* ${_.i$} (you¹)
-* ${_.i.kei} (you¹.*Master*)
-* ${_.i.yi} (you¹.*tiny*)
-* ${_.ilo} (you¹.*wet*)
-* ${_.shi} (you\\*)
-* ${_.shi.kei} (you\\*.*Masters*.)
-* ${_.shi.yi} (you\\*.*tiny*)
-* ${_.shi.lo} (you\\*.*wet*)
+* ${_.linkAndGlo(_.o.pi)}
+* ${_.linkAndGlo(_.o.yi)}
+* ${_.linkAndGlo(_.o.lo)}
 
-### the others
+### you and me
 
-* ${_.a} (theiy¹)
-* ${_.a.kei} (theiy¹.*Masters*)
-* ${_.a.yi} (they¹.*tiny*)
-* ${_.a.lo} (they¹.*wet*)
-* ${_.ape} (theyˣ)
-* ${_.sha} (they\\*)
-* ${_.sha.kei} (they\\*.*Masters*.)
-* ${_.sha.yi} (they\\*.*tiny*)
-* ${_.sha.lo} (they\\*.*wet*)
+* ${_.linkAndGlo(_.o.de)}
+
+### us
+
+* ${_.linkAndGlo(_.sho)}
+* ${_.linkAndGlo(_.sho.kei)}
+* ${_.linkAndGlo(_.sho.yi)}
+* ${_.linkAndGlo(_.sho.lo)}
+
+### every
+
+* ${_.linkAndGlo(_.o.ka)}
+
+### you (just you, singular)
+
+* ${_.linkAndGlo(_.i)}
+* ${_.linkAndGlo(_.i.kei)}
+* ${_.linkAndGlo(_.i.yi)}
+* ${_.linkAndGlo(_.i.lo)}
+
+### you (plural)
+
+* ${_.linkAndGlo(_.shi)}
+* ${_.linkAndGlo(_.shi.kei)}
+* ${_.linkAndGlo(_.shi.yi)}
+* ${_.linkAndGlo(_.shi.lo)}
+
+### them (singular)
+
+* ${_.linkAndGlo(_.a)}
+* ${_.linkAndGlo(_.a.kei)}
+* ${_.linkAndGlo(_.a.yi)}
+* ${_.linkAndGlo(_.a.lo)}
+
+### some of them
+
+* ${_.linkAndGlo(_.a.pe)}
+
+### them (plural)
+
+* ${_.linkAndGlo(_.sha)}
+* ${_.linkAndGlo(_.sha.kei)}
+* ${_.linkAndGlo(_.sha.yi)}
+* ${_.linkAndGlo(_.sha.lo)}
 
 ## Relative
 
-* ${_.di} (who)
-* ${_.dim} (whom)
+* ${_.le} who (noun modifier)
+
+## TODO: REWRITE END OF THIS CARD...
+
+##### note
+
+If you read this, I screwed up and haven't fixed the text before publishing. Bad.
 
 ## Possessivity suffix
 
@@ -97,43 +124,41 @@ ${_.wu} is used as suffix to introduce a noun phrase clarifying possessivity.
 
 or
 
-* ${_.phrase('hand of you', _.ma.wu, _.i)}
-
-## Target prefix 
-
-When specifying the target of an action, we use ${_.fu} (arrow) as prefix on
-the subject. You can understand this prefix as something in the line of
-"to/of". For linguists, this is the dative marker.
-
-* ${_.phrase('Massage body of us.', _.mi, _.oda.to.m)}
-* ${_.phrase('Massage our body.', _.mi, _.to.oda.m)}
-* ${_.phrase('Massage us.', _.mi, _.fu.to.m)}
+* ${_.phrase('hand of you', _.ma.wu, _.ti)}
 * ${_.phrase('Our hand covers your skin.', _.to.ma, _.a.fe, _.noa.ti.m)}
 
-Yes, in this language a subject can have both dative and accusative markers
-as seen with ${_.fu.to.m} because the person is both the direct object of the
-action (accusative) and the receiver or beneficiary of the action (dative).
+The \`/m/\` endings are the 'mood' markings (accusative). See ${_.taste}.
 
-The /m/ endings are the 'mood' markings (accusative). See ${_.m}.
+## Target person (dative)
+
+When specifying the recipient of an action, we use ${_.ni} (arrow) as prefix
+on the subject. You can understand this prefix as something in the line of
+"to/of".
+
+* ${_.phrase('Massage us.', _.mi.imp, _.ni.to)}
+* ${_.phrase('Massage them.', _.mi.imp, _.ni.ta)}
+
+There are other prefix that can be used such as ${_.fe} (on), ${_.ro} (in)
+and so on: ${_.prep}.
 
 ## Subject suffix (ergative)
 
 We usually omit the subject because it is visible on the verb but when we
 want to use it, we use ${_.da} (self).
 
-* ${_.phrase('They will talk to you.', _.a.da, _.a.lapa.irP, _.ti.m)}
+* ${_.phrase('They will talk to you.', _.a.da, _.a.lapa.ir, _.ni.ti)}
 
 List of people:
 
-* ${_.o.da} (weˣ-people)
-* ${_.i.da} (you¹-person)
-* ${_.a.da} (they¹-person)
+* ${_.o.da} (people)
+* ${_.i.da} (you-person)
+* ${_.a.da} (they-person)
 * ${_.pi.da} (I-person)
 * ${_.kei.da} (Master-person)
 * ${_.yi.da} (tiny-person)
 * ${_.lo.da} (wet-person)
 * ${_.pe.da} (someone)
-* ${_.de1.da} (us-two)
+* ${_.de.da} (us-two)
 * ${_.ka.da} (all of us)
 
 ## Genders
@@ -144,7 +169,7 @@ possessive argument. Here are some examples:
 
 * ${_.phrase('You-enby walk.', _.ti.iwi, _.i.lipa)}
 * ${_.phrase('She sings.', _.ta.ana, _.a.lipa)}
-* ${_.phrase('They-men talk.', _.tasha.oto, _.sho.lapa)}
+* ${_.phrase('They-men talk.', _.ta.sha.oto, _.sho.lapa)}
 * ${_.phrase('She loves me.', _.ta.ana, _.a.zu, _.pi.m)}
 
 Note that we also have words to express gendered-bodies and these (like any

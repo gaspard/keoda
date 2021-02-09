@@ -1,7 +1,7 @@
-import { word } from '../keoda'
+import { suffix } from '../keoda'
 import * as _ from '../lang'
 
-export const lil = word('lil', {
+export const lil = suffix('lil', {
   adj: 'small',
   adv: 'carefully',
   noun: '5',

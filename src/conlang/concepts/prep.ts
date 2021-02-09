@@ -28,8 +28,8 @@ The prepositions that can be used as case marking have the gloss next to them
 
 ## Nouns
 
-* ${_.ref(_.di)}
-* ${_.ref(_.dim)}
+* ${_.ref(_.le)}
+* ${_.ref(_.le)}
 * ${_.ref(_.diwu)}
 * ${_.ref(_.eku)}
 * ${_.ref(_.ko)}
@@ -41,9 +41,9 @@ The prepositions that can be used as case marking have the gloss next to them
 
 #### nsfw
 
-* ${_.phrase('Iris whom you caressed.', _.Iris.m, _.dim, _.i.mi.ema)}
-* ${_.phrase('Iris who caressed you.', _.Iris, _.di, _.a.mi.ema, _.ti.m)}
-* ${_.phrase('I like that you are naked.', _.o.zu, _.eku, _.oyi.e, _.nefe)}
+* ${_.phrase('Iris whom you caressed.', _.Iris.m, _.le, _.i.mi.ema)}
+* ${_.phrase('Iris who caressed you.', _.Iris, _.le, _.a.mi.ema, _.ti.m)}
+* ${_.phrase('I like that you are naked.', _.o.zu, _.eku, _.o.yi.e, _.nefe)}
 
 ## Location
 
@@ -61,7 +61,6 @@ ${_.phrase('Where did you caress Iris ?', _.dona, _.Iris.m, _.i.mi.ema, _.q)}
 
 ## Causality
 
-* ${_.ref(_.esi)}
 * ${_.ref(_.eyu)}
 * ${_.ref(_.ibu)}
 * ${_.ref(_.eja)}

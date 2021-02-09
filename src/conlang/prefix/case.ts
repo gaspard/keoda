@@ -55,7 +55,6 @@ export const si = prefix('si', {
   adv: 'as',
   glo: 'ADV',
   cla: 'adv',
-  see: () => [_.esi],
 })
 
 export const ne = prefix('ne', {
@@ -72,12 +71,6 @@ export const fe = prefix('fe', {
   exam: () => [_.phrase('I like your nakedness.', _.o.zu, _.nefe.es.ti)],
 })
 
-export const irP = prefix('ir', {
-  id: 'irP',
-  adj: 'under',
-  glo: 'SUBESS',
-})
-
 export const ro = prefix('ro', {
   adj: 'inner',
   suff: 'in (INESS)',
@@ -92,4 +85,33 @@ export const ri = prefix('ri', {
   suff: 'out of (ELAT)',
   glo: 'ELAT',
   see: () => [_.ro, _.prep],
+})
+
+// yi, lo, kei
+export const kei = prefix('kei', {
+  // First item must be 'def' to pass class through
+  def: 'honorific',
+  noun: 'Master',
+  adj: 'fantastic',
+  suff: 'fantastic',
+  glo: 'FANTASTIC',
+})
+
+// part of subject => prefix and suffix
+export const lo = prefix('lo', {
+  noun: 'submissive',
+  suff: 'submissive',
+  adj: 'wet',
+  glo: 'WET',
+  verb: 'to surrender',
+  see: () => [_.baka],
+})
+
+// part of subject => prefix and suffix
+export const yi = prefix('yi', {
+  noun: 'tiny',
+  suff: 'tiny',
+  adj: 'tiny',
+  glo: 'TINY',
+  desc: () => `Innocence`,
 })

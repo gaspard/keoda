@@ -5,12 +5,6 @@ import * as _ from '../lang'
 //   `Pénètre ma vulve comme si c'était une fleur.`
 // )
 
-export const esi = _.word('esi', {
-  def: 'so that',
-  see: () => [_.prep],
-  etym: () => [_.e, _.si],
-})
-
 // _.see(_.lasimuhadjotionayon)
 //
 // export const yonsitajkepalesila = _.example(

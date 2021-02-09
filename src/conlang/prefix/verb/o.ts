@@ -2,41 +2,41 @@ import { prefix } from '../../keoda'
 
 export const o = prefix('o', {
   noun: 'indefinite me/us',
-  glo: 'wex',
+  glo: 'I/we',
   cla: 'verb',
 })
 
-export const opi = prefix('opi', {
+// ========= Pure glossing fix =======
+
+prefix('opi', {
   noun: 'I',
   adj: 'I',
   glo: 'I',
   cla: 'verb',
 })
 
-export const oyi = prefix('oyi', {
+prefix('oyi', {
   noun: 'I-tiny',
-  adj: 'I',
   glo: 'I.TINY',
   cla: 'verb',
 })
 
-export const olo = prefix('olo', {
-  noun: 'I-submissive',
-  adj: 'wet',
+prefix('olo', {
+  noun: 'I-wet',
   glo: 'I.WET',
   cla: 'verb',
 })
 
-export const okei = prefix('kei', {
-  noun: 'Master',
-  adj: 'fantastic',
-  glo: 'wex.FANTASTIC',
+prefix('ode', {
+  noun: 'us two',
+  adj: 'us two',
+  glo: 'us.TWO',
   cla: 'verb',
 })
 
-export const ode = prefix('ode', {
-  noun: 'us two',
-  adj: 'us two',
-  glo: 'DUO',
+prefix('oka', {
+  noun: 'us all',
+  adj: 'us all',
+  glo: 'we.EVERY',
   cla: 'verb',
 })

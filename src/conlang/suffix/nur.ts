@@ -1,7 +1,7 @@
-import { word } from '../keoda'
+import { suffix } from '../keoda'
 import * as _ from '../lang'
 
-export const nur = word('nur', {
+export const nur = suffix('nur', {
   adj: 'only',
   exam: () => [
     _.phrase(

@@ -40,7 +40,7 @@ ${_.phrase(
 
 ${_.phrase(
   "Qui l'observent avec des regards familiers.",
-  _.di,
+  _.le,
   _.sha.fa.gi,
   _.fu.ta.m
 )}
@@ -49,7 +49,7 @@ ${_.phrase(
   'Comme de longs échos qui de loin se confondent...',
   _.si,
   _.agade.uki,
-  _.di,
+  _.le,
   _.dao,
   _.es.sha.nelil
 )}

@@ -22,6 +22,11 @@ export const lil1 = _.alt('lil', {
   alt: () => _.lil,
 })
 
+export const shi1 = _.alt('shi', {
+  glo: '6',
+  alt: () => _.shi,
+})
+
 export const da1 = _.alt('da', {
   id: 'da1',
   glo: '9',

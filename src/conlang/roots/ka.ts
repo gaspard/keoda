@@ -2,24 +2,17 @@ import * as _ from '../lang'
 
 export const ka = _.word('ka', {
   noun: '4 / singularity',
-  desc: () => 'That which cannot be thought.',
   def: 'everyone',
   suff: 'every',
   pos: 'on all fours',
+  glo: 'EVERY',
+  desc: () => 'That which cannot be thought.',
   see: () => [_.count],
 })
 
-export const oka = _.word('oka', {
-  noun: '**we\\* all**',
-  pref: '**our\\* all**',
-  suff: '**our\\* all**',
-  etym: () => [_.o, _.ka],
-  see: () => [_.subj],
-})
-
 export const kada = _.word('kada', {
-  noun: '**every people**',
-  glo: 'every.**body**',
+  noun: 'every person',
+  glo: 'EVERY.**body**',
   etym: () => [_.ka, _.da],
   see: () => [_.subj],
 })

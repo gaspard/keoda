@@ -1,6 +1,6 @@
-import { word } from '../keoda'
+import { suffix } from '../keoda'
 
-export const imp = word('', {
+export const imp = suffix('', {
   id: 'imp',
   verb: '',
   writ: '',

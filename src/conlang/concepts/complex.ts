@@ -32,7 +32,7 @@ things correctly (make sure to enable the "🍑" button).
 * ${_.phrase(
     'I saw them undressing.',
     _.o.fa.em,
-    _.tasha.m,
+    _.ta.sha.m,
     _.le.u.lu.nefe
   )} (perception)
 * ${_.phrase(

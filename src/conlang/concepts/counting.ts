@@ -8,15 +8,15 @@ export const count = _.card('count', {
 
 Here are the number from 1 to 10:
 
-* ${_.ipi1} (10 / ౧౦)
+* ${_.ipi} (10 / ౧౦)
 * ${_.da} (9 / ౯)
 * ${_.je} (8 / ౮)
 * ${_.fe} (7 / ౭)
-* ${_.shi6} (6 / ౬)
+* ${_.shi} (6 / ౬)
 * ${_.lil} (5 / ౫)
 * ${_.ka} (4 / ౪)
-* ${_.pe1} (3 / ౩)
-* ${_.de1} (2 / ౨)
+* ${_.pe} (3 / ౩)
+* ${_.de} (2 / ౨)
 * ${_.pi} (1 / ౧)
 
 The powers of ten:

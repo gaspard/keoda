@@ -1,77 +1,99 @@
-import { word } from '../keoda'
+import { suffix } from '../keoda'
 import * as _ from '../lang'
 
 //medium.com/keoda/du-plaisir-des-conjugaisons-df444756dfc0
 
-export const ire = word('ire', {
+export const ire = suffix('ire', {
   noun: 'eventual future',
   glo: 'FUT.EVNT',
-  etym: () => [_.ir, _.e],
+  see: () => [_.verbs],
 })
 
-export const iru = word('iru', {
+export const iru = suffix('iru', {
   noun: 'distant future',
   glo: 'FUT.DIST',
-  etym: () => [_.ir, _.u$],
+  see: () => [_.verbs],
 })
 
-export const ira = word('ira', {
+export const ira = suffix('ira', {
   noun: 'near future',
   glo: 'FUT.PROX',
-  etym: () => [_.ir, _.a],
+  see: () => [_.verbs],
 })
 
-export const iri = word('iri', {
+export const iri = suffix('iri', {
   noun: 'tomorrow',
   glo: 'FUT.CRAS',
-  etym: () => [_.ir, _.i$],
+  see: () => [_.verbs],
 })
 
-export const iro = word('iro', {
+export const iro = suffix('iro', {
   noun: 'later today',
   glo: 'FUT.HOD',
-  etym: () => [_.ir, _.o$],
+  see: () => [_.verbs],
 })
 
-export const ir = word('ir', {
+export const ir = suffix('ir', {
   def: 'future',
-  glo: 'FUT',
-  see: () => [_.lei, _.irP],
+  sglo: 'FUT',
+  adj: 'under',
+  pref: 'under',
+  glo: 'SUBESS',
+  see: () => [_.verbs],
+  exam: () => [_.phraseX('Come under me.', _.ir.odu.imp, _.to.m)],
 })
 
-export const em = _.word('em', {
+export const em = _.suffix('em', {
+  noun: 'life',
+  verb: 'to live',
+  adj: 'alive',
   def: 'past',
-  verb: 'lived',
-  glo: 'PST',
-  etym: () => [_.lei, _.em$],
+  glo: 'life',
+  sglo: 'PST',
+  see: () => [_.verbs],
 })
 
-export const emo = word('emo', {
+export const emo = suffix('emo', {
   noun: 'earlier today',
   glo: 'PST.HOD',
-  etym: () => [_.em, _.o$],
+  see: () => [_.verbs],
 })
 
-export const emi = word('emi', {
+export const emi = suffix('emi', {
   noun: 'yesterday',
   glo: 'PST.HEST',
-  etym: () => [_.em, _.i$],
+  see: () => [_.verbs],
 })
 
-export const ema = word('ema', {
+export const ema = suffix('ema', {
   noun: 'recent past',
   glo: 'PST.PROX',
-  etym: () => [_.em, _.a],
+  see: () => [_.verbs],
 })
 
-export const emu = word('emu', {
+export const emu = suffix('emu', {
   noun: 'distant past',
   glo: 'PST.DIST',
-  etym: () => [_.em, _.u$],
+  see: () => [_.verbs],
 })
 
-export const eme = word('eme', {
+export const eme = suffix('eme', {
   noun: 'eventual past',
   glo: 'PST.EVNT',
-  etym: () => [_.em, _.e],
+  see: () => [_.verbs],
+})
+
+export const lau = suffix('lau', {
+  adv: 'always',
+  noun: 'eternity',
+  sglo: 'ETERN',
+  etym: () => [_.lei, _.au],
+  desc: () => `The time loves.`,
+  see: () => [_.tu, _.verbs],
+})
+
+export const nei = suffix('nei', {
+  adv: 'never',
+  glo: 'NEVER',
+  etym: () => [_.ne, _.lei],
 })

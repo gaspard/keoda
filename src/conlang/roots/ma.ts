@@ -6,6 +6,7 @@ export const ma = _.word('ma', {
   exam: () => [
     _.phraseX(`Wank my vulva gently.`, _.ma.silo, _.yin.m),
     _.phraseX(`Wank my penis intensely.`, _.ma.do, _.taj.m),
+    _.phraseX('Drop (your) panties.', _.ne.ma.imp, _.feyin.m),
   ],
 })
 
@@ -19,16 +20,8 @@ export const djoma = _.word('djoma', {
   etym: () => [_.jo, _.ma],
 })
 
-export const nema = _.word('nema', {
-  verb: 'to let go',
-  glo: 'NEG.**take**',
-  etym: () => [_.ne, _.ma],
-  exam: () => [_.phraseX('Drop (your) panties.', _.nema, _.feyin.m)],
-})
-
 export const mu = _.word('mu', {
   verb: 'to pull',
-  glo: '**hand**.PULL',
   etym: () => [_.ma, _.u$],
   see: () => [_.mi, _.mo],
 })
@@ -58,5 +51,3 @@ export const masalele = _.word('masalele', {
   noun: 'little spoon',
   etym: () => [_.masale, _.lil],
 })
-
-// ========== alt

@@ -1,6 +1,6 @@
-import { word } from '../keoda'
+import { suffix } from '../keoda'
 
-const do_ = word('do', {
+const do_ = suffix('do', {
   id: 'do',
   adj: 'intense',
   noun: 'intensity',

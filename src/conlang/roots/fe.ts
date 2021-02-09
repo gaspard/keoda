@@ -19,17 +19,17 @@ export const feo = _.word('feo', {
 
 export const feoda = _.word('feoda', {
   noun: 'clothes',
+  verb: 'to dress',
   etym: () => [_.fe, _.oda],
 })
 
 export const nefe = _.word('nefe', {
-  noun: '**undressed**',
   adj: 'naked',
   verb: 'to uncover',
   exam: () => [
-    _.phraseX('Undress !', _.nefe),
-    _.phraseX('Remove your clothes !', _.ne, _.feoda.ti.m),
-    _.phraseX('Undress your body !', _.nefe, _.ti.m),
+    _.phraseX('Undress (uncover).', _.nefe.imp),
+    _.phraseX('Undress (remove clothes).', _.ne.feoda.imp, _.ti.m),
+    _.phraseX('Uncover your body.', _.nefe.imp, _.ti.m),
   ],
 })
 

@@ -71,6 +71,8 @@ export interface EntryInfo {
   ncla: MainKeys
   // Case forcing class on next/previous elements
   force: MainKeys
+  // Set type (only as suffix)
+  scla?: MainKeys
   // If this is true, the element is considered too common and should not
   // register phrases created with it (such as ACC markers, conjugation, etc).
   // set to false to ignore phrases.

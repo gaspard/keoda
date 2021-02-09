@@ -5,6 +5,8 @@ import {
   BaseEntry,
   EntriesByType,
   EntryDefinition,
+  MainKeys,
+  MAIN_KEYS,
   resolve,
 } from './types'
 
@@ -55,9 +57,20 @@ export function makeLang<T extends Object>() {
     return entry(name, definition, 'word')
   }
 
+  function suffix(name: string, definition: EntryDefinition) {
+    if (!definition.suff) {
+      const firstKey = (Object.keys(definition) as MainKeys[]).find(k =>
+        MAIN_KEYS.includes(k)
+      )
+      definition.suff = definition[firstKey!]
+    }
+    return entry(name, definition, 'word')
+  }
+
   return {
     entries,
     prefix,
+    suffix,
     phrase,
     card,
     word,

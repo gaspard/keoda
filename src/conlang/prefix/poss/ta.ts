@@ -1,13 +1,27 @@
 import { prefix } from '../../keoda'
 
 export const ta = prefix('ta', {
-  noun: 'them (SG)',
+  noun: 'they (singular)',
   cla: 'noun',
-  glo: 'their1',
+  glo: 'POSS.they',
 })
 
-export const tasha = prefix('tasha', {
-  noun: 'them (PL)',
-  cla: 'noun',
-  glo: 'their9',
+prefix('tam', {
+  noun: 'your (PL)',
+  glo: '**they**.ACC+',
+})
+
+prefix('tah', {
+  noun: 'your (PL)',
+  glo: '**they**.ACC-',
+})
+
+prefix('tan', {
+  noun: 'your (PL)',
+  glo: '**they**.ACC',
+})
+
+prefix('tasha', {
+  noun: 'their (PL)',
+  glo: 'POSS.they.PL',
 })

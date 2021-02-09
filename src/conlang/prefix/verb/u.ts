@@ -4,7 +4,8 @@ import * as _ from '../../lang'
 export const u = prefix('u', {
   noun: 'emptiness',
   glo: 'INF',
-  cla: 'noun', // we read the 'verb' value
+  // We read the 'verb' value because we have a hack in getGlo for now.
+  cla: 'noun',
   desc: () => `
 This means exactly the same as ${_.wu} (emptiness, to be filled). Whereas the
 morpheme ${_.wu} means "possessed by" ${_.u} means "done by", leaving the

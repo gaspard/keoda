@@ -14,6 +14,7 @@ export const ji10 = _.word('ji', {
 
 export const ji = _.word('ji', {
   noun: 'hair',
+  verb: 'to remember',
   pos: 'standing, body leaning forward, hair offered ready to be taken',
   see: () => [_.jiM],
 })

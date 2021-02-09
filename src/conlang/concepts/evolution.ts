@@ -98,12 +98,38 @@ strategy, using (${_.le}) for adjectives which means "very" and using
     _.si.gai
   )}
 
-### Adding infinitive
+### Adding infinitive *(Feb 2021)*
 
-As the title implies, this allows saying things like:
+As the title implies, this allows saying all kinds of complicated things regarding what
+we enjoy doing, who we have seen doing what and so on.
 
 #### nsfw
 
 * ${_.phrase('I like licking pussy.', _.o.ora, _.u.lu.li, _.yin.m)}
+
+### Engine rewrite and testing *(Feb 2021)*
+
+This rewrite and cleanup had the side effect of pushing all non-written phonotactics into
+code, making things much more consistent on how morphemes assemble. Now prefix all "fix"
+join with \`/h/\` and suffix use \`/l/\` unless there is an exception. This made numbers
+funny:
+
+* ${_.phrase(
+    "999'999'999",
+    _.da1.ipa1,
+    _.da1.ipi1,
+    _.da1,
+    _.ipu1.de1.uki,
+    _.da1.ipa1,
+    _.da1.ipi1,
+    _.da1,
+    _.ipu1,
+    _.da1.ipa1,
+    _.da1.ipi1,
+    _.da1
+  )}
+
+Having tests to ensure things do not break is a very good step forward.
+
 `,
 })

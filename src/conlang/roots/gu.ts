@@ -6,7 +6,7 @@ export const gu = _.word('gu', {
   adj: 'darkness',
   adv: 'lively',
   etym: () => [_.ga, _.u$],
-  see: () => [_.em$, _.nu, _.ganes, _.gufi],
+  see: () => [_.em, _.nu, _.ganes, _.gufi],
   desc: () => `
 This might be the most complicated concept of the whole language... Confusion in
 understanding this is good. The greater the confusion, the greater the question
@@ -43,7 +43,7 @@ Litteraly, the "immaterial unconscious"`,
 
 export const gulir = _.word('gulir', {
   verb: 'to wish',
-  etym: () => [_.gu, _.irP],
+  etym: () => [_.gu, _.ir],
 })
 
 export const lemegu = _.word('lemegu', {
@@ -110,9 +110,9 @@ export const negu = _.word('negu', {
   see: () => [_.shipa],
 })
 
-export const guyuina = _.word('guyuina', {
+export const guyil = _.word('guyil', {
   noun: 'apple',
-  etym: () => [_.gu, _.yuina],
+  etym: () => [_.gu, _.yil],
   see: () => [_.fruits],
 })
 

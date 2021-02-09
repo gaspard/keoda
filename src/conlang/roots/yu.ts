@@ -16,7 +16,7 @@ export const eyu = _.word('eyu', {
   etym: () => [_.e, _.yu],
 })
 
-export const yuina = _.word('yuina', {
+export const yil = _.word('yuina', {
   noun: 'fruit',
-  etym: () => [_.yu, _.il, _.na],
+  etym: () => [_.yu, _.il],
 })

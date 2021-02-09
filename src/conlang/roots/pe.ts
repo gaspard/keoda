@@ -16,14 +16,6 @@ export const pena = _.word('pena', {
 
 // FIXME: ALL THIS IS ALL WRONG NOW
 
-export const ape = _.word('ape', {
-  noun: '**someˣ**',
-  pref: '**to someone**',
-  suff: '**to someone**',
-  etym: () => [_.a, _.pe],
-  see: () => [_.subj],
-})
-
 export const peda = _.word('peda', {
   noun: '**some person**',
   glo: '**someone**',

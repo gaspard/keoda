@@ -7,10 +7,6 @@ describe('prefixAndSuffix', () => {
   })
 
   it('should work as suffix', () => {
-    expecto(_.la.es).toBe('lanes/**lips**.IS-NESS/noun')
-  })
-
-  it('should work as suffix', () => {
-    expecto(_.u.la.es).toBe('ulanes/INF.**to kiss**.IS-NESS/noun')
+    expecto(_.awi.es).toBe('awines/**beautiful**.IS-NESS/noun')
   })
 })

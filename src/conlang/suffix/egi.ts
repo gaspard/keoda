@@ -1,7 +1,7 @@
-import { word } from '../keoda'
+import { suffix } from '../keoda'
 import * as _ from '../roots'
 
-export const egi = word('egi', {
+export const egi = suffix('egi', {
   adj: 'cold',
   noun: 'winter',
   see: () => [_.il],
