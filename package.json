@@ -14,12 +14,15 @@
     "makedb:watch": "npm run makedb; fswatch -r -o src/conlang -o src/conlib | xargs -n1 -I{} npm run makedb",
     "prebuild": "npm run clean && npm run makedb",
     "build": "webpack --mode=production",
-    "deploy": "git push origin `git subtree split --prefix public master`:gh-pages --force",
+    "deployBak": "git push origin `git subtree split --prefix public master`:gh-pages --force",
+    "deploy": "echo 'noop'",
     "conjugation": "ts-node src/conjugation.ts",
     "test": "jest -c setup/jest.js",
     "test:watch": "jest -c setup/jest.js --watch --coverage false",
     "roots": "ts-node src/roots.ts",
-    "stats": "ts-node src/stats.ts"
+    "stats": "ts-node src/stats.ts",
+    "re:build": "bsb -make-world -clean-world",
+    "re:watch": "bsb -make-world -clean-world -w"
   },
   "author": "Lily Bucher <hi@lilybucher.com> (http://lilybucher.com)",
   "license": "code is MIT, language is private",
@@ -47,12 +50,15 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "bs-platform": "^9.0.0",
     "classnames": "^2.2.6",
+    "gentype": "^3.43.0",
     "overmind": "^26.0.0",
     "overmind-react": "^27.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-markdown": "^5.0.3",
+    "reason-react": "^0.9.1",
     "remark-gfm": "^1.0.0",
     "styled-components": "^5.2.1"
   },

@@ -1160,6 +1160,22 @@
         "phrase-273"
       ]
     },
+    "word-yana": {
+      "name": "yana",
+      "type": "word",
+      "noun": "crone",
+      "etym": [
+        "word-ya",
+        "word-ana"
+      ],
+      "forcedGlo": false,
+      "glo": "**crone**",
+      "cla": "noun",
+      "id": "word-yana",
+      "fulltext": "yana",
+      "writ": "యానా",
+      "phon": "/jana/"
+    },
     "word-au": {
       "name": "au",
       "type": "word",
@@ -9542,6 +9558,7 @@
       "writ": "యా",
       "phon": "/ja/",
       "deriv": [
+        "word-yana",
         "word-lipaya",
         "word-yaon",
         "word-uya",
@@ -10636,6 +10653,7 @@
       "writ": "అనా",
       "phon": "/ana/",
       "deriv": [
+        "word-yana",
         "word-duna",
         "word-hana",
         "word-jona",

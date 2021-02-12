@@ -35,3 +35,8 @@ export const okana = _.word('okana', {
   imgpos: '50%',
   see: () => [_.ana],
 })
+
+export const yana = _.word('yana', {
+  noun: 'crone',
+  etym: () => [_.ya, _.ana],
+})

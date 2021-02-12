@@ -1,0 +1,30 @@
+{
+  "name": "keoda",
+  "bsc-flags": [
+    "-bs-super-errors"
+  ],
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": [
+    {
+      "dir": "src/conlib",
+      "subdirs": true
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "reason-react"
+  ],
+  "refmt": 3,
+  "gentypeconfig": {
+    "language": "typescript"
+  }
+}
