@@ -32,7 +32,7 @@ we added the dative back but with more power and made the accusative nicer.
 * ${_.phrase('Caress your lovely breasts lightly.', _.mi, _.mun.ti.m, _.si.enu)}
 * ${_.phrase(
     'For us, tonight, you will be caressing your lovely breasts lightly.',
-    _.fu.to,
+    _.ni.to,
     _.i.lu.mi.iro,
     _.mun.ti.m,
     _.si.enu
@@ -131,5 +131,24 @@ funny:
 
 Having tests to ensure things do not break is a very good step forward.
 
+### Indefinite subject *(August 2021)*
+
+Transformed the ${_.u} conjugation from an infinitive into the notion of "life
+itself" doing something: the infinite subject. This is a first step in
+the direction of removing some of the body/mind dichotomy, trying to blur the
+notion of "subject" so as to remove some of the separation with the direct
+object.
+
+David Bohm's idea on the rheomode (putting word priority on the verb) made me
+try different ideas and I think the best solution is to simply use the existing
+passive voice with the infinite subject: ${_.phrase('It rains', _.es.u.gai)}.
+
+I would like to change some meanings related to "spirit". I want this languge to
+be about the body, so "mind" has to be something that is a lived experience, not
+some "spirit" or "soul". This means that ${_.ga} needs to change from "spirit"
+to something else ? I have to do some introspection to see if I find concepts
+that better describe "inner experience", something that would only exist in
+relation with the body, a painting, matter. I want spirit to be a property of
+matter, of ${_.gu}, not some "other thing".
 `,
 })

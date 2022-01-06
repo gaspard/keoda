@@ -1,13 +1,14 @@
-import { EntryByName, IsPrefix, Prefix } from './types'
 import { getCla } from './getCla'
 import { getGlo } from './getGlo'
 import { joinMorphemes } from './joinMorphemes'
 import {
-  BaseEntry,
+  EntryByName,
   EntryDefinition,
   EntryFunc,
   isNativeKey,
+  IsPrefix,
   MAIN_KEYS,
+  Prefix,
   PrefixFunc,
 } from './types'
 
@@ -45,7 +46,7 @@ export function makePrefix<T extends Object>(
         } else if (key === '$') {
           return prev
         }
-        const id = `${prev.id}${key as string}`
+        const id = `${prev.id}-${key as string}`
         const alt = words[id]
         if (alt) {
           // This particular sequence already exists

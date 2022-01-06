@@ -157,6 +157,7 @@ export function exportJSON(db: EntriesByType) {
     const entries = db[type]
     Object.keys(entries).forEach(key => {
       const entry = compileWord(entries[key])
+      console.log(entry.id)
       result[entry.id] = entry
     })
   })

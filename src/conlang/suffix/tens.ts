@@ -89,7 +89,7 @@ export const lau = suffix('lau', {
   sglo: 'ETERN',
   etym: () => [_.lei, _.au],
   desc: () => `The time loves.`,
-  see: () => [_.tu, _.verbs],
+  see: () => [_.ula, _.verbs],
 })
 
 export const nei = suffix('nei', {

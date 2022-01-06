@@ -1,5 +1,7 @@
 import * as _ from '../lang'
 
+const iruc = ''
+
 export const sing = _.card('sing', {
   open: true,
   desc: () => `

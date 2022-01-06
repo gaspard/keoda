@@ -5,5 +5,5 @@ export const wu = suffix('wu', {
   noun: 'emptiness',
   suff: 'of',
   glo: 'FROM',
-  see: () => [_.tu],
+  see: () => [_.ula],
 })

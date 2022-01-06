@@ -19,7 +19,7 @@ function appendEntry(
   prevEntry: BaseEntry,
   nextEntry: BaseEntry
 ) {
-  const id = `${prevEntry.id}${nextEntry.id}`
+  const id = `${prevEntry.id}-${nextEntry.id}`
   const alt = entries.wordAndAlt[id]
   if (alt) {
     return alt
@@ -38,7 +38,7 @@ function appendEntry(
     return entry(
       joinMorphemes(prevEntry.name, nextEntry.name, next.join, false),
       {
-        id: `${prevEntry.id}${nextEntry.id}`,
+        id: `${prevEntry.id}-${nextEntry.id}`,
         glo: getGlo(prev, next, false),
         cla: getCla(prev, next, false),
         alt: prev.alt || (() => prevEntry),

@@ -1,10 +1,10 @@
 {
   "name": "keoda",
   "version": "1.0.0",
-  "description": "Conlang by Lily Shagu",
+  "description": "Conlang by Anna Ishq",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lilybucher/keoda.git"
+    "url": "https://github.com/annabucher/keoda.git"
   },
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "re:build": "bsb -make-world -clean-world",
     "re:watch": "bsb -make-world -clean-world -w"
   },
-  "author": "Lily Bucher <hi@lilybucher.com> (http://lilybucher.com)",
+  "author": "Anna Ishq <anna@annaishq.com> (http://annaishq.com)",
   "license": "code is MIT, language is private",
   "devDependencies": {
     "@types/classnames": "^2.2.11",

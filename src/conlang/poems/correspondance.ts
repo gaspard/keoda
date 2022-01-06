@@ -13,7 +13,6 @@ export const corresp = _.card('corresp', {
 
 ${_.phrase(
   'La Nature et un temple où de vivants piliers',
-  _.tu,
   _.gupa,
   _.a.e,
   _.akida,
@@ -30,7 +29,7 @@ ${_.phrase(
 
 ${_.phrase(
   "L'homme y passe à travers des forêts de symboles",
-  _.tu,
+  _.ula,
   _.oda,
   _.a.fen,
   _.ro.jana,

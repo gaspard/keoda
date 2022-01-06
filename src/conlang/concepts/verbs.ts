@@ -84,7 +84,7 @@ Now that you know about the hardest, let's restart and move gently from one conc
 
 ## Imperative
 
-The simplest tense is the imperative which looks like the infinitive.
+The simplest tense is the imperative:
 
 * ${_.phrase('Kiss my cheek (face).', _.la.imp, _.duha.m)}
 
@@ -167,32 +167,37 @@ on the action (comes after accord with the subject).
     _.es.a.lu.keli.ir
   )}
 
-## Infinitive
+## Indefinite subject (infinitive)
 
-The prefix ${_.u} marks the infinitive. The meaning is something like
-'somebody does'. Note that because the infinitive behaves like a noun,
-adjective or adverb it requires proper markings and accusative. The ${_.u}
-prefix simply makes a noun, extra markers are required for other roles such
+The prefix ${_.u} marks the indefinite subject (life itself). The meaning is
+something like 'life does'. When used as a noun the verb becomes close to the
+notion of infinitive and requires proper accusative marking. The ${_.u}
+prefix does not simply make a noun, extra markers are required for other roles such
 as adjective or adverb.
 
-* ${_.phrase('They like to talk.', _.a.au, _.u.lapa.n)}
-* ${_.phrase('I saw him coming.', _.o.fa.em, _.oto.n, _.le.u.lu.odu)}
+* ${_.phrase('They like "the talking" (to talk).', _.a.au, _.u.lapa.n)}
+* ${_.phrase(
+    'I saw him "like the coming" (coming).',
+    _.o.fa.em,
+    _.oto.n,
+    _.le.u.lu.odu
+  )}
 * ${_.phrase('The person to love is me.', _.o.da, _.le.u.au, _.a.e, _.pi.m)}
 * ${_.phrase('I want to see.', _.o.ora, _.u.fa.m)}
 
 ## Impersonal (weather verbs)
 
-To express things without a subject, we use the passive voice accorded to third person singular:
+To express things without a subject, we use the passive voice accorded to indefinite subject:
 
-* ${_.phrase('It rains', _.es.a.gai)}
-* ${_.phrase('It rains (there is a rain)', _.es.a.e, _.gai)}
-* ${_.phrase('It is raining', _.es.a.lu.gai)}
+* ${_.phrase('It rains', _.es.u.gai)}
+* ${_.phrase('It rains (there is a rain)', _.es.u.e, _.gai)}
+* ${_.phrase('It is raining', _.es.u.lu.gai)}
 
 This is from [1401st Just Used 5 Minutes of Your Day](https://www.reddit.com/r/conlangs/comments/kzeek7/1401st_just_used_5_minutes_of_your_day/).
 
 ${_.phrase(
   'It turned out that the child was lying.',
-  _.es.a.ru.em,
+  _.es.u.ru.em,
   _.gama.n,
   _.mei,
   _.joda,
