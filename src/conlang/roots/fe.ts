@@ -13,10 +13,6 @@ export const fena = _.word('fena', {
   see: () => [_.seasons, _.food],
 })
 
-export const feo = _.word('feo', {
-  adj: 'sur moi',
-})
-
 export const feoda = _.word('feoda', {
   noun: 'clothes',
   verb: 'to dress',

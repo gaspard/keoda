@@ -150,5 +150,20 @@ to something else ? I have to do some introspection to see if I find concepts
 that better describe "inner experience", something that would only exist in
 relation with the body, a painting, matter. I want spirit to be a property of
 matter, of ${_.gu}, not some "other thing".
+
+### Loved *(January 2022)*
+
+Haha ! This is why the ${_.a$} suffix was free. It was reserved, a late coming
+beauty to the party. It means "loved" in the sense of being taken inside, to the
+heart, to the self.
+
+So now ${_.ga} (spirit) comes from ${_.gu.a$} (life loved, life taken to the
+self). Isn't this beautiful ?
+
+And ${_.gu} still derives from ${_.ga} as ${_.ga.u$} (pulled spirit) because
+every language is a digraph and loops are fun.
+
+No more matter/mind dichotomy since they now both define each other in a
+beautiful dance.
 `,
 })

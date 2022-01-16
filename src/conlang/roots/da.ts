@@ -7,19 +7,19 @@ export const dapa = _.word('dapa', {
 })
 
 export const dafi = _.word('dafi', {
-  noun: '**service**',
+  noun: 'service',
   adj: 'serving',
   etym: () => [_.da, _.fi],
   see: () => [_.nanes, _.dapa],
 })
 
 export const guda = _.word('guda', {
-  noun: '**the place of the experience**',
+  noun: 'the place of the experience',
   etym: () => [_.gu, _.da],
   see: () => [_.gulei],
 })
 
 export const dana = _.word('dana', {
-  noun: '**geography**',
+  noun: 'geography',
   etym: () => [_.da, _.na],
 })

@@ -21,9 +21,9 @@ Here are the number from 1 to 10:
 
 The powers of ten:
 
-* ${_.ipi1} (10)
+* ${_.ipu} (1000)
 * ${_.ipa} (100)
-* ${_.ipu} (1000).
+* ${_.ipi1} (10)
 
 ## Some examples:
 

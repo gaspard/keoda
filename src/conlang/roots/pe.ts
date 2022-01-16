@@ -17,14 +17,13 @@ export const pena = _.word('pena', {
 // FIXME: ALL THIS IS ALL WRONG NOW
 
 export const peda = _.word('peda', {
-  noun: '**some person**',
-  glo: '**someone**',
+  noun: 'someone',
   etym: () => [_.pe, _.da],
   see: () => [_.subj],
 })
 
 export const pesen = _.word('pesen', {
-  noun: '**some place**',
+  noun: 'some place',
   etym: () => [_.pe, _.sen],
   see: () => [_.subj],
 })

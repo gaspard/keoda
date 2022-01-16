@@ -36,19 +36,26 @@ ${_.phrase("S'abat sur les jeunes chênes.", _.hafo, _.fe, _.okana.lil.m)}
 
 ---
 
-${_.phrase('Il me parraît égal aux dieux,', _.a.awi, _.si.kegai)}
+${_.phrase('That man to me seems equal to the gods')}
+${_.phrase('the man who sits opposite you')}
+${_.phrase('and close by listens')}
+${_.phrase('to your sweet voice')}
 
-${_.phrase("L'homme qui te regarde", _.oto.da, _.le, _.a.fa, _.ti.m)}
 
-${_.phrase(
-  'Sans craindre ton sourire et tes yeux et ta voix.',
-  _.ne.u.peu,
-  _.laj.ti.m,
-  _.fa.ti.m,
-  _.uma,
-  _.lapa.ti.m
-)}
+and your enticing laughter—
+that indeed has stirred up the heart in my breast.
+For whenever I look at you even briefly
+I can no longer say a single thing,
 
+but my tongue is frozen in silence;
+instantly a delicate flame runs beneath my skin;
+with my eyes I see nothing;
+my ears make a whirring noise.
+
+A cold sweat covers me,
+trembling seizes my body,
+and I am greener than grass.
+Lacking but little of death do I seem.
 ${_.phrase(
   'Moi, sitôt que je vois ton visage,',
   _.pida,

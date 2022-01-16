@@ -13,7 +13,7 @@ It means 'one', 'here' whereas ${_.pa} means 'every', 'all around'.
 })
 
 export const pida = _.word('pida', {
-  def: '**I person**',
+  def: 'I person',
   etym: () => [_.pi, _.da],
   see: () => [_.subj],
 })
@@ -35,8 +35,7 @@ export const pienu = _.word('pienu', {
 })
 
 export const aupi = _.word('aupi', {
-  verb: `to love onself`,
-  glo: '**heart**.self',
+  verb: `self-love`,
   etym: () => [_.au, _.pi],
 })
 
@@ -63,7 +62,7 @@ export const hapi = _.word('hapi', {
 })
 
 export const piyi$ = _.word('piyi', {
-  def: '**I (tiny)**',
+  def: 'I (tiny)',
   glo: 'I.TINY',
   see: () => [_.verbs],
 })

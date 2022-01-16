@@ -25,7 +25,7 @@ export function joinMorphemes(
     // two vowels
     fix = join !== undefined ? join : prefix ? PREFIX_JOIN : SUFFIX_JOIN
   } else if (!pvowel && !nvowel) {
-    // two cononants
+    // two consonants
     fix = join !== undefined ? join : last[1]
   }
   return prevName + fix + nextName.replace('*', last[1])

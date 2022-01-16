@@ -14,7 +14,7 @@ incredible love.
 
 The ultimate surrendering is not giving but receiving, ${_.phrase(
     'Receive life',
-    _.es.baka,
+    _.es.u.baka,
     _.gui
   )}.
 `,

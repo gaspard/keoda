@@ -8,6 +8,5 @@ export const pasu = _.word('pasu', {
 
 export const pasuna = _.word('pasuna', {
   noun: 'teaching',
-  glo: '**teach**.THING',
   etym: () => [_.pasu, _.na],
 })

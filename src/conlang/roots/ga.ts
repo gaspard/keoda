@@ -1,12 +1,16 @@
 import * as _ from '../lang'
 
 export const ga = _.word('ga', {
-  noun: '**spirit**',
+  noun: 'spirit',
   see: () => [_.gu],
+  etym: () => [_.gu, _.a$],
+  desc: () => `
+Spirit litteraly means "loved life".
+`,
 })
 
 export const gana = _.word('gana', {
-  noun: '**earth** (Anugraha)',
+  noun: 'earth (Anugraha)',
   etym: () => [_.ga, _.na],
   see: () => [_.nugu],
 })
@@ -16,8 +20,7 @@ export const gai = _.word('gai', {
   verb: 'to rain',
   adj: 'gentle',
   adv: 'carefully',
-  img:
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Falling_rain_in_mexico.jpg/330px-Falling_rain_in_mexico.jpg',
+  img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Falling_rain_in_mexico.jpg/330px-Falling_rain_in_mexico.jpg',
   imgpos: '50%',
   desc: () => `
 Caressed spirit / caressing spirit (rain on earth)

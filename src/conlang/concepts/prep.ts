@@ -1,7 +1,7 @@
 import * as _ from '../lang'
 
 export const Iris = _.word('Iris', {
-  noun: '**Iris**',
+  noun: 'Iris',
 })
 
 export const prep = _.card('prep', {

@@ -27,6 +27,11 @@ prefix('tosho', {
   glo: 'POSS.we',
 })
 
+prefix('tasha', {
+  noun: 'them (PL)',
+  glo: 'POSS.they',
+})
+
 prefix('topi', {
   noun: 'my',
   glo: 'POSS.I',

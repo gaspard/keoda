@@ -1,4 +1,4 @@
-import { prefix } from '../keoda'
+import { alt, prefix } from '../keoda'
 import * as _ from '../lang'
 
 export const fu = prefix('fu', {
@@ -20,9 +20,10 @@ export const ju = prefix('ju', {
   see: () => [_.hu],
 })
 
-export const juV = prefix('ju', {
+export const juV = alt('ju', {
   id: 'juV',
   verb: 'to begin',
+  alt: () => _.ju,
 })
 
 export const hu = prefix('hu', {

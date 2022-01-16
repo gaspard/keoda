@@ -1,7 +1,7 @@
 import * as _ from '../lang'
 
 export const il = _.word('il', {
-  noun: '**summer**',
+  noun: 'summer',
   adj: 'warm',
 })
 

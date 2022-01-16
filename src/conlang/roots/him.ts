@@ -20,13 +20,13 @@ export const mahim = _.word('mahim', {
 })
 
 export const gahi = _.word('gahi', {
-  noun: '**thought**',
+  noun: 'thought',
   verb: 'to think',
   etym: () => [_.ga, _.him],
 })
 
 export const gama = _.word('gama', {
-  noun: '**knowledge**',
+  noun: 'knowledge',
   verb: 'to know',
   etym: () => [_.ga, _.ma],
 })

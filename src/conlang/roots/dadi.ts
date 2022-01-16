@@ -1,7 +1,7 @@
 import * as _ from '../lang'
 
 export const dadi = _.word('dadi', {
-  noun: '**saliva**',
+  noun: 'saliva',
   verb: 'to salivate',
 })
 

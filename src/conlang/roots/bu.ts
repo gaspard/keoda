@@ -1,12 +1,12 @@
 import * as _ from '../lang'
 
 export const bu = _.word('bu', {
-  noun: '**sponge**',
+  noun: 'sponge',
   pref: 'erectile body',
 })
 
 export const buyon = _.word('buyon', {
-  noun: '**erectile part of the vulva**',
+  noun: 'erectile part of the vulva',
   etym: () => [_.bu, _.yin],
   see: () => [_.butaj, _.yineri],
   desc: () => `
@@ -17,7 +17,7 @@ It grows during arousal, like a sponge filled with love.
 })
 
 export const butaj = _.word('butaj', {
-  noun: '**erectile part of the penis**',
+  noun: 'erectile part of the penis',
   etym: () => [_.bu, _.taj],
   see: () => [_.buyon, _.tajeri],
   desc: () => `Cavernous body.`,

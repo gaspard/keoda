@@ -14,12 +14,13 @@ things correctly (make sure to enable the "🍑" button).
 
 ## Verb deranking
   
-* ${_.phrase('I begin to run', _.o.ju, _.u.feno.h)}  (modals and phasals)
+* ${_.phrase('I begin to run', _.o.juV, _.u.feno.h)}  (modals and phasals)
 * ${_.phrase('I came home early in order to prepare dinner')}  (purpose clauses)
 * ${_.phraseX(
     'I want to vagina-grasp your penis.',
     _.o.ora,
     _.u.yin.u$,
+    _.o.ti.ma,
     _.ti.taj.m
   )}  (desideratives)
 * ${_.phraseX(

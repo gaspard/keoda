@@ -12,16 +12,15 @@ export const lipa = _.word('lipa', {
 
 export const lipaya = _.word('lipaya', {
   noun: 'wolf',
-  img:
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Adara_%28Canis_lupus%29.jpg/300px-Adara_%28Canis_lupus%29.jpg',
+  img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Adara_%28Canis_lupus%29.jpg/300px-Adara_%28Canis_lupus%29.jpg',
   etym: () => [_.lipa, _.ya],
 })
 
 export const keli = _.word('keli', {
-  noun: '**tongue**',
+  noun: 'tongue',
   verb: 'to lick',
   etym: () => [_.ke, _.li],
-  exam: () => [_.phraseX('Lick my clit !', _.keli.imp, _.keyin)]
+  exam: () => [_.phraseX('Lick my clit !', _.keli.imp, _.keyin)],
 })
 
 export const ligau = _.word('ligau', {
