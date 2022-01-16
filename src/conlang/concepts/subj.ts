@@ -53,6 +53,10 @@ indefinite sense. It is part royal and part modesty.
 * ${_.linkAndGlo(_.o)}
 * ${_.linkAndGlo(_.o.kei)}
 
+### every
+
+* ${_.linkAndGlo(_.o.ka)}
+
 ### me
 
 * ${_.linkAndGlo(_.o.pi)}
@@ -69,10 +73,6 @@ indefinite sense. It is part royal and part modesty.
 * ${_.linkAndGlo(_.sho.kei)}
 * ${_.linkAndGlo(_.sho.yi)}
 * ${_.linkAndGlo(_.sho.lo)}
-
-### every
-
-* ${_.linkAndGlo(_.o.ka)}
 
 ### you (just you, singular)
 

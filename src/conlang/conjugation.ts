@@ -1,44 +1,57 @@
+import { EntriesByType } from '../conlib'
 import { VOWEL } from './generate'
-import { entries } from './roots'
+import { entries } from './lang'
+// force compilation
+import './words'
 
 const INFLECTIONS = [
-  // 1sp   on                   o   -ma
+  // 1sp   I/we                 o   -ma
   'o',
-  // 2s   tu (impératif)            -ma
+  'okei',
+  'oka',
+  'opi',
+  'oyi',
+  'olo',
+  'ode',
+  // 2s   you (imperative)          -ma
   '',
-  // 2s   tu                    i   -ma
+  // 2s   you (singular)        i   -ma
   'i',
-  // 3s   iel                   a   -ma
+  'ikei',
+  'iyi',
+  'ilo',
+  // 3s   they (singular)       a   -ma
   'a',
-  // 1p   nous tous présents    sho -ma
+  'akei',
+  'ayi',
+  'alo',
+  'ape',
+  // 1p   us                    sho -ma
   'sho',
-  // 2p   vous                  shi -ma
+  'shokei',
+  'shoyi',
+  'sholo',
+  // 2p   you (plural)          shi -ma
   'shi',
-  // 3p   iels                  sha -ma
+  'shikei',
+  'shiyi',
+  'shilo',
+  // 3p   they (plural)         sha -ma
   'sha',
-
-  // ====== Et les conjugaisons plus rares
-  // 2h   tu honorifique        kei -ma
-  'kei',
-  // 2x   tu dépravé.e          yi  -ma
-  'yi',
-  // 1s   je                    pi  -ma
-  'pi',
-  // 5p   nous deux             de  -ma
-  'de',
-  // 6p   quelques              pe  -ma
-  'pe',
-  // 7p   tout.e.s              ka  -ma
-  'ka',
+  'shakei',
+  'shayi',
+  'shalo',
+  // infinite
+  'u',
 ]
 
 const EXCEPTIONS: string[] = ['pinu']
 
-export function detectConjugationIssues() {
+export function detectConjugationIssues(entries: EntriesByType) {
   const conjugations: { [key: string]: string } = {}
   const words = entries.word
   const verbs = Object.keys(words)
-    .filter(key => words[key].action)
+    .filter(key => words[key as keyof typeof words].definition.verb)
     .sort()
 
   verbs.forEach(verb => {
@@ -47,7 +60,9 @@ export function detectConjugationIssues() {
       if (printed) {
         return
       }
-      console.log(`=========== ${verb} (${words[verb].action}) =========`)
+      console.log(
+        `=========== ${verb} (${words[verb].definition.verb}) =========`
+      )
       printed = true
     }
     INFLECTIONS.forEach(inf => {
@@ -70,4 +85,4 @@ export function detectConjugationIssues() {
   })
 }
 
-detectConjugationIssues()
+detectConjugationIssues(entries)

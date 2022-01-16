@@ -3682,6 +3682,7 @@
       "deriv": [
         "word-hapan",
         "word-habaj",
+        "word-hafo",
         "word-duha",
         "word-hawe",
         "word-hase",
@@ -3694,10 +3695,28 @@
         "word-joha",
         "word-hama",
         "word-hamun",
-        "word-hafo",
         "word-habo",
         "word-hataj",
         "word-hu"
+      ]
+    },
+    "word-hafo": {
+      "name": "hafo",
+      "type": "word",
+      "verb": "to fall",
+      "etym": [
+        "word-ha",
+        "word-fo"
+      ],
+      "forcedGlo": false,
+      "glo": "**fall**",
+      "cla": "verb",
+      "id": "word-hafo",
+      "fulltext": "hafo",
+      "writ": "హాచో",
+      "phon": "/hafɔ/",
+      "phrases": [
+        "phrase-274"
       ]
     },
     "word-hame": {
@@ -5765,6 +5784,39 @@
         "phrase-270"
       ]
     },
+    "word-lim": {
+      "name": "lim",
+      "type": "word",
+      "noun": "threshold",
+      "adj": "liminal",
+      "forcedGlo": false,
+      "glo": "**threshold**",
+      "cla": "noun",
+      "id": "word-lim",
+      "fulltext": "lim",
+      "writ": "లిం",
+      "phon": "/lim/",
+      "deriv": [
+        "word-lima"
+      ]
+    },
+    "word-lima": {
+      "name": "lima",
+      "type": "word",
+      "noun": "door",
+      "verb": "to cross",
+      "etym": [
+        "word-lim",
+        "word-na"
+      ],
+      "forcedGlo": false,
+      "glo": "**door**",
+      "cla": "noun",
+      "id": "word-lima",
+      "fulltext": "lima",
+      "writ": "లిమా",
+      "phon": "/lima/"
+    },
     "word-lirana": {
       "name": "lirana",
       "type": "word",
@@ -6359,6 +6411,7 @@
         "word-guwuna",
         "word-lapana",
         "word-lemana",
+        "word-lima",
         "word-lirana",
         "word-muna",
         "word-nena",
@@ -6824,25 +6877,6 @@
       "fulltext": "nuga",
       "writ": "నుగా",
       "phon": "/nuga/"
-    },
-    "word-hafo": {
-      "name": "hafo",
-      "type": "word",
-      "verb": "to fall",
-      "etym": [
-        "word-ha",
-        "word-fo"
-      ],
-      "forcedGlo": false,
-      "glo": "**fall**",
-      "cla": "verb",
-      "id": "word-hafo",
-      "fulltext": "hafo",
-      "writ": "హాచో",
-      "phon": "/hafɔ/",
-      "phrases": [
-        "phrase-274"
-      ]
     },
     "word-obo": {
       "name": "obo",
@@ -9219,25 +9253,6 @@
         "phrase-23"
       ]
     },
-    "word-ula": {
-      "name": "ula",
-      "type": "word",
-      "noun": "lae",
-      "glo": "lae.DET",
-      "desc": "Express a reference to a previously mentioned noun.",
-      "see": [
-        "word-ten"
-      ],
-      "forcedGlo": true,
-      "cla": "noun",
-      "id": "word-ula",
-      "fulltext": "ula",
-      "writ": "ఉలా",
-      "phon": "/ula/",
-      "phrases": [
-        "phrase-268"
-      ]
-    },
     "word-uba": {
       "name": "uba",
       "type": "word",
@@ -9265,6 +9280,25 @@
       "fulltext": "uka",
       "writ": "ఉకా",
       "phon": "/uka/"
+    },
+    "word-ula": {
+      "name": "ula",
+      "type": "word",
+      "noun": "lae",
+      "glo": "lae.DET",
+      "desc": "Express a reference to a previously mentioned noun.",
+      "see": [
+        "word-ten"
+      ],
+      "forcedGlo": true,
+      "cla": "noun",
+      "id": "word-ula",
+      "fulltext": "ula",
+      "writ": "ఉలా",
+      "phon": "/ula/",
+      "phrases": [
+        "phrase-268"
+      ]
     },
     "word-ulu": {
       "name": "ulu",
@@ -11964,7 +11998,7 @@
       "type": "card",
       "writ": "subj",
       "phon": "",
-      "desc": "\n# Subject and possessivity\n\nThe following morphemes express people (you, me, them), possessivity (my,\nyour, their) or verb conjugation depending on how the morpheme is\nagglutinated (or not).\n\n## Verbs\n\nTo transform a noun into a verb, the morpheme representing the subject is\nprefixed on the noun as-is or with an /h/ to fix double vowels. Example:\n\n* [imilema](alt-i-mi-ema)\n\nDetails on verbs here: [verbs](card-verbs).\n\n## Possessivity\n\nTo mark possessivity, the morpheme is prefixed or suffixed to the noun and a\n/t/ is added. Double consonant is fixed with an /a/. Examples:\n\n* [tima](alt-ti-ma)\n* [mati](alt-ma-ti)\n\nThe choice between prefix or suffix depends on context and what sounds best.\nThe difference is a bit like saying \"your hand\" or \"hand of you\". This lets\nput emphasis where we want, like dropping the [tim](word-ti-m) of [noatim](alt-noa-ti-m) gently\nafter a small pause to express kindness or awe.\n\n## Person\n\nDepending on context we can chose between adding [da](word-da) (self) suffix or\nuse the morpheme with /t/ prefix on singular (as-is for plural). Examples:\n\n* [201](phrase-201)\n* [202](phrase-202)\n* [203](phrase-203)\n\nThe extra /m/ at the end is flavor marking ([m](word-m)).\n\n# The list !!\n\nHere is the full list of subjects to express actions, possessivity and address.\n\n### indefinite\n\nThis subject is the most used to talk about oneself and it means \"we\" in the\nindefinite sense. It is part royal and part modesty.\n\n* [o](word-o) `I/we`\n* [okei](alt-o-kei) `I/we.FANTASTIC`\n\n### me\n\n* [opi](word-o-pi) `I`\n* [oyi](word-o-yi) `I.TINY`\n* [olo](word-o-lo) `I.WET`\n\n### you and me\n\n* [ode](word-o-de) `us.TWO`\n\n### us\n\n* [sho](word-sho) `we`\n* [shokei](alt-sho-kei) `we.FANTASTIC`\n* [shoyi](alt-sho-yi) `we.TINY`\n* [sholo](alt-sho-lo) `we.WET`\n\n### every\n\n* [oka](word-o-ka) `we.EVERY`\n\n### you (just you, singular)\n\n* [i](word-i) `you`\n* [ikei](alt-i-kei) `you.FANTASTIC`\n* [iyi](alt-i-yi) `you.TINY`\n* [ilo](alt-i-lo) `you.WET`\n\n### you (plural)\n\n* [shi](word-shi) `you.PL`\n* [shikei](alt-shi-kei) `you.PL.FANTASTIC`\n* [shiyi](alt-shi-yi) `you.PL.TINY`\n* [shilo](alt-shi-lo) `you.PL.WET`\n\n### them (singular)\n\n* [a](word-a) `they`\n* [akei](alt-a-kei) `they.FANTASTIC`\n* [ayi](alt-a-yi) `they.TINY`\n* [alo](alt-a-lo) `they.WET`\n\n### some of them\n\n* [ape](alt-a-pe) `they.they9.INDF`\n\n### them (plural)\n\n* [sha](word-sha) `they.PL`\n* [shakei](alt-sha-kei) `they.PL.FANTASTIC`\n* [shayi](alt-sha-yi) `they.PL.TINY`\n* [shalo](alt-sha-lo) `they.PL.WET`\n\n## Relative\n\n* [le](word-le) who (noun modifier)\n\n## TODO: REWRITE END OF THIS CARD...\n\n##### note\n\nIf you read this, I screwed up and haven't fixed the text before publishing. Bad.\n\n## Possessivity suffix\n\n[wu](word-wu) is used as suffix to introduce a noun phrase clarifying possessivity.\n\n* [204](phrase-204)\n\nor\n\n* [205](phrase-205)\n* [206](phrase-206)\n\nThe `/m/` endings are the 'mood' markings (accusative). See [taste](card-taste).\n\n## Target person (dative)\n\nWhen specifying the recipient of an action, we use [ni](word-ni) (arrow) as prefix\non the subject. You can understand this prefix as something in the line of\n\"to/of\".\n\n* [207](phrase-207)\n* [208](phrase-208)\n\nThere are other prefix that can be used such as [fe](word-fe) (on), [ro](word-ro) (in)\nand so on: [prep](card-prep).\n\n## Subject suffix (ergative)\n\nWe usually omit the subject because it is visible on the verb but when we\nwant to use it, we use [da](word-da) (self).\n\n* [209](phrase-209)\n\nList of people:\n\n* [oda](alt-o-da) (people)\n* [ida](alt-i-da) (you-person)\n* [ada](alt-a-da) (they-person)\n* [pida](alt-pi-da) (I-person)\n* [keida](alt-kei-da) (Master-person)\n* [yida](alt-yi-da) (tiny-person)\n* [loda](alt-lo-da) (wet-person)\n* [peda](alt-pe-da) (someone)\n* [deda](alt-de-da) (us-two)\n* [kada](alt-ka-da) (all of us)\n\n## Genders\n\nTo express gender, we use the possessive 'your', 'their', etc and the noun that\nmost closely expresses the desired notion. Note that the verb is accorded to the\npossessive argument. Here are some examples:\n\n* [210](phrase-210)\n* [211](phrase-211)\n* [212](phrase-212)\n* [213](phrase-213)\n\nNote that we also have words to express gendered-bodies and these (like any\nnoun) can be used as subjects or \"targets\" in phrases but they then accord as\nan indefinite 'person' as if we would say 'someone', 'some girl', etc.\n\n* [iwida](alt-iwi-da) (enby-person)\n* [anada](alt-ana-da) (female-person)\n* [otoda](alt-oto-da) (male-person)\n\nYour next read: [evolution](card-evolution) (how things evolved)\n",
+      "desc": "\n# Subject and possessivity\n\nThe following morphemes express people (you, me, them), possessivity (my,\nyour, their) or verb conjugation depending on how the morpheme is\nagglutinated (or not).\n\n## Verbs\n\nTo transform a noun into a verb, the morpheme representing the subject is\nprefixed on the noun as-is or with an /h/ to fix double vowels. Example:\n\n* [imilema](alt-i-mi-ema)\n\nDetails on verbs here: [verbs](card-verbs).\n\n## Possessivity\n\nTo mark possessivity, the morpheme is prefixed or suffixed to the noun and a\n/t/ is added. Double consonant is fixed with an /a/. Examples:\n\n* [tima](alt-ti-ma)\n* [mati](alt-ma-ti)\n\nThe choice between prefix or suffix depends on context and what sounds best.\nThe difference is a bit like saying \"your hand\" or \"hand of you\". This lets\nput emphasis where we want, like dropping the [tim](word-ti-m) of [noatim](alt-noa-ti-m) gently\nafter a small pause to express kindness or awe.\n\n## Person\n\nDepending on context we can chose between adding [da](word-da) (self) suffix or\nuse the morpheme with /t/ prefix on singular (as-is for plural). Examples:\n\n* [201](phrase-201)\n* [202](phrase-202)\n* [203](phrase-203)\n\nThe extra /m/ at the end is flavor marking ([m](word-m)).\n\n# The list !!\n\nHere is the full list of subjects to express actions, possessivity and address.\n\n### indefinite\n\nThis subject is the most used to talk about oneself and it means \"we\" in the\nindefinite sense. It is part royal and part modesty.\n\n* [o](word-o) `I/we`\n* [okei](alt-o-kei) `I/we.FANTASTIC`\n\n### every\n\n* [oka](word-o-ka) `we.EVERY`\n\n### me\n\n* [opi](word-o-pi) `I`\n* [oyi](word-o-yi) `I.TINY`\n* [olo](word-o-lo) `I.WET`\n\n### you and me\n\n* [ode](word-o-de) `us.TWO`\n\n### us\n\n* [sho](word-sho) `we`\n* [shokei](alt-sho-kei) `we.FANTASTIC`\n* [shoyi](alt-sho-yi) `we.TINY`\n* [sholo](alt-sho-lo) `we.WET`\n\n### you (just you, singular)\n\n* [i](word-i) `you`\n* [ikei](alt-i-kei) `you.FANTASTIC`\n* [iyi](alt-i-yi) `you.TINY`\n* [ilo](alt-i-lo) `you.WET`\n\n### you (plural)\n\n* [shi](word-shi) `you.PL`\n* [shikei](alt-shi-kei) `you.PL.FANTASTIC`\n* [shiyi](alt-shi-yi) `you.PL.TINY`\n* [shilo](alt-shi-lo) `you.PL.WET`\n\n### them (singular)\n\n* [a](word-a) `they`\n* [akei](alt-a-kei) `they.FANTASTIC`\n* [ayi](alt-a-yi) `they.TINY`\n* [alo](alt-a-lo) `they.WET`\n\n### some of them\n\n* [ape](alt-a-pe) `they.they9.INDF`\n\n### them (plural)\n\n* [sha](word-sha) `they.PL`\n* [shakei](alt-sha-kei) `they.PL.FANTASTIC`\n* [shayi](alt-sha-yi) `they.PL.TINY`\n* [shalo](alt-sha-lo) `they.PL.WET`\n\n## Relative\n\n* [le](word-le) who (noun modifier)\n\n## TODO: REWRITE END OF THIS CARD...\n\n##### note\n\nIf you read this, I screwed up and haven't fixed the text before publishing. Bad.\n\n## Possessivity suffix\n\n[wu](word-wu) is used as suffix to introduce a noun phrase clarifying possessivity.\n\n* [204](phrase-204)\n\nor\n\n* [205](phrase-205)\n* [206](phrase-206)\n\nThe `/m/` endings are the 'mood' markings (accusative). See [taste](card-taste).\n\n## Target person (dative)\n\nWhen specifying the recipient of an action, we use [ni](word-ni) (arrow) as prefix\non the subject. You can understand this prefix as something in the line of\n\"to/of\".\n\n* [207](phrase-207)\n* [208](phrase-208)\n\nThere are other prefix that can be used such as [fe](word-fe) (on), [ro](word-ro) (in)\nand so on: [prep](card-prep).\n\n## Subject suffix (ergative)\n\nWe usually omit the subject because it is visible on the verb but when we\nwant to use it, we use [da](word-da) (self).\n\n* [209](phrase-209)\n\nList of people:\n\n* [oda](alt-o-da) (people)\n* [ida](alt-i-da) (you-person)\n* [ada](alt-a-da) (they-person)\n* [pida](alt-pi-da) (I-person)\n* [keida](alt-kei-da) (Master-person)\n* [yida](alt-yi-da) (tiny-person)\n* [loda](alt-lo-da) (wet-person)\n* [peda](alt-pe-da) (someone)\n* [deda](alt-de-da) (us-two)\n* [kada](alt-ka-da) (all of us)\n\n## Genders\n\nTo express gender, we use the possessive 'your', 'their', etc and the noun that\nmost closely expresses the desired notion. Note that the verb is accorded to the\npossessive argument. Here are some examples:\n\n* [210](phrase-210)\n* [211](phrase-211)\n* [212](phrase-212)\n* [213](phrase-213)\n\nNote that we also have words to express gendered-bodies and these (like any\nnoun) can be used as subjects or \"targets\" in phrases but they then accord as\nan indefinite 'person' as if we would say 'someone', 'some girl', etc.\n\n* [iwida](alt-iwi-da) (enby-person)\n* [anada](alt-ana-da) (female-person)\n* [otoda](alt-oto-da) (male-person)\n\nYour next read: [evolution](card-evolution) (how things evolved)\n",
       "id": "card-subj",
       "fulltext": "subj"
     },
