@@ -23,3 +23,8 @@ export const dana = _.word('dana', {
   noun: 'geography',
   etym: () => [_.da, _.na],
 })
+
+export const ada = _.word('ada', {
+  noun: 'alterity',
+  etym: () => [_.a, _.da],
+})

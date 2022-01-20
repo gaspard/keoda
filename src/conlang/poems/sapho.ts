@@ -8,7 +8,7 @@ export const sapho = _.card('sapho', {
  *(630-580 A.D)*
 
 ${_.phrase(
-  "Il y aura quelqu'un, un jour, pour se souvenir de nous.",
+  'There will be someone, someday, to remember us.',
   _.peyo,
   _.es.a.e.ir,
   _.peda.m,
@@ -20,7 +20,7 @@ ${_.phrase(
 ## Poem from her youth:
 
 ${_.phrase(
-  "L'amour hélas, a dévasté mon âme ",
+  'Love, alas, has devastated my soul',
   _.zu.es,
   _.wa,
   _.leiruo,
@@ -28,9 +28,9 @@ ${_.phrase(
   _.ga.to.h
 )}
 
-${_.phrase("Comme l'ouragan des montagnes", _.si, _.hurakan, _.dao, _.gosoa)}
+${_.phrase('Like the mountain hurricane', _.si, _.hurakan, _.dao, _.gosoa)}
 
-${_.phrase("S'abat sur les jeunes chênes.", _.hafo, _.fe, _.okana.lil.m)}
+${_.phrase('Beats down on the young oaks.', _.hafo, _.don, _.okana.lil.m)}
 
  *(trad. Françoise Chandernagor)*
 

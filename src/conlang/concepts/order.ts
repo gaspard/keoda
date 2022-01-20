@@ -123,7 +123,7 @@ ${_.phrase(
   _.John,
   _.a.rumo,
   _.tame.h,
-  _.dona,
+  _.done,
   _.Jane
 )}
 

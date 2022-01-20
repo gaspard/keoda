@@ -12,11 +12,11 @@ This might be the most complicated concept of the whole language... Confusion in
 understanding this is good. The greater the confusion, the greater the question
 and the closer we are to a "feeling" of ${_.gu}.
 
-${_.gu} can be seen as is the unrealized ${_.ga}. Understanding ${_.gu} would mean
+${_.gu} can be seen as the unrealized ${_.ga}. Understanding ${_.gu} would mean
 something like being dead, all questions answered and it would be very sad.
 
-But ${_.gu} is not just the "unconscious", it also means "experience" or
-"transformation" or even "life".
+But ${_.gu} is not just the "unconscious" or some similar notion, it also means
+"experience" or "transformation" or even "life".
 
 In some way, it is the desire for experience, the quest for knowledge more than a
 state of "not knowing".
@@ -24,12 +24,12 @@ state of "not knowing".
 And to complicate things further, the bigger ${_.ga} becomes, the bigger
 ${_.gu} becomes because they are the same and not the same thing.
 
-We could also that ${_.gu} is "the possibility of karma" and ${_.ga} is made
+We could also say that ${_.gu} is "the possibility of karma" and ${_.ga} is made
 of "karma".
 
 So why does ${_.nugu} mean "terror" ? Because there is a huge potential for
 chaos and instability due to the unrooted nature of ${_.nu} and the power of
-${_.gu}
+${_.gu}.
 `,
 })
 

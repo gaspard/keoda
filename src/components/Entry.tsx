@@ -37,6 +37,12 @@ const Wrapper = styled.div`
     min-width: 600px;
     flex-grow: 1;
   }
+  @media (max-width: 768px) {
+    &.card {
+      min-width: 95%;
+      flex-grow: 1;
+    }
+  }
   &.selected:not(.popup) > .Title {
     background: #e4d593;
   }

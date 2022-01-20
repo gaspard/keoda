@@ -44,9 +44,14 @@ The prepositions that can be used as case marking have the gloss next to them
 * ${_.phrase('Iris who caressed you.', _.Iris, _.le, _.a.mi.ema, _.ti.m)}
 * ${_.phrase('I like that you are naked.', _.o.zu, _.eku, _.o.yi.e, _.nefe)}
 
-## Location
+## Generic unknown
 
 * ${_.ref(_.don)}
+
+## Location
+
+* ${_.ref(_.dono)}
+* ${_.ref(_.done)}
 * ${_.ref(_.dona)}
 * ${_.ref(_.ha)}
 * ${_.ref(_.jo)}
@@ -56,7 +61,23 @@ The prepositions that can be used as case marking have the gloss next to them
 * ${_.refAndGlo(_.ro)}
 * ${_.refAndGlo(_.ri)}
 
-${_.phrase('Where did you caress Iris ?', _.dona, _.Iris.m, _.i.mi.ema, _.q)}
+## Some examples
+
+* ${_.phrase(
+    'Where (on the body) did you caress Iris ?',
+    _.dono,
+    _.Iris.m,
+    _.i.mi.ema,
+    _.q
+  )}
+* ${_.phrase(
+    'Where (in which place) did you kiss ?',
+    _.done,
+    _.shi.la.ema,
+    _.q
+  )}
+* ${_.phrase('Who did you caress ?', _.dona.m, _.i.mi.ema, _.q)}
+* ${_.phrase('To whom did you speak ?', _.ni.dona, _.i.lapa.ema, _.q)}
 
 ## Causality
 
