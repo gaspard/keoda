@@ -1,7 +1,5 @@
 import * as _ from '../lang'
 
-const iruc = ''
-
 export const sing = _.card('sing', {
   open: true,
   desc: () => `
@@ -233,5 +231,6 @@ ${_.phrase(
 * ${_.phrase('I love you so much')}
 * ${_.phrase('For giving me this')}
 * ${_.phrase('Kindness')}
+
 `,
 })

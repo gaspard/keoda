@@ -69,7 +69,7 @@ things correctly (make sure to enable the "🍑" button).
     'I cannot leave her alone because she is tied to the radiator.',
     _.o.neja,
     _.u.odo,
-    _.si.pienu,
+    _.pienu,
     _.ana.m,
     _.eku,
     _.lae,

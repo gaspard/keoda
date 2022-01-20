@@ -1,13 +1,15 @@
 import * as _ from '../lang'
 
 export const gu = _.word('gu', {
-  noun: 'darkness',
+  noun: 'darkness,empathy,life',
   verb: 'to live',
   adj: 'darkness',
   adv: 'lively',
   etym: () => [_.ga, _.u$],
   see: () => [_.em, _.nu, _.ganes, _.gufi],
   desc: () => `
+To live, to feel. Empathy to the limits of terror, darkness.
+
 This might be the most complicated concept of the whole language... Confusion in
 understanding this is good. The greater the confusion, the greater the question
 and the closer we are to a "feeling" of ${_.gu}.
@@ -133,4 +135,12 @@ the self lies a calling, ${_.jipa}.
 \\- But why ?
 \\- ${_.gu}.
 `,
+})
+
+export const gurum = _.word('gurum', {
+  noun: 'empathy, courage',
+  desc: () =>
+    `To embrasse feelings. This is the real definition of courage: to feel enough that we are not blocked by fear ${_.peu}.`,
+  see: () => [_.agupeu],
+  etym: () => [_.gu, _.rum],
 })

@@ -37,8 +37,8 @@ const Wrapper = styled.div`
     min-width: 600px;
     flex-grow: 1;
   }
-  @media (max-width: 768px) {
-    &.card {
+  @media (max-width: 1024px) {
+    & {
       min-width: 95%;
       flex-grow: 1;
     }

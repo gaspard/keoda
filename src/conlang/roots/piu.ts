@@ -2,7 +2,10 @@ import * as _ from '../lang'
 
 export const piu = _.word('piu', {
   adj: 'green',
-  see: () => [_.colors],
+  noun: 'anguish',
+  see: () => [_.colors, _.peu],
+  etym: () => [_.pi, _.u$],
+  desc: () => `When the self is pulled apart.`,
 })
 
 export const piuna = _.word('piuna', {

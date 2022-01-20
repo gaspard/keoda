@@ -3,6 +3,7 @@ import * as _ from '../lang'
 export const goa = _.word('goa', {
   noun: 'big place',
   suff: 'big place',
+  adj: 'vast',
   etym: () => [_.go, _.da],
 })
 

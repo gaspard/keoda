@@ -8,7 +8,8 @@ export const uki = suffix('uki', {
 * ${_.phrase('Long hair, long legs', _.ji.uki, _.baj.uki)}`,
 })
 
-export const ukile = suffix('ukile', {
+export const ukilei = suffix('ukilei', {
+  noun: 'elder',
   adj: 'old',
   etym: () => [_.uki, _.lei],
 })

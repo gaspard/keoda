@@ -21,6 +21,12 @@ export const lapa = _.word('lapa', {
   etym: () => [_.la, _.pa],
 })
 
+export const lapu = _.word('lapu', {
+  noun: 'request',
+  verb: 'to request',
+  etym: () => [_.lapa, _.u$],
+})
+
 // Debout, une jambe derrière soi, tenue par une main (même côté), l'autre devant soi
 export const lapalapa = _.word('lapalapa', {
   noun: 'duck',

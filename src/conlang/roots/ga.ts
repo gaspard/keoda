@@ -16,7 +16,7 @@ export const gana = _.word('gana', {
 })
 
 export const gai = _.word('gai', {
-  noun: 'consciousness\nrain',
+  noun: 'consciousness, rain',
   verb: 'to rain',
   adj: 'gentle',
   adv: 'carefully',

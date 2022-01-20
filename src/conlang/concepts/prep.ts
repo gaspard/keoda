@@ -29,6 +29,7 @@ The prepositions that can be used as case marking have the gloss next to them
 ## Nouns
 
 * ${_.ref(_.le)}
+* ${_.refAndGlo(_.wu)}
 * ${_.ref(_.diwu)}
 * ${_.ref(_.eku)}
 * ${_.ref(_.ko)}

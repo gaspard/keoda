@@ -32,6 +32,20 @@ export const pienu = _.word('pienu', {
   adj: 'alone',
   adv: 'alone',
   etym: () => [_.pi, _.enu],
+  desc: () => `
+  ${_.phrase(
+    'Standing in the vast inner loneliness.',
+    _.u.sen,
+    _.ro,
+    _.pienu.es,
+    _.le.ro.goa
+  )}
+  `,
+})
+
+export const pienues = _.word('pienues', {
+  noun: 'loneliness',
+  etym: () => [_.pienu, _.es],
 })
 
 export const aupi = _.word('aupi', {
