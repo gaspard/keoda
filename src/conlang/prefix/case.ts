@@ -27,12 +27,21 @@ export const juV = alt('ju', {
 })
 
 export const hu = prefix('hu', {
+  noun: 'smoke',
   def: 'after',
-  noun: 'end',
+  adj: 'limited',
   verb: 'to finish',
   glo: 'POSTE',
   etym: () => [_.ha, _.ru],
   see: () => [_.ju],
+})
+
+export const huN = _.alt('hu', {
+  id: 'huN',
+  noun: 'smoke',
+  glo: '**smoke**',
+  cla: 'noun',
+  alt: () => _.hu,
 })
 
 export const ni = prefix('ni', {

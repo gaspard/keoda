@@ -1,12 +1,12 @@
 import * as _ from '../lang'
 
-export const lim = _.word('lim', {
+export const jaj = _.word('jaj', {
   noun: 'threshold',
   adj: 'liminal',
 })
 
-export const lima = _.word('lima', {
+export const jaja = _.word('jaja', {
   noun: 'door',
   verb: 'to cross',
-  etym: () => [_.lim, _.na],
+  etym: () => [_.jaj, _.na],
 })

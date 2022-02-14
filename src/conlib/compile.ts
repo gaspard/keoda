@@ -16,7 +16,20 @@ export { CompiledEntry, EntryByName }
 const wordList = Object.values(entries.word)
 const cache: { id: string; etym: string[] }[] = wordList
   .filter(w => w.definition.etym)
-  .map(w => ({ id: makeId(w), etym: w.definition.etym!().map(makeId) }))
+  .map(w => ({
+    id: makeId(w),
+    etym: w.definition.etym!().map(resolveAlt).map(makeId),
+  }))
+
+function resolveAlt(entry: {
+  type: string
+  id: string
+  definition: {
+    alt: () => { id: string }
+  }
+}) {
+  return entry.type === 'alt' ? entry.definition.alt() : entry
+}
 
 function makeId(entry: { type: string; id: string }) {
   return `${entry.type}-${entry.id}`

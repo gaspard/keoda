@@ -62,7 +62,7 @@ The prepositions that can be used as case marking have the gloss next to them
 * ${_.refAndGlo(_.ro)}
 * ${_.refAndGlo(_.ri)}
 
-## Some examples
+Examples
 
 * ${_.phrase(
     'Where (on the body) did you caress Iris ?',
@@ -89,7 +89,10 @@ The prepositions that can be used as case marking have the gloss next to them
 * ${_.ref(_.eku)}
 * ${_.ref(_.meu)}
 
-${_.phrase('Did you caress Iris ?', _.eja, _.Iris.m, _.i.mi.eme, _.q)}
+Examples:
+
+* ${_.phrase('Did you caress Iris ?', _.eja, _.Iris.m, _.i.mi.eme, _.q)}
+* ${_.phrase('Why ?', _.eja, _.gu.ku, _.q)}
 
 ## Similarity
 

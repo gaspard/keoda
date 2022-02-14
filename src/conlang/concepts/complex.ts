@@ -56,7 +56,7 @@ things correctly (make sure to enable the "🍑" button).
     _.a.lu.e.em,
     _.ro.piwe
   )} ('when' relativisation)
-* ${_.phraseX(
+* ${_.phrase(
     'What I prefer is to sleep with you.',
     _.eku,
     _.o.ora.go,
@@ -81,7 +81,13 @@ things correctly (make sure to enable the "🍑" button).
   )} (reality condition)
 * ${_.phraseX('I know that they will scream.')} (knowledge)
 * ${_.phrase('I think that we should stay at home.')} (propositional attitude)
-* ${_.phrase('I said that I was tired.')} (utterance)
+* ${_.phrase(
+    'I said that I was tired.',
+    _.o.lapa.em,
+    _.eku,
+    _.tus,
+    _.o.e.em
+  )} (utterance)
 
 `,
 })

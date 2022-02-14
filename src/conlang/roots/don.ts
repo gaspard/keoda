@@ -4,7 +4,7 @@ export const don = _.word('don', {
   def: 'where,what,who',
   noun: 'unknown',
   verb: 'to exist',
-  glo: '?',
+  glo: 'what',
   desc: () =>
     `This root is a generic way of creating an absence and thus a direction (look at derived terms).`,
 })

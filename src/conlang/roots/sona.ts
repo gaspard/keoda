@@ -2,21 +2,31 @@ import * as _ from '../lang'
 
 export const sona = _.word('sona', {
   noun: 'mother earth',
-  img:
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Mother_Goddess%2C_Madhya_Pradesh_or_Rajasthan%2C_India%2C_6th_-_7th_cents.%2C_National_Museum_of_Korea%2C_Seoul_%2840236606165%29.jpg/330px-Mother_Goddess%2C_Madhya_Pradesh_or_Rajasthan%2C_India%2C_6th_-_7th_cents.%2C_National_Museum_of_Korea%2C_Seoul_%2840236606165%29.jpg',
+  img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Mother_Goddess%2C_Madhya_Pradesh_or_Rajasthan%2C_India%2C_6th_-_7th_cents.%2C_National_Museum_of_Korea%2C_Seoul_%2840236606165%29.jpg/330px-Mother_Goddess%2C_Madhya_Pradesh_or_Rajasthan%2C_India%2C_6th_-_7th_cents.%2C_National_Museum_of_Korea%2C_Seoul_%2840236606165%29.jpg',
   desc: () => `
 [Mother goddess](https://en.wikipedia.org/wiki/Mother_goddess)
   `,
   see: () => [_.gods],
 })
 
+export const husona = _.word('husona', {
+  noun: 'veil',
+  img: 'dhumavati.jpeg',
+  desc: () => `
+She is the Veil Goddess: the illusion of beginings and endings, limits, the confusion that serves as a protection from the intensity of the divine. She hides creation so that we can explore it, through time (${_.gusona}) and space (${_.gisona}).
+
+She is also called **Dhūmāvatī (धूमावती)**.
+  `,
+  etym: () => [_.huN, _.sona],
+  see: () => [_.gods],
+})
+
 export const gusona = _.word('gusona', {
   noun: 'impermanence',
-  img:
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Kali_by_Raja_Ravi_Varma.jpg/330px-Kali_by_Raja_Ravi_Varma.jpg',
+  img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Kali_by_Raja_Ravi_Varma.jpg/330px-Kali_by_Raja_Ravi_Varma.jpg',
   desc: () => `
 ${_.gusona} allows the unfolding of space through time, of life through
-death, of knowledge through experience. She is the mother goddess of ${_.gu}.
+death, of knowledge through experience. She is the mother goddess of ${_.gu} and opens the door to timelessness.
 
 Her other name is **Kālī (काली)**, the Hindu goddess of Time, Creation,
 Destruction and Power.
@@ -29,15 +39,16 @@ goddesses who each form a different aspect of the mother goddess ${_.sona}.
   see: () => [_.gods],
 })
 
+// 1. Kali (Time)
 export const kali = _.word('kali', {
   noun: 'impermanence',
   see: () => [_.gusona],
 })
 
-// 1. Kali (Time)
 // 2. Tara (Protection)
 export const gisona = _.word('gisona', {
   noun: 'compassion',
+  etym: () => [_.gi, _.sona],
 })
 
 // 3. Lalita (All of life)
