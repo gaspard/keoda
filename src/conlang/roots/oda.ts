@@ -5,11 +5,6 @@ export const oda = _.word('oda', {
   etym: () => [_.o, _.da],
 })
 
-export const zulapa = _.word('zulapa', {
-  noun: 'hidden body language',
-  etym: () => [_.ke, _.oda],
-})
-
 export const hida = _.word('hida', {
   noun: 'sibling',
   etym: () => [_.him, _.oda],

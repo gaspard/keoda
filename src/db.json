@@ -477,8 +477,7 @@
         "phrase-273",
         "phrase-276",
         "phrase-277",
-        "phrase-285",
-        "phrase-286"
+        "phrase-285"
       ]
     },
     "word-ape": {
@@ -862,10 +861,7 @@
       "id": "word-agana",
       "fulltext": "agana",
       "writ": "అగానా",
-      "phon": "/agana/",
-      "phrases": [
-        "phrase-287"
-      ]
+      "phon": "/agana/"
     },
     "word-agade": {
       "name": "agade",
@@ -1121,10 +1117,7 @@
       "id": "word-anama",
       "fulltext": "anama",
       "writ": "అనామా",
-      "phon": "/anama/",
-      "phrases": [
-        "phrase-287"
-      ]
+      "phon": "/anama/"
     },
     "word-anarum": {
       "name": "anarum",
@@ -2095,8 +2088,7 @@
       ],
       "phrases": [
         "phrase-271",
-        "phrase-279",
-        "phrase-286"
+        "phrase-279"
       ]
     },
     "word-dono": {
@@ -3246,8 +3238,7 @@
         "phrase-75",
         "phrase-256",
         "phrase-257",
-        "phrase-258",
-        "phrase-287"
+        "phrase-258"
       ]
     },
     "word-kegai": {
@@ -3957,8 +3948,7 @@
       "writ": "దుహాశా",
       "phon": "/duhaʃa/",
       "phrases": [
-        "phrase-124",
-        "phrase-287"
+        "phrase-124"
       ]
     },
     "word-hawe": {
@@ -4898,8 +4888,7 @@
       ],
       "phrases": [
         "phrase-140",
-        "phrase-259",
-        "phrase-287"
+        "phrase-259"
       ]
     },
     "word-jona": {
@@ -5126,7 +5115,6 @@
         "word-kegu",
         "word-kela",
         "word-keli",
-        "word-zulapa",
         "word-kepal",
         "word-keyin"
       ]
@@ -5406,7 +5394,8 @@
         "word-lapalapa",
         "word-lapir",
         "word-gilapa",
-        "word-pasu"
+        "word-pasu",
+        "word-zulapa"
       ],
       "phrases": [
         "phrase-52",
@@ -5417,8 +5406,7 @@
         "phrase-214",
         "phrase-217",
         "phrase-252",
-        "phrase-272",
-        "phrase-287"
+        "phrase-272"
       ]
     },
     "word-lapu": {
@@ -5436,10 +5424,7 @@
       "id": "word-lapu",
       "fulltext": "lapu",
       "writ": "లాపు",
-      "phon": "/lapu/",
-      "phrases": [
-        "phrase-286"
-      ]
+      "phon": "/lapu/"
     },
     "word-lapalapa": {
       "name": "lapalapa",
@@ -7171,7 +7156,6 @@
         "word-lamioda",
         "word-neoda",
         "word-noda",
-        "word-zulapa",
         "word-hida",
         "word-odo",
         "word-odu",
@@ -7187,22 +7171,6 @@
         "phrase-271",
         "phrase-273"
       ]
-    },
-    "word-zulapa": {
-      "name": "zulapa",
-      "type": "word",
-      "noun": "hidden body language",
-      "etym": [
-        "word-ke",
-        "word-oda"
-      ],
-      "forcedGlo": false,
-      "glo": "**hidden body language**",
-      "cla": "noun",
-      "id": "word-zulapa",
-      "fulltext": "zulapa",
-      "writ": "ఠులాపా",
-      "phon": "/zulapa/"
     },
     "word-hida": {
       "name": "hida",
@@ -8391,8 +8359,7 @@
         "phrase-123",
         "phrase-129",
         "phrase-137",
-        "phrase-138",
-        "phrase-286"
+        "phrase-138"
       ]
     },
     "word-ra": {
@@ -9028,8 +8995,7 @@
       "phrases": [
         "phrase-92",
         "phrase-124",
-        "phrase-139",
-        "phrase-287"
+        "phrase-139"
       ]
     },
     "word-so": {
@@ -10467,7 +10433,8 @@
       "writ": "ఠు",
       "phon": "/zu/",
       "deriv": [
-        "word-zuzu"
+        "word-zuzu",
+        "word-zulapa"
       ],
       "phrases": [
         "phrase-29",
@@ -10491,8 +10458,7 @@
         "phrase-227",
         "phrase-266",
         "phrase-267",
-        "phrase-277",
-        "phrase-286"
+        "phrase-277"
       ]
     },
     "word-zuzu": {
@@ -10521,6 +10487,22 @@
         "phrase-264",
         "phrase-268"
       ]
+    },
+    "word-zulapa": {
+      "name": "zulapa",
+      "type": "word",
+      "noun": "the voice from the heart",
+      "etym": [
+        "word-zu",
+        "word-lapa"
+      ],
+      "forcedGlo": false,
+      "glo": "**the voice from the heart**",
+      "cla": "noun",
+      "id": "word-zulapa",
+      "fulltext": "zulapa",
+      "writ": "ఠులాపా",
+      "phon": "/zulapa/"
     },
     "word-sha": {
       "name": "sha",
@@ -10562,8 +10544,7 @@
       "writ": "శి",
       "phon": "/ʃi/",
       "phrases": [
-        "phrase-119",
-        "phrase-286"
+        "phrase-119"
       ]
     },
     "word-sho": {
@@ -10583,8 +10564,7 @@
         "phrase-92",
         "phrase-217",
         "phrase-242",
-        "phrase-243",
-        "phrase-287"
+        "phrase-243"
       ]
     },
     "word-u": {
@@ -10838,8 +10818,7 @@
       "phrases": [
         "phrase-25",
         "phrase-86",
-        "phrase-211",
-        "phrase-287"
+        "phrase-211"
       ]
     },
     "word-ro": {
@@ -11032,8 +11011,7 @@
         "phrase-158",
         "phrase-216",
         "phrase-218",
-        "phrase-265",
-        "phrase-286"
+        "phrase-265"
       ]
     },
     "word-da": {
@@ -11718,9 +11696,7 @@
         "phrase-261",
         "phrase-262",
         "phrase-268",
-        "phrase-276",
-        "phrase-286",
-        "phrase-287"
+        "phrase-276"
       ]
     },
     "word-em": {
@@ -11770,8 +11746,7 @@
         "phrase-249",
         "phrase-253",
         "phrase-259",
-        "phrase-277",
-        "phrase-286"
+        "phrase-277"
       ]
     },
     "word-emo": {
@@ -12023,10 +11998,7 @@
       "id": "word-ukilei",
       "fulltext": "ukilei",
       "writ": "ఉకిలేఇ",
-      "phon": "/ukilɛi/",
-      "phrases": [
-        "phrase-286"
-      ]
+      "phon": "/ukilɛi/"
     },
     "word-wu": {
       "name": "wu",
@@ -12056,8 +12028,7 @@
         "phrase-99",
         "phrase-102",
         "phrase-210",
-        "phrase-219",
-        "phrase-287"
+        "phrase-219"
       ]
     }
   },
@@ -12068,7 +12039,7 @@
       "writ": "aaa",
       "phon": "",
       "noun": "Why zulapa ?",
-      "desc": "\nMy first goal was to create a language for love and sex. Something that would\nmake it easy and fun to express desire, play with power exchanges and honor\nthe great gift of sharing bodily love.\n\nI also felt that the languages I speak had lots of biais in terms of what is\nexpected from each gender during sex. For example, most languages have words\nto express the masculine action of penetration but lack words to express\nfeminine action taking.\n\n#### nsfw\n\n* [33](phrase-33)\n* [34](phrase-34)\n\nI thus started to work on a language with the following constraints (in order\nof importance):\n\n1. Focus on the body\n2. Simple phrases to give sexual orders\n3. Relatively easy to pronounce: [phon](card-phon)\n\nAs I worked on the language while going through difficult mental states, I\ndiscovered that creating words helped me better understand what happened to\nme so I added words to explore the feelings of awe and terror of being alive.\n\nAnd finally, I ended up working a lot on the language during my trangender\ntransition. For some weird reason, inventing words brought me back to my 10\nyear old self, before I \"died\" inside. Having a language with so few words\nmight have reminded me of learning **bahasa indonesia** or **english** or\neven my first programming language **pascal** which happened at that age. Or\nmaybe creating words like \"tree-foot\" for roots or \"wind\" to express male\ngender brought me closer to this child.\n\nThis language has acted as some kind of bridge between a little girl\nexperiencing the trauma of going through the wrong puberty and the adult I am\nnow trying to listen to the past while finally discovering a sense of\nidentity extending into adulthood.\n\nI have always loved languages, choreography notations, music notation,\nprogramming languages. Maybe this is my way to try and decipher why I felt\nso dead inside... or a way to escape reality and dream of peace.\n\n# Language evolution\n\nDuring the first phase of this language creation, the language started with\nnouns (representing positions) and nothing else and then I added the notion\nthat nouns could be verbs ([la](word-la) means lips but also kissing).\n\nWith this in place, it became confusing as to what was the verb and what was\nthe subject or the target of the action. To solve this, I added the \"subject\"\nprefixes [o](word-o$), [i](word-i$), and later [a](word-a).\n\nAfter around 2 years into the language creation, I met a guy on a bus and as\nwe talked, he told me that he was a linguist so I told him about my language\ncreation project. This is when he said that this was called a \"conlang\" and\nthat there were actually books and websites on the subject.\n\nSo I bought the books and studies conlanging with passion. Since I new\nnothing about linguistices, not even the concept of \"adverb\" or \"pronoun\" was\nalien to me due to me going in schools with different languages and skipping\nall this, I had to do some catching up. This was very good for my project\nbecause it helped me name some of my problems (who does what to whom) and see\n(classical) solutions to this problem (accusative, dative, prepositions,\netc).\n\nI went on a feverish refactoring of the language, clarifying verbs and nouns,\ntransforming afixes into case markings, conjugating verbs, adding tenses,\naccusative and dative. All of this helped me create more and more complex\nphrases and I started to manage translating some of my favorite poets such as\n(Sapho: [sapho](card-sapho)).\n\nBut then, things started to feel bad. The language started to sound very dull\n(most phrases were ending with /am/ due to how the accusative worked). So I\ntried to evolve my most important case to have some variation, I studied\nirregularities and tried to evolve the language naturally.\n\nBut then, the language started to feel \"constructed\" and \"in a box\". It\nwasn't sexy and fun and childish anymore but felt \"clever\" and I really\ndisliked this feeling and having to the urge to \"fix\" things to make it\nbetter instead of enjoying the creation process.\n\nAt this point I realised that everything I had learned about languages had\ngreatly opened my understanding but at the same time was limiting me and this\nis when I went back and removed some of the \"linguistic\" idioms in my work on\nthe language.\n\nInstead, I focused on how to make it easy to understand the role a word plays\nin a phrase. That is, instead of \"conjugating verbs\", I looked at how to\n\"make words take the role of actions\" and then finding a way to clarify the\n\"agent\" doing something and the \"tasted\" thing (direct object) instead of\nthinking in terms of \"ergative\" and \"accusative\" case markings. Same goes\nwith \"adjectives\" and \"adverbs\": they are just affixes that modify whatever\nthey are related to.\n\nRemoving technical jargon for cases and pronouns and just saying \"they\"\ninstead of \"3SG\" and changing \"ACC\" to something else that marks \"flavor\"\nalso makes more sense for this project.\n\n[35](phrase-35)\n[36](phrase-36)\n\n# Glossing\n\nHere are some of the terms and weird abbreviations I use for glossing (the\nmorpheme by morpheme translation of words):\n\n### Indefinite subject\n\nWritten as **1SG.INDF** this means \"one\", \"people\", \"someone\". It does not really\nmean \"I\" but often does. The blurry aspect of this \"I/we\" is important in\nzulapa because it highlights the unknowable aspect of the other. The meaning\nof this \"unknown person\" can mean many things. For example, if I say \"weˣ\nwill undress you tonight\", this can mean any of:\n\n1. You do not know me, you will be undressed by the \"surprising me\" tonight.\n2. We have consented to inviting others without warning and one of them will\n undress you tonight (submissive level ++).\n3. I will enter some role to undress you and it will be another kind of \"me\".\n4. etc\n\nTo actually say \"me\", we use [pi](word-pi).\n\n### Special case markings\n\n* [yi](word-yi) `TINY`: diminutive, tiny\n* [kei](word-kei) `FANTASTIC`: honorific, Dom\n* [lo](word-lo) `WET`: surrendered, submissive\n* [iwi](word-iwi) `ENBY`: non-binary\n* [m](word-m) `ACC+`: accusitive with a feeling of appreciation\n* [n](word-n) `ACC`: neutral accusative\n* [h](word-h) `ACC-`: accusative with a feeling of unpleasantness\n* [pa](alt-paM) `MYST`: mystical modifier (from numinous to delirious)\n\n## Gloss color\n\nWords are glossed with a specific color depending on the role they take.\nModifiers are in italic (whether in-word or as separate words).\n\n1. Noun: blue\n1. Noun modifier (adjective): light blue\n1. Verb: purple\n1. Verb modifier (adverb): light purple\n\n# With all this said, Welcome !\n\nSo here is **zulapa**, a language born in the realm of sexuality, evolved as a\nway of coping through mental illness and dysphoria and blossomed as a way to\nsing my love of this journey [iwigui](word-iwigui)...\n\n❤️️\n\n## Using this web page\n\nOn the top right or the page, there are two buttons. One is to toggle between\nTelugu or latin representation. The other one \"🍑\" enables the display of\nphrases related to sexuality (these phrases are hidden by default).\n\nYour next read: [phon](card-phon) (phonology)\n",
+      "desc": "\nMy first goal with [zulapa](word-zulapa) was to create a language for love and sex.\nSomething that would make it easy and fun to express desire, play with power\nexchanges and honor the great gift of sharing bodily love.\n\nI also felt that the languages I speak had lots of biais in terms of what is\nexpected from each gender during sex. For example, most languages have words\nto express the masculine action of penetration but lack words to express\nfeminine action of taking.\n\n#### nsfw\n\n* [33](phrase-33)\n* [34](phrase-34)\n\nI thus started to work on a language with the following constraints (in order\nof importance):\n\n1. Focus on the body\n2. Simple phrases to give sexual orders\n3. Relatively easy to pronounce: [phon](card-phon)\n\nAs I worked on the language while going through difficult mental states, I\ndiscovered that creating words helped me better understand what happened to\nme so I added words to explore the feelings of awe and terror of being alive.\n\nAnd finally, I ended up working a lot on the language during my trangender\ntransition. For some weird reason, inventing words brought me back to my 10\nyear old self, before I \"died\" inside. Having a language with so few words\nmight have reminded me of learning **bahasa indonesia** or **english** or\neven my first programming language **pascal** which happened at that age. Or\nmaybe creating words like \"tree-foot\" for roots or \"wind\" to express male\ngender brought me closer to this child.\n\nThis language has acted as some kind of bridge between a little girl\nexperiencing the trauma of going through the wrong puberty and the adult I am\nnow trying to listen to the past while finally discovering a sense of\nidentity extending into adulthood.\n\nI have always loved languages, choreography notations, music notation,\nprogramming languages. Maybe this is my way to try and decipher why I felt\nso dead inside... or a way to escape reality and dream of peace.\n\n# Language evolution\n\nDuring the first phase of this language creation, the language started with\nnouns (representing positions) and nothing else and then I added the notion\nthat nouns could be verbs ([la](word-la) means lips but also kissing).\n\nWith this in place, it became confusing as to what was the verb and what was\nthe subject or the target of the action. To solve this, I added the \"subject\"\nprefixes [o](word-o$), [i](word-i$), and later [a](word-a).\n\nAfter around 2 years into the language creation, I met a guy on a bus and as\nwe talked, he told me that he was a linguist so I told him about my language\ncreation project. This is when he said that this was called a \"conlang\" and\nthat there were actually books and websites on the subject.\n\nSo I bought the books and studies conlanging with passion. Since I new\nnothing about linguistices, not even the concept of \"adverb\" or \"pronoun\" was\nalien to me due to me going in schools with different languages and skipping\nall this, I had to do some catching up. This was very good for my project\nbecause it helped me name some of my problems (who does what to whom) and see\n(classical) solutions to this problem (accusative, dative, prepositions,\netc).\n\nI went on a feverish refactoring of the language, clarifying verbs and nouns,\ntransforming afixes into case markings, conjugating verbs, adding tenses,\naccusative and dative. All of this helped me create more and more complex\nphrases and I started to manage translating some of my favorite poets such as\n(Sapho: [sapho](card-sapho)).\n\nBut then, things started to feel bad. The language started to sound very dull\n(most phrases were ending with /am/ due to how the accusative worked). So I\ntried to evolve my most important case to have some variation, I studied\nirregularities and tried to evolve the language naturally.\n\nIt did not really work: the language started to feel \"constructed\" and \"in a\nbox\". It wasn't sexy and fun and childish anymore but felt \"clever\" and I really\ndisliked this feeling. And the weird urge to \"fix\" things to make it better\ninstead of enjoying the creation process.\n\nAt this point I realised that everything I had learned about languages had\ngreatly opened my understanding but at the same time was limiting me and this\nis when I went back and removed some of the \"linguistic\" idioms in my work on\nthe language.\n\nInstead, I focused on how to make it easy to understand the role a word plays\nin a phrase. That is, instead of \"conjugating verbs\", I looked at how to\n\"make words take the role of actions\" and then finding a way to clarify the\n\"agent\" doing something and the \"tasted\" thing (direct object) instead of\nthinking in terms of \"ergative\" and \"accusative\" case markings. Same goes\nwith \"adjectives\" and \"adverbs\": they are just affixes that modify whatever\nthey are related to.\n\nRemoving technical jargon for cases and pronouns and just saying \"they\"\ninstead of \"3SG\" and changing \"ACC\" to something else that marks \"flavor\"\nalso makes more sense for this project.\n\n[35](phrase-35)\n[36](phrase-36)\n\n# Glossing\n\nHere are some of the terms and weird abbreviations I use for glossing (the\nmorpheme by morpheme translation of words):\n\n### Indefinite subject\n\nWritten as **1SG.INDF** this means \"one\", \"people\", \"someone\". It does not really\nmean \"I\" but often does. The blurry aspect of this \"I/we\" is important in\nzulapa because it highlights the unknowable aspect of the other. The meaning\nof this \"unknown person\" can mean many things. For example, if I say \"weˣ\nwill undress you tonight\", this can mean any of:\n\n1. You do not know me, you will be undressed by the \"surprising me\" tonight.\n2. We have consented to inviting others without warning and one of them will\n undress you tonight (submissive level ++).\n3. I will enter some role to undress you and it will be another kind of \"me\".\n4. etc\n\nTo actually say \"me\", we use [pi](word-pi).\n\n### Special case markings\n\n* [yi](word-yi) `TINY`: diminutive, tiny\n* [kei](word-kei) `FANTASTIC`: honorific, Dom\n* [lo](word-lo) `WET`: surrendered, submissive\n* [iwi](word-iwi) `ENBY`: non-binary\n* [m](word-m) `ACC+`: accusitive with a feeling of appreciation\n* [n](word-n) `ACC`: neutral accusative\n* [h](word-h) `ACC-`: accusative with a feeling of unpleasantness\n* [pa](alt-paM) `MYST`: mystical modifier (from numinous to delirious)\n\n## Gloss color\n\nWords are glossed with a specific color depending on the role they take.\nModifiers are in italic (whether in-word or as separate words).\n\n1. Noun: blue\n1. Noun modifier (adjective): light blue\n1. Verb: purple\n1. Verb modifier (adverb): light purple\n\n# With all this said, Welcome !\n\nSo here is [zulapa](word-zulapa) a language born in the realm of sexuality, evolved as a\nway of coping through mental illness and dysphoria and blossomed as a way to\nsing my love of this journey [iwigui](word-iwigui)...\n\n❤️️\n\n## Using this web page\n\nOn the top right or the page, there are two buttons. One is to toggle between\nTelugu or latin representation. The other one \"🍑\" enables the display of\nphrases related to sexuality (these phrases are hidden by default).\n\nYour next read: [phon](card-phon) (phonology)\n",
       "id": "card-aaa",
       "fulltext": "aaa"
     },
@@ -12395,15 +12366,6 @@
       "desc": "\n  To G–, her one-and-only rose, from A– the bond of precious love.\n  \n  What strength have I, that I may bear it, that I may have patience while you are gone?\n  Is my strength that of stones that I should wait for your return, I who do not cease to ache night and day, like one who lacks both hand and foot?\n\n  Without you all that’s joyous and delightful becomes like mud trodden underfoot, instead of rejoicing I shed tears, my spirit never appears joyful.\n  When I remember the kissed you gave, and with what words of joy you caressed my little breasts, I want to die as I am not allowed to see you.\n  What shall I, unhappiest, do? Where shall I, the poorest, turn?\n  \n  Oh if my body had been consigned to the earth till your longed-for return, or if Habakkuk’s trance-journey came upon me, that I might once come to see my lover’s face — then I’d not care if that hour I should die! For in the world there is no woman born so lovable, so dear, one who loves me without feigning, with such deep love.\n  \n  So I shall not cease to feel the endless pain till I win the sight of you again.\n  Indeed, as a certain wise man says, it is a great misery for a man not to be with him without whom he cannot be.\n  While the world lasts, you’ll never be effaced form the center of my heart.\n  \n  Why say more?\n  Return sweet love!\n  Do not delay your journey longer, know that I cannot bear your absence longer.\n  \n  Farewell, remember me.\n",
       "id": "card-nuns",
       "fulltext": "nuns"
-    },
-    "card-Old Lady": {
-      "name": "Old Lady",
-      "type": "card",
-      "writ": "Old Lady",
-      "phon": "",
-      "desc": "\n# Old Lady\n\n* [286](phrase-286)\n* [287](phrase-287)\n* [288](phrase-288)\n* [289](phrase-289)\n* [290](phrase-290)\n",
-      "id": "card-Old Lady",
-      "fulltext": "Old Lady"
     }
   },
   "phrase": {
@@ -17277,91 +17239,6 @@
       "writ": "౨౮౫",
       "phon": "/285/",
       "phrase": "auto afo latom"
-    },
-    "phrase-286": {
-      "name": "286",
-      "type": "phrase",
-      "trad": "\"What have you loved ?\" will ask the Old Lady",
-      "words": [
-        "word-don",
-        "alt-shi-zu-em",
-        "word-?",
-        "alt-a-lapu-ir",
-        "alt-ukilei-ana"
-      ],
-      "see": [
-        "card-Old Lady"
-      ],
-      "id": "phrase-286",
-      "fulltext": "286",
-      "writ": "౨౮౬",
-      "phon": "/286/",
-      "phrase": "don shizulem ? alapulir ukileilana"
-    },
-    "phrase-287": {
-      "name": "287",
-      "type": "phrase",
-      "trad": "We will say: \"the sound of the rain on leafs\" and \"the laughs of children\".",
-      "words": [
-        "alt-sho-lapa-ir",
-        "alt-agana-wu",
-        "word-gai",
-        "word-fe",
-        "word-anama",
-        "word-shu",
-        "alt-duhasha-wu",
-        "word-joda"
-      ],
-      "see": [
-        "card-Old Lady"
-      ],
-      "id": "phrase-287",
-      "fulltext": "287",
-      "writ": "౨౮౭",
-      "phon": "/287/",
-      "phrase": "sholapalir aganawu gai fe anama shu duhashawu joda"
-    },
-    "phrase-288": {
-      "name": "288",
-      "type": "phrase",
-      "trad": "\"The singings of our men and their tired arms entangled in our hair\".",
-      "words": [],
-      "see": [
-        "card-Old Lady"
-      ],
-      "id": "phrase-288",
-      "fulltext": "288",
-      "writ": "౨౮౮",
-      "phon": "/288/",
-      "phrase": ""
-    },
-    "phrase-289": {
-      "name": "289",
-      "type": "phrase",
-      "trad": "\"The blue sky dreaming itself on the grass and the whispering of the wind\".",
-      "words": [],
-      "see": [
-        "card-Old Lady"
-      ],
-      "id": "phrase-289",
-      "fulltext": "289",
-      "writ": "౨౮౯",
-      "phon": "/289/",
-      "phrase": ""
-    },
-    "phrase-290": {
-      "name": "290",
-      "type": "phrase",
-      "trad": "And finally, moved beyond repair, \"the sound of a familiar voice, yes, the unique tone of a loved voice\".",
-      "words": [],
-      "see": [
-        "card-Old Lady"
-      ],
-      "id": "phrase-290",
-      "fulltext": "290",
-      "writ": "౨౯౦",
-      "phon": "/290/",
-      "phrase": ""
     }
   },
   "alt": {
@@ -23510,110 +23387,6 @@
       "fulltext": "latom",
       "writ": "లాతోం",
       "phon": "/latɔm/"
-    },
-    "alt-shi-zu": {
-      "name": "shizu",
-      "type": "alt",
-      "id": "alt-shi-zu",
-      "glo": "you.PL.**love**",
-      "alt": "word-zu",
-      "cla": "verb",
-      "prev": "word-shi",
-      "orig": "word-zu",
-      "fulltext": "shizu",
-      "writ": "శిఠు",
-      "phon": "/ʃizu/"
-    },
-    "alt-shi-zu-em": {
-      "name": "shizulem",
-      "type": "alt",
-      "id": "alt-shi-zu-em",
-      "glo": "you.PL.**love**.PST",
-      "cla": "verb",
-      "alt": "word-zu",
-      "orig": "word-em",
-      "prev": "alt-shi-zu",
-      "fulltext": "shizulem",
-      "writ": "శిఠులేం",
-      "phon": "/ʃizulɛm/"
-    },
-    "alt-a-lapu": {
-      "name": "alapu",
-      "type": "alt",
-      "id": "alt-a-lapu",
-      "glo": "they.**request**",
-      "alt": "word-lapu",
-      "cla": "verb",
-      "prev": "word-a",
-      "orig": "word-lapu",
-      "fulltext": "alapu",
-      "writ": "అలాపు",
-      "phon": "/alapu/"
-    },
-    "alt-a-lapu-ir": {
-      "name": "alapulir",
-      "type": "alt",
-      "id": "alt-a-lapu-ir",
-      "glo": "they.**request**.FUT",
-      "cla": "verb",
-      "alt": "word-lapu",
-      "orig": "word-ir",
-      "prev": "alt-a-lapu",
-      "fulltext": "alapulir",
-      "writ": "అలాపులిర్‌",
-      "phon": "/alapulir/"
-    },
-    "alt-ukilei-ana": {
-      "name": "ukileilana",
-      "type": "alt",
-      "id": "alt-ukilei-ana",
-      "glo": "**elder**.*feminine*",
-      "cla": "noun",
-      "alt": "word-ukilei",
-      "orig": "word-ana",
-      "prev": "word-ukilei",
-      "fulltext": "ukileilana",
-      "writ": "ఉకిలేఇలానా",
-      "phon": "/ukilɛilana/"
-    },
-    "alt-sho-lapa-ir": {
-      "name": "sholapalir",
-      "type": "alt",
-      "id": "alt-sho-lapa-ir",
-      "glo": "we.**talk**.FUT",
-      "cla": "verb",
-      "alt": "word-lapa",
-      "orig": "word-ir",
-      "prev": "alt-sho-lapa",
-      "fulltext": "sholapalir",
-      "writ": "శోలాపాలిర్‌",
-      "phon": "/ʃɔlapalir/"
-    },
-    "alt-agana-wu": {
-      "name": "aganawu",
-      "type": "alt",
-      "id": "alt-agana-wu",
-      "glo": "**sound**.FROM",
-      "cla": "noun",
-      "alt": "word-agana",
-      "orig": "word-wu",
-      "prev": "word-agana",
-      "fulltext": "aganawu",
-      "writ": "అగానావు",
-      "phon": "/aganawu/"
-    },
-    "alt-duhasha-wu": {
-      "name": "duhashawu",
-      "type": "alt",
-      "id": "alt-duhasha-wu",
-      "glo": "**laugh**.FROM",
-      "cla": "verb",
-      "alt": "word-duhasha",
-      "orig": "word-wu",
-      "prev": "word-duhasha",
-      "fulltext": "duhashawu",
-      "writ": "దుహాశావు",
-      "phon": "/duhaʃawu/"
     }
   }
 }

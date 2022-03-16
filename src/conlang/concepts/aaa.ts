@@ -3,14 +3,14 @@ import * as _ from '../lang'
 export const aaa = _.card('aaa', {
   noun: 'Why zulapa ?',
   desc: () => `
-My first goal was to create a language for love and sex. Something that would
-make it easy and fun to express desire, play with power exchanges and honor
-the great gift of sharing bodily love.
+My first goal with ${_.zulapa} was to create a language for love and sex.
+Something that would make it easy and fun to express desire, play with power
+exchanges and honor the great gift of sharing bodily love.
 
 I also felt that the languages I speak had lots of biais in terms of what is
 expected from each gender during sex. For example, most languages have words
 to express the masculine action of penetration but lack words to express
-feminine action taking.
+feminine action of taking.
 
 #### nsfw
 
@@ -79,10 +79,10 @@ But then, things started to feel bad. The language started to sound very dull
 tried to evolve my most important case to have some variation, I studied
 irregularities and tried to evolve the language naturally.
 
-But then, the language started to feel "constructed" and "in a box". It
-wasn't sexy and fun and childish anymore but felt "clever" and I really
-disliked this feeling and having to the urge to "fix" things to make it
-better instead of enjoying the creation process.
+It did not really work: the language started to feel "constructed" and "in a
+box". It wasn't sexy and fun and childish anymore but felt "clever" and I really
+disliked this feeling. And the weird urge to "fix" things to make it better
+instead of enjoying the creation process.
 
 At this point I realised that everything I had learned about languages had
 greatly opened my understanding but at the same time was limiting me and this
@@ -148,7 +148,7 @@ Modifiers are in italic (whether in-word or as separate words).
 
 # With all this said, Welcome !
 
-So here is **zulapa**, a language born in the realm of sexuality, evolved as a
+So here is ${_.zulapa} a language born in the realm of sexuality, evolved as a
 way of coping through mental illness and dysphoria and blossomed as a way to
 sing my love of this journey ${_.iwigui}...
 
