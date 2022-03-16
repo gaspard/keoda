@@ -194,7 +194,7 @@ const PHON: { [key: string]: string } = {
   z: 'z',
   S: 'ʃ', // 'ʂ' in reality but less people know the IPA sign
   J: 'ʒ',
-  j: 'ʒ', // 'dʒ'
+  j: 'ʒ',
   H: 'x',
   h: 'h',
   w: 'w',

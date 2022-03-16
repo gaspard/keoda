@@ -46,7 +46,7 @@ const Anchor = styled.a`
 
 export const Link: Comp<LinkProps> = ({ className, id, type, children }) => {
   const ctx = useOvermind()
-  const { writ } = ctx.state.keoda
+  const { writ } = ctx.state.zulapa
   if (id.startsWith('http') || id.startsWith('mailto')) {
     return (
       <Anchor href={id} children={children} className="out" target="_blank" />
@@ -78,19 +78,19 @@ export const Link: Comp<LinkProps> = ({ className, id, type, children }) => {
     <Wrapper
       className={classnames('Link', className, {
         ref: entryType,
-        high: ref === ctx.state.keoda.selected,
+        high: ref === ctx.state.zulapa.selected,
       })}
       onMouseEnter={e => {
         const r = e.currentTarget.getBoundingClientRect()
-        if (!ctx.state.keoda.float || ctx.state.keoda.float.hidden) {
+        if (!ctx.state.zulapa.float || ctx.state.zulapa.float.hidden) {
           timer = setTimeout(() => {
-            ctx.actions.keoda.float({
+            ctx.actions.zulapa.float({
               id: ref,
               position: { top: r.top + r.height, left: r.left + r.width / 2 },
             })
           }, 500)
         } else {
-          ctx.actions.keoda.float({
+          ctx.actions.zulapa.float({
             id: ref,
             position: { top: r.top + r.height, left: r.left + r.width / 2 },
           })
@@ -102,11 +102,11 @@ export const Link: Comp<LinkProps> = ({ className, id, type, children }) => {
           timer = undefined
         }
         setTimeout(() => {
-          ctx.actions.keoda.hideFloat({ id: ref })
+          ctx.actions.zulapa.hideFloat({ id: ref })
         }, 500)
       }}
       onClick={() => {
-        ctx.actions.keoda.hideFloat({ id: ref })
+        ctx.actions.zulapa.hideFloat({ id: ref })
       }}
     >
       <Anchor href={`#${ref}`} className={anchorClass}>

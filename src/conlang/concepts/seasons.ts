@@ -16,7 +16,7 @@ year.
 * ${_.nounRef(_.ulul)}
 * ${_.nounRef(_.piuna)}
 * ${_.nounRef(_.eri)}
-* ${_.nounRef(_.palajil)}
+* ${_.nounRef(_.palil)}
 * ${_.nounRef(_.pantame)}
 * ${_.nounRef(_.wiyon)}
 * ${_.nounRef(_.gopona)}

@@ -1,4 +1,4 @@
-import { prefix } from '../../keoda'
+import { prefix } from '../../zulapa'
 import { shaH } from '../../roots'
 
 export const sha = prefix('sha', {

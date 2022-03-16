@@ -5,9 +5,9 @@ export interface SelectArg {
 }
 
 export const select: Action<SelectArg> = (ctx, arg) => {
-  if (ctx.state.keoda.selected === arg.id) {
-    delete ctx.state.keoda.selected
+  if (ctx.state.zulapa.selected === arg.id) {
+    delete ctx.state.zulapa.selected
   } else {
-    ctx.state.keoda.selected = arg.id
+    ctx.state.zulapa.selected = arg.id
   }
 }

@@ -106,7 +106,7 @@ export const Phrase: Comp<PhraseProps> = ({ className, type, id }) => {
     return null
   }
   if (phrase.nsfw) {
-    if (!ctx.state.keoda.nsfw) {
+    if (!ctx.state.zulapa.nsfw) {
       return null
     }
   }
@@ -122,7 +122,7 @@ export const Phrase: Comp<PhraseProps> = ({ className, type, id }) => {
           div.classList.remove('blink')
         }, 1000)
       }
-      ctx.actions.keoda.copyPhrase({ id })
+      ctx.actions.zulapa.copyPhrase({ id })
     } else {
       setOpen(!open)
     }

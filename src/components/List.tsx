@@ -110,7 +110,7 @@ const Aspect = styled.div`
 
 export const GlossAndLink: Comp<LinkProps> = props => {
   const ctx = useOvermind()
-  const { writ } = ctx.state.keoda
+  const { writ } = ctx.state.zulapa
   const entry = getEntry(ctx, props.id)
   if (!entry) {
     return null

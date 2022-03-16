@@ -41,7 +41,7 @@ export const nuru = _.word('nuru', {
 Apophenia is the perception of or belief in connectedness among unrelated
 phenomena (concept from psychologist Klaus Conrad).
 
-In keoda, this litteraly means "the emergence of hubris".
+In zulapa, this litteraly means "the emergence of hubris".
 `,
 })
 

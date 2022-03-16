@@ -1,4 +1,4 @@
-import { prefix } from '../../keoda'
+import { prefix } from '../../zulapa'
 
 export const tu = prefix('tu', {
   noun: 'infinite subject',

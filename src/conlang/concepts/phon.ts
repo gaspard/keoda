@@ -18,7 +18,7 @@ and curvy.
 | :-------------  | :--------: | :-------------: | :----------: | :-----: |
 | **Nasal**       | m మ       | n న             |              |         |
 | **Plosive**     | p ప / b బ | t త / d ద  | k క / g గ        |         |
-| **Fricative**   | f చ       | s స / z ఠ -  ʃ శ / dʒ జ | x ః * | h హ |
+| **Fricative**   | f చ       | s స / z ఠ -  ʃ శ / ʒ జ | x ః * | h హ |
 | **Approximant** | ʋ  వ      |                 | j య         |         |
 | **Trill**       |            | r ర             |              |         |
 | **Lateral**     |            | l ల             |              |         |
@@ -31,11 +31,11 @@ express (subtle) disdain.
 
 All sounds correspond to [Telugu](https://en.wikipedia.org/wiki/Telugu_script) except for:
 
-| Symbol | Telugu     | Keoda     | Example             |
+| Symbol | Telugu     | Zulapa     | Example             |
 | :----: | :--------: | :-------: | :--------:          |
 | **చ**  | /tʃ/       | /f/       | ${_.falame}        |
 | **ఠ**  | /tʰ/       | /z/       | ${_.zuzu}          |
-| **జ్‌**  | /dʒ/       | /dʒ/ or /ʒ/ (end of word) | ${_.joda}, ${_.baj} |
+| **జ్‌**  | /dʒ/       | /ʒ/       | ${_.joda}, ${_.baj} |
  
 
 ## Vowels

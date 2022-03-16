@@ -1,4 +1,4 @@
-import { suffix } from '../keoda'
+import { suffix } from '../zulapa'
 
 // u case (suffix)
 export const u$ = suffix('u', {

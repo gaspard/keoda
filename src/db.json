@@ -981,7 +981,6 @@
         "word-ajalil",
         "word-naj",
         "word-ajaname",
-        "word-palaj",
         "word-yaj",
         "word-ajayusa"
       ],
@@ -1290,7 +1289,7 @@
       "name": "awi",
       "type": "word",
       "noun": "fish",
-      "verb": "to shine",
+      "verb": "to glow",
       "adj": "beautiful",
       "see": [
         "word-fawulama"
@@ -3706,7 +3705,7 @@
         "card-conrad",
         "word-nuru"
       ],
-      "desc": "\nTrema is the feeling of something bad coming, the feeling of the world\nconspiring against oneself (concept from psychologist Klaus Conrad).\n\nIn keoda, this litteraly means \"the emergence of the darkness\".\n",
+      "desc": "\nTrema is the feeling of something bad coming, the feeling of the world\nconspiring against oneself (concept from psychologist Klaus Conrad).\n\nIn zulapa, this litteraly means \"the emergence of the darkness\".\n",
       "forcedGlo": false,
       "glo": "**trema (stage fright)**",
       "cla": "noun",
@@ -5127,7 +5126,7 @@
         "word-kegu",
         "word-kela",
         "word-keli",
-        "word-keoda",
+        "word-zulapa",
         "word-kepal",
         "word-keyin"
       ]
@@ -5195,14 +5194,14 @@
     "word-ku": {
       "name": "ku",
       "type": "word",
-      "def": "imply",
       "noun": "rope",
+      "def": "imply",
       "verb": "to tie",
       "adj": "tied",
       "desc": "Causality",
       "forcedGlo": false,
-      "glo": "**imply**",
-      "cla": "def",
+      "glo": "**rope**",
+      "cla": "noun",
       "id": "word-ku",
       "fulltext": "ku",
       "writ": "కు",
@@ -7172,7 +7171,7 @@
         "word-lamioda",
         "word-neoda",
         "word-noda",
-        "word-keoda",
+        "word-zulapa",
         "word-hida",
         "word-odo",
         "word-odu",
@@ -7189,8 +7188,8 @@
         "phrase-273"
       ]
     },
-    "word-keoda": {
-      "name": "keoda",
+    "word-zulapa": {
+      "name": "zulapa",
       "type": "word",
       "noun": "hidden body language",
       "etym": [
@@ -7200,10 +7199,10 @@
       "forcedGlo": false,
       "glo": "**hidden body language**",
       "cla": "noun",
-      "id": "word-keoda",
-      "fulltext": "keoda",
-      "writ": "కేఓదా",
-      "phon": "/kɛɔda/"
+      "id": "word-zulapa",
+      "fulltext": "zulapa",
+      "writ": "ఠులాపా",
+      "phon": "/zulapa/"
     },
     "word-hida": {
       "name": "hida",
@@ -7601,7 +7600,7 @@
       "writ": "పాల్‌",
       "phon": "/pal/",
       "deriv": [
-        "word-palaj",
+        "word-palil",
         "word-kepal"
       ],
       "phrases": [
@@ -7619,31 +7618,12 @@
         "phrase-235"
       ]
     },
-    "word-palaj": {
-      "name": "palaj",
-      "type": "word",
-      "noun": "sun",
-      "etym": [
-        "word-pal",
-        "word-aj"
-      ],
-      "forcedGlo": false,
-      "glo": "**sun**",
-      "cla": "noun",
-      "id": "word-palaj",
-      "fulltext": "palaj",
-      "writ": "పాలాజ్‌",
-      "phon": "/palaʒ/",
-      "deriv": [
-        "word-palajil"
-      ]
-    },
-    "word-palajil": {
-      "name": "palajil",
+    "word-palil": {
+      "name": "palil",
       "type": "word",
       "noun": "apricot, July",
       "etym": [
-        "word-palaj",
+        "word-pal",
         "word-lil"
       ],
       "see": [
@@ -7653,10 +7633,10 @@
       "forcedGlo": false,
       "glo": "**apricot, July**",
       "cla": "noun",
-      "id": "word-palajil",
-      "fulltext": "palajil",
-      "writ": "పాలాజిల్‌",
-      "phon": "/palaʒil/"
+      "id": "word-palil",
+      "fulltext": "palil",
+      "writ": "పాలిల్‌",
+      "phon": "/palil/"
     },
     "word-kepal": {
       "name": "kepal",
@@ -8415,6 +8395,19 @@
         "phrase-286"
       ]
     },
+    "word-ra": {
+      "name": "ra",
+      "type": "word",
+      "noun": "sun",
+      "verb": "to shine",
+      "forcedGlo": false,
+      "glo": "**sun**",
+      "cla": "noun",
+      "id": "word-ra",
+      "fulltext": "ra",
+      "writ": "రా",
+      "phon": "/ra/"
+    },
     "word-ram": {
       "name": "ram",
       "type": "word",
@@ -8597,7 +8590,7 @@
         "card-conrad",
         "word-guru"
       ],
-      "desc": "\nApophenia is the perception of or belief in connectedness among unrelated\nphenomena (concept from psychologist Klaus Conrad).\n\nIn keoda, this litteraly means \"the emergence of hubris\".\n",
+      "desc": "\nApophenia is the perception of or belief in connectedness among unrelated\nphenomena (concept from psychologist Klaus Conrad).\n\nIn zulapa, this litteraly means \"the emergence of hubris\".\n",
       "forcedGlo": false,
       "glo": "**apophenia**",
       "cla": "noun",
@@ -11377,7 +11370,7 @@
         "word-gilile",
         "word-masale",
         "word-masalele",
-        "word-palajil",
+        "word-palil",
         "word-piule",
         "word-ponale",
         "word-lisoa",
@@ -11560,11 +11553,11 @@
       "type": "word",
       "noun": "everywhere",
       "suff": "mystery",
-      "glo": "MYST",
       "see": [
         "word-fi"
       ],
-      "forcedGlo": true,
+      "forcedGlo": false,
+      "glo": "**everywhere**",
       "cla": "noun",
       "id": "word-pa",
       "fulltext": "pa",
@@ -12074,8 +12067,8 @@
       "type": "card",
       "writ": "aaa",
       "phon": "",
-      "noun": "Why keoda ?",
-      "desc": "\nMy first goal was to create a language for love and sex. Something that would\nmake it easy and fun to express desire, play with power exchanges and honor\nthe great gift of sharing bodily love.\n\nI also felt that the languages I speak had lots of biais in terms of what is\nexpected from each gender during sex. For example, most languages have words\nto express the masculine action of penetration but lack words to express\nfeminine action taking.\n\n#### nsfw\n\n* [33](phrase-33)\n* [34](phrase-34)\n\nI thus started to work on a language with the following constraints (in order\nof importance):\n\n1. Focus on the body\n2. Simple phrases to give sexual orders\n3. Relatively easy to pronounce: [phon](card-phon)\n\nAs I worked on the language while going through difficult mental states, I\ndiscovered that creating words helped me better understand what happened to\nme so I added words to explore the feelings of awe and terror of being alive.\n\nAnd finally, I ended up working a lot on the language during my trangender\ntransition. For some weird reason, inventing words brought me back to my 10\nyear old self, before I \"died\" inside. Having a language with so few words\nmight have reminded me of learning **bahasa indonesia** or **english** or\neven my first programming language **pascal** which happened at that age. Or\nmaybe creating words like \"tree-foot\" for roots or \"wind\" to express male\ngender brought me closer to this child.\n\nThis language has acted as some kind of bridge between a little girl\nexperiencing the trauma of going through the wrong puberty and the adult I am\nnow trying to listen to the past while finally discovering a sense of\nidentity extending into adulthood.\n\nI have always loved languages, choreography notations, music notation,\nprogramming languages. Maybe this is my way to try and decipher why I felt\nso dead inside... or a way to escape reality and dream of peace.\n\n# Language evolution\n\nDuring the first phase of this language creation, the language started with\nnouns (representing positions) and nothing else and then I added the notion\nthat nouns could be verbs ([la](word-la) means lips but also kissing).\n\nWith this in place, it became confusing as to what was the verb and what was\nthe subject or the target of the action. To solve this, I added the \"subject\"\nprefixes [o](word-o$), [i](word-i$), and later [a](word-a).\n\nAfter around 2 years into the language creation, I met a guy on a bus and as\nwe talked, he told me that he was a linguist so I told him about my language\ncreation project. This is when he said that this was called a \"conlang\" and\nthat there were actually books and websites on the subject.\n\nSo I bought the books and studies conlanging with passion. Since I new\nnothing about linguistices, not even the concept of \"adverb\" or \"pronoun\" was\nalien to me due to me going in schools with different languages and skipping\nall this, I had to do some catching up. This was very good for my project\nbecause it helped me name some of my problems (who does what to whom) and see\n(classical) solutions to this problem (accusative, dative, prepositions,\netc).\n\nI went on a feverish refactoring of the language, clarifying verbs and nouns,\ntransforming afixes into case markings, conjugating verbs, adding tenses,\naccusative and dative. All of this helped me create more and more complex\nphrases and I started to manage translating some of my favorite poets such as\n(Sapho: [sapho](card-sapho)).\n\nBut then, things started to feel bad. The language started to sound very dull\n(most phrases were ending with /am/ due to how the accusative worked). So I\ntried to evolve my most important case to have some variation, I studied\nirregularities and tried to evolve the language naturally.\n\nBut then, the language started to feel \"constructed\" and \"in a box\". It\nwasn't sexy and fun and childish anymore but felt \"clever\" and I really\ndisliked this feeling and having to the urge to \"fix\" things to make it\nbetter instead of enjoying the creation process.\n\nAt this point I realised that everything I had learned about languages had\ngreatly opened my understanding but at the same time was limiting me and this\nis when I went back and removed some of the \"linguistic\" idioms in my work on\nthe language.\n\nInstead, I focused on how to make it easy to understand the role a word plays\nin a phrase. That is, instead of \"conjugating verbs\", I looked at how to\n\"make words take the role of actions\" and then finding a way to clarify the\n\"agent\" doing something and the \"tasted\" thing (direct object) instead of\nthinking in terms of \"ergative\" and \"accusative\" case markings. Same goes\nwith \"adjectives\" and \"adverbs\": they are just affixes that modify whatever\nthey are related to.\n\nRemoving technical jargon for cases and pronouns and just saying \"they\"\ninstead of \"3SG\" and changing \"ACC\" to something else that marks \"flavor\"\nalso makes more sense for this project.\n\n[35](phrase-35)\n[36](phrase-36)\n\n# Glossing\n\nHere are some of the terms and weird abbreviations I use for glossing (the\nmorpheme by morpheme translation of words):\n\n### Indefinite subject\n\nWritten as **1SG.INDF** this means \"one\", \"people\", \"someone\". It does not really\nmean \"I\" but often does. The blurry aspect of this \"I/we\" is important in\nkeoda because it highlights the unknowable aspect of the other. The meaning\nof this \"unknown person\" can mean many things. For example, if I say \"weˣ\nwill undress you tonight\", this can mean any of:\n\n1. You do not know me, you will be undressed by the \"surprising me\" tonight.\n2. We have consented to inviting others without warning and one of them will\n undress you tonight (submissive level ++).\n3. I will enter some role to undress you and it will be another kind of \"me\".\n4. etc\n\nTo actually say \"me\", we use [pi](word-pi).\n\n### Special case markings\n\n* [yi](word-yi) `TINY`: diminutive, tiny\n* [kei](word-kei) `FANTASTIC`: honorific, Dom\n* [lo](word-lo) `WET`: surrendered, submissive\n* [iwi](word-iwi) `ENBY`: non-binary\n* [m](word-m) `ACC+`: accusitive with a feeling of appreciation\n* [n](word-n) `ACC`: neutral accusative\n* [h](word-h) `ACC-`: accusative with a feeling of unpleasantness\n* [pa](word-pa) `MYST`: mystical modifier (from numinous to delirious)\n\n## Gloss color\n\nWords are glossed with a specific color depending on the role they take.\nModifiers are in italic (whether in-word or as separate words).\n\n1. Noun: blue\n1. Noun modifier (adjective): light blue\n1. Verb: purple\n1. Verb modifier (adverb): light purple\n\n# With all this said, Welcome !\n\nSo here is **keoda**, a language born in the realm of sexuality, evolved as a\nway of coping through mental illness and dysphoria and blossomed as a way to\nsing my love of this journey [iwigui](word-iwigui)...\n\n❤️️\n\n## Using this web page\n\nOn the top right or the page, there are two buttons. One is to toggle between\nTelugu or latin representation. The other one \"🍑\" enables the display of\nphrases related to sexuality (these phrases are hidden by default).\n\nYour next read: [phon](card-phon) (phonology)\n",
+      "noun": "Why zulapa ?",
+      "desc": "\nMy first goal was to create a language for love and sex. Something that would\nmake it easy and fun to express desire, play with power exchanges and honor\nthe great gift of sharing bodily love.\n\nI also felt that the languages I speak had lots of biais in terms of what is\nexpected from each gender during sex. For example, most languages have words\nto express the masculine action of penetration but lack words to express\nfeminine action taking.\n\n#### nsfw\n\n* [33](phrase-33)\n* [34](phrase-34)\n\nI thus started to work on a language with the following constraints (in order\nof importance):\n\n1. Focus on the body\n2. Simple phrases to give sexual orders\n3. Relatively easy to pronounce: [phon](card-phon)\n\nAs I worked on the language while going through difficult mental states, I\ndiscovered that creating words helped me better understand what happened to\nme so I added words to explore the feelings of awe and terror of being alive.\n\nAnd finally, I ended up working a lot on the language during my trangender\ntransition. For some weird reason, inventing words brought me back to my 10\nyear old self, before I \"died\" inside. Having a language with so few words\nmight have reminded me of learning **bahasa indonesia** or **english** or\neven my first programming language **pascal** which happened at that age. Or\nmaybe creating words like \"tree-foot\" for roots or \"wind\" to express male\ngender brought me closer to this child.\n\nThis language has acted as some kind of bridge between a little girl\nexperiencing the trauma of going through the wrong puberty and the adult I am\nnow trying to listen to the past while finally discovering a sense of\nidentity extending into adulthood.\n\nI have always loved languages, choreography notations, music notation,\nprogramming languages. Maybe this is my way to try and decipher why I felt\nso dead inside... or a way to escape reality and dream of peace.\n\n# Language evolution\n\nDuring the first phase of this language creation, the language started with\nnouns (representing positions) and nothing else and then I added the notion\nthat nouns could be verbs ([la](word-la) means lips but also kissing).\n\nWith this in place, it became confusing as to what was the verb and what was\nthe subject or the target of the action. To solve this, I added the \"subject\"\nprefixes [o](word-o$), [i](word-i$), and later [a](word-a).\n\nAfter around 2 years into the language creation, I met a guy on a bus and as\nwe talked, he told me that he was a linguist so I told him about my language\ncreation project. This is when he said that this was called a \"conlang\" and\nthat there were actually books and websites on the subject.\n\nSo I bought the books and studies conlanging with passion. Since I new\nnothing about linguistices, not even the concept of \"adverb\" or \"pronoun\" was\nalien to me due to me going in schools with different languages and skipping\nall this, I had to do some catching up. This was very good for my project\nbecause it helped me name some of my problems (who does what to whom) and see\n(classical) solutions to this problem (accusative, dative, prepositions,\netc).\n\nI went on a feverish refactoring of the language, clarifying verbs and nouns,\ntransforming afixes into case markings, conjugating verbs, adding tenses,\naccusative and dative. All of this helped me create more and more complex\nphrases and I started to manage translating some of my favorite poets such as\n(Sapho: [sapho](card-sapho)).\n\nBut then, things started to feel bad. The language started to sound very dull\n(most phrases were ending with /am/ due to how the accusative worked). So I\ntried to evolve my most important case to have some variation, I studied\nirregularities and tried to evolve the language naturally.\n\nBut then, the language started to feel \"constructed\" and \"in a box\". It\nwasn't sexy and fun and childish anymore but felt \"clever\" and I really\ndisliked this feeling and having to the urge to \"fix\" things to make it\nbetter instead of enjoying the creation process.\n\nAt this point I realised that everything I had learned about languages had\ngreatly opened my understanding but at the same time was limiting me and this\nis when I went back and removed some of the \"linguistic\" idioms in my work on\nthe language.\n\nInstead, I focused on how to make it easy to understand the role a word plays\nin a phrase. That is, instead of \"conjugating verbs\", I looked at how to\n\"make words take the role of actions\" and then finding a way to clarify the\n\"agent\" doing something and the \"tasted\" thing (direct object) instead of\nthinking in terms of \"ergative\" and \"accusative\" case markings. Same goes\nwith \"adjectives\" and \"adverbs\": they are just affixes that modify whatever\nthey are related to.\n\nRemoving technical jargon for cases and pronouns and just saying \"they\"\ninstead of \"3SG\" and changing \"ACC\" to something else that marks \"flavor\"\nalso makes more sense for this project.\n\n[35](phrase-35)\n[36](phrase-36)\n\n# Glossing\n\nHere are some of the terms and weird abbreviations I use for glossing (the\nmorpheme by morpheme translation of words):\n\n### Indefinite subject\n\nWritten as **1SG.INDF** this means \"one\", \"people\", \"someone\". It does not really\nmean \"I\" but often does. The blurry aspect of this \"I/we\" is important in\nzulapa because it highlights the unknowable aspect of the other. The meaning\nof this \"unknown person\" can mean many things. For example, if I say \"weˣ\nwill undress you tonight\", this can mean any of:\n\n1. You do not know me, you will be undressed by the \"surprising me\" tonight.\n2. We have consented to inviting others without warning and one of them will\n undress you tonight (submissive level ++).\n3. I will enter some role to undress you and it will be another kind of \"me\".\n4. etc\n\nTo actually say \"me\", we use [pi](word-pi).\n\n### Special case markings\n\n* [yi](word-yi) `TINY`: diminutive, tiny\n* [kei](word-kei) `FANTASTIC`: honorific, Dom\n* [lo](word-lo) `WET`: surrendered, submissive\n* [iwi](word-iwi) `ENBY`: non-binary\n* [m](word-m) `ACC+`: accusitive with a feeling of appreciation\n* [n](word-n) `ACC`: neutral accusative\n* [h](word-h) `ACC-`: accusative with a feeling of unpleasantness\n* [pa](alt-paM) `MYST`: mystical modifier (from numinous to delirious)\n\n## Gloss color\n\nWords are glossed with a specific color depending on the role they take.\nModifiers are in italic (whether in-word or as separate words).\n\n1. Noun: blue\n1. Noun modifier (adjective): light blue\n1. Verb: purple\n1. Verb modifier (adverb): light purple\n\n# With all this said, Welcome !\n\nSo here is **zulapa**, a language born in the realm of sexuality, evolved as a\nway of coping through mental illness and dysphoria and blossomed as a way to\nsing my love of this journey [iwigui](word-iwigui)...\n\n❤️️\n\n## Using this web page\n\nOn the top right or the page, there are two buttons. One is to toggle between\nTelugu or latin representation. The other one \"🍑\" enables the display of\nphrases related to sexuality (these phrases are hidden by default).\n\nYour next read: [phon](card-phon) (phonology)\n",
       "id": "card-aaa",
       "fulltext": "aaa"
     },
@@ -12122,7 +12115,7 @@
       "writ": "conrad",
       "phon": "",
       "def": "",
-      "desc": "\n# Klaus Conrad (1905-1961)\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2800156/\n\nBecause I am a dreamer and I use working on keoda as a way to try and\nclarify the relation between reality and myth, between the pragmatic and the\npoetic, I have created quite some words to help in this process, notably\n[nuru](word-nuru) (apophenia) and [guru](word-guru) (trema) which are directly inspired by Klaus\nConrad's study of the early stages of schizophrenia (prodromal and early\npsychotic phase).\n\n## Trema [guru](word-guru)\n\nThis is a stage where the person does not yet have delusions, but \"feels\" that something\nis off and is happening. There is no explanation for the feeling but everything seems to\nconspire (against) the person. Because of the feeling of anxious expectation, this\nstage is also called \"stage fright\".\n\nIn keoda, [guru](word-guru) litterally means \"the emergence of the darkness\" and evokes the\narrival of terror ([nugu](word-nugu)).\n\n## Aphophenia [nuru](word-nuru)\n\nThis stage arrives to help with the previous one by relieving the tension of the\nunknown by creating delusions through finding unsound pattern and meaning out of\nrandom events.\n\nIf the first stage is perceptions and affect gone wild\n\nSee also: [ganes](card-ganes)\n",
+      "desc": "\n# Klaus Conrad (1905-1961)\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2800156/\n\nBecause I am a dreamer and I use working on zulapa as a way to try and\nclarify the relation between reality and myth, between the pragmatic and the\npoetic, I have created quite some words to help in this process, notably\n[nuru](word-nuru) (apophenia) and [guru](word-guru) (trema) which are directly inspired by Klaus\nConrad's study of the early stages of schizophrenia (prodromal and early\npsychotic phase).\n\n## Trema [guru](word-guru)\n\nThis is a stage where the person does not yet have delusions, but \"feels\" that something\nis off and is happening. There is no explanation for the feeling but everything seems to\nconspire (against) the person. Because of the feeling of anxious expectation, this\nstage is also called \"stage fright\".\n\nIn zulapa, [guru](word-guru) litterally means \"the emergence of the darkness\" and evokes the\narrival of terror ([nugu](word-nugu)).\n\n## Aphophenia [nuru](word-nuru)\n\nThis stage arrives to help with the previous one by relieving the tension of the\nunknown by creating delusions through finding unsound pattern and meaning out of\nrandom events.\n\nIf the first stage is perceptions and affect gone wild\n\nSee also: [ganes](card-ganes)\n",
       "id": "card-conrad",
       "fulltext": "conrad"
     },
@@ -12140,7 +12133,7 @@
       "type": "card",
       "writ": "evolution",
       "phon": "",
-      "desc": "\n# Evolution\n\nThis is some historical notes on the language as it has evolved and how\nexpressing the same thing has changed over time.\n\nThe current state of affaires is here: [grammar](card-grammar)\n\n#### note\n\nThis whole card is nsfw because this is what guides this language.\n\n## An example\n\n### Caress your breasts delicately\n\nIn this example, we see how the first version used a kind of dative and no\nverb marking. This then evolved to use a very regular accusative, and finaly\nwe added the dative back but with more power and made the accusative nicer.\n\n* [66](phrase-66)\n* [67](phrase-67)\n* [68](phrase-68)\n* [69](phrase-69)\n\n## Chronology\n\nTODO: go through commit log\n\n### Subject consitency *(Jan 2021)*\n\n* All **plurals** (more than two) have an extra prefix of `/ʃ/` (**sh**),\n  except for [ka](word-ka) (every).\n* Subjects of which the **speaker** belongs to start with `/ɔ/` (**o**)\n* Subjects of which the **listener** belongs to start with `/i/` (**i**)\n* Subjects **not present** start with `/a/` (**a**)\n\n### Removed copula *(Jan 2021)*\n\nAfter adding passive and continuous tenses, it made sense to express properties without\nsaying \"is\" but instead using the \"active\" nature of nouns and this tense:\n\n* [70](phrase-70)\n\n### Full blown \"dot\" writing code *(Jan 2021)*\n\nAdded code in TypeScript (using JS Proxy) to automatically agglutinate\nmorphemes in order to ensure consistency and stable rules for word\naglutination and glossing. These 'code' based rules had an interesting\neffect as they forced me to clarify the functional meaning of some of the hacks\nI was writting and this led to the notion that most prefix ([ne](word-ne) is an\nexception) change the function of the word whereas most suffix (accusative ones\nare the exceptions here) are semantic modifiers.\n\nIn short, most \"prefixes\" alter function and most \"suffix\" alter meaning.\n\n~~~ts\n// This is how the next phrase is written\n_.phrase('We are being loved.', _.es.o.lu.zu)\n~~~\n\n[71](phrase-71)\n\n### Adding modifier markers *(Feb 2021)*\n\nAfter creating the most used prefixes and suffixes, I realized that I did not want\nany word to agglutinate to act as a modifier because it would make words incredibly\nhard to understand (and long). So I needed a way to mark a word as acting like an\nadjective or adverb (and thus showing this definition in the gloss instead of the\nnoun).\n\nListening to William Croft on the Conlangery podcast, I really liked the way\nMandarin Chinese uses a prefix to change a noun into a property modifier:\nsomething in the way of saying \"very fish\" to mean \"beautiful\". I opted for this\nstrategy, using ([le](word-le)) for adjectives which means \"very\" and using\n([si](word-si)) for adverbs which means \"as, like\".\n\n* [72](phrase-72)\n\n### Adding infinitive *(Feb 2021)*\n\nAs the title implies, this allows saying all kinds of complicated things regarding what\nwe enjoy doing, who we have seen doing what and so on.\n\n#### nsfw\n\n* [73](phrase-73)\n\n### Engine rewrite and testing *(Feb 2021)*\n\nThis rewrite and cleanup had the side effect of pushing all non-written phonotactics into\ncode, making things much more consistent on how morphemes assemble. Now prefix all \"fix\"\njoin with `/h/` and suffix use `/l/` unless there is an exception. This made numbers\nfunny:\n\n* [74](phrase-74)\n\nHaving tests to ensure things do not break is a very good step forward.\n\n### Indefinite subject *(August 2021)*\n\nTransformed the [u](word-u) conjugation from an infinitive into the notion of \"life\nitself\" doing something: the infinite subject. This is a first step in\nthe direction of removing some of the body/mind dichotomy, trying to blur the\nnotion of \"subject\" so as to remove some of the separation with the direct\nobject.\n\nDavid Bohm's idea on the rheomode (putting word priority on the verb) made me\ntry different ideas and I think the best solution is to simply use the existing\npassive voice with the infinite subject: [75](phrase-75).\n\nI would like to change some meanings related to \"spirit\". I want this languge to\nbe about the body, so \"mind\" has to be something that is a lived experience, not\nsome \"spirit\" or \"soul\". This means that [ga](word-ga) needs to change from \"spirit\"\nto something else ? I have to do some introspection to see if I find concepts\nthat better describe \"inner experience\", something that would only exist in\nrelation with the body, a painting, matter. I want spirit to be a property of\nmatter, of [gu](word-gu), not some \"other thing\".\n\n### Loved *(January 2022)*\n\nHaha ! This is why the [a](word-a$) suffix was free. It was reserved, a late coming\nbeauty to the party. It means \"loved\" in the sense of being taken inside, to the\nheart, to the self.\n\nSo now [ga](word-ga) (spirit) comes from [gula](alt-gu-a$) (life loved, life taken to the\nself). Isn't this beautiful ?\n\nAnd [gu](word-gu) still derives from [ga](word-ga) as [galu](alt-ga-u$) (pulled spirit) because\nevery language is a digraph and loops are fun.\n\nNo more matter/mind dichotomy since they now both define each other in a\nbeautiful dance.\n",
+      "desc": "\n# Evolution\n\nThis is some historical notes on the language as it has evolved and how\nexpressing the same thing has changed over time.\n\nThe current state of affaires is here: [grammar](card-grammar)\n\n#### note\n\nThis whole card is nsfw because this is what guides this language.\n\n## An example\n\n### Caress your breasts delicately\n\nIn this example, we see how the first version used a kind of dative and no\nverb marking. This then evolved to use a very regular accusative, and finaly\nwe added the dative back but with more power and made the accusative nicer.\n\n* [66](phrase-66)\n* [67](phrase-67)\n* [68](phrase-68)\n* [69](phrase-69)\n\n## Chronology\n\nTODO: go through commit log\n\n### Subject consitency *(Jan 2021)*\n\n* All **plurals** (more than two) have an extra prefix of `/ʃ/` (**sh**),\n  except for [ka](word-ka) (every).\n* Subjects of which the **speaker** belongs to start with `/ɔ/` (**o**)\n* Subjects of which the **listener** belongs to start with `/i/` (**i**)\n* Subjects **not present** start with `/a/` (**a**)\n\n### Removed copula *(Jan 2021)*\n\nAfter adding passive and continuous tenses, it made sense to express properties without\nsaying \"is\" but instead using the \"active\" nature of nouns and this tense:\n\n* [70](phrase-70)\n\n### Full blown \"dot\" writing code *(Jan 2021)*\n\nAdded code in TypeScript (using JS Proxy) to automatically agglutinate\nmorphemes in order to ensure consistency and stable rules for word\naglutination and glossing. These 'code' based rules had an interesting\neffect as they forced me to clarify the functional meaning of some of the hacks\nI was writting and this led to the notion that most prefix ([ne](word-ne) is an\nexception) change the function of the word whereas most suffix (accusative ones\nare the exceptions here) are semantic modifiers.\n\nIn short, most \"prefixes\" alter function and most \"suffix\" alter meaning.\n\n~~~ts\n// This is how the next phrase is written\n_.phrase('We are being loved.', _.es.o.lu.zu)\n~~~\n\n[71](phrase-71)\n\n### Adding modifier markers *(Feb 2021)*\n\nAfter creating the most used prefixes and suffixes, I realized that I did not want\nany word to agglutinate to act as a modifier because it would make words incredibly\nhard to understand (and long). So I needed a way to mark a word as acting like an\nadjective or adverb (and thus showing this definition in the gloss instead of the\nnoun).\n\nListening to William Croft on the Conlangery podcast, I really liked the way\nMandarin Chinese uses a prefix to change a noun into a property modifier:\nsomething in the way of saying \"very fish\" to mean \"beautiful\". I opted for this\nstrategy, using ([le](word-le)) for adjectives which means \"very\" and using\n([si](word-si)) for adverbs which means \"as, like\".\n\n* [72](phrase-72)\n\n### Adding infinitive *(Feb 2021)*\n\nAs the title implies, this allows saying all kinds of complicated things regarding what\nwe enjoy doing, who we have seen doing what and so on.\n\n#### nsfw\n\n* [73](phrase-73)\n\n### Engine rewrite and testing *(Feb 2021)*\n\nThis rewrite and cleanup had the side effect of pushing all non-written phonotactics into\ncode, making things much more consistent on how morphemes assemble. Now prefix all \"fix\"\njoin with `/h/` and suffix use `/l/` unless there is an exception. This made numbers\nfunny:\n\n* [74](phrase-74)\n\nHaving tests to ensure things do not break is a very good step forward.\n\n### Indefinite subject *(August 2021)*\n\nTransformed the [u](word-u) conjugation from an infinitive into the notion of \"life\nitself\" doing something: the infinite subject. This is a first step in\nthe direction of removing some of the body/mind dichotomy, trying to blur the\nnotion of \"subject\" so as to remove some of the separation with the direct\nobject.\n\nDavid Bohm's idea on the rheomode (putting word priority on the verb) made me\ntry different ideas and I think the best solution is to simply use the existing\npassive voice with the infinite subject: [75](phrase-75).\n\nI would like to change some meanings related to \"spirit\". I want this languge to\nbe about the body, so \"mind\" has to be something that is a lived experience, not\nsome \"spirit\" or \"soul\". This means that [ga](word-ga) needs to change from \"spirit\"\nto something else ? I have to do some introspection to see if I find concepts\nthat better describe \"inner experience\", something that would only exist in\nrelation with the body, a painting, matter. I want spirit to be a property of\nmatter, of [gu](word-gu), not some \"other thing\".\n\n### Loved *(January 2022)*\n\nHaha ! This is why the [a](word-a$) suffix was free. It was reserved, a late coming\nbeauty to the party. It means \"loved\" in the sense of being taken inside, to the\nheart, to the self.\n\nSo now [ga](word-ga) (spirit) comes from [gula](alt-gu-a$) (life loved, life taken to the\nself). Isn't this beautiful ?\n\nAnd [gu](word-gu) still derives from [ga](word-ga) as [galu](alt-ga-u$) (pulled spirit) because\nevery language is a digraph and loops are fun.\n\nNo more matter/mind dichotomy since they now both define each other in a\nbeautiful dance.\n\n### Zulapa *(March 2022)*\n\nRenamed the language to Zulapa because I wanted a \".com\" domain for it and I also think that it has evolved to being something more about kindness than just \"the body\". So now this language is \"the heart speaks\" or \"heart speak\".\n\nI love it !\n",
       "id": "card-evolution",
       "fulltext": "evolution"
     },
@@ -12168,7 +12161,7 @@
       "type": "card",
       "writ": "food",
       "phon": "",
-      "desc": "\n# Food\n\nSee also [fruits](card-fruits).\n\n* [egina](word-egina) (chicory, January)\n* [eri](word-eri) (cherry (June))\n* [fena](word-fena) (cabbage, February)\n* [gopona](word-gopona) (pumpkin, October)\n* [guyil](word-guyil) (apple)\n* [palajil](word-palajil) (apricot, July)\n* [pantame](word-pantame) (tomato, August)\n* [piule](word-piule) (peas)\n* [piuna](word-piuna) (spinach, May)\n* [piutaj](word-piutaj) (leek, March)\n* [pona](word-pona) (orange, November)\n* [ponale](word-ponale) (tangerine, December)\n* [ulul](word-ulul) (asparagus, April)\n* [wiyon](word-wiyon) (prune, September)\n\n",
+      "desc": "\n# Food\n\nSee also [fruits](card-fruits).\n\n* [egina](word-egina) (chicory, January)\n* [eri](word-eri) (cherry (June))\n* [fena](word-fena) (cabbage, February)\n* [gopona](word-gopona) (pumpkin, October)\n* [guyil](word-guyil) (apple)\n* [palil](word-palil) (apricot, July)\n* [pantame](word-pantame) (tomato, August)\n* [piule](word-piule) (peas)\n* [piuna](word-piuna) (spinach, May)\n* [piutaj](word-piutaj) (leek, March)\n* [pona](word-pona) (orange, November)\n* [ponale](word-ponale) (tangerine, December)\n* [ulul](word-ulul) (asparagus, April)\n* [wiyon](word-wiyon) (prune, September)\n\n",
       "id": "card-food",
       "fulltext": "food"
     },
@@ -12177,7 +12170,7 @@
       "type": "card",
       "writ": "fruits",
       "phon": "",
-      "desc": "\nExisting fruits are:\n\n* [eri](word-eri) (cherry (June))\n* [gopona](word-gopona) (pumpkin, October)\n* [guyil](word-guyil) (apple)\n* [palajil](word-palajil) (apricot, July)\n* [pantame](word-pantame) (tomato, August)\n* [pona](word-pona) (orange, November)\n* [ponale](word-ponale) (tangerine, December)\n* [wiyon](word-wiyon) (prune, September)\n\n",
+      "desc": "\nExisting fruits are:\n\n* [eri](word-eri) (cherry (June))\n* [gopona](word-gopona) (pumpkin, October)\n* [guyil](word-guyil) (apple)\n* [palil](word-palil) (apricot, July)\n* [pantame](word-pantame) (tomato, August)\n* [pona](word-pona) (orange, November)\n* [ponale](word-ponale) (tangerine, December)\n* [wiyon](word-wiyon) (prune, September)\n\n",
       "id": "card-fruits",
       "fulltext": "fruits"
     },
@@ -12204,7 +12197,7 @@
       "phon": "",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Mother_Goddess%2C_Madhya_Pradesh_or_Rajasthan%2C_India%2C_6th_-_7th_cents.%2C_National_Museum_of_Korea%2C_Seoul_%2840236606165%29.jpg/330px-Mother_Goddess%2C_Madhya_Pradesh_or_Rajasthan%2C_India%2C_6th_-_7th_cents.%2C_National_Museum_of_Korea%2C_Seoul_%2840236606165%29.jpg",
       "imgpos": "30%",
-      "desc": "\n# Goddesses and gods\n\n* [sona](word-sona)\n* [gahal](word-gahal)\n* [gusona](word-gusona)\n* [husona](word-husona)\n* [hurakan](word-hurakan)\n* [pan](word-pan)\n\n## Devotion [baka](word-baka)\n\nKeoda has incorporated some of the Hindu notion of Bhakti and the Mahavidya.\nHere are the ten aspects of the Mother Goddess Parvati:\n\n* [gusona](word-gusona) (Kali/time)\n* [gisona](word-gisona) (Tara/compassion)\n* [pasona](word-pasona) (Lalita/Sati/all of life)\n\n## Mythic places\n\n* [dafodil](word-dafodil) (Underworld)\n",
+      "desc": "\n# Goddesses and gods\n\n* [sona](word-sona)\n* [gahal](word-gahal)\n* [gusona](word-gusona)\n* [husona](word-husona)\n* [hurakan](word-hurakan)\n* [pan](word-pan)\n\n## Devotion [baka](word-baka)\n\nZulapa has incorporated some of the Hindu notion of Bhakti and the Mahavidya.\nHere are the ten aspects of the Mother Goddess Parvati:\n\n* [gusona](word-gusona) (Kali/time)\n* [gisona](word-gisona) (Tara/compassion)\n* [pasona](word-pasona) (Lalita/Sati/all of life)\n\n## Mythic places\n\n* [dafodil](word-dafodil) (Underworld)\n",
       "id": "card-gods",
       "fulltext": "gods"
     },
@@ -12214,7 +12207,7 @@
       "writ": "grammar",
       "phon": "",
       "open": true,
-      "desc": "\n# Grammar\n\nIf you haven't, you should read the [origins of the language](card-aaa).\n\n### Moods\n\nThere are many ways to express moods in this language from the \"maybe tomorrow\"\nanswers to \"yes tonight\" through tenses or \"I LoVe YoU\" (sarcasm) through flavor\nmarking or \"caressing-look at me\", \"hit-look at me\" through verb cases. Not to\nmention honorific or diminutives and other ways to address people.\n\nThese moods are a very important part of the language because they enable subtlety without\nrequiring lots of vocabulary.\n\n### Meaning and form\n\nIn this language, words change their meaning depending on their function. At\nthe basic level, everything is a noun and it changes role with markers\n(mostly prefix). This means that **every body part is a verb** !!! Youhou !\nNow we have a \"vulving\" verb and a glans-hitting one too ! Nice.\n\nAnd this also means that we can be creative in how things become active\n(verbs) or how they extend meaning (adjective, adverbs). If someone decides\nthat \"cherry\" feels like it should mean \"provocative\" as an adverb and this\nbecomes part of some love making \"surprise me\" thing. That would be crazy\nnice. And now cherries never look or taste the same...\n\n### Active marker\n\nThe \"active\" marker creates a verb by prefixing a noun with a [subject morpheme](card-subj):\n\n* [ma](word-ma) (hand)\n* [ama](alt-a-ma) (they \"do something with hand = grab\")\n\n### Semantic modifiers\n\nNouns prefixed with [le](word-le) or [si](word-si) become semantic extensions\n(\"adjectives\" or \"adverbs\"). Example:\n\n* [76](phrase-76)\n\nSome morphemes that are used a lot as modifiers become suffixes. For example\n[uki](word-uki), [lo](word-lo) or [lil](word-lil):\n\n* [77](phrase-77)\n\nIn these cases, some of these morphemes behave like grammatical cases (INESS,\nSUPESS, DIM, etc).\n\n* [78](phrase-78)\n\n## To be or not to be\n\nIn keoda, we prefer to not use a copula¹ and instead express properties in\nterms of being possessed by something, going through something. This gives a\nfeeling of impermanence, and of the possibility of change as well as the\nimportance of gratitude for what is now and will be gone.\n\n#### note\n\n(¹) I could not resist to the pleasure of using this word... *Borrowed from\nLatin copula (\"connection, linking of words\"), from co- (\"together\") +‎ apere\n(\"fasten\")*... See [kude](word-kude).\n\nThis means that instead of saying \"She is beautiful\", we would say \"She is\nbeing beautified\" (passive continuous tense):\n\n* [79](phrase-79)\n\nThis highlights the fact that most things in\nlife happen to us without much agency on our side (one of the reasons why we\nshould be kind and helping to one another).\n\nA noun or person's property could arise from personal effort, happy birth,\nbad luck or anything. In the end, people are mysteries and we have no way of\nknowing what they are, their ontology or even the slightest thing about the\ncausal nature of their being. This is why we just say \"beauty is happening\"\nor \"joy is happening\" or \"love is happening\".\n\nWhen using adjectives, these are bound to the context of the phrase and do\nnot produce the \"is-ness\" feeling:\n\n* [80](phrase-80)\n\nAnd in this case, since 'feminine' is a suffix, we can attach it on a noun\n(remember that in Keoda, [awi](word-awi) means beauty because fishes are beautiful\nand shiny):\n\n* [81](phrase-81)\n\nActually using the verb to be ([e](word-e)) to express properties is rude and cute\nbecause only foreigners do it.\n\n* [82](phrase-82)\n\nNext reading: [taste](card-taste)\n",
+      "desc": "\n# Grammar\n\nIf you haven't, you should read the [origins of the language](card-aaa).\n\n### Moods\n\nThere are many ways to express moods in this language from the \"maybe tomorrow\"\nanswers to \"yes tonight\" through tenses or \"I LoVe YoU\" (sarcasm) through flavor\nmarking or \"caressing-look at me\", \"hit-look at me\" through verb cases. Not to\nmention honorific or diminutives and other ways to address people.\n\nThese moods are a very important part of the language because they enable subtlety without\nrequiring lots of vocabulary.\n\n### Meaning and form\n\nIn this language, words change their meaning depending on their function. At\nthe basic level, everything is a noun and it changes role with markers\n(mostly prefix). This means that **every body part is a verb** !!! Youhou !\nNow we have a \"vulving\" verb and a glans-hitting one too ! Nice.\n\nAnd this also means that we can be creative in how things become active\n(verbs) or how they extend meaning (adjective, adverbs). If someone decides\nthat \"cherry\" feels like it should mean \"provocative\" as an adverb and this\nbecomes part of some love making \"surprise me\" thing. That would be crazy\nnice. And now cherries never look or taste the same...\n\n### Active marker\n\nThe \"active\" marker creates a verb by prefixing a noun with a [subject morpheme](card-subj):\n\n* [ma](word-ma) (hand)\n* [ama](alt-a-ma) (they \"do something with hand = grab\")\n\n### Semantic modifiers\n\nNouns prefixed with [le](word-le) or [si](word-si) become semantic extensions\n(\"adjectives\" or \"adverbs\"). Example:\n\n* [76](phrase-76)\n\nSome morphemes that are used a lot as modifiers become suffixes. For example\n[uki](word-uki), [lo](word-lo) or [lil](word-lil):\n\n* [77](phrase-77)\n\nIn these cases, some of these morphemes behave like grammatical cases (INESS,\nSUPESS, DIM, etc).\n\n* [78](phrase-78)\n\n## To be or not to be\n\nIn zulapa, we prefer to not use a copula¹ and instead express properties in\nterms of being possessed by something, going through something. This gives a\nfeeling of impermanence, and of the possibility of change as well as the\nimportance of gratitude for what is now and will be gone.\n\n#### note\n\n(¹) I could not resist to the pleasure of using this word... *Borrowed from\nLatin copula (\"connection, linking of words\"), from co- (\"together\") +‎ apere\n(\"fasten\")*... See [kude](word-kude).\n\nThis means that instead of saying \"She is beautiful\", we would say \"She is\nbeing beautified\" (passive continuous tense):\n\n* [79](phrase-79)\n\nThis highlights the fact that most things in\nlife happen to us without much agency on our side (one of the reasons why we\nshould be kind and helping to one another).\n\nA noun or person's property could arise from personal effort, happy birth,\nbad luck or anything. In the end, people are mysteries and we have no way of\nknowing what they are, their ontology or even the slightest thing about the\ncausal nature of their being. This is why we just say \"beauty is happening\"\nor \"joy is happening\" or \"love is happening\".\n\nWhen using adjectives, these are bound to the context of the phrase and do\nnot produce the \"is-ness\" feeling:\n\n* [80](phrase-80)\n\nAnd in this case, since 'feminine' is a suffix, we can attach it on a noun\n(remember that in Zulapa, [awi](word-awi) means beauty because fishes are beautiful\nand shiny):\n\n* [81](phrase-81)\n\nActually using the verb to be ([e](word-e)) to express properties is rude and cute\nbecause only foreigners do it.\n\n* [82](phrase-82)\n\nNext reading: [taste](card-taste)\n",
       "id": "card-grammar",
       "fulltext": "grammar"
     },
@@ -12297,7 +12290,7 @@
       "type": "card",
       "writ": "phon",
       "phon": "/fɔn/",
-      "desc": "\n## Phonology and script\n\n![lepakshi](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Lepakshi...jpg/330px-Lepakshi...jpg)\n\nUsing [telugu script](https://en.wikipedia.org/wiki/Telugu_script) because it\nis an *abugida*, the sounds match nearly perfectly and... it looks so good\nand curvy.\n\n## Consonants\n\n|                 | Labial     | Coronal         | Dorsal       | Glottal |\n| :-------------  | :--------: | :-------------: | :----------: | :-----: |\n| **Nasal**       | m మ       | n న             |              |         |\n| **Plosive**     | p ప / b బ | t త / d ద  | k క / g గ        |         |\n| **Fricative**   | f చ       | s స / z ఠ -  ʃ శ / dʒ జ | x ః * | h హ |\n| **Approximant** | ʋ  వ      |                 | j య         |         |\n| **Trill**       |            | r ర             |              |         |\n| **Lateral**     |            | l ల             |              |         |\n\n\\* The `/x/` sound is only used at the end of a word to mark \"bad taste/mood\"\nor accusative with a rejection feeling (\"good taste\" is /m/ ending and\n\"neutral taste\" is /n/). The more the sound becomes uvular (feeling of\nchoking), the worst the taste/mood. A near silent expletive /h/ sound can\nexpress (subtle) disdain.\n\nAll sounds correspond to [Telugu](https://en.wikipedia.org/wiki/Telugu_script) except for:\n\n| Symbol | Telugu     | Keoda     | Example             |\n| :----: | :--------: | :-------: | :--------:          |\n| **చ**  | /tʃ/       | /f/       | [falame](word-falame)        |\n| **ఠ**  | /tʰ/       | /z/       | [zuzu](word-zuzu)          |\n| **జ్‌**  | /dʒ/       | /dʒ/ or /ʒ/ (end of word) | [joda](word-joda), [baj](word-baj) |\n \n\n## Vowels\n\n|                 | Front      | Central         | Back         |\n| :-------------  | :--------: | :-------------: | :----------: |\n| **Close**       | i  ి  ఇ   |                 | u   ు  ఉ   |\n| **Mid**         | ɛ  ే  ఎ   |                 | ɔ   ో  ఓ    |\n| **Open**        | a  ా  అ  |                 |              |\n\n## Stress\n\nStress on penultimate syllable before suffix.\n\nkeOda, lamigOa, agUwu, afOliri\n\n## Phonotactics\n\nTwo consonnants in a row are not allowed if they produce a stop. In this\ncase, we add an 'a' between them. Example: [alayuru](word-alayuru) instead of alyin.\nBut [najlo](word-najlo), or  [110](phrase-110) works.\n\nTwo vowels in a row are not allowed between conjugation and verb or counting\nand power [dalipa](alt-da1-ipa1). An 'h' or 'l' ('h' when joining a prefix and an 'l'\nwhen joining a suffix) is added in such cases: [111](phrase-111).\n\nTwo consecutive identical vowels are reduced to a single one: [112](phrase-112)\n\nWords cannot end in [m](word-m) (used for accusative). Words sometimes drop the\nlast vowel when adding a suffix that starts with a vowel instead of adding\n'h'.\n\n## Script\n\nDiphthongs are avoided and should not comme too often in scripts. If they\nare present, they are written as two separate letters: [noa](word-noa).\n\n## Current evolutions\n\n* There is a tendency to use `/zu/` instead of `/au/`.\n* There might be a trend to change `/dʒ/` into `/ʒ/`. \n\nYour next read: [kedana](card-kedana) (geography)\n",
+      "desc": "\n## Phonology and script\n\n![lepakshi](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Lepakshi...jpg/330px-Lepakshi...jpg)\n\nUsing [telugu script](https://en.wikipedia.org/wiki/Telugu_script) because it\nis an *abugida*, the sounds match nearly perfectly and... it looks so good\nand curvy.\n\n## Consonants\n\n|                 | Labial     | Coronal         | Dorsal       | Glottal |\n| :-------------  | :--------: | :-------------: | :----------: | :-----: |\n| **Nasal**       | m మ       | n న             |              |         |\n| **Plosive**     | p ప / b బ | t త / d ద  | k క / g గ        |         |\n| **Fricative**   | f చ       | s స / z ఠ -  ʃ శ / ʒ జ | x ః * | h హ |\n| **Approximant** | ʋ  వ      |                 | j య         |         |\n| **Trill**       |            | r ర             |              |         |\n| **Lateral**     |            | l ల             |              |         |\n\n\\* The `/x/` sound is only used at the end of a word to mark \"bad taste/mood\"\nor accusative with a rejection feeling (\"good taste\" is /m/ ending and\n\"neutral taste\" is /n/). The more the sound becomes uvular (feeling of\nchoking), the worst the taste/mood. A near silent expletive /h/ sound can\nexpress (subtle) disdain.\n\nAll sounds correspond to [Telugu](https://en.wikipedia.org/wiki/Telugu_script) except for:\n\n| Symbol | Telugu     | Zulapa     | Example             |\n| :----: | :--------: | :-------: | :--------:          |\n| **చ**  | /tʃ/       | /f/       | [falame](word-falame)        |\n| **ఠ**  | /tʰ/       | /z/       | [zuzu](word-zuzu)          |\n| **జ్‌**  | /dʒ/       | /ʒ/       | [joda](word-joda), [baj](word-baj) |\n \n\n## Vowels\n\n|                 | Front      | Central         | Back         |\n| :-------------  | :--------: | :-------------: | :----------: |\n| **Close**       | i  ి  ఇ   |                 | u   ు  ఉ   |\n| **Mid**         | ɛ  ే  ఎ   |                 | ɔ   ో  ఓ    |\n| **Open**        | a  ా  అ  |                 |              |\n\n## Stress\n\nStress on penultimate syllable before suffix.\n\nkeOda, lamigOa, agUwu, afOliri\n\n## Phonotactics\n\nTwo consonnants in a row are not allowed if they produce a stop. In this\ncase, we add an 'a' between them. Example: [alayuru](word-alayuru) instead of alyin.\nBut [najlo](word-najlo), or  [110](phrase-110) works.\n\nTwo vowels in a row are not allowed between conjugation and verb or counting\nand power [dalipa](alt-da1-ipa1). An 'h' or 'l' ('h' when joining a prefix and an 'l'\nwhen joining a suffix) is added in such cases: [111](phrase-111).\n\nTwo consecutive identical vowels are reduced to a single one: [112](phrase-112)\n\nWords cannot end in [m](word-m) (used for accusative). Words sometimes drop the\nlast vowel when adding a suffix that starts with a vowel instead of adding\n'h'.\n\n## Script\n\nDiphthongs are avoided and should not comme too often in scripts. If they\nare present, they are written as two separate letters: [noa](word-noa).\n\n## Current evolutions\n\n* There is a tendency to use `/zu/` instead of `/au/`.\n* There might be a trend to change `/dʒ/` into `/ʒ/`. \n\nYour next read: [kedana](card-kedana) (geography)\n",
       "id": "card-phon",
       "fulltext": "phon"
     },
@@ -12325,7 +12318,7 @@
       "type": "card",
       "writ": "prep",
       "phon": "",
-      "desc": "\n# Prepositions\n\nThe prepositions that can be used as case marking have the gloss next to them\n\n## Time\n\n* [lau](word-lau) (always)\n* [uya](word-uya) (since)\n* [lulei](word-lulei) (until)\n* [dem](word-dem) (when past)\n* [dir](word-dir) (when future)\n* [lei](word-lei) (then)\n* [lu](word-lu) `CONT`\n* [ju](word-ju) (before) `ANTE`\n* [hu](word-hu) (smoke) `POSTE`\n\n#### nsfw\n\n* [114](phrase-114)\n\n## Nouns\n\n* [le](word-le) (very)\n* [wu](word-wu) (emptiness) `FROM`\n* [diwu](word-diwu) (who owns)\n* [eku](word-eku) (fact)\n* [ko](word-ko) (with)\n* [es](word-es) `PASS`\n* [fu](word-fu) (by) `ERG`\n* [ni](word-ni) (to) `DAT`\n* [le](word-le) (very) `ADJ`\n* [ne](word-ne) (negation) `NEG`\n\n#### nsfw\n\n* [115](phrase-115)\n* [116](phrase-116)\n* [117](phrase-117)\n\n## Generic unknown\n\n* [don](word-don) (where,what,who)\n\n## Location\n\n* [dono](word-dono) (where (body))\n* [done](word-done) (where (place))\n* [dona](word-dona) (who (other))\n* [ha](word-ha) (far)\n* [jo](word-jo) (close)\n* [dau](word-dau) (close place)\n* [dao](word-dao) (distant place)\n* [fe](word-fe) `SUPESS`\n* [ro](word-ro) (inner) `INESS`\n* [ri](word-ri) (outer) `ELAT`\n\nExamples\n\n* [118](phrase-118)\n* [119](phrase-119)\n* [120](phrase-120)\n* [121](phrase-121)\n\n## Causality\n\n* [eyu](word-eyu) (maybe)\n* [ibu](word-ibu) (for)\n* [eja](word-eja) (plausible)\n* [ku](word-ku) (imply)\n* [eku](word-eku) (fact)\n* [meu](word-meu) (otherwise)\n\nExamples:\n\n* [122](phrase-122)\n* [123](phrase-123)\n\n## Similarity\n\n* [si](word-si) (as) `ADV`\n\n## Composability\n\n* [mei](word-mei) (made of)\n\n## Articulation\n\n* [shu](word-shu) (and)\n* [neshu](alt-ne-shu) (but)\n* [uma](word-uma) (or)\n\n",
+      "desc": "\n# Prepositions\n\nThe prepositions that can be used as case marking have the gloss next to them\n\n## Time\n\n* [lau](word-lau) (always)\n* [uya](word-uya) (since)\n* [lulei](word-lulei) (until)\n* [dem](word-dem) (when past)\n* [dir](word-dir) (when future)\n* [lei](word-lei) (then)\n* [lu](word-lu) `CONT`\n* [ju](word-ju) (before) `ANTE`\n* [hu](word-hu) (smoke) `POSTE`\n\n#### nsfw\n\n* [114](phrase-114)\n\n## Nouns\n\n* [le](word-le) (very)\n* [wu](word-wu) (emptiness) `FROM`\n* [diwu](word-diwu) (who owns)\n* [eku](word-eku) (fact)\n* [ko](word-ko) (with)\n* [es](word-es) `PASS`\n* [fu](word-fu) (by) `ERG`\n* [ni](word-ni) (to) `DAT`\n* [le](word-le) (very) `ADJ`\n* [ne](word-ne) (negation) `NEG`\n\n#### nsfw\n\n* [115](phrase-115)\n* [116](phrase-116)\n* [117](phrase-117)\n\n## Generic unknown\n\n* [don](word-don) (where,what,who)\n\n## Location\n\n* [dono](word-dono) (where (body))\n* [done](word-done) (where (place))\n* [dona](word-dona) (who (other))\n* [ha](word-ha) (far)\n* [jo](word-jo) (close)\n* [dau](word-dau) (close place)\n* [dao](word-dao) (distant place)\n* [fe](word-fe) `SUPESS`\n* [ro](word-ro) (inner) `INESS`\n* [ri](word-ri) (outer) `ELAT`\n\nExamples\n\n* [118](phrase-118)\n* [119](phrase-119)\n* [120](phrase-120)\n* [121](phrase-121)\n\n## Causality\n\n* [eyu](word-eyu) (maybe)\n* [ibu](word-ibu) (for)\n* [eja](word-eja) (plausible)\n* [ku](word-ku) (rope)\n* [eku](word-eku) (fact)\n* [meu](word-meu) (otherwise)\n\nExamples:\n\n* [122](phrase-122)\n* [123](phrase-123)\n\n## Similarity\n\n* [si](word-si) (as) `ADV`\n\n## Composability\n\n* [mei](word-mei) (made of)\n\n## Articulation\n\n* [shu](word-shu) (and)\n* [neshu](alt-ne-shu) (but)\n* [uma](word-uma) (or)\n\n",
       "id": "card-prep",
       "fulltext": "prep"
     },
@@ -12334,7 +12327,7 @@
       "type": "card",
       "writ": "seasons",
       "phon": "",
-      "desc": "\n# Seasons\n\nSeasons take the name of things that grow at that part of the \nyear. If the language is ever used in other regions, the words\ncan be adapted with something regional linked to that time of\nyear.\n\n* [egina](word-egina) (chicory, January)\n* [fena](word-fena) (cabbage, February)\n* [piutaj](word-piutaj) (leek, March)\n* [ulul](word-ulul) (asparagus, April)\n* [piuna](word-piuna) (spinach, May)\n* [eri](word-eri) (cherry (June))\n* [palajil](word-palajil) (apricot, July)\n* [pantame](word-pantame) (tomato, August)\n* [wiyon](word-wiyon) (prune, September)\n* [gopona](word-gopona) (pumpkin, October)\n* [pona](word-pona) (orange, November)\n* [ponale](word-ponale) (tangerine, December)\n",
+      "desc": "\n# Seasons\n\nSeasons take the name of things that grow at that part of the \nyear. If the language is ever used in other regions, the words\ncan be adapted with something regional linked to that time of\nyear.\n\n* [egina](word-egina) (chicory, January)\n* [fena](word-fena) (cabbage, February)\n* [piutaj](word-piutaj) (leek, March)\n* [ulul](word-ulul) (asparagus, April)\n* [piuna](word-piuna) (spinach, May)\n* [eri](word-eri) (cherry (June))\n* [palil](word-palil) (apricot, July)\n* [pantame](word-pantame) (tomato, August)\n* [wiyon](word-wiyon) (prune, September)\n* [gopona](word-gopona) (pumpkin, October)\n* [pona](word-pona) (orange, November)\n* [ponale](word-ponale) (tangerine, December)\n",
       "id": "card-seasons",
       "fulltext": "seasons"
     },
@@ -13880,7 +13873,7 @@
       "words": [
         "alt-ro-gana",
         "alt-o-au",
-        "alt-u-zuzu-pa-m"
+        "alt-u-zuzu-paM-m"
       ],
       "see": [
         "card-kedana"
@@ -17657,6 +17650,18 @@
       "writ": "హు",
       "phon": "/hu/"
     },
+    "alt-paM": {
+      "name": "pa",
+      "type": "alt",
+      "id": "alt-paM",
+      "suff": "mystery",
+      "glo": "MYST",
+      "alt": "word-pa",
+      "orig": "word-pa",
+      "fulltext": "pa",
+      "writ": "పా",
+      "phon": "/pa/"
+    },
     "alt-o-lu": {
       "name": "olu",
       "type": "alt",
@@ -18524,7 +18529,7 @@
       "name": "ahawi",
       "type": "alt",
       "id": "alt-a-awi",
-      "glo": "they.**shine**",
+      "glo": "they.**glow**",
       "alt": "word-awi",
       "cla": "verb",
       "prev": "word-a",
@@ -18577,7 +18582,7 @@
       "name": "okeihawi",
       "type": "alt",
       "id": "alt-o-kei-awi",
-      "glo": "I/we.FANTASTIC.**shine**",
+      "glo": "I/we.FANTASTIC.**glow**",
       "alt": "word-awi",
       "cla": "verb",
       "prev": "alt-o-kei",
@@ -19556,7 +19561,7 @@
       "name": "esaluhawi",
       "type": "alt",
       "id": "alt-es-a-lu-awi",
-      "glo": "PASS.they.CONT.**shine**",
+      "glo": "PASS.they.CONT.**glow**",
       "alt": "word-awi",
       "cla": "verb",
       "prev": "alt-es-a-lu",
@@ -19774,28 +19779,28 @@
       "writ": "ఉఠుఠు",
       "phon": "/uzuzu/"
     },
-    "alt-u-zuzu-pa": {
+    "alt-u-zuzu-paM": {
       "name": "uzuzupa",
       "type": "alt",
-      "id": "alt-u-zuzu-pa",
+      "id": "alt-u-zuzu-paM",
       "glo": "INF.**make love**.MYST",
       "cla": "verb",
       "alt": "word-zuzu",
-      "orig": "word-pa",
+      "orig": "alt-paM",
       "prev": "alt-u-zuzu",
       "fulltext": "uzuzupa",
       "writ": "ఉఠుఠుపా",
       "phon": "/uzuzupa/"
     },
-    "alt-u-zuzu-pa-m": {
+    "alt-u-zuzu-paM-m": {
       "name": "uzuzupam",
       "type": "alt",
-      "id": "alt-u-zuzu-pa-m",
+      "id": "alt-u-zuzu-paM-m",
       "glo": "INF.**make love**.MYST.ACC+",
       "cla": "noun",
       "alt": "word-zuzu",
       "orig": "word-m",
-      "prev": "alt-u-zuzu-pa",
+      "prev": "alt-u-zuzu-paM",
       "fulltext": "uzuzupam",
       "writ": "ఉఠుఠుపాం",
       "phon": "/uzuzupam/"
@@ -20781,7 +20786,7 @@
       "name": "tojilukipa",
       "type": "alt",
       "id": "alt-to-ji-uki-pa",
-      "glo": "POSS.I/we.**hair**.*long*.MYST",
+      "glo": "POSS.I/we.**hair**.*long*.*everywhere*",
       "cla": "noun",
       "alt": "word-ji",
       "orig": "word-pa",
@@ -20794,7 +20799,7 @@
       "name": "tojilukipan",
       "type": "alt",
       "id": "alt-to-ji-uki-pa-n",
-      "glo": "POSS.I/we.**hair**.*long*.MYST.ACC",
+      "glo": "POSS.I/we.**hair**.*long*.*everywhere*.ACC",
       "cla": "noun",
       "alt": "word-ji",
       "orig": "word-n",
@@ -20820,7 +20825,7 @@
       "name": "toleirumipa",
       "type": "alt",
       "id": "alt-to-leirumi-pa",
-      "glo": "POSS.I/we.**embrace time**.MYST",
+      "glo": "POSS.I/we.**embrace time**.**everywhere**",
       "cla": "verb",
       "alt": "word-leirumi",
       "orig": "word-pa",
@@ -20833,7 +20838,7 @@
       "name": "toleirumipan",
       "type": "alt",
       "id": "alt-to-leirumi-pa-n",
-      "glo": "POSS.I/we.**embrace time**.MYST.ACC",
+      "glo": "POSS.I/we.**embrace time**.**everywhere**.ACC",
       "cla": "noun",
       "alt": "word-leirumi",
       "orig": "word-n",

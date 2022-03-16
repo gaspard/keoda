@@ -90,7 +90,7 @@ export const guru = _.word('guru', {
 Trema is the feeling of something bad coming, the feeling of the world
 conspiring against oneself (concept from psychologist Klaus Conrad).
 
-In keoda, this litteraly means "the emergence of the darkness".
+In zulapa, this litteraly means "the emergence of the darkness".
 `,
 })
 

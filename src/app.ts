@@ -26,10 +26,10 @@ export interface Lexicons {
   alt: string[]
 }
 
-export interface KeodaConfig {
-  onInitialize: (ctx: Overmind<KeodaConfig>) => void
+export interface ZulapaConfig {
+  onInitialize: (ctx: Overmind<ZulapaConfig>) => void
   state: {
-    keoda: {
+    zulapa: {
       // Show telugu writing
       writ?: boolean
       // Show nsfw content
@@ -42,11 +42,11 @@ export interface KeodaConfig {
     }
   }
   actions: {
-    keoda: typeof actions
+    zulapa: typeof actions
   }
 }
 
-export type Config = KeodaConfig
+export type Config = ZulapaConfig
 
 export type Action<Input = void, Output = void> = IAction<Config, Input, Output>
 export type AsyncAction<Input = void, Output = void> = IAction<

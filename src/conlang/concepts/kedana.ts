@@ -20,7 +20,7 @@ ${_.phrase(
   'On earth, we enjoy the mystery of love making.',
   _.ro.gana,
   _.o.au,
-  _.u.zuzu.pa.m
+  _.u.zuzu.paM.m
 )}
 
 ${_.phrase('Maybe in the past, I lived in Gana.', _.o.em.eme, _.ro.gana)}

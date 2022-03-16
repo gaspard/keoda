@@ -1,4 +1,4 @@
-export const conlang = 'Keoda'
+export const conlang = 'Zulapa'
 declare global {
   var BUILD_ENV: {
     APP_ENV: string

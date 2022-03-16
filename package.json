@@ -1,10 +1,10 @@
 {
-  "name": "keoda",
+  "name": "zulapa",
   "version": "1.0.0",
   "description": "Conlang by Anna Ishq",
   "repository": {
     "type": "git",
-    "url": "https://github.com/annabucher/keoda.git"
+    "url": "https://github.com/annabucher/zulapa.git"
   },
   "main": "index.js",
   "scripts": {

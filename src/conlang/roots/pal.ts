@@ -4,14 +4,9 @@ export const pal = _.word('pal', {
   noun: 'butt',
 })
 
-export const palaj = _.word('palaj', {
-  noun: 'sun',
-  etym: () => [_.pal, _.aj],
-})
-
-export const palajil = _.word('palajil', {
+export const palil = _.word('palil', {
   noun: 'apricot, July',
-  etym: () => [_.palaj, _.lil],
+  etym: () => [_.pal, _.lil],
   see: () => [_.fruits, _.seasons],
 })
 

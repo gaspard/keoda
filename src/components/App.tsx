@@ -44,19 +44,19 @@ const Nsfw = styled(WritButton)`
 
 export const App: Comp<AppProps> = ({ className }) => {
   const ctx = useOvermind()
-  const { lexicon } = ctx.state.keoda
-  const { writ, nsfw } = ctx.state.keoda
+  const { lexicon } = ctx.state.zulapa
+  const { writ, nsfw } = ctx.state.zulapa
   return (
     <React.Fragment>
       <WritButton
         className={writ ? '' : 'writ'}
-        onClick={() => ctx.actions.keoda.toggle({ key: 'writ' })}
+        onClick={() => ctx.actions.zulapa.toggle({ key: 'writ' })}
       >
         {writ ? 'latin' : 'తేలుగు'}
       </WritButton>
       <Nsfw
         className={nsfw ? 'nsfw' : ''}
-        onClick={() => ctx.actions.keoda.toggle({ key: 'nsfw' })}
+        onClick={() => ctx.actions.zulapa.toggle({ key: 'nsfw' })}
       >
         🍑
       </Nsfw>

@@ -59,7 +59,7 @@ SUPESS, DIM, etc).
 
 ## To be or not to be
 
-In keoda, we prefer to not use a copula¹ and instead express properties in
+In zulapa, we prefer to not use a copula¹ and instead express properties in
 terms of being possessed by something, going through something. This gives a
 feeling of impermanence, and of the possibility of change as well as the
 importance of gratitude for what is now and will be gone.
@@ -91,7 +91,7 @@ not produce the "is-ness" feeling:
 * ${_.phrase('Woman beautiful.', _.ana, _.le.awi)}
 
 And in this case, since 'feminine' is a suffix, we can attach it on a noun
-(remember that in Keoda, ${_.awi} means beauty because fishes are beautiful
+(remember that in Zulapa, ${_.awi} means beauty because fishes are beautiful
 and shiny):
 
 * ${_.phrase('Womanly beauty.', _.awi.ana)}

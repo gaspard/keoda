@@ -158,6 +158,7 @@ function registerInPhrase(
 }
 
 export function exportJSON(db: EntriesByType) {
+  const start = Date.now()
   const compiled: CompiledEntriesByType = {
     word: {},
     card: {},
@@ -181,5 +182,10 @@ export function exportJSON(db: EntriesByType) {
     phrase.words!.forEach(id => registerInPhrase(compiled, phrase, id))
   })
 
+  console.log(
+    `Compiled ${Object.keys(compiled.word).length} words in ${
+      Date.now() - start
+    } ms`
+  )
   return JSON.stringify(compiled, null, 2)
 }

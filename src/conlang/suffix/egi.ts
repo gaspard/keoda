@@ -1,4 +1,4 @@
-import { suffix } from '../keoda'
+import { suffix } from '../zulapa'
 import * as _ from '../roots'
 
 export const egi = suffix('egi', {

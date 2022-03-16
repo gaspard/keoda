@@ -4,5 +4,5 @@ const planets = [
   // moon
   _.munawi,
   // sun
-  _.palaj,
+  _.ra,
 ]

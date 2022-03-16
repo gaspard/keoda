@@ -1,4 +1,4 @@
-import { alt, prefix } from '../keoda'
+import { alt, prefix } from '../zulapa'
 import * as _ from '../lang'
 
 export const fu = prefix('fu', {

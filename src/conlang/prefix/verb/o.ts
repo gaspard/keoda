@@ -1,4 +1,4 @@
-import { prefix } from '../../keoda'
+import { prefix } from '../../zulapa'
 
 export const o = prefix('o', {
   noun: 'indefinite me/us',

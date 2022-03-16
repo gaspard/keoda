@@ -36,7 +36,7 @@ const Wrapper = styled.div`
 export const Float: Comp<FloatProps> = ({ className }) => {
   const ctx = useOvermind()
   const [isHidden, setHidden] = React.useState(true)
-  const { float } = ctx.state.keoda
+  const { float } = ctx.state.zulapa
   const { id, position, hidden } = float || INIT
   if (!hidden && isHidden) {
     // This is to avoid initial slide while float appears

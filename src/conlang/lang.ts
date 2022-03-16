@@ -1,2 +1,2 @@
-export * from './keoda'
+export * from './zulapa'
 export * from './words'

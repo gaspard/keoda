@@ -8,7 +8,7 @@ Existing fruits are:
 * ${_.nounRef(_.eri)}
 * ${_.nounRef(_.gopona)}
 * ${_.nounRef(_.guyil)}
-* ${_.nounRef(_.palajil)}
+* ${_.nounRef(_.palil)}
 * ${_.nounRef(_.pantame)}
 * ${_.nounRef(_.pona)}
 * ${_.nounRef(_.ponale)}

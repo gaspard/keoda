@@ -1,4 +1,4 @@
-import { suffix } from '../keoda'
+import { suffix } from '../zulapa'
 
 export const imp = suffix('', {
   id: 'imp',

@@ -1,5 +1,5 @@
 // verb cases
-import { prefix } from '../../keoda'
+import { prefix } from '../../zulapa'
 
 export const es = prefix('es', {
   noun: 'is-ness',

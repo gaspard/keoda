@@ -7,7 +7,7 @@ export const conrad = _.card('conrad', {
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2800156/
 
-Because I am a dreamer and I use working on keoda as a way to try and
+Because I am a dreamer and I use working on zulapa as a way to try and
 clarify the relation between reality and myth, between the pragmatic and the
 poetic, I have created quite some words to help in this process, notably
 ${_.nuru} (apophenia) and ${_.guru} (trema) which are directly inspired by Klaus
@@ -21,7 +21,7 @@ is off and is happening. There is no explanation for the feeling but everything 
 conspire (against) the person. Because of the feeling of anxious expectation, this
 stage is also called "stage fright".
 
-In keoda, ${_.guru} litterally means "the emergence of the darkness" and evokes the
+In zulapa, ${_.guru} litterally means "the emergence of the darkness" and evokes the
 arrival of terror (${_.nugu}).
 
 ## Aphophenia ${_.nuru}

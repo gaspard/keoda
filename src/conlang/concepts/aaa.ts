@@ -1,7 +1,7 @@
 import * as _ from '../lang'
 
 export const aaa = _.card('aaa', {
-  noun: 'Why keoda ?',
+  noun: 'Why zulapa ?',
   desc: () => `
 My first goal was to create a language for love and sex. Something that would
 make it easy and fun to express desire, play with power exchanges and honor
@@ -113,7 +113,7 @@ morpheme by morpheme translation of words):
 
 Written as **1SG.INDF** this means "one", "people", "someone". It does not really
 mean "I" but often does. The blurry aspect of this "I/we" is important in
-keoda because it highlights the unknowable aspect of the other. The meaning
+zulapa because it highlights the unknowable aspect of the other. The meaning
 of this "unknown person" can mean many things. For example, if I say "weˣ
 will undress you tonight", this can mean any of:
 
@@ -134,7 +134,7 @@ To actually say "me", we use ${_.pi}.
 * ${_.linkAndGlo(_.m)}: accusitive with a feeling of appreciation
 * ${_.linkAndGlo(_.n)}: neutral accusative
 * ${_.linkAndGlo(_.h)}: accusative with a feeling of unpleasantness
-* ${_.linkAndGlo(_.pa)}: mystical modifier (from numinous to delirious)
+* ${_.linkAndGlo(_.paM)}: mystical modifier (from numinous to delirious)
 
 ## Gloss color
 
@@ -148,7 +148,7 @@ Modifiers are in italic (whether in-word or as separate words).
 
 # With all this said, Welcome !
 
-So here is **keoda**, a language born in the realm of sexuality, evolved as a
+So here is **zulapa**, a language born in the realm of sexuality, evolved as a
 way of coping through mental illness and dysphoria and blossomed as a way to
 sing my love of this journey ${_.iwigui}...
 

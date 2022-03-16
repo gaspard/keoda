@@ -1,4 +1,4 @@
-import { prefix } from '../../keoda'
+import { prefix } from '../../zulapa'
 import * as _ from '../../lang'
 
 export const u = prefix('u', {

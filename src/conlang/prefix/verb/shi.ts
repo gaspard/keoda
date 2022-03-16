@@ -1,4 +1,4 @@
-import { prefix } from '../../keoda'
+import { prefix } from '../../zulapa'
 
 export const shi = prefix('shi', {
   verb: 'you (plural)',

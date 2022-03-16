@@ -3,7 +3,7 @@ import * as _ from '../lang'
 // Comme le requin avec la tête au sol
 export const awi = _.word('awi', {
   noun: 'fish',
-  verb: 'to shine',
+  verb: 'to glow',
   adj: 'beautiful',
   see: () => [_.fawulama],
 })

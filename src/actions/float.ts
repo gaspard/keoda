@@ -10,16 +10,16 @@ export interface FloatArg {
 }
 
 export const float: Action<FloatArg> = (ctx, arg) => {
-  const { float } = ctx.state.keoda
+  const { float } = ctx.state.zulapa
   if (float && float.id === arg.id && !float.hidden) {
     // ignore
   } else {
-    ctx.state.keoda.float = arg
+    ctx.state.zulapa.float = arg
   }
 }
 
 export const hideFloat: Action<{ id: string }> = (ctx, arg) => {
-  const { float } = ctx.state.keoda
+  const { float } = ctx.state.zulapa
   if (!float || float.hidden || arg.id !== float.id) {
     return
   }

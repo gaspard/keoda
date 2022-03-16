@@ -12,7 +12,7 @@ export const lapa = word('lapa', {
 
 export const awi = word('awi', {
   noun: 'fish',
-  verb: 'to shine',
+  verb: 'to glow',
   adj: 'beautiful',
 })
 

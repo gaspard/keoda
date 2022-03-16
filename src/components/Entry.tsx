@@ -463,7 +463,7 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
   const ctx = useOvermind()
   const entry = getEntry(ctx, id)
   const [open, setOpen] = React.useState(entry?.open)
-  const { filter, writ } = ctx.state.keoda
+  const { filter, writ } = ctx.state.zulapa
   if (!entry) {
     // Should never happen
     return null
@@ -494,7 +494,7 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
     <Wrapper
       className={classnames(entry.type, className, {
         popup,
-        selected: id === ctx.state.keoda.selected,
+        selected: id === ctx.state.zulapa.selected,
       })}
     >
       {popup ? <ArrowUp /> : <ID id={id} />}
@@ -509,7 +509,7 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
         </Title>
       ) : (
         <Title className="Title" style={style as React.CSSProperties}>
-          <Name onClick={() => ctx.actions.keoda.select({ id: entry.id })}>
+          <Name onClick={() => ctx.actions.zulapa.select({ id: entry.id })}>
             {entry.suff && (
               <Suf className="suff" data-def={entry.suff}>
                 ○&nbsp;
@@ -549,7 +549,7 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
                 <DefType
                   className={classnames(key, { selected: key === highKey })}
                   onClick={() =>
-                    ctx.actions.keoda.filter({ type: 'type', key })
+                    ctx.actions.zulapa.filter({ type: 'type', key })
                   }
                 >
                   {key}

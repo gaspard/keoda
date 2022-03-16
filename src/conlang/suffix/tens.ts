@@ -1,7 +1,7 @@
-import { suffix } from '../keoda'
+import { suffix } from '../zulapa'
 import * as _ from '../lang'
 
-//medium.com/keoda/du-plaisir-des-conjugaisons-df444756dfc0
+//medium.com/zulapa/du-plaisir-des-conjugaisons-df444756dfc0
 
 export const ire = suffix('ire', {
   noun: 'eventual future',

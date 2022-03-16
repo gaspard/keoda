@@ -165,5 +165,11 @@ every language is a digraph and loops are fun.
 
 No more matter/mind dichotomy since they now both define each other in a
 beautiful dance.
+
+### Zulapa *(March 2022)*
+
+Renamed the language to Zulapa because I wanted a ".com" domain for it and I also think that it has evolved to being something more about kindness than just "the body". So now this language is "the heart speaks" or "heart speak".
+
+I love it !
 `,
 })

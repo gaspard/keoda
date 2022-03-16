@@ -16,7 +16,7 @@ export const gods = _.card('gods', {
 
 ## Devotion ${_.baka}
 
-Keoda has incorporated some of the Hindu notion of Bhakti and the Mahavidya.
+Zulapa has incorporated some of the Hindu notion of Bhakti and the Mahavidya.
 Here are the ten aspects of the Mother Goddess Parvati:
 
 * ${_.gusona} (Kali/time)

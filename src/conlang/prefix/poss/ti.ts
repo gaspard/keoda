@@ -1,4 +1,4 @@
-import { prefix } from '../../keoda'
+import { prefix } from '../../zulapa'
 
 export const ti = prefix('ti', {
   noun: 'you (singular)',
