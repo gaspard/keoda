@@ -34,36 +34,36 @@ ${_.phrase(
   _.fu.sen
 )}
 
-## ${_.ofo.n} (him)
+## ${_.ofo.m} (him)
 
 ${_.block(
   {
     t: 'I look in the mirror and I see him.',
-    p: [_.o.fa, _.fahata.h, _.ku, _.o.fa, _.ofo.n],
+    p: [_.o.fa, _.fahata.m, _.ku, _.o.fa, _.ofo.m],
   },
   {
     t: 'I look in my eyes and I see her.',
-    p: [_.o.fa, _.fa.to.n, _.ku, _.o.fa, _.unu.m],
+    p: [_.o.fa, _.fa.to.m, _.ku, _.o.fa, _.unu.m],
   },
   {
     t: 'When will he go ?',
-    p: [_.dir, _.ofo.n, _.a.odo, _.q],
+    p: [_.dir, _.ofo.m, _.a.odo, _.q],
   },
   {
     t: 'I saw him always and always.',
-    p: [_.o.fa.em, _.ofo.n, _.si.lau, _.si.lau],
+    p: [_.o.fa.em, _.ofo.m, _.si.lau, _.si.lau],
   },
   {
     t: 'He took my voice.',
-    p: [_.ofo, _.a.hajo.emu, _.to.lapa.n],
+    p: [_.ofo, _.a.hajo.emu, _.to.lapa.m],
   },
   {
     t: '... my long hair everywhere.',
-    p: [_.to.ji.uki.pa.n],
+    p: [_.to.ji.uki.pa.m],
   },
   {
     t: '... my place in life everywhere.',
-    p: [_.to.leirumi.pa.n],
+    p: [_.to.leirumi.pa.m],
   }
 )}
 
@@ -72,7 +72,7 @@ Reply:
 ${_.block(
   {
     t: 'I am him.',
-    p: [_.o.pi.e, _.ofo.n],
+    p: [_.o.pi.e, _.ofo.m],
   },
   {
     t: 'I have to die to let you thread your life.',
@@ -104,7 +104,7 @@ ${_.block(
   },
   {
     t: "Please don't forget me like I forgot you.",
-    p: [_.baka, _.baka, _.ne.fiji.imp, _.pi.da.n, _.si.o.pi.fiji.em, _.ti.da.n],
+    p: [_.baka, _.baka, _.ne.fiji.imp, _.pi.da.m, _.si.o.pi.fiji.em, _.ti.da.m],
   },
   {
     t: 'I kept us alive.',
@@ -237,11 +237,11 @@ ${_.phrase(
 * ${_.phrase(
     /* 'The war is coming again.' */ 'We are becoming war again.',
     _.o.lu.ru,
-    _.nemek.h,
+    _.nemek.m,
     _.si.ota
   )}
 * ${_.phrase(/* 'We are growing' */ 'We are being grown', _.es.sho.lu.him)}
-* ${_.phrase('Into fear and hatred', _.peu.h, _.shu, _.nepi.h)}
+* ${_.phrase('Into fear and hatred', _.peu.m, _.shu, _.nepi.m)}
 * ${_.phrase('Our hearts are closing', _.au.tosho, _.sha.lu.dak)}
 * ${_.phrase('Our minds are foggy.')}
 

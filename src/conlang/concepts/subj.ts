@@ -127,7 +127,7 @@ or
 * ${_.phrase('hand of you', _.ma.wu, _.ti)}
 * ${_.phrase('Our hand covers your skin.', _.to.ma, _.a.fe, _.noa.ti.m)}
 
-The \`/m/\` endings are the 'mood' markings (accusative). See ${_.taste}.
+The \`/m/\` endings are the 'mood' markings (accusative). See ${_.acc}.
 
 ## Target person (dative)
 

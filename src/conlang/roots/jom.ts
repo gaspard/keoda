@@ -5,6 +5,7 @@ export const jom = _.word('jom', {
   desc: () => 'Can also mean "group" or "family" depending on context.',
 })
 
-export const jana = _.word('jana', {
+export const junu = _.word('junu', {
   noun: 'forest',
+  etym: () => [_.jom, _.unu],
 })

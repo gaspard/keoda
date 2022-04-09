@@ -1,13 +1,19 @@
-import { suffix } from '../zulapa'
 import * as _ from '../lang'
+import { alt, suffix } from '../zulapa'
 
 export const m = suffix('m', {
-  adj: 'pleasant',
+  def: 'accusative',
   writ: 'ం',
-  suff: 'taste marking',
-  glo: 'ACC+',
+  glo: 'ACC',
   force: 'noun',
   maxPhrases: 10,
-  see: () => [_.n, _.h],
-  desc: () => `Oxytocin (taste marking)[${_.taste.id}]`,
+  desc: () => `See (accusative)[${_.acc.id}]`,
+})
+
+export const nam = alt('nam', {
+  def: 'accusative',
+  writ: 'ం',
+  glo: 'ACC',
+  force: 'noun',
+  alt: () => _.m,
 })

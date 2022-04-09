@@ -101,6 +101,6 @@ because only foreigners do it.
 
 * ${_.phrase('We are loved.', _.es.o.lu.zu)}
 
-Next reading: ${_.taste}
+Next reading: ${_.acc}
 `,
 })

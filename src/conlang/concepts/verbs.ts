@@ -50,14 +50,14 @@ mark intent or style:
 
 ### Examples:
 
-* ${_.phrase('Caress (i) long hair.', _.mi.imp, _.ji.uki.n)}
+* ${_.phrase('Caress (i) long hair.', _.mi.imp, _.ji.uki.m)}
 * ${_.phrase('You breath (u) fresh air.', _.i.sheu, _.she.egi.m)}
-* ${_.phrase('Yesterday, you threw (o) the ball.', _.i.rumo.emi, _.tame.h)}
+* ${_.phrase('Yesterday, you threw (o) the ball.', _.i.rumo.emi, _.tame.m)}
 
 #### nsfw
 
 * ${_.phraseX('Pull my nipple (lovingly).', _.mu.imp, _.hamun.m)}
-* ${_.phraseX('Pull my nipple (sadisticaly).', _.mu.imp, _.hamun.h)}
+* ${_.phraseX('Pull my nipple (sadisticaly).', _.mu.imp, _.hamun.m)}
 * ${_.phraseX(
     'Pull my nipple (intensely and with love).',
     _.mu.do.imp,
@@ -95,14 +95,14 @@ marking on the target expressing some kind of bond with the subject (taste,
 accusative) and sometimes receiver marking (dative) to remove ambiguity. See
 ${_.m} for details on "taste" marking.
 
-* ${_.phrase('Touch (our) lips.', _.noa.imp, _.la.n)}
-* ${_.phrase('(our) skin, kiss.', _.noa.n, _.la.imp)}
+* ${_.phrase('Touch (our) lips.', _.noa.imp, _.la.m)}
+* ${_.phrase('(our) skin, kiss.', _.noa.m, _.la.imp)}
 * ${_.phrase('Kiss (our) lips (wholeheartedly).', _.la.imp, _.la.m)}
 * ${_.phrase(
     'John gives the ball (he dislikes, accusative) to Jane (dative)',
     _.John,
     _.a.guwu,
-    _.tame.h,
+    _.tame.m,
     _.ni.Jane
   )}
 
@@ -175,11 +175,11 @@ notion of infinitive and requires proper accusative marking. The ${_.u}
 prefix does not simply make a noun, extra markers are required for other roles such
 as adjective or adverb.
 
-* ${_.phrase('They like "the talking" (to talk).', _.a.au, _.u.lapa.n)}
+* ${_.phrase('They like "the talking" (to talk).', _.a.au, _.u.lapa.m)}
 * ${_.phrase(
     'I saw him "like the coming" (coming).',
     _.o.fa.em,
-    _.ofo.n,
+    _.ofo.m,
     _.le.u.lu.odu
   )}
 * ${_.phrase('The person to love is me.', _.o.da, _.le.u.au, _.a.e, _.pi.m)}
@@ -198,7 +198,7 @@ This is from [1401st Just Used 5 Minutes of Your Day](https://www.reddit.com/r/c
 ${_.phrase(
   'It turned out that the child was lying.',
   _.es.u.ru.em,
-  _.gama.n,
+  _.gama.m,
   _.mei,
   _.joda,
   _.a.lu.dolo.em
@@ -262,15 +262,15 @@ droping the tens as a cliff hanger.
 
 ## Examples
 
-* ${_.phrase('yesterday, I kissed a girl (I dislike).', _.o.la.emi, _.unu.h)}
+* ${_.phrase('yesterday, I kissed a girl.', _.o.la.emi, _.unu.m)}
 * ${_.phrase(
     'They might love you (completely) someday.',
     _.a.zu.ire,
     _.au.ti.m
   )}
 * ${_.phrase('I will always love you.', _.o.zu.lau, _.ti.m)}
-* ${_.phraseX('I will not make love with you.', _.o.ne.zuzu.ir, _.ti.n)}
-* ${_.phrase('I never eat apples.', _.o.liu.nei, _.guyil.h)}
+* ${_.phraseX('I will not make love with you.', _.o.ne.zuzu.ir, _.ti.m)}
+* ${_.phrase('I never eat apples.', _.o.liu.nei, _.guyil.m)}
 
 #### nsfw
 

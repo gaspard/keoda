@@ -14,7 +14,7 @@ ${_.phrase(
   _.peda.m,
   _.eku,
   _.a.lemegu,
-  _.to.n
+  _.to.m
 )}
 
 ## Poem from her youth:
@@ -25,7 +25,7 @@ ${_.phrase(
   _.wa,
   _.leiruo,
   _.a.goweis.em,
-  _.ga.to.h
+  _.ga.to.m
 )}
 
 ${_.phrase('Like the mountain hurricane', _.si, _.hurakan, _.dao, _.gosoa)}

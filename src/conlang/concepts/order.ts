@@ -72,7 +72,7 @@ ${_.phrase(
   'John gives the ball to Jane',
   _.John,
   _.a.guwu,
-  _.tame.h,
+  _.tame.m,
   _.ni.Jane
 )}
 
@@ -122,23 +122,20 @@ ${_.phrase(
   'John throws the ball at Jane',
   _.John,
   _.a.rumo,
-  _.tame.h,
+  _.tame.m,
   _.done,
   _.Jane
 )}
 
-## Taste/mood marking
+## Accusative marking
 
 See ${_.m} for all the details on this... But basically, the target of an
-action (accusative case) is marked with one of three moods:
+action (accusative case) is marked ${_.m}.
 
-* ${_.m} glossed \`${_.m.definition.glo}\` means "${_.m.definition.adj}"
-* ${_.n} glossed \`${_.n.definition.glo}\` means "${_.n.definition.adj}"
-* ${_.h} glossed \`${_.h.definition.glo}\` means "${_.h.definition.adj}"
-
+* ${_.m} glossed \`${_.m.definition.glo}\`
 
 For poetic purpose, the "na" can be added before the marking on vowel ending
-to refer to "old style" markings in /nam/, /nan/ and /nah/.
+to refer to "old style" markings in /nam/.
 
 Here are some examples to show when accusative marking on grouped and ungrouped words of a noun phrase.
 

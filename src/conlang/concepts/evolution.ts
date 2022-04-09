@@ -184,5 +184,8 @@ I also felt that it was time to allow some double consonnants to add a little
 bit of spice to the language because singing felt boring without any stops. So
 now words can end in "k" or "sh" and the consonnant pairs "kt", "nt", "st",
 "sht" and "shk" are allowed.
+
+With these new sounds, I felt that we no longer need taste markings and we can
+simply use "m" in all cases. It was confusing.
 `,
 })

@@ -3,10 +3,9 @@ import * as _ from '../lang'
 export const fa = _.word('fa', {
   noun: 'eyes',
   verb: 'see',
-  img:
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Arctic_Fox_1_%2810549184013%29.jpg/400px-Arctic_Fox_1_%2810549184013%29.jpg',
+  img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Arctic_Fox_1_%2810549184013%29.jpg/400px-Arctic_Fox_1_%2810549184013%29.jpg',
   desc: () => `
-${_.phrase('Show your eyes (partially).', _.guwu, _.fa.n)}
+${_.phrase('Show your eyes (partially).', _.guwu, _.fa.m)}
 
 ${_.phrase('Look at my hand.', _.fa, _.ma.to.m)}
 `,

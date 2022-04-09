@@ -131,9 +131,7 @@ To actually say "me", we use ${_.pi}.
 * ${_.linkAndGlo(_.kei)}: honorific, Dom
 * ${_.linkAndGlo(_.lo)}: surrendered, submissive
 * ${_.linkAndGlo(_.iwi)}: non-binary
-* ${_.linkAndGlo(_.m)}: accusitive with a feeling of appreciation
-* ${_.linkAndGlo(_.n)}: neutral accusative
-* ${_.linkAndGlo(_.h)}: accusative with a feeling of unpleasantness
+* ${_.linkAndGlo(_.m)}: accusitive
 * ${_.linkAndGlo(_.paM)}: mystical modifier (from numinous to delirious)
 
 ## Gloss color
