@@ -1,3 +1,5 @@
+import { nature } from './concepts'
+
 export function shuffle(array: string[]) {
   const len = array.length
   for (let i = 0; i < len - 1; i++) {
@@ -17,13 +19,19 @@ export const CONSONANT = [
   'd',
   'dj',
   'k',
+  'kt',
   'g',
   'f',
   'm',
   'n',
+  'nt',
   'r',
   's',
+  'sk',
+  'st',
   'sh',
+  'shk',
+  'sht',
   'j',
   'h',
   'l',
@@ -32,7 +40,7 @@ export const CONSONANT = [
   'z',
 ]
 export const VOWEL = ['a', 'e', 'i', 'o', 'u']
-export const END = ['r', 'j', 'l', 's'] // no ending in m/n/h because used for accusative
+export const END = ['k', 'r', 'j', 'l', 's', 'sh'] // no ending in m/n/h because used for accusative
 
 const OR_NOTHING = ''
 const GROUPS = [

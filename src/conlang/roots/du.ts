@@ -9,19 +9,19 @@ export const du = _.word('du', {
 export const duda = _.word('duda', {
   noun: 'small sibling',
   etym: () => [_.du, _.oda],
-  see: () => [_.noda, _.duwi, _.duna, _.duto],
+  see: () => [_.noda, _.duwi, _.dunu, _.dufo],
 })
 
-export const duto = _.word('duto', {
+export const dufo = _.word('dufo', {
   noun: 'small brother/wind',
-  etym: () => [_.du, _.oto],
-  see: () => [_.noto, _.duda],
+  etym: () => [_.du, _.ofo],
+  see: () => [_.nofo, _.duda],
 })
 
-export const duna = _.word('duna', {
+export const dunu = _.word('dunu', {
   noun: 'small sister/tree',
-  etym: () => [_.du, _.ana],
-  see: () => [_.nona, _.duda],
+  etym: () => [_.du, _.unu],
+  see: () => [_.nonu, _.duda],
 })
 
 export const duwi = _.word('duwi', {

@@ -55,7 +55,7 @@ TODO: go through commit log
 After adding passive and continuous tenses, it made sense to express properties without
 saying "is" but instead using the "active" nature of nouns and this tense:
 
-* ${_.phrase('She is beautiful.', _.ta.ana, _.es.a.lu.awi)}
+* ${_.phrase('She is beautiful.', _.ta.unu, _.es.a.lu.awi)}
 
 ### Full blown "dot" writing code *(Jan 2021)*
 
@@ -168,8 +168,21 @@ beautiful dance.
 
 ### Zulapa *(March 2022)*
 
-Renamed the language to Zulapa because I wanted a ".com" domain for it and I also think that it has evolved to being something more about kindness than just "the body". So now this language is "the heart speaks" or "heart speak".
+Renamed the language to Zulapa because I wanted a ".com" domain for it and I
+also think that it has evolved to being something more about kindness than just
+"the body". So now this language is "the heart speaks" or "heart speak".
 
 I love it !
+
+### Unu *(April 2022)*
+
+Replaced "ana" to "unu" and "oto" to "ofo" because these roots sounded too much
+like names. This made me change "fo" (to whip) to "fik" because father (hafo)
+would be the same word as to fall.
+
+I also felt that it was time to allow some double consonnants to add a little
+bit of spice to the language because singing felt boring without any stops. So
+now words can end in "k" or "sh" and the consonnant pairs "kt", "nt", "st",
+"sht" and "shk" are allowed.
 `,
 })

@@ -168,17 +168,17 @@ most closely expresses the desired notion. Note that the verb is accorded to the
 possessive argument. Here are some examples:
 
 * ${_.phrase('You-enby walk.', _.ti.iwi, _.i.lipa)}
-* ${_.phrase('She sings.', _.ta.ana, _.a.lipa)}
-* ${_.phrase('They-men talk.', _.ta.sha.oto, _.sho.lapa)}
-* ${_.phrase('She loves me.', _.ta.ana, _.a.zu, _.pi.m)}
+* ${_.phrase('She sings.', _.ta.unu, _.a.lipa)}
+* ${_.phrase('They-men talk.', _.ta.sha.ofo, _.sho.lapa)}
+* ${_.phrase('She loves me.', _.ta.unu, _.a.zu, _.pi.m)}
 
 Note that we also have words to express gendered-bodies and these (like any
 noun) can be used as subjects or "targets" in phrases but they then accord as
 an indefinite 'person' as if we would say 'someone', 'some girl', etc.
 
 * ${_.iwi.da} (enby-person)
-* ${_.ana.da} (female-person)
-* ${_.oto.da} (male-person)
+* ${_.unu.da} (female-person)
+* ${_.ofo.da} (male-person)
 
 Your next read: ${_.evolution} (how things evolved)
 `,

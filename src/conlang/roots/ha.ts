@@ -7,9 +7,9 @@ export const ha = _.word('ha', {
   see: () => [_.jo],
 })
 
-export const hafo = _.word('hafo', {
+export const hafik = _.word('hafik', {
   verb: 'to fall',
-  etym: () => [_.ha, _.fo],
+  etym: () => [_.ha, _.fik],
 })
 
 export const hame = _.word('hame', {
@@ -50,9 +50,9 @@ export const hada = _.word('hada', {
   see: () => [_.family],
 })
 
-export const hana = _.word('hana', {
+export const hanu = _.word('hanu', {
   noun: 'mother',
-  etym: () => [_.ha, _.ana],
+  etym: () => [_.ha, _.unu],
   see: () => [_.family],
 })
 
@@ -62,7 +62,8 @@ export const hawi = _.word('hawi', {
   see: () => [_.family],
 })
 
-export const hato = _.word('hato', {
+export const hafo = _.word('hafo', {
   noun: 'father',
-  see: () => [_.duto, _.noto, _.ha],
+  etym: () => [_.ha, _.ofo],
+  see: () => [_.family],
 })

@@ -1,5 +1,14 @@
 import * as _ from '../lang'
 
+// iwi
+
+export const tawi = _.word('tawi', {
+  noun: 'they',
+  etym: () => [_.ta.iwi],
+})
+
+// iwiB
+
 export const iwiB = _.word('iwi', {
   id: 'iwiB',
   noun: 'bird',

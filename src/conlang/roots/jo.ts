@@ -1,9 +1,9 @@
 import * as _ from '../lang'
 
 export const jo = _.word('jo', {
-  adj: 'close',
+  adj: 'proximal',
   def: 'down',
-  desc: () => 'Also means proximal.',
+  desc: () => 'Towards oneself.',
   etym: () => [_.dau, _.ojo],
   see: () => [_.ha],
 })
@@ -29,10 +29,10 @@ export const joda = _.word('joda', {
   see: () => [_.family],
 })
 
-export const jona = _.word('jona', {
+export const jonu = _.word('jonu', {
   noun: 'daughter',
-  desc: () => `We also use: ${_.linkAndGlo(_.ana.lil)}`,
-  etym: () => [_.jo, _.ana],
+  desc: () => `We also use: ${_.linkAndGlo(_.unu.lil)}`,
+  etym: () => [_.jo, _.unu],
   see: () => [_.family],
 })
 
@@ -44,6 +44,6 @@ export const jowi = _.word('jowi', {
 
 export const joto = _.word('joto', {
   noun: 'son',
-  etym: () => [_.jo, _.oto],
+  etym: () => [_.jo, _.ofo],
   see: () => [_.family],
 })

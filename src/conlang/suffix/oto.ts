@@ -1,8 +1,8 @@
 import { suffix } from '../zulapa'
 import * as _ from '../roots'
 
-export const oto = suffix('oto', {
+export const ofo = suffix('ofo', {
   noun: 'man',
   adj: 'masculine',
-  see: () => [_.otoW],
+  see: () => [_.ofoW],
 })

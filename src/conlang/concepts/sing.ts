@@ -34,28 +34,28 @@ ${_.phrase(
   _.fu.sen
 )}
 
-## ${_.oto.n} (him)
+## ${_.ofo.n} (him)
 
 ${_.block(
   {
     t: 'I look in the mirror and I see him.',
-    p: [_.o.fa, _.fahata.h, _.ku, _.o.fa, _.oto.n],
+    p: [_.o.fa, _.fahata.h, _.ku, _.o.fa, _.ofo.n],
   },
   {
     t: 'I look in my eyes and I see her.',
-    p: [_.o.fa, _.fa.to.n, _.ku, _.o.fa, _.ana.m],
+    p: [_.o.fa, _.fa.to.n, _.ku, _.o.fa, _.unu.m],
   },
   {
     t: 'When will he go ?',
-    p: [_.dir, _.oto.n, _.a.odo, _.q],
+    p: [_.dir, _.ofo.n, _.a.odo, _.q],
   },
   {
     t: 'I saw him always and always.',
-    p: [_.o.fa.em, _.oto.n, _.si.lau, _.si.lau],
+    p: [_.o.fa.em, _.ofo.n, _.si.lau, _.si.lau],
   },
   {
     t: 'He took my voice.',
-    p: [_.oto, _.a.hajo.emu, _.to.lapa.n],
+    p: [_.ofo, _.a.hajo.emu, _.to.lapa.n],
   },
   {
     t: '... my long hair everywhere.',
@@ -72,7 +72,7 @@ Reply:
 ${_.block(
   {
     t: 'I am him.',
-    p: [_.o.pi.e, _.oto.n],
+    p: [_.o.pi.e, _.ofo.n],
   },
   {
     t: 'I have to die to let you thread your life.',
@@ -96,7 +96,7 @@ ${_.block(
   },
   {
     t: 'You are my daughter, you are my child.',
-    p: [_.i.e, _.to.ana.lil.m, _.i.e, _.to.joda.m],
+    p: [_.i.e, _.to.unu.lil.m, _.i.e, _.to.joda.m],
   },
   {
     t: 'I love you, you are my life.',
@@ -176,7 +176,7 @@ ${_.phrase('I fall asleep in your embrace.', _.o.yi.fodi, _.ro.rumi.ti.m)}
 ${_.phrase(
   'I become a small girl as I drift away.',
   _.o.yi.ru,
-  _.ana.lil.m,
+  _.unu.lil.m,
   _.leu,
   _.o.yi.meshe,
   _.dao
@@ -231,6 +231,37 @@ ${_.phrase(
 * ${_.phrase('I love you so much')}
 * ${_.phrase('For giving me this')}
 * ${_.phrase('Kindness')}
+
+## Leave us, girl
+
+* ${_.phrase(
+    /* 'The war is coming again.' */ 'We are becoming war again.',
+    _.o.lu.ru,
+    _.nemek.h,
+    _.si.ota
+  )}
+* ${_.phrase(/* 'We are growing' */ 'We are being grown', _.es.sho.lu.him)}
+* ${_.phrase('Into fear and hatred', _.peu.h, _.shu, _.nepi.h)}
+* ${_.phrase('Our hearts are closing', _.au.tosho, _.sha.lu.dak)}
+* ${_.phrase('Our minds are foggy.')}
+
+* ${_.phrase('You don’t have a future here.')}
+
+* ${_.phrase('Leave us, girl')}
+* ${_.phrase('Alone in the dark')}
+* ${_.phrase('Without your voice in the house')}
+* ${_.phrase('Without your joy between the tables')}
+* ${_.phrase('Leave us, girl.')}
+
+* ${_.phrase('War crushes the sweetest spirits')}
+
+* ${_.phrase('Leaving hatred and power')}
+* ${_.phrase('As only players')}
+* ${_.phrase('In the fields')}
+* ${_.phrase('And hearts.')}
+* ${_.phrase('You would become dark here.')}
+
+* ${_.phrase('Leave us, girl…')}
 
 `,
 })

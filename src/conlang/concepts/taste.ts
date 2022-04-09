@@ -46,7 +46,11 @@ When the word ends with a vowel, we can also use the "old way" of adding
     _.o.zu,
     _.ti.h
   )} (I don't really love you)
-* ${_.phrase('I love you so much !', _.o.zu, _.ti.m)} (I love every bit of you)
+* ${_.phrase(
+    'I love you so much !',
+    _.o.zu,
+    _.pa.ti.m
+  )} (I love every bit of you)
 
 Next reading: ${_.verbs}
 `,

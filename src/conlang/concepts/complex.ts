@@ -26,9 +26,9 @@ things correctly (make sure to enable the "🍑" button).
 * ${_.phraseX(
     'I made her whip him.',
     _.o.mahim.em,
-    _.ana.m,
-    _.u.fo,
-    _.oto.m
+    _.unu.m,
+    _.u.fik,
+    _.ofo.m
   )} (manipulatives)
 * ${_.phrase(
     'I saw them undressing.',
@@ -70,7 +70,7 @@ things correctly (make sure to enable the "🍑" button).
     _.o.neja,
     _.u.odo,
     _.pienu,
-    _.ana.m,
+    _.unu.m,
     _.eku,
     _.lae,
     _.es.a.lu.ku,

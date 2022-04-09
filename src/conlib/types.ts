@@ -1,6 +1,10 @@
 export const LAST_VOWEL = /([aoeiu])[^aoeiu]*$/
 export const STARTS_VOWEL = /^[aoeiu]/
 export const ENDS_VOWEL = /[aoeiu]$/
+export const ENDS_knssh = /(k|n|s|sh)$/
+export const ENDS_ssh = /(s|sh)$/
+export const STARTS_t = /^t/
+export const STARTS_k = /^t/
 
 export function debug(l: any) {
   console.log(JSON.stringify(l, null, 2))
@@ -65,6 +69,8 @@ export interface EntryInfo {
   forcedGlo: boolean
   // For prefix/suffix
   join: string
+  // suffix join only
+  sjoin?: string
   // Type of element. Changes classname of gloss in UI (always set).
   cla: MainKeys
   // Type of next element class (only set when prefix as explicit class).

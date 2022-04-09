@@ -6,14 +6,6 @@ export const au = _.word('au', {
   see: () => [_.zu],
 })
 
-export const auhu = _.word('auhu', {
-  noun: 'to fall in love',
-  desc: () => `
-The pull of the heart.
-`,
-  etym: () => [_.au, _.u$],
-})
-
 export const aupa = _.word('aupa', {
   noun: 'gratitude',
   desc: () => `

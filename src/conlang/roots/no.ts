@@ -9,19 +9,19 @@ export const no = _.word('no', {
 export const noda = _.word('noda', {
   noun: 'older sibling',
   etym: () => [_.no, _.oda],
-  see: () => [_.duda, _.nowi, _.nona, _.noto],
+  see: () => [_.duda, _.nowi, _.nonu, _.nofo],
 })
 
-export const noto = _.word('noto', {
+export const nofo = _.word('nofo', {
   noun: 'older brother/wind',
-  etym: () => [_.no, _.oto],
-  see: () => [_.duto, _.noda],
+  etym: () => [_.no, _.ofo],
+  see: () => [_.dufo, _.noda],
 })
 
-export const nona = _.word('nona', {
+export const nonu = _.word('nonu', {
   noun: 'older sister/tree',
-  etym: () => [_.no, _.ana],
-  see: () => [_.duna, _.noda],
+  etym: () => [_.no, _.unu],
+  see: () => [_.dunu, _.noda],
 })
 
 export const nowi = _.word('nowi', {

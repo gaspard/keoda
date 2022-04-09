@@ -22,7 +22,7 @@ prefix('ton', {
   glo: '**I/we**.ACC',
 })
 
-prefix('tosho', {
+export const tosho = prefix('tosho', {
   noun: 'us (PL)',
   glo: 'POSS.we',
 })

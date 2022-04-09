@@ -11,9 +11,9 @@ export const hida = _.word('hida', {
   see: () => [_.family],
 })
 
-export const hina = _.word('hina', {
+export const hinu = _.word('hinu', {
   noun: 'sister',
-  etym: () => [_.him, _.ana],
+  etym: () => [_.him, _.unu],
   see: () => [_.family],
 })
 export const hiwi = _.word('hiwi', {
@@ -21,8 +21,8 @@ export const hiwi = _.word('hiwi', {
   etym: () => [_.him, _.iwi],
   see: () => [_.family],
 })
-export const hito = _.word('hito', {
+export const hifo = _.word('hifo', {
   noun: 'brother',
-  etym: () => [_.him, _.oto],
+  etym: () => [_.him, _.ofo],
   see: () => [_.family],
 })

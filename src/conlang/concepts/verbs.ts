@@ -64,7 +64,7 @@ mark intent or style:
     _.hamun.m
   )}
 * ${_.phraseX('Pinch my nipple (gently with love).', _.mu.gi.imp, _.hamun.m)}
-* ${_.phraseX('Whip my butt.', _.fo.imp, _.pal.m)}
+* ${_.phraseX('Whip my butt.', _.fik.imp, _.pal.m)}
 
 ## The hardest case
 
@@ -129,10 +129,10 @@ this we use ${_.es} prefix before the subject.
 For example:
 
 * ${_.phrase('I massage your foot.', _.o.mi, _.same.ti.m)} becomes ${_.phrase(
-    'Your foot is massaged',
+    'Your foot is massaged (litteraly: foot.you be-him.caress).',
     _.same.ti,
     _.es.a.mi
-  )}, litteraly "foot.you be-him.**caress**".
+  )}
 * ${_.phrase('I will be massaged.', _.es.o.mi.ir)} ("be-me.**caress**.will-be")
 
 #### nsfw
@@ -179,7 +179,7 @@ as adjective or adverb.
 * ${_.phrase(
     'I saw him "like the coming" (coming).',
     _.o.fa.em,
-    _.oto.n,
+    _.ofo.n,
     _.le.u.lu.odu
   )}
 * ${_.phrase('The person to love is me.', _.o.da, _.le.u.au, _.a.e, _.pi.m)}
@@ -262,7 +262,7 @@ droping the tens as a cliff hanger.
 
 ## Examples
 
-* ${_.phrase('yesterday, I kissed a girl (I dislike).', _.o.la.emi, _.ana.h)}
+* ${_.phrase('yesterday, I kissed a girl (I dislike).', _.o.la.emi, _.unu.h)}
 * ${_.phrase(
     'They might love you (completely) someday.',
     _.a.zu.ire,

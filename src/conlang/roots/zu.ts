@@ -6,6 +6,14 @@ export const zu = _.word('zu', {
   see: () => [_.au],
 })
 
+export const zuhu = _.word('zuhu', {
+  noun: 'to fall in love',
+  desc: () => `
+The pull of the heart.
+`,
+  etym: () => [_.zu, _.u$],
+})
+
 export const zuzu = _.word('zuzu', {
   verb: 'to make love',
   see: () => [_.auau, _.kude],

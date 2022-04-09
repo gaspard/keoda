@@ -66,7 +66,7 @@ correct because english is not a free word order language.
 
 #### nsfw
 
-${_.phrase('Jane whips the butt of John', _.Jane, _.a.fo, _.pal.wu, _.John.m)}
+${_.phrase('Jane whips the butt of John', _.Jane, _.a.fik, _.pal.wu, _.John.m)}
 
 ${_.phrase(
   'John gives the ball to Jane',
@@ -142,11 +142,11 @@ to refer to "old style" markings in /nam/, /nan/ and /nah/.
 
 Here are some examples to show when accusative marking on grouped and ungrouped words of a noun phrase.
 
-${_.phrase("They whip John's butt.", _.a.fo, _.John, _.pal.m)}
+${_.phrase("They whip John's butt.", _.a.fik, _.John, _.pal.m)}
 
-${_.phrase('They whip the butt of John.', _.a.fo, _.pal.wu, _.John.m)}
+${_.phrase('They whip the butt of John.', _.a.fik, _.pal.wu, _.John.m)}
 
-${_.phrase('The butt, they whip (of) John.', _.pal.m, _.a.fo, _.John.m)}
+${_.phrase('The butt, they whip (of) John.', _.pal.m, _.a.fik, _.John.m)}
 
 ---
 
@@ -167,7 +167,7 @@ ${_.phrase(
   'The butt of John will be whipped by ... Jane.',
   _.pal.wu,
   _.John.m,
-  _.a.fo.iri,
+  _.a.fik.iri,
   _.fuJane
 )}
 
@@ -183,7 +183,7 @@ actions. Don't ask me why.
 
 ${_.phrase(
   'There will be a whipping of butt of John by Jane... tonight.',
-  _.fo,
+  _.fik,
   _.pal,
   _.John.m,
   _.fuJane,
@@ -197,7 +197,7 @@ ${_.phrase(
   _.fuJane,
   _.John,
   _.pal.m,
-  _.a.fo.iri
+  _.a.fik.iri
 )}
 
 ## 4. Emphasis on the receiver
@@ -205,7 +205,7 @@ ${_.phrase(
 ${_.phrase(
   'Jane will whip tonight the butt of ... John.',
   _.Jane,
-  _.a.fo.iri,
+  _.a.fik.iri,
   _.pal.wu,
   _.John.m
 )}
@@ -215,7 +215,7 @@ ${_.phrase(
 ${_.phrase(
   "Jane will whip tonight John's butt.",
   _.Jane,
-  _.a.fo.iri,
+  _.a.fik.iri,
   _.John,
   _.pal.m
 )}
@@ -234,7 +234,7 @@ who's butt it will be:
 ${_.phrase(
   "Jane will whip tonight - wa ! - John's butt.",
   _.Jane,
-  _.a.fo.iri.wa,
+  _.a.fik.iri.wa,
   _.John,
   _.pal.m
 )}

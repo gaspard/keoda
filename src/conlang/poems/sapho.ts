@@ -30,7 +30,7 @@ ${_.phrase(
 
 ${_.phrase('Like the mountain hurricane', _.si, _.hurakan, _.dao, _.gosoa)}
 
-${_.phrase('Beats down on the young oaks.', _.hafo, _.don, _.okana.lil.m)}
+${_.phrase('Beats down on the young oaks.', _.hafik, _.don, _.okunu.lil.m)}
 
  *(trad. Françoise Chandernagor)*
 
@@ -65,7 +65,7 @@ ${_.phrase(
   _.ku
 )}
 
-${_.phrase('Mon cœur bat sur mes lèvres', _.au.to, _.a.fo, _.la.to.m)}
+${_.phrase('Mon cœur bat sur mes lèvres', _.au.to, _.a.fik, _.la.to.m)}
 
 Et ma gorge s'étrangle.  
 La chaleur et le froid tour à tour m'envahissent,  

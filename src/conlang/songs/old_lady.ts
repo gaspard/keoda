@@ -10,7 +10,7 @@ export const old_lady = _.card('Old Lady', {
     _.shi.zu.em,
     _.q,
     _.a.lapu.ir,
-    _.ukilei.ana
+    _.ukilei.unu
   )}
 * ${_.phrase(
     'We will say: "the sound of the rain on leafs" and "the laughs of children".',
@@ -18,7 +18,7 @@ export const old_lady = _.card('Old Lady', {
     _.agana.wu,
     _.gai,
     _.fe,
-    _.anama,
+    _.unuma,
     _.shu,
     _.duhasha.wu,
     _.joda

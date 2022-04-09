@@ -7,3 +7,8 @@ export const nem = _.word('nem', {
   see: () => [_.ru],
   etym: () => [_.ne, _.em],
 })
+
+export const nemek = _.word('nemek', {
+  noun: 'war',
+  etym: () => [_.nem, _.ek],
+})

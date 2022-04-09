@@ -39,30 +39,30 @@ On the vertical plane:
 And now all these terms can be cased with one of the three genders:
 
 * ${_.iwi} (bird)
-* ${_.ana} (tree)
-* ${_.oto} (wind)
+* ${_.unu} (tree)
+* ${_.ofo} (wind)
 
 ## ${_.hida} (siblings)
 
-|           | ${_.ana} | ${_.iwi} | ${_.oto} |
+|           | ${_.unu} | ${_.iwi} | ${_.ofo} |
 | :----     | :------: | :------: | :-------: |
-| ${_.duda} | ${_.duna}| ${_.duwi}| ${_.duto} |
-| ${_.hida} | ${_.hina}| ${_.hiwi}| ${_.hito} |
-| ${_.noda} | ${_.nona}| ${_.nowi}| ${_.noto} |
+| ${_.duda} | ${_.dunu}| ${_.duwi}| ${_.dufo} |
+| ${_.hida} | ${_.hinu}| ${_.hiwi}| ${_.hifo} |
+| ${_.noda} | ${_.nonu}| ${_.nowi}| ${_.nofo} |
 
 If you just need quick terms (without the notion of being
 younger or elderly):
 
-* ${_.hida} (sister)
+* ${_.hinu} (sister)
 * ${_.hiwi} (enby sibling)
-* ${_.hito} (brother)
+* ${_.hifo} (brother)
 
 ## ${_.hada} (parent) / ${_.joda} (child)
 
-|           | ${_.ana}  | ${_.iwi}  | ${_.oto}  |
+|           | ${_.unu}  | ${_.iwi}  | ${_.ofo}  |
 | :----     | :------:  | :------:  | :-------: |
-| ${_.hada} | ${_.hana} | ${_.hawi} | ${_.hato} |
-| ${_.joda} | ${_.jona} | ${_.jowi} | ${_.joto} |
+| ${_.hada} | ${_.hanu} | ${_.hawi} | ${_.hafo} |
+| ${_.joda} | ${_.jonu} | ${_.jowi} | ${_.joto} |
 
 `,
 })

@@ -2,6 +2,7 @@ import * as _ from '../lang'
 
 export const ota = _.word('ota', {
   noun: 'circle',
+  adv: 'again',
 })
 
 export const lamota = _.word('lamota', {

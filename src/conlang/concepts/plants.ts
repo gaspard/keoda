@@ -13,17 +13,17 @@ See also ${_.food}, ${_.fruits} and ${_.seasons}.
 This is the list of words related to plants currently in the language:
 
 * ${_.nounRef(_.bisahina)}
-* ${_.nounRef(_.ana)}
-* ${_.nounRef(_.ananoa)}
-* ${_.nounRef(_.anama)}
-* ${_.nounRef(_.anarum)}
-* ${_.nounRef(_.anasame)}
+* ${_.nounRef(_.unuT)}
+* ${_.nounRef(_.ununoa)}
+* ${_.nounRef(_.unuma)}
+* ${_.nounRef(_.unurum)}
+* ${_.nounRef(_.unusame)}
 * ${_.nounRef(_.buni)}
 * ${_.nounRef(_.soaji)}
 
 ## Specific plant names
 
-* ${_.nounRef(_.okana)}
+* ${_.nounRef(_.okunu)}
 
 `,
 })

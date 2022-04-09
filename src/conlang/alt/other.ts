@@ -5,9 +5,11 @@ export const loV = _.alt('lo', {
   alt: () => _.lo,
 })
 
-// Sur le dos, les jambes pliées
-export const anaT = _.alt('ana', {
+export const unuT = _.word('unu', {
   id: 'anaT',
   noun: 'tree',
-  alt: () => _.ana,
+  see: () => [_.unu],
+  pos: 'cowgirl',
+  desc: () =>
+    `The position means "tree-like" because the legs are like roots and the torso, arms and hair represent the trunk and branches.`,
 })

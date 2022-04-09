@@ -1,4 +1,12 @@
-import { ENDS_VOWEL, LAST_VOWEL, STARTS_VOWEL } from './types'
+import {
+  ENDS_knssh,
+  ENDS_ssh,
+  ENDS_VOWEL,
+  LAST_VOWEL,
+  STARTS_k,
+  STARTS_t,
+  STARTS_VOWEL,
+} from './types'
 
 const PREFIX_JOIN = 'h'
 const SUFFIX_JOIN = 'l'
@@ -26,7 +34,15 @@ export function joinMorphemes(
     fix = join !== undefined ? join : prefix ? PREFIX_JOIN : SUFFIX_JOIN
   } else if (!pvowel && !nvowel) {
     // two consonants
-    fix = join !== undefined ? join : last[1]
+    if (ENDS_knssh.test(prevName) && STARTS_t.test(nextName)) {
+      // kt nt st sht
+      // no fix
+    } else if (ENDS_ssh.test(prevName) && STARTS_k.test(nextName)) {
+      // sk shk
+      // no fix
+    } else {
+      fix = join !== undefined ? join : last[1]
+    }
   }
   return prevName + fix + nextName.replace('*', last[1])
 }

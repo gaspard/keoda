@@ -36,7 +36,12 @@ function appendEntry(
     }
 
     return entry(
-      joinMorphemes(prevEntry.name, nextEntry.name, next.join, false),
+      joinMorphemes(
+        prevEntry.name,
+        nextEntry.name,
+        next.sjoin || next.join,
+        false
+      ),
       {
         id: `${prevEntry.id}-${nextEntry.id}`,
         glo: getGlo(prev, next, false),
