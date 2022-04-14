@@ -17,9 +17,9 @@ export const hamun = _.word('hamun', {
   etym: () => [_.ha, _.mun],
 })
 
-// Debout, les mains ensembles, cambré.e en arrière
 export const munawi = _.word('munawi', {
   noun: 'moon',
+  pos: 'standing, back arched, hands joined by the buttocks',
   etym: () => [_.mun, _.awi],
 })
 

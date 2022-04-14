@@ -38,6 +38,8 @@ The prepositions that can be used as case marking have the gloss next to them
 * ${_.refAndGlo(_.ni)}
 * ${_.refAndGlo(_.le)}
 * ${_.refAndGlo(_.ne)}
+* ${_.refAndGlo(_.suk)}
+* ${_.refAndGlo(_.sau)}
 
 #### nsfw
 
@@ -58,6 +60,7 @@ The prepositions that can be used as case marking have the gloss next to them
 * ${_.ref(_.jo)}
 * ${_.ref(_.dau)}
 * ${_.ref(_.dao)}
+* ${_.ref(_.kte)}
 * ${_.refAndGlo(_.fe)}
 * ${_.refAndGlo(_.ro)}
 * ${_.refAndGlo(_.ri)}

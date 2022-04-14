@@ -34,7 +34,7 @@ export const iro = suffix('iro', {
 })
 
 export const ir = suffix('ir', {
-  def: 'future',
+  noun: 'future',
   sglo: 'FUT',
   adj: 'under',
   pref: 'under',

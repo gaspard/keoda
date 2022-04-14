@@ -12,5 +12,5 @@ export const meshe = _.word('meshe', {
 
 export const melam = _.word('melam', {
   verb: 'to swim',
-  etym: () => [_.me, _.lame],
+  etym: () => [_.me, _.lam],
 })

@@ -8,7 +8,7 @@ export const nature = _.card('nature', {
 * ${_.lamagoa} (ocean)
 * ${_.ofo} (wind)
 * ${_.lami} (wave)
-* ${_.lame} (water)
+* ${_.lam} (water)
 * ${_.lamoa} (source)
 * ${_.gosoa} (mountain)
 

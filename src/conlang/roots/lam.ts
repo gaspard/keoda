@@ -1,6 +1,6 @@
 import * as _ from '../lang'
 
-export const lame = _.word('lame', {
+export const lam = _.word('lam', {
   noun: 'water',
   verb: 'to wash',
   see: () => [_.nature],
@@ -9,12 +9,12 @@ export const lame = _.word('lame', {
 export const falame = _.word('falame', {
   noun: 'tears',
   verb: 'to cry',
-  etym: () => [_.fa, _.lame],
+  etym: () => [_.fa, _.lam],
 })
 
 export const lama = _.word('lama', {
   noun: 'sea',
-  etym: () => [_.lame, _.da],
+  etym: () => [_.lam, _.da],
 })
 
 export const lamagoa = _.word('lamagoa', {
@@ -24,7 +24,7 @@ export const lamagoa = _.word('lamagoa', {
 
 export const lami = _.word('lami', {
   noun: 'wave',
-  etym: () => [_.lame, _.mi],
+  etym: () => [_.lam, _.mi],
 })
 
 export const lamioda = _.word('lamioda', {
@@ -34,7 +34,7 @@ export const lamioda = _.word('lamioda', {
 
 export const lamoa = _.word('lamoa', {
   noun: 'source (place)',
-  etym: () => [_.lame, _.on, _.da],
+  etym: () => [_.lam, _.on, _.da],
   see: () => [_.nature],
 })
 

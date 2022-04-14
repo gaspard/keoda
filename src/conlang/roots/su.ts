@@ -5,7 +5,7 @@ export const su = _.word('su', {
   see: () => [_.wu],
 })
 
-export const nesu = _.word('nesu', {
+export const sausu = _.word('sausu', {
   verb: 'to miss',
-  etym: () => [_.ne, _.su],
+  etym: () => [_.sau, _.su],
 })

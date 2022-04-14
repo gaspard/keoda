@@ -24,8 +24,8 @@ export const leiuki = _.word('leiuki', {
   etym: () => [_.lei, _.uki],
 })
 
-export const neleiuki = _.word('neleiuki', {
+export const sauleiuki = _.word('sauleiuki', {
   noun: 'impatience',
   adj: 'impatient',
-  etym: () => [_.ne, _.leiuki],
+  etym: () => [_.sau, _.leiuki],
 })

@@ -1,5 +1,5 @@
-import { alt, prefix } from '../zulapa'
 import * as _ from '../lang'
+import { alt, prefix } from '../zulapa'
 
 export const fu = prefix('fu', {
   def: 'by',
@@ -59,6 +59,11 @@ export const le = prefix('le', {
   cla: 'adj',
   force: 'adj',
   join: '',
+  desc: () => `
+  Adjective marker for nouns. Can also be used on adjectives to stress their importance.
+
+  * ${_.phrase('A very lost friend.', _.adu, _.le.eshu)}
+  `,
 })
 
 export const si = prefix('si', {
@@ -71,6 +76,19 @@ export const ne = prefix('ne', {
   def: 'negation',
   glo: 'NEG',
   join: '',
+  see: () => [_.sau],
+})
+
+export const suk = prefix('sul', {
+  def: 'with',
+  glo: 'COM',
+  see: () => [_.sau, _.prep],
+})
+
+export const sau = prefix('bak', {
+  def: 'without',
+  glo: 'ABESS',
+  see: () => [_.suk, _.ne, _.prep],
 })
 
 export const fe = prefix('fe', {
@@ -97,6 +115,13 @@ export const ri = prefix('ri', {
   see: () => [_.ro, _.prep],
 })
 
+export const kte = prefix('kte', {
+  adj: 'between',
+  pref: 'between',
+  glo: 'between',
+  see: () => [_.prep],
+})
+
 // yi, lo, kei
 export const kei = prefix('kei', {
   // First item must be 'def' to pass class through
@@ -112,9 +137,16 @@ export const lo = prefix('lo', {
   noun: 'submissive',
   suff: 'submissive',
   adj: 'wet',
+  adv: 'gently',
   glo: 'WET',
   verb: 'to surrender',
-  see: () => [_.baka],
+  see: () => [_.baka, _.gi],
+})
+
+prefix('silo', {
+  id: 'si-lo',
+  adv: 'genlty',
+  glo: 'ADV.*gently*',
 })
 
 // part of subject => prefix and suffix
@@ -124,4 +156,12 @@ export const yi = prefix('yi', {
   adj: 'tiny',
   glo: 'TINY',
   desc: () => `Innocence`,
+})
+
+export const ye = prefix('ye', {
+  noun: 'SUP',
+  suff: 'SUP',
+  adj: 'great',
+  glo: 'SUP',
+  desc: () => 'Superlative, yeah.',
 })

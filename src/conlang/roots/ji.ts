@@ -40,4 +40,11 @@ export const gojida = _.word('gojida', {
 export const neji = _.word('neji', {
   noun: 'without hair',
   verb: 'to shave',
+  etym: () => [_.ne, _.ji],
+})
+
+export const sauji = _.word('sauji', {
+  noun: 'bald',
+  adj: 'bald',
+  etym: () => [_.sau, _.ji],
 })

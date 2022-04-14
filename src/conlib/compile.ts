@@ -182,10 +182,19 @@ export function exportJSON(db: EntriesByType) {
     phrase.words!.forEach(id => registerInPhrase(compiled, phrase, id))
   })
 
+  function count(entry: CompiledEntry) {
+    return (['noun', 'adj', 'verb', 'adv'] as (keyof CompiledEntry)[])
+      .map(e => entry[e])
+      .filter(e => e).length
+  }
+  function countAll(entries: CompiledEntry[]) {
+    return entries.reduce((acc, e) => acc + count(e), 0)
+  }
+
   console.log(
-    `Compiled ${Object.keys(compiled.word).length} words in ${
-      Date.now() - start
-    } ms`
+    `Compiled ${Object.keys(compiled.word).length} words (${countAll(
+      Object.values(compiled.word)
+    )} meanings) in ${Date.now() - start} ms`
   )
   return JSON.stringify(compiled, null, 2)
 }

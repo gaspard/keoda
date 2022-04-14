@@ -14,7 +14,7 @@ export const tanu = _.word('tanu', {
 
 // unuT
 
-export const anawi = _.word('anawi', {
+export const unuwi = _.word('unuwi', {
   noun: 'medusa',
   etym: () => [_.unuT, _.awi],
 })

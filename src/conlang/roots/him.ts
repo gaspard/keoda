@@ -36,4 +36,10 @@ export const gamahim = _.word('gamahim', {
   etym: () => [_.gama, _.him],
 })
 
+export const yulak = _.word('yulak', {
+  verb: 'to play',
+  noun: 'player',
+  etym: () => [_.yu, _.lak],
+})
+
 // === alt

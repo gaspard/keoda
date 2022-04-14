@@ -38,7 +38,7 @@ export const CONSONANT = [
   'z',
 ]
 export const VOWEL = ['a', 'e', 'i', 'o', 'u']
-export const END = ['j', 'k', 'l', 'n', 'r', 's', 'sh'] // we try to avoid ending in m because it used for accusative
+export const END = ['j', 'k', 'l', 'n', 'r', 's', 'sh', 't'] // we try to avoid ending in m because it used for accusative
 
 const OR_NOTHING = ''
 const GROUPS = [

@@ -1,5 +1,10 @@
 import * as _ from '../lang'
 
+export const ne$ = _.word('ne', {
+  id: 'ne$',
+  verb: 'to not be',
+})
+
 export const neoda = _.word('neoda', {
   noun: 'corpse',
   etym: () => [_.ne, _.oda],

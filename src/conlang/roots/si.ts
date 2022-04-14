@@ -1,5 +1,10 @@
 import * as _ from '../lang'
 
+export const kusi = _.word('kusi', {
+  noun: 'like',
+  etym: () => [_.ku, _.si],
+})
+
 // export const tajyonsitioa = _.example(
 //   [_.taj, _.yin, _.si.tiona],
 //   `Pénètre ma vulve comme si c'était une fleur.`

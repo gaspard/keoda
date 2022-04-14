@@ -19,6 +19,7 @@
     "test": "jest -c setup/jest.js",
     "test:watch": "jest -c setup/jest.js --watch --coverage false",
     "roots": "ts-node src/roots.ts",
+    "find": "ts-node src/find.ts",
     "stats": "ts-node src/stats.ts",
     "re:build": "bsb -make-world -clean-world",
     "re:watch": "bsb -make-world -clean-world -w"

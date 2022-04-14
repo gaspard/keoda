@@ -8,6 +8,12 @@ export const ti = prefix('ti', {
 })
 
 // =========== glossing fix
+prefix('iti', {
+  id: 'i-ti',
+  noun: 'you',
+  glo: '**you**',
+})
+
 prefix('tim', {
   id: 'ti-m',
   noun: 'your (PL)',

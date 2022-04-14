@@ -4,7 +4,7 @@ export const ma = _.word('ma', {
   noun: 'hand',
   verb: 'to grab',
   exam: () => [
-    _.phraseX(`Wank my vulva gently.`, _.ma.silo, _.yin.m),
+    _.phraseX(`Wank my vulva gently.`, _.ma.imp, _.si.lo, _.yin.m),
     _.phraseX(`Wank my penis intensely.`, _.ma.do, _.taj.m),
     _.phraseX('Drop (your) panties.', _.ne.ma.imp, _.feyin.m),
   ],
@@ -28,7 +28,7 @@ export const mu = _.word('mu', {
 
 export const malame = _.word('malame', {
   noun: 'parturient',
-  etym: () => [_.ma, _.lame],
+  etym: () => [_.ma, _.lam],
 })
 
 // sur les fesses, les jambes font les ailes du papillon, les pieds ensemble

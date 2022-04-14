@@ -35,10 +35,9 @@ export const pienu = _.word('pienu', {
   desc: () => `
   ${_.phrase(
     'Standing in the vast inner loneliness.',
-    _.u.sen,
-    _.ro,
-    _.pienu.es,
-    _.le.ro.goa
+    _.u.asen,
+    _.ro.pienu.es,
+    _.le.goa
   )}
   `,
 })
@@ -63,7 +62,7 @@ export const nepi = _.word('nepi', {
   noun: 'division',
   verb: 'to hate',
   adj: 'disembodied, fragmented',
-  see: () => [_.ganes, _.nanes],
+  see: () => [_.neha, _.ganes, _.nanes],
 })
 
 // L'écoute de djopi ouvre à hapi

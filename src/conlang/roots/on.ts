@@ -7,7 +7,7 @@ export const on = _.word('on', {
 
 export const lamon = _.word('lamon', {
   noun: 'urethra',
-  etym: () => [_.lame, _.on],
+  etym: () => [_.lam, _.on],
 })
 
 export const yaon = _.word('yaon', {

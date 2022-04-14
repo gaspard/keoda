@@ -1,38 +1,31 @@
 import { prefix } from '../../zulapa'
 
 export const to = prefix('to', {
-  noun: 'indefinite me/us',
+  noun: 'me/us',
   glo: 'POSS.I/we',
 })
 
 // =========== glossing fix
 
-prefix('tom', {
+prefix('oto', {
+  id: 'o-to',
   noun: 'I/we',
-  glo: '**I/we**.ACC+',
-})
-
-prefix('toh', {
-  noun: 'I/we',
-  glo: '**I/we**.ACC-',
-})
-
-prefix('ton', {
-  noun: 'I/we',
-  glo: '**I/we**.ACC',
+  glo: '**me/us**',
 })
 
 export const tosho = prefix('tosho', {
   noun: 'us (PL)',
-  glo: 'POSS.we',
+  glo: 'POSS.us',
 })
 
 prefix('tasha', {
-  noun: 'them (PL)',
-  glo: 'POSS.they',
+  id: 'ta-sha',
+  noun: 'their (PL)',
+  glo: 'POSS.their',
 })
 
 prefix('topi', {
+  id: 'to-pi',
   noun: 'my',
-  glo: 'POSS.I',
+  glo: 'POSS.my',
 })

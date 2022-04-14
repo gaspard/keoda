@@ -1,6 +1,6 @@
 import * as _ from '../lang'
 
-export const tifi = _.word('tij', {
+export const tifi = _.word('tifi', {
   verb: 'to cut',
   desc: () => `
 From Samoan *tipi* as "p" cannot be pronounced it turned into "tifi". It can

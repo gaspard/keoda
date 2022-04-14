@@ -4,7 +4,7 @@ export const animals = _.card('animals', {
   desc: () => `
 # Animals
 
-* ${_.nounRef(_.anawi)}
+* ${_.nounRef(_.unuwi)}
 * ${_.nounRef(_.awi)}
 * ${_.nounRef(_.dupan)}
 * ${_.nounRef(_.gawi)}

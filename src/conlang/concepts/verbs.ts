@@ -221,7 +221,7 @@ For more BDSM and sexual contexts, the Dominant is still referred to as
 
 This translates in subjects ${_.o.kei}, ${_.i.yi}, ${_.i.lo}, etc.
 
-* ${_.phrase('I am ready, Master.', _.o.yi.e, _.sen, _.keda)}
+* ${_.phrase('I am ready, Master.', _.o.yi.e, _.asen, _.keda)}
 * ${_.phrase('I (Master) will undress (tiny you).', _.o.kei.nefe.ir, _.yi.da)}
 * ${_.phrase('(tiny) me will undress you (Master).', _.o.yi.nefe.ir, _.keda)}
 

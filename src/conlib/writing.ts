@@ -181,6 +181,7 @@ const TELU: { [key: string]: string } = {
   i: 'ఇ', // Telugu would use యి (yi = /ji/ )
   e: 'ఎ',
   a: 'అ',
+  y: '',
 
   u: 'ఉ',
   o: 'ఓ',

@@ -14,7 +14,7 @@ ${_.phrase(
   _.i.rugui,
   _.dem,
   _.o.e,
-  _.sen
+  _.asen
 )}
 
 ${_.phrase(
@@ -23,7 +23,7 @@ ${_.phrase(
   _.si.ajaname,
   _.dem,
   _.i.e,
-  _.sen
+  _.asen
 )}
 
 ${_.phrase(
@@ -31,7 +31,7 @@ ${_.phrase(
   _.lau.m,
   _.wa,
   _.a.lemegu,
-  _.fu.sen
+  _.fu.asen
 )}
 
 ## ${_.ofo.m} (him)
@@ -128,7 +128,7 @@ ${_.block(
   },
   {
     t: 'Please remember that I loved you.',
-    p: [_.baka, _.ji.imp, _.eku, _.o.zu.em, _.ti.m],
+    p: [_.baka, _.ji.imp, _.eku, _.o.zu.em, _.i.ti.m],
   }
 )}
 
@@ -232,7 +232,7 @@ ${_.phrase(
 * ${_.phrase('For giving me this')}
 * ${_.phrase('Kindness')}
 
-## Leave us, girl
+## Leave your home, girl
 
 * ${_.phrase(
     /* 'The war is coming again.' */ 'We are becoming war again.',
@@ -243,25 +243,35 @@ ${_.phrase(
 * ${_.phrase(/* 'We are growing' */ 'We are being grown', _.es.sho.lu.him)}
 * ${_.phrase('Into fear and hatred', _.peu.m, _.shu, _.nepi.m)}
 * ${_.phrase('Our hearts are closing', _.au.tosho, _.sha.lu.dak)}
-* ${_.phrase('Our minds are foggy.')}
+* ${_.phrase('Our minds are foggy.', _.ga.tosho, _.sha.najapa)}
 
-* ${_.phrase('You don’t have a future here.')}
+* ${_.phrase('You don’t have a future here.', _.i.sausu, _.ir.m, _.asen)}
 
-* ${_.phrase('Leave us, girl')}
-* ${_.phrase('Alone in the dark')}
-* ${_.phrase('Without your voice in the house')}
-* ${_.phrase('Without your joy between the tables')}
-* ${_.phrase('Leave us, girl.')}
+* ${_.phrase('Leave your home, girl', _.odo.imp, _.muda.ti.m, _.unu.lil)}
+* ${_.phrase('Alone in the dark', _.done, _.le.pienu, _.ro.gu)}
+* ${_.phrase(
+    'Without your voice in the house',
+    _.es.a.ne$.ir,
+    _.lapa.ti.m,
+    _.ro.muda
+  )}
+* ${_.phrase(
+    'Without your joy between the tables',
+    _.es.a.ne$.ir,
+    _.yu.ti.m,
+    _.kte.lisoa
+  )}
+* ${_.phrase('Leave your home, girl', _.odo.imp, _.muda.ti.m, _.unu.lil)}
 
-* ${_.phrase('War crushes the sweetest spirits')}
+* ${_.phrase('War crushes the sweetest spirits', _.nemek, _.a.ber, _.ye.ga.gi)}
 
-* ${_.phrase('Leaving hatred and power')}
-* ${_.phrase('As only players')}
-* ${_.phrase('In the fields')}
-* ${_.phrase('And hearts.')}
-* ${_.phrase('You would become dark here.')}
+* ${_.phrase('Leaving hatred and power', _.a.wabi, _.neha.m, _.ko, _.gohuski.m)}
+* ${_.phrase('As only players', _.kusi, _.yulak.m)}
+* ${_.phrase('In the fields', _.ro.gesh)}
+* ${_.phrase('And hearts.', _.shu, _.ro.zu.m)}
+* ${_.phrase('You would become dark here.', _.i.ru.ire, _.ne.yu.m, _.asen)}
 
-* ${_.phrase('Leave us, girl…')}
+* ${_.phrase('Leave your home, girl', _.odo.imp, _.muda.ti.m, _.unu.lil)}
 
 `,
 })
