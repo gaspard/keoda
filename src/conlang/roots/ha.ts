@@ -62,8 +62,8 @@ export const hawi = _.word('hawi', {
   see: () => [_.family],
 })
 
-export const hafo = _.word('hafo', {
+export const hato = _.word('hato', {
   noun: 'father',
-  etym: () => [_.ha, _.ofo],
+  etym: () => [_.ha, _.oto],
   see: () => [_.family],
 })

@@ -43,13 +43,14 @@ The prepositions that can be used as case marking have the gloss next to them
 
 #### nsfw
 
-* ${_.phrase('Iris whom you caressed.', _.Iris.m, _.le, _.i.mi.ema)}
-* ${_.phrase('Iris who caressed you.', _.Iris, _.le, _.a.mi.ema, _.ti.m)}
 * ${_.phrase('I like that you are naked.', _.o.zu, _.eku, _.o.yi.e, _.nefe)}
 
 ## Generic unknown
 
 * ${_.ref(_.don)}
+
+* ${_.phrase('Iris whom you caressed.', _.Iris.m, _.don, _.i.mi.ema)}
+* ${_.phrase('Iris who caressed you.', _.Iris, _.don, _.a.mi.ema, _.ti.m)}
 
 ## Location
 

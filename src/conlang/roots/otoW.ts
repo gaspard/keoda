@@ -1,8 +1,8 @@
 import * as _ from '../lang'
 
-export const ofoW = _.word('ofo', {
-  id: 'ofoW',
+export const otoW = _.word('oto', {
+  id: 'otoW',
   noun: 'wind',
   adj: 'agitated',
-  see: () => [_.ofo],
+  see: () => [_.oto],
 })

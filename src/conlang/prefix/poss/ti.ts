@@ -1,9 +1,8 @@
 import { prefix } from '../../zulapa'
 
 export const ti = prefix('ti', {
-  noun: 'you (singular)',
+  noun: 'you',
   glo: 'POSS.you',
-  cla: 'noun',
   // forcedGlo: false,
 })
 

@@ -36,6 +36,7 @@ All sounds correspond to [Telugu](https://en.wikipedia.org/wiki/Telugu_script) e
 | **చ**  | /tʃ/       | /f/       | ${_.falame}        |
 | **ఠ**  | /tʰ/       | /z/       | ${_.zuzu}          |
 | **జ్‌**  | /dʒ/       | /ʒ/       | ${_.joda}, ${_.baj} |
+| **ఇ‌**  | /aj/       | /j/       | ${_.my} |
  
 
 ## Vowels
@@ -45,6 +46,13 @@ All sounds correspond to [Telugu](https://en.wikipedia.org/wiki/Telugu_script) e
 | **Close**       | i  ి  ఇ   |                 | u   ు  ఉ   |
 | **Mid**         | ɛ  ే  ఎ   |                 | ɔ   ో  ఓ    |
 | **Open**        | a  ా  అ  |                 |              |
+ 
+
+## Semivowel
+
+|                 | As vowel   | As consonant    |
+| :-------------  | :--------: | :-------------: |
+| **Palatal**     | j  ై ఇ    |  య             |
 
 ## Stress
 

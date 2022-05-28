@@ -375,6 +375,15 @@ const Definition = styled.div`
       padding: 3px 8px;
       border-radius: 3px;
     }
+    img {
+      max-width: 80%;
+      border: 1px solid #666;
+      margin: auto;
+    }
+    a {
+      text-decoration: none;
+      color: #566284;
+    }
   }
 `
 

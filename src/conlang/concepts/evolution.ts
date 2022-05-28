@@ -187,5 +187,16 @@ now words can end in "k" or "sh" and the consonnant pairs "kt", "nt", "st",
 
 With these new sounds, I felt that we no longer need taste markings and we can
 simply use "m" in all cases. It was confusing.
+
+### Semivowel *(April 2022 - Amsterdam)*
+
+I love slavic languages and wanted to have the /j/ sound as a vowel for a long
+time. And then I met [Marina](https://instagram.com/imaginary_marina) who is an
+illustrator and she spoke in Ukrainian and Russian and this reminded me that it
+is time to add the /j/ sound as a vowel. I feel it adds some feminity to the
+language.
+
+Now with all this new sounds, the question arrises: is this going to be too
+much, will the language loose it's distinctiveness ? Time will tell.
 `,
 })

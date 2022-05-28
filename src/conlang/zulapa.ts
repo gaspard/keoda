@@ -37,7 +37,7 @@ export function ref(entry: EntryOrPrefix) {
 
 export function refAndGlo(entry: EntryOrPrefix) {
   const ent = zulapa.resolve(entry)
-  const def = ent.definition[ent.definition.cla!]
+  const def = Object.values(ent.definition)[0]
   if (def) {
     return `${ent} (${def}) \`${ent.definition.glo}\``
   } else {

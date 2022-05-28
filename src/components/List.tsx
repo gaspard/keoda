@@ -50,6 +50,9 @@ export const ListWrapper = styled.div`
   & .Link:not(:last-child) {
     margin-right: 10px;
   }
+  & .Link.Link a {
+    color: inherit;
+  }
 `
 
 const Detail = styled.div`

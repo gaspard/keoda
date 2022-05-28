@@ -27,8 +27,8 @@ export const juV = alt('ju', {
 })
 
 export const hu = prefix('hu', {
-  noun: 'smoke',
   def: 'after',
+  noun: 'smoke',
   adj: 'limited',
   verb: 'to finish',
   glo: 'POSTE',
@@ -50,7 +50,6 @@ export const ni = prefix('ni', {
   pref: 'to',
   glo: 'DAT',
   force: 'noun',
-  join: '',
 })
 
 export const le = prefix('le', {
@@ -58,7 +57,6 @@ export const le = prefix('le', {
   glo: 'ADJ',
   cla: 'adj',
   force: 'adj',
-  join: '',
   desc: () => `
   Adjective marker for nouns. Can also be used on adjectives to stress their importance.
 
@@ -75,7 +73,6 @@ export const si = prefix('si', {
 export const ne = prefix('ne', {
   def: 'negation',
   glo: 'NEG',
-  join: '',
   see: () => [_.sau],
 })
 

@@ -28,7 +28,7 @@ things correctly (make sure to enable the "🍑" button).
     _.o.mahim.em,
     _.unu.m,
     _.u.fik,
-    _.ofo.m
+    _.oto.m
   )} (manipulatives)
 * ${_.phrase(
     'I saw them undressing.',

@@ -102,8 +102,8 @@
         "phrase-97",
         "phrase-99",
         "phrase-100",
-        "phrase-123",
         "phrase-124",
+        "phrase-125",
         "phrase-126",
         "phrase-130"
       ]
@@ -173,8 +173,8 @@
     "word-hu": {
       "name": "hu",
       "type": "word",
-      "noun": "smoke",
       "def": "after",
+      "noun": "smoke",
       "adj": "limited",
       "verb": "to finish",
       "glo": "POSTE",
@@ -187,7 +187,7 @@
       ],
       "pref": "POSTE",
       "forcedGlo": true,
-      "cla": "noun",
+      "cla": "def",
       "id": "word-hu",
       "fulltext": "hu",
       "writ": "హు",
@@ -209,7 +209,6 @@
       "pref": "to",
       "glo": "DAT",
       "force": "noun",
-      "join": "",
       "forcedGlo": true,
       "cla": "def",
       "id": "word-ni",
@@ -240,7 +239,6 @@
       "glo": "ADJ",
       "cla": "adj",
       "force": "adj",
-      "join": "",
       "desc": "\n  Adjective marker for nouns. Can also be used on adjectives to stress their importance.\n\n  * [1](phrase-1)\n  ",
       "pref": "ADJ",
       "forcedGlo": true,
@@ -259,9 +257,6 @@
         "phrase-52",
         "phrase-80",
         "phrase-88",
-        "phrase-123",
-        "phrase-124",
-        "phrase-147",
         "phrase-151",
         "phrase-221",
         "phrase-277",
@@ -311,7 +306,6 @@
       "type": "word",
       "def": "negation",
       "glo": "NEG",
-      "join": "",
       "see": [
         "word-bak"
       ],
@@ -732,11 +726,11 @@
     "word-ti": {
       "name": "ti",
       "type": "word",
-      "noun": "you (singular)",
+      "noun": "you",
       "glo": "POSS.you",
-      "cla": "noun",
       "pref": "POSS.you",
       "forcedGlo": true,
+      "cla": "noun",
       "id": "word-ti",
       "fulltext": "ti",
       "writ": "తి",
@@ -815,7 +809,7 @@
         "phrase-53",
         "phrase-55",
         "phrase-100",
-        "phrase-124",
+        "phrase-125",
         "phrase-149",
         "phrase-154",
         "phrase-232",
@@ -1009,7 +1003,7 @@
         "phrase-110",
         "phrase-111",
         "phrase-112",
-        "phrase-124",
+        "phrase-125",
         "phrase-134",
         "phrase-137",
         "phrase-139",
@@ -1088,7 +1082,6 @@
         "phrase-118",
         "phrase-122",
         "phrase-133",
-        "phrase-147",
         "phrase-152",
         "phrase-215",
         "phrase-222",
@@ -1125,7 +1118,7 @@
       "phrases": [
         "phrase-21",
         "phrase-77",
-        "phrase-123",
+        "phrase-124",
         "phrase-126",
         "phrase-128",
         "phrase-129",
@@ -1159,8 +1152,7 @@
       "writ": "లు",
       "phon": "/lu/",
       "deriv": [
-        "word-lulei",
-        "word-ulu"
+        "word-lulei"
       ],
       "phrases": [
         "phrase-3",
@@ -1176,7 +1168,7 @@
         "phrase-87",
         "phrase-90",
         "phrase-93",
-        "phrase-152",
+        "phrase-147",
         "phrase-214",
         "phrase-215",
         "phrase-217",
@@ -1238,15 +1230,22 @@
         "phrase-118",
         "phrase-119",
         "phrase-122",
-        "phrase-125",
+        "phrase-123",
         "phrase-132",
         "phrase-133",
         "phrase-135",
         "phrase-136",
         "phrase-138",
+        "phrase-143",
+        "phrase-144",
+        "phrase-145",
+        "phrase-146",
         "phrase-147",
+        "phrase-149",
         "phrase-150",
+        "phrase-151",
         "phrase-152",
+        "phrase-154",
         "phrase-156",
         "phrase-214",
         "phrase-232",
@@ -1285,14 +1284,6 @@
       "phon": "/ɔpi/",
       "phrases": [
         "phrase-142",
-        "phrase-143",
-        "phrase-144",
-        "phrase-145",
-        "phrase-146",
-        "phrase-147",
-        "phrase-149",
-        "phrase-151",
-        "phrase-154",
         "phrase-308"
       ]
     },
@@ -1309,7 +1300,7 @@
       "writ": "ఓయి",
       "phon": "/ɔji/",
       "phrases": [
-        "phrase-125",
+        "phrase-123",
         "phrase-165",
         "phrase-166",
         "phrase-284",
@@ -2585,6 +2576,8 @@
       ],
       "phrases": [
         "phrase-34",
+        "phrase-124",
+        "phrase-125",
         "phrase-295",
         "phrase-303"
       ]
@@ -2656,7 +2649,8 @@
       "phon": "/dɔna/",
       "phrases": [
         "phrase-128",
-        "phrase-129"
+        "phrase-129",
+        "phrase-147"
       ]
     },
     "word-du": {
@@ -2678,7 +2672,7 @@
       "phon": "/du/",
       "deriv": [
         "word-duda",
-        "word-dufo",
+        "word-duto",
         "word-dunu",
         "word-duwi",
         "word-duyuru",
@@ -2697,7 +2691,7 @@
         "word-noda",
         "word-duwi",
         "word-dunu",
-        "word-dufo"
+        "word-duto"
       ],
       "forcedGlo": false,
       "glo": "**small sibling**",
@@ -2707,25 +2701,25 @@
       "writ": "దుదా",
       "phon": "/duda/"
     },
-    "word-dufo": {
-      "name": "dufo",
+    "word-duto": {
+      "name": "duto",
       "type": "word",
       "noun": "small brother/wind",
       "etym": [
         "word-du",
-        "word-ofo"
+        "word-oto"
       ],
       "see": [
-        "word-nofo",
+        "word-noto",
         "word-duda"
       ],
       "forcedGlo": false,
       "glo": "**small brother/wind**",
       "cla": "noun",
-      "id": "word-dufo",
-      "fulltext": "dufo",
-      "writ": "దుచో",
-      "phon": "/dufɔ/"
+      "id": "word-duto",
+      "fulltext": "duto",
+      "writ": "దుతో",
+      "phon": "/dutɔ/"
     },
     "word-dunu": {
       "name": "dunu",
@@ -2855,7 +2849,7 @@
         "phrase-108",
         "phrase-114",
         "phrase-115",
-        "phrase-125",
+        "phrase-123",
         "phrase-132",
         "phrase-133",
         "phrase-142",
@@ -2988,7 +2982,7 @@
         "phrase-56",
         "phrase-60",
         "phrase-100",
-        "phrase-125",
+        "phrase-123",
         "phrase-143",
         "phrase-144",
         "phrase-156",
@@ -3418,7 +3412,7 @@
         "phrase-51",
         "phrase-117",
         "phrase-122",
-        "phrase-125",
+        "phrase-123",
         "phrase-285",
         "phrase-286"
       ]
@@ -4431,7 +4425,7 @@
         "word-hada",
         "word-hanu",
         "word-hawi",
-        "word-hafo",
+        "word-hato",
         "word-hao",
         "word-hajo",
         "word-joha",
@@ -4628,13 +4622,13 @@
       "writ": "హావి",
       "phon": "/hawi/"
     },
-    "word-hafo": {
-      "name": "hafo",
+    "word-hato": {
+      "name": "hato",
       "type": "word",
       "noun": "father",
       "etym": [
         "word-ha",
-        "word-ofo"
+        "word-oto"
       ],
       "see": [
         "card-family"
@@ -4642,10 +4636,10 @@
       "forcedGlo": false,
       "glo": "**father**",
       "cla": "noun",
-      "id": "word-hafo",
-      "fulltext": "hafo",
-      "writ": "హాచో",
-      "phon": "/hafɔ/"
+      "id": "word-hato",
+      "fulltext": "hato",
+      "writ": "హాతో",
+      "phon": "/hatɔ/"
     },
     "word-hal": {
       "name": "hal",
@@ -4757,7 +4751,7 @@
         "word-hida",
         "word-hinu",
         "word-hiwi",
-        "word-hifo"
+        "word-hito"
       ],
       "phrases": [
         "phrase-215"
@@ -4944,7 +4938,10 @@
       "id": "word-ibu",
       "fulltext": "ibu",
       "writ": "ఇబు",
-      "phon": "/ibu/"
+      "phon": "/ibu/",
+      "phrases": [
+        "phrase-152"
+      ]
     },
     "word-iki": {
       "name": "iki",
@@ -5581,7 +5578,10 @@
       "id": "word-jonu",
       "fulltext": "jonu",
       "writ": "జోను",
-      "phon": "/ʒɔnu/"
+      "phon": "/ʒɔnu/",
+      "phrases": [
+        "phrase-148"
+      ]
     },
     "word-jowi": {
       "name": "jowi",
@@ -5608,7 +5608,7 @@
       "noun": "son",
       "etym": [
         "word-jo",
-        "word-ofo"
+        "word-oto"
       ],
       "see": [
         "card-family"
@@ -5862,14 +5862,14 @@
     "word-ku": {
       "name": "ku",
       "type": "word",
-      "noun": "rope",
       "def": "imply",
+      "noun": "rope",
       "verb": "to tie",
       "adj": "tied",
       "desc": "Causality",
       "forcedGlo": false,
-      "glo": "**rope**",
-      "cla": "noun",
+      "glo": "**imply**",
+      "cla": "def",
       "id": "word-ku",
       "fulltext": "ku",
       "writ": "కు",
@@ -6871,6 +6871,7 @@
         "word-mahal",
         "word-mahim",
         "word-gama",
+        "word-my",
         "word-hama",
         "word-djoma",
         "word-mu",
@@ -6896,6 +6897,24 @@
         "phrase-236",
         "phrase-237"
       ]
+    },
+    "word-my": {
+      "name": "my",
+      "type": "word",
+      "verb": "to draw",
+      "img": "marina_drawing.jpeg",
+      "desc": "\nFrom my encounter with Marina in Amsterdam. I decided to finally add the /j/ as\na vowel because I love the sound in slavic languages. The drawing is from her.\n\n![drawing of crow with coffee, vinyl and chestnut leaf](/marina_drawing.jpeg)\n    \n© Marina Shepelska [@imaginary_marina](https://instagram.com/imaginary_marina)\n",
+      "etym": [
+        "word-ma",
+        "word-y$"
+      ],
+      "forcedGlo": false,
+      "glo": "**draw**",
+      "cla": "verb",
+      "id": "word-my",
+      "fulltext": "my",
+      "writ": "మై",
+      "phon": "/mj/"
     },
     "word-hama": {
       "name": "hama",
@@ -7185,8 +7204,8 @@
         "phrase-77",
         "phrase-113",
         "phrase-120",
-        "phrase-123",
         "phrase-124",
+        "phrase-125",
         "phrase-126",
         "phrase-128",
         "phrase-130",
@@ -7352,11 +7371,12 @@
     "word-na": {
       "name": "na",
       "type": "word",
+      "noun": "thing",
       "suff": "thing",
       "adj": "humility",
       "forcedGlo": false,
-      "glo": "*humility*",
-      "cla": "adj",
+      "glo": "**thing**",
+      "cla": "noun",
       "id": "word-na",
       "fulltext": "na",
       "writ": "నా",
@@ -7640,7 +7660,7 @@
       "deriv": [
         "word-noha",
         "word-noda",
-        "word-nofo",
+        "word-noto",
         "word-nonu",
         "word-nowi",
         "word-nopi",
@@ -7659,7 +7679,7 @@
         "word-duda",
         "word-nowi",
         "word-nonu",
-        "word-nofo"
+        "word-noto"
       ],
       "forcedGlo": false,
       "glo": "**older sibling**",
@@ -7669,25 +7689,25 @@
       "writ": "నోదా",
       "phon": "/nɔda/"
     },
-    "word-nofo": {
-      "name": "nofo",
+    "word-noto": {
+      "name": "noto",
       "type": "word",
       "noun": "older brother/wind",
       "etym": [
         "word-no",
-        "word-ofo"
+        "word-oto"
       ],
       "see": [
-        "word-dufo",
+        "word-duto",
         "word-noda"
       ],
       "forcedGlo": false,
       "glo": "**older brother/wind**",
       "cla": "noun",
-      "id": "word-nofo",
-      "fulltext": "nofo",
-      "writ": "నోచో",
-      "phon": "/nɔfɔ/"
+      "id": "word-noto",
+      "fulltext": "noto",
+      "writ": "నోతో",
+      "phon": "/nɔtɔ/"
     },
     "word-nonu": {
       "name": "nonu",
@@ -7985,13 +8005,13 @@
       "writ": "హివి",
       "phon": "/hiwi/"
     },
-    "word-hifo": {
-      "name": "hifo",
+    "word-hito": {
+      "name": "hito",
       "type": "word",
       "noun": "brother",
       "etym": [
         "word-him",
-        "word-ofo"
+        "word-oto"
       ],
       "see": [
         "card-family"
@@ -7999,10 +8019,10 @@
       "forcedGlo": false,
       "glo": "**brother**",
       "cla": "noun",
-      "id": "word-hifo",
-      "fulltext": "hifo",
-      "writ": "హిచో",
-      "phon": "/hifɔ/"
+      "id": "word-hito",
+      "fulltext": "hito",
+      "writ": "హితో",
+      "phon": "/hitɔ/"
     },
     "word-odo": {
       "name": "odo",
@@ -8271,21 +8291,21 @@
       "writ": "కేపాలోతా",
       "phon": "/kɛpalɔta/"
     },
-    "word-ofoW": {
-      "name": "ofo",
+    "word-otoW": {
+      "name": "oto",
       "type": "word",
-      "id": "word-ofoW",
+      "id": "word-otoW",
       "noun": "wind",
       "adj": "agitated",
       "see": [
-        "word-ofo"
+        "word-oto"
       ],
       "forcedGlo": false,
       "glo": "**wind**",
       "cla": "noun",
-      "fulltext": "ofo",
-      "writ": "ఓచో",
-      "phon": "/ɔfɔ/"
+      "fulltext": "oto",
+      "writ": "ఓతో",
+      "phon": "/ɔtɔ/"
     },
     "word-pali": {
       "name": "pali",
@@ -8682,10 +8702,7 @@
         "word-piwe"
       ],
       "phrases": [
-        "phrase-147",
-        "phrase-149",
         "phrase-150",
-        "phrase-153",
         "phrase-244",
         "phrase-278"
       ]
@@ -9601,7 +9618,7 @@
       "type": "word",
       "noun": "air",
       "see": [
-        "word-ofo"
+        "word-oto"
       ],
       "forcedGlo": false,
       "glo": "**air**",
@@ -10355,22 +10372,6 @@
       "phrases": [
         "phrase-297"
       ]
-    },
-    "word-ulu": {
-      "name": "ulu",
-      "type": "word",
-      "noun": "until",
-      "etym": [
-        "word-u$",
-        "word-lu"
-      ],
-      "forcedGlo": false,
-      "glo": "**until**",
-      "cla": "noun",
-      "id": "word-ulu",
-      "fulltext": "ulu",
-      "writ": "ఉలు",
-      "phon": "/ulu/"
     },
     "word-uloda": {
       "name": "uloda",
@@ -11428,7 +11429,7 @@
         "phrase-90",
         "phrase-93",
         "phrase-122",
-        "phrase-125",
+        "phrase-123",
         "phrase-149",
         "phrase-154",
         "phrase-155",
@@ -11617,11 +11618,11 @@
       "name": "a",
       "type": "word",
       "id": "word-a$",
-      "noun": "love",
+      "noun": "to love",
       "glo": "*LOVED*",
       "force": "noun",
       "def": "",
-      "suff": "love",
+      "suff": "to love",
       "forcedGlo": true,
       "cla": "noun",
       "fulltext": "a",
@@ -11799,10 +11800,10 @@
       "name": "i",
       "type": "word",
       "id": "word-i$",
-      "verb": "caress",
+      "verb": "to caress",
       "glo": "*CARE*",
       "force": "verb",
-      "suff": "caress",
+      "suff": "to caress",
       "forcedGlo": true,
       "cla": "verb",
       "fulltext": "i",
@@ -11990,10 +11991,10 @@
       "name": "o",
       "type": "word",
       "id": "word-o$",
-      "verb": "push",
+      "verb": "to push",
       "glo": "*PUSH*",
       "force": "verb",
-      "suff": "push",
+      "suff": "to push",
       "forcedGlo": true,
       "cla": "verb",
       "fulltext": "o",
@@ -12011,28 +12012,28 @@
         "word-tajo"
       ]
     },
-    "word-ofo": {
-      "name": "ofo",
+    "word-oto": {
+      "name": "oto",
       "type": "word",
       "noun": "man",
       "adj": "masculine",
       "see": [
-        "word-ofoW"
+        "word-otoW"
       ],
       "suff": "man",
       "forcedGlo": false,
       "glo": "**man**",
       "cla": "noun",
-      "id": "word-ofo",
-      "fulltext": "ofo",
-      "writ": "ఓచో",
-      "phon": "/ɔfɔ/",
+      "id": "word-oto",
+      "fulltext": "oto",
+      "writ": "ఓతో",
+      "phon": "/ɔtɔ/",
       "deriv": [
-        "word-dufo",
-        "word-hafo",
+        "word-duto",
+        "word-hato",
         "word-joto",
-        "word-nofo",
-        "word-hifo"
+        "word-noto",
+        "word-hito"
       ],
       "phrases": [
         "phrase-50",
@@ -12233,12 +12234,12 @@
       "verb": "to live",
       "adj": "alive",
       "def": "past",
-      "glo": "life",
       "see": [
         "card-verbs"
       ],
       "suff": "life",
-      "forcedGlo": true,
+      "forcedGlo": false,
+      "glo": "**life**",
       "cla": "noun",
       "id": "word-em",
       "fulltext": "em",
@@ -12334,8 +12335,8 @@
       "writ": "ఎమా",
       "phon": "/ɛma/",
       "phrases": [
-        "phrase-123",
         "phrase-124",
+        "phrase-125",
         "phrase-126",
         "phrase-127",
         "phrase-128",
@@ -12465,7 +12466,6 @@
         "word-odu",
         "word-piu",
         "word-sheu",
-        "word-ulu",
         "word-uya",
         "word-zuhu"
       ],
@@ -12570,7 +12570,6 @@
         "phrase-88",
         "phrase-89",
         "phrase-136",
-        "phrase-148",
         "phrase-166",
         "phrase-220",
         "phrase-224",
@@ -12610,6 +12609,24 @@
         "phrase-110",
         "phrase-236",
         "phrase-245"
+      ]
+    },
+    "word-y$": {
+      "name": "y",
+      "type": "word",
+      "id": "word-y$",
+      "verb": "to dance",
+      "glo": "*DANCE*",
+      "force": "verb",
+      "desc": "Moving without a direction, drawing, dancing.",
+      "suff": "to dance",
+      "forcedGlo": true,
+      "cla": "verb",
+      "fulltext": "y",
+      "writ": "ఐ",
+      "phon": "/j/",
+      "deriv": [
+        "word-my"
       ]
     }
   },
@@ -12703,7 +12720,7 @@
       "type": "card",
       "writ": "evolution",
       "phon": "",
-      "desc": "\n# Evolution\n\nThis is some historical notes on the language as it has evolved and how\nexpressing the same thing has changed over time.\n\nThe current state of affaires is here: [grammar](card-grammar)\n\n#### note\n\nThis whole card is nsfw because this is what guides this language.\n\n## An example\n\n### Caress your breasts delicately\n\nIn this example, we see how the first version used a kind of dative and no\nverb marking. This then evolved to use a very regular accusative, and finaly\nwe added the dative back but with more power and made the accusative nicer.\n\n* [74](phrase-74)\n* [75](phrase-75)\n* [76](phrase-76)\n* [77](phrase-77)\n\n## Chronology\n\nTODO: go through commit log\n\n### Subject consitency *(Jan 2021)*\n\n* All **plurals** (more than two) have an extra prefix of `/ʃ/` (**sh**),\n  except for [ka](word-ka) (every).\n* Subjects of which the **speaker** belongs to start with `/ɔ/` (**o**)\n* Subjects of which the **listener** belongs to start with `/i/` (**i**)\n* Subjects **not present** start with `/a/` (**a**)\n\n### Removed copula *(Jan 2021)*\n\nAfter adding passive and continuous tenses, it made sense to express properties without\nsaying \"is\" but instead using the \"active\" nature of nouns and this tense:\n\n* [78](phrase-78)\n\n### Full blown \"dot\" writing code *(Jan 2021)*\n\nAdded code in TypeScript (using JS Proxy) to automatically agglutinate\nmorphemes in order to ensure consistency and stable rules for word\naglutination and glossing. These 'code' based rules had an interesting\neffect as they forced me to clarify the functional meaning of some of the hacks\nI was writting and this led to the notion that most prefix ([ne](word-ne) is an\nexception) change the function of the word whereas most suffix (accusative ones\nare the exceptions here) are semantic modifiers.\n\nIn short, most \"prefixes\" alter function and most \"suffix\" alter meaning.\n\n~~~ts\n// This is how the next phrase is written\n_.phrase('We are being loved.', _.es.o.lu.zu)\n~~~\n\n[79](phrase-79)\n\n### Adding modifier markers *(Feb 2021)*\n\nAfter creating the most used prefixes and suffixes, I realized that I did not want\nany word to agglutinate to act as a modifier because it would make words incredibly\nhard to understand (and long). So I needed a way to mark a word as acting like an\nadjective or adverb (and thus showing this definition in the gloss instead of the\nnoun).\n\nListening to William Croft on the Conlangery podcast, I really liked the way\nMandarin Chinese uses a prefix to change a noun into a property modifier:\nsomething in the way of saying \"very fish\" to mean \"beautiful\". I opted for this\nstrategy, using ([le](word-le)) for adjectives which means \"very\" and using\n([si](word-si)) for adverbs which means \"as, like\".\n\n* [80](phrase-80)\n\n### Adding infinitive *(Feb 2021)*\n\nAs the title implies, this allows saying all kinds of complicated things regarding what\nwe enjoy doing, who we have seen doing what and so on.\n\n#### nsfw\n\n* [81](phrase-81)\n\n### Engine rewrite and testing *(Feb 2021)*\n\nThis rewrite and cleanup had the side effect of pushing all non-written phonotactics into\ncode, making things much more consistent on how morphemes assemble. Now prefix all \"fix\"\njoin with `/h/` and suffix use `/l/` unless there is an exception. This made numbers\nfunny:\n\n* [82](phrase-82)\n\nHaving tests to ensure things do not break is a very good step forward.\n\n### Indefinite subject *(August 2021)*\n\nTransformed the [u](word-u) conjugation from an infinitive into the notion of \"life\nitself\" doing something: the infinite subject. This is a first step in\nthe direction of removing some of the body/mind dichotomy, trying to blur the\nnotion of \"subject\" so as to remove some of the separation with the direct\nobject.\n\nDavid Bohm's idea on the rheomode (putting word priority on the verb) made me\ntry different ideas and I think the best solution is to simply use the existing\npassive voice with the infinite subject: [83](phrase-83).\n\nI would like to change some meanings related to \"spirit\". I want this languge to\nbe about the body, so \"mind\" has to be something that is a lived experience, not\nsome \"spirit\" or \"soul\". This means that [ga](word-ga) needs to change from \"spirit\"\nto something else ? I have to do some introspection to see if I find concepts\nthat better describe \"inner experience\", something that would only exist in\nrelation with the body, a painting, matter. I want spirit to be a property of\nmatter, of [gu](word-gu), not some \"other thing\".\n\n### Loved *(January 2022)*\n\nHaha ! This is why the [a](word-a$) suffix was free. It was reserved, a late coming\nbeauty to the party. It means \"loved\" in the sense of being taken inside, to the\nheart, to the self.\n\nSo now [ga](word-ga) (spirit) comes from [gula](alt-gu-a$) (life loved, life taken to the\nself). Isn't this beautiful ?\n\nAnd [gu](word-gu) still derives from [ga](word-ga) as [galu](alt-ga-u$) (pulled spirit) because\nevery language is a digraph and loops are fun.\n\nNo more matter/mind dichotomy since they now both define each other in a\nbeautiful dance.\n\n### Zulapa *(March 2022)*\n\nRenamed the language to Zulapa because I wanted a \".com\" domain for it and I\nalso think that it has evolved to being something more about kindness than just\n\"the body\". So now this language is \"the heart speaks\" or \"heart speak\".\n\nI love it !\n\n### Unu *(April 2022)*\n\nReplaced \"ana\" to \"unu\" and \"oto\" to \"ofo\" because these roots sounded too much\nlike names. This made me change \"fo\" (to whip) to \"fik\" because father (hafo)\nwould be the same word as to fall.\n\nI also felt that it was time to allow some double consonnants to add a little\nbit of spice to the language because singing felt boring without any stops. So\nnow words can end in \"k\" or \"sh\" and the consonnant pairs \"kt\", \"nt\", \"st\",\n\"sht\" and \"shk\" are allowed.\n\nWith these new sounds, I felt that we no longer need taste markings and we can\nsimply use \"m\" in all cases. It was confusing.\n",
+      "desc": "\n# Evolution\n\nThis is some historical notes on the language as it has evolved and how\nexpressing the same thing has changed over time.\n\nThe current state of affaires is here: [grammar](card-grammar)\n\n#### note\n\nThis whole card is nsfw because this is what guides this language.\n\n## An example\n\n### Caress your breasts delicately\n\nIn this example, we see how the first version used a kind of dative and no\nverb marking. This then evolved to use a very regular accusative, and finaly\nwe added the dative back but with more power and made the accusative nicer.\n\n* [74](phrase-74)\n* [75](phrase-75)\n* [76](phrase-76)\n* [77](phrase-77)\n\n## Chronology\n\nTODO: go through commit log\n\n### Subject consitency *(Jan 2021)*\n\n* All **plurals** (more than two) have an extra prefix of `/ʃ/` (**sh**),\n  except for [ka](word-ka) (every).\n* Subjects of which the **speaker** belongs to start with `/ɔ/` (**o**)\n* Subjects of which the **listener** belongs to start with `/i/` (**i**)\n* Subjects **not present** start with `/a/` (**a**)\n\n### Removed copula *(Jan 2021)*\n\nAfter adding passive and continuous tenses, it made sense to express properties without\nsaying \"is\" but instead using the \"active\" nature of nouns and this tense:\n\n* [78](phrase-78)\n\n### Full blown \"dot\" writing code *(Jan 2021)*\n\nAdded code in TypeScript (using JS Proxy) to automatically agglutinate\nmorphemes in order to ensure consistency and stable rules for word\naglutination and glossing. These 'code' based rules had an interesting\neffect as they forced me to clarify the functional meaning of some of the hacks\nI was writting and this led to the notion that most prefix ([ne](word-ne) is an\nexception) change the function of the word whereas most suffix (accusative ones\nare the exceptions here) are semantic modifiers.\n\nIn short, most \"prefixes\" alter function and most \"suffix\" alter meaning.\n\n~~~ts\n// This is how the next phrase is written\n_.phrase('We are being loved.', _.es.o.lu.zu)\n~~~\n\n[79](phrase-79)\n\n### Adding modifier markers *(Feb 2021)*\n\nAfter creating the most used prefixes and suffixes, I realized that I did not want\nany word to agglutinate to act as a modifier because it would make words incredibly\nhard to understand (and long). So I needed a way to mark a word as acting like an\nadjective or adverb (and thus showing this definition in the gloss instead of the\nnoun).\n\nListening to William Croft on the Conlangery podcast, I really liked the way\nMandarin Chinese uses a prefix to change a noun into a property modifier:\nsomething in the way of saying \"very fish\" to mean \"beautiful\". I opted for this\nstrategy, using ([le](word-le)) for adjectives which means \"very\" and using\n([si](word-si)) for adverbs which means \"as, like\".\n\n* [80](phrase-80)\n\n### Adding infinitive *(Feb 2021)*\n\nAs the title implies, this allows saying all kinds of complicated things regarding what\nwe enjoy doing, who we have seen doing what and so on.\n\n#### nsfw\n\n* [81](phrase-81)\n\n### Engine rewrite and testing *(Feb 2021)*\n\nThis rewrite and cleanup had the side effect of pushing all non-written phonotactics into\ncode, making things much more consistent on how morphemes assemble. Now prefix all \"fix\"\njoin with `/h/` and suffix use `/l/` unless there is an exception. This made numbers\nfunny:\n\n* [82](phrase-82)\n\nHaving tests to ensure things do not break is a very good step forward.\n\n### Indefinite subject *(August 2021)*\n\nTransformed the [u](word-u) conjugation from an infinitive into the notion of \"life\nitself\" doing something: the infinite subject. This is a first step in\nthe direction of removing some of the body/mind dichotomy, trying to blur the\nnotion of \"subject\" so as to remove some of the separation with the direct\nobject.\n\nDavid Bohm's idea on the rheomode (putting word priority on the verb) made me\ntry different ideas and I think the best solution is to simply use the existing\npassive voice with the infinite subject: [83](phrase-83).\n\nI would like to change some meanings related to \"spirit\". I want this languge to\nbe about the body, so \"mind\" has to be something that is a lived experience, not\nsome \"spirit\" or \"soul\". This means that [ga](word-ga) needs to change from \"spirit\"\nto something else ? I have to do some introspection to see if I find concepts\nthat better describe \"inner experience\", something that would only exist in\nrelation with the body, a painting, matter. I want spirit to be a property of\nmatter, of [gu](word-gu), not some \"other thing\".\n\n### Loved *(January 2022)*\n\nHaha ! This is why the [a](word-a$) suffix was free. It was reserved, a late coming\nbeauty to the party. It means \"loved\" in the sense of being taken inside, to the\nheart, to the self.\n\nSo now [ga](word-ga) (spirit) comes from [gula](alt-gu-a$) (life loved, life taken to the\nself). Isn't this beautiful ?\n\nAnd [gu](word-gu) still derives from [ga](word-ga) as [galu](alt-ga-u$) (pulled spirit) because\nevery language is a digraph and loops are fun.\n\nNo more matter/mind dichotomy since they now both define each other in a\nbeautiful dance.\n\n### Zulapa *(March 2022)*\n\nRenamed the language to Zulapa because I wanted a \".com\" domain for it and I\nalso think that it has evolved to being something more about kindness than just\n\"the body\". So now this language is \"the heart speaks\" or \"heart speak\".\n\nI love it !\n\n### Unu *(April 2022)*\n\nReplaced \"ana\" to \"unu\" and \"oto\" to \"ofo\" because these roots sounded too much\nlike names. This made me change \"fo\" (to whip) to \"fik\" because father (hafo)\nwould be the same word as to fall.\n\nI also felt that it was time to allow some double consonnants to add a little\nbit of spice to the language because singing felt boring without any stops. So\nnow words can end in \"k\" or \"sh\" and the consonnant pairs \"kt\", \"nt\", \"st\",\n\"sht\" and \"shk\" are allowed.\n\nWith these new sounds, I felt that we no longer need taste markings and we can\nsimply use \"m\" in all cases. It was confusing.\n\n### Semivowel *(April 2022 - Amsterdam)*\n\nI love slavic languages and wanted to have the /j/ sound as a vowel for a long\ntime. And then I met [Marina](https://instagram.com/imaginary_marina) who is an\nillustrator and she spoke in Ukrainian and Russian and this reminded me that it\nis time to add the /j/ sound as a vowel. I feel it adds some feminity to the\nlanguage.\n\nNow with all this new sounds, the question arrises: is this going to be too\nmuch, will the language loose it's distinctiveness ? Time will tell.\n",
       "id": "card-evolution",
       "fulltext": "evolution"
     },
@@ -12712,7 +12729,7 @@
       "type": "card",
       "writ": "family",
       "phon": "",
-      "desc": "\n# Parents and siblings\n\nTo understand family, you need to have a 3D view of space in the language.\nImagine that you are looking forward. You have the spatial directions as\nfollow (yes it looks like a person looking south \"sud\").\n\n|          | front   |        |\n| :-:      | :-:     | :-:    |\n|          | [du](word-du) |        |\n| [se](word-se)  |  🥰     | [we](word-we) |\n|          | [no](word-no) |        |\n|          | back    |        |\n\nOn a vertical plane:\n\n| up / far |\n| :-:     |\n| [ha](word-ha) |\n|    🥰    |\n| [jo](word-jo) |\n| down / close |\n\nImagine your family standing around you:\n\n* In front of you, your younger siblings [duda](word-duda).\n* Behind you, your elder siblings [noda](word-noda)\n* On the sides your friends [adu](word-adu)\n\nOn the vertical plane:\n\n* Above you, your parents: [hada](word-hada)\n* Below you, your children: [joda](word-joda)\n\nAnd now all these terms can be cased with one of the three genders:\n\n* [iwi](word-iwi) (bird)\n* [unu](word-unu) (tree)\n* [ofo](word-ofo) (wind)\n\n## [hida](word-hida) (siblings)\n\n|           | [unu](word-unu) | [iwi](word-iwi) | [ofo](word-ofo) |\n| :----     | :------: | :------: | :-------: |\n| [duda](word-duda) | [dunu](word-dunu)| [duwi](word-duwi)| [dufo](word-dufo) |\n| [hida](word-hida) | [hinu](word-hinu)| [hiwi](word-hiwi)| [hifo](word-hifo) |\n| [noda](word-noda) | [nonu](word-nonu)| [nowi](word-nowi)| [nofo](word-nofo) |\n\nIf you just need quick terms (without the notion of being\nyounger or elderly):\n\n* [hinu](word-hinu) (sister)\n* [hiwi](word-hiwi) (enby sibling)\n* [hifo](word-hifo) (brother)\n\n## [hada](word-hada) (parent) / [joda](word-joda) (child)\n\n|           | [unu](word-unu)  | [iwi](word-iwi)  | [ofo](word-ofo)  |\n| :----     | :------:  | :------:  | :-------: |\n| [hada](word-hada) | [hanu](word-hanu) | [hawi](word-hawi) | [hafo](word-hafo) |\n| [joda](word-joda) | [jonu](word-jonu) | [jowi](word-jowi) | [joto](word-joto) |\n\n",
+      "desc": "\n# Parents and siblings\n\nTo understand family, you need to have a 3D view of space in the language.\nImagine that you are looking forward. You have the spatial directions as\nfollow (yes it looks like a person looking south \"sud\").\n\n|          | front   |        |\n| :-:      | :-:     | :-:    |\n|          | [du](word-du) |        |\n| [se](word-se)  |  🥰     | [we](word-we) |\n|          | [no](word-no) |        |\n|          | back    |        |\n\nOn a vertical plane:\n\n| up / far |\n| :-:     |\n| [ha](word-ha) |\n|    🥰    |\n| [jo](word-jo) |\n| down / close |\n\nImagine your family standing around you:\n\n* In front of you, your younger siblings [duda](word-duda).\n* Behind you, your elder siblings [noda](word-noda)\n* On the sides your friends [adu](word-adu)\n\nOn the vertical plane:\n\n* Above you, your parents: [hada](word-hada)\n* Below you, your children: [joda](word-joda)\n\nAnd now all these terms can be cased with one of the three genders:\n\n* [iwi](word-iwi) (bird)\n* [unu](word-unu) (tree)\n* [oto](word-oto) (wind)\n\n## [hida](word-hida) (siblings)\n\n|           | [unu](word-unu) | [iwi](word-iwi) | [oto](word-oto) |\n| :----     | :------: | :------: | :-------: |\n| [duda](word-duda) | [dunu](word-dunu)| [duwi](word-duwi)| [duto](word-duto) |\n| [hida](word-hida) | [hinu](word-hinu)| [hiwi](word-hiwi)| [hito](word-hito) |\n| [noda](word-noda) | [nonu](word-nonu)| [nowi](word-nowi)| [noto](word-noto) |\n\nIf you just need quick terms (without the notion of being\nyounger or elderly):\n\n* [hinu](word-hinu) (sister)\n* [hiwi](word-hiwi) (enby sibling)\n* [hito](word-hito) (brother)\n\n## [hada](word-hada) (parent) / [joda](word-joda) (child)\n\n|           | [unu](word-unu)  | [iwi](word-iwi)  | [oto](word-oto)  |\n| :----     | :------:  | :------:  | :-------: |\n| [hada](word-hada) | [hanu](word-hanu) | [hawi](word-hawi) | [hato](word-hato) |\n| [joda](word-joda) | [jonu](word-jonu) | [jowi](word-jowi) | [joto](word-joto) |\n\n",
       "id": "card-family",
       "fulltext": "family"
     },
@@ -12756,7 +12773,7 @@
         "word-nepa",
         "card-count"
       ],
-      "desc": "\nThis theme is part of [gana](word-gana) mythology and world-view.\n\n# The scale [ga](word-ga)\n\nThese states correspond to increasing intensity of [ga](word-ga) and if they are\nnot balanced by increasing practicality and material humility [na](word-na),\nthey are just other names for hubris or psychosis or just craziness ([maga](word-maga)).\n\nHere is a map of the relation between [gu](word-gu), [ga](word-ga), [nu](word-nu) and [na](word-na).\n\n~~~\nga                 gana\n                  /\n                /\n              /\nganes       /\n          /\n        /\ngu    /\n    /\nnugu  nu    nanes    na\n~~~\n\nThe `/` diagonal between gunu and gana represent **integration**. Distances\nfrom this diagonal represent some level of psychosis (above) or dissociation\n(below).\n\nAs you can see, the only way to escape the terror of [nugu](word-nugu) is to reach\n[gana](word-gana) (earth), not [guna](word-guna) (dissociation, robot) nor [nuga](word-nuga) (psychosis, god-child).\n\nIn reality, [nugu](word-nugu) and [gana](word-gana) are folded together and are the same\nthing. The growth of the spirit is just a way to come back to the childhood\nof the spirit. It is the same but it is not the same, like looking at\nyour loved one with or without alzheimer. The loved one is the same but\nthe experience is not.\n\n## The euphoric states\n\nThese need to be balanced with their equivalent [nanes](card-nanes) states.\n\n* 10 [jipa](word-jipa) (remembering being god.des) <=> [jifi](word-jifi) (humble)\n* 9 [dapa](word-dapa) (joy) <=> [dafi](word-dafi) (serving)\n* 8 [jepa](word-jepa) (belonging) <=> [jefi](word-jefi) (caring)\n* 7 [fepa](word-fepa) (pride) <=> [fefi](word-fefi) (adapting)\n* 6 [shipa](word-shipa) (believing) <=> [shifi](word-shifi) (learning)\n\n## The \"territorial\" states.\n\nFrom here, the states are more difficult. These states are shared on both\n[ganes](card-ganes) and [nanes](card-nanes) scales.\n\n* 5 [nelil](word-nelil) (confusion/insecure)\n* 4 [neka](word-neka) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n",
+      "desc": "\nThis theme is part of [gana](word-gana) mythology and world-view.\n\n# The scale [ga](word-ga)\n\nThese states correspond to increasing intensity of [ga](word-ga) and if they are\nnot balanced by increasing practicality and material humility [na](word-na),\nthey are just other names for hubris or psychosis or just craziness ([maga](word-maga)).\n\nHere is a map of the relation between [gu](word-gu), [ga](word-ga), [nu](word-nu) and [na](word-na).\n\n~~~\nga                 gana\n                  /\n                /\n              /\nganes       /\n          /\n        /\ngu    /\n    /\nnugu  nu    nanes    na\n~~~\n\nThe `/` diagonal between [nugu](word-nugu) and [gana](word-gana) represent **integration**. Distances\nfrom this diagonal represent some level of psychosis (above) or dissociation\n(below).\n\nAs you can see, the only way to escape the terror of [nugu](word-nugu) is to reach\n[gana](word-gana) (earth), not [guna](word-guna) (dissociation, robot) nor [nuga](word-nuga) (psychosis, god-child).\n\nIn reality, [nugu](word-nugu) and [gana](word-gana) are folded together and are the same\nthing. The growth of the spirit is just a way to come back to the childhood\nof the spirit. It is the same but it is not the same, like looking at\nyour loved one with or without alzheimer. The loved one is the same but\nthe experience is not.\n\n## The euphoric states\n\nThese need to be balanced with their equivalent [nanes](card-nanes) states.\n\n* 10 [jipa](word-jipa) (remembering being god.des) <=> [jifi](word-jifi) (humble)\n* 9 [dapa](word-dapa) (joy) <=> [dafi](word-dafi) (serving)\n* 8 [jepa](word-jepa) (belonging) <=> [jefi](word-jefi) (caring)\n* 7 [fepa](word-fepa) (pride) <=> [fefi](word-fefi) (adapting)\n* 6 [shipa](word-shipa) (believing) <=> [shifi](word-shifi) (learning)\n\n## The \"territorial\" states.\n\nFrom here, the states are more difficult. These states are shared on both\n[ganes](card-ganes) and [nanes](card-nanes) scales.\n\n* 5 [nelil](word-nelil) (confusion/insecure)\n* 4 [neka](word-neka) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n",
       "id": "card-ganes",
       "fulltext": "ganes"
     },
@@ -12832,7 +12849,7 @@
       "type": "card",
       "writ": "nature",
       "phon": "",
-      "desc": "\n# Nature\n\n* [lamagoa](word-lamagoa) (ocean)\n* [ofo](word-ofo) (wind)\n* [lami](word-lami) (wave)\n* [lam](word-lam) (water)\n* [lamoa](word-lamoa) (source)\n* [gosoa](word-gosoa) (mountain)\n\n",
+      "desc": "\n# Nature\n\n* [lamagoa](word-lamagoa) (ocean)\n* [oto](word-oto) (wind)\n* [lami](word-lami) (wave)\n* [lam](word-lam) (water)\n* [lamoa](word-lamoa) (source)\n* [gosoa](word-gosoa) (mountain)\n\n",
       "id": "card-nature",
       "fulltext": "nature"
     },
@@ -12860,7 +12877,7 @@
       "type": "card",
       "writ": "phon",
       "phon": "/fɔn/",
-      "desc": "\n## Phonology and script\n\n![lepakshi](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Lepakshi...jpg/330px-Lepakshi...jpg)\n\nUsing [telugu script](https://en.wikipedia.org/wiki/Telugu_script) because it\nis an *abugida*, the sounds match nearly perfectly and... it looks so good\nand curvy.\n\n## Consonants\n\n|                 | Labial     | Coronal         | Dorsal       | Glottal |\n| :-------------  | :--------: | :-------------: | :----------: | :-----: |\n| **Nasal**       | m మ       | n న             |              |         |\n| **Plosive**     | p ప / b బ | t త / d ద  | k క / g గ        |         |\n| **Fricative**   | f చ       | s స / z ఠ -  ʃ శ / ʒ జ | x ః * | h హ |\n| **Approximant** | ʋ  వ      |                 | j య         |         |\n| **Trill**       |            | r ర             |              |         |\n| **Lateral**     |            | l ల             |              |         |\n\n\\* The `/x/` sound is only used at the end of a word to mark \"bad taste/mood\"\nor accusative with a rejection feeling (\"good taste\" is /m/ ending and\n\"neutral taste\" is /n/). The more the sound becomes uvular (feeling of\nchoking), the worst the taste/mood. A near silent expletive /h/ sound can\nexpress (subtle) disdain.\n\nAll sounds correspond to [Telugu](https://en.wikipedia.org/wiki/Telugu_script) except for:\n\n| Symbol | Telugu     | Zulapa     | Example             |\n| :----: | :--------: | :-------: | :--------:          |\n| **చ**  | /tʃ/       | /f/       | [falame](word-falame)        |\n| **ఠ**  | /tʰ/       | /z/       | [zuzu](word-zuzu)          |\n| **జ్‌**  | /dʒ/       | /ʒ/       | [joda](word-joda), [baj](word-baj) |\n \n\n## Vowels\n\n|                 | Front      | Central         | Back         |\n| :-------------  | :--------: | :-------------: | :----------: |\n| **Close**       | i  ి  ఇ   |                 | u   ు  ఉ   |\n| **Mid**         | ɛ  ే  ఎ   |                 | ɔ   ో  ఓ    |\n| **Open**        | a  ా  అ  |                 |              |\n\n## Stress\n\nStress on penultimate syllable before suffix.\n\nkeOda, lamigOa, agUwu, afOliri\n\n## Phonotactics\n\nTwo consonnants in a row are not allowed if they produce a stop. In this\ncase, we add an 'a' between them. Example: [alayuru](word-alayuru) instead of alyin.\nBut [najlo](word-najlo), or  [118](phrase-118) works.\n\nTwo vowels in a row are not allowed between conjugation and verb or counting\nand power [dalipa](alt-da1-ipa1). An 'h' or 'l' ('h' when joining a prefix and an 'l'\nwhen joining a suffix) is added in such cases: [119](phrase-119).\n\nTwo consecutive identical vowels are reduced to a single one: [120](phrase-120)\n\nWords cannot end in [m](word-m) (used for accusative). Words sometimes drop the\nlast vowel when adding a suffix that starts with a vowel instead of adding\n'h'.\n\n## Script\n\nDiphthongs are avoided and should not comme too often in scripts. If they\nare present, they are written as two separate letters: [noa](word-noa).\n\n## Current evolutions\n\n* There is a tendency to use `/zu/` instead of `/au/`.\n* There might be a trend to change `/dʒ/` into `/ʒ/`. \n\nYour next read: [kedana](card-kedana) (geography)\n",
+      "desc": "\n## Phonology and script\n\n![lepakshi](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Lepakshi...jpg/330px-Lepakshi...jpg)\n\nUsing [telugu script](https://en.wikipedia.org/wiki/Telugu_script) because it\nis an *abugida*, the sounds match nearly perfectly and... it looks so good\nand curvy.\n\n## Consonants\n\n|                 | Labial     | Coronal         | Dorsal       | Glottal |\n| :-------------  | :--------: | :-------------: | :----------: | :-----: |\n| **Nasal**       | m మ       | n న             |              |         |\n| **Plosive**     | p ప / b బ | t త / d ద  | k క / g గ        |         |\n| **Fricative**   | f చ       | s స / z ఠ -  ʃ శ / ʒ జ | x ః * | h హ |\n| **Approximant** | ʋ  వ      |                 | j య         |         |\n| **Trill**       |            | r ర             |              |         |\n| **Lateral**     |            | l ల             |              |         |\n\n\\* The `/x/` sound is only used at the end of a word to mark \"bad taste/mood\"\nor accusative with a rejection feeling (\"good taste\" is /m/ ending and\n\"neutral taste\" is /n/). The more the sound becomes uvular (feeling of\nchoking), the worst the taste/mood. A near silent expletive /h/ sound can\nexpress (subtle) disdain.\n\nAll sounds correspond to [Telugu](https://en.wikipedia.org/wiki/Telugu_script) except for:\n\n| Symbol | Telugu     | Zulapa     | Example             |\n| :----: | :--------: | :-------: | :--------:          |\n| **చ**  | /tʃ/       | /f/       | [falame](word-falame)        |\n| **ఠ**  | /tʰ/       | /z/       | [zuzu](word-zuzu)          |\n| **జ్‌**  | /dʒ/       | /ʒ/       | [joda](word-joda), [baj](word-baj) |\n| **ఇ‌**  | /aj/       | /j/       | [my](word-my) |\n \n\n## Vowels\n\n|                 | Front      | Central         | Back         |\n| :-------------  | :--------: | :-------------: | :----------: |\n| **Close**       | i  ి  ఇ   |                 | u   ు  ఉ   |\n| **Mid**         | ɛ  ే  ఎ   |                 | ɔ   ో  ఓ    |\n| **Open**        | a  ా  అ  |                 |              |\n \n\n## Semivowel\n\n|                 | As vowel   | As consonant    |\n| :-------------  | :--------: | :-------------: |\n| **Palatal**     | j  ై ఇ    |  య             |\n\n## Stress\n\nStress on penultimate syllable before suffix.\n\nkeOda, lamigOa, agUwu, afOliri\n\n## Phonotactics\n\nTwo consonnants in a row are not allowed if they produce a stop. In this\ncase, we add an 'a' between them. Example: [alayuru](word-alayuru) instead of alyin.\nBut [najlo](word-najlo), or  [118](phrase-118) works.\n\nTwo vowels in a row are not allowed between conjugation and verb or counting\nand power [dalipa](alt-da1-ipa1). An 'h' or 'l' ('h' when joining a prefix and an 'l'\nwhen joining a suffix) is added in such cases: [119](phrase-119).\n\nTwo consecutive identical vowels are reduced to a single one: [120](phrase-120)\n\nWords cannot end in [m](word-m) (used for accusative). Words sometimes drop the\nlast vowel when adding a suffix that starts with a vowel instead of adding\n'h'.\n\n## Script\n\nDiphthongs are avoided and should not comme too often in scripts. If they\nare present, they are written as two separate letters: [noa](word-noa).\n\n## Current evolutions\n\n* There is a tendency to use `/zu/` instead of `/au/`.\n* There might be a trend to change `/dʒ/` into `/ʒ/`. \n\nYour next read: [kedana](card-kedana) (geography)\n",
       "id": "card-phon",
       "fulltext": "phon"
     },
@@ -12888,7 +12905,7 @@
       "type": "card",
       "writ": "prep",
       "phon": "",
-      "desc": "\n# Prepositions\n\nThe prepositions that can be used as case marking have the gloss next to them\n\n## Time\n\n* [lau](word-lau) (always)\n* [uya](word-uya) (since)\n* [lulei](word-lulei) (until)\n* [dem](word-dem) (when past)\n* [dir](word-dir) (when future)\n* [lei](word-lei) (then)\n* [lu](word-lu) `CONT`\n* [ju](word-ju) (before) `ANTE`\n* [hu](word-hu) (smoke) `POSTE`\n\n#### nsfw\n\n* [122](phrase-122)\n\n## Nouns\n\n* [le](word-le) (very)\n* [wu](word-wu) (emptiness) `FROM`\n* [diwu](word-diwu) (who owns)\n* [eku](word-eku) (fact)\n* [ko](word-ko) (with)\n* [es](word-es) `PASS`\n* [fu](word-fu) (by) `ERG`\n* [ni](word-ni) (to) `DAT`\n* [le](word-le) (very) `ADJ`\n* [ne](word-ne) (negation) `NEG`\n* [sul](word-sul) (with) `COM`\n* [bak](word-bak) (without) `ABESS`\n\n#### nsfw\n\n* [123](phrase-123)\n* [124](phrase-124)\n* [125](phrase-125)\n\n## Generic unknown\n\n* [don](word-don) (where,what,who)\n\n## Location\n\n* [dono](word-dono) (where (body))\n* [done](word-done) (where (place))\n* [dona](word-dona) (who (other))\n* [ha](word-ha) (far)\n* [jo](word-jo) (proximal)\n* [dau](word-dau) (close place)\n* [dao](word-dao) (distant place)\n* [kte](word-kte) (between)\n* [fe](word-fe) `SUPESS`\n* [ro](word-ro) (inner) `INESS`\n* [ri](word-ri) (outer) `ELAT`\n\nExamples\n\n* [126](phrase-126)\n* [127](phrase-127)\n* [128](phrase-128)\n* [129](phrase-129)\n\n## Causality\n\n* [eyu](word-eyu) (maybe)\n* [ibu](word-ibu) (for)\n* [eja](word-eja) (plausible)\n* [ku](word-ku) (rope)\n* [eku](word-eku) (fact)\n* [meu](word-meu) (otherwise)\n\nExamples:\n\n* [130](phrase-130)\n* [131](phrase-131)\n\n## Similarity\n\n* [si](word-si) (as) `ADV`\n\n## Composability\n\n* [mei](word-mei) (made of)\n\n## Articulation\n\n* [shu](word-shu) (and)\n* [neshu](alt-ne-shu) (but)\n* [uma](word-uma) (or)\n\n",
+      "desc": "\n# Prepositions\n\nThe prepositions that can be used as case marking have the gloss next to them\n\n## Time\n\n* [lau](word-lau) (always)\n* [uya](word-uya) (since)\n* [lulei](word-lulei) (until)\n* [dem](word-dem) (when past)\n* [dir](word-dir) (when future)\n* [lei](word-lei) (then)\n* [lu](word-lu) (while) `CONT`\n* [ju](word-ju) (before) `ANTE`\n* [hu](word-hu) (after) `POSTE`\n\n#### nsfw\n\n* [122](phrase-122)\n\n## Nouns\n\n* [le](word-le) (very)\n* [wu](word-wu) (emptiness) `FROM`\n* [diwu](word-diwu) (who owns)\n* [eku](word-eku) (fact)\n* [ko](word-ko) (with)\n* [es](word-es) (is-ness) `PASS`\n* [fu](word-fu) (by) `ERG`\n* [ni](word-ni) (to) `DAT`\n* [le](word-le) (very) `ADJ`\n* [ne](word-ne) (negation) `NEG`\n* [sul](word-sul) (with) `COM`\n* [bak](word-bak) (without) `ABESS`\n\n#### nsfw\n\n* [123](phrase-123)\n\n## Generic unknown\n\n* [don](word-don) (where,what,who)\n\n* [124](phrase-124)\n* [125](phrase-125)\n\n## Location\n\n* [dono](word-dono) (where (body))\n* [done](word-done) (where (place))\n* [dona](word-dona) (who (other))\n* [ha](word-ha) (far)\n* [jo](word-jo) (proximal)\n* [dau](word-dau) (close place)\n* [dao](word-dao) (distant place)\n* [kte](word-kte) (between)\n* [fe](word-fe) (on) `SUPESS`\n* [ro](word-ro) (inner) `INESS`\n* [ri](word-ri) (outer) `ELAT`\n\nExamples\n\n* [126](phrase-126)\n* [127](phrase-127)\n* [128](phrase-128)\n* [129](phrase-129)\n\n## Causality\n\n* [eyu](word-eyu) (maybe)\n* [ibu](word-ibu) (for)\n* [eja](word-eja) (plausible)\n* [ku](word-ku) (imply)\n* [eku](word-eku) (fact)\n* [meu](word-meu) (otherwise)\n\nExamples:\n\n* [130](phrase-130)\n* [131](phrase-131)\n\n## Similarity\n\n* [si](word-si) (as) `ADV`\n\n## Composability\n\n* [mei](word-mei) (made of)\n\n## Articulation\n\n* [shu](word-shu) (and)\n* [neshu](alt-ne-shu) (but)\n* [uma](word-uma) (or)\n\n",
       "id": "card-prep",
       "fulltext": "prep"
     },
@@ -12907,7 +12924,7 @@
       "writ": "sing",
       "phon": "",
       "open": true,
-      "desc": "\n# Some ideas for lyrics\n\n## [duhashati](alt-duhasha-ti) (your laugh)\n\n[132](phrase-132)\n\n[133](phrase-133)\n\n[134](phrase-134)\n\n## [ofom](alt-ofo-m) (him)\n\n###### block\n* [135](phrase-135)\n* [136](phrase-136)\n* [137](phrase-137)\n* [138](phrase-138)\n* [139](phrase-139)\n* [140](phrase-140)\n* [141](phrase-141)\n\nReply:\n\n###### block\n* [142](phrase-142)\n* [143](phrase-143)\n* [144](phrase-144)\n* [145](phrase-145)\n* [146](phrase-146)\n* [147](phrase-147)\n* [148](phrase-148)\n* [149](phrase-149)\n* [150](phrase-150)\n* [151](phrase-151)\n* [152](phrase-152)\n* [153](phrase-153)\n* [154](phrase-154)\n* [155](phrase-155)\n* [156](phrase-156)\n\nReply:\n\n###### block\n* [157](phrase-157)\n* [158](phrase-158)\n* [159](phrase-159)\n* [160](phrase-160)\n* [161](phrase-161)\n* [162](phrase-162)\n* [163](phrase-163)\n* [164](phrase-164)\n\n## [i](word-i$) (you)\n\n[165](phrase-165)\n\n[166](phrase-166)\n\n## Death\n\n* [167](phrase-167)\n* [168](phrase-168)\n* [169](phrase-169)\n* [170](phrase-170)\n* [171](phrase-171)\n* [172](phrase-172)\n* [173](phrase-173)\n* [174](phrase-174)\n* [175](phrase-175)\n* [176](phrase-176)\n* [177](phrase-177)\n* [178](phrase-178)\n* [179](phrase-179)\n* [180](phrase-180)\n* [181](phrase-181)\n* [182](phrase-182)\n* [183](phrase-183)\n* [184](phrase-184)\n* [185](phrase-185)\n* [186](phrase-186)\n* [187](phrase-187)\n* [188](phrase-188)\n* [189](phrase-189)\n* [190](phrase-190)\n* [191](phrase-191)\n* [192](phrase-192)\n* [193](phrase-193)\n* [194](phrase-194)\n* [195](phrase-195)\n* [196](phrase-196)\n* [197](phrase-197)\n* [198](phrase-198)\n* [199](phrase-199)\n* [200](phrase-200)\n* [201](phrase-201)\n* [202](phrase-202)\n* [203](phrase-203)\n* [204](phrase-204)\n* [205](phrase-205)\n* [206](phrase-206)\n* [207](phrase-207)\n* [208](phrase-208)\n* [209](phrase-209)\n* [210](phrase-210)\n* [211](phrase-211)\n* [212](phrase-212)\n* [213](phrase-213)\n\n## Leave your home, girl\n\n* [214](phrase-214)\n* [215](phrase-215)\n* [216](phrase-216)\n* [217](phrase-217)\n* [218](phrase-218)\n\n* [219](phrase-219)\n\n* [220](phrase-220)\n* [221](phrase-221)\n* [222](phrase-222)\n* [223](phrase-223)\n* [224](phrase-224)\n\n* [225](phrase-225)\n\n* [226](phrase-226)\n* [227](phrase-227)\n* [228](phrase-228)\n* [229](phrase-229)\n* [230](phrase-230)\n\n* [231](phrase-231)\n\n",
+      "desc": "\n# Some ideas for lyrics\n\n## [duhashati](alt-duhasha-ti) (your laugh)\n\n[132](phrase-132)\n\n[133](phrase-133)\n\n[134](phrase-134)\n\n## [otom](alt-oto-m) (him)\n\n###### block\n* [135](phrase-135)\n* [136](phrase-136)\n* [137](phrase-137)\n* [138](phrase-138)\n* [139](phrase-139)\n* [140](phrase-140)\n* [141](phrase-141)\n\nReply:\n\n###### block\n* [142](phrase-142)\n* [143](phrase-143)\n* [144](phrase-144)\n* [145](phrase-145)\n* [146](phrase-146)\n* [147](phrase-147)\n* [148](phrase-148)\n* [149](phrase-149)\n* [150](phrase-150)\n* [151](phrase-151)\n* [152](phrase-152)\n* [153](phrase-153)\n* [154](phrase-154)\n* [155](phrase-155)\n* [156](phrase-156)\n\nReply:\n\n###### block\n* [157](phrase-157)\n* [158](phrase-158)\n* [159](phrase-159)\n* [160](phrase-160)\n* [161](phrase-161)\n* [162](phrase-162)\n* [163](phrase-163)\n* [164](phrase-164)\n\n## [i](word-i$) (you)\n\n[165](phrase-165)\n\n[166](phrase-166)\n\n## Death\n\n* [167](phrase-167)\n* [168](phrase-168)\n* [169](phrase-169)\n* [170](phrase-170)\n* [171](phrase-171)\n* [172](phrase-172)\n* [173](phrase-173)\n* [174](phrase-174)\n* [175](phrase-175)\n* [176](phrase-176)\n* [177](phrase-177)\n* [178](phrase-178)\n* [179](phrase-179)\n* [180](phrase-180)\n* [181](phrase-181)\n* [182](phrase-182)\n* [183](phrase-183)\n* [184](phrase-184)\n* [185](phrase-185)\n* [186](phrase-186)\n* [187](phrase-187)\n* [188](phrase-188)\n* [189](phrase-189)\n* [190](phrase-190)\n* [191](phrase-191)\n* [192](phrase-192)\n* [193](phrase-193)\n* [194](phrase-194)\n* [195](phrase-195)\n* [196](phrase-196)\n* [197](phrase-197)\n* [198](phrase-198)\n* [199](phrase-199)\n* [200](phrase-200)\n* [201](phrase-201)\n* [202](phrase-202)\n* [203](phrase-203)\n* [204](phrase-204)\n* [205](phrase-205)\n* [206](phrase-206)\n* [207](phrase-207)\n* [208](phrase-208)\n* [209](phrase-209)\n* [210](phrase-210)\n* [211](phrase-211)\n* [212](phrase-212)\n* [213](phrase-213)\n\n## Leave your home, girl\n\n* [214](phrase-214)\n* [215](phrase-215)\n* [216](phrase-216)\n* [217](phrase-217)\n* [218](phrase-218)\n\n* [219](phrase-219)\n\n* [220](phrase-220)\n* [221](phrase-221)\n* [222](phrase-222)\n* [223](phrase-223)\n* [224](phrase-224)\n\n* [225](phrase-225)\n\n* [226](phrase-226)\n* [227](phrase-227)\n* [228](phrase-228)\n* [229](phrase-229)\n* [230](phrase-230)\n\n* [231](phrase-231)\n\n",
       "id": "card-sing",
       "fulltext": "sing"
     },
@@ -12916,7 +12933,7 @@
       "type": "card",
       "writ": "subj",
       "phon": "",
-      "desc": "\n# Subject and possessivity\n\nThe following morphemes express people (you, me, them), possessivity (my,\nyour, their) or verb conjugation depending on how the morpheme is\nagglutinated (or not).\n\n## Verbs\n\nTo transform a noun into a verb, the morpheme representing the subject is\nprefixed on the noun as-is or with an /h/ to fix double vowels. Example:\n\n* [imilema](alt-i-mi-ema)\n\nDetails on verbs here: [verbs](card-verbs).\n\n## Possessivity\n\nTo mark possessivity, the morpheme is prefixed or suffixed to the noun and a\n/t/ is added. Double consonant is fixed with an /a/. Examples:\n\n* [tima](alt-ti-ma)\n* [mati](alt-ma-ti)\n\nThe choice between prefix or suffix depends on context and what sounds best.\nThe difference is a bit like saying \"your hand\" or \"hand of you\". This lets\nput emphasis where we want, like dropping the [tim](word-ti-m) of [noatim](alt-noa-ti-m) gently\nafter a small pause to express kindness or awe.\n\n## Person\n\nDepending on context we can chose between adding [da](word-da) (self) suffix or\nuse the morpheme with /t/ prefix on singular (as-is for plural). Examples:\n\n* [232](phrase-232)\n* [233](phrase-233)\n* [234](phrase-234)\n\nThe extra /m/ at the end is flavor marking ([m](word-m)).\n\n# The list !!\n\nHere is the full list of subjects to express actions, possessivity and address.\n\n### indefinite\n\nThis subject is the most used to talk about oneself and it means \"we\" in the\nindefinite sense. It is part royal and part modesty.\n\n* [o](word-o) `I/we`\n* [okei](alt-o-kei) `I/we.FANTASTIC`\n\n### every\n\n* [oka](word-o-ka) `we.EVERY`\n\n### me\n\n* [opi](word-o-pi) `I`\n* [oyi](word-o-yi) `I.TINY`\n* [olo](word-o-lo) `I.WET`\n\n### you and me\n\n* [ode](word-o-de) `us.TWO`\n\n### us\n\n* [sho](word-sho) `we`\n* [shokei](alt-sho-kei) `we.FANTASTIC`\n* [shoyi](alt-sho-yi) `we.TINY`\n* [sholo](alt-sho-lo) `we.WET`\n\n### you (just you, singular)\n\n* [i](word-i) `you`\n* [ikei](alt-i-kei) `you.FANTASTIC`\n* [iyi](alt-i-yi) `you.TINY`\n* [ilo](alt-i-lo) `you.WET`\n\n### you (plural)\n\n* [shi](word-shi) `you.PL`\n* [shikei](alt-shi-kei) `you.PL.FANTASTIC`\n* [shiyi](alt-shi-yi) `you.PL.TINY`\n* [shilo](alt-shi-lo) `you.PL.WET`\n\n### them (singular)\n\n* [a](word-a) `they`\n* [akei](alt-a-kei) `they.FANTASTIC`\n* [ayi](alt-a-yi) `they.TINY`\n* [alo](alt-a-lo) `they.WET`\n\n### some of them\n\n* [ape](alt-a-pe) `they.they9.INDF`\n\n### them (plural)\n\n* [sha](word-sha) `they.PL`\n* [shakei](alt-sha-kei) `they.PL.FANTASTIC`\n* [shayi](alt-sha-yi) `they.PL.TINY`\n* [shalo](alt-sha-lo) `they.PL.WET`\n\n## Relative\n\n* [le](word-le) who (noun modifier)\n\n## TODO: REWRITE END OF THIS CARD...\n\n##### note\n\nIf you read this, I screwed up and haven't fixed the text before publishing. Bad.\n\n## Possessivity suffix\n\n[wu](word-wu) is used as suffix to introduce a noun phrase clarifying possessivity.\n\n* [235](phrase-235)\n\nor\n\n* [236](phrase-236)\n* [237](phrase-237)\n\nThe `/m/` endings are the 'mood' markings (accusative). See [taste](card-taste).\n\n## Target person (dative)\n\nWhen specifying the recipient of an action, we use [ni](word-ni) (arrow) as prefix\non the subject. You can understand this prefix as something in the line of\n\"to/of\".\n\n* [238](phrase-238)\n* [239](phrase-239)\n\nThere are other prefix that can be used such as [fe](word-fe) (on), [ro](word-ro) (in)\nand so on: [prep](card-prep).\n\n## Subject suffix (ergative)\n\nWe usually omit the subject because it is visible on the verb but when we\nwant to use it, we use [da](word-da) (self).\n\n* [240](phrase-240)\n\nList of people:\n\n* [oda](alt-o-da) (people)\n* [ida](alt-i-da) (you-person)\n* [ada](alt-a-da) (they-person)\n* [pida](alt-pi-da) (I-person)\n* [keida](alt-kei-da) (Master-person)\n* [yida](alt-yi-da) (tiny-person)\n* [loda](alt-lo-da) (wet-person)\n* [peda](alt-pe-da) (someone)\n* [deda](alt-de-da) (us-two)\n* [kada](alt-ka-da) (all of us)\n\n## Genders\n\nTo express gender, we use the possessive 'your', 'their', etc and the noun that\nmost closely expresses the desired notion. Note that the verb is accorded to the\npossessive argument. Here are some examples:\n\n* [241](phrase-241)\n* [242](phrase-242)\n* [243](phrase-243)\n* [244](phrase-244)\n\nNote that we also have words to express gendered-bodies and these (like any\nnoun) can be used as subjects or \"targets\" in phrases but they then accord as\nan indefinite 'person' as if we would say 'someone', 'some girl', etc.\n\n* [iwida](alt-iwi-da) (enby-person)\n* [unuda](alt-unu-da) (female-person)\n* [ofoda](alt-ofo-da) (male-person)\n\nYour next read: [evolution](card-evolution) (how things evolved)\n",
+      "desc": "\n# Subject and possessivity\n\nThe following morphemes express people (you, me, them), possessivity (my,\nyour, their) or verb conjugation depending on how the morpheme is\nagglutinated (or not).\n\n## Verbs\n\nTo transform a noun into a verb, the morpheme representing the subject is\nprefixed on the noun as-is or with an /h/ to fix double vowels. Example:\n\n* [imilema](alt-i-mi-ema)\n\nDetails on verbs here: [verbs](card-verbs).\n\n## Possessivity\n\nTo mark possessivity, the morpheme is prefixed or suffixed to the noun and a\n/t/ is added. Double consonant is fixed with an /a/. Examples:\n\n* [tima](alt-ti-ma)\n* [mati](alt-ma-ti)\n\nThe choice between prefix or suffix depends on context and what sounds best.\nThe difference is a bit like saying \"your hand\" or \"hand of you\". This lets\nput emphasis where we want, like dropping the [tim](word-ti-m) of [noatim](alt-noa-ti-m) gently\nafter a small pause to express kindness or awe.\n\n## Person\n\nDepending on context we can chose between adding [da](word-da) (self) suffix or\nuse the morpheme with /t/ prefix on singular (as-is for plural). Examples:\n\n* [232](phrase-232)\n* [233](phrase-233)\n* [234](phrase-234)\n\nThe extra /m/ at the end is flavor marking ([m](word-m)).\n\n# The list !!\n\nHere is the full list of subjects to express actions, possessivity and address.\n\n### indefinite\n\nThis subject is the most used to talk about oneself and it means \"we\" in the\nindefinite sense. It is part royal and part modesty.\n\n* [o](word-o) `I/we`\n* [okei](alt-o-kei) `I/we.FANTASTIC`\n\n### every\n\n* [oka](word-o-ka) `we.EVERY`\n\n### me\n\n* [opi](word-o-pi) `I`\n* [oyi](word-o-yi) `I.TINY`\n* [olo](word-o-lo) `I.WET`\n\n### you and me\n\n* [ode](word-o-de) `us.TWO`\n\n### us\n\n* [sho](word-sho) `we`\n* [shokei](alt-sho-kei) `we.FANTASTIC`\n* [shoyi](alt-sho-yi) `we.TINY`\n* [sholo](alt-sho-lo) `we.WET`\n\n### you (just you, singular)\n\n* [i](word-i) `you`\n* [ikei](alt-i-kei) `you.FANTASTIC`\n* [iyi](alt-i-yi) `you.TINY`\n* [ilo](alt-i-lo) `you.WET`\n\n### you (plural)\n\n* [shi](word-shi) `you.PL`\n* [shikei](alt-shi-kei) `you.PL.FANTASTIC`\n* [shiyi](alt-shi-yi) `you.PL.TINY`\n* [shilo](alt-shi-lo) `you.PL.WET`\n\n### them (singular)\n\n* [a](word-a) `they`\n* [akei](alt-a-kei) `they.FANTASTIC`\n* [ayi](alt-a-yi) `they.TINY`\n* [alo](alt-a-lo) `they.WET`\n\n### some of them\n\n* [ape](alt-a-pe) `they.they9.INDF`\n\n### them (plural)\n\n* [sha](word-sha) `they.PL`\n* [shakei](alt-sha-kei) `they.PL.FANTASTIC`\n* [shayi](alt-sha-yi) `they.PL.TINY`\n* [shalo](alt-sha-lo) `they.PL.WET`\n\n## Relative\n\n* [le](word-le) who (noun modifier)\n\n## TODO: REWRITE END OF THIS CARD...\n\n##### note\n\nIf you read this, I screwed up and haven't fixed the text before publishing. Bad.\n\n## Possessivity suffix\n\n[wu](word-wu) is used as suffix to introduce a noun phrase clarifying possessivity.\n\n* [235](phrase-235)\n\nor\n\n* [236](phrase-236)\n* [237](phrase-237)\n\nThe `/m/` endings are the 'mood' markings (accusative). See [taste](card-taste).\n\n## Target person (dative)\n\nWhen specifying the recipient of an action, we use [ni](word-ni) (arrow) as prefix\non the subject. You can understand this prefix as something in the line of\n\"to/of\".\n\n* [238](phrase-238)\n* [239](phrase-239)\n\nThere are other prefix that can be used such as [fe](word-fe) (on), [ro](word-ro) (in)\nand so on: [prep](card-prep).\n\n## Subject suffix (ergative)\n\nWe usually omit the subject because it is visible on the verb but when we\nwant to use it, we use [da](word-da) (self).\n\n* [240](phrase-240)\n\nList of people:\n\n* [oda](alt-o-da) (people)\n* [ida](alt-i-da) (you-person)\n* [ada](alt-a-da) (they-person)\n* [pida](alt-pi-da) (I-person)\n* [keida](alt-kei-da) (Master-person)\n* [yida](alt-yi-da) (tiny-person)\n* [loda](alt-lo-da) (wet-person)\n* [peda](alt-pe-da) (someone)\n* [deda](alt-de-da) (us-two)\n* [kada](alt-ka-da) (all of us)\n\n## Genders\n\nTo express gender, we use the possessive 'your', 'their', etc and the noun that\nmost closely expresses the desired notion. Note that the verb is accorded to the\npossessive argument. Here are some examples:\n\n* [241](phrase-241)\n* [242](phrase-242)\n* [243](phrase-243)\n* [244](phrase-244)\n\nNote that we also have words to express gendered-bodies and these (like any\nnoun) can be used as subjects or \"targets\" in phrases but they then accord as\nan indefinite 'person' as if we would say 'someone', 'some girl', etc.\n\n* [iwida](alt-iwi-da) (enby-person)\n* [unuda](alt-unu-da) (female-person)\n* [otoda](alt-oto-da) (male-person)\n\nYour next read: [evolution](card-evolution) (how things evolved)\n",
       "id": "card-subj",
       "fulltext": "subj"
     },
@@ -12935,7 +12952,7 @@
       "writ": "verbs",
       "phon": "",
       "open": true,
-      "desc": "\n# Action\n\nAll nouns can become actions (verbs) with an \"activity\" marker ([subj](card-subj)).\nSome nouns have a precise meaning when they take the \"action\" role such as\n[fa](word-fa), [fen](word-fen), [awi](word-awi), [yin](word-yin), etc.\n\nAnother particularity of this language is the use of three suffix used to\nmark intent or style:\n\n* [i](word-i$) (CARE, caring, gentle)\n* [o](word-o$) (PUSH, pushing, away from)\n* [u](word-u$) (PULL, pulling, towards)\n\n### Examples:\n\n* [252](phrase-252)\n* [253](phrase-253)\n* [254](phrase-254)\n\n#### nsfw\n\n* [255](phrase-255)\n* [256](phrase-256)\n* [257](phrase-257)\n* [258](phrase-258)\n* [259](phrase-259)\n\n## The hardest case\n\nThe most complicated action type is the continuous passive in the past or\nfuture. Here we go:\n\n* [260](phrase-260)\n\nDecomposed in its parts, this is:\n\n| [es](word-es) | [i](word-i) | [lu](word-lu) | [mi](word-mi) | [em](word-em) |\n| :-:     | :-:    | :-:     | :-:     |  :-:     |\n| es | i | lu | mi | lem |\n| passive | you    | continuous | caress | past |\n\nNow that you know about the hardest, let's restart and move gently from one concept to the next.\n\n## Imperative\n\nThe simplest tense is the imperative:\n\n* [261](phrase-261)\n\n## Word order\n\nPhrases do not have precise verb, subject or object positioning. We use\nmarking on the target expressing some kind of bond with the subject (taste,\naccusative) and sometimes receiver marking (dative) to remove ambiguity. See\n[m](word-m) for details on \"taste\" marking.\n\n* [262](phrase-262)\n* [263](phrase-263)\n* [264](phrase-264)\n* [265](phrase-265)\n\nFor more information on word order: [order](card-order)\n\n## Transforming a noun into an action\n\nTo mark nouns as \"active\", making them something like verbs, we prefix them with\na subject marker (the \"doer\" or \"receiver\" when used with [es](word-es)).\n\nThe origin of this is that saying \"I hand\" transforms \"hand\" into the \"massage\" or\n\"take\" action and it evolved to be \"Ihand\" in a single word. Example:\n\n* [266](phrase-266)\n* [267](phrase-267)\n\nThe full list of \"subject\" prefix: [subj](card-subj)\n\n## Passive voice\n\nThe passive voice transforms the target of the action into the subject. For\nthis we use [es](word-es) prefix before the subject.\n\nFor example:\n\n* [268](phrase-268) becomes [269](phrase-269)\n* [270](phrase-270) (\"be-me.**caress**.will-be\")\n\n#### nsfw\n\n* [271](phrase-271)\n\n## Continuous aspect [lu](word-lu)\n\nTo denote an action that is happening for some time, we use [lu](word-lu) as prefix\non the action (comes after accord with the subject).\n\n* [272](phrase-272)\n* [273](phrase-273)\n* [274](phrase-274)\n\n#### nsfw\n\n* [275](phrase-275)\n\n## Indefinite subject (infinitive)\n\nThe prefix [u](word-u) marks the indefinite subject (life itself). The meaning is\nsomething like 'life does'. When used as a noun the verb becomes close to the\nnotion of infinitive and requires proper accusative marking. The [u](word-u)\nprefix does not simply make a noun, extra markers are required for other roles such\nas adjective or adverb.\n\n* [276](phrase-276)\n* [277](phrase-277)\n* [278](phrase-278)\n* [279](phrase-279)\n\n## Impersonal (weather verbs)\n\nTo express things without a subject, we use the passive voice accorded to indefinite subject:\n\n* [280](phrase-280)\n* [281](phrase-281)\n* [282](phrase-282)\n\nThis is from [1401st Just Used 5 Minutes of Your Day](https://www.reddit.com/r/conlangs/comments/kzeek7/1401st_just_used_5_minutes_of_your_day/).\n\n[283](phrase-283)\n\n## Honorific / tiny\n\nThis idea of Honorific/tiny was inspired by BDSM power exchange and role play\nbut it transformed quite a lot to express something closer to the person\ntaking care (parent) and the innocent being taken care of (child). This is\nalso present in the BDSM Dom/sub relationship but I wanted something that\nfocussed more on expressing respect for the responsabilty of the \"carer\"\n([keda](word-keda)) and the vulnerability of the \"cared for\" ([yida](alt-yi-da)).\n\n#### nsfw\n\nFor more BDSM and sexual contexts, the Dominant is still referred to as\n\"fantastic\" [keda](word-keda) but the sub is refered to as \"wet\" [loda](alt-lo-da) instead of\n\"tiny\" [yida](alt-yi-da).\n\nThis translates in subjects [okei](alt-o-kei), [iyi](alt-i-yi), [ilo](alt-i-lo), etc.\n\n* [284](phrase-284)\n* [285](phrase-285)\n* [286](phrase-286)\n\nJust remember, what sounds like \"OKey\" is in fact \"I-fantastic\" and\neverything with a /y/ such as [yida](alt-yi-da) are meant to be said with a soft and\nvery kind voice.\n\n# Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them\nbecause these timings are important in the erotic situations where this\nlanguage originated.\n\nThe logic is as follows:\n\n| vowel | meaning | future |\n| :---: | :---------- | :------------ |\n|       | [em](alt-emPST) (past) `PST` | [ir](alt-irFUT) (future) `FUT` |\n| **o** | [emo](word-emo) (earlier today) `PST.HOD` | [iro](word-iro) (later today) `FUT.HOD` |\n| **i** | [emi](word-emi) (yesterday) `PST.HEST` | [iri](word-iri) (tomorrow) `FUT.CRAS` |\n| **a** | [ema](word-ema) (recent past) `PST.PROX` | [ira](word-ira) (near future) `FUT.PROX` |\n| **u** | [emu](word-emu) (distant past) `PST.DIST` | [iru](word-iru) (distant future) `FUT.DIST` |\n| **e** | [eme](word-eme) (eventual past) `PST.EVNT` | [ire](word-ire) (eventual future) `FUT.EVNT` |\n\n## Eternal tenses\n\n| always | never |\n| :---------- | :------------ |\n| [lau](alt-lauETERN) (always) `ETERN` | [nei](alt-neiNEVER) (never) `NEVER` |\n\n#### nsfw\n\nThe \"never\" tens can be used in phrases where we say,  \n[287](phrase-287)  \nor  \n[288](phrase-288)  \ndroping the tens as a cliff hanger.\n\n## Examples\n\n* [289](phrase-289)\n* [290](phrase-290)\n* [291](phrase-291)\n* [292](phrase-292)\n* [293](phrase-293)\n\n#### nsfw\n\n* [294](phrase-294)\n\nYour next read: [order](card-order) (word order)\n",
+      "desc": "\n# Action\n\nAll nouns can become actions (verbs) with an \"activity\" marker ([subj](card-subj)).\nSome nouns have a precise meaning when they take the \"action\" role such as\n[fa](word-fa), [fen](word-fen), [awi](word-awi), [yin](word-yin), etc.\n\nAnother particularity of this language is the use of three suffix used to\nmark intent or style:\n\n* [i](word-i$) (CARE, caring, gentle)\n* [o](word-o$) (PUSH, pushing, away from)\n* [u](word-u$) (PULL, pulling, towards)\n\n### Examples:\n\n* [252](phrase-252)\n* [253](phrase-253)\n* [254](phrase-254)\n\n#### nsfw\n\n* [255](phrase-255)\n* [256](phrase-256)\n* [257](phrase-257)\n* [258](phrase-258)\n* [259](phrase-259)\n\n## The hardest case\n\nThe most complicated action type is the continuous passive in the past or\nfuture. Here we go:\n\n* [260](phrase-260)\n\nDecomposed in its parts, this is:\n\n| [es](word-es) | [i](word-i) | [lu](word-lu) | [mi](word-mi) | [em](word-em) |\n| :-:     | :-:    | :-:     | :-:     |  :-:     |\n| es | i | lu | mi | lem |\n| passive | you    | continuous | caress | past |\n\nNow that you know about the hardest, let's restart and move gently from one concept to the next.\n\n## Imperative\n\nThe simplest tense is the imperative:\n\n* [261](phrase-261)\n\n## Word order\n\nPhrases do not have precise verb, subject or object positioning. We use\nmarking on the target expressing some kind of bond with the subject (taste,\naccusative) and sometimes receiver marking (dative) to remove ambiguity. See\n[m](word-m) for details on \"taste\" marking.\n\n* [262](phrase-262)\n* [263](phrase-263)\n* [264](phrase-264)\n* [265](phrase-265)\n\nFor more information on word order: [order](card-order)\n\n## Transforming a noun into an action\n\nTo mark nouns as \"active\", making them something like verbs, we prefix them with\na subject marker (the \"doer\" or \"receiver\" when used with [es](word-es)).\n\nThe origin of this is that saying \"I hand\" transforms \"hand\" into the \"massage\" or\n\"take\" action and it evolved to be \"Ihand\" in a single word. Example:\n\n* [266](phrase-266)\n* [267](phrase-267)\n\nThe full list of \"subject\" prefix: [subj](card-subj)\n\n## Passive voice\n\nThe passive voice transforms the target of the action into the subject. For\nthis we use [es](word-es) prefix before the subject.\n\nFor example:\n\n* [268](phrase-268) becomes [269](phrase-269)\n* [270](phrase-270) (\"be-me.**caress**.will-be\")\n\n#### nsfw\n\n* [271](phrase-271)\n\n## Continuous aspect [lu](word-lu)\n\nTo denote an action that is happening for some time, we use [lu](word-lu) as prefix\non the action (comes after accord with the subject).\n\n* [272](phrase-272)\n* [273](phrase-273)\n* [274](phrase-274)\n\n#### nsfw\n\n* [275](phrase-275)\n\n## Indefinite subject (infinitive)\n\nThe prefix [u](word-u) marks the indefinite subject (life itself). The meaning is\nsomething like 'life does'. When used as a noun the verb becomes close to the\nnotion of infinitive and requires proper accusative marking. The [u](word-u)\nprefix does not simply make a noun, extra markers are required for other roles such\nas adjective or adverb.\n\n* [276](phrase-276)\n* [277](phrase-277)\n* [278](phrase-278)\n* [279](phrase-279)\n\n## Impersonal (weather verbs)\n\nTo express things without a subject, we use the passive voice accorded to indefinite subject:\n\n* [280](phrase-280)\n* [281](phrase-281)\n* [282](phrase-282)\n\nThis is from [1401st Just Used 5 Minutes of Your Day](https://www.reddit.com/r/conlangs/comments/kzeek7/1401st_just_used_5_minutes_of_your_day/).\n\n[283](phrase-283)\n\n## Honorific / tiny\n\nThis idea of Honorific/tiny was inspired by BDSM power exchange and role play\nbut it transformed quite a lot to express something closer to the person\ntaking care (parent) and the innocent being taken care of (child). This is\nalso present in the BDSM Dom/sub relationship but I wanted something that\nfocussed more on expressing respect for the responsabilty of the \"carer\"\n([keda](word-keda)) and the vulnerability of the \"cared for\" ([yida](alt-yi-da)).\n\n#### nsfw\n\nFor more BDSM and sexual contexts, the Dominant is still referred to as\n\"fantastic\" [keda](word-keda) but the sub is refered to as \"wet\" [loda](alt-lo-da) instead of\n\"tiny\" [yida](alt-yi-da).\n\nThis translates in subjects [okei](alt-o-kei), [iyi](alt-i-yi), [ilo](alt-i-lo), etc.\n\n* [284](phrase-284)\n* [285](phrase-285)\n* [286](phrase-286)\n\nJust remember, what sounds like \"OKey\" is in fact \"I-fantastic\" and\neverything with a /y/ such as [yida](alt-yi-da) are meant to be said with a soft and\nvery kind voice.\n\n# Tenses\n\nThe tense is marked by a suffix related to time. There are a lot of them\nbecause these timings are important in the erotic situations where this\nlanguage originated.\n\nThe logic is as follows:\n\n| vowel | meaning | future |\n| :---: | :---------- | :------------ |\n|       | [em](alt-emPST) (emPST) `PST` | [ir](alt-irFUT) (irFUT) `FUT` |\n| **o** | [emo](word-emo) (earlier today) `PST.HOD` | [iro](word-iro) (later today) `FUT.HOD` |\n| **i** | [emi](word-emi) (yesterday) `PST.HEST` | [iri](word-iri) (tomorrow) `FUT.CRAS` |\n| **a** | [ema](word-ema) (recent past) `PST.PROX` | [ira](word-ira) (near future) `FUT.PROX` |\n| **u** | [emu](word-emu) (distant past) `PST.DIST` | [iru](word-iru) (distant future) `FUT.DIST` |\n| **e** | [eme](word-eme) (eventual past) `PST.EVNT` | [ire](word-ire) (eventual future) `FUT.EVNT` |\n\n## Eternal tenses\n\n| always | never |\n| :---------- | :------------ |\n| [lau](alt-lauETERN) (lauETERN) `ETERN` | [nei](alt-neiNEVER) (neiNEVER) `NEVER` |\n\n#### nsfw\n\nThe \"never\" tens can be used in phrases where we say,  \n[287](phrase-287)  \nor  \n[288](phrase-288)  \ndroping the tens as a cliff hanger.\n\n## Examples\n\n* [289](phrase-289)\n* [290](phrase-290)\n* [291](phrase-291)\n* [292](phrase-292)\n* [293](phrase-293)\n\n#### nsfw\n\n* [294](phrase-294)\n\nYour next read: [order](card-order) (word order)\n",
       "id": "card-verbs",
       "fulltext": "verbs"
     },
@@ -12983,7 +13000,7 @@
       "fulltext": "1",
       "writ": "౧",
       "phon": "/1/",
-      "phrase": "adu leeshu"
+      "phrase": "adu leheshu"
     },
     "phrase-2": {
       "name": "2",
@@ -13845,7 +13862,7 @@
         "alt-o-mahim-em",
         "alt-unu-m",
         "alt-u-fik",
-        "alt-ofo-m"
+        "alt-oto-m"
       ],
       "see": [
         "card-complex"
@@ -13854,7 +13871,7 @@
       "fulltext": "50",
       "writ": "౫౦",
       "phon": "/50/",
-      "phrase": "omahimem unum ufik ofom"
+      "phrase": "omahimem unum ufik otom"
     },
     "phrase-51": {
       "name": "51",
@@ -13872,7 +13889,7 @@
       "fulltext": "51",
       "writ": "౫౧",
       "phon": "/51/",
-      "phrase": "ofalem tasham leulunefe"
+      "phrase": "ofalem tasham lehulunefe"
     },
     "phrase-52": {
       "name": "52",
@@ -14388,7 +14405,7 @@
       "fulltext": "80",
       "writ": "౮౦",
       "phon": "/80/",
-      "phrase": "gilile leawi afen sigai"
+      "phrase": "gilile lehawi afen sigai"
     },
     "phrase-81": {
       "name": "81",
@@ -14532,7 +14549,7 @@
       "fulltext": "88",
       "writ": "౮౮",
       "phon": "/88/",
-      "phrase": "unu leawi"
+      "phrase": "unu lehawi"
     },
     "phrase-89": {
       "name": "89",
@@ -14768,7 +14785,7 @@
       "fulltext": "101",
       "writ": "౧౦౧",
       "phon": "/101/",
-      "phrase": "alapa Johnom nioda"
+      "phrase": "alapa Johnom nihoda"
     },
     "phrase-102": {
       "name": "102",
@@ -15146,43 +15163,6 @@
     "phrase-123": {
       "name": "123",
       "type": "phrase",
-      "trad": "Iris whom you caressed.",
-      "words": [
-        "alt-Iris-m",
-        "word-le",
-        "alt-i-mi-ema"
-      ],
-      "see": [
-        "card-prep"
-      ],
-      "id": "phrase-123",
-      "fulltext": "123",
-      "writ": "౧౨౩",
-      "phon": "/123/",
-      "phrase": "Irisim le imilema"
-    },
-    "phrase-124": {
-      "name": "124",
-      "type": "phrase",
-      "trad": "Iris who caressed you.",
-      "words": [
-        "word-Iris",
-        "word-le",
-        "alt-a-mi-ema",
-        "word-ti-m"
-      ],
-      "see": [
-        "card-prep"
-      ],
-      "id": "phrase-124",
-      "fulltext": "124",
-      "writ": "౧౨౪",
-      "phon": "/124/",
-      "phrase": "Iris le amilema tim"
-    },
-    "phrase-125": {
-      "name": "125",
-      "type": "phrase",
       "trad": "I like that you are naked.",
       "words": [
         "alt-o-zu",
@@ -15193,11 +15173,48 @@
       "see": [
         "card-prep"
       ],
+      "id": "phrase-123",
+      "fulltext": "123",
+      "writ": "౧౨౩",
+      "phon": "/123/",
+      "phrase": "ozu eku oyihe nefe"
+    },
+    "phrase-124": {
+      "name": "124",
+      "type": "phrase",
+      "trad": "Iris whom you caressed.",
+      "words": [
+        "alt-Iris-m",
+        "word-don",
+        "alt-i-mi-ema"
+      ],
+      "see": [
+        "card-prep"
+      ],
+      "id": "phrase-124",
+      "fulltext": "124",
+      "writ": "౧౨౪",
+      "phon": "/124/",
+      "phrase": "Irisim don imilema"
+    },
+    "phrase-125": {
+      "name": "125",
+      "type": "phrase",
+      "trad": "Iris who caressed you.",
+      "words": [
+        "word-Iris",
+        "word-don",
+        "alt-a-mi-ema",
+        "word-ti-m"
+      ],
+      "see": [
+        "card-prep"
+      ],
       "id": "phrase-125",
       "fulltext": "125",
       "writ": "౧౨౫",
       "phon": "/125/",
-      "phrase": "ozu eku oyihe nefe"
+      "phrase": "Iris don amilema tim"
     },
     "phrase-126": {
       "name": "126",
@@ -15378,7 +15395,7 @@
         "alt-fahata-m",
         "word-ku",
         "alt-o-fa",
-        "alt-ofo-m"
+        "alt-oto-m"
       ],
       "see": [
         "card-sing"
@@ -15387,7 +15404,7 @@
       "fulltext": "135",
       "writ": "౧౩౫",
       "phon": "/135/",
-      "phrase": "ofa fahatam ku ofa ofom"
+      "phrase": "ofa fahatam ku ofa otom"
     },
     "phrase-136": {
       "name": "136",
@@ -15415,7 +15432,7 @@
       "trad": "When will he go ?",
       "words": [
         "word-dir",
-        "alt-ofo-m",
+        "alt-oto-m",
         "alt-a-odo",
         "word-?"
       ],
@@ -15426,7 +15443,7 @@
       "fulltext": "137",
       "writ": "౧౩౭",
       "phon": "/137/",
-      "phrase": "dir ofom ahodo ?"
+      "phrase": "dir otom ahodo ?"
     },
     "phrase-138": {
       "name": "138",
@@ -15434,7 +15451,7 @@
       "trad": "I saw him always and always.",
       "words": [
         "alt-o-fa-em",
-        "alt-ofo-m",
+        "alt-oto-m",
         "alt-si-lau",
         "alt-si-lau"
       ],
@@ -15445,14 +15462,14 @@
       "fulltext": "138",
       "writ": "౧౩౮",
       "phon": "/138/",
-      "phrase": "ofalem ofom silau silau"
+      "phrase": "ofalem otom silau silau"
     },
     "phrase-139": {
       "name": "139",
       "type": "phrase",
       "trad": "He took my voice.",
       "words": [
-        "word-ofo",
+        "word-oto",
         "alt-a-hajo-emu",
         "alt-to-lapa-m"
       ],
@@ -15463,7 +15480,7 @@
       "fulltext": "139",
       "writ": "౧౩౯",
       "phon": "/139/",
-      "phrase": "ofo ahajolemu tolapam"
+      "phrase": "oto ahajolemu tolapam"
     },
     "phrase-140": {
       "name": "140",
@@ -15503,7 +15520,7 @@
       "trad": "I am him.",
       "words": [
         "alt-o-pi-e",
-        "alt-ofo-m"
+        "alt-oto-m"
       ],
       "see": [
         "card-sing"
@@ -15512,14 +15529,14 @@
       "fulltext": "142",
       "writ": "౧౪౨",
       "phon": "/142/",
-      "phrase": "opihe ofom"
+      "phrase": "opihe otom"
     },
     "phrase-143": {
       "name": "143",
       "type": "phrase",
       "trad": "I have to die to let you thread your life.",
       "words": [
-        "alt-o-pi-kuru",
+        "alt-o-kuru",
         "alt-u-nem-m",
         "word-eku",
         "alt-i-ru",
@@ -15532,16 +15549,16 @@
       "fulltext": "143",
       "writ": "౧౪౩",
       "phon": "/143/",
-      "phrase": "opikuru unemem eku iru gufitim"
+      "phrase": "okuru unemem eku iru gufitim"
     },
     "phrase-144": {
       "name": "144",
       "type": "phrase",
       "trad": "I thought I was a strong spirit.",
       "words": [
-        "alt-o-pi-gahi-em",
+        "alt-o-gahi-em",
         "word-eku",
-        "alt-o-pi-e",
+        "alt-o-e",
         "alt-go-ga-m"
       ],
       "see": [
@@ -15551,7 +15568,7 @@
       "fulltext": "144",
       "writ": "౧౪౪",
       "phon": "/144/",
-      "phrase": "opigahilem eku opihe gogam"
+      "phrase": "ogahilem eku ohe gogam"
     },
     "phrase-145": {
       "name": "145",
@@ -15559,8 +15576,9 @@
       "trad": "Was I only a thought ?",
       "words": [
         "word-eja",
-        "alt-o-pi-e-em",
-        "alt-gahi-nur-m",
+        "alt-o-e-em",
+        "word-nur",
+        "alt-gahi-m",
         "word-?"
       ],
       "see": [
@@ -15570,7 +15588,7 @@
       "fulltext": "145",
       "writ": "౧౪౫",
       "phon": "/145/",
-      "phrase": "eja opihelem gahinurum ?"
+      "phrase": "eja ohelem nur gahim ?"
     },
     "phrase-146": {
       "name": "146",
@@ -15578,7 +15596,7 @@
       "trad": "Did I give you anything ?",
       "words": [
         "word-eja",
-        "alt-o-pi-guwu-em",
+        "alt-o-guwu-em",
         "alt-pena-m",
         "alt-ni-ti",
         "word-?"
@@ -15590,18 +15608,18 @@
       "fulltext": "146",
       "writ": "౧౪౬",
       "phon": "/146/",
-      "phrase": "eja opiguwulem penam niti ?"
+      "phrase": "eja oguwulem penam niti ?"
     },
     "phrase-147": {
       "name": "147",
       "type": "phrase",
       "trad": "I am dying but I don't know who I was.",
       "words": [
-        "alt-es-o-pi-nem",
+        "alt-o-lu-nem",
         "alt-ne-shu",
-        "alt-o-pi-ne-pana",
-        "word-le",
-        "alt-o-pi-e-em"
+        "alt-o-ne-pana",
+        "word-dona",
+        "alt-o-e-em"
       ],
       "see": [
         "card-sing"
@@ -15610,15 +15628,15 @@
       "fulltext": "147",
       "writ": "౧౪౭",
       "phon": "/147/",
-      "phrase": "esopinem neshu opinepana le opihelem"
+      "phrase": "olunem neshu onepana dona ohelem"
     },
     "phrase-148": {
       "name": "148",
       "type": "phrase",
-      "trad": "You are my daughter, you are my child.",
+      "trad": "You are my little daughter, you are my child.",
       "words": [
         "alt-i-e",
-        "alt-to-unu-lil-m",
+        "alt-to-jonu-lil-m",
         "alt-i-e",
         "alt-to-joda-m"
       ],
@@ -15629,17 +15647,17 @@
       "fulltext": "148",
       "writ": "౧౪౮",
       "phon": "/148/",
-      "phrase": "ihe tohunulilim ihe tojodam"
+      "phrase": "ihe tojonulilim ihe tojodam"
     },
     "phrase-149": {
       "name": "149",
       "type": "phrase",
       "trad": "I love you, you are my life.",
       "words": [
-        "alt-o-pi-zu",
+        "alt-o-zu",
         "word-ti-m",
         "alt-i-e",
-        "alt-em-to-pi"
+        "alt-em-to-m"
       ],
       "see": [
         "card-sing"
@@ -15648,7 +15666,7 @@
       "fulltext": "149",
       "writ": "౧౪౯",
       "phon": "/149/",
-      "phrase": "opizu tim ihe emetopi"
+      "phrase": "ozu tim ihe emetom"
     },
     "phrase-150": {
       "name": "150",
@@ -15659,8 +15677,8 @@
         "word-baka",
         "alt-ne-fiji-imp",
         "alt-pi-da-m",
-        "alt-si-o-pi-fiji-em",
-        "alt-ti-da-m"
+        "alt-si-o-fiji-em",
+        "alt-ti-daN-m"
       ],
       "see": [
         "card-sing"
@@ -15669,14 +15687,14 @@
       "fulltext": "150",
       "writ": "౧౫౦",
       "phon": "/150/",
-      "phrase": "baka baka nefiji pidam sihopifijilem tidam"
+      "phrase": "baka baka nefiji pidam sihofijilem tidam"
     },
     "phrase-151": {
       "name": "151",
       "type": "phrase",
       "trad": "I kept us alive.",
       "words": [
-        "alt-o-pi-magi",
+        "alt-o-magi",
         "alt-de-m",
         "alt-le-em"
       ],
@@ -15687,15 +15705,16 @@
       "fulltext": "151",
       "writ": "౧౫౧",
       "phon": "/151/",
-      "phrase": "opimagi dem leem"
+      "phrase": "omagi dem lehem"
     },
     "phrase-152": {
       "name": "152",
       "type": "phrase",
       "trad": "It took me so long to give you my life.",
       "words": [
-        "alt-es-o-lu-gu-em",
+        "alt-es-o-gu-em",
         "alt-si-uki",
+        "word-ibu",
         "alt-u-guwu",
         "alt-ni-ti",
         "alt-em-to-m"
@@ -15707,7 +15726,7 @@
       "fulltext": "152",
       "writ": "౧౫౨",
       "phon": "/152/",
-      "phrase": "esolugulem sihuki uguwu niti emetom"
+      "phrase": "esogulem sihuki ibu uguwu niti emetom"
     },
     "phrase-153": {
       "name": "153",
@@ -15715,7 +15734,7 @@
       "trad": "Forgive me.",
       "words": [
         "alt-pahau-imp",
-        "alt-ni-to-pi"
+        "alt-ni-to"
       ],
       "see": [
         "card-sing"
@@ -15724,14 +15743,14 @@
       "fulltext": "153",
       "writ": "౧౫౩",
       "phon": "/153/",
-      "phrase": "pahau nitopi"
+      "phrase": "pahau nito"
     },
     "phrase-154": {
       "name": "154",
       "type": "phrase",
       "trad": "I love you.",
       "words": [
-        "alt-o-pi-zu",
+        "alt-o-zu",
         "word-ti-m"
       ],
       "see": [
@@ -15741,7 +15760,7 @@
       "fulltext": "154",
       "writ": "౧౫౪",
       "phon": "/154/",
-      "phrase": "opizu tim"
+      "phrase": "ozu tim"
     },
     "phrase-155": {
       "name": "155",
@@ -17097,7 +17116,7 @@
       "type": "phrase",
       "trad": "They-men talk.",
       "words": [
-        "alt-ta-sha-ofo",
+        "alt-ta-sha-oto",
         "alt-sho-lapa"
       ],
       "see": [
@@ -17107,7 +17126,7 @@
       "fulltext": "243",
       "writ": "౨౪౩",
       "phon": "/243/",
-      "phrase": "tashahofo sholapa"
+      "phrase": "tashahoto sholapa"
     },
     "phrase-244": {
       "name": "244",
@@ -17685,7 +17704,7 @@
       "trad": "I saw him \"like the coming\" (coming).",
       "words": [
         "alt-o-fa-em",
-        "alt-ofo-m",
+        "alt-oto-m",
         "alt-le-u-lu-odu"
       ],
       "see": [
@@ -17695,7 +17714,7 @@
       "fulltext": "277",
       "writ": "౨౭౭",
       "phon": "/277/",
-      "phrase": "ofalem ofom leuluhodu"
+      "phrase": "ofalem otom lehuluhodu"
     },
     "phrase-278": {
       "name": "278",
@@ -17714,7 +17733,7 @@
       "fulltext": "278",
       "writ": "౨౭౮",
       "phon": "/278/",
-      "phrase": "oda leuhau ahe pim"
+      "phrase": "oda lehuhau ahe pim"
     },
     "phrase-279": {
       "name": "279",
@@ -18011,7 +18030,7 @@
       "fulltext": "295",
       "writ": "౨౯౫",
       "phon": "/295/",
-      "phrase": "gupa ahe agaukida don namel leoda"
+      "phrase": "gupa ahe agaukida don namel lehoda"
     },
     "phrase-296": {
       "name": "296",
@@ -18548,6 +18567,17 @@
       "writ": "పే",
       "phon": "/pɛ/"
     },
+    "alt-daN": {
+      "name": "da",
+      "type": "alt",
+      "id": "alt-daN",
+      "glo": "**self**",
+      "alt": "word-da",
+      "orig": "word-da",
+      "fulltext": "da",
+      "writ": "దా",
+      "phon": "/da/"
+    },
     "alt-nam": {
       "name": "nam",
       "type": "alt",
@@ -18600,7 +18630,7 @@
       "phon": "/tahunu/"
     },
     "alt-le-eshu": {
-      "name": "leeshu",
+      "name": "leheshu",
       "type": "alt",
       "id": "alt-le-eshu",
       "glo": "ADJ.*lost*",
@@ -18608,9 +18638,9 @@
       "cla": "adj",
       "prev": "word-le",
       "orig": "word-eshu",
-      "fulltext": "leeshu",
-      "writ": "లేఎశు",
-      "phon": "/lɛɛʃu/"
+      "fulltext": "leheshu",
+      "writ": "లేఠేశు",
+      "phon": "/lɛhɛʃu/"
     },
     "alt-o-zu": {
       "name": "ozu",
@@ -19931,18 +19961,18 @@
       "writ": "ఉచిk",
       "phon": "/ufik/"
     },
-    "alt-ofo-m": {
-      "name": "ofom",
+    "alt-oto-m": {
+      "name": "otom",
       "type": "alt",
-      "id": "alt-ofo-m",
+      "id": "alt-oto-m",
       "glo": "**man**.ACC",
       "cla": "noun",
-      "alt": "word-ofo",
+      "alt": "word-oto",
       "orig": "word-m",
-      "prev": "word-ofo",
-      "fulltext": "ofom",
-      "writ": "ఓచోం",
-      "phon": "/ɔfɔm/"
+      "prev": "word-oto",
+      "fulltext": "otom",
+      "writ": "ఓతోం",
+      "phon": "/ɔtɔm/"
     },
     "alt-o-fa": {
       "name": "ofa",
@@ -19984,7 +20014,7 @@
       "phon": "/taʃam/"
     },
     "alt-le-u": {
-      "name": "leu",
+      "name": "lehu",
       "type": "alt",
       "id": "alt-le-u",
       "glo": "ADJ.INF",
@@ -19993,12 +20023,12 @@
       "prev": "word-le",
       "pref": "ADJ.INF",
       "orig": "word-u",
-      "fulltext": "leu",
-      "writ": "లేఉ",
-      "phon": "/lɛu/"
+      "fulltext": "lehu",
+      "writ": "లేహు",
+      "phon": "/lɛhu/"
     },
     "alt-le-u-lu": {
-      "name": "leulu",
+      "name": "lehulu",
       "type": "alt",
       "id": "alt-le-u-lu",
       "glo": "ADJ.INF.CONT",
@@ -20007,12 +20037,12 @@
       "prev": "alt-le-u",
       "pref": "ADJ.INF.CONT",
       "orig": "word-lu",
-      "fulltext": "leulu",
-      "writ": "లేఉలు",
-      "phon": "/lɛulu/"
+      "fulltext": "lehulu",
+      "writ": "లేహులు",
+      "phon": "/lɛhulu/"
     },
     "alt-le-u-lu-nefe": {
-      "name": "leulunefe",
+      "name": "lehulunefe",
       "type": "alt",
       "id": "alt-le-u-lu-nefe",
       "glo": "ADJ.INF.CONT.*naked*",
@@ -20020,9 +20050,9 @@
       "cla": "adj",
       "prev": "alt-le-u-lu",
       "orig": "word-nefe",
-      "fulltext": "leulunefe",
-      "writ": "లేఉలునేచే",
-      "phon": "/lɛulunɛfɛ/"
+      "fulltext": "lehulunefe",
+      "writ": "లేహులునేచే",
+      "phon": "/lɛhulunɛfɛ/"
     },
     "alt-o-la": {
       "name": "ola",
@@ -20701,7 +20731,7 @@
       "phon": "/ɛsɔluzu/"
     },
     "alt-le-awi": {
-      "name": "leawi",
+      "name": "lehawi",
       "type": "alt",
       "id": "alt-le-awi",
       "glo": "ADJ.*beautiful*",
@@ -20709,9 +20739,9 @@
       "cla": "adj",
       "prev": "word-le",
       "orig": "word-awi",
-      "fulltext": "leawi",
-      "writ": "లేఅవి",
-      "phon": "/lɛawi/"
+      "fulltext": "lehawi",
+      "writ": "లేహావి",
+      "phon": "/lɛhawi/"
     },
     "alt-a-fen": {
       "name": "afen",
@@ -20926,7 +20956,7 @@
       "name": "ohem",
       "type": "alt",
       "id": "alt-o-em",
-      "glo": "I/we.life",
+      "glo": "I/we.**live**",
       "alt": "word-em",
       "cla": "verb",
       "prev": "word-o",
@@ -20939,7 +20969,7 @@
       "name": "ohememe",
       "type": "alt",
       "id": "alt-o-em-eme",
-      "glo": "I/we.life.PST.EVNT",
+      "glo": "I/we.**live**.PST.EVNT",
       "cla": "verb",
       "alt": "word-em",
       "orig": "word-eme",
@@ -21196,7 +21226,7 @@
       "phon": "/ʃɔzuzu/"
     },
     "alt-ni-oda": {
-      "name": "nioda",
+      "name": "nihoda",
       "type": "alt",
       "id": "alt-ni-oda",
       "glo": "DAT.**body**",
@@ -21204,9 +21234,9 @@
       "cla": "noun",
       "prev": "word-ni",
       "orig": "word-oda",
-      "fulltext": "nioda",
-      "writ": "నిఓదా",
-      "phon": "/niɔda/"
+      "fulltext": "nihoda",
+      "writ": "నిహోదా",
+      "phon": "/nihɔda/"
     },
     "alt-a-rumo": {
       "name": "arumo",
@@ -21431,6 +21461,19 @@
       "writ": "ఎసేయినేచే",
       "phon": "/ɛsɛjinɛfɛ/"
     },
+    "alt-o-yi-e": {
+      "name": "oyihe",
+      "type": "alt",
+      "id": "alt-o-yi-e",
+      "glo": "I.TINY.**be**",
+      "alt": "word-e",
+      "cla": "verb",
+      "prev": "word-o-yi",
+      "orig": "word-e",
+      "fulltext": "oyihe",
+      "writ": "ఓయిఠే",
+      "phon": "/ɔjihɛ/"
+    },
     "alt-i-mi": {
       "name": "imi",
       "type": "alt",
@@ -21482,19 +21525,6 @@
       "fulltext": "amilema",
       "writ": "అమిలేమా",
       "phon": "/amilɛma/"
-    },
-    "alt-o-yi-e": {
-      "name": "oyihe",
-      "type": "alt",
-      "id": "alt-o-yi-e",
-      "glo": "I.TINY.**be**",
-      "alt": "word-e",
-      "cla": "verb",
-      "prev": "word-o-yi",
-      "orig": "word-e",
-      "fulltext": "oyihe",
-      "writ": "ఓయిఠే",
-      "phon": "/ɔjihɛ/"
     },
     "alt-shi-la": {
       "name": "shila",
@@ -21951,18 +21981,18 @@
       "writ": "ఓపిఠే",
       "phon": "/ɔpihɛ/"
     },
-    "alt-o-pi-kuru": {
-      "name": "opikuru",
+    "alt-o-kuru": {
+      "name": "okuru",
       "type": "alt",
-      "id": "alt-o-pi-kuru",
-      "glo": "I.**must**",
+      "id": "alt-o-kuru",
+      "glo": "I/we.**must**",
       "alt": "word-kuru",
       "cla": "verb",
-      "prev": "word-o-pi",
+      "prev": "word-o",
       "orig": "word-kuru",
-      "fulltext": "opikuru",
-      "writ": "ఓపికురు",
-      "phon": "/ɔpikuru/"
+      "fulltext": "okuru",
+      "writ": "ఓకురు",
+      "phon": "/ɔkuru/"
     },
     "alt-u-nem": {
       "name": "unem",
@@ -22029,31 +22059,31 @@
       "writ": "గుచితిం",
       "phon": "/gufitim/"
     },
-    "alt-o-pi-gahi": {
-      "name": "opigahi",
+    "alt-o-gahi": {
+      "name": "ogahi",
       "type": "alt",
-      "id": "alt-o-pi-gahi",
-      "glo": "I.**think**",
+      "id": "alt-o-gahi",
+      "glo": "I/we.**think**",
       "alt": "word-gahi",
       "cla": "verb",
-      "prev": "word-o-pi",
+      "prev": "word-o",
       "orig": "word-gahi",
-      "fulltext": "opigahi",
-      "writ": "ఓపిగాహి",
-      "phon": "/ɔpigahi/"
+      "fulltext": "ogahi",
+      "writ": "ఓగాహి",
+      "phon": "/ɔgahi/"
     },
-    "alt-o-pi-gahi-em": {
-      "name": "opigahilem",
+    "alt-o-gahi-em": {
+      "name": "ogahilem",
       "type": "alt",
-      "id": "alt-o-pi-gahi-em",
-      "glo": "I.**think**.PST",
+      "id": "alt-o-gahi-em",
+      "glo": "I/we.**think**.PST",
       "cla": "verb",
       "alt": "word-gahi",
       "orig": "word-em",
-      "prev": "alt-o-pi-gahi",
-      "fulltext": "opigahilem",
-      "writ": "ఓపిగాహిలేం",
-      "phon": "/ɔpigahilɛm/"
+      "prev": "alt-o-gahi",
+      "fulltext": "ogahilem",
+      "writ": "ఓగాహిలేం",
+      "phon": "/ɔgahilɛm/"
     },
     "alt-go-ga": {
       "name": "goga",
@@ -22081,70 +22111,44 @@
       "writ": "గోగాం",
       "phon": "/gɔgam/"
     },
-    "alt-o-pi-e-em": {
-      "name": "opihelem",
+    "alt-gahi-m": {
+      "name": "gahim",
       "type": "alt",
-      "id": "alt-o-pi-e-em",
-      "glo": "I.**be**.PST",
-      "cla": "verb",
-      "alt": "word-e",
-      "orig": "word-em",
-      "prev": "alt-o-pi-e",
-      "fulltext": "opihelem",
-      "writ": "ఓపిఠేలేం",
-      "phon": "/ɔpihɛlɛm/"
-    },
-    "alt-gahi-nur": {
-      "name": "gahinur",
-      "type": "alt",
-      "id": "alt-gahi-nur",
-      "glo": "**thought**.*only*",
-      "cla": "noun",
-      "alt": "word-gahi",
-      "orig": "word-nur",
-      "prev": "word-gahi",
-      "fulltext": "gahinur",
-      "writ": "గాహినుర్‌",
-      "phon": "/gahinur/"
-    },
-    "alt-gahi-nur-m": {
-      "name": "gahinurum",
-      "type": "alt",
-      "id": "alt-gahi-nur-m",
-      "glo": "**thought**.*only*.ACC",
+      "id": "alt-gahi-m",
+      "glo": "**thought**.ACC",
       "cla": "noun",
       "alt": "word-gahi",
       "orig": "word-m",
-      "prev": "alt-gahi-nur",
-      "fulltext": "gahinurum",
-      "writ": "గాహినురుం",
-      "phon": "/gahinurum/"
+      "prev": "word-gahi",
+      "fulltext": "gahim",
+      "writ": "గాహిం",
+      "phon": "/gahim/"
     },
-    "alt-o-pi-guwu": {
-      "name": "opiguwu",
+    "alt-o-guwu": {
+      "name": "oguwu",
       "type": "alt",
-      "id": "alt-o-pi-guwu",
-      "glo": "I.**give**",
+      "id": "alt-o-guwu",
+      "glo": "I/we.**give**",
       "alt": "word-guwu",
       "cla": "verb",
-      "prev": "word-o-pi",
+      "prev": "word-o",
       "orig": "word-guwu",
-      "fulltext": "opiguwu",
-      "writ": "ఓపిగువు",
-      "phon": "/ɔpiguwu/"
+      "fulltext": "oguwu",
+      "writ": "ఓగువు",
+      "phon": "/ɔguwu/"
     },
-    "alt-o-pi-guwu-em": {
-      "name": "opiguwulem",
+    "alt-o-guwu-em": {
+      "name": "oguwulem",
       "type": "alt",
-      "id": "alt-o-pi-guwu-em",
-      "glo": "I.**give**.PST",
+      "id": "alt-o-guwu-em",
+      "glo": "I/we.**give**.PST",
       "cla": "verb",
       "alt": "word-guwu",
       "orig": "word-em",
-      "prev": "alt-o-pi-guwu",
-      "fulltext": "opiguwulem",
-      "writ": "ఓపిగువులేం",
-      "phon": "/ɔpiguwulɛm/"
+      "prev": "alt-o-guwu",
+      "fulltext": "oguwulem",
+      "writ": "ఓగువులేం",
+      "phon": "/ɔguwulɛm/"
     },
     "alt-pena-m": {
       "name": "penam",
@@ -22173,97 +22177,84 @@
       "writ": "నితి",
       "phon": "/niti/"
     },
-    "alt-es-o-pi": {
-      "name": "esopi",
+    "alt-o-lu-nem": {
+      "name": "olunem",
       "type": "alt",
-      "id": "alt-es-o-pi",
-      "glo": "PASS.I/we.I",
-      "alt": "word-pi",
+      "id": "alt-o-lu-nem",
+      "glo": "I/we.CONT.**die**",
+      "alt": "word-nem",
       "cla": "verb",
-      "prev": "alt-es-o",
-      "orig": "word-pi",
-      "fulltext": "esopi",
-      "writ": "ఎసోపి",
-      "phon": "/ɛsɔpi/"
-    },
-    "alt-es-o-pi-nem": {
-      "name": "esopinem",
-      "type": "alt",
-      "id": "alt-es-o-pi-nem",
-      "glo": "PASS.I/we.I.*to die*",
-      "cla": "verb",
-      "alt": "word-pi",
+      "prev": "alt-o-lu",
       "orig": "word-nem",
-      "prev": "alt-es-o-pi",
-      "fulltext": "esopinem",
-      "writ": "ఎసోపినేం",
-      "phon": "/ɛsɔpinɛm/"
+      "fulltext": "olunem",
+      "writ": "ఓలునేం",
+      "phon": "/ɔlunɛm/"
     },
-    "alt-o-pi-ne": {
-      "name": "opine",
+    "alt-o-ne": {
+      "name": "one",
       "type": "alt",
-      "id": "alt-o-pi-ne",
-      "glo": "I.NEG",
+      "id": "alt-o-ne",
+      "glo": "I/we.NEG",
       "alt": "word-ne",
       "cla": "verb",
-      "prev": "word-o-pi",
-      "pref": "I.NEG",
+      "prev": "word-o",
+      "pref": "I/we.NEG",
       "orig": "word-ne",
-      "fulltext": "opine",
-      "writ": "ఓపినే",
-      "phon": "/ɔpinɛ/"
+      "fulltext": "one",
+      "writ": "ఓనే",
+      "phon": "/ɔnɛ/"
     },
-    "alt-o-pi-ne-pana": {
-      "name": "opinepana",
+    "alt-o-ne-pana": {
+      "name": "onepana",
       "type": "alt",
-      "id": "alt-o-pi-ne-pana",
-      "glo": "I.NEG.**understand**",
+      "id": "alt-o-ne-pana",
+      "glo": "I/we.NEG.**understand**",
       "alt": "word-pana",
       "cla": "verb",
-      "prev": "alt-o-pi-ne",
+      "prev": "alt-o-ne",
       "orig": "word-pana",
-      "fulltext": "opinepana",
-      "writ": "ఓపినేపానా",
-      "phon": "/ɔpinɛpana/"
+      "fulltext": "onepana",
+      "writ": "ఓనేపానా",
+      "phon": "/ɔnɛpana/"
     },
-    "alt-to-unu": {
-      "name": "tohunu",
+    "alt-to-jonu": {
+      "name": "tojonu",
       "type": "alt",
-      "id": "alt-to-unu",
-      "glo": "POSS.I/we.**woman**",
-      "alt": "word-unu",
+      "id": "alt-to-jonu",
+      "glo": "POSS.I/we.**daughter**",
+      "alt": "word-jonu",
       "cla": "noun",
       "prev": "word-to",
-      "orig": "word-unu",
-      "fulltext": "tohunu",
-      "writ": "తోహును",
-      "phon": "/tɔhunu/"
+      "orig": "word-jonu",
+      "fulltext": "tojonu",
+      "writ": "తోజోను",
+      "phon": "/tɔʒɔnu/"
     },
-    "alt-to-unu-lil": {
-      "name": "tohunulil",
+    "alt-to-jonu-lil": {
+      "name": "tojonulil",
       "type": "alt",
-      "id": "alt-to-unu-lil",
-      "glo": "POSS.I/we.**woman**.DIM",
+      "id": "alt-to-jonu-lil",
+      "glo": "POSS.I/we.**daughter**.DIM",
       "cla": "noun",
-      "alt": "word-unu",
+      "alt": "word-jonu",
       "orig": "word-lil",
-      "prev": "alt-to-unu",
-      "fulltext": "tohunulil",
-      "writ": "తోహునులిల్‌",
-      "phon": "/tɔhunulil/"
+      "prev": "alt-to-jonu",
+      "fulltext": "tojonulil",
+      "writ": "తోజోనులిల్‌",
+      "phon": "/tɔʒɔnulil/"
     },
-    "alt-to-unu-lil-m": {
-      "name": "tohunulilim",
+    "alt-to-jonu-lil-m": {
+      "name": "tojonulilim",
       "type": "alt",
-      "id": "alt-to-unu-lil-m",
-      "glo": "POSS.I/we.**woman**.DIM.ACC",
+      "id": "alt-to-jonu-lil-m",
+      "glo": "POSS.I/we.**daughter**.DIM.ACC",
       "cla": "noun",
-      "alt": "word-unu",
+      "alt": "word-jonu",
       "orig": "word-m",
-      "prev": "alt-to-unu-lil",
-      "fulltext": "tohunulilim",
-      "writ": "తోహునులిలిం",
-      "phon": "/tɔhunulilim/"
+      "prev": "alt-to-jonu-lil",
+      "fulltext": "tojonulilim",
+      "writ": "తోజోనులిలిం",
+      "phon": "/tɔʒɔnulilim/"
     },
     "alt-to-joda": {
       "name": "tojoda",
@@ -22291,24 +22282,11 @@
       "writ": "తోజోదాం",
       "phon": "/tɔʒɔdam/"
     },
-    "alt-o-pi-zu": {
-      "name": "opizu",
-      "type": "alt",
-      "id": "alt-o-pi-zu",
-      "glo": "I.**love**",
-      "alt": "word-zu",
-      "cla": "verb",
-      "prev": "word-o-pi",
-      "orig": "word-zu",
-      "fulltext": "opizu",
-      "writ": "ఓపిఠు",
-      "phon": "/ɔpizu/"
-    },
     "alt-em-to": {
       "name": "emeto",
       "type": "alt",
       "id": "alt-em-to",
-      "glo": "life.POSS.I/we",
+      "glo": "**life**.POSS.I/we",
       "cla": "noun",
       "alt": "word-em",
       "orig": "word-to",
@@ -22317,18 +22295,18 @@
       "writ": "ఎమేతో",
       "phon": "/ɛmɛtɔ/"
     },
-    "alt-em-to-pi": {
-      "name": "emetopi",
+    "alt-em-to-m": {
+      "name": "emetom",
       "type": "alt",
-      "id": "alt-em-to-pi",
-      "glo": "life.POSS.I/we.I",
+      "id": "alt-em-to-m",
+      "glo": "**life**.POSS.I/we.ACC",
       "cla": "noun",
       "alt": "word-em",
-      "orig": "word-pi",
+      "orig": "word-m",
       "prev": "alt-em-to",
-      "fulltext": "emetopi",
-      "writ": "ఎమేతోపి",
-      "phon": "/ɛmɛtɔpi/"
+      "fulltext": "emetom",
+      "writ": "ఎమేతోం",
+      "phon": "/ɛmɛtɔm/"
     },
     "alt-ne-fiji": {
       "name": "nefiji",
@@ -22396,83 +22374,69 @@
       "writ": "సిహో",
       "phon": "/sihɔ/"
     },
-    "alt-si-o-pi": {
-      "name": "sihopi",
+    "alt-si-o-fiji": {
+      "name": "sihofiji",
       "type": "alt",
-      "id": "alt-si-o-pi",
-      "glo": "ADV.I/we.I",
-      "alt": "word-pi",
+      "id": "alt-si-o-fiji",
+      "glo": "ADV.I/we.**forget**",
+      "alt": "word-fiji",
       "cla": "adv",
       "prev": "alt-si-o",
-      "orig": "word-pi",
-      "fulltext": "sihopi",
-      "writ": "సిహోపి",
-      "phon": "/sihɔpi/"
-    },
-    "alt-si-o-pi-fiji": {
-      "name": "sihopifiji",
-      "type": "alt",
-      "id": "alt-si-o-pi-fiji",
-      "glo": "ADV.I/we.I.**forget**",
-      "cla": "adv",
-      "alt": "word-pi",
       "orig": "word-fiji",
-      "prev": "alt-si-o-pi",
-      "fulltext": "sihopifiji",
-      "writ": "సిహోపిచిజి",
-      "phon": "/sihɔpifiʒi/"
+      "fulltext": "sihofiji",
+      "writ": "సిహోచిజి",
+      "phon": "/sihɔfiʒi/"
     },
-    "alt-si-o-pi-fiji-em": {
-      "name": "sihopifijilem",
+    "alt-si-o-fiji-em": {
+      "name": "sihofijilem",
       "type": "alt",
-      "id": "alt-si-o-pi-fiji-em",
-      "glo": "ADV.I/we.I.**forget**.PST",
+      "id": "alt-si-o-fiji-em",
+      "glo": "ADV.I/we.**forget**.PST",
       "cla": "adv",
-      "alt": "word-pi",
+      "alt": "word-fiji",
       "orig": "word-em",
-      "prev": "alt-si-o-pi-fiji",
-      "fulltext": "sihopifijilem",
-      "writ": "సిహోపిచిజిలేం",
-      "phon": "/sihɔpifiʒilɛm/"
+      "prev": "alt-si-o-fiji",
+      "fulltext": "sihofijilem",
+      "writ": "సిహోచిజిలేం",
+      "phon": "/sihɔfiʒilɛm/"
     },
-    "alt-ti-da": {
+    "alt-ti-daN": {
       "name": "tida",
       "type": "alt",
-      "id": "alt-ti-da",
-      "glo": "POSS**you (singular)**.SELF",
+      "id": "alt-ti-daN",
+      "glo": "POSS.you.**self**",
       "alt": "word-da",
-      "cla": "noun",
       "prev": "word-ti",
       "orig": "word-da",
       "fulltext": "tida",
       "writ": "తిదా",
       "phon": "/tida/"
     },
-    "alt-ti-da-m": {
+    "alt-ti-daN-m": {
       "name": "tidam",
       "type": "alt",
-      "id": "alt-ti-da-m",
-      "glo": "POSS**you (singular)**.SELF.ACC",
+      "id": "alt-ti-daN-m",
+      "glo": "POSS.you.**self**.ACC",
       "cla": "noun",
       "alt": "word-da",
       "orig": "word-m",
-      "prev": "alt-ti-da",
+      "prev": "alt-ti-daN",
       "fulltext": "tidam",
       "writ": "తిదాం",
       "phon": "/tidam/"
     },
-    "alt-o-pi-magi": {
-      "name": "opimagi",
+    "alt-o-magi": {
+      "name": "omagi",
       "type": "alt",
-      "id": "alt-o-pi-magi",
-      "glo": "I.**preserve**",
+      "id": "alt-o-magi",
+      "glo": "I/we.**preserve**",
       "alt": "word-magi",
       "cla": "verb",
-      "prev": "word-o-pi",
+      "prev": "word-o",
       "orig": "word-magi",
-      "fulltext": "opimagi",
-      "writ": "ఓపిమాగి",
-      "phon": "/ɔpimagi/"
+      "fulltext": "omagi",
+      "writ": "ఓమాగి",
+      "phon": "/ɔmagi/"
     },
     "alt-de-m": {
       "name": "dem",
@@ -22488,43 +22452,43 @@
       "phon": "/dɛm/"
     },
     "alt-le-em": {
-      "name": "leem",
+      "name": "lehem",
       "type": "alt",
       "id": "alt-le-em",
-      "glo": "ADJ.life",
+      "glo": "ADJ.*alive*",
       "alt": "word-em",
       "cla": "adj",
       "prev": "word-le",
       "orig": "word-em",
-      "fulltext": "leem",
-      "writ": "లేఎం",
-      "phon": "/lɛɛm/"
+      "fulltext": "lehem",
+      "writ": "లేఠేం",
+      "phon": "/lɛhɛm/"
     },
-    "alt-es-o-lu-gu": {
-      "name": "esolugu",
+    "alt-es-o-gu": {
+      "name": "esogu",
       "type": "alt",
-      "id": "alt-es-o-lu-gu",
-      "glo": "PASS.I/we.CONT.**live**",
+      "id": "alt-es-o-gu",
+      "glo": "PASS.I/we.**live**",
       "alt": "word-gu",
       "cla": "verb",
-      "prev": "alt-es-o-lu",
+      "prev": "alt-es-o",
       "orig": "word-gu",
-      "fulltext": "esolugu",
-      "writ": "ఎసోలుగు",
-      "phon": "/ɛsɔlugu/"
+      "fulltext": "esogu",
+      "writ": "ఎసోగు",
+      "phon": "/ɛsɔgu/"
     },
-    "alt-es-o-lu-gu-em": {
-      "name": "esolugulem",
+    "alt-es-o-gu-em": {
+      "name": "esogulem",
       "type": "alt",
-      "id": "alt-es-o-lu-gu-em",
-      "glo": "PASS.I/we.CONT.**live**.PST",
+      "id": "alt-es-o-gu-em",
+      "glo": "PASS.I/we.**live**.PST",
       "cla": "verb",
       "alt": "word-gu",
       "orig": "word-em",
-      "prev": "alt-es-o-lu-gu",
-      "fulltext": "esolugulem",
-      "writ": "ఎసోలుగులేం",
-      "phon": "/ɛsɔlugulɛm/"
+      "prev": "alt-es-o-gu",
+      "fulltext": "esogulem",
+      "writ": "ఎసోగులేం",
+      "phon": "/ɛsɔgulɛm/"
     },
     "alt-si-uki": {
       "name": "sihuki",
@@ -22552,19 +22516,6 @@
       "writ": "ఉగువు",
       "phon": "/uguwu/"
     },
-    "alt-em-to-m": {
-      "name": "emetom",
-      "type": "alt",
-      "id": "alt-em-to-m",
-      "glo": "life.POSS.I/we.ACC",
-      "cla": "noun",
-      "alt": "word-em",
-      "orig": "word-m",
-      "prev": "alt-em-to",
-      "fulltext": "emetom",
-      "writ": "ఎమేతోం",
-      "phon": "/ɛmɛtɔm/"
-    },
     "alt-pahau-imp": {
       "name": "pahau",
       "type": "alt",
@@ -22577,19 +22528,6 @@
       "fulltext": "pahau",
       "writ": "పాహౌ",
       "phon": "/pahau/"
-    },
-    "alt-ni-to-pi": {
-      "name": "nitopi",
-      "type": "alt",
-      "id": "alt-ni-to-pi",
-      "glo": "DAT.POSS.I/we.I",
-      "alt": "word-pi",
-      "cla": "noun",
-      "prev": "alt-ni-to",
-      "orig": "word-pi",
-      "fulltext": "nitopi",
-      "writ": "నితోపి",
-      "phon": "/nitɔpi/"
     },
     "alt-zu-to": {
       "name": "zuto",
@@ -23781,18 +23719,18 @@
       "writ": "అలిపా",
       "phon": "/alipa/"
     },
-    "alt-ta-sha-ofo": {
-      "name": "tashahofo",
+    "alt-ta-sha-oto": {
+      "name": "tashahoto",
       "type": "alt",
-      "id": "alt-ta-sha-ofo",
+      "id": "alt-ta-sha-oto",
       "glo": "POSS.their.**man**",
-      "alt": "word-ofo",
+      "alt": "word-oto",
       "cla": "noun",
       "prev": "word-ta-sha",
-      "orig": "word-ofo",
-      "fulltext": "tashahofo",
-      "writ": "తాశాహోచో",
-      "phon": "/taʃahɔfɔ/"
+      "orig": "word-oto",
+      "fulltext": "tashahoto",
+      "writ": "తాశాహోతో",
+      "phon": "/taʃahɔtɔ/"
     },
     "alt-a-zu": {
       "name": "azu",
@@ -23846,18 +23784,18 @@
       "writ": "ఉనుదా",
       "phon": "/unuda/"
     },
-    "alt-ofo-da": {
-      "name": "ofoda",
+    "alt-oto-da": {
+      "name": "otoda",
       "type": "alt",
-      "id": "alt-ofo-da",
+      "id": "alt-oto-da",
       "glo": "**man**.SELF",
       "cla": "noun",
-      "alt": "word-ofo",
+      "alt": "word-oto",
       "orig": "word-da",
-      "prev": "word-ofo",
-      "fulltext": "ofoda",
-      "writ": "ఓచోదా",
-      "phon": "/ɔfɔda/"
+      "prev": "word-oto",
+      "fulltext": "otoda",
+      "writ": "ఓతోదా",
+      "phon": "/ɔtɔda/"
     },
     "alt-sha-fa": {
       "name": "shafa",
@@ -24408,7 +24346,7 @@
       "phon": "/ulapam/"
     },
     "alt-le-u-lu-odu": {
-      "name": "leuluhodu",
+      "name": "lehuluhodu",
       "type": "alt",
       "id": "alt-le-u-lu-odu",
       "glo": "ADJ.INF.CONT.**come**",
@@ -24416,12 +24354,12 @@
       "cla": "adj",
       "prev": "alt-le-u-lu",
       "orig": "word-odu",
-      "fulltext": "leuluhodu",
-      "writ": "లేఉలుహోదు",
-      "phon": "/lɛuluhɔdu/"
+      "fulltext": "lehuluhodu",
+      "writ": "లేహులుహోదు",
+      "phon": "/lɛhuluhɔdu/"
     },
     "alt-le-u-au": {
-      "name": "leuhau",
+      "name": "lehuhau",
       "type": "alt",
       "id": "alt-le-u-au",
       "glo": "ADJ.INF.**heart**",
@@ -24429,9 +24367,9 @@
       "cla": "adj",
       "prev": "alt-le-u",
       "orig": "word-au",
-      "fulltext": "leuhau",
-      "writ": "లేఉహౌ",
-      "phon": "/lɛuhau/"
+      "fulltext": "lehuhau",
+      "writ": "లేహుహౌ",
+      "phon": "/lɛhuhau/"
     },
     "alt-u-fa": {
       "name": "ufa",
@@ -24720,20 +24658,6 @@
       "writ": "ఓఠులౌ",
       "phon": "/ɔzulau/"
     },
-    "alt-o-ne": {
-      "name": "one",
-      "type": "alt",
-      "id": "alt-o-ne",
-      "glo": "I/we.NEG",
-      "alt": "word-ne",
-      "cla": "verb",
-      "prev": "word-o",
-      "pref": "I/we.NEG",
-      "orig": "word-ne",
-      "fulltext": "one",
-      "writ": "ఓనే",
-      "phon": "/ɔnɛ/"
-    },
     "alt-o-ne-zuzu": {
       "name": "onezuzu",
       "type": "alt",
@@ -24813,7 +24737,7 @@
       "phon": "/ɔluliu/"
     },
     "alt-le-oda": {
-      "name": "leoda",
+      "name": "lehoda",
       "type": "alt",
       "id": "alt-le-oda",
       "glo": "ADJ.**body**",
@@ -24821,9 +24745,9 @@
       "cla": "adj",
       "prev": "word-le",
       "orig": "word-oda",
-      "fulltext": "leoda",
-      "writ": "లేఓదా",
-      "phon": "/lɛɔda/"
+      "fulltext": "lehoda",
+      "writ": "లేహోదా",
+      "phon": "/lɛhɔda/"
     },
     "alt-sha-lapa": {
       "name": "shalapa",

@@ -1,5 +1,5 @@
-import { suffix } from '../zulapa'
 import * as _ from '../lang'
+import { suffix } from '../zulapa'
 
 //medium.com/zulapa/du-plaisir-des-conjugaisons-df444756dfc0
 
@@ -48,7 +48,6 @@ export const em = _.suffix('em', {
   verb: 'to live',
   adj: 'alive',
   def: 'past',
-  glo: 'life',
   sglo: 'PST',
   see: () => [_.verbs],
 })

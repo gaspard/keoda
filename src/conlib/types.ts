@@ -1,10 +1,15 @@
+// Not using [y] for vowel repetition
 export const LAST_VOWEL = /([aoeiu])[^aoeiu]*$/
+// [y] at the start of a word is seen as a consonant
 export const STARTS_VOWEL = /^[aoeiu]/
-export const ENDS_VOWEL = /[aoeiu]$/
+// [y] at the end of a word is seen as a vowel
+export const ENDS_VOWEL = /[aoeiuy]$/
 export const ENDS_knssh = /(k|n|s|sh)$/
 export const ENDS_ssh = /(s|sh)$/
 export const STARTS_t = /^t/
 export const STARTS_k = /^t/
+export const ENDS_y = /y$/
+export const STARTS_y = /^y/
 
 export function debug(l: any) {
   console.log(JSON.stringify(l, null, 2))

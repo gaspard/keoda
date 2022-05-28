@@ -1,8 +1,8 @@
 import * as _ from '../lang'
 
 export const ku = _.word('ku', {
-  noun: 'rope',
   def: 'imply',
+  noun: 'rope',
   verb: 'to tie',
   adj: 'tied',
   desc: () => `Causality`,

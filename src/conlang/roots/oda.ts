@@ -21,8 +21,8 @@ export const hiwi = _.word('hiwi', {
   etym: () => [_.him, _.iwi],
   see: () => [_.family],
 })
-export const hifo = _.word('hifo', {
+export const hito = _.word('hito', {
   noun: 'brother',
-  etym: () => [_.him, _.ofo],
+  etym: () => [_.him, _.oto],
   see: () => [_.family],
 })

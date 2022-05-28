@@ -2,10 +2,12 @@ import {
   ENDS_knssh,
   ENDS_ssh,
   ENDS_VOWEL,
+  ENDS_y,
   LAST_VOWEL,
   STARTS_k,
   STARTS_t,
   STARTS_VOWEL,
+  STARTS_y,
 } from './types'
 
 const PREFIX_JOIN = 'h'
@@ -32,8 +34,11 @@ export function joinMorphemes(
   if (pvowel && nvowel) {
     // two vowels
     fix = join !== undefined ? join : prefix ? PREFIX_JOIN : SUFFIX_JOIN
-  } else if (!pvowel && !nvowel) {
-    // two consonants
+  } else if (
+    (!pvowel && !nvowel) ||
+    (ENDS_y.test(prevName) && STARTS_y.test(nextName))
+  ) {
+    // two consonants or two semivowels
     if (ENDS_knssh.test(prevName) && STARTS_t.test(nextName)) {
       // kt nt st sht
       // no fix

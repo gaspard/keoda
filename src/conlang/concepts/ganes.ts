@@ -28,7 +28,7 @@ gu    /
 nugu  nu    nanes    na
 ~~~
 
-The \`/\` diagonal between gunu and gana represent **integration**. Distances
+The \`/\` diagonal between ${_.nugu} and ${_.gana} represent **integration**. Distances
 from this diagonal represent some level of psychosis (above) or dissociation
 (below).
 

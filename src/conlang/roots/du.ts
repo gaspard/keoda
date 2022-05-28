@@ -9,13 +9,13 @@ export const du = _.word('du', {
 export const duda = _.word('duda', {
   noun: 'small sibling',
   etym: () => [_.du, _.oda],
-  see: () => [_.noda, _.duwi, _.dunu, _.dufo],
+  see: () => [_.noda, _.duwi, _.dunu, _.duto],
 })
 
-export const dufo = _.word('dufo', {
+export const duto = _.word('duto', {
   noun: 'small brother/wind',
-  etym: () => [_.du, _.ofo],
-  see: () => [_.nofo, _.duda],
+  etym: () => [_.du, _.oto],
+  see: () => [_.noto, _.duda],
 })
 
 export const dunu = _.word('dunu', {

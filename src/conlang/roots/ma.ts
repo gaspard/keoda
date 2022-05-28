@@ -10,6 +10,22 @@ export const ma = _.word('ma', {
   ],
 })
 
+// Marina
+export const my = _.word('my', {
+  verb: 'to draw',
+  img: 'marina_drawing.jpeg',
+  desc: () =>
+    `
+From my encounter with Marina in Amsterdam. I decided to finally add the /j/ as
+a vowel because I love the sound in slavic languages. The drawing is from her.
+
+![drawing of crow with coffee, vinyl and chestnut leaf](/marina_drawing.jpeg)
+    
+© Marina Shepelska [@imaginary_marina](https://instagram.com/imaginary_marina)
+`,
+  etym: () => [_.ma, _.y],
+})
+
 export const hama = _.word('hama', {
   noun: 'finger',
   etym: () => [_.ha, _.ma],

@@ -44,6 +44,6 @@ export const jowi = _.word('jowi', {
 
 export const joto = _.word('joto', {
   noun: 'son',
-  etym: () => [_.jo, _.ofo],
+  etym: () => [_.jo, _.oto],
   see: () => [_.family],
 })

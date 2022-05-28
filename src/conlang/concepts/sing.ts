@@ -34,12 +34,12 @@ ${_.phrase(
   _.fu.asen
 )}
 
-## ${_.ofo.m} (him)
+## ${_.oto.m} (him)
 
 ${_.block(
   {
     t: 'I look in the mirror and I see him.',
-    p: [_.o.fa, _.fahata.m, _.ku, _.o.fa, _.ofo.m],
+    p: [_.o.fa, _.fahata.m, _.ku, _.o.fa, _.oto.m],
   },
   {
     t: 'I look in my eyes and I see her.',
@@ -47,15 +47,15 @@ ${_.block(
   },
   {
     t: 'When will he go ?',
-    p: [_.dir, _.ofo.m, _.a.odo, _.q],
+    p: [_.dir, _.oto.m, _.a.odo, _.q],
   },
   {
     t: 'I saw him always and always.',
-    p: [_.o.fa.em, _.ofo.m, _.si.lau, _.si.lau],
+    p: [_.o.fa.em, _.oto.m, _.si.lau, _.si.lau],
   },
   {
     t: 'He took my voice.',
-    p: [_.ofo, _.a.hajo.emu, _.to.lapa.m],
+    p: [_.oto, _.a.hajo.emu, _.to.lapa.m],
   },
   {
     t: '... my long hair everywhere.',
@@ -72,55 +72,55 @@ Reply:
 ${_.block(
   {
     t: 'I am him.',
-    p: [_.o.pi.e, _.ofo.m],
+    p: [_.o.pi.e, _.oto.m],
   },
   {
     t: 'I have to die to let you thread your life.',
-    p: [_.o.pi.kuru, _.u.nem.m, _.eku, _.i.ru, _.gufi.ti.m],
+    p: [_.o.kuru, _.u.nem.m, _.eku, _.i.ru, _.gufi.ti.m],
   },
   {
     t: 'I thought I was a strong spirit.',
-    p: [_.o.pi.gahi.em, _.eku, _.o.pi.e, _.go.ga.m],
+    p: [_.o.gahi.em, _.eku, _.o.e, _.go.ga.m],
   },
   {
     t: 'Was I only a thought ?',
-    p: [_.eja, _.o.pi.e.em, _.gahi.nur.m, _.q],
+    p: [_.eja, _.o.e.em, _.nur, _.gahi.m, _.q],
   },
   {
     t: 'Did I give you anything ?',
-    p: [_.eja, _.o.pi.guwu.em, _.pena.m, _.ni.ti, _.q],
+    p: [_.eja, _.o.guwu.em, _.pena.m, _.ni.ti, _.q],
   },
   {
     t: "I am dying but I don't know who I was.",
-    p: [_.es.o.pi.nem, _.ne.shu, _.o.pi.ne.pana, _.le, _.o.pi.e.em],
+    p: [_.o.lu.nem, _.ne.shu, _.o.ne.pana, _.dona, _.o.e.em],
   },
   {
-    t: 'You are my daughter, you are my child.',
-    p: [_.i.e, _.to.unu.lil.m, _.i.e, _.to.joda.m],
+    t: 'You are my little daughter, you are my child.',
+    p: [_.i.e, _.to.jonu.lil.m, _.i.e, _.to.joda.m],
   },
   {
     t: 'I love you, you are my life.',
-    p: [_.o.pi.zu, _.ti.m, _.i.e, _.em.to.pi],
+    p: [_.o.zu, _.ti.m, _.i.e, _.em.to.m],
   },
   {
     t: "Please don't forget me like I forgot you.",
-    p: [_.baka, _.baka, _.ne.fiji.imp, _.pi.da.m, _.si.o.pi.fiji.em, _.ti.da.m],
+    p: [_.baka, _.baka, _.ne.fiji.imp, _.pi.da.m, _.si.o.fiji.em, _.ti.daN.m],
   },
   {
     t: 'I kept us alive.',
-    p: [_.o.pi.magi, _.de.m, _.le.em],
+    p: [_.o.magi, _.de.m, _.le.em],
   },
   {
     t: 'It took me so long to give you my life.',
-    p: [_.es.o.lu.gu.em, _.si.uki, _.u.guwu, _.ni.ti, _.em.to.m],
+    p: [_.es.o.gu.em, _.si.uki, _.ibu, _.u.guwu, _.ni.ti, _.em.to.m],
   },
   {
     t: 'Forgive me.',
-    p: [_.pahau.imp, _.ni.to.pi],
+    p: [_.pahau.imp, _.ni.to],
   },
   {
     t: 'I love you.',
-    p: [_.o.pi.zu, _.ti.m],
+    p: [_.o.zu, _.ti.m],
   },
   {
     t: 'You are my heart.',

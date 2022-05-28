@@ -179,7 +179,7 @@ as adjective or adverb.
 * ${_.phrase(
     'I saw him "like the coming" (coming).',
     _.o.fa.em,
-    _.ofo.m,
+    _.oto.m,
     _.le.u.lu.odu
   )}
 * ${_.phrase('The person to love is me.', _.o.da, _.le.u.au, _.a.e, _.pi.m)}

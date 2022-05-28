@@ -175,13 +175,30 @@ const TELU: { [key: string]: string } = {
   shko: 'శ్కో',
   shto: 'శ్తో',
 
+  // y
+  my: 'మై',
+  ny: 'నై',
+  py: 'పై',
+  by: 'బై',
+  ty: 'తై',
+  dy: 'దై',
+  ky: 'కై',
+  gy: 'గై',
+  fy: 'చై',
+  sy: 'సై',
+  zy: 'ఠై',
+  shy: 'శై',
+  jy: 'జై',
+  hy: 'హై',
+  ly: 'లై',
+
   iu: 'ఇు', // alt-i + u
   ai: 'ఐ', // alt-shift-e
   au: 'ఆు', // alt-shift-a + u, 'ఔ' (alt-shift-o)= /aw/ but ours sound like /au/
   i: 'ఇ', // Telugu would use యి (yi = /ji/ )
   e: 'ఎ',
   a: 'అ',
-  y: '',
+  y: 'ఐ',
 
   u: 'ఉ',
   o: 'ఓ',
