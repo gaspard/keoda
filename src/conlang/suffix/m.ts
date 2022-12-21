@@ -7,7 +7,7 @@ export const m = suffix('m', {
   glo: 'ACC',
   force: 'noun',
   maxPhrases: 10,
-  desc: () => `See (accusative)[${_.acc.id}]`,
+  see: () => [_.acc, _.sub],
 })
 
 export const nam = alt('nam', {

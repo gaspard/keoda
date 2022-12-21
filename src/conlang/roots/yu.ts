@@ -7,7 +7,8 @@ export const yu = _.word('yu', {
 
 export const yuru = _.word('yuru', {
   noun: 'vagina',
-  see: () => [_.yu, _.ru],
+  verb: 'to vagina-hold',
+  etym: () => [_.yu, _.ru],
 })
 
 export const eyu = _.word('eyu', {

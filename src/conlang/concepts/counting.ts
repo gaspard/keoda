@@ -23,43 +23,43 @@ The powers of ten:
 
 * ${_.ipu} (1000)
 * ${_.ipa} (100)
-* ${_.ipi1} (10)
+* ${_.ipi10} (10)
 
 ## Some examples:
 
-* ${_.phrase('14', _.ipi1, _.ka1)}
-* ${_.phrase('24', _.de1.ipi1, _.ka1)}
-* ${_.phrase('359', _.pe1.ipa1, _.lil1.ipi1, _.da1)}
-* ${_.phrase('2019', _.de1.ipu1, _.ipi1, _.da1)}
-* ${_.phrase("105'000", _.ipa1, _.lil1, _.ipu1)}
+* ${_.phrase('14', _.ipi10, _.ka4)}
+* ${_.phrase('24', _.de2.ipi10, _.ka4)}
+* ${_.phrase('359', _.pe3.ipa100, _.lil5.ipi10, _.da9)}
+* ${_.phrase('2019', _.de2.ipu1000, _.ipi10, _.da9)}
+* ${_.phrase("105'000", _.ipa100, _.lil5, _.ipu1000)}
 
 ## Big numbers !
 
-* ${_.phrase('million (1000^2)', _.ipu1.de1.uki)}
-* ${_.phrase('billion (1000^3)', _.ipu1.pe1.uki)}
-* ${_.phrase('trillion (1000^4)', _.ipu1.ka.uki)}
+* ${_.phrase('million (1000^2)', _.ipu1000.de2.uki)}
+* ${_.phrase('billion (1000^3)', _.ipu1000.pe3.uki)}
+* ${_.phrase('trillion (1000^4)', _.ipu1000.ka.uki)}
 * ${_.phrase(
     "999'999'999",
-    _.da1.ipa1,
-    _.da1.ipi1,
-    _.da1,
-    _.ipu1.de1.uki,
-    _.da1.ipa1,
-    _.da1.ipi1,
-    _.da1,
-    _.ipu1,
-    _.da1.ipa1,
-    _.da1.ipi1,
-    _.da1
+    _.da9.ipa100,
+    _.da9.ipi10,
+    _.da9,
+    _.ipu1000.de2.uki,
+    _.da9.ipa100,
+    _.da9.ipi10,
+    _.da9,
+    _.ipu1000,
+    _.da9.ipa100,
+    _.da9.ipi10,
+    _.da9
   )}
 
-We can also express powers of ten ${_.phrase('10^4', _.ipi1.ka.uki)}.
+We can also express powers of ten ${_.phrase('10^4', _.ipi10.ka.uki)}.
 
 ## Small numbers
 
-* ${_.phrase('tenth (10^-1)', _.ipi1.iki)}
-* ${_.phrase('hundredth (10^-2)', _.ipi1.de1.iki)}
-* ${_.phrase('thouandth (10^-3)', _.ipi1.pe1.iki)}
+* ${_.phrase('tenth (10^-1)', _.ipi10.iki)}
+* ${_.phrase('hundredth (10^-2)', _.ipi10.de2.iki)}
+* ${_.phrase('thouandth (10^-3)', _.ipi10.pe3.iki)}
 
 See ${_.ganes}
 `,

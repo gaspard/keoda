@@ -3,7 +3,7 @@ import * as _ from '../lang'
 
 export const yin = _.word('yin', {
   noun: 'vulva',
-  verb: 'to vulva',
+  verb: 'to vulva-kiss',
   see: () => [_.yuru /*_.genitals*/],
   etym: () => [_.yu, _.ina],
 })

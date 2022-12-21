@@ -1,10 +1,12 @@
 import {
   ENDS_knssh,
+  ENDS_m,
   ENDS_ssh,
   ENDS_VOWEL,
   ENDS_y,
   LAST_VOWEL,
   STARTS_k,
+  STARTS_no_join_m,
   STARTS_t,
   STARTS_VOWEL,
   STARTS_y,
@@ -39,7 +41,10 @@ export function joinMorphemes(
     (ENDS_y.test(prevName) && STARTS_y.test(nextName))
   ) {
     // two consonants or two semivowels
-    if (ENDS_knssh.test(prevName) && STARTS_t.test(nextName)) {
+    if (ENDS_m.test(prevName) && STARTS_no_join_m.test(nextName)) {
+      // m.
+      // no fix
+    } else if (ENDS_knssh.test(prevName) && STARTS_t.test(nextName)) {
       // kt nt st sht
       // no fix
     } else if (ENDS_ssh.test(prevName) && STARTS_k.test(nextName)) {

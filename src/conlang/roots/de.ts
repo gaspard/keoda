@@ -9,7 +9,7 @@ export const de = _.word('de', {
 
 export const hamade = _.word('hamade', {
   noun: 'index finger',
-  etym: () => [_.hama, _.de1],
+  etym: () => [_.hama, _.de2],
   pos: 'On the back two legs wide open (indicated by thumb touching index finger)',
 })
 

@@ -2,7 +2,8 @@ import * as _ from '../lang'
 
 export const taj = _.word('taj', {
   noun: 'penis',
-  verb: 'penis action',
+  verb: 'to penetrate',
+  etym: () => [_.oto, _.aj],
   exam: () => [_.phraseX('Miraculous penis', _.taj, _.mahal)],
 })
 

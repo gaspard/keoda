@@ -104,7 +104,7 @@ ${_.block(
   },
   {
     t: "Please don't forget me like I forgot you.",
-    p: [_.baka, _.baka, _.ne.fiji.imp, _.pi.da.m, _.si.o.fiji.em, _.ti.daN.m],
+    p: [_.miu, _.miu, _.ne.fiji.imp, _.pi.da.m, _.si.o.fiji.em, _.ti.daN.m],
   },
   {
     t: 'I kept us alive.',
@@ -128,7 +128,7 @@ ${_.block(
   },
   {
     t: 'Please remember that I loved you.',
-    p: [_.baka, _.ji.imp, _.eku, _.o.zu.em, _.i.ti.m],
+    p: [_.miu, _.ji.imp, _.eku, _.o.zu.em, _.i.ti.m],
   }
 )}
 
@@ -272,6 +272,7 @@ ${_.phrase(
 * ${_.phrase('You would become dark here.', _.i.ru.ire, _.ne.yu.m, _.asen)}
 
 * ${_.phrase('Leave your home, girl', _.odo.imp, _.muda.ti.m, _.unu.lil)}
+
 
 `,
 })

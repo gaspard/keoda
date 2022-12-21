@@ -2,7 +2,7 @@ import * as _ from '../lang'
 
 export const ma = _.word('ma', {
   noun: 'hand',
-  verb: 'to grab',
+  verb: 'to hold',
   exam: () => [
     _.phraseX(`Wank my vulva gently.`, _.ma.imp, _.si.lo, _.yin.m),
     _.phraseX(`Wank my penis intensely.`, _.ma.do, _.taj.m),

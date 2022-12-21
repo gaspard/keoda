@@ -6,7 +6,7 @@ export const Jane = _.word('Jane', {
   writ: 'జాఁ',
 })
 export const Janeam = _.alt('Janeam', {
-  glo: '**Jane**.ACC+',
+  glo: '**Jane**.ACC',
   phon: '/dʒanam/',
   writ: 'జానాం',
   alt: () => _.Jane,
@@ -129,7 +129,9 @@ ${_.phrase(
 
 ## Accusative marking
 
-See ${_.m} for all the details on this... But basically, the target of an
+See (${_.acc.name})[${
+    _.acc.id
+  }] for all the details on this... But basically, the target of an
 action (accusative case) is marked ${_.m}.
 
 * ${_.m} glossed \`${_.m.definition.glo}\`

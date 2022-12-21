@@ -1,11 +1,5 @@
 import * as _ from '../lang'
 
-export const fe7 = _.word('fe', {
-  id: 'fe7',
-  noun: '7',
-  see: () => [_.fe],
-})
-
 export const fena = _.word('fena', {
   noun: 'cabbage, February',
   adj: 'layers',

@@ -82,7 +82,7 @@ export const suk = prefix('sul', {
   see: () => [_.sau, _.prep],
 })
 
-export const sau = prefix('bak', {
+export const sau = prefix('sau', {
   def: 'without',
   glo: 'ABESS',
   see: () => [_.suk, _.ne, _.prep],
@@ -137,7 +137,7 @@ export const lo = prefix('lo', {
   adv: 'gently',
   glo: 'WET',
   verb: 'to surrender',
-  see: () => [_.baka, _.gi],
+  see: () => [_.miu, _.gi],
 })
 
 prefix('silo', {

@@ -37,9 +37,9 @@ export const unurum = _.word('unurum', {
   see: () => [_.plants],
 })
 
-export const unusame = _.word('unusame', {
+export const unusam = _.word('unusam', {
   noun: 'root',
-  etym: () => [_.unuT, _.same],
+  etym: () => [_.unuT, _.sam],
   see: () => [_.plants],
 })
 

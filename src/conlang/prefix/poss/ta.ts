@@ -7,21 +7,19 @@ export const ta = prefix('ta', {
 })
 
 prefix('tam', {
-  noun: 'your (PL)',
-  glo: '**they**.ACC+',
-})
-
-prefix('tah', {
-  noun: 'your (PL)',
-  glo: '**they**.ACC-',
-})
-
-prefix('tan', {
-  noun: 'your (PL)',
-  glo: '**they**.ACC',
+  id: 'ta-m',
+  noun: 'their',
+  glo: '**them**.ACC',
 })
 
 prefix('tasha', {
+  id: 'ta-sha',
   noun: 'their (PL)',
-  glo: 'POSS.they.PL',
+  glo: 'POSS.they (PL)',
+})
+
+prefix('tasham', {
+  id: 'ta-sha-m',
+  noun: 'them (PL)',
+  glo: '**them.PL**.ACC',
 })

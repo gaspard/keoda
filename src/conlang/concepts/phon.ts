@@ -71,7 +71,7 @@ But ${_.najlo}, or  ${_.phrase(
   )} works.
 
 Two vowels in a row are not allowed between conjugation and verb or counting
-and power ${_.da1.ipa1}. An 'h' or 'l' ('h' when joining a prefix and an 'l'
+and power ${_.da9.ipa100}. An 'h' or 'l' ('h' when joining a prefix and an 'l'
 when joining a suffix) is added in such cases: ${_.phrase(
     'I love my body.',
     _.o.au,

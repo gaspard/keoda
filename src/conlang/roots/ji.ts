@@ -7,11 +7,6 @@ export const jiM = _.word('ji', {
   see: () => [_.ji, _.fiji],
 })
 
-export const ji10 = _.word('ji', {
-  id: 'ji10',
-  noun: '10',
-})
-
 export const ji = _.word('ji', {
   noun: 'hair',
   verb: 'to remember',

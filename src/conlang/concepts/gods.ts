@@ -14,7 +14,7 @@ export const gods = _.card('gods', {
 * ${_.hurakan}
 * ${_.pan}
 
-## Devotion ${_.baka}
+## Devotion ${_.miu}
 
 Zulapa has incorporated some of the Hindu notion of Bhakti and the Mahavidya.
 Here are the ten aspects of the Mother Goddess Parvati:

@@ -116,17 +116,17 @@ funny:
 
 * ${_.phrase(
     "999'999'999",
-    _.da1.ipa1,
-    _.da1.ipi1,
-    _.da1,
-    _.ipu1.de1.uki,
-    _.da1.ipa1,
-    _.da1.ipi1,
-    _.da1,
-    _.ipu1,
-    _.da1.ipa1,
-    _.da1.ipi1,
-    _.da1
+    _.da9.ipa100,
+    _.da9.ipi10,
+    _.da9,
+    _.ipu1000.de2.uki,
+    _.da9.ipa100,
+    _.da9.ipi10,
+    _.da9,
+    _.ipu1000,
+    _.da9.ipa100,
+    _.da9.ipi10,
+    _.da9
   )}
 
 Having tests to ensure things do not break is a very good step forward.

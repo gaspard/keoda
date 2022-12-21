@@ -14,7 +14,7 @@ feminine action of taking.
 
 #### nsfw
 
-* ${_.phrase('Grasp my penis with your vagina.', _.yin.u$.imp, _.taj)}
+* ${_.phrase('Grasp my penis with your vagina.', _.yuru.u$.imp, _.taj)}
 * ${_.phrase('Kiss my lips with your vulva.', _.yin.imp, _.la)}
 
 I thus started to work on a language with the following constraints (in order

@@ -11,7 +11,7 @@ export const ku = _.word('ku', {
 export const kude = _.word('kude', {
   noun: 'knot',
   verb: 'to make love',
-  etym: () => [_.ku, _.de1],
+  etym: () => [_.ku, _.de2],
 })
 
 export const kupa = _.word('kupa', {

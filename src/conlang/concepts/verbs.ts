@@ -128,9 +128,9 @@ this we use ${_.es} prefix before the subject.
 
 For example:
 
-* ${_.phrase('I massage your foot.', _.o.mi, _.same.ti.m)} becomes ${_.phrase(
+* ${_.phrase('I massage your foot.', _.o.mi, _.sam.ti.m)} becomes ${_.phrase(
     'Your foot is massaged (litteraly: foot.you be-him.caress).',
-    _.same.ti,
+    _.sam.ti,
     _.es.a.mi
   )}
 * ${_.phrase('I will be massaged.', _.es.o.mi.ir)} ("be-me.**caress**.will-be")

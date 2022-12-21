@@ -9,12 +9,6 @@ export const pe = _.word('pe', {
   pos: 'two legs and a buttock (doggy style)',
 })
 
-export const pe3 = _.alt('pe', {
-  id: 'pe3',
-  glo: '3',
-  alt: () => _.pe,
-})
-
 export const pena = _.word('pena', {
   noun: 'something',
   etym: () => [_.pe, _.na],

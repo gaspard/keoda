@@ -15,7 +15,7 @@ export const agana = _.word('agana', {
 
 export const agade = _.word('agade', {
   noun: 'echo',
-  etym: () => [_.aga, _.de1],
+  etym: () => [_.aga, _.de2],
 })
 
 export const akida = _.word('agaukida', {

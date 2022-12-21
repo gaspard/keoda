@@ -18,12 +18,6 @@ export const tosho = prefix('tosho', {
   glo: 'POSS.us',
 })
 
-prefix('tasha', {
-  id: 'ta-sha',
-  noun: 'their (PL)',
-  glo: 'POSS.their',
-})
-
 prefix('topi', {
   id: 'to-pi',
   noun: 'my',

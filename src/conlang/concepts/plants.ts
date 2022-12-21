@@ -17,7 +17,7 @@ This is the list of words related to plants currently in the language:
 * ${_.nounRef(_.ununoa)}
 * ${_.nounRef(_.unuma)}
 * ${_.nounRef(_.unurum)}
-* ${_.nounRef(_.unusame)}
+* ${_.nounRef(_.unusam)}
 * ${_.nounRef(_.buni)}
 * ${_.nounRef(_.soaji)}
 

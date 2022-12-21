@@ -26,7 +26,7 @@ export const yafa = _.word('yafa', {
   etym: () => [_.ya, _.fa],
 })
 
-export const yadifa = _.word('yadifa', {
+export const yalef = _.word('yalef', {
   noun: 'dream',
   etym: () => [_.ya, _.le, _.fa],
 })

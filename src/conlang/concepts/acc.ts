@@ -6,7 +6,12 @@ export const acc = _.card('taste', {
 
 * ${_.m} glossed \`${_.m.definition.glo}\`
 
-This marks the direct object of a phrase (the thing acted upon).
+This marks the direct object of a phrase (the thing acted upon). It can also be
+applied to a conjugated verb (knowledge deranking) as in ${_.phrase(
+    'I know (that) she sings.',
+    _.o.gama,
+    _.a.lipa.m
+  )}.
 
 If there is a noun phrase, the suffix is added to the last word.  So if the noun
 phrase is John's face, depending on word order, the ${_.m} goes on ${_.duha} or
