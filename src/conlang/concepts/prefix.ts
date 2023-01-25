@@ -1,9 +1,19 @@
 import * as _ from '../lang'
 
-export const pref = _.card('prefix', {
+export const pref = _.card('prefix/suffix', {
   open: true,
   desc: () => `
 # List of all prefix and suffix
+
+## Mood marking
+
+| meaning |
+| :---------- |
+| ${_.refAndGlo(_.i$)} |
+| ${_.refAndGlo(_.u$)} |
+| ${_.refAndGlo(_.o$)} |
+| ${_.refAndGlo(_.a$)} |
+| ${_.refAndGlo(_.y)} |
 
 ## Verb
 

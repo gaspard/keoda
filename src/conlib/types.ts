@@ -10,6 +10,7 @@ export const ENDS_m = /m$/
 export const STARTS_no_join_m = /^[^kmt]/
 export const STARTS_t = /^t/
 export const STARTS_k = /^t/
+export const ENDS_i = /i$/
 export const ENDS_y = /y$/
 export const STARTS_y = /^y/
 

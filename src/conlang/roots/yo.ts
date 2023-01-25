@@ -18,7 +18,7 @@ export const yohonagi = _.word('yohonagi', {
 
 export const teyo = _.word('teyo', {
   noun: 'today',
-  see: () => [_.ten, _.yo],
+  see: () => [_.sij, _.yo],
 })
 
 export const peyo = _.word('peyo', {

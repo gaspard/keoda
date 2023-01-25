@@ -29,7 +29,7 @@ ${_.phrase(
 
 ${_.phrase(
   "L'homme y passe à travers des forêts de symboles",
-  _.ula,
+  _.sij,
   _.oda,
   _.a.fen,
   _.ro.junu,

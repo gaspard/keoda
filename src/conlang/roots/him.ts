@@ -13,7 +13,7 @@ export const yuhim = _.word('yuhim', {
 })
 
 export const mahim = _.word('mahim', {
-  verb: 'to build',
+  verb: 'to make', // to build
   desc: () => 'the hands make grow',
   see: () => [_.magi],
   etym: () => [_.ma, _.him],

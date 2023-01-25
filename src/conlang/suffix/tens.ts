@@ -36,6 +36,7 @@ export const iro = suffix('iro', {
 export const ir = suffix('ir', {
   noun: 'future',
   sglo: 'FUT',
+  // as prefix:
   adj: 'under',
   pref: 'under',
   glo: 'SUBESS',
@@ -88,7 +89,7 @@ export const lau = suffix('lau', {
   sglo: 'ETERN',
   etym: () => [_.lei, _.au],
   desc: () => `The time loves.`,
-  see: () => [_.ula, _.verbs],
+  see: () => [_.verbs],
 })
 
 export const nei = suffix('nei', {

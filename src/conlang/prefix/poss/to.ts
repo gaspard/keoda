@@ -3,6 +3,7 @@ import { prefix } from '../../zulapa'
 export const to = prefix('to', {
   noun: 'me/us',
   glo: 'POSS.I/we',
+  force: 'noun',
 })
 
 // =========== glossing fix

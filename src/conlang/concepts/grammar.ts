@@ -17,6 +17,8 @@ mention honorific or diminutives and other ways to address people.
 These moods are a very important part of the language because they enable subtlety without
 requiring lots of vocabulary.
 
+See ${_.pref}
+
 ### Meaning and form
 
 In this language, words change their meaning depending on their function. At

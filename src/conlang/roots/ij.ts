@@ -1,8 +1,6 @@
 import * as _ from '../lang'
 
-export const ula = _.word('ula', {
-  noun: 'lae',
-  glo: 'lae.DET',
+export const ij = _.word('ij', {
+  noun: 'they',
   desc: () => `Express a reference to a previously mentioned noun.`,
-  see: () => [_.ten],
 })

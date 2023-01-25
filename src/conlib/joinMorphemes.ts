@@ -36,6 +36,8 @@ export function joinMorphemes(
   if (pvowel && nvowel) {
     // two vowels
     fix = join !== undefined ? join : prefix ? PREFIX_JOIN : SUFFIX_JOIN
+  } else if (pvowel && STARTS_y.test(nextName)) {
+    return prevName.slice(0, -1) + nextName
   } else if (
     (!pvowel && !nvowel) ||
     (ENDS_y.test(prevName) && STARTS_y.test(nextName))

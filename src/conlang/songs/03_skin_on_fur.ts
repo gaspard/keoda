@@ -1,4 +1,21 @@
 export {}
+
+/*
+
+Touch me, take me away.
+Let me feel the cold,
+the heat,
+my skin and bones.
+
+Wind,
+stars and the moon,
+make love to me,
+bells of joy on my skin.
+
+Give me life.
+
+*/
+
 /* 
 
 I come out of the water and finish shaving my head, removing all traces of hair

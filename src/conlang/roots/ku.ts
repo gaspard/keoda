@@ -14,6 +14,10 @@ export const kude = _.word('kude', {
   etym: () => [_.ku, _.de2],
 })
 
+export const neku = _.word('neku', {
+  verb: 'to lose',
+})
+
 export const kupa = _.word('kupa', {
   noun: 'addiction',
   verb: 'to crave',

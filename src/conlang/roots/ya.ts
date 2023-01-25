@@ -33,7 +33,7 @@ export const yalef = _.word('yalef', {
 
 export const teya = _.word('teya', {
   noun: 'tonight',
-  etym: () => [_.ten, _.ya],
+  etym: () => [_.sij, _.ya],
 })
 
 export const peya = _.word('peya', {
@@ -49,4 +49,11 @@ export const liraya = _.word('liraya', {
 export const lemaya = _.word('lemaya', {
   noun: 'night before',
   etym: () => [_.emi, _.ya],
+})
+
+export const yau = _.word('yau', {
+  noun: 'depth',
+  adj: 'deep',
+  adv: 'deeply',
+  verb: 'to sink',
 })

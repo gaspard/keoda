@@ -1,9 +1,14 @@
-import { suffix } from '../zulapa'
+import { alt, suffix } from '../zulapa'
 
 export const y = suffix('y', {
-  id: 'y$',
   verb: 'to dance',
   glo: '*DANCE*',
   force: 'verb',
+  id: 'y',
   desc: () => `Moving without a direction, drawing, dancing.`,
+})
+
+export const y$ = alt('y', {
+  glo: '*DANCE*',
+  alt: () => y,
 })
