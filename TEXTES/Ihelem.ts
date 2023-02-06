@@ -1,5 +1,3 @@
-import * as _ from '../src/conlang/words'
-
 // Ihelem
 
 // Poème pour celle qui dansait.
@@ -10,8 +8,8 @@ export {}
 //   // *Ihelem ida du odawu shoda*
 //   [_.i, /*h*/ _.e, _.lem, _.ida, _.du, _.oda, _.wu, _.shoda],
 //   // Tu danses (ton corps) dans nos rêves
-//   // *Ishasha tioda rao yadifawu shoda*
-//   [_.i, _.shasha, _.ti, _.oda, _.roa, _.yadifa, _.wu, _.shoda],
+//   // *Ishany tioda rao yadifawu shoda*
+//   [_.i, _.shany, _.ti, _.oda, _.roa, _.yadifa, _.wu, _.shoda],
 //   // Tu étais comme le poisson qui nage dans l'océan
 //   // *Ihelem si awi amelam lamagoa*
 //   [_.i, /*h*/ _.e, _.lem, _.si, _.awi, _.a, _.melam, _.lamagoa],

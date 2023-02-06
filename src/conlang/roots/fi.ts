@@ -6,14 +6,14 @@ export const fi = _.word('fi', {
   see: () => [_.pa],
 })
 
-export const fishasha = _.word('fishasha', {
+export const fishany = _.word('fishany', {
   verb: 'to sew',
-  etym: () => [_.fi, _.shasha],
+  etym: () => [_.fi, _.shany],
 })
 
-export const gufishasha = _.word('gufishasha', {
+export const gufishany = _.word('gufishany', {
   verb: 'to sew life, connect things out of causal time',
-  etym: () => [_.gufi, _.shasha],
+  etym: () => [_.gufi, _.shany],
 })
 
 export const gufi = _.word('gufi', {

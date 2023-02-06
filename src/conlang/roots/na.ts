@@ -4,6 +4,7 @@ export const na = _.word('na', {
   noun: 'thing',
   suff: 'thing',
   adj: 'humility',
+  glo: 'THING',
 })
 
 export const nena = _.word('nena', {

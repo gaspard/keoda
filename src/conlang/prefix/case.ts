@@ -76,7 +76,7 @@ export const ne = prefix('ne', {
   see: () => [_.sau],
 })
 
-export const suk = prefix('sul', {
+export const suk = prefix('suk', {
   def: 'with',
   glo: 'COM',
   see: () => [_.sau, _.prep],

@@ -6,10 +6,10 @@ export const shaH = _.word('sha', {
   see: () => [_.sha],
 })
 
-export const shasha = _.word('shasha', {
+export const shany = _.word('shany', {
   noun: 'dance',
   verb: 'to dance',
-  etym: () => [_.shaH, _.shaH],
+  etym: () => [_.shaH, _.y$],
 })
 
 // === alt

@@ -19,3 +19,8 @@ export const kebaj = _.word('kebaj', {
   noun: 'testicles',
   etym: () => [_.ke, _.baj],
 })
+
+export const kabaj = _.word('kabaj', {
+  noun: 'animal',
+  etym: () => [_.ka4, _.baj],
+})

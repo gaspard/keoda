@@ -31,17 +31,14 @@ export function joinMorphemes(
   if (!last) {
     throw new Error(`Invalid word ${prevName} (no vowels)`)
   }
-  const pvowel = ENDS_VOWEL.test(prevName)
-  const nvowel = STARTS_VOWEL.test(nextName)
+  const pvowel = ENDS_VOWEL.test(prevName) // includes 'y'
+  const nvowel = STARTS_VOWEL.test(nextName) // does not include 'y'
   if (pvowel && nvowel) {
     // two vowels
     fix = join !== undefined ? join : prefix ? PREFIX_JOIN : SUFFIX_JOIN
-  } else if (pvowel && STARTS_y.test(nextName)) {
-    return prevName.slice(0, -1) + nextName
-  } else if (
-    (!pvowel && !nvowel) ||
-    (ENDS_y.test(prevName) && STARTS_y.test(nextName))
-  ) {
+  } else if (ENDS_y.test(prevName) && STARTS_y.test(nextName)) {
+    fix = join !== undefined ? join : 'n'
+  } else if (!pvowel && !nvowel) {
     // two consonants or two semivowels
     if (ENDS_m.test(prevName) && STARTS_no_join_m.test(nextName)) {
       // m.
