@@ -26,7 +26,7 @@ ${_.subj}
 * ${_.suk} (comitative case: with)
 * ${_.sau} (privative case: without)
 
-* ${_.phrase('Negation (bold)', _.neji)}
+* ${_.phrase('Negation (bald)', _.neji)}
 
 ## Adjective ${_.le}
 

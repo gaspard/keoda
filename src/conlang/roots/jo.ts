@@ -1,11 +1,17 @@
 import * as _ from '../lang'
 
 export const jo = _.word('jo', {
+  noun: 'intimacy',
   adj: 'proximal',
   def: 'down',
   desc: () => 'Towards oneself.',
   etym: () => [_.dau, _.ojo],
   see: () => [_.ha],
+})
+
+export const jona = _.word('jona', {
+  noun: 'intimacy',
+  etym: () => [_.jo, _.na],
 })
 
 export const hajo = _.word('hajo', {

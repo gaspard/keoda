@@ -19,5 +19,6 @@ export const eyu = _.word('eyu', {
 
 export const yil = _.word('yuina', {
   noun: 'fruit',
+  adj: 'sweet',
   etym: () => [_.yu, _.il],
 })

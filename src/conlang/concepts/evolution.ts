@@ -180,9 +180,9 @@ Replaced "ana" to "unu" and "oto" to "ofo" because these roots sounded too much
 like names. This made me change "fo" (to whip) to "fik" because father (hafo)
 would be the same word as to fall.
 
-I also felt that it was time to allow some double consonnants to add a little
+I also felt that it was time to allow some double consonants to add a little
 bit of spice to the language because singing felt boring without any stops. So
-now words can end in "k" or "sh" and the consonnant pairs "kt", "nt", "st",
+now words can end in "k" or "sh" and the consonant pairs "kt", "nt", "st",
 "sht" and "shk" are allowed.
 
 With these new sounds, I felt that we no longer need taste markings and we can

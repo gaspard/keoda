@@ -1,5 +1,5 @@
-import * as React from 'react'
 import classnames from 'classnames'
+import * as React from 'react'
 import { Comp, styled, useOvermind } from '../app'
 import { getEntry } from '../helpers/getEntry'
 import { List } from './List'
@@ -38,7 +38,7 @@ const PhraseWrap = styled.div`
 `
 
 const Trad = styled.div`
-  color: #333;
+  color: #555;
   transition: filter 0.3s;
   &.blink {
     filter: grayscale(0%) hue-rotate(45deg) saturate(1.5);
@@ -63,6 +63,9 @@ const Trad = styled.div`
   }
   &.fix {
     margin: 5px 0;
+    background: #ffffff1a;
+    border-radius: 2px;
+    padding: 4px 8px;
   }
 `
 

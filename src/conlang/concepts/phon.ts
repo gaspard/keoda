@@ -1,6 +1,7 @@
 import * as _ from '../lang'
 
 export const phon = _.card('phon', {
+  open: true,
   writ: 'phon',
   phon: '/fɔn/',
   desc: () => `
@@ -62,31 +63,40 @@ keOda, lamigOa, agUwu, afOliri
 
 ## Phonotactics
 
-Two consonnants in a row are not allowed if they produce a stop. In this
-case, we add an 'a' between them. Example: ${_.alayuru} instead of alyin.
-But ${_.najlo}, or  ${_.phrase(
-    'I love your beauty.',
-    _.o.au,
-    _.awi.es.ti
-  )} works.
+### Consonant cluster
 
-Two vowels in a row are not allowed between conjugation and verb or counting
-and power ${_.da9.ipa100}. An 'h' or 'l' ('h' when joining a prefix and an 'l'
-when joining a suffix) is added in such cases: ${_.phrase(
+Two consonants in a row are only allowed if:
+
+* previous consonant is \`/s/\`, \`/ʃ/\`, \`/k/\` or \`/n/\`
+* and next consonant is \`/k/\` or \`/t/\`
+* and they are not the same and not \`/nk/\`
+
+| cluster | sound | example |
+| :--: | :--: | :-- |
+| sk   | /sk/ | ${_.phrase('Open to everything.', _.hos.ka)} |
+| st  | /st/ | ${_.phrase('Their trust.', _.hos.ta)} |
+| shk  | /ʃk/ | ${_.phrase('Welcoming everything.', _.ish.ka)} |
+| sht  | /ʃt/ | ${_.phrase('Their acceptance.', _.ish.ta)} |
+| kt  | /kt/ | ${_.phrase('Your shell (secrets).', _.dak.ti)} |
+| nt  | /nt/ | ${_.phrase('Their elbow.', _.wen.ta)} |
+
+For other cases, we duplicate the previous vowel. Example: ${
+    _.alayuru
+  } instead of \`alyuru\`, or ${_.fik.na} instead of \`fikna\`.
+  
+### Vowel cluster
+
+Vowel clusters are not allowed. An \`h\` (when joining a prefix) or \`l\` (when
+joining a suffix) are added in such cases: ${_.phrase(
     'I love my body.',
     _.o.au,
     _.to.oda.m
   )}.
 
-Two consecutive identical vowels are reduced to a single one: ${_.phrase(
-    'Carress my body !',
-    _.mi,
-    _.oda
-  )}
+Words sometimes drop the last vowel when adding a suffix that starts with a
+vowel instead of adding \`h\` or \`l\`.
 
-Words cannot end in ${_.m} (used for accusative). Words sometimes drop the
-last vowel when adding a suffix that starts with a vowel instead of adding
-'h'.
+Few words end in ${_.m} because this marker is used for accusative. 
 
 ## Script
 

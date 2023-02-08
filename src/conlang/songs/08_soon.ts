@@ -1,6 +1,8 @@
-export {}
+import * as _ from '../lang'
 
-/*
+export const soon = _.card('08 - soon', {
+  open: true,
+  desc: () => `
 My hand walks on your skin
 Exploring your land.
 I lose my way in your inner thighs,
@@ -15,6 +17,19 @@ I lay down, wounded soul bleeding,
 Pain soaking the skin,
 My soil lighter as you play clouds, rain and walking animals.
 
+${_.phrase(
+  'My soil becomes lighter as you play clouds, rain and walking animals',
+  _.so.to,
+  _.es.a.lu.him,
+  _.le.sis,
+  _.eku,
+  _.i.yulak,
+  _.naj.m,
+  _.gai.m,
+  _.shu,
+  _.kabaj.m
+)}
+
 Kindness and joy are guiding us,
 I have lived a thousand lives
 And remember, here, with you
@@ -28,5 +43,5 @@ The deeper we feel, the slower we move.
 Suspending ourselves on the edge
 Of love and terror,
 Sweet frontier of becoming.
-
-*/
+`,
+})
