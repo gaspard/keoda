@@ -221,6 +221,7 @@ const TELU: { [key: string]: string } = {
   ['8']: '౮',
   ['9']: '౯',
   ['0']: '౦',
+  ['•']: '•',
 }
 
 const PHON: { [key: string]: string } = {
@@ -250,6 +251,7 @@ const PHON: { [key: string]: string } = {
   y: 'j',
   r: 'r',
   l: 'l',
+  ['•']: '',
 }
 
 function tran(word: string) {
@@ -258,12 +260,15 @@ function tran(word: string) {
     .replace(/j$/, 'J')
     .replace(/h$/, 'H')
     .split('')
-    .map(k => PHON[k] || k)
+    .map(k => {
+      const p = PHON[k]
+      return p === null ? k : p
+    })
 }
 
 export function phon(word: string) {
   const w = tran(word.toLowerCase()).join('')
-  return `/${w}/`
+  return w ? `/${w}/` : ' '
 }
 
 const ENDRE = /[jrmn]$/

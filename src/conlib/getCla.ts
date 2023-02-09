@@ -9,7 +9,8 @@ export function getCla(
     return next.scla
   }
   const forced = next.force || prev.force
-  if (!prefix && forced) {
+  // if (!prefix && forced) {
+  if (forced) {
     return forced
   }
   const cla = prev.ncla || prev.cla!

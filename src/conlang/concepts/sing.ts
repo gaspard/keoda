@@ -243,7 +243,7 @@ ${_.phrase(
 * ${_.phrase(/* 'We are growing' */ 'We are being grown', _.es.sho.lu.him)}
 * ${_.phrase('Into fear and hatred', _.peu.m, _.shu, _.nepi.m)}
 * ${_.phrase('Our hearts are closing', _.au.tosho, _.sha.lu.dak)}
-* ${_.phrase('Our minds are foggy.', _.ga.tosho, _.sha.najapa)}
+* ${_.phrase('Our minds are foggy.', _.ga.tosho, _.sha.nashapa)}
 
 * ${_.phrase('You don’t have a future here.', _.i.sausu, _.ir.m, _.asen)}
 

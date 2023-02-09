@@ -41,7 +41,7 @@ export const peya = _.word('peya', {
   etym: () => [_.pe, _.ya],
 })
 
-export const liraya = _.word('liraya', {
+export const iriya = _.word('iriya', {
   noun: 'tomorrow night',
   etym: () => [_.iri, _.ya],
 })

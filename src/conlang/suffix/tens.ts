@@ -23,7 +23,7 @@ export const ira = suffix('ira', {
 
 export const iri = suffix('iri', {
   noun: 'tomorrow',
-  glo: 'FUT.CRAS',
+  glo: 'CRAS',
   see: () => [_.verbs],
 })
 
@@ -61,7 +61,7 @@ export const emo = suffix('emo', {
 
 export const emi = suffix('emi', {
   noun: 'yesterday',
-  glo: 'PST.HEST',
+  glo: 'HEST',
   see: () => [_.verbs],
 })
 

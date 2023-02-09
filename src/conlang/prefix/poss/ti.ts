@@ -5,16 +5,3 @@ export const ti = prefix('ti', {
   glo: 'POSS.you',
   // forcedGlo: false,
 })
-
-// =========== glossing fix
-prefix('iti', {
-  id: 'i-ti',
-  noun: 'you',
-  glo: '**you**',
-})
-
-prefix('tim', {
-  id: 'ti-m',
-  noun: 'your (PL)',
-  glo: '**you**.ACC',
-})

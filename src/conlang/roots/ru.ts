@@ -1,10 +1,17 @@
 import * as _ from '../lang'
 
 export const ru = _.word('ru', {
-  noun: 'creation (Sristi)',
-  suff: 'to become',
   verb: 'to emerge',
-  see: () => [_.nem],
+  noun: 'creation (Sristi)',
+  suff: 'become',
+  def: 'into',
+  see: () => [_.nem, _.prep],
+})
+
+export const ruP = _.word('ru', {
+  def: 'into',
+  glo: 'ILLAT',
+  id: 'ruP',
 })
 
 export const runa = _.word('runa', {

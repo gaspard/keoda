@@ -2,6 +2,7 @@ import * as _ from '../lang'
 
 export const sam = _.word('sam', {
   noun: 'foot',
+  verb: 'to stand',
   pos: 'standing',
   exam: () => [_.phrase('left foot, right foot', _.sam.se, _.sam.we)],
 })

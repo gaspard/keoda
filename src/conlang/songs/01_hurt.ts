@@ -5,17 +5,18 @@ export const hurt = _.card('01 - hurt', {
   desc: () => `
 ${_.phrase('Something happened.', _.pena, _.a.e.em)}
 ${_.phrase('The earth split under my feet', _.gana, _.a.hos.em, _.ir.sam)}
-${_.phrase('And cut me in half.', _.shu, _.a.tifi, _.de2.to.m)}
+${_.phrase('And cut me in half.', _.shu, _.a.tifi, _.to.m, _.ruP.dena)}
 ${_.phrase(
   'My heart sank so deep I lost it.',
   _.zu.to,
   _.a.yau.em,
   _.si.yau,
+  _.ku,
   _.o.neku.em,
-  _.ij.m
+  _.a.s.m
 )}
 
-I stand with a choice.
+${_.phrase('I stand with a choice.', _.o.sam, _.ko.kus)}
 
 Blades, knives, weapons
 Fighting for territories.

@@ -1,6 +1,15 @@
 import * as _ from '../lang'
 
+const Lila = _.word('Lila', {
+  noun: 'Lila',
+})
+
+const Cai = _.word('Cai', {
+  noun: 'Cai',
+})
+
 export const subj = _.card('subj', {
+  open: true,
   desc: () => `
 # Subject and possessivity
 
@@ -32,16 +41,43 @@ after a small pause to express kindness or awe.
 
 ## Person
 
-Depending on context we can chose between adding ${_.da} (self) suffix or
-use the morpheme with /t/ prefix on singular (as-is for plural). Examples:
+Depending on context we can chose between different ways to express personhood.
 
-* ${_.phrase('I love you.', _.o.zu, _.ti.m)}
-* ${_.phrase('I love you.', _.o.zu, _.i.da.m)}
-* ${_.phrase('I love them.', _.o.zu, _.sha.m)}
+We can add ${_.da} (self/body) to put emphasis on the corporeal nature of the
+person:
 
-The extra /m/ at the end is flavor marking (${_.m}).
+* ${_.phrase('I love you (alive in a body).', _.o.zu, _.i.da.m)}
 
-# The list !!
+We can use the prefix ${_.ti} (possessive) to emphasize the person's sense of
+self (owning of themself):
+
+* ${_.phrase('I love you (on your own path).', _.o.zu, _.ti.m)}
+
+Or we can use the subject marker alone for a more neutral form:
+
+* ${_.phrase('I love you (a bit formal).', _.o.zu, _.i.m)}
+
+The \`/m/\` at the end marks the accusative (${_.m}).
+
+### antecedent
+
+All subjects can get the ${_.s} suffix to mean antecedent. It can be used on
+any noun or subject form. To reference a complete sentence or clause, we use
+the work ${_.eku} (fact), meaning "that fact":
+
+${_.phraseX(
+  'Lila and Cai have been making love. This annoys the neighbours.',
+  Lila,
+  _.ko,
+  Cai,
+  _.sha.lu.zuzu.em,
+  _.dot,
+  _.eku.s,
+  _.a.lakashan,
+  _.se.muda.m
+)}
+
+# Subjects
 
 Here is the full list of subjects to express actions, possessivity and address.
 

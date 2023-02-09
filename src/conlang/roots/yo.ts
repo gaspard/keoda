@@ -28,10 +28,12 @@ export const peyo = _.word('peyo', {
 
 export const lirayo = _.word('lirayo', {
   noun: 'tomorrow',
+  desc: () => `${_.iri.yo}`,
   etym: () => [_.iri, _.yo],
 })
 
 export const lemayo = _.word('lemayo', {
   noun: 'yesterday',
+  desc: () => `${_.emi.yo}`,
   etym: () => [_.emi, _.yo],
 })

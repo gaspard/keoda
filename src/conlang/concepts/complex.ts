@@ -79,7 +79,7 @@ Subordinate phrases get the accusative case and infinite conjugation.
     _.pienu,
     _.unu.m,
     _.eku,
-    _.ij,
+    _.unu.s,
     _.es.a.lu.ku,
     _.ajayusa.m
   )} (reason)

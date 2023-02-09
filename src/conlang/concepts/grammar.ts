@@ -10,14 +10,14 @@ If you haven't, you should read the ${_.link('origins of the language', _.aaa)}.
 ### Moods
 
 There are many ways to express moods in this language from the "maybe tomorrow"
-answers to "yes tonight" through tenses or "I LoVe YoU" (sarcasm) through flavor
-marking or "caressing-look at me", "hit-look at me" through verb cases. Not to
-mention honorific or diminutives and other ways to address people.
+answers to "yes tonight" through tenses or "caressing-look at me", "hit-look at
+me" through verb intent. Not to mention honorific or diminutives and other ways
+to address people.
 
-These moods are a very important part of the language because they enable subtlety without
-requiring lots of vocabulary.
+These moods are a very important part of the language because they enable
+subtlety without requiring lots of vocabulary.
 
-See ${_.pref}
+See ${_.verbs} and ${_.subj}.
 
 ### Meaning and form
 

@@ -1,7 +1,7 @@
 import { prefix } from '../../zulapa'
 
 export const a = prefix('a', {
-  noun: 'they (singular)',
+  noun: 'they',
   glo: 'they',
   cla: 'verb',
 })

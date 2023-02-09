@@ -24,7 +24,7 @@ ${_.phrase(
   _.le.sis,
   _.eku,
   _.i.yulak,
-  _.naj.m,
+  _.nash.m,
   _.gai.m,
   _.shu,
   _.kabaj.m

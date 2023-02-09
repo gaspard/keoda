@@ -137,6 +137,14 @@ export const lo = prefix('lo', {
   adv: 'gently',
   glo: 'WET',
   verb: 'to surrender',
+  desc: () => `
+  ${_.phraseX(
+    'Wet submissive, I might whip you delicately some today.',
+    _.ti.lo.m,
+    _.o.fik.ire,
+    _.si.enu
+  )}
+  `,
   see: () => [_.miu, _.gi],
 })
 

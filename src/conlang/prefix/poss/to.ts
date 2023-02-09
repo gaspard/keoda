@@ -8,12 +8,6 @@ export const to = prefix('to', {
 
 // =========== glossing fix
 
-prefix('oto', {
-  id: 'o-to',
-  noun: 'I/we',
-  glo: '**me/us**',
-})
-
 export const tosho = prefix('tosho', {
   noun: 'us (PL)',
   glo: 'POSS.us',

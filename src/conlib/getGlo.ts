@@ -16,8 +16,12 @@ export function getGlo(
       if (next.force === 'verb') {
         g = g.replace(/^to /, '')
       }
-      parts.push('**' + g + '**')
-      glo = parts.join('')
+      if (next.force === 'noun') {
+        parts.push('**' + g + '**')
+      } else {
+        parts.push(g)
+      }
+      glo = parts.join('.')
     }
   }
 

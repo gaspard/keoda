@@ -1,4 +1,4 @@
-import { MAIN_KEYS } from './conlang/types'
+import { MAIN_KEYS } from './conlib/types'
 import db from './db.json'
 
 function stats() {

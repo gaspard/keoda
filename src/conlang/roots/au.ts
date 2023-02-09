@@ -3,6 +3,8 @@ import * as _ from '../lang'
 export const au = _.word('au', {
   noun: 'heart',
   verb: 'to love',
+  adv: 'lovingly',
+  adj: 'lovely',
   see: () => [_.zu],
 })
 

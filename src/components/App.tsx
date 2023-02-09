@@ -1,5 +1,5 @@
-import { Comp, styled, useOvermind } from '../app'
 import * as React from 'react'
+import { Comp, styled, useOvermind } from '../app'
 import { Entry } from './Entry'
 import { Float } from './Float'
 
@@ -71,9 +71,9 @@ export const App: Comp<AppProps> = ({ className }) => {
         {lexicon.word.map(id => (
           <Entry key={id} id={id} />
         ))}
-        {lexicon.phrase.map(id => (
+        {/*lexicon.phrase.map(id => (
           <Entry key={id} id={id} />
-        ))}
+        ))*/}
       </Wrapper>
     </React.Fragment>
   )

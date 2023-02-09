@@ -28,7 +28,7 @@ The prepositions that can be used as case marking have the gloss next to them
 
 ## Nouns
 
-* ${_.ref(_.le)}
+* ${_.refAndGlo(_.le)}
 * ${_.refAndGlo(_.wu)}
 * ${_.ref(_.diwu)}
 * ${_.ref(_.eku)}
@@ -40,6 +40,8 @@ The prepositions that can be used as case marking have the gloss next to them
 * ${_.refAndGlo(_.ne)}
 * ${_.refAndGlo(_.suk)}
 * ${_.refAndGlo(_.sau)}
+* ${_.refAndGlo(_.s)}
+
 
 #### nsfw
 
@@ -65,6 +67,7 @@ The prepositions that can be used as case marking have the gloss next to them
 * ${_.refAndGlo(_.fe)}
 * ${_.refAndGlo(_.ro)}
 * ${_.refAndGlo(_.ri)}
+* ${_.refAndGlo(_.ruP)}
 
 Examples
 
@@ -109,7 +112,7 @@ Examples:
 ## Articulation
 
 * ${_.ref(_.shu)}
-* ${_.ne.shu} (but)
+* ${_.ref(_.neshu)}
 * ${_.ref(_.uma)}
 
 `,

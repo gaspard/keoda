@@ -56,8 +56,8 @@ mark intent or style:
 
 #### nsfw
 
-* ${_.phraseX('Pull my nipple (lovingly).', _.mu.imp, _.hamun.m)}
-* ${_.phraseX('Pull my nipple (sadisticaly).', _.mu.imp, _.hamun.m)}
+* ${_.phraseX('Pull my nipple (lovingly).', _.mu.au.imp, _.hamun.m)}
+* ${_.phraseX('Pull my nipple (fiercely).', _.mu.ker.imp, _.hamun.m)}
 * ${_.phraseX(
     'Pull my nipple (intensely and with love).',
     _.mu.do.imp,
@@ -167,7 +167,7 @@ on the action (comes after accord with the subject).
     _.es.a.lu.keli.ir
   )}
 
-## Indefinite subject (infinitive)
+## Infinite subject (infinitive)
 
 The prefix ${_.u} marks the indefinite subject (life itself). The meaning is
 something like 'life does'. When used as a noun the verb becomes close to the
@@ -187,7 +187,7 @@ as adjective or adverb.
 
 ## Impersonal (weather verbs)
 
-To express things without a subject, we use the passive voice accorded to indefinite subject:
+To express things without a subject, we use the passive voice accorded to the infinite subject:
 
 * ${_.phrase('It rains', _.es.u.gai)}
 * ${_.phrase('It rains (there is a rain)', _.es.u.e, _.gai)}
@@ -269,7 +269,7 @@ droping the tens as a cliff hanger.
     _.au.ti.m
   )}
 * ${_.phrase('I will always love you.', _.o.zu.lau, _.ti.m)}
-* ${_.phraseX('I will not make love with you.', _.o.ne.zuzu.ir, _.ti.m)}
+* ${_.phraseX('I will not make love with you.', _.o.ne.zuzu.ir, _.oda.ti.m)}
 * ${_.phrase('I never eat apples.', _.o.liu.nei, _.guyil.m)}
 
 #### nsfw

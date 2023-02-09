@@ -2,12 +2,12 @@ import * as _ from '../lang'
 
 export const kal = _.word('kal', {
   noun: 'storm',
-  adj: 'change',
+  adj: 'changing',
   adv: 'change',
   verb: 'to change',
   desc: () =>
     `From the sanskrit word Kāla, meaning 'time' or 'death'. The word is linked to Kali, the goddess of change (see ${_.gusona}).`,
-  see: () => [_.gusona],
+  see: () => [_.gusona, _.ru],
 })
 
 export const kalasona = _.word('kalasona', {

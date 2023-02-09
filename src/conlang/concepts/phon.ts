@@ -19,16 +19,10 @@ and curvy.
 | :-------------  | :--------: | :-------------: | :----------: | :-----: |
 | **Nasal**       | m మ       | n న             |              |         |
 | **Plosive**     | p ప / b బ | t త / d ద  | k క / g గ        |         |
-| **Fricative**   | f చ       | s స / z ఠ -  ʃ శ / ʒ జ | x ః * | h హ |
+| **Fricative**   | f చ       | s స / z ఠ  •  ʃ శ / ʒ జ |      | h హ |
 | **Approximant** | ʋ  వ      |                 | j య         |         |
 | **Trill**       |            | r ర             |              |         |
 | **Lateral**     |            | l ల             |              |         |
-
-\\* The \`/x/\` sound is only used at the end of a word to mark "bad taste/mood"
-or accusative with a rejection feeling ("good taste" is /m/ ending and
-"neutral taste" is /n/). The more the sound becomes uvular (feeling of
-choking), the worst the taste/mood. A near silent expletive /h/ sound can
-express (subtle) disdain.
 
 All sounds correspond to [Telugu](https://en.wikipedia.org/wiki/Telugu_script) except for:
 
