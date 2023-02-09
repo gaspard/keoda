@@ -4,6 +4,6 @@ import { suffix } from '../zulapa'
 export const u$ = suffix('u', {
   verb: 'to pull',
   glo: '*PULL*',
-  force: 'verb',
+  scla: 'verb',
   id: 'u$',
 })

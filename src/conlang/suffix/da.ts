@@ -4,7 +4,7 @@ export const da = suffix('da', {
   noun: 'self',
   glo: 'SELF',
   cla: 'noun',
-  force: 'noun',
+  scla: 'noun',
 })
 
 // TODO: need to fix resolution of prefix.suffix.suffix to be prefix.noun.suffix.

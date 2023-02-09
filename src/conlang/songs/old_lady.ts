@@ -16,7 +16,7 @@ export const old_lady = _.card('Old Lady', {
     'Thank you for making my heart sing.',
     _.nomy,
     _.u.mahim,
-    _.to.zu.m,
+    _.to.zu,
     _.a.lipa
   )}
 
@@ -31,7 +31,7 @@ export const old_lady = _.card('Old Lady', {
 
 * ${_.phrase('You fingertip-dance on my skin.', _.i.hama.kti.y, _.noa.to.m)}
 
-* ${_.phrase('You draw on my skin with fire.', _.i.my, _.fe.noa, _.suk.aj)}
+* ${_.phrase('You draw on my skin with fire.', _.i.my, _.fe.noa, _.ko.aj)}
 
 # Old Lady
 

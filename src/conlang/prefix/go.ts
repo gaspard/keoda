@@ -5,7 +5,7 @@ export const go = prefix('go', {
   pref: 'big',
   adj: 'intense',
   glo: 'AUG',
-  force: 'noun',
+  scla: 'noun',
   etym: () => [_.gu, _.o$],
   see: () => [_.gi],
 })

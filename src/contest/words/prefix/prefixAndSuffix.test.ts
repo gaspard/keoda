@@ -7,6 +7,14 @@ describe('prefixAndSuffix', () => {
   })
 
   it('should work as suffix', () => {
-    expecto(_.awi.es).toBe('awines/**beautiful**.IS-NESS/noun')
+    expecto(_.awi.es).toBe('awines/**fish**.IS-NESS/noun')
+  })
+
+  it('should work as simple prefix', () => {
+    expecto(_.ir.la).toBe('irila/SUBESS.**lips**/noun')
+  })
+
+  it('should work as simple suffix', () => {
+    expecto(_.la.ir).toBe('lalir/**kiss**.FUT/verb')
   })
 })

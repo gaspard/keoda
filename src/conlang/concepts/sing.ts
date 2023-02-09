@@ -265,7 +265,13 @@ ${_.phrase(
 
 * ${_.phrase('War crushes the sweetest spirits', _.nemek, _.a.ber, _.ye.ga.gi)}
 
-* ${_.phrase('Leaving hatred and power', _.a.wabi, _.neha.m, _.ko, _.gohuski.m)}
+* ${_.phrase(
+    'Leaving hatred and power',
+    _.a.wabi,
+    _.neha.m,
+    _.shu,
+    _.gohuski.m
+  )}
 * ${_.phrase('As only players', _.kusi, _.yulak.m)}
 * ${_.phrase('In the fields', _.ro.gesh)}
 * ${_.phrase('And hearts.', _.shu, _.ro.zu.m)}

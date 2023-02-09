@@ -71,22 +71,23 @@ export interface EntryInfo {
   // alt ====
   // forced glo
   glo: string
-  // suffix glo
-  sglo?: string
   // https://www.eva.mpg.de/lingua/resources/glossing-rules.php
   forcedGlo: boolean
   // For prefix/suffix
   join: string
-  // suffix join only
-  sjoin?: string
   // Type of element. Changes classname of gloss in UI (always set).
   cla: MainKeys
   // Type of next element class (only set when prefix as explicit class).
   ncla: MainKeys
-  // Case forcing class on next/previous elements
-  force: MainKeys
-  // Set type (only as suffix)
+
+  // **** SUFFIX ****
+  // Force class (only as suffix)
   scla?: MainKeys
+  // suffix join only
+  sjoin?: string
+  // suffix glo
+  sglo?: string
+
   // If this is true, the element is considered too common and should not
   // register phrases created with it (such as ACC markers, conjugation, etc).
   // set to false to ignore phrases.

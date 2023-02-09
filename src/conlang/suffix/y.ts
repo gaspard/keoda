@@ -3,7 +3,7 @@ import { alt, suffix } from '../zulapa'
 export const y = suffix('y', {
   verb: 'to dance',
   glo: '*DANCE*',
-  force: 'verb',
+  scla: 'verb',
   id: 'y',
   desc: () => `Moving without a direction, drawing, dancing.`,
 })

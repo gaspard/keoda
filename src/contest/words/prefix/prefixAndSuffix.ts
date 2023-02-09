@@ -1,4 +1,4 @@
-import { prefix, word } from '../../lang'
+import { prefix } from '../../lang'
 
 export const es = prefix('es', {
   noun: 'is-ness',
@@ -9,7 +9,6 @@ export const es = prefix('es', {
   cla: 'verb',
   // as suffix
   // force only apply on suffix
-  force: 'adj', // this is for reading
   sglo: 'IS-NESS',
-  scla: 'noun', // this is for class setting
+  scla: 'noun',
 })

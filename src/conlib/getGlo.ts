@@ -7,20 +7,17 @@ export function getGlo(
   prefix: boolean
 ): string {
   let glo = prev.glo || prev[prev.cla!]!
-  if (next.force) {
+  let force = next.scla // || next.force // should we use next.force here ?
+  if (force) {
     // rewrite previous glo
     const parts = glo.split('.')
-    let g = prev[next.force]
+    let g = prev[force]
     if (g) {
       parts.pop()
-      if (next.force === 'verb') {
+      if (force === 'verb') {
         g = g.replace(/^to /, '')
       }
-      if (next.force === 'noun') {
-        parts.push('**' + g + '**')
-      } else {
-        parts.push(g)
-      }
+      parts.push('**' + g + '**')
       glo = parts.join('.')
     }
   }

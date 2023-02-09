@@ -1,5 +1,5 @@
 import * as _ from '../lang'
-import { suffix } from '../zulapa'
+import { prefix, suffix } from '../zulapa'
 
 //medium.com/zulapa/du-plaisir-des-conjugaisons-df444756dfc0
 
@@ -33,13 +33,16 @@ export const iro = suffix('iro', {
   see: () => [_.verbs],
 })
 
-export const ir = suffix('ir', {
+export const ir = prefix('ir', {
   noun: 'future',
-  sglo: 'FUT',
-  // as prefix:
   adj: 'under',
+  ncla: 'noun',
   pref: 'under',
   glo: 'SUBESS',
+  // as suffix
+  suff: 'future',
+  scla: 'verb',
+  sglo: 'FUT',
   see: () => [_.verbs],
   exam: () => [_.phraseX('Come under me.', _.ir.odu.imp, _.to.m)],
 })

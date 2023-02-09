@@ -6,7 +6,7 @@ export const fu = prefix('fu', {
   noun: 'monkey',
   pref: 'by/does',
   glo: 'ERG',
-  force: 'noun',
+  scla: 'noun',
   join: '',
 })
 
@@ -49,14 +49,13 @@ export const ni = prefix('ni', {
   noun: 'arrow',
   pref: 'to',
   glo: 'DAT',
-  force: 'noun',
+  scla: 'noun',
 })
 
 export const le = prefix('le', {
   adj: 'very',
   glo: 'ADJ',
   cla: 'adj',
-  force: 'adj',
   desc: () => `
   Adjective marker for nouns. Can also be used on adjectives to stress their importance.
 
@@ -76,16 +75,10 @@ export const ne = prefix('ne', {
   see: () => [_.sau],
 })
 
-export const suk = prefix('suk', {
-  def: 'with',
-  glo: 'COM',
-  see: () => [_.sau, _.prep],
-})
-
 export const sau = prefix('sau', {
   def: 'without',
   glo: 'ABESS',
-  see: () => [_.suk, _.ne, _.prep],
+  see: () => [_.ko, _.ne, _.prep],
 })
 
 export const fe = prefix('fe', {

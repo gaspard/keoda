@@ -32,13 +32,12 @@ The prepositions that can be used as case marking have the gloss next to them
 * ${_.refAndGlo(_.wu)}
 * ${_.ref(_.diwu)}
 * ${_.ref(_.eku)}
-* ${_.ref(_.ko)}
+* ${_.refAndGlo(_.ko)}
 * ${_.refAndGlo(_.es)}
 * ${_.refAndGlo(_.fu)}
 * ${_.refAndGlo(_.ni)}
 * ${_.refAndGlo(_.le)}
 * ${_.refAndGlo(_.ne)}
-* ${_.refAndGlo(_.suk)}
 * ${_.refAndGlo(_.sau)}
 * ${_.refAndGlo(_.s)}
 

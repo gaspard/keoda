@@ -69,8 +69,7 @@ Subordinate phrases get the accusative case and infinite conjugation.
     _.o.ora.go,
     _.a.e,
     _.u.fodi,
-    _.ko,
-    _.ti.m
+    _.ko.ti.m
   )} (nominative relativisation)
 * ${_.phraseX(
     'I cannot leave her alone because she is tied to the radiator.',

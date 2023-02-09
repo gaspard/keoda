@@ -23,7 +23,7 @@ ${_.subj}
 ## Meaning
 
 * ${_.ne} (negation, opposition)
-* ${_.suk} (comitative case: with)
+* ${_.ko} (comitative case: with)
 * ${_.sau} (privative case: without)
 
 * ${_.phrase('Negation (bald)', _.neji)}

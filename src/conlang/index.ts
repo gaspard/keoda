@@ -7,3 +7,4 @@ import './words'
 
 writeFileSync(join(__dirname, '..', 'db.json'), exportJSON(entries), 'utf8')
 console.log('Updated DB.')
+export * from './roots'

@@ -1,4 +1,4 @@
-import { word } from '../../lang'
+import { prefix, word } from '../../lang'
 
 export const em = word('em', {
   noun: 'past tense',
@@ -6,8 +6,14 @@ export const em = word('em', {
   cla: 'verb',
 })
 
-export const ir = word('ir', {
+export const ir = prefix('ir', {
   noun: 'future tense',
-  glo: 'FUT',
-  cla: 'verb',
+  suff: 'future',
+  scla: 'verb',
+  sglo: 'FUT',
+  // as prefix:
+  adj: 'under',
+  ncla: 'noun',
+  pref: 'under',
+  glo: 'SUBESS',
 })

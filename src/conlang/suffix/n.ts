@@ -5,7 +5,7 @@ export const n = suffix('n', {
   def: 'subordinate',
   writ: 'ఁ',
   glo: 'SUB',
-  force: 'noun',
+  scla: 'noun',
   maxPhrases: 10,
   see: () => [_.sub, _.acc],
 })
