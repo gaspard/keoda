@@ -23,7 +23,7 @@ export const ListWrapper = styled.div`
     background: ${COLORS.list_bg};
     padding: 0;
     border-radius: 0;
-    border-bottom: 1px solid #888;
+    border-bottom: 1px solid ${COLORS.glo_border};
   }
   &.etym a {
     color: #222;
@@ -43,7 +43,7 @@ export const ListWrapper = styled.div`
     flex-direction: row;
     background: ${COLORS.phrase_glo_bg};
     border-radius: 4px;
-    border: 1px solid ${COLORS.phrase_glo_border};
+    border: 1px solid ${COLORS.glo_border};
     padding: 5px;
   }
   & .Link:not(:last-child) {

@@ -13,6 +13,7 @@ Existing fruits are:
 * ${_.nounRef(_.pona)}
 * ${_.nounRef(_.ponale)}
 * ${_.nounRef(_.wiyon)}
+* ${_.nounRef(_.palapon)}
 
 `,
 })

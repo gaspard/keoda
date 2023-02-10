@@ -74,6 +74,22 @@ const Wrapper = styled.div`
   div.hr {
     margin: 10px;
   }
+
+  &::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    pointer-events: none;
+    background-image: var(--data-img);
+    background-repeat: no-repeat;
+    background-position: center var(--data-pos);
+    background-size: cover;
+  }
 `
 
 const ArrowUp = styled.div`
@@ -99,6 +115,7 @@ const Title = styled.div`
   justify-content: start;
   flex-shrink: 0;
   flex-grow: 0;
+  z-index: 1;
   &:not(.phrase) {
     min-width: 7rem;
     border-bottom-left-radius: 5px;
@@ -115,21 +132,6 @@ const Title = styled.div`
     & .Trad {
       top: -32px;
     }
-  }
-  &::before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.3;
-    pointer-events: none;
-    background-image: var(--data-img);
-    background-repeat: no-repeat;
-    background-position: center var(--data-pos);
-    background-size: cover;
   }
 `
 
@@ -173,7 +175,7 @@ const Group = styled.div`
     background: ${COLORS.main_bg};
   }
   &:not(:last-child) {
-    border-bottom: 1px solid rgb(123, 123, 123);
+    border-bottom: 1px solid ${COLORS.glo_border};
   }
   padding: 20px 10px;
 `
@@ -211,7 +213,7 @@ const Other = styled.div`
 const Definitions = styled.div`
   .phrase & {
     border-left: none;
-    border-top: 1px solid #7b7b7b;
+    border-top: 1px solid ${COLORS.glo_border};
   }
   display: flex;
   flex-grow: 1;
@@ -219,7 +221,7 @@ const Definitions = styled.div`
   padding-bottom: 5px;
   overflow: hidden;
   align-self: stretch;
-  border-left: 1px solid #7b7b7b;
+  border-left: 1px solid ${COLORS.glo_border};
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   background: ${COLORS.definitions_bg};
@@ -262,9 +264,9 @@ const Definition = styled.div`
     }
     h4 + * {
       display: var(--nsfw);
-      border-left: 26px solid ${COLORS.def_h4_border};
-      background: ${COLORS.def_h4_bg};
-      color: ${COLORS.def_h4_color};
+      border-left: 26px solid ${COLORS.desc_h4_border};
+      background: ${COLORS.desc_h4_bg};
+      color: ${COLORS.desc_h4};
     }
     h4 + * .nsfw {
       background: none;
@@ -274,14 +276,15 @@ const Definition = styled.div`
     }
     h5 + * {
       border-left: 26px solid #908e82;
-      background: ${COLORS.def_h5_bg};
+      background: ${COLORS.desc_h5_bg};
     }
     h5 + *::before {
       content: '💡';
     }
     h6 + * {
-      border-left: 6px solid #908e82;
-      background: #afada4;
+      border-left: 6px solid ${COLORS.desc_h6_border};
+      background: ${COLORS.desc_h6_bg};
+      padding-left: 20px;
     }
     h6 + *::before {
       content: '';
@@ -316,7 +319,7 @@ const Definition = styled.div`
     ul {
     }
     img {
-      border: 1px solid #555;
+      border: 1px solid ${COLORS.glo_border};
       display: table;
       margin: auto;
     }
@@ -366,20 +369,20 @@ const Definition = styled.div`
     }
     td,
     th {
-      border: 1px solid #807c70;
+      border: 1px solid ${COLORS.glo_border};
       padding: 4px 10px;
     }
     pre {
       background: #bfbcb1;
       margin: 10px auto;
       display: table;
-      border: 1px solid #807c70;
+      border: 1px solid ${COLORS.glo_border};
       padding: 3px 8px;
       border-radius: 3px;
     }
     img {
       max-width: 80%;
-      border: 1px solid #666;
+      border: 1px solid ${COLORS.glo_border};
       margin: auto;
     }
     a {
@@ -455,9 +458,10 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
   const def_keys = DEF_KEYS.filter(k => entry[k])
   return (
     <Wrapper
+      style={style as React.CSSProperties}
       className={classnames(entry.type, className, {
         popup,
-        selected: id === ctx.state.zulapa.selected,
+        // selected: id === ctx.state.zulapa.selected,
       })}
     >
       {popup ? <ArrowUp /> : <ID id={id} />}
@@ -467,11 +471,11 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
         </MyInfo>
       )}
       {entry.type === 'phrase' ? (
-        <Title className="Title phrase" style={style as React.CSSProperties}>
+        <Title className="Title phrase">
           <Link id={id} type="md" />
         </Title>
       ) : (
-        <Title className="Title" style={style as React.CSSProperties}>
+        <Title className="Title">
           <Name onClick={() => ctx.actions.zulapa.select({ id: entry.id })}>
             {entry.suff && (
               <Suf className="suff" data-def={entry.suff}>

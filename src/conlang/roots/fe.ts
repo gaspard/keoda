@@ -13,6 +13,11 @@ export const feoda = _.word('feoda', {
   etym: () => [_.fe, _.oda],
 })
 
+export const yafe = _.word('yafe', {
+  noun: 'pajama',
+  etym: () => [_.ya, _.feoda],
+})
+
 export const nefe = _.word('nefe', {
   adj: 'naked',
   verb: 'to uncover',

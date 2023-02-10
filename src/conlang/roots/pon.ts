@@ -5,6 +5,14 @@ export const pon = _.word('pon', {
   see: () => [_.colors],
 })
 
+export const palapon = _.word('palapon', {
+  noun: 'peach',
+  adj: 'peachy',
+  img: 'peach.jpg',
+  see: () => [_.fruits],
+  etym: () => [_.pal, _.pon],
+})
+
 export const pona = _.word('pona', {
   noun: 'orange, November',
   etym: () => [_.pon, _.na],

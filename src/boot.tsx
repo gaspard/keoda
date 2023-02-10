@@ -15,6 +15,12 @@ function phraseSort(a: string, b: string) {
   return db.phrase[a].phrase! < db.phrase[b].phrase! ? -1 : 1
 }
 
+const start_dark = JSON.parse(
+  window.localStorage.getItem('zulapa.dark') || 'true'
+)
+// Avoid blink
+if (start_dark) document.body.classList.add('dark')
+
 const config: ZulapaConfig = {
   onInitialize(ctx) {
     window.addEventListener('hashchange', function (e) {
@@ -27,6 +33,7 @@ const config: ZulapaConfig = {
     ctx.state.zulapa.nsfw = JSON.parse(
       window.localStorage.getItem('zulapa.nsfw') || 'false'
     )
+    ctx.state.zulapa.dark = start_dark
   },
   state: {
     zulapa: {

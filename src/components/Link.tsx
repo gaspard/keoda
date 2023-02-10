@@ -22,7 +22,7 @@ const Wrapper = styled.span`
   }
   &.high,
   &.ref.high {
-    border-bottom: 2px solid orange;
+    border-bottom: 2px dotted ${COLORS.high_color};
   }
 `
 
@@ -78,7 +78,7 @@ export const Link: Comp<LinkProps> = ({ className, id, type, children }) => {
     <Wrapper
       className={classnames('Link', className, {
         ref: entryType,
-        high: ref === ctx.state.zulapa.selected,
+        // high: ref === ctx.state.zulapa.selected,
       })}
       onMouseEnter={e => {
         const r = e.currentTarget.getBoundingClientRect()

@@ -1,6 +1,6 @@
 import * as _ from '../lang'
 
-export const acc = _.card('taste', {
+export const acc = _.card('accusative', {
   desc: () => `
 ## Accusative marking
 

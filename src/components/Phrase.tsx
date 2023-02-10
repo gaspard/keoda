@@ -61,8 +61,7 @@ const Trad = styled.div`
     border-radius: 4px 4px 0px 0px;
     border-width: 1px;
     border-style: solid;
-    border-color: ${COLORS.phrase_glo_border} ${COLORS.phrase_glo_border}
-      #00000000;
+    border-color: ${COLORS.glo_border} ${COLORS.glo_border} #00000000;
     border-image: initial;
   }
   &.fix {
