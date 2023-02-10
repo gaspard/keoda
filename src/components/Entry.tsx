@@ -395,7 +395,7 @@ const DefType = styled.div`
   font-weight: 500;
   width: 4rem;
   flex-shrink: 0;
-  color: #0000002b;
+  color: ${COLORS.def_type};
   &.selected {
     border-left: 4px solid #8a847a;
     position: relative;
@@ -405,55 +405,7 @@ const DefType = styled.div`
 `
 
 const DefText = styled.div`
-  color: #333;
-  &.etym {
-    color: #222;
-  }
-  &.noun {
-    color: #40495a;
-  }
-  &.verb {
-    color: #883ea7;
-  }
-  &.mod {
-    color: #149a32;
-  }
-  &.det {
-    color: #444;
-  }
-  &.subj {
-    color: #b7ec34;
-  }
-  &.pref {
-    color: #444;
-  }
-  &.suff {
-    color: #444;
-  }
-  &.prep {
-    color: #944;
-  }
-  &.pron {
-    color: #494;
-  }
-  &.tens {
-    color: #499;
-  }
-  &.lang {
-    color: #444;
-  }
-  &.pos {
-    color: pink;
-  }
-  &.deriv {
-    color: #666;
-  }
-  &.see {
-    color: #666;
-  }
-  &.phrase {
-    color: #666;
-  }
+  color: ${COLORS.def_text};
 `
 
 export const ID = styled.a`

@@ -44,6 +44,9 @@ export type Colors = {
   def_h4_color: string
   def_h4_border: string
   def_h5_bg: string
+  // def titles:
+  def_type: string
+  def_text: string
   // main
   main_bg: string
   desc_color: string
@@ -103,6 +106,9 @@ export const COLORS: Colors = {
   def_h4_color: 'var(--def_h4_color)',
   def_h4_border: 'var(--def_h4_border)',
   def_h5_bg: 'var(--def_h5_bg)',
+  // def titles
+  def_type: 'var(--def_type)',
+  def_text: 'var(--def_text)',
   // main
   main_bg: 'var(--main_bg)',
   desc_color: 'var(--desc_color)',
@@ -155,15 +161,18 @@ export const DARK_COLORS: Colors = {
   fix_bg: '#ffffff2e',
   fix_color: '#ffffff9e',
   // list
-  list_bg: '#94ff00d9',
+  list_bg: '#2c0f2f', //#94ff00d9',
   // def
   def_color: '#666',
   def_h4_bg: '#1f756f',
   def_h4_color: '#a9ffa6',
   def_h4_border: '#00ff5287',
   def_h5_bg: '#afada4',
+  // def titles
+  def_type: '#ffffff4b',
+  def_text: '#a5a5a5',
   // main
-  main_bg: '#8afd9e',
+  main_bg: '#0f142f',
   desc_color: '#a5a5a5',
   desc_h1: '#4cfff1',
   desc_h2: '#4cfff1',
@@ -221,6 +230,9 @@ export const LIGHT_COLORS: Colors = {
   def_h4_color: 'inherit',
   def_h4_border: '#88815e',
   def_h5_bg: '#afada4',
+  // def titles
+  def_type: '#0000004b',
+  def_text: '#333',
   // main
   main_bg: 'none', // ??
   desc_color: '#555',

@@ -7,7 +7,7 @@ export const hamalil = _.word('hamalil', {
 export const ajalil = _.word('ajalil', {
   noun: 'spark',
   pos: 'on top of me: 4 limbs and 1 genital (little finger)',
-  etym: () => [_.aj],
+  etym: () => [_.aj, _.lil],
 })
 
 export const nelil = _.word('nelil', {
