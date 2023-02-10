@@ -67,6 +67,9 @@ export const si = prefix('si', {
   adv: 'as',
   glo: 'ADV',
   cla: 'adv',
+  desc: () => `
+  Adverb marker.
+  `,
 })
 
 export const ne = prefix('ne', {

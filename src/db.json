@@ -315,6 +315,7 @@
       "adv": "as",
       "glo": "ADV",
       "cla": "adv",
+      "desc": "\n  Adverb marker.\n  ",
       "pref": "ADV",
       "forcedGlo": true,
       "id": "word-si",

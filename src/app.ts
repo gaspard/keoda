@@ -163,7 +163,7 @@ export const DARK_COLORS: Colors = {
   nsfw_bg: '#061a06c9',
   trad_bg: '#341e33',
   trad_color: '#ffffffae',
-  fix_bg: '#ffffff2e',
+  fix_bg: '#ffffff0f',
   fix_color: '#ffffff9e',
   // list
   list_bg: '#2c0f2f52',
