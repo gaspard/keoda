@@ -14,7 +14,6 @@ export type Colors = {
   wrapper_border: string
   wrapper_shadow: string
   wrapper_bg: string
-  nsfw_btn_bg: string
   // definitions
   definitions_bg: string
   // phrase
@@ -33,6 +32,8 @@ export type Colors = {
   adv_color: string
 
   nsfw_bg: string
+  nsfw_btn_bg: string
+  nsfw_shadow: string
   trad_bg: string
   trad_color: string
   fix_bg: string
@@ -78,7 +79,6 @@ export const COLORS: Colors = {
   wrapper_border: 'var(--wrapper_border)',
   wrapper_shadow: 'var(--wrapper_shadow)',
   wrapper_bg: 'var(--wrapper_bg)',
-  nsfw_btn_bg: 'var(--nsfw_btn_bg)',
   // definitions
   definitions_bg: 'var(--definitions_bg)',
   // phrase
@@ -97,6 +97,8 @@ export const COLORS: Colors = {
   adv_color: 'var(--adv_color)',
 
   nsfw_bg: 'var(--nsfw_bg)',
+  nsfw_btn_bg: 'var(--nsfw_btn_bg)',
+  nsfw_shadow: 'var(--nsfw_shadow)',
   trad_bg: 'var(--trad_bg)',
   trad_color: 'var(--trad_color)',
   fix_bg: 'var(--fix_bg)',
@@ -142,7 +144,6 @@ export const DARK_COLORS: Colors = {
   wrapper_border: '#6c2f6f',
   wrapper_shadow: '#ff00ff1f',
   wrapper_bg: '#1c001c',
-  nsfw_btn_bg: '#a7ff8f',
   // definitions
   definitions_bg: '#18021882',
   // phrase
@@ -160,7 +161,9 @@ export const DARK_COLORS: Colors = {
   verb_color: '#ff964f',
   adv_color: '#ff77ffb5',
 
-  nsfw_bg: '#061a06c9',
+  nsfw_bg: '#ffc6592b',
+  nsfw_btn_bg: '#ffc65999',
+  nsfw_shadow: 'none',
   trad_bg: '#341e33',
   trad_color: '#ffffffae',
   fix_bg: '#ffffff0f',
@@ -206,7 +209,6 @@ export const LIGHT_COLORS: Colors = {
   wrapper_border: '#444',
   wrapper_shadow: '#0000001f', // 10px instead of 20px ?
   wrapper_bg: '#636159',
-  nsfw_btn_bg: '#bfb370',
   // definitions
   definitions_bg: '#e4e1d582',
   // phrase
@@ -225,6 +227,8 @@ export const LIGHT_COLORS: Colors = {
   adv_color: '#c371c1',
 
   nsfw_bg: '#ffa50063',
+  nsfw_btn_bg: 'var(--nsfw_bg)',
+  nsfw_shadow: 'none',
   trad_bg: '#d0cdc2',
   trad_color: '',
   fix_bg: '#ffffff1a',

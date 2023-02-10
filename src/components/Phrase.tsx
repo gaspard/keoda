@@ -29,9 +29,9 @@ const PhraseWrap = styled.div`
   }
   &.nsfw {
     background: ${COLORS.nsfw_bg};
+    box-shadow: ${COLORS.nsfw_shadow};
     border-radius: 5px;
     padding: 10px;
-    margin-left: -10px;
   }
   &.nsfw .Trad:not(.fix) {
     top: -26px;

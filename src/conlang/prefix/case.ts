@@ -6,6 +6,7 @@ export const fu = prefix('fu', {
   noun: 'monkey',
   pref: 'by/does',
   glo: 'ERG',
+  desc: () => `By (person): ergative case (ERG).`,
   scla: 'noun',
   join: '',
 })
@@ -15,6 +16,7 @@ export const ju = prefix('ju', {
   noun: 'start',
   verb: 'to begin',
   glo: 'ANTE',
+  desc: () => `Before, in front of: antessive case (ANTESS).`,
   forcedGlo: false,
   etym: () => [_.jo, _.ru],
   see: () => [_.hu],
@@ -32,6 +34,7 @@ export const hu = prefix('hu', {
   adj: 'limited',
   verb: 'to finish',
   glo: 'POSTE',
+  desc: () => `After, behind: postessive case (POSTE).`,
   etym: () => [_.ha, _.ru],
   see: () => [_.ju],
 })
@@ -49,6 +52,7 @@ export const ni = prefix('ni', {
   noun: 'arrow',
   pref: 'to',
   glo: 'DAT',
+  desc: () => `To this person: dative case (DAT).`,
   scla: 'noun',
 })
 
@@ -57,9 +61,9 @@ export const le = prefix('le', {
   glo: 'ADJ',
   cla: 'adj',
   desc: () => `
-  Adjective marker for nouns. Can also be used on adjectives to stress their importance.
+  Adjective marker for nouns (ADJ). Can also be used on adjectives to stress their importance.
 
-  * ${_.phrase('A very lost friend.', _.adu, _.le.eshu)}
+  ${_.phrase('A very lost friend.', _.adu, _.le.eshu)}
   `,
 })
 
@@ -67,20 +71,20 @@ export const si = prefix('si', {
   adv: 'as',
   glo: 'ADV',
   cla: 'adv',
-  desc: () => `
-  Adverb marker.
-  `,
+  desc: () => `Adverb marker (ADV).`,
 })
 
 export const ne = prefix('ne', {
   def: 'negation',
   glo: 'NEG',
+  desc: () => 'Negation (NEG).',
   see: () => [_.sau],
 })
 
 export const sau = prefix('sau', {
   def: 'without',
   glo: 'ABESS',
+  desc: () => 'Without: abessive case (ABESS).',
   see: () => [_.ko, _.ne, _.prep],
 })
 
@@ -89,6 +93,7 @@ export const fe = prefix('fe', {
   verb: 'to cover',
   glo: 'SUPESS',
   cla: 'noun',
+  desc: () => 'On top of: superessive case (SUPESS).',
   exam: () => [_.phrase('I like your nakedness.', _.o.zu, _.nefe.es.ti)],
 })
 
@@ -97,6 +102,7 @@ export const ro = prefix('ro', {
   suff: 'in (INESS)',
   pref: 'inner',
   glo: 'INESS',
+  desc: () => 'In, into: inessive case (INESS).',
   see: () => [_.ri, _.prep],
 })
 
@@ -105,13 +111,14 @@ export const ri = prefix('ri', {
   pref: 'outer',
   suff: 'out of (ELAT)',
   glo: 'ELAT',
+  desc: () => 'ELAT: Elative case (out, out of)',
   see: () => [_.ro, _.prep],
 })
 
 export const kte = prefix('kte', {
   adj: 'between',
   pref: 'between',
-  glo: 'between',
+  glo: 'BETWEEN',
   see: () => [_.prep],
 })
 
@@ -122,7 +129,8 @@ export const kei = prefix('kei', {
   noun: 'Master',
   adj: 'fantastic',
   suff: 'fantastic',
-  glo: 'FANTASTIC',
+  glo: 'HON',
+  desc: () => `HON: Honorific mode.`,
 })
 
 // part of subject => prefix and suffix
@@ -164,5 +172,5 @@ export const ye = prefix('ye', {
   suff: 'SUP',
   adj: 'great',
   glo: 'SUP',
-  desc: () => 'Superlative, yeah.',
+  desc: () => 'SUP: Superlative, yeah mode.',
 })

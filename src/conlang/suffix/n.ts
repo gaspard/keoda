@@ -6,6 +6,7 @@ export const n = suffix('n', {
   writ: 'ఁ',
   glo: 'SUB',
   scla: 'noun',
+  desc: () => `Modifies a verb into a noun: subordinate (SUB).`,
   maxPhrases: 10,
   see: () => [_.sub, _.acc],
 })
