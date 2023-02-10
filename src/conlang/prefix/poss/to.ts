@@ -2,7 +2,7 @@ import { prefix } from '../../zulapa'
 
 export const to = prefix('to', {
   noun: 'me/us',
-  glo: 'POSS.I/we',
+  glo: 'POSS.**me/us**',
   scla: 'noun',
 })
 
@@ -10,11 +10,11 @@ export const to = prefix('to', {
 
 export const tosho = prefix('tosho', {
   noun: 'us (PL)',
-  glo: 'POSS.us',
+  glo: 'POSS.**us**',
 })
 
 prefix('topi', {
-  id: 'to-pi',
   noun: 'my',
-  glo: 'POSS.my',
+  glo: 'POSS.**my**',
+  id: 'to-pi',
 })

@@ -1,5 +1,14 @@
 import * as React from 'react'
-import { Comp, styled, useOvermind } from '../app'
+import { createGlobalStyle } from 'styled-components'
+import {
+  Colors,
+  COLORS,
+  Comp,
+  DARK_COLORS,
+  LIGHT_COLORS,
+  styled,
+  useOvermind,
+} from '../app'
 import { Entry } from './Entry'
 import { Float } from './Float'
 
@@ -15,6 +24,27 @@ const Wrapper = styled.div`
   justify-content: space-around;
 `
 
+function print_colors(theme: Colors) {
+  let k: keyof Colors
+  const list: string[] = []
+  for (k in COLORS) {
+    list.push(`--${k}: ${theme[k]};`)
+  }
+  return list.join('\n')
+}
+
+const GlobalStyles = createGlobalStyle`
+  body.dark {
+    ${print_colors(DARK_COLORS)}
+  }
+  body:not(.dark) {
+    ${print_colors(LIGHT_COLORS)}
+  }
+  body {
+    background: ${COLORS.body_bg};
+  }
+`
+
 const WritButton = styled.div`
   position: fixed;
   cursor: pointer;
@@ -22,7 +52,7 @@ const WritButton = styled.div`
   right: 5px;
   display: block;
   z-index: 99;
-  background: #aba89d;
+  background: ${COLORS.writ_btn_bg};
   padding: 3px 8px 6px;
   &.writ {
     padding-bottom: 4px;
@@ -37,17 +67,46 @@ const WritButton = styled.div`
 
 const Nsfw = styled(WritButton)`
   top: 60px;
-  &.nsfw {
-    background: #bfb370;
+  &.on {
+    background: ${COLORS.nsfw_btn_bg};
   }
 `
+const DarkBtn = styled(WritButton)`
+  top: 120px;
+  &.on {
+    background: ${COLORS.nsfw_btn_bg};
+  }
+`
+
+export const Dark: Comp<AppProps> = () => {
+  const ctx = useOvermind()
+  const { dark } = ctx.state.zulapa
+  React.useEffect(() => {
+    console.log('useEffect', dark)
+    if (dark) {
+      document.body.classList.add('dark')
+    } else {
+      document.body.classList.remove('dark')
+    }
+  }, [dark])
+  return (
+    <DarkBtn
+      className={dark ? 'on' : ''}
+      onClick={() => ctx.actions.zulapa.toggle({ key: 'dark' })}
+    >
+      🌜
+    </DarkBtn>
+  )
+}
 
 export const App: Comp<AppProps> = ({ className }) => {
   const ctx = useOvermind()
   const { lexicon } = ctx.state.zulapa
   const { writ, nsfw } = ctx.state.zulapa
+
   return (
     <React.Fragment>
+      <GlobalStyles />
       <WritButton
         className={writ ? '' : 'writ'}
         onClick={() => ctx.actions.zulapa.toggle({ key: 'writ' })}
@@ -55,11 +114,12 @@ export const App: Comp<AppProps> = ({ className }) => {
         {writ ? 'latin' : 'తేలుగు'}
       </WritButton>
       <Nsfw
-        className={nsfw ? 'nsfw' : ''}
+        className={nsfw ? 'on' : ''}
         onClick={() => ctx.actions.zulapa.toggle({ key: 'nsfw' })}
       >
         🍑
       </Nsfw>
+      <Dark />
       <Float />
       <Wrapper
         style={{ ['--nsfw']: nsfw ? 'block' : 'none' } as React.CSSProperties}

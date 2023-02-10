@@ -1,6 +1,6 @@
 import classnames from 'classnames'
 import * as React from 'react'
-import { Comp, styled, useOvermind } from '../app'
+import { COLORS, Comp, styled, useOvermind } from '../app'
 import { getEntry } from '../helpers/getEntry'
 import { Phrase } from './Phrase'
 
@@ -17,7 +17,7 @@ const Wrapper = styled.span`
   color: #546161;
   align-self: start;
   &.ref {
-    color: #2c383c;
+    color: ${COLORS.ref_color};
     font-weight: 500;
   }
   &.high,

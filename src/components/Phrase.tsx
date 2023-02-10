@@ -1,6 +1,6 @@
 import classnames from 'classnames'
 import * as React from 'react'
-import { Comp, styled, useOvermind } from '../app'
+import { COLORS, Comp, styled, useOvermind } from '../app'
 import { getEntry } from '../helpers/getEntry'
 import { List } from './List'
 
@@ -22,11 +22,13 @@ const PhraseWrap = styled.div`
     margin-left: 10px;
   }
   &:hover .Trad:not(.fix) {
-    opacity: 0;
-    visibility: hidden;
+    ${
+      /*opacity: 0;
+    visibility: hidden;*/ ''
+    }
   }
   &.nsfw {
-    background: #ffa50063;
+    background: ${COLORS.nsfw_bg};
     border-radius: 5px;
     padding: 10px;
     margin-left: -10px;
@@ -52,18 +54,21 @@ const Trad = styled.div`
     top: -36px;
     left: 23px;
     z-index: 2;
-    background: #d0cdc2;
+    background: ${COLORS.trad_bg};
+    color: ${COLORS.trad_color};
     white-space: nowrap;
     padding: 8px 16px 3px;
     border-radius: 4px 4px 0px 0px;
     border-width: 1px;
     border-style: solid;
-    border-color: #333 #333 #d0cdc2;
+    border-color: ${COLORS.phrase_glo_border} ${COLORS.phrase_glo_border}
+      #00000000;
     border-image: initial;
   }
   &.fix {
     margin: 5px 0;
-    background: #ffffff1a;
+    background: ${COLORS.fix_bg};
+    color: ${COLORS.fix_color};
     border-radius: 2px;
     padding: 4px 8px;
   }
@@ -75,7 +80,7 @@ export const Info = styled.div`
   padding-right: 5px;
   opacity: 0.5;
   font-size: 64%;
-  filter: grayscale(80%);
+  filter: hue-rotate(234deg);
   transition: filter 0.3s;
   &.blink,
   &.blink.open,
@@ -86,11 +91,9 @@ export const Info = styled.div`
   }
   &:hover {
     opacity: 0.7;
-    filter: grayscale(0%);
   }
   &.open {
     opacity: 1;
-    filter: grayscale(0%);
   }
 `
 
@@ -99,6 +102,9 @@ export const GWrap = styled.div`
   flex-direction: column;
   font-weight: normal;
   font-size: 1rem;
+  &.open {
+    box-shadow: ${COLORS.open_shadow};
+  }
 `
 
 export const Phrase: Comp<PhraseProps> = ({ className, type, id }) => {
@@ -151,7 +157,7 @@ export const Phrase: Comp<PhraseProps> = ({ className, type, id }) => {
           ℹ️
         </Info>
         {open ? (
-          <GWrap>
+          <GWrap className="open">
             <Trad className="Trad">{phrase.trad}</Trad>
             <List type={type} entries={phrase.words!} glo />
           </GWrap>

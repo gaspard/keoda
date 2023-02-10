@@ -18,13 +18,13 @@ const Wrapper = styled.div`
   position: relative;
   display: flex;
   font-size: 18px;
-  border: 1px solid #444;
-  background: #636159;
+  border: 1px solid ${COLORS.wrapper_border};
+  background: ${COLORS.wrapper_bg};
   margin: 14px;
   border-radius: 5px;
   align-items: start;
   align-self: top;
-  box-shadow: 0 0 10px #0000001f;
+  box-shadow: 0 0 20px ${COLORS.wrapper_shadow};
   &:not(.phrase) {
     flex-direction: row;
     width: 450px;
@@ -44,7 +44,8 @@ const Wrapper = styled.div`
     }
   }
   &.selected:not(.popup) > .Title {
-    background: #e4d593;
+    background: ${COLORS.selected_bg};
+    color: ${COLORS.selected_title};
   }
   &.popup {
     box-shadow: 8px 8px 20px #00000070;
@@ -90,14 +91,14 @@ const ArrowUp = styled.div`
 const Title = styled.div`
   transition: background-color 0.8s;
   border-top-left-radius: 5px;
-  background: #d6d3c6;
+  background: ${COLORS.title_bg};
+  color: ${COLORS.title_color};
   align-self: stretch;
   display: flex;
   flex-direction: column;
   justify-content: start;
   flex-shrink: 0;
   flex-grow: 0;
-  color: #333;
   &:not(.phrase) {
     min-width: 7rem;
     border-bottom-left-radius: 5px;
@@ -149,7 +150,7 @@ const Suf = styled.span`
   &::before {
     position: absolute;
     top: 22px;
-    background: #f9f5e4f0;
+    background: ${COLORS.suff_bg};
     display: none;
     content: attr(data-def);
     font-size: 14px;
@@ -157,18 +158,19 @@ const Suf = styled.span`
     font-weight: normal;
     padding: 4px 8px;
     border-radius: 4px;
-    box-shadow: 3px 3px 6px #33333340;
-    border: 1px solid #a5a399bf;
+    box-shadow: 3px 3px 6px ${COLORS.suff_shadow};
+    border: 1px solid ${COLORS.suff_border};
   }
   &:hover::before {
     display: block;
   }
-  color: #999;
+  color: ${COLORS.suff_color};
 `
 
 const Group = styled.div`
   &.Main {
     font-size: 1.3rem;
+    background: ${COLORS.main_bg};
   }
   &:not(:last-child) {
     border-bottom: 1px solid rgb(123, 123, 123);
@@ -177,23 +179,23 @@ const Group = styled.div`
 `
 
 const Def = styled.span`
-  color: #666;
+  color: ${COLORS.def_color};
   & span {
     margin-right: 10px;
-    color: #666;
+    color: ${COLORS.def_color};
   }
   font-weight: 500;
   &.noun {
-    color: ${COLORS.noun};
+    color: ${COLORS.noun_color};
   }
   &.adj {
-    color: ${COLORS.adj};
+    color: ${COLORS.adj_color};
   }
   &.verb {
-    color: ${COLORS.verb};
+    color: ${COLORS.verb_color};
   }
   &.adv {
-    color: ${COLORS.adv};
+    color: ${COLORS.adv_color};
   }
 `
 
@@ -220,7 +222,7 @@ const Definitions = styled.div`
   border-left: 1px solid #7b7b7b;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  background: #e4e1d582;
+  background: ${COLORS.definitions_bg};
   z-index: 3;
 `
 
@@ -231,7 +233,7 @@ const Definition = styled.div`
   &.desc {
     padding: 0 20px;
     line-height: 1.6rem;
-    color: #555;
+    color: ${COLORS.desc_color};
     display: block;
     align-self: stretch;
     h4,
@@ -260,8 +262,9 @@ const Definition = styled.div`
     }
     h4 + * {
       display: var(--nsfw);
-      border-left: 26px solid #88815e;
-      background: #bfb370;
+      border-left: 26px solid ${COLORS.def_h4_border};
+      background: ${COLORS.def_h4_bg};
+      color: ${COLORS.def_h4_color};
     }
     h4 + * .nsfw {
       background: none;
@@ -271,7 +274,7 @@ const Definition = styled.div`
     }
     h5 + * {
       border-left: 26px solid #908e82;
-      background: #afada4;
+      background: ${COLORS.def_h5_bg};
     }
     h5 + *::before {
       content: '💡';
@@ -291,17 +294,17 @@ const Definition = styled.div`
     h1:not(:first-child) {
       font-size: 1.8rem;
       margin-top: 4.8rem;
-      color: #444;
+      color: ${COLORS.desc_h1};
     }
     h2 {
       font-size: 1.6rem;
       margin-top: 3rem;
-      color: #444;
+      color: ${COLORS.desc_h2};
     }
     h3 {
       font-size: 1.2rem;
       margin-top: 1.2rem;
-      color: #444;
+      color: ${COLORS.desc_h3};
     }
     h1 em,
     h2 em,
@@ -348,14 +351,13 @@ const Definition = styled.div`
       font-size: 90%;
       font-family: 'Fira Code', Courier, monospace;
       display: inline-block;
-      color: #317577;
+      color: ${COLORS.desc_code};
     }
     em {
       font-weight: italic;
     }
     strong {
       font-weight: 500;
-      color: #555;
     }
     table {
       color: inherit;
@@ -382,7 +384,7 @@ const Definition = styled.div`
     }
     a {
       text-decoration: none;
-      color: #566284;
+      color: ${COLORS.desc_a};
     }
   }
 `

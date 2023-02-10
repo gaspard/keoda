@@ -20,8 +20,7 @@ export const ListWrapper = styled.div`
   &.phrase.etym.glo {
     align-self: stretch;
     border: none;
-    background: #d0cdc261;
-    margin: 0 0 5px;
+    background: ${COLORS.list_bg};
     padding: 0;
     border-radius: 0;
     border-bottom: 1px solid #888;
@@ -42,9 +41,9 @@ export const ListWrapper = styled.div`
   &.phrase.glo {
     display: flex;
     flex-direction: row;
-    background: #d0cdc2;
+    background: ${COLORS.phrase_glo_bg};
     border-radius: 4px;
-    border: 1px solid #333;
+    border: 1px solid ${COLORS.phrase_glo_border};
     padding: 5px;
   }
   & .Link:not(:last-child) {
@@ -65,27 +64,27 @@ const Detail = styled.div`
     font-size: 0.9rem;
     margin-top: 6px;
     font-size: 0.8rem;
-    color: #777;
+    color: ${COLORS.glo_color};
   }
   &&.noun strong {
-    color: ${COLORS.noun};
+    color: ${COLORS.noun_color};
   }
   &&.noun em,
   &&.adj strong,
   &&.adj em {
     font-style: italic;
     font-weight: normal;
-    color: ${COLORS.adj};
+    color: ${COLORS.adj_color};
   }
   &&.verb strong {
-    color: ${COLORS.verb};
+    color: ${COLORS.verb_color};
   }
   &&.verb em,
   &&.adv strong,
   &&.adv em {
     font-style: italic;
     font-weight: normal;
-    color: ${COLORS.adv};
+    color: ${COLORS.adv_color};
   }
 `
 
@@ -96,10 +95,10 @@ const Aspect = styled.div`
   &.writ {
     font-family: 'Telugu';
     font-size: 110%;
-    opacity: 0.4;
+    color: ${COLORS.writ_color};
   }
   &.name {
-    opacity: 0.4;
+    color: ${COLORS.name_color};
   }
   &.glo {
     font-size: 0.8rem;
@@ -108,7 +107,7 @@ const Aspect = styled.div`
     position: relative;
     left: -8px;
   }
-  color: #565656;
+  color: ${COLORS.aspect_color};
 `
 
 export const GlossAndLink: Comp<LinkProps> = props => {

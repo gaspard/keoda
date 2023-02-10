@@ -3,7 +3,7 @@ import { prefix } from '../../zulapa'
 export const ta = prefix('ta', {
   noun: 'they (singular)',
   cla: 'noun',
-  glo: 'POSS.they',
+  glo: 'POSS.**they**',
 })
 
 prefix('tam', {
@@ -15,7 +15,7 @@ prefix('tam', {
 prefix('tasha', {
   id: 'ta-sha',
   noun: 'their (PL)',
-  glo: 'POSS.they (PL)',
+  glo: 'POSS.**they (PL)**',
 })
 
 prefix('tasham', {
