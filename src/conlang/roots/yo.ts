@@ -6,13 +6,15 @@ export const yo = _.word('yo', {
 })
 
 export const yogi = _.word('yogi', {
-  noun: `Sweet day (salutation)`,
+  noun: `good morning`,
+  desc: () => `Sweet daytime.`,
   etym: () => [_.yo, _.gi],
   see: () => [_.yagi],
 })
 
 export const yohonagi = _.word('yohonagi', {
-  noun: 'Sweet dawn',
+  noun: 'good evening',
+  desc: () => `Sweet dawn.`,
   etym: () => [_.yohon, _.gi],
 })
 

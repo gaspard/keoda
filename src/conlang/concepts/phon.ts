@@ -1,7 +1,7 @@
 import * as _ from '../lang'
 
 export const phon = _.card('phon', {
-  open: true,
+  // open: true,
   writ: 'phon',
   phon: '/fɔn/',
   desc: () => `
@@ -64,6 +64,7 @@ Two consonants in a row are only allowed if:
 * previous consonant is \`/s/\`, \`/ʃ/\`, \`/k/\` or \`/n/\`
 * and next consonant is \`/k/\` or \`/t/\`
 * and they are not the same and not \`/nk/\`
+* or previous consonant is \`/m/\` and next consonant is not in \`/kmn/\`
 
 | cluster | sound | example |
 | :--: | :--: | :-- |
@@ -73,6 +74,7 @@ Two consonants in a row are only allowed if:
 | sht  | /ʃt/ | ${_.phrase('Their acceptance.', _.ish.ta)} |
 | kt  | /kt/ | ${_.phrase('Your shell (secrets).', _.dak.ti)} |
 | nt  | /nt/ | ${_.phrase('Their elbow.', _.wen.ta)} |
+| m[^kmn] | /m./ | ${_.phrase('Left foot.', _.sam.se)} |
 
 For other cases, we duplicate the previous vowel. Example: ${
     _.alayuru

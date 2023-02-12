@@ -3,7 +3,7 @@ import * as _ from '../lang'
 
 export const gi = suffix('gi', {
   adj: 'kind',
-  noun: 'premanence (Sthiti)',
+  noun: 'permanence (Sthiti)',
   etym: () => [_.gu, _.i$],
   see: () => [_.go],
 })

@@ -14,6 +14,7 @@ export const odashim = _.word('odashim', {
 
 export const unushim = _.word('unushim', {
   noun: 'sisterhood',
+  etym: () => [_.unu, _.shim],
 })
 
 export const noashim = _.word('noashim', {

@@ -6,6 +6,9 @@ export const zu = _.word('zu', {
   adv: 'lovingly',
   adj: 'lovely',
   see: () => [_.au],
+  desc: () => `
+  
+  `,
 })
 
 export const zuhu = _.word('zuhu', {

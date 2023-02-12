@@ -32,14 +32,10 @@ consonant, we add a vowel to fix. To do this, we repeat the last vowel:
 When the word ends with a vowel, we can also use the "old way" of adding
 /nam/ as this highlights the marking.
 
-## Example
+## Examples
 
-* ${_.phrase('I love you !', _.o.zu, _.ti.m)} (I love all of you)
-* ${_.phrase(
-    'I love you so much !',
-    _.o.zu,
-    _.pa.ti.m
-  )} (I love every bit of you)
+${_.phrase('I love you !', _.o.zu, _.ti.m)}
+${_.phrase('I love you every bit of you !', _.o.zu, _.pa.ti.m)}
 
 Next reading: ${_.verbs}
 `,

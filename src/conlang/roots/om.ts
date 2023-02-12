@@ -5,3 +5,13 @@ export const om = _.word('om', {
   adj: 'open, sacred',
   suff: 'temple, sacred',
 })
+
+export const omunu = _.word('omunu', {
+  noun: 'witch',
+  etym: () => [_.om, _.unu],
+})
+
+export const ominu = _.word('ominu', {
+  noun: 'witch sister',
+  etym: () => [_.om, _.hinu],
+})

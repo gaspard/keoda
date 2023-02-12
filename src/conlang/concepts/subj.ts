@@ -9,7 +9,7 @@ const Cai = _.word('Cai', {
 })
 
 export const subj = _.card('subj', {
-  open: true,
+  // open: true,
   desc: () => `
 # Subject and possessivity
 

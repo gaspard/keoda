@@ -1,7 +1,7 @@
 import * as _ from '../lang'
 
 export const pref = _.card('prefix/suffix', {
-  open: true,
+  // open: true,
   desc: () => `
 # List of all prefix and suffix
 

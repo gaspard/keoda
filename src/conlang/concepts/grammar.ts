@@ -1,7 +1,7 @@
 import * as _ from '../lang'
 
 export const grammar = _.card('grammar', {
-  open: true,
+  // open: true,
   desc: () => `
 # Grammar
 

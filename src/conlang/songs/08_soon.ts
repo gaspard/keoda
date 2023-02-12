@@ -1,7 +1,7 @@
 import * as _ from '../lang'
 
 export const soon = _.card('08 - soon', {
-  open: true,
+  // open: true,
   desc: () => `
 My hand walks on your skin
 Exploring your land.

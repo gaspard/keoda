@@ -33,7 +33,7 @@ const neiNEVER = _.alt('nei', {
 })
 
 export const verbs = _.card('verbs', {
-  open: true,
+  // open: true,
   desc: () => `
 # Action
 
@@ -84,9 +84,15 @@ Now that you know about the hardest, let's restart and move gently from one conc
 
 ## Imperative
 
-The simplest tense is the imperative:
+The simplest tense is the imperative. Note that we can drop the accusative and
+possessive when using the imperative to say "do something to a part of my body".
 
-* ${_.phrase('Kiss my cheek (face).', _.la.imp, _.duha.m)}
+${_.phrase('Kiss my lips.', _.la.imp, _.la)}
+${_.phrase('Kiss my cheek (face).', _.la.imp, _.duha)}
+
+But here the imperative (and consent) is required:
+
+${_.phrase('Kiss her lips.', _.la.imp, _.la.m, _.ni.unu)}
 
 ## Word order
 

@@ -1,11 +1,14 @@
 import * as _ from '../lang'
 
 export const hurt = _.card('01 - hurt', {
-  open: true,
+  // open: true,
   desc: () => `
 ${_.phrase('Something happened.', _.pena, _.a.e.em)}
+
 ${_.phrase('The earth split under my feet', _.gana, _.a.hos.em, _.ir.sam)}
+
 ${_.phrase('And cut me in half.', _.shu, _.a.tifi, _.ruP.de.to.m)}
+
 ${_.phrase(
   'My heart sank so deep I lost it.',
   _.zu.to,

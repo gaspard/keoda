@@ -6,6 +6,7 @@ export const entries = zulapa.entries
 export const prefix = zulapa.prefix
 export const suffix = zulapa.suffix
 export const phrase = zulapa.phrase
+export const caption = zulapa.caption
 export const word = zulapa.word
 export const alt = zulapa.alt
 export const card = zulapa.card

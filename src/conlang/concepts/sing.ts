@@ -1,7 +1,7 @@
 import * as _ from '../lang'
 
 export const sing = _.card('sing', {
-  open: true,
+  // open: true,
   desc: () => `
 # Some ideas for lyrics
 

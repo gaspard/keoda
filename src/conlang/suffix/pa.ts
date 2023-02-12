@@ -1,9 +1,10 @@
-import { alt, suffix } from '../zulapa'
 import * as _ from '../roots'
+import { alt, suffix } from '../zulapa'
 
 export const pa = suffix('pa', {
-  noun: 'everywhere',
+  noun: 'all',
   suff: 'mystery',
+  glo: 'ALL',
   see: () => [_.fi],
 })
 

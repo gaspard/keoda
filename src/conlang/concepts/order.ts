@@ -25,7 +25,7 @@ export const John = _.word('John', {
 })
 
 export const order = _.card('order', {
-  open: true,
+  // open: true,
   writ: 'order',
   desc: () => `
 # Word order

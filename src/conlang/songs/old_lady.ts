@@ -2,37 +2,6 @@ import * as _ from '../lang'
 
 export const old_lady = _.card('Old Lady', {
   desc: () => `
-
-## TMP
-
-* ${_.phrase(
-    'You crawled on me gently (like rain).',
-    _.i.adja.em,
-    _.fe.to.m,
-    _.si.gai
-  )}
-
-* ${_.phrase(
-    'Thank you for making my heart sing.',
-    _.nomy,
-    _.u.mahim,
-    _.to.zu,
-    _.a.lipa
-  )}
-
-* ${_.phrase(
-    'You draw with your fingertips on my skin.',
-    _.i.my,
-    _.ko.hama.kti,
-    _.noa.to.m
-  )}
-
-* ${_.phrase('You fingertip on my skin.', _.i.hama.kti, _.noa.to.m)}
-
-* ${_.phrase('You fingertip-dance on my skin.', _.i.hama.kti.y, _.noa.to.m)}
-
-* ${_.phrase('You draw on my skin with fire.', _.i.my, _.fe.noa, _.ko.aj)}
-
 # Old Lady
 
 * ${_.phrase(
