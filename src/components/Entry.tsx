@@ -11,6 +11,7 @@ import { GWrap, Info } from './Phrase'
 export interface EntryProps {
   className?: string
   popup?: boolean
+  reduced?: boolean
   id: string
 }
 
@@ -20,28 +21,34 @@ const Wrapper = styled.div`
   font-size: 18px;
   border: 1px solid ${COLORS.wrapper_border};
   background: ${COLORS.wrapper_bg};
-  margin: 14px;
+  margin: 40px;
   border-radius: 5px;
   align-items: start;
   align-self: top;
   box-shadow: 0 0 20px ${COLORS.wrapper_shadow};
+  max-width: 800px;
+  &.reduced {
+    background: #2d162c;
+    margin: 0px auto auto 0px;
+    padding: 0.5em;
+    border-radius: 0.6em;
+    div {
+      background: none;
+    }
+  }
+  .caption &.reduced {
+    background: #210021d6;
+    box-shadow: 0 0 30px #ff00ff4d;
+    border: 1px solid #f0fa;
+  }
   &:not(.phrase) {
     flex-direction: row;
-    width: 450px;
   }
   &.phrase {
     flex-direction: column;
-    width: auto;
   }
   &.card {
-    min-width: 600px;
     flex-grow: 1;
-  }
-  @media (max-width: 1024px) {
-    & {
-      min-width: 95%;
-      flex-grow: 1;
-    }
   }
   &.selected:not(.popup) > .Title {
     background: ${COLORS.selected_bg};
@@ -292,7 +299,7 @@ const Definition = styled.div`
     h1 {
       font-size: 2.1rem;
       margin-bottom: 2.4rem;
-      color: inherit;
+      color: ${COLORS.desc_first_h1};
     }
     h1:not(:first-child) {
       font-size: 1.8rem;
@@ -425,10 +432,11 @@ export const MyInfo = styled(Info)`
   z-index: 9;
 `
 
-export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
+export const Entry: Comp<EntryProps> = ({ className, id, popup, reduced }) => {
   const ctx = useOvermind()
   const entry = getEntry(ctx, id)
-  const [open, setOpen] = React.useState(entry?.open)
+  // const [open, setOpen] = React.useState(ctx.state.zulapa.open || entry?.open)
+  const open = reduced || ctx.state.zulapa.open
   const { filter, writ } = ctx.state.zulapa
   if (!entry) {
     // Should never happen
@@ -461,15 +469,16 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
       style={style as React.CSSProperties}
       className={classnames(entry.type, className, {
         popup,
+        reduced,
         // selected: id === ctx.state.zulapa.selected,
       })}
     >
-      {popup ? <ArrowUp /> : <ID id={id} />}
-      {!popup && (
+      {popup ? <ArrowUp /> : !reduced && <ID id={id} />}
+      {/* !popup && (
         <MyInfo onClick={() => setOpen(!open)} className={open ? 'open' : ''}>
           ℹ️
         </MyInfo>
-      )}
+      )*/}
       {entry.type === 'phrase' ? (
         <Title className="Title phrase">
           <Link id={id} type="md" />
@@ -489,8 +498,8 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
               </Suf>
             )}
           </Name>
-          <Other>{writ ? entry.name : entry.writ}</Other>
           <Phon>{entry.phon}</Phon>
+          <Other>{writ ? entry.name : entry.writ}</Other>
         </Title>
       )}
       <Definitions>
@@ -509,7 +518,7 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
             </Def>
           ))}
         </Group>
-        {def_keys.length > 0 && (
+        {!reduced && def_keys.length > 0 && (
           <Group>
             {def_keys.map(key => (
               <Definition key={key}>
@@ -537,13 +546,14 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup }) => {
             </Definition>
           </Group>
         )}
-        {entry.phrases && (
+        {!reduced && entry.phrases && (
           <Group>
             <Definition className="desc">
               <List
                 className="phrases"
                 entries={entry.phrases}
-                type={open ? 'md-open' : 'md'}
+                type="md"
+                // type={open ? 'md-open' : 'md'} // open phrases
               />
             </Definition>
           </Group>

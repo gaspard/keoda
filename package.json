@@ -53,6 +53,7 @@
     "bs-platform": "^9.0.0",
     "classnames": "^2.2.6",
     "gentype": "^3.43.0",
+    "html-to-image": "^1.11.11",
     "overmind": "^26.0.0",
     "overmind-react": "^27.0.0",
     "react": "^17.0.1",

@@ -7,7 +7,7 @@ export const ENDS_VOWEL = /[aoeiuy]$/
 export const ENDS_knssh = /(k|n|s|sh)$/
 export const ENDS_ssh = /(s|sh)$/
 export const ENDS_m = /m$/
-export const STARTS_no_join_m = /^[^kmt]/
+export const STARTS_no_join_m = /^[^kmn]/
 export const STARTS_t = /^t/
 export const STARTS_k = /^k/
 export const ENDS_i = /i$/
@@ -66,8 +66,10 @@ export interface EntryInfo {
   // phrases only
   trad: string
   phrase: string
-  // phrase options
+  // phrase options (obsolete ?)
   open?: boolean
+  // captions only
+  cap: string
   // alt ====
   // forced glo
   glo: string
@@ -135,10 +137,11 @@ export interface EntryByName {
   [key: string]: BaseEntry
 }
 
-export const TYPES: ('word' | 'card' | 'phrase' | 'alt')[] = [
+export const TYPES: ('word' | 'card' | 'phrase' | 'caption' | 'alt')[] = [
   'word',
   'card',
   'phrase',
+  'caption',
   'alt',
 ]
 
@@ -146,6 +149,7 @@ export interface EntriesByType {
   word: EntryByName
   card: EntryByName
   phrase: EntryByName
+  caption: EntryByName
   alt: EntryByName
   wordAndAlt: EntryByName
   phraseOrig?: BaseEntry
@@ -159,11 +163,12 @@ export interface CompiledEntriesByType {
   word: CompiledEntryByName
   card: CompiledEntryByName
   phrase: CompiledEntryByName
+  caption: CompiledEntryByName
   alt: CompiledEntryByName
 }
 
 export type EntryDefinition = Partial<FullEntry>
-export type BaseType = 'word' | 'card' | 'phrase' | 'alt'
+export type BaseType = 'word' | 'card' | 'phrase' | 'alt' | 'caption'
 
 export interface Base {
   id: string

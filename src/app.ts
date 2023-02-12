@@ -49,6 +49,7 @@ export type Colors = {
   main_bg: string
   desc_color: string
   desc_h1: string
+  desc_first_h1: string
   desc_h2: string
   desc_h3: string
   desc_h4: string
@@ -114,12 +115,13 @@ export const COLORS: Colors = {
   main_bg: 'var(--main_bg)',
   desc_color: 'var(--desc_color)',
   desc_h1: 'var(--desc_h1)',
+  desc_first_h1: 'var(--desc_first_h1)',
   desc_h2: 'var(--desc_h2)',
   desc_h3: 'var(--desc_h3)',
-  desc_h4: 'var(--def_h4_color)',
-  desc_h4_bg: 'var(--def_h4_bg)',
-  desc_h4_border: 'var(--def_h4_border)',
-  desc_h5_bg: 'var(--def_h5_bg)',
+  desc_h4: 'var(--desc_h4_color)',
+  desc_h4_bg: 'var(--desc_h4_bg)',
+  desc_h4_border: 'var(--desc_h4_border)',
+  desc_h5_bg: 'var(--desc_h5_bg)',
   desc_h6_border: 'var(--desc_h6_border)',
   desc_h6_bg: 'var(--desc_h6_bg)',
   desc_a: 'var(--desc_a)',
@@ -138,14 +140,14 @@ export const COLORS: Colors = {
 }
 
 export const DARK_COLORS: Colors = {
-  body_bg: '#955694',
+  body_bg: '#1b011a', // '#955694',
   high_color: '#ffa5003b',
   writ_btn_bg: '#955694',
   wrapper_border: '#6c2f6f',
   wrapper_shadow: '#ff00ff1f',
   wrapper_bg: '#1c001c',
   // definitions
-  definitions_bg: '#18021882',
+  definitions_bg: '#18021847',
   // phrase
   phrase_glo_bg: '#341e33b8',
   glo_border: '#f000f036',
@@ -157,7 +159,7 @@ export const DARK_COLORS: Colors = {
 
   glo_color: '#ffffff6b',
   noun_color: '#26ffeeaa',
-  adj_color: '#5c9ab3',
+  adj_color: '#91ff77b5',
   verb_color: '#ff964f',
   adv_color: '#ff77ffb5',
 
@@ -178,12 +180,13 @@ export const DARK_COLORS: Colors = {
   // main
   main_bg: '#0f142f52',
   desc_color: '#a5a5a5',
-  desc_h1: '#4cfff1',
-  desc_h2: '#4cfff1',
-  desc_h3: '#4cfff1',
+  desc_h1: '#4cfff182',
+  desc_first_h1: '#95ff03b8',
+  desc_h2: '#4cfff182',
+  desc_h3: '#4cfff182',
   desc_h4: '#a9ffa6',
-  desc_h4_bg: '#1f756f',
-  desc_h4_border: '#00ff5287',
+  desc_h4_bg: '#ffc6592b',
+  desc_h4_border: '#ffc6598b',
   desc_h5_bg: '#afada4',
   desc_h6_border: '#3d30a063',
   desc_h6_bg: '#312e4463',
@@ -191,7 +194,7 @@ export const DARK_COLORS: Colors = {
   desc_code: '#5cff5c',
   // title
   title_color: '#94ff00',
-  title_bg: '#0f001a99',
+  title_bg: '#0f001a6e',
   // selected title
   selected_bg: '#59175c',
   selected_title: '#fc84fc',
@@ -218,7 +221,7 @@ export const LIGHT_COLORS: Colors = {
   aspect_color: '#565656',
   writ_color: '#2c383c50', // opacity: 0.4; color wasn't set.
   name_color: '#2c383c50', // opacity: 0.4; color wasn't set.
-  open_shadow: '-100px -100px 300px #000',
+  open_shadow: '-100px -100px 300px #0003',
 
   glo_color: '#777',
   noun_color: '#2e4f8c',
@@ -244,6 +247,7 @@ export const LIGHT_COLORS: Colors = {
   main_bg: 'none', // ??
   desc_color: '#555',
   desc_h1: '#444',
+  desc_first_h1: 'inherit',
   desc_h2: '#444',
   desc_h3: '#444',
   desc_h4: 'inherit',
@@ -287,6 +291,8 @@ export interface ZulapaConfig {
       writ?: boolean
       // Show nsfw content
       nsfw?: boolean
+      // Open all phrases in descriptions
+      open?: boolean
       dark?: boolean
       selected?: string
       float?: FloatArg

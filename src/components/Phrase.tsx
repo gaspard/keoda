@@ -2,6 +2,7 @@ import classnames from 'classnames'
 import * as React from 'react'
 import { COLORS, Comp, styled, useOvermind } from '../app'
 import { getEntry } from '../helpers/getEntry'
+import { Entry } from './Entry'
 import { List } from './List'
 
 export interface PhraseProps {
@@ -10,16 +11,18 @@ export interface PhraseProps {
   id: string
 }
 
-const PhraseWrap = styled.div`
+export const PhraseWrap = styled.div`
   position: relative;
-  top: -3px;
+  top: -0.2em;
   display: inline-flex;
   color: #222;
   &.open {
-    margin-top: 1rem;
+    ${
+      ' ' /*margin-top: 1rem; if set back: check h4 paragraph to remove it into nsfw boxes */
+    }
   }
   p > &:first-child {
-    margin-left: 10px;
+    margin-left: 1em;
   }
   &:hover .Trad:not(.fix) {
     ${
@@ -30,16 +33,16 @@ const PhraseWrap = styled.div`
   &.nsfw {
     background: ${COLORS.nsfw_bg};
     box-shadow: ${COLORS.nsfw_shadow};
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 0.1em;
+    padding: 1em;
   }
   &.nsfw .Trad:not(.fix) {
-    top: -26px;
-    left: 33px;
+    top: -3em;
+    left: 3em;
   }
 `
 
-const Trad = styled.div`
+export const Trad = styled.div`
   color: #555;
   transition: filter 0.3s;
   &.blink {
@@ -51,32 +54,32 @@ const Trad = styled.div`
     position: absolute;
     opacity: 1;
     visibility: visible;
-    top: -36px;
-    left: 23px;
+    top: -2.5em;
+    left: 1em;
     z-index: 2;
-    background: ${COLORS.trad_bg};
+    background: ${COLORS.phrase_glo_bg};
     color: ${COLORS.trad_color};
     white-space: nowrap;
-    padding: 8px 16px 3px;
-    border-radius: 4px 4px 0px 0px;
-    border-width: 1px;
+    padding: 0.9em 1.2em 0.1em;
+    border-radius: 0.1em 0.1em 0px 0px;
+    border-width: 0.1em;
     border-style: solid;
     border-color: ${COLORS.glo_border} ${COLORS.glo_border} #00000000;
     border-image: initial;
   }
   &.fix {
-    margin: 5px 0;
+    margin: 0.2em 0;
     background: ${COLORS.fix_bg};
     color: ${COLORS.fix_color};
-    border-radius: 2px;
-    padding: 4px 8px;
+    border-radius: 0.2em;
+    padding: 0.2em 0.4em;
   }
 `
 
 export const Info = styled.div`
   cursor: pointer;
   transform: translate(0, 1px);
-  padding-right: 5px;
+  padding-right: 0.2em;
   opacity: 0.5;
   font-size: 64%;
   filter: hue-rotate(234deg);
@@ -100,7 +103,6 @@ export const GWrap = styled.div`
   display: flex;
   flex-direction: column;
   font-weight: normal;
-  font-size: 1rem;
   &.open {
     box-shadow: ${COLORS.open_shadow};
   }
@@ -142,10 +144,16 @@ export const Phrase: Comp<PhraseProps> = ({ className, type, id }) => {
         className={classnames(className, { nsfw: phrase.nsfw, open: true })}
       >
         <GWrap>
-          <Trad onClick={phraseClick} className={`Trad fix`}>
-            {phrase.trad}
-          </Trad>
-          <List type={type} entries={phrase.words!} glo />
+          {phrase.trad && (
+            <Trad onClick={phraseClick} className={`Trad fix`}>
+              {phrase.trad}
+            </Trad>
+          )}
+          {phrase.words!.length === 1 ? (
+            <Entry id={phrase.words![0]} reduced />
+          ) : (
+            <List type={type} entries={phrase.words!} glo />
+          )}
         </GWrap>
       </PhraseWrap>
     )
@@ -157,7 +165,7 @@ export const Phrase: Comp<PhraseProps> = ({ className, type, id }) => {
         </Info>
         {open ? (
           <GWrap className="open">
-            <Trad className="Trad">{phrase.trad}</Trad>
+            {phrase.trad && <Trad className="Trad">{phrase.trad}</Trad>}
             <List type={type} entries={phrase.words!} glo />
           </GWrap>
         ) : (

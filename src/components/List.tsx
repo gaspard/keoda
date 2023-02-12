@@ -36,18 +36,18 @@ export const ListWrapper = styled.div`
     flex-direction: column;
   }
   &.phrases > *:not(:first-child) {
-    margin-top: 5px;
+    margin-top: 0.2em;
   }
   &.phrase.glo {
     display: flex;
     flex-direction: row;
     background: ${COLORS.phrase_glo_bg};
-    border-radius: 4px;
+    border-radius: 0.2em;
     border: 1px solid ${COLORS.glo_border};
-    padding: 5px;
+    padding: 0.2em;
   }
   & .Link:not(:last-child) {
-    margin-right: 10px;
+    margin-right: 0.4em;
   }
   & .Link.Link a {
     color: inherit;
@@ -57,13 +57,12 @@ export const ListWrapper = styled.div`
 const Detail = styled.div`
   display: flex;
   flex-direction: column;
-  margin-right: 15px;
-  margin: 8px 15px;
+  margin-right: 1.2em;
+  margin: 0.4em 1.2em;
   & > p {
     font-family: Monaco;
-    font-size: 0.9rem;
-    margin-top: 6px;
-    font-size: 0.8rem;
+    font-size: 0.8em;
+    margin-top: 0.8em;
     color: ${COLORS.glo_color};
   }
   &&.noun strong {
@@ -90,22 +89,23 @@ const Detail = styled.div`
 
 const Aspect = styled.div`
   font-family: Monaco;
-  font-size: 0.9rem;
-  margin-top: 6px;
+  font-size: 0.9em;
+  margin-top: 0.9em;
   &.writ {
     font-family: 'Telugu';
-    font-size: 110%;
+    font-size: 0.9em;
     color: ${COLORS.writ_color};
   }
   &.name {
     color: ${COLORS.name_color};
   }
   &.glo {
-    font-size: 0.8rem;
+    font-size: 0.8em;
   }
   &.phon {
     position: relative;
-    left: -8px;
+    font-size: 0.8em;
+    left: -0.8em;
   }
   color: ${COLORS.aspect_color};
 `

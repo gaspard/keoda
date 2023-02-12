@@ -34,6 +34,9 @@ const config: ZulapaConfig = {
       window.localStorage.getItem('zulapa.nsfw') || 'true'
     )
     ctx.state.zulapa.dark = start_dark
+    ctx.state.zulapa.open = JSON.parse(
+      window.localStorage.getItem('zulapa.open') || 'true'
+    )
   },
   state: {
     zulapa: {

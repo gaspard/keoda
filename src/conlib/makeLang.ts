@@ -16,6 +16,7 @@ export function makeLang<T extends Object>() {
     alt: {},
     card: {},
     phrase: {},
+    caption: {},
     // word and alt, indexed by id, not type-id.
     wordAndAlt: {},
   }
@@ -34,6 +35,15 @@ export function makeLang<T extends Object>() {
     return p
   }
 
+  function makeCaption(definition: EntryDefinition) {
+    const p = entry(makeId(), definition, 'caption')
+    const e = entries.phraseOrig
+    if (e) {
+      p.definition.see = () => [e]
+    }
+    return p
+  }
+
   function alt(
     name: string,
     definition: EntryDefinition & { alt: () => Base }
@@ -43,6 +53,10 @@ export function makeLang<T extends Object>() {
 
   function phrase(trad: string, ...args: Base[]) {
     return makePhrase({ trad, words: () => args })
+  }
+
+  function caption(cap: string, trad: string, ...args: Base[]) {
+    return makeCaption({ cap, trad, words: () => args })
   }
 
   function card(name: string, definition: EntryDefinition): BaseEntry {
@@ -72,6 +86,7 @@ export function makeLang<T extends Object>() {
     prefix,
     suffix,
     phrase,
+    caption,
     card,
     word,
     alt,

@@ -41,7 +41,7 @@ export function joinMorphemes(
   } else if (!pvowel && !nvowel) {
     // two consonants or two semivowels
     if (ENDS_m.test(prevName) && STARTS_no_join_m.test(nextName)) {
-      // m.
+      // m. + not kmnt
       // no fix
     } else if (ENDS_knssh.test(prevName) && STARTS_t.test(nextName)) {
       // kt nt st sht

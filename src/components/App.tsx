@@ -17,11 +17,8 @@ export interface AppProps {
 }
 
 const Wrapper = styled.div`
-  /* styles here */
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: table;
+  margin: auto;
 `
 
 function print_colors(theme: Colors) {
@@ -66,13 +63,20 @@ const WritButton = styled.div`
 `
 
 const Nsfw = styled(WritButton)`
-  top: 60px;
+  right: 120px;
   &.on {
     background: ${COLORS.nsfw_btn_bg};
   }
 `
 const DarkBtn = styled(WritButton)`
-  top: 120px;
+  right: 180px;
+  &.on {
+    background: ${COLORS.nsfw_btn_bg};
+  }
+`
+
+const OpenBtn = styled(WritButton)`
+  right: 240px;
   &.on {
     background: ${COLORS.nsfw_btn_bg};
   }
@@ -82,7 +86,6 @@ export const Dark: Comp<AppProps> = () => {
   const ctx = useOvermind()
   const { dark } = ctx.state.zulapa
   React.useEffect(() => {
-    console.log('useEffect', dark)
     if (dark) {
       document.body.classList.add('dark')
     } else {
@@ -96,6 +99,19 @@ export const Dark: Comp<AppProps> = () => {
     >
       🌜
     </DarkBtn>
+  )
+}
+
+export const Open: Comp<AppProps> = () => {
+  const ctx = useOvermind()
+  const { open } = ctx.state.zulapa
+  return (
+    <OpenBtn
+      className={open ? 'on' : ''}
+      onClick={() => ctx.actions.zulapa.toggle({ key: 'open' })}
+    >
+      👀
+    </OpenBtn>
   )
 }
 
@@ -120,6 +136,7 @@ export const App: Comp<AppProps> = ({ className }) => {
         🍑
       </Nsfw>
       <Dark />
+      <Open />
       <Float />
       <Wrapper
         style={{ ['--nsfw']: nsfw ? 'block' : 'none' } as React.CSSProperties}

@@ -2,6 +2,7 @@ import classnames from 'classnames'
 import * as React from 'react'
 import { COLORS, Comp, styled, useOvermind } from '../app'
 import { getEntry } from '../helpers/getEntry'
+import { Caption } from './Caption'
 import { Phrase } from './Phrase'
 
 export interface LinkProps {
@@ -55,6 +56,8 @@ export const Link: Comp<LinkProps> = ({ className, id, type, children }) => {
   const [entryType] = id.split('-')
   if (entryType === 'phrase') {
     return <Phrase id={id} type={type} />
+  } else if (entryType === 'caption') {
+    return <Caption id={id} type={type} />
   }
   const entry = getEntry(ctx, id)
   if (!entry) {

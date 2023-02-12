@@ -106,7 +106,7 @@ function compileWord(entry: BaseEntry): CompiledEntry {
     const words = definition.words()
     compiled.words = words.map(makeId)
     // fulltext.push(...words.map(w => w.name))
-    if (entry.type === 'phrase') {
+    if (entry.type === 'phrase' || entry.type === 'caption') {
       compiled.phrase = words
         .filter(w => w)
         .map(w => w.name)
@@ -163,6 +163,7 @@ export function exportJSON(db: EntriesByType) {
     word: {},
     card: {},
     phrase: {},
+    caption: {},
     alt: {},
   }
 
@@ -171,7 +172,7 @@ export function exportJSON(db: EntriesByType) {
     const entries = db[type]
     Object.keys(entries).forEach(key => {
       const entry = compileWord(entries[key])
-      //console.log(entry.id)
+      // console.log(entry.id)
       result[entry.id] = entry
     })
   })
