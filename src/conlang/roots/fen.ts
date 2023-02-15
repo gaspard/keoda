@@ -11,7 +11,9 @@ export const feno = _.word('feno', {
   etym: () => [_.fen, _.o],
 })
 
-// export const efenom = _.example(
-//   [_.e, _.fen, _.om],
-//   `Soit à genoux les jambes écartées.`
-// )
+export const fenus = _.word('fenus', {
+  noun: 'contemplation',
+  verb: 'to care',
+  etym: () => [_.fen.verb, _.us.adv],
+  see: () => [_.palus, _.gahimus],
+})

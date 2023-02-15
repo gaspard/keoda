@@ -69,7 +69,26 @@ ${_.phrase('I love you too.', _.o.zu.meo, _.pa.i.m)}
 
 ${_.phrase('Good night witch sister.', _.yagi, _.ominu)}
 
-${_.phrase('', _.ominu)}
+${_.phrase('Witch sister', _.om, _.him, _.unu)}
+
+${_.phrase('', _.gu)}
+
+Intuition ?
+
+
+Insight ?
+
+${_.phrase('Do not move, submissive.', _.ne.me.imp, _.lo)}
+
+### 2023-02-15
+
+${_.phrase('To walk slowly: contemplation, to care.', _.fenus)}
+
+${_.phrase('To sit slowly: meditation, to feel.', _.palus)}
+
+${_.phrase('To think slowly: intuition, to dream.', _.gahimus)}
+
+${_.phrase('Sweet dreams.', _.si.yil, _.gahimus.verb)}
 
 `,
 })

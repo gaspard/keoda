@@ -20,3 +20,8 @@ Gratitude is receiving the present ${_.aupa}.
 Trusting is receiving the whole spectrum of time ${_.augu}, accepting life.
 `,
 })
+
+export const pagi = _.word('pagi', {
+  noun: 'hello',
+  etym: () => [_.pa, _.gi],
+})

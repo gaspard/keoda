@@ -13,6 +13,7 @@ export const STARTS_k = /^k/
 export const ENDS_i = /i$/
 export const ENDS_y = /y$/
 export const STARTS_y = /^y/
+export const ENDS_a = /a$/
 
 export function debug(l: any) {
   console.log(JSON.stringify(l, null, 2))

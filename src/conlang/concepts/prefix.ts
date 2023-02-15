@@ -5,15 +5,15 @@ export const pref = _.card('prefix/suffix', {
   desc: () => `
 # List of all prefix and suffix
 
-## Mood marking
+## Mood markings
 
-| meaning |
+| moods |
 | :---------- |
 | ${_.refAndGlo(_.i$)} |
 | ${_.refAndGlo(_.u$)} |
 | ${_.refAndGlo(_.o$)} |
 | ${_.refAndGlo(_.a$)} |
-| ${_.refAndGlo(_.y)} |
+| ${_.refAndGlo(_.y$)} |
 
 ## Verb
 

@@ -32,7 +32,7 @@ const Wrapper = styled.div`
     margin: 0px auto auto 0px;
     padding: 0.5em;
     border-radius: 0.6em;
-    div {
+    div:not(.img) {
       background: none;
     }
   }
@@ -47,8 +47,8 @@ const Wrapper = styled.div`
   &.phrase {
     flex-direction: column;
   }
-  &.card {
-    flex-grow: 1;
+  &.card .Main .noun {
+    color: ${COLORS.title_color};
   }
   &.selected:not(.popup) > .Title {
     background: ${COLORS.selected_bg};
@@ -82,7 +82,7 @@ const Wrapper = styled.div`
     margin: 10px;
   }
 
-  &::before {
+  & > .img {
     content: ' ';
     display: block;
     position: absolute;
@@ -127,9 +127,9 @@ const Title = styled.div`
     min-width: 7rem;
     border-bottom-left-radius: 5px;
     & > div {
-      padding: 12px 12px 0 14px;
+      padding: 0.8em 0.8em 0px 0.8em;
     }
-    padding-bottom: 12px;
+    padding-bottom: 0.8em;
   }
   &.phrase {
     border-top-right-radius: 5px;
@@ -184,7 +184,7 @@ const Group = styled.div`
   &:not(:last-child) {
     border-bottom: 1px solid ${COLORS.glo_border};
   }
-  padding: 20px 10px;
+  padding: 0.8em;
 `
 
 const Def = styled.span`
@@ -218,9 +218,12 @@ const Other = styled.div`
 // margin-left: 8px;
 
 const Definitions = styled.div`
-  .phrase & {
+  .phrase > & {
     border-left: none;
     border-top: 1px solid ${COLORS.glo_border};
+  }
+  .card > & {
+    border-left: none;
   }
   display: flex;
   flex-grow: 1;
@@ -374,10 +377,24 @@ const Definition = styled.div`
       margin: 2rem auto;
       border-collapse: collapse;
     }
+    table:first-child,
+    p:first-child {
+      margin-top: 0;
+    }
+    table:last-child,
+    p:last-child {
+      margin-bottom: 0;
+    }
     td,
     th {
       border: 1px solid ${COLORS.glo_border};
       padding: 4px 10px;
+    }
+    th {
+      background: ${COLORS.phrase_glo_bg};
+    }
+    th:empty {
+      display: none;
     }
     pre {
       background: #bfbcb1;
@@ -473,6 +490,7 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup, reduced }) => {
         // selected: id === ctx.state.zulapa.selected,
       })}
     >
+      {entry.img && <div className="img" />}
       {popup ? <ArrowUp /> : !reduced && <ID id={id} />}
       {/* !popup && (
         <MyInfo onClick={() => setOpen(!open)} className={open ? 'open' : ''}>
@@ -484,23 +502,25 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup, reduced }) => {
           <Link id={id} type="md" />
         </Title>
       ) : (
-        <Title className="Title">
-          <Name onClick={() => ctx.actions.zulapa.select({ id: entry.id })}>
-            {entry.suff && (
-              <Suf className="suff" data-def={entry.suff}>
-                ○&nbsp;
-              </Suf>
-            )}
-            {writ ? entry.writ : entry.name}
-            {entry.pref && (
-              <Suf className="pref" data-def={entry.pref}>
-                &nbsp;○
-              </Suf>
-            )}
-          </Name>
-          <Phon>{entry.phon}</Phon>
-          <Other>{writ ? entry.name : entry.writ}</Other>
-        </Title>
+        entry.type !== 'card' && (
+          <Title className="Title">
+            <Name onClick={() => ctx.actions.zulapa.select({ id: entry.id })}>
+              {entry.suff && (
+                <Suf className="suff" data-def={entry.suff}>
+                  ○&nbsp;
+                </Suf>
+              )}
+              {writ ? entry.writ : entry.name}
+              {entry.pref && (
+                <Suf className="pref" data-def={entry.pref}>
+                  &nbsp;○
+                </Suf>
+              )}
+            </Name>
+            <Phon>{entry.phon}</Phon>
+            <Other>{writ ? entry.name : entry.writ}</Other>
+          </Title>
+        )
       )}
       <Definitions>
         {entry.etym && (
@@ -510,14 +530,18 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup, reduced }) => {
             </GWrap>
           </React.Fragment>
         )}
-        <Group className="Main">
-          {MAIN_KEYS.filter(key => entry[key] !== undefined).map((key, idx) => (
-            <Def className={key} key={key}>
-              {idx > 0 ? <span>,</span> : null}
-              {entry[key]}
-            </Def>
-          ))}
-        </Group>
+        {entry.type === 'card' && entry.noun === '' ? (
+          false
+        ) : (
+          <Group className="Main">
+            {MAIN_KEYS.filter(key => entry[key]).map((key, idx) => (
+              <Def className={key} key={key}>
+                {idx > 0 ? <span>,</span> : null}
+                {entry[key]}
+              </Def>
+            ))}
+          </Group>
+        )}
         {!reduced && def_keys.length > 0 && (
           <Group>
             {def_keys.map(key => (
@@ -539,7 +563,7 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup, reduced }) => {
             ))}
           </Group>
         )}
-        {entry.desc && (
+        {(!reduced || (reduced && entry.type === 'card')) && entry.desc && (
           <Group>
             <Definition className="desc">
               <Markdown text={entry.desc} type={open ? 'md-open' : 'md'} />

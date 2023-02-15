@@ -40,10 +40,15 @@ export function refAndGlo(entry: EntryOrPrefix) {
   const ent = zulapa.resolve(entry)
   const def = Object.values(ent.definition)[0]
   if (def) {
-    return `${ent} (${def}) \`${ent.definition.glo}\``
+    return `${ent} (${def}) \`${ent.definition.glo?.replaceAll('*', '')}\``
   } else {
-    return `${ent} \`${ent.definition.glo}\``
+    return `${ent} \`${ent.definition.glo?.replaceAll('*', '')}\``
   }
+}
+
+export function gloss(entry: EntryOrPrefix) {
+  const ent = zulapa.resolve(entry)
+  return `\`${ent.definition.glo?.replaceAll('*', '')}\``
 }
 
 export function debug(entry: EntryOrPrefix) {

@@ -16,7 +16,7 @@ const CaptionWrap = styled.div`
   font-size: 1.5rem;
   &:not(.small) {
     width: 512px;
-    height: 480px;
+    height: 470px;
   }
   #root & {
     margin: 0;
@@ -71,6 +71,11 @@ export const Cap = styled.div`
       font-weight: bold;
       color: #f0f;
     }
+    em {
+      color: var(--title_color);
+      font-style: normal;
+      font-weight: bold;
+    }
   }
 `
 
@@ -99,12 +104,11 @@ function saveAs(blob: string, fileName: string) {
 
 export const Caption: Comp<PhraseProps> = ({ className, type, id }) => {
   const ctx = useOvermind()
-  const [open, setOpen] = React.useState(false)
-  const phrase = getEntry(ctx, id)
-  if (!phrase) {
+  const caption = getEntry(ctx, id)!
+  if (!caption) {
     return null
   }
-  if (phrase.nsfw) {
+  if (caption.nsfw) {
     if (!ctx.state.zulapa.nsfw) {
       return null
     }
@@ -122,10 +126,11 @@ export const Caption: Comp<PhraseProps> = ({ className, type, id }) => {
         div.classList.remove('caption')
         saveAs(
           dataUrl,
-          `${phrase!.words
-            ?.map(k => getEntry(ctx, k))
-            .map(w => w?.name)
-            .join('-')}.png`
+          `${
+            caption.id.replace('caption-', '') +
+            '-' +
+            (caption.cap || '').replaceAll(' ', '-')
+          }.png`
         )
       })
     }
@@ -134,24 +139,23 @@ export const Caption: Comp<PhraseProps> = ({ className, type, id }) => {
   return (
     <CaptionWrap
       className={classnames(className, {
-        nsfw: phrase.nsfw,
-        open: true,
+        nsfw: caption.nsfw,
         small: true,
       })}
     >
       <GWrap>
-        {phrase.cap && (
+        {caption.cap && (
           <Cap onClick={capClick} className={`Cap fix`}>
-            <Markdown text={phrase.cap} type="md" />
+            <Markdown text={caption.cap} type="md" />
           </Cap>
         )}
-        {phrase.words!.length === 1 ? (
-          <Entry id={phrase.words![0]} reduced />
+        {caption.trad === '' && caption.words!.length === 1 ? (
+          <Entry id={caption.words![0]} reduced />
         ) : (
-          phrase.trad && (
+          caption.trad && (
             <CWrap>
-              <Trad className={`Trad fix`}>{phrase.trad}</Trad>
-              <List type={type} entries={phrase.words!} glo />
+              <Trad className={`Trad fix`}>{caption.trad}</Trad>
+              <List type={type} entries={caption.words!} glo />
             </CWrap>
           )
         )}

@@ -6,7 +6,7 @@ export const yo = _.word('yo', {
 })
 
 export const yogi = _.word('yogi', {
-  noun: `good morning`,
+  noun: 'good morning',
   desc: () => `Sweet daytime.`,
   etym: () => [_.yo, _.gi],
   see: () => [_.yagi],

@@ -42,4 +42,11 @@ export const yulak = _.word('yulak', {
   etym: () => [_.yu, _.lak],
 })
 
+export const gahimus = _.word('gahimus', {
+  noun: 'intuition',
+  verb: 'to dream',
+  etym: () => [_.gahi.verb, _.us.adj],
+  see: () => [_.fenus, _.palus],
+})
+
 // === alt

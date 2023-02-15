@@ -1,4 +1,5 @@
 import {
+  ENDS_a,
   ENDS_knssh,
   ENDS_m,
   ENDS_ssh,
@@ -35,7 +36,12 @@ export function joinMorphemes(
   const nvowel = STARTS_VOWEL.test(nextName) // does not include 'y'
   if (pvowel && nvowel) {
     // two vowels
-    fix = join !== undefined ? join : prefix ? PREFIX_JOIN : SUFFIX_JOIN
+    if (nextName === 'i' && ENDS_a.test(prevName)) {
+      console.log(prevName, nextName, '<<=====')
+      fix = ''
+    } else {
+      fix = join !== undefined ? join : prefix ? PREFIX_JOIN : SUFFIX_JOIN
+    }
   } else if (ENDS_y.test(prevName) && STARTS_y.test(nextName)) {
     fix = join !== undefined ? join : 'n'
   } else if (!pvowel && !nvowel) {

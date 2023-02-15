@@ -82,12 +82,14 @@ For other cases, we duplicate the previous vowel. Example: ${
   
 ### Vowel cluster
 
-Vowel clusters are not allowed. An \`h\` (when joining a prefix) or \`l\` (when
-joining a suffix) are added in such cases: ${_.phrase(
-    'I love my body.',
-    _.o.au,
-    _.to.oda.m
-  )}.
+Vowel clusters are only allowed between \`/a/\` and the caressing mood ${_.i$}.
+
+${_.phrase('Kiss me gently.', _.la.i$.imp, _.la)}.
+
+For other cases, an \`h\` (when joining a prefix) or \`l\` (when joining a
+suffix) are added:
+
+${_.phrase('I love my body.', _.o.au, _.to.oda.m)}.
 
 Words sometimes drop the last vowel when adding a suffix that starts with a
 vowel instead of adding \`h\` or \`l\`.
