@@ -198,5 +198,15 @@ language.
 
 Now with all this new sounds, the question arrises: is this going to be too
 much, will the language loose it's distinctiveness ? Time will tell.
+
+### Dark theme *(February 2023)*
+
+Added a dark theme because I love fluorescent colors.
+
+Reverted the change of "ofo" to "oto" (because I was too used to this version
+and "ofo" never felt right and I wanted "fo" back because "fik" sounds like the
+german word for fuck).
+
+Started doing weekly tiktok videos on the language.
 `,
 })

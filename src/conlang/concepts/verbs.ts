@@ -64,7 +64,7 @@ mark intent or style:
     _.hamun.m
   )}
 * ${_.phraseX('Pinch my nipple (gently with love).', _.mu.gi.imp, _.hamun.m)}
-* ${_.phraseX('Whip my butt.', _.fik.imp, _.pal.m)}
+* ${_.phraseX('Whip my butt.', _.fo.imp, _.pal.m)}
 
 ## The hardest case
 

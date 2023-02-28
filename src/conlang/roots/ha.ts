@@ -7,9 +7,9 @@ export const ha = _.word('ha', {
   see: () => [_.jo],
 })
 
-export const hafik = _.word('hafik', {
+export const hafo = _.word('hafo', {
   verb: 'to fall',
-  etym: () => [_.ha, _.fik],
+  etym: () => [_.ha, _.fo],
 })
 
 export const hame = _.word('hame', {

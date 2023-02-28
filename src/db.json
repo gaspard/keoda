@@ -3639,37 +3639,6 @@
         "phrase-214"
       ]
     },
-    "word-fik": {
-      "name": "fik",
-      "type": "word",
-      "verb": "to whip",
-      "forcedGlo": false,
-      "glo": "**whip**",
-      "cla": "verb",
-      "id": "word-fik",
-      "fulltext": "fik",
-      "writ": "చిk",
-      "phon": "/fik/",
-      "deriv": [
-        "word-hafik"
-      ],
-      "phrases": [
-        "phrase-3",
-        "phrase-114",
-        "phrase-159",
-        "phrase-167",
-        "phrase-168",
-        "phrase-169",
-        "phrase-170",
-        "phrase-172",
-        "phrase-173",
-        "phrase-174",
-        "phrase-175",
-        "phrase-176",
-        "phrase-328",
-        "phrase-459"
-      ]
-    },
     "word-fio": {
       "name": "fio",
       "type": "word",
@@ -3703,6 +3672,37 @@
       "fulltext": "fiona",
       "writ": "చిఓనా",
       "phon": "/fiɔna/"
+    },
+    "word-fo": {
+      "name": "fo",
+      "type": "word",
+      "verb": "to whip",
+      "forcedGlo": false,
+      "glo": "**whip**",
+      "cla": "verb",
+      "id": "word-fo",
+      "fulltext": "fo",
+      "writ": "చో",
+      "phon": "/fɔ/",
+      "deriv": [
+        "word-hafo"
+      ],
+      "phrases": [
+        "phrase-3",
+        "phrase-114",
+        "phrase-159",
+        "phrase-167",
+        "phrase-168",
+        "phrase-169",
+        "phrase-170",
+        "phrase-172",
+        "phrase-173",
+        "phrase-174",
+        "phrase-175",
+        "phrase-176",
+        "phrase-328",
+        "phrase-459"
+      ]
     },
     "word-fodi": {
       "name": "fodi",
@@ -4539,7 +4539,7 @@
         "word-hapan",
         "word-hu",
         "word-habaj",
-        "word-hafik",
+        "word-hafo",
         "word-duha",
         "word-hawe",
         "word-hase",
@@ -4557,21 +4557,21 @@
         "word-hataj"
       ]
     },
-    "word-hafik": {
-      "name": "hafik",
+    "word-hafo": {
+      "name": "hafo",
       "type": "word",
       "verb": "to fall",
       "etym": [
         "word-ha",
-        "word-fik"
+        "word-fo"
       ],
       "forcedGlo": false,
       "glo": "**fall**",
       "cla": "verb",
-      "id": "word-hafik",
-      "fulltext": "hafik",
-      "writ": "హాచిk",
-      "phon": "/hafik/",
+      "id": "word-hafo",
+      "fulltext": "hafo",
+      "writ": "హాచో",
+      "phon": "/hafɔ/",
       "phrases": [
         "phrase-453"
       ]
@@ -14107,7 +14107,7 @@
       "type": "card",
       "writ": "evolution",
       "phon": "",
-      "desc": "\n# Evolution\n\nThis is some historical notes on the language as it has evolved and how\nexpressing the same thing has changed over time.\n\nThe current state of affaires is here: [grammar](card-grammar)\n\n#### note\n\nThis whole card is nsfw because this is what guides this language.\n\n## An example\n\n### Caress your breasts delicately\n\nIn this example, we see how the first version used a kind of dative and no\nverb marking. This then evolved to use a very regular accusative, and finaly\nwe added the dative back but with more power and made the accusative nicer.\n\n* [138](phrase-138)\n* [139](phrase-139)\n* [140](phrase-140)\n* [141](phrase-141)\n\n## Chronology\n\nTODO: go through commit log\n\n### Subject consitency *(Jan 2021)*\n\n* All **plurals** (more than two) have an extra prefix of `/ʃ/` (**sh**),\n  except for [ka](word-ka) (every).\n* Subjects of which the **speaker** belongs to start with `/ɔ/` (**o**)\n* Subjects of which the **listener** belongs to start with `/i/` (**i**)\n* Subjects **not present** start with `/a/` (**a**)\n\n### Removed copula *(Jan 2021)*\n\nAfter adding passive and continuous tenses, it made sense to express properties without\nsaying \"is\" but instead using the \"active\" nature of nouns and this tense:\n\n* [142](phrase-142)\n\n### Full blown \"dot\" writing code *(Jan 2021)*\n\nAdded code in TypeScript (using JS Proxy) to automatically agglutinate\nmorphemes in order to ensure consistency and stable rules for word\naglutination and glossing. These 'code' based rules had an interesting\neffect as they forced me to clarify the functional meaning of some of the hacks\nI was writting and this led to the notion that most prefix ([ne](word-ne) is an\nexception) change the function of the word whereas most suffix (accusative ones\nare the exceptions here) are semantic modifiers.\n\nIn short, most \"prefixes\" alter function and most \"suffix\" alter meaning.\n\n~~~ts\n// This is how the next phrase is written\n_.phrase('We are being loved.', _.es.o.lu.zu)\n~~~\n\n[143](phrase-143)\n\n### Adding modifier markers *(Feb 2021)*\n\nAfter creating the most used prefixes and suffixes, I realized that I did not want\nany word to agglutinate to act as a modifier because it would make words incredibly\nhard to understand (and long). So I needed a way to mark a word as acting like an\nadjective or adverb (and thus showing this definition in the gloss instead of the\nnoun).\n\nListening to William Croft on the Conlangery podcast, I really liked the way\nMandarin Chinese uses a prefix to change a noun into a property modifier:\nsomething in the way of saying \"very fish\" to mean \"beautiful\". I opted for this\nstrategy, using ([le](word-le)) for adjectives which means \"very\" and using\n([si](word-si)) for adverbs which means \"as, like\".\n\n* [144](phrase-144)\n\n### Adding infinitive *(Feb 2021)*\n\nAs the title implies, this allows saying all kinds of complicated things regarding what\nwe enjoy doing, who we have seen doing what and so on.\n\n#### nsfw\n\n* [145](phrase-145)\n\n### Engine rewrite and testing *(Feb 2021)*\n\nThis rewrite and cleanup had the side effect of pushing all non-written phonotactics into\ncode, making things much more consistent on how morphemes assemble. Now prefix all \"fix\"\njoin with `/h/` and suffix use `/l/` unless there is an exception. This made numbers\nfunny:\n\n* [146](phrase-146)\n\nHaving tests to ensure things do not break is a very good step forward.\n\n### Indefinite subject *(August 2021)*\n\nTransformed the [u](word-u) conjugation from an infinitive into the notion of \"life\nitself\" doing something: the infinite subject. This is a first step in\nthe direction of removing some of the body/mind dichotomy, trying to blur the\nnotion of \"subject\" so as to remove some of the separation with the direct\nobject.\n\nDavid Bohm's idea on the rheomode (putting word priority on the verb) made me\ntry different ideas and I think the best solution is to simply use the existing\npassive voice with the infinite subject: [147](phrase-147).\n\nI would like to change some meanings related to \"spirit\". I want this languge to\nbe about the body, so \"mind\" has to be something that is a lived experience, not\nsome \"spirit\" or \"soul\". This means that [ga](word-ga) needs to change from \"spirit\"\nto something else ? I have to do some introspection to see if I find concepts\nthat better describe \"inner experience\", something that would only exist in\nrelation with the body, a painting, matter. I want spirit to be a property of\nmatter, of [gu](word-gu), not some \"other thing\".\n\n### Loved *(January 2022)*\n\nHaha ! This is why the [a](word-a$) suffix was free. It was reserved, a late coming\nbeauty to the party. It means \"loved\" in the sense of being taken inside, to the\nheart, to the self.\n\nSo now [ga](word-ga) (spirit) comes from [gua](alt-gu-a$) (life loved, life taken to the\nself). Isn't this beautiful ?\n\nAnd [gu](word-gu) still derives from [ga](word-ga) as [gau](alt-ga-u$) (pulled spirit) because\nevery language is a digraph and loops are fun.\n\nNo more matter/mind dichotomy since they now both define each other in a\nbeautiful dance.\n\n### Zulapa *(March 2022)*\n\nRenamed the language to Zulapa because I wanted a \".com\" domain for it and I\nalso think that it has evolved to being something more about kindness than just\n\"the body\". So now this language is \"the heart speaks\" or \"heart speak\".\n\nI love it !\n\n### Unu *(April 2022)*\n\nReplaced \"ana\" to \"unu\" and \"oto\" to \"ofo\" because these roots sounded too much\nlike names. This made me change \"fo\" (to whip) to \"fik\" because father (hafo)\nwould be the same word as to fall.\n\nI also felt that it was time to allow some double consonants to add a little\nbit of spice to the language because singing felt boring without any stops. So\nnow words can end in \"k\" or \"sh\" and the consonant pairs \"kt\", \"nt\", \"st\",\n\"sht\" and \"shk\" are allowed.\n\nWith these new sounds, I felt that we no longer need taste markings and we can\nsimply use \"m\" in all cases. It was confusing.\n\n### Semivowel *(April 2022 - Amsterdam)*\n\nI love slavic languages and wanted to have the /j/ sound as a vowel for a long\ntime. And then I met [Marina](https://instagram.com/imaginary_marina) who is an\nillustrator and she spoke in Ukrainian and Russian and this reminded me that it\nis time to add the /j/ sound as a vowel. I feel it adds some feminity to the\nlanguage.\n\nNow with all this new sounds, the question arrises: is this going to be too\nmuch, will the language loose it's distinctiveness ? Time will tell.\n",
+      "desc": "\n# Evolution\n\nThis is some historical notes on the language as it has evolved and how\nexpressing the same thing has changed over time.\n\nThe current state of affaires is here: [grammar](card-grammar)\n\n#### note\n\nThis whole card is nsfw because this is what guides this language.\n\n## An example\n\n### Caress your breasts delicately\n\nIn this example, we see how the first version used a kind of dative and no\nverb marking. This then evolved to use a very regular accusative, and finaly\nwe added the dative back but with more power and made the accusative nicer.\n\n* [138](phrase-138)\n* [139](phrase-139)\n* [140](phrase-140)\n* [141](phrase-141)\n\n## Chronology\n\nTODO: go through commit log\n\n### Subject consitency *(Jan 2021)*\n\n* All **plurals** (more than two) have an extra prefix of `/ʃ/` (**sh**),\n  except for [ka](word-ka) (every).\n* Subjects of which the **speaker** belongs to start with `/ɔ/` (**o**)\n* Subjects of which the **listener** belongs to start with `/i/` (**i**)\n* Subjects **not present** start with `/a/` (**a**)\n\n### Removed copula *(Jan 2021)*\n\nAfter adding passive and continuous tenses, it made sense to express properties without\nsaying \"is\" but instead using the \"active\" nature of nouns and this tense:\n\n* [142](phrase-142)\n\n### Full blown \"dot\" writing code *(Jan 2021)*\n\nAdded code in TypeScript (using JS Proxy) to automatically agglutinate\nmorphemes in order to ensure consistency and stable rules for word\naglutination and glossing. These 'code' based rules had an interesting\neffect as they forced me to clarify the functional meaning of some of the hacks\nI was writting and this led to the notion that most prefix ([ne](word-ne) is an\nexception) change the function of the word whereas most suffix (accusative ones\nare the exceptions here) are semantic modifiers.\n\nIn short, most \"prefixes\" alter function and most \"suffix\" alter meaning.\n\n~~~ts\n// This is how the next phrase is written\n_.phrase('We are being loved.', _.es.o.lu.zu)\n~~~\n\n[143](phrase-143)\n\n### Adding modifier markers *(Feb 2021)*\n\nAfter creating the most used prefixes and suffixes, I realized that I did not want\nany word to agglutinate to act as a modifier because it would make words incredibly\nhard to understand (and long). So I needed a way to mark a word as acting like an\nadjective or adverb (and thus showing this definition in the gloss instead of the\nnoun).\n\nListening to William Croft on the Conlangery podcast, I really liked the way\nMandarin Chinese uses a prefix to change a noun into a property modifier:\nsomething in the way of saying \"very fish\" to mean \"beautiful\". I opted for this\nstrategy, using ([le](word-le)) for adjectives which means \"very\" and using\n([si](word-si)) for adverbs which means \"as, like\".\n\n* [144](phrase-144)\n\n### Adding infinitive *(Feb 2021)*\n\nAs the title implies, this allows saying all kinds of complicated things regarding what\nwe enjoy doing, who we have seen doing what and so on.\n\n#### nsfw\n\n* [145](phrase-145)\n\n### Engine rewrite and testing *(Feb 2021)*\n\nThis rewrite and cleanup had the side effect of pushing all non-written phonotactics into\ncode, making things much more consistent on how morphemes assemble. Now prefix all \"fix\"\njoin with `/h/` and suffix use `/l/` unless there is an exception. This made numbers\nfunny:\n\n* [146](phrase-146)\n\nHaving tests to ensure things do not break is a very good step forward.\n\n### Indefinite subject *(August 2021)*\n\nTransformed the [u](word-u) conjugation from an infinitive into the notion of \"life\nitself\" doing something: the infinite subject. This is a first step in\nthe direction of removing some of the body/mind dichotomy, trying to blur the\nnotion of \"subject\" so as to remove some of the separation with the direct\nobject.\n\nDavid Bohm's idea on the rheomode (putting word priority on the verb) made me\ntry different ideas and I think the best solution is to simply use the existing\npassive voice with the infinite subject: [147](phrase-147).\n\nI would like to change some meanings related to \"spirit\". I want this languge to\nbe about the body, so \"mind\" has to be something that is a lived experience, not\nsome \"spirit\" or \"soul\". This means that [ga](word-ga) needs to change from \"spirit\"\nto something else ? I have to do some introspection to see if I find concepts\nthat better describe \"inner experience\", something that would only exist in\nrelation with the body, a painting, matter. I want spirit to be a property of\nmatter, of [gu](word-gu), not some \"other thing\".\n\n### Loved *(January 2022)*\n\nHaha ! This is why the [a](word-a$) suffix was free. It was reserved, a late coming\nbeauty to the party. It means \"loved\" in the sense of being taken inside, to the\nheart, to the self.\n\nSo now [ga](word-ga) (spirit) comes from [gua](alt-gu-a$) (life loved, life taken to the\nself). Isn't this beautiful ?\n\nAnd [gu](word-gu) still derives from [ga](word-ga) as [gau](alt-ga-u$) (pulled spirit) because\nevery language is a digraph and loops are fun.\n\nNo more matter/mind dichotomy since they now both define each other in a\nbeautiful dance.\n\n### Zulapa *(March 2022)*\n\nRenamed the language to Zulapa because I wanted a \".com\" domain for it and I\nalso think that it has evolved to being something more about kindness than just\n\"the body\". So now this language is \"the heart speaks\" or \"heart speak\".\n\nI love it !\n\n### Unu *(April 2022)*\n\nReplaced \"ana\" to \"unu\" and \"oto\" to \"ofo\" because these roots sounded too much\nlike names. This made me change \"fo\" (to whip) to \"fik\" because father (hafo)\nwould be the same word as to fall.\n\nI also felt that it was time to allow some double consonants to add a little\nbit of spice to the language because singing felt boring without any stops. So\nnow words can end in \"k\" or \"sh\" and the consonant pairs \"kt\", \"nt\", \"st\",\n\"sht\" and \"shk\" are allowed.\n\nWith these new sounds, I felt that we no longer need taste markings and we can\nsimply use \"m\" in all cases. It was confusing.\n\n### Semivowel *(April 2022 - Amsterdam)*\n\nI love slavic languages and wanted to have the /j/ sound as a vowel for a long\ntime. And then I met [Marina](https://instagram.com/imaginary_marina) who is an\nillustrator and she spoke in Ukrainian and Russian and this reminded me that it\nis time to add the /j/ sound as a vowel. I feel it adds some feminity to the\nlanguage.\n\nNow with all this new sounds, the question arrises: is this going to be too\nmuch, will the language loose it's distinctiveness ? Time will tell.\n\n### Dark theme *(February 2023)*\n\nAdded a dark theme because I love fluorescent colors.\n\nReverted the change of \"ofo\" to \"oto\" (because I was too used to this version\nand \"ofo\" never felt right and I wanted \"fo\" back because \"fik\" sounds like the\ngerman word for fuck).\n\nStarted doing weekly tiktok videos on the language.\n",
       "id": "card-evolution",
       "fulltext": "evolution"
     },
@@ -14264,7 +14264,7 @@
       "type": "card",
       "writ": "phon",
       "phon": "/fɔn/",
-      "desc": "\n## Phonology and script\n\n![lepakshi](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Lepakshi...jpg/330px-Lepakshi...jpg)\n\nUsing [telugu script](https://en.wikipedia.org/wiki/Telugu_script) because it\nis an *abugida*, the sounds match nearly perfectly and... it looks so good\nand curvy.\n\n## Consonants\n\n|                 | Labial     | Coronal         | Dorsal       | Glottal |\n| :-------------  | :--------: | :-------------: | :----------: | :-----: |\n| **Nasal**       | m మ       | n న             |              |         |\n| **Plosive**     | p ప / b బ | t త / d ద  | k క / g గ        |         |\n| **Fricative**   | f చ       | s స / z ఠ  •  ʃ శ / ʒ జ |      | h హ |\n| **Approximant** | ʋ  వ      |                 | j య         |         |\n| **Trill**       |            | r ర             |              |         |\n| **Lateral**     |            | l ల             |              |         |\n\nAll sounds correspond to [Telugu](https://en.wikipedia.org/wiki/Telugu_script) except for:\n\n| Symbol | Telugu     | Zulapa     | Example             |\n| :----: | :--------: | :-------: | :--------:          |\n| **చ**  | /tʃ/       | /f/       | [falame](word-falame)        |\n| **ఠ**  | /tʰ/       | /z/       | [zuzu](word-zuzu)          |\n| **జ్‌**  | /dʒ/       | /ʒ/       | [joda](word-joda), [baj](word-baj) |\n| **ఇ‌**  | /aj/       | /j/       | [my](word-my) |\n \n\n## Vowels\n\n|                 | Front      | Central         | Back         |\n| :-------------  | :--------: | :-------------: | :----------: |\n| **Close**       | i  ి  ఇ   |                 | u   ు  ఉ   |\n| **Mid**         | ɛ  ే  ఎ   |                 | ɔ   ో  ఓ    |\n| **Open**        | a  ా  అ  |                 |              |\n \n\n## Semivowel\n\n|                 | As vowel   | As consonant    |\n| :-------------  | :--------: | :-------------: |\n| **Palatal**     | j  ై ఇ    |  య             |\n\n## Stress\n\nStress on penultimate syllable before suffix.\n\nkeOda, lamigOa, agUwu, afOliri\n\n## Phonotactics\n\n### Consonant cluster\n\nTwo consonants in a row are only allowed if:\n\n* previous consonant is `/s/`, `/ʃ/`, `/k/` or `/n/`\n* and next consonant is `/k/` or `/t/`\n* and they are not the same and not `/nk/`\n* or previous consonant is `/m/` and next consonant is not in `/kmn/`\n\n| cluster | sound | example |\n| :--: | :--: | :-- |\n| sk   | /sk/ | [182](phrase-182) |\n| st  | /st/ | [183](phrase-183) |\n| shk  | /ʃk/ | [184](phrase-184) |\n| sht  | /ʃt/ | [185](phrase-185) |\n| kt  | /kt/ | [186](phrase-186) |\n| nt  | /nt/ | [187](phrase-187) |\n| m[^kmn] | /m./ | [188](phrase-188) |\n\nFor other cases, we duplicate the previous vowel. Example: [alayuru](word-alayuru) instead of `alyuru`, or [fikina](alt-fik-na) instead of `fikna`.\n  \n### Vowel cluster\n\nVowel clusters are allowed in roots and when connecting moods. Example:\n\n[189](phrase-189).\n\nFor other cases, we use `h` when joining a prefix, `n` to join /y/ and `l` when joining a\nsuffix:\n\n[190](phrase-190).\n\n[191](phrase-191).\n\nWords sometimes drop the last vowel when adding a suffix that starts with a\nvowel instead of adding `h` or `l`.\n\nFew words end in [m](word-m) because this marker is used for accusative. \n\n## Script\n\nDiphthongs are avoided and should not comme too often in scripts. If they\nare present, they are written as two separate letters: [noa](word-noa).\n\n## Current evolutions\n\n* There is a tendency to use `/zu/` instead of `/au/`.\n* There might be a trend to change `/dʒ/` into `/ʒ/`. \n\nYour next read: [kedana](card-kedana) (geography)\n",
+      "desc": "\n## Phonology and script\n\n![lepakshi](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Lepakshi...jpg/330px-Lepakshi...jpg)\n\nUsing [telugu script](https://en.wikipedia.org/wiki/Telugu_script) because it\nis an *abugida*, the sounds match nearly perfectly and... it looks so good\nand curvy.\n\n## Consonants\n\n|                 | Labial     | Coronal         | Dorsal       | Glottal |\n| :-------------  | :--------: | :-------------: | :----------: | :-----: |\n| **Nasal**       | m మ       | n న             |              |         |\n| **Plosive**     | p ప / b బ | t త / d ద  | k క / g గ        |         |\n| **Fricative**   | f చ       | s స / z ఠ  •  ʃ శ / ʒ జ |      | h హ |\n| **Approximant** | ʋ  వ      |                 | j య         |         |\n| **Trill**       |            | r ర             |              |         |\n| **Lateral**     |            | l ల             |              |         |\n\nAll sounds correspond to [Telugu](https://en.wikipedia.org/wiki/Telugu_script) except for:\n\n| Symbol | Telugu     | Zulapa     | Example             |\n| :----: | :--------: | :-------: | :--------:          |\n| **చ**  | /tʃ/       | /f/       | [falame](word-falame)        |\n| **ఠ**  | /tʰ/       | /z/       | [zuzu](word-zuzu)          |\n| **జ్‌**  | /dʒ/       | /ʒ/       | [joda](word-joda), [baj](word-baj) |\n| **ఇ‌**  | /aj/       | /j/       | [my](word-my) |\n \n\n## Vowels\n\n|                 | Front      | Central         | Back         |\n| :-------------  | :--------: | :-------------: | :----------: |\n| **Close**       | i  ి  ఇ   |                 | u   ు  ఉ   |\n| **Mid**         | ɛ  ే  ఎ   |                 | ɔ   ో  ఓ    |\n| **Open**        | a  ా  అ  |                 |              |\n \n\n## Semivowel\n\n|                 | As vowel   | As consonant    |\n| :-------------  | :--------: | :-------------: |\n| **Palatal**     | j  ై ఇ    |  య             |\n\n## Stress\n\nStress on penultimate syllable before suffix.\n\nkeOda, lamigOa, agUwu, afOliri\n\n## Phonotactics\n\n### Consonant cluster\n\nTwo consonants in a row are only allowed if:\n\n* previous consonant is `/s/`, `/ʃ/`, `/k/` or `/n/`\n* and next consonant is `/k/` or `/t/`\n* and they are not the same and not `/nk/`\n* or previous consonant is `/m/` and next consonant is not in `/kmn/`\n\n| cluster | sound | example |\n| :--: | :--: | :-- |\n| sk   | /sk/ | [182](phrase-182) |\n| st  | /st/ | [183](phrase-183) |\n| shk  | /ʃk/ | [184](phrase-184) |\n| sht  | /ʃt/ | [185](phrase-185) |\n| kt  | /kt/ | [186](phrase-186) |\n| nt  | /nt/ | [187](phrase-187) |\n| m[^kmn] | /m./ | [188](phrase-188) |\n\nFor other cases, we duplicate the previous vowel. Example: [alayuru](word-alayuru) instead of `alyuru`, or [fona](alt-fo-na) instead of `fikna`.\n  \n### Vowel cluster\n\nVowel clusters are allowed in roots and when connecting moods. Example:\n\n[189](phrase-189).\n\nFor other cases, we use `h` when joining a prefix, `n` to join /y/ and `l` when joining a\nsuffix:\n\n[190](phrase-190).\n\n[191](phrase-191).\n\nWords sometimes drop the last vowel when adding a suffix that starts with a\nvowel instead of adding `h` or `l`.\n\nFew words end in [m](word-m) because this marker is used for accusative. \n\n## Script\n\nDiphthongs are avoided and should not comme too often in scripts. If they\nare present, they are written as two separate letters: [noa](word-noa).\n\n## Current evolutions\n\n* There is a tendency to use `/zu/` instead of `/au/`.\n* There might be a trend to change `/dʒ/` into `/ʒ/`. \n\nYour next read: [kedana](card-kedana) (geography)\n",
       "id": "card-phon",
       "fulltext": "phon"
     },
@@ -14451,7 +14451,7 @@
       "nsfw": true,
       "words": [
         "alt-ti-lo-m",
-        "alt-o-fik-ire",
+        "alt-o-fo-ire",
         "alt-si-enu"
       ],
       "see": [
@@ -14461,7 +14461,7 @@
       "fulltext": "3",
       "writ": "౩",
       "phon": " ",
-      "phrase": "tilom ofikire sihenu"
+      "phrase": "tilom ofolire sihenu"
     },
     "phrase-4": {
       "name": "4",
@@ -16267,7 +16267,7 @@
       "words": [
         "alt-o-mahim-em",
         "alt-unu-m",
-        "alt-a-fik-m",
+        "alt-a-fo-m",
         "alt-oto-m"
       ],
       "see": [
@@ -16277,7 +16277,7 @@
       "fulltext": "114",
       "writ": "౧౧౪",
       "phon": " ",
-      "phrase": "omahimem unum afikim otom"
+      "phrase": "omahimem unum afom otom"
     },
     "phrase-115": {
       "name": "115",
@@ -17065,7 +17065,7 @@
       "trad": "Jane whips the butt of John",
       "words": [
         "word-Jane",
-        "alt-a-fik",
+        "alt-a-fo",
         "alt-pal-wu",
         "alt-John-m"
       ],
@@ -17076,7 +17076,7 @@
       "fulltext": "159",
       "writ": "౧౫౯",
       "phon": " ",
-      "phrase": "Jane afik palawu Johnom"
+      "phrase": "Jane afo palawu Johnom"
     },
     "phrase-160": {
       "name": "160",
@@ -17219,7 +17219,7 @@
       "type": "phrase",
       "trad": "They whip John's butt.",
       "words": [
-        "alt-a-fik",
+        "alt-a-fo",
         "word-John",
         "alt-pal-m"
       ],
@@ -17230,14 +17230,14 @@
       "fulltext": "167",
       "writ": "౧౬౭",
       "phon": " ",
-      "phrase": "afik John palam"
+      "phrase": "afo John palam"
     },
     "phrase-168": {
       "name": "168",
       "type": "phrase",
       "trad": "They whip the butt of John.",
       "words": [
-        "alt-a-fik",
+        "alt-a-fo",
         "alt-pal-wu",
         "alt-John-m"
       ],
@@ -17248,7 +17248,7 @@
       "fulltext": "168",
       "writ": "౧౬౮",
       "phon": " ",
-      "phrase": "afik palawu Johnom"
+      "phrase": "afo palawu Johnom"
     },
     "phrase-169": {
       "name": "169",
@@ -17256,7 +17256,7 @@
       "trad": "The butt, they whip (of) John.",
       "words": [
         "alt-pal-m",
-        "alt-a-fik",
+        "alt-a-fo",
         "alt-John-m"
       ],
       "see": [
@@ -17266,7 +17266,7 @@
       "fulltext": "169",
       "writ": "౧౬౯",
       "phon": " ",
-      "phrase": "palam afik Johnom"
+      "phrase": "palam afo Johnom"
     },
     "phrase-170": {
       "name": "170",
@@ -17275,7 +17275,7 @@
       "words": [
         "alt-pal-wu",
         "alt-John-m",
-        "alt-a-fik-iri",
+        "alt-a-fo-iri",
         "alt-fuJane"
       ],
       "see": [
@@ -17285,7 +17285,7 @@
       "fulltext": "170",
       "writ": "౧౭౦",
       "phon": " ",
-      "phrase": "palawu Johnom afikiri fuJane"
+      "phrase": "palawu Johnom afoliri fuJane"
     },
     "phrase-171": {
       "name": "171",
@@ -17309,7 +17309,7 @@
       "type": "phrase",
       "trad": "There will be a whipping of butt of John by Jane... tonight.",
       "words": [
-        "word-fik",
+        "word-fo",
         "word-pal",
         "alt-John-m",
         "alt-fuJane",
@@ -17322,7 +17322,7 @@
       "fulltext": "172",
       "writ": "౧౭౨",
       "phon": " ",
-      "phrase": "fik pal Johnom fuJane eliro"
+      "phrase": "fo pal Johnom fuJane eliro"
     },
     "phrase-173": {
       "name": "173",
@@ -17332,7 +17332,7 @@
         "alt-fuJane",
         "word-John",
         "alt-pal-m",
-        "alt-a-fik-iri"
+        "alt-a-fo-iri"
       ],
       "see": [
         "card-order"
@@ -17341,7 +17341,7 @@
       "fulltext": "173",
       "writ": "౧౭౩",
       "phon": " ",
-      "phrase": "fuJane John palam afikiri"
+      "phrase": "fuJane John palam afoliri"
     },
     "phrase-174": {
       "name": "174",
@@ -17349,7 +17349,7 @@
       "trad": "Jane will whip tonight the butt of ... John.",
       "words": [
         "word-Jane",
-        "alt-a-fik-iri",
+        "alt-a-fo-iri",
         "alt-pal-wu",
         "alt-John-m"
       ],
@@ -17360,7 +17360,7 @@
       "fulltext": "174",
       "writ": "౧౭౪",
       "phon": " ",
-      "phrase": "Jane afikiri palawu Johnom"
+      "phrase": "Jane afoliri palawu Johnom"
     },
     "phrase-175": {
       "name": "175",
@@ -17368,7 +17368,7 @@
       "trad": "Jane will whip tonight John's butt.",
       "words": [
         "word-Jane",
-        "alt-a-fik-iri",
+        "alt-a-fo-iri",
         "word-John",
         "alt-pal-m"
       ],
@@ -17379,7 +17379,7 @@
       "fulltext": "175",
       "writ": "౧౭౫",
       "phon": " ",
-      "phrase": "Jane afikiri John palam"
+      "phrase": "Jane afoliri John palam"
     },
     "phrase-176": {
       "name": "176",
@@ -17387,7 +17387,7 @@
       "trad": "Jane will whip tonight - wa ! - John's butt.",
       "words": [
         "word-Jane",
-        "alt-a-fik-iri-wa",
+        "alt-a-fo-iri-wa",
         "word-John",
         "alt-pal-m"
       ],
@@ -17398,7 +17398,7 @@
       "fulltext": "176",
       "writ": "౧౭౬",
       "phon": " ",
-      "phrase": "Jane afikiriwa John palam"
+      "phrase": "Jane afoliriwa John palam"
     },
     "phrase-177": {
       "name": "177",
@@ -19886,7 +19886,7 @@
       "trad": "Whip my butt.",
       "nsfw": true,
       "words": [
-        "alt-fik-imp",
+        "alt-fo-imp",
         "alt-pal-m"
       ],
       "see": [
@@ -19896,7 +19896,7 @@
       "fulltext": "328",
       "writ": "౩౨౮",
       "phon": " ",
-      "phrase": "fik palam"
+      "phrase": "fo palam"
     },
     "phrase-329": {
       "name": "329",
@@ -21176,7 +21176,7 @@
       "type": "phrase",
       "trad": "Beats down on the young oaks.",
       "words": [
-        "word-hafik",
+        "word-hafo",
         "word-don",
         "alt-okunu-lil-m"
       ],
@@ -21187,7 +21187,7 @@
       "fulltext": "453",
       "writ": "౪౫౩",
       "phon": " ",
-      "phrase": "hafik don okunulilim"
+      "phrase": "hafo don okunulilim"
     },
     "phrase-454": {
       "name": "454",
@@ -21271,7 +21271,7 @@
       "trad": "Mon cœur bat sur mes lèvres",
       "words": [
         "alt-au-to",
-        "alt-a-fik",
+        "alt-a-fo",
         "alt-la-to-m"
       ],
       "see": [
@@ -21281,7 +21281,7 @@
       "fulltext": "459",
       "writ": "౪౫౯",
       "phon": " ",
-      "phrase": "auto afik latom"
+      "phrase": "auto afo latom"
     },
     "phrase-460": {
       "name": "460",
@@ -22751,31 +22751,31 @@
       "writ": "తిలోం",
       "phon": "/tilɔm/"
     },
-    "alt-o-fik": {
-      "name": "ofik",
+    "alt-o-fo": {
+      "name": "ofo",
       "type": "alt",
-      "id": "alt-o-fik",
+      "id": "alt-o-fo",
       "glo": "I/we.**whip**",
-      "alt": "word-fik",
+      "alt": "word-fo",
       "cla": "verb",
       "prev": "word-o",
-      "orig": "word-fik",
-      "fulltext": "ofik",
-      "writ": "ఓచిk",
-      "phon": "/ɔfik/"
+      "orig": "word-fo",
+      "fulltext": "ofo",
+      "writ": "ఓచో",
+      "phon": "/ɔfɔ/"
     },
-    "alt-o-fik-ire": {
-      "name": "ofikire",
+    "alt-o-fo-ire": {
+      "name": "ofolire",
       "type": "alt",
-      "id": "alt-o-fik-ire",
+      "id": "alt-o-fo-ire",
       "glo": "I/we.**whip**.FUT.EVNT",
       "cla": "verb",
-      "alt": "word-fik",
+      "alt": "word-fo",
       "orig": "word-ire",
-      "prev": "alt-o-fik",
-      "fulltext": "ofikire",
-      "writ": "ఓచికిరే",
-      "phon": "/ɔfikirɛ/"
+      "prev": "alt-o-fo",
+      "fulltext": "ofolire",
+      "writ": "ఓచోలిరే",
+      "phon": "/ɔfɔlirɛ/"
     },
     "alt-si-enu": {
       "name": "sihenu",
@@ -24827,31 +24827,31 @@
       "writ": "ఉనుం",
       "phon": "/unum/"
     },
-    "alt-a-fik": {
-      "name": "afik",
+    "alt-a-fo": {
+      "name": "afo",
       "type": "alt",
-      "id": "alt-a-fik",
+      "id": "alt-a-fo",
       "glo": "they.**whip**",
-      "alt": "word-fik",
+      "alt": "word-fo",
       "cla": "verb",
       "prev": "word-a",
-      "orig": "word-fik",
-      "fulltext": "afik",
-      "writ": "అచిk",
-      "phon": "/afik/"
+      "orig": "word-fo",
+      "fulltext": "afo",
+      "writ": "అచో",
+      "phon": "/afɔ/"
     },
-    "alt-a-fik-m": {
-      "name": "afikim",
+    "alt-a-fo-m": {
+      "name": "afom",
       "type": "alt",
-      "id": "alt-a-fik-m",
+      "id": "alt-a-fo-m",
       "glo": "they.**whip**.ACC",
       "cla": "noun",
-      "alt": "word-fik",
+      "alt": "word-fo",
       "orig": "word-m",
-      "prev": "alt-a-fik",
-      "fulltext": "afikim",
-      "writ": "అచికిం",
-      "phon": "/afikim/"
+      "prev": "alt-a-fo",
+      "fulltext": "afom",
+      "writ": "అచోం",
+      "phon": "/afɔm/"
     },
     "alt-oto-m": {
       "name": "otom",
@@ -26128,18 +26128,18 @@
       "writ": "పాలాం",
       "phon": "/palam/"
     },
-    "alt-a-fik-iri": {
-      "name": "afikiri",
+    "alt-a-fo-iri": {
+      "name": "afoliri",
       "type": "alt",
-      "id": "alt-a-fik-iri",
+      "id": "alt-a-fo-iri",
       "glo": "they.**whip**.CRAS",
       "cla": "verb",
-      "alt": "word-fik",
+      "alt": "word-fo",
       "orig": "word-iri",
-      "prev": "alt-a-fik",
-      "fulltext": "afikiri",
-      "writ": "అచికిరి",
-      "phon": "/afikiri/"
+      "prev": "alt-a-fo",
+      "fulltext": "afoliri",
+      "writ": "అచోలిరి",
+      "phon": "/afɔliri/"
     },
     "alt-e-iro": {
       "name": "eliro",
@@ -26154,18 +26154,18 @@
       "writ": "ఎలిరో",
       "phon": "/ɛlirɔ/"
     },
-    "alt-a-fik-iri-wa": {
-      "name": "afikiriwa",
+    "alt-a-fo-iri-wa": {
+      "name": "afoliriwa",
       "type": "alt",
-      "id": "alt-a-fik-iri-wa",
+      "id": "alt-a-fo-iri-wa",
       "glo": "they.**whip**.CRAS.DISC",
       "cla": "verb",
-      "alt": "word-fik",
+      "alt": "word-fo",
       "orig": "word-wa",
-      "prev": "alt-a-fik-iri",
-      "fulltext": "afikiriwa",
-      "writ": "అచికిరివా",
-      "phon": "/afikiriwa/"
+      "prev": "alt-a-fo-iri",
+      "fulltext": "afoliriwa",
+      "writ": "అచోలిరివా",
+      "phon": "/afɔliriwa/"
     },
     "alt-es-o-mi": {
       "name": "esomi",
@@ -26324,18 +26324,18 @@
       "writ": "వేnతా",
       "phon": "/wɛnta/"
     },
-    "alt-fik-na": {
-      "name": "fikina",
+    "alt-fo-na": {
+      "name": "fona",
       "type": "alt",
-      "id": "alt-fik-na",
+      "id": "alt-fo-na",
       "glo": "**whip**.THING",
       "cla": "verb",
-      "alt": "word-fik",
+      "alt": "word-fo",
       "orig": "word-na",
-      "prev": "word-fik",
-      "fulltext": "fikina",
-      "writ": "చికినా",
-      "phon": "/fikina/"
+      "prev": "word-fo",
+      "fulltext": "fona",
+      "writ": "చోనా",
+      "phon": "/fɔna/"
     },
     "alt-la-i$": {
       "name": "lai",
@@ -29078,18 +29078,18 @@
       "writ": "ముగి",
       "phon": "/mugi/"
     },
-    "alt-fik-imp": {
-      "name": "fik",
+    "alt-fo-imp": {
+      "name": "fo",
       "type": "alt",
-      "id": "alt-fik-imp",
+      "id": "alt-fo-imp",
       "glo": "**whip**",
       "cla": "verb",
-      "alt": "word-fik",
+      "alt": "word-fo",
       "orig": "word-imp",
-      "prev": "word-fik",
-      "fulltext": "fik",
-      "writ": "చిk",
-      "phon": "/fik/"
+      "prev": "word-fo",
+      "fulltext": "fo",
+      "writ": "చో",
+      "phon": "/fɔ/"
     },
     "alt-es-i": {
       "name": "esi",

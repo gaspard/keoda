@@ -48,7 +48,7 @@ ${_.phraseX(
 
 ### Manipulatives
 
-${_.phraseX('I made her whip him.', _.o.mahim.em, _.unu.m, _.a.fik.m, _.oto.m)}
+${_.phraseX('I made her whip him.', _.o.mahim.em, _.unu.m, _.a.fo.m, _.oto.m)}
 
 ### Perception
 

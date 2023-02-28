@@ -78,7 +78,7 @@ Two consonants in a row are only allowed if:
 
 For other cases, we duplicate the previous vowel. Example: ${
     _.alayuru
-  } instead of \`alyuru\`, or ${_.fik.na} instead of \`fikna\`.
+  } instead of \`alyuru\`, or ${_.fo.na} instead of \`fikna\`.
   
 ### Vowel cluster
 

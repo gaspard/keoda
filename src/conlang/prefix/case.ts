@@ -145,7 +145,7 @@ export const lo = prefix('lo', {
   ${_.phraseX(
     'Wet submissive, I might whip you delicately some today.',
     _.ti.lo.m,
-    _.o.fik.ire,
+    _.o.fo.ire,
     _.si.enu
   )}
   `,
