@@ -63,7 +63,8 @@ export interface EntryInfo {
   phrases: string[]
   // image
   img: string
-  imgpos: string
+  img_pos: string
+  img_opa: string
   // phrases only
   trad: string
   phrase: string

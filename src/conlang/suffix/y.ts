@@ -11,5 +11,6 @@ export const y = suffix('y', {
 export const y$ = alt('y', {
   verb: 'to dance',
   glo: '*DANCE*',
+  id: 'y$',
   alt: () => y,
 })

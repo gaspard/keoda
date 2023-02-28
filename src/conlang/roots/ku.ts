@@ -44,7 +44,7 @@ export const kulei = _.word('kulei', {
   etym: () => [_.ku, _.lei],
 })
 
-export const kuoda = _.word('kuoda', {
+export const kuloda = _.word('kuloda', {
   noun: 'victime-bourreau-sauveu.se.r',
   desc: () => `Corps attaché.`,
   etym: () => [_.ku, _.oda],

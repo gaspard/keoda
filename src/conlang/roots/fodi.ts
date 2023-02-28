@@ -1,6 +1,8 @@
 import * as _ from '../lang'
 
 export const fodi = _.word('fodi', {
+  img: 'sleep.jpg',
+  img_opa: '0.7',
   noun: 'sleep',
   verb: 'to sleep',
 })

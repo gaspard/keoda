@@ -90,5 +90,33 @@ ${_.phrase('To think slowly: intuition, to dream.', _.gahimus)}
 
 ${_.phrase('Sweet dreams.', _.si.yil, _.gahimus.verb)}
 
+${_.phrase('', _.lalo)}
+
+### 2023-02-16
+
+${_.phrase('slow love...', _.zulus)}
+
+### 2023-02-17
+
+${_.phrase('Kiss me in a caressing and intense way.', _.la.i$.do, _.la)}
+
+${_.phrase('Draw my sacred butt.', _.my, _.to.pal.om)}
+
+### 2023-02-24
+
+${_.phrase('', _.sama)}
+
+### 2023-02-27
+
+${_.phrase('', _.neka)}
+
+${_.phrase('', _.kafi)}
+
+${_.phrase('', _.karu)}
+
+${_.phrase('', _.zugu)}
+
+${_.phrase('', _.negu)}
+
 `,
 })

@@ -45,7 +45,7 @@ export const yulak = _.word('yulak', {
 export const gahimus = _.word('gahimus', {
   noun: 'intuition',
   verb: 'to dream',
-  etym: () => [_.gahi.verb, _.us.adj],
+  etym: () => [_.gahi.verb, _.us.adv],
   see: () => [_.fenus, _.palus],
 })
 

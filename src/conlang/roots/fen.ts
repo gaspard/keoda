@@ -3,7 +3,7 @@ import * as _ from '../lang'
 export const fen = _.word('fen', {
   noun: 'knee',
   pos: 'kneeling',
-  verb: 'to walk',
+  verb: 'to go',
 })
 
 export const feno = _.word('feno', {

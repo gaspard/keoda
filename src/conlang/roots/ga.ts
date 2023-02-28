@@ -21,7 +21,6 @@ export const gai = _.word('gai', {
   adj: 'gentle',
   adv: 'carefully',
   img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Falling_rain_in_mexico.jpg/330px-Falling_rain_in_mexico.jpg',
-  imgpos: '50%',
   etym: () => [_.ga, _.i$],
   desc: () => `
 Caressed spirit / caressing spirit (rain on earth)

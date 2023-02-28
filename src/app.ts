@@ -8,6 +8,7 @@ import { CompiledEntriesByType } from './conlib'
 export { styled, Comp }
 
 export type Colors = {
+  img_opa: string
   body_bg: string
   high_color: string
   writ_btn_bg: string
@@ -56,8 +57,9 @@ export type Colors = {
   desc_h4_bg: string
   desc_h4_border: string
   desc_h5_bg: string
-  desc_h6_border: string
+  desc_h5_border: string
   desc_h6_bg: string
+  desc_h6_border: string
   desc_a: string
   desc_code: string
   // title
@@ -74,6 +76,7 @@ export type Colors = {
 }
 
 export const COLORS: Colors = {
+  img_opa: 'var(--img_opa)',
   body_bg: 'var(--body_bg)',
   high_color: 'var(--high_color)',
   writ_btn_bg: 'var(--body_bg)',
@@ -122,8 +125,9 @@ export const COLORS: Colors = {
   desc_h4_bg: 'var(--desc_h4_bg)',
   desc_h4_border: 'var(--desc_h4_border)',
   desc_h5_bg: 'var(--desc_h5_bg)',
-  desc_h6_border: 'var(--desc_h6_border)',
+  desc_h5_border: 'var(--desc_h5_border)',
   desc_h6_bg: 'var(--desc_h6_bg)',
+  desc_h6_border: 'var(--desc_h6_border)',
   desc_a: 'var(--desc_a)',
   desc_code: 'var(--desc_code)',
   // title
@@ -140,6 +144,7 @@ export const COLORS: Colors = {
 }
 
 export const DARK_COLORS: Colors = {
+  img_opa: '0.5',
   body_bg: '#1b011a', // '#955694',
   high_color: '#ffa5003b',
   writ_btn_bg: '#955694',
@@ -187,9 +192,10 @@ export const DARK_COLORS: Colors = {
   desc_h4: '#a9ffa6',
   desc_h4_bg: '#ffc6592b',
   desc_h4_border: '#ffc6598b',
-  desc_h5_bg: '#afada4',
-  desc_h6_border: '#3d30a063',
+  desc_h5_bg: '#35cdff26',
+  desc_h5_border: '#35cdff4f',
   desc_h6_bg: '#312e4463',
+  desc_h6_border: '#3d30a063',
   desc_a: '#ff5cff',
   desc_code: '#5cff5c',
   // title
@@ -206,6 +212,7 @@ export const DARK_COLORS: Colors = {
 }
 
 export const LIGHT_COLORS: Colors = {
+  img_opa: '0.5',
   body_bg: '#9ca5a7',
   high_color: '#bd7400a8',
   writ_btn_bg: '#aba89d',
@@ -254,8 +261,9 @@ export const LIGHT_COLORS: Colors = {
   desc_h4_bg: '#bfb370',
   desc_h4_border: '#88815e',
   desc_h5_bg: '#afada4',
-  desc_h6_border: '#908e82',
+  desc_h5_border: '#908e82',
   desc_h6_bg: '#afada4',
+  desc_h6_border: '#908e82',
   desc_a: '#566284',
   desc_code: '#317577',
   // title

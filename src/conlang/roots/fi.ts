@@ -19,6 +19,9 @@ export const gufishany = _.word('gufishany', {
 export const gufi = _.word('gufi', {
   noun: 'thread of life',
   etym: () => [_.gu, _.fi],
+  desc: () =>
+    `What connects everything together. A particular knitting of this thread is ${_.kafi}.`,
+  see: () => [_.kafi],
 })
 
 // === alt

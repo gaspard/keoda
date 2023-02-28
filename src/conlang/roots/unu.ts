@@ -46,6 +46,5 @@ export const unusam = _.word('unusam', {
 export const okunu = _.word('okunu', {
   noun: 'oak',
   img: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Quercus_robur.jpg',
-  imgpos: '50%',
   see: () => [_.unuT],
 })

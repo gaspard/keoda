@@ -19,10 +19,9 @@ export const my = _.word('my', {
 From my encounter with Marina in Amsterdam. I decided to finally add the /j/ as
 a vowel because I love the sound in slavic languages. The drawing is from her.
 
-![drawing of crow with coffee, vinyl and chestnut leaf](/marina_drawing.jpeg)
-    
 © Marina Shepelska [@imaginary_marina](https://instagram.com/imaginary_marina)
 `,
+  img_opa: '0.3',
   etym: () => [_.ma, _.y],
 })
 

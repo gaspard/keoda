@@ -195,7 +195,7 @@ List of people:
 * ${_.lo.da} (wet-person)
 * ${_.pe.da} (someone)
 * ${_.de.da} (us-two)
-* ${_.ka.da} (all of us)
+* ${_.pa.da} (all of us)
 
 ## Genders
 

@@ -5,6 +5,11 @@ export const la = _.word('la', {
   verb: 'to kiss',
 })
 
+export const lalo = _.word('lalo', {
+  noun: 'kiss',
+  etym: () => [_.la, _.lo.adj],
+})
+
 export const kela = _.word('kela', {
   noun: 'teeth',
   etym: () => [_.ke, _.la],

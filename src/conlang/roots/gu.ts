@@ -100,16 +100,17 @@ export const gugai = _.word('gugai', {
   etym: () => [_.gu, _.gai],
 })
 
-export const augu = _.word('augu', {
+export const zugu = _.word('zugu', {
   noun: 'trust',
   verb: 'to trust',
-  etym: () => [_.au, _.gu],
+  etym: () => [_.zu.verb, _.gu],
 })
 
 export const negu = _.word('negu', {
   noun: 'agitation/dissociation',
-  desc: () => `Searching for perfection to feel less. Opposite of ${_.augu}`,
+  desc: () => `Searching for perfection to feel less. Opposite of ${_.zugu}`,
   see: () => [_.shipa],
+  etym: () => [_.ne, _.gu],
 })
 
 export const guyil = _.word('guyil', {
@@ -143,4 +144,13 @@ export const gurum = _.word('gurum', {
     `To embrasse feelings. This is the real definition of courage: to feel enough that we are not blocked by fear ${_.peu}.`,
   see: () => [_.agupeu],
   etym: () => [_.gu, _.rum],
+})
+
+export const zuzau = _.word('zuzau', {
+  noun: 'divin love (Ishq)',
+  img_pos: '100%',
+  img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Tomb_of_Abdul_Qadir_Jilani%2C_Baghdad.jpg/640px-Tomb_of_Abdul_Qadir_Jilani%2C_Baghdad.jpg',
+  desc: () =>
+    `A deep and cosuming longing for [divine love](https://en.wikipedia.org/wiki/Ishq).`,
+  etym: () => [_.zu.verb, _.zau.adv],
 })

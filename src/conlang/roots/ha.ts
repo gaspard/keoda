@@ -24,9 +24,9 @@ export const duha = _.word('duha', {
   etym: () => [_.du, _.ha],
 })
 
-export const duhasha = _.word('duhasha', {
+export const duhany = _.word('duhany', {
   verb: 'to laugh',
-  etym: () => [_.duha, _.shaH],
+  etym: () => [_.duha, _.y$],
 })
 
 export const hawe = _.word('hawe', {

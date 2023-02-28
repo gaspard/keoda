@@ -13,7 +13,7 @@ export const mawi = _.word('mawi', {
   etym: () => [_.mun, _.awi],
 })
 
-export const awiu = _.word('awiu', {
+export const awilu = _.word('awilu', {
   noun: 'fin',
   verb: 'to swim',
   etym: () => [_.awi, _.u$],

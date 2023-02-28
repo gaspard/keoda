@@ -3,6 +3,7 @@ import * as _ from '../lang'
 export const sona = _.word('sona', {
   noun: 'mother earth',
   img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Mother_Goddess%2C_Madhya_Pradesh_or_Rajasthan%2C_India%2C_6th_-_7th_cents.%2C_National_Museum_of_Korea%2C_Seoul_%2840236606165%29.jpg/330px-Mother_Goddess%2C_Madhya_Pradesh_or_Rajasthan%2C_India%2C_6th_-_7th_cents.%2C_National_Museum_of_Korea%2C_Seoul_%2840236606165%29.jpg',
+  img_pos: '30%',
   desc: () => `
 [Mother goddess](https://en.wikipedia.org/wiki/Mother_goddess)
   `,
@@ -24,6 +25,7 @@ She is also called **Dhūmāvatī (धूमावती)**.
 export const gusona = _.word('gusona', {
   noun: 'impermanence',
   img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Kali_by_Raja_Ravi_Varma.jpg/330px-Kali_by_Raja_Ravi_Varma.jpg',
+  img_pos: '0',
   desc: () => `
 ${_.gusona} allows the unfolding of space through time, of life through
 death, of knowledge through experience. She is the mother goddess of ${_.gu} and opens the door to timelessness.

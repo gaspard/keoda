@@ -3,6 +3,8 @@ import * as _ from '../lang'
 export const flowers = _.card('flowers', {
   writ: 'flowers',
   img: 'https://i.redd.it/bpkwv3dg24a61.png',
+  img_pos: '100%',
+  img_opa: '0.2',
   desc: () => `
 # Flowers
 

@@ -15,14 +15,14 @@ export const iwiB = _.word('iwi', {
   see: () => [_.iwi],
 })
 
-export const iwiu = _.word('iwiu', {
+export const iwilu = _.word('iwilu', {
   verb: 'to fly',
   etym: () => [_.iwiB, _.u$],
 })
 
-export const iwigui = _.word('iwigui', {
+export const iwiju = _.word('iwiju', {
   noun: 'phoenix',
-  etym: () => [_.iwiB, _.gui],
+  etym: () => [_.iwiB, _.ju],
 })
 
 // === alt

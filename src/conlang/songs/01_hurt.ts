@@ -19,7 +19,7 @@ ${_.phrase(
   _.a.s.m
 )}
 
-${_.phrase('I stand with a choice.', _.o.sam, _.ko.kus)}
+${_.phrase('I stand with a choice.', _.o.nom, _.ko.kus)}
 
 Blades, knives, weapons
 Fighting for territories.

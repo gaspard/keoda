@@ -1,5 +1,5 @@
 import * as _ from '../lang'
-import { alt, suffix } from '../zulapa'
+import { suffix } from '../zulapa'
 
 export const m = suffix('m', {
   def: 'accusative',
@@ -9,12 +9,4 @@ export const m = suffix('m', {
   scla: 'noun',
   maxPhrases: 10,
   see: () => [_.acc, _.sub],
-})
-
-export const nam = alt('nam', {
-  def: 'accusative',
-  writ: 'ం',
-  glo: 'ACC',
-  scla: 'noun',
-  alt: () => _.m,
 })

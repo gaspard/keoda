@@ -2,19 +2,11 @@ import * as _ from '../lang'
 
 export const ka = _.word('ka', {
   noun: '4 / singularity',
-  def: 'everyone',
-  suff: 'every',
+  suff: 'singular',
+  glo: 'SINGULAR',
   pos: 'on all fours',
-  glo: 'EVERY',
-  desc: () => 'That which cannot be thought.',
+  desc: () => 'That which cannot be thought or put into words.',
   see: () => [_.count],
-})
-
-export const kada = _.word('kada', {
-  noun: 'every person',
-  glo: 'EVERY.**body**',
-  etym: () => [_.ka, _.da],
-  see: () => [_.subj],
 })
 
 export const hamaka = _.word('hamaka', {
@@ -28,7 +20,10 @@ export const neka = _.word('neka', {
   noun: 'shame',
   adj: 'restless',
   etym: () => [_.ne, _.ka],
-  see: () => [_.ganes, _.nanes],
+  desc: () => `
+  ${_.neka} is the veil within, ${_.husona}.
+  `,
+  see: () => [_.ganes, _.nanes, _.husona],
 })
 
 export const karu = _.word('karu', {
@@ -37,8 +32,32 @@ export const karu = _.word('karu', {
   etym: () => [_.ka, _.ru],
 })
 
-// Cow pose, quatre pattes, dos creux
+// Cow pose
 export const koda = _.word('koda', {
   noun: 'cow',
   etym: () => [_.ka, _.oda],
+})
+
+export const kafi = _.word('kafi', {
+  noun: 'journey',
+  adj: 'precious',
+  etym: () => [_.ka, _.fi],
+  see: () => [_.gufi, _.gufishany],
+})
+
+export const kalaj = _.word('kalaj', {
+  noun: 'somebody',
+  etym: () => [_.ka, _.aj],
+  desc: () => `
+  Being a ignited mystery, a sexual person with power to provoque changes to the world.
+  `,
+  see: () => [_.kalei],
+})
+
+export const kalei = _.word('kalei', {
+  noun: 'puberty',
+  etym: () => [_.ka, _.lei],
+  desc: () => `
+  Becoming unknown, singular.
+  `,
 })

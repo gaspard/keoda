@@ -94,7 +94,7 @@ strategy, using (${_.le}) for adjectives which means "very" and using
     'The beautiful cat walks gently.',
     _.gilil,
     _.le.awi,
-    _.a.fen,
+    _.a.sam,
     _.si.gai
   )}
 

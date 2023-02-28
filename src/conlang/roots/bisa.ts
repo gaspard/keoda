@@ -7,7 +7,6 @@ export const bisa = _.word('bisa', {
 export const bisajoda = _.word('bisajoda', {
   noun: 'mushroom',
   img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Lycoperdon-perlatum-flaschenstaeubling-alt.jpg/330px-Lycoperdon-perlatum-flaschenstaeubling-alt.jpg',
-  imgpos: '50%',
   etym: () => [_.bisa, _.joda],
 })
 

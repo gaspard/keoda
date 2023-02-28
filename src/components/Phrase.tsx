@@ -4,11 +4,18 @@ import { COLORS, Comp, styled, useOvermind } from '../app'
 import { getEntry } from '../helpers/getEntry'
 import { Entry } from './Entry'
 import { List } from './List'
+const manyWords = /^word-[^-]+-/
 
 export interface PhraseProps {
   className?: string
   type?: 'md' | 'md-open'
   id: string
+}
+function singleWord(words: string[]) {
+  if (words.length === 1) {
+    return !manyWords.test(words[0])
+  }
+  return false
 }
 
 export const PhraseWrap = styled.div`
@@ -149,7 +156,7 @@ export const Phrase: Comp<PhraseProps> = ({ className, type, id }) => {
               {phrase.trad}
             </Trad>
           )}
-          {phrase.words!.length === 1 ? (
+          {singleWord(phrase.words!) ? (
             <Entry id={phrase.words![0]} reduced />
           ) : (
             <List type={type} entries={phrase.words!} glo />

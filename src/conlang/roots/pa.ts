@@ -17,11 +17,18 @@ To forgive is to finally accept (receive) what happened (which does not mean we 
 
 Gratitude is receiving the present ${_.aupa}.
 
-Trusting is receiving the whole spectrum of time ${_.augu}, accepting life.
+Trusting is receiving the whole spectrum of time ${_.zugu}, accepting life.
 `,
 })
 
 export const pagi = _.word('pagi', {
   noun: 'hello',
   etym: () => [_.pa, _.gi],
+})
+
+export const pada = _.word('pada', {
+  noun: 'everybody',
+  glo: 'ALL.**body**',
+  etym: () => [_.pa, _.da],
+  see: () => [_.subj],
 })

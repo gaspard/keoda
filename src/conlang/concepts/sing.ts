@@ -5,11 +5,11 @@ export const sing = _.card('sing', {
   desc: () => `
 # Some ideas for lyrics
 
-## ${_.duhasha.ti} (your laugh)
+## ${_.duhany.ti} (your laugh)
 
 ${_.phrase(
   "You laugh and get agitated when I'm here.",
-  _.i.duhasha,
+  _.i.duhany,
   _.shu,
   _.i.rugui,
   _.dem,
@@ -19,8 +19,8 @@ ${_.phrase(
 
 ${_.phrase(
   'I burn to ashes when you are here.',
-  _.es.o.ajapi,
-  _.si.ajaname,
+  _.es.o.pizau,
+  _.si.kenam,
   _.dem,
   _.i.e,
   _.asen

@@ -48,7 +48,9 @@ const Wrapper = styled.div`
     flex-direction: column;
   }
   &.card .Main .noun {
+    /* why did we use this ?
     color: ${COLORS.title_color};
+    */
   }
   &.selected:not(.popup) > .Title {
     background: ${COLORS.selected_bg};
@@ -90,7 +92,7 @@ const Wrapper = styled.div`
     top: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.3;
+    opacity: var(--data-opa);
     pointer-events: none;
     background-image: var(--data-img);
     background-repeat: no-repeat;
@@ -274,8 +276,8 @@ const Definition = styled.div`
     }
     h4 + * {
       display: var(--nsfw);
-      border-left: 26px solid ${COLORS.desc_h4_border};
       background: ${COLORS.desc_h4_bg};
+      border-left: 26px solid ${COLORS.desc_h4_border};
       color: ${COLORS.desc_h4};
     }
     h4 + * .nsfw {
@@ -285,15 +287,15 @@ const Definition = styled.div`
       content: '🍑';
     }
     h5 + * {
-      border-left: 26px solid #908e82;
       background: ${COLORS.desc_h5_bg};
+      border-left: 26px solid ${COLORS.desc_h5_border};
     }
     h5 + *::before {
       content: '💡';
     }
     h6 + * {
-      border-left: 6px solid ${COLORS.desc_h6_border};
       background: ${COLORS.desc_h6_bg};
+      border-left: 6px solid ${COLORS.desc_h6_border};
       padding-left: 20px;
     }
     h6 + *::before {
@@ -397,7 +399,7 @@ const Definition = styled.div`
       display: none;
     }
     pre {
-      background: #bfbcb1;
+      background: ${COLORS.phrase_glo_bg};
       margin: 10px auto;
       display: table;
       border: 1px solid ${COLORS.glo_border};
@@ -477,7 +479,8 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup, reduced }) => {
   const style = entry.img
     ? {
         ['--data-img']: `url(${entry.img})`,
-        ['--data-pos']: entry.imgpos || '0',
+        ['--data-pos']: entry.img_pos || '50%',
+        ['--data-opa']: entry.img_opa || COLORS.img_opa,
       }
     : {}
   const def_keys = DEF_KEYS.filter(k => entry[k])

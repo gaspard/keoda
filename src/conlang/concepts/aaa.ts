@@ -14,7 +14,7 @@ feminine action of taking.
 
 #### nsfw
 
-* ${_.phrase('Grasp my penis with your vagina.', _.yuru.u$.imp, _.taj)}
+* ${_.phrase('Grasp my penis with your vagina.', _.yuru.imp, _.taj)}
 * ${_.phrase('Kiss my lips with your vulva.', _.yin.imp, _.la)}
 
 I thus started to work on a language with the following constraints (in order
@@ -148,7 +148,7 @@ Modifiers are in italic (whether in-word or as separate words).
 
 So here is ${_.zulapa} a language born in the realm of sexuality, evolved as a
 way of coping through mental illness and dysphoria and blossomed as a way to
-sing my love of this journey ${_.iwigui}...
+sing my love of this journey ${_.iwiju}...
 
 ❤️️
 

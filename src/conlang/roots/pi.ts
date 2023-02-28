@@ -42,7 +42,7 @@ export const pienu = _.word('pienu', {
   `,
 })
 
-export const pienues = _.word('pienues', {
+export const pienules = _.word('pienules', {
   noun: 'loneliness',
   etym: () => [_.pienu, _.es],
 })

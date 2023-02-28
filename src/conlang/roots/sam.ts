@@ -2,9 +2,13 @@ import * as _ from '../lang'
 
 export const sam = _.word('sam', {
   noun: 'foot',
-  verb: 'to stand',
-  pos: 'standing',
+  verb: 'to walk',
   exam: () => [_.phrase('left foot, right foot', _.sam.se, _.sam.we)],
+})
+
+export const sama = _.word('sama', {
+  verb: 'to feel',
+  etym: () => [_.sam.verb, _.a$],
 })
 
 export const samoda = _.word('samoda', {
