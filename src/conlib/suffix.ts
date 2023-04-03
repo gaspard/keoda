@@ -8,8 +8,8 @@ import {
   BaseEntry,
   EntriesByType,
   EntryFunc,
-  isNativeKey,
   LAST_VOWEL,
+  isNativeKey,
   SuffixAccessor,
 } from './types'
 
@@ -27,7 +27,7 @@ function appendEntry(
     const prev = prevEntry.definition
     const next = nextEntry.definition
     const r = LAST_VOWEL.exec(prevEntry.name)
-    if (!r) {
+    if (!r && !prevEntry.definition.op) {
       throw new Error(
         `Invalid word ${prevEntry.name} (no vowel): ${JSON.stringify({
           nextEntry,
@@ -36,12 +36,7 @@ function appendEntry(
     }
 
     return entry(
-      joinMorphemes(
-        prevEntry.name,
-        nextEntry.name,
-        next.sjoin || next.join,
-        false
-      ),
+      joinMorphemes(prevEntry, nextEntry, next.sjoin || next.join, false),
       {
         id: `${prevEntry.id}-${nextEntry.id}`,
         glo: getGlo(prev, next, false),

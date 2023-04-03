@@ -40,6 +40,7 @@ The prepositions that can be used as case marking have the gloss next to them
 * ${_.refAndGlo(_.ne)}
 * ${_.refAndGlo(_.sau)}
 * ${_.refAndGlo(_.s)}
+* ${_.refAndGlo(_.dor)}
 
 
 #### nsfw

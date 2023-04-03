@@ -1,6 +1,6 @@
 import * as _ from '../lang'
 
-export const sahu = _.word('sahu', {
+export const sauhu = _.word('sauhu', {
   noun: 'infinite',
   img: 'ligabue.jpeg',
   img_opa: '0.6',

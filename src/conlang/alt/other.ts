@@ -14,7 +14,22 @@ export const unuT = _.word('unu', {
     `The position means "tree-like" because the legs are like roots and the torso, arms and hair represent the trunk and branches.`,
 })
 
-export const dot = _.word('•', {
-  noun: '•',
+export const $dot = _.word('.', {
+  noun: '.',
   glo: '',
 })
+
+export const $comma = _.word(',', {
+  noun: ',',
+  glo: '',
+})
+
+export const $cap = _.word('', {
+  id: '$cap',
+  noun: '',
+  glo: '',
+  op: 'capitalize',
+})
+
+export const $ = $dot
+export const __ = $cap

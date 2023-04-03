@@ -6,7 +6,7 @@ import gfm from 'remark-gfm'
 
 export interface MarkdownProps {
   className?: string
-  type: 'md' | 'md-open'
+  type: 'md' | 'md-open' | 'md-compact'
   text: string
 }
 

@@ -4,16 +4,19 @@ import { COLORS, Comp, styled, useOvermind } from '../app'
 import { getEntry } from '../helpers/getEntry'
 import { Entry } from './Entry'
 import { List } from './List'
-const manyWords = /^word-[^-]+-/
+const manyWords = /^[^-]+-[^-]+-/
 
 export interface PhraseProps {
   className?: string
-  type?: 'md' | 'md-open'
+  type?: 'md' | 'md-open' | 'md-compact'
   id: string
 }
-function singleWord(words: string[]) {
+
+export function singleWord(words: string[]) {
   if (words.length === 1) {
-    return !manyWords.test(words[0])
+    if (!manyWords.test(words[0])) {
+      return true
+    }
   }
   return false
 }
@@ -113,6 +116,13 @@ export const GWrap = styled.div`
   &.open {
     box-shadow: ${COLORS.open_shadow};
   }
+  &.compact {
+    float: right;
+    color: ${COLORS.compact_trad};
+    .phrase.glo {
+      padding: 0.1em 0.5em;
+    }
+  }
 `
 
 export const Phrase: Comp<PhraseProps> = ({ className, type, id }) => {
@@ -145,23 +155,37 @@ export const Phrase: Comp<PhraseProps> = ({ className, type, id }) => {
     }
   }
 
-  if ((phrase.open && type === 'md') || type === 'md-open') {
+  if (
+    (phrase.open && type === 'md') ||
+    type === 'md-open' ||
+    type === 'md-compact'
+  ) {
     return (
       <PhraseWrap
-        className={classnames(className, { nsfw: phrase.nsfw, open: true })}
+        className={classnames(className, {
+          nsfw: phrase.nsfw,
+          open: true,
+        })}
       >
-        <GWrap>
-          {phrase.trad && (
-            <Trad onClick={phraseClick} className={`Trad fix`}>
-              {phrase.trad}
-            </Trad>
-          )}
-          {singleWord(phrase.words!) ? (
-            <Entry id={phrase.words![0]} reduced />
-          ) : (
+        {type === 'md-compact' ? (
+          <GWrap className="compact">
             <List type={type} entries={phrase.words!} glo />
-          )}
-        </GWrap>
+            {phrase.trad}
+          </GWrap>
+        ) : (
+          <GWrap>
+            {phrase.trad && (
+              <Trad onClick={phraseClick} className={`Trad fix`}>
+                {phrase.trad}
+              </Trad>
+            )}
+            {singleWord(phrase.words!) ? (
+              <Entry id={phrase.words![0]} reduced />
+            ) : (
+              <List type={type} entries={phrase.words!} glo />
+            )}
+          </GWrap>
+        )}
       </PhraseWrap>
     )
   } else {

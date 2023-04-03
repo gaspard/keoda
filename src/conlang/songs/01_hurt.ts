@@ -1,32 +1,44 @@
+import { $, __ } from '../alt/other'
 import * as _ from '../lang'
 
 export const hurt = _.card('01 - hurt', {
-  // open: true,
+  compact: true,
   desc: () => `
-${_.phrase('Something happened.', _.pena, _.a.e.em)}
+${_.phrase('Something happened.', __.pena, _.a.e.em)}
 
 ${_.phrase('The earth split under my feet', _.gana, _.a.hos.em, _.ir.sam)}
 
-${_.phrase('And cut me in half.', _.shu, _.a.tifi, _.ruP.de.to.m)}
+${_.phrase('And cut me in half.', _.shu, _.a.tifi, _.ruP.de.to.m, $)}
 
 ${_.phrase(
   'My heart sank so deep I lost it.',
-  _.zu.to,
+  __.zu.to.$cap,
   _.a.yau.em,
   _.si.yau,
   _.ku,
   _.o.neku.em,
-  _.a.s.m
+  _.a.s.m,
+  $
 )}
 
-${_.phrase('I stand with a choice.', _.o.nom, _.ko.kus)}
+${_.phrase('I stand with a choice.', __.o.nom, _.ko.kus, $)}
 
-Blades, knives, weapons
-Fighting for territories.
-Dying sons in wars.
-Raped daughters in wars.
+${_.phrase(
+  'Blades, sticks, weapons',
+  __.kes,
+  _.$comma,
+  _.namel,
+  _.$comma,
+  _.nem.na
+)}
 
-I stand with a choice.
+${_.phrase('For territories, fighting.', _.dor, _.noadun, _.u.nepi, $)}
+
+${_.phrase('Sons in wars, killed.', __.joto.m, _.ro.nemek, _.u.nemek, $)}
+
+${_.phrase('Daughters in wars, raped.', __.junu.m, _.ro.nemek, _.u.tionehaj, $)}
+
+${_.phrase('I stand with a choice.', __.o.nom, _.ko.kus, $)}
 
 The terror of feeling
 Or the bliss of death.

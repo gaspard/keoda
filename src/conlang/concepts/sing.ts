@@ -39,7 +39,7 @@ ${_.phrase(
 ${_.block(
   {
     t: 'I look in the mirror and I see him.',
-    p: [_.o.fa, _.fahata.m, _.ku, _.o.fa, _.oto.m],
+    p: [_.o.fa, _.duana.m, _.ku, _.o.fa, _.oto.m],
   },
   {
     t: 'I look in my eyes and I see her.',

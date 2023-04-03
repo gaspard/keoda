@@ -60,8 +60,9 @@ export const gupi = _.word('gupi', {
 
 export const nepi = _.word('nepi', {
   noun: 'division',
-  verb: 'to hate',
+  verb: 'to fight',
   adj: 'disembodied, fragmented',
+  etym: () => [_.ne, _.pi],
   see: () => [_.neha, _.ganes, _.nanes],
 })
 

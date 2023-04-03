@@ -71,7 +71,7 @@ ${_.phraseX(
   _.ko,
   Cai,
   _.sha.lu.zuzu.em,
-  _.dot,
+  _.$dot,
   _.eku.s,
   _.a.lakashan,
   _.se.muda.m

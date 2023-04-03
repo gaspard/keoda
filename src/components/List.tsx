@@ -7,7 +7,7 @@ import { Markdown } from './Markdown'
 
 export interface DerivedProps {
   className?: string
-  type?: 'md' | 'md-open'
+  type?: 'md' | 'md-open' | 'md-compact'
   glo?: boolean
   entries: string[]
 }
@@ -117,16 +117,20 @@ export const GlossAndLink: Comp<LinkProps> = props => {
   if (!entry) {
     return null
   }
-  return (
-    <Detail className={entry.cla}>
-      <Link {...props} />
-      <Aspect className="phon">{entry.phon}</Aspect>
-      <Aspect className={writ ? 'name' : 'writ'}>
-        {writ ? entry.name : entry.writ}
-      </Aspect>
-      <Markdown text={entry.glo!} type="md" />
-    </Detail>
-  )
+  if (props.type === 'md-compact') {
+    return <Link {...props} />
+  } else {
+    return (
+      <Detail className={entry.cla}>
+        <Link {...props} />
+        <Aspect className="phon">{entry.phon}</Aspect>
+        <Aspect className={writ ? 'name' : 'writ'}>
+          {writ ? entry.name : entry.writ}
+        </Aspect>
+        <Markdown text={entry.glo!} type="md" />
+      </Detail>
+    )
+  }
 }
 
 export const List: Comp<DerivedProps> = ({ className, entries, type, glo }) => {

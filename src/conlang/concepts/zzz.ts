@@ -118,5 +118,30 @@ ${_.phrase('', _.zugu)}
 
 ${_.phrase('', _.negu)}
 
+${_.phrase('', _.adufi)}
+
+${_.phrase('bird-woman', _.unu.iwiN)}
+
+${_.phrase('woman like a bird', _.unu, _.le.iwiN)}
+
+### KAAL
+
+* ${_.phrase('8 - surrender', _.miu)}
+* ${_.phrase('2 - death', _.nem)}
+* ${_.phrase('7 - dream', _.yalef)}
+* ${_.phrase('1 - change', _.kal)}
+* ${_.phrase('6 - life', _.em)}
+* ${_.phrase('8 - surrender', _.miu)}
+* ${_.phrase('5 - memory', _.ji)}
+* ${_.phrase('7 - dream', _.yalef)}
+* ${_.phrase('4 - trace', _.my)}
+* ${_.phrase('6 - life', _.em)}
+* ${_.phrase('3 - reality', _.ja)}
+* ${_.phrase('5 - memory', _.ji)}
+* ${_.phrase('2 - death', _.nem)}
+* ${_.phrase('4 - trace', _.my)}
+* ${_.phrase('1 - change', _.kal)}
+* ${_.phrase('3 - reality', _.ja)}
+
 `,
 })

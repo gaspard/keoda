@@ -9,20 +9,20 @@ export const tawi = _.word('tawi', {
 
 // iwiB
 
-export const iwiB = _.word('iwi', {
-  id: 'iwiB',
+export const iwiN = _.word('iwi', {
+  id: 'iwiN',
   noun: 'bird',
   see: () => [_.iwi],
 })
 
 export const iwilu = _.word('iwilu', {
   verb: 'to fly',
-  etym: () => [_.iwiB, _.u$],
+  etym: () => [_.iwiN, _.u$],
 })
 
 export const iwiju = _.word('iwiju', {
   noun: 'phoenix',
-  etym: () => [_.iwiB, _.ju],
+  etym: () => [_.iwiN, _.ju],
 })
 
 // === alt

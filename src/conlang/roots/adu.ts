@@ -12,3 +12,8 @@ export const kadu = _.word('kadu', {
   etym: () => [_.ka, _.adu],
   desc: () => `The friend on four legs.`,
 })
+
+export const adufi = _.word('adufi', {
+  noun: 'scarf',
+  etym: () => [_.adu, _.fi],
+})

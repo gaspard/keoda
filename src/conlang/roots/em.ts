@@ -10,5 +10,6 @@ export const nem = _.word('nem', {
 
 export const nemek = _.word('nemek', {
   noun: 'war',
+  verb: 'to kill',
   etym: () => [_.nem, _.ek],
 })

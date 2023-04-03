@@ -6,7 +6,7 @@ import { getEntry } from '../helpers/getEntry'
 import { Entry } from './Entry'
 import { List } from './List'
 import { Markdown } from './Markdown'
-import { GWrap, PhraseProps, Trad } from './Phrase'
+import { GWrap, PhraseProps, singleWord, Trad } from './Phrase'
 
 const CaptionWrap = styled.div`
   position: relative;
@@ -149,12 +149,14 @@ export const Caption: Comp<PhraseProps> = ({ className, type, id }) => {
             <Markdown text={caption.cap} type="md" />
           </Cap>
         )}
-        {caption.trad === '' && caption.words!.length === 1 ? (
+        {caption.trad === '' && singleWord(caption.words!) ? (
           <Entry id={caption.words![0]} reduced />
         ) : (
-          caption.trad && (
+          !(caption.trad === '' && caption.words?.length === 0) && (
             <CWrap>
-              <Trad className={`Trad fix`}>{caption.trad}</Trad>
+              {caption.trad && (
+                <Trad className={`Trad fix`}>{caption.trad}</Trad>
+              )}
               <List type={type} entries={caption.words!} glo />
             </CWrap>
           )

@@ -5,6 +5,11 @@ export const noa = _.word('noa', {
   verb: 'to touch',
 })
 
+export const noadun = _.word('noadun', {
+  noun: 'territory',
+  etym: () => [_.noa, _.dun],
+})
+
 // Abi...
 export const nomy = _.word('nomy', {
   noun: 'Thank you',

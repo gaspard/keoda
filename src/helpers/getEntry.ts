@@ -8,9 +8,6 @@ export function getEntry(
     return undefined
   }
   const [type] = ref.split('-')
-  if (type === 'caption') {
-    console.log(type, ref)
-  }
   const entries = ctx.state.zulapa.db[type as keyof CompiledEntriesByType]
   if (!entries) {
     console.error(`Invalid type '${type}' in id '${ref}'.`)

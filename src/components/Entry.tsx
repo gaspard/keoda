@@ -454,7 +454,7 @@ export const MyInfo = styled(Info)`
 export const Entry: Comp<EntryProps> = ({ className, id, popup, reduced }) => {
   const ctx = useOvermind()
   const entry = getEntry(ctx, id)
-  // const [open, setOpen] = React.useState(ctx.state.zulapa.open || entry?.open)
+  const [compact, setCompact] = React.useState(entry?.compact)
   const open = reduced || ctx.state.zulapa.open
   const { filter, writ } = ctx.state.zulapa
   if (!entry) {
@@ -495,11 +495,14 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup, reduced }) => {
     >
       {entry.img && <div className="img" />}
       {popup ? <ArrowUp /> : !reduced && <ID id={id} />}
-      {/* !popup && (
-        <MyInfo onClick={() => setOpen(!open)} className={open ? 'open' : ''}>
-          ℹ️
+      {!popup && (
+        <MyInfo
+          onClick={() => setCompact(!compact)}
+          className={compact ? 'compact' : ''}
+        >
+          📦
         </MyInfo>
-      )*/}
+      )}
       {entry.type === 'phrase' ? (
         <Title className="Title phrase">
           <Link id={id} type="md" />
@@ -569,7 +572,10 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup, reduced }) => {
         {(!reduced || (reduced && entry.type === 'card')) && entry.desc && (
           <Group>
             <Definition className="desc">
-              <Markdown text={entry.desc} type={open ? 'md-open' : 'md'} />
+              <Markdown
+                text={entry.desc}
+                type={compact ? 'md-compact' : open ? 'md-open' : 'md'}
+              />
             </Definition>
           </Group>
         )}

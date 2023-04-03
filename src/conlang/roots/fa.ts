@@ -26,10 +26,4 @@ export const falo = _.word('falo', {
 ${_.phrase("Don't be sad.", _.ne.falo)}`,
 })
 
-export const fahata = _.word('fahata', {
-  noun: 'mirror',
-  verb: 'to reflect',
-  etym: () => [_.fa, _.a],
-})
-
 // === alt

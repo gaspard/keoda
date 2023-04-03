@@ -58,7 +58,7 @@ export function makePrefix<T extends Object>(
         if (!next) {
           throw new Error(`Cannot find '${String(key)}' for ${name}`)
         }
-        const nextName = joinMorphemes(name, next.name, pdef.join, true)
+        const nextName = joinMorphemes(prev, next, pdef.join, true)
         const def = {
           id,
           glo: getGlo(prev.definition, next.definition, true),

@@ -1,9 +1,9 @@
 // Not using [y] for vowel repetition
-export const LAST_VOWEL = /([aoeiu])[^aoeiu]*$/
+export const LAST_VOWEL = /([aoeiuAOEIU])[^aoeiu]*$/
 // [y] at the start of a word is seen as a consonant
-export const STARTS_VOWEL = /^[aoeiu]/
+export const STARTS_VOWEL = /^[aoeiuAOEIU]/
 // [y] at the end of a word is seen as a vowel
-export const ENDS_VOWEL = /[aoeiuy]$/
+export const ENDS_VOWEL = /[aoeiuyAOEIUY]$/
 export const ENDS_knssh = /(k|n|s|sh)$/
 export const ENDS_ssh = /(s|sh)$/
 export const ENDS_m = /m$/
@@ -68,8 +68,6 @@ export interface EntryInfo {
   // phrases only
   trad: string
   phrase: string
-  // phrase options (obsolete ?)
-  open?: boolean
   // captions only
   cap: string
   // alt ====
@@ -83,6 +81,8 @@ export interface EntryInfo {
   cla: MainKeys
   // Type of next element class (only set when prefix as explicit class).
   ncla: MainKeys
+  // Operation while building word
+  op: 'capitalize'
 
   // **** SUFFIX ****
   // Force class (only as suffix)
@@ -101,7 +101,10 @@ export interface EntryInfo {
 export interface FullEntry extends EntryInfo {
   id: string
   name: string
-  nsfw: boolean
+  // phrase options
+  nsfw: boolean // should this be obsolete ? (because defining an entry as open on its own is confusing)
+  open?: boolean
+  compact: boolean
   desc: () => string
   exam: () => BaseEntry[]
   etym: () => { id: string }[]
@@ -205,6 +208,8 @@ export interface CompiledEntry extends Partial<EntryInfo> {
   // for phrases
   words?: string[]
   nsfw?: boolean
+  open?: boolean
+  compact?: boolean
 }
 
 export interface SuffixAccessor {

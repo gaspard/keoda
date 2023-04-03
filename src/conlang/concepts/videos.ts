@@ -30,7 +30,7 @@ export const videos = _.card('videos', {
 
 ${_.zu}, ${_.la} and ${_.zulapa}
 
-### [lesson #2]() _(TikTok - 2023-02-18)_
+### [lesson #2](https://www.tiktok.com/@annaishq/video/7201037272425303301) _(TikTok - 2023-02-18)_
 
 ${_.ma}, and the suffixes ${_.i$}, ${_.o$}, ${_.u$}, ${_.a$} and ${_.y$}
 
@@ -83,7 +83,7 @@ ${_.caption(
 
 ${_.caption('bye !', 'Goodbye', _.odogi)}
 
-### [lesson #3]() _(TikTok - 2023-02-25)_
+### [lesson #3](https://www.tiktok.com/@annaishq/video/7203629554215193861) _(TikTok - 2023-02-25)_
 
 ${_.ga}, and ${_.gai}
 
@@ -145,5 +145,54 @@ ${_.caption('also "feeling", "consciousness"', '', _.gai)}
 
 ${_.caption('bye!', '', _.odogi)}
 
+
+### [lesson #4](https://www.tiktok.com/@annaishq/video/7208838937803066630) _(TikTok - 2023-03-10)_
+
+${_.caption('today we are talking about', '')}
+
+${_.caption('one of my favorite words in zulapa', '')}
+
+${_.caption('which is **sam a**, **sama**', '', _.sama)}
+
+${_.caption('and it comes from **sam**, the foot', '', _.sam)}
+
+${_.caption('and ... **a**', '', _.a$)}
+
+${_.caption('and ... **a**, to feel loved', '', _.a$)}
+
+${_.caption('and it means "to walk slowly"', '', _.sama)}
+
+${_.caption('because when we touch the earth', '')}
+
+${_.caption('very gently', '')}
+
+${_.caption('it feels like she is', '')}
+
+${_.caption('touching us back', '')}
+
+${_.caption('and we feel loved... ', '')}
+
+${_.caption('and we feel loved... by the earth', '')}
+
+${_.caption('**sama**, walking slowly', '', _.sama)}
+
+${_.caption('feeling loved...', '', _.sama)}
+
+${_.caption('feeling loved... by the earth', '', _.sama)}
+
+### [lesson #XX]() _(TikTok - 2023-02-25)_
+
+${_.caption('singularity', '', _.ka)}
+
+${_.caption('shame', '', _.neka)}
+
+${_.caption('scarf', '', _.adufi)}
+
+${_.caption('naked feet', '', _.nefe.sam)}
+
+
+${_.caption('mirror', '', _.duana)}
+
+${_.caption('friend', '', _.adu)}
 `,
 })

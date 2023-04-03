@@ -25,6 +25,7 @@ export type Colors = {
   writ_color: string
   name_color: string
   open_shadow: string
+  compact_trad: string
 
   glo_color: string
   noun_color: string
@@ -93,6 +94,7 @@ export const COLORS: Colors = {
   writ_color: 'var(--writ_color)',
   name_color: 'var(--name_color)',
   open_shadow: 'var(--open_shadow)',
+  compact_trad: 'var(--compact_trad)',
 
   glo_color: 'var(--glo_color)',
   noun_color: 'var(--noun_color)',
@@ -161,6 +163,7 @@ export const DARK_COLORS: Colors = {
   writ_color: '#ff77ffb5',
   name_color: '#ff77ffb5',
   open_shadow: '-100px -100px 300px #000',
+  compact_trad: '#ffffff33',
 
   glo_color: '#ffffff6b',
   noun_color: '#26ffeeaa',
@@ -229,6 +232,7 @@ export const LIGHT_COLORS: Colors = {
   writ_color: '#2c383c50', // opacity: 0.4; color wasn't set.
   name_color: '#2c383c50', // opacity: 0.4; color wasn't set.
   open_shadow: '-100px -100px 300px #0003',
+  compact_trad: '#00000044',
 
   glo_color: '#777',
   noun_color: '#2e4f8c',

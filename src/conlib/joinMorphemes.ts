@@ -1,4 +1,5 @@
 import {
+  BaseEntry,
   ENDS_knssh,
   ENDS_m,
   ENDS_ssh,
@@ -17,11 +18,16 @@ const SUFFIX_JOIN = 'l'
 
 // 'join' value is dictated by first for prefix (left most) and last for suffix (right most)
 export function joinMorphemes(
-  prevName: string,
-  nextName: string,
+  prev: BaseEntry,
+  next: BaseEntry,
   join: string | undefined,
   prefix: boolean
 ) {
+  const prevName = prev.name
+  const nextName = next.name
+  if (prev.definition.op === 'capitalize') {
+    return nextName.charAt(0).toLocaleUpperCase() + nextName.slice(1)
+  }
   if (nextName === '') {
     // 'silent' elements like imperative
     return prevName
@@ -56,8 +62,8 @@ export function joinMorphemes(
       // sk shk
       // no fix
     } else {
-      fix = join !== undefined ? join : last[1]
+      fix = join !== undefined ? join : last[1].toLowerCase()
     }
   }
-  return prevName + fix + nextName.replace('*', last[1])
+  return prevName + fix + nextName.replace('*', last[1].toLowerCase())
 }

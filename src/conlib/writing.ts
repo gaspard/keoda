@@ -221,7 +221,8 @@ const TELU: { [key: string]: string } = {
   ['8']: '౮',
   ['9']: '౯',
   ['0']: '౦',
-  ['•']: '•',
+  ['\\.']: '.',
+  [',']: ',',
 }
 
 const PHON: { [key: string]: string } = {
@@ -251,7 +252,7 @@ const PHON: { [key: string]: string } = {
   y: 'j',
   r: 'r',
   l: 'l',
-  ['•']: '',
+  ['.']: '',
 }
 
 function tran(word: string) {

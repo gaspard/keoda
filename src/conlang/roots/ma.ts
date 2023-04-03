@@ -12,6 +12,7 @@ export const ma = _.word('ma', {
 
 // Marina
 export const my = _.word('my', {
+  noun: 'trace',
   verb: 'to draw',
   img: 'marina_drawing.jpeg',
   desc: () =>

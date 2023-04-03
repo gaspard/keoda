@@ -8,7 +8,7 @@ import { Phrase } from './Phrase'
 export interface LinkProps {
   className?: string
   // from markdown
-  type?: 'md' | 'md-open'
+  type?: 'md' | 'md-open' | 'md-compact'
   id: string
 }
 
