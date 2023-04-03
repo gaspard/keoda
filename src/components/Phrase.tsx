@@ -26,11 +26,6 @@ export const PhraseWrap = styled.div`
   top: -0.2em;
   display: inline-flex;
   color: #222;
-  &.open {
-    ${
-      ' ' /*margin-top: 1rem; if set back: check h4 paragraph to remove it into nsfw boxes */
-    }
-  }
   p > &:first-child {
     margin-left: 1em;
   }
@@ -165,6 +160,7 @@ export const Phrase: Comp<PhraseProps> = ({ className, type, id }) => {
         className={classnames(className, {
           nsfw: phrase.nsfw,
           open: true,
+          compact: type === 'md-compact',
         })}
       >
         {type === 'md-compact' ? (

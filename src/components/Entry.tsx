@@ -47,10 +47,14 @@ const Wrapper = styled.div`
   &.phrase {
     flex-direction: column;
   }
-  &.card .Main .noun {
-    /* why did we use this ?
-    color: ${COLORS.title_color};
-    */
+  &.card.compact {
+    p {
+      margin-top: 2em;
+      white-space: pre-line;
+    }
+    p > div:first-child {
+      margin-left: 0;
+    }
   }
   &.selected:not(.popup) > .Title {
     background: ${COLORS.selected_bg};
@@ -490,6 +494,7 @@ export const Entry: Comp<EntryProps> = ({ className, id, popup, reduced }) => {
       className={classnames(entry.type, className, {
         popup,
         reduced,
+        compact,
         // selected: id === ctx.state.zulapa.selected,
       })}
     >
