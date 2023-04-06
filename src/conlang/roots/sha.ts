@@ -1,15 +1,15 @@
 import * as _ from '../lang'
 
 export const shaH = _.word('sha', {
-  id: 'shaD',
+  id: 'shaH',
   noun: 'hip',
   see: () => [_.sha],
 })
 
-export const shany = _.word('shany', {
+export const shasha = _.word('shasha', {
   noun: 'dance',
   verb: 'to dance',
-  etym: () => [_.shaH, _.y$],
+  etym: () => [_.shaH, _.shaH],
 })
 
 // === alt

@@ -6,6 +6,7 @@ export const na = _.word('na', {
   suff: 'thing',
   adj: 'humility',
   glo: 'THING',
+  scla: 'noun',
   desc: () => `
   Pain, reality, hurt, resistance but also the joy of there being a world, an other, something to discover.
   ${_.na} is why things matter.

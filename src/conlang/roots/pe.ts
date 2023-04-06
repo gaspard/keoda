@@ -1,8 +1,10 @@
 import * as _ from '../lang'
+import { prefix } from '../zulapa'
 
+// TODO: check the glossing with this word...
 export const pe = _.word('pe', {
   def: 'some',
-  glo: 'they9.INDF',
+  glo: 'INDF',
   noun: '3',
   suff: 'some',
   see: () => [_.mun, _.count],
@@ -12,6 +14,20 @@ export const pe = _.word('pe', {
 export const pena = _.word('pena', {
   noun: 'something',
   etym: () => [_.pe, _.na],
+})
+
+prefix('ape', {
+  id: 'a-pe',
+  def: 'some',
+  glo: 'they.INDF',
+  cla: 'verb',
+})
+
+prefix('Ape', {
+  id: '$cap-a-pe',
+  def: 'some',
+  glo: 'they.INDF',
+  cla: 'verb',
 })
 
 // FIXME: ALL THIS IS ALL WRONG NOW

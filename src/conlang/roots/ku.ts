@@ -30,6 +30,11 @@ See ${_.kulei}.
   etym: () => [_.ku, _.pa],
 })
 
+export const loku = _.word('loku', {
+  verb: 'to allow',
+  etym: () => [_.lo, _.ku],
+})
+
 export const nekupa = _.word('nekupa', {
   verb: 'to let go',
   etym: () => [_.ne, _.kupa],

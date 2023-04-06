@@ -26,9 +26,6 @@ export const PhraseWrap = styled.div`
   top: -0.2em;
   display: inline-flex;
   color: #222;
-  p > &:first-child {
-    margin-left: 1em;
-  }
   &:hover .Trad:not(.fix) {
     ${
       /*opacity: 0;
@@ -165,8 +162,8 @@ export const Phrase: Comp<PhraseProps> = ({ className, type, id }) => {
       >
         {type === 'md-compact' ? (
           <GWrap className="compact">
-            <List type={type} entries={phrase.words!} glo />
             {phrase.trad}
+            <List type={type} entries={phrase.words!} glo />
           </GWrap>
         ) : (
           <GWrap>

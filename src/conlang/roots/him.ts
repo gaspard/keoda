@@ -39,7 +39,7 @@ export const gamahim = _.word('gamahim', {
 export const yulak = _.word('yulak', {
   verb: 'to play',
   noun: 'player',
-  etym: () => [_.yu, _.lak],
+  etym: () => [_.yu, _.lak.verb],
 })
 
 export const gahimus = _.word('gahimus', {

@@ -20,3 +20,9 @@ export const tionehaj = _.word('tionehaj', {
   verb: 'to rape',
   etym: () => [_.tio, _.nehaj],
 })
+
+export const raj = _.word('raj', {
+  noun: 'creature',
+  verb: 'to create',
+  etym: () => [_.ru, _.aj],
+})

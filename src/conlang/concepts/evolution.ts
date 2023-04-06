@@ -131,7 +131,7 @@ funny:
 
 Having tests to ensure things do not break is a very good step forward.
 
-### Indefinite subject *(August 2021)*
+### Infinite subject *(August 2021)*
 
 Transformed the ${_.u} conjugation from an infinitive into the notion of "life
 itself" doing something: the infinite subject. This is a first step in
@@ -141,7 +141,9 @@ object.
 
 David Bohm's idea on the rheomode (putting word priority on the verb) made me
 try different ideas and I think the best solution is to simply use the existing
-passive voice with the infinite subject: ${_.phrase('It rains', _.es.u.gai)}.
+passive voice with the infinite subject: 
+
+${_.phrase('It rains', _.es.u.gai)}
 
 I would like to change some meanings related to "spirit". I want this languge to
 be about the body, so "mind" has to be something that is a lived experience, not

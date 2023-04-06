@@ -24,7 +24,7 @@ export const $comma = _.word(',', {
   glo: '',
 })
 
-export const $cap = _.word('', {
+export const $cap = _.prefix('', {
   id: '$cap',
   noun: '',
   glo: '',

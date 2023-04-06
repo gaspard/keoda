@@ -40,4 +40,5 @@ export const lamoa = _.word('lamoa', {
 
 export const lamu = _.word('lamu', {
   verb: 'to drink',
+  etym: () => [_.lam, _.u$],
 })

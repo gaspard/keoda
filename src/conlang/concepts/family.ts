@@ -1,5 +1,8 @@
 import * as _ from '../lang'
 
+// Babina = grand-maman slovaque
+// Dedo (/djedo/) = grand-papa
+
 export const family = _.card('family', {
   writ: 'family',
   desc: () => `
@@ -9,7 +12,7 @@ To understand family, you need to have a 3D view of space in the language.
 Imagine that you are looking forward. You have the spatial directions as
 follow (yes it looks like a person looking south "sud").
 
-|          | front   |        |
+|          | front   |        |
 | :-:      | :-:     | :-:    |
 |          | ${_.du} |        |
 | ${_.se}  |  🥰     | ${_.we} |
@@ -44,7 +47,7 @@ And now all these terms can be cased with one of the three genders:
 
 ## ${_.hida} (siblings)
 
-|           | ${_.unu} | ${_.iwi} | ${_.oto} |
+|           | ${_.unu} | ${_.iwi} | ${_.oto} |
 | :----     | :------: | :------: | :-------: |
 | ${_.duda} | ${_.dunu}| ${_.duwi}| ${_.duto} |
 | ${_.hida} | ${_.hinu}| ${_.hiwi}| ${_.hito} |
@@ -59,7 +62,7 @@ younger or elderly):
 
 ## ${_.hada} (parent) / ${_.joda} (child)
 
-|           | ${_.unu}  | ${_.iwi}  | ${_.oto}  |
+|           | ${_.unu}  | ${_.iwi}  | ${_.oto}  |
 | :----     | :------:  | :------:  | :-------: |
 | ${_.hada} | ${_.hanu} | ${_.hawi} | ${_.hato} |
 | ${_.joda} | ${_.jonu} | ${_.jowi} | ${_.joto} |

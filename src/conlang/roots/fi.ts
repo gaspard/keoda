@@ -8,12 +8,12 @@ export const fi = _.word('fi', {
 
 export const fishany = _.word('fishany', {
   verb: 'to sew',
-  etym: () => [_.fi, _.shany],
+  etym: () => [_.fi, _.meny],
 })
 
 export const gufishany = _.word('gufishany', {
   verb: 'to sew life, connect things out of causal time',
-  etym: () => [_.gufi, _.shany],
+  etym: () => [_.gufi, _.meny],
 })
 
 export const gufi = _.word('gufi', {

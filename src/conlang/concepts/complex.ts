@@ -42,13 +42,13 @@ ${_.phraseX(
 ${_.phraseX(
   'I want you to vagina-hold my penis.',
   _.o.ora,
-  _.i.yuru.m,
+  _.i.yuru.n,
   _.to.taj.m
 )}
 
 ### Manipulatives
 
-${_.phraseX('I made her whip him.', _.o.mahim.em, _.unu.m, _.a.fo.m, _.oto.m)}
+${_.phraseX('I made her whip him.', _.o.mahim.em, _.unu.m, _.a.fo.n, _.oto.m)}
 
 ### Perception
 

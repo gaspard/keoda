@@ -52,9 +52,6 @@ const Wrapper = styled.div`
       margin-top: 2em;
       white-space: pre-line;
     }
-    p > div:first-child {
-      margin-left: 0;
-    }
   }
   &.selected:not(.popup) > .Title {
     background: ${COLORS.selected_bg};

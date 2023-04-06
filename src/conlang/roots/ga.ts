@@ -49,8 +49,8 @@ export const kuga = _.word('kuga', {
 })
 
 export const nega = _.word('nega', {
-  noun: 'crazy',
+  adj: 'crazy',
   glo: 'crazy',
-  adj: 'crazily',
+  adv: 'crazily',
   etym: () => [_.ne, _.ga],
 })

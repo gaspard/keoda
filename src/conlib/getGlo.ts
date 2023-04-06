@@ -6,6 +6,9 @@ export function getGlo(
   next: EntryDefinition,
   prefix: boolean
 ): string {
+  if (prev.op === 'capitalize') {
+    return next.glo || next[next.cla!]!
+  }
   let glo = prev.glo || prev[prev.cla!]!
   let force = next.scla // || next.force // should we use next.force here ?
   if (force) {

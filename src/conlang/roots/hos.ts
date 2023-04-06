@@ -6,3 +6,9 @@ export const hos = _.word('hos', {
   adj: 'wide open',
   adv: 'trustingly',
 })
+
+export const shehos = _.word('shehos', {
+  adj: 'surprised',
+  noun: 'surprise',
+  etym: () => [_.she, _.hos],
+})

@@ -7,6 +7,7 @@ export const la = word('la', {
 
 export const lapa = word('lapa', {
   verb: 'to sing',
+  noun: 'song',
   adj: '',
 })
 

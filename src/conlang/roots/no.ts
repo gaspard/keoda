@@ -32,7 +32,7 @@ export const nowi = _.word('nowi', {
 
 export const nopi = _.word('nopi', {
   noun: 'back',
-  pos: 'lying on th back',
+  pos: 'lying on the back',
   etym: () => [_.no, _.pi],
 })
 

@@ -84,8 +84,9 @@ Now that you know about the hardest, let's restart and move gently from one conc
 
 ## Imperative
 
-The simplest tense is the imperative. Note that we can drop the accusative and
-possessive when using the imperative to say "do something to a part of my body".
+The simplest tense is the second-person imperative. Note that we can drop the
+accusative and possessive when using the imperative to say "do something to a
+part of my body".
 
 ${_.phrase('Kiss my lips.', _.la.imp, _.la)}
 ${_.phrase('Kiss my cheek (face).', _.la.imp, _.duha)}
@@ -93,6 +94,10 @@ ${_.phrase('Kiss my cheek (face).', _.la.imp, _.duha)}
 But here the imperative (and consent) is required:
 
 ${_.phrase('Kiss her lips.', _.la.imp, _.la.m, _.ni.unu)}
+
+For other subjects, we simply use the adverb ${_.lei} (now).
+
+${_.phrase("Let's sing (chantons)!", _.sho.lapa.lei)}
 
 ## Word order
 

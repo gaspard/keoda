@@ -14,3 +14,10 @@ export const melam = _.word('melam', {
   verb: 'to swim',
   etym: () => [_.me, _.lam],
 })
+
+export const meny = _.word('meny', {
+  noun: 'dance',
+  verb: 'to dance',
+  desc: () => `To move like drawing`,
+  etym: () => [_.me, _.y$],
+})

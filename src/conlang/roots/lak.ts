@@ -11,3 +11,8 @@ export const lakashan = _.word('lakashan', {
   desc: () => `Portion of food.`,
   etym: () => [_.lak, _.shan],
 })
+
+export const guwulak = _.word('guwulak', {
+  verb: 'to feed',
+  etym: () => [_.guwu, _.lak],
+})

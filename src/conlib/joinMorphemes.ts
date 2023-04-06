@@ -41,7 +41,7 @@ export function joinMorphemes(
   const nvowel = STARTS_VOWEL.test(nextName) // does not include 'y'
   if (pvowel && nvowel) {
     // two vowels
-    if (nextName.length === 1 && nextName != 'e') {
+    if (!prefix && nextName.length === 1 && nextName != 'e') {
       // moods: no fix
       console.log(prevName, nextName, '=====> ' + prevName + nextName)
       fix = ''
