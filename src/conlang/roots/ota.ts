@@ -3,6 +3,7 @@ import * as _ from '../lang'
 export const ota = _.word('ota', {
   noun: 'circle',
   adv: 'again',
+  adj: 'surrounded',
 })
 
 export const lamota = _.word('lamota', {

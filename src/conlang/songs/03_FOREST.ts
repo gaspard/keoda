@@ -16,7 +16,7 @@ ${_.phrase(
   _.$comma
 )}
 ${_.phrase('Feeding the small.', _.u.lu.guwulak, _.na.lil.m)}
-${_.phrase('Feeding the large.', _.u.lu.guwulak, _.na.hi.m)}
+${_.phrase('Feeding the large.', _.u.lu.guwulak, _.na.hi.m, $)}
 
 ${_.phrase('Some are born,', __.es.a.pe.gui, _.$comma)}
 ${_.phrase('fragile beauties,', _.kiti, _.awi.adj.na)}
@@ -34,23 +34,38 @@ ${_.phrase('You unfold into being,', __.i.nie, _.ru.e, _.$comma)}
 ${_.phrase('little words on paper,', _.ganek.lil, _.fe.inina, _.$comma)}
 ${_.phrase('made of wood.', _.mei.nam, $)}
 
-${_.phrase('You will burn to ashes')}
-${_.phrase('Your words, your story')}
-${_.phrase('Remembered in my flesh.')}
+${_.phrase('You will burn to ashes.', _.i.zau.ir, _.ru.kenam)}
+${_.phrase('Your words, your story', _.ti.ganek, _.ti.agi)}
+${_.phrase('remembered in my flesh.', _.es.sha.ji, _.ro.to.yaunoa, $)}
 
-${_.phrase('I am the book, capturing your')}
-${_.phrase('Every instant, this smile, this cry')}
-${_.phrase('Your skin on your mother')}
-${_.phrase('Your smell in her nose.')}
+${_.phrase(
+  'I am the book, capturing',
+  __.o.e,
+  _.djin,
+  _.a.s,
+  _.a.lu.nul,
+  _.$comma
+)}
+${_.phrase(
+  'your every instant, this smile, this cry,',
+  _.ti.leiser.m,
+  _.$comma,
+  _.sij.laj,
+  _.$comma,
+  _.sij.falam,
+  _.$comma
+)}
+${_.phrase('your skin on your mother,', _.ti.noa, _.fe.ti.hanu.m)}
+${_.phrase('your smell in her nose.', _.ti.shena, _.ro.sheu.wu, _.unu.s.m)}
 
-${_.phrase('I am your eternal mother')}
-${_.phrase('Giver of life')}
-${_.phrase('Taker of life.')}
+${_.phrase('I am your eternal mother,', __.o.e, _.ti.lau.hanu, _.$comma)}
+${_.phrase('giver of life,', _.a.s, _.a.guwu, _.gui.m)}
+${_.phrase('taker of life.', _.a.s, _.a.hajo, _.gui.m, $)}
 
-${_.phrase('You crawl into existence')}
-${_.phrase('Surrounded by life')}
-${_.phrase('That you take,')}
-${_.phrase('To become.')}
+${_.phrase('You crawl into existence,', __.i.adja, _.ruP.gu.noun, _.$comma)}
+${_.phrase('surrounded by life', _.ota.adj, _.fu.gu)}
+${_.phrase('that you take,', _.a.s.m, _.i.hajo)}
+${_.phrase('to become.', _.ibu, _.u.ru, $)}
 
 ${_.phrase('You owe me')}
 ${_.phrase('you.')}

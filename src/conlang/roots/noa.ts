@@ -34,3 +34,8 @@ ${_.phrase('I thank them for speaking.', _.o.nomy, _.a.lapa.n)}
   see: () => [_.odogi, _.palus],
   etym: () => [_.noa, _.my],
 })
+
+export const yaunoa = _.word('yaunoa', {
+  noun: 'flesh',
+  etym: () => [_.yau, _.noa],
+})

@@ -23,7 +23,7 @@ export const aulau = _.word('aulau', {
     _.phrase(
       'Make love to me as if you washed yourself from a great sadness.',
       _.au.imp,
-      _.si.falame,
+      _.si.falam,
       _.au
     ),
   ],

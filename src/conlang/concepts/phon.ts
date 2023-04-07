@@ -28,7 +28,7 @@ All sounds correspond to [Telugu](https://en.wikipedia.org/wiki/Telugu_script) e
 
 | Symbol | Telugu     | Zulapa     | Example             |
 | :----: | :--------: | :-------: | :--------:          |
-| **చ**  | /tʃ/       | /f/       | ${_.falame}        |
+| **చ**  | /tʃ/       | /f/       | ${_.falam}        |
 | **ఠ**  | /tʰ/       | /z/       | ${_.zuzu}          |
 | **జ్‌**  | /dʒ/       | /ʒ/       | ${_.joda}, ${_.baj} |
 | **ఇ‌**  | /aj/       | /j/       | ${_.my} |

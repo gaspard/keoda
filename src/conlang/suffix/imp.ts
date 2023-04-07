@@ -16,6 +16,14 @@ export const noun = suffix('', {
   scla: 'noun',
 })
 
+export const def = suffix('', {
+  id: 'def',
+  verb: '',
+  writ: '',
+  glo: '',
+  scla: 'def',
+})
+
 export const verb = suffix('', {
   id: 'verb',
   verb: '',

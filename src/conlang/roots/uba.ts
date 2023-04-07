@@ -5,7 +5,7 @@ export const uba = _.word('uba', {
   exam: () => [
     _.phrase(
       'Tears are running down your face.',
-      _.falame,
+      _.falam,
       _.a.uba,
       _.fe.duha.ti
     ),

@@ -6,7 +6,7 @@ export const lam = _.word('lam', {
   see: () => [_.nature],
 })
 
-export const falame = _.word('falame', {
+export const falam = _.word('falam', {
   noun: 'tears',
   verb: 'to cry',
   etym: () => [_.fa, _.lam],
