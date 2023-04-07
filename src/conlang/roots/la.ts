@@ -65,6 +65,11 @@ export const lapana = _.word('lapana', {
   etym: () => [_.la, _.na],
 })
 
+export const ganek = _.word('ganek', {
+  noun: 'word',
+  etym: () => [_.ga, _.ek],
+})
+
 export const lapanagu = _.word('lanagu', {
   noun: 'insult',
   etym: () => [_.lapana, _.gu],

@@ -7,7 +7,7 @@ export const him = _.word('him', {
 
 export const yuhim = _.word('yuhim', {
   noun: 'growing joy',
-  verb: 'to be born',
+  verb: 'to birth',
   etym: () => [_.yu, _.him],
   see: () => [_.gui],
 })

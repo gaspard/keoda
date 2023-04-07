@@ -52,6 +52,8 @@ export const hada = _.word('hada', {
 
 export const hanu = _.word('hanu', {
   noun: 'mother',
+  scla: 'noun',
+  cla: 'noun',
   etym: () => [_.ha, _.unu],
   see: () => [_.family],
 })

@@ -31,6 +31,7 @@ The prepositions that can be used as case marking have the gloss next to them
 * ${_.refAndGlo(_.le)}
 * ${_.refAndGlo(_.wu)}
 * ${_.ref(_.diwu)}
+* ${_.ref(_.difu)} (can also use ${_.a.s})
 * ${_.ref(_.eku)}
 * ${_.refAndGlo(_.ko)}
 * ${_.refAndGlo(_.es)}
@@ -93,7 +94,7 @@ Examples
 * ${_.ref(_.ibu)}
 * ${_.ref(_.eja)}
 * ${_.ref(_.ku)}
-* ${_.ref(_.eku)}
+* ${_.ref(_.eku)} (if)
 * ${_.ref(_.meu)}
 
 Examples:

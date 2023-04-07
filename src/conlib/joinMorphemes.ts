@@ -43,7 +43,6 @@ export function joinMorphemes(
     // two vowels
     if (!prefix && nextName.length === 1 && nextName != 'e') {
       // moods: no fix
-      console.log(prevName, nextName, '=====> ' + prevName + nextName)
       fix = ''
     } else {
       fix = join !== undefined ? join : prefix ? PREFIX_JOIN : SUFFIX_JOIN

@@ -38,9 +38,9 @@ export function getGlo(
     const base = getCla(prev, next, false)
     let cla = base
     if (!prefix) {
-      if (cla === 'noun') {
+      if (cla === 'noun' && next['adj']) {
         cla = 'adj'
-      } else if (cla === 'verb') {
+      } else if (cla === 'verb' && next['adv']) {
         cla = 'adv'
       }
     }

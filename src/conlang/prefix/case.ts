@@ -11,6 +11,11 @@ export const fu = prefix('fu', {
   join: '',
 })
 
+export const difu = _.word('difu', {
+  def: 'who',
+  see: () => [_.prep],
+})
+
 export const ju = prefix('ju', {
   def: 'before',
   noun: 'start',

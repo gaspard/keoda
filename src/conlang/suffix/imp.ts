@@ -8,6 +8,14 @@ export const imp = suffix('', {
   scla: 'verb',
 })
 
+export const noun = suffix('', {
+  id: 'noun',
+  verb: '',
+  writ: '',
+  glo: '',
+  scla: 'noun',
+})
+
 export const verb = suffix('', {
   id: 'verb',
   verb: '',

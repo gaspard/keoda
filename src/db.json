@@ -45,8 +45,10 @@
         "phrase-49",
         "phrase-50",
         "phrase-77",
-        "phrase-81",
         "phrase-83",
+        "phrase-86",
+        "phrase-89",
+        "phrase-92",
         "phrase-120",
         "phrase-125",
         "phrase-130",
@@ -70,6 +72,10 @@
       "phrases": [
         "phrase-46",
         "phrase-78",
+        "phrase-81",
+        "phrase-87",
+        "phrase-90",
+        "phrase-91",
         "phrase-114",
         "phrase-116",
         "phrase-122",
@@ -104,6 +110,10 @@
         "phrase-50",
         "phrase-76",
         "phrase-78",
+        "phrase-81",
+        "phrase-84",
+        "phrase-87",
+        "phrase-90",
         "phrase-114",
         "phrase-121",
         "phrase-126",
@@ -295,6 +305,21 @@
         "phrase-600"
       ]
     },
+    "word-difu": {
+      "name": "difu",
+      "type": "word",
+      "def": "who",
+      "see": [
+        "card-prep"
+      ],
+      "forcedGlo": false,
+      "glo": "**who**",
+      "cla": "def",
+      "id": "word-difu",
+      "fulltext": "difu",
+      "writ": "దిచు",
+      "phon": "/difu/"
+    },
     "word-ju": {
       "name": "ju",
       "type": "word",
@@ -409,6 +434,8 @@
       "phrases": [
         "phrase-1",
         "phrase-27",
+        "phrase-85",
+        "phrase-86",
         "phrase-113",
         "phrase-126",
         "phrase-127",
@@ -494,7 +521,6 @@
         "word-neji",
         "word-neka",
         "word-nekupa",
-        "word-nelat",
         "word-nena",
         "word-nash",
         "word-neoda",
@@ -569,6 +595,7 @@
       ],
       "phrases": [
         "phrase-34",
+        "phrase-91",
         "phrase-194",
         "phrase-198",
         "phrase-268",
@@ -899,10 +926,10 @@
       "name": "ti",
       "type": "word",
       "noun": "you",
-      "glo": "POSS.**you**",
-      "pref": "POSS.**you**",
-      "forcedGlo": true,
+      "glo": "POSS.you",
       "cla": "noun",
+      "pref": "POSS.you",
+      "forcedGlo": true,
       "id": "word-ti",
       "fulltext": "ti",
       "writ": "తి",
@@ -919,6 +946,7 @@
         "phrase-14",
         "phrase-21",
         "phrase-34",
+        "phrase-87",
         "phrase-116",
         "phrase-144",
         "phrase-207",
@@ -1087,6 +1115,12 @@
         "phrase-42",
         "phrase-43",
         "phrase-44",
+        "phrase-81",
+        "phrase-84",
+        "phrase-85",
+        "phrase-86",
+        "phrase-88",
+        "phrase-89",
         "phrase-113",
         "phrase-193",
         "phrase-207",
@@ -1186,6 +1220,10 @@
         "phrase-20",
         "phrase-27",
         "phrase-38",
+        "phrase-81",
+        "phrase-84",
+        "phrase-85",
+        "phrase-86",
         "phrase-113",
         "phrase-230",
         "phrase-252",
@@ -1235,6 +1273,7 @@
       ],
       "phrases": [
         "phrase-26",
+        "phrase-90",
         "phrase-113",
         "phrase-132",
         "phrase-136",
@@ -1355,6 +1394,7 @@
         "phrase-50",
         "phrase-76",
         "phrase-78",
+        "phrase-87",
         "phrase-114",
         "phrase-121",
         "phrase-126",
@@ -1727,6 +1767,22 @@
       "phrases": [
         "phrase-132",
         "phrase-145"
+      ]
+    },
+    "word-ais": {
+      "name": "ais",
+      "type": "word",
+      "noun": "caterpillar",
+      "adj": "weak",
+      "forcedGlo": false,
+      "glo": "**caterpillar**",
+      "cla": "noun",
+      "id": "word-ais",
+      "fulltext": "ais",
+      "writ": "ఐస్‌",
+      "phon": "/ais/",
+      "phrases": [
+        "phrase-85"
       ]
     },
     "word-aj": {
@@ -3138,6 +3194,8 @@
         "phrase-41",
         "phrase-76",
         "phrase-78",
+        "phrase-87",
+        "phrase-90",
         "phrase-114",
         "phrase-121",
         "phrase-126",
@@ -3279,6 +3337,8 @@
       "writ": "ఎకు",
       "phon": "/ɛku/",
       "phrases": [
+        "phrase-85",
+        "phrase-86",
         "phrase-113",
         "phrase-229",
         "phrase-230",
@@ -3358,6 +3418,7 @@
       "phrases": [
         "phrase-48",
         "phrase-49",
+        "phrase-84",
         "phrase-395",
         "phrase-406"
       ]
@@ -4092,6 +4153,7 @@
         "word-gu",
         "word-gahi",
         "word-gama",
+        "word-ganek",
         "word-maga",
         "word-nuga"
       ],
@@ -4539,7 +4601,8 @@
     "word-gui": {
       "name": "gui",
       "type": "word",
-      "verb": "to be born",
+      "noun": "life",
+      "verb": "to birth",
       "see": [
         "word-yuhim",
         "word-nem"
@@ -4549,8 +4612,8 @@
         "word-i$"
       ],
       "forcedGlo": false,
-      "glo": "**be born**",
-      "cla": "verb",
+      "glo": "**life**",
+      "cla": "noun",
       "id": "word-gui",
       "fulltext": "gui",
       "writ": "గుఇ",
@@ -4559,7 +4622,10 @@
         "word-rugui"
       ],
       "phrases": [
-        "phrase-20"
+        "phrase-20",
+        "phrase-81",
+        "phrase-88",
+        "phrase-89"
       ]
     },
     "word-rugui": {
@@ -4602,6 +4668,7 @@
       ],
       "phrases": [
         "phrase-6",
+        "phrase-88",
         "phrase-270",
         "phrase-273",
         "phrase-327",
@@ -4806,6 +4873,22 @@
       "writ": "ఠుఠౌ",
       "phon": "/zuzau/"
     },
+    "word-gur": {
+      "name": "gur",
+      "type": "word",
+      "noun": "gorilla",
+      "adj": "strong",
+      "forcedGlo": false,
+      "glo": "**gorilla**",
+      "cla": "noun",
+      "id": "word-gur",
+      "fulltext": "gur",
+      "writ": "గుర్‌",
+      "phon": "/gur/",
+      "phrases": [
+        "phrase-86"
+      ]
+    },
     "word-ha": {
       "name": "ha",
       "type": "word",
@@ -4998,6 +5081,7 @@
       "name": "hanu",
       "type": "word",
       "noun": "mother",
+      "cla": "noun",
       "etym": [
         "word-ha",
         "word-unu"
@@ -5007,13 +5091,13 @@
       ],
       "forcedGlo": false,
       "glo": "**mother**",
-      "cla": "noun",
       "id": "word-hanu",
       "fulltext": "hanu",
       "writ": "హాను",
       "phon": "/hanu/",
       "phrases": [
-        "phrase-77"
+        "phrase-77",
+        "phrase-87"
       ]
     },
     "word-hawi": {
@@ -5157,8 +5241,23 @@
       "writ": "హి",
       "phon": "/hi/",
       "phrases": [
-        "phrase-80",
         "phrase-137"
+      ]
+    },
+    "word-na-hi": {
+      "name": "nahi",
+      "type": "word",
+      "id": "word-na-hi",
+      "noun": "large",
+      "glo": "THING.**large**",
+      "pref": "THING.**large**",
+      "forcedGlo": true,
+      "cla": "noun",
+      "fulltext": "nahi",
+      "writ": "నాహి",
+      "phon": "/nahi/",
+      "phrases": [
+        "phrase-80"
       ]
     },
     "word-him": {
@@ -5193,7 +5292,7 @@
       "name": "yuhim",
       "type": "word",
       "noun": "growing joy",
-      "verb": "to be born",
+      "verb": "to birth",
       "etym": [
         "word-yu",
         "word-him"
@@ -5207,10 +5306,7 @@
       "id": "word-yuhim",
       "fulltext": "yuhim",
       "writ": "యుహిం",
-      "phon": "/juhim/",
-      "phrases": [
-        "phrase-81"
-      ]
+      "phon": "/juhim/"
     },
     "word-mahim": {
       "name": "mahim",
@@ -5475,6 +5571,36 @@
         "phrase-333"
       ]
     },
+    "word-ie": {
+      "name": "ie",
+      "type": "word",
+      "noun": "fold",
+      "verb": "to fold",
+      "adj": "folded",
+      "forcedGlo": false,
+      "glo": "**fold**",
+      "cla": "noun",
+      "id": "word-ie",
+      "fulltext": "ie",
+      "writ": "ఇఎ",
+      "phon": "/iɛ/"
+    },
+    "word-nie": {
+      "name": "nie",
+      "type": "word",
+      "verb": "to unfold",
+      "adj": "unfolded",
+      "forcedGlo": false,
+      "glo": "**unfold**",
+      "cla": "verb",
+      "id": "word-nie",
+      "fulltext": "nie",
+      "writ": "నిఎ",
+      "phon": "/niɛ/",
+      "phrases": [
+        "phrase-90"
+      ]
+    },
     "word-ij": {
       "name": "ij",
       "type": "word",
@@ -5559,6 +5685,40 @@
         "word-bisahina",
         "word-egina",
         "word-yin"
+      ]
+    },
+    "word-ini": {
+      "name": "ini",
+      "type": "word",
+      "adj": "thin",
+      "forcedGlo": false,
+      "glo": "*thin*",
+      "cla": "adj",
+      "id": "word-ini",
+      "fulltext": "ini",
+      "writ": "ఇని",
+      "phon": "/ini/",
+      "deriv": [
+        "word-inina"
+      ]
+    },
+    "word-inina": {
+      "name": "inina",
+      "type": "word",
+      "noun": "paper",
+      "etym": [
+        "word-ini",
+        "word-na"
+      ],
+      "forcedGlo": false,
+      "glo": "**paper**",
+      "cla": "noun",
+      "id": "word-inina",
+      "fulltext": "inina",
+      "writ": "ఇనినా",
+      "phon": "/inina/",
+      "phrases": [
+        "phrase-91"
       ]
     },
     "word-ipa": {
@@ -6068,6 +6228,7 @@
       ],
       "phrases": [
         "phrase-22",
+        "phrase-89",
         "phrase-320"
       ]
     },
@@ -7129,6 +7290,25 @@
         "phrase-599"
       ]
     },
+    "word-ganek": {
+      "name": "ganek",
+      "type": "word",
+      "noun": "word",
+      "etym": [
+        "word-ga",
+        "word-ek"
+      ],
+      "forcedGlo": false,
+      "glo": "**word**",
+      "cla": "noun",
+      "id": "word-ganek",
+      "fulltext": "ganek",
+      "writ": "గానేk",
+      "phon": "/ganɛk/",
+      "phrases": [
+        "phrase-91"
+      ]
+    },
     "word-lanagu": {
       "name": "lanagu",
       "type": "word",
@@ -7396,27 +7576,48 @@
       "writ": "లాt",
       "phon": "/lat/",
       "deriv": [
-        "word-nelat"
+        "word-nilat",
+        "word-latek"
       ],
       "phrases": [
         "phrase-128"
       ]
     },
-    "word-nelat": {
-      "name": "nelat",
+    "word-nilat": {
+      "name": "nilat",
+      "type": "word",
+      "verb": "to hunt",
+      "adj": "hunted",
+      "etym": [
+        "alt-ni-noun",
+        "word-lat"
+      ],
+      "forcedGlo": false,
+      "glo": "**hunt**",
+      "cla": "verb",
+      "id": "word-nilat",
+      "fulltext": "nilat",
+      "writ": "నిలాt",
+      "phon": "/nilat/",
+      "phrases": [
+        "phrase-85"
+      ]
+    },
+    "word-latek": {
+      "name": "latek",
       "type": "word",
       "adj": "tammed",
       "etym": [
-        "word-ne",
-        "word-lat"
+        "word-lat",
+        "word-ek"
       ],
       "forcedGlo": false,
       "glo": "*tammed*",
       "cla": "adj",
-      "id": "word-nelat",
-      "fulltext": "nelat",
-      "writ": "నేలాt",
-      "phon": "/nɛlat/"
+      "id": "word-latek",
+      "fulltext": "latek",
+      "writ": "లాతేk",
+      "phon": "/latɛk/"
     },
     "word-elau": {
       "name": "elau",
@@ -7730,6 +7931,22 @@
       "phon": "/nɛlil/",
       "phrases": [
         "phrase-601"
+      ]
+    },
+    "word-na-lil": {
+      "name": "nalil",
+      "type": "word",
+      "id": "word-na-lil",
+      "noun": "small",
+      "glo": "THING.**small**",
+      "pref": "THING.**small**",
+      "forcedGlo": true,
+      "cla": "noun",
+      "fulltext": "nalil",
+      "writ": "నాలిల్‌",
+      "phon": "/nalil/",
+      "phrases": [
+        "phrase-79"
       ]
     },
     "word-lila": {
@@ -8198,6 +8415,7 @@
       "writ": "మేఇ",
       "phon": "/mɛi/",
       "phrases": [
+        "phrase-92",
         "phrase-465",
         "phrase-599"
       ]
@@ -8482,6 +8700,7 @@
         "word-gana",
         "word-guna",
         "word-guwuna",
+        "word-inina",
         "word-jaja",
         "word-jona",
         "word-lapana",
@@ -8555,7 +8774,8 @@
         "word-kenam"
       ],
       "phrases": [
-        "phrase-22"
+        "phrase-22",
+        "phrase-92"
       ]
     },
     "word-kanam": {
@@ -9868,6 +10088,8 @@
         "word-peyo"
       ],
       "phrases": [
+        "phrase-81",
+        "phrase-84",
         "phrase-237",
         "phrase-241",
         "phrase-247"
@@ -9917,10 +10139,7 @@
       "forcedGlo": true,
       "fulltext": "Ape",
       "writ": "అపే",
-      "phon": "/apɛ/",
-      "phrases": [
-        "phrase-81"
-      ]
+      "phon": "/apɛ/"
     },
     "word-peda": {
       "name": "peda",
@@ -10227,6 +10446,7 @@
       "phon": "/nɛpi/",
       "phrases": [
         "phrase-47",
+        "phrase-86",
         "phrase-397"
       ]
     },
@@ -10666,6 +10886,7 @@
         "word-yuru"
       ],
       "phrases": [
+        "phrase-90",
         "phrase-117",
         "phrase-122",
         "phrase-123",
@@ -13622,7 +13843,9 @@
       "writ": "ఎk",
       "phon": "/ɛk/",
       "deriv": [
-        "word-nemek"
+        "word-nemek",
+        "word-ganek",
+        "word-latek"
       ]
     },
     "word-gi": {
@@ -13765,6 +13988,22 @@
         "phrase-563"
       ]
     },
+    "word-noun": {
+      "name": "",
+      "type": "word",
+      "id": "word-noun",
+      "verb": "",
+      "writ": "",
+      "glo": "",
+      "suff": "",
+      "forcedGlo": false,
+      "cla": "verb",
+      "fulltext": "",
+      "phon": " ",
+      "deriv": [
+        "word-nilat"
+      ]
+    },
     "word-verb": {
       "name": "",
       "type": "word",
@@ -13876,7 +14115,7 @@
       ],
       "phrases": [
         "phrase-38",
-        "phrase-79",
+        "phrase-91",
         "phrase-115",
         "phrase-126",
         "phrase-237",
@@ -14096,6 +14335,8 @@
       "phon": "/s/",
       "phrases": [
         "phrase-44",
+        "phrase-88",
+        "phrase-89",
         "phrase-230",
         "phrase-420"
       ]
@@ -14415,6 +14656,7 @@
       "type": "word",
       "adv": "always",
       "noun": "eternity",
+      "glo": "ETERN",
       "etym": [
         "word-lei",
         "word-au"
@@ -14424,8 +14666,7 @@
         "card-verbs"
       ],
       "suff": "always",
-      "forcedGlo": false,
-      "glo": "*always*",
+      "forcedGlo": true,
       "cla": "adv",
       "id": "word-lau",
       "fulltext": "lau",
@@ -14435,6 +14676,7 @@
         "word-elau"
       ],
       "phrases": [
+        "phrase-87",
         "phrase-200",
         "phrase-303",
         "phrase-315",
@@ -14773,7 +15015,7 @@
       "type": "card",
       "writ": "animals",
       "phon": "",
-      "desc": "\n# Animals\n\n* [unuwi](word-unuwi) (medusa)\n* [awi](word-awi) (fish)\n* [dudapan](word-dudapan) (fox)\n* [gawi](word-gawi) (whale)\n* [gili](word-gili) (tiger)\n* [goda](word-goda) (elephant)\n* [gojida](word-gojida) (bear)\n* [gosheu](word-gosheu) (pig)\n* [hapan](word-hapan) (goat)\n* [iwa](word-iwa) (owl)\n* [iwi](word-iwi) (enby person)\n* [kadu](word-kadu) (dog)\n* [kawi](word-kawi) (shark)\n* [kelo](word-kelo) (crocodile)\n* [koda](word-koda) (cow)\n* [lapalapa](word-lapalapa) (duck)\n* [lipaya](word-lipaya) (wolf)\n* [mawi](word-mawi) (dolphin)\n* [miwi](word-miwi) (butterfly)\n* [miwi](word-miwi) (butterfly)\n* [munawi](word-munawi) (moon)\n* [odil](word-odil) (lion)\n\n",
+      "desc": "\n# Animals\n\n* [unuwi](word-unuwi) (medusa)\n* [awi](word-awi) (fish)\n* [dudapan](word-dudapan) (fox)\n* [fu](word-fu) (monkey)\n* [gawi](word-gawi) (whale)\n* [gili](word-gili) (tiger)\n* [goda](word-goda) (elephant)\n* [gojida](word-gojida) (bear)\n* [gosheu](word-gosheu) (pig)\n* [hapan](word-hapan) (goat)\n* [iwa](word-iwa) (owl)\n* [iwi](word-iwi) (enby person)\n* [kadu](word-kadu) (dog)\n* [kawi](word-kawi) (shark)\n* [kelo](word-kelo) (crocodile)\n* [koda](word-koda) (cow)\n* [lapalapa](word-lapalapa) (duck)\n* [lipaya](word-lipaya) (wolf)\n* [mawi](word-mawi) (dolphin)\n* [miwi](word-miwi) (butterfly)\n* [miwi](word-miwi) (butterfly)\n* [munawi](word-munawi) (moon)\n* [odil](word-odil) (lion)\n* [hi](word-hi) (eagle)\n* [ais](word-ais) (caterpillar)\n* [gur](word-gur) (gorilla)\n\n",
       "id": "card-animals",
       "fulltext": "animals"
     },
@@ -14819,7 +15061,7 @@
       "type": "card",
       "writ": "count",
       "phon": "/caut/",
-      "desc": "\n# Numbers and counting\n\nHere are the number from 1 to 10:\n\n* [ipi](word-ipi) (10 / ౧౦)\n* [da](word-da) (9 / ౯)\n* [je](word-je) (8 / ౮)\n* [fe](word-fe) (7 / ౭)\n* [shi](word-shi) (6 / ౬)\n* [lil](word-lil) (5 / ౫)\n* [ka](word-ka) (4 / ౪)\n* [pe](word-pe) (3 / ౩)\n* [de](word-de) (2 / ౨)\n* [pi](word-pi) (1 / ౧)\n\nThe powers of ten:\n\n* [ipu](word-ipu) (1000)\n* [ipa](word-ipa) (100)\n* [ipi](alt-ipi10) (10)\n\n## Some examples:\n\n* [235](phrase-235)\n* [236](phrase-236)\n* [237](phrase-237)\n* [238](phrase-238)\n* [239](phrase-239)\n\n## Big numbers !\n\n* [240](phrase-240)\n* [241](phrase-241)\n* [242](phrase-242)\n* [243](phrase-243)\n\nWe can also express powers of ten [244](phrase-244).\n\n## Small numbers\n\n* [245](phrase-245)\n* [246](phrase-246)\n* [247](phrase-247)\n\nSee [ganes](card-ganes)\n",
+      "desc": "\n# Numbers and counting\n\nHere are the number from 1 to 10:\n\n* [ipi](word-ipi) (10 / ౧౦)\n* [da](word-da) (9 / ౯)\n* [je](word-je) (8 / ౮)\n* [fe](word-fe) (7 / ౭)\n* [shi](word-shi) (6 / ౬)\n* [lil](alt-lil5) (5 / ౫)\n* [ka](word-ka) (4 / ౪)\n* [pe](word-pe) (3 / ౩)\n* [de](word-de) (2 / ౨)\n* [pi](word-pi) (1 / ౧)\n\nThe powers of ten:\n\n* [ipu](word-ipu) (1000)\n* [ipa](word-ipa) (100)\n* [ipi](alt-ipi10) (10)\n\n## Some examples:\n\n* [235](phrase-235)\n* [236](phrase-236)\n* [237](phrase-237)\n* [238](phrase-238)\n* [239](phrase-239)\n\n## Big numbers !\n\n* [240](phrase-240)\n* [241](phrase-241)\n* [242](phrase-242)\n* [243](phrase-243)\n\nWe can also express powers of ten [244](phrase-244).\n\n## Small numbers\n\n* [245](phrase-245)\n* [246](phrase-246)\n* [247](phrase-247)\n\nSee [ganes](card-ganes)\n",
       "id": "card-count",
       "fulltext": "count"
     },
@@ -15012,7 +15254,7 @@
       "type": "card",
       "writ": "prep",
       "phon": "",
-      "desc": "\n# Prepositions\n\nThe prepositions that can be used as case marking have the gloss next to them\n\n## Time\n\n* [lau](word-lau) (always)\n* [uya](word-uya) (since)\n* [lulei](word-lulei) (until)\n* [dem](word-dem) (when past)\n* [dir](word-dir) (when future)\n* [lei](word-lei) (then)\n* [lu](word-lu) (while) `CONT`\n* [ju](word-ju) (before) `ANTE`\n* [hu](word-hu) (after) `POSTE`\n\n#### nsfw\n\n* [303](phrase-303)\n\n## Nouns\n\n* [le](word-le) (very) `ADJ`\n* [wu](word-wu) (emptiness) `OF`\n* [diwu](word-diwu) (who owns)\n* [eku](word-eku) (fact)\n* [ko](word-ko) (with) `COM`\n* [es](word-es) (is-ness) `PASS`\n* [fu](word-fu) (by) `ERG`\n* [ni](word-ni) (to) `DAT`\n* [le](word-le) (very) `ADJ`\n* [ne](word-ne) (negation) `NEG`\n* [sau](word-sau) (without) `ABESS`\n* [s](word-s) (antecedent) `ANT`\n* [dor](word-dor) (for) `CAUSE`\n\n\n#### nsfw\n\n* [304](phrase-304)\n\n## Generic unknown\n\n* [don](word-don) (where,what,who)\n\n* [305](phrase-305)\n* [306](phrase-306)\n\n## Location\n\n* [dono](word-dono) (where (body))\n* [done](word-done) (where (place))\n* [dona](word-dona) (who (other))\n* [ha](word-ha) (far)\n* [jo](word-jo) (intimacy)\n* [dau](word-dau) (close place)\n* [dao](word-dao) (distant place)\n* [kte](word-kte) (between)\n* [fe](word-fe) (on) `SUPESS`\n* [ro](word-ro) (inner) `INESS`\n* [ri](word-ri) (outer) `ELAT`\n* [ru](word-ruP) (into) `ILLAT`\n\nExamples\n\n* [307](phrase-307)\n* [308](phrase-308)\n* [309](phrase-309)\n* [310](phrase-310)\n\n## Causality\n\n* [eyu](word-eyu) (maybe)\n* [ibu](word-ibu) (for)\n* [eja](word-eja) (plausible)\n* [ku](word-ku) (imply)\n* [eku](word-eku) (fact)\n* [meu](word-meu) (otherwise)\n\nExamples:\n\n* [311](phrase-311)\n* [312](phrase-312)\n\n## Similarity\n\n* [si](word-si) (as) `ADV`\n\n## Composability\n\n* [mei](word-mei) (made of)\n\n## Articulation\n\n* [shu](word-shu) (and)\n* [neshu](word-neshu) (but)\n* [uma](word-uma) (or)\n\n",
+      "desc": "\n# Prepositions\n\nThe prepositions that can be used as case marking have the gloss next to them\n\n## Time\n\n* [lau](word-lau) (always)\n* [uya](word-uya) (since)\n* [lulei](word-lulei) (until)\n* [dem](word-dem) (when past)\n* [dir](word-dir) (when future)\n* [lei](word-lei) (then)\n* [lu](word-lu) (while) `CONT`\n* [ju](word-ju) (before) `ANTE`\n* [hu](word-hu) (after) `POSTE`\n\n#### nsfw\n\n* [303](phrase-303)\n\n## Nouns\n\n* [le](word-le) (very) `ADJ`\n* [wu](word-wu) (emptiness) `OF`\n* [diwu](word-diwu) (who owns)\n* [difu](word-difu) (who) (can also use [as](alt-a-s))\n* [eku](word-eku) (fact)\n* [ko](word-ko) (with) `COM`\n* [es](word-es) (is-ness) `PASS`\n* [fu](word-fu) (by) `ERG`\n* [ni](word-ni) (to) `DAT`\n* [le](word-le) (very) `ADJ`\n* [ne](word-ne) (negation) `NEG`\n* [sau](word-sau) (without) `ABESS`\n* [s](word-s) (antecedent) `ANT`\n* [dor](word-dor) (for) `CAUSE`\n\n\n#### nsfw\n\n* [304](phrase-304)\n\n## Generic unknown\n\n* [don](word-don) (where,what,who)\n\n* [305](phrase-305)\n* [306](phrase-306)\n\n## Location\n\n* [dono](word-dono) (where (body))\n* [done](word-done) (where (place))\n* [dona](word-dona) (who (other))\n* [ha](word-ha) (far)\n* [jo](word-jo) (intimacy)\n* [dau](word-dau) (close place)\n* [dao](word-dao) (distant place)\n* [kte](word-kte) (between)\n* [fe](word-fe) (on) `SUPESS`\n* [ro](word-ro) (inner) `INESS`\n* [ri](word-ri) (outer) `ELAT`\n* [ru](word-ruP) (into) `ILLAT`\n\nExamples\n\n* [307](phrase-307)\n* [308](phrase-308)\n* [309](phrase-309)\n* [310](phrase-310)\n\n## Causality\n\n* [eyu](word-eyu) (maybe)\n* [ibu](word-ibu) (for)\n* [eja](word-eja) (plausible)\n* [ku](word-ku) (imply)\n* [eku](word-eku) (fact) (if)\n* [meu](word-meu) (otherwise)\n\nExamples:\n\n* [311](phrase-311)\n* [312](phrase-312)\n\n## Similarity\n\n* [si](word-si) (as) `ADV`\n\n## Composability\n\n* [mei](word-mei) (made of)\n\n## Articulation\n\n* [shu](word-shu) (and)\n* [neshu](word-neshu) (but)\n* [uma](word-uma) (or)\n\n",
       "id": "card-prep",
       "fulltext": "prep"
     },
@@ -16437,7 +16679,7 @@
       "trad": "Feeding the small.",
       "words": [
         "alt-u-lu-guwulak",
-        "alt-lil-m"
+        "alt-na-lil-m"
       ],
       "see": [
         "card-03 - forest"
@@ -16446,7 +16688,7 @@
       "fulltext": "79",
       "writ": "౭౯",
       "phon": " ",
-      "phrase": "uluguwulak lilim"
+      "phrase": "uluguwulak nalilim"
     },
     "phrase-80": {
       "name": "80",
@@ -16454,7 +16696,7 @@
       "trad": "Feeding the large.",
       "words": [
         "alt-u-lu-guwulak",
-        "alt-hi-m"
+        "alt-na-hi-m"
       ],
       "see": [
         "card-03 - forest"
@@ -16463,15 +16705,15 @@
       "fulltext": "80",
       "writ": "౮౦",
       "phon": " ",
-      "phrase": "uluguwulak him"
+      "phrase": "uluguwulak nahim"
     },
     "phrase-81": {
       "name": "81",
       "type": "phrase",
       "trad": "Some are born,",
       "words": [
-        "alt-$cap-a-pe-yuhim",
-        "word-."
+        "alt-$cap-es-a-pe-gui",
+        "word-,"
       ],
       "see": [
         "card-03 - forest"
@@ -16480,7 +16722,7 @@
       "fulltext": "81",
       "writ": "౮౧",
       "phon": " ",
-      "phrase": "Apeyuhim ."
+      "phrase": "Esapegui ,"
     },
     "phrase-82": {
       "name": "82",
@@ -16520,8 +16762,10 @@
     "phrase-84": {
       "name": "84",
       "type": "phrase",
-      "trad": "Some are killed.",
-      "words": [],
+      "trad": "Some are killed,",
+      "words": [
+        "alt-$cap-es-a-pe-nemek"
+      ],
       "see": [
         "card-03 - forest"
       ],
@@ -16529,13 +16773,17 @@
       "fulltext": "84",
       "writ": "౮౪",
       "phon": " ",
-      "phrase": ""
+      "phrase": "Esapenemek"
     },
     "phrase-85": {
       "name": "85",
       "type": "phrase",
-      "trad": "Hunted, if weak,",
-      "words": [],
+      "trad": "hunted, if weak,",
+      "words": [
+        "alt-es-a-nilat",
+        "word-eku",
+        "alt-le-ais"
+      ],
       "see": [
         "card-03 - forest"
       ],
@@ -16543,13 +16791,18 @@
       "fulltext": "85",
       "writ": "౮౫",
       "phon": " ",
-      "phrase": ""
+      "phrase": "esanilat eku lehais"
     },
     "phrase-86": {
       "name": "86",
       "type": "phrase",
-      "trad": "Fought, if strong.",
-      "words": [],
+      "trad": "fought, if strong.",
+      "words": [
+        "alt-es-a-nepi",
+        "word-eku",
+        "alt-le-gur",
+        "word-."
+      ],
       "see": [
         "card-03 - forest"
       ],
@@ -16557,13 +16810,17 @@
       "fulltext": "86",
       "writ": "౮౬",
       "phon": " ",
-      "phrase": ""
+      "phrase": "esanepi eku legur ."
     },
     "phrase-87": {
       "name": "87",
       "type": "phrase",
       "trad": "I am your eternal mother,",
-      "words": [],
+      "words": [
+        "alt-$cap-o-e",
+        "alt-ti-lau-hanu",
+        "word-,"
+      ],
       "see": [
         "card-03 - forest"
       ],
@@ -16571,13 +16828,17 @@
       "fulltext": "87",
       "writ": "౮౭",
       "phon": " ",
-      "phrase": ""
+      "phrase": "Ohe tilauhanu ,"
     },
     "phrase-88": {
       "name": "88",
       "type": "phrase",
-      "trad": "Giver of life",
-      "words": [],
+      "trad": "giver of life,",
+      "words": [
+        "alt-a-s",
+        "alt-a-guwu",
+        "alt-gui-m"
+      ],
       "see": [
         "card-03 - forest"
       ],
@@ -16585,13 +16846,18 @@
       "fulltext": "88",
       "writ": "౮౮",
       "phon": " ",
-      "phrase": ""
+      "phrase": "as aguwu guim"
     },
     "phrase-89": {
       "name": "89",
       "type": "phrase",
-      "trad": "Taker of life.",
-      "words": [],
+      "trad": "taker of life.",
+      "words": [
+        "alt-a-s",
+        "alt-a-hajo",
+        "alt-gui-m",
+        "word-."
+      ],
       "see": [
         "card-03 - forest"
       ],
@@ -16599,13 +16865,17 @@
       "fulltext": "89",
       "writ": "౮౯",
       "phon": " ",
-      "phrase": ""
+      "phrase": "as ahajo guim ."
     },
     "phrase-90": {
       "name": "90",
       "type": "phrase",
-      "trad": "You unfold into being",
-      "words": [],
+      "trad": "You unfold into being,",
+      "words": [
+        "alt-$cap-i-nie",
+        "alt-ru-e",
+        "word-,"
+      ],
       "see": [
         "card-03 - forest"
       ],
@@ -16613,13 +16883,17 @@
       "fulltext": "90",
       "writ": "౯౦",
       "phon": " ",
-      "phrase": ""
+      "phrase": "Inie rule ,"
     },
     "phrase-91": {
       "name": "91",
       "type": "phrase",
-      "trad": "Little words on paper",
-      "words": [],
+      "trad": "little words on paper,",
+      "words": [
+        "alt-ganek-lil",
+        "alt-fe-inina",
+        "word-,"
+      ],
       "see": [
         "card-03 - forest"
       ],
@@ -16627,13 +16901,16 @@
       "fulltext": "91",
       "writ": "౯౧",
       "phon": " ",
-      "phrase": ""
+      "phrase": "ganekelil fehinina ,"
     },
     "phrase-92": {
       "name": "92",
       "type": "phrase",
-      "trad": "Made of wood.",
-      "words": [],
+      "trad": "made of wood.",
+      "words": [
+        "alt-mei-nam",
+        "word-."
+      ],
       "see": [
         "card-03 - forest"
       ],
@@ -16641,7 +16918,7 @@
       "fulltext": "92",
       "writ": "౯౨",
       "phon": " ",
-      "phrase": ""
+      "phrase": "meinam ."
     },
     "phrase-93": {
       "name": "93",
@@ -25746,6 +26023,19 @@
       "writ": "లో",
       "phon": "/lɔ/"
     },
+    "alt-ni-noun": {
+      "name": "ni",
+      "type": "alt",
+      "id": "alt-ni-noun",
+      "glo": "**arrow**",
+      "alt": "word-noun",
+      "cla": "verb",
+      "prev": "word-ni",
+      "orig": "word-noun",
+      "fulltext": "ni",
+      "writ": "ని",
+      "phon": "/ni/"
+    },
     "alt-pal-verb": {
       "name": "pal",
       "type": "alt",
@@ -25841,7 +26131,7 @@
       "name": "nefenesti",
       "type": "alt",
       "id": "alt-nefe-es-ti",
-      "glo": "*naked*.IS-NESS.POSS.**you**",
+      "glo": "*naked*.IS-NESS.POSS.you",
       "cla": "noun",
       "alt": "word-nefe",
       "orig": "word-ti",
@@ -25854,11 +26144,11 @@
       "name": "tilo",
       "type": "alt",
       "id": "alt-ti-lo",
-      "glo": "POSS.**you**.WET",
+      "glo": "POSS.you.WET",
       "alt": "word-lo",
       "cla": "noun",
       "prev": "word-ti",
-      "pref": "POSS.**you**.WET",
+      "pref": "POSS.you.WET",
       "orig": "word-lo",
       "fulltext": "tilo",
       "writ": "తిలో",
@@ -25868,7 +26158,7 @@
       "name": "tilom",
       "type": "alt",
       "id": "alt-ti-lo-m",
-      "glo": "POSS.**you**.WET.ACC",
+      "glo": "POSS.you.WET.ACC",
       "alt": "word-m",
       "cla": "noun",
       "prev": "alt-ti-lo",
@@ -26103,7 +26393,7 @@
       "name": "mati",
       "type": "alt",
       "id": "alt-ma-ti",
-      "glo": "**hand**.POSS.**you**",
+      "glo": "**hand**.POSS.you",
       "cla": "noun",
       "alt": "word-ma",
       "orig": "word-ti",
@@ -26116,7 +26406,7 @@
       "name": "matim",
       "type": "alt",
       "id": "alt-ma-ti-m",
-      "glo": "**hand**.POSS.**you**.ACC",
+      "glo": "**hand**.POSS.you.ACC",
       "cla": "noun",
       "alt": "word-ma",
       "orig": "word-m",
@@ -26129,7 +26419,7 @@
       "name": "haoti",
       "type": "alt",
       "id": "alt-hao-ti",
-      "glo": "**buste**.POSS.**you**",
+      "glo": "**buste**.POSS.you",
       "cla": "noun",
       "alt": "word-hao",
       "orig": "word-ti",
@@ -26142,7 +26432,7 @@
       "name": "haotim",
       "type": "alt",
       "id": "alt-hao-ti-m",
-      "glo": "**buste**.POSS.**you**.ACC",
+      "glo": "**buste**.POSS.you.ACC",
       "cla": "noun",
       "alt": "word-hao",
       "orig": "word-m",
@@ -26312,7 +26602,7 @@
       "name": "timun",
       "type": "alt",
       "id": "alt-ti-mun",
-      "glo": "POSS.**you**.**breast**",
+      "glo": "POSS.you.**breast**",
       "alt": "word-mun",
       "cla": "noun",
       "prev": "word-ti",
@@ -26325,7 +26615,7 @@
       "name": "timunum",
       "type": "alt",
       "id": "alt-ti-mun-m",
-      "glo": "POSS.**you**.**breast**.ACC",
+      "glo": "POSS.you.**breast**.ACC",
       "cla": "noun",
       "alt": "word-mun",
       "orig": "word-m",
@@ -26625,7 +26915,7 @@
       "name": "feduhati",
       "type": "alt",
       "id": "alt-fe-duha-ti",
-      "glo": "SUPESS.**face**.POSS.**you**",
+      "glo": "SUPESS.**face**.POSS.you",
       "cla": "noun",
       "alt": "word-duha",
       "orig": "word-ti",
@@ -26703,7 +26993,7 @@
       "name": "iriyo",
       "type": "alt",
       "id": "alt-iri-yo",
-      "glo": "CRAS.*daytime*",
+      "glo": "CRAS.**daytime**",
       "cla": "noun",
       "alt": "word-iri",
       "orig": "word-yo",
@@ -26716,7 +27006,7 @@
       "name": "emiyo",
       "type": "alt",
       "id": "alt-emi-yo",
-      "glo": "HEST.*daytime*",
+      "glo": "HEST.**daytime**",
       "cla": "noun",
       "alt": "word-emi",
       "orig": "word-yo",
@@ -27366,58 +27656,85 @@
       "writ": "ఉలుగువులాk",
       "phon": "/uluguwulak/"
     },
-    "alt-lil-m": {
-      "name": "lilim",
+    "alt-na-lil-m": {
+      "name": "nalilim",
       "type": "alt",
-      "id": "alt-lil-m",
-      "glo": "**5**.ACC",
+      "id": "alt-na-lil-m",
+      "glo": "THING.**small**.ACC",
+      "alt": "word-m",
       "cla": "noun",
-      "alt": "word-lil",
+      "prev": "word-na-lil",
       "orig": "word-m",
-      "prev": "word-lil",
-      "fulltext": "lilim",
-      "writ": "లిలిం",
-      "phon": "/lilim/"
+      "fulltext": "nalilim",
+      "writ": "నాలిలిం",
+      "phon": "/nalilim/"
     },
-    "alt-hi-m": {
-      "name": "him",
+    "alt-na-hi-m": {
+      "name": "nahim",
       "type": "alt",
-      "id": "alt-hi-m",
-      "glo": "**eagle**.ACC",
+      "id": "alt-na-hi-m",
+      "glo": "THING.**large**.ACC",
+      "alt": "word-m",
       "cla": "noun",
-      "alt": "word-hi",
+      "prev": "word-na-hi",
       "orig": "word-m",
-      "prev": "word-hi",
-      "fulltext": "him",
-      "writ": "హిం",
-      "phon": "/him/"
+      "fulltext": "nahim",
+      "writ": "నాహిం",
+      "phon": "/nahim/"
     },
-    "alt-$cap-a": {
-      "name": "A",
+    "alt-$cap-es": {
+      "name": "Es",
       "type": "alt",
-      "id": "alt-$cap-a",
-      "glo": "they",
-      "alt": "word-a",
+      "id": "alt-$cap-es",
+      "glo": "PASS",
+      "alt": "word-es",
       "cla": "verb",
       "prev": "word-$cap",
-      "pref": "they",
-      "orig": "word-a",
-      "fulltext": "A",
-      "writ": "అ",
-      "phon": "/a/"
+      "pref": "PASS",
+      "orig": "word-es",
+      "fulltext": "Es",
+      "writ": "ఎస్‌",
+      "phon": "/ɛs/"
     },
-    "alt-$cap-a-pe-yuhim": {
-      "name": "Apeyuhim",
+    "alt-$cap-es-a": {
+      "name": "Esa",
       "type": "alt",
-      "id": "alt-$cap-a-pe-yuhim",
-      "glo": "they.INDF.**be born**",
-      "alt": "word-yuhim",
+      "id": "alt-$cap-es-a",
+      "glo": "PASS.they",
+      "alt": "word-a",
       "cla": "verb",
-      "prev": "word-$cap-a-pe",
-      "orig": "word-yuhim",
-      "fulltext": "Apeyuhim",
-      "writ": "అపేయుహిం",
-      "phon": "/apɛjuhim/"
+      "prev": "alt-$cap-es",
+      "pref": "PASS.they",
+      "orig": "word-a",
+      "fulltext": "Esa",
+      "writ": "ఎసా",
+      "phon": "/ɛsa/"
+    },
+    "alt-$cap-es-a-pe": {
+      "name": "Esape",
+      "type": "alt",
+      "id": "alt-$cap-es-a-pe",
+      "glo": "PASS.they.INDF",
+      "alt": "word-pe",
+      "cla": "verb",
+      "prev": "alt-$cap-es-a",
+      "orig": "word-pe",
+      "fulltext": "Esape",
+      "writ": "ఎసాపే",
+      "phon": "/ɛsapɛ/"
+    },
+    "alt-$cap-es-a-pe-gui": {
+      "name": "Esapegui",
+      "type": "alt",
+      "id": "alt-$cap-es-a-pe-gui",
+      "glo": "PASS.they.INDF.**birth**",
+      "cla": "verb",
+      "alt": "word-pe",
+      "orig": "word-gui",
+      "prev": "alt-$cap-es-a-pe",
+      "fulltext": "Esapegui",
+      "writ": "ఎసాపేగుఇ",
+      "phon": "/ɛsapɛgui/"
     },
     "alt-awi-adj": {
       "name": "awi",
@@ -27445,18 +27762,18 @@
       "writ": "అవినా",
       "phon": "/awina/"
     },
-    "alt-so-to": {
-      "name": "soto",
+    "alt-$cap-es-a-pe-nemek": {
+      "name": "Esapenemek",
       "type": "alt",
-      "id": "alt-so-to",
-      "glo": "**soil**.POSS.**me/us**",
-      "cla": "noun",
-      "alt": "word-so",
-      "orig": "word-to",
-      "prev": "word-so",
-      "fulltext": "soto",
-      "writ": "సోతో",
-      "phon": "/sɔtɔ/"
+      "id": "alt-$cap-es-a-pe-nemek",
+      "glo": "PASS.they.INDF.**kill**",
+      "cla": "verb",
+      "alt": "word-pe",
+      "orig": "word-nemek",
+      "prev": "alt-$cap-es-a-pe",
+      "fulltext": "Esapenemek",
+      "writ": "ఎసాపేనేమేk",
+      "phon": "/ɛsapɛnɛmɛk/"
     },
     "alt-es-a": {
       "name": "esa",
@@ -27471,6 +27788,215 @@
       "fulltext": "esa",
       "writ": "ఎసా",
       "phon": "/ɛsa/"
+    },
+    "alt-es-a-nilat": {
+      "name": "esanilat",
+      "type": "alt",
+      "id": "alt-es-a-nilat",
+      "glo": "PASS.they.**hunt**",
+      "alt": "word-nilat",
+      "cla": "verb",
+      "prev": "alt-es-a",
+      "orig": "word-nilat",
+      "fulltext": "esanilat",
+      "writ": "ఎసానిలాt",
+      "phon": "/ɛsanilat/"
+    },
+    "alt-le-ais": {
+      "name": "lehais",
+      "type": "alt",
+      "id": "alt-le-ais",
+      "glo": "ADJ.*weak*",
+      "alt": "word-ais",
+      "cla": "adj",
+      "prev": "word-le",
+      "orig": "word-ais",
+      "fulltext": "lehais",
+      "writ": "లేహాఇస్‌",
+      "phon": "/lɛhais/"
+    },
+    "alt-es-a-nepi": {
+      "name": "esanepi",
+      "type": "alt",
+      "id": "alt-es-a-nepi",
+      "glo": "PASS.they.**fight**",
+      "alt": "word-nepi",
+      "cla": "verb",
+      "prev": "alt-es-a",
+      "orig": "word-nepi",
+      "fulltext": "esanepi",
+      "writ": "ఎసానేపి",
+      "phon": "/ɛsanɛpi/"
+    },
+    "alt-le-gur": {
+      "name": "legur",
+      "type": "alt",
+      "id": "alt-le-gur",
+      "glo": "ADJ.*strong*",
+      "alt": "word-gur",
+      "cla": "adj",
+      "prev": "word-le",
+      "orig": "word-gur",
+      "fulltext": "legur",
+      "writ": "లేగుర్‌",
+      "phon": "/lɛgur/"
+    },
+    "alt-ti-lau": {
+      "name": "tilau",
+      "type": "alt",
+      "id": "alt-ti-lau",
+      "glo": "POSS.you.ETERN",
+      "alt": "word-lau",
+      "cla": "noun",
+      "prev": "word-ti",
+      "orig": "word-lau",
+      "fulltext": "tilau",
+      "writ": "తిలౌ",
+      "phon": "/tilau/"
+    },
+    "alt-ti-lau-hanu": {
+      "name": "tilauhanu",
+      "type": "alt",
+      "id": "alt-ti-lau-hanu",
+      "glo": "POSS.you.ETERN.**mother**",
+      "cla": "noun",
+      "alt": "word-lau",
+      "orig": "word-hanu",
+      "prev": "alt-ti-lau",
+      "fulltext": "tilauhanu",
+      "writ": "తిలౌహాను",
+      "phon": "/tilauhanu/"
+    },
+    "alt-a-guwu": {
+      "name": "aguwu",
+      "type": "alt",
+      "id": "alt-a-guwu",
+      "glo": "they.**give**",
+      "alt": "word-guwu",
+      "cla": "verb",
+      "prev": "word-a",
+      "orig": "word-guwu",
+      "fulltext": "aguwu",
+      "writ": "అగువు",
+      "phon": "/aguwu/"
+    },
+    "alt-gui-m": {
+      "name": "guim",
+      "type": "alt",
+      "id": "alt-gui-m",
+      "glo": "**life**.ACC",
+      "cla": "noun",
+      "alt": "word-gui",
+      "orig": "word-m",
+      "prev": "word-gui",
+      "fulltext": "guim",
+      "writ": "గుఇం",
+      "phon": "/guim/"
+    },
+    "alt-a-hajo": {
+      "name": "ahajo",
+      "type": "alt",
+      "id": "alt-a-hajo",
+      "glo": "they.**take**",
+      "alt": "word-hajo",
+      "cla": "verb",
+      "prev": "word-a",
+      "orig": "word-hajo",
+      "fulltext": "ahajo",
+      "writ": "అహాజో",
+      "phon": "/ahaʒɔ/"
+    },
+    "alt-$cap-i": {
+      "name": "I",
+      "type": "alt",
+      "id": "alt-$cap-i",
+      "glo": "you",
+      "alt": "word-i",
+      "cla": "verb",
+      "prev": "word-$cap",
+      "pref": "you",
+      "orig": "word-i",
+      "fulltext": "I",
+      "writ": "ఇ",
+      "phon": "/i/"
+    },
+    "alt-$cap-i-nie": {
+      "name": "Inie",
+      "type": "alt",
+      "id": "alt-$cap-i-nie",
+      "glo": "you.**unfold**",
+      "alt": "word-nie",
+      "cla": "verb",
+      "prev": "alt-$cap-i",
+      "orig": "word-nie",
+      "fulltext": "Inie",
+      "writ": "ఇనిఎ",
+      "phon": "/iniɛ/"
+    },
+    "alt-ru-e": {
+      "name": "rule",
+      "type": "alt",
+      "id": "alt-ru-e",
+      "glo": "**emerge**.**be**",
+      "cla": "verb",
+      "alt": "word-ru",
+      "orig": "word-e",
+      "prev": "word-ru",
+      "fulltext": "rule",
+      "writ": "రులే",
+      "phon": "/rulɛ/"
+    },
+    "alt-ganek-lil": {
+      "name": "ganekelil",
+      "type": "alt",
+      "id": "alt-ganek-lil",
+      "glo": "**word**.DIM",
+      "cla": "noun",
+      "alt": "word-ganek",
+      "orig": "word-lil",
+      "prev": "word-ganek",
+      "fulltext": "ganekelil",
+      "writ": "గానేకేలిల్‌",
+      "phon": "/ganɛkɛlil/"
+    },
+    "alt-fe-inina": {
+      "name": "fehinina",
+      "type": "alt",
+      "id": "alt-fe-inina",
+      "glo": "SUPESS.**paper**",
+      "alt": "word-inina",
+      "cla": "noun",
+      "prev": "word-fe",
+      "orig": "word-inina",
+      "fulltext": "fehinina",
+      "writ": "చేహినినా",
+      "phon": "/fɛhinina/"
+    },
+    "alt-mei-nam": {
+      "name": "meinam",
+      "type": "alt",
+      "id": "alt-mei-nam",
+      "glo": "**made of**.**wood**",
+      "cla": "def",
+      "alt": "word-mei",
+      "orig": "word-nam",
+      "prev": "word-mei",
+      "fulltext": "meinam",
+      "writ": "మేఇనాం",
+      "phon": "/mɛinam/"
+    },
+    "alt-so-to": {
+      "name": "soto",
+      "type": "alt",
+      "id": "alt-so-to",
+      "glo": "**soil**.POSS.**me/us**",
+      "cla": "noun",
+      "alt": "word-so",
+      "orig": "word-to",
+      "prev": "word-so",
+      "fulltext": "soto",
+      "writ": "సోతో",
+      "phon": "/sɔtɔ/"
     },
     "alt-es-a-lu": {
       "name": "esalu",
@@ -27581,11 +28107,11 @@
       "name": "roti",
       "type": "alt",
       "id": "alt-ro-ti",
-      "glo": "INESS.POSS.**you**",
+      "glo": "INESS.POSS.you",
       "alt": "word-ti",
       "cla": "noun",
       "prev": "word-ro",
-      "pref": "INESS.POSS.**you**",
+      "pref": "INESS.POSS.you",
       "orig": "word-ti",
       "fulltext": "roti",
       "writ": "రోతి",
@@ -27647,7 +28173,7 @@
       "name": "rulapa",
       "type": "alt",
       "id": "alt-ru-lapa",
-      "glo": "**emerge**.*to talk*",
+      "glo": "**emerge**.**talk**",
       "cla": "verb",
       "alt": "word-ru",
       "orig": "word-lapa",
@@ -27801,20 +28327,6 @@
       "writ": "ఓఠుఁ",
       "phon": "/ɔzun/"
     },
-    "alt-$cap-i": {
-      "name": "I",
-      "type": "alt",
-      "id": "alt-$cap-i",
-      "glo": "you",
-      "alt": "word-i",
-      "cla": "verb",
-      "prev": "word-$cap",
-      "pref": "you",
-      "orig": "word-i",
-      "fulltext": "I",
-      "writ": "ఇ",
-      "phon": "/i/"
-    },
     "alt-$cap-i-e": {
       "name": "Ihe",
       "type": "alt",
@@ -27832,7 +28344,7 @@
       "name": "hikis",
       "type": "alt",
       "id": "alt-hi-kis",
-      "glo": "**eagle**.*wing*",
+      "glo": "**eagle**.**wing**",
       "cla": "noun",
       "alt": "word-hi",
       "orig": "word-kis",
@@ -28248,7 +28760,7 @@
       "name": "fati",
       "type": "alt",
       "id": "alt-fa-ti",
-      "glo": "**eyes**.POSS.**you**",
+      "glo": "**eyes**.POSS.you",
       "cla": "noun",
       "alt": "word-fa",
       "orig": "word-ti",
@@ -28274,7 +28786,7 @@
       "name": "fatim",
       "type": "alt",
       "id": "alt-fa-ti-m",
-      "glo": "**eyes**.POSS.**you**.ACC",
+      "glo": "**eyes**.POSS.you.ACC",
       "cla": "noun",
       "alt": "word-fa",
       "orig": "word-m",
@@ -28404,7 +28916,7 @@
       "name": "pati",
       "type": "alt",
       "id": "alt-pa-ti",
-      "glo": "ALL.POSS.**you**",
+      "glo": "ALL.POSS.you",
       "cla": "noun",
       "alt": "word-pa",
       "orig": "word-ti",
@@ -28417,7 +28929,7 @@
       "name": "patim",
       "type": "alt",
       "id": "alt-pa-ti-m",
-      "glo": "ALL.POSS.**you**.ACC",
+      "glo": "ALL.POSS.you.ACC",
       "cla": "noun",
       "alt": "word-pa",
       "orig": "word-m",
@@ -28600,7 +29112,7 @@
       "name": "titaj",
       "type": "alt",
       "id": "alt-ti-taj",
-      "glo": "POSS.**you**.**penis**",
+      "glo": "POSS.you.**penis**",
       "alt": "word-taj",
       "cla": "noun",
       "prev": "word-ti",
@@ -28613,7 +29125,7 @@
       "name": "titajam",
       "type": "alt",
       "id": "alt-ti-taj-m",
-      "glo": "POSS.**you**.**penis**.ACC",
+      "glo": "POSS.you.**penis**.ACC",
       "cla": "noun",
       "alt": "word-taj",
       "orig": "word-m",
@@ -28979,11 +29491,11 @@
       "name": "koti",
       "type": "alt",
       "id": "alt-ko-ti",
-      "glo": "COM.POSS.**you**",
+      "glo": "COM.POSS.you",
       "alt": "word-ti",
       "cla": "noun",
       "prev": "word-ko",
-      "pref": "COM.POSS.**you**",
+      "pref": "COM.POSS.you",
       "orig": "word-ti",
       "fulltext": "koti",
       "writ": "కోతి",
@@ -28993,7 +29505,7 @@
       "name": "kotim",
       "type": "alt",
       "id": "alt-ko-ti-m",
-      "glo": "COM.POSS.**you**.ACC",
+      "glo": "COM.POSS.you.ACC",
       "alt": "word-m",
       "cla": "noun",
       "prev": "alt-ko-ti",
@@ -29390,7 +29902,7 @@
       "name": "munti",
       "type": "alt",
       "id": "alt-mun-ti",
-      "glo": "**breast**.POSS.**you**",
+      "glo": "**breast**.POSS.you",
       "cla": "noun",
       "alt": "word-mun",
       "orig": "word-ti",
@@ -29403,7 +29915,7 @@
       "name": "muntim",
       "type": "alt",
       "id": "alt-mun-ti-m",
-      "glo": "**breast**.POSS.**you**.ACC",
+      "glo": "**breast**.POSS.you.ACC",
       "cla": "noun",
       "alt": "word-mun",
       "orig": "word-m",
@@ -29743,7 +30255,7 @@
       "name": "fenoati",
       "type": "alt",
       "id": "alt-fe-noa-ti",
-      "glo": "SUPESS.**skin**.POSS.**you**",
+      "glo": "SUPESS.**skin**.POSS.you",
       "cla": "noun",
       "alt": "word-noa",
       "orig": "word-ti",
@@ -29790,19 +30302,6 @@
       "fulltext": "palawu",
       "writ": "పాలావు",
       "phon": "/palawu/"
-    },
-    "alt-a-guwu": {
-      "name": "aguwu",
-      "type": "alt",
-      "id": "alt-a-guwu",
-      "glo": "they.**give**",
-      "alt": "word-guwu",
-      "cla": "verb",
-      "prev": "word-a",
-      "orig": "word-guwu",
-      "fulltext": "aguwu",
-      "writ": "అగువు",
-      "phon": "/aguwu/"
     },
     "alt-tame-m": {
       "name": "tamem",
@@ -30160,7 +30659,7 @@
       "name": "dakti",
       "type": "alt",
       "id": "alt-dak-ti",
-      "glo": "**shell**.POSS.**you**",
+      "glo": "**shell**.POSS.you",
       "cla": "noun",
       "alt": "word-dak",
       "orig": "word-ti",
@@ -30460,7 +30959,7 @@
       "name": "duhanyti",
       "type": "alt",
       "id": "alt-duhany-ti",
-      "glo": "**laugh**.POSS.**you**",
+      "glo": "**laugh**.POSS.you",
       "cla": "verb",
       "alt": "word-duhany",
       "orig": "word-ti",
@@ -30629,7 +31128,7 @@
       "name": "silau",
       "type": "alt",
       "id": "alt-si-lau",
-      "glo": "ADV.*always*",
+      "glo": "ADV.ETERN",
       "alt": "word-lau",
       "cla": "adv",
       "prev": "word-si",
@@ -30637,19 +31136,6 @@
       "fulltext": "silau",
       "writ": "సిలౌ",
       "phon": "/silau/"
-    },
-    "alt-a-hajo": {
-      "name": "ahajo",
-      "type": "alt",
-      "id": "alt-a-hajo",
-      "glo": "they.**take**",
-      "alt": "word-hajo",
-      "cla": "verb",
-      "prev": "word-a",
-      "orig": "word-hajo",
-      "fulltext": "ahajo",
-      "writ": "అహాజో",
-      "phon": "/ahaʒɔ/"
     },
     "alt-a-hajo-emu": {
       "name": "ahajolemu",
@@ -30850,7 +31336,7 @@
       "name": "gufiti",
       "type": "alt",
       "id": "alt-gufi-ti",
-      "glo": "**thread of life**.POSS.**you**",
+      "glo": "**thread of life**.POSS.you",
       "cla": "noun",
       "alt": "word-gufi",
       "orig": "word-ti",
@@ -30863,7 +31349,7 @@
       "name": "gufitim",
       "type": "alt",
       "id": "alt-gufi-ti-m",
-      "glo": "**thread of life**.POSS.**you**.ACC",
+      "glo": "**thread of life**.POSS.you.ACC",
       "cla": "noun",
       "alt": "word-gufi",
       "orig": "word-m",
@@ -30980,11 +31466,11 @@
       "name": "niti",
       "type": "alt",
       "id": "alt-ni-ti",
-      "glo": "DAT.POSS.**you**",
+      "glo": "DAT.POSS.you",
       "alt": "word-ti",
       "cla": "noun",
       "prev": "word-ni",
-      "pref": "DAT.POSS.**you**",
+      "pref": "DAT.POSS.you",
       "orig": "word-ti",
       "fulltext": "niti",
       "writ": "నితి",
@@ -31230,8 +31716,9 @@
       "name": "tida",
       "type": "alt",
       "id": "alt-ti-daN",
-      "glo": "POSS.**you**.**self**",
+      "glo": "POSS.you.**self**",
       "alt": "word-da",
+      "cla": "noun",
       "prev": "word-ti",
       "orig": "word-da",
       "fulltext": "tida",
@@ -31242,7 +31729,7 @@
       "name": "tidam",
       "type": "alt",
       "id": "alt-ti-daN-m",
-      "glo": "POSS.**you**.**self**.ACC",
+      "glo": "POSS.you.**self**.ACC",
       "cla": "noun",
       "alt": "word-da",
       "orig": "word-m",
@@ -31398,11 +31885,11 @@
       "name": "iti",
       "type": "alt",
       "id": "alt-i-ti",
-      "glo": "you.POSS.**you**",
+      "glo": "you.POSS.you",
       "alt": "word-ti",
       "cla": "verb",
       "prev": "word-i",
-      "pref": "you.POSS.**you**",
+      "pref": "you.POSS.you",
       "orig": "word-ti",
       "fulltext": "iti",
       "writ": "ఇతి",
@@ -31412,7 +31899,7 @@
       "name": "itim",
       "type": "alt",
       "id": "alt-i-ti-m",
-      "glo": "you.POSS.**you**.ACC",
+      "glo": "you.POSS.you.ACC",
       "alt": "word-m",
       "cla": "verb",
       "prev": "alt-i-ti",
@@ -31451,7 +31938,7 @@
       "name": "rorumiti",
       "type": "alt",
       "id": "alt-ro-rumi-ti",
-      "glo": "INESS.**hug**.POSS.**you**",
+      "glo": "INESS.**hug**.POSS.you",
       "cla": "verb",
       "alt": "word-rumi",
       "orig": "word-ti",
@@ -31464,7 +31951,7 @@
       "name": "rorumitim",
       "type": "alt",
       "id": "alt-ro-rumi-ti-m",
-      "glo": "INESS.**hug**.POSS.**you**.ACC",
+      "glo": "INESS.**hug**.POSS.you.ACC",
       "cla": "noun",
       "alt": "word-rumi",
       "orig": "word-m",
@@ -31714,7 +32201,7 @@
       "name": "mudati",
       "type": "alt",
       "id": "alt-muda-ti",
-      "glo": "**house**.POSS.**you**",
+      "glo": "**house**.POSS.you",
       "cla": "noun",
       "alt": "word-muda",
       "orig": "word-ti",
@@ -31727,7 +32214,7 @@
       "name": "mudatim",
       "type": "alt",
       "id": "alt-muda-ti-m",
-      "glo": "**house**.POSS.**you**.ACC",
+      "glo": "**house**.POSS.you.ACC",
       "cla": "noun",
       "alt": "word-muda",
       "orig": "word-m",
@@ -31792,7 +32279,7 @@
       "name": "lapati",
       "type": "alt",
       "id": "alt-lapa-ti",
-      "glo": "**voice**.POSS.**you**",
+      "glo": "**voice**.POSS.you",
       "cla": "noun",
       "alt": "word-lapa",
       "orig": "word-ti",
@@ -31805,7 +32292,7 @@
       "name": "lapatim",
       "type": "alt",
       "id": "alt-lapa-ti-m",
-      "glo": "**voice**.POSS.**you**.ACC",
+      "glo": "**voice**.POSS.you.ACC",
       "cla": "noun",
       "alt": "word-lapa",
       "orig": "word-m",
@@ -31831,7 +32318,7 @@
       "name": "yuti",
       "type": "alt",
       "id": "alt-yu-ti",
-      "glo": "**joy**.POSS.**you**",
+      "glo": "**joy**.POSS.you",
       "cla": "noun",
       "alt": "word-yu",
       "orig": "word-ti",
@@ -31844,7 +32331,7 @@
       "name": "yutim",
       "type": "alt",
       "id": "alt-yu-ti-m",
-      "glo": "**joy**.POSS.**you**.ACC",
+      "glo": "**joy**.POSS.you.ACC",
       "cla": "noun",
       "alt": "word-yu",
       "orig": "word-m",
@@ -32104,7 +32591,7 @@
       "name": "tima",
       "type": "alt",
       "id": "alt-ti-ma",
-      "glo": "POSS.**you**.**hand**",
+      "glo": "POSS.you.**hand**",
       "alt": "word-ma",
       "cla": "noun",
       "prev": "word-ti",
@@ -32117,7 +32604,7 @@
       "name": "noati",
       "type": "alt",
       "id": "alt-noa-ti",
-      "glo": "**skin**.POSS.**you**",
+      "glo": "**skin**.POSS.you",
       "cla": "noun",
       "alt": "word-noa",
       "orig": "word-ti",
@@ -32130,7 +32617,7 @@
       "name": "noatim",
       "type": "alt",
       "id": "alt-noa-ti-m",
-      "glo": "**skin**.POSS.**you**.ACC",
+      "glo": "**skin**.POSS.you.ACC",
       "cla": "noun",
       "alt": "word-noa",
       "orig": "word-m",
@@ -32628,7 +33115,7 @@
       "name": "tihiwi",
       "type": "alt",
       "id": "alt-ti-iwi",
-      "glo": "POSS.**you**.ENBY",
+      "glo": "POSS.you.ENBY",
       "alt": "word-iwi",
       "cla": "noun",
       "prev": "word-ti",
@@ -33085,7 +33572,7 @@
       "name": "samti",
       "type": "alt",
       "id": "alt-sam-ti",
-      "glo": "**foot**.POSS.**you**",
+      "glo": "**foot**.POSS.you",
       "cla": "noun",
       "alt": "word-sam",
       "orig": "word-ti",
@@ -33098,7 +33585,7 @@
       "name": "samtim",
       "type": "alt",
       "id": "alt-sam-ti-m",
-      "glo": "**foot**.POSS.**you**.ACC",
+      "glo": "**foot**.POSS.you.ACC",
       "cla": "noun",
       "alt": "word-sam",
       "orig": "word-m",
@@ -33554,7 +34041,7 @@
       "name": "auti",
       "type": "alt",
       "id": "alt-au-ti",
-      "glo": "**heart**.POSS.**you**",
+      "glo": "**heart**.POSS.you",
       "cla": "noun",
       "alt": "word-au",
       "orig": "word-ti",
@@ -33567,7 +34054,7 @@
       "name": "autim",
       "type": "alt",
       "id": "alt-au-ti-m",
-      "glo": "**heart**.POSS.**you**.ACC",
+      "glo": "**heart**.POSS.you.ACC",
       "cla": "noun",
       "alt": "word-au",
       "orig": "word-m",
@@ -33619,7 +34106,7 @@
       "name": "odati",
       "type": "alt",
       "id": "alt-oda-ti",
-      "glo": "**body**.POSS.**you**",
+      "glo": "**body**.POSS.you",
       "cla": "noun",
       "alt": "word-oda",
       "orig": "word-ti",
@@ -33632,7 +34119,7 @@
       "name": "odatim",
       "type": "alt",
       "id": "alt-oda-ti-m",
-      "glo": "**body**.POSS.**you**.ACC",
+      "glo": "**body**.POSS.you.ACC",
       "cla": "noun",
       "alt": "word-oda",
       "orig": "word-m",
@@ -33854,7 +34341,7 @@
       "name": "kohamakti",
       "type": "alt",
       "id": "alt-ko-hama-kti",
-      "glo": "COM.**finger**.*edge*",
+      "glo": "COM.**finger**.**edge**",
       "cla": "noun",
       "alt": "word-hama",
       "orig": "word-kti",
@@ -33971,7 +34458,7 @@
       "name": "bofulufi",
       "type": "alt",
       "id": "alt-bo-fulufi",
-      "glo": "**belly**.*necklace*",
+      "glo": "**belly**.**necklace**",
       "cla": "noun",
       "alt": "word-bo",
       "orig": "word-fulufi",
@@ -33984,7 +34471,7 @@
       "name": "bofulufiti",
       "type": "alt",
       "id": "alt-bo-fulufi-ti",
-      "glo": "**belly**.*necklace*.POSS.**you**",
+      "glo": "**belly**.**necklace**.POSS.you",
       "cla": "noun",
       "alt": "word-bo",
       "orig": "word-ti",
@@ -33997,7 +34484,7 @@
       "name": "bofulufitim",
       "type": "alt",
       "id": "alt-bo-fulufi-ti-m",
-      "glo": "**belly**.*necklace*.POSS.**you**.ACC",
+      "glo": "**belly**.**necklace**.POSS.you.ACC",
       "cla": "noun",
       "alt": "word-bo",
       "orig": "word-m",
@@ -34179,7 +34666,7 @@
       "name": "unuliwi",
       "type": "alt",
       "id": "alt-unu-iwiN",
-      "glo": "**woman**.*bird*",
+      "glo": "**woman**.**bird**",
       "cla": "noun",
       "alt": "word-unu",
       "orig": "word-iwiN",
@@ -34440,7 +34927,7 @@
       "name": "duhati",
       "type": "alt",
       "id": "alt-duha-ti",
-      "glo": "**face**.POSS.**you**",
+      "glo": "**face**.POSS.you",
       "cla": "noun",
       "alt": "word-duha",
       "orig": "word-ti",
@@ -34453,7 +34940,7 @@
       "name": "duhatim",
       "type": "alt",
       "id": "alt-duha-ti-m",
-      "glo": "**face**.POSS.**you**.ACC",
+      "glo": "**face**.POSS.you.ACC",
       "cla": "noun",
       "alt": "word-duha",
       "orig": "word-m",

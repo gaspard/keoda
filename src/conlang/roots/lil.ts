@@ -16,3 +16,9 @@ export const nelil = _.word('nelil', {
   verb: 'to confound',
   see: () => [_.ganes, _.nanes],
 })
+
+_.prefix('nalil', {
+  id: 'na-lil',
+  noun: 'small',
+  glo: 'THING.**small**',
+})

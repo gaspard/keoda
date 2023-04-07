@@ -89,6 +89,7 @@ export const eme = suffix('eme', {
 export const lau = suffix('lau', {
   adv: 'always',
   noun: 'eternity',
+  glo: 'ETERN',
   sglo: 'ETERN',
   etym: () => [_.lei, _.au],
   desc: () => `The time loves.`,
