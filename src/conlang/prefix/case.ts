@@ -61,6 +61,12 @@ export const ni = prefix('ni', {
   scla: 'noun',
 })
 
+prefix('nito', {
+  id: 'ni-to',
+  glo: 'DAT.**me/us**',
+  cla: 'noun',
+})
+
 export const le = prefix('le', {
   adj: 'very',
   glo: 'ADJ',

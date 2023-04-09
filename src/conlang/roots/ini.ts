@@ -9,7 +9,7 @@ export const inina = _.word('inina', {
   etym: () => [_.ini, _.na],
 })
 
-export const djin = _.word('djin', {
+export const jin = _.word('jin', {
   noun: 'book',
   etym: () => [_.jom, _.ini],
 })

@@ -23,8 +23,8 @@ ${_.phrase('fragile beauties,', _.kiti, _.awi.adj.na)}
 ${_.phrase('surprised spirits.', _.shehos, _.ga, $)}
 
 ${_.phrase('Some are killed,', __.es.a.pe.nemek)}
-${_.phrase('hunted, if weak,', _.es.a.nilat, _.eku, _.le.ais)}
-${_.phrase('fought, if strong.', _.es.a.nepi, _.eku, _.le.gur, $)}
+${_.phrase('hunted, if soft,', _.es.a.nilat, _.eku, _.le.ais)}
+${_.phrase('fought, if hard.', _.es.a.nepi, _.eku, _.le.gur, $)}
 
 ${_.phrase('I am your eternal mother,', __.o.e, _.ti.lau.hanu, _.$comma)}
 ${_.phrase('giver of life,', _.a.s, _.a.guwu, _.gui.m)}
@@ -34,14 +34,14 @@ ${_.phrase('You unfold into being,', __.i.nie, _.ru.e, _.$comma)}
 ${_.phrase('little words on paper,', _.ganek.lil, _.fe.inina, _.$comma)}
 ${_.phrase('made of wood.', _.mei.nam, $)}
 
-${_.phrase('You will burn to ashes.', _.i.zau.ir, _.ru.kenam)}
-${_.phrase('Your words, your story', _.ti.ganek, _.ti.agi)}
+${_.phrase('You will burn to ashes.', __.i.zau.ir, _.ru.kenam, $)}
+${_.phrase('Your words, your story', __.ti.ganek, _.ti.agi)}
 ${_.phrase('remembered in my flesh.', _.es.sha.ji, _.ro.to.yaunoa, $)}
 
 ${_.phrase(
   'I am the book, capturing',
   __.o.e,
-  _.djin,
+  _.jin,
   _.a.s,
   _.a.lu.nul,
   _.$comma
@@ -56,10 +56,10 @@ ${_.phrase(
   _.$comma
 )}
 ${_.phrase('your skin on your mother,', _.ti.noa, _.fe.ti.hanu.m)}
-${_.phrase('your smell in her nose.', _.ti.shena, _.ro.sheu.wu, _.unu.s.m)}
+${_.phrase('your smell in her nose.', _.ti.shena, _.ro.sheu.wu, _.unu.s.m, $)}
 
 ${_.phrase('I am your eternal mother,', __.o.e, _.ti.lau.hanu, _.$comma)}
-${_.phrase('giver of life,', _.a.s, _.a.guwu, _.gui.m)}
+${_.phrase('giver of life,', _.a.s, _.a.guwu, _.gui.m, _.$comma)}
 ${_.phrase('taker of life.', _.a.s, _.a.hajo, _.gui.m, $)}
 
 ${_.phrase('You crawl into existence,', __.i.adja, _.ruP.gu.noun, _.$comma)}
@@ -67,12 +67,12 @@ ${_.phrase('surrounded by life', _.ota.adj, _.fu.gu)}
 ${_.phrase('that you take,', _.a.s.m, _.i.hajo)}
 ${_.phrase('to become.', _.ibu, _.u.ru, $)}
 
-${_.phrase('You owe me')}
-${_.phrase('you.')}
+${_.phrase('You owe me', __.i.wu.verb, _.ni.to)}
+${_.phrase('you.', _.ti.m, $)}
 
-${_.phrase('I am time')}
-${_.phrase('Memory')}
-${_.phrase('A veil')}
-${_.phrase('Bliss.')}
+${_.phrase('I am time,', __.o.e, _.lei.noun, _.$comma)}
+${_.phrase('memory,', _.jiM, _.$comma)}
+${_.phrase('a veil,', _.husona, _.$comma)}
+${_.phrase('bliss.', _.gupa, $)}
 `,
 })

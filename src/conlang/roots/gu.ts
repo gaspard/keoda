@@ -121,7 +121,7 @@ export const guyil = _.word('guyil', {
 })
 
 export const gupa = _.word('gupa', {
-  noun: 'nature',
+  noun: 'nature, bliss',
   etym: () => [_.gu, _.pa],
 })
 
