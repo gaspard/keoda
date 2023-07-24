@@ -10,4 +10,3 @@ export const egi = suffix('egi', {
 // 'spring' = to outgrow the winter
 
 // 'cold' is not enough... need to work on this
-// it should mean 'pain' as well or 'fear of change', 'frozen change'...

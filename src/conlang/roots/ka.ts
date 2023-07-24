@@ -9,6 +9,15 @@ export const ka = _.word('ka', {
   see: () => [_.count],
 })
 
+export const kapa = _.word('kapa', {
+  noun: 'everything',
+  etym: () => [_.ka, _.pa],
+})
+
+export const kada = _.word('kada', {
+  noun: 'everybody',
+})
+
 export const hamaka = _.word('hamaka', {
   noun: 'ring finger (4th finger)',
   pos: 'on all fours',

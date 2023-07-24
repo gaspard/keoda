@@ -10,6 +10,11 @@ export const ma = _.word('ma', {
   ],
 })
 
+export const mapa = _.word('mapa', {
+  noun: 'to search',
+  etym: () => [_.ma, _.pa],
+})
+
 // Marina
 export const my = _.word('my', {
   noun: 'trace',
@@ -38,6 +43,7 @@ export const djoma = _.word('djoma', {
 
 export const mu = _.word('mu', {
   verb: 'to pull',
+  adj: 'exhausted',
   etym: () => [_.ma, _.u$],
   see: () => [_.mi, _.mo],
 })

@@ -2,6 +2,7 @@ import * as _ from '../lang'
 
 export const al = _.word('al', {
   noun: 'sky',
+  verb: 'to rise',
   adj: 'up',
   pref: 'up',
   see: () => [_.so],

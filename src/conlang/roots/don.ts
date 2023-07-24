@@ -3,6 +3,7 @@ import * as _ from '../lang'
 export const don = _.word('don', {
   def: 'where,what,who',
   noun: 'unknown',
+  adj: 'unknown',
   verb: 'to exist',
   glo: 'what',
   desc: () =>
@@ -29,4 +30,10 @@ export const dona = _.word('dona', {
   glo: 'who',
   etym: () => [_.don, _.ada],
   see: () => [_.prep],
+})
+
+_.word('ledon', {
+  id: 'le-don',
+  adj: 'unknown',
+  glo: 'ADJ.**unknown**',
 })

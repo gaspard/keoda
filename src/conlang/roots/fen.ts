@@ -15,5 +15,5 @@ export const fenus = _.word('fenus', {
   noun: 'contemplation',
   verb: 'to care',
   etym: () => [_.fen.verb, _.us.adv],
-  see: () => [_.palus, _.gahimus],
+  see: () => [_.palus, _.gahilus],
 })

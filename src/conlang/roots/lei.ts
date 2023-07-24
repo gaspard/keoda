@@ -1,13 +1,5 @@
 import * as _ from '../lang'
 
-// on rename, change suffix/uki
-export const lei = _.word('lei', {
-  def: 'then',
-  adv: 'now',
-  noun: 'time',
-  pref: 'time',
-})
-
 export const leu = _.word('leu', {
   def: 'while, as',
   etym: () => [_.lei, _.u$],

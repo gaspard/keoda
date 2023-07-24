@@ -1,9 +1,8 @@
 import * as _ from '../lang'
 
 export const jo = _.word('jo', {
-  noun: 'intimacy',
+  noun: 'near',
   adj: 'proximal',
-  def: 'down',
   desc: () => 'Towards oneself.',
   etym: () => [_.dau, _.ojo],
   see: () => [_.ha],
@@ -31,7 +30,7 @@ export const muhajo = _.word('muhajo', {
 
 export const joda = _.word('joda', {
   noun: 'child',
-  etym: () => [_.jo, _.oda],
+  etym: () => [_.jo.adj, _.oda],
   see: () => [_.family],
 })
 

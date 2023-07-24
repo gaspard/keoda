@@ -9,6 +9,10 @@ export const fu = prefix('fu', {
   desc: () => `By (person): ergative case (ERG).`,
   scla: 'noun',
   join: '',
+  exam: () => [
+    _.phraseX('Taker of life.', _.fu.hajo, _.to.gui),
+    _.phraseX('Giver of life.', _.fu.guwu, _.to.gui),
+  ],
 })
 
 export const difu = _.word('difu', {
@@ -44,12 +48,9 @@ export const hu = prefix('hu', {
   see: () => [_.ju],
 })
 
-export const huN = _.alt('hu', {
-  id: 'huN',
-  noun: 'smoke',
-  glo: '**smoke**',
-  cla: 'noun',
-  alt: () => _.hu,
+export const nehu = _.word('nehu', {
+  verb: 'to find',
+  etym: () => [_.ne, _.hu.noun],
 })
 
 export const ni = prefix('ni', {
@@ -58,6 +59,7 @@ export const ni = prefix('ni', {
   pref: 'to',
   glo: 'DAT',
   desc: () => `To this person: dative case (DAT).`,
+  cla: 'def',
   scla: 'noun',
 })
 
@@ -71,6 +73,7 @@ export const le = prefix('le', {
   adj: 'very',
   glo: 'ADJ',
   cla: 'adj',
+  scla: 'adj',
   desc: () => `
   Adjective marker for nouns (ADJ). Can also be used on adjectives to stress their importance.
 
@@ -87,6 +90,7 @@ export const si = prefix('si', {
 
 export const ne = prefix('ne', {
   def: 'negation',
+  verb: 'to obliterate',
   glo: 'NEG',
   desc: () => 'Negation (NEG).',
   see: () => [_.sau],
@@ -99,6 +103,10 @@ export const sau = prefix('sau', {
   see: () => [_.ko, _.ne, _.prep],
 })
 
+export const nesau = _.word('nesau', {
+  verb: 'to want',
+})
+
 export const fe = prefix('fe', {
   def: 'on',
   verb: 'to cover',
@@ -109,7 +117,7 @@ export const fe = prefix('fe', {
 })
 
 export const ro = prefix('ro', {
-  adj: 'inner',
+  noun: 'inner',
   suff: 'in (INESS)',
   pref: 'inner',
   glo: 'INESS',
@@ -118,7 +126,7 @@ export const ro = prefix('ro', {
 })
 
 export const ri = prefix('ri', {
-  adj: 'outer',
+  noun: 'outer',
   pref: 'outer',
   suff: 'out of (ELAT)',
   glo: 'ELAT',
@@ -127,7 +135,7 @@ export const ri = prefix('ri', {
 })
 
 export const kte = prefix('kte', {
-  adj: 'between',
+  noun: 'between',
   pref: 'between',
   glo: 'BETWEEN',
   see: () => [_.prep],

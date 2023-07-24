@@ -32,6 +32,14 @@ const neiNEVER = _.alt('nei', {
   alt: () => _.nei,
 })
 
+const leiNOW = _.alt('lei', {
+  id: 'leiNOW',
+  adv: 'now',
+  glo: 'NOW',
+  cla: 'adv',
+  alt: () => _.lei,
+})
+
 export const verbs = _.card('verbs', {
   // open: true,
   desc: () => `
@@ -95,7 +103,7 @@ But here the imperative (and consent) is required:
 
 ${_.phrase('Kiss her lips.', _.la.imp, _.la.m, _.ni.unu)}
 
-For other subjects, we simply use the adverb ${_.lei} (now).
+For other subjects, we simply use the now tens ${_.lei}.
 
 ${_.phrase("Let's sing (chantons)!", _.sho.lapa.lei)}
 
@@ -170,6 +178,11 @@ on the action (comes after accord with the subject).
   )}
 * ${_.phrase('I am dreaming of you.', _.o.lu.yafa, _.ti.m)}
 
+When ${_.lu} prefix is not accorded to any subject, it is used to transform 
+a verb or noun into a locus, a situation.
+
+* ${_.phrase('Singing, I feel joy.', _.lu.lipa, _.o.dapa)}
+
 #### nsfw
 
 * ${_.phrase(
@@ -232,7 +245,7 @@ For more BDSM and sexual contexts, the Dominant is still referred to as
 
 This translates in subjects ${_.o.kei}, ${_.i.yi}, ${_.i.lo}, etc.
 
-* ${_.phrase('I am ready, Master.', _.o.yi.e, _.asen, _.keda)}
+* ${_.phrase('I am ready, Master.', _.o.yi.e, _.sen, _.keda)}
 * ${_.phrase('I (Master) will undress (tiny you).', _.o.kei.nefe.ir, _.yi.da.m)}
 * ${_.phrase('(tiny) me will undress you (Master).', _.o.yi.nefe.ir, _.keda.m)}
 
@@ -259,9 +272,9 @@ The logic is as follows:
 
 ## Eternal tenses
 
-| always | never |
-| :---------- | :------------ |
-| ${_.refAndGlo(lauETERN)} | ${_.refAndGlo(neiNEVER)} |
+| always | never | (now) |
+| :---------- | :------------ | :-------- |
+| ${_.refAndGlo(lauETERN)} | ${_.refAndGlo(neiNEVER)} | ${_.refAndGlo(leiNOW)}
 
 #### nsfw
 

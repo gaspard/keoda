@@ -2,13 +2,18 @@ import * as _ from '../lang'
 
 export const fa = _.word('fa', {
   noun: 'eyes',
-  verb: 'see',
+  verb: 'to see',
   img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Arctic_Fox_1_%2810549184013%29.jpg/400px-Arctic_Fox_1_%2810549184013%29.jpg',
   desc: () => `
 ${_.phrase('Show your eyes (partially).', _.guwu, _.fa.m)}
 
 ${_.phrase('Look at my hand.', _.fa, _.ma.to.m)}
 `,
+})
+
+export const fani = _.word('fani', {
+  verb: 'to look',
+  etym: () => [_.fa, _.ni.noun],
 })
 
 export const gufa = _.word('gufa', {

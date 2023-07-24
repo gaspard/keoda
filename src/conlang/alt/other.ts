@@ -33,3 +33,4 @@ export const $cap = _.prefix('', {
 
 export const $ = $dot
 export const __ = $cap
+export const _c = $comma

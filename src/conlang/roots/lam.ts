@@ -6,6 +6,11 @@ export const lam = _.word('lam', {
   see: () => [_.nature],
 })
 
+export const lamafi = _.word('lamafi', {
+  noun: 'river',
+  etym: () => [_.lam, _.fi],
+})
+
 export const falam = _.word('falam', {
   noun: 'tears',
   verb: 'to cry',

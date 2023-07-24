@@ -5,3 +5,10 @@ export const us = _.word('us', {
   adj: 'slow',
   adv: 'slowly',
 })
+
+export const gahilus = _.word('gahilus', {
+  noun: 'intuition',
+  verb: 'to dream',
+  etym: () => [_.gahi.verb, _.us.adv],
+  see: () => [_.fenus, _.palus],
+})

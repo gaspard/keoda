@@ -8,6 +8,11 @@ export const au = _.word('au', {
   see: () => [_.zu],
 })
 
+export const auna = _.word('auna', {
+  noun: 'love',
+  etym: () => [_.au, _.na],
+})
+
 export const aupa = _.word('aupa', {
   noun: 'gratitude',
   desc: () => `

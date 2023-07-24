@@ -96,6 +96,15 @@ export const lau = suffix('lau', {
   see: () => [_.verbs],
 })
 
+// on rename, change suffix/uki
+export const lei = suffix('lei', {
+  def: 'then',
+  adv: 'now',
+  noun: 'time',
+  pref: 'time',
+  sglo: 'NOW',
+})
+
 export const nei = suffix('nei', {
   adv: 'never',
   glo: 'NEVER',

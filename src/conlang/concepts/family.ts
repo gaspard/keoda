@@ -67,5 +67,9 @@ younger or elderly):
 | ${_.hada} | ${_.hanu} | ${_.hawi} | ${_.hato} |
 | ${_.joda} | ${_.jonu} | ${_.jowi} | ${_.joto} |
 
+## And mom and dad
+
+* ${_.mama} (mum)
+* ${_.baba} (dad)
 `,
 })

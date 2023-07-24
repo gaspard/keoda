@@ -40,7 +40,7 @@ export const peda = _.word('peda', {
 
 export const pesen = _.word('pesen', {
   noun: 'some place',
-  etym: () => [_.pe, _.asen],
+  etym: () => [_.pe, _.sen],
   see: () => [_.subj],
 })
 

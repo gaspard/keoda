@@ -20,5 +20,5 @@ export const palus = _.word('palus', {
   noun: 'meditation',
   verb: 'to feel',
   etym: () => [_.pal.verb, _.us.adv],
-  see: () => [_.fenus, _.gahimus],
+  see: () => [_.fenus, _.gahilus],
 })

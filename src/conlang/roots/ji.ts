@@ -23,6 +23,7 @@ export const jipa = _.word('jipa', {
 
 export const jifi = _.word('jifi', {
   adj: 'humble',
+  verb: 'to humble',
   etym: () => [_.ji, _.fi],
   see: () => [_.nanes, _.jipa],
 })

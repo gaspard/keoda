@@ -44,6 +44,9 @@ export function joinMorphemes(
     if (!prefix && nextName.length === 1 && nextName != 'e') {
       // moods: no fix
       fix = ''
+    } else if (prevName.toLowerCase() === 'u' && !nextName.startsWith('u')) {
+      // infinitive : no fix
+      fix = ''
     } else {
       fix = join !== undefined ? join : prefix ? PREFIX_JOIN : SUFFIX_JOIN
     }

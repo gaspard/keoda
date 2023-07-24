@@ -26,7 +26,7 @@ const Wrapper = styled.div`
   align-items: start;
   align-self: top;
   box-shadow: 0 0 20px ${COLORS.wrapper_shadow};
-  max-width: 800px;
+  max-width: 830px;
   &.reduced {
     background: #2d162c;
     margin: 0px auto auto 0px;

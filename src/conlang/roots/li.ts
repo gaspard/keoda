@@ -6,6 +6,7 @@ export const li = _.word('li', {
 })
 
 export const lipa = _.word('lipa', {
+  noun: 'song',
   verb: 'to sing',
   etym: () => [_.li, _.pa],
 })

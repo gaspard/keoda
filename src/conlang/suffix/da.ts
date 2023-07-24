@@ -5,6 +5,8 @@ export const da = suffix('da', {
   glo: 'SELF',
   cla: 'noun',
   scla: 'noun',
+  desc: () => `A 'self' can also be a place or a plant or an animal. It means "isness" in a more
+  personified, alive way.`,
 })
 
 // TODO: need to fix resolution of prefix.suffix.suffix to be prefix.noun.suffix.

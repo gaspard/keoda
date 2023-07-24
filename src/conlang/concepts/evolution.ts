@@ -209,6 +209,63 @@ Reverted the change of "ofo" to "oto" (because I was too used to this version
 and "ofo" never felt right and I wanted "fo" back because "fik" sounds like the
 german word for fuck).
 
-Started doing weekly tiktok videos on the language.
+### Continuous without accord *(June 2023)*
+
+To say things such as "he says nice words making me feel loved", we can now avoid
+conjugating "making" to remove the feeling of intentionality:
+
+* ${_.phrase(
+    'He is making me feel loved (intentionality).',
+    _.oto,
+    _.a.lu.him,
+    _.o.zu.n
+  )}
+
+* ${_.phrase(
+    'He sings, making me feel loved (less intentionality).',
+    _.oto,
+    _.a.lipa,
+    _.lu.him,
+    _.o.zu.n
+  )}
+
+### No \`h\` with infinitive *(June 2023)*
+
+The infinitive "conjugation" deserves a special meaning because it is not really
+an action but more the possibility of all such actions and therefore I decided
+to not use the joining sound \`h\` when joining with a verb that starts with a
+vowel. This gives ${_.u} a slightly different sounding energy:
+
+* ${_.phrase('Infinite loves (there is the possibility of love).', _.u.au)}
+
+But the infinite conjugation can also mean "all of XXX and forever", as in
+
+* ${_.phrase(
+    'Life obliterates me without you by my heart.',
+    _.gu,
+    _.u.liu,
+    _.pi.m,
+    _.sau.ti,
+    _.jo,
+    _.zu.wu,
+    _.to
+  )}
+
+### Giver 'of', Taker 'of' *(July 2023)*
+
+In order to express a subject defined by an action such as 'giver of life', we can
+either use the phrase 'person who XXX'. Note, the ${_.tu} marking the genitive:
+
+* ${_.phrase(
+    'Giver of life (person who gives life).',
+    _.oda,
+    _.difu,
+    _.guwu,
+    _.tu.gui
+  )}
+
+Or use the shorter 'fu' prefix on the verb:
+
+* ${_.phrase('Giver of life.', _.fu.guwu, _.tu.gui)}
 `,
 })

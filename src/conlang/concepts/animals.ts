@@ -30,6 +30,8 @@ export const animals = _.card('animals', {
 * ${_.nounRef(_.hi)}
 * ${_.nounRef(_.ais)}
 * ${_.nounRef(_.gur)}
+* ${_.nounRef(_.zej)}
+* ${_.nounRef(_.ganem)}
 
 `,
 })

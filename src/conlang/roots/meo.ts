@@ -5,3 +5,9 @@ export const meo = _.word('meo', {
   adv: 'too',
   adj: 'same',
 })
+
+export const nemeo = _.word('nemeo', {
+  noun: 'difference',
+  adj: 'different',
+  etym: () => [_.ne, _.meo],
+})

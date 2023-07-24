@@ -50,6 +50,8 @@ ${_.phraseX(
 
 ${_.phraseX('I made her whip him.', _.o.mahim.em, _.unu.m, _.a.fo.n, _.oto.m)}
 
+${_.phraseX('She made me fall.', _.unu, _.a.mahim.em, _.o.hato.n)}
+
 ### Perception
 
 ${_.phrase('I saw them undressing.', _.o.fa.em, _.ta.sha.m, _.le.u.lu.nefe)}

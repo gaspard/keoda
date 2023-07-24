@@ -86,9 +86,9 @@ ${_.phrase('To walk slowly: contemplation, to care.', _.fenus)}
 
 ${_.phrase('To sit slowly: meditation, to feel.', _.palus)}
 
-${_.phrase('To think slowly: intuition, to dream.', _.gahimus)}
+${_.phrase('To think slowly: intuition, to dream.', _.gahilus)}
 
-${_.phrase('Sweet dreams.', _.si.yil, _.gahimus.verb)}
+${_.phrase('Sweet dreams.', _.si.yil, _.gahilus.verb)}
 
 ${_.phrase('', _.lalo)}
 
@@ -142,6 +142,11 @@ ${_.phrase('woman like a bird', _.unu, _.le.iwiN)}
 * ${_.phrase('4 - trace', _.my)}
 * ${_.phrase('1 - change', _.kal)}
 * ${_.phrase('3 - reality', _.ja)}
+
+### 2023-05-13
+
+
+${_.caption('xx', '', _.zulapa)}
 
 `,
 })

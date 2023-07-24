@@ -1,10 +1,10 @@
 import * as _ from '../lang'
 
 export const gu = _.word('gu', {
-  noun: 'darkness,empathy,life',
+  noun: 'darkness, empathy, life',
   verb: 'to live',
   adj: 'darkness',
-  adv: 'lively',
+  adv: 'lively, terrified',
   etym: () => [_.ga, _.u$],
   see: () => [_.em, _.nu, _.ganes, _.gufi],
   desc: () => `
@@ -123,6 +123,11 @@ export const guyil = _.word('guyil', {
 export const gupa = _.word('gupa', {
   noun: 'nature, bliss',
   etym: () => [_.gu, _.pa],
+})
+
+export const gipa = _.word('gipa', {
+  noun: 'kindness',
+  etym: () => [_.gi, _.pa],
 })
 
 export const kegu = _.word('kegu', {

@@ -1,7 +1,7 @@
 import * as _ from '../lang'
 
 export const diwu = _.word('diwu', {
-  def: 'who owns',
+  def: 'who owns, of',
   see: () => [_.prep],
   exam: () => [
     _.phraseX('The breasts of Iri.', _.mun.wu, _.Iris),

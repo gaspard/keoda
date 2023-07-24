@@ -25,6 +25,9 @@ const CaptionWrap = styled.div`
     font-size: 0.8rem;
     padding: 0;
   }
+  &.noCaption .Cap {
+    display: none;
+  }
   #root & .phrase.glo {
     background: #00000049;
     border: none;
@@ -121,9 +124,13 @@ export const Caption: Comp<PhraseProps> = ({ className, type, id }) => {
     if (div) {
       div.classList.add('caption')
       div.classList.remove('small')
+      if (e.altKey) {
+        div.classList.add('noCaption')
+      }
       htmlToImage.toPng(div).then(function (dataUrl) {
         div.classList.add('small')
         div.classList.remove('caption')
+        div.classList.remove('noCaption')
         saveAs(
           dataUrl,
           `${

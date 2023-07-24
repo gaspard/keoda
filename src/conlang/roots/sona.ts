@@ -18,7 +18,7 @@ She is the Veil Goddess: the illusion of beginings and endings, limits, the conf
 
 She is also called **Dhūmāvatī (धूमावती)**.
   `,
-  etym: () => [_.huN, _.sona],
+  etym: () => [_.hu.noun, _.sona],
   see: () => [_.gods],
 })
 

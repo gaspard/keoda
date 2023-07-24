@@ -23,5 +23,6 @@ export const tanale = _.word('tanale', {
 
 export const fatan = _.word('fatan', {
   verb: 'to read',
+  noun: 'reader',
   etym: () => [_.fa, _.tan],
 })

@@ -35,7 +35,7 @@ export const pienu = _.word('pienu', {
   desc: () => `
   ${_.phrase(
     'Standing in the vast inner loneliness.',
-    _.u.asen,
+    _.u.sen,
     _.ro.pienu.es,
     _.le.goa
   )}
@@ -60,7 +60,7 @@ export const gupi = _.word('gupi', {
 
 export const nepi = _.word('nepi', {
   noun: 'division',
-  verb: 'to fight',
+  verb: 'to fragment', // = to fight to death
   adj: 'disembodied, fragmented',
   etym: () => [_.ne, _.pi],
   see: () => [_.neha, _.ganes, _.nanes],

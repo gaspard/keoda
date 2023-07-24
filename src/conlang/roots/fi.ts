@@ -17,11 +17,11 @@ export const gufishany = _.word('gufishany', {
 })
 
 export const gufi = _.word('gufi', {
-  noun: 'thread of life',
-  etym: () => [_.gu, _.fi],
+  noun: 'wisdom',
   desc: () =>
-    `What connects everything together. A particular knitting of this thread is ${_.kafi}.`,
+    `Connection between experiences, a lived knowledge, wisdom. A particular knitting of this thread is ${_.kafi}. Wisdom is always located and limited. It is a locus.`,
   see: () => [_.kafi],
+  etym: () => [_.gu, _.fi],
 })
 
 // === alt

@@ -1,10 +1,12 @@
+import * as _ from '../words'
 import { prefix, suffix } from '../zulapa'
 
 export const wu = suffix('wu', {
   noun: 'emptiness',
   verb: 'to owe',
   suff: 'of',
-  glo: 'OF', // genitive.. GEN ?
+  glo: 'OF',
+  see: () => [_.tu],
 })
 
 prefix('Iwu', {
