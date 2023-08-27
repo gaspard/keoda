@@ -1,7 +1,7 @@
 import { $, __ } from '../alt'
 import * as _ from '../lang'
 
-export const soon = _.card('07 - SOON', {
+export const soon = _.card('zz - song "SOON"', {
   // compact: true,
   desc: () => `
 ${_.phrase(

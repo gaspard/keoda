@@ -40,7 +40,7 @@ Let's not be free.
 
 */
 
-export const cave_birds = _.card('cave_birds', {
+export const cave_birds = _.card('zz - song "CAVE BIRDS"', {
   desc: () => `
 * ${_.phrase('So now you opened the doors.') /* talking */}
 * ${_.phrase('To go deeper inside yourself.')}

@@ -1,6 +1,6 @@
 import * as _ from '../lang'
 
-export const old_lady = _.card('Old Lady', {
+export const old_lady = _.card('zz - song "OLD LADY"', {
   desc: () => `
 # Old Lady
 

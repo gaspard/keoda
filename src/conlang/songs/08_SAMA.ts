@@ -1,6 +1,6 @@
 import * as _ from '../lang'
 
-export const sama_song = _.card('00 - sama', {
+export const sama_song = _.card('zz - SONG "SAMA"', {
   desc: () => `
 I was rushing through life
 Running

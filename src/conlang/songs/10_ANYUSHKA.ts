@@ -9,7 +9,7 @@ export const Aima = _.word('Aima', {
   noun: 'Aima',
 })
 
-export const anyushka = _.card('01 - Anushka', {
+export const anyushka = _.card('zz - SONG "ANYUSHKA"', {
   compact: true,
   desc: () => `
 

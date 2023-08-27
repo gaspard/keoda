@@ -1,6 +1,6 @@
 import * as _ from '../lang'
 
-export const sands = _.card('sands', {
+export const sands = _.card('zz - song "SANDS"', {
   desc: () => `
 * ${_.phrase('In the eternal sands of love,', _.ral.ro.wu, _.u.zu.lau)}
 * ${_.phrase('we dance the joy of being alive.')}

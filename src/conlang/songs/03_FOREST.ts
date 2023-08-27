@@ -1,7 +1,7 @@
 import { $, __ } from '../alt/other'
 import * as _ from '../lang'
 
-export const forest = _.card('03 - forest', {
+export const forest = _.card('zz - song "FOREST"', {
   compact: true,
   desc: () => `
 ${_.phrase('I am the forest', __.o.e, _.junu)}
