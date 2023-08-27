@@ -11,6 +11,11 @@ export const sama = _.word('sama', {
   etym: () => [_.sam.verb, _.a$],
 })
 
+export const samu = _.word('samu', {
+  noun: 'to bring',
+  etym: () => [_.sam.verb, _.u$],
+})
+
 export const samoda = _.word('samoda', {
   noun: 'hero',
   glo: 'foot.person',

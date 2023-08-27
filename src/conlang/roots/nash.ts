@@ -8,6 +8,11 @@ export const nash = _.word('nash', {
   etym: () => [_.ne, _.aj],
 })
 
+export const nasho = _.word('nasho', {
+  verb: 'to sigh',
+  etym: () => [_.nash, _.o$],
+})
+
 export const nashlo = _.word('nashlo', {
   verb: 'to cum',
   noun: 'orgasm, rain',

@@ -26,7 +26,7 @@ const INFLECTIONS = [
   'ayi',
   'alo',
   'ape',
-  // 1p   us                    sho -ma
+  // 1p   we                    sho -ma
   'sho',
   'shokei',
   'shoyi',

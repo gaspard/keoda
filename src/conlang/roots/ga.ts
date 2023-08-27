@@ -1,12 +1,18 @@
 import * as _ from '../lang'
 
 export const ga = _.word('ga', {
-  noun: 'spirit',
+  noun: 'spirit', // soul
   see: () => [_.gu],
   etym: () => [_.gu, _.a$],
   desc: () => `
 Spirit litteraly means "loved life".
 `,
+})
+
+export const gal = _.word('gal', {
+  noun: 'soul',
+  desc: () => 'Evolved from *galom* to *gal*.',
+  etym: () => [_.ga, _.om],
 })
 
 export const gana = _.word('gana', {
