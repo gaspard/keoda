@@ -21,8 +21,9 @@ To love everything.
   etym: () => [_.au, _.pa],
 })
 
-export const aulau = _.word('aulau', {
+export const auau = _.word('auau', {
   verb: 'to make love',
+  etym: () => [_.au.verb, _.au],
   see: () => [_.zuzu, _.kude],
   exam: () => [
     _.phrase(

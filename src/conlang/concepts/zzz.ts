@@ -143,10 +143,22 @@ ${_.phrase('woman like a bird', _.unu, _.le.iwiN)}
 * ${_.phrase('1 - change', _.kal)}
 * ${_.phrase('3 - reality', _.ja)}
 
-### 2023-05-13
+### 2023-09-05
 
+${_.phrase('Vreau să te sărut', _.o.nau, _.o.la.n, _.ti.m)}
 
-${_.caption('xx', '', _.zulapa)}
+${_.phrase('vreau să mă săruți', _.o.nau, _.i.la.n, _.to.m)}
 
+${_.phrase('Sărută-mi buzele!', _.la.imp, _.la.m, _.$excl)}
+
+${_.phrase('Îmbrățișează-mi inima!', _.rumi.imp, _.to.zu.m, _.$excl)}
+
+### 2023-09-06
+
+${_.phrase('I am skin-remembering (your) skin.', _.o.lue.noa, _.noa.m)}
+
+${_.phrase('I am skin-desiring (your) skin.', _.o.lui.noa, _.noa.m)}
+
+${_.phrase('I am desiring to make love.', _.o.lui.noanoa)}
 `,
 })

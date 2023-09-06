@@ -1,10 +1,5 @@
 import * as _ from '../lang'
 
-export const leu = _.word('leu', {
-  def: 'while, as',
-  etym: () => [_.lei, _.u$],
-})
-
 export const gulei = _.word('gulei', {
   verb: 'to experience',
   noun: 'experience',

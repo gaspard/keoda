@@ -34,7 +34,8 @@ export const iro = suffix('iro', {
 })
 
 export const ir = prefix('ir', {
-  noun: 'future',
+  noun: 'desire',
+  verb: 'to desire',
   adj: 'under',
   ncla: 'noun',
   pref: 'under',
@@ -43,6 +44,7 @@ export const ir = prefix('ir', {
   suff: 'future',
   scla: 'verb',
   sglo: 'FUT',
+  desc: () => `Also means 'future'.`,
   see: () => [_.verbs],
   exam: () => [_.phraseX('Come under me.', _.ir.odu.imp, _.to.m)],
 })

@@ -19,6 +19,11 @@ export const $dot = _.word('.', {
   glo: '',
 })
 
+export const $excl = _.word('!', {
+  noun: '!',
+  glo: '',
+})
+
 export const $comma = _.word(',', {
   noun: ',',
   glo: '',

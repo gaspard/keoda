@@ -177,7 +177,7 @@ ${_.phrase(
   'I become a small girl as I drift away.',
   _.o.yi.ru,
   _.unu.lil.m,
-  _.leu,
+  _.eleu,
   _.o.yi.meshe,
   _.dao
 )}

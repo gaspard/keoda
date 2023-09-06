@@ -39,3 +39,8 @@ export const yaunoa = _.word('yaunoa', {
   noun: 'flesh',
   etym: () => [_.yau, _.noa],
 })
+
+export const noanoa = _.word('noanoa', {
+  verb: 'to make love',
+  etym: () => [_.noa.verb, _.noa],
+})

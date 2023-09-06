@@ -267,5 +267,19 @@ either use the phrase 'person who XXX'. Note, the ${_.tu} marking the genitive:
 Or use the shorter 'fu' prefix on the verb:
 
 * ${_.phrase('Giver of life.', _.fu.guwu, _.tu.gui)}
+
+### Continuous rembembering and desiring *(September 2023)*
+
+Ouuuhhh, I am really proud of these two: ${_.lue} and ${
+    _.lui
+  } which are extensions of
+the continuous modifier ${
+    _.lu
+  } and mean to 'continuously remember' and 'continuously
+desire', respectively. But the really nice part about them is that they are
+a mode for verbs which means that to desire or remember are ways of doing:
+
+* ${_.phrase('I am kiss-remembering (your) lips.', _.o.lue.la, _.la.m)}
+* ${_.phrase('I am caress-desiring (your) belly.', _.o.lui.mi, _.bo.m)}
 `,
 })
