@@ -5,11 +5,11 @@ export const sing = _.card('sing', {
   desc: () => `
 # Some ideas for lyrics
 
-## ${_.duhany.ti} (your laugh)
+## ${_.duthany.ti} (your laugh)
 
 ${_.phrase(
   "You laugh and get agitated when I'm here.",
-  _.i.duhany,
+  _.i.duthany,
   _.shu,
   _.i.rugui,
   _.dem,
@@ -20,7 +20,7 @@ ${_.phrase(
 ${_.phrase(
   'I burn to ashes when you are here.',
   _.es.o.pizau,
-  _.si.kenam,
+  _.si.qenam,
   _.dem,
   _.i.e,
   _.sen
@@ -39,11 +39,11 @@ ${_.phrase(
 ${_.block(
   {
     t: 'I look in the mirror and I see him.',
-    p: [_.o.fa, _.duana.m, _.ku, _.o.fa, _.oto.m],
+    p: [_.o.fa, _.duana.m, _.qu, _.o.fa, _.oto.m],
   },
   {
     t: 'I look in my eyes and I see her.',
-    p: [_.o.fa, _.fa.to.m, _.ku, _.o.fa, _.unu.m],
+    p: [_.o.fa, _.fa.to.m, _.qu, _.o.fa, _.unu.m],
   },
   {
     t: 'When will he go ?',
@@ -80,11 +80,11 @@ ${_.block(
   },
   {
     t: 'I thought I was a strong spirit.',
-    p: [_.o.gahi.em, _.eku, _.o.e, _.go.ga.m],
+    p: [_.o.gaxim.em, _.eku, _.o.e, _.go.ga.m],
   },
   {
     t: 'Was I only a thought ?',
-    p: [_.eja, _.o.e.em, _.nur, _.gahi.m, _.q],
+    p: [_.eja, _.o.e.em, _.nur, _.gaxim.m, _.q],
   },
   {
     t: 'Did I give you anything ?',
@@ -240,7 +240,7 @@ ${_.phrase(
     _.nemek.m,
     _.si.ota
   )}
-* ${_.phrase(/* 'We are growing' */ 'We are being grown', _.es.sho.lu.him)}
+* ${_.phrase(/* 'We are growing' */ 'We are being grown', _.es.sho.lu.xim)}
 * ${_.phrase('Into fear and hatred', _.peu.m, _.shu, _.nepi.m)}
 * ${_.phrase('Our hearts are closing', _.au.tosho, _.sha.lu.dak)}
 * ${_.phrase('Our minds are foggy.', _.ga.tosho, _.sha.nashapa)}

@@ -5,7 +5,7 @@ export const jo = _.word('jo', {
   adj: 'proximal',
   desc: () => 'Towards oneself.',
   etym: () => [_.dau, _.ojo],
-  see: () => [_.ha],
+  see: () => [_.tha],
 })
 
 export const jona = _.word('jona', {
@@ -15,12 +15,12 @@ export const jona = _.word('jona', {
 
 export const hajo = _.word('hajo', {
   verb: 'to take',
-  etym: () => [_.ha, _.jo],
+  etym: () => [_.tha, _.jo],
 })
 
 export const joha = _.word('joha', {
   verb: 'to reject',
-  etym: () => [_.jo, _.ha],
+  etym: () => [_.jo, _.tha],
 })
 
 export const muhajo = _.word('muhajo', {

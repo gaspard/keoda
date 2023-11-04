@@ -241,30 +241,48 @@ const PHON: { [key: string]: string } = {
   d: 'd',
   k: 'k',
   g: 'g',
+  q: 'q',
   f: 'f',
   s: 's',
   z: 'z',
   S: 'ʃ', // 'ʂ' in reality but less people know the IPA sign
-  J: 'ʒ',
+  Z: 'θ',
   j: 'ʒ',
-  H: 'x',
-  h: 'h',
   w: 'w',
+  x: 'x',
   y: 'j',
   r: 'r',
   l: 'l',
   ['.']: '',
 }
 
+const WARN: { [key: string]: string } = {
+  h: 'x',
+}
+
 function tran(word: string) {
   return word
     .replace(/sh/g, 'S')
-    .replace(/j$/, 'J')
-    .replace(/h$/, 'H')
+    .replace(/th$/, 'Z')
     .split('')
     .map(k => {
       const p = PHON[k]
-      return p === null ? k : p
+      if (p === null) {
+        const w = WARN[k]
+        if (w === null) {
+          throw Error(
+            `Invalid character ${JSON.stringify(k)} in ${JSON.stringify(word)}.`
+          )
+        } else {
+          console.log(
+            `Need fix: ${JSON.stringify(k)} => ${JSON.stringify(
+              WARN[k]
+            )} in ${JSON.stringify(word)}.`
+          )
+          return w
+        }
+      }
+      return p
     })
 }
 
@@ -273,16 +291,8 @@ export function phon(word: string) {
   return w ? `/${w}/` : ' '
 }
 
-const ENDRE = /[jrmn]$/
-function fixEnd(word: string) {
-  if (ENDRE.test(word)) {
-    return word
-  }
-  return word
-}
-
 export function write(word: string) {
-  let w = fixEnd(word.toLowerCase())
+  let w = word.toLowerCase()
   for (const k in TELU) {
     w = w.replace(new RegExp(k, 'g'), TELU[k])
   }

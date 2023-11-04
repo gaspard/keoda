@@ -28,7 +28,7 @@ export const rumo = _.word('rumo', {
   etym: () => [_.rum, _.o$],
 })
 
-export const kurum = _.word('kurum', {
+export const qurum = _.word('qurum', {
   adj: 'contained',
-  etym: () => [_.ku.noun, _.rum],
+  etym: () => [_.qu.noun, _.rum],
 })

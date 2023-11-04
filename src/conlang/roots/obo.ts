@@ -7,5 +7,5 @@ export const obo = _.word('obo', {
 
 export const habo = _.word('habo', {
   noun: 'plexus',
-  etym: () => [_.ha, _.bo],
+  etym: () => [_.tha, _.bo],
 })

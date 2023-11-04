@@ -19,7 +19,7 @@ There is a more 'literate' or formal way to say this (see below).
 ${_.phrase(
   '(I) thank (you) for making my heart sing.',
   _.nomy,
-  _.i.mahim.n,
+  _.i.maxim.n,
   _.to.zu,
   _.a.lipa
 )}
@@ -27,13 +27,13 @@ ${_.phrase(
 ${_.phrase(
   'You draw with your fingertips on my skin.',
   _.i.my,
-  _.ko.hama.kti,
+  _.ko.thama.kti,
   _.noa.to.m
 )}
 
-${_.phrase('You fingertip on my skin.', _.i.hama.kti, _.noa.to.m)}
+${_.phrase('You fingertip on my skin.', _.i.thama.kti, _.noa.to.m)}
 
-${_.phrase('You fingertip-dance on my skin.', _.i.hama.kti.y, _.noa.to.m)}
+${_.phrase('You fingertip-dance on my skin.', _.i.thama.kti.y, _.noa.to.m)}
 
 ${_.phrase('You draw on my skin with fire.', _.i.my, _.fe.noa, _.ko.aj)}
 
@@ -41,7 +41,7 @@ ${_.phrase('You draw on my skin with fire.', _.i.my, _.fe.noa, _.ko.aj)}
 
 ${_.phrase(
   'My finger plays with your belly necklace.',
-  _.hama.to,
+  _.thama.to,
   _.a.yulak,
   _.ko,
   _.bo.fulufi.ti.m
@@ -58,7 +58,7 @@ I feel (thank) [ you make [ my heart sing ] ].
 ${_.phrase(
   'I thank you for making my heart sing.',
   _.o.nomy,
-  _.i.mahim.n,
+  _.i.maxim.n,
   _.zu.to,
   _.a.lipa.n
 )}
@@ -69,7 +69,7 @@ ${_.phrase('I love you too.', _.o.zu.meo, _.pa.i.m)}
 
 ${_.phrase('Good night witch sister.', _.yagi, _.ominu)}
 
-${_.phrase('Witch sister', _.om, _.him, _.unu)}
+${_.phrase('Witch sister', _.om, _.xim, _.unu)}
 
 ${_.phrase('', _.gu)}
 
@@ -108,11 +108,11 @@ ${_.phrase('', _.sama)}
 
 ### 2023-02-27
 
-${_.phrase('', _.neka)}
+${_.phrase('', _.neqa)}
 
-${_.phrase('', _.kafi)}
+${_.phrase('', _.qafi)}
 
-${_.phrase('', _.karu)}
+${_.phrase('', _.qaru)}
 
 ${_.phrase('', _.zugu)}
 
@@ -160,5 +160,9 @@ ${_.phrase('I am skin-remembering (your) skin.', _.o.lue.noa, _.noa.m)}
 ${_.phrase('I am skin-desiring (your) skin.', _.o.lui.noa, _.noa.m)}
 
 ${_.phrase('I am desiring to make love.', _.o.lui.noanoa)}
+
+### 2023-09-07
+
+${_.phrase('I kiss your vulva gently.', _.o.la, _.ti.yin.m, _.si.lo)}
 `,
 })

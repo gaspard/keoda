@@ -10,14 +10,14 @@ export const lalo = _.word('lalo', {
   etym: () => [_.la, _.lo.adj],
 })
 
-export const kela = _.word('kela', {
+export const qela = _.word('qela', {
   noun: 'teeth',
-  etym: () => [_.ke, _.la],
+  etym: () => [_.qe, _.la],
 })
 
-export const kelasa = _.word('kelasa', {
+export const qelasa = _.word('qelasa', {
   noun: 'knife',
-  etym: () => [_.kela, _.sa],
+  etym: () => [_.qela, _.sa],
 })
 
 export const lapa = _.word('lapa', {
@@ -39,15 +39,15 @@ export const lapalapa = _.word('lapalapa', {
 })
 
 // plank pose
-export const kelo = _.word('kelo', {
+export const qelo = _.word('qelo', {
   noun: 'crocodile',
-  etym: () => [_.kela, _.oda],
+  etym: () => [_.qela, _.oda],
 })
 
 // Couché sur le ventre, les bras en arrière, les jambes au-dessus du sol (dos un peu cambré)
-export const kawi = _.word('kawi', {
+export const qawi = _.word('qawi', {
   noun: 'shark',
-  etym: () => [_.kela, _.awi],
+  etym: () => [_.qela, _.awi],
 })
 
 export const lapir = _.word('lapir', {
@@ -62,7 +62,7 @@ export const gilapa = _.word('gilapa', {
 
 export const lapana = _.word('lapana', {
   noun: 'speech',
-  etym: () => [_.la, _.na],
+  etym: () => [_.lapa, _.na],
 })
 
 export const ganek = _.word('ganek', {

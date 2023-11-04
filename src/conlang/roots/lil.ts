@@ -1,7 +1,8 @@
 import * as _ from '../lang'
 
-export const hamalil = _.word('hamalil', {
+export const thamalil = _.word('thamalil', {
   noun: 'little finger',
+  etym: () => [_.thama, _.lil],
 })
 
 export const ajalil = _.word('ajalil', {

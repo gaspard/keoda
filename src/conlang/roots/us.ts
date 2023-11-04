@@ -9,6 +9,6 @@ export const us = _.word('us', {
 export const gahilus = _.word('gahilus', {
   noun: 'intuition',
   verb: 'to dream',
-  etym: () => [_.gahi.verb, _.us.adv],
+  etym: () => [_.gaxim.verb, _.us.adv],
   see: () => [_.fenus, _.palus],
 })

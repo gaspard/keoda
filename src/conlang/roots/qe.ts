@@ -1,6 +1,6 @@
 import * as _ from '../lang'
 
-export const ke = _.word('ke', {
+export const qe = _.word('qe', {
   noun: 'secret',
   pref: 'hidden',
 })

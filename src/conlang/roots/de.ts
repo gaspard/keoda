@@ -1,21 +1,19 @@
 import * as _ from '../lang'
 
 export const de = _.word('de', {
-  noun: 'us two',
-  def: '2',
+  def: 'two',
   pos: 'On the back *two* legs wide open.',
   see: () => [_.count],
 })
 
 export const dena = _.word('dena', {
   noun: 'half',
-  desc: () => `Two things.`,
-  etym: () => [_.de2, _.na],
+  etym: () => [_.de, _.na],
 })
 
-export const hamade = _.word('hamade', {
+export const thamade = _.word('thamade', {
   noun: 'index finger',
-  etym: () => [_.hama, _.de2],
+  etym: () => [_.thama, _.de],
   pos: 'On the back two legs wide open (indicated by forming a v with thumb and index finger)',
 })
 

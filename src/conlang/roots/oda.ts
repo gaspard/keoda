@@ -5,24 +5,24 @@ export const oda = _.word('oda', {
   etym: () => [_.o, _.da],
 })
 
-export const hida = _.word('hida', {
+export const xida = _.word('xida', {
   noun: 'sibling',
-  etym: () => [_.him, _.oda],
+  etym: () => [_.xim, _.oda],
   see: () => [_.family],
 })
 
-export const hinu = _.word('hinu', {
+export const xinu = _.word('xinu', {
   noun: 'sister',
-  etym: () => [_.him, _.unu],
+  etym: () => [_.xim, _.unu],
   see: () => [_.family],
 })
-export const hiwi = _.word('hiwi', {
+export const xiwi = _.word('xiwi', {
   noun: 'enby sibling',
-  etym: () => [_.him, _.iwi],
+  etym: () => [_.xim, _.iwi],
   see: () => [_.family],
 })
-export const hito = _.word('hito', {
+export const xito = _.word('xito', {
   noun: 'brother',
-  etym: () => [_.him, _.oto],
+  etym: () => [_.xim, _.oto],
   see: () => [_.family],
 })

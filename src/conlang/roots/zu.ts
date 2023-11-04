@@ -21,7 +21,7 @@ The pull of the heart.
 
 export const zuzu = _.word('zuzu', {
   verb: 'to make love',
-  see: () => [_.auau, _.kude],
+  see: () => [_.auau, _.qude],
   etym: () => [_.zu, _.zu],
 })
 

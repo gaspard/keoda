@@ -182,9 +182,9 @@ ${_.caption('feeling loved... by the earth', '', _.sama)}
 
 ### [lesson #XX]() _(TikTok - 2023-02-25)_
 
-${_.caption('singularity', '', _.ka)}
+${_.caption('singularity', '', _.qa)}
 
-${_.caption('shame', '', _.neka)}
+${_.caption('shame', '', _.neqa)}
 
 ${_.caption('scarf', '', _.adufi)}
 

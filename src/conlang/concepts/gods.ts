@@ -10,8 +10,8 @@ export const gods = _.card('gods', {
 * ${_.sona}
 * ${_.gahal}
 * ${_.gusona}
-* ${_.husona}
-* ${_.hurakan}
+* ${_.xusona}
+* ${_.xurakan}
 * ${_.pan}
 
 ## Devotion ${_.miu}

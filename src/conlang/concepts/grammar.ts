@@ -70,7 +70,7 @@ importance of gratitude for what is now and will be gone.
 
 (¹) I could not resist to the pleasure of using this word... *Borrowed from
 Latin copula ("connection, linking of words"), from co- ("together") +‎ apere
-("fasten")*... See ${_.kude}.
+("fasten")*... See ${_.qude}.
 
 This means that instead of saying "She is beautiful", we would say "She is
 being beautified" (passive continuous tense):

@@ -13,5 +13,5 @@ export const omunu = _.word('omunu', {
 
 export const ominu = _.word('ominu', {
   noun: 'witch sister',
-  etym: () => [_.om, _.hinu],
+  etym: () => [_.om, _.xinu],
 })

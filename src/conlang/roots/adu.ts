@@ -9,7 +9,7 @@ export const adu = _.word('adu', {
 export const kadu = _.word('kadu', {
   noun: 'dog',
   adj: 'follower',
-  etym: () => [_.ka, _.adu],
+  etym: () => [_.qa, _.adu],
   desc: () => `The friend on four legs.`,
 })
 

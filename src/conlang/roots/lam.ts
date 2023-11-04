@@ -6,7 +6,7 @@ export const lam = _.word('lam', {
   see: () => [_.nature],
 })
 
-export const lamafi = _.word('lamafi', {
+export const lamfi = _.word('lamfi', {
   noun: 'river',
   etym: () => [_.lam, _.fi],
 })
@@ -22,9 +22,9 @@ export const lama = _.word('lama', {
   etym: () => [_.lam, _.da],
 })
 
-export const lamagoa = _.word('lamagoa', {
+export const lamaxi = _.word('lamaxi', {
   noun: 'ocean',
-  etym: () => [_.lama, _.goa],
+  etym: () => [_.lama, _.xi],
 })
 
 export const lami = _.word('lami', {

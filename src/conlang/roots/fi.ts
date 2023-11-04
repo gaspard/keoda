@@ -19,8 +19,8 @@ export const gufishany = _.word('gufishany', {
 export const gufi = _.word('gufi', {
   noun: 'wisdom',
   desc: () =>
-    `Connection between experiences, a lived knowledge, wisdom. A particular knitting of this thread is ${_.kafi}. Wisdom is always located and limited. It is a locus.`,
-  see: () => [_.kafi],
+    `Connection between experiences, a lived knowledge, wisdom. A particular knitting of this thread is ${_.qafi}. Wisdom is always located and limited. It is a locus.`,
+  see: () => [_.qafi],
   etym: () => [_.gu, _.fi],
 })
 

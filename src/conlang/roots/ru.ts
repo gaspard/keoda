@@ -37,7 +37,7 @@ export const leiruo = _.word('leiruo', {
 
 export const kuru = _.word('kuru', {
   verb: 'to must',
-  etym: () => [_.ku, _.ru],
+  etym: () => [_.qu, _.ru],
 })
 
 export const nuru = _.word('nuru', {

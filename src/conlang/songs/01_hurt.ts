@@ -5,20 +5,20 @@ export const hurt = _.card('zz - song "HURT"', {
   compact: true,
   desc: () => `
 ${_.phrase('Something happened.', __.pena, _.a.e.em, $)}
-${_.phrase('The earth split under my feet', __.gana, _.a.hos.em, _.ir.sam)}
+${_.phrase('The earth split under my feet', __.gana, _.a.xos.em, _.ir.sam)}
 ${_.phrase('and cut me in half.', _.shu, _.a.tifi, _.ruP.de.to.m, $)}
 ${_.phrase(
   'My heart sank so deep I lost it.',
   __.zu.to.$cap,
   _.a.yau.em,
   _.si.yau,
-  _.ku,
-  _.o.neku.em,
+  _.qu,
+  _.o.nequ.em,
   _.a.s.m,
   $
 )}
 
-${_.phrase('I stand with a choice.', __.o.nom, _.ko.kus, $)}
+${_.phrase('I stand with a choice.', __.o.nom, _.ko.qus, $)}
 
 ${_.phrase(
   'Blades, sticks, weapons',
@@ -32,7 +32,7 @@ ${_.phrase('for territories, fight.', _.dor, _.noadun.m, _.sha.nepi, $)}
 ${_.phrase('Sons in wars, killed.', __.joto.m, _.ro.nemek, _.u.nemek, $)}
 ${_.phrase('Daughters in wars, raped.', __.junu.m, _.ro.nemek, _.u.tionehaj, $)}
 
-${_.phrase('I stand with a choice.', __.o.nom, _.ko.kus, $)}
+${_.phrase('I stand with a choice.', __.o.nom, _.ko.qus, $)}
 
 ${_.phrase('The terror of feeling')}
 ${_.phrase('or the bliss of death.')}

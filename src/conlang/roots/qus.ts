@@ -1,6 +1,6 @@
 import * as _ from '../lang'
 
-export const kus = _.word('kus', {
+export const qus = _.word('qus', {
   noun: 'choice',
   adj: 'chosen',
   verb: 'to sacrifice',

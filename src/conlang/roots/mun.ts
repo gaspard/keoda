@@ -14,7 +14,7 @@ export const munwe = _.word('munwe', {
 
 export const hamun = _.word('hamun', {
   noun: 'nipple',
-  etym: () => [_.ha, _.mun],
+  etym: () => [_.tha, _.mun],
 })
 
 export const munawi = _.word('munawi', {

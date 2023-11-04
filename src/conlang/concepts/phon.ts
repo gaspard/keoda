@@ -68,16 +68,16 @@ Two consonants in a row are only allowed if:
 
 | cluster | sound | example |
 | :--: | :--: | :-- |
-| sk   | /sk/ | ${_.phrase('Open to everything.', _.hos.ka)} |
-| st  | /st/ | ${_.phrase('Their trust.', _.hos.ta)} |
-| shk  | /ʃk/ | ${_.phrase('Welcoming everything.', _.ish.ka)} |
+| sk   | /sk/ | ${_.phrase('Open to everything.', _.xos.qa)} |
+| st  | /st/ | ${_.phrase('Their trust.', _.xos.ta)} |
+| shk  | /ʃk/ | ${_.phrase('Welcoming everything.', _.ish.qa)} |
 | sht  | /ʃt/ | ${_.phrase('Their acceptance.', _.ish.ta)} |
 | kt  | /kt/ | ${_.phrase('Your shell (secrets).', _.dak.ti)} |
 | nt  | /nt/ | ${_.phrase('Their elbow.', _.wen.ta)} |
 | m[^kmn] | /m./ | ${_.phrase('Left foot.', _.sam.se)} |
 
 For other cases, we duplicate the previous vowel. Example: ${
-    _.alayuru
+    _.alyuru
   } instead of \`alyuru\`, or ${_.fo.na} instead of \`fikna\`.
   
 ### Vowel cluster
@@ -91,7 +91,7 @@ suffix:
 
 ${_.phrase('I love my body.', _.o.au, _.to.oda.m)}.
 
-${_.phrase('Face dance (to laugh).', _.duha.yi)}.
+${_.phrase('Face dance (to laugh).', _.dutha.yi)}.
 
 Words sometimes drop the last vowel when adding a suffix that starts with a
 vowel instead of adding \`h\` or \`l\`.
@@ -109,5 +109,76 @@ are present, they are written as two separate letters: ${_.noa}.
 * There might be a trend to change \`/dʒ/\` into \`/ʒ/\`. 
 
 Your next read: ${_.kedana} (geography)
+
+## 2023 Evolution
+
+It's been a while that I think ${_.zulapa} sounds too much like french and I
+wanted to explore some changes to the phonetic inventory. Especially now that I
+am reading "A practical Introduction to Phonetics" by J. C. Catford, I really
+want to explore ways to make this language sound a little bit more unique (and
+"dark").
+
+So, in order to do this work properly, I will first list the consonnant inventories
+of some languages that I speak or am interested in: French, German, English, Ukrainian,
+Spanish, Arabic, Indonesian, Xhosa, Hebrew, ...
+
+### French [IPA](https://en.wikipedia.org/wiki/Help:IPA/French) [phonology](https://en.wikipedia.org/wiki/French_phonology)
+
+|                 | Labial         | Coronal         | Dorsal       | Laryngeal |
+| :-------------  | :------------: | :-------------: | :----------: | :-------: |
+| **Nasal**       | m              | n               | ŋ            |           |
+| **Plosive**     | p / b          | t / d           | k / g        |           |
+| **Fricative**   | f / v          | s / z  •  ʃ / ʒ | ʁ            | h         |
+| **Approximant** |                | l               | j  ɥ  w      |           |
+| **Trill**       |                |                 |              |           |
+| **Lateral**     |                |                 |              |           |
+
+### Arabic [IPA](https://en.wikipedia.org/wiki/Help:IPA/Arabic) [phonology](https://en.wikipedia.org/wiki/Arabic_phonology)
+
+|                 | Labial         | Coronal         | Dorsal       | Laryngeal |
+| :-------------  | :------------: | :-------------: | :----------: | :-------: |
+| **Nasal**       | m              | n               |              |           |
+| **Plosive**     | - / b          | t / d           | k / g • q / - | ʔ        |
+| **Fricative**   | f / -          | θ / ð • s / z • ʃ / - |  x / ɣ | ħ / ʕ • h |
+| **Approximant** |                | l               | j w          |           |
+| **Trill**       |                | r               |              |           |
+| **Lateral**     |                |                 |              |           |
+
+### German [IPA](https://en.wikipedia.org/wiki/Help:IPA/German) [phonology](https://en.wikipedia.org/wiki/German_phonology)
+
+|                 | Labial         | Coronal         | Dorsal       | Laryngeal |
+| :-------------  | :------------: | :-------------: | :----------: | :-------: |
+| **Nasal**       | m              | n               | ŋ            |           |
+| **Plosive**     | p / b          |                 | k / g        | (ʔ)       |
+| **Fricative**   | f / v          | s / z • ʃ / - • ç / j | (x)    | h         |
+| **Approximant** |                | l               |              |           |
+| **Trill**       |                | r               |              |           |
+| **Lateral**     |                |                 |              |           |
+
+### Ukrainian [IPA](https://en.wikipedia.org/wiki/Help:IPA/Ukrainian) [phonology](https://en.wikipedia.org/wiki/Ukrainian_phonology)
+
+(TODO)
+
+|                 | Labial         | Coronal         | Dorsal       | Laryngeal |
+| :-------------  | :------------: | :-------------: | :----------: | :-------: |
+| **Nasal**       | m              | n               | ŋ            |           |
+| **Plosive**     | p / b          |                 | k / g        | (ʔ)       |
+| **Fricative**   | f / v          | s / z • ʃ / - • ç / j | (x)    | h         |
+| **Approximant** |                | l               |              |           |
+| **Trill**       |                | r               |              |           |
+| **Lateral**     |                |                 |              |           |
+
+### English [IPA](https://en.wikipedia.org/wiki/Help:IPA/English) [phonology](https://en.wikipedia.org/wiki/English_phonology)
+
+(TODO)
+
+|                 | Labial         | Coronal         | Dorsal       | Laryngeal |
+| :-------------  | :------------: | :-------------: | :----------: | :-------: |
+| **Nasal**       | m              | n               | ŋ            |           |
+| **Plosive**     | p / b          |                 | k / g        | (ʔ)       |
+| **Fricative**   | f / v          | s / z • ʃ / - • ç / j | (x)    | h         |
+| **Approximant** |                | l               |              |           |
+| **Trill**       |                | r               |              |           |
+| **Lateral**     |                |                 |              |           |
 `,
 })

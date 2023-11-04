@@ -1,12 +1,12 @@
 import * as _ from '../lang'
 
-export const hi = _.word('hi', {
+export const xi = _.word('xi', {
   noun: 'eagle',
   adj: 'large',
 })
 
-_.prefix('nahi', {
-  id: 'na-hi',
+_.prefix('naxi', {
+  id: 'na-xi',
   noun: 'large',
   glo: 'THING.**large**',
 })

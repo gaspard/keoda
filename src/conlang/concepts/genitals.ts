@@ -26,7 +26,7 @@ export const genitals = () => [
   _.yaj.il,
   _.yaj.egi,
   // anus
-  _.kepal,
+  _.qepal,
   // auréole de l'anus
   _.kepalota,
   // sein

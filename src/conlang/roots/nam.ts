@@ -9,7 +9,7 @@ export const nam = _.word('nam', {
 
 export const kanam = _.word('kanam', {
   noun: 'chair',
-  etym: () => [_.ka, _.nam],
+  etym: () => [_.qa, _.nam],
 })
 
 export const namel = _.word('namel', {
@@ -17,7 +17,7 @@ export const namel = _.word('namel', {
   etym: () => [_.nam, _.el],
 })
 
-export const kenam = _.word('kenam', {
+export const qenam = _.word('qenam', {
   noun: 'ash',
-  etym: () => [_.ke, _.nam],
+  etym: () => [_.qe, _.nam],
 })

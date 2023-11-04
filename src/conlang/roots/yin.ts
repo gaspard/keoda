@@ -18,10 +18,10 @@ export const royin = _.word('royin', {
   etym: () => [_.ro, _.yin],
 })
 
-export const keyin = _.word('keyin', {
+export const qeyin = _.word('qeyin', {
   noun: 'clitoris',
   see: () => [_.yineri],
-  etym: () => [_.ke, _.yin],
+  etym: () => [_.qe, _.yin],
   desc: () => `Yes, the whole thing mostly hidden. Not just the tip.`,
 })
 

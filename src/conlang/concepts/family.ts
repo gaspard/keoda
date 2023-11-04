@@ -23,7 +23,7 @@ On a vertical plane:
 
 | up / far |
 | :-:     |
-| ${_.ha} |
+| ${_.tha} |
 |    🥰    |
 | ${_.jo} |
 | down / close |
@@ -36,7 +36,7 @@ Imagine your family standing around you:
 
 On the vertical plane:
 
-* Above you, your parents: ${_.hada}
+* Above you, your parents: ${_.thada}
 * Below you, your children: ${_.joda}
 
 And now all these terms can be cased with one of the three genders:
@@ -45,26 +45,26 @@ And now all these terms can be cased with one of the three genders:
 * ${_.unu} (tree)
 * ${_.oto} (wind)
 
-## ${_.hida} (siblings)
+## ${_.xida} (siblings)
 
 |           | ${_.unu} | ${_.iwi} | ${_.oto} |
 | :----     | :------: | :------: | :-------: |
 | ${_.duda} | ${_.dunu}| ${_.duwi}| ${_.duto} |
-| ${_.hida} | ${_.hinu}| ${_.hiwi}| ${_.hito} |
+| ${_.xida} | ${_.xinu}| ${_.xiwi}| ${_.xito} |
 | ${_.noda} | ${_.nonu}| ${_.nowi}| ${_.noto} |
 
 If you just need quick terms (without the notion of being
 younger or elderly):
 
-* ${_.hinu} (sister)
-* ${_.hiwi} (enby sibling)
-* ${_.hito} (brother)
+* ${_.xinu} (sister)
+* ${_.xiwi} (enby sibling)
+* ${_.xito} (brother)
 
-## ${_.hada} (parent) / ${_.joda} (child)
+## ${_.thada} (parent) / ${_.joda} (child)
 
 |           | ${_.unu}  | ${_.iwi}  | ${_.oto}  |
 | :----     | :------:  | :------:  | :-------: |
-| ${_.hada} | ${_.hanu} | ${_.hawi} | ${_.hato} |
+| ${_.thada} | ${_.thanu} | ${_.thawi} | ${_.thato} |
 | ${_.joda} | ${_.jonu} | ${_.jowi} | ${_.joto} |
 
 ## And mom and dad

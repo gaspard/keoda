@@ -1,11 +1,11 @@
 import * as _ from '../lang'
 
-export const elem = _.word('elem', {
+export const emle = _.word('emle', {
   noun: 'in the past',
-  etym: () => [_.e, _.em],
+  etym: () => [_.em, _.e],
 })
 
-export const lemana = _.word('lemana', {
+export const emlena = _.word('emlena', {
   noun: 'history',
   etym: () => [_.em, _.na],
 })

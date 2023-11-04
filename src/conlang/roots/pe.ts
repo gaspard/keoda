@@ -46,7 +46,7 @@ export const pesen = _.word('pesen', {
 
 export const hamape = _.word('hamape', {
   noun: 'middle finger',
-  etym: () => [_.hama, _.pe],
+  etym: () => [_.thama, _.pe],
   pos: '(mun) indicated by thumb against middle finger',
 })
 

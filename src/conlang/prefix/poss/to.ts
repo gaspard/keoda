@@ -15,7 +15,7 @@ export const tosho = prefix('tosho', {
 })
 
 prefix('topi', {
+  id: 'to-pi',
   noun: 'my',
   glo: 'POSS.**my**',
-  id: 'to-pi',
 })

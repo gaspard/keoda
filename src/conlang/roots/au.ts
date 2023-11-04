@@ -24,7 +24,7 @@ To love everything.
 export const auau = _.word('auau', {
   verb: 'to make love',
   etym: () => [_.au.verb, _.au],
-  see: () => [_.zuzu, _.kude],
+  see: () => [_.zuzu, _.qude],
   exam: () => [
     _.phrase(
       'Make love to me as if you washed yourself from a great sadness.',

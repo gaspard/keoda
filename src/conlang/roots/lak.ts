@@ -5,7 +5,7 @@ export const lak = _.word('lak', {
   verb: 'to share',
 })
 
-export const lakashan = _.word('lakashan', {
+export const lakshan = _.word('lakshan', {
   noun: 'mess',
   verb: 'to disturb',
   desc: () => `Portion of food.`,

@@ -1,5 +1,5 @@
-import { suffix } from '../zulapa'
 import * as _ from '../lang'
+import { suffix } from '../zulapa'
 
 export const nur = suffix('nur', {
   adj: 'only',
@@ -8,7 +8,7 @@ export const nur = suffix('nur', {
       'I am just a spark of consciousness.',
       _.es.o.lu.e.nur,
       _.aj.lil.wu,
-      _.kegai
+      _.qegai
     ),
   ],
 })

@@ -55,7 +55,7 @@ export const aupi = _.word('aupi', {
 export const gupi = _.word('gupi', {
   verb: 'to accept',
   etym: () => [_.gu, _.pi],
-  see: () => [_.nelo, _.kupa],
+  see: () => [_.nelo, _.qupa],
 })
 
 export const nepi = _.word('nepi', {

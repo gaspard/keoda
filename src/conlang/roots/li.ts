@@ -18,11 +18,11 @@ export const lipaya = _.word('lipaya', {
   etym: () => [_.lipa, _.ya],
 })
 
-export const keli = _.word('keli', {
+export const qeli = _.word('qeli', {
   noun: 'tongue',
   verb: 'to lick',
-  etym: () => [_.ke, _.li],
-  exam: () => [_.phraseX('Lick my clit !', _.keli.imp, _.keyin)],
+  etym: () => [_.qe, _.li],
+  exam: () => [_.phraseX('Lick my clit !', _.qeli.imp, _.qeyin)],
 })
 
 export const ligau = _.word('ligau', {

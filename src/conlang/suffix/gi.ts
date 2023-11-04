@@ -10,6 +10,6 @@ export const gi = suffix('gi', {
 
 export const magi = _.word('magi', {
   verb: 'to preserve',
-  see: () => [_.mahim],
+  see: () => [_.maxim],
   etym: () => [_.ma, _.gi],
 })

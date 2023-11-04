@@ -31,12 +31,12 @@ a vowel because I love the sound in slavic languages. The drawing is from her.
   etym: () => [_.ma, _.y],
 })
 
-export const hama = _.word('hama', {
+export const thama = _.word('thama', {
   noun: 'finger',
-  etym: () => [_.ha, _.ma],
+  etym: () => [_.tha, _.ma],
 })
 
-export const djoma = _.word('djoma', {
+export const joma = _.word('joma', {
   noun: 'wrist',
   etym: () => [_.jo, _.ma],
 })
@@ -48,7 +48,7 @@ export const mu = _.word('mu', {
   see: () => [_.mi, _.mo],
 })
 
-export const malame = _.word('malame', {
+export const malam = _.word('malam', {
   noun: 'parturient',
   etym: () => [_.ma, _.lam],
 })
@@ -64,12 +64,12 @@ export const masa = _.word('masa', {
   etym: () => [_.ma, _.sa],
 })
 
-export const masale = _.word('masale', {
+export const masali = _.word('masali', {
   noun: 'spoon',
   etym: () => [_.masa, _.lil],
 })
 
-export const masalele = _.word('masalele', {
+export const masalili = _.word('masalili', {
   noun: 'little spoon',
-  etym: () => [_.masale, _.lil],
+  etym: () => [_.masali, _.lil],
 })

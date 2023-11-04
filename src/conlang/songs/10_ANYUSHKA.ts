@@ -30,13 +30,13 @@ ${_.phrase('to the songs', _.ru.lapa)}
 ${_.phrase('out...', _.ri.pa, $)}
 
 ${_.phrase('I am so small,', __.o.e, _.le.lil)}
-${_.phrase('feeling trapped,,', _.le.u.lu.nomy, _.le.ket, _.$comma)}
+${_.phrase('feeling trapped,,', _.le.u.lu.nomy, _.le.qet, _.$comma)}
 ${_.phrase('crazy, wild,', _.nega, _.$comma, _.lat, _.$comma)}
 ${_.phrase('vulnerable, curious', _.zulus, _.$comma, _.doji)}
 
 ${_.phrase('out...', _.ri.pa, $)}
 
-${_.phrase('I need', __.o.his)}
+${_.phrase('I need', __.o.xis)}
 ${_.phrase('you to listen', _.i.agu.n)}
 ${_.phrase('when I scream,', _.da, _.o.sheropa.n)}
 ${_.phrase('when I love', _.da, _.o.zu.n)}
@@ -44,7 +44,7 @@ ${_.phrase('when I love', _.da, _.o.zu.n)}
 ${_.phrase('out...', _.ri.pa, $)}
 
 ${_.phrase('You are Aima,', __.i.e, Aima, _.$comma)}
-${_.phrase('the large wings', _.hi.kis)}
+${_.phrase('the large wings', _.xi.kis)}
 ${_.phrase('behind me', _.no.to)}
 ${_.phrase('to fly', _.ibu, _.u.meshe)}
 
@@ -52,10 +52,10 @@ ${_.phrase('In', _.ro.pa)}
 ${_.phrase('In', _.ro.pa)}
 ${_.phrase('In', _.ro.pa, $)}
 
-${_.phrase('I need', __.o.his)}
+${_.phrase('I need', __.o.xis)}
 ${_.phrase('you my love', _.ti, _.zu.to)}
 ${_.phrase('to listen', _.i.agu.n)}
-${_.phrase('and let us', _.shu, _.i.loku.n)}
+${_.phrase('and let us', _.shu, _.i.loqu.n)}
 
 ${_.phrase('dance !', _.sho.meny.lei)}
 ${_.phrase('dance !', _.sho.meny.lei)}

@@ -1,19 +1,29 @@
 import {
   BaseEntry,
-  ENDS_knssh,
+  ENDS_k,
+  ENDS_l,
   ENDS_m,
-  ENDS_ssh,
+  ENDS_n,
+  ENDS_r,
+  ENDS_s,
+  ENDS_sh,
+  ENDS_t,
   ENDS_VOWEL,
   ENDS_y,
   LAST_VOWEL,
-  STARTS_k,
+  STARTS_no_join_k,
+  STARTS_no_join_l,
   STARTS_no_join_m,
-  STARTS_t,
+  STARTS_no_join_n,
+  STARTS_no_join_r,
+  STARTS_no_join_s,
+  STARTS_no_join_sh,
+  STARTS_no_join_t,
   STARTS_VOWEL,
   STARTS_y,
 } from './types'
 
-const PREFIX_JOIN = 'h'
+const PREFIX_JOIN = 'x'
 const SUFFIX_JOIN = 'l'
 
 // 'join' value is dictated by first for prefix (left most) and last for suffix (right most)
@@ -54,15 +64,14 @@ export function joinMorphemes(
     fix = join !== undefined ? join : 'n'
   } else if (!pvowel && !nvowel) {
     // two consonants or two semivowels
-    if (ENDS_m.test(prevName) && STARTS_no_join_m.test(nextName)) {
-      // m. + not kmnt
-      // no fix
-    } else if (ENDS_knssh.test(prevName) && STARTS_t.test(nextName)) {
-      // kt nt st sht
-      // no fix
-    } else if (ENDS_ssh.test(prevName) && STARTS_k.test(nextName)) {
-      // sk shk
-      // no fix
+    if (ENDS_k.test(prevName) && STARTS_no_join_k.test(nextName)) {
+    } else if (ENDS_l.test(prevName) && STARTS_no_join_l.test(nextName)) {
+    } else if (ENDS_m.test(prevName) && STARTS_no_join_m.test(nextName)) {
+    } else if (ENDS_n.test(prevName) && STARTS_no_join_n.test(nextName)) {
+    } else if (ENDS_r.test(prevName) && STARTS_no_join_r.test(nextName)) {
+    } else if (ENDS_s.test(prevName) && STARTS_no_join_s.test(nextName)) {
+    } else if (ENDS_sh.test(prevName) && STARTS_no_join_sh.test(nextName)) {
+    } else if (ENDS_t.test(prevName) && STARTS_no_join_t.test(nextName)) {
     } else {
       fix = join !== undefined ? join : last[1].toLowerCase()
     }

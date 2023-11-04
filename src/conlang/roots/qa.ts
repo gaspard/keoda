@@ -1,6 +1,6 @@
 import * as _ from '../lang'
 
-export const ka = _.word('ka', {
+export const qa = _.word('qa', {
   noun: '4 / singularity',
   suff: 'singular',
   glo: 'SINGULAR',
@@ -9,63 +9,64 @@ export const ka = _.word('ka', {
   see: () => [_.count],
 })
 
-export const kapa = _.word('kapa', {
+export const qapa = _.word('qapa', {
   noun: 'everything',
-  etym: () => [_.ka, _.pa],
+  etym: () => [_.qa, _.pa],
 })
 
-export const kada = _.word('kada', {
+export const qada = _.word('qada', {
   noun: 'everybody',
 })
 
-export const hamaka = _.word('hamaka', {
+export const thamaqa = _.word('thamaqa', {
   noun: 'ring finger (4th finger)',
   pos: 'on all fours',
   desc: () =>
     'The position is indicated by putting the thumb on the ring finger.',
+  etym: () => [_.thama, _.qa4],
 })
 
-export const neka = _.word('neka', {
+export const neqa = _.word('neqa', {
   noun: 'shame',
   adj: 'restless',
-  etym: () => [_.ne, _.ka],
+  etym: () => [_.ne, _.qa],
   desc: () => `
-  ${_.neka} is the veil within, ${_.husona}.
+  ${_.neqa} is the veil within, ${_.xusona}.
   `,
-  see: () => [_.ganes, _.nanes, _.husona],
+  see: () => [_.ganes, _.nanes, _.xusona],
 })
 
-export const karu = _.word('karu', {
+export const qaru = _.word('qaru', {
   verb: 'to choose',
   desc: () => 'The realization of the singular in onself.',
-  etym: () => [_.ka, _.ru],
+  etym: () => [_.qa, _.ru],
 })
 
 // Cow pose
-export const koda = _.word('koda', {
+export const qoda = _.word('qoda', {
   noun: 'cow',
-  etym: () => [_.ka, _.oda],
+  etym: () => [_.qa, _.oda],
 })
 
-export const kafi = _.word('kafi', {
+export const qafi = _.word('qafi', {
   noun: 'journey',
   adj: 'precious',
-  etym: () => [_.ka, _.fi],
+  etym: () => [_.qa, _.fi],
   see: () => [_.gufi, _.gufishany],
 })
 
-export const kalaj = _.word('kalaj', {
+export const qalaj = _.word('qalaj', {
   noun: 'somebody',
-  etym: () => [_.ka, _.aj],
+  etym: () => [_.qa, _.aj],
   desc: () => `
   Being a ignited mystery, a sexual person with power to provoque changes to the world.
   `,
-  see: () => [_.kalei],
+  see: () => [_.qalei],
 })
 
-export const kalei = _.word('kalei', {
+export const qalei = _.word('qalei', {
   noun: 'puberty',
-  etym: () => [_.ka, _.lei],
+  etym: () => [_.qa, _.lei],
   desc: () => `
   Becoming unknown, singular.
   `,

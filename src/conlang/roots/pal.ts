@@ -11,9 +11,9 @@ export const palil = _.word('palil', {
   see: () => [_.fruits, _.seasons],
 })
 
-export const kepal = _.word('kepal', {
+export const qepal = _.word('qepal', {
   noun: 'anus',
-  etym: () => [_.ke, _.pal],
+  etym: () => [_.qe, _.pal],
 })
 
 export const palus = _.word('palus', {

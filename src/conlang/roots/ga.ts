@@ -33,9 +33,9 @@ Caressed spirit / caressing spirit (rain on earth)
 `,
 })
 
-export const kegai = _.word('kegai', {
+export const qegai = _.word('qegai', {
   noun: 'god',
-  etym: () => [_.ke, _.gai],
+  etym: () => [_.qe, _.gai],
   see: () => [_.gau],
 })
 
@@ -49,9 +49,9 @@ export const gau = _.word('gau', {
   ],
 })
 
-export const kuga = _.word('kuga', {
+export const quga = _.word('quga', {
   noun: 'causal thinking, victimhood',
-  etym: () => [_.ku, _.ga],
+  etym: () => [_.qu, _.ga],
 })
 
 export const nega = _.word('nega', {
@@ -65,4 +65,15 @@ export const ganem = _.word('ganem', {
   noun: 'goat',
   adj: 'illumination',
   etym: () => [_.ga, _.nem],
+})
+
+export const gama = _.word('gama', {
+  noun: 'knowledge',
+  verb: 'to know',
+  etym: () => [_.ga, _.ma],
+})
+
+export const gamaxim = _.word('gamaxim', {
+  verb: 'to learn',
+  etym: () => [_.gama, _.xim],
 })

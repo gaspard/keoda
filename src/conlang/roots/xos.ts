@@ -1,19 +1,19 @@
 import * as _ from '../lang'
 
-export const hos = _.word('hos', {
+export const xos = _.word('xos', {
   noun: 'gap, trust',
   verb: 'to split',
   adj: 'wide open',
   adv: 'trustingly',
 })
 
-export const hosegi = _.word('hosegi', {
+export const xosegi = _.word('xosegi', {
   noun: 'despair',
-  etym: () => [_.hos, _.egi],
+  etym: () => [_.xos, _.egi],
 })
 
-export const shehos = _.word('shehos', {
+export const shexos = _.word('shexos', {
   adj: 'surprised',
   noun: 'surprise',
-  etym: () => [_.she, _.hos],
+  etym: () => [_.she, _.xos],
 })

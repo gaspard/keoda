@@ -23,3 +23,9 @@ export const yil = _.word('yil', {
   adv: 'sweetly',
   etym: () => [_.yu, _.il],
 })
+
+export const yulak = _.word('yulak', {
+  verb: 'to play',
+  noun: 'player',
+  etym: () => [_.yu, _.lak.verb],
+})

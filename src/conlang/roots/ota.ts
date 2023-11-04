@@ -11,12 +11,12 @@ export const lamota = _.word('lamota', {
   etym: () => [_.lam, _.ota],
 })
 
-export const hamunota = _.word('hamunon', {
+export const hamunota = _.word('hamunota', {
   noun: 'areola',
-  etym: () => [_.hamun, _.on],
+  etym: () => [_.hamun, _.ota],
 })
 
 export const kepalota = _.word('kepalota', {
   noun: `circle around the anus`,
-  etym: () => [_.kepal, _.ota],
+  etym: () => [_.qepal, _.ota],
 })

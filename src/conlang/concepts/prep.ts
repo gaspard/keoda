@@ -20,7 +20,7 @@ The prepositions that can be used as case marking have the gloss next to them
 * ${_.ref(_.lei)}
 * ${_.refAndGlo(_.lu)}
 * ${_.refAndGlo(_.ju)}
-* ${_.refAndGlo(_.hu)}
+* ${_.refAndGlo(_.xu)}
 
 #### nsfw
 
@@ -61,7 +61,7 @@ The prepositions that can be used as case marking have the gloss next to them
 * ${_.ref(_.dono)}
 * ${_.ref(_.done)}
 * ${_.ref(_.dona)}
-* ${_.ref(_.ha)}
+* ${_.ref(_.tha)}
 * ${_.ref(_.jo)}
 * ${_.ref(_.fo)}
 * ${_.ref(_.dau)}
@@ -95,14 +95,14 @@ Examples
 * ${_.ref(_.eyu)}
 * ${_.ref(_.ibu)}
 * ${_.ref(_.eja)}
-* ${_.ref(_.ku)}
+* ${_.ref(_.qu)}
 * ${_.ref(_.eku)} (if)
 * ${_.ref(_.meu)}
 
 Examples:
 
 * ${_.phrase('Did you caress Iris ?', _.eja, _.Iris.m, _.i.mi.eme, _.q)}
-* ${_.phrase('Why ?', _.eja, _.gu.ku, _.q)}
+* ${_.phrase('Why ?', _.eja, _.gu.qu, _.q)}
 
 ## Similarity
 

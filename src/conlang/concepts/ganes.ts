@@ -57,7 +57,7 @@ From here, the states are more difficult. These states are shared on both
 ${_.ganes} and ${_.nanes} scales.
 
 * 5 ${_.nelil} (confusion/insecure)
-* 4 ${_.neka} (shame/restless)
+* 4 ${_.neqa} (shame/restless)
 * 3 ${_.nepe} (limbo/offensive)
 * 2 ${_.nede} (anguish/fighting)
 

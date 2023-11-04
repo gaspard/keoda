@@ -18,7 +18,7 @@ export const nena = _.word('nena', {
   etym: () => [_.ne, _.na],
 })
 
-export const nemena = _.word('nemena', {
+export const nemna = _.word('nemna', {
   noun: 'weapon',
   etym: () => [_.nem, _.na],
 })

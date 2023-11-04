@@ -17,9 +17,9 @@ export const animals = _.card('animals', {
 * ${_.nounRef(_.iwa)}
 * ${_.nounRef(_.iwi)}
 * ${_.nounRef(_.kadu)}
-* ${_.nounRef(_.kawi)}
-* ${_.nounRef(_.kelo)}
-* ${_.nounRef(_.koda)}
+* ${_.nounRef(_.qawi)}
+* ${_.nounRef(_.qelo)}
+* ${_.nounRef(_.qoda)}
 * ${_.nounRef(_.lapalapa)}
 * ${_.nounRef(_.lipaya)}
 * ${_.nounRef(_.mawi)}
@@ -27,7 +27,7 @@ export const animals = _.card('animals', {
 * ${_.nounRef(_.miwi)}
 * ${_.nounRef(_.munawi)}
 * ${_.nounRef(_.odil)}
-* ${_.nounRef(_.hi)}
+* ${_.nounRef(_.xi)}
 * ${_.nounRef(_.ais)}
 * ${_.nounRef(_.gur)}
 * ${_.nounRef(_.zej)}

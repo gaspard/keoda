@@ -14,7 +14,7 @@ Here are the number from 1 to 10:
 * ${_.fe} (7 / ౭)
 * ${_.shi} (6 / ౬)
 * ${_.lil5} (5 / ౫)
-* ${_.ka} (4 / ౪)
+* ${_.qa} (4 / ౪)
 * ${_.pe} (3 / ౩)
 * ${_.de} (2 / ౨)
 * ${_.pi} (1 / ౧)
@@ -27,8 +27,8 @@ The powers of ten:
 
 ## Some examples:
 
-* ${_.phrase('14', _.ipi10, _.ka4)}
-* ${_.phrase('24', _.de2.ipi10, _.ka4)}
+* ${_.phrase('14', _.ipi10, _.qa4)}
+* ${_.phrase('24', _.de2.ipi10, _.qa4)}
 * ${_.phrase('359', _.pe3.ipa100, _.lil5.ipi10, _.da9)}
 * ${_.phrase('2019', _.de2.ipu1000, _.ipi10, _.da9)}
 * ${_.phrase("105'000", _.ipa100, _.lil5, _.ipu1000)}
@@ -37,7 +37,7 @@ The powers of ten:
 
 * ${_.phrase('million (1000^2)', _.ipu1000.de2.uki)}
 * ${_.phrase('billion (1000^3)', _.ipu1000.pe3.uki)}
-* ${_.phrase('trillion (1000^4)', _.ipu1000.ka.uki)}
+* ${_.phrase('trillion (1000^4)', _.ipu1000.qa.uki)}
 * ${_.phrase(
     "999'999'999",
     _.da9.ipa100,
@@ -53,7 +53,7 @@ The powers of ten:
     _.da9
   )}
 
-We can also express powers of ten ${_.phrase('10^4', _.ipi10.ka.uki)}.
+We can also express powers of ten ${_.phrase('10^4', _.ipi10.qa.uki)}.
 
 ## Small numbers
 

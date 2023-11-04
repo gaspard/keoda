@@ -65,7 +65,7 @@ mark intent or style:
 #### nsfw
 
 * ${_.phraseX('Pull my nipple (lovingly).', _.mu.au.imp, _.hamun.m)}
-* ${_.phraseX('Pull my nipple (fiercely).', _.mu.ker.imp, _.hamun.m)}
+* ${_.phraseX('Pull my nipple (fiercely).', _.mu.qer.imp, _.hamun.m)}
 * ${_.phraseX(
     'Pull my nipple (intensely and with love).',
     _.mu.do.imp,
@@ -97,7 +97,7 @@ accusative and possessive when using the imperative to say "do something to a
 part of my body".
 
 ${_.phrase('Kiss my lips.', _.la.imp, _.la)}
-${_.phrase('Kiss my cheek (face).', _.la.imp, _.duha)}
+${_.phrase('Kiss my cheek (face).', _.la.imp, _.dutha)}
 
 But here the imperative (and consent) is required:
 
@@ -156,7 +156,7 @@ For example:
 
 #### nsfw
 
-* ${_.phrase('My pussy will be licked.', _.yin.to, _.es.a.keli.ir)}
+* ${_.phrase('My pussy will be licked.', _.yin.to, _.es.a.qeli.ir)}
 
 ## Continuous aspect ${_.lu}
 
@@ -165,14 +165,14 @@ on the action (comes after accord with the subject).
 
 * ${_.phrase(
     'He was thinkink of you when he fell asleep.',
-    _.a.lu.gahi,
+    _.a.lu.gaxim,
     _.ti.m,
     _.dem,
     _.a.fodiru.em
   )}
 * ${_.phrase(
     'Thinking of you, he fell asleep.',
-    _.lu.gahi,
+    _.lu.gaxim,
     _.ti.m,
     _.a.fodiru.em
   )}
@@ -188,7 +188,7 @@ a verb or noun into a locus, a situation.
 * ${_.phrase(
     'My pussy will be licked (continuously).',
     _.yin.to,
-    _.es.a.lu.keli.ir
+    _.es.a.lu.qeli.ir
   )}
 
 ## Infinite subject (infinitive)

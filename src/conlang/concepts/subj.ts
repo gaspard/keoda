@@ -73,7 +73,7 @@ ${_.phraseX(
   _.sha.lu.zuzu.em,
   _.$dot,
   _.eku.s,
-  _.a.lakashan,
+  _.a.lakshan,
   _.se.muda.m
 )}
 
@@ -91,7 +91,7 @@ indefinite sense. It is part royal and part modesty.
 
 ### every
 
-* ${_.linkAndGlo(_.o.ka)}
+* ${_.linkAndGlo(_.o.qa)}
 
 ### me
 

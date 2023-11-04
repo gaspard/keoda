@@ -12,15 +12,15 @@ export const jobaj = _.word('jobaj', {
 
 export const habaj = _.word('habaj', {
   noun: 'leg',
-  etym: () => [_.ha, _.baj],
+  etym: () => [_.tha, _.baj],
 })
 
-export const kebaj = _.word('kebaj', {
+export const qebaj = _.word('qebaj', {
   noun: 'testicles',
-  etym: () => [_.ke, _.baj],
+  etym: () => [_.qe, _.baj],
 })
 
-export const kabaj = _.word('kabaj', {
+export const qabaj = _.word('qabaj', {
   noun: 'animal',
-  etym: () => [_.ka4, _.baj],
+  etym: () => [_.qa4, _.baj],
 })

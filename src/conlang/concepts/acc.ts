@@ -14,11 +14,11 @@ applied to a conjugated verb (knowledge deranking) as in ${_.phrase(
   )}.
 
 If there is a noun phrase, the suffix is added to the last word.  So if the noun
-phrase is John's face, depending on word order, the ${_.m} goes on ${_.duha} or
+phrase is John's face, depending on word order, the ${_.m} goes on ${_.dutha} or
 ${_.John}:
   
-* ${_.phrase('They look at the face of John.', _.sha.fa, _.duha.wu, _.John.m)}
-* ${_.phrase("They look at John's hand.", _.sha.fa, _.John, _.duha.m)}
+* ${_.phrase('They look at the face of John.', _.sha.fa, _.dutha.wu, _.John.m)}
+* ${_.phrase("They look at John's hand.", _.sha.fa, _.John, _.dutha.m)}
 
 On words with other suffix, ${_.m} suffix always comes last.
 

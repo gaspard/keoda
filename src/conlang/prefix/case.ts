@@ -28,7 +28,7 @@ export const ju = prefix('ju', {
   desc: () => `Before, in front of: antessive case (ANTESS).`,
   forcedGlo: false,
   etym: () => [_.jo, _.ru],
-  see: () => [_.hu],
+  see: () => [_.xu],
 })
 
 export const juV = alt('ju', {
@@ -37,20 +37,20 @@ export const juV = alt('ju', {
   alt: () => _.ju,
 })
 
-export const hu = prefix('hu', {
+export const xu = prefix('xu', {
   def: 'after',
   noun: 'smoke',
   adj: 'limited',
   verb: 'to finish',
   glo: 'POSTE',
   desc: () => `After, behind: postessive case (POSTE).`,
-  etym: () => [_.ha, _.ru],
+  etym: () => [_.tha, _.ru],
   see: () => [_.ju],
 })
 
-export const nehu = _.word('nehu', {
+export const nexu = _.word('nexu', {
   verb: 'to find',
-  etym: () => [_.ne, _.hu.noun],
+  etym: () => [_.ne, _.xu.noun],
 })
 
 export const ni = prefix('ni', {

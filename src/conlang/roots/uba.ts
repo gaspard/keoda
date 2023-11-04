@@ -7,7 +7,7 @@ export const uba = _.word('uba', {
       'Tears are running down your face.',
       _.falam,
       _.a.uba,
-      _.fe.duha.ti
+      _.fe.dutha.ti
     ),
   ],
 })

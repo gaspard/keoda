@@ -88,7 +88,7 @@ ${_.phrase(
   'To John, insults, yells Jane.',
   _.ni.John,
   _.lapanagu.m,
-  _.a.haopa,
+  _.a.thaopa,
   _.Jane
 )}
 

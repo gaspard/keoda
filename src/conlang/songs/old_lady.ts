@@ -20,7 +20,7 @@ export const old_lady = _.card('zz - song "OLD LADY"', {
     _.fe,
     _.unuma,
     _.shu,
-    _.duhany.wu,
+    _.duthany.wu,
     _.joda
   )}
 * ${_.phrase(

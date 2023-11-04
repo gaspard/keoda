@@ -34,14 +34,14 @@ ${_.phrase('My soil lighter as you play clouds, rain and walking animals.')}
 ${_.phrase(
   'My soil becomes lighter as you play clouds, rain and walking animals',
   _.so.to,
-  _.es.a.lu.him,
+  _.es.a.lu.xim,
   _.le.sis,
   _.eku,
   _.i.yulak,
   _.nash.m,
   _.gai.m,
   _.shu,
-  _.kabaj.m
+  _.qabaj.m
 )}
 
 Kindness and joy are guiding us,

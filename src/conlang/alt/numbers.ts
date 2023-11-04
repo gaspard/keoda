@@ -18,10 +18,10 @@ export const pe3 = _.alt('pe', {
   alt: () => _.pe,
 })
 
-export const ka4 = _.alt('ka', {
-  id: 'ka4',
+export const qa4 = _.alt('qa', {
+  id: 'qa4',
   glo: '4',
-  alt: () => _.ka,
+  alt: () => _.qa,
 })
 
 export const lil5 = _.alt('lil', {

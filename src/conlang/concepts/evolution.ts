@@ -45,7 +45,7 @@ TODO: go through commit log
 ### Subject consitency *(Jan 2021)*
 
 * All **plurals** (more than two) have an extra prefix of \`/ʃ/\` (**sh**),
-  except for ${_.ka} (every).
+  except for ${_.qa} (every).
 * Subjects of which the **speaker** belongs to start with \`/ɔ/\` (**o**)
 * Subjects of which the **listener** belongs to start with \`/i/\` (**i**)
 * Subjects **not present** start with \`/a/\` (**a**)
@@ -217,7 +217,7 @@ conjugating "making" to remove the feeling of intentionality:
 * ${_.phrase(
     'He is making me feel loved (intentionality).',
     _.oto,
-    _.a.lu.him,
+    _.a.lu.xim,
     _.o.zu.n
   )}
 
@@ -225,7 +225,7 @@ conjugating "making" to remove the feeling of intentionality:
     'He sings, making me feel loved (less intentionality).',
     _.oto,
     _.a.lipa,
-    _.lu.him,
+    _.lu.xim,
     _.o.zu.n
   )}
 
@@ -281,5 +281,38 @@ a mode for verbs which means that to desire or remember are ways of doing:
 
 * ${_.phrase('I am kiss-remembering (your) lips.', _.o.lue.la, _.la.m)}
 * ${_.phrase('I am caress-desiring (your) belly.', _.o.lui.mi, _.bo.m)}
+
+Checking the consistency of some complex case with passive. So here are two
+ways to say "I love remembering being held by you":
+
+* A. ${_.phrase(
+    'I love (being-held (by you)-memory-sensation).',
+    _.o.au,
+    _.es.o.lue.rumi.n,
+    _.fu.ti
+  )}
+
+* B. ${_.phrase(
+    'I love (the fact of remembering that I was being held by you).',
+    _.o.au,
+    _.o.ji.n,
+    _.es.o.lu.rumi.n,
+    _.fu.ti
+  )}
+
+Version (A), is more body-memory centric and blurs the distinction between the
+past event and the recollection. in this version, the two time-frames collide
+into "now".
+
+Finally, we can remove the passive by saying "I love the memory of surrendering to your embrace":
+
+* C. ${_.phrase(
+    'I love the memory of surrendering to your hug.',
+    _.o.au,
+    _.o.lue.miu.n,
+    _.tuF,
+    _.i.rumi.n
+  )}
+
 `,
 })

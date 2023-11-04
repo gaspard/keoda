@@ -8,7 +8,7 @@ export const al = _.word('al', {
   see: () => [_.so],
 })
 
-export const alayuru = _.word('alayuru', {
+export const alyuru = _.word('alyuru', {
   noun: 'top of vagina',
   adj: 'happy',
   glo: '*top*.**vagina**',

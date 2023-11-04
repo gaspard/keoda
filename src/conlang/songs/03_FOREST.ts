@@ -5,7 +5,7 @@ export const forest = _.card('zz - song "FOREST"', {
   compact: true,
   desc: () => `
 ${_.phrase('I am the forest', __.o.e, _.junu)}
-${_.phrase('Mother of creatures.', _.hanu.wu, _.raj, $)}
+${_.phrase('Mother of creatures.', _.thanu.wu, _.raj, $)}
 
 ${_.phrase(
   'I am the trees and the soil.',
@@ -16,17 +16,17 @@ ${_.phrase(
   _.$comma
 )}
 ${_.phrase('Feeding the small.', _.u.lu.guwulak, _.na.lil.m)}
-${_.phrase('Feeding the large.', _.u.lu.guwulak, _.na.hi.m, $)}
+${_.phrase('Feeding the large.', _.u.lu.guwulak, _.na.xi.m, $)}
 
 ${_.phrase('Some are born,', __.es.a.pe.gui, _.$comma)}
 ${_.phrase('fragile beauties,', _.kiti, _.awi.adj.na)}
-${_.phrase('surprised spirits.', _.shehos, _.ga, $)}
+${_.phrase('surprised spirits.', _.shexos, _.ga, $)}
 
 ${_.phrase('Some are killed,', __.es.a.pe.nemek)}
 ${_.phrase('hunted, if soft,', _.es.a.nilat, _.eku, _.le.ais)}
 ${_.phrase('fought, if hard.', _.es.a.nepi, _.eku, _.le.gur, $)}
 
-${_.phrase('I am your eternal mother,', __.o.e, _.ti.lau.hanu, _.$comma)}
+${_.phrase('I am your eternal mother,', __.o.e, _.ti.lau.thanu, _.$comma)}
 ${_.phrase('giver of life,', _.a.s, _.a.guwu, _.gui.m)}
 ${_.phrase('taker of life.', _.a.s, _.a.hajo, _.gui.m, $)}
 
@@ -34,7 +34,7 @@ ${_.phrase('You unfold into being,', __.i.nie, _.ru.e, _.$comma)}
 ${_.phrase('little words on paper,', _.ganek.lil, _.fe.inina, _.$comma)}
 ${_.phrase('made of wood.', _.mei.nam, $)}
 
-${_.phrase('You will burn to ashes.', __.i.zau.ir, _.ru.kenam, $)}
+${_.phrase('You will burn to ashes.', __.i.zau.ir, _.ru.qenam, $)}
 ${_.phrase('Your words, your story', __.ti.ganek, _.ti.agi)}
 ${_.phrase('remembered in my flesh.', _.es.sha.ji, _.ro.to.yaunoa, $)}
 
@@ -55,10 +55,10 @@ ${_.phrase(
   _.sij.falam,
   _.$comma
 )}
-${_.phrase('your skin on your mother,', _.ti.noa, _.fe.ti.hanu.m)}
+${_.phrase('your skin on your mother,', _.ti.noa, _.fe.ti.thanu.m)}
 ${_.phrase('your smell in her nose.', _.ti.shena, _.ro.sheu.wu, _.unu.s.m, $)}
 
-${_.phrase('I am your eternal mother,', __.o.e, _.ti.lau.hanu, _.$comma)}
+${_.phrase('I am your eternal mother,', __.o.e, _.ti.lau.thanu, _.$comma)}
 ${_.phrase('giver of life,', _.a.s, _.a.guwu, _.gui.m, _.$comma)}
 ${_.phrase('taker of life.', _.a.s, _.a.hajo, _.gui.m, $)}
 
@@ -72,7 +72,7 @@ ${_.phrase('you.', _.ti.m, $)}
 
 ${_.phrase('I am time,', __.o.e, _.lei.noun, _.$comma)}
 ${_.phrase('memory,', _.jiM, _.$comma)}
-${_.phrase('a veil,', _.husona, _.$comma)}
+${_.phrase('a veil,', _.xusona, _.$comma)}
 ${_.phrase('bliss.', _.gupa, $)}
 `,
 })

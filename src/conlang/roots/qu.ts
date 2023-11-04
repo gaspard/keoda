@@ -1,6 +1,6 @@
 import * as _ from '../lang'
 
-export const ku = _.word('ku', {
+export const qu = _.word('qu', {
   def: 'imply',
   noun: 'rope',
   verb: 'to tie',
@@ -8,49 +8,49 @@ export const ku = _.word('ku', {
   desc: () => `Causality`,
 })
 
-export const kude = _.word('kude', {
+export const qude = _.word('qude', {
   noun: 'knot',
   verb: 'to make love',
-  etym: () => [_.ku, _.de2],
+  etym: () => [_.qu.noun, _.de],
 })
 
-export const neku = _.word('neku', {
+export const nequ = _.word('nequ', {
   verb: 'to lose',
 })
 
-export const kupa = _.word('kupa', {
+export const qupa = _.word('qupa', {
   noun: 'addiction',
   verb: 'to crave',
   desc: () => `
 Tie everything, transactional relation to the world. Opposed to ${_.gupi} or ${_.aupa}.
 
-See ${_.kulei}.
+See ${_.qulei}.
 `,
-  see: () => [_.kulei],
-  etym: () => [_.ku, _.pa],
+  see: () => [_.qulei],
+  etym: () => [_.qu, _.pa],
 })
 
-export const loku = _.word('loku', {
+export const loqu = _.word('loqu', {
   verb: 'to allow',
-  etym: () => [_.lo, _.ku],
+  etym: () => [_.lo, _.qu],
 })
 
-export const nekupa = _.word('nekupa', {
+export const nequpa = _.word('nequpa', {
   verb: 'to let go',
-  etym: () => [_.ne, _.kupa],
+  etym: () => [_.ne, _.qupa],
   desc: () => `To not attach to everything.`,
 })
 
-export const kulei = _.word('kulei', {
+export const qulei = _.word('qulei', {
   noun: 'causal time',
   verb: 'to rig',
   desc: () =>
     `To tie time, manipulate, transactional relation to time (if-then).`,
-  etym: () => [_.ku, _.lei],
+  etym: () => [_.qu, _.lei],
 })
 
-export const kuloda = _.word('kuloda', {
+export const quloda = _.word('quloda', {
   noun: 'victime-bourreau-sauveu.se.r',
   desc: () => `Corps attaché.`,
-  etym: () => [_.ku, _.oda],
+  etym: () => [_.qu, _.oda],
 })

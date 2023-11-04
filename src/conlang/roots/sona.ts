@@ -10,7 +10,7 @@ export const sona = _.word('sona', {
   see: () => [_.gods],
 })
 
-export const husona = _.word('husona', {
+export const xusona = _.word('xusona', {
   noun: 'veil',
   img: 'dhumavati.jpeg',
   desc: () => `
@@ -18,7 +18,7 @@ She is the Veil Goddess: the illusion of beginings and endings, limits, the conf
 
 She is also called **Dhūmāvatī (धूमावती)**.
   `,
-  etym: () => [_.hu.noun, _.sona],
+  etym: () => [_.xu.noun, _.sona],
   see: () => [_.gods],
 })
 

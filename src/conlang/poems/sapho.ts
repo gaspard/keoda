@@ -28,9 +28,9 @@ ${_.phrase(
   _.ga.to.m
 )}
 
-${_.phrase('Like the mountain hurricane', _.si, _.hurakan, _.dao, _.gosoa)}
+${_.phrase('Like the mountain hurricane', _.si, _.xurakan, _.dao, _.gosoa)}
 
-${_.phrase('Beats down on the young oaks.', _.hafo, _.don, _.okunu.lil.m)}
+${_.phrase('Beats down on the young oaks.', _.thafo, _.don, _.okunu.lil.m)}
 
  *(trad. Françoise Chandernagor)*
 
@@ -61,8 +61,8 @@ ${_.phrase(
   _.pida,
   _.wa,
   _.o.pi.fa,
-  _.duha.ti.m,
-  _.ku
+  _.dutha.ti.m,
+  _.qu
 )}
 
 ${_.phrase('Mon cœur bat sur mes lèvres', _.au.to, _.a.fo, _.la.to.m)}

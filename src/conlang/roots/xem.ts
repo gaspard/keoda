@@ -1,6 +1,6 @@
 import * as _ from '../lang'
 
-export const heme = _.word('heme', {
+export const xem = _.word('xem', {
   adj: 'offered',
   suff: 'offered',
   desc: () => `

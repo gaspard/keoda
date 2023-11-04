@@ -18,6 +18,6 @@ export const tajeri = _.word('tajeri', {
 
 export const yineri = _.word('yineri', {
   noun: 'clitoris glans',
-  see: () => [_.keyin],
+  see: () => [_.qeyin],
   etym: () => [_.yin, _.eri],
 })

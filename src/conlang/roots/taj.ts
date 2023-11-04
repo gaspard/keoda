@@ -14,6 +14,6 @@ export const tajo = _.word('tajo', {
 
 export const hataj = _.word('hataj', {
   noun: 'glans',
-  etym: () => [_.ha, _.taj],
+  etym: () => [_.tha, _.taj],
   exam: () => [_.phraseX('Suck wex glans.', _.li, _.hataj.m)],
 })

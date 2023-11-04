@@ -48,9 +48,9 @@ ${_.phraseX(
 
 ### Manipulatives
 
-${_.phraseX('I made her whip him.', _.o.mahim.em, _.unu.m, _.a.fo.n, _.oto.m)}
+${_.phraseX('I made her whip him.', _.o.maxim.em, _.unu.m, _.a.fo.n, _.oto.m)}
 
-${_.phraseX('She made me fall.', _.unu, _.a.mahim.em, _.o.hato.n)}
+${_.phraseX('She made me fall.', _.unu, _.a.maxim.em, _.o.thato.n)}
 
 ### Perception
 
@@ -62,7 +62,7 @@ ${_.phrase(
   'I kissed you after you fell asleep.',
   _.o.la.em,
   _.ti.m,
-  _.le.hu.fodiru
+  _.le.xu.fodiru
 )}
 
 ### 'before/after' relativisation
@@ -71,7 +71,7 @@ ${_.phrase(
   'I kissed you after they fell asleep.',
   _.o.la.em,
   _.ti.m,
-  _.hu.dem,
+  _.xu.dem,
   _.a.fodiru.em
 )}
 
@@ -106,7 +106,7 @@ ${_.phraseX(
   _.unu.m,
   _.eku,
   _.unu.s,
-  _.es.a.lu.ku,
+  _.es.a.lu.qu,
   _.ajayusa.m
 )}
 

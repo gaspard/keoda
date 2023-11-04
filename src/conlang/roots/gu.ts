@@ -63,7 +63,7 @@ export const guna = _.word('guna', {
 export const gui = _.word('gui', {
   noun: 'life',
   verb: 'to birth',
-  see: () => [_.yuhim, _.nem],
+  see: () => [_.yuxim, _.nem],
   etym: () => [_.gu, _.i$],
 })
 
@@ -130,9 +130,9 @@ export const gipa = _.word('gipa', {
   etym: () => [_.gi, _.pa],
 })
 
-export const kegu = _.word('kegu', {
+export const qegu = _.word('qegu', {
   noun: 'wound/healing',
-  etym: () => [_.ke, _.gu],
+  etym: () => [_.qe, _.gu],
   desc: () => `
 Hidden inside the darkness, behind the terror of change and the ripping of
 the self lies a calling, ${_.jipa}.
