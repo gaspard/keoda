@@ -1,6 +1,6 @@
 import * as _ from '../lang'
 
-export const neha = _.word('neha', {
+export const nexa = _.word('nexa', {
   verb: 'to hate',
   noun: 'hatred',
   etym: () => [_.ne, _.a$],

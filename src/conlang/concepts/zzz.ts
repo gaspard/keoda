@@ -164,5 +164,17 @@ ${_.phrase('I am desiring to make love.', _.o.lui.noanoa)}
 ### 2023-09-07
 
 ${_.phrase('I kiss your vulva gently.', _.o.la, _.ti.yin.m, _.si.lo)}
+
+### 2023-11-08
+
+${_.phrase(
+  'Be my joy, the one that can only be whispered.',
+  _.e,
+  _.to.yu,
+  _.a.s,
+  _.nur,
+  _.es.a.gilapa.n
+)}
+
 `,
 })

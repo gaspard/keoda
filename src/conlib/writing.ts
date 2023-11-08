@@ -17,7 +17,6 @@ const TELU: { [key: string]: string } = {
   // pon$: 'పోఁ', // do we need this rule ?
   m$: 'ం',
   n$: 'ఁ',
-  h$: 'ః',
 
   // y
   nyu: 'నైు', // fix these as they come...
@@ -35,7 +34,9 @@ const TELU: { [key: string]: string } = {
   shy: 'శై',
   jy: 'జై',
   hy: 'హై',
-  ly: 'లై',
+  ly: 'లై', // lE
+  Ty: 'థై', // TE
+  qy: 'ఖై', // KE
 
   // i
   shki: 'శ్కి',
@@ -62,7 +63,9 @@ const TELU: { [key: string]: string } = {
   yi: 'యి',
   ri: 'రి',
   liu: 'లిు',
-  li: 'లి',
+  li: 'లి', // li
+  Ti: 'థి', // Ti
+  qi: 'ఖి', // Ki
 
   // e
   shke: 'శ్కే',
@@ -89,6 +92,8 @@ const TELU: { [key: string]: string } = {
   ye: 'యే',
   re: 'రే',
   le: 'లే',
+  Te: 'థే', // Te
+  qe: 'ఖే', // Ke
 
   // au
   shkau: 'శ్కౌ',
@@ -113,7 +118,9 @@ const TELU: { [key: string]: string } = {
   wau: 'వౌ',
   yau: 'యౌ',
   rau: 'రౌ',
-  lau: 'లౌ',
+  lau: 'లౌ', // lO
+  Tau: 'థౌ', // TO
+  qau: 'ఖౌ', // KO
 
   // a
   shka: 'శ్కా',
@@ -140,6 +147,8 @@ const TELU: { [key: string]: string } = {
   ya: 'యా',
   ra: 'రా',
   la: 'లా',
+  Ta: 'థా', // Ta
+  qa: 'ఖా', // Ka
 
   // u
   shku: 'శ్కు',
@@ -166,6 +175,8 @@ const TELU: { [key: string]: string } = {
   yu: 'యు',
   ru: 'రు',
   lu: 'లు',
+  Tu: 'థు', // Tu
+  qu: 'ఖు', // Ku
 
   // o
   shko: 'శ్కో',
@@ -192,6 +203,8 @@ const TELU: { [key: string]: string } = {
   yo: 'యో',
   ro: 'రో',
   lo: 'లో',
+  To: 'థో', // To
+  qo: 'ఖో', // Ko
 
   iu: 'ఇు', // alt-i + u
   ai: 'ఐ', // alt-shift-e
@@ -210,7 +223,10 @@ const TELU: { [key: string]: string } = {
   m: 'మ్‌',
   l: 'ల్‌',
   r: 'ర్‌',
-  j: 'జ్‌', //   /ʒ/ (end) or /dʒ/ (in-word)
+  j: 'జ్‌',
+  T: 'థ్',
+  q: 'ఖ్',
+
   //
   ['1']: '౧',
   ['2']: '౨',
@@ -263,7 +279,7 @@ const WARN: { [key: string]: string } = {
 function tran(word: string) {
   return word
     .replace(/sh/g, 'S')
-    .replace(/th$/, 'Z')
+    .replace(/th/g, 'Z')
     .split('')
     .map(k => {
       const p = PHON[k]

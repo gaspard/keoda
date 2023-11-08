@@ -15,14 +15,14 @@ and curvy.
 
 ## Consonants
 
-|                 | Labial     | Coronal         | Dorsal       | Glottal |
-| :-------------  | :--------: | :-------------: | :----------: | :-----: |
-| **Nasal**       | m మ       | n న             |              |         |
-| **Plosive**     | p ప / b బ | t త / d ద  | k క / g గ        |         |
-| **Fricative**   | f చ       | s స / z ఠ  •  ʃ శ / ʒ జ |      | h హ |
-| **Approximant** | ʋ  వ      |                 | j య         |         |
-| **Trill**       |            | r ర             |              |         |
-| **Lateral**     |            | l ల             |              |         |
+|                 | Labial     | Coronal         | Dorsal       |
+| :-------------: | :--------: | :-------------: | :----------: |
+| **Nasal**       | m మ       | n న             |              |
+| **Plosive**     | p ప / b బ | t త / d ద  | k క / g గ  • q |
+| **Fricative**   | f చ       | θ థ • s స / z ఠ • ʃ శ / ʒ జ | x |
+| **Approximant** | ʋ  వ      |                 | j య         |
+| **Trill**       |            | r ర             |              |
+| **Lateral**     |            | l ల             |              |
 
 All sounds correspond to [Telugu](https://en.wikipedia.org/wiki/Telugu_script) except for:
 
@@ -36,7 +36,7 @@ All sounds correspond to [Telugu](https://en.wikipedia.org/wiki/Telugu_script) e
 
 ## Vowels
 
-|                 | Front      | Central         | Back         |
+|                 | Front      | Central         | Back         |
 | :-------------  | :--------: | :-------------: | :----------: |
 | **Close**       | i  ి  ఇ   |                 | u   ు  ఉ   |
 | **Mid**         | ɛ  ే  ఎ   |                 | ɔ   ో  ఓ    |
@@ -45,7 +45,7 @@ All sounds correspond to [Telugu](https://en.wikipedia.org/wiki/Telugu_script) e
 
 ## Semivowel
 
-|                 | As vowel   | As consonant    |
+|                 | As vowel   | As consonant    |
 | :-------------  | :--------: | :-------------: |
 | **Palatal**     | j  ై ఇ    |  య             |
 
@@ -59,27 +59,34 @@ keOda, lamigOa, agUwu, afOliri
 
 ### Consonant cluster
 
-Two consonants in a row are only allowed if:
+Two consonants are allowed to join, except for:
 
-* previous consonant is \`/s/\`, \`/ʃ/\`, \`/k/\` or \`/n/\`
-* and next consonant is \`/k/\` or \`/t/\`
-* and they are not the same and not \`/nk/\`
-* or previous consonant is \`/m/\` and next consonant is not in \`/kmn/\`
+* t - th
+* l - r
+* k - q
 
 | cluster | sound | example |
 | :--: | :--: | :-- |
-| sk   | /sk/ | ${_.phrase('Open to everything.', _.xos.qa)} |
+| tth  | /tθ/ | ${_.phrase('Wild up (?).', _.lat.tha)} |
+| lr | /lr/ | ${_.phrase('Butt creature.', _.pal.raj)} |
+| kq | /kq/ | ${_.phrase('Shell-singularity (hidden self).', _.dak.qa)} |
+
+Random examples of consonant clusters (to train speaking):
+
+| ll   | /ll/ | ${_.phrase('Diarrhea.', _.pal.lam)} |
+| sk   | /sk/ | ${_.phrase('Total storm.', _.xos.kal)} |
+| sq   | /sq/ | ${_.phrase('Open to everything.', _.xos.qa)} |
 | st  | /st/ | ${_.phrase('Their trust.', _.xos.ta)} |
-| shk  | /ʃk/ | ${_.phrase('Welcoming everything.', _.ish.qa)} |
+| tht  | /θt/ | ${_.phrase('Bean-script (?).', _.doth.tana)} |
+| shk  | /ʃk/ | ${_.phrase('Welcoming Master.', _.ish.kei)} |
+| shq  | /ʃq/ | ${_.phrase('Welcoming everything.', _.ish.qa)} |
 | sht  | /ʃt/ | ${_.phrase('Their acceptance.', _.ish.ta)} |
 | kt  | /kt/ | ${_.phrase('Your shell (secrets).', _.dak.ti)} |
 | nt  | /nt/ | ${_.phrase('Their elbow.', _.wen.ta)} |
-| m[^kmn] | /m./ | ${_.phrase('Left foot.', _.sam.se)} |
+| ms  | /ms/ | ${_.phrase('Left foot.', _.sam.se)} |
+| pp  | /pp/ | ${_.phrase('To jump everywhere (to be a fool).', _.qap.pa)} |
+| pt  | /pt/ | ${_.phrase('Jumping penis', _.qap.adj.taj)} |
 
-For other cases, we duplicate the previous vowel. Example: ${
-    _.alyuru
-  } instead of \`alyuru\`, or ${_.fo.na} instead of \`fikna\`.
-  
 ### Vowel cluster
 
 Vowel clusters are allowed in roots and when connecting moods. Example:

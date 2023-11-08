@@ -1,6 +1,6 @@
 import * as _ from '../lang'
 
-export const qet = _.word('ket', {
+export const qet = _.word('qet', {
   noun: 'cave',
   adj: 'trapped',
 })

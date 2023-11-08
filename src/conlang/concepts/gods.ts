@@ -8,7 +8,7 @@ export const gods = _.card('gods', {
 # Goddesses and gods
 
 * ${_.sona}
-* ${_.gahal}
+* ${_.gaxal}
 * ${_.gusona}
 * ${_.xusona}
 * ${_.xurakan}

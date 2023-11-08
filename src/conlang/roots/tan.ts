@@ -10,7 +10,7 @@ export const tanom = _.word('tanom', {
   etym: () => [_.tan, _.om],
 })
 
-export const tana = _.word('tanada', {
+export const tana = _.word('tana', {
   noun: 'script',
   verb: 'to write',
   etym: () => [_.tan, _.na],

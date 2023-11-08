@@ -63,7 +63,7 @@ export const nepi = _.word('nepi', {
   verb: 'to fragment', // = to fight to death
   adj: 'disembodied, fragmented',
   etym: () => [_.ne, _.pi],
-  see: () => [_.neha, _.ganes, _.nanes],
+  see: () => [_.nexa, _.ganes, _.nanes],
 })
 
 // L'écoute de djopi ouvre à hapi

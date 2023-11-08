@@ -7,6 +7,7 @@ export const food = _.card('food', {
 
 See also ${_.fruits}.
 
+* ${_.nounRef(_.doth)}
 * ${_.nounRef(_.egina)}
 * ${_.nounRef(_.eri)}
 * ${_.nounRef(_.fena)}

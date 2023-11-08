@@ -268,7 +268,7 @@ ${_.phrase(
 * ${_.phrase(
     'Leaving hatred and power',
     _.a.wabi,
-    _.neha.m,
+    _.nexa.m,
     _.shu,
     _.gohuski.m
   )}

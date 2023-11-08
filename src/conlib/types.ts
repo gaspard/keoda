@@ -5,22 +5,12 @@ export const STARTS_VOWEL = /^[aoeiuAOEIU]/
 // [y] at the end of a word is seen as a vowel
 export const ENDS_VOWEL = /[aoeiuyAOEIUY]$/
 
-export const ENDS_k = /k$/
 export const ENDS_l = /l$/
-export const ENDS_m = /m$/
-export const ENDS_n = /n$/
-export const ENDS_r = /r$/
-export const ENDS_s = /s$/
-export const ENDS_sh = /sh$/
+export const ENDS_k = /l$/
 export const ENDS_t = /t$/
-export const STARTS_no_join_k = /^(m|n|t|s|sh)/
-export const STARTS_no_join_l = /^(m|n|t|s|sh)/
-export const STARTS_no_join_m = /^(k|l|n|t|s|sh)/
-export const STARTS_no_join_n = /^(k|l|m|t|s|sh)/
-export const STARTS_no_join_r = /^(k|m|t)/
-export const STARTS_no_join_s = /^(k|m|n|t)/
-export const STARTS_no_join_sh = /^(k|m|n|t)/
-export const STARTS_no_join_t = /^(k|m|n|s|sh)/
+export const STARTS_r = /^r/
+export const STARTS_q = /^q/
+export const STARTS_th = /^th/
 
 export const ENDS_i = /i$/
 export const ENDS_y = /y$/

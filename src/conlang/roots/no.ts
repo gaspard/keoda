@@ -36,7 +36,7 @@ export const nopi = _.word('nopi', {
   etym: () => [_.no, _.pi],
 })
 
-export const djonopi = _.word('djonopi', {
+export const jonopi = _.word('jonopi', {
   noun: 'lower back',
   etym: () => [_.jo, _.nopi],
 })

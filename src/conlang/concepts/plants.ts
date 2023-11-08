@@ -12,6 +12,7 @@ See also ${_.food}, ${_.fruits} and ${_.seasons}.
 
 This is the list of words related to plants currently in the language:
 
+* ${_.nounRef(_.doth)}
 * ${_.nounRef(_.bisahina)}
 * ${_.nounRef(_.unuT)}
 * ${_.nounRef(_.ununoa)}

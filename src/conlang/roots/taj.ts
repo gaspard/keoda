@@ -4,7 +4,7 @@ export const taj = _.word('taj', {
   noun: 'penis',
   verb: 'to penetrate',
   etym: () => [_.oto, _.aj],
-  exam: () => [_.phraseX('Miraculous penis', _.taj, _.mahal)],
+  exam: () => [_.phraseX('Miraculous penis', _.taj, _.mathal)],
 })
 
 export const tajo = _.word('tajo', {
@@ -12,8 +12,8 @@ export const tajo = _.word('tajo', {
   etym: () => [_.taj, _.o$],
 })
 
-export const hataj = _.word('hataj', {
+export const thataj = _.word('thataj', {
   noun: 'glans',
   etym: () => [_.tha, _.taj],
-  exam: () => [_.phraseX('Suck wex glans.', _.li, _.hataj.m)],
+  exam: () => [_.phraseX('Suck wex glans.', _.li, _.thataj.m)],
 })

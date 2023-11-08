@@ -7,7 +7,7 @@ export const emle = _.word('emle', {
 
 export const emlena = _.word('emlena', {
   noun: 'history',
-  etym: () => [_.em, _.na],
+  etym: () => [_.emle, _.na],
 })
 
 // === alt
