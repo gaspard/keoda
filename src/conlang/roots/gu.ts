@@ -6,7 +6,7 @@ export const gu = _.word('gu', {
   adj: 'darkness',
   adv: 'lively, terrified',
   etym: () => [_.ga, _.u$],
-  see: () => [_.em, _.nu, _.ganes, _.gufi],
+  see: () => [_.em, _.nux, _.ganes, _.gufi],
   desc: () => `
 To live, to feel. Empathy to the limits of terror, darkness.
 
@@ -29,16 +29,16 @@ ${_.gu} becomes because they are the same and not the same thing.
 We could also say that ${_.gu} is "the possibility of karma" and ${_.ga} is made
 of "karma".
 
-So why does ${_.nugu} mean "terror" ? Because there is a huge potential for
-chaos and instability due to the unrooted nature of ${_.nu} and the power of
+So why does ${_.gunux} mean "terror" ? Because there is a huge potential for
+chaos and instability due to the unrooted nature of ${_.nux} and the power of
 ${_.gu}.
 `,
 })
 
-export const nugu = _.word('nugu', {
+export const gunux = _.word('gunux', {
   noun: 'tremendum, illusion\n(Thirodana)',
   see: () => [_.gana],
-  etym: () => [_.nu, _.gu],
+  etym: () => [_.gu, _.nux],
   desc: () => `
 Litteraly, the "immaterial unconscious"`,
 })
@@ -57,7 +57,7 @@ export const lemegu = _.word('lemegu', {
 export const guna = _.word('guna', {
   noun: 'dissociation, robot',
   etym: () => [_.gu, _.na],
-  see: () => [_.nuga],
+  see: () => [_.ganux],
 })
 
 export const gui = _.word('gui', {

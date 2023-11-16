@@ -36,8 +36,8 @@ export const joda = _.word('joda', {
 
 export const jonu = _.word('jonu', {
   noun: 'daughter',
-  desc: () => `We also use: ${_.linkAndGlo(_.unu.lil)}`,
-  etym: () => [_.jo, _.unu],
+  desc: () => `We also use: ${_.linkAndGlo(_.nu.lil)}`,
+  etym: () => [_.jo, _.nu],
   see: () => [_.family],
 })
 

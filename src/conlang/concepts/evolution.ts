@@ -55,7 +55,7 @@ TODO: go through commit log
 After adding passive and continuous tenses, it made sense to express properties without
 saying "is" but instead using the "active" nature of nouns and this tense:
 
-* ${_.phrase('She is beautiful.', _.ta.unu, _.es.a.lu.awi)}
+* ${_.phrase('She is beautiful.', _.ta.nu, _.es.a.lu.awi)}
 
 ### Full blown "dot" writing code *(Jan 2021)*
 

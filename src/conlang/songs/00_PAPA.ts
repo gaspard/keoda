@@ -25,7 +25,7 @@ ${_.phrase(
 ${_.phrase('I search for peace in words', __.o.mapa, _.dil.m, _.ro.ganek)}
 ${_.phrase('but only find confusion.', _.neshu, _.o.nexu, _.nelil.m, $)}
 
-${_.phrase('I search for wisdom in feelings', __.o.mapa, _.gufi.m, _.ro.unu)}
+${_.phrase('I search for wisdom in feelings', __.o.mapa, _.gufi.m, _.ro.nu)}
 ${_.phrase(
   'but only find love and pain',
   _.neshu,

@@ -64,6 +64,7 @@ Two consonants are allowed to join, except for:
 * t - th
 * l - r
 * k - q
+* x - [pbkg]
 
 | cluster | sound | example |
 | :--: | :--: | :-- |

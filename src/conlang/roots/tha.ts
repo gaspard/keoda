@@ -54,7 +54,7 @@ export const thanu = _.word('thanu', {
   noun: 'mother',
   scla: 'noun',
   cla: 'noun',
-  etym: () => [_.tha, _.unu],
+  etym: () => [_.tha, _.nu],
   see: () => [_.family],
 })
 

@@ -7,14 +7,7 @@ export const forest = _.card('zz - song "FOREST"', {
 ${_.phrase('I am the forest', __.o.e, _.junu)}
 ${_.phrase('Mother of creatures.', _.thanu.wu, _.raj, $)}
 
-${_.phrase(
-  'I am the trees and the soil.',
-  __.o.e,
-  _.unu,
-  _.shu,
-  _.so,
-  _.$comma
-)}
+${_.phrase('I am the trees and the soil.', __.o.e, _.nu, _.shu, _.so, _.$comma)}
 ${_.phrase('Feeding the small.', _.u.lu.guwulak, _.na.lil.m)}
 ${_.phrase('Feeding the large.', _.u.lu.guwulak, _.na.xi.m, $)}
 
@@ -56,7 +49,7 @@ ${_.phrase(
   _.$comma
 )}
 ${_.phrase('your skin on your mother,', _.ti.noa, _.fe.ti.thanu.m)}
-${_.phrase('your smell in her nose.', _.ti.shena, _.ro.sheu.wu, _.unu.s.m, $)}
+${_.phrase('your smell in her nose.', _.ti.shena, _.ro.sheu.wu, _.nu.s.m, $)}
 
 ${_.phrase('I am your eternal mother,', __.o.e, _.ti.lau.thanu, _.$comma)}
 ${_.phrase('giver of life,', _.a.s, _.a.guwu, _.gui.m, _.$comma)}

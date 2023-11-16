@@ -22,7 +22,7 @@ conspire (against) the person. Because of the feeling of anxious expectation, th
 stage is also called "stage fright".
 
 In zulapa, ${_.guru} litterally means "the emergence of the darkness" and evokes the
-arrival of terror (${_.nugu}).
+arrival of terror (${_.gunux}).
 
 ## Aphophenia ${_.nuru}
 

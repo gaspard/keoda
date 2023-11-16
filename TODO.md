@@ -1,5 +1,4 @@
-- Replace possessive "to" with "mi"
-- Replace "to caress" "mi" with "mis"
+- Replace "na" with "nax"
 
 Later
 

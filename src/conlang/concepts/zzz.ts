@@ -69,7 +69,7 @@ ${_.phrase('I love you too.', _.o.zu.meo, _.pa.i.m)}
 
 ${_.phrase('Good night witch sister.', _.yagi, _.ominu)}
 
-${_.phrase('Witch sister', _.om, _.xim, _.unu)}
+${_.phrase('Witch sister', _.om, _.xim, _.nu)}
 
 ${_.phrase('', _.gu)}
 
@@ -120,9 +120,9 @@ ${_.phrase('', _.negu)}
 
 ${_.phrase('', _.adufi)}
 
-${_.phrase('bird-woman', _.unu.iwiN)}
+${_.phrase('bird-woman', _.nu.iwiN)}
 
-${_.phrase('woman like a bird', _.unu, _.le.iwiN)}
+${_.phrase('woman like a bird', _.nu, _.le.iwiN)}
 
 ### KAAL
 

@@ -20,7 +20,7 @@ export const duto = _.word('duto', {
 
 export const dunu = _.word('dunu', {
   noun: 'small sister/tree',
-  etym: () => [_.du, _.unu],
+  etym: () => [_.du, _.nu],
   see: () => [_.nonu, _.duda],
 })
 

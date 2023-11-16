@@ -13,7 +13,7 @@ export const xida = _.word('xida', {
 
 export const xinu = _.word('xinu', {
   noun: 'sister',
-  etym: () => [_.xim, _.unu],
+  etym: () => [_.xim, _.nu],
   see: () => [_.family],
 })
 export const xiwi = _.word('xiwi', {

@@ -101,7 +101,7 @@ ${_.phrase('Kiss my cheek (face).', _.la.imp, _.dutha)}
 
 But here the imperative (and consent) is required:
 
-${_.phrase('Kiss her lips.', _.la.imp, _.la.m, _.ni.unu)}
+${_.phrase('Kiss her lips.', _.la.imp, _.la.m, _.ni.nu)}
 
 For other subjects, we simply use the now tens ${_.lei}.
 
@@ -286,7 +286,7 @@ droping the tens as a cliff hanger.
 
 ## Examples
 
-* ${_.phrase('yesterday, I kissed a girl.', _.o.la.emi, _.unu.m)}
+* ${_.phrase('yesterday, I kissed a girl.', _.o.la.emi, _.nu.m)}
 * ${_.phrase(
     'They might love you (completely) someday.',
     _.a.zu.ire,

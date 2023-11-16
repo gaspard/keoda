@@ -1,29 +1,5 @@
 {
   "word": {
-    "word-unuT": {
-      "name": "unu",
-      "type": "word",
-      "noun": "tree",
-      "see": [
-        "word-unu"
-      ],
-      "pos": "cowgirl",
-      "id": "word-unuT",
-      "desc": "The position means \"tree-like\" because the legs are like roots and the torso, arms and hair represent the trunk and branches.",
-      "forcedGlo": false,
-      "glo": "**tree**",
-      "cla": "noun",
-      "fulltext": "unu",
-      "writ": "ఉను",
-      "phon": "/unu/",
-      "deriv": [
-        "word-unuwi",
-        "word-ununoa",
-        "word-unuma",
-        "word-unurum",
-        "word-unusam"
-      ]
-    },
     "word-.": {
       "name": ".",
       "type": "word",
@@ -3555,7 +3531,7 @@
       "noun": "small sister/tree",
       "etym": [
         "word-du",
-        "word-unu"
+        "word-nu"
       ],
       "see": [
         "word-nonu",
@@ -4694,7 +4670,7 @@
         "word-gu",
         "word-ganek",
         "word-maga",
-        "word-nuga",
+        "word-ganux",
         "word-gasen",
         "word-gaxim"
       ],
@@ -4732,7 +4708,7 @@
         "word-na"
       ],
       "see": [
-        "word-nugu"
+        "word-gunux"
       ],
       "forcedGlo": false,
       "glo": "**earth (Anugraha)**",
@@ -5091,11 +5067,11 @@
       ],
       "see": [
         "word-em",
-        "word-nu",
+        "word-nux",
         "card-ganes",
         "word-gufi"
       ],
-      "desc": "\nTo live, to feel. Empathy to the limits of terror, darkness.\n\nThis might be the most complicated concept of the whole language... Confusion in\nunderstanding this is good. The greater the confusion, the greater the question\nand the closer we are to a \"feeling\" of [gu](word-gu).\n\n[gu](word-gu) can be seen as the unrealized [ga](word-ga). Understanding [gu](word-gu) would mean\nsomething like being dead, all questions answered and it would be very sad.\n\nBut [gu](word-gu) is not just the \"unconscious\" or some similar notion, it also means\n\"experience\" or \"transformation\" or even \"life\".\n\nIn some way, it is the desire for experience, the quest for knowledge more than a\nstate of \"not knowing\".\n\nAnd to complicate things further, the bigger [ga](word-ga) becomes, the bigger\n[gu](word-gu) becomes because they are the same and not the same thing.\n\nWe could also say that [gu](word-gu) is \"the possibility of karma\" and [ga](word-ga) is made\nof \"karma\".\n\nSo why does [nugu](word-nugu) mean \"terror\" ? Because there is a huge potential for\nchaos and instability due to the unrooted nature of [nu](word-nu) and the power of\n[gu](word-gu).\n",
+      "desc": "\nTo live, to feel. Empathy to the limits of terror, darkness.\n\nThis might be the most complicated concept of the whole language... Confusion in\nunderstanding this is good. The greater the confusion, the greater the question\nand the closer we are to a \"feeling\" of [gu](word-gu).\n\n[gu](word-gu) can be seen as the unrealized [ga](word-ga). Understanding [gu](word-gu) would mean\nsomething like being dead, all questions answered and it would be very sad.\n\nBut [gu](word-gu) is not just the \"unconscious\" or some similar notion, it also means\n\"experience\" or \"transformation\" or even \"life\".\n\nIn some way, it is the desire for experience, the quest for knowledge more than a\nstate of \"not knowing\".\n\nAnd to complicate things further, the bigger [ga](word-ga) becomes, the bigger\n[gu](word-gu) becomes because they are the same and not the same thing.\n\nWe could also say that [gu](word-gu) is \"the possibility of karma\" and [ga](word-ga) is made\nof \"karma\".\n\nSo why does [gunux](word-gunux) mean \"terror\" ? Because there is a huge potential for\nchaos and instability due to the unrooted nature of [nux](word-nux) and the power of\n[gu](word-gu).\n",
       "forcedGlo": false,
       "glo": "**darkness, empathy, life**",
       "cla": "noun",
@@ -5109,7 +5085,7 @@
         "word-gufa",
         "word-gufi",
         "word-ga",
-        "word-nugu",
+        "word-gunux",
         "word-gulir",
         "word-lemegu",
         "word-guna",
@@ -5145,25 +5121,25 @@
         "phrase-608"
       ]
     },
-    "word-nugu": {
-      "name": "nugu",
+    "word-gunux": {
+      "name": "gunux",
       "type": "word",
       "noun": "tremendum, illusion\n(Thirodana)",
       "see": [
         "word-gana"
       ],
       "etym": [
-        "word-nu",
-        "word-gu"
+        "word-gu",
+        "word-nux"
       ],
       "desc": "\nLitteraly, the \"immaterial unconscious\"",
       "forcedGlo": false,
       "glo": "**tremendum, illusion\n(Thirodana)**",
       "cla": "noun",
-      "id": "word-nugu",
-      "fulltext": "nugu",
-      "writ": "నుగు",
-      "phon": "/nugu/"
+      "id": "word-gunux",
+      "fulltext": "gunux",
+      "writ": "గునుx",
+      "phon": "/gunux/"
     },
     "word-gulir": {
       "name": "gulir",
@@ -5213,7 +5189,7 @@
         "word-na"
       ],
       "see": [
-        "word-nuga"
+        "word-ganux"
       ],
       "forcedGlo": false,
       "glo": "**dissociation, robot**",
@@ -6343,10 +6319,10 @@
       "name": "jonu",
       "type": "word",
       "noun": "daughter",
-      "desc": "We also use: [unulil](alt-unu-lil) `**feeling, woman, tree**.DIM`",
+      "desc": "We also use: [nulil](alt-nu-lil) `FEM.DIM`",
       "etym": [
         "word-jo",
-        "word-unu"
+        "word-nu"
       ],
       "see": [
         "card-family"
@@ -6430,7 +6406,7 @@
       "img_pos": "100%",
       "etym": [
         "word-jom",
-        "word-unu"
+        "word-nu"
       ],
       "desc": "\n  \n  \n  .\n  \n  .\n\n  .\n\n  .\n\n  .\n\n  .\n  \n  ",
       "forcedGlo": false,
@@ -8456,7 +8432,7 @@
         "word-nena",
         "word-nemna",
         "word-nau",
-        "word-nu",
+        "word-nux",
         "word-orana",
         "word-pana",
         "word-pasuna",
@@ -8875,7 +8851,7 @@
       "noun": "older sister/tree",
       "etym": [
         "word-no",
-        "word-unu"
+        "word-nu"
       ],
       "see": [
         "word-dunu",
@@ -9105,8 +9081,8 @@
         "phrase-554"
       ]
     },
-    "word-nu": {
-      "name": "nu",
+    "word-nux": {
+      "name": "nux",
       "type": "word",
       "noun": "hubris",
       "adj": "arrogance",
@@ -9118,27 +9094,27 @@
         "word-gu",
         "card-nanes"
       ],
-      "desc": "\n[nu](word-nu) is the unrealized [na](word-na).\n\nImmateriality --> Matter\n",
+      "desc": "\n[nux](word-nux) is the unrealized [na](word-na).\n\nImmateriality --> Matter\n",
       "forcedGlo": false,
       "glo": "**hubris**",
       "cla": "noun",
-      "id": "word-nu",
-      "fulltext": "nu",
-      "writ": "ను",
-      "phon": "/nu/",
+      "id": "word-nux",
+      "fulltext": "nux",
+      "writ": "నుx",
+      "phon": "/nux/",
       "deriv": [
-        "word-nugu",
-        "word-nuga",
+        "word-gunux",
+        "word-ganux",
         "word-nuru"
       ]
     },
-    "word-nuga": {
-      "name": "nuga",
+    "word-ganux": {
+      "name": "ganux",
       "type": "word",
       "noun": "psychosis, god-child",
       "etym": [
         "word-ga",
-        "word-nu"
+        "word-nux"
       ],
       "see": [
         "word-guna"
@@ -9146,10 +9122,10 @@
       "forcedGlo": false,
       "glo": "**psychosis, god-child**",
       "cla": "noun",
-      "id": "word-nuga",
-      "fulltext": "nuga",
-      "writ": "నుగా",
-      "phon": "/nuga/"
+      "id": "word-ganux",
+      "fulltext": "ganux",
+      "writ": "గానుx",
+      "phon": "/ganux/"
     },
     "word-nul": {
       "name": "nul",
@@ -9272,7 +9248,7 @@
       "noun": "sister",
       "etym": [
         "word-xim",
-        "word-unu"
+        "word-nu"
       ],
       "see": [
         "card-family"
@@ -9447,7 +9423,7 @@
       "noun": "witch",
       "etym": [
         "word-om",
-        "word-unu"
+        "word-nu"
       ],
       "forcedGlo": false,
       "glo": "**witch**",
@@ -11418,7 +11394,7 @@
       "type": "word",
       "noun": "apophenia",
       "etym": [
-        "word-nu",
+        "word-nux",
         "word-ru"
       ],
       "see": [
@@ -12150,7 +12126,7 @@
       "type": "word",
       "noun": "sisterhood",
       "etym": [
-        "word-unu",
+        "word-nu",
         "word-shim"
       ],
       "forcedGlo": false,
@@ -12522,7 +12498,7 @@
       "name": "pasona",
       "type": "word",
       "noun": "mystery",
-      "desc": "\nThis is the name of the Goddess Lalita (Tripura Sundari, Sati). She is the highest form of the ten aspects of [sona](word-sona) (Parvati).\n\nWith Sadasiva, she is the creator of the 5 Pancha-Krityas ([ru](word-ru)):\n\n* [ru](word-ru) Sristi or creation\n* [gi](word-gi) Sthithi or protection\n* [ne](word-ne) Samhara or destruction\n* [nugu](word-nugu) Thirodhana or concealment of the world in Maya\n* [gana](word-gana) Anugraha or final liberation\n",
+      "desc": "\nThis is the name of the Goddess Lalita (Tripura Sundari, Sati). She is the highest form of the ten aspects of [sona](word-sona) (Parvati).\n\nWith Sadasiva, she is the creator of the 5 Pancha-Krityas ([ru](word-ru)):\n\n* [ru](word-ru) Sristi or creation\n* [gi](word-gi) Sthithi or protection\n* [ne](word-ne) Samhara or destruction\n* [gunux](word-gunux) Thirodhana or concealment of the world in Maya\n* [gana](word-gana) Anugraha or final liberation\n",
       "see": [
         "card-ganes"
       ],
@@ -12971,7 +12947,7 @@
       "cla": "noun",
       "etym": [
         "word-tha",
-        "word-unu"
+        "word-nu"
       ],
       "see": [
         "card-family"
@@ -13306,7 +13282,7 @@
       "noun": "crone",
       "etym": [
         "word-ya",
-        "word-unu"
+        "word-nu"
       ],
       "forcedGlo": false,
       "glo": "**crone**",
@@ -13321,7 +13297,7 @@
       "type": "word",
       "noun": "she",
       "etym": [
-        "alt-ta-unu"
+        "alt-ta-nu"
       ],
       "forcedGlo": false,
       "glo": "**she**",
@@ -13336,7 +13312,7 @@
       "type": "word",
       "noun": "medusa",
       "etym": [
-        "word-unuT",
+        "word-unnu",
         "word-awi"
       ],
       "forcedGlo": false,
@@ -13352,7 +13328,7 @@
       "type": "word",
       "noun": "bark",
       "etym": [
-        "word-unuT",
+        "word-unnu",
         "word-noa"
       ],
       "see": [
@@ -13371,7 +13347,7 @@
       "type": "word",
       "noun": "leaf",
       "etym": [
-        "word-unuT",
+        "word-unnu",
         "word-ma"
       ],
       "see": [
@@ -13394,7 +13370,7 @@
       "type": "word",
       "noun": "branch",
       "etym": [
-        "word-unuT",
+        "word-unnu",
         "word-rum"
       ],
       "see": [
@@ -13413,7 +13389,7 @@
       "type": "word",
       "noun": "root",
       "etym": [
-        "word-unuT",
+        "word-unnu",
         "word-sam"
       ],
       "see": [
@@ -13433,7 +13409,7 @@
       "noun": "oak",
       "img": "https://upload.wikimedia.org/wikipedia/commons/a/af/Quercus_robur.jpg",
       "see": [
-        "word-unuT"
+        "word-unnu"
       ],
       "forcedGlo": false,
       "glo": "**oak**",
@@ -16232,7 +16208,7 @@
         "word-lamu",
         "word-liu",
         "word-mu",
-        "word-nu",
+        "word-nux",
         "word-odu",
         "word-piu",
         "word-samu",
@@ -16303,25 +16279,22 @@
         "phrase-708"
       ]
     },
-    "word-unu": {
-      "name": "unu",
+    "word-nu": {
+      "name": "nu",
       "type": "word",
       "noun": "feeling, woman, tree",
       "adj": "feminine",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/032_Waterside_Tree%2C_Kolam_Telagorajo_%2827349860049%29.jpg/330px-032_Waterside_Tree%2C_Kolam_Telagorajo_%2827349860049%29.jpg",
+      "glo": "FEM",
       "see": [
-        "word-unuT",
-        "card-subj",
-        "card-plants"
+        "card-subj"
       ],
       "suff": "feeling, woman, tree",
-      "forcedGlo": false,
-      "glo": "**feeling, woman, tree**",
+      "forcedGlo": true,
       "cla": "noun",
-      "id": "word-unu",
-      "fulltext": "unu",
-      "writ": "ఉను",
-      "phon": "/unu/",
+      "id": "word-nu",
+      "fulltext": "nu",
+      "writ": "ను",
+      "phon": "/nu/",
       "deriv": [
         "word-dunu",
         "word-jonu",
@@ -16358,6 +16331,49 @@
         "phrase-582",
         "phrase-603",
         "phrase-708"
+      ]
+    },
+    "word-unu": {
+      "name": "unu",
+      "type": "word",
+      "noun": "woman, tree",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/032_Waterside_Tree%2C_Kolam_Telagorajo_%2827349860049%29.jpg/330px-032_Waterside_Tree%2C_Kolam_Telagorajo_%2827349860049%29.jpg",
+      "see": [
+        "word-unnu",
+        "word-oto",
+        "word-iwi"
+      ],
+      "forcedGlo": false,
+      "glo": "**woman, tree**",
+      "cla": "noun",
+      "id": "word-unu",
+      "fulltext": "unu",
+      "writ": "ఉను",
+      "phon": "/unu/"
+    },
+    "word-unnu": {
+      "name": "unnu",
+      "type": "word",
+      "noun": "tree",
+      "see": [
+        "word-unu",
+        "card-plants"
+      ],
+      "pos": "cowgirl",
+      "desc": "The position means \"tree-like\" because the legs are like roots and the torso, arms and hair represent the trunk and branches.",
+      "forcedGlo": false,
+      "glo": "**tree**",
+      "cla": "noun",
+      "id": "word-unnu",
+      "fulltext": "unnu",
+      "writ": "ఉnను",
+      "phon": "/unnu/",
+      "deriv": [
+        "word-unuwi",
+        "word-ununoa",
+        "word-unuma",
+        "word-unurum",
+        "word-unusam"
       ]
     },
     "word-wu": {
@@ -16528,7 +16544,7 @@
       "writ": "conrad",
       "phon": "",
       "def": "",
-      "desc": "\n# Klaus Conrad (1905-1961)\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2800156/\n\nBecause I am a dreamer and I use working on zulapa as a way to try and\nclarify the relation between reality and myth, between the pragmatic and the\npoetic, I have created quite some words to help in this process, notably\n[nuru](word-nuru) (apophenia) and [guru](word-guru) (trema) which are directly inspired by Klaus\nConrad's study of the early stages of schizophrenia (prodromal and early\npsychotic phase).\n\n## Trema [guru](word-guru)\n\nThis is a stage where the person does not yet have delusions, but \"feels\" that something\nis off and is happening. There is no explanation for the feeling but everything seems to\nconspire (against) the person. Because of the feeling of anxious expectation, this\nstage is also called \"stage fright\".\n\nIn zulapa, [guru](word-guru) litterally means \"the emergence of the darkness\" and evokes the\narrival of terror ([nugu](word-nugu)).\n\n## Aphophenia [nuru](word-nuru)\n\nThis stage arrives to help with the previous one by relieving the tension of the\nunknown by creating delusions through finding unsound pattern and meaning out of\nrandom events.\n\nIf the first stage is perceptions and affect gone wild\n\nSee also: [ganes](card-ganes)\n",
+      "desc": "\n# Klaus Conrad (1905-1961)\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2800156/\n\nBecause I am a dreamer and I use working on zulapa as a way to try and\nclarify the relation between reality and myth, between the pragmatic and the\npoetic, I have created quite some words to help in this process, notably\n[nuru](word-nuru) (apophenia) and [guru](word-guru) (trema) which are directly inspired by Klaus\nConrad's study of the early stages of schizophrenia (prodromal and early\npsychotic phase).\n\n## Trema [guru](word-guru)\n\nThis is a stage where the person does not yet have delusions, but \"feels\" that something\nis off and is happening. There is no explanation for the feeling but everything seems to\nconspire (against) the person. Because of the feeling of anxious expectation, this\nstage is also called \"stage fright\".\n\nIn zulapa, [guru](word-guru) litterally means \"the emergence of the darkness\" and evokes the\narrival of terror ([gunux](word-gunux)).\n\n## Aphophenia [nuru](word-nuru)\n\nThis stage arrives to help with the previous one by relieving the tension of the\nunknown by creating delusions through finding unsound pattern and meaning out of\nrandom events.\n\nIf the first stage is perceptions and affect gone wild\n\nSee also: [ganes](card-ganes)\n",
       "id": "card-conrad",
       "fulltext": "conrad"
     },
@@ -16555,7 +16571,7 @@
       "type": "card",
       "writ": "family",
       "phon": "",
-      "desc": "\n# Parents and siblings\n\nTo understand family, you need to have a 3D view of space in the language.\nImagine that you are looking forward. You have the spatial directions as\nfollow (yes it looks like a person looking south \"sud\").\n\n|          | front   |        |\n| :-:      | :-:     | :-:    |\n|          | [du](word-du) |        |\n| [se](word-se)  |  🥰     | [we](word-we) |\n|          | [no](word-no) |        |\n|          | back    |        |\n\nOn a vertical plane:\n\n| up / far |\n| :-:     |\n| [tha](word-tha) |\n|    🥰    |\n| [jo](word-jo) |\n| down / close |\n\nImagine your family standing around you:\n\n* In front of you, your younger siblings [duda](word-duda).\n* Behind you, your elder siblings [noda](word-noda)\n* On the sides your friends [adu](word-adu)\n\nOn the vertical plane:\n\n* Above you, your parents: [thada](word-thada)\n* Below you, your children: [joda](word-joda)\n\nAnd now all these terms can be cased with one of the three genders:\n\n* [iwi](word-iwi) (bird)\n* [unu](word-unu) (tree)\n* [oto](word-oto) (wind)\n\n## [xida](word-xida) (siblings)\n\n|           | [unu](word-unu) | [iwi](word-iwi) | [oto](word-oto) |\n| :----     | :------: | :------: | :-------: |\n| [duda](word-duda) | [dunu](word-dunu)| [duwi](word-duwi)| [duto](word-duto) |\n| [xida](word-xida) | [xinu](word-xinu)| [xiwi](word-xiwi)| [xito](word-xito) |\n| [noda](word-noda) | [nonu](word-nonu)| [nowi](word-nowi)| [noto](word-noto) |\n\nIf you just need quick terms (without the notion of being\nyounger or elderly):\n\n* [xinu](word-xinu) (sister)\n* [xiwi](word-xiwi) (enby sibling)\n* [xito](word-xito) (brother)\n\n## [thada](word-thada) (parent) / [joda](word-joda) (child)\n\n|           | [unu](word-unu)  | [iwi](word-iwi)  | [oto](word-oto)  |\n| :----     | :------:  | :------:  | :-------: |\n| [thada](word-thada) | [thanu](word-thanu) | [thawi](word-thawi) | [thato](word-thato) |\n| [joda](word-joda) | [jonu](word-jonu) | [jowi](word-jowi) | [joto](word-joto) |\n\n## And mom and dad\n\n* [mama](word-mama) (mum)\n* [baba](word-baba) (dad)\n",
+      "desc": "\n# Parents and siblings\n\nTo understand family, you need to have a 3D view of space in the language.\nImagine that you are looking forward. You have the spatial directions as\nfollow (yes it looks like a person looking south \"sud\").\n\n|          | front   |        |\n| :-:      | :-:     | :-:    |\n|          | [du](word-du) |        |\n| [se](word-se)  |  🥰     | [we](word-we) |\n|          | [no](word-no) |        |\n|          | back    |        |\n\nOn a vertical plane:\n\n| up / far |\n| :-:     |\n| [tha](word-tha) |\n|    🥰    |\n| [jo](word-jo) |\n| down / close |\n\nImagine your family standing around you:\n\n* In front of you, your younger siblings [duda](word-duda).\n* Behind you, your elder siblings [noda](word-noda)\n* On the sides your friends [adu](word-adu)\n\nOn the vertical plane:\n\n* Above you, your parents: [thada](word-thada)\n* Below you, your children: [joda](word-joda)\n\nAnd now all these terms can be cased with one of the three genders:\n\n* [iwi](word-iwi) (bird)\n* [nu](word-nu) (tree)\n* [oto](word-oto) (wind)\n\n## [xida](word-xida) (siblings)\n\n|           | [nu](word-nu) | [iwi](word-iwi) | [oto](word-oto) |\n| :----     | :------: | :------: | :-------: |\n| [duda](word-duda) | [dunu](word-dunu)| [duwi](word-duwi)| [duto](word-duto) |\n| [xida](word-xida) | [xinu](word-xinu)| [xiwi](word-xiwi)| [xito](word-xito) |\n| [noda](word-noda) | [nonu](word-nonu)| [nowi](word-nowi)| [noto](word-noto) |\n\nIf you just need quick terms (without the notion of being\nyounger or elderly):\n\n* [xinu](word-xinu) (sister)\n* [xiwi](word-xiwi) (enby sibling)\n* [xito](word-xito) (brother)\n\n## [thada](word-thada) (parent) / [joda](word-joda) (child)\n\n|           | [nu](word-nu)  | [iwi](word-iwi)  | [oto](word-oto)  |\n| :----     | :------:  | :------:  | :-------: |\n| [thada](word-thada) | [thanu](word-thanu) | [thawi](word-thawi) | [thato](word-thato) |\n| [joda](word-joda) | [jonu](word-jonu) | [jowi](word-jowi) | [joto](word-joto) |\n\n## And mom and dad\n\n* [mama](word-mama) (mum)\n* [baba](word-baba) (dad)\n",
       "id": "card-family",
       "fulltext": "family"
     },
@@ -16601,7 +16617,7 @@
         "word-nepa",
         "card-count"
       ],
-      "desc": "\nThis theme is part of [gana](word-gana) mythology and world-view.\n\n# The scale [ga](word-ga)\n\nThese states correspond to increasing intensity of [ga](word-ga) and if they are\nnot balanced by increasing practicality and material humility [na](word-na),\nthey are just other names for hubris or psychosis or just craziness ([maga](word-maga)).\n\nHere is a map of the relation between [gu](word-gu), [ga](word-ga), [nu](word-nu) and [na](word-na).\n\n~~~\nga                 gana\n                  /\n                /\n              /\nganes       /\n          /\n        /\ngu    /\n    /\nnugu  nu    nanes    na\n~~~\n\nThe `/` diagonal between [nugu](word-nugu) and [gana](word-gana) represent **integration**. Distances\nfrom this diagonal represent some level of psychosis (above) or dissociation\n(below).\n\nAs you can see, the only way to escape the terror of [nugu](word-nugu) is to reach\n[gana](word-gana) (earth), not [guna](word-guna) (dissociation, robot) nor [nuga](word-nuga) (psychosis, god-child).\n\nIn reality, [nugu](word-nugu) and [gana](word-gana) are folded together and are the same\nthing. The growth of the spirit is just a way to come back to the childhood\nof the spirit. It is the same but it is not the same, like looking at\nyour loved one with or without alzheimer. The loved one is the same but\nthe experience is not.\n\n## The euphoric states\n\nThese need to be balanced with their equivalent [nanes](card-nanes) states.\n\n* 10 [jipa](word-jipa) (remembering being god.des) <=> [jifi](word-jifi) (humble)\n* 9 [dapa](word-dapa) (joy) <=> [dafi](word-dafi) (serving)\n* 8 [jepa](word-jepa) (belonging) <=> [jefi](word-jefi) (caring)\n* 7 [fepa](word-fepa) (pride) <=> [fefi](word-fefi) (adapting)\n* 6 [shipa](word-shipa) (believing) <=> [shifi](word-shifi) (learning)\n\n## The \"territorial\" states.\n\nFrom here, the states are more difficult. These states are shared on both\n[ganes](card-ganes) and [nanes](card-nanes) scales.\n\n* 5 [nelil](word-nelil) (confusion/insecure)\n* 4 [neqa](word-neqa) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n",
+      "desc": "\nThis theme is part of [gana](word-gana) mythology and world-view.\n\n# The scale [ga](word-ga)\n\nThese states correspond to increasing intensity of [ga](word-ga) and if they are\nnot balanced by increasing practicality and material humility [na](word-na),\nthey are just other names for hubris or psychosis or just craziness ([maga](word-maga)).\n\nHere is a map of the relation between [gu](word-gu), [ga](word-ga), [nux](word-nux) and [na](word-na).\n\n~~~\nga                 gana\n                  /\n                /\n              /\nganes       /\n          /\n        /\ngu    /\n    /\nnugu  nu    nanes    na\n~~~\n\nThe `/` diagonal between [gunux](word-gunux) and [gana](word-gana) represent **integration**. Distances\nfrom this diagonal represent some level of psychosis (above) or dissociation\n(below).\n\nAs you can see, the only way to escape the terror of [gunux](word-gunux) is to reach\n[gana](word-gana) (earth), not [guna](word-guna) (dissociation, robot) nor [ganux](word-ganux) (psychosis, god-child).\n\nIn reality, [gunux](word-gunux) and [gana](word-gana) are folded together and are the same\nthing. The growth of the spirit is just a way to come back to the childhood\nof the spirit. It is the same but it is not the same, like looking at\nyour loved one with or without alzheimer. The loved one is the same but\nthe experience is not.\n\n## The euphoric states\n\nThese need to be balanced with their equivalent [nanes](card-nanes) states.\n\n* 10 [jipa](word-jipa) (remembering being god.des) <=> [jifi](word-jifi) (humble)\n* 9 [dapa](word-dapa) (joy) <=> [dafi](word-dafi) (serving)\n* 8 [jepa](word-jepa) (belonging) <=> [jefi](word-jefi) (caring)\n* 7 [fepa](word-fepa) (pride) <=> [fefi](word-fefi) (adapting)\n* 6 [shipa](word-shipa) (believing) <=> [shifi](word-shifi) (learning)\n\n## The \"territorial\" states.\n\nFrom here, the states are more difficult. These states are shared on both\n[ganes](card-ganes) and [nanes](card-nanes) scales.\n\n* 5 [nelil](word-nelil) (confusion/insecure)\n* 4 [neqa](word-neqa) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n",
       "id": "card-ganes",
       "fulltext": "ganes"
     },
@@ -16664,7 +16680,7 @@
         "card-ganes",
         "card-count"
       ],
-      "desc": "\n# The scale of mastering [na](word-na)\n\nThese states correspond to increasing levels of humility and practicality\nwithin [na](word-na), the material, practical world. If these increasing levels\nof mastery are not balanced by [ga](word-ga), they are just other names for the\nmachine.\n\nSee [ganes](card-ganes) for some explanation on the relation between [ga](word-ga), [na](word-na),\n[gu](word-gu) and [nu](word-nu).\n\n## The \"flowing\" states\n\nThese are the difficult (pragmatic) states that need to be cultivated to\nbalance their equivalent [ganes](card-ganes) (poetic) states.\n\nOn their own they can feel dreadful if not enlightenend by some purpose given\nby the poetic states. Balancing serves both ways.\n\n* 10 [jifi](word-jifi) (humble) <=> [jipa](word-jipa) (remembering being god.dess)\n* 9 [dafi](word-dafi) (serving) <=> [dapa](word-dapa) (joy)\n* 8 [jefi](word-jefi) (caring) <=> [jepa](word-jepa) (belonging)\n* 7 [fefi](word-fefi) (adapting) <=> [fepa](word-fepa) (pride)\n* 6 [shifi](word-shifi) (learning) <=> [shipa](word-shipa) (believing)\n\n## The \"territorial\" states\n\nThese states are the same as the ones on the spirit scale [ganes](card-ganes).\n\n* 5 [nelil](word-nelil) (confusion/insecure)\n* 4 [neqa](word-neqa) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n",
+      "desc": "\n# The scale of mastering [na](word-na)\n\nThese states correspond to increasing levels of humility and practicality\nwithin [na](word-na), the material, practical world. If these increasing levels\nof mastery are not balanced by [ga](word-ga), they are just other names for the\nmachine.\n\nSee [ganes](card-ganes) for some explanation on the relation between [ga](word-ga), [na](word-na),\n[gu](word-gu) and [nux](word-nux).\n\n## The \"flowing\" states\n\nThese are the difficult (pragmatic) states that need to be cultivated to\nbalance their equivalent [ganes](card-ganes) (poetic) states.\n\nOn their own they can feel dreadful if not enlightenend by some purpose given\nby the poetic states. Balancing serves both ways.\n\n* 10 [jifi](word-jifi) (humble) <=> [jipa](word-jipa) (remembering being god.dess)\n* 9 [dafi](word-dafi) (serving) <=> [dapa](word-dapa) (joy)\n* 8 [jefi](word-jefi) (caring) <=> [jepa](word-jepa) (belonging)\n* 7 [fefi](word-fefi) (adapting) <=> [fepa](word-fepa) (pride)\n* 6 [shifi](word-shifi) (learning) <=> [shipa](word-shipa) (believing)\n\n## The \"territorial\" states\n\nThese states are the same as the ones on the spirit scale [ganes](card-ganes).\n\n* 5 [nelil](word-nelil) (confusion/insecure)\n* 4 [neqa](word-neqa) (shame/restless)\n* 3 [nepe](word-nepe) (limbo/offensive)\n* 2 [nede](word-nede) (anguish/fighting)\n\n## And this is hell\n\n* 1 [nepi](word-nepi) (division/fragmented)\n",
       "id": "card-nanes",
       "fulltext": "nanes",
       "phrases": [
@@ -16703,7 +16719,7 @@
       "type": "card",
       "writ": "phon",
       "phon": "/fɔn/",
-      "desc": "\n## Phonology and script\n\n![lepakshi](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Lepakshi...jpg/330px-Lepakshi...jpg)\n\nUsing [telugu script](https://en.wikipedia.org/wiki/Telugu_script) because it\nis an *abugida*, the sounds match nearly perfectly and... it looks so good\nand curvy.\n\n## Consonants\n\n|                 | Labial     | Coronal         | Dorsal       |\n| :-------------: | :--------: | :-------------: | :----------: |\n| **Nasal**       | m మ       | n న             |              |\n| **Plosive**     | p ప / b బ | t త / d ద  | k క / g గ  • q |\n| **Fricative**   | f చ       | θ థ • s స / z ఠ • ʃ శ / ʒ జ | x |\n| **Approximant** | ʋ  వ      |                 | j య         |\n| **Trill**       |            | r ర             |              |\n| **Lateral**     |            | l ల             |              |\n\nAll sounds correspond to [Telugu](https://en.wikipedia.org/wiki/Telugu_script) except for:\n\n| Symbol | Telugu     | Zulapa     | Example             |\n| :----: | :--------: | :-------: | :--------:          |\n| **చ**  | /tʃ/       | /f/       | [falam](word-falam)        |\n| **ఠ**  | /tʰ/       | /z/       | [zuzu](word-zuzu)          |\n| **జ్‌**  | /dʒ/       | /ʒ/       | [joda](word-joda), [baj](word-baj) |\n| **ఇ‌**  | /aj/       | /j/       | [my](word-my) |\n \n\n## Vowels\n\n|                 | Front      | Central         | Back         |\n| :-------------  | :--------: | :-------------: | :----------: |\n| **Close**       | i  ి  ఇ   |                 | u   ు  ఉ   |\n| **Mid**         | ɛ  ే  ఎ   |                 | ɔ   ో  ఓ    |\n| **Open**        | a  ా  అ  |                 |              |\n \n\n## Semivowel\n\n|                 | As vowel   | As consonant    |\n| :-------------  | :--------: | :-------------: |\n| **Palatal**     | j  ై ఇ    |  య             |\n\n## Stress\n\nStress on penultimate syllable before suffix.\n\nkeOda, lamigOa, agUwu, afOliri\n\n## Phonotactics\n\n### Consonant cluster\n\nTwo consonants are allowed to join, except for:\n\n* t - th\n* l - r\n* k - q\n\n| cluster | sound | example |\n| :--: | :--: | :-- |\n| tth  | /tθ/ | [145](phrase-145) |\n| lr | /lr/ | [146](phrase-146) |\n| kq | /kq/ | [147](phrase-147) |\n\nRandom examples of consonant clusters (to train speaking):\n\n| ll   | /ll/ | [148](phrase-148) |\n| sk   | /sk/ | [149](phrase-149) |\n| sq   | /sq/ | [150](phrase-150) |\n| st  | /st/ | [151](phrase-151) |\n| tht  | /θt/ | [152](phrase-152) |\n| shk  | /ʃk/ | [153](phrase-153) |\n| shq  | /ʃq/ | [154](phrase-154) |\n| sht  | /ʃt/ | [155](phrase-155) |\n| kt  | /kt/ | [156](phrase-156) |\n| nt  | /nt/ | [157](phrase-157) |\n| ms  | /ms/ | [158](phrase-158) |\n| pp  | /pp/ | [159](phrase-159) |\n| pt  | /pt/ | [160](phrase-160) |\n\n### Vowel cluster\n\nVowel clusters are allowed in roots and when connecting moods. Example:\n\n[161](phrase-161).\n\nFor other cases, we use `h` when joining a prefix, `n` to join /y/ and `l` when joining a\nsuffix:\n\n[162](phrase-162).\n\n[163](phrase-163).\n\nWords sometimes drop the last vowel when adding a suffix that starts with a\nvowel instead of adding `h` or `l`.\n\nFew words end in [m](word-m) because this marker is used for accusative. \n\n## Script\n\nDiphthongs are avoided and should not comme too often in scripts. If they\nare present, they are written as two separate letters: [noa](word-noa).\n\n## Current evolutions\n\n* There is a tendency to use `/zu/` instead of `/au/`.\n* There might be a trend to change `/dʒ/` into `/ʒ/`. \n\nYour next read: [kedana](card-kedana) (geography)\n\n## 2023 Evolution\n\nIt's been a while that I think [zulapa](word-zulapa) sounds too much like french and I\nwanted to explore some changes to the phonetic inventory. Especially now that I\nam reading \"A practical Introduction to Phonetics\" by J. C. Catford, I really\nwant to explore ways to make this language sound a little bit more unique (and\n\"dark\").\n\nSo, in order to do this work properly, I will first list the consonnant inventories\nof some languages that I speak or am interested in: French, German, English, Ukrainian,\nSpanish, Arabic, Indonesian, Xhosa, Hebrew, ...\n\n### French [IPA](https://en.wikipedia.org/wiki/Help:IPA/French) [phonology](https://en.wikipedia.org/wiki/French_phonology)\n\n|                 | Labial         | Coronal         | Dorsal       | Laryngeal |\n| :-------------  | :------------: | :-------------: | :----------: | :-------: |\n| **Nasal**       | m              | n               | ŋ            |           |\n| **Plosive**     | p / b          | t / d           | k / g        |           |\n| **Fricative**   | f / v          | s / z  •  ʃ / ʒ | ʁ            | h         |\n| **Approximant** |                | l               | j  ɥ  w      |           |\n| **Trill**       |                |                 |              |           |\n| **Lateral**     |                |                 |              |           |\n\n### Arabic [IPA](https://en.wikipedia.org/wiki/Help:IPA/Arabic) [phonology](https://en.wikipedia.org/wiki/Arabic_phonology)\n\n|                 | Labial         | Coronal         | Dorsal       | Laryngeal |\n| :-------------  | :------------: | :-------------: | :----------: | :-------: |\n| **Nasal**       | m              | n               |              |           |\n| **Plosive**     | - / b          | t / d           | k / g • q / - | ʔ        |\n| **Fricative**   | f / -          | θ / ð • s / z • ʃ / - |  x / ɣ | ħ / ʕ • h |\n| **Approximant** |                | l               | j w          |           |\n| **Trill**       |                | r               |              |           |\n| **Lateral**     |                |                 |              |           |\n\n### German [IPA](https://en.wikipedia.org/wiki/Help:IPA/German) [phonology](https://en.wikipedia.org/wiki/German_phonology)\n\n|                 | Labial         | Coronal         | Dorsal       | Laryngeal |\n| :-------------  | :------------: | :-------------: | :----------: | :-------: |\n| **Nasal**       | m              | n               | ŋ            |           |\n| **Plosive**     | p / b          |                 | k / g        | (ʔ)       |\n| **Fricative**   | f / v          | s / z • ʃ / - • ç / j | (x)    | h         |\n| **Approximant** |                | l               |              |           |\n| **Trill**       |                | r               |              |           |\n| **Lateral**     |                |                 |              |           |\n\n### Ukrainian [IPA](https://en.wikipedia.org/wiki/Help:IPA/Ukrainian) [phonology](https://en.wikipedia.org/wiki/Ukrainian_phonology)\n\n(TODO)\n\n|                 | Labial         | Coronal         | Dorsal       | Laryngeal |\n| :-------------  | :------------: | :-------------: | :----------: | :-------: |\n| **Nasal**       | m              | n               | ŋ            |           |\n| **Plosive**     | p / b          |                 | k / g        | (ʔ)       |\n| **Fricative**   | f / v          | s / z • ʃ / - • ç / j | (x)    | h         |\n| **Approximant** |                | l               |              |           |\n| **Trill**       |                | r               |              |           |\n| **Lateral**     |                |                 |              |           |\n\n### English [IPA](https://en.wikipedia.org/wiki/Help:IPA/English) [phonology](https://en.wikipedia.org/wiki/English_phonology)\n\n(TODO)\n\n|                 | Labial         | Coronal         | Dorsal       | Laryngeal |\n| :-------------  | :------------: | :-------------: | :----------: | :-------: |\n| **Nasal**       | m              | n               | ŋ            |           |\n| **Plosive**     | p / b          |                 | k / g        | (ʔ)       |\n| **Fricative**   | f / v          | s / z • ʃ / - • ç / j | (x)    | h         |\n| **Approximant** |                | l               |              |           |\n| **Trill**       |                | r               |              |           |\n| **Lateral**     |                |                 |              |           |\n",
+      "desc": "\n## Phonology and script\n\n![lepakshi](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Lepakshi...jpg/330px-Lepakshi...jpg)\n\nUsing [telugu script](https://en.wikipedia.org/wiki/Telugu_script) because it\nis an *abugida*, the sounds match nearly perfectly and... it looks so good\nand curvy.\n\n## Consonants\n\n|                 | Labial     | Coronal         | Dorsal       |\n| :-------------: | :--------: | :-------------: | :----------: |\n| **Nasal**       | m మ       | n న             |              |\n| **Plosive**     | p ప / b బ | t త / d ద  | k క / g గ  • q |\n| **Fricative**   | f చ       | θ థ • s స / z ఠ • ʃ శ / ʒ జ | x |\n| **Approximant** | ʋ  వ      |                 | j య         |\n| **Trill**       |            | r ర             |              |\n| **Lateral**     |            | l ల             |              |\n\nAll sounds correspond to [Telugu](https://en.wikipedia.org/wiki/Telugu_script) except for:\n\n| Symbol | Telugu     | Zulapa     | Example             |\n| :----: | :--------: | :-------: | :--------:          |\n| **చ**  | /tʃ/       | /f/       | [falam](word-falam)        |\n| **ఠ**  | /tʰ/       | /z/       | [zuzu](word-zuzu)          |\n| **జ్‌**  | /dʒ/       | /ʒ/       | [joda](word-joda), [baj](word-baj) |\n| **ఇ‌**  | /aj/       | /j/       | [my](word-my) |\n \n\n## Vowels\n\n|                 | Front      | Central         | Back         |\n| :-------------  | :--------: | :-------------: | :----------: |\n| **Close**       | i  ి  ఇ   |                 | u   ు  ఉ   |\n| **Mid**         | ɛ  ే  ఎ   |                 | ɔ   ో  ఓ    |\n| **Open**        | a  ా  అ  |                 |              |\n \n\n## Semivowel\n\n|                 | As vowel   | As consonant    |\n| :-------------  | :--------: | :-------------: |\n| **Palatal**     | j  ై ఇ    |  య             |\n\n## Stress\n\nStress on penultimate syllable before suffix.\n\nkeOda, lamigOa, agUwu, afOliri\n\n## Phonotactics\n\n### Consonant cluster\n\nTwo consonants are allowed to join, except for:\n\n* t - th\n* l - r\n* k - q\n* x - [pbkg]\n\n| cluster | sound | example |\n| :--: | :--: | :-- |\n| tth  | /tθ/ | [145](phrase-145) |\n| lr | /lr/ | [146](phrase-146) |\n| kq | /kq/ | [147](phrase-147) |\n\nRandom examples of consonant clusters (to train speaking):\n\n| ll   | /ll/ | [148](phrase-148) |\n| sk   | /sk/ | [149](phrase-149) |\n| sq   | /sq/ | [150](phrase-150) |\n| st  | /st/ | [151](phrase-151) |\n| tht  | /θt/ | [152](phrase-152) |\n| shk  | /ʃk/ | [153](phrase-153) |\n| shq  | /ʃq/ | [154](phrase-154) |\n| sht  | /ʃt/ | [155](phrase-155) |\n| kt  | /kt/ | [156](phrase-156) |\n| nt  | /nt/ | [157](phrase-157) |\n| ms  | /ms/ | [158](phrase-158) |\n| pp  | /pp/ | [159](phrase-159) |\n| pt  | /pt/ | [160](phrase-160) |\n\n### Vowel cluster\n\nVowel clusters are allowed in roots and when connecting moods. Example:\n\n[161](phrase-161).\n\nFor other cases, we use `h` when joining a prefix, `n` to join /y/ and `l` when joining a\nsuffix:\n\n[162](phrase-162).\n\n[163](phrase-163).\n\nWords sometimes drop the last vowel when adding a suffix that starts with a\nvowel instead of adding `h` or `l`.\n\nFew words end in [m](word-m) because this marker is used for accusative. \n\n## Script\n\nDiphthongs are avoided and should not comme too often in scripts. If they\nare present, they are written as two separate letters: [noa](word-noa).\n\n## Current evolutions\n\n* There is a tendency to use `/zu/` instead of `/au/`.\n* There might be a trend to change `/dʒ/` into `/ʒ/`. \n\nYour next read: [kedana](card-kedana) (geography)\n\n## 2023 Evolution\n\nIt's been a while that I think [zulapa](word-zulapa) sounds too much like french and I\nwanted to explore some changes to the phonetic inventory. Especially now that I\nam reading \"A practical Introduction to Phonetics\" by J. C. Catford, I really\nwant to explore ways to make this language sound a little bit more unique (and\n\"dark\").\n\nSo, in order to do this work properly, I will first list the consonnant inventories\nof some languages that I speak or am interested in: French, German, English, Ukrainian,\nSpanish, Arabic, Indonesian, Xhosa, Hebrew, ...\n\n### French [IPA](https://en.wikipedia.org/wiki/Help:IPA/French) [phonology](https://en.wikipedia.org/wiki/French_phonology)\n\n|                 | Labial         | Coronal         | Dorsal       | Laryngeal |\n| :-------------  | :------------: | :-------------: | :----------: | :-------: |\n| **Nasal**       | m              | n               | ŋ            |           |\n| **Plosive**     | p / b          | t / d           | k / g        |           |\n| **Fricative**   | f / v          | s / z  •  ʃ / ʒ | ʁ            | h         |\n| **Approximant** |                | l               | j  ɥ  w      |           |\n| **Trill**       |                |                 |              |           |\n| **Lateral**     |                |                 |              |           |\n\n### Arabic [IPA](https://en.wikipedia.org/wiki/Help:IPA/Arabic) [phonology](https://en.wikipedia.org/wiki/Arabic_phonology)\n\n|                 | Labial         | Coronal         | Dorsal       | Laryngeal |\n| :-------------  | :------------: | :-------------: | :----------: | :-------: |\n| **Nasal**       | m              | n               |              |           |\n| **Plosive**     | - / b          | t / d           | k / g • q / - | ʔ        |\n| **Fricative**   | f / -          | θ / ð • s / z • ʃ / - |  x / ɣ | ħ / ʕ • h |\n| **Approximant** |                | l               | j w          |           |\n| **Trill**       |                | r               |              |           |\n| **Lateral**     |                |                 |              |           |\n\n### German [IPA](https://en.wikipedia.org/wiki/Help:IPA/German) [phonology](https://en.wikipedia.org/wiki/German_phonology)\n\n|                 | Labial         | Coronal         | Dorsal       | Laryngeal |\n| :-------------  | :------------: | :-------------: | :----------: | :-------: |\n| **Nasal**       | m              | n               | ŋ            |           |\n| **Plosive**     | p / b          |                 | k / g        | (ʔ)       |\n| **Fricative**   | f / v          | s / z • ʃ / - • ç / j | (x)    | h         |\n| **Approximant** |                | l               |              |           |\n| **Trill**       |                | r               |              |           |\n| **Lateral**     |                |                 |              |           |\n\n### Ukrainian [IPA](https://en.wikipedia.org/wiki/Help:IPA/Ukrainian) [phonology](https://en.wikipedia.org/wiki/Ukrainian_phonology)\n\n(TODO)\n\n|                 | Labial         | Coronal         | Dorsal       | Laryngeal |\n| :-------------  | :------------: | :-------------: | :----------: | :-------: |\n| **Nasal**       | m              | n               | ŋ            |           |\n| **Plosive**     | p / b          |                 | k / g        | (ʔ)       |\n| **Fricative**   | f / v          | s / z • ʃ / - • ç / j | (x)    | h         |\n| **Approximant** |                | l               |              |           |\n| **Trill**       |                | r               |              |           |\n| **Lateral**     |                |                 |              |           |\n\n### English [IPA](https://en.wikipedia.org/wiki/Help:IPA/English) [phonology](https://en.wikipedia.org/wiki/English_phonology)\n\n(TODO)\n\n|                 | Labial         | Coronal         | Dorsal       | Laryngeal |\n| :-------------  | :------------: | :-------------: | :----------: | :-------: |\n| **Nasal**       | m              | n               | ŋ            |           |\n| **Plosive**     | p / b          |                 | k / g        | (ʔ)       |\n| **Fricative**   | f / v          | s / z • ʃ / - • ç / j | (x)    | h         |\n| **Approximant** |                | l               |              |           |\n| **Trill**       |                | r               |              |           |\n| **Lateral**     |                |                 |              |           |\n",
       "id": "card-phon",
       "fulltext": "phon"
     },
@@ -16712,7 +16728,7 @@
       "type": "card",
       "writ": "plants",
       "phon": "",
-      "desc": "\n# Plants\n\nThe word for \"plant\" is [ina](word-ina), the caressing thing. Note that not all\nplants have the [ina](word-ina) suffix.\n\nSee also [food](card-food), [fruits](card-fruits) and [seasons](card-seasons).\n\nThis is the list of words related to plants currently in the language:\n\n* [doth](word-doth) (beans)\n* [bisahina](word-bisahina) (fern)\n* [unu](word-unuT) (tree)\n* [ununoa](word-ununoa) (bark)\n* [unuma](word-unuma) (leaf)\n* [unurum](word-unurum) (branch)\n* [unusam](word-unusam) (root)\n* [buni](word-buni) (bud)\n* [soaji](word-soaji) (grass)\n\n## Specific plant names\n\n* [okunu](word-okunu) (oak)\n\n",
+      "desc": "\n# Plants\n\nThe word for \"plant\" is [ina](word-ina), the caressing thing. Note that not all\nplants have the [ina](word-ina) suffix.\n\nSee also [food](card-food), [fruits](card-fruits) and [seasons](card-seasons).\n\nThis is the list of words related to plants currently in the language:\n\n* [doth](word-doth) (beans)\n* [bisahina](word-bisahina) (fern)\n* [unnu](word-unnu) (tree)\n* [ununoa](word-ununoa) (bark)\n* [unuma](word-unuma) (leaf)\n* [unurum](word-unurum) (branch)\n* [unusam](word-unusam) (root)\n* [buni](word-buni) (bud)\n* [soaji](word-soaji) (grass)\n\n## Specific plant names\n\n* [okunu](word-okunu) (oak)\n\n",
       "id": "card-plants",
       "fulltext": "plants"
     },
@@ -16766,7 +16782,7 @@
       "type": "card",
       "writ": "subj",
       "phon": "",
-      "desc": "\n# Subject and possessivity\n\nThe following morphemes express people (you, me, them), possessivity (my,\nyour, their) or verb conjugation depending on how the morpheme is\nagglutinated (or not).\n\n## Verbs\n\nTo transform a noun into a verb, the morpheme representing the subject is\nprefixed on the noun as-is or with an /h/ to fix double vowels. Example:\n\n* [imilema](alt-i-mi-ema)\n\nDetails on verbs here: [verbs](card-verbs).\n\n## Possessivity\n\nTo mark possessivity, the morpheme is prefixed or suffixed to the noun and a\n/t/ is added. Double consonant is fixed with an /a/. Examples:\n\n* [tima](alt-ti-ma)\n* [mati](alt-ma-ti)\n\nThe choice between prefix or suffix depends on context and what sounds best.\nThe difference is a bit like saying \"your hand\" or \"hand of you\". This lets\nput emphasis where we want, like dropping the [tim](alt-ti-m) of [noatim](alt-noa-ti-m) gently\nafter a small pause to express kindness or awe.\n\n## Person\n\nDepending on context we can chose between different ways to express personhood.\n\nWe can add [da](word-da) (self/body) to put emphasis on the corporeal nature of the\nperson:\n\n* [279](phrase-279)\n\nWe can use the prefix [ti](word-ti) (possessive) to emphasize the person's sense of\nself (owning of themself):\n\n* [280](phrase-280)\n\nOr we can use the subject marker alone for a more neutral form:\n\n* [281](phrase-281)\n\nThe `/m/` at the end marks the accusative ([m](word-m)).\n\n### antecedent\n\nAll subjects can get the [s](word-s) suffix to mean antecedent. It can be used on\nany noun or subject form. To reference a complete sentence or clause, we use\nthe work [eku](word-eku) (fact), meaning \"that fact\":\n\n[282](phrase-282)\n\n# Subjects\n\nHere is the full list of subjects to express actions, possessivity and address.\n\n### indefinite\n\nThis subject is the most used to talk about oneself and it means \"we\" in the\nindefinite sense. It is part royal and part modesty.\n\n* [o](word-o) `I/we`\n* [okei](alt-o-kei) `I/we.HON`\n\n### every\n\n* [oqa](alt-o-qa) `I/we.SINGULAR`\n\n### me\n\n* [opi](word-o-pi) `I`\n* [oyi](word-o-yi) `I.TINY`\n* [olo](word-o-lo) `I.WET`\n\n### you and me\n\n* [ode](word-o-de) `us.TWO`\n\n### us\n\n* [sho](word-sho) `we`\n* [shokei](alt-sho-kei) `we.HON`\n* [shoyi](alt-sho-yi) `we.TINY`\n* [sholo](alt-sho-lo) `we.WET`\n\n### you (just you, singular)\n\n* [i](word-i) `you`\n* [ikei](alt-i-kei) `you.HON`\n* [iyi](alt-i-yi) `you.TINY`\n* [ilo](alt-i-lo) `you.WET`\n\n### you (plural)\n\n* [shi](word-shi) `you.PL`\n* [shikei](alt-shi-kei) `you.PL.HON`\n* [shiyi](alt-shi-yi) `you.PL.TINY`\n* [shilo](alt-shi-lo) `you.PL.WET`\n\n### them (singular)\n\n* [a](word-a) `they`\n* [akei](alt-a-kei) `they.HON`\n* [ayi](alt-a-yi) `they.TINY`\n* [alo](alt-a-lo) `they.WET`\n\n### some of them\n\n* [ape](word-a-pe) `they.INDF`\n\n### them (plural)\n\n* [sha](word-sha) `they.PL`\n* [shakei](alt-sha-kei) `they.PL.HON`\n* [shayi](alt-sha-yi) `they.PL.TINY`\n* [shalo](alt-sha-lo) `they.PL.WET`\n\n## Relative\n\n* [le](word-le) who (noun modifier)\n\n## TODO: REWRITE END OF THIS CARD...\n\n##### note\n\nIf you read this, I screwed up and haven't fixed the text before publishing. Bad.\n\n## Possessivity suffix\n\n[wu](word-wu) is used as suffix to introduce a noun phrase clarifying possessivity.\n\n* [283](phrase-283)\n\nor\n\n* [284](phrase-284)\n* [285](phrase-285)\n\nThe `/m/` endings are the 'mood' markings (accusative). See [accusative](card-accusative).\n\n## Target person (dative)\n\nWhen specifying the recipient of an action, we use [ni](word-ni) (arrow) as prefix\non the subject. You can understand this prefix as something in the line of\n\"to/of\".\n\n* [286](phrase-286)\n* [287](phrase-287)\n\nThere are other prefix that can be used such as [fe](word-fe) (on), [ro](word-ro) (in)\nand so on: [prep](card-prep).\n\n## Subject suffix (ergative)\n\nWe usually omit the subject because it is visible on the verb but when we\nwant to use it, we use [da](word-da) (self).\n\n* [288](phrase-288)\n\nList of people:\n\n* [oda](alt-o-da) (people)\n* [ida](alt-i-da) (you-person)\n* [ada](alt-a-da) (they-person)\n* [pida](alt-pi-da) (I-person)\n* [keida](alt-kei-da) (Master-person)\n* [yida](alt-yi-da) (tiny-person)\n* [loda](alt-lo-da) (wet-person)\n* [peda](alt-pe-da) (someone)\n* [deda](alt-de-da) (us-two)\n* [pada](alt-pa-da) (all of us)\n\n## Genders\n\nTo express gender, we use the possessive 'your', 'their', etc and the noun that\nmost closely expresses the desired notion. Note that the verb is accorded to the\npossessive argument. Here are some examples:\n\n* [289](phrase-289)\n* [290](phrase-290)\n* [291](phrase-291)\n* [292](phrase-292)\n\nNote that we also have words to express gendered-bodies and these (like any\nnoun) can be used as subjects or \"targets\" in phrases but they then accord as\nan indefinite 'person' as if we would say 'someone', 'some girl', etc.\n\n* [iwida](alt-iwi-da) (enby-person)\n* [unuda](alt-unu-da) (female-person)\n* [otoda](alt-oto-da) (male-person)\n\nYour next read: [evolution](card-evolution) (how things evolved)\n",
+      "desc": "\n# Subject and possessivity\n\nThe following morphemes express people (you, me, them), possessivity (my,\nyour, their) or verb conjugation depending on how the morpheme is\nagglutinated (or not).\n\n## Verbs\n\nTo transform a noun into a verb, the morpheme representing the subject is\nprefixed on the noun as-is or with an /h/ to fix double vowels. Example:\n\n* [imilema](alt-i-mi-ema)\n\nDetails on verbs here: [verbs](card-verbs).\n\n## Possessivity\n\nTo mark possessivity, the morpheme is prefixed or suffixed to the noun and a\n/t/ is added. Double consonant is fixed with an /a/. Examples:\n\n* [tima](alt-ti-ma)\n* [mati](alt-ma-ti)\n\nThe choice between prefix or suffix depends on context and what sounds best.\nThe difference is a bit like saying \"your hand\" or \"hand of you\". This lets\nput emphasis where we want, like dropping the [tim](alt-ti-m) of [noatim](alt-noa-ti-m) gently\nafter a small pause to express kindness or awe.\n\n## Person\n\nDepending on context we can chose between different ways to express personhood.\n\nWe can add [da](word-da) (self/body) to put emphasis on the corporeal nature of the\nperson:\n\n* [279](phrase-279)\n\nWe can use the prefix [ti](word-ti) (possessive) to emphasize the person's sense of\nself (owning of themself):\n\n* [280](phrase-280)\n\nOr we can use the subject marker alone for a more neutral form:\n\n* [281](phrase-281)\n\nThe `/m/` at the end marks the accusative ([m](word-m)).\n\n### antecedent\n\nAll subjects can get the [s](word-s) suffix to mean antecedent. It can be used on\nany noun or subject form. To reference a complete sentence or clause, we use\nthe work [eku](word-eku) (fact), meaning \"that fact\":\n\n[282](phrase-282)\n\n# Subjects\n\nHere is the full list of subjects to express actions, possessivity and address.\n\n### indefinite\n\nThis subject is the most used to talk about oneself and it means \"we\" in the\nindefinite sense. It is part royal and part modesty.\n\n* [o](word-o) `I/we`\n* [okei](alt-o-kei) `I/we.HON`\n\n### every\n\n* [oqa](alt-o-qa) `I/we.SINGULAR`\n\n### me\n\n* [opi](word-o-pi) `I`\n* [oyi](word-o-yi) `I.TINY`\n* [olo](word-o-lo) `I.WET`\n\n### you and me\n\n* [ode](word-o-de) `us.TWO`\n\n### us\n\n* [sho](word-sho) `we`\n* [shokei](alt-sho-kei) `we.HON`\n* [shoyi](alt-sho-yi) `we.TINY`\n* [sholo](alt-sho-lo) `we.WET`\n\n### you (just you, singular)\n\n* [i](word-i) `you`\n* [ikei](alt-i-kei) `you.HON`\n* [iyi](alt-i-yi) `you.TINY`\n* [ilo](alt-i-lo) `you.WET`\n\n### you (plural)\n\n* [shi](word-shi) `you.PL`\n* [shikei](alt-shi-kei) `you.PL.HON`\n* [shiyi](alt-shi-yi) `you.PL.TINY`\n* [shilo](alt-shi-lo) `you.PL.WET`\n\n### them (singular)\n\n* [a](word-a) `they`\n* [akei](alt-a-kei) `they.HON`\n* [ayi](alt-a-yi) `they.TINY`\n* [alo](alt-a-lo) `they.WET`\n\n### some of them\n\n* [ape](word-a-pe) `they.INDF`\n\n### them (plural)\n\n* [sha](word-sha) `they.PL`\n* [shakei](alt-sha-kei) `they.PL.HON`\n* [shayi](alt-sha-yi) `they.PL.TINY`\n* [shalo](alt-sha-lo) `they.PL.WET`\n\n## Relative\n\n* [le](word-le) who (noun modifier)\n\n## TODO: REWRITE END OF THIS CARD...\n\n##### note\n\nIf you read this, I screwed up and haven't fixed the text before publishing. Bad.\n\n## Possessivity suffix\n\n[wu](word-wu) is used as suffix to introduce a noun phrase clarifying possessivity.\n\n* [283](phrase-283)\n\nor\n\n* [284](phrase-284)\n* [285](phrase-285)\n\nThe `/m/` endings are the 'mood' markings (accusative). See [accusative](card-accusative).\n\n## Target person (dative)\n\nWhen specifying the recipient of an action, we use [ni](word-ni) (arrow) as prefix\non the subject. You can understand this prefix as something in the line of\n\"to/of\".\n\n* [286](phrase-286)\n* [287](phrase-287)\n\nThere are other prefix that can be used such as [fe](word-fe) (on), [ro](word-ro) (in)\nand so on: [prep](card-prep).\n\n## Subject suffix (ergative)\n\nWe usually omit the subject because it is visible on the verb but when we\nwant to use it, we use [da](word-da) (self).\n\n* [288](phrase-288)\n\nList of people:\n\n* [oda](alt-o-da) (people)\n* [ida](alt-i-da) (you-person)\n* [ada](alt-a-da) (they-person)\n* [pida](alt-pi-da) (I-person)\n* [keida](alt-kei-da) (Master-person)\n* [yida](alt-yi-da) (tiny-person)\n* [loda](alt-lo-da) (wet-person)\n* [peda](alt-pe-da) (someone)\n* [deda](alt-de-da) (us-two)\n* [pada](alt-pa-da) (all of us)\n\n## Genders\n\nTo express gender, we use the possessive 'your', 'their', etc and the noun that\nmost closely expresses the desired notion. Note that the verb is accorded to the\npossessive argument. Here are some examples:\n\n* [289](phrase-289)\n* [290](phrase-290)\n* [291](phrase-291)\n* [292](phrase-292)\n\nNote that we also have words to express gendered-bodies and these (like any\nnoun) can be used as subjects or \"targets\" in phrases but they then accord as\nan indefinite 'person' as if we would say 'someone', 'some girl', etc.\n\n* [iwida](alt-iwi-da) (enby-person)\n* [nuda](alt-nu-da) (female-person)\n* [otoda](alt-oto-da) (male-person)\n\nYour next read: [evolution](card-evolution) (how things evolved)\n",
       "id": "card-subj",
       "fulltext": "subj"
     },
@@ -18072,7 +18088,7 @@
       "nsfw": true,
       "words": [
         "alt-o-maxim-em",
-        "alt-unu-m",
+        "alt-nu-m",
         "alt-a-fo-n",
         "alt-oto-m"
       ],
@@ -18083,7 +18099,7 @@
       "fulltext": "65",
       "writ": "౬౫",
       "phon": " ",
-      "phrase": "omaximem unum afon otom"
+      "phrase": "omaximem num afon otom"
     },
     "phrase-66": {
       "name": "66",
@@ -18091,7 +18107,7 @@
       "trad": "She made me fall.",
       "nsfw": true,
       "words": [
-        "word-unu",
+        "word-nu",
         "alt-a-maxim-em",
         "alt-o-thato-n"
       ],
@@ -18102,7 +18118,7 @@
       "fulltext": "66",
       "writ": "౬౬",
       "phon": " ",
-      "phrase": "unu amaximem othaton"
+      "phrase": "nu amaximem othaton"
     },
     "phrase-67": {
       "name": "67",
@@ -18207,9 +18223,9 @@
         "alt-o-neja",
         "alt-u-odo",
         "word-pienu",
-        "alt-unu-m",
+        "alt-nu-m",
         "word-eku",
-        "alt-unu-s",
+        "alt-nu-s",
         "alt-es-a-lu-qu",
         "alt-ajayusa-m"
       ],
@@ -18220,7 +18236,7 @@
       "fulltext": "72",
       "writ": "౭౨",
       "phon": " ",
-      "phrase": "oneja uodo pienu unum eku unus esaluqu ajayusam"
+      "phrase": "oneja uodo pienu num eku nus esaluqu ajayusam"
     },
     "phrase-73": {
       "name": "73",
@@ -18592,7 +18608,7 @@
       "type": "phrase",
       "trad": "She is beautiful.",
       "words": [
-        "alt-ta-unu",
+        "alt-ta-nu",
         "alt-es-a-lu-awi"
       ],
       "see": [
@@ -18602,7 +18618,7 @@
       "fulltext": "94",
       "writ": "౯౪",
       "phon": " ",
-      "phrase": "taxunu esaluxawi"
+      "phrase": "tanu esaluxawi"
     },
     "phrase-95": {
       "name": "95",
@@ -18955,7 +18971,7 @@
       "type": "phrase",
       "trad": "She is beautiful.",
       "words": [
-        "alt-ta-unu",
+        "alt-ta-nu",
         "alt-es-a-lu-awi"
       ],
       "see": [
@@ -18965,14 +18981,14 @@
       "fulltext": "114",
       "writ": "౧౧౪",
       "phon": " ",
-      "phrase": "taxunu esaluxawi"
+      "phrase": "tanu esaluxawi"
     },
     "phrase-115": {
       "name": "115",
       "type": "phrase",
       "trad": "Woman beautiful.",
       "words": [
-        "word-unu",
+        "word-nu",
         "alt-le-awi"
       ],
       "see": [
@@ -18982,14 +18998,14 @@
       "fulltext": "115",
       "writ": "౧౧౫",
       "phon": " ",
-      "phrase": "unu lexawi"
+      "phrase": "nu lexawi"
     },
     "phrase-116": {
       "name": "116",
       "type": "phrase",
       "trad": "Womanly beauty.",
       "words": [
-        "alt-awi-unu"
+        "alt-awi-nu"
       ],
       "see": [
         "card-grammar"
@@ -18998,7 +19014,7 @@
       "fulltext": "116",
       "writ": "౧౧౬",
       "phon": " ",
-      "phrase": "awilunu"
+      "phrase": "awinu"
     },
     "phrase-117": {
       "name": "117",
@@ -20103,7 +20119,7 @@
         "alt-fa-to-m",
         "word-qu",
         "alt-o-fa",
-        "alt-unu-m"
+        "alt-nu-m"
       ],
       "see": [
         "card-sing"
@@ -20112,7 +20128,7 @@
       "fulltext": "179",
       "writ": "౧౭౯",
       "phon": " ",
-      "phrase": "ofa fatom qu ofa unum"
+      "phrase": "ofa fatom qu ofa num"
     },
     "phrase-180": {
       "name": "180",
@@ -20622,7 +20638,7 @@
       "trad": "I become a small girl as I drift away.",
       "words": [
         "alt-o-yi-ru",
-        "alt-unu-lil-m",
+        "alt-nu-lil-m",
         "word-eleu",
         "alt-o-yi-meshe",
         "word-dao"
@@ -20634,7 +20650,7 @@
       "fulltext": "209",
       "writ": "౨౦౯",
       "phon": " ",
-      "phrase": "oyiru unulilm eleu oyimeshe dao"
+      "phrase": "oyiru nulilm eleu oyimeshe dao"
     },
     "phrase-210": {
       "name": "210",
@@ -21405,7 +21421,7 @@
       "words": [
         "alt-odo-imp",
         "alt-muda-ti-m",
-        "alt-unu-lil"
+        "alt-nu-lil"
       ],
       "see": [
         "card-sing"
@@ -21414,7 +21430,7 @@
       "fulltext": "263",
       "writ": "౨౬౩",
       "phon": " ",
-      "phrase": "odo mudatim unulil"
+      "phrase": "odo mudatim nulil"
     },
     "phrase-264": {
       "name": "264",
@@ -21477,7 +21493,7 @@
       "words": [
         "alt-odo-imp",
         "alt-muda-ti-m",
-        "alt-unu-lil"
+        "alt-nu-lil"
       ],
       "see": [
         "card-sing"
@@ -21486,7 +21502,7 @@
       "fulltext": "267",
       "writ": "౨౬౭",
       "phon": " ",
-      "phrase": "odo mudatim unulil"
+      "phrase": "odo mudatim nulil"
     },
     "phrase-268": {
       "name": "268",
@@ -21600,7 +21616,7 @@
       "words": [
         "alt-odo-imp",
         "alt-muda-ti-m",
-        "alt-unu-lil"
+        "alt-nu-lil"
       ],
       "see": [
         "card-sing"
@@ -21609,7 +21625,7 @@
       "fulltext": "274",
       "writ": "౨౭౪",
       "phon": " ",
-      "phrase": "odo mudatim unulil"
+      "phrase": "odo mudatim nulil"
     },
     "phrase-275": {
       "name": "275",
@@ -21880,7 +21896,7 @@
       "type": "phrase",
       "trad": "She sings.",
       "words": [
-        "alt-ta-unu",
+        "alt-ta-nu",
         "alt-a-lipa"
       ],
       "see": [
@@ -21890,7 +21906,7 @@
       "fulltext": "290",
       "writ": "౨౯౦",
       "phon": " ",
-      "phrase": "taxunu alipa"
+      "phrase": "tanu alipa"
     },
     "phrase-291": {
       "name": "291",
@@ -21914,7 +21930,7 @@
       "type": "phrase",
       "trad": "She loves me.",
       "words": [
-        "alt-ta-unu",
+        "alt-ta-nu",
         "alt-a-zu",
         "alt-pi-m"
       ],
@@ -21925,7 +21941,7 @@
       "fulltext": "292",
       "writ": "౨౯౨",
       "phon": " ",
-      "phrase": "taxunu azu pim"
+      "phrase": "tanu azu pim"
     },
     "phrase-293": {
       "name": "293",
@@ -22126,7 +22142,7 @@
       "words": [
         "alt-la-imp",
         "alt-la-m",
-        "alt-ni-unu"
+        "alt-ni-nu"
       ],
       "see": [
         "card-verbs"
@@ -22135,7 +22151,7 @@
       "fulltext": "304",
       "writ": "౩౦౪",
       "phon": " ",
-      "phrase": "la lam nixunu"
+      "phrase": "la lam ninu"
     },
     "phrase-305": {
       "name": "305",
@@ -22644,7 +22660,7 @@
       "trad": "yesterday, I kissed a girl.",
       "words": [
         "alt-o-la-emi",
-        "alt-unu-m"
+        "alt-nu-m"
       ],
       "see": [
         "card-verbs"
@@ -22653,7 +22669,7 @@
       "fulltext": "334",
       "writ": "౩౩౪",
       "phon": " ",
-      "phrase": "olalemi unum"
+      "phrase": "olalemi num"
     },
     "phrase-335": {
       "name": "335",
@@ -22946,7 +22962,7 @@
       "words": [
         "word-om",
         "word-xim",
-        "word-unu"
+        "word-nu"
       ],
       "see": [
         "card-zzz"
@@ -22955,7 +22971,7 @@
       "fulltext": "424",
       "writ": "౪౨౪",
       "phon": " ",
-      "phrase": "om xim unu"
+      "phrase": "om xim nu"
     },
     "phrase-425": {
       "name": "425",
@@ -23238,7 +23254,7 @@
       "type": "phrase",
       "trad": "bird-woman",
       "words": [
-        "alt-unu-iwiN"
+        "alt-nu-iwiN"
       ],
       "see": [
         "card-zzz"
@@ -23247,14 +23263,14 @@
       "fulltext": "442",
       "writ": "౪౪౨",
       "phon": " ",
-      "phrase": "unuliwi"
+      "phrase": "nuliwi"
     },
     "phrase-443": {
       "name": "443",
       "type": "phrase",
       "trad": "woman like a bird",
       "words": [
-        "word-unu",
+        "word-nu",
         "alt-le-iwiN"
       ],
       "see": [
@@ -23264,7 +23280,7 @@
       "fulltext": "443",
       "writ": "౪౪౩",
       "phon": " ",
-      "phrase": "unu lexiwi"
+      "phrase": "nu lexiwi"
     },
     "phrase-444": {
       "name": "444",
@@ -24053,7 +24069,7 @@
       "words": [
         "alt-$cap-o-mapa",
         "alt-gufi-m",
-        "alt-ro-unu"
+        "alt-ro-nu"
       ],
       "see": [
         "card-zz - song \"papa\""
@@ -24062,7 +24078,7 @@
       "fulltext": "489",
       "writ": "౪౮౯",
       "phon": " ",
-      "phrase": "Omapa gufim roxunu"
+      "phrase": "Omapa gufim ronu"
     },
     "phrase-490": {
       "name": "490",
@@ -25600,7 +25616,7 @@
       "trad": "I am the trees and the soil.",
       "words": [
         "alt-$cap-o-e",
-        "word-unu",
+        "word-nu",
         "word-shu",
         "word-so",
         "word-,"
@@ -25612,7 +25628,7 @@
       "fulltext": "582",
       "writ": "౫౮౨",
       "phon": " ",
-      "phrase": "Oxe unu shu so ,"
+      "phrase": "Oxe nu shu so ,"
     },
     "phrase-583": {
       "name": "583",
@@ -25980,7 +25996,7 @@
       "words": [
         "alt-ti-shena",
         "alt-ro-sheu-wu",
-        "alt-unu-s-m",
+        "alt-nu-s-m",
         "word-."
       ],
       "see": [
@@ -25990,7 +26006,7 @@
       "fulltext": "603",
       "writ": "౬౦౩",
       "phon": " ",
-      "phrase": "tishena rosheuwu unusm ."
+      "phrase": "tishena rosheuwu nusm ."
     },
     "phrase-604": {
       "name": "604",
@@ -27644,7 +27660,7 @@
         "alt-shi-zu-em",
         "word-?",
         "alt-a-lapu-ir",
-        "alt-ukilei-unu"
+        "alt-ukilei-nu"
       ],
       "see": [
         "card-zz - song \"OLD LADY\""
@@ -27653,7 +27669,7 @@
       "fulltext": "708",
       "writ": "౭౦౮",
       "phon": " ",
-      "phrase": "don shizulem ? alapulir ukileilunu"
+      "phrase": "don shizulem ? alapulir ukileinu"
     },
     "phrase-709": {
       "name": "709",
@@ -29702,18 +29718,18 @@
       "writ": "సాం",
       "phon": "/sam/"
     },
-    "alt-ta-unu": {
-      "name": "taxunu",
+    "alt-ta-nu": {
+      "name": "tanu",
       "type": "alt",
-      "id": "alt-ta-unu",
-      "glo": "POSS.**they**.**feeling, woman, tree**",
-      "alt": "word-unu",
+      "id": "alt-ta-nu",
+      "glo": "POSS.**they**.FEM",
+      "alt": "word-nu",
       "cla": "noun",
       "prev": "word-ta",
-      "orig": "word-unu",
-      "fulltext": "taxunu",
-      "writ": "తాxఉను",
-      "phon": "/taxunu/"
+      "orig": "word-nu",
+      "fulltext": "tanu",
+      "writ": "తాను",
+      "phon": "/tanu/"
     },
     "alt-gaxim-verb": {
       "name": "gaxim",
@@ -30227,18 +30243,18 @@
       "writ": "మాతిం",
       "phon": "/matim/"
     },
-    "alt-unu-lil": {
-      "name": "unulil",
+    "alt-nu-lil": {
+      "name": "nulil",
       "type": "alt",
-      "id": "alt-unu-lil",
-      "glo": "**feeling, woman, tree**.DIM",
+      "id": "alt-nu-lil",
+      "glo": "FEM.DIM",
       "cla": "noun",
-      "alt": "word-unu",
+      "alt": "word-nu",
       "orig": "word-lil",
-      "prev": "word-unu",
-      "fulltext": "unulil",
-      "writ": "ఉనులిల్‌",
-      "phon": "/unulil/"
+      "prev": "word-nu",
+      "fulltext": "nulil",
+      "writ": "నులిల్‌",
+      "phon": "/nulil/"
     },
     "alt-qeli-imp": {
       "name": "qeli",
@@ -31427,18 +31443,18 @@
       "writ": "ఓమాxఇమేం",
       "phon": "/ɔmaximɛm/"
     },
-    "alt-unu-m": {
-      "name": "unum",
+    "alt-nu-m": {
+      "name": "num",
       "type": "alt",
-      "id": "alt-unu-m",
+      "id": "alt-nu-m",
       "glo": "**feeling, woman, tree**.ACC",
       "cla": "noun",
-      "alt": "word-unu",
+      "alt": "word-nu",
       "orig": "word-m",
-      "prev": "word-unu",
-      "fulltext": "unum",
-      "writ": "ఉనుం",
-      "phon": "/unum/"
+      "prev": "word-nu",
+      "fulltext": "num",
+      "writ": "నుం",
+      "phon": "/num/"
     },
     "alt-a-fo": {
       "name": "afo",
@@ -31848,18 +31864,18 @@
       "writ": "ఉఓదో",
       "phon": "/uɔdɔ/"
     },
-    "alt-unu-s": {
-      "name": "unus",
+    "alt-nu-s": {
+      "name": "nus",
       "type": "alt",
-      "id": "alt-unu-s",
+      "id": "alt-nu-s",
       "glo": "**feeling, woman, tree**.ANT",
       "cla": "noun",
-      "alt": "word-unu",
+      "alt": "word-nu",
       "orig": "word-s",
-      "prev": "word-unu",
-      "fulltext": "unus",
-      "writ": "ఉనుస్‌",
-      "phon": "/unus/"
+      "prev": "word-nu",
+      "fulltext": "nus",
+      "writ": "నుస్‌",
+      "phon": "/nus/"
     },
     "alt-es-a": {
       "name": "esa",
@@ -32811,18 +32827,18 @@
       "writ": "రోయురు",
       "phon": "/rɔjuru/"
     },
-    "alt-awi-unu": {
-      "name": "awilunu",
+    "alt-awi-nu": {
+      "name": "awinu",
       "type": "alt",
-      "id": "alt-awi-unu",
-      "glo": "**fish**.*feminine*",
+      "id": "alt-awi-nu",
+      "glo": "**fish**.FEM",
       "cla": "noun",
       "alt": "word-awi",
-      "orig": "word-unu",
+      "orig": "word-nu",
       "prev": "word-awi",
-      "fulltext": "awilunu",
-      "writ": "అవిలును",
-      "phon": "/awilunu/"
+      "fulltext": "awinu",
+      "writ": "అవిను",
+      "phon": "/awinu/"
     },
     "alt-ro-gana": {
       "name": "rogana",
@@ -34806,18 +34822,18 @@
       "writ": "ఓయిరు",
       "phon": "/ɔjiru/"
     },
-    "alt-unu-lil-m": {
-      "name": "unulilm",
+    "alt-nu-lil-m": {
+      "name": "nulilm",
       "type": "alt",
-      "id": "alt-unu-lil-m",
-      "glo": "**feeling, woman, tree**.DIM.ACC",
+      "id": "alt-nu-lil-m",
+      "glo": "FEM.DIM.ACC",
       "cla": "noun",
-      "alt": "word-unu",
+      "alt": "word-nu",
       "orig": "word-m",
-      "prev": "alt-unu-lil",
-      "fulltext": "unulilm",
-      "writ": "ఉనులిల్‌ం",
-      "phon": "/unulilm/"
+      "prev": "alt-nu-lil",
+      "fulltext": "nulilm",
+      "writ": "నులిల్‌ం",
+      "phon": "/nulilm/"
     },
     "alt-o-yi-meshe": {
       "name": "oyimeshe",
@@ -36048,18 +36064,18 @@
       "writ": "ఇవిదా",
       "phon": "/iwida/"
     },
-    "alt-unu-da": {
-      "name": "unuda",
+    "alt-nu-da": {
+      "name": "nuda",
       "type": "alt",
-      "id": "alt-unu-da",
+      "id": "alt-nu-da",
       "glo": "**feeling, woman, tree**.SELF",
       "cla": "noun",
-      "alt": "word-unu",
+      "alt": "word-nu",
       "orig": "word-da",
-      "prev": "word-unu",
-      "fulltext": "unuda",
-      "writ": "ఉనుదా",
-      "phon": "/unuda/"
+      "prev": "word-nu",
+      "fulltext": "nuda",
+      "writ": "నుదా",
+      "phon": "/nuda/"
     },
     "alt-oto-da": {
       "name": "otoda",
@@ -36336,18 +36352,18 @@
       "writ": "ఎసిలుమిలేం",
       "phon": "/ɛsilumilɛm/"
     },
-    "alt-ni-unu": {
-      "name": "nixunu",
+    "alt-ni-nu": {
+      "name": "ninu",
       "type": "alt",
-      "id": "alt-ni-unu",
-      "glo": "DAT.**feeling, woman, tree**",
-      "alt": "word-unu",
+      "id": "alt-ni-nu",
+      "glo": "DAT.FEM",
+      "alt": "word-nu",
       "cla": "def",
       "prev": "word-ni",
-      "orig": "word-unu",
-      "fulltext": "nixunu",
-      "writ": "నిxఉను",
-      "phon": "/nixunu/"
+      "orig": "word-nu",
+      "fulltext": "ninu",
+      "writ": "నిను",
+      "phon": "/ninu/"
     },
     "alt-sho-lapa-lei": {
       "name": "sholapalei",
@@ -37521,18 +37537,18 @@
       "writ": "తోపాలోం",
       "phon": "/tɔpalɔm/"
     },
-    "alt-unu-iwiN": {
-      "name": "unuliwi",
+    "alt-nu-iwiN": {
+      "name": "nuliwi",
       "type": "alt",
-      "id": "alt-unu-iwiN",
-      "glo": "**feeling, woman, tree**.**bird**",
+      "id": "alt-nu-iwiN",
+      "glo": "FEM.**bird**",
       "cla": "noun",
-      "alt": "word-unu",
+      "alt": "word-nu",
       "orig": "word-iwiN",
-      "prev": "word-unu",
-      "fulltext": "unuliwi",
-      "writ": "ఉనులివి",
-      "phon": "/unuliwi/"
+      "prev": "word-nu",
+      "fulltext": "nuliwi",
+      "writ": "నులివి",
+      "phon": "/nuliwi/"
     },
     "alt-le-iwiN": {
       "name": "lexiwi",
@@ -38146,18 +38162,18 @@
       "writ": "గుచిం",
       "phon": "/gufim/"
     },
-    "alt-ro-unu": {
-      "name": "roxunu",
+    "alt-ro-nu": {
+      "name": "ronu",
       "type": "alt",
-      "id": "alt-ro-unu",
-      "glo": "INESS.**feeling, woman, tree**",
-      "alt": "word-unu",
+      "id": "alt-ro-nu",
+      "glo": "INESS.FEM",
+      "alt": "word-nu",
       "cla": "noun",
       "prev": "word-ro",
-      "orig": "word-unu",
-      "fulltext": "roxunu",
-      "writ": "రోxఉను",
-      "phon": "/rɔxunu/"
+      "orig": "word-nu",
+      "fulltext": "ronu",
+      "writ": "రోను",
+      "phon": "/rɔnu/"
     },
     "alt-auna-m": {
       "name": "aunam",
@@ -39728,18 +39744,18 @@
       "writ": "రోశేఉవు",
       "phon": "/rɔʃɛuwu/"
     },
-    "alt-unu-s-m": {
-      "name": "unusm",
+    "alt-nu-s-m": {
+      "name": "nusm",
       "type": "alt",
-      "id": "alt-unu-s-m",
+      "id": "alt-nu-s-m",
       "glo": "**feeling, woman, tree**.ANT.ACC",
       "cla": "noun",
-      "alt": "word-unu",
+      "alt": "word-nu",
       "orig": "word-m",
-      "prev": "alt-unu-s",
-      "fulltext": "unusm",
-      "writ": "ఉనుస్‌ం",
-      "phon": "/unusm/"
+      "prev": "alt-nu-s",
+      "fulltext": "nusm",
+      "writ": "నుస్‌ం",
+      "phon": "/nusm/"
     },
     "alt-$cap-i-adja": {
       "name": "Ixadja",
@@ -40497,18 +40513,18 @@
       "writ": "అలాపులిర్‌",
       "phon": "/alapulir/"
     },
-    "alt-ukilei-unu": {
-      "name": "ukileilunu",
+    "alt-ukilei-nu": {
+      "name": "ukileinu",
       "type": "alt",
-      "id": "alt-ukilei-unu",
-      "glo": "**elder**.*feminine*",
+      "id": "alt-ukilei-nu",
+      "glo": "**elder**.FEM",
       "cla": "noun",
       "alt": "word-ukilei",
-      "orig": "word-unu",
+      "orig": "word-nu",
       "prev": "word-ukilei",
-      "fulltext": "ukileilunu",
-      "writ": "ఉకిలేఇలును",
-      "phon": "/ukilɛilunu/"
+      "fulltext": "ukileinu",
+      "writ": "ఉకిలేఇను",
+      "phon": "/ukilɛinu/"
     },
     "alt-sho-lapa-ir": {
       "name": "sholapalir",

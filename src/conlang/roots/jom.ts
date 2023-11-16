@@ -10,7 +10,7 @@ export const junu = _.word('junu', {
   verb: 'to explore',
   img: 'turning_red_forest.jpg',
   img_pos: '100%',
-  etym: () => [_.jom, _.unu],
+  etym: () => [_.jom, _.nu],
   desc: () => `
   
   

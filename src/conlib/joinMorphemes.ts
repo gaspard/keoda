@@ -4,8 +4,10 @@ import {
   ENDS_l,
   ENDS_t,
   ENDS_VOWEL,
+  ENDS_x,
   ENDS_y,
   LAST_VOWEL,
+  STARTS_pbkg,
   STARTS_q,
   STARTS_r,
   STARTS_th,
@@ -57,7 +59,8 @@ export function joinMorphemes(
     if (
       (ENDS_l.test(prevName) && STARTS_r.test(nextName)) ||
       (ENDS_k.test(prevName) && STARTS_q.test(nextName)) ||
-      (ENDS_t.test(prevName) && STARTS_th.test(nextName))
+      (ENDS_t.test(prevName) && STARTS_th.test(nextName)) ||
+      (ENDS_x.test(prevName) && STARTS_pbkg.test(nextName))
     ) {
       // yes
       fix = join !== undefined ? join : last[1].toLowerCase()

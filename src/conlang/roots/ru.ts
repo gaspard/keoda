@@ -42,7 +42,7 @@ export const kuru = _.word('kuru', {
 
 export const nuru = _.word('nuru', {
   noun: 'apophenia',
-  etym: () => [_.nu, _.ru],
+  etym: () => [_.nux, _.ru],
   see: () => [_.conrad, _.guru],
   desc: () => `
 Apophenia is the perception of or belief in connectedness among unrelated

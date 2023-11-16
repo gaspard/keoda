@@ -8,8 +8,10 @@ export const ENDS_VOWEL = /[aoeiuyAOEIUY]$/
 export const ENDS_l = /l$/
 export const ENDS_k = /l$/
 export const ENDS_t = /t$/
+export const ENDS_x = /x$/
 export const STARTS_r = /^r/
 export const STARTS_q = /^q/
+export const STARTS_pbkg = /^[pbkg]/
 export const STARTS_th = /^th/
 
 export const ENDS_i = /i$/

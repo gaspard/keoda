@@ -75,7 +75,7 @@ Latin copula ("connection, linking of words"), from co- ("together") +‎ apere
 This means that instead of saying "She is beautiful", we would say "She is
 being beautified" (passive continuous tense):
 
-* ${_.phrase('She is beautiful.', _.ta.unu, _.es.a.lu.awi)}
+* ${_.phrase('She is beautiful.', _.ta.nu, _.es.a.lu.awi)}
 
 This highlights the fact that most things in
 life happen to us without much agency on our side (one of the reasons why we
@@ -90,13 +90,13 @@ or "joy is happening" or "love is happening".
 When using adjectives, these are bound to the context of the phrase and do
 not produce the "is-ness" feeling:
 
-* ${_.phrase('Woman beautiful.', _.unu, _.le.awi)}
+* ${_.phrase('Woman beautiful.', _.nu, _.le.awi)}
 
 And in this case, since 'feminine' is a suffix, we can attach it on a noun
 (remember that in Zulapa, ${_.awi} means beauty because fishes are beautiful
 and shiny):
 
-* ${_.phrase('Womanly beauty.', _.awi.unu)}
+* ${_.phrase('Womanly beauty.', _.awi.nu)}
 
 Actually using the verb to be (${_.e}) to express properties is rude and cute
 because only foreigners do it.

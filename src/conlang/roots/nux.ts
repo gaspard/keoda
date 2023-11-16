@@ -1,19 +1,19 @@
 import * as _ from '../lang'
 
-export const nu = _.word('nu', {
+export const nux = _.word('nux', {
   noun: 'hubris',
   adj: 'arrogance',
   etym: () => [_.na, _.u$],
   see: () => [_.gu, _.nanes],
   desc: () => `
-${_.nu} is the unrealized ${_.na}.
+${_.nux} is the unrealized ${_.na}.
 
 Immateriality --> Matter
 `,
 })
 
-export const nuga = _.word('nuga', {
+export const ganux = _.word('ganux', {
   noun: 'psychosis, god-child',
-  etym: () => [_.ga, _.nu],
+  etym: () => [_.ga, _.nux],
   see: () => [_.guna],
 })

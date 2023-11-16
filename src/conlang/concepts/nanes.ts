@@ -13,7 +13,7 @@ of mastery are not balanced by ${_.ga}, they are just other names for the
 machine.
 
 See ${_.ganes} for some explanation on the relation between ${_.ga}, ${_.na},
-${_.gu} and ${_.nu}.
+${_.gu} and ${_.nux}.
 
 ## The "flowing" states
 

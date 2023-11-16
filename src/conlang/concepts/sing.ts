@@ -43,7 +43,7 @@ ${_.block(
   },
   {
     t: 'I look in my eyes and I see her.',
-    p: [_.o.fa, _.fa.to.m, _.qu, _.o.fa, _.unu.m],
+    p: [_.o.fa, _.fa.to.m, _.qu, _.o.fa, _.nu.m],
   },
   {
     t: 'When will he go ?',
@@ -176,7 +176,7 @@ ${_.phrase('I fall asleep in your embrace.', _.o.yi.fodi, _.ro.rumi.ti.m)}
 ${_.phrase(
   'I become a small girl as I drift away.',
   _.o.yi.ru,
-  _.unu.lil.m,
+  _.nu.lil.m,
   _.eleu,
   _.o.yi.meshe,
   _.dao
@@ -247,7 +247,7 @@ ${_.phrase(
 
 * ${_.phrase('You don’t have a future here.', _.i.sausu, _.ir.m, _.sen)}
 
-* ${_.phrase('Leave your home, girl', _.odo.imp, _.muda.ti.m, _.unu.lil)}
+* ${_.phrase('Leave your home, girl', _.odo.imp, _.muda.ti.m, _.nu.lil)}
 * ${_.phrase('Alone in the dark', _.done, _.le.pienu, _.ro.gu)}
 * ${_.phrase(
     'Without your voice in the house',
@@ -261,7 +261,7 @@ ${_.phrase(
     _.yu.ti.m,
     _.kte.lisoa
   )}
-* ${_.phrase('Leave your home, girl', _.odo.imp, _.muda.ti.m, _.unu.lil)}
+* ${_.phrase('Leave your home, girl', _.odo.imp, _.muda.ti.m, _.nu.lil)}
 
 * ${_.phrase('War crushes the sweetest spirits', _.nemek, _.a.ber, _.ye.ga.gi)}
 
@@ -277,7 +277,7 @@ ${_.phrase(
 * ${_.phrase('And hearts.', _.shu, _.ro.zu.m)}
 * ${_.phrase('You would become dark here.', _.i.ru.ire, _.ne.yu.m, _.sen)}
 
-* ${_.phrase('Leave your home, girl', _.odo.imp, _.muda.ti.m, _.unu.lil)}
+* ${_.phrase('Leave your home, girl', _.odo.imp, _.muda.ti.m, _.nu.lil)}
 
 
 `,

@@ -8,7 +8,7 @@ export const om = _.word('om', {
 
 export const omunu = _.word('omunu', {
   noun: 'witch',
-  etym: () => [_.om, _.unu],
+  etym: () => [_.om, _.nu],
 })
 
 export const ominu = _.word('ominu', {

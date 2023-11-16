@@ -10,7 +10,7 @@ export const old_lady = _.card('zz - song "OLD LADY"', {
     _.shi.zu.em,
     _.q,
     _.a.lapu.ir,
-    _.ukilei.unu
+    _.ukilei.nu
   )}
 * ${_.phrase(
     'We will say: "the sound of the rain on leafs" and "the laughs of children".',

@@ -18,7 +18,7 @@ export const gal = _.word('gal', {
 export const gana = _.word('gana', {
   noun: 'earth (Anugraha)',
   etym: () => [_.ga, _.na],
-  see: () => [_.nugu],
+  see: () => [_.gunux],
 })
 
 export const gai = _.word('gai', {

@@ -20,7 +20,7 @@ export const noto = _.word('noto', {
 
 export const nonu = _.word('nonu', {
   noun: 'older sister/tree',
-  etym: () => [_.no, _.unu],
+  etym: () => [_.no, _.nu],
   see: () => [_.dunu, _.noda],
 })
 
