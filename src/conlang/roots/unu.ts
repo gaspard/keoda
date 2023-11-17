@@ -1,56 +1,44 @@
 import * as _ from '../lang'
 
-export const unnu = _.word('unnu', {
+export const nuq = _.word('nuq', {
   noun: 'tree',
-  see: () => [_.unu, _.plants],
+  see: () => [_.nuda, _.plants],
   pos: 'cowgirl',
   desc: () =>
     `The position means "tree-like" because the legs are like roots and the torso, arms and hair represent the trunk and branches.`,
 })
 
-export const yunu = _.word('yunu', {
-  noun: 'crone',
-  etym: () => [_.ya, _.nu],
-})
-
-export const tanu = _.word('tanu', {
-  noun: 'she',
-  etym: () => [_.sa.nu],
-})
-
-// unuT
-
-export const unuwi = _.word('unuwi', {
+export const nuqawi = _.word('nuqawi', {
   noun: 'medusa',
-  etym: () => [_.unnu, _.awi],
+  etym: () => [_.nuq, _.awi],
 })
 
-export const ununoa = _.word('ununoa', {
+export const noanuq = _.word('noanuq', {
   noun: 'bark',
-  etym: () => [_.unnu, _.noa],
+  etym: () => [_.noa, _.nuq],
   see: () => [_.plants],
 })
 
-export const unuma = _.word('unuma', {
+export const manuq = _.word('manuq', {
   noun: 'leaf',
-  etym: () => [_.unnu, _.ma],
+  etym: () => [_.ma, _.nuq],
   see: () => [_.plants, _.ish],
 })
 
-export const unurum = _.word('unurum', {
+export const nuqrum = _.word('nuqrum', {
   noun: 'branch',
-  etym: () => [_.unnu, _.rum],
+  etym: () => [_.nuq, _.rum],
   see: () => [_.plants],
 })
 
-export const unusam = _.word('unusam', {
+export const samnuq = _.word('samnuq', {
   noun: 'root',
-  etym: () => [_.unnu, _.sam],
+  etym: () => [_.sam, _.nuq],
   see: () => [_.plants],
 })
 
-export const okunu = _.word('okunu', {
+export const konuq = _.word('konuq', {
   noun: 'oak',
   img: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Quercus_robur.jpg',
-  see: () => [_.unnu],
+  see: () => [_.nuq],
 })

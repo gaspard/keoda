@@ -33,6 +33,8 @@ export function joinMorphemes(
   if (nextName === '') {
     // 'silent' elements like imperative
     return prevName
+  } else if (prevName === '') {
+    return nextName
   }
   let fix = ''
   const last = LAST_VOWEL.exec(prevName)

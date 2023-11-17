@@ -1,4 +1,4 @@
 export * from './mo'
-export * from './ta'
+export * from './sa'
 export * from './ti'
-export * from './tu'
+export * from './thu'

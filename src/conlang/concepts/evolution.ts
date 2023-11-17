@@ -254,19 +254,19 @@ But the infinite conjugation can also mean "all of XXX and forever", as in
 ### Giver 'of', Taker 'of' *(July 2023)*
 
 In order to express a subject defined by an action such as 'giver of life', we can
-either use the phrase 'person who XXX'. Note, the ${_.tu} marking the genitive:
+either use the phrase 'person who XXX'. Note, the ${_.thu} marking the genitive:
 
 * ${_.phrase(
     'Giver of life (person who gives life).',
     _.oda,
     _.difu,
     _.guwu,
-    _.tu.gui
+    _.thu.gui
   )}
 
 Or use the shorter 'fu' prefix on the verb:
 
-* ${_.phrase('Giver of life.', _.fu.guwu, _.tu.gui)}
+* ${_.phrase('Giver of life.', _.fu.guwu, _.thu.gui)}
 
 ### Continuous rembembering and desiring *(September 2023)*
 
@@ -304,15 +304,59 @@ Version (A), is more body-memory centric and blurs the distinction between the
 past event and the recollection. in this version, the two time-frames collide
 into "now".
 
-Finally, we can remove the passive by saying "I love the memory of surrendering to your embrace":
+Finally, we can remove the passive by saying "I love the memory of surrendering
+to your embrace":
 
 * C. ${_.phrase(
     'I love the memory of surrendering to your hug.',
     _.o.au,
     _.o.lue.miu.n,
-    _.tuF,
+    _.tu,
     _.i.rumi.n
   )}
 
+### Phonetic changes *(November 2023)*
+
+Up to this point, the language felt a little dull, without "edginess". As I was
+reading the amazing "Practical Introduction to Phonetics" by J. C. Catford, I
+really wanted to expand the sounds of the language, but without making it
+impossible to sing or learn.
+
+After some explorations with languages whose sounds I find inspiring (Ukrainian,
+Arabic), I decided to add \`/q/\` (a more guttural "k") and \`/θ/\` (as in
+"thing"). I also decided to allow most of the double consonants (especially in
+morpheme joining).
+
+I am also entering a second phase in root generation where more will end with a
+consonant. The new roots however will not contain consonant clusters unless they
+are derived. At least for this phase.
+
+Double consonants are pronounced longer: 
+
+${_.phrase('Be a fool !', _.$cap.qap.pa, _.$excl)}.
+
+I also decided to replace the possessive \`to\` with ${
+    _.mo
+  } because it sounds better. To slap evolvves from \`mo\` to ${_.mado}
+
+### Huge gender rewrite *(November 2023)*
+
+Ok, this one changed a *lot* of words and meanings but I think it finally makes
+sense in a beautiful way.  Basically, the idea was to create a new optional
+suffix to "color" nouns (and conjugations) with gender. This allows us to
+differentiate between "hand" and "boy-hand" or "enby-hand" or "girl-hand" and same
+with any verb, we can specify if the doer is masculine, feminine, non-binary or
+unspecified:
+
+* ${_.phrase('I love you', _.o.zu, _.ti.m)}
+* ${_.phrase('I-boy love you-girl', _.o.to.zu, _.ti.nu.m)}
+* ${_.phrase('I-girl love you-enby', _.o.nu.zu, _.ti.wi.m)}
+* ${_.phrase('I love you-boy', _.o.zu, _.ti.to.m)}
+
+We can also specify this on nouns:
+
+* ${_.phrase('Caress my boy-hand!', _.mi, _.mo.to.ma.m)}
+* ${_.phraseX('Girl-caress your boy-dick!', _.imp.nu.mi, _.ti.to.taj.m)}
+* ${_.phraseX('Boy-caress your girl-dick!', _.imp.to.mi, _.ti.nu.taj.m)}
 `,
 })

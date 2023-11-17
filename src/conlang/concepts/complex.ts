@@ -48,7 +48,7 @@ ${_.phraseX(
 
 ### Manipulatives
 
-${_.phraseX('I made her whip him.', _.o.maxim.em, _.nu.m, _.a.fo.n, _.oto.m)}
+${_.phraseX('I made her whip him.', _.o.maxim.em, _.nu.m, _.a.fo.n, _.toda.m)}
 
 ${_.phraseX('She made me fall.', _.nu, _.a.maxim.em, _.o.thato.n)}
 

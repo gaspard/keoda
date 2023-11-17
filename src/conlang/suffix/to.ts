@@ -8,8 +8,8 @@ export const to = suffix('to', {
   see: () => [_.subj, _.tosh],
 })
 
-export const oto = word('oto', {
+export const toda = word('toda', {
   noun: 'man, wind',
-  see: () => [_.unu, _.iwi, _.tosh],
-  etym: () => [_.to],
+  see: () => [_.tosh, _.nuda, _.wida],
+  etym: () => [_.to, _.da],
 })

@@ -1,8 +1,8 @@
 import * as _ from '../../lang'
-import { prefix } from '../../zulapa'
+import { alt, prefix } from '../../zulapa'
 
 export const u = prefix('u', {
-  noun: 'emptiness',
+  noun: 'Infinite',
   glo: 'INF',
   // We do not set 'verb' because we have a hack in getGlo for now.
   cla: 'verb',
@@ -18,4 +18,28 @@ ${_.gu}, the infinite subject.
 So the emptiness of ${_.u} is expanded or realised in ${_.gu}.
 `,
   see: () => [_.gu, _.wu, _.verbs],
+})
+
+alt('uwi', {
+  alt: () => u,
+  id: 'u-wi',
+  noun: 'Infinite',
+  glo: 'Infinite.NB',
+  cla: 'verb',
+})
+
+alt('unu', {
+  alt: () => u,
+  id: 'u-nu',
+  noun: 'Her',
+  glo: 'Infinite.FEM',
+  cla: 'verb',
+})
+
+alt('uto', {
+  alt: () => u,
+  id: 'u-to',
+  noun: 'Him',
+  glo: 'Infinite.MASC',
+  cla: 'verb',
 })

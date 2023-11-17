@@ -34,12 +34,12 @@ ${_.phrase(
   _.fu.sen
 )}
 
-## ${_.oto.m} (him)
+## ${_.toda.m} (him)
 
 ${_.block(
   {
     t: 'I look in the mirror and I see him.',
-    p: [_.o.fa, _.duana.m, _.qu, _.o.fa, _.oto.m],
+    p: [_.o.fa, _.duana.m, _.qu, _.o.fa, _.toda.m],
   },
   {
     t: 'I look in my eyes and I see her.',
@@ -47,11 +47,11 @@ ${_.block(
   },
   {
     t: 'When will he go ?',
-    p: [_.dir, _.oto.m, _.a.odo, _.q],
+    p: [_.dir, _.toda.m, _.a.odo, _.q],
   },
   {
     t: 'I saw him always and always.',
-    p: [_.o.fa.em, _.oto.m, _.si.lau, _.si.lau],
+    p: [_.o.fa.em, _.toda.m, _.si.lau, _.si.lau],
   },
   {
     t: 'He took my voice.',
@@ -72,7 +72,7 @@ Reply:
 ${_.block(
   {
     t: 'I am him.',
-    p: [_.o.pi.e, _.oto.m],
+    p: [_.o.pi.e, _.toda.m],
   },
   {
     t: 'I have to die to let you thread your life.',

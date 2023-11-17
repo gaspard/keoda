@@ -16,7 +16,7 @@ export const hamunota = _.word('hamunota', {
   etym: () => [_.hamun, _.ota],
 })
 
-export const kepalota = _.word('kepalota', {
+export const qepalota = _.word('qepalota', {
   noun: `circle around the anus`,
   etym: () => [_.qepal, _.ota],
 })

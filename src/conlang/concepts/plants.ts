@@ -14,17 +14,17 @@ This is the list of words related to plants currently in the language:
 
 * ${_.nounRef(_.doth)}
 * ${_.nounRef(_.bisahina)}
-* ${_.nounRef(_.unnu)}
-* ${_.nounRef(_.ununoa)}
-* ${_.nounRef(_.unuma)}
-* ${_.nounRef(_.unurum)}
-* ${_.nounRef(_.unusam)}
+* ${_.nounRef(_.nuq)}
+* ${_.nounRef(_.noanuq)}
+* ${_.nounRef(_.manuq)}
+* ${_.nounRef(_.nuqrum)}
+* ${_.nounRef(_.samnuq)}
 * ${_.nounRef(_.buni)}
 * ${_.nounRef(_.soaji)}
 
 ## Specific plant names
 
-* ${_.nounRef(_.okunu)}
+* ${_.nounRef(_.konuq)}
 
 `,
 })

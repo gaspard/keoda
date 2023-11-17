@@ -8,8 +8,8 @@ import {
   BaseEntry,
   EntriesByType,
   EntryFunc,
-  LAST_VOWEL,
   isNativeKey,
+  LAST_VOWEL,
   SuffixAccessor,
 } from './types'
 
@@ -27,7 +27,7 @@ function appendEntry(
     const prev = prevEntry.definition
     const next = nextEntry.definition
     const r = LAST_VOWEL.exec(prevEntry.name)
-    if (!r && !prevEntry.definition.op) {
+    if (!r && !prevEntry.definition.op && prevEntry.name !== '') {
       throw new Error(
         `Invalid word ${prevEntry.name} (no vowel): ${JSON.stringify({
           nextEntry,

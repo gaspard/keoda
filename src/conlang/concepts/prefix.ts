@@ -1,5 +1,6 @@
 import * as _ from '../lang'
 
+_.du
 export const pref = _.card('prefix/suffix', {
   // open: true,
   desc: () => `

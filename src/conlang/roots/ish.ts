@@ -4,5 +4,5 @@ export const ish = _.word('ish', {
   noun: 'leaf, acceptance',
   verb: 'to open',
   adj: 'welcoming',
-  see: () => [_.unuma, _.dak],
+  see: () => [_.manuq, _.dak],
 })

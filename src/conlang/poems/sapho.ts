@@ -30,7 +30,7 @@ ${_.phrase(
 
 ${_.phrase('Like the mountain hurricane', _.si, _.xurakan, _.dao, _.gosoa)}
 
-${_.phrase('Beats down on the young oaks.', _.thafo, _.don, _.okunu.lil.m)}
+${_.phrase('Beats down on the young oaks.', _.thafo, _.don, _.konuq.lil.m)}
 
  *(trad. Françoise Chandernagor)*
 

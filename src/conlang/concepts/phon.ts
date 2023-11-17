@@ -26,13 +26,13 @@ and curvy.
 
 All sounds correspond to [Telugu](https://en.wikipedia.org/wiki/Telugu_script) except for:
 
-| Symbol | Telugu     | Zulapa     | Example             |
-| :----: | :--------: | :-------: | :--------:          |
-| **చ**  | /tʃ/       | /f/       | ${_.falam}        |
-| **ఠ**  | /tʰ/       | /z/       | ${_.zuzu}          |
-| **జ్‌**  | /dʒ/       | /ʒ/       | ${_.joda}, ${_.baj} |
-| **ఇ‌**  | /aj/       | /j/       | ${_.my} |
- 
+| Symbol | Telugu     | Zulapa     | Example              |
+| :----: | :--------: | :-------: | :--------:            |
+| **చ**  | /tʃ/       | /f/       | ${_.falam}           |
+| **ఠ**  | /tʰ/       | /z/       | ${_.zuzu}            |
+| **థ**  | /tʰa/      | /θ/       | ${_.thama}           |
+| **జ్‌**  | /dʒ/       | /ʒ/       | ${_.joda}, ${_.baj}  |
+| **ఇ‌**  | /aj/       | /j/       | ${_.my}              |
 
 ## Vowels
 

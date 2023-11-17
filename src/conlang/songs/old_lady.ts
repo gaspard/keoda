@@ -17,7 +17,7 @@ export const old_lady = _.card('zz - song "OLD LADY"', {
     _.sho.lapa.ir,
     _.agana.wu,
     _.gai,
-    _.fe.unuma,
+    _.fe.manuq,
     _.shu,
     _.duthany.wu,
     _.joda

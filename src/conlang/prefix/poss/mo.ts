@@ -2,9 +2,8 @@ import { alt, prefix } from '../../zulapa'
 
 export const mo = prefix('mo', {
   noun: 'me/us',
-  glo: '**my/our**',
-  sglo: 'POSS.**me/us**',
-  scla: 'noun',
+  glo: 'me/us',
+  cla: 'noun',
 })
 
 export const mosho = prefix('mosho', {

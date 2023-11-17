@@ -2,7 +2,7 @@ import { alt, prefix } from '../../zulapa'
 
 export const ti = prefix('ti', {
   noun: 'you',
-  // glo: 'POSS.you',
+  glo: 'you',
   cla: 'noun',
 })
 

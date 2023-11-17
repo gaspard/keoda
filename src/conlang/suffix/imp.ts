@@ -5,6 +5,7 @@ export const imp = suffix('', {
   verb: '',
   writ: '',
   glo: '',
+  cla: 'verb',
   scla: 'verb',
 })
 

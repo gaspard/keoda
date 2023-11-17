@@ -6,7 +6,7 @@ export const wu = suffix('wu', {
   verb: 'to owe',
   suff: 'of',
   glo: 'OF',
-  see: () => [_.tu],
+  see: () => [_.thu],
 })
 
 prefix('Iwu', {
