@@ -17,7 +17,7 @@ export const qela = _.word('qela', {
 
 export const qelasa = _.word('qelasa', {
   noun: 'knife',
-  etym: () => [_.qela, _.sa],
+  etym: () => [_.qela, _.sax],
 })
 
 export const lapa = _.word('lapa', {

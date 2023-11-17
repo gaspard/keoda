@@ -7,7 +7,7 @@ export const uma = _.word('uma', {
     _.phraseX(
       'Look at me or close your eyes.',
       _.fa.imp,
-      _.to.m,
+      _.mo.m,
       _.uma,
       _.ne.fa.imp
     ),

@@ -1,10 +1,15 @@
-import * as _ from '../roots'
-import { suffix } from '../zulapa'
+import * as _ from '../words'
+import { suffix, word } from '../zulapa'
 
-// Sur le ventre, les mains qui tiennent les chevilles, le dos cambré
-export const iwi = suffix('iwi', {
-  noun: 'enby person',
+export const wi = suffix('wi', {
+  noun: 'creativity',
   adj: 'enby',
-  glo: 'ENBY',
-  see: () => [_.iwiN],
+  glo: 'NB',
+  see: () => [_.dwi, _.nu, _.to],
+})
+
+export const iwi = word('iwi', {
+  noun: 'enby, bird',
+  see: () => [_.dwi, _.nu, _.to],
+  etym: () => [_.wi],
 })

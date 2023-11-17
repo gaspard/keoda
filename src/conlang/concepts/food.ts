@@ -21,7 +21,7 @@ See also ${_.fruits}.
 * ${_.nounRef(_.pona)}
 * ${_.nounRef(_.ponale)}
 * ${_.nounRef(_.ulul)}
-* ${_.nounRef(_.wiyon)}
+* ${_.nounRef(_.kwiyin)}
 
 `,
 })

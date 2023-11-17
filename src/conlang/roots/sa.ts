@@ -1,5 +1,5 @@
 import * as _ from '../lang'
 
-export const sa = _.word('sa', {
+export const sax = _.word('sax', {
   noun: 'tool',
 })

@@ -32,7 +32,7 @@ we added the dative back but with more power and made the accusative nicer.
 * ${_.phrase('Caress your lovely breasts lightly.', _.mi, _.mun.ti.m, _.si.enu)}
 * ${_.phrase(
     'For us, tonight, you will be caressing your lovely breasts lightly.',
-    _.ni.to,
+    _.ni.mo,
     _.i.lu.mi.iro,
     _.mun.ti.m,
     _.si.enu
@@ -55,7 +55,7 @@ TODO: go through commit log
 After adding passive and continuous tenses, it made sense to express properties without
 saying "is" but instead using the "active" nature of nouns and this tense:
 
-* ${_.phrase('She is beautiful.', _.ta.nu, _.es.a.lu.awi)}
+* ${_.phrase('She is beautiful.', _.sa.nu, _.es.a.lu.awi)}
 
 ### Full blown "dot" writing code *(Jan 2021)*
 
@@ -216,14 +216,14 @@ conjugating "making" to remove the feeling of intentionality:
 
 * ${_.phrase(
     'He is making me feel loved (intentionality).',
-    _.oto,
+    _.to,
     _.a.lu.xim,
     _.o.zu.n
   )}
 
 * ${_.phrase(
     'He sings, making me feel loved (less intentionality).',
-    _.oto,
+    _.to,
     _.a.lipa,
     _.lu.xim,
     _.o.zu.n
@@ -248,7 +248,7 @@ But the infinite conjugation can also mean "all of XXX and forever", as in
     _.sau.ti,
     _.jo,
     _.zu.wu,
-    _.to
+    _.mo
   )}
 
 ### Giver 'of', Taker 'of' *(July 2023)*

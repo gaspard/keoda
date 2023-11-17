@@ -10,7 +10,7 @@ export const zzz = _.card('zzz', {
 ${_.phrase(
   'You crawled on me gently (like rain).',
   _.i.adja.em,
-  _.fe.to.m,
+  _.fe.mo.m,
   _.si.gai
 )}
 
@@ -20,7 +20,7 @@ ${_.phrase(
   '(I) thank (you) for making my heart sing.',
   _.nomy,
   _.i.maxim.n,
-  _.to.zu,
+  _.mo.zu,
   _.a.lipa
 )}
 
@@ -28,12 +28,12 @@ ${_.phrase(
   'You draw with your fingertips on my skin.',
   _.i.my,
   _.ko.thama.kti,
-  _.noa.to.m
+  _.noa.mo.m
 )}
 
-${_.phrase('You fingertip on my skin.', _.i.thama.kti, _.noa.to.m)}
+${_.phrase('You fingertip on my skin.', _.i.thama.kti, _.noa.mo.m)}
 
-${_.phrase('You fingertip-dance on my skin.', _.i.thama.kti.y, _.noa.to.m)}
+${_.phrase('You fingertip-dance on my skin.', _.i.thama.kti.y, _.noa.mo.m)}
 
 ${_.phrase('You draw on my skin with fire.', _.i.my, _.fe.noa, _.ko.aj)}
 
@@ -41,7 +41,7 @@ ${_.phrase('You draw on my skin with fire.', _.i.my, _.fe.noa, _.ko.aj)}
 
 ${_.phrase(
   'My finger plays with your belly necklace.',
-  _.thama.to,
+  _.thama.mo,
   _.a.yulak,
   _.ko,
   _.bo.fulufi.ti.m
@@ -59,7 +59,7 @@ ${_.phrase(
   'I thank you for making my heart sing.',
   _.o.nomy,
   _.i.maxim.n,
-  _.zu.to,
+  _.zu.mo,
   _.a.lipa.n
 )}
 
@@ -100,7 +100,7 @@ ${_.phrase('slow love...', _.zulus)}
 
 ${_.phrase('Kiss me in a caressing and intense way.', _.la.i$.do, _.la)}
 
-${_.phrase('Draw my sacred butt.', _.my, _.to.pal.om)}
+${_.phrase('Draw my sacred butt.', _.my, _.mo.pal.om)}
 
 ### 2023-02-24
 
@@ -120,9 +120,9 @@ ${_.phrase('', _.negu)}
 
 ${_.phrase('', _.adufi)}
 
-${_.phrase('bird-woman', _.nu.iwiN)}
+${_.phrase('bird-woman', _.nu.dwi)}
 
-${_.phrase('woman like a bird', _.nu, _.le.iwiN)}
+${_.phrase('woman like a bird', _.nu, _.le.dwi)}
 
 ### KAAL
 
@@ -147,11 +147,11 @@ ${_.phrase('woman like a bird', _.nu, _.le.iwiN)}
 
 ${_.phrase('Vreau să te sărut', _.o.nau, _.o.la.n, _.ti.m)}
 
-${_.phrase('vreau să mă săruți', _.o.nau, _.i.la.n, _.to.m)}
+${_.phrase('vreau să mă săruți', _.o.nau, _.i.la.n, _.mo.m)}
 
 ${_.phrase('Sărută-mi buzele!', _.la.imp, _.la.m, _.$excl)}
 
-${_.phrase('Îmbrățișează-mi inima!', _.rumi.imp, _.to.zu.m, _.$excl)}
+${_.phrase('Îmbrățișează-mi inima!', _.rumi.imp, _.mo.zu.m, _.$excl)}
 
 ### 2023-09-06
 
@@ -170,7 +170,7 @@ ${_.phrase('I kiss your vulva gently.', _.o.la, _.ti.yin.m, _.si.lo)}
 ${_.phrase(
   'Be my joy, the one that can only be whispered.',
   _.e,
-  _.to.yu,
+  _.mo.yu,
   _.a.s,
   _.nur,
   _.es.a.gilapa.n

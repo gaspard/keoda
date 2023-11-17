@@ -14,7 +14,7 @@ export const noda = _.word('noda', {
 
 export const noto = _.word('noto', {
   noun: 'older brother/wind',
-  etym: () => [_.no, _.oto],
+  etym: () => [_.no, _.to],
   see: () => [_.duto, _.noda],
 })
 
@@ -26,7 +26,7 @@ export const nonu = _.word('nonu', {
 
 export const nowi = _.word('nowi', {
   noun: 'older enby/bird',
-  etym: () => [_.no, _.iwi],
+  etym: () => [_.no, _.wi],
   see: () => [_.duwi, _.noda],
 })
 

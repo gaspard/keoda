@@ -6,10 +6,10 @@ export const hurt = _.card('zz - song "HURT"', {
   desc: () => `
 ${_.phrase('Something happened.', __.pena, _.a.e.em, $)}
 ${_.phrase('The earth split under my feet', __.gana, _.a.xos.em, _.ir.sam)}
-${_.phrase('and cut me in half.', _.shu, _.a.tifi, _.ruP.de.to.m, $)}
+${_.phrase('and cut me in half.', _.shu, _.a.tifi, _.ruP.de.mo.m, $)}
 ${_.phrase(
   'My heart sank so deep I lost it.',
-  __.zu.to.$cap,
+  __.zu.mo.$cap,
   _.a.yau.em,
   _.si.yau,
   _.qu,

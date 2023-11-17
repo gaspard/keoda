@@ -7,7 +7,7 @@ export const fa = _.word('fa', {
   desc: () => `
 ${_.phrase('Show your eyes (partially).', _.guwu, _.fa.m)}
 
-${_.phrase('Look at my hand.', _.fa, _.ma.to.m)}
+${_.phrase('Look at my hand.', _.fa, _.ma.mo.m)}
 `,
 })
 

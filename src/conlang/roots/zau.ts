@@ -14,5 +14,5 @@ export const pizau = _.word('pizau', {
   verb: 'to burn the ego',
   desc: () => `Initiation`,
   etym: () => [_.pi, _.ju],
-  see: () => [_.iwiju],
+  see: () => [_.dwiju],
 })

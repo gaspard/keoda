@@ -44,7 +44,7 @@ export const gau = _.word('gau', {
   etym: () => [_.gau, _.u$],
   see: () => [_.gai],
   exam: () => [
-    _.phrase('Put your attention on my hand.', _.gau.imp, _.ma.to.m),
+    _.phrase('Put your attention on my hand.', _.gau.imp, _.ma.mo.m),
     _.phrase('Put your consciousness in your hand.', _.gai.imp, _.ma.ti.m),
   ],
 })

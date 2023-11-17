@@ -1,25 +1,44 @@
-import { prefix } from '../../zulapa'
+import { alt, prefix } from '../../zulapa'
 
-export const ta = prefix('ta', {
+export const sa = prefix('sa', {
   noun: 'they (singular)',
   cla: 'noun',
-  glo: 'POSS.**they**',
+  glo: '**they**',
+  sglo: 'POSS.**them**',
+  scla: 'noun',
 })
 
-prefix('tam', {
-  id: 'ta-m',
-  noun: 'their',
-  glo: '**them**.ACC',
+export const sasha = prefix('sasha', {
+  noun: 'they (PL)',
+  glo: '**their (PL)**',
+  sglo: 'POSS.**them (PL)**',
+  scla: 'noun',
 })
 
-prefix('tasha', {
-  id: 'ta-sha',
-  noun: 'their (PL)',
-  glo: 'POSS.**they (PL)**',
+alt('sam', {
+  alt: () => sa,
+  id: 'sa-m',
+  noun: 'them',
+  glo: '**they**.ACC',
 })
 
-prefix('tasham', {
-  id: 'ta-sha-m',
-  noun: 'them (PL)',
-  glo: '**them.PL**.ACC',
+alt('sawim', {
+  alt: () => sa,
+  id: 'sa-wi-m',
+  noun: 'them-enby',
+  glo: '**they**.NB.ACC',
+})
+
+alt('sanum', {
+  alt: () => sa,
+  id: 'sa-nu-m',
+  noun: 'her',
+  glo: '**they**.FEM.ACC',
+})
+
+alt('satom', {
+  alt: () => sa,
+  id: 'sa-to-m',
+  noun: 'him',
+  glo: '**they**.FEM.ACC',
 })

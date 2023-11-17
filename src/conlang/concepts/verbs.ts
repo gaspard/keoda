@@ -156,7 +156,7 @@ For example:
 
 #### nsfw
 
-* ${_.phrase('My pussy will be licked.', _.yin.to, _.es.a.qeli.ir)}
+* ${_.phrase('My pussy will be licked.', _.yin.mo, _.es.a.qeli.ir)}
 
 ## Continuous aspect ${_.lu}
 
@@ -187,7 +187,7 @@ a verb or noun into a locus, a situation.
 
 * ${_.phrase(
     'My pussy will be licked (continuously).',
-    _.yin.to,
+    _.yin.mo,
     _.es.a.lu.qeli.ir
   )}
 

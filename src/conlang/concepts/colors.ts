@@ -10,7 +10,7 @@ export const colors = _.card('colors', {
 * ${_.adjRef(_.pon)}
 * ${_.adjRef(_.piu)}
 * ${_.adjRef(_.fio)}
-* ${_.adjRef(_.wi)}
+* ${_.adjRef(_.kwi)}
 
 `,
 })

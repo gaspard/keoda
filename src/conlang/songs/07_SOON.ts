@@ -6,7 +6,7 @@ export const soon = _.card('zz - song "SOON"', {
   desc: () => `
 ${_.phrase(
   'My hand walks on your skin,',
-  __.ma.to,
+  __.ma.mo,
   _.a.sam,
   _.fe.noa.ti,
   _.$comma
@@ -15,7 +15,7 @@ ${_.phrase('exploring your land.', _.u.lu.junu, _.ti.noadun.m, $)}
 ${_.phrase(
   'I lose my way in your inner thighs,',
   __.es.o.eshu,
-  _.adja.to.m,
+  _.adja.mo.m,
   _.ro.jobaj.wu,
   _.ti.m,
   _.$comma
@@ -33,7 +33,7 @@ ${_.phrase('My soil lighter as you play clouds, rain and walking animals.')}
 
 ${_.phrase(
   'My soil becomes lighter as you play clouds, rain and walking animals',
-  _.so.to,
+  _.so.mo,
   _.es.a.lu.xim,
   _.le.sis,
   _.eku,

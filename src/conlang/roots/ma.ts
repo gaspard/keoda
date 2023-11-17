@@ -45,7 +45,7 @@ export const mu = _.word('mu', {
   verb: 'to pull',
   adj: 'exhausted',
   etym: () => [_.ma, _.u$],
-  see: () => [_.mi, _.mo],
+  see: () => [_.mi, _.mado],
 })
 
 export const malam = _.word('malam', {
@@ -56,12 +56,12 @@ export const malam = _.word('malam', {
 // sur les fesses, les jambes font les ailes du papillon, les pieds ensemble
 export const miwi = _.word('miwi', {
   noun: 'butterfly',
-  etym: () => [_.mi, _.iwi],
+  etym: () => [_.mi, _.wi],
 })
 
 export const masa = _.word('masa', {
   noun: 'shovel',
-  etym: () => [_.ma, _.sa],
+  etym: () => [_.ma, _.sax],
 })
 
 export const masali = _.word('masali', {

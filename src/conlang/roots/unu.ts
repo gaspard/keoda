@@ -1,6 +1,12 @@
 import * as _ from '../lang'
 
-// unu
+export const unnu = _.word('unnu', {
+  noun: 'tree',
+  see: () => [_.unu, _.plants],
+  pos: 'cowgirl',
+  desc: () =>
+    `The position means "tree-like" because the legs are like roots and the torso, arms and hair represent the trunk and branches.`,
+})
 
 export const yunu = _.word('yunu', {
   noun: 'crone',
@@ -9,7 +15,7 @@ export const yunu = _.word('yunu', {
 
 export const tanu = _.word('tanu', {
   noun: 'she',
-  etym: () => [_.ta.nu],
+  etym: () => [_.sa.nu],
 })
 
 // unuT

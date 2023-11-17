@@ -130,7 +130,7 @@ To actually say "me", we use ${_.pi}.
 * ${_.linkAndGlo(_.yi)}: diminutive, tiny
 * ${_.linkAndGlo(_.kei)}: honorific, Dom
 * ${_.linkAndGlo(_.lo)}: surrendered, submissive
-* ${_.linkAndGlo(_.iwi)}: non-binary
+* ${_.linkAndGlo(_.wi)}: non-binary
 * ${_.linkAndGlo(_.m)}: accusitive
 * ${_.linkAndGlo(_.paM)}: mystical modifier (from numinous to delirious)
 
@@ -148,7 +148,7 @@ Modifiers are in italic (whether in-word or as separate words).
 
 So here is ${_.zulapa} a language born in the realm of sexuality, evolved as a
 way of coping through mental illness and dysphoria and blossomed as a way to
-sing my love of this journey ${_.iwiju}...
+sing my love of this journey ${_.dwiju}...
 
 ❤️️
 

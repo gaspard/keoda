@@ -1,12 +1,12 @@
 import * as _ from '../lang'
 
-export const wi = _.word('wi', {
+export const kwi = _.word('kwi', {
   adj: 'prun (color)',
   see: () => [_.colors],
 })
 
-export const wiyon = _.word('wiyon', {
+export const kwiyin = _.word('kwiyin', {
   noun: 'prune, September',
-  etym: () => [_.wi, _.yin],
+  etym: () => [_.kwi, _.yin],
   see: () => [_.fruits, _.seasons],
 })

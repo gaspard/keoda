@@ -4,6 +4,6 @@ export const mi = _.word('mi', {
   noun: 'gentle hand',
   verb: 'to caress',
   etym: () => [_.ma, _.i$],
-  see: () => [_.mo, _.mu],
+  see: () => [_.mado, _.mu],
   desc: () => `${_.phrase('Give me a hug.', _.mi, _.au)}`,
 })

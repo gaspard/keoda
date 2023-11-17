@@ -15,7 +15,7 @@ export const animals = _.card('animals', {
 * ${_.nounRef(_.gosheu)}
 * ${_.nounRef(_.hapan)}
 * ${_.nounRef(_.iwa)}
-* ${_.nounRef(_.iwi)}
+* ${_.nounRef(_.wi)}
 * ${_.nounRef(_.kadu)}
 * ${_.nounRef(_.qawi)}
 * ${_.nounRef(_.qelo)}

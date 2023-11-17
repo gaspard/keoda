@@ -43,7 +43,7 @@ ${_.phraseX(
   'I want you to vagina-hold my penis.',
   _.o.ora,
   _.i.yuru.n,
-  _.to.taj.m
+  _.mo.taj.m
 )}
 
 ### Manipulatives
@@ -54,7 +54,7 @@ ${_.phraseX('She made me fall.', _.nu, _.a.maxim.em, _.o.thato.n)}
 
 ### Perception
 
-${_.phrase('I saw them undressing.', _.o.fa.em, _.ta.sha.m, _.le.u.lu.nefe)}
+${_.phrase('I saw them undressing.', _.o.fa.em, _.sa.sha.m, _.le.u.lu.nefe)}
 
 ### 'before/after' relativisation
 

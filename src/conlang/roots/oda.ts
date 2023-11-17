@@ -18,11 +18,11 @@ export const xinu = _.word('xinu', {
 })
 export const xiwi = _.word('xiwi', {
   noun: 'enby sibling',
-  etym: () => [_.xim, _.iwi],
+  etym: () => [_.xim, _.wi],
   see: () => [_.family],
 })
 export const xito = _.word('xito', {
   noun: 'brother',
-  etym: () => [_.xim, _.oto],
+  etym: () => [_.xim, _.to],
   see: () => [_.family],
 })

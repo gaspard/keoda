@@ -41,7 +41,7 @@ ${_.phrase(
   "Qui l'observent avec des regards familiers.",
   _.le,
   _.sha.fa.gi,
-  _.fu.ta.m
+  _.fu.sa.m
 )}
 
 ${_.phrase(

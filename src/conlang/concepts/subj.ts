@@ -89,6 +89,12 @@ indefinite sense. It is part royal and part modesty.
 * ${_.linkAndGlo(_.o)}
 * ${_.linkAndGlo(_.o.kei)}
 
+With genders
+
+* ${_.linkAndGlo(_.o.wi)}
+* ${_.linkAndGlo(_.o.nu)}
+* ${_.linkAndGlo(_.o.to)}
+
 ### every
 
 * ${_.linkAndGlo(_.o.qa)}
@@ -117,6 +123,12 @@ indefinite sense. It is part royal and part modesty.
 * ${_.linkAndGlo(_.i.yi)}
 * ${_.linkAndGlo(_.i.lo)}
 
+With genders
+
+* ${_.linkAndGlo(_.i.wi)}
+* ${_.linkAndGlo(_.i.nu)}
+* ${_.linkAndGlo(_.i.to)}
+
 ### you (plural)
 
 * ${_.linkAndGlo(_.shi)}
@@ -130,6 +142,12 @@ indefinite sense. It is part royal and part modesty.
 * ${_.linkAndGlo(_.a.kei)}
 * ${_.linkAndGlo(_.a.yi)}
 * ${_.linkAndGlo(_.a.lo)}
+
+With genders
+
+* ${_.linkAndGlo(_.a.wi)}
+* ${_.linkAndGlo(_.a.nu)}
+* ${_.linkAndGlo(_.a.to)}
 
 ### some of them
 
@@ -161,7 +179,7 @@ ${_.wu} is used as suffix to introduce a noun phrase clarifying possessivity.
 or
 
 * ${_.phrase('hand of you', _.ma.wu, _.ti)}
-* ${_.phrase('Our hand covers your skin.', _.to.ma, _.a.fe, _.noa.ti.m)}
+* ${_.phrase('Our hand covers your skin.', _.mo.ma, _.a.fe, _.noa.ti.m)}
 
 The \`/m/\` endings are the 'mood' markings (accusative). See ${_.acc}.
 
@@ -171,8 +189,8 @@ When specifying the recipient of an action, we use ${_.ni} (arrow) as prefix
 on the subject. You can understand this prefix as something in the line of
 "to/of".
 
-* ${_.phrase('Massage us.', _.mi.imp, _.ni.to)}
-* ${_.phrase('Massage them.', _.mi.imp, _.ni.ta)}
+* ${_.phrase('Massage us.', _.mi.imp, _.ni.mo)}
+* ${_.phrase('Massage them.', _.mi.imp, _.ni.sa)}
 
 There are other prefix that can be used such as ${_.fe} (on), ${_.ro} (in)
 and so on: ${_.prep}.
@@ -203,18 +221,18 @@ To express gender, we use the possessive 'your', 'their', etc and the noun that
 most closely expresses the desired notion. Note that the verb is accorded to the
 possessive argument. Here are some examples:
 
-* ${_.phrase('You-enby walk.', _.ti.iwi, _.i.lipa)}
-* ${_.phrase('She sings.', _.ta.nu, _.a.lipa)}
-* ${_.phrase('They-men talk.', _.ta.sha.oto, _.sho.lapa)}
-* ${_.phrase('She loves me.', _.ta.nu, _.a.zu, _.pi.m)}
+* ${_.phrase('You-enby walk.', _.ti.wi, _.i.lipa)}
+* ${_.phrase('She sings.', _.sa.nu, _.a.lipa)}
+* ${_.phrase('They-men talk.', _.sa.sha.to, _.sho.lapa)}
+* ${_.phrase('She loves me.', _.sa.nu, _.a.zu, _.pi.m)}
 
 Note that we also have words to express gendered-bodies and these (like any
 noun) can be used as subjects or "targets" in phrases but they then accord as
 an indefinite 'person' as if we would say 'someone', 'some girl', etc.
 
-* ${_.iwi.da} (enby-person)
+* ${_.wi.da} (enby-person)
 * ${_.nu.da} (female-person)
-* ${_.oto.da} (male-person)
+* ${_.to.da} (male-person)
 
 Your next read: ${_.evolution} (how things evolved)
 `,

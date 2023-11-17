@@ -75,7 +75,7 @@ Latin copula ("connection, linking of words"), from co- ("together") +‎ apere
 This means that instead of saying "She is beautiful", we would say "She is
 being beautified" (passive continuous tense):
 
-* ${_.phrase('She is beautiful.', _.ta.nu, _.es.a.lu.awi)}
+* ${_.phrase('She is beautiful.', _.sa.nu, _.es.a.lu.awi)}
 
 This highlights the fact that most things in
 life happen to us without much agency on our side (one of the reasons why we

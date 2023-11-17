@@ -60,12 +60,12 @@ export const thanu = _.word('thanu', {
 
 export const thawi = _.word('thawi', {
   noun: 'enby parent',
-  etym: () => [_.tha, _.iwi],
+  etym: () => [_.tha, _.wi],
   see: () => [_.family],
 })
 
 export const thato = _.word('thato', {
   noun: 'father',
-  etym: () => [_.tha, _.oto],
+  etym: () => [_.tha, _.to],
   see: () => [_.family],
 })

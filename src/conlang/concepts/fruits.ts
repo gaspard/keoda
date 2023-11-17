@@ -12,7 +12,7 @@ Existing fruits are:
 * ${_.nounRef(_.pantame)}
 * ${_.nounRef(_.pona)}
 * ${_.nounRef(_.ponale)}
-* ${_.nounRef(_.wiyon)}
+* ${_.nounRef(_.kwiyin)}
 * ${_.nounRef(_.palapon)}
 
 `,

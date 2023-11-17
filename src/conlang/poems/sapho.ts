@@ -14,7 +14,7 @@ ${_.phrase(
   _.peda.m,
   _.eku,
   _.a.lemegu,
-  _.to.m
+  _.mo.m
 )}
 
 ## Poem from her youth:
@@ -25,7 +25,7 @@ ${_.phrase(
   _.wa,
   _.leiruo,
   _.a.goweis.em,
-  _.ga.to.m
+  _.ga.mo.m
 )}
 
 ${_.phrase('Like the mountain hurricane', _.si, _.xurakan, _.dao, _.gosoa)}
@@ -65,7 +65,7 @@ ${_.phrase(
   _.qu
 )}
 
-${_.phrase('Mon cœur bat sur mes lèvres', _.au.to, _.a.fo, _.la.to.m)}
+${_.phrase('Mon cœur bat sur mes lèvres', _.au.mo, _.a.fo, _.la.mo.m)}
 
 Et ma gorge s'étrangle.  
 La chaleur et le froid tour à tour m'envahissent,  

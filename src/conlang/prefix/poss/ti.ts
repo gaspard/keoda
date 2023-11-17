@@ -1,23 +1,21 @@
-import { prefix } from '../../zulapa'
+import { alt, prefix } from '../../zulapa'
 
-// TODO: how do we fix the confusion between "you" and "your" ?
-// ti = you, tim = you.ACC
-// mati = hand of you
-// tima = your hand
 export const ti = prefix('ti', {
   noun: 'you',
   // glo: 'POSS.you',
   cla: 'noun',
 })
 
-prefix('tishi', {
-  id: 'ti-shi',
-  noun: 'their (PL)',
-  glo: 'POSS.**you.PL**',
+export const tishi = prefix('tishi', {
+  noun: 'you (PL)',
+  glo: '**your**',
+  sglo: 'POSS.**you**',
+  scla: 'noun',
 })
 
-prefix('tishim', {
-  id: 'ti-shi-m',
-  noun: 'you (PL)',
-  glo: '**you.PL**.ACC',
+alt('tim', {
+  alt: () => ti,
+  id: 'ti-m',
+  noun: 'you',
+  glo: '**you**.ACC',
 })

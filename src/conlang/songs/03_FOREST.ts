@@ -29,7 +29,7 @@ ${_.phrase('made of wood.', _.mei.nam, $)}
 
 ${_.phrase('You will burn to ashes.', __.i.zau.ir, _.ru.qenam, $)}
 ${_.phrase('Your words, your story', __.ti.ganek, _.ti.agi)}
-${_.phrase('remembered in my flesh.', _.es.sha.ji, _.ro.to.yaunoa, $)}
+${_.phrase('remembered in my flesh.', _.es.sha.ji, _.ro.mo.yaunoa, $)}
 
 ${_.phrase(
   'I am the book, capturing',
@@ -60,7 +60,7 @@ ${_.phrase('surrounded by life', _.ota.adj, _.fu.gu)}
 ${_.phrase('that you take,', _.a.s.m, _.i.hajo)}
 ${_.phrase('to become.', _.ibu, _.u.ru, $)}
 
-${_.phrase('You owe me', __.i.wu.verb, _.ni.to)}
+${_.phrase('You owe me', __.i.wu.verb, _.ni.mo)}
 ${_.phrase('you.', _.ti.m, $)}
 
 ${_.phrase('I am time,', __.o.e, _.lei.noun, _.$comma)}

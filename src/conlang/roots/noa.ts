@@ -24,7 +24,7 @@ ${_.phrase('I feel (thank) them.', _.o.nomy, _.a.m)}
 And if we are grateful for something in particular, the "something" is either a noun
 (accusative) or an action becoming a noun (subordinate):
 
-${_.phrase('I thank them for their kindness.', _.o.nomy, _.ta.gi.m)}
+${_.phrase('I thank them for their kindness.', _.o.nomy, _.sa.gi.m)}
 
 Or
 

@@ -24,7 +24,7 @@ ${_.phrase('out', _.ri.pa, $)}
 
 ${_.phrase('I am the door', __.o.e, _.jaja)}
 ${_.phrase('to the rain', _.ru.gai, _.$comma)}
-${_.phrase('to the birds', _.ru.iwi, _.$comma)}
+${_.phrase('to the birds', _.ru.wi, _.$comma)}
 ${_.phrase('to the songs', _.ru.lapa)}
 
 ${_.phrase('out...', _.ri.pa, $)}
@@ -45,7 +45,7 @@ ${_.phrase('out...', _.ri.pa, $)}
 
 ${_.phrase('You are Aima,', __.i.e, Aima, _.$comma)}
 ${_.phrase('the large wings', _.xi.kis)}
-${_.phrase('behind me', _.no.to)}
+${_.phrase('behind me', _.no.mo)}
 ${_.phrase('to fly', _.ibu, _.u.meshe)}
 
 ${_.phrase('In', _.ro.pa)}
@@ -53,7 +53,7 @@ ${_.phrase('In', _.ro.pa)}
 ${_.phrase('In', _.ro.pa, $)}
 
 ${_.phrase('I need', __.o.xis)}
-${_.phrase('you my love', _.ti, _.zu.to)}
+${_.phrase('you my love', _.ti, _.zu.mo)}
 ${_.phrase('to listen', _.i.agu.n)}
 ${_.phrase('and let us', _.shu, _.i.loqu.n)}
 

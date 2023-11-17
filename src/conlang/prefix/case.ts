@@ -10,8 +10,8 @@ export const fu = prefix('fu', {
   scla: 'noun',
   join: '',
   exam: () => [
-    _.phraseX('Taker of life.', _.fu.hajo, _.to.gui),
-    _.phraseX('Giver of life.', _.fu.guwu, _.to.gui),
+    _.phraseX('Taker of life.', _.fu.hajo, _.mo.gui),
+    _.phraseX('Giver of life.', _.fu.guwu, _.mo.gui),
   ],
 })
 
@@ -148,8 +148,8 @@ export const kei = prefix('kei', {
   noun: 'Master',
   adj: 'fantastic',
   suff: 'fantastic',
-  glo: 'HON',
-  desc: () => `HON: Honorific mode.`,
+  glo: 'MASTER',
+  desc: () => `Honorific mode.`,
 })
 
 // part of subject => prefix and suffix

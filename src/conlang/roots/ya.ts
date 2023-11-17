@@ -18,7 +18,7 @@ export const yaonagi = _.word('yaonagi', {
 // À genoux, position de méditation le regard au loin
 export const iwa = _.word('iwa', {
   noun: 'owl',
-  etym: () => [_.iwi, _.ya],
+  etym: () => [_.wi, _.ya],
 })
 
 export const yafa = _.word('yafa', {

@@ -41,13 +41,13 @@ On the vertical plane:
 
 And now all these terms can be cased with one of the three genders:
 
-* ${_.iwi} (bird)
+* ${_.wi} (bird)
 * ${_.nu} (tree)
-* ${_.oto} (wind)
+* ${_.to} (wind)
 
 ## ${_.xida} (siblings)
 
-|           | ${_.nu} | ${_.iwi} | ${_.oto} |
+|           | ${_.nu} | ${_.wi} | ${_.to} |
 | :----     | :------: | :------: | :-------: |
 | ${_.duda} | ${_.dunu}| ${_.duwi}| ${_.duto} |
 | ${_.xida} | ${_.xinu}| ${_.xiwi}| ${_.xito} |
@@ -62,7 +62,7 @@ younger or elderly):
 
 ## ${_.thada} (parent) / ${_.joda} (child)
 
-|           | ${_.nu}  | ${_.iwi}  | ${_.oto}  |
+|           | ${_.nu}  | ${_.wi}  | ${_.to}  |
 | :----     | :------:  | :------:  | :-------: |
 | ${_.thada} | ${_.thanu} | ${_.thawi} | ${_.thato} |
 | ${_.joda} | ${_.jonu} | ${_.jowi} | ${_.joto} |

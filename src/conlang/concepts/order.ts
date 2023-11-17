@@ -98,7 +98,7 @@ ${_.phrase(
   'Iris shows her eyes to Jane.',
   _.Iris,
   _.a.guwu,
-  _.fa.ta.m,
+  _.fa.sa.m,
   _.ni.Jane
 )}
 

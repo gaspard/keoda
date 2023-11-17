@@ -14,7 +14,7 @@ export const duda = _.word('duda', {
 
 export const duto = _.word('duto', {
   noun: 'small brother/wind',
-  etym: () => [_.du, _.oto],
+  etym: () => [_.du, _.to],
   see: () => [_.noto, _.duda],
 })
 
@@ -26,7 +26,7 @@ export const dunu = _.word('dunu', {
 
 export const duwi = _.word('duwi', {
   noun: 'small enby/bird',
-  etym: () => [_.du, _.iwi],
+  etym: () => [_.du, _.wi],
   see: () => [_.nowi, _.duda],
 })
 

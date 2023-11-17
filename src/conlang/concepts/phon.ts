@@ -77,13 +77,13 @@ Random examples of consonant clusters (to train speaking):
 | ll   | /ll/ | ${_.phrase('Diarrhea.', _.pal.lam)} |
 | sk   | /sk/ | ${_.phrase('Total storm.', _.xos.kal)} |
 | sq   | /sq/ | ${_.phrase('Open to everything.', _.xos.qa)} |
-| st  | /st/ | ${_.phrase('Their trust.', _.xos.ta)} |
+| st  | /st/ | ${_.phrase('Their trust.', _.xos.sa)} |
 | tht  | /θt/ | ${_.phrase('Bean-script (?).', _.doth.tana)} |
 | shk  | /ʃk/ | ${_.phrase('Welcoming Master.', _.ish.kei)} |
 | shq  | /ʃq/ | ${_.phrase('Welcoming everything.', _.ish.qa)} |
-| sht  | /ʃt/ | ${_.phrase('Their acceptance.', _.ish.ta)} |
+| sht  | /ʃt/ | ${_.phrase('Their acceptance.', _.ish.sa)} |
 | kt  | /kt/ | ${_.phrase('Your shell (secrets).', _.dak.ti)} |
-| nt  | /nt/ | ${_.phrase('Their elbow.', _.wen.ta)} |
+| nt  | /nt/ | ${_.phrase('Their elbow.', _.wen.sa)} |
 | ms  | /ms/ | ${_.phrase('Left foot.', _.sam.se)} |
 | pp  | /pp/ | ${_.phrase('To jump everywhere (to be a fool).', _.qap.pa)} |
 | pt  | /pt/ | ${_.phrase('Jumping penis', _.qap.adj.taj)} |
@@ -97,7 +97,7 @@ ${_.phrase('Kiss me gently.', _.la.i$.imp, _.la)}.
 For other cases, we use \`h\` when joining a prefix, \`n\` to join /y/ and \`l\` when joining a
 suffix:
 
-${_.phrase('I love my body.', _.o.au, _.to.oda.m)}.
+${_.phrase('I love my body.', _.o.au, _.mo.oda.m)}.
 
 ${_.phrase('Face dance (to laugh).', _.dutha.yi)}.
 

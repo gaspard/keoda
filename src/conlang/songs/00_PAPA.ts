@@ -37,7 +37,7 @@ ${_.phrase(
 ${_.phrase('doing a dance so wild', _.sha.lu.meny, _.go.lat)}
 ${_.phrase('their songs unite.', __.qu, _.lapa.tij, _.sha.pixim, $)}
 
-${_.phrase('I search for wisdom in movement', __.o.mapa, _.gufi.m, _.ro.oto)}
+${_.phrase('I search for wisdom in movement', __.o.mapa, _.gufi.m, _.ro.to)}
 ${_.phrase(
   'but only find joy and despair',
   _.neshu,
@@ -49,8 +49,8 @@ ${_.phrase(
 ${_.phrase('doing a dance so wild', _.sha.lu.meny, _.go.lat)}
 ${_.phrase('their songs unite.', _.qu, _.lapa.tij, _.sha.pixim, $)}
 
-${_.phrase('My daughter,', __.jonu.to, _c)}
-${_.phrase('wanting to call me daddy', _.lu.nesau, _.u.senu.n, _.to.m, _.baba)}
+${_.phrase('My daughter,', __.jonu.mo, _c)}
+${_.phrase('wanting to call me daddy', _.lu.nesau, _.u.senu.n, _.mo.m, _.baba)}
 ${_.phrase('makes me fall', _.a.maxim, _.o.thafo.n)}
 ${_.phrase('to darkness.', _.ni.def, _.gu, $)}
 
@@ -61,7 +61,7 @@ ${_.phrase('unknown.', _.le.don, $)}
 
 ${_.phrase('Terror eats me whole', __.gu, _.a.liu, _.pi.m)}
 ${_.phrase('without you.', _.sau.ti, $)}
-${_.phrase('Words blank me', __.ganek, _.a.sauxu, _.to.m)}
+${_.phrase('Words blank me', __.ganek, _.a.sauxu, _.mo.m)}
 ${_.phrase('to insanity,', _.ni.def, _.nega, _c)}
 
 ${_.phrase('without you,', _.sau.ti, _c)}
@@ -72,7 +72,7 @@ ${_.phrase('without you.', __.sau.ti, $)}
 ${_.phrase('I am nothing,', __.o.e, _.nena, _c)}
 ${_.phrase('an abyss,', _.nepa, _c)}
 ${_.phrase('without your difference', _.sau.nemeo.ti)}
-${_.phrase('making me small', _.a.lu.maxim, _.to.lil.m, $)}
+${_.phrase('making me small', _.a.lu.maxim, _.mo.lil.m, $)}
 
 ${_.phrase('Contained.', __.qurum, $)}
 ${_.phrase('Contained.', __.qurum, $)}
@@ -84,8 +84,8 @@ ${_.phrase('unknown,', _.le.don, _c)}
 ${_.phrase('so vast,', _.go.dar, _c)}
 ${_.phrase('unknown.', _.le.don, $)}
 
-${_.phrase('My child,', _.joda.to, _c)}
-${_.phrase('my love', _.auna.to)}
+${_.phrase('My child,', _.joda.mo, _c)}
+${_.phrase('my love', _.auna.mo)}
 ${_.phrase('questioning', _.lu.lapu)}
 ${_.phrase('everything.', _.qapa, $)}
 

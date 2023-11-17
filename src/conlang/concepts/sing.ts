@@ -43,7 +43,7 @@ ${_.block(
   },
   {
     t: 'I look in my eyes and I see her.',
-    p: [_.o.fa, _.fa.to.m, _.qu, _.o.fa, _.nu.m],
+    p: [_.o.fa, _.fa.mo.m, _.qu, _.o.fa, _.nu.m],
   },
   {
     t: 'When will he go ?',
@@ -55,15 +55,15 @@ ${_.block(
   },
   {
     t: 'He took my voice.',
-    p: [_.oto, _.a.hajo.emu, _.to.lapa.m],
+    p: [_.to, _.a.hajo.emu, _.mo.lapa.m],
   },
   {
     t: '... my long hair everywhere.',
-    p: [_.to.ji.uki.pa.m],
+    p: [_.mo.ji.uki.pa.m],
   },
   {
     t: '... my place in life everywhere.',
-    p: [_.to.leirumi.pa.m],
+    p: [_.mo.leirumi.pa.m],
   }
 )}
 
@@ -96,11 +96,11 @@ ${_.block(
   },
   {
     t: 'You are my little daughter, you are my child.',
-    p: [_.i.e, _.to.jonu.lil.m, _.i.e, _.to.joda.m],
+    p: [_.i.e, _.mo.jonu.lil.m, _.i.e, _.mo.joda.m],
   },
   {
     t: 'I love you, you are my life.',
-    p: [_.o.zu, _.ti.m, _.i.e, _.em.to.m],
+    p: [_.o.zu, _.ti.m, _.i.e, _.em.mo.m],
   },
   {
     t: "Please don't forget me like I forgot you.",
@@ -112,11 +112,11 @@ ${_.block(
   },
   {
     t: 'It took me so long to give you my life.',
-    p: [_.es.o.gu.em, _.si.uki, _.ibu, _.u.guwu, _.ni.ti, _.em.to.m],
+    p: [_.es.o.gu.em, _.si.uki, _.ibu, _.u.guwu, _.ni.ti, _.em.mo.m],
   },
   {
     t: 'Forgive me.',
-    p: [_.pahau.imp, _.ni.to],
+    p: [_.pahau.imp, _.ni.mo],
   },
   {
     t: 'I love you.',
@@ -124,7 +124,7 @@ ${_.block(
   },
   {
     t: 'You are my heart.',
-    p: [_.i.e, _.zu.to.m],
+    p: [_.i.e, _.zu.mo.m],
   },
   {
     t: 'Please remember that I loved you.',
@@ -242,8 +242,8 @@ ${_.phrase(
   )}
 * ${_.phrase(/* 'We are growing' */ 'We are being grown', _.es.sho.lu.xim)}
 * ${_.phrase('Into fear and hatred', _.peu.m, _.shu, _.nepi.m)}
-* ${_.phrase('Our hearts are closing', _.au.tosho, _.sha.lu.dak)}
-* ${_.phrase('Our minds are foggy.', _.ga.tosho, _.sha.nashapa)}
+* ${_.phrase('Our hearts are closing', _.au.mosho, _.sha.lu.dak)}
+* ${_.phrase('Our minds are foggy.', _.ga.mosho, _.sha.nashapa)}
 
 * ${_.phrase('You don’t have a future here.', _.i.sausu, _.ir.m, _.sen)}
 

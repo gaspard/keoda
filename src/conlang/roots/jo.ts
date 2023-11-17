@@ -43,12 +43,12 @@ export const jonu = _.word('jonu', {
 
 export const jowi = _.word('jowi', {
   noun: 'enby child',
-  etym: () => [_.jo, _.iwi],
+  etym: () => [_.jo, _.wi],
   see: () => [_.family],
 })
 
 export const joto = _.word('joto', {
   noun: 'son',
-  etym: () => [_.jo, _.oto],
+  etym: () => [_.jo, _.to],
   see: () => [_.family],
 })

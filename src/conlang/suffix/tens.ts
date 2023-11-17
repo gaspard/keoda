@@ -46,7 +46,7 @@ export const ir = prefix('ir', {
   sglo: 'FUT',
   desc: () => `Also means 'future'.`,
   see: () => [_.verbs],
-  exam: () => [_.phraseX('Come under me.', _.ir.odu.imp, _.to.m)],
+  exam: () => [_.phraseX('Come under me.', _.ir.odu.imp, _.mo.m)],
 })
 
 export const em = _.suffix('em', {

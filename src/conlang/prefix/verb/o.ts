@@ -1,4 +1,4 @@
-import { prefix } from '../../zulapa'
+import { alt, prefix } from '../../zulapa'
 
 export const o = prefix('o', {
   noun: 'indefinite me/us',
@@ -6,31 +6,40 @@ export const o = prefix('o', {
   cla: 'verb',
 })
 
-// ========= Pure glossing fix =======
-
-prefix('opi', {
+alt('opi', {
+  alt: () => o,
   id: 'o-pi',
   noun: 'I',
-  adj: 'I',
   glo: 'I',
   cla: 'verb',
 })
 
-prefix('oyi', {
+alt('okei', {
+  alt: () => o,
+  id: 'o-kei',
+  noun: 'us-master',
+  glo: 'I.MASTER',
+  cla: 'verb',
+})
+
+alt('oyi', {
+  alt: () => o,
   id: 'o-yi',
   noun: 'I-tiny',
   glo: 'I.TINY',
   cla: 'verb',
 })
 
-prefix('olo', {
+alt('olo', {
+  alt: () => o,
   id: 'o-lo',
   noun: 'I-wet',
   glo: 'I.WET',
   cla: 'verb',
 })
 
-prefix('ode', {
+alt('ode', {
+  alt: () => o,
   id: 'o-de',
   noun: 'us two',
   adj: 'us two',
@@ -38,10 +47,35 @@ prefix('ode', {
   cla: 'verb',
 })
 
-prefix('oka', {
+alt('oka', {
+  alt: () => o,
   id: 'o-ka',
   noun: 'us all',
   adj: 'us all',
   glo: 'we.EVERY',
+  cla: 'verb',
+})
+
+alt('owi', {
+  alt: () => o,
+  id: 'o-wi',
+  noun: 'I/we-enby',
+  glo: 'I/we.NB',
+  cla: 'verb',
+})
+
+alt('onu', {
+  alt: () => o,
+  id: 'o-nu',
+  noun: 'I/we-girl',
+  glo: 'I/we.FEM',
+  cla: 'verb',
+})
+
+alt('oto', {
+  alt: () => o,
+  id: 'o-to',
+  noun: 'I/we-boy',
+  glo: 'I/we.MASC',
   cla: 'verb',
 })
