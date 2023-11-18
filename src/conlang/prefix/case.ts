@@ -59,7 +59,7 @@ export const ni = prefix('ni', {
   pref: 'to',
   glo: 'DAT',
   desc: () => `To this person: dative case (DAT).`,
-  cla: 'def',
+  cla: 'noun',
   scla: 'noun',
 })
 

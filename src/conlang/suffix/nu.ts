@@ -1,5 +1,5 @@
 import * as _ from '../words'
-import { suffix, word } from '../zulapa'
+import { alt, suffix, word } from '../zulapa'
 
 export const nu = suffix('nu', {
   noun: 'feeling',
@@ -18,4 +18,11 @@ export const nuda = word('nuda', {
 export const yanu = word('yanu', {
   noun: 'crone',
   etym: () => [_.ya, _.nu],
+})
+
+alt('nutom', {
+  alt: () => _.to,
+  id: 'nu-to-m',
+  glo: 'FEM.**him**.ACC',
+  cla: 'noun',
 })

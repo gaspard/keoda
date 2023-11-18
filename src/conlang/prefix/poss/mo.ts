@@ -19,3 +19,11 @@ alt('mom', {
   noun: 'me/us',
   glo: '**me/us**.ACC',
 })
+
+export const nimo = alt('nimo', {
+  alt: () => mo,
+  id: 'ni-mo',
+  noun: 'me/us',
+  glo: 'DAT.**me/us**',
+  cla: 'noun',
+})

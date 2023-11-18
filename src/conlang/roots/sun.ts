@@ -1,6 +1,6 @@
 import * as _ from '../lang'
 
-export const sun = _.word('sun', {
+export const sux = _.word('sux', {
   noun: 'advice',
   verb: 'to advice',
 })

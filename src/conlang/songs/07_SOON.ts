@@ -33,7 +33,7 @@ ${_.phrase('My soil lighter as you play clouds, rain and walking animals.')}
 
 ${_.phrase(
   'My soil becomes lighter as you play clouds, rain and walking animals',
-  _.so.mo,
+  _.tso.mo,
   _.es.a.lu.xim,
   _.le.sis,
   _.eku,

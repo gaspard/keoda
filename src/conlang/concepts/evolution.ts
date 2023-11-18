@@ -348,15 +348,23 @@ differentiate between "hand" and "boy-hand" or "enby-hand" or "girl-hand" and sa
 with any verb, we can specify if the doer is masculine, feminine, non-binary or
 unspecified:
 
-* ${_.phrase('I love you', _.o.zu, _.ti.m)}
-* ${_.phrase('I-boy love you-girl', _.o.to.zu, _.ti.nu.m)}
-* ${_.phrase('I-girl love you-enby', _.o.nu.zu, _.ti.wi.m)}
-* ${_.phrase('I love you-boy', _.o.zu, _.ti.to.m)}
+* ${_.phrase('I love you.', _.o.zu, _.ti.m)}
+* ${_.phrase('I-boy love you-girl.', _.o.to.zu, _.ti.nu.m)}
+* ${_.phrase('I-girl love you-enby.', _.o.nu.zu, _.ti.wi.m)}
+* ${_.phrase('I love you-boy.', _.o.zu, _.ti.to.m)}
 
 We can also specify this on nouns:
 
 * ${_.phrase('Caress my boy-hand!', _.mi, _.mo.to.ma.m)}
 * ${_.phraseX('Girl-caress your boy-dick!', _.imp.nu.mi, _.ti.to.taj.m)}
 * ${_.phraseX('Boy-caress your girl-dick!', _.imp.to.mi, _.ti.nu.taj.m)}
+
+Examples with possessive and pronouns:
+
+* ${_.phrase('I love her.', _.o.zu, _.nu.m)}
+* ${_.phrase('She loves him.', _.nu, _.a.zu, _.to.m)}
+* ${_.phrase('He girl-looks at him.', _.to, _.a.nu.fani, _.to.m)}
+* ${_.phrase('I-boy caress girl-him.', _.o.to, _.o.mi, _.nu.to.m)}
+
 `,
 })

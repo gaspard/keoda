@@ -13,7 +13,7 @@ From [/r/conlangs](https://www.reddit.com/r/conlangs/comments/kzz8h8/translate_t
     _.eja,
     _.sho.kuru,
     _.fatan,
-    _.pasuna,
+    _.pasuxa,
     _.q
   )}
 * Calvin: ${_.phrase(

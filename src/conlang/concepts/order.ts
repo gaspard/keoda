@@ -98,25 +98,25 @@ ${_.phrase(
   'Iris shows her eyes to Jane.',
   _.Iris,
   _.a.guwu,
-  _.fa.sa.m,
+  _.sa.nu.fa.m,
   _.ni.Jane
 )}
 
 ${_.phrase(
-  'I always dream Iris and I make love to you.',
+  'I always dream Iris and me make love to you.',
   _.o.yafa.au,
   _.eku,
   _.Iris,
   _.shu,
-  _.oda,
+  _.mo,
   _.sho.zuzu,
   _.ti.m
 )}
 
-${_.phrase('They talk about John to me.', _.a.lapa, _.John.m, _.ni.oda)}
+${_.phrase('They talk about John to me.', _.a.lapa, _.John.m, _.ni.mo)}
 
 And in this one, "Jane" is the object of a preposition (the place where the
-all is thrown) and has no marking.
+ball is thrown) and has no marking.
 
 ${_.phrase(
   'John throws the ball at Jane',

@@ -1,4 +1,4 @@
-import { alt, prefix } from '../../zulapa'
+import { prefix } from '../../zulapa'
 
 export const ti = prefix('ti', {
   noun: 'you',
@@ -11,11 +11,4 @@ export const tishi = prefix('tishi', {
   glo: '**your**',
   sglo: 'POSS.**you**',
   scla: 'noun',
-})
-
-alt('tim', {
-  alt: () => ti,
-  id: 'ti-m',
-  noun: 'you',
-  glo: '**you**.ACC',
 })

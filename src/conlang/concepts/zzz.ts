@@ -47,7 +47,7 @@ ${_.phrase(
   _.bo.fulufi.ti.m
 )}
 
-${_.phrase('I have a peachy pajama.', _.o.su, _.yafe.m, _.le.palapon)}
+${_.phrase('I have a peachy pajama.', _.o.the, _.yafe.m, _.le.palapon)}
 
 ### 2023-02-11
 

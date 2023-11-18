@@ -245,7 +245,7 @@ ${_.phrase(
 * ${_.phrase('Our hearts are closing', _.au.mosho, _.sha.lu.dak)}
 * ${_.phrase('Our minds are foggy.', _.ga.mosho, _.sha.nashapa)}
 
-* ${_.phrase('You don’t have a future here.', _.i.sausu, _.ir.m, _.sen)}
+* ${_.phrase('You don’t have a future here.', _.i.sauthe, _.ir.m, _.sen)}
 
 * ${_.phrase('Leave your home, girl', _.odo.imp, _.muda.ti.m, _.nu.lil)}
 * ${_.phrase('Alone in the dark', _.done, _.le.pienu, _.ro.gu)}
