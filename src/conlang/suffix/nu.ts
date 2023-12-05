@@ -1,11 +1,20 @@
 import * as _ from '../words'
-import { alt, suffix, word } from '../zulapa'
+import { alt, prefix, word } from '../zulapa'
 
-export const nu = suffix('nu', {
+export const nu = prefix('nu', {
   noun: 'feeling',
   adj: 'feminine',
+  verb: 'to feel',
   glo: 'FEM',
+  join: '',
   see: () => [_.subj],
+})
+
+alt('unu', {
+  id: 'u-nu',
+  glo: 'INF.**feel**',
+  cla: 'verb',
+  alt: () => _.nu,
 })
 
 export const nuda = word('nuda', {
@@ -18,11 +27,4 @@ export const nuda = word('nuda', {
 export const yanu = word('yanu', {
   noun: 'crone',
   etym: () => [_.ya, _.nu],
-})
-
-alt('nutom', {
-  alt: () => _.to,
-  id: 'nu-to-m',
-  glo: 'FEM.**him**.ACC',
-  cla: 'noun',
 })

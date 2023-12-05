@@ -24,7 +24,8 @@ export function singleWord(words: string[]) {
 export const PhraseWrap = styled.div`
   position: relative;
   top: -0.2em;
-  display: inline-flex;
+  display: table;
+  ${/* inline-flex */ ''}
   color: #222;
   &:hover .Trad:not(.fix) {
     ${
@@ -37,6 +38,10 @@ export const PhraseWrap = styled.div`
     box-shadow: ${COLORS.nsfw_shadow};
     border-radius: 0.1em;
     padding: 1em;
+  }
+  &:not(.compact) {
+    margin-left: -7px;
+    margin-bottom: 1rem;
   }
   &.nsfw .Trad:not(.fix) {
     top: -3em;

@@ -30,6 +30,12 @@ export const zulapa = _.word('zulapa', {
   etym: () => [_.zu, _.lapa],
 })
 
+export const zoda = _.word('zoda', {
+  noun: 'the speakers of heart',
+  etym: () => [_.zu, _.oda],
+  desc: () => `The people who speak ${_.zulapa}.`,
+})
+
 export const zulus = _.word('zulus', {
   noun: 'vulnerability',
   adj: 'vulnerable',

@@ -1,29 +1,15 @@
-import { alt, prefix } from '../../zulapa'
+import { prefix } from '../../zulapa'
 
 export const mo = prefix('mo', {
-  noun: 'me/us',
-  glo: 'me/us',
-  cla: 'noun',
+  def: 'my/our',
+  glo: 'my/our',
+  sglo: 'my/our',
+  ncla: 'noun',
 })
 
-export const mosho = prefix('mosho', {
-  noun: 'us (PL)',
-  glo: '**our**',
-  sglo: 'POSS.**us**',
-  scla: 'noun',
-})
-
-alt('mom', {
-  alt: () => mo,
-  id: 'mo-m',
-  noun: 'me/us',
-  glo: '**me/us**.ACC',
-})
-
-export const nimo = alt('nimo', {
-  alt: () => mo,
-  id: 'ni-mo',
-  noun: 'me/us',
-  glo: 'DAT.**me/us**',
-  cla: 'noun',
+export const msho = prefix('msho', {
+  def: 'our',
+  glo: 'our',
+  sglo: 'our',
+  ncla: 'noun',
 })

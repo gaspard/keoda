@@ -1,10 +1,11 @@
 import * as _ from '../words'
-import { suffix, word } from '../zulapa'
+import { prefix, word } from '../zulapa'
 
-export const wi = suffix('wi', {
+export const wi = prefix('wi', {
   noun: 'creativity',
   adj: 'enby',
   glo: 'NB',
+  join: '',
   see: () => [_.dwi, _.nu, _.to],
 })
 

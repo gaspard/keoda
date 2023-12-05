@@ -30,10 +30,6 @@ export function makePrefix<T extends Object>(
     if (!pdef.pref) {
       pdef.pref = pdef.glo
     }
-    if (pdef.cla) {
-      // force next class
-      pdef.ncla = pdef.cla
-    }
     // const ent = entry(type, pref, Object.assign({}, prev, asEntry))
     const prev = entry(name, pdef, type)
 
@@ -59,11 +55,17 @@ export function makePrefix<T extends Object>(
           throw new Error(`Cannot find '${String(key)}' for ${name}`)
         }
         const nextName = joinMorphemes(prev, next, pdef.join, true)
+        const cla = getCla(prev.definition, next.definition, true)
         const def = {
           id,
-          glo: getGlo(prev.definition, next.definition, true),
+          glo: getGlo(prev.definition, next.definition, true, cla),
           alt: next.definition.alt || (() => next),
-          cla: getCla(prev.definition, next.definition, true),
+          cla,
+          // propagate ncla with next first and if we have nothing from previous to support 'o', 'i', etc prefix
+          // For example (o has ncla = verb)
+          // nuo.. (next => o => ncla => verb)
+          // onu.. (next => ø, prev => o => ncla => verb)
+          ncla: next.definition.ncla || prev.definition.ncla,
           prev: () => prev,
         }
         return next[IsPrefix]

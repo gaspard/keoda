@@ -5,7 +5,7 @@ export const al = _.word('al', {
   verb: 'to rise',
   adj: 'up',
   pref: 'up',
-  see: () => [_.tso],
+  see: () => [_.so],
 })
 
 export const alyuru = _.word('alyuru', {

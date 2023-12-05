@@ -1,14 +1,15 @@
 import { prefix } from '../../zulapa'
 
 export const ti = prefix('ti', {
-  noun: 'you',
-  glo: 'you',
-  cla: 'noun',
+  noun: 'your',
+  glo: 'your',
+  sglo: 'your',
+  ncla: 'noun',
 })
 
-export const tishi = prefix('tishi', {
-  noun: 'you (PL)',
-  glo: '**your**',
-  sglo: 'POSS.**you**',
-  scla: 'noun',
+export const tshi = prefix('tshi', {
+  noun: 'your (PL)',
+  glo: 'your (PL)',
+  sglo: 'your (PL)',
+  ncla: 'noun',
 })

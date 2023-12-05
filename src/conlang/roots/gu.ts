@@ -62,7 +62,7 @@ export const guna = _.word('guna', {
 
 export const gui = _.word('gui', {
   noun: 'life',
-  verb: 'to birth',
+  verb: 'to give birth',
   see: () => [_.yuxim, _.nem],
   etym: () => [_.gu, _.i$],
 })

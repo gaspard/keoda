@@ -13,7 +13,6 @@ export const goweis = _.word('goweis', {
 
 export const neweis = _.word('neweis', {
   adj: 'full',
+  verb: 'to satisfy',
   etym: () => [_.ne, _.weis],
 })
-
-// === alt

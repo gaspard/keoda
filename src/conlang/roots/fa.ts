@@ -31,4 +31,9 @@ export const falo = _.word('falo', {
 ${_.phrase("Don't be sad.", _.ne.falo)}`,
 })
 
+export const fan = _.word('fan', {
+  noun: 'light',
+  etym: () => [_.fa, _.na],
+})
+
 // === alt

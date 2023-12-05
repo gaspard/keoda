@@ -342,11 +342,11 @@ I also decided to replace the possessive \`to\` with ${
 ### Huge gender rewrite *(November 2023)*
 
 Ok, this one changed a *lot* of words and meanings but I think it finally makes
-sense in a beautiful way.  Basically, the idea was to create a new optional
-suffix to "color" nouns (and conjugations) with gender. This allows us to
-differentiate between "hand" and "boy-hand" or "enby-hand" or "girl-hand" and same
-with any verb, we can specify if the doer is masculine, feminine, non-binary or
-unspecified:
+sense in a beautiful way. The idea is to create a new optional suffix to "color"
+possesives, nouns (and conjugations) with gender. This allows us to
+differentiate between "hand" and "boy-hand" or "enby-hand" or "girl-hand" and
+same with any verb, we can specify if the doer is masculine, feminine,
+non-binary or unspecified:
 
 * ${_.phrase('I love you.', _.o.zu, _.ti.m)}
 * ${_.phrase('I-boy love you-girl.', _.o.to.zu, _.ti.nu.m)}

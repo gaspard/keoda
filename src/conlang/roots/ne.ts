@@ -20,3 +20,8 @@ export const nelo = _.word('nelo', {
   etym: () => [_.ne, _.loV],
   see: () => [_.gupi],
 })
+
+export const nedir = _.word('nedir', {
+  verb: 'to appease',
+  etym: () => [_.ne, _.ir],
+})

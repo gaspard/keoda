@@ -242,8 +242,8 @@ ${_.phrase(
   )}
 * ${_.phrase(/* 'We are growing' */ 'We are being grown', _.es.sho.lu.xim)}
 * ${_.phrase('Into fear and hatred', _.peu.m, _.shu, _.nepi.m)}
-* ${_.phrase('Our hearts are closing', _.au.mosho, _.sha.lu.dak)}
-* ${_.phrase('Our minds are foggy.', _.ga.mosho, _.sha.nashapa)}
+* ${_.phrase('Our hearts are closing', _.au.msho, _.sha.lu.dak)}
+* ${_.phrase('Our minds are foggy.', _.ga.msho, _.sha.nashapa)}
 
 * ${_.phrase('You don’t have a future here.', _.i.sauthe, _.ir.m, _.sen)}
 

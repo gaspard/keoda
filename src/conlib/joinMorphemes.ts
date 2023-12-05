@@ -59,13 +59,15 @@ export function joinMorphemes(
   } else if (!pvowel && !nvowel) {
     // two consonants or two semivowels
     if (
+      join === '_' || // force join
       (ENDS_l.test(prevName) && STARTS_r.test(nextName)) ||
       (ENDS_k.test(prevName) && STARTS_q.test(nextName)) ||
       (ENDS_t.test(prevName) && STARTS_th.test(nextName)) ||
-      (ENDS_x.test(prevName) && STARTS_pbkg.test(nextName))
+      (ENDS_x.test(prevName) && STARTS_pbkg.test(nextName)) ||
+      prevName.slice(-1) === nextName.slice(0, 1)
     ) {
       // yes
-      fix = join !== undefined ? join : last[1].toLowerCase()
+      fix = join !== undefined && join !== '_' ? join : last[1].toLowerCase()
     }
   }
   return prevName + fix + nextName.replace('*', last[1].toLowerCase())

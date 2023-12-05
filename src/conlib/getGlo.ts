@@ -4,7 +4,8 @@ import { EntryDefinition } from './types'
 export function getGlo(
   prev: EntryDefinition,
   next: EntryDefinition,
-  prefix: boolean
+  prefix: boolean,
+  base = getCla(prev, next, prefix)
 ): string {
   let glo = prev.glo || prev[prev.cla!]!
   if (prev.op === 'capitalize' || glo === '') {
@@ -35,7 +36,6 @@ export function getGlo(
     return glo + '.' + next.sglo
   } else if (!next.forcedGlo) {
     // Try to follow class
-    const base = getCla(prev, next, false)
     let cla = base
     if (!prefix) {
       if (cla === 'noun' && next['adj']) {

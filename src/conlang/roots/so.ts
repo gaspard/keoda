@@ -1,6 +1,6 @@
 import * as _ from '../lang'
 
-export const tso = _.word('tso', {
+export const so = _.word('so', {
   noun: 'soil',
   suff: 'down',
   see: () => [_.al],

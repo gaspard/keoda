@@ -8,6 +8,7 @@ export const sona = _.word('sona', {
 [Mother goddess](https://en.wikipedia.org/wiki/Mother_goddess)
   `,
   see: () => [_.gods],
+  etym: () => [_.so, _.na],
 })
 
 export const xusona = _.word('xusona', {
